@@ -30,10 +30,14 @@ Thumbs.db
 *.npy
 *.npz
 
-# High-accuracy photon trajectory CSVs (~400 MB each) are excluded
-# from version control because they exceed GitHub's 100 MB per-file
-# limit. The minimum_production trajectories are kept.
+# Photon trajectory CSVs are excluded from version control because
+# they exceed GitHub's recommended 50 MB per-file size:
+#   * high_accuracy trajectories: ~400 MB each
+#   * minimum_production trajectories: ~80 MB each
+# They can be regenerated from the parent labs (see
+# weak_lensing_science001.py and the README).
 runs/**/high_accuracy/trajectories/photon_trajectories_*.csv
+runs/**/minimum_production/trajectories/photon_trajectories_*.csv
 
 # Plots are kept under version control (they are part of the audit trail).
 
