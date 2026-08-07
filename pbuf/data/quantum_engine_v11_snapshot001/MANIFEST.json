@@ -2,6 +2,7 @@
   "snapshot_id": "quantum_engine_v11_snapshot001",
   "purpose": "Frozen Quantum Engine output snapshot for no-fit PBUF amplitude closure audit.",
   "source_role": "microphysics_snapshot_not_observational_fit_input",
+  "archive_revision": "v3_rebuilt_from_original_thermal_table_after_PR40_transport_corruption",
   "files": {
     "config.json": {
       "storage": "direct",
@@ -29,11 +30,15 @@
     },
     "thermal_table_cache.json": {
       "storage": "gzip_then_base64_split",
-      "part_prefix": "thermal_table_cache.json.gz.b64",
-      "expected_parts": 14,
+      "part_prefix": "thermal_table_cache.json.gz.b64.v3",
+      "expected_parts": 11,
       "size_bytes": 444514,
       "sha256": "1de56b28474ba453eb9d1b3b12cf9e2b588cc0acb0d8a4193199fabdcdd6e2bd",
-      "science_role": "Quantum Engine thermal lookup table"
+      "science_role": "Quantum Engine thermal lookup table",
+      "archive_encoding": "gzip_level9_mtime0_then_standard_base64",
+      "archive_base64_chars": 106600,
+      "archive_gzip_bytes": 79950,
+      "archive_gzip_sha256": "519692f8f6264709236529defc4bda3a0eb5fee4a80e1232a4f8e219ffdfbc28"
     }
   },
   "figure": {
