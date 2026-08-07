@@ -1,0 +1,11 @@
+metric,previous_value,requalified_value,absolute_change,relative_change,reason_expected
+endpoint_energy,0.0004364,0.00043644932649676804,4.932649676805652e-08,0.00011303046922102778,interface/rasterisation correction changed pair counts
+interface_energy,0.0002952,0.0002952307503734091,3.0750373409063614e-08,0.00010416793160251901,interface/rasterisation correction changed pair counts
+central_rx_rms,1.505e-05,1.5045892953996784e-05,-4.107046003216217e-09,-0.0002728934221406124,depends on endpoint_energy and central slice statistics
+los_rx_rms,3.812e-05,3.812068544823435e-05,6.854482343524103e-10,1.7981328288363334e-05,depends on LOS projection of endpoint field
+f_irr_partition,0.365207804627653,0.365207804627653,0.0,0.0,Helmholtz spacing/padding correction changed fractions
+f_sol_partition,0.6347921953723471,0.634792195372347,-1.1102230246251565e-16,-1.7489550639070763e-16,Helmholtz spacing/padding correction changed fractions
+field_reconstruction_error,,2.0058641175033196e-17,,,should remain ~0
+energy_closure_error,,0.00024575390912704527,,,should remain ~0
+orthogonality_error,,0.00012287695456352968,,,should remain ~0
+kappa_variance,,3.115033065743127e-09,,,downstream of kappa which is a derived observable
