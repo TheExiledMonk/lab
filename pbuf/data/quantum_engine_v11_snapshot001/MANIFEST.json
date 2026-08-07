@@ -1,0 +1,54 @@
+{
+  "snapshot_id": "quantum_engine_v11_snapshot001",
+  "purpose": "Frozen Quantum Engine output snapshot for no-fit PBUF amplitude closure audit.",
+  "source_role": "microphysics_snapshot_not_observational_fit_input",
+  "files": {
+    "config.json": {
+      "storage": "direct",
+      "size_bytes": 270,
+      "sha256": "d158f3418da473e46df0ec54a793a2d1ef0ad8c43d463b962fa3e2aeaa3ea8a4",
+      "science_role": "Quantum Engine run configuration"
+    },
+    "defaults.yaml": {
+      "storage": "direct",
+      "size_bytes": 927,
+      "sha256": "ac9659cd69e19843fa657bc62b3be14a86a2443c94a41fb8d90ffa01bf3200b7",
+      "science_role": "Quantum Engine defaults snapshot"
+    },
+    "micro_cache.json": {
+      "storage": "direct",
+      "size_bytes": 3693,
+      "sha256": "d8fd1f4eaf608b9ac6171cd633cba9b954d0cc544d73e124cfe238f6ab01c7d4",
+      "science_role": "Quantum Engine microphysical output"
+    },
+    "optimisation_result.json": {
+      "storage": "direct",
+      "size_bytes": 1486,
+      "sha256": "fdc8a630aa10a16e8e5ed3cba71c9f8ac3ae9c372b005ff3839fdcba8210cd09",
+      "science_role": "historical_failed_optimization_quarantine_only"
+    },
+    "thermal_table_cache.json": {
+      "storage": "gzip_then_base64_split",
+      "part_prefix": "thermal_table_cache.json.gz.b64",
+      "expected_parts": 14,
+      "size_bytes": 444514,
+      "sha256": "1de56b28474ba453eb9d1b3b12cf9e2b588cc0acb0d8a4193199fabdcdd6e2bd",
+      "science_role": "Quantum Engine thermal lookup table"
+    }
+  },
+  "figure": {
+    "name": "thermal_elasticity_summary.png",
+    "sha256_original": "0bd2a093f821a28a61624d5252ee5c784b588109aece082e25fca3421f26b629",
+    "size_bytes_original": 96971,
+    "computational_input": false,
+    "note": "Diagnostic figure supplied with the snapshot. The computational audit uses the losslessly archived thermal table from which the plotted curves are reproducible."
+  },
+  "guardrails": {
+    "no_kappa_or_shear": true,
+    "no_HST_morphology": true,
+    "no_cluster_lensing": true,
+    "no_fitted_replacement_strength": true,
+    "legacy_strength_0p18_not_used": true,
+    "historical_optimization_not_physics_input": true
+  }
+}
