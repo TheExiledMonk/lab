@@ -1,0 +1,27 @@
+{
+  "repository": "TheExiledMonk/lab",
+  "branch": "main",
+  "head_sha": "d0c7763cea3b3ec568d79459431656b5378ca2b3",
+  "working_tree_clean": true,
+  "tracked_changes": "",
+  "staged_changes": "",
+  "required_prs_present": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "pr_merge_shas": {
+    "#7": "d0c7763cea3b3ec568d79459431656b5378ca2b3",
+    "#6": "2ab8f4a2cf151b33d419fc03f4eb443b9dec245d",
+    "#5": "d5fbedfd825b7df64ceeefb5a1f29db1a47c9b37",
+    "#4": "a18113e038d45a7228c5809c65bdc9b1c59e322f",
+    "#3": "c3be6407fb3cb6c302eafa3eb28f25d005fb039e",
+    "#2": "711185a4ab09e14fc01e993ae9e86a9f20b6f81f",
+    "#1": "aa6ddd21d0d392d0d7a7ce662123cae444ee0bd3"
+  },
+  "missing_prs": [],
+  "git_status": "?? pbuf/labs/foundation/second_review_requalification001.py\n?? runs/verified_numerical_core_second_review_requalification001/"
+}

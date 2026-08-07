@@ -1,0 +1,38 @@
+{
+  "lab_id": "PBUF-SECOND-REVIEW-REQUALIFICATION-001",
+  "conventions_version": "1.1.0-correction001",
+  "repository_state": {
+    "branch": "main",
+    "head_sha": "d0c7763cea3b3ec568d79459431656b5378ca2b3",
+    "working_tree_clean": true,
+    "required_prs_present": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "modules_total": 16,
+  "modules_passed": 16,
+  "modules_frozen": 16,
+  "M03_independent_pass": true,
+  "M08_PS_contract_pass": true,
+  "M09_endpoint_closure_pass": true,
+  "M10_interface_rasterisation_pass": true,
+  "M11_diagnostics_pass": true,
+  "M13_helmholtz_pass": true,
+  "M14_los_pass": true,
+  "M15_ray_interface_pass": true,
+  "M16_observable_pass": true,
+  "R1_synthetic_integration_pass": true,
+  "R2_macs0416_pass": true,
+  "R3_covariance_pass": true,
+  "zero_field_control_pass": true,
+  "state_retention_pass": true,
+  "protected_function_violations": 0,
+  "all_modules_frozen": true,
+  "second_review_status": "accepted",
+  "full_candidate_rerun_allowed": true
+}

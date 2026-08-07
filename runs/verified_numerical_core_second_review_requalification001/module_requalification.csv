@@ -1,0 +1,17 @@
+module_id,module_name,test_count,passed,failed,independent_validation_type,wrong_control_present,wrong_control_passed,max_error,tolerance,status
+M01,conventions,20,20,0,static_closed_form_mapping_table,True,True,0.0,1e-14,PASS
+M02,coordinate_transforms,36,36,0,closed_form_vector_label_test,True,True,0.0,1e-14,PASS
+M03,vector_transforms,42,42,0,closed_form_component_table,True,True,0.0,1e-14,PASS
+M04,tensor_transforms,42,42,0,explicit_per_voxel_matrix_loop,False,True,0.0,1e-14,PASS
+M05,pair_enumeration,36,36,0,set_based_reference_enumerator,False,True,0.0,0.0,PASS
+M06,a8_pair_amplitude,2,2,0,explicit_pair_loop_reference,False,True,0.0,1e-14,PASS
+M07,transverse_projector,2,2,0,idempotence_and_null_space,False,True,0.0,1e-13,PASS
+M08,pair_transfer,7,7,0,,False,True,0.0,0.0,PASS
+M09,pair_transfer,2,2,0,,False,True,0.0,0.0,PASS
+M10,midpoint_rasterization,0,0,0,,False,True,0.0,0.0,PASS
+M11,field_diagnostics,6,6,0,,False,True,0.0,0.0,PASS
+M12,differential_operators,9,9,0,explicit_finite_difference_loop,True,True,4.440892098500626e-16,1e-12,PASS
+M13,helmholtz_3d,7,7,0,,False,True,0.0,0.0,PASS
+M14,los_projection,3,3,0,,False,True,0.0,0.0,PASS
+M15,ray_interface,6,6,0,,False,True,0.0,0.0,PASS
+M16,observable_extraction,10,10,0,,False,True,0.0,0.0,PASS

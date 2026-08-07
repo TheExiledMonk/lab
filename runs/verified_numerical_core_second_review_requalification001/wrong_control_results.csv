@@ -1,0 +1,10 @@
+module_id,test,passes,transform,WR_C1_scalar_only_E_cov,WR_C2_correct_E_cov,fixtures_failed,n_fixtures
+M02,M02-W1-legacy-rc5,True,,,,,
+M03,scalar_only_inverse_wrong_control,True,RC0,0.0,0.0,,
+M03,scalar_only_inverse_wrong_control,True,RC1,1.6074113517072508,0.0,,
+M03,scalar_only_inverse_wrong_control,True,RC2,1.0968892252054188,0.0,,
+M03,scalar_only_inverse_wrong_control,True,RC3,0.965577820575696,0.0,,
+M03,scalar_only_inverse_wrong_control,True,RC4,0.9756183706432165,0.0,,
+M03,scalar_only_inverse_wrong_control,True,RC5,1.0959311152368834,0.0,,
+M03,scalar_only_inverse_wrong_control,True,RC6,1.3590819642387713,0.0,,
+M12,M12-WC3-wrong-curl-reference,True,,,,3,3

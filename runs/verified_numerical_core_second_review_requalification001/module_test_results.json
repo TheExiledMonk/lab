@@ -1,0 +1,2316 @@
+{
+  "M01": {
+    "module_id": "M01",
+    "test_rows": [
+      {
+        "module": "M01",
+        "check": "orthogonal_RC0",
+        "max_err": 0.0,
+        "det": 1.0,
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "orthogonal_RC1",
+        "max_err": 0.0,
+        "det": -1.0,
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "orthogonal_RC2",
+        "max_err": 0.0,
+        "det": -1.0,
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "orthogonal_RC3",
+        "max_err": 0.0,
+        "det": -1.0,
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "orthogonal_RC4",
+        "max_err": 0.0,
+        "det": 1.0,
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "orthogonal_RC5",
+        "max_err": 0.0,
+        "det": 1.0,
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "orthogonal_RC6",
+        "max_err": 0.0,
+        "det": 1.0,
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "antiparallel_xp_xm",
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "antiparallel_yp_ym",
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "antiparallel_zp_zm",
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "purpose_specific_tolerances",
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "EPS_HASH_removed",
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "closed_form_RC0",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "flips": [],
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "closed_form_RC1",
+        "perm": [
+          0,
+          2,
+          1
+        ],
+        "flips": [],
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "closed_form_RC2",
+        "perm": [
+          2,
+          1,
+          0
+        ],
+        "flips": [],
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "closed_form_RC3",
+        "perm": [
+          1,
+          0,
+          2
+        ],
+        "flips": [],
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "closed_form_RC4",
+        "perm": [
+          1,
+          0,
+          2
+        ],
+        "flips": [
+          1
+        ],
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "closed_form_RC5",
+        "perm": [
+          2,
+          1,
+          0
+        ],
+        "flips": [
+          0
+        ],
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "closed_form_RC6",
+        "perm": [
+          0,
+          2,
+          1
+        ],
+        "flips": [
+          2
+        ],
+        "passes": true
+      },
+      {
+        "module": "M01",
+        "check": "conventions_version_pinned",
+        "passes": true
+      }
+    ],
+    "wrong_rows": [],
+    "test_count": 20,
+    "passed": 20,
+    "failed": 0,
+    "max_error": 0.0,
+    "tolerance": 1e-14,
+    "independent_validation_type": "static_closed_form_mapping_table",
+    "wrong_control_present": true,
+    "wrong_control_passed": true,
+    "status": "PASS"
+  },
+  "M02": {
+    "module_id": "M02",
+    "test_rows": [
+      {
+        "transform": "RC0",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          3,
+          4,
+          5
+        ],
+        "max_roundtrip_error": 0.0,
+        "tolerance": 0.0,
+        "passes": true
+      },
+      {
+        "transform": "RC1",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          3,
+          5,
+          4
+        ],
+        "max_roundtrip_error": 0.0,
+        "tolerance": 0.0,
+        "passes": true
+      },
+      {
+        "transform": "RC2",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          5,
+          4,
+          3
+        ],
+        "max_roundtrip_error": 0.0,
+        "tolerance": 0.0,
+        "passes": true
+      },
+      {
+        "transform": "RC3",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          4,
+          3,
+          5
+        ],
+        "max_roundtrip_error": 0.0,
+        "tolerance": 0.0,
+        "passes": true
+      },
+      {
+        "transform": "RC4",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          4,
+          3,
+          5
+        ],
+        "max_roundtrip_error": 0.0,
+        "tolerance": 0.0,
+        "passes": true
+      },
+      {
+        "transform": "RC5",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          5,
+          4,
+          3
+        ],
+        "max_roundtrip_error": 0.0,
+        "tolerance": 0.0,
+        "passes": true
+      },
+      {
+        "transform": "RC6",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          3,
+          5,
+          4
+        ],
+        "max_roundtrip_error": 0.0,
+        "tolerance": 0.0,
+        "passes": true
+      },
+      {
+        "transform": "RC0",
+        "Q_dot_Q_T_max_err": 0.0,
+        "det_Q": 1.0,
+        "passes": true,
+        "tolerance": 1e-15
+      },
+      {
+        "transform": "RC1",
+        "Q_dot_Q_T_max_err": 0.0,
+        "det_Q": -1.0,
+        "passes": true,
+        "tolerance": 1e-15
+      },
+      {
+        "transform": "RC2",
+        "Q_dot_Q_T_max_err": 0.0,
+        "det_Q": -1.0,
+        "passes": true,
+        "tolerance": 1e-15
+      },
+      {
+        "transform": "RC3",
+        "Q_dot_Q_T_max_err": 0.0,
+        "det_Q": -1.0,
+        "passes": true,
+        "tolerance": 1e-15
+      },
+      {
+        "transform": "RC4",
+        "Q_dot_Q_T_max_err": 0.0,
+        "det_Q": 1.0,
+        "passes": true,
+        "tolerance": 1e-15
+      },
+      {
+        "transform": "RC5",
+        "Q_dot_Q_T_max_err": 0.0,
+        "det_Q": 1.0,
+        "passes": true,
+        "tolerance": 1e-15
+      },
+      {
+        "transform": "RC6",
+        "Q_dot_Q_T_max_err": 0.0,
+        "det_Q": 1.0,
+        "passes": true,
+        "tolerance": 1e-15
+      },
+      {
+        "transform": "RC0",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          3,
+          4,
+          5
+        ],
+        "roundtrip_shape": [
+          3,
+          4,
+          5
+        ],
+        "passes": true
+      },
+      {
+        "transform": "RC1",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          3,
+          5,
+          4
+        ],
+        "roundtrip_shape": [
+          3,
+          4,
+          5
+        ],
+        "passes": true
+      },
+      {
+        "transform": "RC2",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          5,
+          4,
+          3
+        ],
+        "roundtrip_shape": [
+          3,
+          4,
+          5
+        ],
+        "passes": true
+      },
+      {
+        "transform": "RC3",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          4,
+          3,
+          5
+        ],
+        "roundtrip_shape": [
+          3,
+          4,
+          5
+        ],
+        "passes": true
+      },
+      {
+        "transform": "RC4",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          4,
+          3,
+          5
+        ],
+        "roundtrip_shape": [
+          3,
+          4,
+          5
+        ],
+        "passes": true
+      },
+      {
+        "transform": "RC5",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          5,
+          4,
+          3
+        ],
+        "roundtrip_shape": [
+          3,
+          4,
+          5
+        ],
+        "passes": true
+      },
+      {
+        "transform": "RC6",
+        "input_shape": [
+          3,
+          4,
+          5
+        ],
+        "output_shape": [
+          3,
+          5,
+          4
+        ],
+        "roundtrip_shape": [
+          3,
+          4,
+          5
+        ],
+        "passes": true
+      },
+      {
+        "transform": "RC0",
+        "expected_perm": [
+          0,
+          1,
+          2
+        ],
+        "expected_flips": [],
+        "production_perm": [
+          0,
+          1,
+          2
+        ],
+        "production_flips": [],
+        "passes": true
+      },
+      {
+        "transform": "RC1",
+        "expected_perm": [
+          0,
+          2,
+          1
+        ],
+        "expected_flips": [],
+        "production_perm": [
+          0,
+          2,
+          1
+        ],
+        "production_flips": [],
+        "passes": true
+      },
+      {
+        "transform": "RC2",
+        "expected_perm": [
+          2,
+          1,
+          0
+        ],
+        "expected_flips": [],
+        "production_perm": [
+          2,
+          1,
+          0
+        ],
+        "production_flips": [],
+        "passes": true
+      },
+      {
+        "transform": "RC3",
+        "expected_perm": [
+          1,
+          0,
+          2
+        ],
+        "expected_flips": [],
+        "production_perm": [
+          1,
+          0,
+          2
+        ],
+        "production_flips": [],
+        "passes": true
+      },
+      {
+        "transform": "RC4",
+        "expected_perm": [
+          1,
+          0,
+          2
+        ],
+        "expected_flips": [
+          1
+        ],
+        "production_perm": [
+          1,
+          0,
+          2
+        ],
+        "production_flips": [
+          1
+        ],
+        "passes": true
+      },
+      {
+        "transform": "RC5",
+        "expected_perm": [
+          2,
+          1,
+          0
+        ],
+        "expected_flips": [
+          0
+        ],
+        "production_perm": [
+          2,
+          1,
+          0
+        ],
+        "production_flips": [
+          0
+        ],
+        "passes": true
+      },
+      {
+        "transform": "RC6",
+        "expected_perm": [
+          0,
+          2,
+          1
+        ],
+        "expected_flips": [
+          2
+        ],
+        "production_perm": [
+          0,
+          2,
+          1
+        ],
+        "production_flips": [
+          2
+        ],
+        "passes": true
+      },
+      {
+        "transform": "RC0",
+        "max_roundtrip_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "transform": "RC1",
+        "max_roundtrip_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "transform": "RC2",
+        "max_roundtrip_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "transform": "RC3",
+        "max_roundtrip_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "transform": "RC4",
+        "max_roundtrip_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "transform": "RC5",
+        "max_roundtrip_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "transform": "RC6",
+        "max_roundtrip_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      }
+    ],
+    "wrong_rows": [
+      {
+        "test": "M02-W1-legacy-rc5",
+        "passes": true
+      }
+    ],
+    "test_count": 36,
+    "passed": 36,
+    "failed": 0,
+    "max_error": 0.0,
+    "tolerance": 1e-14,
+    "independent_validation_type": "closed_form_vector_label_test",
+    "wrong_control_present": true,
+    "wrong_control_passed": true,
+    "status": "PASS"
+  },
+  "M03": {
+    "module_id": "M03",
+    "test_rows": [
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC0",
+        "field": "V1_ex_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC1",
+        "field": "V1_ex_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC2",
+        "field": "V1_ex_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC3",
+        "field": "V1_ex_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC4",
+        "field": "V1_ex_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC5",
+        "field": "V1_ex_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC6",
+        "field": "V1_ex_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC0",
+        "field": "V2_ey_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC1",
+        "field": "V2_ey_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC2",
+        "field": "V2_ey_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC3",
+        "field": "V2_ey_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC4",
+        "field": "V2_ey_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC5",
+        "field": "V2_ey_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC6",
+        "field": "V2_ey_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC0",
+        "field": "V3_ez_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC1",
+        "field": "V3_ez_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC2",
+        "field": "V3_ez_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC3",
+        "field": "V3_ez_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC4",
+        "field": "V3_ez_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC5",
+        "field": "V3_ez_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC6",
+        "field": "V3_ez_unit",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC0",
+        "field": "V4_varying",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC1",
+        "field": "V4_varying",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC2",
+        "field": "V4_varying",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC3",
+        "field": "V4_varying",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC4",
+        "field": "V4_varying",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC5",
+        "field": "V4_varying",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "closed_form_component_mapping",
+        "transform": "RC6",
+        "field": "V4_varying",
+        "max_forward_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "max_closed_form_inverse_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "static_symbolic_component_mapping",
+        "transform": "RC0",
+        "max_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "static_symbolic_component_mapping",
+        "transform": "RC1",
+        "max_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "static_symbolic_component_mapping",
+        "transform": "RC2",
+        "max_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "static_symbolic_component_mapping",
+        "transform": "RC3",
+        "max_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "static_symbolic_component_mapping",
+        "transform": "RC4",
+        "max_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "static_symbolic_component_mapping",
+        "transform": "RC5",
+        "max_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "static_symbolic_component_mapping",
+        "transform": "RC6",
+        "max_error": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      }
+    ],
+    "wrong_rows": [
+      {
+        "test": "scalar_only_inverse_wrong_control",
+        "transform": "RC0",
+        "WR_C1_scalar_only_E_cov": 0.0,
+        "WR_C2_correct_E_cov": 0.0,
+        "passes": true
+      },
+      {
+        "test": "scalar_only_inverse_wrong_control",
+        "transform": "RC1",
+        "WR_C1_scalar_only_E_cov": 1.6074113517072508,
+        "WR_C2_correct_E_cov": 0.0,
+        "passes": true
+      },
+      {
+        "test": "scalar_only_inverse_wrong_control",
+        "transform": "RC2",
+        "WR_C1_scalar_only_E_cov": 1.0968892252054188,
+        "WR_C2_correct_E_cov": 0.0,
+        "passes": true
+      },
+      {
+        "test": "scalar_only_inverse_wrong_control",
+        "transform": "RC3",
+        "WR_C1_scalar_only_E_cov": 0.965577820575696,
+        "WR_C2_correct_E_cov": 0.0,
+        "passes": true
+      },
+      {
+        "test": "scalar_only_inverse_wrong_control",
+        "transform": "RC4",
+        "WR_C1_scalar_only_E_cov": 0.9756183706432165,
+        "WR_C2_correct_E_cov": 0.0,
+        "passes": true
+      },
+      {
+        "test": "scalar_only_inverse_wrong_control",
+        "transform": "RC5",
+        "WR_C1_scalar_only_E_cov": 1.0959311152368834,
+        "WR_C2_correct_E_cov": 0.0,
+        "passes": true
+      },
+      {
+        "test": "scalar_only_inverse_wrong_control",
+        "transform": "RC6",
+        "WR_C1_scalar_only_E_cov": 1.3590819642387713,
+        "WR_C2_correct_E_cov": 0.0,
+        "passes": true
+      }
+    ],
+    "test_count": 42,
+    "passed": 42,
+    "failed": 0,
+    "max_error": 0.0,
+    "tolerance": 1e-14,
+    "independent_validation_type": "closed_form_component_table",
+    "wrong_control_present": true,
+    "wrong_control_passed": true,
+    "status": "PASS"
+  },
+  "M04": {
+    "module_id": "M04",
+    "test_rows": [
+      {
+        "test": "tensor_roundtrip",
+        "case": "identity",
+        "transform": "RC0",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "identity",
+        "transform": "RC1",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "identity",
+        "transform": "RC2",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "identity",
+        "transform": "RC3",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "identity",
+        "transform": "RC4",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "identity",
+        "transform": "RC5",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "identity",
+        "transform": "RC6",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "diag_aniso",
+        "transform": "RC0",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "diag_aniso",
+        "transform": "RC1",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "diag_aniso",
+        "transform": "RC2",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "diag_aniso",
+        "transform": "RC3",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "diag_aniso",
+        "transform": "RC4",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "diag_aniso",
+        "transform": "RC5",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "diag_aniso",
+        "transform": "RC6",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "varying",
+        "transform": "RC0",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "varying",
+        "transform": "RC1",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "varying",
+        "transform": "RC2",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "varying",
+        "transform": "RC3",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "varying",
+        "transform": "RC4",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "varying",
+        "transform": "RC5",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "varying",
+        "transform": "RC6",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "transverse_projector",
+        "transform": "RC0",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "transverse_projector",
+        "transform": "RC1",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "transverse_projector",
+        "transform": "RC2",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "transverse_projector",
+        "transform": "RC3",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "transverse_projector",
+        "transform": "RC4",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "transverse_projector",
+        "transform": "RC5",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "transverse_projector",
+        "transform": "RC6",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "rank_one",
+        "transform": "RC0",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "rank_one",
+        "transform": "RC1",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "rank_one",
+        "transform": "RC2",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "rank_one",
+        "transform": "RC3",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": false,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "rank_one",
+        "transform": "RC4",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "rank_one",
+        "transform": "RC5",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "tensor_roundtrip",
+        "case": "rank_one",
+        "transform": "RC6",
+        "max_reference_diff": 0.0,
+        "max_roundtrip_error": 0.0,
+        "tolerance": 1e-14,
+        "is_rotation": true,
+        "passes": true
+      },
+      {
+        "test": "projector_identity",
+        "transform": "RC0",
+        "max_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "projector_identity",
+        "transform": "RC1",
+        "max_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "projector_identity",
+        "transform": "RC2",
+        "max_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "projector_identity",
+        "transform": "RC3",
+        "max_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "projector_identity",
+        "transform": "RC4",
+        "max_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "projector_identity",
+        "transform": "RC5",
+        "max_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "test": "projector_identity",
+        "transform": "RC6",
+        "max_err": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      }
+    ],
+    "wrong_rows": [],
+    "test_count": 42,
+    "passed": 42,
+    "failed": 0,
+    "max_error": 0.0,
+    "tolerance": 1e-14,
+    "independent_validation_type": "explicit_per_voxel_matrix_loop",
+    "wrong_control_present": false,
+    "wrong_control_passed": true,
+    "status": "PASS"
+  },
+  "M05": {
+    "module_id": "M05",
+    "test_rows": [
+      {
+        "module": "M05",
+        "check": "pair_count_(3, 4, 5)",
+        "n_pairs": 133,
+        "expected": 133,
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "ref_agreement_(3, 4, 5)",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "M05-C1",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "M05-C2",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "M05-C3",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "pair_count_(4, 5, 6)",
+        "n_pairs": 286,
+        "expected": 286,
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "ref_agreement_(4, 5, 6)",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "M05-C1",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "M05-C2",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "M05-C3",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "pair_count_(5, 4, 3)",
+        "n_pairs": 133,
+        "expected": 133,
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "ref_agreement_(5, 4, 3)",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "M05-C1",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "M05-C2",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "M05-C3",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC0",
+        "input": "xp",
+        "output": "xp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC0",
+        "input": "yp",
+        "output": "yp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC0",
+        "input": "zp",
+        "output": "zp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC1",
+        "input": "xp",
+        "output": "yp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC1",
+        "input": "yp",
+        "output": "xp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC1",
+        "input": "zp",
+        "output": "zp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC2",
+        "input": "xp",
+        "output": "zp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC2",
+        "input": "yp",
+        "output": "yp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC2",
+        "input": "zp",
+        "output": "xp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC3",
+        "input": "xp",
+        "output": "xp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC3",
+        "input": "yp",
+        "output": "zp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC3",
+        "input": "zp",
+        "output": "yp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC4",
+        "input": "xp",
+        "output": "xp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC4",
+        "input": "yp",
+        "output": "zp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC4",
+        "input": "zp",
+        "output": "ym",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC5",
+        "input": "xp",
+        "output": "zm",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC5",
+        "input": "yp",
+        "output": "yp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC5",
+        "input": "zp",
+        "output": "xp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC6",
+        "input": "xp",
+        "output": "yp",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC6",
+        "input": "yp",
+        "output": "xm",
+        "passes": true
+      },
+      {
+        "module": "M05",
+        "check": "dir_transform",
+        "transform": "RC6",
+        "input": "zp",
+        "output": "zp",
+        "passes": true
+      }
+    ],
+    "wrong_rows": [],
+    "test_count": 36,
+    "passed": 36,
+    "failed": 0,
+    "max_error": 0.0,
+    "tolerance": 0.0,
+    "independent_validation_type": "set_based_reference_enumerator",
+    "wrong_control_present": false,
+    "wrong_control_passed": true,
+    "status": "PASS"
+  },
+  "M06": {
+    "module_id": "M06",
+    "test_rows": [
+      {
+        "antisymmetry_max_error": 0.0,
+        "passes": true,
+        "n_nonzero": 523
+      },
+      {
+        "max_production_vs_reference_diff": 0.0,
+        "n_nonzero_prod": 286,
+        "n_nonzero_ref": 286,
+        "passes": true
+      }
+    ],
+    "wrong_rows": [],
+    "test_count": 2,
+    "passed": 2,
+    "failed": 0,
+    "max_error": 0.0,
+    "tolerance": 1e-14,
+    "independent_validation_type": "explicit_pair_loop_reference",
+    "wrong_control_present": false,
+    "wrong_control_passed": true,
+    "status": "PASS"
+  },
+  "M07": {
+    "module_id": "M07",
+    "test_rows": [
+      {
+        "validation": {
+          "err_idempotence": 0.0,
+          "err_longitudinal": 0.0,
+          "passes_idempotence": true,
+          "passes_longitudinal": true,
+          "passes": true
+        },
+        "projection_max": 0.0,
+        "passes": true
+      },
+      {
+        "validation": {
+          "err_idempotence": 5.551115123125783e-17,
+          "err_longitudinal": 5.551115123125783e-17,
+          "passes_idempotence": true,
+          "passes_longitudinal": true,
+          "passes": true
+        },
+        "longitudinal_projection_max": 5.551115123125783e-17,
+        "perpendicular_idempotence_max": 0.0,
+        "n_valid": 210,
+        "n_zero_grad": 0,
+        "passes": true
+      }
+    ],
+    "wrong_rows": [],
+    "test_count": 2,
+    "passed": 2,
+    "failed": 0,
+    "max_error": 0.0,
+    "tolerance": 1e-13,
+    "independent_validation_type": "idempotence_and_null_space",
+    "wrong_control_present": false,
+    "wrong_control_passed": true,
+    "status": "PASS"
+  },
+  "M08": {
+    "rows": [
+      {
+        "check": "R_PS1_equals_R_PS1-B",
+        "max_diff": 0.0,
+        "tolerance": 1e-14,
+        "passes": true
+      },
+      {
+        "check": "R_PS1_differs_from_R_PS2",
+        "max_diff": 2.2050756073343627,
+        "passes": true
+      },
+      {
+        "check": "PS1-A_physics_candidate_false",
+        "value": false,
+        "passes": true
+      },
+      {
+        "check": "PS1-B_independent_candidate_false",
+        "value": false,
+        "passes": true
+      },
+      {
+        "check": "PS1_physics_candidate_true",
+        "value": true,
+        "passes": true
+      },
+      {
+        "check": "PS2_physics_candidate_true",
+        "value": true,
+        "passes": true
+      },
+      {
+        "check": "PS_EQUIVALENCE_CLASS_PS1_eq_PS1-B",
+        "value": true,
+        "passes": true
+      }
+    ],
+    "n_pass": 7,
+    "n_total": 7,
+    "ps1_eq_ps1b": true,
+    "ps1_ne_ps2": true,
+    "no_duplicate_physics": true,
+    "passes": true
+  },
+  "M09": {
+    "rows": [
+      {
+        "check": "endpoint_closure_norm",
+        "value": 2.175583928816829e-15,
+        "tolerance": 2.0507181687024354e-11,
+        "passes": true
+      },
+      {
+        "check": "endpoint_energy_positive",
+        "value": 420.54450074462693,
+        "passes": true
+      }
+    ],
+    "n_pass": 2,
+    "n_total": 2,
+    "E_endpoint": 420.54450074462693,
+    "closure_norm": 2.175583928816829e-15,
+    "passes": true
+  },
+  "M10": {
+    "audit_rows": [
+      {
+        "axis": "xp",
+        "expected": 100,
+        "actual_consumed": 100,
+        "omitted_pair_count": 0,
+        "duplicated_pair_count": 0,
+        "passes": true
+      },
+      {
+        "axis": "yp",
+        "expected": 96,
+        "actual_consumed": 96,
+        "omitted_pair_count": 0,
+        "duplicated_pair_count": 0,
+        "passes": true
+      },
+      {
+        "axis": "zp",
+        "expected": 90,
+        "actual_consumed": 90,
+        "omitted_pair_count": 0,
+        "duplicated_pair_count": 0,
+        "passes": true
+      },
+      {
+        "axis": "TOTAL",
+        "expected": 286,
+        "actual_consumed": 286,
+        "omitted_pair_count": 0,
+        "duplicated_pair_count": 0,
+        "passes": true
+      }
+    ],
+    "impulse_rows": [
+      {
+        "axis": "xp",
+        "src_index": 4,
+        "dst_index": 5,
+        "src_value": 0.5,
+        "dst_value": 0.5,
+        "elsewhere_max": 0.0,
+        "passes": true
+      },
+      {
+        "axis": "yp",
+        "src_index": 3,
+        "dst_index": 4,
+        "src_value": 0.5,
+        "dst_value": 0.5,
+        "elsewhere_max": 0.0,
+        "passes": true
+      },
+      {
+        "axis": "zp",
+        "src_index": 2,
+        "dst_index": 3,
+        "src_value": 0.5,
+        "dst_value": 0.5,
+        "elsewhere_max": 0.0,
+        "passes": true
+      }
+    ],
+    "audit_pass": true,
+    "impulse_pass": true,
+    "omitted_pair_count": 0,
+    "duplicated_pair_count": 0,
+    "passes": true
+  },
+  "M11": {
+    "rows": [
+      {
+        "check": "D1_finite_field",
+        "passes": 1.0,
+        "global_vector_sum": [
+          6.0,
+          15.0,
+          0.0
+        ],
+        "global_vector_sum_norm": 16.15549442140351
+      },
+      {
+        "check": "D2_NaN",
+        "passes": true,
+        "global_vector_sum": [
+          NaN,
+          NaN,
+          NaN
+        ],
+        "global_vector_sum_norm": NaN
+      },
+      {
+        "check": "D3_Inf",
+        "passes": true,
+        "global_vector_sum": [
+          NaN,
+          NaN,
+          NaN
+        ],
+        "global_vector_sum_norm": NaN
+      },
+      {
+        "check": "D4_zero_allow",
+        "passes": true
+      },
+      {
+        "check": "D4_NaN_still_fails",
+        "passes": true
+      },
+      {
+        "check": "D5_dual_hashes",
+        "passes": true,
+        "raw_sha256": "24f02fcaa99e7cbd9693da6c64406eec4f1e65d7f783446b85e1c1a9ce24acc5",
+        "canonical_float64_sha256": "b91c06aefb6502f30d72d9265bfb5d56414458ee1781e2210bd0774cde7c2f36"
+      }
+    ],
+    "n_pass": 6,
+    "n_total": 6,
+    "passes": true
+  },
+  "M12": {
+    "module_id": "M12",
+    "test_rows": [
+      {
+        "test": "M12-T1-gradient",
+        "agreement_err": 0.0,
+        "interior_err": 0.0,
+        "passes": 1.0
+      },
+      {
+        "test": "M12-T2-divergence",
+        "div_max": 0.0,
+        "div_interior_err": 0.0,
+        "passes": true
+      },
+      {
+        "test": "M12-T3a-curl1",
+        "err_int_Cx": 0.0,
+        "err_int_Cy": 0.0,
+        "err_int_Cz": 0.0,
+        "ref_err": 0.0,
+        "passes": true
+      },
+      {
+        "test": "M12-T3b-curl2",
+        "err_int_Cx": 0.0,
+        "err_int_Cy": 0.0,
+        "err_int_Cz": 0.0,
+        "ref_err": 0.0,
+        "passes": true
+      },
+      {
+        "test": "M12-T3c-curl3",
+        "err_int_Cx": 0.0,
+        "err_int_Cy": 0.0,
+        "err_int_Cz": 0.0,
+        "ref_err": 0.0,
+        "passes": true
+      },
+      {
+        "test": "M12-T4-prod-vs-ref-nonsymmetric",
+        "err_Cx": 0.0,
+        "err_Cy": 0.0,
+        "err_Cz": 0.0,
+        "err_Cmag": 0.0,
+        "passes": true
+      },
+      {
+        "test": "M12-T5a-curl-of-grad",
+        "interior_err": 4.440892098500626e-16,
+        "boundary_err": 8.881784197001252e-16,
+        "passes": true
+      },
+      {
+        "test": "M12-T5b-div-of-curl",
+        "interior_err": 0.0,
+        "passes": true
+      }
+    ],
+    "wrong_rows": [
+      {
+        "test": "M12-WC3-wrong-curl-reference",
+        "fixtures_failed": 3,
+        "n_fixtures": 3,
+        "passes": true
+      }
+    ],
+    "test_count": 9,
+    "passed": 9,
+    "failed": 0,
+    "max_error": 4.440892098500626e-16,
+    "tolerance": 1e-12,
+    "independent_validation_type": "explicit_finite_difference_loop",
+    "wrong_control_present": true,
+    "wrong_control_passed": true,
+    "status": "PASS"
+  },
+  "M13": {
+    "rows": [
+      {
+        "check": "metric_set_padded",
+        "field_reconstruction_error": 3.89748110420651e-17,
+        "energy_closure_error": 0.04228456843702972,
+        "orthogonality_error": 0.021142284218514853,
+        "metric_set_complete": true,
+        "passes": true
+      },
+      {
+        "check": "metric_set_cropped",
+        "field_reconstruction_error": 3.905056137048629e-17,
+        "energy_closure_error": 0.017219641674969987,
+        "orthogonality_error": 0.008609820837484981,
+        "metric_set_complete": true,
+        "passes": true
+      },
+      {
+        "check": "H1_pure_longitudinal",
+        "f_irr_partition": 1.0,
+        "f_sol_partition": 1.9206354881755766e-31,
+        "field_reconstruction_error": 0.0,
+        "passes": true
+      },
+      {
+        "check": "H2_pure_transverse",
+        "f_irr_partition": 9.125027424606928e-32,
+        "f_sol_partition": 1.0,
+        "field_reconstruction_error": 1.6714528503824166e-33,
+        "passes": true
+      },
+      {
+        "check": "H3_equal_energy_mixed",
+        "f_irr_partition": 0.5,
+        "f_sol_partition": 0.5,
+        "field_reconstruction_error": 2.3013707539344673e-17,
+        "passes": true
+      },
+      {
+        "check": "H4_reconstruction",
+        "longitudinal": 0.0,
+        "transverse": 1.6714528503824166e-33,
+        "mixed": 2.3013707539344673e-17,
+        "passes": true
+      },
+      {
+        "check": "metric_labels_distinct",
+        "pad_field_vs_energy": true,
+        "crop_field_vs_energy": true,
+        "passes": true
+      }
+    ],
+    "n_pass": 7,
+    "n_total": 7,
+    "pad": {
+      "padding": "reflect_half",
+      "spacing": [
+        0.7,
+        1.1,
+        1.3
+      ],
+      "E_native": 7423.056592348127,
+      "E_irr": 2290.166785415063,
+      "E_sol": 4819.009062441975,
+      "field_reconstruction_error": 3.89748110420651e-17,
+      "energy_closure_error": 0.04228456843702972,
+      "orthogonality_error": 0.021142284218514853,
+      "inner_product_irr_sol": 156.94037224554444,
+      "field_is_trivial": false,
+      "f_irr_partition": 0.3221423740848106,
+      "f_sol_partition": 0.6778576259151894,
+      "f_irr_native": 0.30852072282135423,
+      "f_sol_native": 0.649194708741616,
+      "reconstruction_error": 3.89748110420651e-17,
+      "reconstruction_error_pad": 3.781603939297652e-17,
+      "E_native_pad": 54534.487174145754,
+      "E_irr_pad": 17471.012979309024,
+      "E_sol_pad": 36057.77561935305,
+      "field_reconstruction_error_pad": 3.781603939297652e-17,
+      "energy_closure_error_pad": 0.01844151522452512,
+      "orthogonality_error_pad": 0.009220757612262537,
+      "inner_product_irr_sol_pad": 502.84928774183817,
+      "field_is_trivial_pad": false,
+      "f_irr_partition_pad": 0.32638536078781544,
+      "f_sol_partition_pad": 0.6736146392121846,
+      "f_irr_native_pad": 0.3203663201877848,
+      "f_sol_native_pad": 0.66119216458769
+    },
+    "none": {
+      "padding": "none",
+      "spacing": [
+        0.7,
+        1.1,
+        1.3
+      ],
+      "E_native": 7423.056592348127,
+      "E_irr": 2399.1017291164635,
+      "E_sol": 4896.132488578405,
+      "field_reconstruction_error": 3.905056137048629e-17,
+      "energy_closure_error": 0.017219641674969987,
+      "orthogonality_error": 0.008609820837484981,
+      "inner_product_irr_sol": 63.91118732662916,
+      "field_is_trivial": false,
+      "f_irr_partition": 0.328858766905297,
+      "f_sol_partition": 0.671141233094703,
+      "f_irr_native": 0.3231959367775153,
+      "f_sol_native": 0.6595844215475147,
+      "reconstruction_error": 3.905056137048629e-17,
+      "reconstruction_error_pad": 3.905056137048629e-17,
+      "E_native_pad": 7423.056592348127,
+      "E_irr_pad": 2399.1017291164635,
+      "E_sol_pad": 4896.132488578405,
+      "field_reconstruction_error_pad": 3.905056137048629e-17,
+      "energy_closure_error_pad": 0.017219641674969987,
+      "orthogonality_error_pad": 0.008609820837484981,
+      "inner_product_irr_sol_pad": 63.91118732662916,
+      "field_is_trivial_pad": false,
+      "f_irr_partition_pad": 0.328858766905297,
+      "f_sol_partition_pad": 0.671141233094703,
+      "f_irr_native_pad": 0.3231959367775153,
+      "f_sol_native_pad": 0.6595844215475147
+    },
+    "passes": true
+  },
+  "M14": {
+    "rows": [
+      {
+        "axis": "z",
+        "image_component_1_label": "x",
+        "image_component_2_label": "y",
+        "expected_c1": "x",
+        "expected_c2": "y",
+        "comp_1_matches_full": true,
+        "comp_2_matches_full": true,
+        "passes": true
+      },
+      {
+        "axis": "y",
+        "image_component_1_label": "x",
+        "image_component_2_label": "z",
+        "expected_c1": "x",
+        "expected_c2": "z",
+        "comp_1_matches_full": true,
+        "comp_2_matches_full": true,
+        "passes": true
+      },
+      {
+        "axis": "x",
+        "image_component_1_label": "y",
+        "image_component_2_label": "z",
+        "expected_c1": "y",
+        "expected_c2": "z",
+        "comp_1_matches_full": true,
+        "comp_2_matches_full": true,
+        "passes": true
+      }
+    ],
+    "n_pass": 3,
+    "n_total": 3,
+    "passes": true
+  },
+  "M15": {
+    "rows": [
+      {
+        "check": "exact_zero_require_nontrivial_rejected",
+        "passes": true
+      },
+      {
+        "check": "exact_zero_require_nontrivial_false_allowed",
+        "passes": true
+      },
+      {
+        "check": "constant_nonzero_allowed",
+        "passes": true
+      },
+      {
+        "check": "structured_small_accepted",
+        "classification": "structured_small",
+        "passes": true
+      },
+      {
+        "check": "structured_normal_accepted",
+        "classification": "structured_normal",
+        "passes": true
+      },
+      {
+        "check": "nonfinite_rejected_with_trivial_allow",
+        "passes": true
+      }
+    ],
+    "n_pass": 6,
+    "n_total": 6,
+    "passes": true
+  },
+  "M16": {
+    "rows": [
+      {
+        "check": "O1_pearson_perfect_positive",
+        "r": 1.0,
+        "expected": 1.0,
+        "passes": true
+      },
+      {
+        "check": "O1_pearson_constant_returns_nan",
+        "r": NaN,
+        "expected_nan": true,
+        "passes": true
+      },
+      {
+        "check": "O2_spearman_tied_perfect_positive",
+        "rs": 1.0,
+        "expected": 1.0,
+        "passes": true
+      },
+      {
+        "check": "O2_spearman_vs_scipy",
+        "skipped": true,
+        "passes": true
+      },
+      {
+        "check": "O3_nan_masked_monotonic",
+        "rs": 1.0,
+        "expected": 1.0,
+        "passes": true
+      },
+      {
+        "check": "O4_old_tied_rank_disagrees",
+        "r_old": 1.0,
+        "r_new": 0.9847319278346618,
+        "passes": true
+      },
+      {
+        "check": "O5_pearson_shape_rejected",
+        "passes": true
+      },
+      {
+        "check": "O5_spearman_shape_rejected",
+        "passes": true
+      },
+      {
+        "check": "O6_no_reference_keys_absent",
+        "passes": true
+      },
+      {
+        "check": "O6_with_reference_keys_finite",
+        "pearson_vs_reference": 0.9999874307948388,
+        "spearman_vs_reference": 0.9998439843984398,
+        "passes": 1.0
+      }
+    ],
+    "n_pass": 10,
+    "n_total": 10,
+    "passes": true
+  }
+}

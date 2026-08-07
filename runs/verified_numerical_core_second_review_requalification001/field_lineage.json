@@ -1,0 +1,222 @@
+{
+  "M06_pair_amplitude": {
+    "shape": [
+      4,
+      5,
+      6
+    ],
+    "raw_sha256": "a586d872a75341ff78f2e788e7c0ab0cba2aed10a26559bbccdad5134844b531",
+    "canonical_float64_sha256": "363bad98df3e55ef6d41fd65dd1c8f5986b64d58764895062b493a0385c35d24",
+    "statistics": {
+      "minimum": -0.0008325589421747999,
+      "maximum": 0.0008325141448926126,
+      "mean": 4.139157652848449e-08,
+      "variance": 3.0795539129364543e-07,
+      "rms": 0.0005549372874540944,
+      "nonzero_count": 100,
+      "field_is_finite": true
+    }
+  },
+  "M07_projector": {
+    "shape": [
+      4,
+      5,
+      6
+    ],
+    "raw_sha256": "7bc7b9d34dedf41e763bfcc9ce450fa20463aedacded947535e6fb94cd81f897",
+    "canonical_float64_sha256": "1c3ed0454e580a45514c0a7e96db53fc5513ab0a2d37e7793e9faf3b78d47a8b",
+    "statistics": {
+      "minimum": 0.02924253187016823,
+      "maximum": 0.902885369626692,
+      "mean": 0.473671084111495,
+      "variance": 0.0710848109543552,
+      "rms": 0.5435523037185236,
+      "nonzero_count": 120,
+      "field_is_finite": true
+    }
+  },
+  "M08_pair_response": {
+    "shape": [
+      4,
+      5,
+      6
+    ],
+    "raw_sha256": "1adecf34928e608e2fbd454a232d8044fd775909faadf9411e68329efdf99681",
+    "canonical_float64_sha256": "d6d6687cf2f22ed0f202c2736bab8d6f2d6642d25dec9feb18da05348d07c3a1",
+    "statistics": {
+      "minimum": 0.0,
+      "maximum": 0.0008325589421747999,
+      "mean": 0.0004495840008232516,
+      "variance": 1.0582961921066663e-07,
+      "rms": 0.0005549372874540944,
+      "nonzero_count": 100,
+      "field_is_finite": true
+    }
+  },
+  "M09_endpoint_field": {
+    "shape": [
+      4,
+      5,
+      6
+    ],
+    "raw_sha256": "28e0a991d9b399655863bff45470c93a0b784b4ccf746533d0f95c925e7d1957",
+    "canonical_float64_sha256": "bbbb260fb380d628547aee6cfc5142158548ea07c300e698358a9cf978ab0141",
+    "statistics": {
+      "minimum": 9.599606400976023e-05,
+      "maximum": 0.0015048459165505196,
+      "mean": 0.00075272369846803,
+      "variance": 8.885823848358706e-08,
+      "rms": 0.0008095994100287975,
+      "nonzero_count": 120,
+      "field_is_finite": true
+    },
+    "endpoint_energy": 7.865414456627724e-05,
+    "global_vector_sum_norm": 9.651835436986392e-19
+  },
+  "M10_interface_field": {
+    "shape": [
+      4,
+      5,
+      6
+    ],
+    "raw_sha256": "eb64c5f839dfe44fa70d97241b9b2ecb9f1588340205801d0444f476a98c7a7b",
+    "canonical_float64_sha256": "567acd0cd83771d01eba43a4cddf5bba3d22005dc88457b71eef2ff6c9047c49",
+    "statistics": {
+      "minimum": 4.300779369981491e-05,
+      "maximum": 0.0006284682051039671,
+      "mean": 0.00022475471119601064,
+      "variance": 1.9774378521929427e-08,
+      "rms": 0.00026512083797154,
+      "nonzero_count": 120,
+      "field_is_finite": true
+    },
+    "interface_energy": 8.434687047207789e-06,
+    "global_vector_sum": [
+      -3.252595856314839e-06,
+      -1.737264555274915e-05,
+      -1.895593935401311e-05
+    ],
+    "consumed_pair_count": 286
+  },
+  "M14_los_field": {
+    "shape": [
+      5,
+      6
+    ],
+    "raw_sha256": "d2340cdaff4f4a8f1098aef164395d69cbf8b8061273a60c686113b794e10095",
+    "canonical_float64_sha256": "d3555225b2319ed6c446f6dd9cef6276c2c90a188ed449e83288c33615a744d8",
+    "statistics": {
+      "minimum": -0.0034821417067615675,
+      "maximum": 0.0022664921184777035,
+      "mean": -8.312216655722201e-20,
+      "variance": 3.1170805907316267e-06,
+      "rms": 0.0017655255848419832,
+      "nonzero_count": 30,
+      "field_is_finite": true
+    }
+  },
+  "M15_ray_input": {
+    "sha256": "acc5e6a663af206f5c9d00a9194132854c4722ee42205bda61b6f28daccea86f",
+    "statistics": {
+      "shape": [
+        5,
+        6
+      ],
+      "Rx": {
+        "shape": [
+          5,
+          6
+        ],
+        "dtype": "float64",
+        "minimum": -0.0034821417067615675,
+        "maximum": 0.0022664921184777035,
+        "mean": -8.312216655722201e-20,
+        "variance": 3.1170805907316267e-06,
+        "rms": 0.0017655255848419832,
+        "nonzero_count": 30,
+        "finite_count": 30,
+        "nan_count": 0,
+        "inf_count": 0,
+        "field_is_finite": true
+      },
+      "Ry": {
+        "shape": [
+          5,
+          6
+        ],
+        "dtype": "float64",
+        "minimum": -0.0029258522650589995,
+        "maximum": 0.0029614415566683286,
+        "mean": -1.4456028966473392e-20,
+        "variance": 3.557045439014627e-06,
+        "rms": 0.0018860131067982076,
+        "nonzero_count": 30,
+        "finite_count": 30,
+        "nan_count": 0,
+        "inf_count": 0,
+        "field_is_finite": true
+      },
+      "Rz": {
+        "shape": [
+          5,
+          6
+        ],
+        "dtype": "float64",
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "variance": 0.0,
+        "rms": 0.0,
+        "nonzero_count": 0,
+        "finite_count": 30,
+        "nan_count": 0,
+        "inf_count": 0,
+        "field_is_finite": true
+      },
+      "magnitude": {
+        "shape": [
+          5,
+          6
+        ],
+        "dtype": "float64",
+        "minimum": 0.0007755111061978504,
+        "maximum": 0.004352710865315219,
+        "mean": 0.0023490652798040246,
+        "variance": 1.156018340965493e-06,
+        "rms": 0.0025834329930823157,
+        "nonzero_count": 30,
+        "finite_count": 30,
+        "nan_count": 0,
+        "inf_count": 0,
+        "field_is_finite": true
+      },
+      "field_is_finite": true,
+      "global_vector_sum": [
+        -2.4936649967166602e-18,
+        -4.336808689942018e-19,
+        0.0
+      ],
+      "global_vector_sum_norm": 2.531095456908227e-18,
+      "ray_classification": "structured_normal",
+      "ray_scale": {
+        "R_rms": 0.0018267629881495648,
+        "R_max": 0.0034821417067615675,
+        "var_Rx": 3.1170805907316267e-06,
+        "var_Ry": 3.557045439014627e-06,
+        "R_rms_over_A_rms": null
+      }
+    },
+    "classification": "structured_normal"
+  },
+  "M16_observables": {
+    "kappa_rms": 0.0,
+    "gamma1_rms": 0.0,
+    "gamma2_rms": 0.0,
+    "keys": [
+      "gamma1",
+      "gamma2",
+      "gamma_mag",
+      "kappa"
+    ]
+  }
+}

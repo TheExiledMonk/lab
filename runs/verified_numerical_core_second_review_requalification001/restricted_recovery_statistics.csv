@@ -1,0 +1,2 @@
+cluster_id,candidate_id,shape,endpoint_energy,interface_energy,kappa_variance,ray_classification,endpoint_nontrivial,interface_nontrivial,kappa_variance_nonzero
+MACS0416,PL1_PM1_PS2,"(9, 32, 32)",0.00043644932649676804,0.0002952307503734091,3.115033065743127e-09,structured_normal,True,True,True
