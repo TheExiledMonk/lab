@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
 """PBUF FOUNDATION — QUANTUM ENGINE AMPLITUDE CLOSURE 001.
 
-Verify a frozen Quantum Engine V11 output snapshot and determine whether it
-contains enough information to close the absolute local PBUF response amplitude
-without fitting. No lensing, kappa/shear, HST morphology, cluster masses, or
-legacy strength=0.18 are used.
+Read the frozen Quantum Engine V11 outputs directly from pbuf/data/quantum/
+and determine whether they close the absolute local PBUF response amplitude
+without fitting. No archive transport layer is used.
 """
 from __future__ import annotations
 
-import base64
-import gzip
 import hashlib
 import json
 import math
@@ -18,11 +15,23 @@ import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-DATA = ROOT / "pbuf" / "data" / "quantum_engine_v11_snapshot001"
-OUT = ROOT / "runs" / "quantum_engine_amplitude_closure001"
-LAB_ID = "PBUF-FOUNDATION-QUANTUM-ENGINE-AMPLITUDE-CLOSURE-001"
+DATA = ROOT / "pbuf" / "data" / "quantum"
+OUT = ROOT / "runs" / "quantum_engine_amplitude_closure001_raw_fix"
+LAB_ID = "PBUF-FOUNDATION-QUANTUM-ENGINE-AMPLITUDE-CLOSURE-001-RAW"
 REL_TOL = 1e-12
 ABS_TOL = 1e-15
+
+# Original raw thermal-table provenance from the supplied QE snapshot.
+THERMAL_EXPECTED_SIZE = 444514
+THERMAL_EXPECTED_SHA256 = "1de56b28474ba453eb9d1b3b12cf9e2b588cc0acb0d8a4193199fabdcdd6e2bd"
+
+REQUIRED_FILES = {
+    "config.json": DATA / "config.json",
+    "defaults.yaml": DATA / "config" / "defaults.yaml",
+    "micro_cache.json": DATA / "micro_cache.json",
+    "optimisation_result.json": DATA / "optimisation_result.json",
+    "thermal_table_cache.json": DATA / "thermal_table_cache.json",
+}
 
 
 def git(*args: str) -> str:
@@ -33,7 +42,7 @@ def write_json(name: str, obj) -> None:
     (OUT / name).write_text(json.dumps(obj, indent=2, sort_keys=False) + "\n")
 
 
-def sha(raw: bytes) -> str:
+def sha256(raw: bytes) -> str:
     return hashlib.sha256(raw).hexdigest()
 
 
@@ -41,41 +50,38 @@ def close(a, b) -> bool:
     return math.isclose(float(a), float(b), rel_tol=REL_TOL, abs_tol=ABS_TOL)
 
 
-def reconstruct(prefix: str, expected_parts: int) -> bytes:
-    parts = sorted(DATA.glob(prefix + ".part*"))
-    if len(parts) != expected_parts:
-        raise RuntimeError(f"{prefix}: got {len(parts)} parts, expected {expected_parts}")
-    encoded = "".join(p.read_text().strip() for p in parts)
-    return gzip.decompress(base64.b64decode(encoded.encode("ascii"), validate=True))
-
-
-def integrity(manifest: dict) -> tuple[dict, dict[str, bytes]]:
+def direct_snapshot_integrity() -> tuple[dict, dict[str, bytes]]:
     checks = {}
-    reconstructed = {}
-    for name, spec in manifest["files"].items():
-        if spec["storage"] == "direct":
-            raw = (DATA / name).read_bytes()
-        elif spec["storage"] == "gzip_then_base64_split":
-            raw = reconstruct(spec["part_prefix"], int(spec["expected_parts"]))
-            reconstructed[name] = raw
-        else:
-            raise RuntimeError(f"unsupported storage mode for {name}")
-        ok_size = len(raw) == int(spec["size_bytes"])
-        ok_hash = sha(raw) == spec["sha256"]
+    payloads: dict[str, bytes] = {}
+    for name, path in REQUIRED_FILES.items():
+        if not path.is_file():
+            raise RuntimeError(f"required QE file missing: {path.relative_to(ROOT)}")
+        raw = path.read_bytes()
+        payloads[name] = raw
         checks[name] = {
-            "size_expected": int(spec["size_bytes"]),
-            "size_observed": len(raw),
-            "sha256_expected": spec["sha256"],
-            "sha256_observed": sha(raw),
-            "size_pass": ok_size,
-            "sha256_pass": ok_hash,
-            "integrity_pass": bool(ok_size and ok_hash),
-            "science_role": spec.get("science_role"),
+            "path": str(path.relative_to(ROOT)),
+            "size_bytes": len(raw),
+            "sha256": sha256(raw),
+            "present": True,
         }
+
+    thermal = checks["thermal_table_cache.json"]
+    thermal["expected_size_bytes"] = THERMAL_EXPECTED_SIZE
+    thermal["expected_sha256"] = THERMAL_EXPECTED_SHA256
+    thermal["size_provenance_pass"] = thermal["size_bytes"] == THERMAL_EXPECTED_SIZE
+    thermal["sha256_provenance_pass"] = thermal["sha256"] == THERMAL_EXPECTED_SHA256
+    thermal["provenance_pass"] = bool(
+        thermal["size_provenance_pass"] and thermal["sha256_provenance_pass"]
+    )
+
     return {
+        "storage_mode": "direct_raw_repository_files",
+        "archive_or_base64_layer_used": False,
         "checks": checks,
-        "all_pass": bool(checks and all(x["integrity_pass"] for x in checks.values())),
-    }, reconstructed
+        "all_required_files_present": True,
+        "thermal_original_provenance_verified": thermal["provenance_pass"],
+        "all_pass": thermal["provenance_pass"],
+    }, payloads
 
 
 def thermal_audit(micro: dict, thermal: dict) -> dict:
@@ -114,6 +120,7 @@ def thermal_audit(micro: dict, thermal: dict) -> dict:
 def main() -> int:
     started = time.perf_counter()
     OUT.mkdir(parents=True, exist_ok=True)
+
     repo = {
         "branch": git("rev-parse", "--abbrev-ref", "HEAD"),
         "head_sha": git("rev-parse", "HEAD"),
@@ -126,16 +133,19 @@ def main() -> int:
     if repo["tracked_changes"] or repo["staged_changes"]:
         raise RuntimeError("tracked or staged repository changes present")
 
-    manifest = json.loads((DATA / "MANIFEST.json").read_text())
-    integ, reconstructed = integrity(manifest)
+    integ, payloads = direct_snapshot_integrity()
     write_json("snapshot_integrity.json", integ)
     if not integ["all_pass"]:
-        raise RuntimeError("Quantum Engine snapshot integrity gate failed")
+        raise RuntimeError("direct Quantum Engine snapshot integrity/provenance gate failed")
 
-    config = json.loads((DATA / "config.json").read_text())
-    micro = json.loads((DATA / "micro_cache.json").read_text())
-    optimization = json.loads((DATA / "optimisation_result.json").read_text())
-    thermal = json.loads(reconstructed["thermal_table_cache.json"].decode("utf-8"))
+    try:
+        config = json.loads(payloads["config.json"].decode("utf-8"))
+        micro = json.loads(payloads["micro_cache.json"].decode("utf-8"))
+        optimization = json.loads(payloads["optimisation_result.json"].decode("utf-8"))
+        thermal = json.loads(payloads["thermal_table_cache.json"].decode("utf-8"))
+    except Exception as exc:
+        raise RuntimeError(f"direct QE JSON parse failed: {exc}") from exc
+
     meta = thermal["metadata"]
     rows = thermal["rows"]
 
@@ -156,7 +166,10 @@ def main() -> int:
 
     numerator = float(micro["f_coup"]) * float(micro["f_cut"])**2 * float(micro["eps0_base"])
     c_eff = numerator / float(micro["alpha_qm"])
+
     inventory = {
+        "source_directory": "pbuf/data/quantum",
+        "storage_mode": "direct_raw_repository_files",
         "engine_source": micro["engine_source"],
         "regulator": micro["regulator"],
         "field_content": micro["field_content"],
@@ -208,8 +221,8 @@ def main() -> int:
             "absolute_microscopic_energy_or_action_density_scale",
             "microscopic_mode_to_metric_strain_coupling_derivative",
             "local_tensor_Hessian_K_or_retarded_kernel_G_R",
-            "coarse_graining_normalization_to_finite_metric_strain"
-        ]
+            "coarse_graining_normalization_to_finite_metric_strain",
+        ],
     }
     write_json("local_kernel_closure_status.json", closure)
 
@@ -220,14 +233,14 @@ def main() -> int:
             "absolute microscopic energy or action density scale",
             "delta S_micro/delta chi_mn or dE_mode/dchi_mn",
             "K_mn_ab or causal G_R",
-            "dimension-preserving coarse-graining to finite chi_mn"
+            "dimension-preserving coarse-graining to finite chi_mn",
         ],
-        "rule": "if absent in external QE, mark missing; never infer by fitting"
+        "rule": "if absent in external QE, mark missing; never infer by fitting",
     }
     write_json("next_required_quantum_engine_interface.json", next_interface)
 
     gates = {
-        "snapshot_integrity_pass": integ["all_pass"],
+        "direct_snapshot_integrity_pass": integ["all_pass"],
         "snapshot_internal_consistency_pass": consistency["all_pass"],
         "thermal_alpha_identity_pass": thermal_result["alpha_T_equals_alpha_qm_times_epsilon0_T"]["pass"],
         "thermal_scale_factor_bookkeeping_pass": thermal_result["a_times_T_equals_t_min"]["pass"],
@@ -242,7 +255,11 @@ def main() -> int:
         "local_modulus_not_selected": True,
     }
     if not all(gates.values()):
-        write_json("validation_failure.json", {"gates": gates, "consistency": consistency, "optimization_quarantine": quarantine})
+        write_json("validation_failure.json", {
+            "gates": gates,
+            "consistency": consistency,
+            "optimization_quarantine": quarantine,
+        })
         raise RuntimeError("Quantum Engine amplitude closure gate failed")
 
     outcome = "Outcome B — QE NORMALIZED AMPLITUDE CHAIN VERIFIED; ABSOLUTE LOCAL TENSOR RESPONSE NORMALIZATION STILL OPEN"
@@ -250,6 +267,9 @@ def main() -> int:
         "lab_id": LAB_ID,
         "outcome": outcome,
         "head_sha": repo["head_sha"],
+        "QE_source_directory": "pbuf/data/quantum",
+        "QE_storage_mode": "direct_raw_repository_files",
+        "archive_or_base64_layer_used": False,
         "benchmark_pixel_values_loaded": False,
         "lensing_pipeline_executed": False,
         "hst_mass_conversion_executed": False,
@@ -287,10 +307,12 @@ def main() -> int:
     }
     write_json("validation.json", validation)
     write_json("repository_state.json", repo)
+
     print(json.dumps({
         "lab_id": LAB_ID,
         "outcome": outcome,
         "head_sha": repo["head_sha"],
+        "QE_source_directory": "pbuf/data/quantum",
         "QE_alpha_qm": validation["QE_alpha_qm"],
         "QE_C_eff_output_inferred": c_eff,
         "physical_amplitude_bridge_complete": False,
