@@ -1,0 +1,125 @@
+{
+  "milestone": "PBUF VERSION-B PHYSICS-LAB-002",
+  "kind": "response_family_decomposition",
+  "frozen_laboratory": "Version 1 weak-lensing laboratory (LAB-FREEZE-001)",
+  "frozen_implementation_sha256": {
+    "constitutive_equations.py": {
+      "expected_sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+      "actual_sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+      "match": true
+    },
+    "weak_lensing_observation001.py": {
+      "expected_sha256": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+      "actual_sha256": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+      "match": true
+    },
+    "observable_lab001.py": {
+      "expected_sha256": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+      "actual_sha256": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+      "match": true
+    },
+    "source_plane_lab001.py": {
+      "expected_sha256": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+      "actual_sha256": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+      "match": true
+    },
+    "numerical_convergence001.py": {
+      "expected_sha256": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+      "actual_sha256": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+      "match": true
+    }
+  },
+  "production_minimum": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "target_candidate": "C10 (Combined Local Response) from PHYSICS-LAB-001",
+  "mechanisms_in_c10": [
+    {
+      "code": "A",
+      "name": "Neighbour Coherence",
+      "implementation": "multiplicative factor over 8 nearest neighbours"
+    },
+    {
+      "code": "B",
+      "name": "Elastic Memory",
+      "implementation": "one-step persistence mix, w = 0.5"
+    }
+  ],
+  "variants": [
+    {
+      "code": "CONTROL",
+      "name": "Gradient (control)",
+      "family": "gradient",
+      "description": "Response = |grad C|; frozen Version A control.",
+      "mechanism_a": false,
+      "mechanism_b": false,
+      "notes": "Pure gradient baseline. No C10 mechanism enabled."
+    },
+    {
+      "code": "C10-A",
+      "name": "Neighbour Coherence only",
+      "family": "neighbour coherence",
+      "description": "Magnitude scaled by (1 + mean_cos)/2 over 8 neighbours.",
+      "mechanism_a": true,
+      "mechanism_b": false,
+      "notes": "Mechanism A only (no memory)."
+    },
+    {
+      "code": "C10-B",
+      "name": "Elastic Memory only",
+      "family": "elastic memory",
+      "description": "r_new = (1-w)*R(g) + w*R(g_prev); w = 0.5.",
+      "mechanism_a": false,
+      "mechanism_b": true,
+      "notes": "Mechanism B only (no coherence)."
+    },
+    {
+      "code": "C10-C",
+      "name": "Combined (original C10)",
+      "family": "combined response",
+      "description": "Coherence factor times elastic memory mix (original C10).",
+      "mechanism_a": true,
+      "mechanism_b": true,
+      "notes": "Both mechanisms enabled; identical to C10 from LAB-001."
+    }
+  ],
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "fitting_performed": false,
+  "optimisation_performed": false,
+  "cosmological_bridges_introduced": false,
+  "execution_seconds_total": 5.4423826249549165
+}

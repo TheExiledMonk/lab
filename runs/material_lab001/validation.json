@@ -1,0 +1,61 @@
+{
+  "milestone": "PBUF MATERIAL-LAB-001",
+  "pass": true,
+  "analytic_and_sampled_checks": {
+    "A": {
+      "reference_energy_zero": true,
+      "reference_stress_zero": true,
+      "weak_tangent_unity": true,
+      "positive_energy": true,
+      "positive_tangent": true,
+      "nondecreasing_tangent": true
+    },
+    "B": {
+      "reference_energy_zero": true,
+      "reference_stress_zero": true,
+      "weak_tangent_unity": true,
+      "positive_energy": true,
+      "positive_tangent": true,
+      "nondecreasing_tangent": true
+    },
+    "C": {
+      "reference_energy_zero": true,
+      "reference_stress_zero": true,
+      "weak_tangent_unity": true,
+      "positive_energy": true,
+      "positive_tangent": true,
+      "nondecreasing_tangent": true
+    },
+    "D": {
+      "reference_energy_zero": true,
+      "reference_stress_zero": true,
+      "weak_tangent_unity": true,
+      "positive_energy": true,
+      "positive_tangent": true,
+      "nondecreasing_tangent": true
+    },
+    "E": {
+      "reference_energy_zero": true,
+      "reference_stress_zero": true,
+      "weak_tangent_unity": true,
+      "positive_energy": true,
+      "positive_tangent": true,
+      "nondecreasing_tangent": true
+    }
+  },
+  "deliverables": [
+    "material_model_catalogue.json",
+    "comparison_matrix.csv",
+    "material_laboratory_report.md",
+    "dependency_graph.md"
+  ],
+  "architecture_extensible": "add one Material entry; common evaluator and outputs require no changes",
+  "prohibitions": {
+    "ontology_modified": false,
+    "weak_lensing_modified": false,
+    "observational_fit": false,
+    "v11_modified": false,
+    "microscopic_constituents_added": false,
+    "preferred_law_selected": false
+  }
+}

@@ -1,0 +1,14 @@
+record_id,page,section,equation_id,expression,classification,assumptions,downstream
+V11-2.2-A1,2,2.2,prose,thermal table supplies alpha_T(a),definition,active thermal LUT,"background, distance, and growth calculations"
+V11-2.2-A2,2,2.2,prose,pipeline resolves alpha_resolved from microphysics metadata,definition,metadata with table-metadata fallback,single curvature/elastic parameter used by pipeline
+V11-2.3-A1,2,2.3,prose,Quantum Engine produces elastic amplitude alpha_QM,definition,specified regulators and field content,"thermal LUT, then cosmological sector"
+V11-E04,2,2.3.1,(4),alpha_resolved ~= 3 alpha_EM = 3/137.036 ~= 0.0219,empirical/numerical observation,current implementation; inherited quantum-microphysics metadata,fixed elastic amplitude and density normalization
+V11-2.3.1-G1,3,2.3.1,restatement of (4),alpha_resolved ~= 3 alpha_EM; one contribution per spatial dimension,premise/motivating consistency argument,three-dimensional physical space and additive equal dimensional contributions,geometric interpretation only; first-principles QFT derivation deferred
+V11-2.3.1-B1,3,2.3.1,unnumbered / later (16),Omega_b0 = 2 alpha_resolved,pipeline identity,two transverse electromagnetic polarizations; fixed normalization,present-day baryon density
+V11-E05,3,2.3.2,(5),"k_max(a)=epsilon_0,T(a)-alpha_T(a)",definition,thermal LUT fields,"S(a), Omega_sigma_raw(a)"
+V11-E08,3,2.3.2,(8),Omega_sigma_raw(a)=alpha_T(a)(1-decay(a))S(a),definition,activation and saturation definitions (6)-(7),rescaling (10)-(11)
+V11-E09,3,2.3.2,(9),Omega_sigma_target=1-Omega_m0-Omega_r0-alpha_resolved,pipeline normalization identity,flat_today normalization mode,"sigma_rescale (10), Omega_sigma(a) (11)"
+V11-E15,4,2.3.3,(15),Omega_sigma(a)=alpha(1-exp(-a/R_max))S(a),model definition,alpha denotes elastic amplitude; S defined by (7),"E(a), H(a), distances and growth via (12)-(14)"
+V11-E16,4,2.3.4,(16),Omega_b0=2 alpha_resolved,pipeline identity,fixed polarization-counting normalization,Omega_m0 through (17)
+V11-T2-A1,7,5.1 Table 2,Table 2 note,Omega_m0 and Omega_b0 derived from alpha_resolved; reported Omega_k0 corresponds to alpha_resolved,definition/reporting identity,V11 enforced identities (16)-(17),reported PBUF parameters and likelihood predictions
+V11-7-A1,11,7,prose,alpha fully captures effective large-scale geometric response; no independent curvature parameter,model interpretation,effective-curvature usage in V11 pipeline,interpretation of background results

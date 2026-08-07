@@ -1,0 +1,238 @@
+{
+  "milestone": "PBUF MICROSCOPIC-EVOLUTION-LAB-001",
+  "kind": "microscopic evolution law search",
+  "frozen_laboratory": "Version 1 weak-lensing laboratory (LAB-FREEZE-001)",
+  "frozen_implementation_sha256": {
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "numerical_convergence001.py": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29"
+  },
+  "production_configuration": {
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "slug": "abell2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "slug": "macs0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "slug": "macs1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "slug": "abells1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "slug": "abell370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "families": [
+    {
+      "number": 1,
+      "code": "E1",
+      "name": "Linear Relaxation",
+      "principle": "u evolves toward neighbour-mean by linear diffusion",
+      "is_wrong": false,
+      "state_kind": "real"
+    },
+    {
+      "number": 2,
+      "code": "E2",
+      "name": "Phase Oscillator",
+      "principle": "dz/dt = i\u00b7\u03c9\u00b7z + K\u00b7(\u27e8z\u27e9\u2099 \u2212 z); phase emerges as arg(z)",
+      "is_wrong": false,
+      "state_kind": "complex"
+    },
+    {
+      "number": 3,
+      "code": "E3",
+      "name": "Orientation Alignment",
+      "principle": "\u03b8 evolves by neighbour-mean alignment on S\u00b9 (normalised complex)",
+      "is_wrong": false,
+      "state_kind": "complex"
+    },
+    {
+      "number": 4,
+      "code": "E4",
+      "name": "Coupled Oscillator",
+      "principle": "single complex z; phase and amplitude evolve together from one state vector",
+      "is_wrong": false,
+      "state_kind": "complex"
+    },
+    {
+      "number": 5,
+      "code": "E5",
+      "name": "Energy Minimisation Evolution",
+      "principle": "each step takes a gradient step minimising the local interaction energy",
+      "is_wrong": false,
+      "state_kind": "real"
+    },
+    {
+      "number": 6,
+      "code": "E6",
+      "name": "Local Potential Gradient",
+      "principle": "u evolves along the gradient of a microscopic interaction potential V(u)",
+      "is_wrong": false,
+      "state_kind": "real"
+    },
+    {
+      "number": 7,
+      "code": "E7",
+      "name": "Hamiltonian Evolution",
+      "principle": "canonical (q, p) evolution with conserved local Hamiltonian; symplectic integrator",
+      "is_wrong": false,
+      "state_kind": "hamiltonian"
+    },
+    {
+      "number": 8,
+      "code": "E8",
+      "name": "Weakly Dissipative Evolution",
+      "principle": "canonical (q, p) with small linear dissipation; reversible + weakly dissipative",
+      "is_wrong": false,
+      "state_kind": "hamiltonian"
+    },
+    {
+      "number": 9,
+      "code": "E9",
+      "name": "Cooperative Field Evolution",
+      "principle": "internal state responds to weighted 9-point neighbourhood (Laplacian-style)",
+      "is_wrong": false,
+      "state_kind": "real"
+    },
+    {
+      "number": 10,
+      "code": "E10",
+      "name": "Unified Evolution",
+      "principle": "single coupled nonlinear equation (Ginzburg\u2013Landau); phase, orientation, memory all emerge without explicit updates",
+      "is_wrong": false,
+      "state_kind": "complex"
+    },
+    {
+      "number": 11,
+      "code": "WR1",
+      "name": "Wrong: Random Evolution",
+      "principle": "u random per step; no coherent dynamics",
+      "is_wrong": true,
+      "state_kind": "real"
+    },
+    {
+      "number": 12,
+      "code": "WR2",
+      "name": "Wrong: Frozen State",
+      "principle": "u = u_init; never evolves",
+      "is_wrong": true,
+      "state_kind": "real"
+    },
+    {
+      "number": 13,
+      "code": "WR3",
+      "name": "Wrong: Independent Local Evolution",
+      "principle": "self-relaxation only; no neighbour influence",
+      "is_wrong": true,
+      "state_kind": "real"
+    },
+    {
+      "number": 14,
+      "code": "WR4",
+      "name": "Wrong: Neighbour Influence Without Internal Evolution",
+      "principle": "state = neighbourhood mean (no self-equilibrium)",
+      "is_wrong": true,
+      "state_kind": "real"
+    }
+  ],
+  "fixed_parameters": {
+    "dt": 0.1,
+    "steps": 20,
+    "k": 1.0,
+    "gamma": 0.5,
+    "omega": 0.2,
+    "alpha_fs": 0.0072973525692838015,
+    "three_alpha_fs": 0.021892057707851405
+  },
+  "emergence_thresholds": {
+    "coherence_gain": 0.0001,
+    "memory_index": 0.9,
+    "evolution_activity": 1e-06
+  },
+  "synergy": {
+    "E10_vs_E1_per_cluster": {
+      "Abell2744": {
+        "pearson_kappa": -0.04760097059181553,
+        "pearson_gamma": -0.05491009991195003,
+        "ssim_kappa": 0.004771278879921181,
+        "rms_kappa": 0.38777390592194605,
+        "coherence_gain": -0.004726925561909835,
+        "emergent_memory_index": -0.004705910093149246
+      },
+      "MACS0416": {
+        "pearson_kappa": 0.05782015800655266,
+        "pearson_gamma": -0.10393764742429465,
+        "ssim_kappa": 0.001226610185449731,
+        "rms_kappa": 0.3566542927339952,
+        "coherence_gain": -0.0025255755948836943,
+        "emergent_memory_index": -0.004303975945748939
+      },
+      "MACS1149": {
+        "pearson_kappa": -0.15834367270286032,
+        "pearson_gamma": -0.07586219212570798,
+        "ssim_kappa": -0.09874192093130796,
+        "rms_kappa": 0.5685252064299865,
+        "coherence_gain": 0.004555995778582871,
+        "emergent_memory_index": -0.003951761812170718
+      },
+      "AbellS1063": {
+        "pearson_kappa": -0.10875917129483352,
+        "pearson_gamma": -0.17551434766845642,
+        "ssim_kappa": 0.05150021141493562,
+        "rms_kappa": 0.3826296989638375,
+        "coherence_gain": -0.005568476036617536,
+        "emergent_memory_index": -0.003164135778009003
+      },
+      "Abell370": {
+        "pearson_kappa": -0.17900465877747934,
+        "pearson_gamma": -0.07794841638341957,
+        "ssim_kappa": 0.030899733046300344,
+        "rms_kappa": 0.3632680602445669,
+        "coherence_gain": 0.006309369020547287,
+        "emergent_memory_index": -0.004744920572202438
+      }
+    },
+    "E10_vs_E1_medians": {
+      "pearson_kappa": -0.10875917129483352,
+      "pearson_gamma": -0.07794841638341957,
+      "ssim_kappa": 0.004771278879921181,
+      "rms_kappa": 0.3826296989638375,
+      "coherence_gain": -0.0025255755948836943,
+      "emergent_memory_index": -0.004303975945748939
+    }
+  },
+  "fitting_performed": false,
+  "optimisation_performed": false,
+  "frozen_components_modified": false,
+  "execution_seconds_total": 25.090797283919528
+}

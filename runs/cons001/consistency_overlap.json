@@ -1,0 +1,26 @@
+{
+  "parameter": "symbolic g_dev",
+  "sector_regions": {
+    "Foundational ontology (FND-001--FND-003)": "all finite g_dev; nonzero if the stipulated coupling is imposed",
+    "CORE-001 microscopic model": "all finite g_dev; nonzero for matter loading",
+    "FND-004 consequences": "g_dev != 0 for the stated coupling premise; no magnitude bound",
+    "FND-005 experimental consequences": "unbounded; separate g_dev unobservable",
+    "Weak-lensing laboratory (WL-001)": "all g_dev",
+    "Constitutive studies (WL-002/WL-002A/WL-003)": "all g_dev",
+    "Micro--macro closure (MB-001)": "all finite g_dev; no closure-derived bound",
+    "Elasticity, rigidity, stiffness and thermal assumptions": "all g_dev",
+    "Photon coupling (PHOTON-001)": "all g_dev"
+  },
+  "mathematical_overlap": "all finite g_dev; if the stipulated fundamental coupling must be nonzero, all finite g_dev except zero",
+  "bounded_interval_found": false,
+  "preferred_value_found": false,
+  "classification": "D) existing theory is insufficient; g_dev is currently indeterminate",
+  "dominant_constraints": [
+    "No supplied symmetry or consistency identity selects a numerical g_dev.",
+    "The micro--macro response is not completed into an independent cross-sector constraint.",
+    "The photon response n(u), especially beta=(dn/du)|_0, is missing and is not linked to g_dev."
+  ],
+  "reassessment": "The previous inverse-rescaling reason for indeterminacy was wholly an artefact and is withdrawn. The final absence of a numerical bound remains for genuine independent reasons: no value-selecting identity, completed closure constraint, or g_dev-linked photon map exists.",
+  "missing_physics_not_g_dev_failure": "Disagreement among downstream amplitudes cannot presently be assigned uniquely to g_dev because closure and photon maps are incomplete.",
+  "no_fit_performed": true
+}

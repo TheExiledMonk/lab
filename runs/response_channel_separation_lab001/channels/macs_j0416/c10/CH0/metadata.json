@@ -1,0 +1,19 @@
+{
+  "cluster_id": "MACS0416",
+  "model": "C10",
+  "channel_id": "CH0",
+  "channel_name": "Native full response",
+  "decomposition_type": "native",
+  "padded_unpadded": "padded",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "dtype": "float64",
+  "response_rx_sha256": "b9735a389299161b9e91429e2b199df188e4a7dbfda3e9e21da33c00ab296017",
+  "response_ry_sha256": "34273a302ab9e498314beccc12b313e7c7fd8f5bf7732205b95e199b0ef03e8a",
+  "kappa_sha256": "010567fee768b6ffeaab50b05bacce9a5e8fdd116f3926946fe7b0f2d86bab33",
+  "gamma1_sha256": "168d7afd6b53623cb4ef41eb42fa2804d31b22bdbed99996a9079c71956195b6",
+  "gamma2_sha256": "0f4577a6bbadb63bf61985e42d98c35057170a715f49914c5fd48cc49e01a5ec",
+  "frozen_source_hash": "552c1d3ad00330b6816190049f7172b1cd4fb7d0578fed842ecb84d5210b6b7b"
+}

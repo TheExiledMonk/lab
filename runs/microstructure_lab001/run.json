@@ -1,0 +1,214 @@
+{
+  "milestone": "PBUF MICROSTRUCTURE-LAB-001",
+  "kind": "microscopic-interaction search",
+  "frozen_laboratory": "Version 1 weak-lensing laboratory (LAB-FREEZE-001)",
+  "frozen_implementation_sha256": {
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "numerical_convergence001.py": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29"
+  },
+  "production_configuration": {
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "slug": "abell2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "slug": "macs0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "slug": "macs1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "slug": "abells1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "slug": "abell370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "families": [
+    {
+      "number": 1,
+      "code": "M1",
+      "name": "Pure Elastic Spring Network",
+      "principle": "F = sum(u_j - u_i)/4",
+      "is_wrong": false
+    },
+    {
+      "number": 2,
+      "code": "M2",
+      "name": "Dipole-like Orientation Interaction",
+      "principle": "theta aligns with neighbours; u = local alignment",
+      "is_wrong": false
+    },
+    {
+      "number": 3,
+      "code": "M3",
+      "name": "Viscoelastic Interaction",
+      "principle": "F_spring + damping",
+      "is_wrong": false
+    },
+    {
+      "number": 4,
+      "code": "M4",
+      "name": "Cooperative Alignment",
+      "principle": "F = mean(u_j) - u_i",
+      "is_wrong": false
+    },
+    {
+      "number": 5,
+      "code": "M5",
+      "name": "Elastic + Cooperative Alignment",
+      "principle": "F = F_elastic + F_cooperative + alpha*F_e*F_c",
+      "is_wrong": false
+    },
+    {
+      "number": 6,
+      "code": "M6",
+      "name": "Elastic + Relaxation + Alignment",
+      "principle": "spring + damping + cooperation + cross",
+      "is_wrong": false
+    },
+    {
+      "number": 7,
+      "code": "M7",
+      "name": "Nonlinear Interaction Potential",
+      "principle": "F = F_linear - beta*u^3",
+      "is_wrong": false
+    },
+    {
+      "number": 8,
+      "code": "M8",
+      "name": "Long-range Coupling",
+      "principle": "8 nearest + 8 next-nearest",
+      "is_wrong": false
+    },
+    {
+      "number": 9,
+      "code": "M9",
+      "name": "Anisotropic Interaction",
+      "principle": "k weighted by local gradient direction",
+      "is_wrong": false
+    },
+    {
+      "number": 10,
+      "code": "M10",
+      "name": "Interaction Potential Search",
+      "principle": "average of 5 potentials",
+      "is_wrong": false
+    },
+    {
+      "number": 11,
+      "code": "WR1",
+      "name": "Wrong: Random Neighbour Interaction",
+      "principle": "F = random noise per step",
+      "is_wrong": true
+    },
+    {
+      "number": 12,
+      "code": "WR2",
+      "name": "Wrong: Repulsive-Only Interaction",
+      "principle": "F = -(mean(u_j) - u_i)",
+      "is_wrong": true
+    },
+    {
+      "number": 13,
+      "code": "WR3",
+      "name": "Wrong: Purely Local (No Neighbours)",
+      "principle": "F = -k*(u - u_eq)",
+      "is_wrong": true
+    }
+  ],
+  "fixed_parameters": {
+    "dt": 0.1,
+    "steps": 20,
+    "k_spring": 1.0,
+    "gamma_damp": 0.5,
+    "beta_nonlinear": 0.3,
+    "alpha_cross": 0.1
+  },
+  "emergence_thresholds": {
+    "coherence_gain": 0.0001,
+    "memory_index": 0.9,
+    "evolution_activity": 1e-06
+  },
+  "c10_archived_reference": {
+    "median_pearson_kappa": 0.10339683814108096,
+    "median_pearson_gamma": 0.08236006923316277,
+    "median_ssim_kappa": -0.01173258724612844,
+    "median_rms_kappa": 0.13989696057451279,
+    "source": "runs/version_b_physics_lab002/interaction_matrix.csv",
+    "sha256": "6f0d83d691296e07727d721c8a080e850c743afd6e7455a430b7eb17073116a9"
+  },
+  "synergy": {
+    "m5_minus_m1_minus_m4": {
+      "median_pearson_kappa": -0.1155838403016363,
+      "median_pearson_gamma": -0.10578674629375961,
+      "median_ssim_kappa": 0.002324545609845541,
+      "median_rms_kappa": -0.17946161075680422
+    },
+    "per_cluster": {
+      "Abell2744": {
+        "median_pearson_kappa": 0.0006788579917555437,
+        "median_pearson_gamma": -0.16231277521539067,
+        "median_ssim_kappa": 0.002324545609845541,
+        "median_rms_kappa": -0.18019872837372294
+      },
+      "MACS0416": {
+        "median_pearson_kappa": 0.011296562986088589,
+        "median_pearson_gamma": -0.05594030463143308,
+        "median_ssim_kappa": -8.08835939214125e-05,
+        "median_rms_kappa": -0.19715826150851382
+      },
+      "MACS1149": {
+        "median_pearson_kappa": -0.1155838403016363,
+        "median_pearson_gamma": -0.006012621253059187,
+        "median_ssim_kappa": -0.040216951657536824,
+        "median_rms_kappa": -0.1287941752845458
+      },
+      "AbellS1063": {
+        "median_pearson_kappa": -0.11735601104542,
+        "median_pearson_gamma": -0.1201012652477264,
+        "median_ssim_kappa": 0.04269150027430174,
+        "median_rms_kappa": -0.15900859747912796
+      },
+      "Abell370": {
+        "median_pearson_kappa": -0.20409692905496862,
+        "median_pearson_gamma": -0.10578674629375961,
+        "median_ssim_kappa": 0.04097679270778433,
+        "median_rms_kappa": -0.17946161075680422
+      }
+    },
+    "nonlinear_synergy_pearson_kappa": -0.1155838403016363,
+    "nonlinear_synergy_emerged": true
+  },
+  "fitting_performed": false,
+  "optimisation_performed": false,
+  "frozen_components_modified": false,
+  "execution_seconds_total": 22.409448507940397
+}

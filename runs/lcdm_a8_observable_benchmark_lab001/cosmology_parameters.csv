@@ -1,0 +1,10 @@
+parameter,value
+label,"Planck 2018 (flat LCDM, frozen reference)"
+source,frozen reference values used by PBUF/Cosmos
+H0_km_s_Mpc,67.4
+Omega_m,0.315
+Omega_r,9e-05
+Omega_k,0.0
+Omega_Lambda,0.685
+c_km_s,299792.458
+G_SI,6.6743e-11

@@ -1,0 +1,8 @@
+Rank,Rule,Update Mechanism,Bend,Conservation,Stable,Runtime (s),Score
+1,Exp 6,Phase transfer,2.6479e+00,2.2204e-16,yes,0.016,1.500
+2,Exp 3,Projection update (r ⊥ v only),6.6181e-05,1.1102e-16,yes,0.019,1.000
+3,Exp 5,Local momentum transfer (m=0.5),1.3236e-04,2.2204e-16,yes,0.017,0.500
+4,Exp 2,Pure rotation,6.6193e-05,2.2204e-16,yes,0.016,0.500
+5,Exp 7,Mixed (rotation + translation + shear),6.6185e-05,2.2204e-16,yes,0.022,0.500
+6,Exp 1,Direct vector addition (baseline),6.6181e-05,2.2204e-16,yes,0.017,0.500
+7,Exp 4,Incremental shear,9.0541e-06,2.2204e-16,yes,0.019,0.500

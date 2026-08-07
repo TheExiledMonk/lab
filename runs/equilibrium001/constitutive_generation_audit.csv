@@ -1,0 +1,10 @@
+principle,reversible_recovery,stable_reference,local_variational_stress,waves,nonlinear_response
+minimum potential energy,"yes, on one elastic branch",yes,yes,conditional on frozen inertia/ellipticity,permits but does not generate R
+stationary action,conditional on reversal-compatible action/boundaries,conditional,yes for its W sector,yes after kinetic closure,permits but does not select R
+constrained energy minimization,yes on admissible branch,yes,yes in interior; tangent-cone form at endpoint,conditional on dynamic completion,permits D1-D3 but does not select shape
+elastic force equilibrium,yes when derived from exact W,not by balance alone,yes in variational realization,conditional,inherits W; does not generate it
+variational equilibrium,conditional,conditional,yes for stored-energy member,conditional,neutral without a functional-selection rule
+thermodynamic equilibrium,not auditable natively,not auditable natively,only after mechanical reduction,no,no native selection
+spectral equilibrium,inherits,inherits,inherits,inherits,coordinate-neutral
+geometric equilibrium,inherits if reduced,inherits if reduced,inherits if reduced,conditional,neutral
+wave equilibrium,no,presupposes a background equilibrium,no,"describes modes, not their constitutive origin",no

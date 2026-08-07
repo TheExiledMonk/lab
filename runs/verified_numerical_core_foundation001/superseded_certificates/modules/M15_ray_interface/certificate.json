@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M15.ray.interface",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "4d946bd1361571283d923ea47853066ea5801fa57e9e99180da9e6a59120c856",
+  "test_sha256": "4d946bd1361571283d923ea47853066ea5801fa57e9e99180da9e6a59120c856",
+  "reference_fixture_sha256": "3a795f354bcba86e4fa1aed95d0aa6ce492ee5d51d0bf7555fca132ac7a9729c",
+  "conventions_version": "1.0.0",
+  "tests_passed": 4,
+  "tests_total": 4,
+  "maximum_error": 0.0,
+  "tolerance": 1e-15,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "superseded_by": "FOUNDATION-001-CORRECTION-001"
+}

@@ -1,0 +1,6 @@
+model,name,classification,reason
+A,Progressive strain hardening,energy law only,"Local hyperelastic w gives stress, amplitude hardening, and a restoring tendency; no spatial coupling or kinetic evolution is specified."
+B,Wave-equilibrium material,mixed variational formulation; incomplete dynamical constitutive law,"Its local quadratic term is an energy law and its gradient term generates a variational interaction operator. Positive inertia, assumed only conditionally in LAB-001, is still needed for waves; amplitude hardening is absent."
+C,Exponential hardening,energy law only,"Local hyperelastic energy gives stress, hardening, and restoring tendency, but no neighbour coupling."
+D,Finite-extensibility material,energy law only,"Local barrier energy gives stress, hardening, and restoring tendency on its domain, but no neighbour coupling."
+E,Polynomial hardening,energy law only,"Local hyperelastic energy gives stress, hardening, and restoring tendency, but no neighbour coupling."

@@ -1,0 +1,13 @@
+{
+  "milestone": "PBUF ALPHA-ARCH-001",
+  "status": "COMPLETE_WITH_EXPLICIT_MISSING_DOCUMENT",
+  "authoritative_pdf": "docs/Planck-Bound_Unified_Framework_v11_preprint.pdf",
+  "v11_quantities_kept_distinct": ["alpha_QM", "alpha_resolved", "alpha_T(a)", "alpha_EM"],
+  "post_v11_construct": "g_dev",
+  "implicit_identity_with_alpha_EM": false,
+  "fnd001_present": false,
+  "frozen_weak_lensing_modified": false,
+  "active_exploratory_outputs_contain_ambiguous_alpha": false,
+  "historical_mission_docx_occurrences_mapped": true,
+  "all_required_available_documents_audited": true
+}

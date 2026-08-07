@@ -1,0 +1,19 @@
+{
+  "milestone": "PBUF EVOLUTION-001",
+  "checks": {
+    "frozen_inputs_respected": true,
+    "maximal_q_equation_family_derived": true,
+    "unique_governing_equation_derived": false,
+    "mathematical_classification_audited": true,
+    "weak_field_and_v11_gate_audited": true,
+    "C_pushforward_derived": true,
+    "g_eff_pushforward_derived": true,
+    "well_posedness_audited": true,
+    "prediction_status_audited": true,
+    "new_constants": false,
+    "new_fields": false,
+    "v11_modified": false
+  },
+  "pass": false,
+  "reason": "A unique operator and its principal symbol cannot be obtained until the explicitly unselected action, constitutive, metric, and source closures are fixed."
+}

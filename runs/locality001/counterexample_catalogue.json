@@ -1,0 +1,22 @@
+[
+  {
+    "claim": "local variation cannot communicate",
+    "result": "refuted",
+    "construction": "delta integral Phi(C)=integral (2 F P_C):Grad(delta y)=-integral Div(2 F P_C).delta y plus traction."
+  },
+  {
+    "claim": "waves require gradients/kernels",
+    "result": "refuted",
+    "construction": "rho u_tt=Div(A0:sym Grad u) gives rho omega^2 a=Q(n)a |k|^2 with real modes when Q is positive."
+  },
+  {
+    "claim": "finite capacity forces nonlocality",
+    "result": "refuted",
+    "construction": "A local hard spectral domain or pointwise barrier enforces the bound."
+  },
+  {
+    "claim": "METRIC-001 requires nonlocal mechanics",
+    "result": "not in frozen premises",
+    "construction": "METRIC-001 permits both local finite-jet and functional maps and selects neither."
+  }
+]

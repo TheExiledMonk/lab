@@ -1,0 +1,60 @@
+{
+  "run_id": "20260804T131921Z",
+  "equation_id": "PBUF-VERSION-C",
+  "equation_version": "C",
+  "equation_description": "matter-dependent rigidity K/K0=(1+loading)/2",
+  "equation_formula": "u = 2 u0 q/(1+q), q=rho/rho_max",
+  "inputs": [
+    "observed baryonic mass map",
+    "fixed PBUF constants"
+  ],
+  "config": {
+    "n": 128,
+    "extent": 8.0,
+    "source_x": 1.25,
+    "source_y": 0.35,
+    "mass_x": -0.65,
+    "mass_y": 0.0,
+    "mass_sigma": 0.75,
+    "mass_amplitude": 1.0,
+    "deformation_strength": 0.18,
+    "photon_steps": 80,
+    "photon_step_size": 0.06
+  },
+  "git_commit": "untracked",
+  "execution_seconds": 0.5876798629760742,
+  "checksums": {
+    "matter": "954b89b15e468c5472dbc61a4507f09f462b970302ae36ffe9524ff952a71dcb",
+    "deformation": "a1d2f28b47c1c65a0cd78566314d54b1fd262727585a50c79b147ccc89d2d161",
+    "gradient_x": "664f86d69c35578ffec31afff606bca6a7ec71b1e23a6f137143e6bbe5a42931",
+    "gradient_y": "e5853b6b07b6d833bdb480418c9045ae7e1944b4c925e31fabb25c8fe720f79f",
+    "observation": "dbe28959bd9e5396906d6ddfc3e33ad721b1c4ef4b0a15d6d819344a3224cbb1",
+    "baryonic_gr": "8e245def902672f7edb4989e68ae70ed4400f155067d18a147b892e0077ed975",
+    "lcdm": "1202da081005322c008d9a5d0c7569055bcbacade15a10e8889683923be79364",
+    "pbuf": "db90966af968af4a3483976958e2c53c981d0f9e1b3d13e466a389224e13160e",
+    "residual": "2e03f291b94397f90f3e5ce3306e191cd5b1e27203bf04debaafda2d2049a4c6"
+  },
+  "diagnostics": {
+    "deformation_min": 9.280497437865403e-55,
+    "deformation_max": 0.18,
+    "deformation_mean": 0.0034040407594342756,
+    "deformation_std": 0.018190640692499323,
+    "gradient_rms": 0.021457329572836515,
+    "gradient_max": 0.1328982381064782,
+    "photon_max_deviation": 1.8515360733828423e-05,
+    "finite_outputs": true
+  },
+  "validation": {
+    "zero_mass_zero_deformation": true,
+    "symmetric_mass_symmetric_deformation": true,
+    "zero_deformation_straight_paths": true,
+    "nonzero_deformation_changes_paths": true,
+    "full_pipeline_completed": true
+  },
+  "summary": {
+    "rmse_pbuf": 0.0005291126982548718,
+    "rmse_baryonic_gr": 0.003881056810842542,
+    "rmse_lcdm": 0.026165221430429757
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P1",
+    "text": "The microscopic state carries the defining spatial-vector (or covector) representation of SO(3), rather than a scalar, tensor, spinorial, or unrelated internal representation.",
+    "needed_for": "identifying three components with three spatial directions"
+  },
+  {
+    "id": "P2",
+    "text": "The rotation action is linear and faithful and all three directional responses are independent; no additional microscopic sectors are required.",
+    "needed_for": "conditional minimality of three"
+  },
+  {
+    "id": "P3",
+    "text": "A covariant scalarization mechanism is selected: a matter-provided vector e, a longitudinal derivative, or a nonlinear invariant.",
+    "needed_for": "mapping q to the scalar continuum field u"
+  },
+  {
+    "id": "P4",
+    "text": "The stable, local, isotropic long-wave expansion and decoupling assumptions of CORE-001/FND-002 hold.",
+    "needed_for": "recovering K u-div(G grad u)=s(rho)"
+  },
+  {
+    "id": "P5",
+    "text": "If g_dev=1/137 is to be derived rather than postulated, a microscopic principle must fix its value and specify any applicable scale behavior.",
+    "needed_for": "turning 1/137 from a direct PBUF premise into a prediction"
+  }
+]

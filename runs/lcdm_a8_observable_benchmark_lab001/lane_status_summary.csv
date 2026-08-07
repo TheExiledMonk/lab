@@ -1,0 +1,21 @@
+cluster_id,lane,status,bridge_class,notes
+Abell2744,L0_obs,loaded,I,SaWLens Merten et al. 2014 reconstruction (frozen)
+Abell2744,L1_lcdm,stopped,I,Circularity per section 7: only matter input available is dimensionless proxy derived from kappa_obs.
+Abell2744,L2_C10,ran,I,Frozen C10 combined local response (candidate_10_combined)
+Abell2744,L3_A8_T1,ran,I,Frozen A8 dual-layer constituent + T1 scalar-density transport (microscopic_transport_equivalence_lab001)
+MACS0416,L0_obs,loaded,I,SaWLens Merten et al. 2014 reconstruction (frozen)
+MACS0416,L1_lcdm,stopped,I,Circularity per section 7: only matter input available is dimensionless proxy derived from kappa_obs.
+MACS0416,L2_C10,ran,I,Frozen C10 combined local response (candidate_10_combined)
+MACS0416,L3_A8_T1,ran,I,Frozen A8 dual-layer constituent + T1 scalar-density transport (microscopic_transport_equivalence_lab001)
+MACS1149,L0_obs,loaded,I,SaWLens Merten et al. 2014 reconstruction (frozen)
+MACS1149,L1_lcdm,stopped,I,Circularity per section 7: only matter input available is dimensionless proxy derived from kappa_obs.
+MACS1149,L2_C10,ran,I,Frozen C10 combined local response (candidate_10_combined)
+MACS1149,L3_A8_T1,ran,I,Frozen A8 dual-layer constituent + T1 scalar-density transport (microscopic_transport_equivalence_lab001)
+AbellS1063,L0_obs,loaded,I,SaWLens Merten et al. 2014 reconstruction (frozen)
+AbellS1063,L1_lcdm,stopped,I,Circularity per section 7: only matter input available is dimensionless proxy derived from kappa_obs.
+AbellS1063,L2_C10,ran,I,Frozen C10 combined local response (candidate_10_combined)
+AbellS1063,L3_A8_T1,ran,I,Frozen A8 dual-layer constituent + T1 scalar-density transport (microscopic_transport_equivalence_lab001)
+Abell370,L0_obs,loaded,I,SaWLens Merten et al. 2014 reconstruction (frozen)
+Abell370,L1_lcdm,stopped,I,Circularity per section 7: only matter input available is dimensionless proxy derived from kappa_obs.
+Abell370,L2_C10,ran,I,Frozen C10 combined local response (candidate_10_combined)
+Abell370,L3_A8_T1,ran,I,Frozen A8 dual-layer constituent + T1 scalar-density transport (microscopic_transport_equivalence_lab001)

@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M02.coordinate.transforms",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "6d6cfeccae56f394131d267a4bdb86908e1f96b074e2abe87df4828f7f51192e",
+  "test_sha256": "6d6cfeccae56f394131d267a4bdb86908e1f96b074e2abe87df4828f7f51192e",
+  "reference_fixture_sha256": "9625f410930862806bddb2f99e80ce65610e5062b0aa3548effe5e98b1fed6a5",
+  "conventions_version": "1.0.0",
+  "tests_passed": 22,
+  "tests_total": 22,
+  "maximum_error": 0.0,
+  "tolerance": 1e-15,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "superseded_by": "FOUNDATION-001-CORRECTION-001"
+}

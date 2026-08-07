@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M02_coordinate_transforms",
+  "version": "1.1.0-correction001",
+  "status": "unit_verified_pending_contract_review",
+  "source_sha256": "ce7dcf894a1ff1341d8de59d5bd75b42b6c81b0786e21752dcdfa61beb2ade38",
+  "test_sha256": "ce7dcf894a1ff1341d8de59d5bd75b42b6c81b0786e21752dcdfa61beb2ade38",
+  "conventions_version": "1.1.0-correction001",
+  "correction_id": "FOUNDATION-001-CORRECTION-001",
+  "tests_passed": 36,
+  "tests_total": 36,
+  "maximum_error": 0.0,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "supersedes": "FOUNDATION-001 previous registry entry (see superseded_certificates/)"
+}

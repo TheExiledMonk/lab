@@ -1,0 +1,17 @@
+question,continuum_mechanics_answer,mechanical_status,metaphysical_extension,pbuf_decision
+Current configuration,"One single-valued configuration per material element on an admissible state slice",Required,"Only that configuration exists simpliciter",First follows; extension does not
+Deformation,"One objective relative deformation for each element once current/reference data and branch are fixed",Required,"Other deformation states are non-real",First follows; extension does not
+Stored energy,"One definite assignment from the complete state within the chosen elastic realization",Required,"Only the state whose energy is evaluated is actual",Evaluability does not establish actuality
+Constitutive response,"One response for a sufficiently complete state; hidden dependence signals incomplete state variables",Required,"The response map selects what exists across history",Rejected inference
+Spatial heterogeneity,"Different elements may occupy different local states inside one global state",Allowed,"The universe occupies multiple complete global states",Does not follow
+Mixtures and phases,"Constituent/phase fractions and interfaces enlarge the complete state",Allowed conditionally,"Incompatible whole-universe states coexist",Does not follow
+Multiple solution branches,"Several configurations may be admissible alternatives",Allowed,"All branches are simultaneously occupied",Not mechanically implied
+Statistical ensemble,"Distribution represents uncertainty or statistical state unless promoted by extra physics",Allowed representation,"Every ensemble member is physically realized",Additional ontology
+Memory,"Response may require past history or sufficient internal memory variables",Conditional unresolved branch,"Past configurations remain ontologically actual",Memory dependence does not imply this
+Reference configuration,"Comparison structure used to define deformation",Required in shortlisted kinematics,"Reference is a coexisting earlier universe",Rejected inference
+Evolution,"Ordered succession of complete configurations",Required for dynamics,"Only the boundary state or the whole path exists",Mechanics is neutral
+Whole-history solution,"Trajectory/action/spacetime solution is a valid mathematical object",Standard representation,"The entire history is equally actual",Mechanically meaningful but interpretive
+Growing history,"Current state may be treated as boundary of accumulated records/history",Compatible interpretation,"The actual domain objectively grows",Not selected by mechanics
+Single actual state,"Matches ordinary current-configuration language",Natural interpretation,"Exactly one history member exists",Requires actuality principle
+Emergent time,"Order of evolving states is mechanically natural",Structurally supported,"Order automatically supplies duration/proper time",Rejected; temporal identification remains missing
+Relativistic slicing,"State may be represented on admissible Cauchy slices",Conditional requirement,"One coordinate foliation is the absolute present",Forbidden inference without V11-compatible principle

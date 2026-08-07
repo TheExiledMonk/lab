@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M11_field_diagnostics",
+  "version": "1.1.0-correction001",
+  "status": "unit_verified_pending_contract_review",
+  "source_sha256": "59692037396fefc84d742e50f53e944a006164528235781346e5d9df7c940441",
+  "test_sha256": "59692037396fefc84d742e50f53e944a006164528235781346e5d9df7c940441",
+  "conventions_version": "1.1.0-correction001",
+  "correction_id": "FOUNDATION-001-CORRECTION-001",
+  "tests_passed": 4,
+  "tests_total": 4,
+  "maximum_error": 0.0,
+  "tolerance": 1e-15,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "supersedes": "FOUNDATION-001 previous registry entry (see superseded_certificates/)"
+}

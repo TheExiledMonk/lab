@@ -1,0 +1,19 @@
+{
+  "cluster_id": "Abell2744",
+  "model": "A8",
+  "channel_id": "CH0",
+  "channel_name": "Native full response",
+  "decomposition_type": "native",
+  "padded_unpadded": "padded",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "dtype": "float64",
+  "response_rx_sha256": "fc140ca9d32a5882a29222eef56a1c10c315a701ae594825e5bc8c365e1d1aae",
+  "response_ry_sha256": "8ef8bad3cac148fe93c1fd04c4aeb9e8cd376a4d216ff03519e808e048cebefb",
+  "kappa_sha256": "2c0f902e5e5f1250412f4f3287904834ecdf1ab1caefb52bee13aad5edda5eeb",
+  "gamma1_sha256": "fd87913e70a27722d6a9f692de10ba0a1408ceb06cbce742e6020a7422170ce6",
+  "gamma2_sha256": "107117094f86ae1e27134801fcb65e50db20e5fd57a029612fc124af877be482",
+  "frozen_source_hash": "50c303c7b216bbc285bf6d76907107307fa80fa7a3de8219b926da54fc6a3c8e"
+}

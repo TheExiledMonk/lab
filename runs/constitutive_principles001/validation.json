@@ -1,0 +1,34 @@
+{
+  "milestone": "PBUF CONSTITUTIVE-PRINCIPLES-001",
+  "pass": true,
+  "checks": {
+    "source_milestone_is_material_discovery001": true,
+    "all_candidates_considered": true,
+    "all_principles_classified": true,
+    "all_principles_justified": true,
+    "dependency_graph_complete_for_necessary_nodes": true,
+    "no_exact_equivalence_claimed": true,
+    "no_preferred_model_selected": true,
+    "no_new_free_parameters": true,
+    "ontology_preserved": true,
+    "weak_lensing_preserved": true,
+    "no_observational_fit": true
+  },
+  "candidate_count": 44,
+  "conditionally_viable_count": 23,
+  "principle_count": 18,
+  "reduced_family_count": 5,
+  "readiness": "B \u2014 Partially constrained",
+  "deliverables": [
+    "universal_principle_catalogue.json",
+    "principle_frequency_table.csv",
+    "necessity_classification.csv",
+    "dependency_graph.csv",
+    "equivalence_graph.json",
+    "independence_analysis.json",
+    "constitutive_family_reduction.csv",
+    "principle_elimination_report.csv",
+    "constitutive_principles_report.md",
+    "validation.json"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "milestone": "PBUF STATE-001",
+  "outcome": "D_with_C_family",
+  "success_criterion": {
+    "met": true,
+    "reason": "The current framework does not imply a unique physically actual universal state; the remaining ontology family and the missing global actuality-and-slicing principle are identified precisely."
+  },
+  "decision": {
+    "identity_uniqueness_at_history_position": "definitional_within_conditional_history",
+    "complete_global_state_exists": "not_established",
+    "single_physically_actual_state": "not_established",
+    "admissible_actuality_ontologies": [
+      "single_actual_state",
+      "growing_history",
+      "whole_history"
+    ],
+    "dynamics_selects_actuality": false,
+    "reconstruction_is_temporal_motion": false
+  },
+  "missing_principle": "A global actuality-and-slicing principle specifying whether one state, an accumulated segment, or the complete history is physically realized; defining any invariant present-state selector; and proving compatibility with V11 without an observable preferred foliation.",
+  "scope_checks": {
+    "v11_modified": false,
+    "new_field_equations": false,
+    "new_physical_constants": false,
+    "cosmological_equations_modified": false,
+    "observations_fitted": false,
+    "speculative_time_machine_argument_used": false
+  },
+  "deliverables": [
+    "universal_state_ontology_report.md",
+    "state_history_spacetime_history_comparison.csv",
+    "assumption_audit.csv",
+    "ontology_emergent_time_dependency_graph.md",
+    "recommendation.md"
+  ]
+}

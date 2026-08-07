@@ -1,0 +1,40 @@
+{
+  "max_bending": 6.618101068512489e-05,
+  "mean_bending": 2.081038727657203e-05,
+  "rms_bending": 3.126323086705932e-05,
+  "max_bending_angle": 0.0003027695130772518,
+  "mean_bending_angle": 9.517288590525927e-05,
+  "max_deflection": 4.739999999999974,
+  "max_convergence": 0.5,
+  "mean_convergence": -0.5,
+  "max_shear": 4.739999999999974,
+  "mean_shear": 0.06249029762846724,
+  "max_conservation": 2.220446049250313e-16,
+  "photon_count": 2000,
+  "propagation_runtime_seconds": 0.0073574569541960955,
+  "n_grid": 128,
+  "n_steps": 80,
+  "step_size": 0.06,
+  "max_response_magnitude": 0.1448079652043055,
+  "max_C": 0.18,
+  "checksums": {
+    "matter": "f052577d3c4f7288a4f013370ba78d163788370b79280fff8ee4def24d59d41d",
+    "constitutive": "2270d645925d35e6c00e2988deafb5ecaccd237ac2866b0a7590478c7b70c4b7",
+    "gradient_magnitude": "24d9164ffcc4d22c5f04b01a852297d9b36e31ef5cbe363b1513574f9ad5e068",
+    "response_x": "6bbde49a0c6cfb8badda17f9eb1e7e6b3627f7fceac50b2a97809d83910807cc",
+    "response_y": "ef8951212169ff247197662d345338b2109a8413b0ee0bfe4a88a4157fb488fb",
+    "photon_trajectories_x": "afb7cadf8a4d2039c7b2c8e23f32d1f1146ee6feb33a491855d91d9d604fe849",
+    "photon_trajectories_y": "c4e42901736a872632c95137121756d2c07ed65935229f163736fc58e070f788",
+    "convergence": "f27f27de5e36fdd1f34a8e09ae838a3bc5110a665031908dc09251ed4e73ed71",
+    "shear_g1": "571d26135efb7dd6e33c7d96fb9986278b38612a3a4d690fc3dbcb7eae52b748",
+    "shear_g2": "a17aa8fe1c176c6b6219e7fdfaaea3f59ee42e8e68b26996c47e298d63d0703e",
+    "magnification": "53e1bdad27bf27614579ab161ce24a20b2038cd78f313708da745b40d9bf9e46"
+  },
+  "frozen_pipeline": {
+    "constitutive": "Version A: C(X) = 0.18 * rho(X) / rho_max",
+    "transport": "90-degree transverse response, direct addition + renormalisation",
+    "amplitude": "A = |grad C|",
+    "lens": "Lens-001 frozen dataset"
+  },
+  "execution_seconds": 3.2642353730043396
+}

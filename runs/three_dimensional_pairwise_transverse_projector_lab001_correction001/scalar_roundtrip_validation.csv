@@ -1,0 +1,8 @@
+transform,input_shape,output_shape,max_roundtrip_error,tolerance,passes
+RC0,"[3, 4, 5]","[3, 4, 5]",0.0,0.0,True
+RC1,"[3, 4, 5]","[3, 5, 4]",0.0,0.0,True
+RC2,"[3, 4, 5]","[5, 4, 3]",0.0,0.0,True
+RC3,"[3, 4, 5]","[4, 3, 5]",0.0,0.0,True
+RC4,"[3, 4, 5]","[4, 3, 5]",0.0,0.0,True
+RC5,"[3, 4, 5]","[5, 4, 3]",0.0,0.0,True
+RC6,"[3, 4, 5]","[3, 5, 4]",0.0,0.0,True

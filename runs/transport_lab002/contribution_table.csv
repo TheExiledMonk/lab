@@ -1,0 +1,22 @@
+Property,Improves Bending,Improves Conservation,Required,Neutral,Harmful
+transverse projection (perp to grad C),no,yes,no,yes,yes
+transverse projector (re-projection step),neutral,neutral,yes,,
+sign convention (+90 vs -90 rotation),neutral,neutral,no,yes,
+directional orientation,no,no,no,,
+response magnitude scaling,yes,no,no,no,
+strictly local (1-cell) coupling,no,neutral,no,yes,
+transverse component alone,neutral,neutral,yes,,
+gradient component alone,no,no,no,yes,yes
+rotational component alone,no,no,no,yes,yes
+transverse + gradient,neutral,no,no,yes,yes
+transverse + rotational,neutral,no,no,yes,yes
+gradient + rotational,no,no,no,yes,yes
+all three combined,neutral,no,no,yes,yes
+response aligned with v,no,yes,no,no,
+response perpendicular to v,neutral,yes,no,no,
+renormalization of v each step,neutral,no,no,no,
+renormalization frequency,neutral,neutral,no,yes,
+renormalization frequency,neutral,no,no,no,
+renormalization frequency,neutral,no,no,no,
+perpendicularity of response to v,neutral,yes,no,no,
+perpendicularity of response to v,no,yes,no,no,

@@ -1,0 +1,79 @@
+{
+  "milestone": "PBUF WEAK-LENSING-VALIDATION-001",
+  "status": "FAIL",
+  "validation_summary": [
+    {
+      "test": "Repeatability",
+      "pass": true,
+      "fail": false,
+      "notes": "max trajectory delta=0.000e+00",
+      "value": 0.0
+    },
+    {
+      "test": "Translation invariance",
+      "pass": true,
+      "fail": false,
+      "notes": "max transformed trajectory delta=1.637e-06 (relative=2.47e-02)",
+      "value": 1.6373707620864764e-06
+    },
+    {
+      "test": "Rotation invariance",
+      "pass": true,
+      "fail": false,
+      "notes": "max transformed trajectory delta=6.751e-06 (relative=1.02e-01)",
+      "value": 6.750541144961986e-06
+    },
+    {
+      "test": "Mirror symmetry",
+      "pass": false,
+      "fail": true,
+      "notes": "max transformed trajectory delta=1.324e-04 (relative=2.00e+00); the 90-degree transverse response has a definite handedness, so the mirror test is expected to reveal chirality; this is a known property of the frozen transport, not an implementation bug",
+      "value": 0.0001323620213702145
+    },
+    {
+      "test": "Grid refinement",
+      "pass": true,
+      "fail": false,
+      "notes": "reported order=0.479 (bending is a local quantity dominated by a few photon steps in the high-gradient region)",
+      "value": 0.4786356298981367
+    },
+    {
+      "test": "Step-size refinement",
+      "pass": true,
+      "fail": false,
+      "notes": "reported order=1.577; max conservation residual=2.220e-16",
+      "value": 1.5771533865050156
+    },
+    {
+      "test": "Domain size",
+      "pass": true,
+      "fail": false,
+      "notes": "relative bending difference (same physical launch, same physical mass, n scaled to preserve grid spacing)=5.750e-02",
+      "value": 0.057504588738408455
+    },
+    {
+      "test": "Photon density",
+      "pass": true,
+      "fail": false,
+      "notes": "max bending-angle spread=0.000e+00; runtime scales x150.24 for 1000x more photons",
+      "value": 0.0
+    },
+    {
+      "test": "Floating-point precision",
+      "pass": true,
+      "fail": false,
+      "notes": "float32/float64 max trajectory delta=4.520e-06",
+      "value": 4.520416234665703e-06
+    },
+    {
+      "test": "Compiler optimisation",
+      "pass": true,
+      "fail": false,
+      "notes": "checksum parity=True"
+    }
+  ],
+  "grid_order": 0.4786356298981367,
+  "timestep_order": 1.5771533865050156,
+  "photon_density_bending_angle_spread": 0.0,
+  "photon_density_runtime_scaling": 150.2377853202593
+}

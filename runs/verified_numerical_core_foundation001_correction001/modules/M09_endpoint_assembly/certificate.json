@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M09_endpoint_assembly",
+  "version": "1.1.0-correction001",
+  "status": "experimental",
+  "source_sha256": "c7739961a1b0d6abaecb2352fa5e48ce82aea821fa855ab72e8fca67e9982c87",
+  "test_sha256": "c7739961a1b0d6abaecb2352fa5e48ce82aea821fa855ab72e8fca67e9982c87",
+  "conventions_version": "1.1.0-correction001",
+  "correction_id": "FOUNDATION-001-CORRECTION-001",
+  "tests_passed": 2,
+  "tests_total": 2,
+  "maximum_error": 2.432376777795247e-15,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "supersedes": "FOUNDATION-001 previous registry entry (see superseded_certificates/)"
+}

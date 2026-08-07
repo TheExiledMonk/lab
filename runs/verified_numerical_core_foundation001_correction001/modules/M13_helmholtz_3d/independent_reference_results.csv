@@ -1,0 +1,5 @@
+f_irr_partition,f_sol_partition,reconstruction_error,orthogonality_error,passes,expected_f_irr_partition,max_diff
+1.0,6.162975822039155e-33,0.0,5.551115123125782e-17,True,,
+0.0,1.0,0.0,0.0,True,,
+0.2,0.8,,,True,0.2,
+,,,,True,,0.0

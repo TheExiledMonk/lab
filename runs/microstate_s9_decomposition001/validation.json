@@ -1,0 +1,41 @@
+{
+  "milestone": "PBUF MICROSTATE-S9-DECOMPOSITION-001",
+  "frozen_hash_verification_passed": true,
+  "frozen_hashes": {
+    "constitutive_equations.py": {
+      "expected_sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+      "actual_sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+      "match": true
+    },
+    "weak_lensing_observation001.py": {
+      "expected_sha256": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+      "actual_sha256": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+      "match": true
+    },
+    "observable_lab001.py": {
+      "expected_sha256": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+      "actual_sha256": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+      "match": true
+    },
+    "source_plane_lab001.py": {
+      "expected_sha256": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+      "actual_sha256": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+      "match": true
+    },
+    "numerical_convergence001.py": {
+      "expected_sha256": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+      "actual_sha256": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+      "match": true
+    }
+  },
+  "expected_run_count": 70,
+  "actual_run_count": 70,
+  "decomposition_count": 14,
+  "cluster_count": 5,
+  "all_metrics_finite": true,
+  "all_runs_machine_precision_conservation": true,
+  "runs_preserving_conservation": 70,
+  "required_artifacts_present_nonempty": true,
+  "png_signatures_valid": true,
+  "validation_passed": true
+}

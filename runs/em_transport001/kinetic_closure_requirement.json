@@ -1,0 +1,36 @@
+{
+  "missing_principle": "A local, conservative, second-order-in-time kinetic sector for the medium that supplies positive momentum density (or an equivalent symplectic structure) and thereby turns the static constitutive chain into a wave-bearing evolution equation. Equivalently, a Maxwell-like first-order structure with a curl kinetic operator and a conserved field-strength pair, supplied without introducing an independent EM sector.",
+  "explicitly_forbidden_alternatives": [
+    "introducing a new spacetime inertia as a free parameter",
+    "introducing phenomenological steering coefficients",
+    "introducing metric ansaetze",
+    "solving cosmology",
+    "solving quantum mechanics",
+    "assuming an independent electromagnetic sector separate from the spacetime medium",
+    "introducing free transport constants"
+  ],
+  "frozen_inputs_that_determine_some_but_not_all_of_the_closure": [
+    "alpha_EM = 1/137 fixes the static matter-vertex coupling only; it does not fix the field's own dynamics.",
+    "alpha_resolved = 3 alpha_EM fixes an amplitude identity only; it does not supply differential structure for transport.",
+    "kappa_1 |q_j - q_i|^2 in CORE-001-E01 fixes the static nearest-neighbour elastic energy; it does not imply a propagating wave mode under overdamped dynamics.",
+    "GW170817 constrains epsilon_0 ~ 1 in V11 sec. 2.4; it does not derive the propagation law."
+  ],
+  "what_wavefront_evolution_requires_that_is_missing": [
+    "a positive momentum density rho or an equivalent kinetic metric on the admissible states",
+    "a time-derivative structure (second-order Newtonian, or first-order Hamiltonian with curl kinetic operator)",
+    "an acoustic-positivity / strong-ellipticity gate inherited from the elastic 2-jet (LOCALITY-001 L-003)"
+  ],
+  "source_evidence": [
+    "LOCALITY-001 wave audit: waves exist iff frozen inertia is positive",
+    "INERTIA-001: kinetic sector is a closure gap; frozen elastic energy alone does not determine it",
+    "DYNAMICS-001: native action family is degree-one homogeneous; no specific kinetic integrand is selected",
+    "DURATION-001: physical duration is a line functional of propagation-bearing evolution; its clock calibration is open",
+    "PHOTON-001: n(u) and beta = (dn/du)|_0 are not fixed by g_dev or by alpha_EM alone",
+    "V11 sec. 2.4: wave modes are taken from GR / EM, not derived from the V11 microscopic structure"
+  ],
+  "what_em_transport001_does_not_claim": [
+    "It does not declare that the kinetic sector is impossible.",
+    "It does not introduce a candidate kinetic sector.",
+    "It does not fit data, modify V11, change the WL laboratory, or introduce new ontology."
+  ]
+}

@@ -1,0 +1,14 @@
+edge_id,source,target,relationship,status
+ARCH-D01,Quantum Engine,alpha_QM,produces elastic amplitude,authoritative V11
+ARCH-D02,alpha_QM,quantum metadata and thermal LUT,upstream handoff,authoritative V11; exact resolving map not supplied
+ARCH-D03,quantum metadata,alpha_resolved,resolves cosmological elastic amplitude,authoritative V11
+ARCH-D04,thermal LUT,alpha_T(a),supplies scale-factor-dependent amplitude,authoritative V11
+ARCH-D05,alpha_EM,alpha_resolved,alpha_resolved ~= 3 alpha_EM,implemented V11 relationship; quantities remain distinct
+ARCH-D06,alpha_T(a),Omega_sigma_raw(a),V11 equations (5)-(8),authoritative V11
+ARCH-D07,alpha_resolved,Omega_sigma_target and Omega_b0,V11 equations (9) and (16),authoritative V11
+ARCH-D08,g_dev,microscopic matter source,direct exploratory vertex,post-V11 construct; no V11 mapping
+ARCH-D09,microscopic matter source,continuum u,conditional micro-macro propagation,incomplete closure
+ARCH-D10,u,n(u) or beta,conditional photon response,incomplete optical map
+ARCH-D11,n(u) or beta,photon observables,Fermat/ray propagation,conditional PHOTON-001
+ARCH-D12,g_dev,equal-component vertex,common loading premise,post-V11 construct
+ARCH-D13,equal-component vertex,bright/dark and normalized ratios,linear algebra,conditional post-V11 result

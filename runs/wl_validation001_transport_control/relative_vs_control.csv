@@ -1,0 +1,10 @@
+Candidate,Label,Bend Δ%,Conservation Δ%,Runtime Δ%
+Cand 1,Linear (control),+0.0000%,+0.0000%,+0.0000%
+Cand 2,Square root (normalised),+3160.6802%,+0.0000%,-0.7702%
+Cand 3,Quadratic (normalised),-99.6747%,+0.0000%,-1.1597%
+Cand 4,Logarithmic (normalised),+7.0521%,+0.0000%,-0.6961%
+Cand 5,Saturating |∇C|/(1+β|∇C|),+490.5125%,+0.0000%,-2.2162%
+Cand 7,Piecewise linear (break at 50%),+53.8463%,+0.0000%,-2.3892%
+Cand 6.05,Threshold at 5% of max|∇C|,-100.0000%,-100.0000%,-2.1683%
+Cand 6.10,Threshold at 10% of max|∇C|,-100.0000%,-100.0000%,-0.8879%
+Cand 6.20,Threshold at 20% of max|∇C|,-100.0000%,-100.0000%,-1.4213%

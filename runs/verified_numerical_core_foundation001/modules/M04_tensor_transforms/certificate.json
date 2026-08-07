@@ -1,0 +1,18 @@
+{
+  "module": "pbuf.core.M04.tensor.transforms",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "5b534bccee4c75d8e1b2150e44a01d1e919246e21e0b65d9f0c4a5a6f5f47768",
+  "test_sha256": "5b534bccee4c75d8e1b2150e44a01d1e919246e21e0b65d9f0c4a5a6f5f47768",
+  "reference_fixture_sha256": "14a76f4f64dea3c56f86874a1e70cf5c8a5c63778079b4067e62b6676ba5ee2f",
+  "conventions_version": "1.0.0",
+  "tests_passed": 28,
+  "tests_total": 28,
+  "maximum_error": 0.0,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true
+}

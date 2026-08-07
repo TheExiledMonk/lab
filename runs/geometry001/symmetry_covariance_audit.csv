@@ -1,0 +1,13 @@
+criterion,required_result,current_status,what_it_constrains,what_it_does_not_fix
+Diffeomorphism covariance,"G[f^*chi]=f^*G[chi]",required by retained GR; map absent,"tensorial form and coordinate independence","field content constitutive functions normalization"
+Single physical metric,"all standard matter minimally couples to the same output g",required by standard-GR reading,"universal free fall and stress-energy operator","how chi creates g"
+Lorentzian signature,"one time and three space directions with nonzero determinant",required,"causal metric domain","microscopic origin and signature-changing exclusions"
+Operational Lorentz invariance,"unloaded local state is Minkowskian and no observable preferred direction violates V11",required,"background and allowed symmetry breaking","whether a hidden medium rest frame exists"
+Spatial isotropy,"rank-two response reduces to temporal/spatial projectors in a rest frame",conditional local reduction,"removes directional anisotropies","equality of temporal and spatial response functions"
+Parity,"exclude unpaired pseudoscalar/pseudotensor response terms",not stated by V11; conventional conditional choice,"parity-odd structures","even constitutive functions"
+Locality,"G at x depends only on finite jets of chi at x",not supplied,"pointwise or finite-derivative source structure","derivative order coefficients or nonlocal kernels"
+Causality,"nonlocal kernels have retarded support and equations are hyperbolic",required for viable dynamical completion but not formulated,"admissible kernels and propagation","specific light cone until g and S_sigma are known"
+Internal gauge invariance,"G is invariant under redundancies of chi such as local Lorentz coframe rotations",conditional on ontology,"physical versus redundant medium modes","choice of ontology"
+Dimensional consistency,"every term in g is dimensionless for length coordinates",required; blocked by missing chi dimensions,"necessary scales and normalizations","their numerical or microphysical values"
+Weak-field GR,"Minkowski/cosmological background standard Einstein linearization Newtonian limit and standard photon null geodesics",required by V11,"linear combinations of response near chi_0","nonlinear global or field-redefinition-inequivalent map"
+Bianchi/Noether compatibility,"total stress-energy is covariantly conserved on all field equations",required by diffeomorphism invariance,"exchange between medium and matter","medium action and dynamics"

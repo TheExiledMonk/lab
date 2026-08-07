@@ -1,0 +1,12 @@
+source,target,relation
+Quantum Engine,V11 microphysical inputs,supplies alpha hierarchy and thermal background inputs
+V11 microphysical inputs,missing covariant medium principle,does not presently determine it
+T_m^{mu nu},variational load J_A,functional chain rule through g_eff[chi]
+missing covariant medium principle,medium equation,would define chi and S_med
+variational load J_A,medium equation,loads
+medium equation,deformation response chi,solve with causal/boundary prescription
+deformation response chi,effective metric g_eff,missing coarse-graining/matching map
+effective metric g_eff,effective GR,long-wavelength matching
+effective GR,background distances and growth,standard macroscopic calculation
+effective GR,photon readout,independent PHOTON-001 gate
+photon readout,weak lensing,downstream; frozen implementation unchanged

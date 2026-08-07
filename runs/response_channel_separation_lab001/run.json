@@ -1,0 +1,65 @@
+{
+  "laboratory_id": "PBUF RESPONSE-CHANNEL-SEPARATION-LAB-001",
+  "started_iso": "2026-08-06T12:49:11Z",
+  "duration_seconds": 39.04906541190576,
+  "host_python": "3.12.13",
+  "numpy_version": "2.5.1",
+  "production": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "frozen_hashes_ok": true,
+  "smoothing_sigma": 1.0,
+  "n_temporal_snapshots": 21,
+  "alpha_fs": 0.0072973525692838015,
+  "three_alpha_fs": 0.021892057707851405,
+  "six_alpha_fs": 0.04378411541570281,
+  "inv_alpha_fs": 137.035999084,
+  "cluster_ids": [
+    "Abell2744",
+    "MACS0416",
+    "MACS1149",
+    "AbellS1063",
+    "Abell370"
+  ],
+  "channel_ids": [
+    "CH0",
+    "CH1",
+    "CH2",
+    "CH3",
+    "CH4"
+  ],
+  "lag_positions": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      -1,
+      0
+    ]
+  ],
+  "no_new_physics": true,
+  "no_fitting": true,
+  "no_amplitude_matching": true,
+  "instrumentation_does_not_modify_frozen_outputs": true
+}

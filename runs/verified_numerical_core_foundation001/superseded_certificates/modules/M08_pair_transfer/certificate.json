@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M08.pair.transfer",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "9171fe4a8b92a7b2dbaac5c87d8850e2adc616525e4b88c01e6e68554dafb885",
+  "test_sha256": "9171fe4a8b92a7b2dbaac5c87d8850e2adc616525e4b88c01e6e68554dafb885",
+  "reference_fixture_sha256": "10fe4153ce00436a9778d15dcabb0a33a01d033c5f00ed0ff62cee7f9555ea57",
+  "conventions_version": "1.0.0",
+  "tests_passed": 1,
+  "tests_total": 1,
+  "maximum_error": 0.0,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "superseded_by": "FOUNDATION-001-CORRECTION-001"
+}

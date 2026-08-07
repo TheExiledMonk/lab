@@ -1,0 +1,69 @@
+{
+  "milestone": "PBUF ENERGY-PRINCIPLE-001",
+  "schema_version": "1.0",
+  "status": "complete at restriction scope; uniqueness not derivable",
+  "authorities": ["FOUNDATION-001", "DEFORMATION-001", "HYPER-001", "V11"],
+  "result": "W(C)=Phi(I1,I2,I3) on an objective bounded SPD invariant domain, subject to reference, regularity, stability, and endpoint gates",
+  "logical_status_key": {
+    "P": "accepted postulate",
+    "D": "derived consequence",
+    "A": "additional accepted premise",
+    "C": "compatibility condition",
+    "S": "sufficient but not mandatory"
+  },
+  "restrictions": [
+    {"id":"EP-R001","property":"objective rank-three SPD domain","status":"D","source":["DEFORMATION-001","HYPER-001"]},
+    {"id":"EP-R002","property":"local parity-even isotropic invariant dependence","status":"A/D","source":["HYPER-001"]},
+    {"id":"EP-R003","property":"C1 interior regularity for classical response","status":"C","source":["FP-2","HYPER-001"]},
+    {"id":"EP-R004","property":"C2 regularity near i0 for weak tangent","status":"C","source":["FP-5","V11"]},
+    {"id":"EP-R005","property":"Phi(3,3,1)=0","status":"D","source":["energy-zero normalization"]},
+    {"id":"EP-R006","property":"Phi_1^0+2 Phi_2^0+Phi_3^0=0","status":"D","source":["stress-free unloaded state"]},
+    {"id":"EP-R007","property":"mu>0 and K>0","status":"C","source":["strict local stability"]},
+    {"id":"EP-R008","property":"spectral closure compactly contained in positive cone","status":"A/D","source":["finite elastic bound"]},
+    {"id":"EP-R009","property":"hard constraint or barrier or finite endpoint plus state constraint","status":"D","source":["HYPER-001 endpoint classification"]},
+    {"id":"EP-R010","property":"no added endpoint/modulus/exponent constants","status":"P","source":["FP-6"]},
+    {"id":"EP-R011","property":"statewise rate-free and history-free energy","status":"D","source":["HYPER-001","FP-3 compatibility"]},
+    {"id":"EP-R012","property":"V11 Lorentz/GR matching after missing maps","status":"C","source":["FP-5","V11"]}
+  ],
+  "not_derived": [
+    "unique Phi",
+    "unique minimizer",
+    "global convexity",
+    "rank-one convexity or polyconvexity",
+    "limiting spectrum",
+    "saturation function or exponent",
+    "bounded endpoint energy or stress plateau",
+    "numerical modulus or overall energy scale",
+    "map from V11 background variables to local strain"
+  ],
+  "endpoint_classes": ["hard constraint", "coercive barrier", "regular finite endpoint plus independent state constraint"],
+  "remaining_freedoms": [
+    "shape of admissible invariant domain",
+    "endpoint class",
+    "all higher-order derivatives of Phi",
+    "tangent derivative values and energy scale",
+    "additional stationary states or minima",
+    "finite-deformation convexity"
+  ],
+  "field001_missing": [
+    "primitive realization and reference evolution",
+    "one-metric and clock-ruler identification",
+    "action measure and kinetic/inertial term",
+    "emergent-order variation prescription",
+    "stress-to-geometric-response map",
+    "matter coupling and source projection",
+    "admissible variations and boundary/initial data",
+    "constitutive closure or proof of constitutive independence",
+    "V11 homogeneous reduction",
+    "Lorentz/Einstein matching and well-posedness proof"
+  ],
+  "forbidden_checks": {
+    "foundation_modified": false,
+    "deformation_modified": false,
+    "hyper_modified": false,
+    "named_energy_law_introduced": false,
+    "empirical_fit_performed": false,
+    "material_coefficient_introduced": false,
+    "field_equations_derived": false
+  }
+}

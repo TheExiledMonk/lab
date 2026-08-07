@@ -1,0 +1,85 @@
+{
+  "mission": "PBUF FND-003 Three-Dimensional Microscopic State Justification",
+  "scope": "theory-only",
+  "outcome": "C",
+  "observational_claim": false,
+  "three_dimensional_state": {
+    "geometric_state": "q(x) in T_x Sigma (or T_x^* Sigma), with dim(Sigma)=3",
+    "components": "q^a=e^a(q), a=1,2,3, in a local orthonormal frame",
+    "rotation_law": "q'^a=R^a_b q^b for R in SO(3)",
+    "status": "minimal conditional realization, not a consequence of dimensionality alone",
+    "minimality_conditions": [
+      "linear real state",
+      "faithful action of spatial rotations",
+      "independent directional response",
+      "no additional internal sectors"
+    ]
+  },
+  "continuum_mappings": [
+    [
+      "Matter-selected projection",
+      "u(x)=integral W_L(x-y) e(y).q(y) dy",
+      "Linear and matches CORE-001",
+      "Requires an additional transforming vector e; a fixed background e breaks isotropy"
+    ],
+    [
+      "Longitudinal scalar",
+      "u(x)=L integral W_L(x-y) div(q(y)) dy",
+      "Rotation scalar without an internal direction",
+      "Introduces a derivative and length L; does not equal the CORE-001 map"
+    ],
+    [
+      "Magnitude scalar",
+      "u(x)=integral W_L(x-y) |q(y)| dy",
+      "Direction-free rotation scalar",
+      "Nonlinear, nonnegative, and changes the weak-field/source expansion"
+    ]
+  ],
+  "coupling_1_over_137": {
+    "status": "direct working premise",
+    "identified_parameter": "g_dev",
+    "intrinsic_or_derived": false
+  },
+  "remaining_postulates": [
+    {
+      "id": "P1",
+      "text": "The microscopic state carries the defining spatial-vector (or covector) representation of SO(3), rather than a scalar, tensor, spinorial, or unrelated internal representation.",
+      "needed_for": "identifying three components with three spatial directions"
+    },
+    {
+      "id": "P2",
+      "text": "The rotation action is linear and faithful and all three directional responses are independent; no additional microscopic sectors are required.",
+      "needed_for": "conditional minimality of three"
+    },
+    {
+      "id": "P3",
+      "text": "A covariant scalarization mechanism is selected: a matter-provided vector e, a longitudinal derivative, or a nonlinear invariant.",
+      "needed_for": "mapping q to the scalar continuum field u"
+    },
+    {
+      "id": "P4",
+      "text": "The stable, local, isotropic long-wave expansion and decoupling assumptions of CORE-001/FND-002 hold.",
+      "needed_for": "recovering K u-div(G grad u)=s(rho)"
+    },
+    {
+      "id": "P5",
+      "text": "If g_dev=1/137 is to be derived rather than postulated, a microscopic principle must fix its value and specify any applicable scale behavior.",
+      "needed_for": "turning 1/137 from a direct PBUF premise into a prediction"
+    }
+  ],
+  "recommendation": "FND-004 covariant representation, scalarization, mode-decoupling, and coupling-identifiability development",
+  "validation": {
+    "checks": {
+      "all_claims_classified": true,
+      "required_class_boundaries_present": true,
+      "unique_traceability_ids": true,
+      "three_state_is_not_marked_unconditional_derivation": true,
+      "one_over_137_is_not_marked_derived": true,
+      "direct_g_dev_source_recorded": true,
+      "scalarization_alternatives_audited": true,
+      "irreducible_postulates_listed": true,
+      "frozen_laboratory_untouched_by_design": true
+    },
+    "all_checks_pass": true
+  }
+}

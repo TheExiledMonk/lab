@@ -1,0 +1,96 @@
+{
+  "milestone": "PBUF SOURCE-PLANE-LAB-001",
+  "status": "OK",
+  "frozen_components": {
+    "constitutive": "Version A: C = 0.18 * rho / rho_max",
+    "transport": "90-degree transverse response, direct addition + renormalisation",
+    "response": "r = 90 deg (grad C) * |grad C|",
+    "numerical_parameters": {
+      "n": 128,
+      "extent": 8.0,
+      "strength": 0.18,
+      "step": 0.06,
+      "steps": 80,
+      "y_span": 3.0,
+      "nphotons": 2000,
+      "bins": 64
+    },
+    "input": "rho = max(kappa, 0) / max(max(kappa, 0)); cluster = Abell2744",
+    "observable_extraction": "frozen implementations imported from observable_lab001.METHOD_DISPATCH (no modifications)"
+  },
+  "variable": "photon source plane (launch geometry only)",
+  "launch_configurations": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "photon_counts": [
+    2000,
+    5000,
+    10000,
+    20000
+  ],
+  "extraction_methods": [
+    "histogram",
+    "kernel",
+    "jacobian",
+    "area",
+    "divergence",
+    "knn",
+    "voronoi",
+    "triangulation"
+  ],
+  "frozen_trajectory_sha256": {
+    "A_2000": "903c6cfe948e92f4bcb9fba676eae6efabbe148580b5e69829b8cb083644e170",
+    "A_5000": "48ea2face925fbd135580b2e9d6445d4d8535feb26dd5bd1fc3aa7cd2080d332",
+    "A_10000": "597e2dd0167260ba9d57a2948d476268a61cc386baf238dd45d8dfd7eb81701c",
+    "A_20000": "a6083fbbb57011036e61f9ad39309acd065359e0b2b4862a6ae482aa0f055acf",
+    "B_2000": "8cc28f49e85b3f63697ac91c5975e633ca22f96bb3d15ce408ed0353a691e87c",
+    "B_5000": "bd60afea4dc26f71eabbd0cf3835df9eb23c09c6986cd0c27a8cc73c1c72287a",
+    "B_10000": "84ca4678e08b243d776ef390ba07e20944f12aa270c2c58967f9e392a195223b",
+    "B_20000": "80d8fe47bd0d45672e16c659fc1b095114106eacd6a52634fccde1fc81b41b3f",
+    "C_2000": "4de27552ca450d52b34f93a1cc422d2557cca6f7aa42cf7bd6f50eb25af689f3",
+    "C_5000": "01d300da22e484e19a3b540b48d061683f750208d311be4a726d6c5e9406c272",
+    "C_10000": "cd6b96f58d1335dfd9401647ea15f512a69c3b9bdc34f05648b9ab579014406e",
+    "C_20000": "2e21f9130ae049eeaa169f6ed122ea4e1c5df6989abb87ccbd58dfaa7e7b3ef5",
+    "D_2000": "dc45e31c30f824f528ce08fe7153e0cf09d80b629f0344ff63211b5fc82c4788",
+    "D_5000": "d497355bbb251bdbf691680522613c1676286d7f56d97535620e4a41c5cb10c7",
+    "D_10000": "71dee05d17970801eaa57886f4239f8f9f2d7c5fbb137699fe848b802cfe4a2e",
+    "D_20000": "f4afcb2aa807f1fc5eaacd6855f86e59437433067c28d189e29f2040c8f6b7ff",
+    "E_2000": "59a01076293add185697be83630f940726221fbaa9c301ebd5afaf64c0896929",
+    "E_5000": "64758ea53f350836ddffb2faaccd1eada985359bdfec40f8b07d32ed4ae5ef50",
+    "E_10000": "338f3b245ce789c9ebf2707cc80e33872f4af1123cd870365a0ba6d39a5849c8",
+    "E_20000": "eb0d07eaafac49d761ce2f6feaffbcc210b7d363e3c07b8d4b8031639c08adab"
+  },
+  "max_conservation_error_per_run": {
+    "A_2000": 2.220446049250313e-16,
+    "A_5000": 2.220446049250313e-16,
+    "A_10000": 2.220446049250313e-16,
+    "A_20000": 2.220446049250313e-16,
+    "B_2000": 2.220446049250313e-16,
+    "B_5000": 2.220446049250313e-16,
+    "B_10000": 2.220446049250313e-16,
+    "B_20000": 2.220446049250313e-16,
+    "C_2000": 2.220446049250313e-16,
+    "C_5000": 2.220446049250313e-16,
+    "C_10000": 2.220446049250313e-16,
+    "C_20000": 2.220446049250313e-16,
+    "D_2000": 2.220446049250313e-16,
+    "D_5000": 2.220446049250313e-16,
+    "D_10000": 2.220446049250313e-16,
+    "D_20000": 2.220446049250313e-16,
+    "E_2000": 2.220446049250313e-16,
+    "E_5000": 2.220446049250313e-16,
+    "E_10000": 2.220446049250313e-16,
+    "E_20000": 2.220446049250313e-16
+  },
+  "identical_pipeline_hashes": {
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f"
+  },
+  "execution_seconds": 56.82821191404946
+}

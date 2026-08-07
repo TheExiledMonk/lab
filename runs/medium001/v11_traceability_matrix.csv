@@ -1,0 +1,9 @@
+source,accepted_content,medium001_use,status
+V11 1.1,"GR, Lorentz invariance and quantum dynamics remain intact",Requires covariant effective matching; does not define microscopic medium,authoritative
+V11 2.3 / eqs. 5-15,"alpha hierarchy, epsilon_0(T), and homogeneous Omega_sigma(a)",Background thermodynamic input Q_V11 only; insufficient to reconstruct a local action or Hessian,authoritative but underdetermining
+V11 eqs. 12-14,GR Friedmann background with Omega_sigma,One homogeneous trajectory constrains only an on-background effective stress history,authoritative effective limit
+MATTER-001,Full T_m^{mu nu}; source is chain-rule projection through g[chi],MED-001-E02,derived
+MB-001,K u-div(G grad u)=s and ell^2=G/K,MED-001-E05 only as conditional static reduction,conditional
+PHOTON-001,Optical readout remains independent,"No n(u), photon vertex, or lensing change is inferred",boundary
+ARCH-001,g_dev retired; no V11 alpha is a matter vertex,No replacement coupling introduced,boundary
+Missing,"chi^A, S_med, g_eff[chi], coarse graining, state/boundary rule","Needed to compute K_AB, its inverse, loading projection, and GR limit",exact constitutive gap

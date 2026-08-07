@@ -1,0 +1,7 @@
+family,weak_field,progressive_hardening,stored_energy,finite_energy,relaxation,mathematical_stability,emergent_geometry,v11_recovery,classification
+A Linear,pass,fail,pass,reachable bound only,conditional,static pass,conditional,conditional pass,tangent limit only
+B Polynomial,pass,pass with coefficient restrictions,pass with positive leading term,reachable bound only,conditional,conditional globally,conditional,conditional pass,viable not selected
+C Exponential,pass,pass,pass,reachable bound only,conditional,ray pass tensor proof pending,conditional,conditional pass,viable not selected
+D Asymptotic barrier,pass,pass,pass,mathematical endpoint and stricter reachable bound,conditional,ray pass tensor proof pending,conditional,conditional pass,strongest generic finite-bound match
+E1 Gent-type,pass,pass,pass,mathematical endpoint and stricter reachable bound,conditional,displayed-ray pass full-domain proof pending,conditional,conditional pass,strong standard barrier exemplar
+E2 Hencky quadratic,pass,fail on logarithmic-strain rays,pass,reachable bound only,conditional,conditional in native variable,conditional,conditional pass,finite-strain coordinate model

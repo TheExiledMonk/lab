@@ -1,0 +1,570 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "CP01_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "3f3dafd4479e13dafa994cc9f0b89b7384fc44fd7537c4a164cf40d26866327a",
+      "statistics": {
+        "shape": [
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": 0.000557108694427309,
+        "maximum": 0.045905105595111254,
+        "mean": 0.013731739575787268,
+        "variance": 0.0001317737727109393,
+        "rms": 0.01789788938641039,
+        "nonzero_count": 9216,
+        "finite_count": 9216,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP01"
+    },
+    {
+      "artifact_id": "CP02_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "e9e9bbd5c91f2895b7f55578095254c971e80477f9415df5bdd2773225968543",
+      "statistics": {
+        "shape": [
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": 0.001364358330094107,
+        "maximum": 0.04211240174033798,
+        "mean": 0.013918563262079754,
+        "variance": 0.00010211620486386673,
+        "rms": 0.01720007581798356,
+        "nonzero_count": 9216,
+        "finite_count": 9216,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP02"
+    },
+    {
+      "artifact_id": "CP03_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "86a9ce342f9731822e5c04b699f947aaefa880355d46aafc0602006de3111e0a",
+      "statistics": {
+        "shape": [
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": 0.0009676260584109081,
+        "maximum": 0.044008753667724616,
+        "mean": 0.01382515141893351,
+        "variance": 0.00011640860813831713,
+        "rms": 0.017536915917422777,
+        "nonzero_count": 9216,
+        "finite_count": 9216,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP03"
+    },
+    {
+      "artifact_id": "CP04___",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "",
+      "cluster_id": "",
+      "transform_id": "",
+      "sha256": "86a9ce342f9731822e5c04b699f947aaefa880355d46aafc0602006de3111e0a",
+      "statistics": {
+        "shape": [
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": 0.0009676260584109081,
+        "maximum": 0.044008753667724616,
+        "mean": 0.01382515141893351,
+        "variance": 0.00011640860813831713,
+        "rms": 0.017536915917422777,
+        "nonzero_count": 9216,
+        "finite_count": 9216,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP04"
+    },
+    {
+      "artifact_id": "CP05___",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "",
+      "cluster_id": "",
+      "transform_id": "",
+      "sha256": "8fb41d2b41d56a24c22e21b08540ac650199b4fc465c63cb2d3dd260d469b447",
+      "statistics": {
+        "shape": [
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": 0.0002162542955076907,
+        "maximum": 0.013976677706241605,
+        "mean": 0.006096634864785563,
+        "variance": 1.0381618892589874e-05,
+        "rms": 0.006895692537164687,
+        "nonzero_count": 9216,
+        "finite_count": 9216,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP05"
+    },
+    {
+      "artifact_id": "CP06___",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "",
+      "cluster_id": "",
+      "transform_id": "",
+      "sha256": "66f33387c96ea6ebbcd8028574c6f938311dc2e537eb60348b57f676d7ffa736",
+      "statistics": {
+        "shape": [
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": -0.4999688900436291,
+        "maximum": 0.9999999999778242,
+        "mean": 0.33313786109445065,
+        "variance": 0.032280431103150396,
+        "rms": 0.5734984021115789,
+        "nonzero_count": 55296,
+        "finite_count": 55296,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP06"
+    },
+    {
+      "artifact_id": "CP07___",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "",
+      "cluster_id": "",
+      "transform_id": "",
+      "sha256": "088afd4118a54534d827a4512fad06d0d5228c718a147b721e4f641e15299d69",
+      "statistics": {
+        "shape": [
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": -5.867109379580137e-05,
+        "maximum": 5.8772013121185615e-05,
+        "mean": -7.4292782563741215e-09,
+        "variance": 4.016281465249512e-10,
+        "rms": 2.0040663704556457e-05,
+        "nonzero_count": 8928,
+        "finite_count": 9216,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP07"
+    },
+    {
+      "artifact_id": "CP08___",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "",
+      "cluster_id": "",
+      "transform_id": "",
+      "sha256": "f7b33efcb7801d946c78185902e37d1accc6443e22e69f160c8ada52fc00b4f3",
+      "statistics": {
+        "shape": [
+          26048,
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": 0.0004222513008589639,
+        "maximum": 0.9999999999889121,
+        "mean": 0.7171082375027095,
+        "variance": 0.1678363610100996,
+        "rms": 0.8258817017614217,
+        "nonzero_count": 240058368,
+        "finite_count": 240058368,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP08"
+    },
+    {
+      "artifact_id": "CP09___",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "",
+      "cluster_id": "",
+      "transform_id": "",
+      "sha256": "f9d18488726d01582a7cae5c7f12a04319961ebf1c9a003767fa0beb6ec86a5c",
+      "statistics": {
+        "shape": [
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": -5.118677718127223e-05,
+        "maximum": 4.959424067614773e-05,
+        "mean": -1.094317961345667e-08,
+        "variance": 3.0499384514218926e-10,
+        "rms": 1.7464076411175294e-05,
+        "nonzero_count": 8928,
+        "finite_count": 9216,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP09"
+    },
+    {
+      "artifact_id": "CP10_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "89899878c308a4dc3e2292bc2dede56d6d7fffbad89900e685b6592eea6886dd",
+      "statistics": {
+        "shape": [
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": -0.0005592122674569262,
+        "maximum": 0.0004813082323334094,
+        "mean": 1.6470085085500285e-22,
+        "variance": 1.6162716557684665e-08,
+        "rms": 0.00012713267305332907,
+        "nonzero_count": 9216,
+        "finite_count": 9216,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP10"
+    },
+    {
+      "artifact_id": "CP11_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "96ab35cc5f3b8e19b03aaf1069a7cab5b81b5df8e2a8ccf70a1ee0d8f0b31055",
+      "statistics": {
+        "shape": [
+          9,
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": -0.000415365028231551,
+        "maximum": 0.0004199363190018205,
+        "mean": 1.3824961510048446e-07,
+        "variance": 1.399522501740019e-08,
+        "rms": 0.00011830149673759949,
+        "nonzero_count": 9215,
+        "finite_count": 9216,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP11"
+    },
+    {
+      "artifact_id": "CP12_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "9752bb8f1fae774aec33a3b9f3415414579a24bbd0129988a63c79378b36cc02",
+      "statistics": {
+        "shape": [
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": -8.7135134035812e-05,
+        "maximum": 0.00017397107124898965,
+        "mean": 1.07976024458708e-06,
+        "variance": 2.2521301259733935e-10,
+        "rms": 1.5045892953996785e-05,
+        "nonzero_count": 1024,
+        "finite_count": 1024,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP12"
+    },
+    {
+      "artifact_id": "CP13_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "85ebb0e25d5b1cad6ddae58efd79b964eccd165ff3bbd71212cf141c84f0e637",
+      "statistics": {
+        "shape": [
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": -8.264867056230097e-05,
+        "maximum": 0.00013286294837589038,
+        "mean": -2.3822801641527197e-22,
+        "variance": 1.4531866590432263e-09,
+        "rms": 3.812068544823435e-05,
+        "nonzero_count": 1024,
+        "finite_count": 1024,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP13"
+    },
+    {
+      "artifact_id": "ray_input_PL1_PM1_PS2_MACS0416_RC0",
+      "module_name": "pbuf.core.ray_interface",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [
+        "CP13_MACS0416_PL1_PM1_PS2_RC0"
+      ],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "bc96f5db35a1b0a655ca657614e018374ae6b36ac83e65056bc2113b1654fbfa",
+      "statistics": {
+        "shape": [
+          32,
+          32
+        ],
+        "Rx": {
+          "shape": [
+            32,
+            32
+          ],
+          "dtype": "float64",
+          "minimum": -8.264867056230097e-05,
+          "maximum": 0.00013286294837589038,
+          "mean": -2.3822801641527197e-22,
+          "variance": 1.4531866590432263e-09,
+          "rms": 3.812068544823435e-05,
+          "nonzero_count": 1024,
+          "finite_count": 1024,
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Ry": {
+          "shape": [
+            32,
+            32
+          ],
+          "dtype": "float64",
+          "minimum": -8.47335497749223e-05,
+          "maximum": 0.0001328256561491025,
+          "mean": 8.470329472543003e-22,
+          "variance": 1.4960570798662458e-09,
+          "rms": 3.867889708699365e-05,
+          "nonzero_count": 1024,
+          "finite_count": 1024,
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "Rz": {
+          "shape": [
+            32,
+            32
+          ],
+          "dtype": "float64",
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "mean": 0.0,
+          "variance": 0.0,
+          "rms": 0.0,
+          "nonzero_count": 0,
+          "finite_count": 1024,
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "magnitude": {
+          "shape": [
+            32,
+            32
+          ],
+          "dtype": "float64",
+          "minimum": 1.6812486932194129e-06,
+          "maximum": 0.00015370714716324643,
+          "mean": 4.198568824714489e-05,
+          "variance": 1.1864457213230315e-09,
+          "rms": 5.430694006210875e-05,
+          "nonzero_count": 1024,
+          "finite_count": 1024,
+          "nan_count": 0,
+          "inf_count": 0
+        },
+        "global_vector_sum": [
+          -2.439454888092385e-19,
+          8.673617379884035e-19,
+          0.0
+        ],
+        "global_vector_sum_norm": 9.010137546323265e-19
+      },
+      "role": "los"
+    },
+    {
+      "artifact_id": "CP15_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "85ebb0e25d5b1cad6ddae58efd79b964eccd165ff3bbd71212cf141c84f0e637",
+      "statistics": {
+        "shape": [
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": -8.264867056230097e-05,
+        "maximum": 0.00013286294837589038,
+        "mean": -2.3822801641527197e-22,
+        "variance": 1.4531866590432263e-09,
+        "rms": 3.812068544823435e-05,
+        "nonzero_count": 1024,
+        "finite_count": 1024,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP15"
+    },
+    {
+      "artifact_id": "CP16_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "41c7f066610a7b948159943cfbb4ad7a0307686b2620f1c5c90b31dee821b32b",
+      "statistics": {
+        "shape": [
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": -8.042293238819635e-05,
+        "maximum": 8.285963546943504e-05,
+        "mean": -2.7576771720905002e-08,
+        "variance": 5.388233895337155e-10,
+        "rms": 2.321258602594838e-05,
+        "nonzero_count": 1024,
+        "finite_count": 1024,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP16"
+    },
+    {
+      "artifact_id": "CP17_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "581a261111a5b9a1c94b96af3aecaa751ff58ce9875847fe7aba7e67b06731b9",
+      "statistics": {
+        "shape": [
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": 0.9999452331963072,
+        "maximum": 1.000059919754962,
+        "mean": 1.000000000338988,
+        "variance": 2.717017688345374e-10,
+        "rms": 1.0000000004748386,
+        "nonzero_count": 1024,
+        "finite_count": 1024,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP17"
+    },
+    {
+      "artifact_id": "CP18_MACS0416_PL1_PM1_PS2_RC0",
+      "module_name": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001",
+      "module_version": "1.0.0",
+      "source_artifact_ids": [],
+      "candidate_id": "PL1_PM1_PS2",
+      "cluster_id": "MACS0416",
+      "transform_id": "RC0",
+      "sha256": "2fe0f256adb88a93f7777d7bb4283769c1ff2debdefde17be05c2684727ccb4d",
+      "statistics": {
+        "shape": [
+          32,
+          32
+        ],
+        "dtype": "float64",
+        "minimum": 6.292438381782362e-07,
+        "maximum": 8.132339128054182e-05,
+        "mean": 1.589796720235526e-05,
+        "variance": 1.3456640479565174e-10,
+        "rms": 1.9680237954933757e-05,
+        "nonzero_count": 1024,
+        "finite_count": 1024,
+        "nan_count": 0,
+        "inf_count": 0
+      },
+      "role": "CP18"
+    }
+  ],
+  "edges": [
+    {
+      "from": "CP13_MACS0416_PL1_PM1_PS2_RC0",
+      "to": "ray_input_PL1_PM1_PS2_MACS0416_RC0"
+    }
+  ]
+}

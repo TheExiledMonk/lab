@@ -1,0 +1,20 @@
+{
+  "protocol": "PBUF V11-AUDIT-ERR-001",
+  "status": "COMPLETE",
+  "source_read_completely": true,
+  "source_pages": 13,
+  "source_sha256": "d4eece722f4329824eddd57850f89890dac1d88cad7d999319065d1e048585c2",
+  "required_source_features": {
+    "alpha_resolved": true,
+    "alpha_em": true,
+    "factor_three_relation": true,
+    "geometric_interpretation": true,
+    "quantum_engine_bridge": true,
+    "equations_4_5_8_9_15_16_17": true
+  },
+  "alpha_source_lines_inventoried": 29,
+  "every_v11_alpha_occurrence_traced": true,
+  "v11_dependency_graph_built_before_later_comparison": true,
+  "no_new_physics_or_auxiliary_coupling": true,
+  "all_checks_pass": true
+}

@@ -1,0 +1,25 @@
+{
+  "milestone": "PBUF NATURE-001",
+  "target": "future PBUF stored-energy functional/action",
+  "constraints": [
+    "Define the energy on covariant PBUF deformation invariants only after the physical medium variable and reference state are established.",
+    "Possess a stable unloaded minimum and a positive physical Hessian on the admissible perturbation subspace.",
+    "Recover the required linear-elastic tangent limit without treating that limit as the global law.",
+    "Remain single-valued and reversible in the native sector; any hysteresis or dissipation must be separately derived as an open-system correction.",
+    "Respect the finite elastic bound through a bounded admissible domain, saturation, or another regular endpoint; the audit does not choose among these mechanisms.",
+    "Avoid unstable softening, loss of hyperbolicity, ghosts, or singular energy release anywhere on the claimed physical branch.",
+    "Inherit the established PBUF thermal and cosmological dependence and reproduce the authoritative homogeneous saturation history without equating it to a local stress-strain plateau.",
+    "Generate response to full variational stress-energy loading through the eventual universal metric map, with no analogy-derived source projection or coupling.",
+    "Admit a causal wave-supporting kinetic completion and a controlled effective-GR limit with consistent energy-momentum exchange.",
+    "State whether gradient or nonlocal terms belong to the energy/action; if present, derive them microphysically and impose covariance, positivity, and retarded causality.",
+    "Introduce no named material form, material coefficient, relaxation time, limiting strain, kernel scale, or observational fit merely by analogy."
+  ],
+  "not_selected": [
+    "deformation variable",
+    "strain invariants",
+    "functional form",
+    "local versus gradient versus nonlocal realization",
+    "coefficients or new parameters",
+    "dissipative sector"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "constitutive_freedom": "Select Phi on the frozen invariant/domain class.",
+  "communication_freedom": "Eliminated as independent necessary closure; use local variational divergence.",
+  "not_determined_by_Phi": [
+    "frozen kinetic/inertial realization",
+    "sources/loading",
+    "initial/boundary data",
+    "METRIC-001 map"
+  ],
+  "template": "K_frozen[q]+(D_q C)^*D_C Phi=source; placement form rho y_tt=Div(2 F D_C Phi)+body source.",
+  "decision": "Outcome B"
+}

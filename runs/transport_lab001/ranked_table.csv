@@ -1,0 +1,11 @@
+Rank,Experiment,Rule,Stable,WeakLensing(yes/no),Conservation residual,Total bending,Runtime (s),Score,Comments
+1,Exp 6,response = magnetic-style directional,True,yes,1.399e-05,4.894e-06,0.008,3.001,nominal
+2,Exp 9 (m=0),photon (m=0) baseline,True,yes,8.767e-05,2.431e-05,0.000,3.001,nominal
+3,Exp 5,response = elastic spring restoring,True,yes,8.767e-05,2.431e-05,0.008,3.001,nominal
+4,Exp 1,response ∝ ∇C,True,yes,8.767e-05,2.431e-05,0.008,3.001,nominal
+5,Exp 4,response ∝ traction t = P_F·N,True,yes,8.767e-05,2.424e-05,0.009,3.001,nominal
+6,Exp 9 (m>0),test particle (m>0),True,yes,3.028e-04,8.397e-05,0.008,3.001,nominal
+7,Exp 2,response ∝ ∇P / C,True,yes,7.437e-01,1.605e+00,0.009,2.574,velocity drift
+8,Exp 7,response = phase accumulation,True,no,2.561e-08,5.040e-09,0.008,2.001,no bending observed
+9,Exp 3,response ∝ ∇W,True,no,2.997e-08,5.898e-09,0.008,2.001,no bending observed
+10,Exp 8,response = constant local transfer,True,no,6.000e-04,6.000e-04,0.008,2.000,no bending observed

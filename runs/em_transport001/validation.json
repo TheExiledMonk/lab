@@ -1,0 +1,52 @@
+{
+  "milestone": "PBUF EM-TRANSPORT-001",
+  "pass": true,
+  "checks": {
+    "all_frozen_sources_present": true,
+    "microscopic_structure_records_complete": true,
+    "four_transport_mechanisms_addressed": true,
+    "neighbour_coupling_correctly_classified_static_only": true,
+    "wavefront_evolution_correctly_classified_not_derived": true,
+    "phase_transfer_correctly_classified_not_derived": true,
+    "field_rotation_correctly_classified_not_derived": true,
+    "em_local_microscopics_audited": true,
+    "kinetic_closure_identified_explicitly": true,
+    "forbidden_alternatives_recorded": true,
+    "v11_relationship_recorded": true,
+    "core001_relationship_recorded": true,
+    "no_new_field_coupling_or_constant_introduced": true,
+    "no_v11_or_weak_lensing_change": true,
+    "no_observational_fit": true,
+    "no_metric_ansatz_or_quantum_derivation": true,
+    "decision_is_outcome_b": true
+  },
+  "decision": "Outcome B",
+  "missing_local_principle_identified": "kinetic sector supplying positive momentum density or equivalent symplectic structure (INERTIA-001 closure gap)",
+  "sources": {
+    "FOUNDATION-001": "runs/foundation001/foundational_ontology.md",
+    "STATE-002": "runs/state002/primitive_medium_state.md",
+    "DEFORMATION-001": "runs/deformation001/deformation_measure_report.md",
+    "HYPER-001": "runs/hyper001/stored_energy_derivation.md",
+    "BALANCE-001": "runs/balance001/native_balance_laws.md",
+    "LOCALITY-001": "runs/locality001/locality_report.md",
+    "INERTIA-001": "runs/inertia001/inertia_origin_report.md",
+    "DURATION-001": "runs/duration001/emergent_duration_derivation.md",
+    "DYNAMICS-001": "runs/dynamics001/native_evolution_principle.md",
+    "EQUILIBRIUM-001": "runs/equilibrium001/equilibrium_report.md",
+    "ENERGY-SEARCH-001": "runs/energy_search001/energy_search_report.md",
+    "PHOTON-001": "photon001_derivation.py",
+    "CORE-001": "core001_definition.py",
+    "V11 preprint": "docs/Planck-Bound_Unified_Framework_v11_preprint.pdf",
+    "V11-ALPHA-001 brief": "docs/PBUF_V11_ALPHA_001_Geometric_Origin_of_Resolved_Alpha.docx"
+  },
+  "deliverables": [
+    "em_transport001_report.md",
+    "microscopic_structure_audit.csv",
+    "native_transport_audit.csv",
+    "em_local_microscopic_mechanism.csv",
+    "wavefront_evolution_audit.csv",
+    "kinetic_closure_requirement.json",
+    "decision.json",
+    "validation.json"
+  ]
+}

@@ -1,0 +1,13 @@
+id,equation_or_content,premises,status,boundary_or_use
+DU-001,"q:S->Q_adm, s only orders states",STATE-002 S2-012--S2-013; DYNAMICS-001 D-002,accepted,"s has no invariant scale, origin, or rate"
+DU-002,"Delta tau[gamma]=integral F(q(s),qdot(s),zdot(s)) ds",DU-001; additive local accumulation; clock/propagation assumptions,derived family,general local accumulated duration
+DU-003,"F(q,a qdot,a zdot)=a F(q,qdot,zdot), a>0",DU-002; s->f(s) invariance,derived,necessary and sufficient positive degree-one homogeneity
+DU-004,"d tau=sigma(q,x,n,clock) d ell=d ell/v",DU-002--DU-003; physical path element d ell,derived representation,sigma>0 is slowness and v:=1/sigma; neither is fixed numerically
+DU-005,Delta tau=int_path sigma d ell=int d ell/v,DU-004; piecewise regular propagation,derived,most general local scalar distance-speed-duration relation
+DU-006,"tau_B-tau_A=integral_[sA,sB] F ds",DU-002,definition,duration is an interval functional; its zero is conventional
+DU-007,N_C=int dN_C; Delta tau_C=U_C N_C,fixed clock assumptions; repeatable propagation cycle,derived clock form,clock accumulates phase/cycle count; U_C calibrates one cycle in the chosen unit
+DU-008,d tau_C=r_C d tau_*,DU-007; comparison by coincidences,derived,consistent clocks require r_C constant after calibration and path/history independent locally
+DU-009,d tau^2=-g_eff_mn dx^m dx^n/c^2 on timelike paths,FP-5; V11 one-metric operational limit,effective matching condition,not a microscopic derivation of g_eff or c
+DU-010,d tau=dt sqrt(-(g00 c^2+2 g0i c vi+gij vi vj)/c^2),DU-009; x0=ct; vi=dxi/dt,derived coordinate relation,"t is a chart/synchronization coordinate, not s or tau"
+DU-011,Delta tau=0 for a constant physical history,DU-002--DU-003; continuous zero-section extension,derived static limit,no change/propagation means no clock accumulation
+DU-012,q -> oriented history/order s -> propagation -> tau -> effective chart t,DU-001--DU-011,derived dependency classification,q/order are fundamental inputs; tau and t are emergent

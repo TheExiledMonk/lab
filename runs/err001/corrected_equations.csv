@@ -1,0 +1,7 @@
+id,milestone,corrected_equation,effect
+ERR-001-E01,CORE-001,F=epsilon_* sum_i[kappa_0|q_i|^2/2+kappa_1 sum_<ij>|q_j-q_i|^2/2-g_dev eta_i e.q_i],g_dev is the sole fundamental matter-state coupling.
+ERR-001-E02,CORE-001,s(rho)=epsilon_* g_dev (rho/rho_*)/a^d,The coarse source follows directly from the corrected vertex.
+ERR-001-E03,CORE-001/MB-001,K u-div(G grad u)=s(rho),Form unchanged; corrected source E02 replaces the former exploratory source.
+ERR-001-E04,FND-004/FND-005,"g_vec=g_dev(1,1,1); |g_vec|=sqrt(3)|g_dev|",Absolute vertex is g_dev-sensitive; two dark directions are unchanged.
+ERR-001-E05,FND-004/FND-005,|sum_i g_dev|^2 / sum_i|g_dev|^2=3,The normalized coherent ratio remains g_dev-independent.
+ERR-001-E06,PHOTON-001,n(u)=1+beta u+O(u^2),Unchanged: beta remains a missing optical response and is not assumed to equal g_dev or a new free fundamental coupling.

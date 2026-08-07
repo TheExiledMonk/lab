@@ -1,0 +1,264 @@
+{
+  "milestone": "PBUF TRANSPORT-CHIRALITY-001",
+  "frozen_conditions": {
+    "constitutive": "u = 0.18 rho/rho_max (Version A)",
+    "transport_magnitude": "|grad C|",
+    "response_angle": "90 degrees",
+    "update_rule": "direct addition + renormalisation (transport_lab007.upd_direct_addition)",
+    "timestep": 0.06,
+    "normalisation": "max A preserved",
+    "lens": "Lens-001 dataset"
+  },
+  "candidates": [
+    {
+      "id": "Global +90 (control)",
+      "label": "Cand 1",
+      "rule": "Global +90 (control)"
+    },
+    {
+      "id": "Global -90",
+      "label": "Cand 2",
+      "rule": "Global -90"
+    },
+    {
+      "id": "Local geometry selection",
+      "label": "Cand 3",
+      "rule": "Local geometry selection"
+    },
+    {
+      "id": "Symmetric dual (diagnostic)",
+      "label": "Cand 4",
+      "rule": "Symmetric dual (diagnostic)"
+    },
+    {
+      "id": "Local centre-seeking rule",
+      "label": "Cand 5",
+      "rule": "Local centre-seeking rule"
+    }
+  ],
+  "comparison": [
+    {
+      "candidate": "Cand 1",
+      "candidate_id": "global_plus",
+      "bend_max": 6.618101068510725e-05,
+      "bending_angle_max": 0.0003027695130772518,
+      "conservation": 1.1102230246251565e-16,
+      "mirror_bend_max": 6.618101068510725e-05,
+      "bending_diff": 0.0,
+      "runtime": 0.0019549200078472495,
+      "mirror_delta": 0.0001323620213702145,
+      "mirror_relative": 2.0,
+      "mirror_passed": false,
+      "translation_delta": 1.6373707620864764e-06,
+      "rotation_delta": 6.486374933004725e-05,
+      "repeatability_delta": 0.0
+    },
+    {
+      "candidate": "Cand 2",
+      "candidate_id": "global_minus",
+      "bend_max": 6.618073109838509e-05,
+      "bending_angle_max": 0.0003027533027156357,
+      "conservation": 2.220446049250313e-16,
+      "mirror_bend_max": 6.618073109838509e-05,
+      "bending_diff": 0.0,
+      "runtime": 0.0018682900117710233,
+      "mirror_delta": 0.00013236146219677017,
+      "mirror_relative": 2.0,
+      "mirror_passed": false,
+      "translation_delta": 1.6374403438712548e-06,
+      "rotation_delta": 6.48634707826331e-05,
+      "repeatability_delta": 0.0
+    },
+    {
+      "candidate": "Cand 3",
+      "candidate_id": "local_laplacian",
+      "bend_max": 6.618101068510725e-05,
+      "bending_angle_max": 0.0003027695130772518,
+      "conservation": 1.1102230246251565e-16,
+      "mirror_bend_max": 6.618101068510725e-05,
+      "bending_diff": 0.0,
+      "runtime": 0.0020795209566131234,
+      "mirror_delta": 0.0001323620213702145,
+      "mirror_relative": 2.0,
+      "mirror_passed": false,
+      "translation_delta": 1.6373707620864764e-06,
+      "rotation_delta": 6.486374933004725e-05,
+      "repeatability_delta": 0.0
+    },
+    {
+      "candidate": "Cand 4",
+      "candidate_id": "symmetric_dual",
+      "bend_max": 6.618101068510725e-05,
+      "bending_angle_max": 0.0003027695130772518,
+      "conservation": 2.220446049250313e-16,
+      "mirror_bend_max": 6.618101068510725e-05,
+      "bending_diff": 0.0,
+      "runtime": 0.0037090900586917996,
+      "mirror_delta": 7.174110194796413e-10,
+      "mirror_relative": 1.0840133930458101e-05,
+      "mirror_passed": true,
+      "translation_delta": 2.1210899703305586e-10,
+      "rotation_delta": 5.82041304042491e-09,
+      "repeatability_delta": 0.0
+    },
+    {
+      "candidate": "Cand 5",
+      "candidate_id": "local_centre",
+      "bend_max": 6.618073109790462e-05,
+      "bending_angle_max": 0.0003027533027156357,
+      "conservation": 2.220446049250313e-16,
+      "mirror_bend_max": 6.618073109790462e-05,
+      "bending_diff": 0.0,
+      "runtime": 0.0022313710069283843,
+      "mirror_delta": 0.00013236146219580924,
+      "mirror_relative": 2.0,
+      "mirror_passed": false,
+      "translation_delta": 3.403818015013105e-05,
+      "rotation_delta": 6.749799245296463e-05,
+      "repeatability_delta": 0.0
+    }
+  ],
+  "symmetry": [
+    {
+      "candidate": "Cand 1",
+      "candidate_id": "global_plus",
+      "test": "repeatability",
+      "delta": 0.0,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 1",
+      "candidate_id": "global_plus",
+      "test": "translation",
+      "delta": 1.6373707620864764e-06,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 1",
+      "candidate_id": "global_plus",
+      "test": "rotation",
+      "delta": 6.486374933004725e-05,
+      "passed": false
+    },
+    {
+      "candidate": "Cand 1",
+      "candidate_id": "global_plus",
+      "test": "mirror",
+      "delta": 0.0001323620213702145,
+      "passed": false
+    },
+    {
+      "candidate": "Cand 2",
+      "candidate_id": "global_minus",
+      "test": "repeatability",
+      "delta": 0.0,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 2",
+      "candidate_id": "global_minus",
+      "test": "translation",
+      "delta": 1.6374403438712548e-06,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 2",
+      "candidate_id": "global_minus",
+      "test": "rotation",
+      "delta": 6.48634707826331e-05,
+      "passed": false
+    },
+    {
+      "candidate": "Cand 2",
+      "candidate_id": "global_minus",
+      "test": "mirror",
+      "delta": 0.00013236146219677017,
+      "passed": false
+    },
+    {
+      "candidate": "Cand 3",
+      "candidate_id": "local_laplacian",
+      "test": "repeatability",
+      "delta": 0.0,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 3",
+      "candidate_id": "local_laplacian",
+      "test": "translation",
+      "delta": 1.6373707620864764e-06,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 3",
+      "candidate_id": "local_laplacian",
+      "test": "rotation",
+      "delta": 6.486374933004725e-05,
+      "passed": false
+    },
+    {
+      "candidate": "Cand 3",
+      "candidate_id": "local_laplacian",
+      "test": "mirror",
+      "delta": 0.0001323620213702145,
+      "passed": false
+    },
+    {
+      "candidate": "Cand 4",
+      "candidate_id": "symmetric_dual",
+      "test": "repeatability",
+      "delta": 0.0,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 4",
+      "candidate_id": "symmetric_dual",
+      "test": "translation",
+      "delta": 2.1210899703305586e-10,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 4",
+      "candidate_id": "symmetric_dual",
+      "test": "rotation",
+      "delta": 5.82041304042491e-09,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 4",
+      "candidate_id": "symmetric_dual",
+      "test": "mirror",
+      "delta": 7.174110194796413e-10,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 5",
+      "candidate_id": "local_centre",
+      "test": "repeatability",
+      "delta": 0.0,
+      "passed": true
+    },
+    {
+      "candidate": "Cand 5",
+      "candidate_id": "local_centre",
+      "test": "translation",
+      "delta": 3.403818015013105e-05,
+      "passed": false
+    },
+    {
+      "candidate": "Cand 5",
+      "candidate_id": "local_centre",
+      "test": "rotation",
+      "delta": 6.749799245296463e-05,
+      "passed": false
+    },
+    {
+      "candidate": "Cand 5",
+      "candidate_id": "local_centre",
+      "test": "mirror",
+      "delta": 0.00013236146219580924,
+      "passed": false
+    }
+  ],
+  "execution_seconds": 1.014810619992204
+}

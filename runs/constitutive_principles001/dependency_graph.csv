@@ -1,0 +1,18 @@
+source,target,relation,justification
+P01,P02,prerequisite,Invariant energy on the frozen state requires objective deformation coordinates.
+P02,P04,prerequisite,Differentiation of energy defines stress and tangent.
+P03,P05,prerequisite,The reference stationary point is tested by its Hessian.
+P04,P05,prerequisite,A tangent requires a twice differentiable interior energy.
+P02,P07,jointly-required,Energy plus a unique stable minimum yields conservative recovery.
+P03,P07,jointly-required,Recovery needs the reference to be the selected minimum.
+P05,P09,jointly-required,Positive tangent supplies a positive acoustic tensor.
+P08,P09,jointly-required,Spatial coupling is needed to transport a disturbance.
+P05,P06,local-not-global,Reference positivity does not imply stability everywhere.
+P12,P10,conditional-implication,"A smooth approached barrier hardens asymptotically along paths transverse to that barrier, not necessarily along every path."
+P12,P11,alternative,"Finite-boundary blow-up replaces, rather than implies, coercivity on an unbounded domain."
+P13,P08,implication,A nonzero gradient Euler-Lagrange term communicates spatially.
+P14,P08,implication,A nontrivial kernel communicates spatially.
+P15,P07,compatible-not-sufficient,Damping can coexist with equilibrium recovery but does not generate its conservative endpoint.
+P16,P01,incompatible,Independent state enlargements violate the frozen native-variable closure.
+P17,P07,incompatible,Permanent history contradicts full recovery.
+P18,P05,incompatible,Zero shear Hessian contradicts positive stiffness on required shear modes.

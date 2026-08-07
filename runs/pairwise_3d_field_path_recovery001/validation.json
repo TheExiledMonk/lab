@@ -1,0 +1,15 @@
+{
+  "all_gates_pass": true,
+  "first_failure": null,
+  "first_failure_classification": null,
+  "endpoint_energy": 0.0004364493264967681,
+  "interface_energy": 0.0002788596121465183,
+  "ray_input_hash": "bc96f5db35a1b0a6",
+  "helmholtz": {
+    "E_native": 0.0004364493264967681,
+    "E_irr": 0.00017163402572417685,
+    "E_sol": 0.00028756007126845855,
+    "f_irr_3d": 0.37377228245799843,
+    "f_sol_3d": 0.6262277175420016
+  }
+}

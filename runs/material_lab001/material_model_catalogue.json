@@ -1,0 +1,201 @@
+{
+  "milestone": "PBUF MATERIAL-LAB-001",
+  "schema_version": "1.0",
+  "native_variable": "C[q,q0] in Sym+(3); e is an admissible ray coordinate only",
+  "normalization": "numerical checks use k0=1 and unit positive shape parameters",
+  "models": [
+    {
+      "key": "A",
+      "name": "Progressive strain hardening",
+      "mechanism": "Resistance rises with accumulated reversible deformation.",
+      "assumptions": [
+        "hyperelastic ray restriction",
+        "k_t(e)>0 and k_t'(e)>=0",
+        "quartic representative has h>0"
+      ],
+      "domain": "signed e in R (representative); tensor lift restricted to the frozen SPD domain",
+      "energy_formula": "w=k0 e^2/2+h e^4/4",
+      "stress_formula": "sigma=k0 e+h e^3",
+      "tangent_formula": "k_t=k0+3h e^2",
+      "neighbor_interaction": "none implied by the local hypothesis",
+      "wave_support": "conditional on an authorized kinetic/gradient completion",
+      "strengths": [
+        "minimal smooth even hardening representative",
+        "strictly convex and coercive"
+      ],
+      "weaknesses": [
+        "hypothesis selects inequalities, not a unique law",
+        "local form supplies no neighbor coupling"
+      ],
+      "open_questions": [
+        "Which invariant tensor lift?",
+        "What fixes the hardening scale?"
+      ],
+      "evaluation": {
+        "Weak-field recovery": "pass (common k0 tangent)",
+        "Progressive hardening": "pass",
+        "Smooth constitutive response": "pass",
+        "Stable equilibrium": "pass on ray; tensor proof pending",
+        "Wave-support capability": "conditional (completion required)",
+        "Recovery": "pass restoring tendency; evolution pending",
+        "Finite-energy compatibility": "pass",
+        "Emergent geometry compatibility": "conditional on METRIC-001 map",
+        "Governing-equation readiness": "conditional; closure slots explicit"
+      }
+    },
+    {
+      "key": "B",
+      "name": "Wave-equilibrium material",
+      "mechanism": "A single continuum rearranges collectively through a positive gradient-energy term.",
+      "assumptions": [
+        "one continuum only",
+        "ell>0 is a candidate correlation length",
+        "static scalar ray proxy"
+      ],
+      "domain": "e in H1(Omega), with boundary data making the variational problem well posed",
+      "energy_formula": "W=int[k0 e^2/2+k0 ell^2 |grad e|^2/2-s e] dV",
+      "stress_formula": "local sigma=k0 e; microstress xi=k0 ell^2 grad e",
+      "tangent_formula": "local k_t=k0; Fourier Hessian=k0(1+ell^2|q|^2)",
+      "neighbor_interaction": "intrinsic: Euler-Lagrange equilibrium (1-ell^2 Laplacian)e=s/k0",
+      "wave_support": "yes conditionally: positive inertia gives omega^2=c0^2(q^2+ell^2 q^4); inertia is not selected here",
+      "strengths": [
+        "explicit neighbor coupling",
+        "positive Fourier stiffness",
+        "unique static equilibrium under standard boundary conditions"
+      ],
+      "weaknesses": [
+        "does not progressively harden in amplitude",
+        "ell and kinetic closure are underived"
+      ],
+      "open_questions": [
+        "What frozen quantity fixes ell?",
+        "What tensor-gradient invariant and kinetic term are admissible?"
+      ],
+      "evaluation": {
+        "Weak-field recovery": "pass (common k0 tangent)",
+        "Progressive hardening": "fail (amplitude tangent is constant)",
+        "Smooth constitutive response": "pass",
+        "Stable equilibrium": "pass on ray; tensor proof pending",
+        "Wave-support capability": "pass (conditional kinetic closure)",
+        "Recovery": "pass restoring tendency; evolution pending",
+        "Finite-energy compatibility": "pass",
+        "Emergent geometry compatibility": "conditional on METRIC-001 map",
+        "Governing-equation readiness": "conditional; closure slots explicit"
+      }
+    },
+    {
+      "key": "C",
+      "name": "Exponential hardening",
+      "mechanism": "Incremental work grows exponentially in deformation magnitude.",
+      "assumptions": [
+        "b>0",
+        "signed-symmetric hyperelastic representative"
+      ],
+      "domain": "signed e in R",
+      "energy_formula": "w=k0[cosh(b e)-1]/b^2",
+      "stress_formula": "sigma=k0 sinh(b e)/b",
+      "tangent_formula": "k_t=k0 cosh(b e)",
+      "neighbor_interaction": "none implied locally",
+      "wave_support": "conditional on an authorized kinetic/gradient completion",
+      "strengths": [
+        "smooth, strictly convex, coercive",
+        "rapid progressive stiffening"
+      ],
+      "weaknesses": [
+        "no finite mathematical endpoint",
+        "exponential form and scale are not frozen consequences"
+      ],
+      "open_questions": [
+        "What derives b?",
+        "Does a globally stable tensor lift exist on the full domain?"
+      ],
+      "evaluation": {
+        "Weak-field recovery": "pass (common k0 tangent)",
+        "Progressive hardening": "pass",
+        "Smooth constitutive response": "pass",
+        "Stable equilibrium": "pass on ray; tensor proof pending",
+        "Wave-support capability": "conditional (completion required)",
+        "Recovery": "pass restoring tendency; evolution pending",
+        "Finite-energy compatibility": "pass",
+        "Emergent geometry compatibility": "conditional on METRIC-001 map",
+        "Governing-equation readiness": "conditional; closure slots explicit"
+      }
+    },
+    {
+      "key": "D",
+      "name": "Finite-extensibility material",
+      "mechanism": "A divergent elastic barrier prevents reaching finite extensibility e_star.",
+      "assumptions": [
+        "e_star>0",
+        "Gent-type symmetric ray representative"
+      ],
+      "domain": "|e|<e_star (normalized e_star=1)",
+      "energy_formula": "w=-(k0 e_star^2/2) log[1-(e/e_star)^2]",
+      "stress_formula": "sigma=k0 e/[1-(e/e_star)^2]",
+      "tangent_formula": "k_t=k0[1+(e/e_star)^2]/[1-(e/e_star)^2]^2",
+      "neighbor_interaction": "none implied locally",
+      "wave_support": "conditional on an authorized kinetic/gradient completion",
+      "strengths": [
+        "finite domain with infinite-energy barrier",
+        "strict convexity and hardening on each loading branch"
+      ],
+      "weaknesses": [
+        "endpoint is not derived",
+        "ray result does not prove full tensor ellipticity"
+      ],
+      "open_questions": [
+        "Which spectral boundary defines extensibility?",
+        "How are compression boundaries controlled?"
+      ],
+      "evaluation": {
+        "Weak-field recovery": "pass (common k0 tangent)",
+        "Progressive hardening": "pass",
+        "Smooth constitutive response": "pass on open admissible domain",
+        "Stable equilibrium": "pass on ray; tensor proof pending",
+        "Wave-support capability": "conditional (completion required)",
+        "Recovery": "pass restoring tendency; evolution pending",
+        "Finite-energy compatibility": "pass",
+        "Emergent geometry compatibility": "conditional on METRIC-001 map",
+        "Governing-equation readiness": "conditional; closure slots explicit"
+      }
+    },
+    {
+      "key": "E",
+      "name": "Polynomial hardening",
+      "mechanism": "A general nonlinear polynomial supplies controllable hardening orders.",
+      "assumptions": [
+        "even energy for signed recovery",
+        "a_2m>=0 with at least one positive nonlinear coefficient"
+      ],
+      "domain": "signed e in R for the nonnegative even-energy subclass",
+      "energy_formula": "w=k0 e^2/2+sum_(m=2)^N a_2m e^(2m)/(2m)",
+      "stress_formula": "sigma=k0 e+sum a_2m e^(2m-1)",
+      "tangent_formula": "k_t=k0+sum(2m-1)a_2m e^(2m-2)",
+      "neighbor_interaction": "none implied locally",
+      "wave_support": "conditional on an authorized kinetic/gradient completion",
+      "strengths": [
+        "systematically extensible",
+        "stable for the displayed coefficient restrictions"
+      ],
+      "weaknesses": [
+        "mixed coefficients need separate domain proof",
+        "order and coefficients remain free"
+      ],
+      "open_questions": [
+        "Which truncation is justified?",
+        "What constrains coefficients and tensor invariants?"
+      ],
+      "evaluation": {
+        "Weak-field recovery": "pass (common k0 tangent)",
+        "Progressive hardening": "pass",
+        "Smooth constitutive response": "pass",
+        "Stable equilibrium": "pass on ray; tensor proof pending",
+        "Wave-support capability": "conditional (completion required)",
+        "Recovery": "pass restoring tendency; evolution pending",
+        "Finite-energy compatibility": "pass",
+        "Emergent geometry compatibility": "conditional on METRIC-001 map",
+        "Governing-equation readiness": "conditional; closure slots explicit"
+      }
+    }
+  ]
+}

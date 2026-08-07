@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "milestone": "PBUF BALANCE-001",
+  "status": "complete_structural_nonunique",
+  "unconditional_results": [
+    {"id": "B-002", "kind": "reparameterization_identity", "formula": "<p,v>-L=0", "is_conserved_charge": false},
+    {"id": "B-003", "kind": "stored_energy_chain_rule", "formula": "dW=P_C:dC, P_C=DW", "is_conserved_charge": false},
+    {"kind": "path_component_persistence", "formula": "continuous q(s) remains in one path component of Q_adm", "is_local_current": false},
+    {"kind": "gauge_objectivity_identity", "formula": "physical quantities descend to A/G", "is_conserved_charge": false}
+  ],
+  "local_balance_templates": [
+    {"id": "B-004", "representation": "reference_carrier_clock_gauge", "formula": "partial_tau rho_a + Div_0 J_a = sigma_a", "closure_slots": ["rho_a", "J_a", "sigma_a"]},
+    {"id": "B-006", "representation": "unparameterized_order", "formula": "d_s rho_a + Div_0 mathcalJ_a = mathcalS_a", "transformation": "mathcalJ'_a=mathcalJ_a/f'; mathcalS'_a=mathcalS_a/f'"},
+    {"id": "B-007", "representation": "effective_covariant", "formula": "nabla_eff_mu J_a^mu = Sigma_a", "metric": "g_eff=G[q,C;D]"}
+  ],
+  "candidate_quantities": [
+    {"name": "medium_content", "conservation": "not_derived", "reason": "no additive content density defined"},
+    {"name": "elastic_stored_energy", "conservation": "not_by_itself", "derived": "exact reversible storage identity"},
+    {"name": "propagation_content", "conservation": "not_derived", "reason": "duration construction defines no propagation-number density"},
+    {"name": "generalized_momentum", "conservation": "conditional", "condition": "translation symmetry of selected full action"},
+    {"name": "angular_momentum_type", "conservation": "conditional", "condition": "continuous global rotation symmetry of selected full action and boundaries"},
+    {"name": "action", "conservation": "category_error", "reason": "action is an invariant functional; B-002 is the relevant identity"},
+    {"name": "topology", "conservation": "path_component_only", "reason": "no particular topological charge defined"}
+  ],
+  "source_classes": [
+    {"name": "zero", "effect": "local conservation"},
+    {"name": "external", "effect": "supply/removal from selected accounting region"},
+    {"name": "internal_exchange", "constraint": "sum_A sigma_A_internal=0 for a complete closed partition"},
+    {"name": "dissipative", "condition": "selected constitutive closure and nonnegative declared dissipation"},
+    {"name": "geometric_split", "effect": "connection terms, not physical production"},
+    {"name": "symmetry_breaking", "effect": "prevents associated Noether conservation"}
+  ],
+  "noether_audit": [
+    {"symmetry": "objectivity_internal_gauge", "unconditional": "quotient identities", "charge": "conditional momentum-map/angular type"},
+    {"symmetry": "material_relabeling_covariance", "unconditional": "Noether/gauge identities", "charge": "not automatic"},
+    {"symmetry": "order_reparameterization", "unconditional": "homogeneity and Hamiltonian constraint", "charge": "no physical energy"},
+    {"symmetry": "clock_translation", "unconditional": "none", "charge": "energy, conditional after clock and invariant full action"},
+    {"symmetry": "spatial_translation", "unconditional": "none", "charge": "momentum, conditional on homogeneity of full action"},
+    {"symmetry": "effective_covariance", "unconditional": "tensorial representation and identities", "charge": "requires selected coupled action/source accounting"}
+  ],
+  "evolution_families": [
+    {"name": "reversible_variational", "status": "admissible_after_action_selection"},
+    {"name": "constrained_reversible", "status": "admissible"},
+    {"name": "dissipative_rate", "status": "admissible_constitutive_closure_not_derived"},
+    {"name": "rate_independent_irreversible", "status": "admissible_without_new_memory_fields; additional memory structure unauthorized"}
+  ],
+  "dependency_chain": ["q", "balance", "constitutive_law", "duration_and_metric_map", "source_projection", "evolution_equations"],
+  "forbidden_outputs_absent": ["Einstein equations", "Euler-Lagrange equations", "selected constitutive model", "new ontology", "new fields", "new couplings", "observational fit", "V11 modification"]
+}

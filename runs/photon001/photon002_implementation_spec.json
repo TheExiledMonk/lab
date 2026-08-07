@@ -1,0 +1,41 @@
+{
+  "milestone": "PHOTON-002",
+  "purpose": "Implement and test candidate photon maps without fitting observations.",
+  "required_inputs": [
+    "dimensionless u field and coordinates",
+    "independently specified n(u) or beta with provenance",
+    "initial ray position and unit tangent",
+    "step/refinement controls",
+    "optional frequency and polarization labels for null tests"
+  ],
+  "candidate_interface": "optical_response(u)->n and grad_log_n(u,grad_u); integrate dt/ds=(I-tt^T)grad_log_n",
+  "expected_outputs": [
+    "ray coordinates and unit tangents",
+    "local curvature",
+    "integrated optical phase/time delay",
+    "convergence and symmetry diagnostics",
+    "provenance for every coupling choice"
+  ],
+  "mandatory_tests": [
+    "u=0 and spatially uniform u produce straight rays",
+    "constant transverse grad u produces the analytic small-beta curvature",
+    "longitudinal gradients do not create first-order transverse curvature",
+    "step refinement converges at the integrator's declared order",
+    "rotations and translations commute with propagation",
+    "polarization and frequency null tests hold for scalar nondispersive n",
+    "phase accumulates through a uniform-u slab while deflection remains zero",
+    "comparison to frozen WL is diagnostic only and changes no existing artifact or propagator"
+  ],
+  "decision_gates": {
+    "mathematical": "all analytic, convergence, and symmetry tests pass",
+    "compatibility": "leading-order paths match frozen WL only after explicitly documenting beta, sign, units, projection, and the WL x-weight anisotropy",
+    "theory": "beta or full n(u) is derived independently from a photon/electromagnetic action before any observational claim",
+    "falsification": "failure of achromatic or polarization-independent gates rejects A03, not the three-component ontology by itself"
+  },
+  "forbidden": [
+    "fit beta to lensing data",
+    "identify beta with 1/137 without derivation",
+    "modify the frozen propagator",
+    "claim observational validation"
+  ]
+}

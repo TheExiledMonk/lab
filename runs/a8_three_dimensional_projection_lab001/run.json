@@ -1,0 +1,62 @@
+{
+  "laboratory_id": "PBUF A8 THREE-DIMENSIONAL PROJECTION-LAB-001",
+  "started_iso": "2026-08-06T14:42:19Z",
+  "duration_seconds": 46.115145524032414,
+  "host_python": "3.12.13",
+  "numpy_version": "2.5.1",
+  "production": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "frozen_hashes_ok": true,
+  "alpha_fs": 0.0072973525692838015,
+  "three_alpha_fs": 0.021892057707851405,
+  "six_alpha_fs": 0.04378411541570281,
+  "inv_alpha_fs": 137.035999084,
+  "cluster_ids": [
+    "Abell2744",
+    "MACS0416",
+    "MACS1149",
+    "AbellS1063",
+    "Abell370"
+  ],
+  "depths": {
+    "Z1": 3,
+    "Z2": 9,
+    "Z3": 17
+  },
+  "depth_profiles": {
+    "gaussian": "gaussian",
+    "uniform": "uniform"
+  },
+  "boundary_conditions": {
+    "reflective": "reflective",
+    "periodic": "periodic"
+  },
+  "orientations": [
+    "O1",
+    "O2",
+    "O3",
+    "O4"
+  ],
+  "neighbour_stencils": {
+    "N6": "n6",
+    "N26": "n26"
+  },
+  "primary_depth": "Z2",
+  "primary_profile": "gaussian",
+  "primary_boundary": "reflective",
+  "primary_orientation": "O3",
+  "primary_stencil": "N6",
+  "no_new_physics": true,
+  "no_fitting": true,
+  "no_amplitude_matching": true,
+  "instrumentation_does_not_modify_frozen_outputs": true
+}

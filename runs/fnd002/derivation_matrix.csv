@@ -1,0 +1,7 @@
+id,premises,reduction,consequence,boundary
+FND-002-D01,Stable smooth local energy at q=0,"V(q)=V(0)+q^T H q/2+O(|q|^3), H>0",Quadratic recovery at leading order,Fails at a degenerate/critical or nonsmooth equilibrium
+FND-002-D02,Analytic local matter interaction,"I(eta,q)=I(0,0)-eta h.q+O(eta|q|^2,eta^2)",Linear loading at leading order,A symmetry may force h=0
+FND-002-D03,Local isotropic spatial response,Gamma(k)=K+G|k|^2+O(|k|^4),K u-G Laplacian(u)=s at long wavelength,Long-range kernels can be nonanalytic; anisotropy makes G a tensor
+FND-002-D04,Normalized centered localized kernel,C[u]=u+(mu_2/2d)Laplacian(u)+higher moments,Kernel-independent leading slow field,No scale separation or divergent moments
+FND-002-D05,One sourced light mode; others massive/decoupled,u=e.q; integrate out transverse modes,Scalar effective sector,Multiple sourced light modes require vector/tensor closure
+FND-002-D06,Any equilibrating dynamics for the same F,stationary state satisfies delta F/delta u=0,Static equation independent of overdamped choice,Driven/non-equilibrium states need a dynamical postulate

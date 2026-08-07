@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "exactly_nine_assumptions": true,
+    "unique_assumption_ids": true,
+    "all_labels_allowed": true,
+    "all_four_labels_used": true,
+    "all_required_questions_answered": true,
+    "alternatives_complete": true,
+    "derivation_boundaries_documented": true
+  },
+  "all_checks_pass": true,
+  "label_counts": {
+    "DERIVED": 1,
+    "NEW POSTULATE": 2,
+    "OPTIONAL": 5,
+    "SUPPORTED": 1
+  }
+}

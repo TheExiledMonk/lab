@@ -1,0 +1,31 @@
+{
+  "cluster": "Abell2744",
+  "lane": "L5",
+  "grid_dimensions": [
+    9,
+    64,
+    64
+  ],
+  "depth": 9,
+  "depth_profile": "gaussian",
+  "neighbour_stencil": "N6",
+  "boundary_condition": "reflective",
+  "orientation_rule": "O3",
+  "midpoint_centered": true,
+  "dtype": "float64",
+  "checksums": {
+    "rho_3d": "c42edb49d5acc8c214c7447ab7eb05abf888c0503942effad6ca7befef2e7e20",
+    "rx_proj": "c325b5ab7fb270cab4a7ade96103605bcdfc4eaba581674fb14b2a7695cf1d5e",
+    "ry_proj": "fdd9ad26b43ff107cc23e094afbb2ee4ca5bc651d7094e9cb4123d4e4502c87b",
+    "kappa": "d1d34ccfe13fcaf4e940b33ee4c9f0e99e08f3b19b500e6697d0236b7fc739ed"
+  },
+  "frozen_source_hashes": {
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "numerical_convergence001.py": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+    "version_b_physics_lab001.py": "cf27215ed4da0377ca43bfd21e46e925b48d333b2c5127ab40b0e06d73c29ee2",
+    "microscopic_transport_equivalence_lab001.py": "7861db1b1fb40d5df087e206efcfa5b219d918c00d87af9c697b3d666bca3e0c"
+  }
+}

@@ -1,0 +1,9 @@
+# Physical Mapping Table
+
+| Published | Version A | Comparable | Reason |
+|---|---|---|---|
+| kappa.fits | Predicted κ (from photon-count ratio) | PARTIALLY | Same mathematical symbol κ but Version A κ is a local photon-density distortion (dimensionless Cartesian units, no cosmology, no Σ_crit); published κ = Σ / Σ_crit is the surface-mass-density ratio and depends explicitly on cosmological distance ratios and source redshift Z_S. |
+| gamma1.fits | Predicted γ_1 (from deflection-gradient) | PARTIALLY | Same symbol γ_1 but different physical process. Version A γ_1 is derived from the displacement of photons through a PBUF response field; published γ_1 (or g_1) is the posterior-mean shear component from a SaWLens inversion of observed galaxy ellipticities. Even if the published quantity is the reduced shear g_1 = γ_1 / (1 - κ), Version A does not perform the (1 - κ) division and the two γ_1 share only the field name. |
+| gamma2.fits | Predicted γ_2 (from deflection-gradient) | PARTIALLY | Same caveats as gamma1.fits; same conclusion. |
+| gamma.fits | Predicted |γ| | PARTIALLY | |γ| = sqrt(γ_1^2 + γ_2^2) by construction in both pipelines, so the magnitude is internally consistent, but the underlying γ_1, γ_2 carry different physical content as documented above. |
+| jacdet.fits / magnification.fits | Predicted μ | NO | Published μ = 1 / ((1 - κ)^2 - |γ|^2) is computed from the SaWLens-reconstructed κ and γ at Z_S = 9; Version A μ uses the Version A κ and γ and is not rescaled by any cosmological factor. A direct comparison would require matching Z_S and adding the missing cosmological bridge. |

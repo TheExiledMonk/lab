@@ -1,0 +1,8 @@
+stage,transform,max_PQPeQ_minus_PT_error,max_against_QPQ_formula,max_roundtrip_error,tolerance,passes
+full,RC0,0.0,0.0,0.0,1e-14,True
+full,RC1,0.0,0.0,0.0,1e-14,True
+full,RC2,0.0,0.0,0.0,1e-14,True
+full,RC3,0.0,0.0,0.0,1e-14,True
+full,RC4,0.0,0.0,2.0,1e-14,False
+full,RC5,0.0,0.0,2.0,1e-14,False
+full,RC6,0.0,0.0,1.28,1e-14,False

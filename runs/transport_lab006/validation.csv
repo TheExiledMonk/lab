@@ -1,0 +1,8 @@
+Candidate,Label,Mean |r-A|,Max |r-A|,Pass/Fail
+Candidate 1,Constitutive gradient ∇C,2.452e-19,2.776e-17,PASS
+Candidate 2,Stress gradient ∇|∇C|/(C+ε),2.485e-19,2.776e-17,PASS
+Candidate 3,Energy gradient C·∇C,2.296e-19,2.776e-17,PASS
+Candidate 4,Traction (∇C·N̂)N̂,2.133e-19,2.776e-17,PASS
+Candidate 5,Force density ∇(∇²C),2.222e-19,2.776e-17,PASS
+Candidate 6,Principal strain direction,2.230e-19,2.776e-17,PASS
+Candidate 7,Principal stress direction,2.380e-19,2.776e-17,PASS

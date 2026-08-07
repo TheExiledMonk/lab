@@ -1,0 +1,19 @@
+{
+  "cluster_id": "AbellS1063",
+  "model": "A8",
+  "channel_id": "CH1",
+  "channel_name": "Longitudinal (local-gradient)",
+  "decomposition_type": "local_longitudinal",
+  "padded_unpadded": "padded",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "dtype": "float64",
+  "response_rx_sha256": "f1b04d104f7bcacd105f418bb22a2d8aabfe17e68d33d460859b48079813b48a",
+  "response_ry_sha256": "b32009b8bd7ab40c786f07e5f7514e30daa943a79b619087572cbe723c619112",
+  "kappa_sha256": "b2917e8ffdf4c7272b3d20d14837f1ffb607816ef448cd6d835552338a57d0bd",
+  "gamma1_sha256": "3178da59a338a8a3a6e1f383733447f1f184fc07bd96765d84c6bf5202906522",
+  "gamma2_sha256": "05000552617b6351aab1f9f6d8e08030c79890e4a83abeebc920b670abd94961",
+  "frozen_source_hash": "e4163afe96b8077207a912865a9b427dc6220d6ebde667df29c1b907afccb65f"
+}

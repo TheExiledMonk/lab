@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M11.field.diagnostics",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "fa93f1c101a8ef136319dba18cd3e38907ee201e28c86948a4fdd58bd66a2503",
+  "test_sha256": "fa93f1c101a8ef136319dba18cd3e38907ee201e28c86948a4fdd58bd66a2503",
+  "reference_fixture_sha256": "193e271a094af6ee89d30c1e3564d9e41fd9853656325ce9c70df2941e09bf33",
+  "conventions_version": "1.0.0",
+  "tests_passed": 4,
+  "tests_total": 4,
+  "maximum_error": 0.0,
+  "tolerance": 1e-15,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "superseded_by": "FOUNDATION-001-CORRECTION-001"
+}

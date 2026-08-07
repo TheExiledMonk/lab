@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M03.vector.transforms",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "6a35cd114900f379a5eadea0bd72f7454dfd2f98b9040cd6c860fefec0557d7f",
+  "test_sha256": "6a35cd114900f379a5eadea0bd72f7454dfd2f98b9040cd6c860fefec0557d7f",
+  "reference_fixture_sha256": "6fcd74d8dddfb1d490c0fbb7f5d359b3f290fd402c0935b91a3bfea61439710f",
+  "conventions_version": "1.0.0",
+  "tests_passed": 42,
+  "tests_total": 42,
+  "maximum_error": 0.0,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "superseded_by": "FOUNDATION-001-CORRECTION-001"
+}

@@ -1,0 +1,11 @@
+symbol,definition,units,physical_meaning,origin,assumption_status
+u,scalar spacetime-deformation proxy,dimensionless,field passed to the frozen photon-gradient interface,WL-001 Physics Starting Pack: local spacetime deformation field,scalar isotropic reduction
+rho,identified baryonic matter density/map,input-map units,matter loading of the medium,WL-001 Physics Starting Pack: mass loads spacetime,the supplied 2-D map is an adequate loading variable
+q=rho/rho_max,normalized matter loading,dimensionless,removes the input map's amplitude unit,Version A/WL-001 implemented normalization,rho_max > 0; zero input handled separately
+u0,deformation-strength scale,dimensionless,peak local response scale,fixed WL-001 PBUF constant (deformation_strength),"its numerical value is inherited, not derived in WL-003"
+s(rho),matter-produced generalized source,K (energy-density per u),work conjugate to u,PBUF matter--medium interaction concept,no quantitative PBUF source law was supplied
+K,local recovery stiffness,energy density per u^2,penalizes local deformation,PBUF thermal-rigidity concept,positive and spatially constant for Version D
+G,gradient stiffness,K times length^2,penalizes spatial variation and transmits deformation,existing elasticity concept requested by WL-003,"positive, isotropic and spatially constant"
+ell=sqrt(G/K),propagation length,length,balance scale of gradient and local recovery,follows algebraically from the elasticity balance,G and K must be supplied by a PBUF closure
+sigma_rho,observed baryonic Gaussian width,length,Version D's current proxy for ell,WL-002 Version D,observed geometry scale; equality ell=sigma_rho is not derived
+nabla,spatial gradient,inverse length,measures spatial variation,standard continuum conservation notation,flat 2-D frozen laboratory coordinates

@@ -1,0 +1,18 @@
+{
+  "module": "pbuf.core.M16.observable.extraction",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "fedd16e980cc910f7cbbbb535b7cd6382cb8084b7856da786467c2db29a7820a",
+  "test_sha256": "fedd16e980cc910f7cbbbb535b7cd6382cb8084b7856da786467c2db29a7820a",
+  "reference_fixture_sha256": "48adf1b401826a0db6eafe1ab10cef8ac888c816f73ec412f7e9dffc47872112",
+  "conventions_version": "1.0.0",
+  "tests_passed": 4,
+  "tests_total": 4,
+  "maximum_error": 0.0,
+  "tolerance": 1e-15,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true
+}

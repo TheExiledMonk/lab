@@ -1,0 +1,7 @@
+candidate,pbuf_status,covariance,conservation,finding
+rest-mass density rho,used by MB-001 notation but not selected by V11,not a universal relativistic scalar source by itself,continuity only for conserved material number/mass,"admissible dust-limit input, not derivable as the fundamental operator"
+energy density T_{mu nu}v^mu v^nu,implied after a medium observer v is chosen,observer/rest-frame dependent scalar projection,inherits constraints from stress-energy conservation,possible scalar reduction; V11 defines no medium four-velocity or projection
+trace T^mu_mu,possible if the medium/metric response is purely conformal,scalar,not separately conserved; vanishes classically for conformal radiation,"one admissible action family, not selected by V11"
+full stress-energy tensor T^{mu nu},implied by V11's retention of standard GR,rank-2 tensor and universal metric source,nabla_mu T^{mu nu}=0 on shell for minimal coupling,unique operator-level answer before a medium projection is chosen
+matter Lagrangian or direct microscopic state vertex,no V11 matter-medium vertex supplied,model dependent and Lagrangian-representation sensitive,generically exchanges energy-momentum with the medium,not admissible as an asserted PBUF law without a new principle
+V11 alpha hierarchy,controls elastic/cosmological pipeline roles,not a matter operator,not applicable,cannot normalize s and is not identified with a matter vertex

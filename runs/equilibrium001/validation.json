@@ -1,0 +1,45 @@
+{
+  "milestone": "PBUF EQUILIBRIUM-001",
+  "pass": true,
+  "checks": {
+    "all_frozen_sources_present": true,
+    "catalogue_complete": true,
+    "nine_required_compatibility_inputs_audited": true,
+    "all_incompatibilities_explained": true,
+    "five_generation_properties_audited": true,
+    "d1_d3_relation_audited": true,
+    "equivalence_classes_reduced": true,
+    "selection_supported_by_noninjectivity_argument": true,
+    "remainder_implications_only_structural": true,
+    "no_constitutive_law_or_new_variable_parameter": true,
+    "no_ontology_v11_lensing_or_fit_change": true
+  },
+  "decision": "Outcome B: reduced E1/E2 family; no unique deeper equilibrium selector",
+  "sources": {
+    "FOUNDATION-001": "runs/foundation001/foundational_ontology.md",
+    "STATE-002": "runs/state002/primitive_medium_state.md",
+    "DEFORMATION-001": "runs/deformation001/deformation_measure_report.md",
+    "HYPER-001": "runs/hyper001/stored_energy_derivation.md",
+    "ENERGY-PRINCIPLE-001": "runs/energy_principle001/energy_selection_derivation.md",
+    "DURATION-001": "runs/duration001/emergent_duration_derivation.md",
+    "METRIC-001": "runs/metric001/effective_metric_derivation.md",
+    "BALANCE-001": "runs/balance001/native_balance_laws.md",
+    "CONSTITUTIVE-002": "runs/constitutive002/constitutive_comparison_report.md",
+    "MATERIAL-LAB-001": "runs/material_lab001/material_laboratory_report.md",
+    "MATERIAL-LAB-002": "runs/material_lab002/interaction_energy_separation_report.md",
+    "MATERIAL-DISCOVERY-001": "runs/material_discovery001/survey_report.md",
+    "CONSTITUTIVE-PRINCIPLES-001": "runs/constitutive_principles001/constitutive_principles_report.md",
+    "CONSTITUTIVE-SELECTION-001": "runs/constitutive_selection001/constitutive_selection_report.md",
+    "LOCALITY-001": "runs/locality001/locality_report.md",
+    "ENERGY-SEARCH-001": "runs/energy_search001/energy_search_report.md",
+    "NONLINEARITY-001": "runs/nonlinearity001/nonlinearity_report.md"
+  },
+  "deliverables": [
+    "equilibrium_report.md",
+    "principle_catalogue.csv",
+    "constitutive_generation_audit.csv",
+    "d1_d3_relationship.csv",
+    "equivalence_classes.json",
+    "validation.json"
+  ]
+}

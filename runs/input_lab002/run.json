@@ -1,0 +1,52 @@
+{
+  "milestone": "PBUF INPUT-LAB-002",
+  "status": "OK",
+  "frozen_components": {
+    "constitutive": "Version A: C = 0.18 * rho / rho_max",
+    "transport": "90-degree transverse response, direct addition + renormalisation",
+    "response": "r = 90\u00b0(\u2207C) \u00b7 |\u2207C|",
+    "numerical_parameters": {
+      "n": 128,
+      "extent": 8.0,
+      "strength": 0.18,
+      "step": 0.06,
+      "steps": 80,
+      "y_span": 3.0,
+      "nphotons": 2000,
+      "bins": 64
+    }
+  },
+  "frozen_input": "rho = max(kappa, 0) / max(max(kappa, 0))",
+  "variable_parameters_only": [
+    "Number of propagation steps",
+    "Step size",
+    "Launch position",
+    "Launch direction",
+    "Photon density"
+  ],
+  "control": {
+    "steps": 80,
+    "step": 0.06,
+    "nphotons": 2000,
+    "y_span": 3.0,
+    "x_span": 8.0,
+    "launch_position": "left",
+    "launch_direction": "left_to_right"
+  },
+  "experiment_groups": [
+    "A_steps",
+    "B_step",
+    "C_launch_position",
+    "D_launch_direction",
+    "E_photon_density"
+  ],
+  "n_experiments": 30,
+  "identical_pipeline_hashes": {
+    "input_lab002.py": "071ff78b5465178b2e908347fff7f67bf0638bf8b960d240a56dc5304597a360",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "observation_bridge001.py": "73ee7256bd0c4c6170a42ec4edf3ce5c22be2499c25807bd52ef11e8b9448b71",
+    "input_lab001.py": "1ede495cac8738720a62eeef32bc3c7e87f5ab2d55d80afa64314a2d3b1e8611"
+  },
+  "execution_seconds": 1.9676975479815155
+}

@@ -1,0 +1,114 @@
+{
+  "result": "No nontrivial exact equivalences were found.",
+  "relations": [
+    {
+      "source": "P01",
+      "target": "P02",
+      "relation": "prerequisite",
+      "justification": "Invariant energy on the frozen state requires objective deformation coordinates."
+    },
+    {
+      "source": "P02",
+      "target": "P04",
+      "relation": "prerequisite",
+      "justification": "Differentiation of energy defines stress and tangent."
+    },
+    {
+      "source": "P03",
+      "target": "P05",
+      "relation": "prerequisite",
+      "justification": "The reference stationary point is tested by its Hessian."
+    },
+    {
+      "source": "P04",
+      "target": "P05",
+      "relation": "prerequisite",
+      "justification": "A tangent requires a twice differentiable interior energy."
+    },
+    {
+      "source": "P02",
+      "target": "P07",
+      "relation": "jointly-required",
+      "justification": "Energy plus a unique stable minimum yields conservative recovery."
+    },
+    {
+      "source": "P03",
+      "target": "P07",
+      "relation": "jointly-required",
+      "justification": "Recovery needs the reference to be the selected minimum."
+    },
+    {
+      "source": "P05",
+      "target": "P09",
+      "relation": "jointly-required",
+      "justification": "Positive tangent supplies a positive acoustic tensor."
+    },
+    {
+      "source": "P08",
+      "target": "P09",
+      "relation": "jointly-required",
+      "justification": "Spatial coupling is needed to transport a disturbance."
+    },
+    {
+      "source": "P05",
+      "target": "P06",
+      "relation": "local-not-global",
+      "justification": "Reference positivity does not imply stability everywhere."
+    },
+    {
+      "source": "P12",
+      "target": "P10",
+      "relation": "conditional-implication",
+      "justification": "A smooth approached barrier hardens asymptotically along paths transverse to that barrier, not necessarily along every path."
+    },
+    {
+      "source": "P12",
+      "target": "P11",
+      "relation": "alternative",
+      "justification": "Finite-boundary blow-up replaces, rather than implies, coercivity on an unbounded domain."
+    },
+    {
+      "source": "P13",
+      "target": "P08",
+      "relation": "implication",
+      "justification": "A nonzero gradient Euler-Lagrange term communicates spatially."
+    },
+    {
+      "source": "P14",
+      "target": "P08",
+      "relation": "implication",
+      "justification": "A nontrivial kernel communicates spatially."
+    },
+    {
+      "source": "P15",
+      "target": "P07",
+      "relation": "compatible-not-sufficient",
+      "justification": "Damping can coexist with equilibrium recovery but does not generate its conservative endpoint."
+    },
+    {
+      "source": "P16",
+      "target": "P01",
+      "relation": "incompatible",
+      "justification": "Independent state enlargements violate the frozen native-variable closure."
+    },
+    {
+      "source": "P17",
+      "target": "P07",
+      "relation": "incompatible",
+      "justification": "Permanent history contradicts full recovery."
+    },
+    {
+      "source": "P18",
+      "target": "P05",
+      "relation": "incompatible",
+      "justification": "Zero shear Hessian contradicts positive stiffness on required shear modes."
+    }
+  ],
+  "important_non_equivalences": [
+    "P12 is not equivalent to P10",
+    "P13 is not equivalent to P08",
+    "P13 is not equivalent to P14",
+    "P02 is not equivalent to P07",
+    "P05 is not equivalent to P09"
+  ]
+}

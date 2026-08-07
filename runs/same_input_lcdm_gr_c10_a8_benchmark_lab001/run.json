@@ -1,0 +1,38 @@
+{
+  "laboratory_id": "PBUF SAME-INPUT LCDM/GR-C10-A8 BENCHMARK-LAB-001",
+  "started_iso": "2026-08-06T10:50:23Z",
+  "duration_seconds": 16.829110556980595,
+  "host_python": "3.12.13",
+  "numpy_version": "2.5.1",
+  "production": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "frozen_hashes_ok": true,
+  "smoothing_sigma": 1.0,
+  "n_radial_bins": 20,
+  "n_power_bins": 20,
+  "padding_rule": "mirror-pad 50% on each side, apply operator, crop back",
+  "alpha_fs": 0.0072973525692838015,
+  "three_alpha_fs": 0.021892057707851405,
+  "six_alpha_fs": 0.04378411541570281,
+  "inv_alpha_fs": 137.035999084,
+  "cluster_ids": [
+    "Abell2744",
+    "MACS0416",
+    "MACS1149",
+    "AbellS1063",
+    "Abell370"
+  ],
+  "input_independence": "shared_observation_derived_proxy",
+  "bridge_class": "D (dimensionless same-input operator comparison)",
+  "absolute_physical_claim": false,
+  "benchmark_type": "same_input_dimensionless_operator"
+}

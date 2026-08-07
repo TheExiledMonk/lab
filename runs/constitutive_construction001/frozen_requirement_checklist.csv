@@ -1,0 +1,14 @@
+id,frozen_requirement
+R01,one scalar stored-energy law for the one medium; no independent sector or freely adjustable constant
+R02,"state dependence only on the frozen objective rank-three SPD tensor C[q,q0]"
+R03,"dimensionless-deformation dependence invariant under orthogonal similarity; equivalently Phi(I1,I2,I3)"
+R04,"local, parity-even, isotropic, single-valued, statewise hyperelastic and rate/history independent"
+R05,"D_C is path-connected and permutation invariant, contains 1, and has compact closure inside SPD"
+R06,"W is C1 in int(D_C), C2 near 1, and lower semicontinuous when extended-valued"
+R07,W(C)>=0 and W(1)=0
+R08,DW(1)=0
+R09,"D2W(1)=A0, the frozen strictly positive isotropic weak-field tangent (K0>0, mu0>0)"
+R10,stress is the variational derivative and is acoustically positive on the declared propagation domain
+R11,"one authorized endpoint: hard extended value, complete interior blow-up, or finite regular endpoint plus the frozen state constraint"
+R12,the operational branch remains compatible with a regular V11 metric/cone completion; W alone does not prove that completion
+R13,"no intrinsic gradient, kernel, hidden state, dissipation, fitted coefficient, or new ontology"

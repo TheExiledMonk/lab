@@ -1,0 +1,23 @@
+stage,algorithm,implementation_file,function,checksum_sha256,dependencies,status,frozen_lab
+constitutive,Version A: C = u0 * rho / rho_max,constitutive_equations.py,version_a,e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f,numpy;Equation dataclass,FROZEN,CONSTITUTIVE-LAB-001
+gradient,np.gradient (edge_order=1),weak_lensing_observation001.py,make_field:188,a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc,numpy,FROZEN,WEAK-LENSING-VALIDATION-001
+response_direction,90 deg transverse (R_90 of grad C),weak_lensing_observation001.py,make_field:195-196,a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc,numpy,FROZEN,TRANSPORT-LAB-001..008
+response_magnitude,linear A = |grad C|,weak_lensing_observation001.py,make_field:189,a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc,numpy,FROZEN,TRANSPORT-LAB-008
+update_rule,direct addition + per-step renormalisation,weak_lensing_observation001.py,propagate:222-235,a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc,numpy,FROZEN,TRANSPORT-LAB-007
+neighbour_lookup,bilinear (searchsorted + clip),weak_lensing_observation001.py,propagate:223-226,a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc,numpy,FROZEN,TRANSPORT-LAB-002
+position_update,x += step * v (renormalised),weak_lensing_observation001.py,propagate:236-237,a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc,numpy,FROZEN,WEAK-LENSING-VALIDATION-001
+launch_A,1D edge launch (legacy),source_plane_lab001.py,launch_A_edge_1d,efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4,numpy,LEGACY (deprecated),SOURCE-PLANE-LAB-001
+launch_B,uniform Cartesian 2D launch (frozen),source_plane_lab001.py,launch_B_cartesian,efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4,numpy,FROZEN,SOURCE-PLANE-LAB-001
+launch_C,hexagonal packing,source_plane_lab001.py,launch_C_hex,efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4,numpy,NOT FROZEN,SOURCE-PLANE-LAB-001
+launch_D,jittered Cartesian (seed=123456),source_plane_lab001.py,launch_D_jittered,efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4,numpy;numpy.random.seed(123456),NOT FROZEN,SOURCE-PLANE-LAB-001
+launch_E,multi-resolution (dense central),source_plane_lab001.py,launch_E_multires,efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4,numpy,NOT FROZEN,SOURCE-PLANE-LAB-001
+observable_histogram,histogram occupancy (legacy),observable_lab001.py,method_histogram,2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132,numpy,LEGACY (degenerate; historical reference only),OBSERVABLE-LAB-001
+observable_kernel,Gaussian KDE (Scott bandwidth),observable_lab001.py,method_kernel,2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132,numpy;scipy.stats.gaussian_kde,SUPPORTING,OBSERVABLE-LAB-001
+observable_jacobian,ray-bundle Jacobian (linear fit per bin),observable_lab001.py,method_jacobian,2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132,numpy;numpy.linalg.lstsq,PRIMARY (frozen),OBSERVABLE-LAB-001
+observable_area,finite-area distortion,observable_lab001.py,method_area,2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132,numpy,SECONDARY,OBSERVABLE-LAB-001
+observable_divergence,displacement divergence (grad · d),observable_lab001.py,method_divergence,2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132,numpy,SUPPORTING,OBSERVABLE-LAB-001
+observable_knn,adaptive k-nearest-neighbour density,observable_lab001.py,method_knn,2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132,numpy;sklearn.neighbors (optional),SUPPORTING,OBSERVABLE-LAB-001
+observable_voronoi,Voronoi area method,observable_lab001.py,method_voronoi,2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132,numpy;scipy.spatial.Voronoi,SUPPORTING,OBSERVABLE-LAB-001
+observable_triangulation,Delaunay triangulation area method,observable_lab001.py,method_triangulation,2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132,numpy;scipy.spatial.Delaunay,SECONDARY,OBSERVABLE-LAB-001
+matter_input,max(kappa_observed, 0) / max(max(kappa_observed, 0)),weak_lensing_observation001.py,load_observation:118 (resample_to_grid:97),a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc,astropy.io.fits;scipy.ndimage.map_coordinates,FROZEN,OBSERVATION-BRIDGE-001
+fitter_inverse_source,placeholder for lens_load001,lens_load001.py,main,n/a,numpy,OUT OF SCOPE (not part of laboratory),LENS-LOAD-001

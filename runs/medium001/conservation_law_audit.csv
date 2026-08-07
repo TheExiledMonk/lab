@@ -1,0 +1,6 @@
+id,sector,law,status,basis,limitation
+C1,Matter,nabla_mu T_m^{mu nu}=0 on matter equations,derived from diffeomorphism invariance and minimal metric coupling,V11/MATTER-001,Does not select chi or elasticity
+C2,Medium,E_A times L_xi chi^A plus nabla_mu T_med^{mu nu}=0,conditional Noether identity,covariant S_med,Cannot be evaluated until S_med and transformations of chi are given
+C3,Combined,nabla_mu(T_m^{mu nu}+T_med^{mu nu})=0,required at the effective interface,general covariance,Separate conservation holds only without direct exchange
+C4,Static scalar,integral_V s=integral_V Ku - integral_boundary G grad(u).n,derived from MB-001-E05,MB-001,"Balance law, not conservation of mass or deformation charge"
+C5,Nonlocal,kernel obeys covariant Ward identities and retarded support,required for admissibility,covariance and causality,V11 gives no kernel or state/boundary prescription

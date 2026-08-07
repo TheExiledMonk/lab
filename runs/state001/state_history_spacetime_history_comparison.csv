@@ -1,0 +1,13 @@
+aspect,state_history,coordinate_history,effective_spacetime_history,ontology_decision
+Basic object,"Ordered curve of physical state classes in Q_phys","Fields/components indexed by coordinate time or slice label","Four-dimensional Lorentzian representation of events and relations","These are distinct levels"
+Invariant content,"Physical order correlations and relational clock readings","None solely from the chosen labels/components","Causal relations and proper intervals from the metric","Coordinate descriptions may be many-to-one"
+Instant,"One position on an admissible state history","One chosen coordinate-time slice","A spacelike hypersurface only after a foliation choice","No invariant global present is currently derived"
+Uniqueness,"Single-valued notation gives one class at one history position","Many charts can describe the same class","Many foliations can describe the same four-geometry","Identity uniqueness does not imply actuality uniqueness"
+Past,"Earlier ordered state or reconstructed candidate","Data assigned smaller coordinate label","Events to the past according to causal/temporal structure","Its actuality status is unresolved"
+Future,"Later allowed state or branch","Data assigned larger coordinate label","Future events/regions in the effective geometry","Uniqueness and actuality require extra principles"
+Coexistence,"Same-state inclusion means simultaneity within one complete state","Coordinate simultaneity depends on slicing","Spacelike separation does not define a universal present without further structure","Existence elsewhere in a history is not same-state coexistence"
+Reconstruction,"Inference or inverse mapping from current records to candidate earlier classes","Recomputing earlier coordinate data","Reconstructing a region/solution from boundary or Cauchy data","Not physical motion through a dimension"
+Reversal,"Reverse order plus appropriate transformation of state data","Change label orientation or signs","Time-orientation reversal of an effective solution where admissible","Admissibility depends on dynamics"
+Whole-history representation,"Curve may be displayed as one mathematical object","All coordinate data may be stored together","Four-manifold represents the complete effective solution","Representation does not prove whole-history actuality"
+Relativistic compatibility,"Must be invariant under equivalent slicings in the effective limit","Coordinate time remains gauge-dependent","One metric supplies proper time and causal cones","No observable preferred foliation may be introduced"
+PBUF status,"Conditional architecture from TIME-001","Permitted bookkeeping","Operational representation retained by V11","Actuality relation and global slicing remain missing"

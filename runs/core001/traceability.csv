@@ -1,0 +1,13 @@
+id,definition_or_equation,status,assumption_or_boundary
+CORE-001-A01,three real components q_i in R^3,working premise,The number three is stipulated by CORE-001; no microscopic derivation is claimed.
+CORE-001-A02,g_dev = 1/137,working premise,Dimensionless matter--state coupling scale; its value and interpretation are assumed.
+CORE-001-A03,periodic isotropic lattice with spacing a,modeling assumption,Provides a regulator and a controlled long-wavelength expansion.
+CORE-001-E01,F=epsilon_* sum_i [kappa_0|q_i|^2/2 + kappa_1 sum_<ij>|q_j-q_i|^2/2 - g_dev eta_i e.q_i],corrected microscopic free energy,"Defines recovery, nearest-neighbor transmission, and direct PBUF matter loading."
+CORE-001-E02,tau dq_i/dt = -d(F/epsilon_*)/dq_i + xi_i,defined local evolution,Overdamped relaxation; zero-mean noise xi may be omitted in the static limit.
+CORE-001-E03,C_L[q](x)=e . sum_i a^d W_L(x-x_i) q_i,defined coarse graining,"W_L is nonnegative, rotationally symmetric, normalized, and a << L."
+CORE-001-E04,u(x)=C_L[q](x),definition,Dimensionless scalar deformation accepted by the existing continuum interface.
+CORE-001-E05,K=epsilon_* kappa_0/a^d,conditional derivation,"Local stiffness in the aligned, long-wavelength sector."
+CORE-001-E06,G=epsilon_* kappa_1 a^(2-d),conditional derivation,Gradient stiffness from the nearest-neighbor term; convention-dependent O(1) factors are absorbed in kappa_1.
+CORE-001-E07,s(rho)=epsilon_* g_dev eta/a^d,corrected conditional derivation,eta=rho/rho_* is dimensionless; the direct linear source follows from the assumed interaction.
+CORE-001-E08,ell=sqrt(G/K)=a sqrt(kappa_1/kappa_0),conditional derivation,Propagation length; a finite continuum ell requires parameter scaling under a->0.
+CORE-001-E09,K u-div(G grad u)=s(rho),macroscopic limit,"WL-003 form after alignment, scale separation, isotropy, and static relaxation."

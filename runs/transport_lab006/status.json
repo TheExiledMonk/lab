@@ -1,0 +1,12 @@
+{
+  "validation": "all candidates pass (|r|=A within machine precision)",
+  "control_candidate": "Candidate 1 (\u2207C)",
+  "indistinguishable_from_control": [
+    "Candidate 1",
+    "Candidate 2",
+    "Candidate 3",
+    "Candidate 5"
+  ],
+  "max_bend_candidate": "Candidate 3",
+  "min_conservation_candidate": "Candidate 1"
+}

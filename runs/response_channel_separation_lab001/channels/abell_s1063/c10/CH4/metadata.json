@@ -1,0 +1,19 @@
+{
+  "cluster_id": "AbellS1063",
+  "model": "C10",
+  "channel_id": "CH4",
+  "channel_name": "Solenoidal (Helmholtz)",
+  "decomposition_type": "helmholtz_solenoidal",
+  "padded_unpadded": "padded",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "dtype": "float64",
+  "response_rx_sha256": "95e5f1dec64ed9feb166490a37654ef51baa871e2d0bb72dce8078b6a2b30efe",
+  "response_ry_sha256": "0c89341da20e5b2aa9971d307b744e2194e0d979990eb0dc38c93db3d559bad3",
+  "kappa_sha256": "3a477e529bb43ef7c3b1381db43ebd8a5567e450f025284d40cbe6bbc2b4fa27",
+  "gamma1_sha256": "80924d09a9a13548ee5f9f7e002bb187fc6739348207bb2e14c3c88a103ee3f1",
+  "gamma2_sha256": "df647677a4403eab0a9855296789fa58b09490fa8e953fa8169c4a576d13c9d0",
+  "frozen_source_hash": "e4163afe96b8077207a912865a9b427dc6220d6ebde667df29c1b907afccb65f"
+}

@@ -1,0 +1,45 @@
+{
+  "milestone": "PBUF NATURE-001",
+  "shortlist": [
+    {
+      "property": "Stable recoverable reference state",
+      "requirement": "The unloaded state is an energy minimum with a finite, positive physical tangent response.",
+      "status": "required"
+    },
+    {
+      "property": "Conservative stored energy",
+      "requirement": "Native reversible stress is generated from a state functional/action so loading stores energy and unloading returns it consistently.",
+      "status": "required"
+    },
+    {
+      "property": "Causal wave-capable dynamics",
+      "requirement": "Perturbations possess a well-posed causal propagation sector compatible with the PBUF signal and effective-GR requirements.",
+      "status": "required; kinetic completion missing"
+    },
+    {
+      "property": "Linear tangent and nonlinear finite-response completion",
+      "requirement": "The law reduces to linear elasticity near equilibrium but remains defined and stable over the admitted finite-deformation domain.",
+      "status": "required structurally; nonlinear shape undetermined"
+    },
+    {
+      "property": "Finite admissible response",
+      "requirement": "The physical branch respects the finite elastic bound and approaches saturation or another regular limiting endpoint without singular or negative-energy continuation.",
+      "status": "required; local saturation mechanism undetermined"
+    },
+    {
+      "property": "State and thermal dependence",
+      "requirement": "Tangent response and homogeneous stored energy inherit the already-authoritative PBUF thermal and cosmological state dependence without redefining it.",
+      "status": "required"
+    },
+    {
+      "property": "Tensorially adequate loading and response",
+      "requirement": "The eventual kinematics and metric map can respond to the full stress-energy load and support the shear/tensor sector needed by the effective-GR limit.",
+      "status": "required; field type missing"
+    },
+    {
+      "property": "Explicit response locality class",
+      "requirement": "The future theory must declare and derive whether its constitutive operator is local, gradient-enriched, or genuinely causal-nonlocal, distinguishing this from a nonlocal Green-function solution.",
+      "status": "selection deferred"
+    }
+  ]
+}

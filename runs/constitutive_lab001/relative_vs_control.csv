@@ -1,0 +1,8 @@
+Candidate,Label,Bend Δ%,Conservation Δ%,|∇C| max Δ%,|∇C| mean Δ%
+Cand 1,Existing control (linear local),+0.0000%,+0.0000%,+0.0000%,+0.0000%
+Cand 2,Local linear (no kernel),+0.0000%,+0.0000%,-0.0000%,+0.0000%
+Cand 3,Finite-range boxcar (R = 1.5),-99.1840%,-50.0000%,-29.0566%,+54.5917%
+Cand 4,Exponential kernel (L = 1.0),+12352.1809%,+0.0000%,-44.9571%,+90.4158%
+Cand 5,Gaussian kernel (σ = 1.0),+220.5176%,+0.0000%,-38.6772%,+66.5846%
+Cand 6,Inverse-distance (L = 1.0),+49087.8245%,+0.0000%,-68.0123%,+129.7408%
+Cand 7,Compact-support (R = 2.0),-99.8310%,-50.0000%,-16.7803%,+22.9901%

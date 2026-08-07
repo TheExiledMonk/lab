@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M12_differential_operators",
+  "version": "1.1.0-correction001",
+  "status": "experimental",
+  "source_sha256": "ff6977ead05c4cbd0f6c65b2cc01457cdc9e7b218a195cf691483506b06fc3f9",
+  "test_sha256": "ff6977ead05c4cbd0f6c65b2cc01457cdc9e7b218a195cf691483506b06fc3f9",
+  "conventions_version": "1.1.0-correction001",
+  "correction_id": "FOUNDATION-001-CORRECTION-001",
+  "tests_passed": 9,
+  "tests_total": 9,
+  "maximum_error": 4.440892098500626e-16,
+  "tolerance": 1e-12,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "supersedes": "FOUNDATION-001 previous registry entry (see superseded_certificates/)"
+}

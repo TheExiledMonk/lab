@@ -1,0 +1,10 @@
+test,agreement_err,interior_err,passes,div_max,div_interior_err,err_int_Cx,err_int_Cy,err_int_Cz,ref_err,err_Cx,err_Cy,err_Cz,err_Cmag,boundary_err,fixtures_failed,n_fixtures
+M12-T1-gradient,0.0,0.0,True,,,,,,,,,,,,,
+M12-T2-divergence,,,True,0.0,0.0,,,,,,,,,,,
+M12-T3a-curl1,,,True,,,0.0,0.0,0.0,0.0,,,,,,,
+M12-T3b-curl2,,,True,,,0.0,0.0,0.0,0.0,,,,,,,
+M12-T3c-curl3,,,True,,,0.0,0.0,0.0,0.0,,,,,,,
+M12-T4-prod-vs-ref-nonsymmetric,,,True,,,,,,,0.0,0.0,0.0,0.0,,,
+M12-T5a-curl-of-grad,,4.440892098500626e-16,True,,,,,,,,,,,8.881784197001252e-16,,
+M12-T5b-div-of-curl,,0.0,True,,,,,,,,,,,,,
+M12-WC3-wrong-curl-reference,,,True,,,,,,,,,,,,3,3

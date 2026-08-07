@@ -1,0 +1,4 @@
+max_production_vs_reference_diff,passes,test,diff_PS1A_vs_PS2,diff_PS1_vs_PS1B,diff_PS1B_vs_PS2,max_diff_PS1B_vs_PS2,equivalence_class
+0.0,True,,,,,,
+,True,PS-lanes-distinct,0.1550362429376207,0.0,4.800138036744364,,
+,True,PS1-B-vs-PS2,,,,4.686413895592903,distinct

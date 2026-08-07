@@ -1,0 +1,198 @@
+{
+  "milestone": "PBUF MICROSCOPIC-INVARIANTS-LAB-001",
+  "kind": "microscopic conserved-transport laboratory",
+  "frozen_laboratory": "Version 1 weak-lensing laboratory (LAB-FREEZE-001)",
+  "frozen_implementation_sha256": {
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "numerical_convergence001.py": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29"
+  },
+  "production_configuration": {
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "slug": "abell2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "slug": "macs0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "slug": "macs1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "slug": "abells1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "slug": "abell370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "transport_principles": [
+    {
+      "number": 1,
+      "code": "T1",
+      "name": "Scalar Density",
+      "principle": "transport constitutive density; standard A8 relaxation; density NOT conserved",
+      "invariant_name": "density (no strict conservation)",
+      "invariant_kind": "scalar",
+      "is_wrong": false
+    },
+    {
+      "number": 2,
+      "code": "T2",
+      "name": "Conserved Phase",
+      "principle": "transport phase of (u_fast + i\u00b7u_slow); density emerges from neighbour magnitude",
+      "invariant_name": "|z|\u00b2 (rotation-invariant)",
+      "invariant_kind": "phase",
+      "is_wrong": false
+    },
+    {
+      "number": 3,
+      "code": "T3",
+      "name": "Conserved Orientation",
+      "principle": "transport unit-vector (u_fast, u_slow); magnitude responds",
+      "invariant_name": "|v\u0302|\u00b2 = 1 (orientation unit)",
+      "invariant_kind": "orientation",
+      "is_wrong": false
+    },
+    {
+      "number": 4,
+      "code": "T4",
+      "name": "Conserved Action",
+      "principle": "neighbour exchange preserves \u2211K/2\u00b7u\u00b2 + V(u_slow, u_fast)",
+      "invariant_name": "A = \u2211K/2\u00b7u\u00b2 + V",
+      "invariant_kind": "action",
+      "is_wrong": false
+    },
+    {
+      "number": 5,
+      "code": "T5",
+      "name": "Conserved Internal Energy",
+      "principle": "energy freely exchanges between fast and slow layers; total E conserved",
+      "invariant_name": "E_fast + E_slow",
+      "invariant_kind": "energy",
+      "is_wrong": false
+    },
+    {
+      "number": 6,
+      "code": "T6",
+      "name": "Conserved Information",
+      "principle": "local Shannon-like information redistributes among neighbours; H constant",
+      "invariant_name": "H = -\u2211p\u00b7log(p)",
+      "invariant_kind": "information",
+      "is_wrong": false
+    },
+    {
+      "number": 7,
+      "code": "T7",
+      "name": "Conserved Circulation",
+      "principle": "rotational transport with \u222eu\u00b7dr constant on each closed loop",
+      "invariant_name": "circulation \u0393",
+      "invariant_kind": "circulation",
+      "is_wrong": false
+    },
+    {
+      "number": 8,
+      "code": "T8",
+      "name": "Conserved Flux",
+      "principle": "neighbour-to-neighbour flux with \u2207\u00b7j = 0",
+      "invariant_name": "div j = 0",
+      "invariant_kind": "flux",
+      "is_wrong": false
+    },
+    {
+      "number": 9,
+      "code": "T9",
+      "name": "Coupled Energy + Phase",
+      "principle": "joint energy and phase conservation: A8 phase evolves while E preserved",
+      "invariant_name": "E and arg(z) jointly preserved",
+      "invariant_kind": "energy_phase",
+      "is_wrong": false
+    },
+    {
+      "number": 10,
+      "code": "T10",
+      "name": "Unified State Transport",
+      "principle": "single complex state z = u_fast + i\u00b7u_slow evolves under Ginzburg-Landau",
+      "invariant_name": "|z|\u00b2 and arg(z)",
+      "invariant_kind": "unified",
+      "is_wrong": false
+    },
+    {
+      "number": 11,
+      "code": "WR1",
+      "name": "Wrong: Random Transport",
+      "principle": "u_slow and u_fast randomized each step; no transport law",
+      "invariant_name": "no invariant",
+      "invariant_kind": "wrong",
+      "is_wrong": true
+    },
+    {
+      "number": 12,
+      "code": "WR2",
+      "name": "Wrong: Non-conserved Transport",
+      "principle": "intentionally introduces a sink; invariant violated",
+      "invariant_name": "deliberately violated",
+      "invariant_kind": "wrong",
+      "is_wrong": true
+    },
+    {
+      "number": 13,
+      "code": "WR3",
+      "name": "Wrong: Pure Diffusion",
+      "principle": "linear diffusion only; no layer coupling; no wave structure",
+      "invariant_name": "linear",
+      "invariant_kind": "wrong",
+      "is_wrong": true
+    },
+    {
+      "number": 14,
+      "code": "WR4",
+      "name": "Wrong: Frozen Transport",
+      "principle": "states frozen at initial values; no evolution",
+      "invariant_name": "frozen",
+      "invariant_kind": "wrong",
+      "is_wrong": true
+    }
+  ],
+  "fixed_parameters": {
+    "dt": 0.1,
+    "steps": 20,
+    "k": 1.0,
+    "gamma": 0.5,
+    "omega": 0.2,
+    "internal_k": 0.6,
+    "fast_timescale": 0.2,
+    "slow_timescale": 0.25,
+    "alpha_fs": 0.0072973525692838015,
+    "three_alpha_fs": 0.021892057707851405
+  },
+  "fitting_performed": false,
+  "optimisation_performed": false,
+  "frozen_components_modified": false,
+  "execution_seconds_total": 32.80424938700162
+}

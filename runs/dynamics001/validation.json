@@ -1,0 +1,24 @@
+{
+  "milestone": "DYNAMICS-001",
+  "passed": true,
+  "checks": {
+    "native_action_space_defined": true,
+    "evolution_variable_defined": true,
+    "general_action_functional_defined": true,
+    "kinetic_family_catalogued": true,
+    "canonical_pairing_defined": true,
+    "energy_decomposition_audited": true,
+    "variational_requirements_only": true,
+    "symmetry_audit_present": true,
+    "compatibility_audit_present": true,
+    "dependency_graph_present": true,
+    "equation_traceability_present": true,
+    "machine_readable_catalogue_present": true,
+    "field_equations_derived": false,
+    "new_fields_introduced": false,
+    "new_couplings_introduced": false,
+    "new_constants_introduced": false,
+    "v11_modified": false
+  },
+  "qualified_result": "The native family is structurally established but not uniquely selected; an ordinary T-W action requires a derived duration structure and is not native under the accepted emergent-time quotient."
+}

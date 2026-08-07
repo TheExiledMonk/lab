@@ -1,0 +1,17 @@
+{
+  "milestone": "PBUF ENERGY-PRINCIPLE-001",
+  "complete": true,
+  "deliverables": {
+    "mathematical_restriction_derivation": "energy_selection_derivation.md",
+    "constraint_matrix": "constraint_matrix.csv",
+    "remaining_family": "energy_selection_derivation.md#5-smallest-remaining-family",
+    "stability_and_boundedness_audit": "energy_selection_derivation.md#3-mandatory-energy-selection-constraints and #4-finite-bound-audit",
+    "v11_audit": "energy_selection_derivation.md#25-fp-5-v11-compatibility",
+    "dependency_graph": "dependency_graph.md",
+    "equation_traceability": "equation_traceability.csv",
+    "machine_readable_catalogue": "restriction_catalogue.json"
+  },
+  "central_finding": "Accepted inputs restrict but do not uniquely select Phi.",
+  "ontology_reviewed": false,
+  "field_equations_derived": false
+}

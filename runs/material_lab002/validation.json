@@ -1,0 +1,28 @@
+{
+  "milestone": "PBUF MATERIAL-LAB-002",
+  "pass": true,
+  "checks": {
+    "formal_definitions": true,
+    "independence_counterexamples": true,
+    "equivalence_analysis": true,
+    "all_models_classified": true,
+    "dependency_graph_audited": true,
+    "minimal_architecture_identified": true,
+    "recommendation_provided": true
+  },
+  "deliverables": [
+    "interaction_energy_separation_report.md",
+    "separation_analysis.json",
+    "model_classification.csv",
+    "dependency_graph.csv"
+  ],
+  "prohibitions": {
+    "ontology_modified": false,
+    "weak_lensing_modified": false,
+    "observational_fit": false,
+    "v11_modified": false,
+    "microscopic_constituents_added": false,
+    "additional_free_parameters": false,
+    "preferred_law_selected": false
+  }
+}

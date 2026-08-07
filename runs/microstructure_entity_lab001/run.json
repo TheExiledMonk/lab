@@ -1,0 +1,187 @@
+{
+  "milestone": "PBUF MICROSTRUCTURE-ENTITY-LAB-001",
+  "kind": "microscopic constituent architecture search",
+  "frozen_laboratory": "Version 1 weak-lensing laboratory (LAB-FREEZE-001)",
+  "frozen_implementation_sha256": {
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "numerical_convergence001.py": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29"
+  },
+  "production_configuration": {
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "slug": "abell2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "slug": "macs0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "slug": "macs1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "slug": "abells1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "slug": "abell370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "architectures": [
+    {
+      "number": 1,
+      "code": "A1",
+      "name": "Point Element",
+      "principle": "single microscopic node u(x,y); linear relaxation control",
+      "is_wrong": false,
+      "internal_nodes": 1
+    },
+    {
+      "number": 2,
+      "code": "A2",
+      "name": "Two-State Constituent",
+      "principle": "two coupled internal nodes u_a, u_b with shared local equilibrium",
+      "is_wrong": false,
+      "internal_nodes": 2
+    },
+    {
+      "number": 3,
+      "code": "A3",
+      "name": "Three-State Constituent",
+      "principle": "triangular microstructure u_a, u_b, u_c; cycle coupling allows internal circulation",
+      "is_wrong": false,
+      "internal_nodes": 3
+    },
+    {
+      "number": 4,
+      "code": "A4",
+      "name": "Elastic Link Element",
+      "principle": "node plus elastic connections to neighbours; internal deformation possible",
+      "is_wrong": false,
+      "internal_nodes": 1
+    },
+    {
+      "number": 5,
+      "code": "A5",
+      "name": "Oscillator Cell",
+      "principle": "local oscillator z(x,y) = r\u00b7exp(i\u03c6); neighbour coupling K\u00b7(<z>_n \u2212 z)",
+      "is_wrong": false,
+      "internal_nodes": 2
+    },
+    {
+      "number": 6,
+      "code": "A6",
+      "name": "Rotational Cell",
+      "principle": "internal rotational DOF \u03b8 evolves by neighbour alignment; orientation emerges",
+      "is_wrong": false,
+      "internal_nodes": 1
+    },
+    {
+      "number": 7,
+      "code": "A7",
+      "name": "Loop Constituent",
+      "principle": "closed internal loop (3 nodes x->y->z->x); supports circulating internal state without explicit phase",
+      "is_wrong": false,
+      "internal_nodes": 3
+    },
+    {
+      "number": 8,
+      "code": "A8",
+      "name": "Dual-Layer Constituent",
+      "principle": "fast internal dynamics u_fast + slow structural u_slow; memory emerges from layer separation",
+      "is_wrong": false,
+      "internal_nodes": 2
+    },
+    {
+      "number": 9,
+      "code": "A9",
+      "name": "Cooperative Cell",
+      "principle": "each cell internally computes weighted 9-point neighbourhood response before updating",
+      "is_wrong": false,
+      "internal_nodes": 1
+    },
+    {
+      "number": 10,
+      "code": "A10",
+      "name": "Unified Microcell",
+      "principle": "multi-DOF cell: oscillation (r,\u03c6) + neighbour coupling + reversible storage; no explicit S9 variables",
+      "is_wrong": false,
+      "internal_nodes": 4
+    },
+    {
+      "number": 11,
+      "code": "WR1",
+      "name": "Wrong: Random Internal Topology",
+      "principle": "internal node connections randomly reshuffled each step",
+      "is_wrong": true,
+      "internal_nodes": 2
+    },
+    {
+      "number": 12,
+      "code": "WR2",
+      "name": "Wrong: Disconnected Internal Nodes",
+      "principle": "internal nodes evolve independently with no internal coupling",
+      "is_wrong": true,
+      "internal_nodes": 2
+    },
+    {
+      "number": 13,
+      "code": "WR3",
+      "name": "Wrong: Over-Connected Constituent",
+      "principle": "all internal nodes equally coupled to all others including every neighbour",
+      "is_wrong": true,
+      "internal_nodes": 3
+    },
+    {
+      "number": 14,
+      "code": "WR4",
+      "name": "Wrong: Frozen Internal Architecture",
+      "principle": "internal architecture frozen; node state evolves but internal DOFs do not",
+      "is_wrong": true,
+      "internal_nodes": 2
+    }
+  ],
+  "fixed_parameters": {
+    "dt": 0.1,
+    "steps": 20,
+    "k": 1.0,
+    "gamma": 0.5,
+    "omega": 0.2,
+    "internal_k": 0.6,
+    "alpha_fs": 0.0072973525692838015,
+    "three_alpha_fs": 0.021892057707851405
+  },
+  "emergence_thresholds": {
+    "coherence_gain": 0.0001,
+    "memory_index": 0.9,
+    "evolution_activity": 1e-06
+  },
+  "fitting_performed": false,
+  "optimisation_performed": false,
+  "frozen_components_modified": false,
+  "execution_seconds_total": 37.65624356805347
+}

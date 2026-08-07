@@ -1,0 +1,31 @@
+{
+  "milestone": "PBUF HYPER-001",
+  "schema_version": "1.0",
+  "primitive_rank": 3,
+  "equations": [
+    {"id":"H-001","latex":"W(C)=\\Phi(I_1(C),I_2(C),I_3(C)),\\ C\\in\\mathcal D_C\\subset\\operatorname{Sym}^+(3)","role":"complete local isotropic stored-energy family","depends_on":["DEFORMATION-001","H-002"]},
+    {"id":"H-002","latex":"I_1=\\operatorname{tr}C,\\ I_2=\\tfrac12[(\\operatorname{tr}C)^2-\\operatorname{tr}(C^2)],\\ I_3=\\det C","role":"minimal invariant basis","depends_on":["DEF-I01","DEF-I02","DEF-I03"]},
+    {"id":"H-003","latex":"F\\mapsto QF\\Rightarrow C\\mapsto C","role":"objectivity","depends_on":["DEFORMATION-001"]},
+    {"id":"H-004","latex":"W(R^\\sharp C R)=W(C)","role":"material isotropy","depends_on":["mission:isotropy"]},
+    {"id":"H-005","latex":"W(\\mathbf1)=0,\\ DW(\\mathbf1)=0","role":"unloaded normalization","depends_on":["DEFORMATION-001:R0","stable equilibrium"]},
+    {"id":"H-006","latex":"D_C I_1=\\mathbf1,\\ D_C I_2=I_1\\mathbf1-C,\\ D_C I_3=I_3C^{-1}","role":"invariant gradients","depends_on":["H-002"]},
+    {"id":"H-007","latex":"P_C=\\partial W/\\partial C=\\Phi_1\\mathbf1+\\Phi_2(I_1\\mathbf1-C)+\\Phi_3I_3C^{-1}","role":"constitutive response","depends_on":["H-001","H-006"]},
+    {"id":"H-008","latex":"p_A=\\Phi_1+\\Phi_2(\\lambda_B+\\lambda_C)+\\Phi_3\\lambda_B\\lambda_C","role":"principal response","depends_on":["H-007"]},
+    {"id":"H-009","latex":"\\Phi_1^0+2\\Phi_2^0+\\Phi_3^0=0","role":"stress-free reference condition","depends_on":["H-005","H-007"]},
+    {"id":"H-010","latex":"\\mathbb A[H]=\\sum_{a,b}\\Phi_{ab}(DI_b[H])G_a+\\Phi_2(\\operatorname{tr}H\\mathbf1-H)+\\Phi_3I_3[\\operatorname{tr}(C^{-1}H)C^{-1}-C^{-1}HC^{-1}]","role":"general tangent response","depends_on":["H-006","H-007"]},
+    {"id":"H-011","latex":"I_1=3+2t,\\ I_2=3+4t+2(t^2-s_2),\\ I_3=1+2t+2(t^2-s_2)+O(|\\varepsilon|^3)","role":"weak-deformation invariant expansion","depends_on":["C=1+2epsilon"]},
+    {"id":"H-012","latex":"W=2[g_2+g_3+v^TH^\\Phi v]t^2-2(g_2+g_3)s_2+O(|\\varepsilon|^3)","role":"quadratic Taylor energy","depends_on":["H-009","H-011"]},
+    {"id":"H-013","latex":"\\mu=-2(g_2+g_3),\\ \\lambda=4[g_2+g_3+v^TH^\\Phi v]","role":"tangent moduli defined by derivatives","depends_on":["H-012"]},
+    {"id":"H-014","latex":"W=\\tfrac\\lambda2(\\operatorname{tr}\\varepsilon)^2+\\mu\\operatorname{tr}(\\varepsilon^2)+O(|\\varepsilon|^3)","role":"linear-elastic tangent limit","depends_on":["H-012","H-013"]},
+    {"id":"H-015","latex":"W=\\tfrac K2t^2+\\mu\\varepsilon_{TF}:\\varepsilon_{TF}+O(|\\varepsilon|^3),\\ K=\\lambda+2\\mu/3","role":"volumetric/shear split","depends_on":["H-014"]},
+    {"id":"H-016","latex":"\\mathcal D_C=\\{Q^\\sharp\\operatorname{diag}(\\Lambda)Q:Q^\\sharp Q=1,\\Lambda\\in\\mathcal D_\\lambda\\}","role":"objective bounded domain","depends_on":["DEFORMATION-001:spectrum"]},
+    {"id":"H-017","latex":"0<\\underline\\lambda\\le\\lambda_A\\le\\overline\\lambda<\\infty","role":"finite nondegenerate spectral restriction","depends_on":["finite elastic bound"]},
+    {"id":"H-018","latex":"W(C)\\ge0,\\ W(1)=0,\\ DW(1)=0","role":"positive energy and equilibrium","depends_on":["stable equilibrium"]},
+    {"id":"H-019","latex":"D^2W(1)[H,H]>0\\ \\forall H\\ne0","role":"strict local stability","depends_on":["H-018"]},
+    {"id":"H-020","latex":"\\mu>0,\\ K=\\lambda+2\\mu/3>0","role":"positive tangent bulk and shear stiffness","depends_on":["H-015","H-019"]},
+    {"id":"H-021","latex":"D^2W[H,H]=\\sum_{A,B}w_{,AB}H_{AA}H_{BB}+2\\sum_{A<B}[(w_{,A}-w_{,B})/(\\lambda_A-\\lambda_B)]H_{AB}^2","role":"spectral Hessian","depends_on":["H-001"]},
+    {"id":"H-022","latex":"[w_{,AB}]\\succeq0,\\ (w_{,A}-w_{,B})/(\\lambda_A-\\lambda_B)\\ge0","role":"finite-deformation convexity criterion","depends_on":["H-021"]},
+    {"id":"H-023","latex":"\\Delta\\mathcal E=\\int_B[W(C+\\delta C)-W(C)]dV_0<\\infty","role":"finite-energy perturbation condition","depends_on":["H-001"]}
+  ],
+  "excluded": ["rank-four primitive variable","gradient energy","history variables","saturation law","field equations","new numerical coefficients"]
+}

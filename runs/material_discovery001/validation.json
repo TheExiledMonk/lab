@@ -1,0 +1,25 @@
+{
+  "milestone": "PBUF MATERIAL-DISCOVERY-001",
+  "pass": true,
+  "checks": {
+    "candidate_keys_unique": true,
+    "all_required_fields_populated": true,
+    "all_criteria_evaluated": true,
+    "all_sources_resolve_in_register": true,
+    "no_preferred_model_selected": true,
+    "ontology_preserved": true,
+    "weak_lensing_preserved": true,
+    "no_observational_fit": true,
+    "v11_preserved": true
+  },
+  "candidate_count": 44,
+  "criterion_count": 14,
+  "deliverables": [
+    "candidate_catalogue.json",
+    "master_comparison_matrix.csv",
+    "family_clusters.json",
+    "elimination_register.json",
+    "survey_report.md",
+    "validation.json"
+  ]
+}

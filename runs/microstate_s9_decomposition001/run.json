@@ -1,0 +1,234 @@
+{
+  "milestone": "PBUF MICROSTATE-S9-DECOMPOSITION-001",
+  "kind": "S9 mechanism audit / internal state decomposition",
+  "frozen_laboratory": "Version 1 weak-lensing laboratory (LAB-FREEZE-001)",
+  "frozen_implementation_sha256": {
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "numerical_convergence001.py": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29"
+  },
+  "production_configuration": {
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "slug": "abell2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "slug": "macs0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "slug": "macs1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "slug": "abells1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "slug": "abell370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "decompositions": [
+    {
+      "number": 1,
+      "code": "D1",
+      "name": "Full S9 (Control)",
+      "principle": "Complete coupled phase + orientation microscopic state",
+      "family": "both"
+    },
+    {
+      "number": 2,
+      "code": "D2",
+      "name": "Phase frozen / Orientation evolves",
+      "principle": "phi held at initial value; theta evolves",
+      "family": "orient"
+    },
+    {
+      "number": 3,
+      "code": "D3",
+      "name": "Orientation frozen / Phase evolves",
+      "principle": "theta held at initial value; phi evolves",
+      "family": "phase"
+    },
+    {
+      "number": 4,
+      "code": "D4",
+      "name": "Phase evolution disabled / Orientation active",
+      "principle": "phi snapped to neighbour target each step (no dt smoothing); theta evolves",
+      "family": "orient"
+    },
+    {
+      "number": 5,
+      "code": "D5",
+      "name": "Orientation evolution disabled / Phase active",
+      "principle": "theta snapped to neighbour target each step (no dt smoothing); phi evolves",
+      "family": "phase"
+    },
+    {
+      "number": 6,
+      "code": "D6",
+      "name": "Phase-Orientation coupling removed",
+      "principle": "both evolve; u update modulation becomes additive (no multiplicative coupling)",
+      "family": "both"
+    },
+    {
+      "number": 7,
+      "code": "D7",
+      "name": "Phase drives Orientation only",
+      "principle": "theta target = phi (no neighbour theta target); phi evolves normally",
+      "family": "orient-drives"
+    },
+    {
+      "number": 8,
+      "code": "D8",
+      "name": "Orientation drives Phase only",
+      "principle": "phi target = theta (no neighbour phi target); theta evolves normally",
+      "family": "phase-drives"
+    },
+    {
+      "number": 9,
+      "code": "D9",
+      "name": "Bidirectional coupling (current S9)",
+      "principle": "Both theta and phi respond to neighbours; product modulation",
+      "family": "both"
+    },
+    {
+      "number": 10,
+      "code": "D10",
+      "name": "Phase update delayed (one-step lag)",
+      "principle": "phi uses target_p and phi from previous step",
+      "family": "phase"
+    },
+    {
+      "number": 11,
+      "code": "D11",
+      "name": "Orientation update delayed (one-step lag)",
+      "principle": "theta uses target_t and theta from previous step",
+      "family": "orient"
+    },
+    {
+      "number": 12,
+      "code": "D12",
+      "name": "Neighbour phase ignored / local only",
+      "principle": "phi evolves with OMEGA drift only; no neighbour phase alignment",
+      "family": "phase"
+    },
+    {
+      "number": 13,
+      "code": "D13",
+      "name": "Neighbour orientation ignored / local only",
+      "principle": "theta held at initial value; no neighbour alignment",
+      "family": "orient"
+    },
+    {
+      "number": 14,
+      "code": "D14",
+      "name": "Pure self-evolution (control vs WR4)",
+      "principle": "no neighbour contribution to theta, phi, or u relaxation",
+      "family": "control-wr4"
+    }
+  ],
+  "fixed_parameters": {
+    "dt": 0.1,
+    "steps": 20,
+    "k_spring": 1.0,
+    "omega_phase": 0.2
+  },
+  "emergence_thresholds": {
+    "coherence_gain": 0.0001,
+    "memory_index": 0.9,
+    "evolution_activity": 1e-06
+  },
+  "synergy": {
+    "d1_minus_d3_minus_d5": {
+      "pearson_kappa": -0.08659745024654038,
+      "pearson_gamma": -0.09019067677000839,
+      "ssim_kappa": 0.003282251373477471,
+      "rms_kappa": -0.1626931295556438,
+      "neighbour_coherence_gain": -0.2922993753091787,
+      "elastic_persistence_index": -0.9972209849132335,
+      "phase_field_coherence": -0.0012349326225911316
+    },
+    "per_cluster": {
+      "Abell2744": {
+        "pearson_kappa": -0.0026787659293015433,
+        "pearson_gamma": -0.17023043970729648,
+        "ssim_kappa": 0.003282251373477471,
+        "rms_kappa": -0.1626931295556438,
+        "neighbour_coherence_gain": -0.22457942254760022,
+        "elastic_persistence_index": -0.9972920345445174,
+        "phase_field_coherence": 0.00013790900154834926
+      },
+      "MACS0416": {
+        "pearson_kappa": -0.002120838872893836,
+        "pearson_gamma": -0.05761972996815633,
+        "ssim_kappa": 0.0010544912126641123,
+        "rms_kappa": -0.19628192356677251,
+        "neighbour_coherence_gain": -0.3144898834014491,
+        "elastic_persistence_index": -0.9973634472816365,
+        "phase_field_coherence": -0.0015684061639922812
+      },
+      "MACS1149": {
+        "pearson_kappa": -0.10376648020243477,
+        "pearson_gamma": 0.05924665650235682,
+        "ssim_kappa": -0.045800071156089465,
+        "rms_kappa": -0.12223669879281837,
+        "neighbour_coherence_gain": -0.43353617564000124,
+        "elastic_persistence_index": -0.9969683420233734,
+        "phase_field_coherence": 7.435640362699601e-05
+      },
+      "AbellS1063": {
+        "pearson_kappa": -0.08659745024654038,
+        "pearson_gamma": -0.09019067677000839,
+        "ssim_kappa": 0.031132263106325712,
+        "rms_kappa": -0.14673412407276934,
+        "neighbour_coherence_gain": -0.2922993753091787,
+        "elastic_persistence_index": -0.9972209849132335,
+        "phase_field_coherence": -0.0025662953458058502
+      },
+      "Abell370": {
+        "pearson_kappa": -0.19815924899072682,
+        "pearson_gamma": -0.1393169045186661,
+        "ssim_kappa": 0.02490166268884531,
+        "rms_kappa": -0.17033393649219364,
+        "neighbour_coherence_gain": -0.19106997573972406,
+        "elastic_persistence_index": -0.9970714463402337,
+        "phase_field_coherence": -0.0012349326225911316
+      }
+    },
+    "nonlinear_synergy_pearson_kappa": -0.08659745024654038,
+    "nonlinear_synergy_emerged": true,
+    "pairwise_deltas": {
+      "D2_vs_D3": 0.0003411660697522356,
+      "D2_vs_D5": -0.003218298257755395,
+      "D3_vs_D5": -0.0035594643275076304
+    }
+  },
+  "fitting_performed": false,
+  "optimisation_performed": false,
+  "frozen_components_modified": false,
+  "execution_seconds_total": 37.4543856929522
+}

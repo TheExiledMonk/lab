@@ -1,0 +1,13 @@
+{
+  "mission": "PBUF MATTER-001",
+  "decision": "B with unresolved C projection family",
+  "matter_operator": "stress-energy tensor T_m^{mu nu}",
+  "source_operator": "J_A=-(1/sqrt(-g)) delta S_m/delta chi^A",
+  "minimal_source": "J_A=-(1/2)T_m^{mu nu} partial_A g_{mu nu}",
+  "continuum_source_status": "unclosed until g[chi], u=C[chi,g], and projection P are supplied",
+  "exact_missing_principle": "covariant, normalized medium-to-metric constitutive map plus local elastic action",
+  "new_free_parameters": [],
+  "g_dev_used": false,
+  "weak_lensing_imported_or_modified": false,
+  "photon_closure_claimed": false
+}

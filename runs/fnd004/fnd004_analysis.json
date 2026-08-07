@@ -1,0 +1,217 @@
+{
+  "mission": "PBUF FND-004 Consequences of the Three-Dimensional Microscopic Ontology",
+  "scope": "theory-only/no-fit",
+  "axioms": {
+    "A1": "Spacetime has three independent microscopic degrees of freedom corresponding to the three spatial dimensions.",
+    "A2": "Matter couples identically to each microscopic degree through g_dev=1/137.",
+    "A3": "Macroscopic continuum behaviour emerges by coarse graining the microscopic state."
+  },
+  "auxiliary_conditions": {
+    "C1": "q transforms as the defining spatial-vector representation and no background direction is present.",
+    "C2": "The long-wave theory is local, analytic, homogeneous, parity-even and rotationally invariant.",
+    "C3": "The reference state is stable and nondegenerate, and retained modes separate from microscopic scales.",
+    "C4": "A covariant scalarization/source map is specified and non-observed modes decouple.",
+    "C5": "Time dynamics (inertial or dissipative) and kinetic normalization are specified.",
+    "C6": "Light couples to a specified effective metric or ray-deflection functional.",
+    "C7": "The matter-coupling normalization is fixed independently of all other source coefficients."
+  },
+  "consequences": [
+    {
+      "id": "P01",
+      "prediction": "Exactly three microscopic component labels; generic N has N and a scalar has one.",
+      "kind": "exact",
+      "axioms": "A1",
+      "conditions": "none",
+      "relation": "q=(q1,q2,q3)",
+      "observable": "Component count is physical only if components can be independently excited/read out."
+    },
+    {
+      "id": "P02",
+      "prediction": "Equal bare component-source vertices.",
+      "kind": "exact",
+      "axioms": "A2",
+      "conditions": "fixed common normalization",
+      "relation": "g1=g2=g3=g_dev",
+      "observable": "No component-dependent coupling at the axiom scale."
+    },
+    {
+      "id": "P03",
+      "prediction": "The equal-coupling vector is the normalized singlet direction and two source-orthogonal combinations are unsourced by a common scalar load.",
+      "kind": "exact linear algebra",
+      "axioms": "A1,A2",
+      "conditions": "linear common scalar source",
+      "relation": "q_parallel=(q1+q2+q3)/sqrt(3); J_perp=0",
+      "observable": "Two dark combinations exist at linear source level, but their propagation is not fixed."
+    },
+    {
+      "id": "P04",
+      "prediction": "The coherent source strength carries a sqrt(3) amplitude (factor 3 in a quadratic response) relative to one equally normalized component.",
+      "kind": "conditional quantitative",
+      "axioms": "A1,A2",
+      "conditions": "independent orthonormal components; linear response; same per-component susceptibility",
+      "relation": "|g|=sqrt(3) g_dev; |g|^2=3 g_dev^2",
+      "observable": "N ontology replaces 3 by N; scalar has factor 1."
+    },
+    {
+      "id": "P05",
+      "prediction": "A rotationally invariant rank-two constitutive tensor in the vector sector has transverse/longitudinal form.",
+      "kind": "conditional symmetry",
+      "axioms": "A1",
+      "conditions": "C1,C2",
+      "relation": "Gamma_ab(k)=A(k^2) delta_ab+B(k^2) k_a k_b",
+      "observable": "One longitudinal and two degenerate transverse eigenmodes."
+    },
+    {
+      "id": "P06",
+      "prediction": "The leading static vector continuum equation has two gradient stiffnesses, not a uniquely fixed scalar Helmholtz law.",
+      "kind": "conditional continuum",
+      "axioms": "A1,A3",
+      "conditions": "C1,C2,C3",
+      "relation": "K q-a Laplacian(q)-b grad(div q)=J",
+      "observable": "G_T=a and G_L=a+b; positivity requires K>0, a>0, a+b>0."
+    },
+    {
+      "id": "P07",
+      "prediction": "If only the common/longitudinal scalar sector is retained, the CORE-type scalar equation follows in form.",
+      "kind": "conditional reduction",
+      "axioms": "A1,A2,A3",
+      "conditions": "C2,C3,C4",
+      "relation": "K u-div(G grad u)=s(rho)",
+      "observable": "The axioms fix neither K, G nor s(rho); the equation is not inevitable from A1-A3 alone."
+    },
+    {
+      "id": "P08",
+      "prediction": "Isotropy forbids component-dependent masses and directional stiffness at leading order.",
+      "kind": "conditional symmetry",
+      "axioms": "A1,A2",
+      "conditions": "C1,C2",
+      "relation": "K_ab=K delta_ab; equal transverse polarizations",
+      "observable": "Splitting signals broken isotropy, unequal coupling, or extra structure."
+    },
+    {
+      "id": "P09",
+      "prediction": "Propagation has one longitudinal and two transverse branches when inertial vector dynamics is supplied.",
+      "kind": "conditional propagation",
+      "axioms": "A1,A3",
+      "conditions": "C1,C2,C3,C5",
+      "relation": "omega_L^2=(K+(a+b)k^2)/M; omega_T^2=(K+a k^2)/M (double)",
+      "observable": "Three fixes transverse degeneracy at two; N internal components generally gives N-1 source-orthogonal modes, not spatial L/T modes unless it is a vector."
+    },
+    {
+      "id": "P10",
+      "prediction": "g_dev directly fixes the normalized common matter vertex, but A2 postulates rather than derives its numerical value.",
+      "kind": "corrected identifiability boundary",
+      "axioms": "A2",
+      "conditions": "a completed calibrated response/readout chain for measurement",
+      "relation": "g_vec=g_dev(1,1,1); no independent coupling multiplier",
+      "observable": "Absolute calibrated response can be g_dev-sensitive; normalized component ratios cancel g_dev and cannot determine its magnitude."
+    },
+    {
+      "id": "P11",
+      "prediction": "No weak-lensing deflection law or amplitude follows from A1-A3.",
+      "kind": "non-derivation",
+      "axioms": "A1,A2,A3",
+      "conditions": "C4,C6,C7 absent",
+      "relation": "none",
+      "observable": "A specified photon/effective-metric coupling is required before lensing is predicted."
+    },
+    {
+      "id": "P12",
+      "prediction": "Coarse graining preserves the three-component target space but does not by itself select locality, dynamics, coefficients, or a scalar observable.",
+      "kind": "exact boundary",
+      "axioms": "A3",
+      "conditions": "none",
+      "relation": "Q_L=C_L[q] in R^3",
+      "observable": "Kernel moments and scale separation determine finite-resolution corrections."
+    }
+  ],
+  "comparison": [
+    {
+      "feature": "Microscopic count",
+      "three_component": "3 (axiom)",
+      "generic_n": "N",
+      "scalar": "1",
+      "unique_to_three": "Exactly two combinations orthogonal to one common source."
+    },
+    {
+      "feature": "Equal-coupling norm",
+      "three_component": "sqrt(3) g_dev",
+      "generic_n": "sqrt(N) g_dev",
+      "scalar": "g_dev",
+      "unique_to_three": "Factor 3 in normalized quadratic coherent response."
+    },
+    {
+      "feature": "Spatial-vector polarizations",
+      "three_component": "1 longitudinal + 2 transverse",
+      "generic_n": "Not defined unless representation is specified",
+      "scalar": "1 scalar",
+      "unique_to_three": "Twofold transverse degeneracy, conditional on spatial-vector identity."
+    },
+    {
+      "feature": "Isotropic static stiffnesses",
+      "three_component": "K, G_L, G_T",
+      "generic_n": "Representation-dependent",
+      "scalar": "K, G",
+      "unique_to_three": "Vector L/T split, not its coefficient values."
+    },
+    {
+      "feature": "Scalar continuum closure",
+      "three_component": "Possible after projection/decoupling",
+      "generic_n": "Possible after projection/decoupling",
+      "scalar": "Direct",
+      "unique_to_three": "None at leading scalar order."
+    },
+    {
+      "feature": "Weak lensing",
+      "three_component": "Undetermined",
+      "generic_n": "Undetermined",
+      "scalar": "Undetermined",
+      "unique_to_three": "None without a light-coupling law."
+    }
+  ],
+  "unique_predictions": [
+    {
+      "id": "U1",
+      "claim": "Two source-orthogonal microscopic combinations for a single equal common source.",
+      "status": "exact under linear common sourcing",
+      "test": "Independently excite/read component combinations; search for two dark channels.",
+      "dependencies": "A1,A2 plus linear common source"
+    },
+    {
+      "id": "U2",
+      "claim": "Coherent quadratic response multiplicity exactly 3 rather than N or 1.",
+      "status": "conditional quantitative",
+      "test": "Compare calibrated single-component and coherent susceptibilities without fitting.",
+      "dependencies": "A1,A2 plus common normalization and equal susceptibility"
+    },
+    {
+      "id": "U3",
+      "claim": "One longitudinal and two degenerate transverse modes.",
+      "status": "conditional representation prediction",
+      "test": "Directional spectroscopy/propagation measurement; test transverse degeneracy.",
+      "dependencies": "A1,C1,C2,C3,C5"
+    },
+    {
+      "id": "U4",
+      "claim": "No unique scalar-lensing signature follows merely from having three components.",
+      "status": "exact negative result",
+      "test": "Not directly testable; it is a model-identifiability constraint.",
+      "dependencies": "Logical comparison of A1-A3"
+    }
+  ],
+  "next_milestone": "FND-005 covariant mode-and-coupling validation",
+  "validation": {
+    "checks": {
+      "unique_prediction_ids": true,
+      "every_axiom_traced": true,
+      "every_prediction_classified": true,
+      "three_models_compared": true,
+      "unique_catalogue_present": true,
+      "coupling_identifiability_not_overclaimed": true,
+      "lensing_not_overclaimed": true,
+      "no_empirical_fit": true,
+      "frozen_laboratory_untouched_by_design": true
+    },
+    "all_checks_pass": true
+  }
+}

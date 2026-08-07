@@ -1,0 +1,2 @@
+rows,passes
+"[{'input': 'exact_zero', 'class': 'exact_zero', 'passes': True}, {'input': 'constant_nonzero', 'class': 'constant_nonzero', 'passes': True}, {'input': 'structured_small', 'class': 'structured_small', 'passes': True}, {'input': 'structured_normal', 'class': 'structured_normal', 'passes': True}, {'input': 'nonfinite', 'class': 'nonfinite', 'passes': True}]",True

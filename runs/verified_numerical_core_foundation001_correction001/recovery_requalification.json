@@ -1,0 +1,258 @@
+{
+  "correction_id": "FOUNDATION-001-CORRECTION-001",
+  "provisional": true,
+  "foundation_core_requalification_required": true,
+  "stage_r1_passes": true,
+  "stage_r2_passes": true,
+  "stage_r3_all_pass": true,
+  "modules_corrected": [
+    {
+      "name": "M01_conventions",
+      "status": "unit_verified_pending_contract_review",
+      "max_error": 0.0,
+      "tests_passed": 19,
+      "tests_total": 19
+    },
+    {
+      "name": "M02_coordinate_transforms",
+      "status": "unit_verified_pending_contract_review",
+      "max_error": 0.0,
+      "tests_passed": 36,
+      "tests_total": 36
+    },
+    {
+      "name": "M03_vector_transforms",
+      "status": "unit_verified_pending_contract_review",
+      "max_error": 0.0,
+      "tests_passed": 42,
+      "tests_total": 42
+    },
+    {
+      "name": "M04_tensor_transforms",
+      "status": "experimental",
+      "max_error": 0.0,
+      "tests_passed": 42,
+      "tests_total": 42
+    },
+    {
+      "name": "M05_pair_enumeration",
+      "status": "unit_verified_pending_contract_review",
+      "max_error": 0.0,
+      "tests_passed": 39,
+      "tests_total": 39
+    },
+    {
+      "name": "M08_pair_transfer",
+      "status": "experimental",
+      "max_error": 0.0,
+      "tests_passed": 3,
+      "tests_total": 3
+    },
+    {
+      "name": "M10_midpoint_rasterization",
+      "status": "experimental",
+      "max_error": 4.987954474449069,
+      "tests_passed": 5,
+      "tests_total": 5
+    },
+    {
+      "name": "M11_field_diagnostics",
+      "status": "unit_verified_pending_contract_review",
+      "max_error": 0.0,
+      "tests_passed": 4,
+      "tests_total": 4
+    },
+    {
+      "name": "M12_differential_operators",
+      "status": "experimental",
+      "max_error": 4.440892098500626e-16,
+      "tests_passed": 9,
+      "tests_total": 9
+    },
+    {
+      "name": "M13_helmholtz_3d",
+      "status": "experimental",
+      "max_error": 0.0,
+      "tests_passed": 8,
+      "tests_total": 8
+    },
+    {
+      "name": "M14_los_projection",
+      "status": "unit_verified_pending_contract_review",
+      "max_error": 0.0,
+      "tests_passed": 8,
+      "tests_total": 8
+    },
+    {
+      "name": "M15_ray_interface",
+      "status": "unit_verified_pending_contract_review",
+      "max_error": 0.0,
+      "tests_passed": 6,
+      "tests_total": 6
+    },
+    {
+      "name": "M16_observable_extraction",
+      "status": "experimental",
+      "max_error": 0.0,
+      "tests_passed": 15,
+      "tests_total": 15
+    }
+  ],
+  "wrong_controls": [
+    {
+      "wc_id": "WC1",
+      "name": "old-rasterization-omits-final-pair",
+      "omitted_pair_count": 1,
+      "passes": 1.0
+    },
+    {
+      "wc_id": "WC2",
+      "name": "wrong-midpoint-geometry",
+      "n_pairs_with_wrong_midpoint": 133,
+      "passes": true
+    },
+    {
+      "wc_id": "WC3",
+      "name": "wrong-curl-reference",
+      "fixtures_failed": 3,
+      "passes": true
+    },
+    {
+      "wc_id": "WC4",
+      "name": "duplicate-helmholtz-marked",
+      "passes": true,
+      "note": "production+reference agree exactly; independent validation comes from analytic Fourier fixtures"
+    },
+    {
+      "wc_id": "WC5",
+      "name": "old-tied-rank-vs-new",
+      "passes": true
+    },
+    {
+      "wc_id": "WC6",
+      "name": "structured-small-acceptance",
+      "classification": "structured_normal",
+      "passes": true
+    }
+  ],
+  "stage_r1": {
+    "shape": [
+      4,
+      5,
+      6
+    ],
+    "n_pairs": 286,
+    "hashes": {
+      "iface_low": "c10f9d2a52705bb576ed4c8f46836fbe72461f33c758d8bbedffc0e27c456910",
+      "iface_int": "bf837f30021ff88aa351774e2fb572a85bd3b42424d87bd7805de86cf577100e",
+      "iface_up": "c4d95ae771a2718f31785c06902e3daf6bc8dde9c9e97129e6307815955bc356",
+      "iface_rand": "eac0ebf3e674f3aa6f6fc8f45c8ef2d672f51cfb86b11d7e342da285521f7a12",
+      "end_low_closure_norm": 0.0,
+      "end_int_closure_norm": 0.0,
+      "end_up_closure_norm": 0.0,
+      "end_rand_closure_norm": 4.070144838902081e-15,
+      "iface_rand_energy": 131.6258865156081,
+      "end_rand_energy": 572.0166811280255,
+      "iface_rand_rms": 1.0473215302045822,
+      "curl_Cmag_rms": 2.0
+    },
+    "passes": true
+  },
+  "stage_r2": {
+    "cluster_id": "MACS0416",
+    "candidate_id": "PL1_PM1_PS2",
+    "shape": [
+      9,
+      32,
+      32
+    ],
+    "n_pairs": 26048,
+    "central_rx_rms": 1.5045892953996785e-05,
+    "central_ry_rms": 1.3566058728151845e-05,
+    "los_rx_rms": 3.812068544823435e-05,
+    "los_ry_rms": 3.867889708699365e-05,
+    "ray_input_sha": "de984f413bab416baa2bb0220adc8da8a736b5c6d977be997cc5475cea6cf086",
+    "ray_input_classification": "structured_normal",
+    "endpoint_energy": 0.0004364493264967681,
+    "endpoint_closure_norm": 4.0637193355461725e-17,
+    "interface_energy": 0.0002952307503734091,
+    "helmholtz": {
+      "E_native": 0.0004364493264967681,
+      "E_irr": 0.0001593555284903945,
+      "E_sol": 0.00027698653887825106,
+      "f_irr_partition": 0.365207804627653,
+      "f_sol_partition": 0.6347921953723471,
+      "f_irr_native": 0.36511805338202197,
+      "f_sol_native": 0.6346361927088509,
+      "f_irr_partition_pad": 0.365207804627653,
+      "f_sol_partition_pad": 0.6347921953723471,
+      "f_irr_native_pad": 0.36511805338202197,
+      "f_sol_native_pad": 0.6346361927088509
+    },
+    "los_metadata": {
+      "los_axis": "z",
+      "depth_array_axis": 0,
+      "image_component_1": "x",
+      "image_component_2": "y",
+      "output_plane_axis_order": [
+        "y",
+        "x"
+      ]
+    },
+    "passes": true
+  },
+  "stage_r3": {
+    "rows": [
+      {
+        "transform": "RC0",
+        "E_cov_correct": 0.0,
+        "E_cov_wrong": 0.0,
+        "passes": true
+      },
+      {
+        "transform": "RC1",
+        "E_cov_correct": 0.0,
+        "E_cov_wrong": 1.363352924543272,
+        "passes": true
+      },
+      {
+        "transform": "RC2",
+        "E_cov_correct": 0.0,
+        "E_cov_wrong": 1.0934133019083219,
+        "passes": true
+      },
+      {
+        "transform": "RC3",
+        "E_cov_correct": 0.0,
+        "E_cov_wrong": 1.0022864638701316,
+        "passes": true
+      },
+      {
+        "transform": "RC4",
+        "E_cov_correct": 0.0,
+        "E_cov_wrong": 0.9845105153691683,
+        "passes": true
+      },
+      {
+        "transform": "RC5",
+        "E_cov_correct": 0.0,
+        "E_cov_wrong": 1.0825931129777435,
+        "passes": true
+      },
+      {
+        "transform": "RC6",
+        "E_cov_correct": 0.0,
+        "E_cov_wrong": 1.363352924543272,
+        "passes": true
+      }
+    ],
+    "all_pass": true,
+    "shape": [
+      9,
+      32,
+      32
+    ]
+  },
+  "review_status": "pending_second_review",
+  "full_candidate_rerun_allowed": false
+}

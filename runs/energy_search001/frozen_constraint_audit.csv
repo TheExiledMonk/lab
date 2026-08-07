@@ -1,0 +1,10 @@
+authority,mandatory_constraint,boundary
+FOUNDATION-001,one scalar law for one medium; no extra ontology or freely adjustable constants,formula syntax is not selected
+STATE-002,"function only of C[q,q0] on the frozen objective SPD spectral domain",no hidden independent state
+DEFORMATION-001,dimensionless objective rank-three C; invariance under orthogonal similarity,strain coordinates are reparametrizations
+HYPER-001,"local, parity-even, isotropic, statewise hyperelastic Phi(I1,I2,I3)",C1 interior and C2 near reference
+ENERGY-PRINCIPLE-001,"nonnegative, normalized, stress-free, positive frozen tangent, declared endpoint",global convexity and unique minimum not derived
+DURATION-001,"no fundamental-time, rate, history, or relaxation dependence in stored energy",recovery is quasistatic unless dynamics supplied
+METRIC-001,candidate must leave possible a regular Lorentzian metric/cone completion,Phi alone cannot prove metric compatibility
+BALANCE-001,classical response and ellipticity on propagation domain,"inertia, sources and boundary data remain separate"
+LOCALITY-001,pointwise Phi with variational balance divergence is the minimal native closure,gradient/kernel energy is outside remaining constitutive freedom

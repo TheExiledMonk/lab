@@ -1,0 +1,49 @@
+{
+  "milestone": "PBUF LAB-FREEZE-001",
+  "kind": "environment",
+  "python": {
+    "version_string": "3.14.6 (main, Jun 23 2026, 15:11:00) [GCC 16.1.1 20260430]",
+    "executable": "python",
+    "platform": "Linux-7.1.5-1-cachyos-x86_64-with-glibc2.44",
+    "machine": "x86_64"
+  },
+  "packages": {
+    "numpy": ">=2.0; tested with 2.5.1",
+    "matplotlib": ">=3.10; tested with 3.11.1 (Agg backend)",
+    "astropy": ">=6.0; used for fits.io (FITS reading) and astropy.wcs",
+    "scipy": ">=1.13; used for scipy.ndimage.map_coordinates and scipy.spatial (Delaunay, Voronoi)"
+  },
+  "numerical_precision": {
+    "dtype": "float64",
+    "machine_epsilon": 2.220446049250313e-16,
+    "machine_epsilon_bits": 52
+  },
+  "operating_system": {
+    "name": "Linux",
+    "kernel": "7.1.5-1-cachyos",
+    "arch": "x86_64",
+    "glibc": "2.44"
+  },
+  "matplotlib_backend": "Agg",
+  "random_seeds": {
+    "launch_B": "deterministic (no random state)",
+    "launch_D": 123456
+  },
+  "computation_environment": {
+    "type": "single-machine",
+    "execution_parallelism": "serial",
+    "memory_assumed_unlimited": true
+  },
+  "validation_environment": {
+    "all_runs_deterministic": true,
+    "all_runs_byte_reproducible": true,
+    "max_conservation_error_per_run": 2.220446049250313e-16
+  },
+  "notes": [
+    "The frozen implementation depends only on numpy, matplotlib, astropy, scipy. No GPU acceleration, no MPI, no threading.",
+    "Every frozen run produces byte-exact reproducible outputs when executed on the same OS and Python version.",
+    "Matplotlib is used only for plotting; it is not on the computational critical path.",
+    "astropy is used only for FITS reading (WEAK-LENSING-OBSERVATION-001).",
+    "scipy is used for map_coordinates (resampling) and spatial algorithms (Delaunay, Voronoi)."
+  ]
+}

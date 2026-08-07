@@ -1,0 +1,16 @@
+Hypothesis,Variant,Property Tested,Matches Reference,Deviates,Amount
+A,A.ref: transverse (subtract+renorm),transverse (subtract+renorm),yes,—,—
+A,A.par: parallel (subtract+renorm),parallel (subtract+renorm),no,position_error,0.83x
+B,B.ref: transverse (rotate only),transverse (rotate only),no,position_error,0.98x
+B,B.par: parallel (rotate only),parallel (rotate only),yes,—,—
+C,C.ref: transverse energy diag,transverse energy diag,yes,—,—
+C,C.par: parallel energy diag,parallel energy diag,no,position_error,0.83x
+D,"D.1: r perp to v, mag=|grad C|","r perp to v, mag=|grad C|",no,position_error,1.00x
+D,"D.2: r fixed perp, mag=|grad C|","r fixed perp, mag=|grad C|",yes,—,—
+D,D.3: r tangential to position,r tangential to position,no,position_error,1.02x
+E,E.quadratic: perp(test field),perp(test field),no,position_error,5432487.41x
+E,E.sinusoidal: perp(test field),perp(test field),no,position_error,1697189.45x
+E,E.gaussian_off: perp(test field),perp(test field),no,position_error,1.00x
+F,F.1: pure perp to v (const mag),pure perp to v (const mag),no,position_error,0.99x
+F,F.2: perp to position (const mag),perp to position (const mag),no,position_error,90938.39x
+F,"F.3: vortex r = (-y, x) const","vortex r = (-y, x) const",no,position_error,64864.21x

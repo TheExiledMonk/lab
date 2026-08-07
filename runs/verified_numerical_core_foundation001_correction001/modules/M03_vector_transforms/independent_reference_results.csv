@@ -1,0 +1,8 @@
+test,transform,max_forward_diff,max_inverse_diff,tolerance,passes
+reference_agreement,RC0,0.0,0.0,1e-14,True
+reference_agreement,RC1,0.0,0.0,1e-14,True
+reference_agreement,RC2,0.0,0.0,1e-14,True
+reference_agreement,RC3,0.0,0.0,1e-14,True
+reference_agreement,RC4,0.0,0.0,1e-14,True
+reference_agreement,RC5,0.0,0.0,1e-14,True
+reference_agreement,RC6,0.0,0.0,1e-14,True

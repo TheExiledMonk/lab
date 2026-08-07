@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "milestone": "PBUF STATE-002",
+  "primitive_state": {
+    "symbol": "q",
+    "equation": "S2-002",
+    "type": "point in quotient configuration space Q_phys=A/G",
+    "definition": "complete instantaneous physical state of the one spacetime medium",
+    "not": ["coordinate system", "metric", "clock", "embedding", "spacetime representation"]
+  },
+  "state_space": {
+    "equation": "S2-004",
+    "formula": "Q_adm={q in Q_phys:C[q,q0] in D_C}",
+    "domain": "D_C subset Sym+(3)",
+    "topology": "initial topology induced locally by q->C[q,q0]",
+    "regularity": {
+      "comparison": "C0 minimum; C1 for pulled-back response; C2 near q0 for pulled-back tangent",
+      "spatial": "not fixed beyond realization admissibility"
+    }
+  },
+  "reference": {
+    "symbol": "q0",
+    "equation": "S2-007",
+    "conditions": ["C[q0,q0]=identity", "W(identity)=0", "DW(identity)=0", "nondegenerate", "orientation/signature admissible", "V11 local Minkowski compatible"],
+    "uniqueness": "unique modulo gauge once reference prescription is fixed; unique minimizer and reference-family choice are not derived"
+  },
+  "deformation": {
+    "equation": "S2-008",
+    "formula": "C(q,q0)=F(q,q0)^sharp_0 F(q,q0)",
+    "codomain": "D_C subset Sym+(3)",
+    "properties": ["dimensionless", "objective", "symmetric", "positive definite", "identity normalized"],
+    "invariants": ["spectrum", "I1", "I2", "I3"],
+    "abstract_unique": true,
+    "F_unique": false,
+    "injective_required": false,
+    "locally_surjective_required": true
+  },
+  "evolution": {
+    "equation": "S2-013",
+    "formula": "H_adm=C0_ord(S,Q_adm)/Homeo_+(S)",
+    "fundamental_time_dimension": false,
+    "minimum_continuity": "C0",
+    "determinism_derived": false,
+    "reversibility": "conditional"
+  },
+  "degrees_of_freedom": {
+    "equations": ["S2-016", "S2-017"],
+    "local_minimum": 3,
+    "representative_components": 6,
+    "global": "three spectral functions over the medium after local similarity quotient; six tensor component functions before that quotient",
+    "isotropic_energy_arguments": 3,
+    "new_microscopic_sectors": 0
+  },
+  "dependency_chain": ["q", "C[q,q0]", "W(C)", "P_C=DW(C)"],
+  "forbidden_results_added": []
+}

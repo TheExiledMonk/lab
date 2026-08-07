@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "unique_prediction_ids": true,
+    "every_axiom_traced": true,
+    "every_prediction_classified": true,
+    "three_models_compared": true,
+    "unique_catalogue_present": true,
+    "coupling_identifiability_not_overclaimed": true,
+    "lensing_not_overclaimed": true,
+    "no_empirical_fit": true,
+    "frozen_laboratory_untouched_by_design": true
+  },
+  "all_checks_pass": true
+}

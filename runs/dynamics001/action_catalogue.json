@@ -1,0 +1,88 @@
+{
+  "milestone": "DYNAMICS-001",
+  "status": "complete_structural_nonunique",
+  "native_action_space": {
+    "representatives": "piecewise-C1 oriented curves q:S->Q_adm",
+    "physical_quotient": "H_phys^1 = H_tilde^1 / Diff_+(S)",
+    "parameter_status": "unobservable ordering label",
+    "equation": "D-002"
+  },
+  "evolution_variables": {
+    "configuration": "q in Q_adm subset Q_phys",
+    "velocity": "v in T_q Q_adm; physical direction is the positive ray [v]_+",
+    "momentum": "p = D_v L in T_q^* Q_adm",
+    "pairing": "<p,delta q> = D_v L[delta q]",
+    "equations": ["D-003", "D-006"]
+  },
+  "native_action_family": {
+    "formula": "S[q] = integral_S L(q,v;q0) ds",
+    "required_homogeneity": "L(q,a v;q0) = a L(q,v;q0) for every a>0",
+    "arguments": ["q", "v", "fixed q0", "C[q,q0]", "W(C)"],
+    "requirements": [
+      "gauge-basic",
+      "objective",
+      "covariant scalar",
+      "local finite-jet representative when realized",
+      "continuous",
+      "Gateaux differentiable along admissible nonzero tangents",
+      "integrable first variation",
+      "no new fields, couplings, constants, or energy terms"
+    ],
+    "equations": ["D-001", "D-004", "D-009"]
+  },
+  "kinetic_family": {
+    "name": "K_1",
+    "definition": "nonnegative objective gauge-basic local differentiable degree-one fiber functions on TQ_adm",
+    "selected_member": null,
+    "quadratic_metric_selected": false,
+    "degeneracy_note": "radial Legendre degeneracy is required by reparametrization invariance",
+    "equations": ["D-005", "D-007"]
+  },
+  "energy_decomposition": {
+    "native_T_minus_W": "inadmissible_without_duration_structure",
+    "reason": "quadratic T is degree two and rate-free W is degree zero, whereas the native integrand must be degree one",
+    "conditional_alternative": "T-W after an independently derived relational clock and clock-gauge fixing",
+    "forbidden_shortcuts": ["lapse field", "clock field", "unselected kinetic metric", "Jacobi energy constant", "new normalization scale"],
+    "equations": ["D-008", "D-010"]
+  },
+  "variation": {
+    "principle": "delta S[q;eta]=0 for every admissible eta",
+    "conditions": [
+      "variation remains in Q_adm",
+      "gauge quotient respected",
+      "fixed endpoints or separately declared natural boundary conditions",
+      "elastic endpoint tangent cone respected",
+      "differentiation under integral justified"
+    ],
+    "explicit_field_equations": false,
+    "equation": "D-011"
+  },
+  "symmetry_audit": [
+    {"symmetry": "objectivity/internal continuous action", "result": "conditional momentum-map or angular-momentum-type law"},
+    {"symmetry": "material relabeling/spatial covariance", "result": "Noether identities or constraints"},
+    {"symmetry": "locality", "result": "permits local balance representation but creates no charge"},
+    {"symmetry": "order reparametrization", "result": "homogeneity identity and parameter-Hamiltonian constraint"},
+    {"symmetry": "time translation", "result": "not available until a relational clock symmetry is derived"},
+    {"symmetry": "effective Lorentz invariance", "result": "V11 downstream matching gate, not a native conserved current yet"}
+  ],
+  "field001_required_inputs": [
+    "concrete realization and function spaces for q",
+    "member of L_nat or derived relational clock",
+    "kinetic/inertial structure and non-free normalization",
+    "boundary and elastic-endpoint data",
+    "one-metric and clock/ruler map",
+    "source projection and matter action if included",
+    "causal well-posedness and V11 effective-limit proof"
+  ],
+  "dependency_chain": "q -> (q,[v]_+,C,W) -> S[q] -> delta S",
+  "forbidden_outputs_absent": [
+    "field equations",
+    "Einstein-like equations",
+    "constitutive updates",
+    "additional fields",
+    "new couplings",
+    "new fundamental constants",
+    "observational fits",
+    "V11 modifications"
+  ]
+}

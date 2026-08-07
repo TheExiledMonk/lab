@@ -1,0 +1,18 @@
+{
+  "module": "pbuf.core.M05.pair.enumeration",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "ad3f07b45056e104a955d83a0139fb0386160fd28d3800c6c7cd351940e2fbca",
+  "test_sha256": "ad3f07b45056e104a955d83a0139fb0386160fd28d3800c6c7cd351940e2fbca",
+  "reference_fixture_sha256": "a34c20aad7c57e3a363a944d7a2c7a3444c92d2337d88f56d29ba114044b1e49",
+  "conventions_version": "1.0.0",
+  "tests_passed": 30,
+  "tests_total": 30,
+  "maximum_error": 0.0,
+  "tolerance": 0.0,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true
+}

@@ -1,0 +1,10 @@
+Property,A,B,C,D,E
+Weak-field recovery,pass (common k0 tangent),pass (common k0 tangent),pass (common k0 tangent),pass (common k0 tangent),pass (common k0 tangent)
+Progressive hardening,pass,fail (amplitude tangent is constant),pass,pass,pass
+Smooth constitutive response,pass,pass,pass,pass on open admissible domain,pass
+Stable equilibrium,pass on ray; tensor proof pending,pass on ray; tensor proof pending,pass on ray; tensor proof pending,pass on ray; tensor proof pending,pass on ray; tensor proof pending
+Wave-support capability,conditional (completion required),pass (conditional kinetic closure),conditional (completion required),conditional (completion required),conditional (completion required)
+Recovery,pass restoring tendency; evolution pending,pass restoring tendency; evolution pending,pass restoring tendency; evolution pending,pass restoring tendency; evolution pending,pass restoring tendency; evolution pending
+Finite-energy compatibility,pass,pass,pass,pass,pass
+Emergent geometry compatibility,conditional on METRIC-001 map,conditional on METRIC-001 map,conditional on METRIC-001 map,conditional on METRIC-001 map,conditional on METRIC-001 map
+Governing-equation readiness,conditional; closure slots explicit,conditional; closure slots explicit,conditional; closure slots explicit,conditional; closure slots explicit,conditional; closure slots explicit

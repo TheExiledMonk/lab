@@ -1,0 +1,19 @@
+{
+  "frozen_hashes_match": true,
+  "cosmology_source_recorded": true,
+  "matter_input_provenance_recorded": true,
+  "circular_reuse_absent": true,
+  "all_clusters_completed": true,
+  "C10_and_A8T1_same_production": true,
+  "no_fitting": true,
+  "no_amplitude_matching": true,
+  "no_smoothing_search": true,
+  "no_mask_optimization": true,
+  "common_grid_and_mask": true,
+  "shear_components_transformed_consistently": true,
+  "reduced_shear_singular_pixels_recorded": true,
+  "wrong_controls_completed": true,
+  "all_14_questions_answered": true,
+  "all_lane_neighbourhoods_assigned": true,
+  "notes": "Bridge Class I for all 5 clusters; L1 LCDM/GR control stopped per section 7 (circularity prohibition)."
+}

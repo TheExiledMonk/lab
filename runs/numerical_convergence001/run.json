@@ -1,0 +1,97 @@
+{
+  "milestone": "PBUF NUMERICAL-CONVERGENCE-001",
+  "status": "OK",
+  "frozen_components": {
+    "constitutive": "Version A: C = 0.18 * rho / rho_max",
+    "transport": "90-degree transverse response, direct addition + renormalisation",
+    "response": "r = 90 deg (grad C) * |grad C|",
+    "numerical_parameters": {
+      "n": 128,
+      "extent": 8.0,
+      "strength": 0.18,
+      "step": 0.06,
+      "steps": 80,
+      "y_span": 3.0,
+      "nphotons": 2000,
+      "bins": 64
+    },
+    "source_plane_geometry": "Configuration B (Cartesian 2D)",
+    "observable_extraction": "frozen implementations from observable_lab001.METHOD_DISPATCH (jacobian, area, triangulation). Group E audit uses a separate kNN-based Jacobian implementation that does not modify the frozen methods."
+  },
+  "variable": "numerical resolution only",
+  "refinement_groups": {
+    "A_photon_count": [
+      2000,
+      5000,
+      10000,
+      20000,
+      50000,
+      100000
+    ],
+    "B_constitutive_grid": [
+      64,
+      128,
+      256,
+      512,
+      1024
+    ],
+    "C_integration_step": [
+      0.06,
+      0.03,
+      0.015,
+      0.0075
+    ],
+    "D_domain_size": [
+      8,
+      12,
+      16,
+      24
+    ],
+    "E_jac_neighbourhood": [
+      4,
+      8,
+      16,
+      "adaptive"
+    ]
+  },
+  "default_control": {
+    "nphotons": 10000,
+    "grid_n": 128,
+    "step": 0.06,
+    "domain_L": 8,
+    "n_neighbours": 8
+  },
+  "max_conservation_error_per_run": {
+    "A_n2000_g128_s1_L8.0_k8": 2.220446049250313e-16,
+    "A_n5000_g128_s1_L8.0_k8": 2.220446049250313e-16,
+    "A_n10000_g128_s1_L8.0_k8": 2.220446049250313e-16,
+    "A_n20000_g128_s1_L8.0_k8": 2.220446049250313e-16,
+    "A_n50000_g128_s1_L8.0_k8": 2.220446049250313e-16,
+    "A_n100000_g128_s1_L8.0_k8": 2.220446049250313e-16,
+    "B_n10000_g64_s1_L8.0_k8": 2.220446049250313e-16,
+    "B_n10000_g128_s1_L8.0_k8": 2.220446049250313e-16,
+    "B_n10000_g256_s1_L8.0_k8": 2.220446049250313e-16,
+    "B_n10000_g512_s1_L8.0_k8": 2.220446049250313e-16,
+    "B_n10000_g1024_s1_L8.0_k8": 2.220446049250313e-16,
+    "C_n10000_g128_s1_L8.0_k8": 2.220446049250313e-16,
+    "C_n10000_g128_s2_L8.0_k8": 2.220446049250313e-16,
+    "C_n10000_g128_s4_L8.0_k8": 2.220446049250313e-16,
+    "C_n10000_g128_s8_L8.0_k8": 2.220446049250313e-16,
+    "D_n10000_g128_s1_L8.0_k8": 2.220446049250313e-16,
+    "D_n10000_g128_s1_L12.0_k8": 2.220446049250313e-16,
+    "D_n10000_g128_s1_L16.0_k8": 2.220446049250313e-16,
+    "D_n10000_g128_s1_L24.0_k8": 2.220446049250313e-16,
+    "E_n10000_g128_s1_L8.0_k4": 2.220446049250313e-16,
+    "E_n10000_g128_s1_L8.0_k8": 2.220446049250313e-16,
+    "E_n10000_g128_s1_L8.0_k16": 2.220446049250313e-16,
+    "E_n10000_g128_s1_L8.0_kadaptive": 2.220446049250313e-16
+  },
+  "identical_pipeline_hashes": {
+    "numerical_convergence001.py": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f"
+  },
+  "execution_seconds": 20.493367256014608
+}

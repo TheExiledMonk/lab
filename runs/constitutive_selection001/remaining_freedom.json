@@ -1,0 +1,7 @@
+{
+  "stored_energy": "Choose one scalar Phi (equivalently its remainder beyond the frozen reference 2-jet) on the already frozen invariant domain, satisfying normalization, stress-free reference, frozen tangent, lower boundedness, and stability on the declared operating domain.",
+  "communication": "Choose one operator L_comm from the admissible balance/gradient/integral set, including its domain and boundary conditions, whose linear symbol is stable and V11-causal.",
+  "large_deformation": "Choose one boundary/asymptotic condition for Phi relative to the already frozen admissible spectral domain; this is logically part of specifying Phi unless the domain is imposed as a hard constraint.",
+  "independent_choice_count": "At least two: the nonlinear energetic closure (including its boundary completion) and the communication operator. Branch C is not necessarily a third independent object because it can be encoded in Phi/domain.",
+  "readiness": "C \u2014 Multiple fundamentally different governing equations remain."
+}

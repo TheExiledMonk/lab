@@ -1,0 +1,24 @@
+equation_id,claim,input_source,input_identifier,status,downstream_gate
+H-001,complete isotropic functional family,DEFORMATION-001,"rank-three SPD C; DEF-I01--03",derived,FIELD-001
+H-002,minimal invariant basis,DEFORMATION-001,"DEF-I01--03",accepted,none
+H-003,objectivity,DEFORMATION-001,C=F^sharp F,accepted,none
+H-004,isotropic similarity invariance,HYPER-001 mission,isotropy,accepted,none
+H-005,unloaded zero-energy stationary state,DEFORMATION-001 and mission,R0 and stable equilibrium,derived,reference normalization
+H-006,invariant gradients,H-002,matrix calculus,derived,none
+H-007,constitutive response,H-001 and H-006,chain rule,derived,FIELD-001
+H-008,principal constitutive response,H-007,spectral evaluation,derived,FIELD-001
+H-009,stress-free derivative constraint,H-005 and H-007,C=identity,derived,none
+H-010,tangent response,H-007,matrix differentiation,derived,FIELD-001
+H-011,quadratic invariant expansion,DEFORMATION-001,C=identity+2epsilon,derived,none
+H-012,quadratic energy expansion,H-009 and H-011,Taylor theorem,derived,none
+H-013,tangent-modulus definitions,H-012,isotropic coefficient identification,derived,no numerical values authorized
+H-014,linear elastic tangent,H-012 and H-013,algebra,derived,V11 weak-field dynamics
+H-015,volumetric/shear tangent,H-014,trace decomposition,derived,V11 weak-field dynamics
+H-016,objective spectral domain,DEFORMATION-001,physical spectrum,derived,finite-bound closure
+H-017,finite nondegenerate bounds,FOUNDATION-001 and mission,finite elastic bound,compatibility constraint,limiting spectrum not fixed
+H-018,positive energy equilibrium,H-005,stability requirement,compatibility constraint,none
+H-019,strict local stability,H-018,second variation,derived,none
+H-020,positive bulk/shear stiffness,H-015 and H-019,orthogonal trace split,derived,none
+H-021,spectral Hessian,H-001,spectral-function calculus,derived,none
+H-022,convexity criterion,H-021,positive semidefinite Hessian,derived,kinetic completion
+H-023,finite-energy perturbation,H-001,local energy integral,derived,kinetic and boundary completion

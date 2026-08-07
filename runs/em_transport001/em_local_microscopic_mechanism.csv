@@ -1,0 +1,7 @@
+em_mechanism,em_differential_form,v11_or_core_status,structural_match,missing_piece
+Faraday induction,partial_t B + curl E = 0,"absent: no antisymmetric tensor, no curl, no E/B pair",no,First-order time evolution of an antisymmetric field-strength pair is not present in the q in R^3 scalar triplet + overdamped dynamics.
+Ampere-Maxwell,curl B - partial_t E = mu0 j,absent,no,Current j is not identified; curl operator is not in the microscopic free energy.
+Wave equation for E or A,Box A = mu0 j,absent,no,D'Alembertian requires a second-order kinetic sector with positive inertia and a curl-squared gradient term; neither is supplied.
+Gauge invariance,A -> A + grad chi leaves F = dA invariant,absent: kappa_0|q|^2/2 breaks gauge invariance (mass-like term) and kappa_1|q_j - q_i|^2 is not the gauge-invariant |curl A|^2 form,no,CORE-001-E01 has neither the mass-zero gauge structure nor the curl kinetic form. q in R^3 with mass-like onsite term is structurally different from a Maxwell field.
+Two transverse polarizations,Omega_b0 = 2 alpha_resolved uses this counting in V11 (16),polarization counting only; not a transport derivation,no,Counting degrees of freedom does not derive the propagation law for those degrees of freedom.
+Dispersionless vacuum propagation c,omega = c |k| for all k,absent: V11 mentions GW170817 constrains epsilon_0; no microscopic derivation given,no,V11 sec. 2.4 records the constraint but does not derive c = sqrt(G/K) from V11 microscopic structure.

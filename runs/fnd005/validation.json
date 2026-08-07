@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "unique_prediction_ids": true,
+    "all_requested_categories_covered": true,
+    "all_predictions_trace_to_axioms": true,
+    "assumptions_explicit": true,
+    "falsifiers_or_boundaries_explicit": true,
+    "three_ontologies_compared": true,
+    "ranked_testable_signatures_present": true,
+    "first_falsification_experiment_selected": true,
+    "constitutive_dependence_separated": true,
+    "no_parameter_fit": true,
+    "frozen_weak_lensing_laboratory_untouched": true
+  },
+  "all_checks_pass": true
+}

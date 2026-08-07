@@ -1,0 +1,10 @@
+run_id,equation_version,stage,status
+20260804T131920Z,A,1:load_lens,PASS
+20260804T131920Z,A,2:mass_map,PASS
+20260804T131920Z,A,3:deformation,PASS
+20260804T131920Z,A,4:gradient,PASS
+20260804T131920Z,A,5:photon_propagation,PASS
+20260804T131920Z,A,6:reconstruction,PASS
+20260804T131920Z,A,7:baryonic_gr,PASS
+20260804T131920Z,A,8:lcdm_benchmark,PASS
+20260804T131920Z,A,9:comparison,PASS

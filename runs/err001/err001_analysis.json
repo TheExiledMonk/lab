@@ -1,0 +1,236 @@
+{
+  "mission": "PBUF ERR-001",
+  "audit": [
+    {
+      "milestone": "CORE-001",
+      "locations_before": "microscopic energy, continuum source, traceability and model mapping",
+      "correction": "Removed the auxiliary multiplier; matter couples directly through g_dev.",
+      "status": "corrected and revalidated"
+    },
+    {
+      "milestone": "FND-002",
+      "locations_before": "A02 assumption audit and irreducible-postulate discussion",
+      "correction": "Withdrew the effective-product substitution and source-rescaling degeneracy; retained g_dev as a direct, underived PBUF premise.",
+      "status": "corrected and revalidated"
+    },
+    {
+      "milestone": "FND-003",
+      "locations_before": "T08/T09, coupling derivation, postulate P5 and recommendation",
+      "correction": "Replaced the product-identifiability proof by direct-source dependence; explicitly withdrew the former inverse-rescaling conclusion.",
+      "status": "corrected and revalidated"
+    },
+    {
+      "milestone": "FND-004",
+      "locations_before": "P10 identifiability consequence",
+      "correction": "Absolute calibrated response is now g_dev-sensitive; normalized component ratios still cancel g_dev.",
+      "status": "corrected and revalidated"
+    },
+    {
+      "milestone": "FND-005",
+      "locations_before": "P08, ontology comparison and generated catalogue",
+      "correction": "Removed the nuisance-normalization claim; distinguished absolute vertex sensitivity from g_dev-independent ratios.",
+      "status": "corrected and revalidated"
+    },
+    {
+      "milestone": "PHOTON-001",
+      "locations_before": "no auxiliary coupling occurrence",
+      "correction": "No coupling equation required modification; the missing optical response remains independent of g_dev unless PBUF derives a link.",
+      "status": "unchanged and revalidated"
+    },
+    {
+      "milestone": "CONS-001",
+      "locations_before": "dependency graph, three sector rows, overlap logic, report and recommendation",
+      "correction": "Reran the audit with direct g_dev loading and withdrew rescaling degeneracy as a reason for indeterminacy.",
+      "status": "revised and revalidated"
+    }
+  ],
+  "equations": [
+    {
+      "id": "ERR-001-E01",
+      "milestone": "CORE-001",
+      "corrected_equation": "F=epsilon_* sum_i[kappa_0|q_i|^2/2+kappa_1 sum_<ij>|q_j-q_i|^2/2-g_dev eta_i e.q_i]",
+      "effect": "g_dev is the sole fundamental matter-state coupling."
+    },
+    {
+      "id": "ERR-001-E02",
+      "milestone": "CORE-001",
+      "corrected_equation": "s(rho)=epsilon_* g_dev (rho/rho_*)/a^d",
+      "effect": "The coarse source follows directly from the corrected vertex."
+    },
+    {
+      "id": "ERR-001-E03",
+      "milestone": "CORE-001/MB-001",
+      "corrected_equation": "K u-div(G grad u)=s(rho)",
+      "effect": "Form unchanged; corrected source E02 replaces the former exploratory source."
+    },
+    {
+      "id": "ERR-001-E04",
+      "milestone": "FND-004/FND-005",
+      "corrected_equation": "g_vec=g_dev(1,1,1); |g_vec|=sqrt(3)|g_dev|",
+      "effect": "Absolute vertex is g_dev-sensitive; two dark directions are unchanged."
+    },
+    {
+      "id": "ERR-001-E05",
+      "milestone": "FND-004/FND-005",
+      "corrected_equation": "|sum_i g_dev|^2 / sum_i|g_dev|^2=3",
+      "effect": "The normalized coherent ratio remains g_dev-independent."
+    },
+    {
+      "id": "ERR-001-E06",
+      "milestone": "PHOTON-001",
+      "corrected_equation": "n(u)=1+beta u+O(u^2)",
+      "effect": "Unchanged: beta remains a missing optical response and is not assumed to equal g_dev or a new free fundamental coupling."
+    }
+  ],
+  "changes": [
+    {
+      "item": "microscopic source normalization",
+      "before": "g_dev multiplied by an auxiliary exploratory coupling",
+      "after": "g_dev appears directly",
+      "classification": "revised"
+    },
+    {
+      "item": "coarse source",
+      "before": "proportional to a two-factor coupling product",
+      "after": "proportional directly to g_dev",
+      "classification": "revised"
+    },
+    {
+      "item": "inverse-rescaling degeneracy",
+      "before": "claimed to make g_dev separately unidentifiable",
+      "after": "withdrawn as an artefact of the auxiliary parameter",
+      "classification": "withdrawn"
+    },
+    {
+      "item": "numerical derivation of g_dev",
+      "before": "not derived",
+      "after": "still not derived by any supplied symmetry or consistency identity",
+      "classification": "unchanged"
+    },
+    {
+      "item": "component multiplicities and normalized ratios",
+      "before": "independent of coupling magnitude",
+      "after": "independent of coupling magnitude",
+      "classification": "unchanged"
+    },
+    {
+      "item": "CORE stability and propagation length",
+      "before": "controlled by stiffness coefficients",
+      "after": "controlled by stiffness coefficients",
+      "classification": "unchanged"
+    },
+    {
+      "item": "micro--macro closure status",
+      "before": "incomplete",
+      "after": "incomplete, but no longer obscured by source-rescaling degeneracy",
+      "classification": "unchanged boundary"
+    },
+    {
+      "item": "photon response",
+      "before": "n(u) and beta missing",
+      "after": "n(u) and beta remain missing; no g_dev link is invented",
+      "classification": "unchanged"
+    },
+    {
+      "item": "CONS-001 final classification",
+      "before": "indeterminate partly because of inverse rescaling",
+      "after": "indeterminate solely because no value-selecting or closed cross-sector constraints exist",
+      "classification": "revised rationale"
+    }
+  ],
+  "dependency_graph": [
+    {
+      "edge": "R01",
+      "source": "g_dev",
+      "target": "microscopic matter source",
+      "status": "direct PBUF coupling"
+    },
+    {
+      "edge": "R02",
+      "source": "microscopic matter source",
+      "target": "coarse source s(rho)",
+      "status": "conditional CORE coarse graining"
+    },
+    {
+      "edge": "R03",
+      "source": "s(rho)",
+      "target": "continuum deformation u",
+      "status": "conditional response; closure incomplete"
+    },
+    {
+      "edge": "R04",
+      "source": "u",
+      "target": "optical response n(u)",
+      "status": "map missing in PHOTON-001"
+    },
+    {
+      "edge": "R05",
+      "source": "n(u)",
+      "target": "deflection and phase",
+      "status": "conditional optical propagation"
+    },
+    {
+      "edge": "R06",
+      "source": "g_dev",
+      "target": "equal-component vertex",
+      "status": "direct common coupling"
+    },
+    {
+      "edge": "R07",
+      "source": "equal-component vertex",
+      "target": "bright/dark counts and normalized ratios",
+      "status": "g_dev magnitude cancels from ratios"
+    }
+  ],
+  "cons001": {
+    "classification": "D) existing theory is insufficient; g_dev remains currently indeterminate",
+    "previous_degeneracy_status": "withdrawn in full as an artefact of the auxiliary exploratory coupling",
+    "g_dev_now": "direct coefficient of the normalized microscopic matter vertex",
+    "bounded_interval_found": false,
+    "preferred_value_found": false,
+    "genuine_remaining_reasons": [
+      "No supplied PBUF symmetry or mathematical identity selects a numerical g_dev.",
+      "The completed sectors provide no two-sided consistency inequalities involving g_dev.",
+      "The micro--macro response is not closed into an independent constraint.",
+      "The photon response is not derived or linked to g_dev."
+    ],
+    "additional_assumptions_or_derivations_required": [
+      "A PBUF principle that derives or bounds g_dev rather than postulating its value.",
+      "A quantitative micro--macro closure with no new fundamental coupling.",
+      "A photon/electromagnetic action specifying whether and how its response follows from g_dev."
+    ],
+    "forbidden_actions_respected": [
+      "no replacement coupling",
+      "no hidden normalization factor",
+      "no observational fit",
+      "no frozen weak-lensing modification"
+    ]
+  },
+  "validation": {
+    "checks": {
+      "all_seven_milestones_audited": true,
+      "no_auxiliary_coupling_pattern_in_corrected_sources": true,
+      "no_auxiliary_coupling_pattern_in_specifications": true,
+      "all_affected_derivations_revalidated": true,
+      "corrected_equations_present": true,
+      "unchanged_and_revised_results_distinguished": true,
+      "revised_dependency_graph_present": true,
+      "obsolete_degeneracy_withdrawn": true,
+      "cons001_rerun_without_bound": true,
+      "no_replacement_or_hidden_fundamental_parameter": true,
+      "frozen_weak_lensing_untouched": true
+    },
+    "all_checks_pass": true,
+    "residual_source_hits": [],
+    "docx_hits": [],
+    "validated_artifacts": [
+      "runs/core001/validation.json",
+      "runs/fnd002/validation.json",
+      "runs/fnd003/validation.json",
+      "runs/fnd004/validation.json",
+      "runs/fnd005/validation.json",
+      "runs/photon001/validation.json",
+      "runs/cons001/validation.json"
+    ]
+  }
+}

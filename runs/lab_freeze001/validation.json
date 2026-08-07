@@ -1,0 +1,84 @@
+{
+  "milestone": "PBUF LAB-FREEZE-001",
+  "kind": "validation",
+  "outcome": "A",
+  "status": "OK",
+  "documentation_only": true,
+  "code_modified": false,
+  "freeze_complete": true,
+  "checks": {
+    "all_required_outputs_produced": true,
+    "all_frozen_source_hashes_recorded": true,
+    "regression_baseline_recorded": true,
+    "validation_trail_complete": true,
+    "known_limitations_documented": true,
+    "production_thresholds_recorded": true
+  },
+  "files_produced": [
+    "laboratory_specification.md",
+    "engineering_reference.md",
+    "algorithm_registry.csv",
+    "production_settings.csv",
+    "validation_summary.csv",
+    "known_limitations.md",
+    "regression_baseline.json",
+    "checksums.csv",
+    "environment.json",
+    "run.json",
+    "validation.json",
+    "plots/validation_timeline.png",
+    "plots/algorithm_pipeline.png",
+    "plots/production_configuration.png",
+    "plots/convergence_summary.png"
+  ],
+  "frozen_components_verified": {
+    "constitutive": "Version A; C = 0.18 * rho / rho_max",
+    "transport_direction": "90 deg transverse (R_90 of grad C)",
+    "transport_magnitude": "linear A = |grad C|",
+    "update_rule": "direct addition + per-step renormalisation",
+    "source_plane": "Launch B (Cartesian 2D)",
+    "observable_primary": "Jacobian (method_jacobian)",
+    "observable_secondary": ["area", "triangulation"]
+  },
+  "validation_trail_complete": [
+    "TRANSPORT-LAB-001 through TRANSPORT-LAB-008",
+    "CONSTITUTIVE-LAB-001",
+    "WEAK-LENSING-PREDICTION-001",
+    "WEAK-LENSING-GENERALIZATION-001",
+    "WEAK-LENSING-VALIDATION-001",
+    "OBSERVATION-BRIDGE-001",
+    "INPUT-LAB-001",
+    "INPUT-LAB-002",
+    "OBSERVABLE-LAB-001",
+    "SOURCE-PLANE-LAB-001",
+    "NUMERICAL-CONVERGENCE-001"
+  ],
+  "production_thresholds_validated": {
+    "minimum_1pct_relative_change": {
+      "nphotons": 20000,
+      "grid_n": 256,
+      "step": "Delta s / 2"
+    },
+    "high_accuracy_0_1pct_relative_change": {
+      "nphotons": 50000,
+      "grid_n": 512,
+      "step": "Delta s / 4"
+    }
+  },
+  "reproducibility": {
+    "python_version": "3.14.x",
+    "frozen_source_count": 21,
+    "all_hashes_verified": true,
+    "regression_baseline_recorded": true,
+    "byte_reproducible": true,
+    "max_conservation_error": 2.220446049250313e-16
+  },
+  "known_limitations_documented": 14,
+  "future_versions_required_to": [
+    "reproduce kappa_rms within 1%",
+    "reproduce gamma_rms within 1%",
+    "reproduce trajectory SHA-256 byte-exactly",
+    "reproduce conservation at machine epsilon",
+    "before any physics change can be evaluated"
+  ]
+}

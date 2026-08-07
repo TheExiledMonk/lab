@@ -1,0 +1,8 @@
+Rank,Candidate,Reference Direction,Bend,Conservation,Speed Drift,Stable,Score
+1,Candidate 6,Principal strain direction,4.0800e+00,6.0000e-02,6.0000e-02,yes,1.000
+2,Candidate 3,Energy gradient  ∇(½C²) = C·∇C,5.8414e-09,2.6773e-09,2.6773e-09,yes,1.000
+3,Candidate 7,Principal stress direction,4.0676e+00,5.9988e-02,5.9988e-02,yes,0.997
+4,Candidate 2,Stress gradient  ∇|∇C| / (C + ε),2.6006e-01,1.6074e-01,1.6074e-01,yes,0.064
+5,Candidate 5,Force density  ∇(∇²C),1.4783e-03,2.5814e-04,2.5814e-04,yes,0.000
+6,Candidate 1,Constitutive gradient  ∇C,6.6181e-05,1.3994e-05,1.3994e-05,yes,0.000
+7,Candidate 4,Traction  (∇C·N̂)N̂,6.6179e-05,1.4738e-05,1.4738e-05,yes,0.000

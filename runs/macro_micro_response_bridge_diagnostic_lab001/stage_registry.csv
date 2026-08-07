@@ -1,0 +1,27 @@
+stage_id,stage_name,layer,native_field_type,stage_order
+S00,Input proxy,input,scalar,0
+S01,Raw constitutive response,constitutive,scalar,1
+S02,Constitutive spatial gradient,diagnostic,scalar,2
+C10-S03,Local neighbour coherence term,C10,scalar,3
+C10-S04,Elastic-memory term,C10,scalar,4
+C10-S05,C10 interaction term,C10-diagnostic,scalar,5
+C10-S06,Combined C10 response,C10,scalar,6
+A8-S03,Fast-layer pre-update state,A8-fast,scalar,3
+A8-S04,Fast-layer post-update state,A8-fast,scalar,4
+A8-S05,Slow-layer pre-update state,A8-slow,scalar,5
+A8-S06,Slow-layer post-update state,A8-slow,scalar,6
+A8-S07,Fast-to-slow exchange,A8,scalar,7
+A8-S08,Slow-to-fast exchange,A8,scalar,8
+A8-S09,Net exchange,A8-diagnostic,scalar,9
+A8-S10,Combined A8 state,A8,scalar,10
+A8-S11,A8 memory field,A8-diagnostic,scalar,11
+A8-S12,A8 neighbour-response field,A8,scalar,12
+S13,Local propagation response vector,propagation,vector,13
+S14,Per-step ray displacement,propagation,scalar,14
+S15,Accumulated ray displacement,propagation,vector,15
+S16,Source-to-image mapping,propagation,vector,16
+S17,Jacobian components,observable,vector,17
+S18,Jacobian trace and determinant,observable,scalar,18
+S19,Extracted convergence,observable,scalar,19
+S20,Extracted shear components,observable,scalar,20
+S21,Reduced shear,observable,scalar,21

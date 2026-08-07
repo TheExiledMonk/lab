@@ -1,0 +1,92 @@
+[
+  {
+    "source": "ontology",
+    "branch": "A",
+    "effect": "reduce",
+    "justification": "Objectivity and three-dimensional isotropy give Phi(I1,I2,I3); one-medium minimal state excludes independent constitutive state."
+  },
+  {
+    "source": "ontology",
+    "branch": "B",
+    "effect": "constrain",
+    "justification": "One continuous medium permits neighbour transmission but does not choose local, gradient, or integral realization."
+  },
+  {
+    "source": "ontology",
+    "branch": "C",
+    "effect": "constrain",
+    "justification": "Finite elastic admissibility requires a declared domain; it does not prescribe energy behavior at its boundary."
+  },
+  {
+    "source": "waves",
+    "branch": "A",
+    "effect": "reduce",
+    "justification": "Phi must be C2 near the reference and have the frozen positive acoustic tangent; on the propagation domain the acoustic symbol must remain real/stable."
+  },
+  {
+    "source": "waves",
+    "branch": "B",
+    "effect": "reduce",
+    "justification": "The linearized communication symbol Q(k) must supply required real modes and respect the effective causal cone; balance, gradient, and causal nonlocal symbols can each satisfy this."
+  },
+  {
+    "source": "waves",
+    "branch": "C",
+    "effect": "constrain",
+    "justification": "Smooth hyperbolicity is needed only in the operational interior; no smooth extension through a hard boundary is implied."
+  },
+  {
+    "source": "Planck bound",
+    "branch": "A",
+    "effect": "constrain",
+    "justification": "A bound restricts Phi's domain or boundary behavior but supplies no nonlinear formula."
+  },
+  {
+    "source": "Planck bound",
+    "branch": "B",
+    "effect": "none",
+    "justification": "A deformation-capacity statement does not determine spatial communication."
+  },
+  {
+    "source": "Planck bound",
+    "branch": "C",
+    "effect": "reduce",
+    "justification": "Finite capacity permits a hard state constraint or an approached energetic barrier; coercivity is the relevant sufficient alternative only for unbounded admissible sequences."
+  },
+  {
+    "source": "metric",
+    "branch": "A",
+    "effect": "constrain",
+    "justification": "Metric regularity requires controlled constitutive response on the claimed operational domain, not a particular Phi."
+  },
+  {
+    "source": "metric",
+    "branch": "B",
+    "effect": "no selection",
+    "justification": "METRIC-001 admits functional kernels and finite-jet maps and expressly does not select ultralocal, finite-derivative, or causal nonlocal dependence."
+  },
+  {
+    "source": "metric",
+    "branch": "C",
+    "effect": "constrain",
+    "justification": "The effective metric must remain Lorentzian and nondegenerate in its operational domain; boundary regularity has three frozen admissible cases and is not selected."
+  },
+  {
+    "source": "duration",
+    "branch": "A",
+    "effect": "reduce",
+    "justification": "Statewise conservative Phi is rate-independent and supports reversible recovery on one branch; duration adds no invariant functional dependence."
+  },
+  {
+    "source": "duration",
+    "branch": "B",
+    "effect": "constrain",
+    "justification": "Propagation must advance positive additive duration and, in the V11 regime, share the effective causal structure; this restricts admissibility, not operator type."
+  },
+  {
+    "source": "duration",
+    "branch": "C",
+    "effect": "constrain",
+    "justification": "Evolution must stay within the admissible branch and clocks must remain monotone on their operating domain; neither fact fixes boundary growth."
+  }
+]

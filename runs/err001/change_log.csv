@@ -1,0 +1,10 @@
+item,before,after,classification
+microscopic source normalization,g_dev multiplied by an auxiliary exploratory coupling,g_dev appears directly,revised
+coarse source,proportional to a two-factor coupling product,proportional directly to g_dev,revised
+inverse-rescaling degeneracy,claimed to make g_dev separately unidentifiable,withdrawn as an artefact of the auxiliary parameter,withdrawn
+numerical derivation of g_dev,not derived,still not derived by any supplied symmetry or consistency identity,unchanged
+component multiplicities and normalized ratios,independent of coupling magnitude,independent of coupling magnitude,unchanged
+CORE stability and propagation length,controlled by stiffness coefficients,controlled by stiffness coefficients,unchanged
+micro--macro closure status,incomplete,"incomplete, but no longer obscured by source-rescaling degeneracy",unchanged boundary
+photon response,n(u) and beta missing,n(u) and beta remain missing; no g_dev link is invented,unchanged
+CONS-001 final classification,indeterminate partly because of inverse rescaling,indeterminate solely because no value-selecting or closed cross-sector constraints exist,revised rationale

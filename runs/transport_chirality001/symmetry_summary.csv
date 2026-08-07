@@ -1,0 +1,21 @@
+candidate,candidate_id,test,delta,passed
+Cand 1,global_plus,repeatability,0.0,True
+Cand 1,global_plus,translation,1.6373707620864764e-06,True
+Cand 1,global_plus,rotation,6.486374933004725e-05,False
+Cand 1,global_plus,mirror,0.0001323620213702145,False
+Cand 2,global_minus,repeatability,0.0,True
+Cand 2,global_minus,translation,1.6374403438712548e-06,True
+Cand 2,global_minus,rotation,6.48634707826331e-05,False
+Cand 2,global_minus,mirror,0.00013236146219677017,False
+Cand 3,local_laplacian,repeatability,0.0,True
+Cand 3,local_laplacian,translation,1.6373707620864764e-06,True
+Cand 3,local_laplacian,rotation,6.486374933004725e-05,False
+Cand 3,local_laplacian,mirror,0.0001323620213702145,False
+Cand 4,symmetric_dual,repeatability,0.0,True
+Cand 4,symmetric_dual,translation,2.1210899703305586e-10,True
+Cand 4,symmetric_dual,rotation,5.82041304042491e-09,True
+Cand 4,symmetric_dual,mirror,7.174110194796413e-10,True
+Cand 5,local_centre,repeatability,0.0,True
+Cand 5,local_centre,translation,3.403818015013105e-05,False
+Cand 5,local_centre,rotation,6.749799245296463e-05,False
+Cand 5,local_centre,mirror,0.00013236146219580924,False

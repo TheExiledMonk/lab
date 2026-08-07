@@ -1,0 +1,10 @@
+requirement,satisfied,proof_or_scope
+neighbour communication,yes,C=F^sharp F contains Grad y; integration by parts produces -Div P_F.
+stress transmission,yes,P_F=2 F P_C gives boundary traction P_F N.
+balance,"yes, with frozen localization",BALANCE-001 supplies the template; variation supplies internal force.
+recovery,yes on stable branch,Exact stored energy plus stable reference gives conservative restoring response.
+wave existence,"yes, with frozen inertia",Acoustic positivity gives real plane-wave modes.
+dispersion,not required,Homogeneous local elasticity supports nondispersive waves.
+stability,yes on declared domain,Frozen strong-ellipticity/acoustic-positivity gate suffices.
+metric,yes as communication,Metric output/cone gates require no kernel or gradient.
+finite capacity,yes,A pointwise domain or local barrier enforces capacity.

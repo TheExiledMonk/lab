@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "all_seven_milestones_audited": true,
+    "no_auxiliary_coupling_pattern_in_corrected_sources": true,
+    "no_auxiliary_coupling_pattern_in_specifications": true,
+    "all_affected_derivations_revalidated": true,
+    "corrected_equations_present": true,
+    "unchanged_and_revised_results_distinguished": true,
+    "revised_dependency_graph_present": true,
+    "obsolete_degeneracy_withdrawn": true,
+    "cons001_rerun_without_bound": true,
+    "no_replacement_or_hidden_fundamental_parameter": true,
+    "frozen_weak_lensing_untouched": true
+  },
+  "all_checks_pass": true,
+  "residual_source_hits": [],
+  "docx_hits": [],
+  "validated_artifacts": [
+    "runs/core001/validation.json",
+    "runs/fnd002/validation.json",
+    "runs/fnd003/validation.json",
+    "runs/fnd004/validation.json",
+    "runs/fnd005/validation.json",
+    "runs/photon001/validation.json",
+    "runs/cons001/validation.json"
+  ]
+}

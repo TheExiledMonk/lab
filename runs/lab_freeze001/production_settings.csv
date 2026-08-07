@@ -1,0 +1,20 @@
+parameter,minimum_validated_production,higher_accuracy,legacy_default,frozen_lab,notes
+nphotons,20000,50000,2000,NUMERICAL-CONVERGENCE-001,photon count; Monte Carlo convergence ~1/sqrt(N); 100k reaches <0.1% relative change
+grid_n,256,512,128,NUMERICAL-CONVERGENCE-001,constitutive grid resolution (N x N cells); production uses 256^2 = 65536 cells
+step,0.03,0.015,0.06,NUMERICAL-CONVERGENCE-001,photon step size (delta_s / divisor); delta_s = 0.06 is the canonical reference
+steps,160,320,80,NUMERICAL-CONVERGENCE-001,number of propagation steps; step * steps = total photon travel = 4.80 dimensionless
+extent,8.0,8.0,8.0,WEAK-LENSING-OBSERVATION-001,half-domain extent (dimensionless Cartesian)
+strength,0.18,0.18,0.18,WEAK-LENSING-OBSERVATION-001,deformation strength u_0
+y_span,3.0,3.0,3.0,WEAK-LENSING-OBSERVATION-001,y-extent of the launch plane
+bins,64,64,64,WEAK-LENSING-OBSERVATION-001,output bin grid resolution (64 x 64 cells)
+launch,Cartesian 2D (Launch B),Cartesian 2D (Launch B),1D edge (Launch A),SOURCE-PLANE-LAB-001,photon launch geometry; Launch B is the frozen selection
+observable,Jacobian (method_jacobian),Jacobian (method_jacobian),Histogram (method_histogram),OBSERVABLE-LAB-001,observable extraction method; Jacobian is the frozen primary
+conservation_error,2.2204e-16,2.2204e-16,2.2204e-16,NUMERICAL-CONVERGENCE-001,maximum deviation of |v| from 1 (machine epsilon)
+runtime_seconds_estimate,0.58,1.10,0.02,NUMERICAL-CONVERGENCE-001,total runtime (propagation + Jacobian extraction) for Abell 2744
+memory_peak_mb_estimate,35.8,89.1,4.7,NUMERICAL-CONVERGENCE-001,tracemalloc peak (Abell 2744, default grid=128)
+rss_peak_mb_estimate,203,323,123,NUMERICAL-CONVERGENCE-001,peak RSS (Abell 2744, default grid=128)
+domain_L,8,8,8,WEAK-LENSING-OBSERVATION-001,half-domain extent; D-group audit varies this; production freezes at 8
+n_neighbours,8,8,8,NUMERICAL-CONVERGENCE-001,kNN Jacobian neighbourhood (Group E audit only; not used for primary observable)
+interpolation_order,1,1,1,NUMERICAL-CONVERGENCE-001,resample order (linear); used in Group B/D audits
+numerical_precision,float64,float64,float64,WEAK-LENSING-VALIDATION-001,IEEE-754 double precision; conservation = machine epsilon
+random_seed,deterministic,deterministic,deterministic,SOURCE-PLANE-LAB-001,Launch B is deterministic; Launch D (deprecated) uses seed=123456

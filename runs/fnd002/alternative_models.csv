@@ -1,0 +1,6 @@
+model,construction,same_continuum,assumption_cost,finding
+Regular lattice,site state + symmetric finite differences,Yes,Adds regulator geometry and stencil choices,"Representative, not preferred foundationally"
+Irregular graph/network,node state + weighted graph Laplacian,"Yes, if graph homogenizes isotropically",Adds graph ensemble/weights,Equivalent universality class
+Continuum microfield,local effective energy with gradient expansion,"Yes, directly",Avoids lattice and kernel postulates; assumes locality/cutoff implicitly,Preferred minimal effective formulation
+Tensor/vector internal state,one scalar sourced projection plus decoupled modes,Yes conditionally,Adds mode masses and couplings,No benefit until extra observables require it
+Alternative coarse graining,"normalized centered convolution, block average, spectral low-pass",Yes at leading order,Finite-scale corrections differ,Operator is not uniquely selectable here

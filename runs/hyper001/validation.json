@@ -1,0 +1,25 @@
+{
+  "milestone": "PBUF HYPER-001",
+  "status": "complete at constitutive-functional scope",
+  "result": "W(C)=Phi(I1,I2,I3) on a bounded permutation-invariant SPD spectral domain",
+  "uniqueness": "the invariant representation is unique up to invariant coordinates; Phi is not selected by accepted inputs",
+  "checks": {
+    "foundation_modified": false,
+    "deformation001_modified": false,
+    "primitive_rank": 3,
+    "rank_four_used_as_ontology": false,
+    "new_microscopic_dof": false,
+    "empirical_coefficients": false,
+    "numerical_values": false,
+    "saturation_law_selected": false,
+    "field_equations_derived": false,
+    "v11_equations_modified": false,
+    "lambda_cosmological_constant_introduced": false,
+    "external_fields_introduced": false,
+    "observations_fitted": false,
+    "equation_catalogue_machine_readable": true,
+    "equation_traceability_complete": true
+  },
+  "endpoint_classes": ["hard constraint","coercive barrier","regular finite endpoint plus independent constraint"],
+  "downstream_missing_gates": ["metric/clock-ruler identification","kinetic/action completion","source projection"]
+}

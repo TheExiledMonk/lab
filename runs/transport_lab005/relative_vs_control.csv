@@ -1,0 +1,8 @@
+Candidate,Reference Direction,Bend % vs control,Conservation % vs control,Speed drift % vs control
+Candidate 1,Constitutive gradient  ∇C,+0.00%,+0.00%,+0.00%
+Candidate 2,Stress gradient  ∇|∇C| / (C + ε),+392858.75%,+1148563.83%,+1148563.83%
+Candidate 3,Energy gradient  ∇(½C²) = C·∇C,-99.99%,-99.98%,-99.98%
+Candidate 4,Traction  (∇C·N̂)N̂,-0.00%,+5.32%,+5.32%
+Candidate 5,Force density  ∇(∇²C),+2133.69%,+1744.63%,+1744.63%
+Candidate 6,Principal strain direction,+6164908.15%,+428656.49%,+428656.49%
+Candidate 7,Principal stress direction,+6146167.15%,+428568.86%,+428568.86%

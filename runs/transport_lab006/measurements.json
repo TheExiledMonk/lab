@@ -1,0 +1,93 @@
+[
+  {
+    "candidate": "Candidate 1",
+    "reference_label": "Constitutive gradient \u2207C",
+    "bend_max": 6.618073109838521e-05,
+    "bend_mean": 1.8352883187492635e-05,
+    "conservation": 1.399395725876218e-05,
+    "speed_drift_pre_max": 1.399395725876218e-05,
+    "speed_drift_pre_mean": 1.966209305654449e-07,
+    "direction_drift_mean": 1.0876030232817946e-06,
+    "position_error": 0.000593577186375274,
+    "stable": true,
+    "runtime": 0.013776063919067383
+  },
+  {
+    "candidate": "Candidate 2",
+    "reference_label": "Stress gradient \u2207|\u2207C|/(C+\u03b5)",
+    "bend_max": 6.617993533157668e-05,
+    "bend_mean": 1.8332692096185026e-05,
+    "conservation": 1.435708961627924e-05,
+    "speed_drift_pre_max": 1.435708961627924e-05,
+    "speed_drift_pre_mean": 2.009734336297364e-07,
+    "direction_drift_mean": 1.0863514572894857e-06,
+    "position_error": 0.0005929705460434751,
+    "stable": true,
+    "runtime": 0.013495445251464844
+  },
+  {
+    "candidate": "Candidate 3",
+    "reference_label": "Energy gradient C\u00b7\u2207C",
+    "bend_max": 6.618073200955672e-05,
+    "bend_mean": 1.8354049948700077e-05,
+    "conservation": 1.3993957264979429e-05,
+    "speed_drift_pre_max": 1.3993957264979429e-05,
+    "speed_drift_pre_mean": 1.9655878131611773e-07,
+    "direction_drift_mean": 1.0876421887331073e-06,
+    "position_error": 0.0005936679311124189,
+    "stable": true,
+    "runtime": 0.013578414916992188
+  },
+  {
+    "candidate": "Candidate 4",
+    "reference_label": "Traction (\u2207C\u00b7N\u0302)N\u0302",
+    "bend_max": 6.617901669116225e-05,
+    "bend_mean": 1.8296203656961144e-05,
+    "conservation": 1.4759076642167912e-05,
+    "speed_drift_pre_max": 1.4759076642167912e-05,
+    "speed_drift_pre_mean": 2.0707529544417013e-07,
+    "direction_drift_mean": 1.0844834157584996e-06,
+    "position_error": 0.0005917083187660571,
+    "stable": true,
+    "runtime": 0.013558149337768555
+  },
+  {
+    "candidate": "Candidate 5",
+    "reference_label": "Force density \u2207(\u2207\u00b2C)",
+    "bend_max": 6.617975001699818e-05,
+    "bend_mean": 1.8329343400600826e-05,
+    "conservation": 1.4452434585643381e-05,
+    "speed_drift_pre_max": 1.4452434585643381e-05,
+    "speed_drift_pre_mean": 2.01848358833782e-07,
+    "direction_drift_mean": 1.0861294944651478e-06,
+    "position_error": 0.0005928810664691695,
+    "stable": true,
+    "runtime": 0.013581991195678711
+  },
+  {
+    "candidate": "Candidate 6",
+    "reference_label": "Principal strain direction",
+    "bend_max": 6.617803955413613e-05,
+    "bend_mean": 1.8275883996637745e-05,
+    "conservation": 1.4971938991470424e-05,
+    "speed_drift_pre_max": 1.4971938991470424e-05,
+    "speed_drift_pre_mean": 2.106043000462934e-07,
+    "direction_drift_mean": 1.0833095787157497e-06,
+    "position_error": 0.0005910090968224173,
+    "stable": true,
+    "runtime": 0.013594627380371094
+  },
+  {
+    "candidate": "Candidate 7",
+    "reference_label": "Principal stress direction",
+    "bend_max": 6.617517686280158e-05,
+    "bend_mean": 1.8193660592561565e-05,
+    "conservation": 1.5895127862153302e-05,
+    "speed_drift_pre_max": 1.5895127862153302e-05,
+    "speed_drift_pre_mean": 2.2369894901391124e-07,
+    "direction_drift_mean": 1.0791730838786616e-06,
+    "position_error": 0.0005878598095044894,
+    "stable": true,
+    "runtime": 0.01359868049621582
+  }
+]

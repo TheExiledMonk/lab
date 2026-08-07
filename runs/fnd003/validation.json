@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "all_claims_classified": true,
+    "required_class_boundaries_present": true,
+    "unique_traceability_ids": true,
+    "three_state_is_not_marked_unconditional_derivation": true,
+    "one_over_137_is_not_marked_derived": true,
+    "direct_g_dev_source_recorded": true,
+    "scalarization_alternatives_audited": true,
+    "irreducible_postulates_listed": true,
+    "frozen_laboratory_untouched_by_design": true
+  },
+  "all_checks_pass": true
+}

@@ -1,0 +1,81 @@
+{
+  "laboratory_id": "PBUF MACRO-MICRO RESPONSE-BRIDGE-DIAGNOSTIC-LAB-001",
+  "started_iso": "2026-08-06T12:26:14Z",
+  "duration_seconds": 20.803616004996,
+  "host_python": "3.12.13",
+  "numpy_version": "2.5.1",
+  "production": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "frozen_hashes_ok": true,
+  "smoothing_sigma": 1.0,
+  "n_radial_bins": 20,
+  "n_power_bins": 20,
+  "n_temporal_snapshots": 21,
+  "alpha_fs": 0.0072973525692838015,
+  "three_alpha_fs": 0.021892057707851405,
+  "six_alpha_fs": 0.04378411541570281,
+  "inv_alpha_fs": 137.035999084,
+  "cluster_ids": [
+    "Abell2744",
+    "MACS0416",
+    "MACS1149",
+    "AbellS1063",
+    "Abell370"
+  ],
+  "dx_range": [
+    -4,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    4
+  ],
+  "n_spatial_lag_combinations": 49,
+  "first_divergence_summary": {
+    "C10": {
+      "Abell2744": "C10-S04",
+      "MACS0416": "C10-S04",
+      "MACS1149": "S02",
+      "AbellS1063": "S02",
+      "Abell370": "C10-S04"
+    },
+    "A8": {
+      "Abell2744": "A8-S07",
+      "MACS0416": "A8-S07",
+      "MACS1149": "A8-S07",
+      "AbellS1063": "S02",
+      "Abell370": "A8-S07"
+    }
+  },
+  "cumulative_divergence": [
+    {
+      "model": "C10",
+      "clusters_with_no_single_material_divergence": 5,
+      "clusters_with_final_N3": 5,
+      "clusters_with_consecutive_negative_delta": 0,
+      "is_cumulative_divergence": false
+    },
+    {
+      "model": "A8",
+      "clusters_with_no_single_material_divergence": 0,
+      "clusters_with_final_N3": 5,
+      "clusters_with_consecutive_negative_delta": 0,
+      "is_cumulative_divergence": false
+    }
+  ],
+  "stage_registry_size": 26,
+  "no_new_physics": true,
+  "no_fitting": true,
+  "no_amplitude_matching": true,
+  "instrumentation_does_not_modify_frozen_outputs": true
+}

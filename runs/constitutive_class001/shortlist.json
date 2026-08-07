@@ -1,0 +1,39 @@
+{
+  "milestone": "PBUF CONSTITUTIVE-CLASS-001",
+  "recommendation": "B",
+  "recommendation_text": "Several constitutive realizations remain viable within one narrowed nondissipative elastic/hyperelastic universality class.",
+  "native_behavioral_class": "Covariant, action-based, recoverable elastic medium; generically hyperelastic, with linear elasticity only as its tangent limit.",
+  "admissible_realizations": [
+    {
+      "class": "Relativistic local hyperelastic solid / EFT of media",
+      "status": "preferred core realization",
+      "condition": "The medium variables, universal metric map, thermal inheritance, hyperbolicity, and Einstein limit must be derived from existing PBUF inputs."
+    },
+    {
+      "class": "Gradient-enriched hyperelastic medium",
+      "status": "viable enrichment",
+      "condition": "Higher-gradient terms must be covariant, stable, causal, and introduce no unsupported fitted scale."
+    },
+    {
+      "class": "Causal nonlocal hyperelastic medium",
+      "status": "viable enrichment",
+      "condition": "The kernel must be microphysically derived, covariant, retarded, positive in the stable sector, and reduce to GR macroscopically."
+    },
+    {
+      "class": "Micromorphic/Cosserat hyperelastic medium",
+      "status": "conditional branch",
+      "condition": "PBUF must first establish independent microstructure variables and show that extra modes decouple or reproduce the effective GR spectrum."
+    }
+  ],
+  "not_native": [
+    "globally linear elasticity",
+    "viscoelasticity",
+    "fractional hereditary models",
+    "ordinary fluid identity",
+    "viscoelastic-fluid identity",
+    "plasticity, damage, or active media"
+  ],
+  "discrimination_boundary": "Current PBUF information narrows the native behavior to a reversible elastic/hyperelastic action class but is insufficient to choose local versus gradient versus genuinely nonlocal kinematics, or classical versus micromorphic field content.",
+  "no_new_parameters": true,
+  "weak_lensing_used_for_selection": false
+}

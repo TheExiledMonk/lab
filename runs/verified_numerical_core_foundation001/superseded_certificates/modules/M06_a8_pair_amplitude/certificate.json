@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M06.a8.pair.amplitude",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "79261ab7f3ce69722a369a76324d4c13ead6fa35b706229720b8bed8a52b1c11",
+  "test_sha256": "79261ab7f3ce69722a369a76324d4c13ead6fa35b706229720b8bed8a52b1c11",
+  "reference_fixture_sha256": "3deb660f1006af03076d3563a69d9be336d032c0af460850b0b68eabc1f0d9ce",
+  "conventions_version": "1.0.0",
+  "tests_passed": 2,
+  "tests_total": 2,
+  "maximum_error": 0.0,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "superseded_by": "FOUNDATION-001-CORRECTION-001"
+}

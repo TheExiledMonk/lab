@@ -1,0 +1,28 @@
+{
+  "lens_id": "Lens 001",
+  "dimension": 2,
+  "bounds": {
+    "x": [
+      -8.0,
+      8.0
+    ],
+    "y": [
+      -8.0,
+      8.0
+    ]
+  },
+  "grid": {
+    "nx": 128,
+    "ny": 128,
+    "dx": 0.12598425196850394,
+    "dy": 0.12598425196850394
+  },
+  "contains": [
+    "supplied baryonic map",
+    "supplied lensing map",
+    "archived optical-path window"
+  ],
+  "boundary": "zero placement on all four sides (declared isolated finite-truncation approximation)",
+  "justification": "the data footprint is the smallest evidenced region; full Dirichlet data make the local elastic restriction coercive and remove rigid modes",
+  "limitation": "the frozen theory supplies no falloff rate, so boundary adequacy needs a padding/convergence study with real data"
+}

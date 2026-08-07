@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M07.transverse.projector",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "3fe82fa33bacb5d544e2c50a5d88a8e40eb76428b2657a1c037128e18ebb1bbc",
+  "test_sha256": "3fe82fa33bacb5d544e2c50a5d88a8e40eb76428b2657a1c037128e18ebb1bbc",
+  "reference_fixture_sha256": "739eb001fbbc3f7f59383cd14ddd3c6bbfebef66e2feaa31af8eeb5b8c2b4ec3",
+  "conventions_version": "1.0.0",
+  "tests_passed": 2,
+  "tests_total": 2,
+  "maximum_error": 5.551115123125783e-17,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "superseded_by": "FOUNDATION-001-CORRECTION-001"
+}

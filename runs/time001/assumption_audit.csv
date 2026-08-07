@@ -1,0 +1,19 @@
+id,assumption_or_claim,status,source_or_reason,required_for,unresolved_boundary
+TIME-A01,The medium is fundamentally three-dimensional,authoritative working ontology,TIME-001 brief and FND-003 starting premise,Ontological starting point,Not derived by V11
+TIME-A02,An instantaneous physical state is a gauge-equivalence class on a 3D carrier,necessary structural condition,Covariance and state/coordinate separation,Defining physical states,Exact fields and gauge group absent
+TIME-A03,The state contains sufficient Cauchy data rather than configuration alone,necessary conditional requirement,Deterministic or probabilistic continuation requires complete data,Evolution concept,Momenta memory variables and constraints unknown
+TIME-A04,An oriented curve through physical state space can order change,mathematical result,Order inherited from an oriented parameter interval,Non-dimensional ordering,Admissible histories are not supplied
+TIME-A05,Strictly monotonic reparametrizations describe the same history,required postulate,Prevents lambda from becoming hidden absolute time,Emergent rather than primitive parameterization,No reparametrization principle appears in V11
+TIME-A06,Ordering alone supplies physical duration,rejected,No clock or interval follows from order alone,Boundary between label and time,A clock functional is missing
+TIME-A07,A monotonic internal clock functional exists,new unresolved assumption,Needed to turn correlations into duration,Relational time,Global monotonicity may fail
+TIME-A08,One normalized Lorentzian metric emerges from medium clocks and rulers,unresolved inherited requirement,GEOMETRY-001,Relativistic time and universal matter coupling,Constitutive map absent
+TIME-A09,All physical clocks agree with metric proper time in the effective regime,unresolved universality assumption,V11 retains standard GR and operational Lorentz invariance,Recovery of V11 time,No microscopic clock model exists
+TIME-A10,Medium dynamics is causal and admits sufficient initial data,unresolved assumption,Required for lawful succession and relativistic recovery,Causal evolution,No local medium action/evolution law exists
+TIME-A11,No observable preferred foliation survives,required matching condition,V11 operational Lorentz invariance,Covariant GR limit,Underlying foliation may exist only if gauge or operationally hidden
+TIME-A12,Emergent time automatically creates an arrow of time,rejected,Reparametrization-invariant order can be reversible,Arrow/non-reconstruction,Needs low-entropy boundary coarse graining stochasticity or non-invertibility
+TIME-A13,Arbitrary past global states cannot be reconstructed,not established,Depends on invertibility completeness causal access and coarse graining,Past ontology,Emergence alone is insufficient
+TIME-A14,The effective 4D spacetime may be reconstructed from 3D histories,conditionally consistent,History-space construction and standard 3+1 analogy,Compatibility with V11,Requires slicing independence and one-metric identification
+TIME-A15,V11 derives microscopic time emergence,rejected by source audit,V11 assumes standard relativistic framework and gives background functions,Authority boundary,V11 supplies no local clock derivation
+TIME-A16,V11 scale factor a or H(a) can serve directly as the microscopic clock,not established,They are homogeneous effective cosmological variables,Cosmological matching,Using them microscopically would be circular and fails locally
+TIME-A17,The historical CORE-001 relaxation time is fundamental PBUF time,rejected,CORE-001 is conditional and its relativistic dynamics are explicitly unresolved,Avoiding false authority,That model also uses primitive t and tau
+TIME-A18,Metric duration can be emergent while change/order remains primitive,conditionally consistent,Separates ontology from representation,Non-circular emergence,Deeper origin of precedence remains outside current framework

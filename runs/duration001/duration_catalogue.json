@@ -1,0 +1,92 @@
+{
+  "milestone": "PBUF DURATION-001 \u2014 Derivation of Emergent Physical Duration",
+  "status": "complete_minimal_family_with_v11_matching_condition",
+  "ontology_review": false,
+  "fundamental_time_dimension_introduced": false,
+  "new_constants_or_couplings": [],
+  "symbols": {
+    "q": {
+      "type": "point of Q_adm",
+      "role": "complete physical medium state",
+      "status": "fundamental accepted input"
+    },
+    "s": {
+      "type": "oriented history parameter",
+      "role": "orders successive states",
+      "status": "mathematical gauge label",
+      "observable": false
+    },
+    "tau": {
+      "type": "additive reparametrization-invariant interval functional",
+      "role": "clock-measured physical duration",
+      "status": "emergent"
+    },
+    "t": {
+      "type": "coordinate function on the effective Lorentzian representation",
+      "role": "labels effective events/slices",
+      "status": "emergent and chart-dependent"
+    },
+    "ell": {
+      "type": "physical propagation path length",
+      "role": "propagation progress",
+      "status": "derived from the accepted/effective ruler structure"
+    },
+    "sigma": {
+      "type": "positive slowness functional",
+      "role": "local duration per path length",
+      "status": "constitutive/calibration family, not a new universal constant"
+    },
+    "v": {
+      "type": "physical propagation speed",
+      "definition": "d ell/d tau=1/sigma",
+      "status": "relational observable"
+    }
+  },
+  "general_duration": {
+    "equation": "Delta tau=integral F(q,qdot,zdot) ds",
+    "conditions": [
+      "F>=0",
+      "F(q,a qdot,a zdot)=aF(q,qdot,zdot) for a>0",
+      "locality",
+      "additivity",
+      "gauge/objective scalar",
+      "F=0 on no-process segments"
+    ]
+  },
+  "propagation_family": {
+    "equation": "Delta tau=integral_path sigma(q,x,n,clock) d ell=integral_path d ell/v",
+    "minimality": "all positive local additive direction-dependent propagation calibrations",
+    "excluded_inference": "tau=ell/c is not selected by the accepted inputs"
+  },
+  "clock": {
+    "accumulator": "monotone propagation phase or cycle count N_C",
+    "reading": "tau_C=tau_C0+U_C N_C",
+    "unit": "a declared number of repeatable cycles of a reference process",
+    "comparison": "co-located coincidences and signal exchange, without use of external time",
+    "consistency": [
+      "monotonicity",
+      "repeatability",
+      "additivity",
+      "reparametrization invariance",
+      "objectivity",
+      "local universality after calibration",
+      "common one-metric limit"
+    ]
+  },
+  "v11_limit": {
+    "proper_duration": "d tau^2=-g_eff_mn dx^m dx^n/c^2 for timelike worldlines",
+    "coordinate_relation": "d tau=dt sqrt(-(g00 c^2+2g0i c vi+gij vi vj)/c^2)",
+    "light_warning": "null propagation has d tau=0; a light clock measures proper duration on its timelike apparatus worldline between return coincidences",
+    "status": "mandatory effective matching condition, conditional on the accepted one-metric V11 regime"
+  },
+  "static_limit": {
+    "conditions": [
+      "no propagation",
+      "no deformation",
+      "no state evolution"
+    ],
+    "result": "Delta tau=0",
+    "interpretation": "order labels may remain representational, but no physical clock duration exists"
+  },
+  "non_uniqueness": "The fixed inputs determine the invariant functional form but do not select F, sigma, a microscopic standard clock, or the medium-to-metric map."
+}

@@ -1,0 +1,3 @@
+validation,projection_max,passes,longitudinal_projection_max,perpendicular_idempotence_max,n_valid,n_zero_grad
+"{'err_idempotence': 0.0, 'err_longitudinal': 0.0, 'passes_idempotence': True, 'passes_longitudinal': True, 'passes': True}",0.0,True,,,,
+"{'err_idempotence': 5.551115123125783e-17, 'err_longitudinal': 5.551115123125783e-17, 'passes_idempotence': True, 'passes_longitudinal': True, 'passes': True}",,True,5.551115123125783e-17,0.0,210,0

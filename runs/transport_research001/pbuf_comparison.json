@@ -1,0 +1,43 @@
+{
+  "structural_family_match": {
+    "family_A_mechanical": "partial",
+    "family_B_electromagnetic": "incompatible",
+    "rationale_family_A": "PBUF supplies the spatial half of a Family-A mechanical system: local state, neighbour coupling, restoring mechanism, and (in principle) steering through spatial variation of moduli.  The kinetic sector is missing.",
+    "rationale_family_B": "Family B requires (a) two coupled vector fields (E,B), (b) a curl operator in the kinetic structure, (c) gauge invariance, and (d) no mass-like onsite term.  CORE-001-E01 has a single scalar triplet q with a mass-like kappa_0|q|^2 term and a SCALAR gradient kappa_1|q_j - q_i|^2 term, neither of which is a curl operator or an antisymmetric field-strength pair.  V11's alpha_resolved ~ 3 alpha_EM is a numerical identity and a dimensional-counting argument, not a structural identification of q with an EM vector potential.  Family B is therefore structurally incompatible with PBUF without rewriting the microscopic energy."
+  },
+  "closest_structural_match": {
+    "system": "S2 elastic solids",
+    "shared_slots": [
+      "local state (q or u)",
+      "neighbour coupling (kappa_1|q_j - q_i|^2 or stress Div P_F)",
+      "restoring (-Div P_F from stored energy gradient)",
+      "steering (spatial variation of elastic moduli)"
+    ],
+    "missing_slot": "resistance / inertia",
+    "evidence_for_missing": [
+      "INERTIA-001: kinetic sector is the irreducible closure gap",
+      "EM-TRANSPORT-001: V11 microscopic structure is insufficient",
+      "CORE-001-E02 is overdamped (first-order in time)",
+      "CORE-001-E09 is elliptic (no time structure)"
+    ],
+    "minimal_additional_assumption_required": "A local kinetic sector supplying positive momentum density or an equivalent symplectic structure.  Adding this single slot completes Family A and produces a propagation speed c^2 = G/K from the frozen elastic 2-jet.",
+    "is_minimal_addition_actually_minimal": "NO in the strict sense of EM-TRANSPORT-001 / INERTIA-001: the kinetic sector cannot be derived from F, from alpha_EM, from alpha_resolved, or from g_dev alone.  Adding it constitutes a new local physical principle, not a parameter renaming or a coordinate choice.  Per the brief's 'minimal additional assumptions' criterion, the absence of a derivable kinetic sector means this is NOT a clean mapping; it is a structurally closest match with an open closure gap."
+  },
+  "explicit_pb_comparison_citations": {
+    "FOUNDATION-001": [
+      "FP-1 one continuous spacetime medium - compatible with treating the medium as a continuous system in either family.",
+      "FP-5 V11 relativistic compatibility - admits wave propagation with finite speed but does not derive the propagation law.",
+      "FP-6 no additional free fundamental constants - rules out introducing a new mass density, gyro constant, or coupling as a free parameter; the kinetic sector must be derived or remain open."
+    ],
+    "V11": [
+      "V11 (4): alpha_resolved ~ 3 alpha_EM is a numerical identity and a motivating counting argument; not a structural derivation of EM dynamics.",
+      "V11 sec. 2.4: wave modes are taken from GR / EM and constrained by GW170817; not derived from V11 microscopic structure.",
+      "V11 (16): Omega_b0 = 2 alpha_resolved is polarization counting, not a microscopic identification."
+    ],
+    "CORE-001": [
+      "CORE-001-E01: kappa_0|q|^2 mass-like onsite term, kappa_1|q_j - q_i|^2 scalar gradient (not curl), matter coupling -g_dev eta_i e.q_i.",
+      "CORE-001-E02: overdamped Langevin dynamics; first-order in time; no wave propagation.",
+      "CORE-001-E09: elliptic Helmholtz equation; no time structure."
+    ]
+  }
+}

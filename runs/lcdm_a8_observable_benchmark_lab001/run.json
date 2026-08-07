@@ -1,0 +1,114 @@
+{
+  "laboratory_id": "PBUF LCDM-A8-OBSERVABLE-BENCHMARK-LAB-001",
+  "started_iso": "2026-08-06T09:27:04Z",
+  "duration_seconds": 11.27695013396442,
+  "host_python": "3.12.13",
+  "numpy_version": "2.5.1",
+  "frozen_hash_check": {
+    "ok": true,
+    "files": {
+      "constitutive_equations.py": {
+        "expected_sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+        "actual_sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+        "match": true,
+        "missing": false
+      },
+      "weak_lensing_observation001.py": {
+        "expected_sha256": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+        "actual_sha256": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+        "match": true,
+        "missing": false
+      },
+      "observable_lab001.py": {
+        "expected_sha256": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+        "actual_sha256": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+        "match": true,
+        "missing": false
+      },
+      "source_plane_lab001.py": {
+        "expected_sha256": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+        "actual_sha256": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+        "match": true,
+        "missing": false
+      },
+      "numerical_convergence001.py": {
+        "expected_sha256": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+        "actual_sha256": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+        "match": true,
+        "missing": false
+      },
+      "version_b_physics_lab001.py": {
+        "expected_sha256": "cf27215ed4da0377ca43bfd21e46e925b48d333b2c5127ab40b0e06d73c29ee2",
+        "actual_sha256": "cf27215ed4da0377ca43bfd21e46e925b48d333b2c5127ab40b0e06d73c29ee2",
+        "match": true,
+        "missing": false
+      },
+      "microscopic_transport_equivalence_lab001.py": {
+        "expected_sha256": "7861db1b1fb40d5df087e206efcfa5b219d918c00d87af9c697b3d666bca3e0c",
+        "actual_sha256": "7861db1b1fb40d5df087e206efcfa5b219d918c00d87af9c697b3d666bca3e0c",
+        "match": true,
+        "missing": false
+      }
+    }
+  },
+  "production": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64,
+    "alpha_fs": 0.0072973525692838015,
+    "three_alpha_fs": 0.021892057707851405
+  },
+  "A8_T1_frozen_params": {
+    "DT": 0.1,
+    "STEPS": 20,
+    "K": 1.0,
+    "OMEGA": 0.2,
+    "INTERNAL_K": 0.6,
+    "COUPLING_FAST_TO_SLOW": 1.0,
+    "COUPLING_SLOW_TO_FAST": 0.3,
+    "FAST_TIMESCALE": 0.2,
+    "SLOW_TIMESCALE": 0.25
+  },
+  "C10_frozen_params": {
+    "candidate": "candidate_10_combined",
+    "family": "combined response",
+    "description": "Combined Local Response (coherence + elastic memory)"
+  },
+  "cosmology_reference": {
+    "label": "Planck 2018 (flat LCDM, frozen reference)",
+    "source": "frozen reference values used by PBUF/Cosmos",
+    "H0_km_s_Mpc": 67.4,
+    "Omega_m": 0.315,
+    "Omega_r": 9e-05,
+    "Omega_k": 0.0,
+    "Omega_Lambda": 0.685,
+    "c_km_s": 299792.458,
+    "G_SI": 6.6743e-11
+  },
+  "clusters": [
+    "Abell2744",
+    "MACS0416",
+    "MACS1149",
+    "AbellS1063",
+    "Abell370"
+  ],
+  "smoothing": {
+    "S0": "native (no smoothing beyond production)",
+    "S1": "Gaussian sigma = 1.0 pixel"
+  },
+  "reduced_shear_threshold": 1e-06,
+  "peak_threshold_sigma": 2.0,
+  "multipole_eps": 1e-15,
+  "alpha_fs": 0.0072973525692838015,
+  "three_alpha_fs": 0.021892057707851405,
+  "six_alpha_fs": 0.04378411541570281,
+  "inv_alpha_fs": 137.035999084,
+  "bridge_class": "I (all five clusters)",
+  "l1_status": "stopped (Bridge Class I - section 7 circularity)"
+}

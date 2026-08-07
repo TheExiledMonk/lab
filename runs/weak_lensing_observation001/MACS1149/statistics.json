@@ -1,0 +1,171 @@
+{
+  "cluster_id": "MACS1149",
+  "label": "MACS J1149",
+  "pipeline_runtime_seconds": 0.009018053999170661,
+  "photon_count": 2000,
+  "max_conservation_error": 2.220446049250313e-16,
+  "n_grid": 128,
+  "n_steps": 80,
+  "step_size": 0.06,
+  "max_response_magnitude": 0.6747309007128635,
+  "max_C": 0.18,
+  "gamma_internal_consistency": {
+    "max_abs_difference": 5.891826004855716e-08,
+    "rms_abs_difference": 4.098725300732534e-09,
+    "max_relative_difference": 1.1016516372442186e-07,
+    "tolerance_passed": true,
+    "shape": [
+      168,
+      168
+    ]
+  },
+  "comparison_kappa": {
+    "finite_pixels": 25,
+    "rms_error": 0.5176523609073103,
+    "mean_abs_error": 0.5092472227693846,
+    "median_abs_error": 0.48785638328020764,
+    "max_abs_error": 0.7149682492017746,
+    "mean_relative_error_percent": 2401.878235504037,
+    "median_relative_error_percent": 654.0323492207526,
+    "pearson_correlation": NaN,
+    "predicted_min": -0.5,
+    "predicted_max": -0.5,
+    "predicted_mean": -0.5,
+    "observed_min": -0.1546057164669037,
+    "observed_max": 0.2149682492017746,
+    "observed_mean": 0.009247222769384602,
+    "predicted_dynamic_range": 0.0,
+    "observed_dynamic_range": 0.3695739656686783,
+    "predicted_peak_index": [
+      20,
+      0
+    ],
+    "observed_peak_index": [
+      33,
+      32
+    ],
+    "peak_location_distance_pixels": 34.539832078341085,
+    "ssim": -0.0009367790210695901
+  },
+  "comparison_gamma1": {
+    "finite_pixels": 4096,
+    "rms_error": 0.5221914306880282,
+    "mean_abs_error": 0.12438492661101012,
+    "median_abs_error": 0.058174612532769024,
+    "max_abs_error": 4.91068891888191,
+    "mean_relative_error_percent": 173.2258873259851,
+    "median_relative_error_percent": 100.0,
+    "pearson_correlation": -0.00802314743677196,
+    "predicted_min": -4.7399908522303855,
+    "predicted_max": 4.7399908522303855,
+    "predicted_mean": -1.3213713977167085e-19,
+    "observed_min": -0.35520619153976446,
+    "observed_max": 1.4502143396271567,
+    "observed_mean": -0.03444096246959224,
+    "predicted_dynamic_range": 9.479981704460771,
+    "observed_dynamic_range": 1.8054205311669211,
+    "predicted_peak_index": [
+      27,
+      17
+    ],
+    "observed_peak_index": [
+      32,
+      33
+    ],
+    "peak_location_distance_pixels": 16.76305461424021,
+    "ssim": 0.04387292507401007
+  },
+  "comparison_gamma2": {
+    "finite_pixels": 4096,
+    "rms_error": 0.16998354441255104,
+    "mean_abs_error": 0.06532827718908588,
+    "median_abs_error": 0.04893135031064341,
+    "max_abs_error": 4.832975829800644,
+    "mean_relative_error_percent": 106.90832243881395,
+    "median_relative_error_percent": 100.0,
+    "pearson_correlation": -0.027790646238031208,
+    "predicted_min": -4.73994423739884,
+    "predicted_max": 4.739911331112151,
+    "predicted_mean": 0.0,
+    "observed_min": -0.471298966818654,
+    "observed_max": 0.2979532480239868,
+    "observed_mean": 0.0010645807427233653,
+    "predicted_dynamic_range": 9.479855568510992,
+    "observed_dynamic_range": 0.7692522148426408,
+    "predicted_peak_index": [
+      44,
+      18
+    ],
+    "observed_peak_index": [
+      32,
+      33
+    ],
+    "peak_location_distance_pixels": 19.209372712298546,
+    "ssim": 0.4035711671054187
+  },
+  "comparison_gamma": {
+    "finite_pixels": 4096,
+    "rms_error": 0.5346623378419914,
+    "mean_abs_error": 0.16315508448191135,
+    "median_abs_error": 0.09436406833784916,
+    "max_abs_error": 4.698493724254087,
+    "mean_relative_error_percent": 151.36656546271576,
+    "median_relative_error_percent": 100.0,
+    "pearson_correlation": 0.031232682230784962,
+    "predicted_min": 0.0,
+    "predicted_max": 4.739994334066599,
+    "predicted_mean": 0.060227638478184006,
+    "observed_min": 0.003379303263500333,
+    "observed_max": 1.5389487716346064,
+    "observed_mean": 0.10618757622865749,
+    "predicted_dynamic_range": 4.739994334066599,
+    "observed_dynamic_range": 1.535569468371106,
+    "predicted_peak_index": [
+      27,
+      17
+    ],
+    "observed_peak_index": [
+      32,
+      33
+    ],
+    "peak_location_distance_pixels": 16.76305461424021,
+    "ssim": 0.06415996392715667
+  },
+  "gamma_internal_check": {
+    "finite_pixels": 4096,
+    "rms_error": 0.008674407690697834,
+    "mean_abs_error": 0.003399233591278897,
+    "median_abs_error": 2.8374641922818133e-05,
+    "max_abs_error": 0.08375754913183342,
+    "mean_relative_error_percent": 8.954108565844324,
+    "median_relative_error_percent": 0.027835496268553195,
+    "pearson_correlation": 0.9927665366960216,
+    "predicted_min": 0.003379303263500333,
+    "predicted_max": 1.5389487716346064,
+    "predicted_mean": 0.10618757622865749,
+    "observed_min": 0.0017217579445180388,
+    "observed_max": 1.5248751906253053,
+    "observed_mean": 0.10278834396418854,
+    "predicted_dynamic_range": 1.535569468371106,
+    "observed_dynamic_range": 1.5231534326807872,
+    "predicted_peak_index": [
+      32,
+      33
+    ],
+    "observed_peak_index": [
+      32,
+      33
+    ],
+    "peak_location_distance_pixels": 0.0
+  },
+  "executables_sha256": {
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f"
+  },
+  "frozen_pipeline": {
+    "constitutive": "Version A: C(X) = 0.18 * rho(X) / rho_max",
+    "transport": "90-degree transverse response, direct addition + renormalisation",
+    "amplitude": "A = |grad C|",
+    "matter_input": "max(observed_kappa, 0) / max(observed_kappa, 0); observation-derived proxy"
+  }
+}

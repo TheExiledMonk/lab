@@ -1,0 +1,30 @@
+{
+  "milestone": "PBUF INERTIA-001",
+  "status": "complete",
+  "success_criterion_met": true,
+  "final_classification": {
+    "physical_meaning": "momentum response and kinetic energy storage of calibrated complete-medium change",
+    "existence": "conditionally necessary for stable reversible wave support",
+    "normalization": "not derivable from frozen elastic energy or continuity",
+    "intrinsic_type": "possibly nonlinear tangent/history-to-cotangent operator",
+    "missing_principle": "kinetic momentum principle"
+  },
+  "theorems": [
+    "rate-free elastic energy does not determine inertia",
+    "nontrivial reversible positive-energy waves require kinetic storage",
+    "minimal admissible PBUF inertial structure"
+  ],
+  "forbidden_inferences": [
+    "continuity alone implies inertia",
+    "elastic modulus determines mass density",
+    "stored elastic energy density divided by c squared is the native local inertia",
+    "wave support selects a unique inertial operator",
+    "emergent time forces a second-order equation"
+  ],
+  "artifacts": [
+    "inertia_origin_report.md",
+    "continuum_inertia_survey.csv",
+    "minimal_inertial_requirements.csv",
+    "validation.json"
+  ]
+}

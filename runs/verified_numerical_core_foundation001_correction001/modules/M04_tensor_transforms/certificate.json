@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M04_tensor_transforms",
+  "version": "1.1.0-correction001",
+  "status": "experimental",
+  "source_sha256": "6ca29cf1a875dd61f966016ff157f2167552235f11b25f0542a9192096247ac0",
+  "test_sha256": "6ca29cf1a875dd61f966016ff157f2167552235f11b25f0542a9192096247ac0",
+  "conventions_version": "1.1.0-correction001",
+  "correction_id": "FOUNDATION-001-CORRECTION-001",
+  "tests_passed": 42,
+  "tests_total": 42,
+  "maximum_error": 0.0,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "supersedes": "FOUNDATION-001 previous registry entry (see superseded_certificates/)"
+}

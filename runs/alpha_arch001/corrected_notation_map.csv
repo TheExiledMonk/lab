@@ -1,0 +1,9 @@
+later_symbol,corrected_symbol,physical_role,V11_quantity,status,rule
+alpha_QM,alpha_QM,Quantum Engine elastic amplitude,alpha_QM,authoritative,Do not substitute another alpha quantity
+alpha_resolved,alpha_resolved,resolved elastic amplitude entering cosmology,alpha_resolved,authoritative,Use for V11 metadata resolution and cosmological closure only
+alpha_T or alpha_T(a),alpha_T(a),thermal LUT elastic amplitude,alpha_T(a),authoritative,Retain explicit scale-factor dependence
+alpha_EM,alpha_EM,electromagnetic fine-structure constant,alpha_EM,authoritative,Do not identify with alpha_resolved except through V11 equation (4)
+generic alpha in V11 equation (15),alpha_resolved,elastic amplitude in the V11 cosmological model,alpha_resolved,contextually resolved,V11 sections 2.3.1-2.3.4 fix the model amplitude before likelihood evaluation
+alpha_* = 1/137,g_dev = 1/137,direct exploratory matter-state vertex coefficient,none,new post-V11 construct; numerical premise,No V11 derivation maps this role to any authoritative alpha
+generic alpha in CONS-001,g_dev,direct exploratory matter-state vertex coefficient,none,new post-V11 construct,Continuation of the CORE/FND vertex; not an authoritative alpha
+alpha in PHOTON-001 prose,g_dev,direct upstream exploratory matter-state vertex coefficient,none,new post-V11 construct,No photon or electromagnetic mapping is established

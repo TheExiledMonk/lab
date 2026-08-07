@@ -1,0 +1,66 @@
+family_number,family_code,family_name,is_wrong,cluster_id,cluster_label,spatial_correlation_length,temporal_persistence_length,cooperative_interaction_index
+1,M1,Pure Elastic Spring Network,False,Abell2744,Abell 2744,3.0,4.0,0.5226925518445338
+2,M2,Dipole-like Orientation Interaction,False,Abell2744,Abell 2744,21.0,1.0,0.005975014483550568
+3,M3,Viscoelastic Interaction,False,Abell2744,Abell 2744,3.0,3.0,0.5960158887832332
+4,M4,Cooperative Alignment,False,Abell2744,Abell 2744,3.0,4.0,0.5226925518445338
+5,M5,Elastic + Cooperative Alignment,False,Abell2744,Abell 2744,3.0,3.0,0.4554403651553065
+6,M6,Elastic + Relaxation + Alignment,False,Abell2744,Abell 2744,3.0,3.0,0.61014938480879
+7,M7,Nonlinear Interaction Potential,False,Abell2744,Abell 2744,3.0,4.0,0.522601913270132
+8,M8,Long-range Coupling,False,Abell2744,Abell 2744,3.0,4.0,0.506948280266281
+9,M9,Anisotropic Interaction,False,Abell2744,Abell 2744,3.0,4.0,0.5342341666519267
+10,M10,Interaction Potential Search,False,Abell2744,Abell 2744,3.0,4.0,0.3538398417150278
+11,WR1,Wrong: Random Neighbour Interaction,True,Abell2744,Abell 2744,3.0,1.0,0.6231731388005355
+12,WR2,Wrong: Repulsive-Only Interaction,True,Abell2744,Abell 2744,3.0,4.0,0.6713904838630725
+13,WR3,Wrong: Purely Local (No Neighbours),True,Abell2744,Abell 2744,3.0,5.0,0.7088975162882835
+1,M1,Pure Elastic Spring Network,False,MACS0416,MACS J0416,7.0,4.0,0.5130746471420908
+2,M2,Dipole-like Orientation Interaction,False,MACS0416,MACS J0416,5.0,1.0,0.0054015167888406814
+3,M3,Viscoelastic Interaction,False,MACS0416,MACS J0416,8.0,3.0,0.5946898331771069
+4,M4,Cooperative Alignment,False,MACS0416,MACS J0416,7.0,4.0,0.5130746471420908
+5,M5,Elastic + Cooperative Alignment,False,MACS0416,MACS J0416,7.0,3.0,0.44053729731497693
+6,M6,Elastic + Relaxation + Alignment,False,MACS0416,MACS J0416,7.0,3.0,0.6159446819895804
+7,M7,Nonlinear Interaction Potential,False,MACS0416,MACS J0416,7.0,4.0,0.5130248430706899
+8,M8,Long-range Coupling,False,MACS0416,MACS J0416,7.0,4.0,0.5001644744407228
+9,M9,Anisotropic Interaction,False,MACS0416,MACS J0416,7.0,4.0,0.5281898532360678
+10,M10,Interaction Potential Search,False,MACS0416,MACS J0416,7.0,4.0,0.38486776779558984
+11,WR1,Wrong: Random Neighbour Interaction,True,MACS0416,MACS J0416,7.0,1.0,0.6231443163116921
+12,WR2,Wrong: Repulsive-Only Interaction,True,MACS0416,MACS J0416,8.0,4.0,0.6712842570564475
+13,WR3,Wrong: Purely Local (No Neighbours),True,MACS0416,MACS J0416,7.0,5.0,0.6862361454981387
+1,M1,Pure Elastic Spring Network,False,MACS1149,MACS J1149,4.0,4.0,0.5037103822160055
+2,M2,Dipole-like Orientation Interaction,False,MACS1149,MACS J1149,3.0,1.0,0.004764014367586892
+3,M3,Viscoelastic Interaction,False,MACS1149,MACS J1149,4.0,3.0,0.5929008169294984
+4,M4,Cooperative Alignment,False,MACS1149,MACS J1149,4.0,4.0,0.5037103822160056
+5,M5,Elastic + Cooperative Alignment,False,MACS1149,MACS J1149,4.0,3.0,0.42944314254948535
+6,M6,Elastic + Relaxation + Alignment,False,MACS1149,MACS J1149,4.0,3.0,0.6220117188140294
+7,M7,Nonlinear Interaction Potential,False,MACS1149,MACS J1149,4.0,4.0,0.5036801363953031
+8,M8,Long-range Coupling,False,MACS1149,MACS J1149,4.0,4.0,0.4942256224955935
+9,M9,Anisotropic Interaction,False,MACS1149,MACS J1149,4.0,4.0,0.5201789828211654
+10,M10,Interaction Potential Search,False,MACS1149,MACS J1149,4.0,4.0,0.4104002928547801
+11,WR1,Wrong: Random Neighbour Interaction,True,MACS1149,MACS J1149,3.0,1.0,0.6230877400089176
+12,WR2,Wrong: Repulsive-Only Interaction,True,MACS1149,MACS J1149,4.0,4.0,0.6713513241655893
+13,WR3,Wrong: Purely Local (No Neighbours),True,MACS1149,MACS J1149,4.0,5.0,0.6577393355146319
+1,M1,Pure Elastic Spring Network,False,AbellS1063,Abell S1063,3.0,4.0,0.5132188044255936
+2,M2,Dipole-like Orientation Interaction,False,AbellS1063,Abell S1063,3.0,1.0,0.004406336091006477
+3,M3,Viscoelastic Interaction,False,AbellS1063,Abell S1063,3.0,3.0,0.5962444882015285
+4,M4,Cooperative Alignment,False,AbellS1063,Abell S1063,3.0,4.0,0.5132188044255936
+5,M5,Elastic + Cooperative Alignment,False,AbellS1063,Abell S1063,3.0,3.0,0.44485130366447784
+6,M6,Elastic + Relaxation + Alignment,False,AbellS1063,Abell S1063,3.0,3.0,0.621580106166295
+7,M7,Nonlinear Interaction Potential,False,AbellS1063,Abell S1063,3.0,4.0,0.5131829860316286
+8,M8,Long-range Coupling,False,AbellS1063,Abell S1063,3.0,4.0,0.5040510429374268
+9,M9,Anisotropic Interaction,False,AbellS1063,Abell S1063,3.0,4.0,0.5272793978125226
+10,M10,Interaction Potential Search,False,AbellS1063,Abell S1063,3.0,4.0,0.3879347382295276
+11,WR1,Wrong: Random Neighbour Interaction,True,AbellS1063,Abell S1063,3.0,1.0,0.623084394663022
+12,WR2,Wrong: Repulsive-Only Interaction,True,AbellS1063,Abell S1063,3.0,4.0,0.6713606339271747
+13,WR3,Wrong: Purely Local (No Neighbours),True,AbellS1063,Abell S1063,3.0,5.0,0.6718475816026184
+1,M1,Pure Elastic Spring Network,False,Abell370,Abell 370,3.0,4.0,0.5198049630601878
+2,M2,Dipole-like Orientation Interaction,False,Abell370,Abell 370,6.0,1.0,0.006165947758769812
+3,M3,Viscoelastic Interaction,False,Abell370,Abell 370,3.0,4.0,0.5920321587302722
+4,M4,Cooperative Alignment,False,Abell370,Abell 370,3.0,4.0,0.5198049630601878
+5,M5,Elastic + Cooperative Alignment,False,Abell370,Abell 370,3.0,3.0,0.44794059979840245
+6,M6,Elastic + Relaxation + Alignment,False,Abell370,Abell 370,3.0,3.0,0.6041868884517292
+7,M7,Nonlinear Interaction Potential,False,Abell370,Abell 370,3.0,4.0,0.5196565962650435
+8,M8,Long-range Coupling,False,Abell370,Abell 370,3.0,4.0,0.5015940245205025
+9,M9,Anisotropic Interaction,False,Abell370,Abell 370,3.0,4.0,0.5319891731182271
+10,M10,Interaction Potential Search,False,Abell370,Abell 370,3.0,4.0,0.3475129808427707
+11,WR1,Wrong: Random Neighbour Interaction,True,Abell370,Abell 370,2.0,1.0,0.623214026805895
+12,WR2,Wrong: Repulsive-Only Interaction,True,Abell370,Abell 370,3.0,4.0,0.6713909352658513
+13,WR3,Wrong: Purely Local (No Neighbours),True,Abell370,Abell 370,3.0,5.0,0.7109368361114097

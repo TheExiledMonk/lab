@@ -1,0 +1,20 @@
+{
+  "milestone": "PBUF BALANCE-001",
+  "checks": {
+    "native_conservation_hierarchy": true,
+    "local_balance_equations": true,
+    "flux_definitions": true,
+    "source_classification": true,
+    "symmetry_noether_audit": true,
+    "medium_interaction_audit": true,
+    "weak_field_compatibility": true,
+    "dependency_graph": true,
+    "equation_traceability": true,
+    "machine_readable_catalogue": true,
+    "constitutive_model_selected": false,
+    "evolution_equations_derived": false,
+    "new_fields_or_couplings": false,
+    "v11_modified": false
+  },
+  "pass": true
+}

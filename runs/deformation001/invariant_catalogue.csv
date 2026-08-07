@@ -1,0 +1,12 @@
+id,object,rank,unloaded value,status,caveat
+DEF-I01,tr(C),3,3,minimal independent isotropic invariant,local parity-even branch
+DEF-I02,"1/2*((tr C)^2-tr(C^2))",3,3,minimal independent isotropic invariant,local parity-even branch
+DEF-I03,det(C),3,1,minimal independent isotropic invariant,require positive nonzero branch
+DEF-I04,"unordered spectrum {lambda_1;lambda_2;lambda_3}",3,"{1;1;1}",complete equivalent spectral data,principal values must remain positive on material branch
+DEF-I05,sqrt(det C),3,1,equivalent volumetric coordinate,stretch convention dependent
+DEF-I06,"two independent invariants of Cbar=(det C)^(-1/3)C",3,isotropic identity values,equivalent isochoric coordinates,singular if det C approaches zero
+DEF-I07,"e_n(C); n=1..4",4,"(4;6;4;1)",complete rank-four characteristic set,requires admissible real Lorentzian spectral branch
+DEF-I08,"tr(epsilon) and epsilon_TF",3 or 4,0,linearized volumetric and shear data,tangent regime only
+DEF-I09,"invariants of H=(1/2)log C",positive-spectrum branch,0,equivalent finite-deformation coordinates,requires real logarithm
+DEF-I10,"parity-odd pseudoscalars",orientation-sensitive,model-dependent,excluded from minimal set,no accepted parity-odd premise
+DEF-I11,"nabla C; curvature; two-point data",enriched kinematics,model-dependent,not minimal,requires separately authorized gradient or nonlocal structure

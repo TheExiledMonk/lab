@@ -1,0 +1,128 @@
+{
+  "cluster_id": "AbellS1063",
+  "label": "Abell S1063",
+  "folder": "/home/fabian/pbuf-test/PBUF_benchmark/WL-004_AbellS1063",
+  "files": {
+    "kappa": "/home/fabian/pbuf-test/PBUF_benchmark/WL-004_AbellS1063/hlsp_frontier_model_abells1063_merten_v1_kappa.fits",
+    "gamma": "/home/fabian/pbuf-test/PBUF_benchmark/WL-004_AbellS1063/hlsp_frontier_model_abells1063_merten_v1_gamma.fits",
+    "gamma1": "/home/fabian/pbuf-test/PBUF_benchmark/WL-004_AbellS1063/hlsp_frontier_model_abells1063_merten_v1_gamma1.fits",
+    "gamma2": "/home/fabian/pbuf-test/PBUF_benchmark/WL-004_AbellS1063/hlsp_frontier_model_abells1063_merten_v1_gamma2.fits"
+  },
+  "file_sha256": {
+    "kappa": "622c6e43c532f66b728edb50e3fc839c88afbee2910af035eabcd9e4eb5a9cda",
+    "gamma": "92c2d5bd304a9e1f4429a2938ab91c194801deb84bd6339ced02b7bb3dc71732",
+    "gamma1": "9f1ead585763a19973494f71fee8fc403c9048ce77f63f6ec8b79d956b938558",
+    "gamma2": "fa0dd5c18b4ae7d5fee45b2cc220818b47ab4f3b630d5ec8132a88c4adcb8cf7"
+  },
+  "headers": {
+    "kappa": {
+      "NAXIS1": 132,
+      "NAXIS2": 132,
+      "CRPIX1": 66.5,
+      "CRPIX2": 66.5,
+      "CRVAL1": 342.18322,
+      "CRVAL2": -44.530908,
+      "CDELT1": -0.003156566,
+      "CDELT2": 0.003156566,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "Z_L": 0.348,
+      "Z_S": 9.0,
+      "RADESYS": "FK5",
+      "EQUINOX": 2000.0
+    },
+    "gamma": {
+      "NAXIS1": 132,
+      "NAXIS2": 132,
+      "CRPIX1": 66.5,
+      "CRPIX2": 66.5,
+      "CRVAL1": 342.18322,
+      "CRVAL2": -44.530908,
+      "CDELT1": -0.003156566,
+      "CDELT2": 0.003156566,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "Z_L": 0.348,
+      "Z_S": 9.0,
+      "RADESYS": "FK5",
+      "EQUINOX": 2000.0
+    },
+    "gamma1": {
+      "NAXIS1": 132,
+      "NAXIS2": 132,
+      "CRPIX1": 66.5,
+      "CRPIX2": 66.5,
+      "CRVAL1": 342.18322,
+      "CRVAL2": -44.530908,
+      "CDELT1": -0.003156566,
+      "CDELT2": 0.003156566,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "Z_L": 0.348,
+      "Z_S": 9.0,
+      "RADESYS": "FK5",
+      "EQUINOX": 2000.0
+    },
+    "gamma2": {
+      "NAXIS1": 132,
+      "NAXIS2": 132,
+      "CRPIX1": 66.5,
+      "CRPIX2": 66.5,
+      "CRVAL1": 342.18322,
+      "CRVAL2": -44.530908,
+      "CDELT1": -0.003156566,
+      "CDELT2": 0.003156566,
+      "CTYPE1": "RA---TAN",
+      "CTYPE2": "DEC--TAN",
+      "Z_L": 0.348,
+      "Z_S": 9.0,
+      "RADESYS": "FK5",
+      "EQUINOX": 2000.0
+    }
+  },
+  "gamma_internal_consistency": {
+    "max_abs_difference": 2.233260620876365e-08,
+    "rms_abs_difference": 2.629857502441703e-09,
+    "max_relative_difference": 1.0723563484073185e-07,
+    "tolerance_passed": true,
+    "shape": [
+      132,
+      132
+    ]
+  },
+  "matter_proxy_construction": {
+    "method": "rho = max(kappa, 0) / max(max(kappa, 0))",
+    "rationale": "Use the positive part of observed kappa as a proxy for matter density; PBUF Version A constitutive C = 0.18 * rho / rho_max assumes non-negative rho.",
+    "pipeline_grid_shape": [
+      128,
+      128
+    ],
+    "pipeline_grid_extent": [
+      -8.0,
+      8.0
+    ],
+    "source_shape": [
+      132,
+      132
+    ],
+    "rho_max_used": 1.3214281582774772,
+    "rho_range": [
+      0.0,
+      1.0
+    ],
+    "rho_mean": 0.0424544765190905
+  },
+  "pixel_scale_native_arcsec_per_pixel": 11.3636376,
+  "pixel_scale_pipeline_units_per_native_pixel": 0.12121212121212122,
+  "coord_alignment_record": "Native cluster WCS centred at (CRVAL1, CRVAL2); observation resampled linearly onto pipeline Cartesian grid [-extent, +extent] (64x64 for observables, 128x128 for matter proxy). Cluster centre maps to pipeline origin.",
+  "pipeline_parameters": {
+    "n": 128,
+    "extent": 8.0,
+    "strength": 0.18,
+    "step": 0.06,
+    "steps": 80,
+    "y_span": 3.0,
+    "nphotons": 2000,
+    "bins": 64
+  }
+}

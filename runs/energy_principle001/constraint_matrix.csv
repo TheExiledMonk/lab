@@ -1,0 +1,15 @@
+id,requirement,source,status,domain,symmetry,differentiability,convexity,asymptotic,normalization,functional_class
+EP-R001,rank-three SPD native variable,DEFORMATION-001,accepted,"D_C subset Sym+(3)",objective,none,none,none,none,"Phi(I1,I2,I3)"
+EP-R002,isotropic invariant representation,HYPER-001,derived,permutation-invariant,orthogonal similarity,none,none,none,none,"local parity-even isotropic"
+EP-R003,classical elastic response,FP-2 plus HYPER-001,compatibility condition,interior,coaxial,C1,none,none,none,hyperelastic
+EP-R004,emergent-order independence,FP-3 plus HYPER-001,derived within accepted class,statewise,none,none,none,none,none,"rate-free and history-free"
+EP-R005,one occupied configuration,FP-4,postulate,no domain restriction,none,none,"does not imply unique minimizer",none,none,no class reduction
+EP-R006,V11 weak tangent,FP-5 and V11,compatibility condition,"neighborhood of i0",local isotropic tangent,C2 near i0,"matching not expressible before metric map",none,none,no unique Phi
+EP-R007,no new free constants,FP-6,postulate,endpoints symbolic,none,derivatives symbolic,moduli symbolic,no exponent,zero shift only,forbids fitted choices
+EP-R008,finite nondegenerate bound,mission plus HYPER-001,accepted premise plus derivation,"closure compactly contained in positive cone",permutation invariant,interior regularity only,none,"hard/barrier/finite constrained",none,extended-valued allowed
+EP-R009,stress-free unloaded state,HYPER-001,derived,"i0=(3;3;1) in D_I",isotropic,C1,stationary,none,"Phi(i0)=0","Phi_1^0+2Phi_2^0+Phi_3^0=0"
+EP-R010,strict local stability,stability requirement,conditional mandatory,near i0,isotropic,C2,"mu>0 and K>0",none,local minimum,no global class reduction
+EP-R011,global nonnegativity,stable stored-energy interpretation,conditional mandatory,D_C,none,lower semicontinuous globally,global minimum,endpoint dependent,"W(identity)=0",no uniqueness implied
+EP-R012,global strict convexity,mathematics,sufficient not derived,convex domain,none,C2,strict,none,none,sufficient for unique minimizer
+EP-R013,reversibility,HYPER-001,derived within branch,one elastic branch,none,single-valued,none,none,none,"no history or dissipation"
+EP-R014,V11 background saturation,V11 plus DEFORMATION-001,non-inference,"does not fix D_C",none,none,"does not fix tangent",no local endpoint inference,none,no class reduction

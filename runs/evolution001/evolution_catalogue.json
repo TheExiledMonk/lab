@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "milestone": "PBUF EVOLUTION-001",
+  "status": "blocked_by_underdetermination",
+  "success_criterion_met": false,
+  "no_go_result": {
+    "id": "E-001",
+    "statement": "The frozen action, constitutive, metric, and balance families do not select one governing equation.",
+    "conflicting_requirements": ["derive one complete physical law", "introduce no additional physical assumptions"]
+  },
+  "maximal_equation_family": {
+    "intrinsic": "P_phys^*(delta S/delta q)=0",
+    "local": "E_A(ell)=sum_I(-D)_I partial ell/partial(D_I q^A)-D_s sum_I(-D)_I partial ell/partial(D_I v^A)=0",
+    "constraint": "<p,v>-L=0",
+    "unique_member_selected": false
+  },
+  "derived_pushforwards": [
+    {"target": "C", "formula": "D_tau C=D_q C[D_tau q]", "autonomous": false},
+    {"target": "g_eff", "formula": "D_tau g_eff=D_1G[D_tau q]+D_2G[D_tau C]+D_D G[D_tau D]", "autonomous": false}
+  ],
+  "classification": {
+    "constrained": "forced",
+    "elliptic": "undetermined",
+    "hyperbolic": "undetermined",
+    "mixed": "permitted_not_forced",
+    "nonlinear": "permitted_and_generic_not_forced",
+    "differential_order": "undetermined",
+    "locality": "undetermined"
+  },
+  "well_posedness": "not_determinable_without_selected_operator_principal_symbol_and_data",
+  "causality_gate": "characteristics of selected q operator must lie on or within effective metric cone",
+  "new_physical_predictions": [],
+  "new_theorem_level_restrictions": [
+    "governing law must respect quotient and reparameterization constraint",
+    "elastic covector must be (D_q C)^* P_C",
+    "local representation must satisfy BALANCE-001 form",
+    "C and g_eff histories are pushforwards of q",
+    "weak limit must pass V11 and effective metric matching",
+    "characteristic cone must pass causality gate"
+  ],
+  "missing_closure": [
+    "concrete realization and function space for q",
+    "one native action or clock-gauge kinetic/inertial law",
+    "constitutive Phi or required derivatives",
+    "one metric map G and source projection",
+    "reversible/dissipative and loading/boundary prescription"
+  ],
+  "forbidden_outputs_absent": ["new ontology", "new constants", "new fields", "observational fit", "V11 modification"]
+}

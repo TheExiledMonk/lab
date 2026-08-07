@@ -1,0 +1,55 @@
+{
+  "mission": "PBUF CORE-001 Microscopic State and Coarse-Graining Definition",
+  "status": "complete_conditional_model",
+  "observational_claim": false,
+  "microscopic_state": {
+    "symbol": "q_i",
+    "components": 3,
+    "space": "R^3",
+    "dimension": "dimensionless"
+  },
+  "characteristic_scale": {
+    "symbol": "g_dev",
+    "value": 0.0072992700729927005,
+    "dimension": "dimensionless",
+    "role": "assumed matter-state coupling scale"
+  },
+  "coarse_graining": "u(x)=e . sum_i a^d W_L(x-x_i) q_i",
+  "continuum_equation": "K u-div(G grad u)=s(rho)",
+  "mapping": {
+    "K": "epsilon_* kappa_0/a^d",
+    "G": "epsilon_* kappa_1 a^(2-d)",
+    "s(rho)": "epsilon_* g_dev (rho/rho_*)/a^d",
+    "ell": "a sqrt(kappa_1/kappa_0)"
+  },
+  "assumptions": [
+    "The number three is stipulated by CORE-001; no microscopic derivation is claimed.",
+    "Dimensionless matter--state coupling scale; its value and interpretation are assumed.",
+    "Provides a regulator and a controlled long-wavelength expansion."
+  ],
+  "validation": {
+    "checks": {
+      "kernel_normalized": true,
+      "constant_state_preserved": true,
+      "coarse_graining_preserves_periodic_mean": true,
+      "internal_basis_covariance": true,
+      "spatial_quarter_turn_covariance": true,
+      "long_wavelength_laplacian_converges_second_order": true,
+      "positive_energy_when_kappas_positive": true,
+      "wl003_form_recovered_analytically": true
+    },
+    "all_checks_pass": true,
+    "metrics": {
+      "constant_preservation_max_error": 5.551115123125783e-17,
+      "mean_preservation_error": 5.204170427930421e-18,
+      "internal_rotation_max_error": 1.6653345369377348e-16,
+      "spatial_rotation_max_error": 1.6653345369377348e-16,
+      "laplacian_rms_errors_n32_n64_n128": [
+        0.027174656444203145,
+        0.006818738140463345,
+        0.001706255665739933
+      ],
+      "first_refinement_error_ratio": 3.9852911029014204
+    }
+  }
+}

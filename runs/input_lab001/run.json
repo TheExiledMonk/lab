@@ -1,0 +1,140 @@
+{
+  "milestone": "PBUF INPUT-LAB-001",
+  "status": "OK",
+  "frozen_components": {
+    "constitutive": "Version A: C = 0.18 * rho / rho_max",
+    "transport": "90-degree transverse response, direct addition + renormalisation",
+    "amplitude": "A = |grad C|",
+    "numerical_parameters": {
+      "n": 128,
+      "extent": 8.0,
+      "strength": 0.18,
+      "step": 0.06,
+      "steps": 80,
+      "y_span": 3.0,
+      "nphotons": 2000,
+      "bins": 64
+    }
+  },
+  "variable_input": "Only the field supplied to the frozen constitutive equation varies across the 14 candidates.",
+  "candidates": [
+    {
+      "id": 1,
+      "label": "max(kappa, 0)",
+      "family": "direct",
+      "description": "Positive part of kappa (control, identical to OBSERVATION-001)"
+    },
+    {
+      "id": 2,
+      "label": "|kappa|",
+      "family": "direct",
+      "description": "Absolute value of kappa"
+    },
+    {
+      "id": 3,
+      "label": "raw kappa",
+      "family": "direct",
+      "description": "Raw kappa, no clipping (negative values preserved)"
+    },
+    {
+      "id": 4,
+      "label": "|gamma| (from gamma.fits)",
+      "family": "direct",
+      "description": "Absolute value of gamma magnitude from gamma.fits"
+    },
+    {
+      "id": 5,
+      "label": "sqrt(gamma1^2 + gamma2^2)",
+      "family": "direct",
+      "description": "Computed magnitude from gamma1.fits and gamma2.fits (NOT gamma.fits)"
+    },
+    {
+      "id": 6,
+      "label": "sqrt(kappa^2 + gamma^2)",
+      "family": "composite",
+      "description": "Euclidean combination of kappa and gamma"
+    },
+    {
+      "id": 7,
+      "label": "|kappa - gamma|",
+      "family": "composite",
+      "description": "Difference field magnitude"
+    },
+    {
+      "id": 8,
+      "label": "|kappa| * |gamma|",
+      "family": "composite",
+      "description": "Product field"
+    },
+    {
+      "id": 9,
+      "label": "|grad kappa|",
+      "family": "gradient",
+      "description": "Gradient magnitude of kappa on the pipeline grid"
+    },
+    {
+      "id": 10,
+      "label": "|grad gamma|",
+      "family": "gradient",
+      "description": "Gradient magnitude of gamma on the pipeline grid"
+    },
+    {
+      "id": 11,
+      "label": "sqrt(|grad kappa|^2 + |grad gamma|^2)",
+      "family": "gradient",
+      "description": "Combined gradient magnitude"
+    },
+    {
+      "id": 12,
+      "label": "|Laplacian kappa|",
+      "family": "curvature",
+      "description": "Laplacian magnitude of kappa on the pipeline grid"
+    },
+    {
+      "id": 13,
+      "label": "|Laplacian gamma|",
+      "family": "curvature",
+      "description": "Laplacian magnitude of gamma on the pipeline grid"
+    },
+    {
+      "id": 14,
+      "label": "kappa * gamma",
+      "family": "composite",
+      "description": "Response-energy proxy"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "identical_pipeline_hashes": {
+    "input_lab001.py": "1ede495cac8738720a62eeef32bc3c7e87f5ab2d55d80afa64314a2d3b1e8611",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "observation_bridge001.py": "73ee7256bd0c4c6170a42ec4edf3ce5c22be2499c25807bd52ef11e8b9448b71"
+  },
+  "execution_seconds": 6.043416764005087
+}

@@ -1,0 +1,35 @@
+{
+  "milestone": "PBUF TRANSPORT-RESEARCH-001",
+  "outcome": "B",
+  "headline": "No existing physical transport mechanism maps naturally onto the PBUF ontology with minimal additional assumptions.  The comparison of the six required systems (water surface, elastic solid, acoustic, Maxwell EM, spin wave, plasma / MHD) shows two structural families.  Family A (mechanical: S1, S2, S3, S5, S6) requires both a restoring mechanism and an inertial resistance; Family B (Maxwell: S4) requires neither and instead uses the mutual curl coupling of two vector fields.  PBUF matches Family A on the spatial half (local state, neighbour coupling, restoring, steering) but is missing the resistance / inertia slot.  Family B is incompatible because CORE-001's microscopic energy has a mass-like onsite term, a scalar gradient term (not curl), and a single scalar triplet (not an (E,B) pair).  The closest structural match is the elastic-solid pattern (S2), but its completion requires adding the kinetic sector - which cannot be derived from the frozen structure and was already identified by INERTIA-001 and EM-TRANSPORT-001 as the open closure gap.",
+  "summary": [
+    "Six systems were analyzed using a common eight-question framework (disturbed quantity, local interaction, local transfer, restoring, resistance, speed, steering, governing equations).",
+    "Two structural families emerge.  Family A: mechanical systems (S1, S2, S3, S5, S6) all have a local state, a neighbour-coupling transfer mechanism, a restoring force, an inertial resistance, and a propagation speed that is the ratio of the two.",
+    "Family B: Maxwell EM (S4) is unique in having neither restoring nor resistance; its propagation arises from the mutual curl coupling of E and B.",
+    "PBUF matches Family A on the spatial half: local state (q, u), neighbour coupling (kappa_1|q_j - q_i|^2, -Div P_F), restoring (-Div P_F from stored energy), and (in principle) steering.",
+    "PBUF does not match Family A on the temporal half: there is no kinetic sector, no mass density, no gyroscopic response, no second-order-in-time dynamics, no wave speed, no wave equation.",
+    "PBUF does not match Family B: there is no (E,B) pair, no curl operator, no gauge invariance, and there IS a mass-like onsite term kappa_0|q|^2 that Family B explicitly excludes.",
+    "Therefore no existing physical transport mechanism maps naturally onto the PBUF ontology with minimal additional assumptions.  The closest match is the elastic-solid pattern (S2) and its missing slot is the kinetic sector."
+  ],
+  "what_this_milestone_does_not_claim": [
+    "It does not introduce a new transport equation, a new constant, or new physics.",
+    "It does not declare that the kinetic sector is impossible.",
+    "It does not modify V11, CORE-001, FOUNDATION-001, or any constitutive law.",
+    "It does not select a specific candidate transport mechanism.",
+    "It does not fit or interpret weak-lensing data."
+  ],
+  "no_new_physics": true,
+  "no_v11_change": true,
+  "no_core001_change": true,
+  "no_foundation001_change": true,
+  "no_weak_lensing_change": true,
+  "no_new_constant": true,
+  "no_new_transport_equation": true,
+  "no_assumption_that_maxwell_applies": true,
+  "no_assumption_that_elasticity_applies": true,
+  "no_assumption_that_magnetism_is_the_answer": true,
+  "no_cosmology_or_quantum_gravity": true,
+  "no_metric_construction": true,
+  "no_numerical_optimization": true,
+  "no_weak_lensing_fitting": true
+}

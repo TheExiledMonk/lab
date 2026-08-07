@@ -1,0 +1,13 @@
+gate,value,passes
+G1_all_module_certificates_valid,True,True
+G2_protected_function_scan,0,True
+G3_pair_amplitude_RMS,1.7464076411175294e-05,True
+G4_pair_response_RMS,2.0040663704556457e-05,True
+G5_endpoint_energy,0.0004364493264967681,True
+G6_interface_energy,0.0002788596121465183,True
+G7_ray_input_hash_lineage,bc96f5db35a1b0a6,True
+G8_zero_control_zero,0.0,True
+G9_zero_control_pearson_undefined,nan,True
+G10_analytic_nonzero,0.00016605162222251991,True
+G11_stale_state_test,1024,True
+G12_covariance_placeholder,see_full_lab,True

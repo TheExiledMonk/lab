@@ -1,0 +1,23 @@
+id,claim,status,mechanical_basis,ontology_boundary,dependency
+CS-A01,A physical continuum has a current configuration at a specified state position,required,Configuration is necessary to define deformation and response,Does not identify a global absolute present,KINEMATICS-001
+CS-A02,Each material element has one complete deformation state on a state slice,required mechanical single-occupancy,Incompatible placements make deformation and state functions ambiguous,Does not decide cross-history actuality,continuum state definition
+CS-A03,The complete global state is single-valued modulo gauge,required conditionally,Objectivity identifies coordinate/gauge representatives,Exact global state and gauge quotient remain missing,TIME-001 and STATE-001
+CS-A04,Stored energy is definite for a complete admissible state,required by shortlisted elastic class,Recoverable energy storage requires state evaluability,No energy functional is selected,CONSTITUTIVE-CLASS-001 and NATURE-001
+CS-A05,Constitutive response is single-valued for complete state data,required structural condition,Different response with identical listed data means state description is incomplete,Nonlocal/memory realization remains unresolved,CONSTITUTIVE-CLASS-001
+CS-A06,The continuum can occupy two incompatible complete states at one mechanical instant,rejected for an ordinary single continuum,Would violate configuration single-valuedness,Could only be recast with branches/mixtures as enlarged state,continuum mechanics
+CS-A07,Spatially varying deformation constitutes multiple universal states,rejected,Local variation is contained in one global field configuration,Global-state existence still conditional,continuum mechanics
+CS-A08,Mixtures phases or microstructure refute state uniqueness,rejected,Their constituent variables enlarge one complete state,Independent PBUF microstructure is unestablished,KINEMATICS-001
+CS-A09,Several equilibrium or solution branches may exist,compatible,Mechanics may admit alternative states,Which branch is occupied needs state/boundary data,dynamics
+CS-A10,A mathematical ensemble means simultaneous physical occupation,not established,Ensembles normally represent alternatives or statistics,Realization of every member is extra ontology,representation
+CS-A11,A reference configuration is another currently occupied state,rejected,Reference supplies relational comparison not co-occupancy,Its physical/gauge status remains unresolved,KINEMATICS-001
+CS-A12,Memory dependence makes past states current states,rejected,Past data may enter a functional or internal memory variable,Ontological persistence of past is not implied,conditional nonlocal/viscoelastic sector
+CS-A13,Continuum evolution is an ordered succession of states,structurally supported,Configuration histories are standard mechanical objects,Law orientation and proper duration remain missing,TIME-001
+CS-A14,Ordered continuum evolution proves emergent relativistic time,not established,Order alone lacks clock and metric duration,Needs relational temporal-identification principle,TIME-001 and GEOMETRY-001
+CS-A15,Mechanical current-state language proves only one state exists,not established,Language indexes response evaluation at a state position,Cross-history actuality is beyond mechanics,STATE-001
+CS-A16,Single-actual-state ontology is natural for continuum mechanics,supported as interpretation,Matches occupied-current-configuration practice,Naturalness is not entailment,continuum practice
+CS-A17,Growing-history ontology is mechanically admissible,compatible,Same local state/response can be assigned at history boundary,Growth of actuality adds no mechanical content,STATE-001
+CS-A18,Whole-history ontology is mechanically admissible,compatible,A full solution trajectory is mechanically meaningful,Equal actuality of slices is interpretive,STATE-001
+CS-A19,Continuum mechanics selects among the three actuality ontologies,rejected,All can share identical state histories and constitutive predictions,Requires global actuality-and-slicing principle,STATE-001
+CS-A20,A coordinate slice defines the unique physical state,not established,Coordinate foliations may be equivalent descriptions,Must preserve V11 operational Lorentz invariance,V11 and KINEMATICS-001
+CS-A21,Mechanical single-occupancy survives richer state spaces,derived structural result,Branches mixtures memory and internal modes become entries of one complete state,Requires exact state content to implement,future kinematic closure
+CS-A22,Continuum ontology restricts but does not determine actuality,current result,Combines CS-A02 with CS-A15 through CS-A19,Outcome B,CONTINUUM-STATE-001

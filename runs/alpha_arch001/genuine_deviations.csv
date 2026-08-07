@@ -1,0 +1,7 @@
+deviation_id,documents,deviation,severity,resolution
+DEV-001,CORE-001 through ERR-001,"Introduced alpha_*=1/137 as a matter-state vertex although V11 assigns distinct meanings to alpha_QM alpha_resolved alpha_T(a) and alpha_EM",architectural,"Renamed the post-V11 coefficient g_dev and denied any implicit V11 mapping"
+DEV-002,CONS-001,Collapsed the exploratory vertex into generic alpha and audited it as though it were the framework-wide coupling,architectural,"Replaced generic alpha with g_dev and limited conclusions to the exploratory vertex"
+DEV-003,CORE/FND/ERR,"Used numerical proximity to 1/137 in a non-electromagnetic physical role",substantive,"Retained only as an explicit post-V11 numerical premise; equality with alpha_EM is not asserted"
+DEV-004,ERR-001,"A quadratic equal-component factor of three could be confused with V11's amplitude-level alpha_resolved ~= 3 alpha_EM",substantive,"Separated the constructions explicitly; no mapping is claimed"
+DEV-005,CORE/FND/PHOTON/CONS,"Omitted the V11 Quantum Engine to metadata/LUT to cosmology hierarchy",traceability,"Restored the hierarchy in the architecture report and dependency graph"
+DEV-006,FND-001,Required document is absent from the repository,coverage,"Marked not auditable; no alpha occurrence or mapping can be claimed"

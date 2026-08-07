@@ -1,0 +1,37 @@
+{
+  "milestone": "PBUF CONTINUUM-STATE-001",
+  "outcome": "B",
+  "success_criterion": {
+    "met": true,
+    "reason": "Continuum mechanics is shown to require one complete mechanically occupied state per material element on an admissible state slice while leaving cross-history actuality undetermined."
+  },
+  "decision": {
+    "mechanical_state_uniqueness": "required",
+    "simultaneous_incompatible_complete_deformations": "excluded_for_one_ordinary_continuum_element",
+    "single_actual_state_across_history": "not_entailed",
+    "preferred_working_interpretation": "current_state_realism",
+    "remaining_actuality_family": [
+      "single_actual_state",
+      "growing_history",
+      "whole_history"
+    ],
+    "emergent_ordering": "mechanically_natural_but_not_temporally_closed"
+  },
+  "mechanical_boundary": "One complete constitutive state is occupied per material element on an admissible state slice, but continuum mechanics contains no cross-history actuality rule.",
+  "missing_principle": "A V11-compatible global actuality-and-slicing principle selecting the ontological status of other ordered states while preserving mechanical single-occupancy and relativistic slicing equivalence.",
+  "scope_checks": {
+    "v11_modified": false,
+    "new_constitutive_equations": false,
+    "new_field_equations": false,
+    "new_parameters": false,
+    "observations_fitted": false,
+    "science_fiction_time_travel_argument_used": false
+  },
+  "deliverables": [
+    "continuum_ontology_report.md",
+    "mechanical_metaphysical_comparison_matrix.csv",
+    "state_realization_audit.csv",
+    "continuum_to_emergent_time_dependency_graph.md",
+    "recommendation.md"
+  ]
+}

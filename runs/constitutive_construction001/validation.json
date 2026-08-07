@@ -1,0 +1,26 @@
+{
+  "milestone": "PBUF CONSTITUTIVE-CONSTRUCTION-001",
+  "pass": true,
+  "minimal_interior_energy": "Q(C)=1/2 A0[E,E], E=(C-1)/2 = K0/2 tr(E)^2 + mu0 E_TF:E_TF",
+  "minimal_candidates": [
+    "A",
+    "B",
+    "C"
+  ],
+  "lexicographic_winner": "A and B tie in interior formula complexity; A is preferred for self-contained enforcement of capacity",
+  "unique_minimum": false,
+  "reason": "A and B have the identical minimal interior polynomial and differ only in an already-authorized endpoint semantics; no frozen ordering ranks those semantics.",
+  "barrier_member_selected": false,
+  "sources": {
+    "FOUNDATION-001": "runs/foundation001/foundational_ontology.md",
+    "STATE-002": "runs/state002/primitive_medium_state.md",
+    "DEFORMATION-001": "runs/deformation001/deformation_measure_report.md",
+    "HYPER-001": "runs/hyper001/stored_energy_derivation.md",
+    "ENERGY-PRINCIPLE-001": "runs/energy_principle001/energy_selection_derivation.md",
+    "DURATION-001": "runs/duration001/emergent_duration_derivation.md",
+    "METRIC-001": "runs/metric001/effective_metric_derivation.md",
+    "BALANCE-001": "runs/balance001/native_balance_laws.md",
+    "LOCALITY-001": "runs/locality001/locality_report.md",
+    "ENERGY-SEARCH-001": "runs/energy_search001/energy_search_report.md"
+  }
+}

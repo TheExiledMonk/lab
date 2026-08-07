@@ -1,0 +1,280 @@
+{
+  "mission": "PBUF FND-005 Experimental Consequences of the Microscopic Ontology",
+  "scope": "theory and prediction only; no fitting",
+  "axioms": {
+    "A1": "The microscopic state has exactly three independent components.",
+    "A2": "A common matter load couples equally to those components with bare scale g_dev=1/137.",
+    "A3": "Macroscopic observables arise by coarse graining the microscopic state."
+  },
+  "experimental_assumptions": {
+    "E1": "The three components can be independently prepared or read out with a calibrated linear map.",
+    "E2": "The common loading and readout normalization are fixed independently; linear response applies.",
+    "E3": "The components form a spatial vector in an isotropic, parity-even reference state.",
+    "E4": "A stable local quadratic long-wave theory and a specified time kinetic law apply.",
+    "E5": "Symmetry breaking is a controlled perturbation rather than an unknown apparatus effect.",
+    "E6": "A photon/effective-metric coupling maps microscopic or coarse fields to light."
+  },
+  "predictions": [
+    {
+      "id": "F005-P01",
+      "category": "mode counting",
+      "prediction": "Component-resolved state tomography has rank three.",
+      "axioms": "A1",
+      "extra_assumptions": "E1",
+      "ontology_only": false,
+      "relation": "rank(q response space)=3",
+      "observable": "Three independently preparable/readable response directions.",
+      "constitutive_dependence": "none",
+      "classification": "unique to PBUF against scalar or N!=3",
+      "falsifier": "Resolved rank is not three after sensitivity and constraints are accounted for."
+    },
+    {
+      "id": "F005-P02",
+      "category": "coherent versus incoherent loading",
+      "prediction": "One normalized common source excites one bright combination and leaves exactly two orthogonal combinations dark at the source vertex.",
+      "axioms": "A1,A2",
+      "extra_assumptions": "E1,E2",
+      "ontology_only": false,
+      "relation": "q_B=(q1+q2+q3)/sqrt(3); dim ker(g^T)=2",
+      "observable": "A rank-one common-source response with two null source channels.",
+      "constitutive_dependence": "none at the source vertex; propagation may mix channels",
+      "classification": "unique multiplicity: scalar has 0 dark; generic N has N-1",
+      "falsifier": "The calibrated common vertex has nullity other than two or unequal entries."
+    },
+    {
+      "id": "F005-P03",
+      "category": "coherent versus incoherent loading",
+      "prediction": "The coherent bright-mode amplitude is sqrt(3) times one equally normalized component and its quadratic weight is three times one component; equivalently, the squared unnormalized coherent sum is three times the incoherent sum of three equal component powers.",
+      "axioms": "A1,A2",
+      "extra_assumptions": "E2",
+      "ontology_only": false,
+      "relation": "|g|=sqrt(3) g_dev; |g|^2=3 g_dev^2; |sum_i g_dev|^2/sum_i|g_dev|^2=3",
+      "observable": "No-fit ratio R_amp=sqrt(3), R_single-power=3, or R_coherent/incoherent=3 under the stated normalization.",
+      "constitutive_dependence": "independent of propagation law if measured at the calibrated source vertex",
+      "classification": "distinguishable by multiplicity; generic N gives sqrt(N), N and scalar gives 1, 1",
+      "falsifier": "Any normalized ratio differs beyond preregistered uncertainty."
+    },
+    {
+      "id": "F005-P04",
+      "category": "longitudinal/transverse mode structure",
+      "prediction": "An isotropic spatial-vector realization has one longitudinal and two transverse polarizations.",
+      "axioms": "A1",
+      "extra_assumptions": "E3,E4",
+      "ontology_only": false,
+      "relation": "Gamma_ab=A delta_ab+B k_a k_b",
+      "observable": "One L eigenvector and a two-dimensional T eigenspace for nonzero k.",
+      "constitutive_dependence": "branch frequencies are constitutive; multiplicities are symmetry-fixed",
+      "classification": "unique versus scalar; not implied for a generic internal N-state",
+      "falsifier": "A stable isotropic vector sector lacks the 1+2 multiplicity."
+    },
+    {
+      "id": "F005-P05",
+      "category": "degeneracy relations",
+      "prediction": "The two transverse modes are exactly degenerate before symmetry breaking.",
+      "axioms": "A1",
+      "extra_assumptions": "E3,E4",
+      "ontology_only": false,
+      "relation": "omega_T1(k)=omega_T2(k)",
+      "observable": "Two equal transverse poles/rates at fixed |k|.",
+      "constitutive_dependence": "common dispersion is free; equality is symmetry-fixed",
+      "classification": "distinguishable from scalar; generic N is representation-dependent",
+      "falsifier": "Reproducible splitting remains in an isotropic limit."
+    },
+    {
+      "id": "F005-P06",
+      "category": "propagation branches",
+      "prediction": "If inertial dynamics applies, three polarizations occur as one L branch plus a double T branch; overdamped dynamics gives the same multiplicities as relaxation poles, not waves.",
+      "axioms": "A1,A3",
+      "extra_assumptions": "E3,E4",
+      "ontology_only": false,
+      "relation": "omega_L^2=(K+G_L k^2)/M; omega_T^2=(K+G_T k^2)/M (double)",
+      "observable": "A 1+2 pole pattern, without predicted speeds or gaps.",
+      "constitutive_dependence": "strong: kinetic law, K, G_L and G_T",
+      "classification": "conditional PBUF realization, not unique from A1-A3",
+      "falsifier": "Only conditional after E3-E4 are independently established."
+    },
+    {
+      "id": "F005-P07",
+      "category": "symmetry breaking signatures",
+      "prediction": "Weak anisotropy may split the transverse doublet; restoring isotropy must restore degeneracy.",
+      "axioms": "A1",
+      "extra_assumptions": "E3,E4,E5",
+      "ontology_only": false,
+      "relation": "Delta omega_T -> 0 as anisotropy -> 0",
+      "observable": "Reversible transverse splitting correlated with a controlled anisotropy.",
+      "constitutive_dependence": "splitting magnitude is constitutive",
+      "classification": "generic vector signature, not unique to exactly three components",
+      "falsifier": "Nonzero intercept in the controlled isotropic limit, subject to systematics."
+    },
+    {
+      "id": "F005-P08",
+      "category": "coupling identifiability",
+      "prediction": "g_dev directly normalizes the common matter vertex, while normalized multiplicity ratios cancel its magnitude.",
+      "axioms": "A2",
+      "extra_assumptions": "E1,E2 for an absolute measurement",
+      "ontology_only": false,
+      "relation": "g_vec=g_dev(1,1,1); |g_vec|=sqrt(3)|g_dev|",
+      "observable": "A calibrated absolute vertex is g_dev-sensitive; bright/dark counts and normalized ratios are not.",
+      "constitutive_dependence": "downstream amplitudes also require the specified response/readout chain",
+      "classification": "direct coupling is distinguishable only with absolute calibration",
+      "falsifier": "A calibrated equal vertex inconsistent with the stipulated g_dev falsifies A2; ratios alone cannot measure its magnitude."
+    },
+    {
+      "id": "F005-P09",
+      "category": "conservation consequences",
+      "prediction": "No conservation law follows from component count, equal loading, or coarse graining alone.",
+      "axioms": "A1,A2,A3",
+      "extra_assumptions": "none",
+      "ontology_only": true,
+      "relation": "none",
+      "observable": "A conserved charge requires an action and continuous symmetry not present in the axioms.",
+      "constitutive_dependence": "a conservation claim requires additional dynamics",
+      "classification": "identical boundary for all compared ontologies",
+      "falsifier": "Not applicable: this prevents an unsupported prediction."
+    },
+    {
+      "id": "F005-P10",
+      "category": "weak-lensing equivalence",
+      "prediction": "If only one scalar projection reaches photons, scalar, three-component, and generic N ontologies can be observationally identical.",
+      "axioms": "A3",
+      "extra_assumptions": "E6 and decoupled hidden components",
+      "ontology_only": false,
+      "relation": "O_light=F(C[q])",
+      "observable": "No component-count discriminator in scalar lensing alone.",
+      "constitutive_dependence": "complete dependence on scalar closure and photon map",
+      "classification": "identical across ontologies",
+      "falsifier": "Not a PBUF signature; observation of extra coupled polarizations would break equivalence."
+    }
+  ],
+  "comparison": [
+    {
+      "observable": "resolved response-space rank",
+      "pbuf_three": "3",
+      "scalar": "1",
+      "generic_n": "N",
+      "verdict": "unique to PBUF only relative to N!=3; requires E1"
+    },
+    {
+      "observable": "dark channels under one equal common source",
+      "pbuf_three": "2",
+      "scalar": "0",
+      "generic_n": "N-1",
+      "verdict": "unique multiplicity; requires E1-E2"
+    },
+    {
+      "observable": "normalized coherent amplitude/power",
+      "pbuf_three": "sqrt(3) / 3",
+      "scalar": "1 / 1",
+      "generic_n": "sqrt(N) / N",
+      "verdict": "unique multiplicity; requires E2"
+    },
+    {
+      "observable": "longitudinal/transverse multiplicity",
+      "pbuf_three": "1 L + 2 T",
+      "scalar": "one scalar",
+      "generic_n": "undefined without representation",
+      "verdict": "conditional on spatial-vector realization E3-E4"
+    },
+    {
+      "observable": "transverse degeneracy",
+      "pbuf_three": "twofold",
+      "scalar": "absent",
+      "generic_n": "representation-dependent",
+      "verdict": "symmetry signature, conditional rather than ontology-only"
+    },
+    {
+      "observable": "branch speeds, gaps, damping",
+      "pbuf_three": "undetermined",
+      "scalar": "undetermined",
+      "generic_n": "undetermined",
+      "verdict": "identical lack of prediction without constitutive dynamics"
+    },
+    {
+      "observable": "scalar weak-lensing profile",
+      "pbuf_three": "undetermined",
+      "scalar": "undetermined",
+      "generic_n": "undetermined",
+      "verdict": "identical without closure and photon coupling"
+    },
+    {
+      "observable": "separate value g_dev=1/137",
+      "pbuf_three": "direct vertex premise; measurable only with calibrated response/readout",
+      "scalar": "model-dependent",
+      "generic_n": "model-dependent",
+      "verdict": "no auxiliary coupling degeneracy; numerical value remains postulated"
+    },
+    {
+      "observable": "conserved microscopic charge",
+      "pbuf_three": "not implied",
+      "scalar": "not implied",
+      "generic_n": "not implied",
+      "verdict": "identical without action and continuous symmetry"
+    }
+  ],
+  "ranked_signatures": [
+    {
+      "rank": 1,
+      "signature": "Bright/dark source-response tomography: one equal bright channel plus exactly two dark channels",
+      "uniqueness": "N-1 dark channels directly counts N; PBUF predicts 2",
+      "dependencies": "A1,A2,E1,E2",
+      "realism": "Simulation-ready once component source/readout operators exist; laboratory platform not yet specified",
+      "reason": "No propagation coefficients or parameter fit are needed; it tests counting and equal coupling together."
+    },
+    {
+      "rank": 2,
+      "signature": "Coherent-to-single-channel power ratio of 3",
+      "uniqueness": "Scalar=1; generic N=N",
+      "dependencies": "A1,A2,E2",
+      "realism": "Simulation-ready and potentially experimental with calibrated channels",
+      "reason": "Dimensionless no-fit ratio, but vulnerable to channel normalization and cross-talk."
+    },
+    {
+      "rank": 3,
+      "signature": "One longitudinal plus a degenerate transverse doublet",
+      "uniqueness": "Separates spatial-vector PBUF from scalar; generic N depends on representation",
+      "dependencies": "A1,E3,E4",
+      "realism": "Requires a dynamical realization and directional spectroscopy",
+      "reason": "Sharp multiplicity test, but not forced by the minimal ontology."
+    },
+    {
+      "rank": 4,
+      "signature": "Transverse splitting vanishes with controlled anisotropy",
+      "uniqueness": "Tests vector symmetry, not exactly N=3 by itself",
+      "dependencies": "A1,E3,E4,E5",
+      "realism": "Requires tunable anisotropy and systematic-error control",
+      "reason": "Useful corroboration after the vector representation is established."
+    },
+    {
+      "rank": 5,
+      "signature": "Additional non-scalar imprint in photon observables",
+      "uniqueness": "Could break scalar equivalence but is not presently predicted",
+      "dependencies": "A3,E6 plus a closure",
+      "realism": "Not test-ready",
+      "reason": "No photon coupling, profile, or amplitude follows from the supplied ontology."
+    }
+  ],
+  "recommended_first_experiment": {
+    "rank": 1,
+    "signature": "Bright/dark source-response tomography: one equal bright channel plus exactly two dark channels",
+    "uniqueness": "N-1 dark channels directly counts N; PBUF predicts 2",
+    "dependencies": "A1,A2,E1,E2",
+    "realism": "Simulation-ready once component source/readout operators exist; laboratory platform not yet specified",
+    "reason": "No propagation coefficients or parameter fit are needed; it tests counting and equal coupling together."
+  },
+  "validation": {
+    "checks": {
+      "unique_prediction_ids": true,
+      "all_requested_categories_covered": true,
+      "all_predictions_trace_to_axioms": true,
+      "assumptions_explicit": true,
+      "falsifiers_or_boundaries_explicit": true,
+      "three_ontologies_compared": true,
+      "ranked_testable_signatures_present": true,
+      "first_falsification_experiment_selected": true,
+      "constitutive_dependence_separated": true,
+      "no_parameter_fit": true,
+      "frozen_weak_lensing_laboratory_untouched": true
+    },
+    "all_checks_pass": true
+  }
+}

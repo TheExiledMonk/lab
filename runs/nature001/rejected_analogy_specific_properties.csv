@@ -1,0 +1,13 @@
+property,source_analogy,rejection_reason,status
+Molecular or atomic substrate,"water; solids; polymers","PBUF does not establish the microstructure of any known substance","Rejected"
+Ordinary fluid identity,water,"No static shear or shape recovery; wave support alone does not imply fluid ontology","Incompatible"
+Polymer-chain locking,"rubber; twisted fibres","A particular microscopic mechanism and limiting-strain law would be imported without derivation","Rejected"
+Named textbook strain-energy function,hyperelastic materials,"Choosing neo-Hookean, Mooney-Rivlin, Gent, or similar form would derive an equation from analogy","Rejected"
+Viscosity and relaxation spectrum,viscoelastic materials,"Native dissipation, timescales, and memory are absent from authoritative PBUF input","Unsupported"
+Plastic yield and permanent set,solids,"Conflicts with native recoverability and adds history-dependent state variables","Incompatible as native behavior"
+Fracture and damage,solids and membranes,"Topological failure and damage variables are not established and would threaten the continuous effective-GR regime","Rejected"
+Textile weave or sheet dimensionality,cloth and membranes,"Two-dimensional construction and preferred directions are artifacts of the analogy","Rejected"
+Chirality or fibre twist,twisted fibres,"No PBUF handed microstructure or twist degree of freedom has been established","Unsupported"
+Crystallographic axes and defects,crystals,"They introduce preferred frames and defect ontology not supplied by PBUF","Rejected"
+Free surfaces and surface tension,water and membranes,"These are boundary-specific mechanisms, not universal bulk response","Rejected"
+Analogy-derived coefficients or scales,all analogies,"Would introduce new parameters or fit choices forbidden by the milestone","Rejected"

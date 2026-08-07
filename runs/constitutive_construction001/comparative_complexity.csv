@@ -1,0 +1,4 @@
+candidate,definition,endpoint,terms,nonlinear_operations,extra_assumptions,regularity,status
+A,W_A=Q on D_C and +infinity outside cl(D_C),hard extended-value,2,0,0,analytic interior; lower-semicontinuous extension when D_C is taken closed at the constraint,unconditionally constructible from frozen symbolic data
+B,"W_B=Q on cl(D_C), with continuation forbidden by the independently frozen state constraint",finite regular constrained endpoint,2,0,0,analytic wherever Q is evaluated; finite one-sided endpoint,unconditionally constructible from frozen symbolic data
+C,"W_C=Q+(Q^2/K0)b, where b>=0 is an invariant smooth complete boundary barrier",complete interior barrier,3,1,1,"C1 interior and C2 near reference, conditional on the chosen barrier remainder",class construction; no canonical member exists because the frozen domain and barrier profile are unselected

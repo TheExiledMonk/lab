@@ -1,0 +1,10 @@
+Candidate,Label,Max A,Mean A,Pass/Fail
+Cand 1,Linear (control),1.4481e-01,4.0950e-03,PASS
+Cand 2,Square root (normalised),1.4481e-01,6.5241e-03,PASS
+Cand 3,Quadratic (normalised),1.4481e-01,2.6929e-03,PASS
+Cand 4,Logarithmic (normalised),1.4481e-01,4.1907e-03,PASS
+Cand 5,Saturating |∇C|/(1+β|∇C|),1.4481e-01,7.0365e-03,PASS
+Cand 7,Piecewise linear (break at 50%),1.4481e-01,5.1516e-03,PASS
+Cand 6.05,Threshold at 5% of max|∇C|,1.4481e-01,3.9867e-03,PASS
+Cand 6.10,Threshold at 10% of max|∇C|,1.4481e-01,3.8746e-03,PASS
+Cand 6.20,Threshold at 20% of max|∇C|,1.4481e-01,3.6370e-03,PASS

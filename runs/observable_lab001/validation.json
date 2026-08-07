@@ -1,0 +1,24 @@
+{
+  "milestone": "PBUF OBSERVABLE-LAB-001",
+  "frozen_artifacts_unchanged": true,
+  "trajectory_sha256": "903c6cfe948e92f4bcb9fba676eae6efabbe148580b5e69829b8cb083644e170",
+  "all_methods_completed": true,
+  "max_conservation_error": 2.220446049250313e-16,
+  "identical_pipeline_hashes": {
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f"
+  },
+  "files_produced": [
+    "comparison_table.csv",
+    "cross_method_summary.csv",
+    "frozen_trajectories.npz",
+    "frozen_trajectory_sha256.txt",
+    "observable_statistics.csv",
+    "plots",
+    "report.md",
+    "run.json",
+    "validation.json"
+  ],
+  "execution_seconds": 5.027898018015549
+}

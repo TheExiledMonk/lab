@@ -1,0 +1,44 @@
+{
+  "shared_slots": [
+    "A local state defined at every point",
+    "A neighbour-coupling mechanism between adjacent infinitesimal regions",
+    "A locally transferred quantity between neighbours",
+    "A propagation speed determined by ratios or coupling constants",
+    "A local steering mechanism through spatial parameter variation"
+  ],
+  "two_mechanistic_families": {
+    "family_A_mechanical": {
+      "members": [
+        "S1 water surface",
+        "S2 elastic solid",
+        "S3 acoustic",
+        "S5 spin wave",
+        "S6 plasma/MHD"
+      ],
+      "shared_architecture": [
+        "local state at each point",
+        "neighbour coupling through a transferred quantity",
+        "restoring mechanism (potential energy gradient)",
+        "resistance / inertia (mass density or gyroscopic response)",
+        "wave equation emerges as second-order-in-time from restoring + resistance balance"
+      ],
+      "speed_origin": "ratio of restoring stiffness to inertial density",
+      "structurally_similar_to": "scalar or vector wave equation"
+    },
+    "family_B_electromagnetic": {
+      "members": [
+        "S4 Maxwell"
+      ],
+      "shared_architecture": [
+        "two coupled first-order vector fields (E, B)",
+        "neighbour coupling through curl operators (no potential energy)",
+        "no restoring mechanism",
+        "no resistance / no inertia",
+        "wave equation emerges by eliminating one field, giving the D'Alembertian Box E = 0"
+      ],
+      "speed_origin": "ratio of curl-coupling constants (1/sqrt(epsilon mu))",
+      "structurally_distinct_from": "Family A: there is no scalar potential storage and no mass term in vacuum."
+    }
+  },
+  "key_structural_finding": "The six systems fall into two families.  Family A (mechanical) requires both a restoring mechanism AND a resistance/inertia.  Family B (Maxwell) requires neither: propagation comes entirely from the mutual curl coupling of two vector fields.  Any mapping onto PBUF must therefore identify which family PBUF structurally belongs to, and what is present versus missing in each slot."
+}

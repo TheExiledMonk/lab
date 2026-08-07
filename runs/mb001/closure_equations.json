@@ -1,0 +1,177 @@
+{
+  "mission": "PBUF MB-001 Micro-Macro Closure Development",
+  "outcome": "C",
+  "constitutive_law_updated": false,
+  "reason": "No supplied PBUF equation quantitatively maps microscopic quantities to u, s(rho), K, or G.",
+  "conditional_closure": "K u - div(G grad u) = s(rho); ell^2=G/K",
+  "missing_physical_law": "A microscopic energy/action or response plus coarse graining that predicts s(rho), K, and G.",
+  "empirical_version_d_relations": [
+    "s(rho)/K=u0(rho/rho_max)^2",
+    "ell=sigma_rho"
+  ],
+  "equations": [
+    {
+      "equation_id": "MB-001-E01",
+      "equation": "K u - div(G grad u) = s(rho)",
+      "status": "conditional continuum balance; not a closed PBUF law",
+      "originating_pbuf_equations": "none supplied; WL-003 conditional balance",
+      "physical_interpretation": "local recovery plus divergence of elastic flux balances matter loading",
+      "units": "[K]=E L^-d u^-2; [G]=[K] L^2; [s]=[K]u (u dimensionless in WL)",
+      "assumptions": "static scalar isotropic medium; differentiable field; positive K and G",
+      "limiting_cases": "G->0 gives local response Ku=s; s->0 gives homogeneous recovery",
+      "closure_gap": "PBUF supplies no map from microscopic variables to s, K, or G"
+    },
+    {
+      "equation_id": "MB-001-E02",
+      "equation": "J = -G grad u; K u + div J = s(rho)",
+      "status": "conservation form of MB-001-E01",
+      "originating_pbuf_equations": "algebraic rewriting of MB-001-E01",
+      "physical_interpretation": "J is deformation-transmission flux",
+      "units": "[J]=[G]u/L; [div J]=[K]u",
+      "assumptions": "same as MB-001-E01",
+      "limiting_cases": "uniform u has J=0; G->0 removes propagation",
+      "closure_gap": "the microscopic transported quantity and coefficient G are undefined"
+    },
+    {
+      "equation_id": "MB-001-E03",
+      "equation": "ell^2 = G/K",
+      "status": "derived algebraically, conditional on MB-001-E01",
+      "originating_pbuf_equations": "MB-001-E01 with constant positive K and G",
+      "physical_interpretation": "recovery/propagation balance length",
+      "units": "[G]/[K]=L^2, hence [ell]=L",
+      "assumptions": "K>0 and G>0 are constant scalar coefficients",
+      "limiting_cases": "G->0 gives ell->0; K->infinity gives ell->0",
+      "closure_gap": "neither K nor G is supplied by PBUF, so ell has no predicted value"
+    },
+    {
+      "equation_id": "MB-001-E04",
+      "equation": "s(rho)/K = u0 (rho/rho_max)^2",
+      "status": "empirical Version-D identification; not derived",
+      "originating_pbuf_equations": "WL-002 Version D only",
+      "physical_interpretation": "normalized quadratic matter loading",
+      "units": "both sides have units of u; rho/rho_max is dimensionless",
+      "assumptions": "rho_max>0; quadratic exponent; normalization and u0 are inherited",
+      "limiting_cases": "rho=0 gives zero loading; rho=rho_max gives u0",
+      "closure_gap": "microscopic matter-medium interaction/action or response law is absent"
+    },
+    {
+      "equation_id": "MB-001-E05",
+      "equation": "ell = sigma_rho",
+      "status": "empirical Version-D identification; not derived",
+      "originating_pbuf_equations": "WL-002 Version D only",
+      "physical_interpretation": "uses observed lens width as propagation length",
+      "units": "both quantities are lengths",
+      "assumptions": "medium correlation length equals source geometry",
+      "limiting_cases": "point-source limit forces ell->0, exposing the unproved identification",
+      "closure_gap": "PBUF gives no correlation-length or dispersion relation"
+    }
+  ],
+  "validation": {
+    "archive": "runs/wl003/version_d_reproducibility",
+    "same_grid_as_archive": true,
+    "equation_id_unchanged": true,
+    "field_and_residual_comparison": {
+      "deformation": {
+        "max_abs_delta": 0.0,
+        "rmse_delta": 0.0,
+        "topology_correlation": 0.9999999999999999,
+        "checksum_equal": true
+      },
+      "gradient_x": {
+        "max_abs_delta": 0.0,
+        "rmse_delta": 0.0,
+        "topology_correlation": 1.0,
+        "checksum_equal": true
+      },
+      "gradient_y": {
+        "max_abs_delta": 0.0,
+        "rmse_delta": 0.0,
+        "topology_correlation": 1.0,
+        "checksum_equal": true
+      },
+      "pbuf": {
+        "max_abs_delta": 0.0,
+        "rmse_delta": 0.0,
+        "topology_correlation": 1.0,
+        "checksum_equal": true
+      },
+      "residual": {
+        "max_abs_delta": 0.0,
+        "rmse_delta": 0.0,
+        "topology_correlation": 1.0,
+        "checksum_equal": true
+      },
+      "observation_minus_pbuf": {
+        "max_abs_delta": 0.0,
+        "rmse_delta": 0.0,
+        "topology_correlation": 1.0,
+        "checksum_equal": true
+      },
+      "pbuf_minus_lcdm": {
+        "max_abs_delta": 0.0,
+        "rmse_delta": 0.0,
+        "topology_correlation": 1.0,
+        "checksum_equal": true
+      }
+    },
+    "photon_trajectories": {
+      "max_abs_delta": 0.0,
+      "rmse_delta": 0.0,
+      "topology_correlation": 1.0,
+      "checksum_equal": true
+    },
+    "diagnostics": {
+      "deformation_mean": {
+        "archived": 0.0012358845034620806,
+        "rerun": 0.0012358845034620806,
+        "change": 0.0
+      },
+      "deformation_std": {
+        "archived": 0.005360465257214639,
+        "rerun": 0.005360465257214639,
+        "change": 0.0
+      },
+      "gradient_rms": {
+        "archived": 0.006157418697257412,
+        "rerun": 0.006157418697257412,
+        "change": 0.0
+      },
+      "gradient_max": {
+        "archived": 0.04406644184299457,
+        "rerun": 0.04406644184299457,
+        "change": 0.0
+      },
+      "photon_max_deviation": {
+        "archived": 0.00033659376942418717,
+        "rerun": 0.00033659376942418717,
+        "change": 0.0
+      }
+    },
+    "rmse": {
+      "rmse_pbuf": {
+        "archived": 0.00019210569324043723,
+        "rerun": 0.00019210569324043723,
+        "change": 0.0
+      },
+      "rmse_baryonic_gr": {
+        "archived": 0.003881056810842542,
+        "rerun": 0.003881056810842542,
+        "change": 0.0
+      },
+      "rmse_lcdm": {
+        "archived": 0.026165221430429757,
+        "rerun": 0.026165221430429757,
+        "change": 0.0
+      }
+    },
+    "validation": {
+      "zero_mass_zero_deformation": true,
+      "symmetric_mass_symmetric_deformation": true,
+      "zero_deformation_straight_paths": true,
+      "nonzero_deformation_changes_paths": true,
+      "full_pipeline_completed": true
+    },
+    "all_validation_gates_pass": true
+  },
+  "recommendation": "Define and dimensionally validate the microscopic free energy/response and coarse-graining map before changing Version D."
+}

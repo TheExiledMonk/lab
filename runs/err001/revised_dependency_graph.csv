@@ -1,0 +1,8 @@
+edge,source,target,status
+R01,g_dev,microscopic matter source,direct PBUF coupling
+R02,microscopic matter source,coarse source s(rho),conditional CORE coarse graining
+R03,s(rho),continuum deformation u,conditional response; closure incomplete
+R04,u,optical response n(u),map missing in PHOTON-001
+R05,n(u),deflection and phase,conditional optical propagation
+R06,g_dev,equal-component vertex,direct common coupling
+R07,equal-component vertex,bright/dark counts and normalized ratios,g_dev magnitude cancels from ratios

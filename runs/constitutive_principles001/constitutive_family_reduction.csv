@@ -1,0 +1,6 @@
+id,family,architecture,status
+F1,Local invariant energetic,"E=int Phi(I1,I2,I3)dV","Required core; polynomial, exponential, logarithmic and spectral expressions are representations within it."
+F2,Finite-domain barrier,F1 with Phi->infinity at a finite admissible boundary,"Genuinely distinct domain topology; optional specialization, not a universal family."
+F3,Gradient energetic,E=int[Phi(C)+Psi(Grad C)]dV,Optional local higher-order interaction with extra boundary data.
+F4,Integral nonlocal energetic,E=local part + symmetric positive double integral,Optional nonlocal interaction not exactly reducible to F3 except asymptotically.
+F5,Duration-compatible dissipative completion,F1-F4 plus D>=0 while retaining equilibrium Phi,"Optional downstream completion, not a replacement constitutive energy."

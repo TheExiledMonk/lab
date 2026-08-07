@@ -1,0 +1,10 @@
+principle,established_form,pbuf_status,scope_or_failure
+minimum potential energy,static minimization of stored plus admissible loading potential,survives conditionally,requires conservative prescribed loading and admissible boundary data
+stationary action,stationarity on admissible oriented histories,survives as a family,native degree-one action exists structurally; its kinetic integrand is unselected
+constrained energy minimization,minimization over the frozen admissible state/domain,survives,natural static statement for hard or regular constrained endpoints
+elastic force equilibrium,vanishing internal variational force balanced by admitted loading,survives but is not independent,Euler-Lagrange/virtual-work form of the energy principle on smooth branches
+variational equilibrium,stationarity of an admissible functional,survives as an umbrella,contains static energy and history action forms but does not select either integrand
+thermodynamic equilibrium,extremum of a thermodynamic potential subject to constraints,not native as stated,temperature and entropy are absent; its purely mechanical reduction is constrained energy minimization
+spectral equilibrium,stationarity expressed in unordered eigenvalues/invariants of C,not independent,spectral variables are coordinates for the same objective stored energy
+geometric equilibrium,stationarity under admissible geometric variations,not independent/conditional,"reduces to variational equilibrium when geometry is derived from q,C; extra curvature or metric variables are forbidden"
+wave equilibrium,"normal modes, standing waves, or propagation about an equilibrium",not a constitutive principle,"waves are consequences of balance, inertia, and acoustic positivity, not selectors of W"

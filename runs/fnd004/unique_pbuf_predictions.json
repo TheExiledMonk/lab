@@ -1,0 +1,30 @@
+[
+  {
+    "id": "U1",
+    "claim": "Two source-orthogonal microscopic combinations for a single equal common source.",
+    "status": "exact under linear common sourcing",
+    "test": "Independently excite/read component combinations; search for two dark channels.",
+    "dependencies": "A1,A2 plus linear common source"
+  },
+  {
+    "id": "U2",
+    "claim": "Coherent quadratic response multiplicity exactly 3 rather than N or 1.",
+    "status": "conditional quantitative",
+    "test": "Compare calibrated single-component and coherent susceptibilities without fitting.",
+    "dependencies": "A1,A2 plus common normalization and equal susceptibility"
+  },
+  {
+    "id": "U3",
+    "claim": "One longitudinal and two degenerate transverse modes.",
+    "status": "conditional representation prediction",
+    "test": "Directional spectroscopy/propagation measurement; test transverse degeneracy.",
+    "dependencies": "A1,C1,C2,C3,C5"
+  },
+  {
+    "id": "U4",
+    "claim": "No unique scalar-lensing signature follows merely from having three components.",
+    "status": "exact negative result",
+    "test": "Not directly testable; it is a model-identifiability constraint.",
+    "dependencies": "Logical comparison of A1-A3"
+  }
+]

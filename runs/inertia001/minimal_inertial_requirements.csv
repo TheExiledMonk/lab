@@ -1,0 +1,15 @@
+id,property,status,scope
+IR-01,cotangent-valued momentum response,required,all closures
+IR-02,gauge basicness and objectivity,required,all closures
+IR-03,positive kinetic storage on physical modes,required,stable reversible wave branch
+IR-04,nondegeneracy modulo genuine constraints,required,propagating physical modes
+IR-05,symmetric conservative principal kinetic form,required,reversible variational branch
+IR-06,causal response and effective-cone compatibility,required,all physical propagation
+IR-07,closed-system conservation compatibility,required,source-free closed branch
+IR-08,order-reparametrization and clock-gauge covariance,required,FP-3 native and gauge-fixed descriptions
+IR-09,zero response on constant physical history,required,all closures except constraint reactions
+IR-10,regularity and admissible-cone preservation,required,chosen weak/strong realization
+IR-11,no unauthorized normalization,required,FP-6
+IR-12,spatial locality,not_forced,causal nonlocal operators remain admissible
+IR-13,second temporal order,not_forced,first-order phase-space and memory representations remain admissible
+IR-14,scalar density,not_forced,tensor/operator/state-dependent structure remains admissible

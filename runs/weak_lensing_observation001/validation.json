@@ -1,0 +1,81 @@
+{
+  "milestone": "PBUF WEAK-LENSING-OBSERVATION-001",
+  "identical_pipeline_hashes": {
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f"
+  },
+  "per_cluster": {
+    "Abell2744": {
+      "gamma_internal_consistency": {
+        "max_abs_difference": 5.3039558411960286e-08,
+        "rms_abs_difference": 2.9556997112917354e-09,
+        "max_relative_difference": 9.808197600605745e-08,
+        "tolerance_passed": true,
+        "shape": [
+          180,
+          180
+        ]
+      },
+      "max_conservation_error": 2.220446049250313e-16,
+      "photon_count": 2000
+    },
+    "MACS0416": {
+      "gamma_internal_consistency": {
+        "max_abs_difference": 5.236827116394949e-08,
+        "rms_abs_difference": 3.4411315419228218e-09,
+        "max_relative_difference": 1.0489882416164053e-07,
+        "tolerance_passed": true,
+        "shape": [
+          180,
+          180
+        ]
+      },
+      "max_conservation_error": 2.220446049250313e-16,
+      "photon_count": 2000
+    },
+    "MACS1149": {
+      "gamma_internal_consistency": {
+        "max_abs_difference": 5.891826004855716e-08,
+        "rms_abs_difference": 4.098725300732534e-09,
+        "max_relative_difference": 1.1016516372442186e-07,
+        "tolerance_passed": true,
+        "shape": [
+          168,
+          168
+        ]
+      },
+      "max_conservation_error": 2.220446049250313e-16,
+      "photon_count": 2000
+    },
+    "AbellS1063": {
+      "gamma_internal_consistency": {
+        "max_abs_difference": 2.233260620876365e-08,
+        "rms_abs_difference": 2.629857502441703e-09,
+        "max_relative_difference": 1.0723563484073185e-07,
+        "tolerance_passed": true,
+        "shape": [
+          132,
+          132
+        ]
+      },
+      "max_conservation_error": 2.220446049250313e-16,
+      "photon_count": 2000
+    },
+    "Abell370": {
+      "gamma_internal_consistency": {
+        "max_abs_difference": 3.2815378747663715e-08,
+        "rms_abs_difference": 3.749044012220442e-09,
+        "max_relative_difference": 1.0947720665894349e-07,
+        "tolerance_passed": true,
+        "shape": [
+          240,
+          240
+        ]
+      },
+      "max_conservation_error": 2.220446049250313e-16,
+      "photon_count": 2000
+    }
+  },
+  "all_clusters_pass_internal_consistency": true,
+  "execution_seconds": 19.54967764695175
+}

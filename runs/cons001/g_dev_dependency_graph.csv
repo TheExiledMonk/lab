@@ -1,0 +1,8 @@
+edge_id,source,target,kind,basis,consequence
+C001-D01,g_dev,microscopic source J,direct linear coupling,corrected CORE-001/FND-002/FND-003,g_dev directly normalizes the matter-aligned microscopic source; no independent coupling multiplier remains.
+C001-D03,microscopic source J,coarse source s(rho),conditional coarse graining,CORE-001; MB-001,The map is conditional and its normalization is not independently fixed.
+C001-D04,coarse source s(rho),continuum deformation u,conditional constitutive response,WL-003/MB-001,Stiffness and closure coefficients introduce further independent scales.
+C001-D05,u,photon response n(u),missing map,PHOTON-001,beta=(dn/du)|_0 is undetermined and is not identified with g_dev.
+C001-D06,n(u),deflection and phase,conditional optical propagation,PHOTON-001,"Photon observables depend on n or beta and u, not on g_dev separately."
+C001-D07,g_dev,"equal-component vertex vector g_dev*(1,1,1)",explicit premise,FND-004/FND-005,Absolute amplitude scales with g_dev; normalized component-counting ratios cancel it.
+C001-D08,equal-component vertex,bright/dark and coherent ratios,linear algebra,FND-004/FND-005,The ratios sqrt(3) and 3 are g_dev-independent for nonzero common coupling.

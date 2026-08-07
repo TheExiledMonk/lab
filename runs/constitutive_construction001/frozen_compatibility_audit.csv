@@ -1,0 +1,40 @@
+candidate,requirement,result,note
+A,R01,pass,by construction
+A,R02,pass,by construction
+A,R03,pass,by construction
+A,R04,pass,by construction
+A,R05,pass,by construction
+A,R06,pass,by construction
+A,R07,pass,by construction
+A,R08,pass,by construction
+A,R09,pass,by construction
+A,R10,pass,by construction
+A,R11,pass,by construction
+A,R12,gate open,full metric compatibility cannot be established by a stored energy alone
+A,R13,pass,by construction
+B,R01,pass,by construction
+B,R02,pass,by construction
+B,R03,pass,by construction
+B,R04,pass,by construction
+B,R05,pass,by construction
+B,R06,pass,by construction
+B,R07,pass,by construction
+B,R08,pass,by construction
+B,R09,pass,by construction
+B,R10,pass,by construction
+B,R11,pass,by construction
+B,R12,gate open,full metric compatibility cannot be established by a stored energy alone
+B,R13,pass,by construction
+C,R01,pass,by construction
+C,R02,pass,by construction
+C,R03,pass,by construction
+C,R04,pass,by construction
+C,R05,pass,by construction
+C,R06,conditional,requires an admissible zero-2-jet complete barrier remainder and an elliptic declared propagation domain
+C,R07,pass,by construction
+C,R08,pass,by construction
+C,R09,pass,by construction
+C,R10,conditional,requires an admissible zero-2-jet complete barrier remainder and an elliptic declared propagation domain
+C,R11,pass,by construction
+C,R12,gate open,full metric compatibility cannot be established by a stored energy alone
+C,R13,pass,by construction

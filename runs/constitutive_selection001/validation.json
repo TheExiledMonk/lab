@@ -1,0 +1,40 @@
+{
+  "milestone": "PBUF CONSTITUTIVE-SELECTION-001",
+  "pass": true,
+  "checks": {
+    "all_frozen_sources_present": true,
+    "all_three_branches_classified": true,
+    "allowed_classifications_only": true,
+    "every_conclusion_has_mathematical_justification": true,
+    "minimal_remaining_freedom_identified": true,
+    "readiness_assessed": true,
+    "no_external_constitutive_theory": true,
+    "no_new_constants_or_coefficients": true,
+    "no_ontology_review": true,
+    "no_observational_fit": true,
+    "weak_lensing_and_v11_unchanged": true
+  },
+  "branch_results": {
+    "A": "Reduced",
+    "B": "Undetermined",
+    "C": "Reduced"
+  },
+  "readiness": "C \u2014 Multiple fundamentally different governing equations remain",
+  "sources": {
+    "FOUNDATION-001": "runs/foundation001/foundational_ontology.md",
+    "DEFORMATION-001": "runs/deformation001/deformation_measure_report.md",
+    "HYPER-001": "runs/hyper001/stored_energy_derivation.md",
+    "ENERGY-PRINCIPLE-001": "runs/energy_principle001/energy_selection_derivation.md",
+    "DURATION-001": "runs/duration001/emergent_duration_derivation.md",
+    "METRIC-001": "runs/metric001/effective_metric_derivation.md",
+    "BALANCE-001": "runs/balance001/native_balance_laws.md",
+    "CONSTITUTIVE-PRINCIPLES-001": "runs/constitutive_principles001/constitutive_principles_report.md"
+  },
+  "deliverables": [
+    "constitutive_selection_report.md",
+    "constitutive_elimination_table.csv",
+    "constraint_catalogue.json",
+    "remaining_freedom.json",
+    "validation.json"
+  ]
+}

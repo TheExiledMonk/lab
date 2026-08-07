@@ -1,0 +1,14 @@
+record_id,layer,frozen_statement,derivation_status,source,notes
+M-V11-01,V11,alpha_resolved ~ 3 alpha_EM = 3/137.036 ~ 0.0219,empirical/observational identity; QFT derivation deferred,"V11 (4), sec. 2.3.1",Numerical relation with a geometric-counting motivation. No dynamical field content is supplied at this layer.
+M-V11-02,V11,Factor three attributed to one contribution per spatial dimension,motivating consistency argument,V11 sec. 2.3.1,"V11 itself labels this as a motivating argument, not a derivation."
+M-V11-03,V11,alpha_QM produced by Quantum Engine from regulated QFT input,pipeline definition,V11 sec. 2.3,Quantum Engine is a black box at the V11 layer; no onsite Hamiltonian or field equation is exposed.
+M-V11-04,V11,"alpha_T(a), epsilon_0,T(a) supplied by thermal lookup table",LUT metadata,V11 sec. 2.2 / 2.3.2,Time-dependent elastic parameters come from a precomputed table.
+M-V11-05,V11,"GW170817 constraint: both gravitational and electromagnetic waves propagate as wave modes of the same medium, epsilon_0 ~ 1","observational constraint, not a derivation",V11 sec. 2.4,V11 takes the existence of wave modes from GR/EM and uses GW170817 only to fix epsilon_0.
+M-V11-06,V11,Omega_b0 = 2 alpha_resolved (two transverse EM polarizations),pipeline identity,"V11 (16), sec. 2.3.4","Polarization counting, not a structural identification of the microscopic field with an EM vector potential."
+M-CORE-01,CORE-001,Microscopic state q_i in R^3 at each lattice site,working premise (A01),CORE-001-A01,Three components stipulated; no derivation of why three.
+M-CORE-02,CORE-001,g_dev = 1/137 used as direct matter-vertex coupling,working premise (A02),CORE-001-A02,Equals alpha_EM numerically but is not identified with any EM field.
+M-CORE-03,CORE-001,Microscopic free energy: F = epsilon_* sum_i [kappa_0 |q_i|^2/2 + kappa_1 sum_<ij> |q_j - q_i|^2/2 - g_dev eta_i e.q_i],corrected microscopic free energy,CORE-001-E01,"Nearest-neighbour coupling has the form of a SCALAR gradient |q_j - q_i|^2, not the curl form |curl A|^2 of an EM vector field."
+M-CORE-04,CORE-001,Local evolution: tau dq_i/dt = -d(F/epsilon_*)/dq_i + xi_i,defined local evolution (overdamped),CORE-001-E02,First-order in time. Pure overdamped relaxation. No second-order kinetic term. No wave equation follows.
+M-CORE-05,CORE-001,Coarse graining: u(x) = e . sum_i a^d W_L(x-x_i) q_i,defined coarse graining,CORE-001-E03 / E04,Scalar projection along matter-selected direction e.
+M-CORE-06,CORE-001,Continuum limit: K u - Div(G grad u) = s(rho),conditional macroscopic limit,CORE-001-E09 / MB-001,Helmholtz-type elliptic equation. Time-independent. No wavefront.
+M-FND-02,FND-002,"Nearest-neighbour transmission is OPTIONAL or modelling choice, not derived",minimal-postulate audit,FND-002 assumption 6,FND-002 audits the nearest-neighbour term as a modelling choice; the static communication branch was later shown to be eliminable by Div(P_F).

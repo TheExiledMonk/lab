@@ -1,0 +1,99 @@
+{
+  "milestone": "PBUF METRIC-001 — Derivation of the Effective Relativistic Metric",
+  "status": "complete_admissible_family_unique_member_unselected",
+  "metric_map": {
+    "symbol": "G",
+    "domain": "A subset of {(q,C[q,q0],D): q in Q_adm, C in D_C, D accepted duration structure}",
+    "codomain": "Gamma(Lor(T*M)) subset Gamma(Sym^2(T*M))",
+    "equation": "g_eff = G[q,C[q,q0];D]",
+    "shorthand": "g_eff = G[q,C]",
+    "classification": [
+      "emergent operational geometry",
+      "measurement map",
+      "constitutive response"
+    ],
+    "not_classified_as": [
+      "the physical medium itself",
+      "a new fundamental field",
+      "a governing field equation"
+    ]
+  },
+  "mandatory_properties": {
+    "symmetric": true,
+    "signature": "(-,+,+,+)",
+    "nondegenerate": true,
+    "time_orientable_on_operational_domain": true,
+    "diffeomorphism_equivariance": "G[rho_f q,rho_f C] = pullback_f G[q,C]",
+    "gauge_basic": true,
+    "objective": true,
+    "reference_normalization": "G[q0,1] is locally eta in an unloaded V11 inertial frame",
+    "duration_match": "d tau^2 = -g_eff(dx,dx)/c^2",
+    "propagation_match": "g_eff(k,k)=0 for universal V11 signal characteristics"
+  },
+  "regularity": {
+    "minimum_global": "continuous on the interior operational domain",
+    "weak_limit": "Frechet or suitable Gateaux differentiable at q0",
+    "quadratic_remainder": "C2 at q0",
+    "at_hard_bound": "one-sided interior regularity only unless a regular extension is separately selected"
+  },
+  "dependence_classes": {
+    "general": "covariant functional, potentially nonlocal",
+    "local_subclass": "finite-jet natural operator Gcal(j^r q,j^r C;D), r finite but unselected",
+    "ultralocal": "admissible but not derived",
+    "derivative": "admissible but derivative order not derived",
+    "nonlocal": "admissible only with a covariant causal kernel",
+    "new_coefficients": []
+  },
+  "linearization": {
+    "equation": "g_eff = eta + R0[delta q] + O(norm(delta q)^2)",
+    "chain_rule": "R0 = D1G0 + D2G0 o DqC|q0",
+    "deformation_form": "C = 1 + 2 epsilon + O(epsilon^2)",
+    "v11_gate": "[R0 delta q]_gauge = [h_V11]_gauge",
+    "response_selected": false,
+    "observational_fit": false
+  },
+  "finite_bound": {
+    "required_interior": [
+      "det(g_eff) != 0",
+      "inertia(g_eff) = (1,3)",
+      "consistent time orientation"
+    ],
+    "admissible_endpoint_classes": [
+      "regular Lorentzian extension",
+      "operational domain terminates at the elastic boundary",
+      "loss of effective regularity defines an earlier/on-boundary limit of validity"
+    ],
+    "not_implied": [
+      "metric singularity",
+      "curvature singularity",
+      "horizon",
+      "black-hole metric",
+      "bounded metric response",
+      "divergent metric response"
+    ]
+  },
+  "covariance_split": {
+    "native_medium": [
+      "q quotient gauge invariance",
+      "C objectivity and similarity covariance",
+      "history reparametrization invariance"
+    ],
+    "effective_representation": [
+      "coordinate covariance",
+      "local Lorentz frame invariance",
+      "one Lorentzian causal cone"
+    ],
+    "bridge": "G descends to physical state classes and intertwines native and effective transformations"
+  },
+  "forbidden_actions_check": {
+    "foundation_modified": false,
+    "state_modified": false,
+    "deformation_modified": false,
+    "duration_modified": false,
+    "field_equations_derived": false,
+    "new_ontology_or_microscopic_fields": false,
+    "new_coupling_constants": false,
+    "observations_fitted": false,
+    "v11_modified": false
+  }
+}

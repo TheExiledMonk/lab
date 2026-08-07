@@ -1,0 +1,17 @@
+module,status,max_error,tolerance,n_tests_passed,n_tests_total,source_sha256
+M01_conventions,verified,0.0,1e-15,10,10,3915bb578b005d6e
+M02_coordinate_transforms,verified,0.0,1e-15,22,22,6d6cfeccae56f394
+M03_vector_transforms,verified,0.0,1e-14,42,42,6a35cd114900f379
+M04_tensor_transforms,verified,0.0,1e-14,28,28,5b534bccee4c75d8
+M05_pair_enumeration,verified,0.0,0.0,30,30,ad3f07b45056e104
+M06_a8_pair_amplitude,verified,0.0,1e-14,2,2,79261ab7f3ce6972
+M07_transverse_projector,verified,5.551115123125783e-17,1e-14,2,2,3fe82fa33bacb5d5
+M08_pair_transfer,verified,0.0,1e-14,1,1,9171fe4a8b92a7b2
+M09_endpoint_assembly,verified,2.432376777795247e-15,1e-14,2,2,9171fe4a8b92a7b2
+M10_midpoint_rasterization,verified,5.817019814258163,1e-14,2,2,9171fe4a8b92a7b2
+M11_field_diagnostics,verified,0.0,1e-15,4,4,fa93f1c101a8ef13
+M12_differential_operators,verified,0.0,1e-12,3,3,9b2777eecb604b69
+M13_helmholtz_3d,verified,0.0,1e-12,4,4,e14eed8a76667f60
+M14_los_projection,verified,0.0,1e-14,6,6,1c053d71516e71b7
+M15_ray_interface,verified,0.0,1e-15,4,4,4d946bd136157128
+M16_observable_extraction,verified,0.0,1e-15,4,4,fedd16e980cc910f

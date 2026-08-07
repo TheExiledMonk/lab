@@ -1,0 +1,135 @@
+{
+  "milestone": "PBUF LAB-FREEZE-001",
+  "kind": "regression_baseline",
+  "frozen_laboratory": "Version 1 weak-lensing laboratory",
+  "frozen_implementation_sha256": {
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "numerical_convergence001.py": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+    "transport_lab001.py": "877ddeaec5a49b43bae50d50aeb5f9363e195cd44d67d6acdd16222265aabb1c",
+    "transport_lab002.py": "0b532156360580e971b63bd1e7ef0600d05876af20ccf937c91d2f97be9a4184",
+    "transport_lab003.py": "ed36c7bd8a70505f4fbe4aac766edc404a8067f5f8858d77387846ee34161b45",
+    "transport_lab004.py": "ff38d371e5b74560e20de08dc72172a49ec5ea69496f32b79b7892ea38004883",
+    "transport_lab005.py": "c36fb5e0cf0d813ccb9a6ecef9976d4d386fc36a83a27ee1cf2b1b51bfbadf82",
+    "transport_lab006.py": "47f3f3d0c246a3e8354a6680ef7d145a7fc0199a78369ab1ead2d0a7095fa84c",
+    "transport_lab007.py": "d06d489504d7d12a2a684f369e703d460c6a2653ccbf6118dc0c829d044bf910",
+    "transport_lab008.py": "ee630bc72700407f263f8bbee49cfde923bd970605ebf200765fdd0b0e341a51",
+    "constitutive_lab001.py": "570c612b5d08d7de3494952958a2f3108f42f0b314736ebe31b8a0ff25f47192",
+    "input_lab001.py": "1ede495cac8738720a62eeef32bc3c7e87f5ab2d55d80afa64314a2d3b1e8611",
+    "input_lab002.py": "071ff78b5465178b2e908347fff7f67bf0638bf8b960d240a56dc5304597a360",
+    "observation_bridge001.py": "73ee7256bd0c4c6170a42ec4edf3ce5c22be2499c25807bd52ef11e8b9448b71",
+    "weak_lensing_prediction001.py": "428a5b2ca26c3493efb046d91e1729fe49d65b90c0050ccaf66073ec5fcd1442",
+    "weak_lensing_generalization001.py": "7669454c09045569ae676a1bcb047bd7d749ae34efcb1362893520bd62c9d7bd",
+    "weak_lensing_validation001.py": "5427fd051c7e85ed70ab4d8a12b66a6ef2756ea1b08969bb965fff9051354bab"
+  },
+  "input": {
+    "matter_field": "Abell 2744 SaWLens kappa FITS",
+    "matter_file": "PBUF_benchmark/WL-001_Abell2744/hlsp_frontier_model_abell2744_merten_v1_kappa.fits",
+    "matter_input_rule": "rho = max(kappa, 0) / max(max(kappa, 0))",
+    "interpolation_order": 1,
+    "cluster": "Abell2744"
+  },
+  "production_20k": {
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64,
+    "launch": "B (Cartesian 2D)",
+    "observable_method": "jacobian",
+    "trajectory_sha256": "80d8fe47bd0d45672e16c659fc1b095114106eacd6a52634fccde1fc81b41b3f",
+    "conservation_max_error": 2.220446049250313e-16,
+    "predicted_observables": {
+      "kappa_rms": 0.13521619990460226,
+      "kappa_peak_abs": 0.4519460883130435,
+      "kappa_mean": -0.004117441944991497,
+      "kappa_std": 0.13514970350284552,
+      "gamma_rms": 0.08608377717817386,
+      "gamma_peak_abs": null,
+      "runtime_propagation_seconds": 0.07101836602669209,
+      "runtime_jacobian_seconds": 0.20583759900182486,
+      "runtime_total_seconds": 0.5801745909266174,
+      "memory_tracemalloc_peak_mb": 35.75554180145264,
+      "memory_rss_peak_mb": 203.0625
+    }
+  },
+  "production_50k": {
+    "nphotons": 50000,
+    "grid_n": 512,
+    "step": 0.015,
+    "steps": 320,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64,
+    "launch": "B (Cartesian 2D)",
+    "observable_method": "jacobian",
+    "conservation_max_error": 2.220446049250313e-16,
+    "predicted_observables": {
+      "kappa_rms": 0.13429892300857313,
+      "kappa_peak_abs": 0.4701359900714615,
+      "kappa_mean": -0.004857284467849717,
+      "kappa_std": 0.13421380459506457,
+      "gamma_rms": 0.0846489604691841,
+      "gamma_peak_abs": null,
+      "runtime_propagation_seconds": 0.17833003995474428,
+      "runtime_jacobian_seconds": 0.3133327349787578,
+      "runtime_total_seconds": 1.09963979490567,
+      "memory_tracemalloc_peak_mb": 89.10842323303223,
+      "memory_rss_peak_mb": 322.58984375
+    }
+  },
+  "tolerances": {
+    "kappa_rms_relative": 0.01,
+    "kappa_mean_absolute": 0.01,
+    "kappa_std_relative": 0.01,
+    "kappa_peak_relative": 0.05,
+    "gamma_rms_relative": 0.01,
+    "conservation_absolute": 2.220446049250313e-16,
+    "trajectory_checksum": "byte-exact"
+  },
+  "secondary_method_baselines": {
+    "area": {
+      "nphotons_20000": {
+        "kappa_rms": 0.13248303085652685,
+        "gamma_rms": 0.06698510369687974
+      },
+      "nphotons_50000": {
+        "kappa_rms": 0.13151795194742047,
+        "gamma_rms": 0.06631441225115547
+      }
+    },
+    "triangulation": {
+      "nphotons_20000": {
+        "kappa_rms": 0.10883152248424664,
+        "gamma_rms": 0.7258979959279648
+      },
+      "nphotons_50000": {
+        "kappa_rms": 0.09797138611451073,
+        "gamma_rms": 0.7259024024317927
+      }
+    }
+  },
+  "reproduction_command": {
+    "minimum_production": "python -c 'import numpy, hashlib, json; from pathlib import Path; from weak_lensing_observation001 import make_field, propagate; from observable_lab001 import method_jacobian; from astropy.io import fits; from scipy.ndimage import map_coordinates; ...'",
+    "expected_runtime_seconds": {
+      "production_20k": 0.58,
+      "production_50k": 1.10
+    },
+    "checksum_verification": "sha256sum constitutive_equations.py weak_lensing_observation001.py observable_lab001.py source_plane_lab001.py"
+  },
+  "future_versions_required_to_reproduce": {
+    "description": "Any future version of the laboratory (Version 2+) MUST reproduce the predicted observables above within the stated tolerances before any physics change can be evaluated.",
+    "rejection_threshold": {
+      "kappa_rms_relative": 0.01,
+      "gamma_rms_relative": 0.01,
+      "trajectory_checksum": "byte-exact",
+      "conservation": "machine epsilon (2.220446049250313e-16)"
+    }
+  }
+}

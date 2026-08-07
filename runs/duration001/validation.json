@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "relabeling_invariance_numerical": true,
+    "duration_integrand_is_degree_one": true,
+    "s_tau_t_formally_distinct": true,
+    "tau_equals_ell_over_c_not_assumed": true,
+    "static_limit_zero": true,
+    "null_propagation_distinguished_from_clock_worldline": true,
+    "no_new_constant_or_coupling": true,
+    "no_fundamental_time_dimension": true,
+    "all_equations_traceable": true
+  },
+  "all_checks_pass": true,
+  "metrics": {
+    "native_integral": 1.3974764953605352,
+    "relabelled_integral": 1.3974764953333185,
+    "absolute_difference": 2.7216673359475863e-11
+  }
+}

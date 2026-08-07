@@ -1,0 +1,25 @@
+{
+  "E1_static_constrained_variation": [
+    "minimum potential energy",
+    "minimum stored energy when unloaded",
+    "constrained energy minimization",
+    "elastic equilibrium",
+    "static variational equilibrium",
+    "spectral equilibrium",
+    "geometric equilibrium using only q and C"
+  ],
+  "E2_history_variation": [
+    "stationary native action",
+    "dynamic variational equilibrium"
+  ],
+  "derived_not_selection_principles": [
+    "wave equilibrium",
+    "normal-mode equilibrium",
+    "Noether conservation/balance"
+  ],
+  "inadmissible_without_reduction": [
+    "thermodynamic equilibrium with independent entropy or temperature",
+    "geometric principle with independent metric/curvature field"
+  ],
+  "relation": "E1 is a static/quasistatic sector of E2 only after a kinetic/action and clock gauge are chosen; the frozen architecture does not justify identifying them globally."
+}

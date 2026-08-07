@@ -1,0 +1,9 @@
+from,to,status,reason
+Matter,Interaction,assumption,Matter identifies the medium/source but does not uniquely determine a coupling operator.
+Interaction,Neighbour communication,"derivable by definition, conditionally","Requires a genuinely nonlocal, gradient, or adjacency-coupling interaction rather than a pointwise operator."
+Neighbour communication,Wave propagation,not derivable,A kinetic/inertial evolution law and hyperbolicity/positive dispersion are additionally required; diffusion and elliptic equilibrium are counterexamples.
+Wave propagation,Deformation,derivable only as propagation of a specified deformation field,The wave variable must already be identified with the frozen deformation variable; waves do not define that variable.
+Deformation,Stored energy,assumption,A state variable admits many energies and may have none; an energy functional must be supplied.
+Stored energy,Stress,derivable conditionally,"For differentiable hyperelastic energy, stress is its first variation; nonsmooth energies give a subdifferential."
+Stress,Progressive hardening,not derivable,"Hardening needs a positive, amplitude-increasing tangent; linear stress is a counterexample."
+Progressive hardening,Recovery,not derivable dynamically,Hardening alone does not supply a stable reference minimum or an evolution law; energy stability plus admissible dynamics supplies restoring/recovery behavior.

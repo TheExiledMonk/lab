@@ -1,0 +1,19 @@
+{
+  "cluster_id": "MACS1149",
+  "model": "C10",
+  "channel_id": "CH1",
+  "channel_name": "Longitudinal (local-gradient)",
+  "decomposition_type": "local_longitudinal",
+  "padded_unpadded": "padded",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "dtype": "float64",
+  "response_rx_sha256": "a3c9fb6b4fa1e00c23733285ec6092b204cab8fec636342ebe031e479372bba0",
+  "response_ry_sha256": "5a8af249b8cc4427f0cd1d8f9204ab7d828cf1784db730539baa0bc8254a8514",
+  "kappa_sha256": "6d342bb3ad383b13703ba966a1b83710757af658034be87505ae32ad488d387c",
+  "gamma1_sha256": "328834c8451cd8bfbed5d33bffc85d11bf2faf4dad4b1104e1930ff661af411d",
+  "gamma2_sha256": "77c892d14cd001e13a50c53c9cbdc76dd660e5c214a1f8deabb031781bbcda74",
+  "frozen_source_hash": "f2ce6780b3bac6fc2ae5d8308db247743224ceec0ca602315c9b61a0a3ce027e"
+}

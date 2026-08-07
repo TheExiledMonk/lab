@@ -1,0 +1,17 @@
+{
+  "milestone": "PBUF WEAK-LENSING-GENERALIZATION-001",
+  "status": "OK",
+  "datasets": [
+    "isolated",
+    "binary",
+    "elongated",
+    "asymmetric",
+    "sparse",
+    "dense"
+  ],
+  "identical_pipeline": {
+    "weak_lensing_generalization001.py": "7669454c09045569ae676a1bcb047bd7d749ae34efcb1362893520bd62c9d7bd",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f"
+  },
+  "execution_seconds": 16.28972962696571
+}

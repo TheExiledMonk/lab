@@ -1,0 +1,7 @@
+principle_class,D1,D2,D3,assessment
+minimum/stationary stored energy,compatible,compatible,compatible with an explicit admissible set,neutral among D1-D3
+stationary action,compatible,compatible,compatible,neutral; endpoint treatment changes admissible histories
+constrained minimization,compatible,compatible as a barrier problem,naturally expresses D3,"weak structural affinity to D3, not selection"
+elastic/variational balance,inherits,inherits singular boundary resistance,uses variational inequalities at constrained endpoints,neutral
+spectral/geometric reformulations,inherits,inherits,inherits,neutral
+wave equilibrium,nonlinear waves may sample D1,may sense approach to D2,cannot cross D3,diagnostic only; selects none

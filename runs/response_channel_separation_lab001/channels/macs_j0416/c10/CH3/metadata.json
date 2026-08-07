@@ -1,0 +1,19 @@
+{
+  "cluster_id": "MACS0416",
+  "model": "C10",
+  "channel_id": "CH3",
+  "channel_name": "Irrotational (Helmholtz)",
+  "decomposition_type": "helmholtz_irrotational",
+  "padded_unpadded": "padded",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "dtype": "float64",
+  "response_rx_sha256": "56bcdf0ed7a6bc98f21704f6be2218f47ab6905b20207612a55a04109e8849fe",
+  "response_ry_sha256": "05133eeb076bebfe9702442103eb614426c08de07a65a7b5e5d6cb1d31b40f97",
+  "kappa_sha256": "b2c1fcf5bd7d62dd698add0523dd52f73a71665369b93d7269127b0410808f2a",
+  "gamma1_sha256": "3393b5d1e0f69720e2bd875aad4f2892cd845c09093dd686ca8c82806b15427e",
+  "gamma2_sha256": "a05fe3c9b35119080fd0f12235d37b08546fafbc7859c67185ce9df8df386105",
+  "frozen_source_hash": "552c1d3ad00330b6816190049f7172b1cd4fb7d0578fed842ecb84d5210b6b7b"
+}

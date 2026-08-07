@@ -1,0 +1,52 @@
+{
+  "milestone": "PBUF WEAK-LENSING-OBSERVATION-001",
+  "status": "OK",
+  "frozen_pipeline": {
+    "constitutive": "Version A: C(X) = 0.18 * rho(X) / rho_max",
+    "transport": "90-degree transverse response, direct addition + renormalisation",
+    "amplitude": "A = |grad C|",
+    "matter_input": "max(observed_kappa, 0) / max(max(observed_kappa, 0)) per cluster",
+    "lens_parameters": {
+      "n": 128,
+      "extent": 8.0,
+      "strength": 0.18,
+      "step": 0.06,
+      "steps": 80,
+      "y_span": 3.0,
+      "nphotons": 2000,
+      "bins": 64
+    }
+  },
+  "identical_pipeline_hashes": {
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f"
+  },
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "execution_seconds": 19.549559307051823
+}

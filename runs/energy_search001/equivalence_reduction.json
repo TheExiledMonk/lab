@@ -1,0 +1,23 @@
+{
+  "canonical_representation": "W(C)=Phi(I1,I2,I3)=symmetric w(lambda1,lambda2,lambda3)",
+  "equivalences": [
+    "spectral/invariant",
+    "C/E/H coordinate changes",
+    "volumetric-isochoric/full invariant coordinates"
+  ],
+  "overlaps": [
+    "polynomial is rational with constant denominator",
+    "finite exponential truncation is polynomial",
+    "logarithm is one possible barrier construction"
+  ],
+  "non_equivalences": [
+    "full exponential versus finite truncation",
+    "barrier versus saturation",
+    "hard constraint versus blow-up barrier"
+  ],
+  "reduced_property_classes": [
+    "hard extended-value",
+    "complete blow-up barrier",
+    "finite endpoint plus state constraint"
+  ]
+}

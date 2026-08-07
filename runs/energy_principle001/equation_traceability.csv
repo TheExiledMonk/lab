@@ -1,0 +1,16 @@
+equation_id,claim,premises,logical_status,remaining_gate
+EP-001,accepted invariant family,"DEFORMATION-001; HYPER-001 H-001/H-002",accepted,no unique Phi
+EP-002,similarity invariance,"HYPER-001 H-003/H-004",accepted/derived,none
+EP-003,constitutive response,"EP-001; invariant chain rule; HYPER-001 H-006/H-007",derived,gravity-response map
+EP-004,order-relabeling independence,"FP-3; state-function class",derived within accepted class,evolution law
+EP-005,C2 weak-field regularity,"FP-5; V11; Taylor expansion",compatibility condition,metric matching
+EP-006,isotropic weak tangent,"HYPER-001 H-011--H-015",derived,numerical/physical matching
+EP-007,tangent derivative combinations,"HYPER-001 H-013/H-015",derived definitions,constitutive scale
+EP-008,reference energy zero,"unloaded reference; additive-energy freedom",normalization,none
+EP-009,stress-free derivative identity,"EP-003; C=identity",derived,none
+EP-010,nonnegative global minimum,stable-energy requirement,conditional compatibility condition,uniqueness not derived
+EP-011,strict local stability,"EP-006; positive second variation",derived conditional criterion,well-posed dynamics
+EP-012,finite-C convexity criterion,"HYPER-001 H-021/H-022",derived criterion,convexity not mandated
+EP-013,finite positive spectral containment,"finite-bound premise; DEFORMATION-001",derived from additional premise,endpoints not fixed
+EP-014,invariant-domain image,"EP-013; elementary symmetric map",derived,domain shape not fixed
+EP-015,smallest unavoidable restricted family,"EP-001; EP-005; EP-008--EP-014",derived family,additional physics required

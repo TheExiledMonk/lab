@@ -1,0 +1,8 @@
+Rule,Mechanism,Stability,Behaviour
+Exp 1,Direct vector addition (baseline),stable,monotonic
+Exp 2,Pure rotation,stable,monotonic
+Exp 3,Projection update (r ⊥ v only),stable,monotonic
+Exp 4,Incremental shear,stable,monotonic
+Exp 5,Local momentum transfer (m=0.5),stable,monotonic
+Exp 6,Phase transfer,stable,oscillatory
+Exp 7,Mixed (rotation + translation + shear),stable,monotonic

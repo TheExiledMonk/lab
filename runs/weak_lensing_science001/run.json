@@ -1,0 +1,139 @@
+{
+  "milestone": "PBUF WEAK-LENSING-SCIENCE-001",
+  "kind": "first_scientific_prediction",
+  "status": "OK",
+  "frozen_laboratory": "Version 1 weak-lensing laboratory (LAB-FREEZE-001)",
+  "frozen_implementation_sha256": {
+    "constitutive_equations.py": {
+      "expected_sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+      "actual_sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+      "match": true
+    },
+    "weak_lensing_observation001.py": {
+      "expected_sha256": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+      "actual_sha256": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+      "match": true
+    },
+    "observable_lab001.py": {
+      "expected_sha256": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+      "actual_sha256": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+      "match": true
+    },
+    "source_plane_lab001.py": {
+      "expected_sha256": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+      "actual_sha256": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+      "match": true
+    },
+    "numerical_convergence001.py": {
+      "expected_sha256": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+      "actual_sha256": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+      "match": true
+    }
+  },
+  "production_minimum": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "production_high_accuracy": {
+    "label": "high_accuracy",
+    "nphotons": 50000,
+    "grid_n": 512,
+    "step": 0.015,
+    "steps": 320,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "regression_reproduction": {
+    "trajectory_sha256_reproduced": "80d8fe47bd0d45672e16c659fc1b095114106eacd6a52634fccde1fc81b41b3f",
+    "trajectory_sha256_expected": "80d8fe47bd0d45672e16c659fc1b095114106eacd6a52634fccde1fc81b41b3f",
+    "sha_match": true,
+    "kappa_rms_reproduced": 0.13521619990460226,
+    "kappa_rms_expected": 0.13521619990460226,
+    "kappa_rms_relative_change_percent": 0.0,
+    "kappa_peak_abs_reproduced": 0.45194530817333756,
+    "kappa_peak_abs_expected": 0.4519460883130435,
+    "kappa_mean_reproduced": -0.004117441944991497,
+    "kappa_mean_expected": -0.004117441944991497,
+    "kappa_mean_absolute_change": 0.0,
+    "kappa_std_reproduced": 0.13515349565760768,
+    "kappa_std_expected": 0.13514970350284553,
+    "gamma_rms_reproduced": 0.08608377717817386,
+    "gamma_rms_expected": 0.08608377717817386,
+    "gamma_rms_relative_change_percent": 0.0,
+    "conservation_max_reproduced": 2.220446049250313e-16,
+    "conservation_max_expected": 2.220446049250313e-16,
+    "conservation_match": true,
+    "minimum_production_cross_check": {
+      "grid_n": 256,
+      "step": 0.03,
+      "kappa_rms": 0.13336683084763037,
+      "gamma_rms": 0.08905748338107283,
+      "kappa_rms_relative_change_percent": 1.3677126396664423,
+      "gamma_rms_relative_change_percent": 3.454432763497438,
+      "within_1pct_tolerance": false
+    },
+    "reproduction_ok": true,
+    "runtime_propagation_seconds": 0.0683802159037441,
+    "runtime_extraction_seconds": 0.08870532503351569,
+    "baseline_configuration_actually_used": {
+      "label": "regression_baseline_actual",
+      "nphotons": 20000,
+      "grid_n": 128,
+      "step": 0.06,
+      "steps": 80,
+      "y_span": 3.0,
+      "extent": 8.0,
+      "strength": 0.18,
+      "bins": 64
+    },
+    "baseline_metadata_records": {
+      "grid_n": 256,
+      "step": 0.03,
+      "steps": 160,
+      "note": "regression_baseline.json labels the SHA as 'production_20k' with grid_n=256 but the recorded SHA was actually produced at grid_n=128 (NUMERICAL-CONVERGENCE-001 Group A default)."
+    }
+  },
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "observable_method": "jacobian (frozen primary)",
+  "launch": "B (Cartesian 2D, frozen from SOURCE-PLANE-LAB-001)",
+  "code_modified": false,
+  "fitting_performed": false,
+  "cosmological_bridges_introduced": false,
+  "execution_seconds_total": 96.69162303803023,
+  "execution_seconds_high_accuracy_phase": 69.02164449298289
+}

@@ -1,0 +1,60 @@
+{
+  "run_id": "20260804T131920Z",
+  "equation_id": "PBUF-VERSION-B",
+  "equation_version": "B",
+  "equation_description": "quadratic local matter loading",
+  "equation_formula": "u = u0 (rho/rho_max)^2",
+  "inputs": [
+    "observed baryonic mass map",
+    "fixed PBUF constants"
+  ],
+  "config": {
+    "n": 128,
+    "extent": 8.0,
+    "source_x": 1.25,
+    "source_y": 0.35,
+    "mass_x": -0.65,
+    "mass_y": 0.0,
+    "mass_sigma": 0.75,
+    "mass_amplitude": 1.0,
+    "deformation_strength": 0.18,
+    "photon_steps": 80,
+    "photon_step_size": 0.06
+  },
+  "git_commit": "untracked",
+  "execution_seconds": 0.5893721580505371,
+  "checksums": {
+    "matter": "954b89b15e468c5472dbc61a4507f09f462b970302ae36ffe9524ff952a71dcb",
+    "deformation": "122615ec6f70e76817338732078636fb2e31430527591c729b1559b02c7ebca9",
+    "gradient_x": "dbc17fc25fc50f36f93abd01eb64d64f57ebe44a7b22ad67b1b9a4f1541a2c13",
+    "gradient_y": "742890a10fda5f32e8a9e5c67ef5e0601bc42d9361eae3861654a5ae42ee99c5",
+    "observation": "dbe28959bd9e5396906d6ddfc3e33ad721b1c4ef4b0a15d6d819344a3224cbb1",
+    "baryonic_gr": "8e245def902672f7edb4989e68ae70ed4400f155067d18a147b892e0077ed975",
+    "lcdm": "1202da081005322c008d9a5d0c7569055bcbacade15a10e8889683923be79364",
+    "pbuf": "c27081c506e804e327a3961132399a0928fb4d6260e88149604c14c961ab1e93",
+    "residual": "b95883a354ca3b968e1d123735b54672d22c3617edca039883baef0de57e1e39"
+  },
+  "diagnostics": {
+    "deformation_min": 1.196217120753143e-108,
+    "deformation_max": 0.18,
+    "deformation_mean": 0.0012358845034620804,
+    "deformation_std": 0.010528862248689153,
+    "gradient_rms": 0.019710980924650765,
+    "gradient_max": 0.20392511882225267,
+    "photon_max_deviation": 6.3674124861634596e-09,
+    "finite_outputs": true
+  },
+  "validation": {
+    "zero_mass_zero_deformation": true,
+    "symmetric_mass_symmetric_deformation": true,
+    "zero_deformation_straight_paths": true,
+    "nonzero_deformation_changes_paths": false,
+    "full_pipeline_completed": true
+  },
+  "summary": {
+    "rmse_pbuf": 0.00019210569324043723,
+    "rmse_baryonic_gr": 0.003881056810842542,
+    "rmse_lcdm": 0.026165221430429757
+  },
+  "status": "FAIL"
+}

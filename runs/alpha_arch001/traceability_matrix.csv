@@ -1,0 +1,23 @@
+record_id,document,equation_id,symbol_used,corrected_symbol,physical_meaning,corresponding_V11_quantity,derivation_status,downstream_dependencies
+AA-001,V11,sec. 2.3 prose,alpha_QM,alpha_QM,Quantum Engine elastic amplitude,alpha_QM,authoritative definition,metadata and thermal LUT
+AA-002,V11,sec. 2.2 prose,alpha_resolved,alpha_resolved,resolved elastic amplitude entering cosmology,alpha_resolved,authoritative definition,"eqs. (9) and (16); background and growth pipeline"
+AA-003,V11,eqs. (5) and (8),alpha_T(a),alpha_T(a),thermal LUT elastic amplitude,alpha_T(a),authoritative definition,"k_max(a); Omega_sigma_raw(a)"
+AA-004,V11,eq. (4),alpha_EM,alpha_EM,electromagnetic fine-structure constant,alpha_EM,authoritative definition,implemented numerical relation to alpha_resolved
+AA-005,V11,eq. (4),alpha_resolved ~= 3 alpha_EM,unchanged,implemented amplitude-level relationship between distinct quantities,"alpha_resolved; alpha_EM",implemented numerical relationship; dimensional explanation is motivating only,"alpha_resolved normalization; Omega_b0"
+AA-006,V11,eq. (15),alpha,alpha_resolved,cosmological elastic amplitude,alpha_resolved,context-derived from the surrounding V11 pipeline,"Omega_sigma(a); E(a); H(a); distance and growth"
+AA-007,CORE-001,CORE-001-A02,alpha_*,g_dev,direct microscopic matter-state vertex coefficient,none,new post-V11 numerical premise,CORE-001-E01 and E07
+AA-008,CORE-001,CORE-001-E01,alpha_*,g_dev,coefficient of matter loading in microscopic free energy,none,conditional exploratory definition,CORE-001-E07 and E09
+AA-009,CORE-001,CORE-001-E07,alpha_*,g_dev,normalization of coarse source s(rho),none,conditional derivation from CORE assumptions,continuum field u
+AA-010,MB-001,closure-gap prose,alpha_T,alpha_T(a),candidate V11 thermal LUT input,alpha_T(a),identified by V11 role; no closure supplied,potential micro-macro closure only
+AA-011,FND-001,not available,none,none,no FND-001 artifact exists in repository,none,not auditable,CONS-001 historical sector label only
+AA-012,FND-002,assumption 2 / A02,alpha_*,g_dev,direct exploratory matter-state vertex coefficient,none,new post-V11 premise,CORE source and later ontology studies
+AA-013,FND-003,T07 and source equations,alpha_*,g_dev,direct exploratory matter-state vertex coefficient,none,post-V11 premise not derived from three-dimensionality,CORE source and FND-004
+AA-014,FND-004,P01/P08-P10 and vertex equations,alpha_* or alpha,g_dev,equal per-component exploratory vertex coefficient,none,post-V11 premise; counting ratios conditional,"bright/dark modes; absolute amplitudes; normalized ratios"
+AA-015,FND-005,P01/P08 and observable scaling,alpha_* or alpha,g_dev,exploratory vertex coefficient controlling absolute response,none,post-V11 premise; no observational fit,"experimental signatures; normalized ratios cancel g_dev"
+AA-016,PHOTON-001,assumptions/prose,alpha_* or alpha,g_dev,upstream exploratory matter-state vertex coefficient,none,no optical mapping derived,"none directly; photon response remains n(u) or beta"
+AA-017,CONS-001,C001-D01 and constraint matrix,alpha,g_dev,symbolic exploratory matter-state vertex coefficient,none,post-V11 construct propagated from CORE-001,"source J; conditional u; absolute component response"
+AA-018,CONS-001,C001-D05-D06,alpha,g_dev,claimed absence of coupling to photon response,none,negative traceability result,"n(u); beta; deflection and phase"
+AA-019,CONS-001,C001-D07-D08,alpha,g_dev,equal-component exploratory vertex coefficient,none,conditional linear-algebra construction,"bright/dark modes and normalized ratios"
+AA-020,ERR-001,ERR-001-E01/E03,alpha_*,g_dev,direct exploratory matter-state vertex coefficient,none,corrected post-V11 model after auxiliary-coupling removal,CORE source and continuum response
+AA-021,ERR-001,ERR-001-E04/E05,alpha_*,g_dev,equal-component exploratory vertex coefficient,none,conditional identity; not V11 equation (4),bright/dark and coherent ratios
+AA-022,ERR-001,ERR-001-E06,alpha_*,g_dev,explicitly absent mapping to optical beta,none,negative traceability result,photon observables

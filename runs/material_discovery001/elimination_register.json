@@ -1,0 +1,230 @@
+{
+  "compatible": [],
+  "conditional": [
+    {
+      "key": "E01",
+      "name": "Hookean linear elasticity",
+      "reason": "Admissible only as the frozen weak-field tangent."
+    },
+    {
+      "key": "E02",
+      "name": "Saint-Venant-Kirchhoff",
+      "reason": "Fits the native C but fails a global stability guarantee."
+    },
+    {
+      "key": "E03",
+      "name": "Compressible neo-Hookean",
+      "reason": "Direct invariant lift is possible; full spectral gates remain to prove."
+    },
+    {
+      "key": "E04",
+      "name": "Mooney-Rivlin",
+      "reason": "Compatible functional form on C; parameter restrictions required."
+    },
+    {
+      "key": "E05",
+      "name": "Ogden principal-stretch series",
+      "reason": "Uses the frozen spectrum directly but needs strict coefficient/domain audit."
+    },
+    {
+      "key": "E06",
+      "name": "Yeoh/reduced polynomial",
+      "reason": "Matches MATERIAL-LAB polynomial class after tensor stability checks."
+    },
+    {
+      "key": "E07",
+      "name": "Gent finite extensibility",
+      "reason": "Natural barrier representative, never selected or parameterized here."
+    },
+    {
+      "key": "E08",
+      "name": "Arruda-Boyce eight-chain",
+      "reason": "Only its macroscopic invariant response may be compared."
+    },
+    {
+      "key": "E09",
+      "name": "Fung-Demiray exponential",
+      "reason": "Macroscopic exponential class is admissible after normalization."
+    },
+    {
+      "key": "E10",
+      "name": "Hencky logarithmic elasticity",
+      "reason": "H is an authorized reparametrization of C."
+    },
+    {
+      "key": "E11",
+      "name": "Incompressible hyperelastic constraint",
+      "reason": "Usable only if later derivation removes the volumetric mode."
+    },
+    {
+      "key": "W01",
+      "name": "Strain-gradient elasticity",
+      "reason": "Matches LAB-002 interaction slot if ell is derived under FP-6."
+    },
+    {
+      "key": "W02",
+      "name": "Integral nonlocal elasticity",
+      "reason": "Admissible interaction form after objective tensor construction."
+    },
+    {
+      "key": "W03",
+      "name": "Bond-based peridynamics",
+      "reason": "Elastic state-based limit may serve interaction; breaking is incompatible with recovery."
+    },
+    {
+      "key": "W05",
+      "name": "Nonlinear elastic wave continuum",
+      "reason": "A governing-equation template, not a selected PBUF law."
+    },
+    {
+      "key": "F01",
+      "name": "Tension-only cable/rope network",
+      "reason": "Only homogenized isotropic network response may be compared."
+    },
+    {
+      "key": "F02",
+      "name": "Worm-like-chain network",
+      "reason": "Macroscopic barrier structure only; microscopic story is excluded."
+    },
+    {
+      "key": "V02",
+      "name": "Kelvin-Voigt viscoelastic solid",
+      "reason": "Could be downstream dissipation only after DURATION-001-compatible derivation."
+    },
+    {
+      "key": "V04",
+      "name": "Standard linear solid",
+      "reason": "Possible downstream dissipative completion, not native energy law."
+    },
+    {
+      "key": "C01",
+      "name": "Open-cell/bending-dominated foam",
+      "reason": "Homogenized reversible branch only; literal foam ontology excluded."
+    },
+    {
+      "key": "C02",
+      "name": "Affine entropic network",
+      "reason": "Use only the homogenized invariant energy class."
+    },
+    {
+      "key": "H01",
+      "name": "Gradient hyperelastic hybrid",
+      "reason": "A family for future testing, not a preferred model."
+    },
+    {
+      "key": "H03",
+      "name": "Visco-hyperelastic solid",
+      "reason": "Only as a later duration-compatible dissipative completion."
+    }
+  ],
+  "ontology-change": [
+    {
+      "key": "W04",
+      "name": "Micropolar/Cosserat elasticity",
+      "reason": "Independent microrotation is absent from the frozen state unless derived from C/q."
+    },
+    {
+      "key": "F03",
+      "name": "Holzapfel-Gasser-Ogden fibre composite",
+      "reason": "Independent preferred directions violate the current minimal isotropic closure unless derived."
+    },
+    {
+      "key": "M01",
+      "name": "Prestretched membrane",
+      "reason": "Dimensional reduction is not authorized as the complete spacetime medium."
+    },
+    {
+      "key": "M02",
+      "name": "Elastic plate/shell bending",
+      "reason": "Not a complete 3D isotropic medium without a derived shell reduction."
+    },
+    {
+      "key": "V05",
+      "name": "Oldroyd-B viscoelastic fluid",
+      "reason": "Multiple sectors/internal state are unauthorized and total deformation is not recovered."
+    },
+    {
+      "key": "V06",
+      "name": "Two-fluid superfluid hydrodynamics",
+      "reason": "Interpenetrating components and quantum postulates are not authorized."
+    },
+    {
+      "key": "L01",
+      "name": "Harmonic crystal/phonon lattice",
+      "reason": "Only its homogenized continuum interaction structure is comparable."
+    },
+    {
+      "key": "L02",
+      "name": "Fermi-Pasta-Ulam nonlinear lattice",
+      "reason": "Its continuum gradient-hyperelastic limit is an admissible analogy only."
+    },
+    {
+      "key": "L03",
+      "name": "Central pair-potential continuum",
+      "reason": "Only the symmetric nonlocal-kernel limit can be retained."
+    },
+    {
+      "key": "A03",
+      "name": "Shape-memory phase-transforming solid",
+      "reason": "Cannot enter without authorized phase/thermal state enlargement."
+    },
+    {
+      "key": "A04",
+      "name": "Jammed granular/contact network",
+      "reason": "Continuum scaling may inspire tests but cannot be imported literally."
+    },
+    {
+      "key": "X01",
+      "name": "Magnetoelastic continuum",
+      "reason": "Mathematical comparison only; no EM ontology may be assumed."
+    },
+    {
+      "key": "X02",
+      "name": "Liquid-crystal elastomer",
+      "reason": "Excluded unless orientation is derived from the existing q/C field."
+    },
+    {
+      "key": "T02",
+      "name": "Locally resonant elastic metamaterial",
+      "reason": "Cannot be native without deriving internal modes from existing state."
+    },
+    {
+      "key": "H02",
+      "name": "Fibre-reinforced matrix hybrid",
+      "reason": "Conditional only if fibre directions emerge from C/q without ontology change."
+    }
+  ],
+  "incompatible": [
+    {
+      "key": "V01",
+      "name": "Ideal/barotropic fluid",
+      "reason": "Fails the required shear channel of objective C as a complete material."
+    },
+    {
+      "key": "V03",
+      "name": "Maxwell viscoelastic fluid",
+      "reason": "Permanent flow conflicts with the reversible stored-deformation role."
+    },
+    {
+      "key": "V07",
+      "name": "Gross-Pitaevskii/BEC continuum",
+      "reason": "Would replace rather than instantiate the frozen C-based ontology."
+    },
+    {
+      "key": "A01",
+      "name": "Rate-independent plasticity with work hardening",
+      "reason": "Work hardening is not the frozen progressive elastic hardening requirement."
+    },
+    {
+      "key": "A02",
+      "name": "Continuum damage/phase-field fracture",
+      "reason": "Violates recovery and minimal frozen state as a complete mechanism."
+    },
+    {
+      "key": "T01",
+      "name": "Negative-stiffness stabilized composite",
+      "reason": "Useful elimination control, not an admissible complete law."
+    }
+  ],
+  "unknown": []
+}

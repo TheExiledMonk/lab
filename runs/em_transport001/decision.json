@@ -1,0 +1,20 @@
+{
+  "milestone": "PBUF EM-TRANSPORT-001",
+  "outcome": "B",
+  "headline": "The V11 electromagnetic microscopic structure (alpha_resolved ~ 3 alpha_EM, the CORE-001 q in R^3 with g_dev = 1/137) is insufficient to determine the neighbour-to-neighbour propagation law required for weak-lensing wavefront evolution. Neighbour coupling at the energy level is present (kappa_1 in CORE-001-E01), but the overdamped local evolution CORE-001-E02 and the static Helmholtz continuum form CORE-001-E09 contain no time-derivative structure. The exact missing local physical principle is a kinetic sector supplying positive momentum density (or an equivalent symplectic structure), whose absence was already flagged by INERTIA-001 as the closure gap left by the static elastic energy.",
+  "summary": [
+    "alpha_resolved ~ 3 alpha_EM is a numerical identity and a motivating counting argument; it does not supply a dynamical field theory for transport.",
+    "CORE-001's q in R^3 plus g_dev eta e.q coupling is structurally a scalar triplet, not an EM vector potential: it has a mass-like onsite term kappa_0|q|^2 and a scalar gradient |q_j - q_i|^2, neither of which matches the gauge-invariant curl form |curl A|^2 of a Maxwell field.",
+    "Neighbour coupling in CORE-001-E01 is static; under the overdamped evolution CORE-001-E02 it relaxes, it does not propagate.",
+    "The coarse-grained field u satisfies the Helmholtz equation Ku - Div(G grad u) = s(rho), which has no time evolution; no wavefront follows without a kinetic sector.",
+    "The kinetic sector cannot be derived from F alone, from alpha_EM, or from alpha_resolved. INERTIA-001 already identified this as the irreducible closure gap.",
+    "Therefore transport is not mathematically identical to, or derivable from, the local electromagnetic propagation equations already implied by the V11 microscopic structure. A genuinely new local physical principle - the kinetic closure - is unavoidable. It is left explicitly open by this milestone."
+  ],
+  "no_new_physics": true,
+  "no_v11_change": true,
+  "no_weak_lensing_change": true,
+  "no_free_transport_constant": true,
+  "no_metric_ansatz": true,
+  "no_quantum_or_cosmology_derivation": true,
+  "no_independent_em_sector": true
+}

@@ -1,0 +1,15 @@
+module_name,independent_reference_classification,n_independent_tests_passed,n_independent_tests_total
+M01_conventions,closed_form_reference,19,19
+M02_coordinate_transforms,closed_form_reference,36,36
+M03_vector_transforms,duplicate_regression_only,42,42
+M04_tensor_transforms,explicit_loop_reference,42,42
+M05_pair_enumeration,explicit_loop_reference,39,39
+M08_pair_transfer,duplicate_regression_only,3,3
+M09_endpoint_assembly,closed_form_reference,2,2
+M10_midpoint_rasterization,duplicate_regression_only,5,5
+M11_field_diagnostics,duplicate_regression_only,4,4
+M12_differential_operators,explicit_loop_reference,9,9
+M13_helmholtz_3d,explicit_loop_reference,8,8
+M14_los_projection,duplicate_regression_only,8,8
+M15_ray_interface,duplicate_regression_only,6,6
+M16_observable_extraction,duplicate_regression_only,15,15

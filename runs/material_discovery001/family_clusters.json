@@ -1,0 +1,163 @@
+{
+  "classical elastic": [
+    "E01"
+  ],
+  "classical hyperelastic": [
+    "E02"
+  ],
+  "isotropic hyperelastic": [
+    "E03",
+    "E04",
+    "E05"
+  ],
+  "progressive hyperelastic": [
+    "E06",
+    "E09"
+  ],
+  "finite-extensible hyperelastic": [
+    "E07",
+    "E08"
+  ],
+  "strain-measure hyperelastic": [
+    "E10"
+  ],
+  "constraint class": [
+    "E11"
+  ],
+  "gradient/nonlocal": [
+    "W01",
+    "W02",
+    "W03"
+  ],
+  "generalized continuum": [
+    "W04"
+  ],
+  "wave/nonlinear": [
+    "W05"
+  ],
+  "fibre/network": [
+    "F01",
+    "F02"
+  ],
+  "anisotropic hyperelastic": [
+    "F03"
+  ],
+  "membrane/shell": [
+    "M01",
+    "M02"
+  ],
+  "fluid": [
+    "V01"
+  ],
+  "viscoelastic": [
+    "V02",
+    "V03",
+    "V04"
+  ],
+  "viscoelastic fluid": [
+    "V05"
+  ],
+  "quantum/fluid": [
+    "V06",
+    "V07"
+  ],
+  "lattice/crystal": [
+    "L01",
+    "L02"
+  ],
+  "field-mediated/network": [
+    "L03"
+  ],
+  "cellular/topological": [
+    "C01",
+    "C02"
+  ],
+  "inelastic/history": [
+    "A01",
+    "A02"
+  ],
+  "phase-transforming": [
+    "A03"
+  ],
+  "contact/topological": [
+    "A04"
+  ],
+  "field-coupled": [
+    "X01"
+  ],
+  "field-coupled/anisotropic": [
+    "X02"
+  ],
+  "metamaterial": [
+    "T01",
+    "T02"
+  ],
+  "hybrid": [
+    "H01",
+    "H02",
+    "H03"
+  ],
+  "naturally C-based local energies": [
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08",
+    "E09",
+    "E10"
+  ],
+  "intrinsic neighbour-coupled": [
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E09",
+    "E10",
+    "W01",
+    "W02",
+    "W03",
+    "W04",
+    "W05",
+    "F01",
+    "F02",
+    "M01",
+    "M02",
+    "V02",
+    "V07",
+    "L01",
+    "L02",
+    "L03",
+    "C01",
+    "C02",
+    "A01",
+    "A02",
+    "A04",
+    "T01",
+    "H01",
+    "H02",
+    "H03"
+  ],
+  "finite-extensible/barrier": [
+    "E02",
+    "E03",
+    "E04",
+    "E08",
+    "F02",
+    "V05",
+    "V07",
+    "C02",
+    "H02"
+  ],
+  "irreversible/history-dependent": [
+    "V01",
+    "V03",
+    "V07",
+    "A01",
+    "A02",
+    "T01"
+  ]
+}

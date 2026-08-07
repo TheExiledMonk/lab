@@ -1,0 +1,144 @@
+{
+  "milestone": "PBUF LAB-FREEZE-001",
+  "status": "OK",
+  "kind": "engineering_freeze",
+  "scope": "documentation_only",
+  "frozen_components": {
+    "constitutive": {
+      "version": "A",
+      "formula": "C(X) = 0.18 * rho(X) / rho_max",
+      "implementation": "constitutive_equations.py:version_a"
+    },
+    "transport": {
+      "law": "neighbour-to-neighbour",
+      "response_direction": "90 deg transverse (R_90 of grad C)",
+      "response_magnitude": "linear A = |grad C|",
+      "update_rule": "direct addition v_new = v + step * r",
+      "normalisation": "per-step unit-speed renormalisation",
+      "kernel": "searchsorted + clip (bilinear)",
+      "implementation": "weak_lensing_observation001.py:make_field + propagate"
+    },
+    "source_plane": {
+      "frozen_launch": "B",
+      "description": "uniform Cartesian 2D grid",
+      "implementation": "source_plane_lab001.py:launch_B_cartesian"
+    },
+    "observable_extraction": {
+      "primary": "jacobian (ray-bundle linear fit per bin)",
+      "secondary": ["area", "triangulation"],
+      "supporting": ["kernel", "knn", "voronoi", "divergence"],
+      "legacy": ["histogram"],
+      "implementation": "observable_lab001.py:METHOD_DISPATCH"
+    },
+    "numerical_parameters": {
+      "n": 128,
+      "extent": 8.0,
+      "strength": 0.18,
+      "step": 0.06,
+      "steps": 80,
+      "y_span": 3.0,
+      "nphotons_legacy": 2000,
+      "nphotons_minimum_production": 20000,
+      "nphotons_high_accuracy": 50000,
+      "bins": 64
+    },
+    "matter_input": {
+      "rule": "rho = max(kappa_observed, 0) / max(max(kappa_observed, 0))",
+      "default_cluster": "Abell2744",
+      "frozen_FITS": "PBUF_benchmark/WL-001_Abell2744/hlsp_frontier_model_abell2744_merten_v1_kappa.fits"
+    }
+  },
+  "frozen_source_hashes": {
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "numerical_convergence001.py": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+    "transport_lab001.py": "877ddeaec5a49b43bae50d50aeb5f9363e195cd44d67d6acdd16222265aabb1c",
+    "transport_lab002.py": "0b532156360580e971b63bd1e7ef0600d05876af20ccf937c91d2f97be9a4184",
+    "transport_lab003.py": "ed36c7bd8a70505f4fbe4aac766edc404a8067f5f8858d77387846ee34161b45",
+    "transport_lab004.py": "ff38d371e5b74560e20de08dc72172a49ec5ea69496f32b79b7892ea38004883",
+    "transport_lab005.py": "c36fb5e0cf0d813ccb9a6ecef9976d4d386fc36a83a27ee1cf2b1b51bfbadf82",
+    "transport_lab006.py": "47f3f3d0c246a3e8354a6680ef7d145a7fc0199a78369ab1ead2d0a7095fa84c",
+    "transport_lab007.py": "d06d489504d7d12a2a684f369e703d460c6a2653ccbf6118dc0c829d044bf910",
+    "transport_lab008.py": "ee630bc72700407f263f8bbee49cfde923bd970605ebf200765fdd0b0e341a51",
+    "constitutive_lab001.py": "570c612b5d08d7de3494952958a2f3108f42f0b314736ebe31b8a0ff25f47192",
+    "input_lab001.py": "1ede495cac8738720a62eeef32bc3c7e87f5ab2d55d80afa64314a2d3b1e8611",
+    "input_lab002.py": "071ff78b5465178b2e908347fff7f67bf0638bf8b960d240a56dc5304597a360",
+    "observation_bridge001.py": "73ee7256bd0c4c6170a42ec4edf3ce5c22be2499c25807bd52ef11e8b9448b71",
+    "weak_lensing_prediction001.py": "428a5b2ca26c3493efb046d91e1729fe49d65b90c0050ccaf66073ec5fcd1442",
+    "weak_lensing_generalization001.py": "7669454c09045569ae676a1bcb047bd7d749ae34efcb1362893520bd62c9d7bd",
+    "weak_lensing_validation001.py": "5427fd051c7e85ed70ab4d8a12b66a6ef2756ea1b08969bb965fff9051354bab"
+  },
+  "validation_trail": [
+    "TRANSPORT-LAB-001",
+    "TRANSPORT-LAB-002",
+    "TRANSPORT-LAB-003",
+    "TRANSPORT-LAB-004",
+    "TRANSPORT-LAB-005",
+    "TRANSPORT-LAB-006",
+    "TRANSPORT-LAB-007",
+    "TRANSPORT-LAB-008",
+    "CONSTITUTIVE-LAB-001",
+    "WEAK-LENSING-PREDICTION-001",
+    "WEAK-LENSING-GENERALIZATION-001",
+    "WEAK-LENSING-VALIDATION-001",
+    "OBSERVATION-BRIDGE-001",
+    "INPUT-LAB-001",
+    "INPUT-LAB-002",
+    "OBSERVABLE-LAB-001",
+    "SOURCE-PLANE-LAB-001",
+    "NUMERICAL-CONVERGENCE-001"
+  ],
+  "outcomes": {
+    "transport_lab008": "linear A = |grad C| selected",
+    "constitutive_lab001": "Version A (no kernel) selected",
+    "observable_lab001": "histogram suppress confirmed; jacobian/area/triangulation validated for 2D launch",
+    "source_plane_lab001": "Launch B (Cartesian 2D) selected",
+    "numerical_convergence001": "Outcome A: convergence demonstrated (kappa=0.134, gamma=0.084 at nphotons=100k)",
+    "weak_lensing_validation001": "9 of 10 tests PASS; Mirror FAIL by design (chirality)",
+    "observation_bridge001": "PARTIAL compatibility across kappa/gamma/gamma1/gamma2/gamma; NOT comparable for magnification",
+    "input_lab001": "null result intrinsic to histogram extraction rule",
+    "input_lab002": "null result confirmed; gamma non-monotonic in distance"
+  },
+  "production_thresholds": {
+    "minimum_validated": {
+      "nphotons": 20000,
+      "grid_n": 256,
+      "step": 0.03,
+      "delta_s_divisor": 2,
+      "source_plane": "Cartesian 2D",
+      "observable": "Jacobian",
+      "relative_change_target": 0.01
+    },
+    "high_accuracy": {
+      "nphotons": 50000,
+      "grid_n": 512,
+      "step": 0.015,
+      "delta_s_divisor": 4,
+      "source_plane": "Cartesian 2D",
+      "observable": "Jacobian",
+      "relative_change_target": 0.001
+    }
+  },
+  "outputs_produced": [
+    "laboratory_specification.md",
+    "engineering_reference.md",
+    "algorithm_registry.csv",
+    "production_settings.csv",
+    "validation_summary.csv",
+    "known_limitations.md",
+    "regression_baseline.json",
+    "checksums.csv",
+    "environment.json",
+    "run.json",
+    "validation.json",
+    "plots/validation_timeline.png",
+    "plots/algorithm_pipeline.png",
+    "plots/production_configuration.png",
+    "plots/convergence_summary.png"
+  ],
+  "execution_kind": "documentation_only",
+  "code_modified": false,
+  "freeze_outcome": "Outcome A"
+}

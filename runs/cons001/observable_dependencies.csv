@@ -1,0 +1,7 @@
+observable,dependence,reason
+normalized component count / two dark modes,independent of g_dev (assuming a nonzero equal access vertex),"depends on dimension and direction of the equal-coupling vector, not its magnitude"
+coherent-to-single and coherent-to-incoherent ratios,independent of g_dev,common powers of g_dev cancel
+absolute microscopic/coarse response amplitude,microscopic source depends directly on g_dev; coarse response also depends on established stiffness/closure structure,"the auxiliary rescaling degeneracy is gone, but the downstream closure is incomplete"
+continuum profile and weak-lensing residuals,independent in existing implementations,the frozen laboratory has no g_dev input
+photon deflection and optical phase,conditional on beta and u; no established separate g_dev dependence,PHOTON-001 leaves n(u) unspecified
+"stability, stiffness positivity and symmetry gates",independent of g_dev in supplied equations,g_dev appears as a source scale rather than in the quadratic stability operator

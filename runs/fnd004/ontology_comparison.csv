@@ -1,0 +1,7 @@
+feature,three_component,generic_n,scalar,unique_to_three
+Microscopic count,3 (axiom),N,1,Exactly two combinations orthogonal to one common source.
+Equal-coupling norm,sqrt(3) g_dev,sqrt(N) g_dev,g_dev,Factor 3 in normalized quadratic coherent response.
+Spatial-vector polarizations,1 longitudinal + 2 transverse,Not defined unless representation is specified,1 scalar,"Twofold transverse degeneracy, conditional on spatial-vector identity."
+Isotropic static stiffnesses,"K, G_L, G_T",Representation-dependent,"K, G","Vector L/T split, not its coefficient values."
+Scalar continuum closure,Possible after projection/decoupling,Possible after projection/decoupling,Direct,None at leading scalar order.
+Weak lensing,Undetermined,Undetermined,Undetermined,None without a light-coupling law.

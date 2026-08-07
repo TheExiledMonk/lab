@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "description": "Functions that physics laboratories MUST import rather than reimplement locally.",
+  "protected_functions": [
+    "transform_scalar_field",
+    "inverse_transform_scalar_field",
+    "transform_vector_field",
+    "inverse_transform_vector_field",
+    "transform_symmetric_tensor_field",
+    "inverse_transform_symmetric_tensor_field",
+    "enumerate_internal_pairs",
+    "compute_a8_pair_amplitudes",
+    "build_pair_responses",
+    "assemble_endpoint_field",
+    "rasterize_interface_field",
+    "gradient_3d",
+    "divergence_3d",
+    "curl_3d",
+    "helmholtz_decompose_3d",
+    "project_vector_los",
+    "prepare_ray_input",
+    "safe_pearson",
+    "extract_jacobian_observables"
+  ],
+  "allowed_modules_prefixes": [
+    "pbuf."
+  ]
+}

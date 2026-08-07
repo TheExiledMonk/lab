@@ -1,0 +1,107 @@
+{
+  "archive": "runs/wl003/version_d_reproducibility",
+  "same_grid_as_archive": true,
+  "equation_id_unchanged": true,
+  "field_and_residual_comparison": {
+    "deformation": {
+      "max_abs_delta": 0.0,
+      "rmse_delta": 0.0,
+      "topology_correlation": 0.9999999999999999,
+      "checksum_equal": true
+    },
+    "gradient_x": {
+      "max_abs_delta": 0.0,
+      "rmse_delta": 0.0,
+      "topology_correlation": 1.0,
+      "checksum_equal": true
+    },
+    "gradient_y": {
+      "max_abs_delta": 0.0,
+      "rmse_delta": 0.0,
+      "topology_correlation": 1.0,
+      "checksum_equal": true
+    },
+    "pbuf": {
+      "max_abs_delta": 0.0,
+      "rmse_delta": 0.0,
+      "topology_correlation": 1.0,
+      "checksum_equal": true
+    },
+    "residual": {
+      "max_abs_delta": 0.0,
+      "rmse_delta": 0.0,
+      "topology_correlation": 1.0,
+      "checksum_equal": true
+    },
+    "observation_minus_pbuf": {
+      "max_abs_delta": 0.0,
+      "rmse_delta": 0.0,
+      "topology_correlation": 1.0,
+      "checksum_equal": true
+    },
+    "pbuf_minus_lcdm": {
+      "max_abs_delta": 0.0,
+      "rmse_delta": 0.0,
+      "topology_correlation": 1.0,
+      "checksum_equal": true
+    }
+  },
+  "photon_trajectories": {
+    "max_abs_delta": 0.0,
+    "rmse_delta": 0.0,
+    "topology_correlation": 1.0,
+    "checksum_equal": true
+  },
+  "diagnostics": {
+    "deformation_mean": {
+      "archived": 0.0012358845034620806,
+      "rerun": 0.0012358845034620806,
+      "change": 0.0
+    },
+    "deformation_std": {
+      "archived": 0.005360465257214639,
+      "rerun": 0.005360465257214639,
+      "change": 0.0
+    },
+    "gradient_rms": {
+      "archived": 0.006157418697257412,
+      "rerun": 0.006157418697257412,
+      "change": 0.0
+    },
+    "gradient_max": {
+      "archived": 0.04406644184299457,
+      "rerun": 0.04406644184299457,
+      "change": 0.0
+    },
+    "photon_max_deviation": {
+      "archived": 0.00033659376942418717,
+      "rerun": 0.00033659376942418717,
+      "change": 0.0
+    }
+  },
+  "rmse": {
+    "rmse_pbuf": {
+      "archived": 0.00019210569324043723,
+      "rerun": 0.00019210569324043723,
+      "change": 0.0
+    },
+    "rmse_baryonic_gr": {
+      "archived": 0.003881056810842542,
+      "rerun": 0.003881056810842542,
+      "change": 0.0
+    },
+    "rmse_lcdm": {
+      "archived": 0.026165221430429757,
+      "rerun": 0.026165221430429757,
+      "change": 0.0
+    }
+  },
+  "validation": {
+    "zero_mass_zero_deformation": true,
+    "symmetric_mass_symmetric_deformation": true,
+    "zero_deformation_straight_paths": true,
+    "nonzero_deformation_changes_paths": true,
+    "full_pipeline_completed": true
+  },
+  "all_validation_gates_pass": true
+}

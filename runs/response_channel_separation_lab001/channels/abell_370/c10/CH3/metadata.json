@@ -1,0 +1,19 @@
+{
+  "cluster_id": "Abell370",
+  "model": "C10",
+  "channel_id": "CH3",
+  "channel_name": "Irrotational (Helmholtz)",
+  "decomposition_type": "helmholtz_irrotational",
+  "padded_unpadded": "padded",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "dtype": "float64",
+  "response_rx_sha256": "e8593be5a7c7d10b38a462c838114d8f65c157203bf54ced6ae8ad9ccad39d4b",
+  "response_ry_sha256": "32a00fe3736ce2dc55551f00d840a4ebc22ddc6f13b692c65b4448ec1f8f56f2",
+  "kappa_sha256": "81249de835a5d0a5c889847bdbdaa66e51b4656fa5540ac49eb553c216a7cd0d",
+  "gamma1_sha256": "2bc567a78e3c44ad8710d62a3af33b856530b3c4908a6a702a66c2186cc4c5d0",
+  "gamma2_sha256": "886c511652e27c8e5b69c01c60e48d678fc32c73c9dcc505eecb85e24ed57e98",
+  "frozen_source_hash": "d63894b56f88ca0870ebbff4ede5ae1383ef5d8621cfd6df40bf4b933c8dc263"
+}

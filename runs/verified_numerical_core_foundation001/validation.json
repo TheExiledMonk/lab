@@ -1,0 +1,72 @@
+{
+  "all_modules_verified": true,
+  "modules": {
+    "M01_conventions": {
+      "status": "verified",
+      "duration_s": 0.0002703169593587518
+    },
+    "M02_coordinate_transforms": {
+      "status": "verified",
+      "duration_s": 0.0003091370454058051
+    },
+    "M03_vector_transforms": {
+      "status": "verified",
+      "duration_s": 0.014154612086713314
+    },
+    "M04_tensor_transforms": {
+      "status": "verified",
+      "duration_s": 0.004664820968173444
+    },
+    "M05_pair_enumeration": {
+      "status": "verified",
+      "duration_s": 0.0026079530362039804
+    },
+    "M06_a8_pair_amplitude": {
+      "status": "verified",
+      "duration_s": 0.006591730983927846
+    },
+    "M07_transverse_projector": {
+      "status": "verified",
+      "duration_s": 0.0003078969893977046
+    },
+    "M08_pair_transfer": {
+      "status": "verified",
+      "duration_s": 0.0015693529276177287
+    },
+    "M09_endpoint_assembly": {
+      "status": "verified",
+      "duration_s": 0.0023566660238429904
+    },
+    "M10_midpoint_rasterization": {
+      "status": "verified",
+      "duration_s": 0.0016928520053625107
+    },
+    "M11_field_diagnostics": {
+      "status": "verified",
+      "duration_s": 0.00042322499211877584
+    },
+    "M12_differential_operators": {
+      "status": "verified",
+      "duration_s": 0.0021422880236059427
+    },
+    "M13_helmholtz_3d": {
+      "status": "verified",
+      "duration_s": 0.0033524349564686418
+    },
+    "M14_los_projection": {
+      "status": "verified",
+      "duration_s": 0.0007520320359617472
+    },
+    "M15_ray_interface": {
+      "status": "verified",
+      "duration_s": 0.0009574599098414183
+    },
+    "M16_observable_extraction": {
+      "status": "verified",
+      "duration_s": 0.0003885159967467189
+    }
+  },
+  "protected_function_violations": [],
+  "total_modules": 16,
+  "verified_modules": 16
+}

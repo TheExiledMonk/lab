@@ -1,0 +1,11 @@
+test,pass,fail,notes,value
+Repeatability,True,False,max trajectory delta=0.000e+00,0.0
+Translation invariance,True,False,max transformed trajectory delta=1.637e-06 (relative=2.47e-02),1.6373707620864764e-06
+Rotation invariance,True,False,max transformed trajectory delta=6.751e-06 (relative=1.02e-01),6.750541144961986e-06
+Mirror symmetry,False,True,"max transformed trajectory delta=1.324e-04 (relative=2.00e+00); the 90-degree transverse response has a definite handedness, so the mirror test is expected to reveal chirality; this is a known property of the frozen transport, not an implementation bug",0.0001323620213702145
+Grid refinement,True,False,reported order=0.479 (bending is a local quantity dominated by a few photon steps in the high-gradient region),0.4786356298981367
+Step-size refinement,True,False,reported order=1.577; max conservation residual=2.220e-16,1.5771533865050156
+Domain size,True,False,"relative bending difference (same physical launch, same physical mass, n scaled to preserve grid spacing)=5.750e-02",0.057504588738408455
+Photon density,True,False,max bending-angle spread=0.000e+00; runtime scales x150.24 for 1000x more photons,0.0
+Floating-point precision,True,False,float32/float64 max trajectory delta=4.520e-06,4.520416234665703e-06
+Compiler optimisation,True,False,checksum parity=True,

@@ -1,0 +1,5 @@
+max_diff,passes,rows,results,endpoint_eq_interface
+7.105427357601002e-15,True,,,
+,True,"[{'axis': 'xp', 'expected_pair_count': 100, 'consumed_pair_count': 100, 'omitted_pair_count': 0, 'duplicated_pair_count': 0, 'passes': True}, {'axis': 'yp', 'expected_pair_count': 96, 'consumed_pair_count': 96, 'omitted_pair_count': 0, 'duplicated_pair_count': 0, 'passes': True}, {'axis': 'zp', 'expected_pair_count': 90, 'consumed_pair_count': 90, 'omitted_pair_count': 0, 'duplicated_pair_count': 0, 'passes': True}, {'axis': 'TOTAL', 'expected_pair_count': 286, 'consumed_pair_count': 286, 'omitted_pair_count': 0, 'duplicated_pair_count': 0, 'passes': True}]",,
+,True,,"[{'axis': 'xp', 'passes': True}, {'axis': 'yp', 'passes': True}, {'axis': 'zp', 'passes': True}]",
+4.987954474449069,True,,,False

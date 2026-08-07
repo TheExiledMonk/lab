@@ -1,0 +1,31 @@
+{
+  "A8_T1": {
+    "DT": 0.1,
+    "STEPS": 20,
+    "K": 1.0,
+    "OMEGA": 0.2,
+    "INTERNAL_K": 0.6,
+    "COUPLING_FAST_TO_SLOW": 1.0,
+    "COUPLING_SLOW_TO_FAST": 0.3,
+    "FAST_TIMESCALE": 0.2,
+    "SLOW_TIMESCALE": 0.25
+  },
+  "C10": {
+    "candidate": "candidate_10_combined",
+    "family": "combined response",
+    "description": "Combined Local Response (coherence + elastic memory)"
+  },
+  "PRODUCTION": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64,
+    "alpha_fs": 0.0072973525692838015,
+    "three_alpha_fs": 0.021892057707851405
+  }
+}

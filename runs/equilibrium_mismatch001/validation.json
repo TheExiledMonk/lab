@@ -1,0 +1,19 @@
+{
+  "milestone": "PBUF EQUILIBRIUM-MISMATCH-001",
+  "pass": true,
+  "decision": "Outcome B",
+  "decision_text": "Equilibrium mismatch contributes but does not fully determine the source.",
+  "continuity_necessarily_causes_stress": false,
+  "stress_condition": "The local stress-free wells must be incompatible with a single admissible continuous placement, or frustrated by boundary/topological constraints.",
+  "weak_field_load_equivalence": "Pi_mismatch[eta] = integral (A0:epsilon_natural):symGrad(eta) dV0",
+  "regular_body_load": "b_mismatch = -Div0(A0:epsilon_natural), including interface and boundary tractions",
+  "finite_deformation_dead_load_equivalence": false,
+  "v11_recovery": "compatible but not derived",
+  "classical_class": "incompatible eigenstrain / finite prestrain / non-Euclidean elasticity",
+  "exact_obstruction": "No frozen gauge-basic, normalized, support-controlled map N from matter-bearing q (or T[q]) to a preferred local configuration or natural distortion exists.",
+  "ontology_modified": false,
+  "constitutive_formula_modified": false,
+  "v11_modified": false,
+  "empirical_constants_added": false,
+  "report": "runs/equilibrium_mismatch001/equilibrium_mismatch_report.md"
+}

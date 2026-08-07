@@ -1,0 +1,21 @@
+{
+  "milestone": "PBUF CONSTITUTIVE-002",
+  "checks": {
+    "all_candidate_families_defined": true,
+    "stress_strain_relationships_derived": true,
+    "stored_energies_derived": true,
+    "tangent_stiffness_and_compliance_audited": true,
+    "weak_field_audited": true,
+    "progressive_hardening_audited": true,
+    "finite_energy_vs_mathematical_limit_distinguished": true,
+    "recovery_scope_audited": true,
+    "stability_scope_audited": true,
+    "unweighted_matrix_present": true,
+    "dependency_graph_present": true,
+    "machine_readable_catalogue_present": true,
+    "frozen_inputs_modified": false,
+    "unique_native_law_selected": false
+  },
+  "pass": true,
+  "conclusion": "Comparison narrows the admissible response to progressively hardening hyperelastic families; a barrier class is conditionally preferred only when energetic enforcement of the accepted finite bound is required."
+}

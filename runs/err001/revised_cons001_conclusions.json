@@ -1,0 +1,24 @@
+{
+  "classification": "D) existing theory is insufficient; g_dev remains currently indeterminate",
+  "previous_degeneracy_status": "withdrawn in full as an artefact of the auxiliary exploratory coupling",
+  "g_dev_now": "direct coefficient of the normalized microscopic matter vertex",
+  "bounded_interval_found": false,
+  "preferred_value_found": false,
+  "genuine_remaining_reasons": [
+    "No supplied PBUF symmetry or mathematical identity selects a numerical g_dev.",
+    "The completed sectors provide no two-sided consistency inequalities involving g_dev.",
+    "The micro--macro response is not closed into an independent constraint.",
+    "The photon response is not derived or linked to g_dev."
+  ],
+  "additional_assumptions_or_derivations_required": [
+    "A PBUF principle that derives or bounds g_dev rather than postulating its value.",
+    "A quantitative micro--macro closure with no new fundamental coupling.",
+    "A photon/electromagnetic action specifying whether and how its response follows from g_dev."
+  ],
+  "forbidden_actions_respected": [
+    "no replacement coupling",
+    "no hidden normalization factor",
+    "no observational fit",
+    "no frozen weak-lensing modification"
+  ]
+}

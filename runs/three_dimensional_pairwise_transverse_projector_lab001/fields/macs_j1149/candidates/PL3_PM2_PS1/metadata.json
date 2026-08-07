@@ -1,0 +1,51 @@
+{
+  "cluster": "MACS1149",
+  "candidate_id": "PL3_PM2_PS1",
+  "longitudinal_reference": "PL3",
+  "magnitude_formulation": "PM2",
+  "pair_symmetrization": "PS1",
+  "scalar_label": "u_fast",
+  "grid_dimensions": [
+    9,
+    64,
+    64
+  ],
+  "projector_validation": {
+    "err_idempotence": 4.649058915617843e-16,
+    "err_symmetry": 0.0,
+    "err_longitudinal": 4.614364446098307e-16,
+    "passes_idempotence": true,
+    "passes_symmetry": true,
+    "passes_longitudinal": true
+  },
+  "antisymmetry": {
+    "max_antisymmetry_error": 0.0001524387347831831,
+    "passes": false
+  },
+  "closure": {
+    "total_interface": [
+      0.0018896027325556442,
+      -0.0014771960837939293,
+      0.004850706756895819
+    ],
+    "total_voxel": [
+      0.0018896027325556437,
+      -0.0014771960837939287,
+      0.004850706756895825
+    ],
+    "abs_diff": [
+      4.336808689942018e-19,
+      -6.505213034913027e-19,
+      -6.071532165918825e-18
+    ],
+    "max_abs_diff": 6.071532165918825e-18,
+    "rel_diff": 1.2516799036114617e-15,
+    "passes": true
+  },
+  "checksums": {
+    "response_x": "72f8496a34f5fc39c89c2164d81dbfc8d2738f1da550b59f46b53012748418de",
+    "response_y": "1ca874304abc356c21f3e5c364eb6c04eb31db3ecad17386e32722b2b6bc2d31",
+    "response_z": "d7730a2fa3c22f10872f15df9332b54e62bc893b21cbaeae0df99b4b904272d1",
+    "kappa": "a9e458429ae15720f95ec1891cbb0d1f24264d8cf850581cd13e047bc7ca2a31"
+  }
+}

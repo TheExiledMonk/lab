@@ -1,0 +1,7 @@
+candidate,v11_role,mapping_status,reason
+alpha_QM,Quantum Engine elastic amplitude,no mapping,No equation connects the Quantum Engine output to the post-V11 matter vertex.
+alpha_resolved,"metadata-resolved curvature/elastic amplitude used by equations (9), (15), and (16)",no mapping,Different physical role and pipeline; no microscopic matter-action derivation exists.
+alpha_T(a),scale-factor-dependent thermal LUT elastic amplitude,no mapping,A function entering V11 thermal evolution cannot replace a constant vertex without a derived bridge.
+alpha_EM,electromagnetic fine-structure constant in V11 equation (4),no mapping,"Numerical proximity to 1/137 is not identity; V11 equation (4) relates alpha_EM to alpha_resolved, not to matter loading."
+generic alpha in V11 (15),elastic amplitude resolved by cosmological context,no mapping,"ALPHA-ARCH-001 resolves it as alpha_resolved, not as the exploratory vertex."
+unit common direction,not a V11 alpha; normalized linear-algebra device,valid elimination for structural ratios only,The common magnitude cancels from normalized ratios and bright/dark direction counting.

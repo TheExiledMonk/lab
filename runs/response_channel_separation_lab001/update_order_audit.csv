@@ -1,0 +1,11 @@
+cluster_id,model,old_fast_old_slow,new_fast_old_slow,old_fast_new_slow,new_fast_new_slow,frozen_order,spatial_lag_direction
+Abell2744,C10,applied_first_for_fast_step,evaluated_after_fast_step,evaluated_after_slow_step,evaluated_after_both_steps,fast then slow,+y (downward in array indexing)
+Abell2744,A8,applied_first_for_fast_step,evaluated_after_fast_step,evaluated_after_slow_step,evaluated_after_both_steps,fast then slow,+y (downward in array indexing)
+MACS0416,C10,applied_first_for_fast_step,evaluated_after_fast_step,evaluated_after_slow_step,evaluated_after_both_steps,fast then slow,+y (downward in array indexing)
+MACS0416,A8,applied_first_for_fast_step,evaluated_after_fast_step,evaluated_after_slow_step,evaluated_after_both_steps,fast then slow,+y (downward in array indexing)
+MACS1149,C10,applied_first_for_fast_step,evaluated_after_fast_step,evaluated_after_slow_step,evaluated_after_both_steps,fast then slow,+y (downward in array indexing)
+MACS1149,A8,applied_first_for_fast_step,evaluated_after_fast_step,evaluated_after_slow_step,evaluated_after_both_steps,fast then slow,+y (downward in array indexing)
+AbellS1063,C10,applied_first_for_fast_step,evaluated_after_fast_step,evaluated_after_slow_step,evaluated_after_both_steps,fast then slow,+y (downward in array indexing)
+AbellS1063,A8,applied_first_for_fast_step,evaluated_after_fast_step,evaluated_after_slow_step,evaluated_after_both_steps,fast then slow,+y (downward in array indexing)
+Abell370,C10,applied_first_for_fast_step,evaluated_after_fast_step,evaluated_after_slow_step,evaluated_after_both_steps,fast then slow,+y (downward in array indexing)
+Abell370,A8,applied_first_for_fast_step,evaluated_after_fast_step,evaluated_after_slow_step,evaluated_after_both_steps,fast then slow,+y (downward in array indexing)

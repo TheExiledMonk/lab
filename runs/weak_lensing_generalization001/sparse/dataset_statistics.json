@@ -1,0 +1,33 @@
+{
+  "photon_count": 2000,
+  "propagation_runtime_seconds": 0.007323026075027883,
+  "max_bending": 0.09864581125307018,
+  "rms_bending": 0.08091814615095723,
+  "max_bending_angle": 0.07229777548410103,
+  "max_convergence": 0.5,
+  "rms_convergence": 0.5,
+  "max_shear": 4.739747364707312,
+  "rms_shear": 0.5441713351780834,
+  "max_deflection": 4.739747364707312,
+  "max_conservation": 2.220446049250313e-16,
+  "finite_outputs": true,
+  "max_C": 0.18,
+  "max_response_magnitude": 0.04365967721469288,
+  "checksums": {
+    "matter": "aa6d153968e916fd31ab6a0b4040e4f41708c96c83913071b004837475bc01b6",
+    "constitutive": "12c72f193dfdc1b79167bbc7d252e3aecefdfe101a23b66d07801763a08b6d77",
+    "gradient_magnitude": "89e0fa0e39d7b135ee98883bf049f77c1d4cab60903825151583dde77784a478",
+    "response_x": "cc71ddca6d7574a8563f4d95edb618987497e532d8f466f204c83505e9864a36",
+    "response_y": "3401dfb43492c05ebc0d51a464a9fe8aa8e3477e8ef06eb2d6495ffc80f7fde3",
+    "photon_trajectories_x": "fa86c259bba2d9d6aac1ccc2a0c34071db122e25b72b2051b5ece500ecfdd997",
+    "photon_trajectories_y": "158687ca8d5d96378ee97a8b0833244e711a4c0fbead4d3c917e68acbdd48559",
+    "convergence": "f27f27de5e36fdd1f34a8e09ae838a3bc5110a665031908dc09251ed4e73ed71",
+    "shear_g1": "fe6bbe18c8584939a1125317215770a3c2d384bf0add7aee6339d2f186a77850",
+    "shear_g2": "a938ec5e4cf51a8aea046c9bd0da2afa62585a1b088ef68601825061fbfe9e53",
+    "magnification": "e59d7f8f6e2dca2d8b3d1242ed5b58eeb2b8090eb83a65b9504b6c3b6c1996d1"
+  },
+  "identical_pipeline": {
+    "weak_lensing_generalization001.py": "7669454c09045569ae676a1bcb047bd7d749ae34efcb1362893520bd62c9d7bd",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f"
+  }
+}

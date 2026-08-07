@@ -1,0 +1,193 @@
+{
+  "preferred_version": "D",
+  "ranking_basis": "physical admissibility, validation, then RMSE",
+  "evaluated_candidates": [
+    {
+      "version": "A",
+      "rmse_pbuf": 0.0003822288848626562,
+      "rmse_baryonic_gr": 0.003881056810842542,
+      "rmse_lcdm": 0.026165221430429757,
+      "all_validation_gates_pass": true,
+      "response": "local linear",
+      "stiffness": "constant",
+      "description": "deformation = strength * normalized baryonic matter",
+      "formula": "u = u0 rho/rho_max",
+      "physical_motivation": "Minimal scalar, isotropic local response and the WL-001 limiting law.",
+      "assumptions": [
+        "deformation is scalar",
+        "response is instantaneous and local"
+      ],
+      "strengths": [
+        "fewest assumptions",
+        "exact WL-001 baseline"
+      ],
+      "weaknesses": [
+        "cannot propagate deformation"
+      ],
+      "diagnostics": {
+        "deformation_min": 4.640248718932701e-55,
+        "deformation_max": 0.18,
+        "deformation_mean": 0.0024590375467019076,
+        "deformation_std": 0.01471096002873656,
+        "gradient_rms": 0.019747290741801166,
+        "gradient_max": 0.14480796520430556,
+        "photon_max_deviation": 9.263948845816827e-06,
+        "finite_outputs": true
+      },
+      "computational_cost_seconds": 0.6859457492828369,
+      "scientific_rank": 2,
+      "recommendation": "RETAIN FOR COMPARISON"
+    },
+    {
+      "version": "B",
+      "rmse_pbuf": 0.00019210569324043723,
+      "rmse_baryonic_gr": 0.003881056810842542,
+      "rmse_lcdm": 0.026165221430429757,
+      "all_validation_gates_pass": false,
+      "response": "local nonlinear",
+      "stiffness": "constant",
+      "description": "quadratic local matter loading",
+      "formula": "u = u0 (rho/rho_max)^2",
+      "physical_motivation": "Tests nonlinear loading without changing the medium model.",
+      "assumptions": [
+        "deformation is scalar",
+        "quadratic loading is physically selected"
+      ],
+      "strengths": [
+        "stable",
+        "suppresses dilute loading"
+      ],
+      "weaknesses": [
+        "quadratic exponent is not derived from PBUF",
+        "no propagation"
+      ],
+      "diagnostics": {
+        "deformation_min": 1.196217120753143e-108,
+        "deformation_max": 0.18,
+        "deformation_mean": 0.0012358845034620804,
+        "deformation_std": 0.010528862248689153,
+        "gradient_rms": 0.019710980924650765,
+        "gradient_max": 0.20392511882225267,
+        "photon_max_deviation": 6.3674124861634596e-09,
+        "finite_outputs": true
+      },
+      "computational_cost_seconds": 0.5893721580505371,
+      "scientific_rank": 4,
+      "recommendation": "REJECT"
+    },
+    {
+      "version": "C",
+      "rmse_pbuf": 0.0005291126982548718,
+      "rmse_baryonic_gr": 0.003881056810842542,
+      "rmse_lcdm": 0.026165221430429757,
+      "all_validation_gates_pass": true,
+      "response": "local nonlinear",
+      "stiffness": "increases with loading",
+      "description": "matter-dependent rigidity K/K0=(1+loading)/2",
+      "formula": "u = 2 u0 q/(1+q), q=rho/rho_max",
+      "physical_motivation": "A local compliance law tests a medium that stiffens with loading.",
+      "assumptions": [
+        "local equilibrium",
+        "K/K0=(1+q)/2"
+      ],
+      "strengths": [
+        "bounded",
+        "recovers the baseline at zero and peak loading"
+      ],
+      "weaknesses": [
+        "rigidity interpolation is postulated",
+        "no propagation"
+      ],
+      "diagnostics": {
+        "deformation_min": 9.280497437865403e-55,
+        "deformation_max": 0.18,
+        "deformation_mean": 0.0034040407594342756,
+        "deformation_std": 0.018190640692499323,
+        "gradient_rms": 0.021457329572836515,
+        "gradient_max": 0.1328982381064782,
+        "photon_max_deviation": 1.8515360733828423e-05,
+        "finite_outputs": true
+      },
+      "computational_cost_seconds": 0.5876798629760742,
+      "scientific_rank": 3,
+      "recommendation": "RETAIN FOR COMPARISON"
+    },
+    {
+      "version": "D",
+      "rmse_pbuf": 0.00019210569324043723,
+      "rmse_baryonic_gr": 0.003881056810842542,
+      "rmse_lcdm": 0.026165221430429757,
+      "all_validation_gates_pass": true,
+      "response": "nonlocal linear propagation of nonlinear loading",
+      "stiffness": "constant propagation rigidity",
+      "description": "Helmholtz-propagated quadratic loading; propagation length = observed mass width",
+      "formula": "(1 - sigma_rho^2 Laplacian) u = u0 (rho/rho_max)^2",
+      "physical_motivation": "Distributed elastic recovery balances local loading; the observed baryonic width supplies the only length scale.",
+      "assumptions": [
+        "scalar isotropic medium",
+        "periodic numerical boundary",
+        "recovery is distributed"
+      ],
+      "strengths": [
+        "propagates deformation",
+        "stable positive spectral response",
+        "no fitted length"
+      ],
+      "weaknesses": [
+        "scalar proxy cannot represent shear stress",
+        "periodic boundary is a laboratory approximation"
+      ],
+      "diagnostics": {
+        "deformation_min": 3.725749110830865e-08,
+        "deformation_max": 0.06065510633665678,
+        "deformation_mean": 0.0012358845034620806,
+        "deformation_std": 0.005360465257214639,
+        "gradient_rms": 0.006157418697257412,
+        "gradient_max": 0.04406644184299457,
+        "photon_max_deviation": 0.00033659376942418717,
+        "finite_outputs": true
+      },
+      "computational_cost_seconds": 0.5894558429718018,
+      "scientific_rank": 1,
+      "recommendation": "PREFERRED"
+    }
+  ],
+  "analytical_rejections": [
+    {
+      "family": "diffusion-type",
+      "formula": "partial_t u = D Laplacian(u) + S(rho)",
+      "physical_motivation": "Local deformation spreads down spatial gradients.",
+      "assumptions": [
+        "a physical evolution time and diffusivity exist"
+      ],
+      "strengths": [
+        "causal evolution can be represented",
+        "smooths small-scale structure"
+      ],
+      "weaknesses": [
+        "the frozen static laboratory supplies neither time nor diffusivity"
+      ],
+      "validation_outcome": "REJECTED BEFORE NUMERICAL RANKING: would require an arbitrary constant and an unfrozen time model.",
+      "recommendation": "Revisit only when PBUF defines a time scale."
+    },
+    {
+      "family": "elastic-medium tensor",
+      "formula": "div C:epsilon(u_vec) = f(rho)",
+      "physical_motivation": "A genuine elastic medium carries directional displacement and shear stress.",
+      "assumptions": [
+        "deformation is vector/tensor valued",
+        "elastic moduli and boundary tractions are known"
+      ],
+      "strengths": [
+        "represents shear and anisotropy",
+        "has conservation-law structure"
+      ],
+      "weaknesses": [
+        "WL-001 accepts one scalar deformation field",
+        "PBUF supplies no elastic moduli or boundary data"
+      ],
+      "validation_outcome": "REJECTED BEFORE NUMERICAL RANKING: incompatible with the frozen scalar interface and underdetermined.",
+      "recommendation": "Use as the next generalization after observables constrain tensor components."
+    }
+  ]
+}

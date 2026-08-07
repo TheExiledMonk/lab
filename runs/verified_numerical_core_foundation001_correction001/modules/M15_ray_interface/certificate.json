@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M15_ray_interface",
+  "version": "1.1.0-correction001",
+  "status": "unit_verified_pending_contract_review",
+  "source_sha256": "92503a468f46dac7e9e4d3e90f3731db1e46f819464b131a2ac1004fd1f97a78",
+  "test_sha256": "92503a468f46dac7e9e4d3e90f3731db1e46f819464b131a2ac1004fd1f97a78",
+  "conventions_version": "1.1.0-correction001",
+  "correction_id": "FOUNDATION-001-CORRECTION-001",
+  "tests_passed": 6,
+  "tests_total": 6,
+  "maximum_error": 0.0,
+  "tolerance": 1e-15,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "supersedes": "FOUNDATION-001 previous registry entry (see superseded_certificates/)"
+}

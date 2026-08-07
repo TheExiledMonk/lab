@@ -1,0 +1,26 @@
+{
+  "started_at": "2026-08-06T18:36:20Z",
+  "finished_at": "2026-08-06T18:36:20Z",
+  "duration_s": 74.51466195296962,
+  "clusters": [
+    "Abell2744",
+    "MACS0416",
+    "MACS1149",
+    "AbellS1063",
+    "Abell370"
+  ],
+  "candidates_total": 24,
+  "config": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "nz_primary": 9,
+  "all_gates_pass": true
+}

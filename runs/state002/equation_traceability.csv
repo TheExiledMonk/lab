@@ -1,0 +1,19 @@
+equation,claim,status,premises,downstream
+S2-001,"descriptive gauge group",definition,"DEFORMATION-001 covariance and internal relabelling",S2-002
+S2-002,"q is a physical quotient-state point",canonical definition,"accepted STATE-002 definition; FP-1; FP-4","S2-003;S2-004;S2-012"
+S2-003,"all objects derive from q; deformation is relational",accepted-definition consequence,"STATE-002 mission","S2-008;S2-018"
+S2-004,"admissible state space is preimage of D_C",derived,"S2-002; DEFORMATION-001; HYPER-001","S2-005;S2-012"
+S2-005,"minimum topology makes comparison continuous",mathematical requirement,"continuous medium; S2-004",S2-013
+S2-006,"objectivity under gauge action",derived requirement,"DEFORMATION-001 objectivity",S2-010
+S2-007,"undeformed equilibrium state and normalization",canonical definition,"DEFORMATION-001; H-005; H-018; EP-008; EP-009","S2-008;S2-011"
+S2-008,"C(q,q0)=F^sharp_0 F",authoritative mapping,DEFORMATION-001,"S2-009;S2-010;S2-018"
+S2-009,"C is SPD and normalized",derived,"S2-008; accepted material branch",S2-016
+S2-010,"relabeling is similarity; spectrum invariant",derived,"S2-006; DEFORMATION-001","W invariant inputs"
+S2-011,"weak relative deformation",inherited consequence,"DEFORMATION-001 small-deformation limit","V11 weak-field gate"
+S2-012,"ordered state history",definition,"FP-3; accepted emergent-time assumption","S2-013;S2-014"
+S2-013,"evolution modulo increasing relabeling",canonical definition,"S2-005; FP-3",S2-015
+S2-014,"realization does not imply deterministic continuation",scope consequence,"FP-4; absence of dynamics","future dynamics"
+S2-015,"conditional reversibility criterion",derived definition,"S2-012; admissibility","future dynamics"
+S2-016,"SPD rank-three representative has six components",mathematical consequence,"DEFORMATION-001 rank-three branch",S2-017
+S2-017,"q has at least three local physical spectral DOF",minimality consequence,"DEFORMATION-001 physical spectral content; S2-003; local surjectivity; S2-016","future realization"
+S2-018,"q to C to W to P_C chain",derived synthesis,"S2-008; H-001; H-007; EP-001; EP-003","subsequent derivations"

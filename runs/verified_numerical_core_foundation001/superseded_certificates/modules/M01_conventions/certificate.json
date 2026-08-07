@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M01.conventions",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "3915bb578b005d6ed071685be3037b2a856dd3abbd600ba4c5c395b035b09e2e",
+  "test_sha256": "3915bb578b005d6ed071685be3037b2a856dd3abbd600ba4c5c395b035b09e2e",
+  "reference_fixture_sha256": "bce9c366c080c95be03564539b25a0cc06f5414f7ac764430d17f4e7a86585a8",
+  "conventions_version": "1.0.0",
+  "tests_passed": 10,
+  "tests_total": 10,
+  "maximum_error": 0.0,
+  "tolerance": 1e-15,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "superseded_by": "FOUNDATION-001-CORRECTION-001"
+}

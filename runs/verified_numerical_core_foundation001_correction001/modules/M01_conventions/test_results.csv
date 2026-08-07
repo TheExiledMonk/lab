@@ -1,0 +1,20 @@
+module,check,Q_dot_Q_T_max_err,det,passes,permutation,flip_array_axis
+M01,orthogonal_RC0,0.0,1.0,True,,
+M01,orthogonal_RC1,0.0,-1.0,True,,
+M01,orthogonal_RC2,0.0,-1.0,True,,
+M01,orthogonal_RC3,0.0,-1.0,True,,
+M01,orthogonal_RC4,0.0,1.0,True,,
+M01,orthogonal_RC5,0.0,1.0,True,,
+M01,orthogonal_RC6,0.0,1.0,True,,
+M01,antiparallel_xp_xm,,,True,,
+M01,antiparallel_yp_ym,,,True,,
+M01,antiparallel_zp_zm,,,True,,
+M01,purpose-specific-tolerances,,,True,,
+M01,EPS_HASH-removed,,,True,,
+M01,closed-form_RC0,,,True,"[0, 1, 2]",[]
+M01,closed-form_RC1,,,True,"[0, 2, 1]",[]
+M01,closed-form_RC2,,,True,"[2, 1, 0]",[]
+M01,closed-form_RC3,,,True,"[1, 0, 2]",[]
+M01,closed-form_RC4,,,True,"[1, 0, 2]",[1]
+M01,closed-form_RC5,,,True,"[2, 1, 0]",[0]
+M01,closed-form_RC6,,,True,"[0, 2, 1]",[2]

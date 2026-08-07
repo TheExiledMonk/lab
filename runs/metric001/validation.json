@@ -1,0 +1,27 @@
+{
+  "milestone": "METRIC-001",
+  "complete": true,
+  "completion_mode": "most_general_admissible_map_family",
+  "unique_map_derivable_from_fixed_inputs": false,
+  "underdetermination_explicit": true,
+  "deliverables": {
+    "derivation": "effective_metric_derivation.md",
+    "dependency_graph": "dependency_graph.md",
+    "machine_readable_catalogue": "metric_map_catalogue.json"
+  },
+  "requirements": {
+    "mathematical_role": true,
+    "typed_map": true,
+    "covariance": true,
+    "locality_classification": true,
+    "differentiability": true,
+    "admissible_dependence": true,
+    "operational_interpretation": true,
+    "weak_deformation_recovery": true,
+    "strong_deformation_constraints": true,
+    "covariance_audit": true,
+    "field001_closure_gaps": true,
+    "equation_traceability": true
+  },
+  "prohibitions_respected": true
+}

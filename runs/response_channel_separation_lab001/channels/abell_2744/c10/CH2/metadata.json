@@ -1,0 +1,19 @@
+{
+  "cluster_id": "Abell2744",
+  "model": "C10",
+  "channel_id": "CH2",
+  "channel_name": "Transverse (local-gradient)",
+  "decomposition_type": "local_transverse",
+  "padded_unpadded": "padded",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "dtype": "float64",
+  "response_rx_sha256": "1b416864ad8f2f454c922ab8fb026ee57fd0638f0bbacca03e9dfa41f48b1715",
+  "response_ry_sha256": "62c4cdf063e486cc830407c4564fd66f384901f5f24a8cbb01ba99c8a1c15a28",
+  "kappa_sha256": "6d26b0e8170d7ae16117d1eca9f0f5fe312109617f4f7057d62123774b5e3c14",
+  "gamma1_sha256": "fec068346ec9c09f0235816798148f77e67583b7648cf80b6459e83edabe7b2a",
+  "gamma2_sha256": "5c8acbfb4d299a65c52e0f1e78041147a12c85cf0e03b3fb257c640a6524a23e",
+  "frozen_source_hash": "50c303c7b216bbc285bf6d76907107307fa80fa7a3de8219b926da54fc6a3c8e"
+}

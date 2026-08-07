@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M14.los.projection",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "1c053d71516e71b70bf0782bda4917bde2792d6c1de74a960ae894b270e68462",
+  "test_sha256": "1c053d71516e71b70bf0782bda4917bde2792d6c1de74a960ae894b270e68462",
+  "reference_fixture_sha256": "4379f334f23393d6fb6830aaabf3c1fe34744d6b5ab00653b397cd3041358be5",
+  "conventions_version": "1.0.0",
+  "tests_passed": 6,
+  "tests_total": 6,
+  "maximum_error": 0.0,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "superseded_by": "FOUNDATION-001-CORRECTION-001"
+}

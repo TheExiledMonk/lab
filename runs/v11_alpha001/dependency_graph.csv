@@ -1,0 +1,11 @@
+edge_id,source,target,relation,basis
+V11-D01,specified regulators and field content,alpha_QM and epsilon_0(T),Quantum Engine output,section 2.3
+V11-D02,quantum microphysics metadata/LUT,alpha_resolved and alpha_T(a),inheritance/resolution,sections 2.2-2.3.1
+V11-D03,alpha_EM,alpha_resolved,numerically consistent with factor 3,equation (4); motivating spatial-dimension count
+V11-D04,"alpha_T(a), epsilon_0,T(a)","k_max, S, Omega_sigma_raw",equations (5)-(8),section 2.3.2
+V11-D05,alpha_resolved,Omega_sigma_target,flat_today closure,equation (9)
+V11-D06,alpha_resolved,Omega_b0,factor-2 pipeline identity,equation (16)
+V11-D07,Omega_b0,Omega_m0,fixed baryon fraction,equation (17)
+V11-D08,elastic alpha and activation structure,Omega_sigma(a),model definition,equation (15)
+V11-D09,"Omega_sigma(a), Omega_m0, Omega_r0","E(a), H(a)",background expansion,equations (12)-(14)
+V11-D10,H(a),"distances, q(a), growth, f sigma8",pipeline propagation,"sections 2.2, 6.1-6.2"

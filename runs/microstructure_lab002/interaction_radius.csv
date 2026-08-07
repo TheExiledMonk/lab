@@ -1,0 +1,81 @@
+family_number,family_code,family_name,is_wrong,cluster_id,cluster_label,effective_interaction_radius,spatial_correlation_length,temporal_persistence_length
+1,N1,First Neighbour Only (Control),False,Abell2744,Abell 2744,40.0,3.0,4.0
+2,N2,Two-Ring Neighbourhood,False,Abell2744,Abell 2744,40.0,3.0,4.0
+3,N3,Three-Ring Neighbourhood,False,Abell2744,Abell 2744,40.0,3.0,4.0
+4,N4,Exponential Decay,False,Abell2744,Abell 2744,40.0,3.0,4.0
+5,N5,Gaussian Local Field,False,Abell2744,Abell 2744,40.0,3.0,4.0
+6,N6,Inverse Distance,False,Abell2744,Abell 2744,40.0,3.0,4.0
+7,N7,Inverse Square,False,Abell2744,Abell 2744,40.0,3.0,4.0
+8,N8,Finite Radius,False,Abell2744,Abell 2744,40.0,3.0,4.0
+9,N9,Orientation-Weighted,False,Abell2744,Abell 2744,40.0,3.0,4.0
+10,N10,Adaptive Local Field,False,Abell2744,Abell 2744,40.0,3.0,4.0
+11,N11,Cooperative Relaxation,False,Abell2744,Abell 2744,40.0,3.0,4.0
+12,N12,Mean Local Potential,False,Abell2744,Abell 2744,40.0,3.0,5.0
+13,WR1,Wrong: Random Weights,True,Abell2744,Abell 2744,40.0,3.0,4.0
+14,WR2,Wrong: Negative Weights,True,Abell2744,Abell 2744,40.0,3.0,0.0
+15,WR3,Wrong: Extremely Long-Range,True,Abell2744,Abell 2744,140.0,3.0,4.0
+16,WR4,Wrong: Shuffled Topology,True,Abell2744,Abell 2744,4.0,3.0,4.0
+1,N1,First Neighbour Only (Control),False,MACS0416,MACS J0416,40.0,8.0,4.0
+2,N2,Two-Ring Neighbourhood,False,MACS0416,MACS J0416,40.0,8.0,4.0
+3,N3,Three-Ring Neighbourhood,False,MACS0416,MACS J0416,40.0,7.0,4.0
+4,N4,Exponential Decay,False,MACS0416,MACS J0416,40.0,7.0,4.0
+5,N5,Gaussian Local Field,False,MACS0416,MACS J0416,40.0,7.0,4.0
+6,N6,Inverse Distance,False,MACS0416,MACS J0416,40.0,7.0,4.0
+7,N7,Inverse Square,False,MACS0416,MACS J0416,40.0,7.0,4.0
+8,N8,Finite Radius,False,MACS0416,MACS J0416,40.0,7.0,4.0
+9,N9,Orientation-Weighted,False,MACS0416,MACS J0416,40.0,8.0,4.0
+10,N10,Adaptive Local Field,False,MACS0416,MACS J0416,40.0,7.0,4.0
+11,N11,Cooperative Relaxation,False,MACS0416,MACS J0416,40.0,7.0,4.0
+12,N12,Mean Local Potential,False,MACS0416,MACS J0416,40.0,8.0,5.0
+13,WR1,Wrong: Random Weights,True,MACS0416,MACS J0416,40.0,7.0,4.0
+14,WR2,Wrong: Negative Weights,True,MACS0416,MACS J0416,40.0,8.0,0.0
+15,WR3,Wrong: Extremely Long-Range,True,MACS0416,MACS J0416,140.0,7.0,4.0
+16,WR4,Wrong: Shuffled Topology,True,MACS0416,MACS J0416,4.0,8.0,4.0
+1,N1,First Neighbour Only (Control),False,MACS1149,MACS J1149,40.0,4.0,4.0
+2,N2,Two-Ring Neighbourhood,False,MACS1149,MACS J1149,40.0,4.0,4.0
+3,N3,Three-Ring Neighbourhood,False,MACS1149,MACS J1149,40.0,4.0,4.0
+4,N4,Exponential Decay,False,MACS1149,MACS J1149,40.0,4.0,4.0
+5,N5,Gaussian Local Field,False,MACS1149,MACS J1149,40.0,4.0,4.0
+6,N6,Inverse Distance,False,MACS1149,MACS J1149,40.0,4.0,4.0
+7,N7,Inverse Square,False,MACS1149,MACS J1149,40.0,4.0,4.0
+8,N8,Finite Radius,False,MACS1149,MACS J1149,40.0,4.0,4.0
+9,N9,Orientation-Weighted,False,MACS1149,MACS J1149,40.0,4.0,4.0
+10,N10,Adaptive Local Field,False,MACS1149,MACS J1149,40.0,4.0,4.0
+11,N11,Cooperative Relaxation,False,MACS1149,MACS J1149,40.0,4.0,4.0
+12,N12,Mean Local Potential,False,MACS1149,MACS J1149,40.0,4.0,5.0
+13,WR1,Wrong: Random Weights,True,MACS1149,MACS J1149,40.0,4.0,4.0
+14,WR2,Wrong: Negative Weights,True,MACS1149,MACS J1149,40.0,4.0,0.0
+15,WR3,Wrong: Extremely Long-Range,True,MACS1149,MACS J1149,140.0,4.0,4.0
+16,WR4,Wrong: Shuffled Topology,True,MACS1149,MACS J1149,4.0,4.0,4.0
+1,N1,First Neighbour Only (Control),False,AbellS1063,Abell S1063,40.0,3.0,4.0
+2,N2,Two-Ring Neighbourhood,False,AbellS1063,Abell S1063,40.0,3.0,4.0
+3,N3,Three-Ring Neighbourhood,False,AbellS1063,Abell S1063,40.0,3.0,4.0
+4,N4,Exponential Decay,False,AbellS1063,Abell S1063,40.0,3.0,4.0
+5,N5,Gaussian Local Field,False,AbellS1063,Abell S1063,40.0,3.0,4.0
+6,N6,Inverse Distance,False,AbellS1063,Abell S1063,40.0,3.0,4.0
+7,N7,Inverse Square,False,AbellS1063,Abell S1063,40.0,3.0,4.0
+8,N8,Finite Radius,False,AbellS1063,Abell S1063,40.0,3.0,4.0
+9,N9,Orientation-Weighted,False,AbellS1063,Abell S1063,40.0,3.0,4.0
+10,N10,Adaptive Local Field,False,AbellS1063,Abell S1063,40.0,3.0,4.0
+11,N11,Cooperative Relaxation,False,AbellS1063,Abell S1063,40.0,3.0,4.0
+12,N12,Mean Local Potential,False,AbellS1063,Abell S1063,40.0,3.0,5.0
+13,WR1,Wrong: Random Weights,True,AbellS1063,Abell S1063,40.0,3.0,4.0
+14,WR2,Wrong: Negative Weights,True,AbellS1063,Abell S1063,40.0,3.0,0.0
+15,WR3,Wrong: Extremely Long-Range,True,AbellS1063,Abell S1063,140.0,3.0,4.0
+16,WR4,Wrong: Shuffled Topology,True,AbellS1063,Abell S1063,4.0,3.0,4.0
+1,N1,First Neighbour Only (Control),False,Abell370,Abell 370,40.0,3.0,4.0
+2,N2,Two-Ring Neighbourhood,False,Abell370,Abell 370,40.0,3.0,4.0
+3,N3,Three-Ring Neighbourhood,False,Abell370,Abell 370,40.0,3.0,4.0
+4,N4,Exponential Decay,False,Abell370,Abell 370,40.0,3.0,4.0
+5,N5,Gaussian Local Field,False,Abell370,Abell 370,40.0,3.0,4.0
+6,N6,Inverse Distance,False,Abell370,Abell 370,40.0,3.0,4.0
+7,N7,Inverse Square,False,Abell370,Abell 370,40.0,3.0,4.0
+8,N8,Finite Radius,False,Abell370,Abell 370,40.0,3.0,4.0
+9,N9,Orientation-Weighted,False,Abell370,Abell 370,40.0,3.0,4.0
+10,N10,Adaptive Local Field,False,Abell370,Abell 370,40.0,3.0,4.0
+11,N11,Cooperative Relaxation,False,Abell370,Abell 370,40.0,3.0,4.0
+12,N12,Mean Local Potential,False,Abell370,Abell 370,40.0,3.0,5.0
+13,WR1,Wrong: Random Weights,True,Abell370,Abell 370,40.0,3.0,4.0
+14,WR2,Wrong: Negative Weights,True,Abell370,Abell 370,40.0,3.0,0.0
+15,WR3,Wrong: Extremely Long-Range,True,Abell370,Abell 370,140.0,3.0,4.0
+16,WR4,Wrong: Shuffled Topology,True,Abell370,Abell 370,4.0,3.0,4.0

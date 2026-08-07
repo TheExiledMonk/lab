@@ -1,0 +1,23 @@
+{
+  "milestone": "PBUF STATE-002",
+  "status": "complete",
+  "deliverables": {
+    "report": "primitive_medium_state.md",
+    "dependency_graph": "dependency_graph.md",
+    "equation_traceability": "equation_traceability.csv",
+    "machine_readable_catalogue": "state_definition_catalogue.json"
+  },
+  "checks": {
+    "authoritative_inputs_modified": false,
+    "ontology_reviewed": false,
+    "primitive_state_replaced": false,
+    "field_equations_derived": false,
+    "constitutive_law_selected": false,
+    "photon_propagation_derived": false,
+    "new_microscopic_fields": false,
+    "auxiliary_couplings": false,
+    "fundamental_constants_added": false,
+    "v11_modified": false,
+    "all_equations_traced": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "milestone": "PBUF OBSERVATION-BRIDGE-001",
+  "status": "OK",
+  "frozen": {
+    "constitutive": "Version A unchanged",
+    "transport": "Version A unchanged",
+    "numerical_parameters": "Frozen",
+    "benchmarks": "Five clusters from PBUF_benchmark/, read-only"
+  },
+  "identical_pipeline_hashes": {
+    "observation_bridge001.py": "73ee7256bd0c4c6170a42ec4edf3ce5c22be2499c25807bd52ef11e8b9448b71",
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc"
+  },
+  "execution_seconds": 0.4437765870243311
+}

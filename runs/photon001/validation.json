@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "required_derivations_present": true,
+    "every_equation_traceable": true,
+    "coupling_gap_explicit": true,
+    "alternatives_compared": true,
+    "observables_have_pass_fail_criteria": true,
+    "photon002_inputs_outputs_tests_defined": true,
+    "no_ad_hoc_numeric_coupling": true,
+    "no_weak_lensing_execution": true,
+    "frozen_propagator_untouched": true,
+    "no_observational_validation_claim": true
+  },
+  "all_checks_pass": true
+}

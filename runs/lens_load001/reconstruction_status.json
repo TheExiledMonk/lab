@@ -1,0 +1,29 @@
+{
+  "milestone": "PBUF LENS-LOAD-001",
+  "lens_id": "Lens 001",
+  "end_to_end_reconstruction": "BLOCKED_BY_FROZEN_IDENTIFIABILITY",
+  "load_dataset_status": "NOT_RECONSTRUCTED_FROM_LENSING",
+  "missing_required_inputs": [
+    "selected frozen-compatible medium-to-metric map G with normalization and support",
+    "measurement/ray operator mapping G to the reported weak-lensing samples",
+    "observational covariance/uncertainties (none supplied)",
+    "induced elastic boundary work or an independently justified boundary model"
+  ],
+  "reason": "weak lensing does not determine placement y; without y, Pi_req=A_Omega(y) cannot be evaluated",
+  "no_physical_interpretation": true,
+  "no_new_law_or_metric": true,
+  "inputs": {
+    "matter": "/home/fabian/pbuf-test/runs/wl001/matter.csv",
+    "lensing": "/home/fabian/pbuf-test/runs/wl001/observation.csv"
+  },
+  "checksums": {
+    "matter": "693a830e224062a414103ee60129e88c5a02b7ed43b185cdd97cef238197bbfc",
+    "lensing": "143fe4efedc803c389e93bbed525860b4b131a271ebfcb67006cacfcd7572306"
+  },
+  "frozen_sources": {
+    "CONSTITUTIVE-CONSTRUCTION-001": "runs/constitutive_construction001/constitutive_construction_report.md",
+    "WEAK-LENSING-LOCALITY-001": "runs/weak_lensing_locality001/weak_lensing_locality_report.md",
+    "LOCAL-STATE-001": "runs/local_state001/local_state_report.md",
+    "INVERSE-SOURCE-001": "runs/inverse_source001/inverse_source_report.md"
+  }
+}

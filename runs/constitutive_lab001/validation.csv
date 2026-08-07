@@ -1,0 +1,8 @@
+Candidate,Label,Max C,Mean C,Pass/Fail
+Cand 1,Existing control (linear local),1.8000e-01,2.4590e-03,PASS
+Cand 2,Local linear (no kernel),1.8000e-01,2.4590e-03,PASS
+Cand 3,Finite-range boxcar (R = 1.5),1.8000e-01,5.5941e-03,PASS
+Cand 4,Exponential kernel (L = 1.0),1.8000e-01,9.9859e-03,PASS
+Cand 5,Gaussian kernel (σ = 1.0),1.8000e-01,6.8081e-03,PASS
+Cand 6,Inverse-distance (L = 1.0),1.8000e-01,5.3503e-02,PASS
+Cand 7,Compact-support (R = 2.0),1.8000e-01,3.7007e-03,PASS

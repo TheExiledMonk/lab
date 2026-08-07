@@ -1,0 +1,6 @@
+audit_id,law,result,condition,status
+MAT-C01,diffeomorphism Noether identity,minimal matter action gives nabla_mu T_m^{mu nu}=0 on matter equations,standard universal metric coupling,derived from retained GR architecture
+MAT-C02,total energy-momentum conservation,nabla_mu(T_m^{mu nu}+T_sigma^{mu nu})=0 when all field equations hold,a covariant S_sigma exists,structurally required; T_sigma cannot be calculated from supplied V11
+MAT-C03,matter-medium exchange,"direct fixed-metric chi dependence makes matter stress-energy nonconserved separately, with an exchange term fixed by the same action",nonminimal/direct coupling,allowed mathematically but not authorized or specified by V11
+MAT-C04,MB-001 global balance,volume source equals bulk recovery minus boundary gradient flux,static MB-001 equation and boundary regularity,"derived compatibility identity, not a fundamental conservation law"
+MAT-C05,equivalence principle/universality,all matter loads through T^{mu nu}; composition-specific scalar charges are excluded,'standard relativistic framework' is read as standard minimal matter coupling,strongest V11-consistent reading; premise is architectural rather than newly derived

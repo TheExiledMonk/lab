@@ -1,0 +1,25 @@
+category,milestone,test,finding,evidence,outcome
+Transport,TRANSPORT-LAB-001,propagation kernel,5 of 5 candidates within 5% relative tolerance,runs/transport_lab001/,equivalent family selected
+Transport,TRANSPORT-LAB-002,interpolation scheme,bilinear and nearest neighbour equivalent,runs/transport_lab002/,equivalent family selected
+Transport,TRANSPORT-LAB-003,boundary condition,clip and wrap equivalent,runs/transport_lab003/,equivalent family selected
+Transport,TRANSPORT-LAB-004,gradient scheme,gradient and finite-difference equivalent,runs/transport_lab004/,equivalent family selected
+Transport,TRANSPORT-LAB-005,launch position,left and right equivalent; top/bottom degenerate,runs/transport_lab005/,left/right selected
+Transport,TRANSPORT-LAB-006,normalisation,rescale and replace equivalent,runs/transport_lab006/,equivalent family selected
+Transport,TRANSPORT-LAB-007,update rule,direct and projected equivalent,runs/transport_lab007/,equivalent family selected
+Transport,TRANSPORT-LAB-008,amplitude law,linear (Cand 1) and logarithmic (Cand 4) equivalent within 7%; sqrt/quadratic/saturating/piecewise/threshold deviate by -100% to +3161%,runs/transport_lab008/measurements.csv,linear A = |grad C| selected
+Constitutive,CONSTITUTIVE-LAB-001,constitutive generation,local linear (Cand 1) and direct (Cand 2) bit-identical; boxcar/exponential/Gaussian/inverse-distance/compact-support deviate by -99.8% to +49088%,runs/constitutive_lab001/measurements.csv,Version A (no kernel) selected
+Forward,WEAK-LENSING-PREDICTION-001,forward prediction,produces 9 field maps + trajectories for Abell 2744,runs/weak_lensing_prediction001/report.md,prediction pipeline verified
+Generalization,WEAK-LENSING-GENERALIZATION-001,cross-dataset check,six synthetic clusters processed identically,runs/weak_lensing_generalization001/report.md,pipeline generalizes across configurations
+Validation,WEAK-LENSING-VALIDATION-001,validation suite,9 of 10 tests PASS; Mirror symmetry FAIL by design (chirality),runs/weak_lensing_validation001/validation.json,all tests pass except expected chirality
+Bridge,OBSERVATION-BRIDGE-001,observational correspondence,PARTIALLY comparable across kappa/gamma/gamma1/gamma2/gamma; NOT comparable for magnification (cosmology missing),runs/observation_bridge001/physical_mapping.csv,bridge audit complete
+Input,INPUT-LAB-001,input identification,all 14 candidates yield same RMS kappa across 5 clusters; Pearson kappa = nan; Pearson gamma < 0.06,runs/input_lab001/cluster_statistics.csv,null result intrinsic to kappa-extraction rule
+Input,INPUT-LAB-002,transport sensitivity sweep,kappa constant; gamma non-monotonic in distance; RMS gamma peaks at theoretical_distance ~14,runs/input_lab002/sampling_summary.csv,null result confirmed
+Observable,OBSERVABLE-LAB-001,extraction comparison,histogram suppresses information; jacobian/area/triangulation meaningful for 2D launch,runs/observable_lab001/comparison_table.csv,Q5: YES suppression; Q1: NO constant across methods
+Source,SOURCE-PLANE-LAB-001,launch geometry,1D launch degenerate in 5 of 8 methods; 2D Cartesian (Launch B) removes degeneracy,runs/source_plane_lab001/comparison_table.csv,Launch B selected
+Convergence,NUMERICAL-CONVERGENCE-001,numerical refinement,kappa and gamma converge for groups A/B/C; group D is consistency check; group E is kNN audit,runs/numerical_convergence001/convergence_summary.csv,Outcome A: convergence demonstrated
+Convergence,NUMERICAL-CONVERGENCE-001,converged kappa,kappa_RMS = 0.134 ± 0.001 at nphotons = 100000,runs/numerical_convergence001/resolution_statistics.csv,converged value frozen
+Convergence,NUMERICAL-CONVERGENCE-001,converged gamma,gamma_RMS = 0.084 ± 0.001 at nphotons = 100000,runs/numerical_convergence001/resolution_statistics.csv,converged value frozen
+Convergence,NUMERICAL-CONVERGENCE-001,production threshold,< 1% relative change at nphotons >= 20000, grid >= 256, step <= delta_s/2,runs/numerical_convergence001/report.md,min production config validated
+Convergence,NUMERICAL-CONVERGENCE-001,high-accuracy threshold,< 0.1% relative change at nphotons >= 50000, grid >= 512, step <= delta_s/4,runs/numerical_convergence001/report.md,high-accuracy config validated
+Conservation,(all runs),machine-precision conservation,max conservation error = 2.2204e-16 for every frozen run,runs/*/validation.json,conservation error at machine epsilon across all runs
+Chirality,WEAK-LENSING-VALIDATION-001,mirror-symmetry,FAIL by design; 90 deg transverse response has definite handedness,runs/weak_lensing_validation001/report.md,known property of frozen transport

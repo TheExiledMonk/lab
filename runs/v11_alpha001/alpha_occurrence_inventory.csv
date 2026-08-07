@@ -1,0 +1,30 @@
+occurrence_id,pdf_page,page_line,symbols,source_text,classification_reference
+V11-O001,2,15,alpha_T,"The table supplies epsilon0_T(a) and alpha_T(a), and the pipeline resolves a single curvature",equation_traceability.csv
+V11-O002,2,16,alpha_resolved,parameter alpha_resolved from microphysics metadata (with a fallback to the table metadata). In,equation_traceability.csv
+V11-O003,2,18,alpha,"evolution of the elastic quantities epsilon0(T) and alpha(T), which enter all background, distance,",equation_traceability.csv
+V11-O004,2,26,α,"field content, producing an elastic amplitude αQM and a temperature-dependent rigidity ϵ0 (T ).",equation_traceability.csv
+V11-O005,2,31,α,"ical data enter this step. Once αQM and ϵ0 (T ) are specified, all late-time elastic contributions are",equation_traceability.csv
+V11-O006,2,34,α,2.3.1    Numerical Value and Quantum Origin of α,equation_traceability.csv
+V11-O007,2,35,α,The elastic amplitude αresolved used throughout this work is inherited from quantum microphysics.,equation_traceability.csv
+V11-O008,2,38,α; α,"αresolved ≃ 3 αEM =            ≈ 0.0219,                           (4)",equation_traceability.csv
+V11-O009,2,40,α,where αEM is the electromagnetic fine-structure constant.,equation_traceability.csv
+V11-O010,2,43,α; α,αresolved ≃ 3 αEM,equation_traceability.csv
+V11-O011,3,8,α,"Ωb0 = 2 αresolved ,",equation_traceability.csv
+V11-O012,3,15,α,"late-time cosmological observables. Once αresolved is fixed, the present-day baryon density follows",equation_traceability.csv
+V11-O013,3,16,α,deterministically via Ωb0 = 2 αresolved .,equation_traceability.csv
+V11-O014,3,23,α,"kmax (a) = ϵ0,T (a) − αT (a),                                      (5)",equation_traceability.csv
+V11-O015,3,29,α,σ (a) = αT (a) (1 − decay(a)) S(a).,equation_traceability.csv
+V11-O016,4,2,α,"σ      = 1 − Ωm0 − Ωr0 − αresolved ,                            (9)",equation_traceability.csv
+V11-O017,4,13,alpha_resolved,"once alpha_resolved, epsilon0(T), and the activation structure are fixed, and introduces no addi-",equation_traceability.csv
+V11-O018,4,30,α,"Ωσ (a) = α 1 − e−a/Rmax S(a),                                 (15)",equation_traceability.csv
+V11-O019,4,34,α,"role is replaced by the elastic amplitude α, which encodes the effective large-scale response of",equation_traceability.csv
+V11-O020,4,37,α,"amplitude α, the rigidity evolution ϵ0 (T ), and the activation structure are fixed, the expansion",equation_traceability.csv
+V11-O021,4,41,alpha_resolved,PBUF ties present-day baryon and matter densities to alpha_resolved using a fixed baryon fraction,equation_traceability.csv
+V11-O022,4,45,α,"Ωb0 = 2 αresolved ,                                (16)",equation_traceability.csv
+V11-O023,4,49,α,The present-day density identities Ωb0 = 2 αresolved and Ωm0 = Ωb0 /0.135 are not additional fit-,equation_traceability.csv
+V11-O024,5,1,α,"Once the elastic amplitude αresolved is fixed by microphysical input, the normalization procedure",equation_traceability.csv
+V11-O025,5,9,alpha_resolved,"In this implementation, PBUF is fit in terms of H0 and Rmax, while alpha_resolved is taken",equation_traceability.csv
+V11-O026,7,14,α,parameters but are derived from the elastic amplitude αresolved via enforced identities. The quantity,equation_traceability.csv
+V11-O027,7,15,α,reported as Ωk0 corresponds to αresolved and does not represent an independent curvature parameter.,equation_traceability.csv
+V11-O028,7,42,α,Ωk0 is not a free parameter in PBUF; its phenomenological role is replaced by the elastic amplitude α.,equation_traceability.csv
+V11-O029,11,4,α,"understood in the effective sense; in PBUF, the elastic amplitude α fully captures the large-scale",equation_traceability.csv

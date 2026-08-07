@@ -1,0 +1,227 @@
+{
+  "mission": "PBUF CONS-001 Top-Down Consistency Constraint on Fundamental Coupling",
+  "outcome": "D) existing theory is insufficient; g_dev is currently indeterminate",
+  "dependencies": [
+    {
+      "edge_id": "C001-D01",
+      "source": "g_dev",
+      "target": "microscopic source J",
+      "kind": "direct linear coupling",
+      "basis": "corrected CORE-001/FND-002/FND-003",
+      "consequence": "g_dev directly normalizes the matter-aligned microscopic source; no independent coupling multiplier remains."
+    },
+    {
+      "edge_id": "C001-D03",
+      "source": "microscopic source J",
+      "target": "coarse source s(rho)",
+      "kind": "conditional coarse graining",
+      "basis": "CORE-001; MB-001",
+      "consequence": "The map is conditional and its normalization is not independently fixed."
+    },
+    {
+      "edge_id": "C001-D04",
+      "source": "coarse source s(rho)",
+      "target": "continuum deformation u",
+      "kind": "conditional constitutive response",
+      "basis": "WL-003/MB-001",
+      "consequence": "Stiffness and closure coefficients introduce further independent scales."
+    },
+    {
+      "edge_id": "C001-D05",
+      "source": "u",
+      "target": "photon response n(u)",
+      "kind": "missing map",
+      "basis": "PHOTON-001",
+      "consequence": "beta=(dn/du)|_0 is undetermined and is not identified with g_dev."
+    },
+    {
+      "edge_id": "C001-D06",
+      "source": "n(u)",
+      "target": "deflection and phase",
+      "kind": "conditional optical propagation",
+      "basis": "PHOTON-001",
+      "consequence": "Photon observables depend on n or beta and u, not on g_dev separately."
+    },
+    {
+      "edge_id": "C001-D07",
+      "source": "g_dev",
+      "target": "equal-component vertex vector g_dev*(1,1,1)",
+      "kind": "explicit premise",
+      "basis": "FND-004/FND-005",
+      "consequence": "Absolute amplitude scales with g_dev; normalized component-counting ratios cancel it."
+    },
+    {
+      "edge_id": "C001-D08",
+      "source": "equal-component vertex",
+      "target": "bright/dark and coherent ratios",
+      "kind": "linear algebra",
+      "basis": "FND-004/FND-005",
+      "consequence": "The ratios sqrt(3) and 3 are g_dev-independent for nonzero common coupling."
+    }
+  ],
+  "constraints": [
+    {
+      "sector": "Foundational ontology (FND-001--FND-003)",
+      "g_dev_dependence": "directly normalizes the corrected microscopic matter vertex",
+      "g_dev_functions": "microscopic source amplitude",
+      "g_dev_independent": "three-component count and rotation-representation audit",
+      "condition": "a separate principle would be required to derive a numerical value",
+      "admissible_region": "all finite g_dev; nonzero if the stipulated coupling is imposed",
+      "strength": "no magnitude bound",
+      "diagnosis": "former inverse-rescaling conclusion withdrawn; numerical value remains a premise"
+    },
+    {
+      "sector": "CORE-001 microscopic model",
+      "g_dev_dependence": "linear source term -epsilon_* g_dev eta e.q",
+      "g_dev_functions": "source and conditional equilibrium response amplitude",
+      "g_dev_independent": "homogeneous stability, mode count, normalized coarse-graining form",
+      "condition": "stiffness positivity constrains kappa coefficients, not g_dev",
+      "admissible_region": "all finite g_dev; nonzero for matter loading",
+      "strength": "excludes zero only if nonzero matter coupling is imposed",
+      "diagnosis": "direct coupling is well defined but not numerically selected"
+    },
+    {
+      "sector": "FND-004 consequences",
+      "g_dev_dependence": "component vertices and unnormalized bright amplitude",
+      "g_dev_functions": "|g_vec|=sqrt(3)|g_dev|; quadratic weight proportional to g_dev^2",
+      "g_dev_independent": "two dark modes and normalized multiplicity ratios",
+      "condition": "common equal nonzero coupling for bright/dark interpretation",
+      "admissible_region": "g_dev != 0 for the stated coupling premise; no magnitude bound",
+      "strength": "excludes zero only if nonzero coupling is imposed",
+      "diagnosis": "premise, not a derived consistency constraint"
+    },
+    {
+      "sector": "FND-005 experimental consequences",
+      "g_dev_dependence": "absolute calibrated source response",
+      "g_dev_functions": "amplitudes proportional to g_dev; powers proportional to g_dev^2",
+      "g_dev_independent": "normalized coherent/single-channel ratios and component counting",
+      "condition": "access map and independent source calibration are absent",
+      "admissible_region": "unbounded; separate g_dev unobservable",
+      "strength": "none on magnitude",
+      "diagnosis": "proposed tests can constrain equality/counting before magnitude"
+    },
+    {
+      "sector": "Weak-lensing laboratory (WL-001)",
+      "g_dev_dependence": "none in frozen implementation",
+      "g_dev_functions": "none",
+      "g_dev_independent": "all archived fields, trajectories, residuals and RMSE",
+      "condition": "empirical scalar interface contains no g_dev mapping",
+      "admissible_region": "all g_dev",
+      "strength": "none",
+      "diagnosis": "cannot constrain a parameter absent from the code"
+    },
+    {
+      "sector": "Constitutive studies (WL-002/WL-002A/WL-003)",
+      "g_dev_dependence": "none in the implemented candidate scalar laws",
+      "g_dev_functions": "only the upstream source amplitude once a physical closure is supplied",
+      "g_dev_independent": "catalogue rankings and frozen reproducibility comparisons",
+      "condition": "physical micro--macro closure remains missing/conditional",
+      "admissible_region": "all g_dev",
+      "strength": "none",
+      "diagnosis": "empirical laws supply no equation relating their behavior to g_dev"
+    },
+    {
+      "sector": "Micro--macro closure (MB-001)",
+      "g_dev_dependence": "direct upstream source dependence should propagate through a completed closure",
+      "g_dev_functions": "conditional coarse source",
+      "g_dev_independent": "closure-gap finding and frozen Version-D reproduction",
+      "condition": "quantitative coarse-graining/response law absent",
+      "admissible_region": "all finite g_dev; no closure-derived bound",
+      "strength": "none on magnitude",
+      "diagnosis": "missing closure prevents a cross-sector consistency equation"
+    },
+    {
+      "sector": "Elasticity, rigidity, stiffness and thermal assumptions",
+      "g_dev_dependence": "no established equation ties g_dev to elastic, thermal, damping, or stiffness coefficients",
+      "g_dev_functions": "none established",
+      "g_dev_independent": "positivity/stability and symmetry conditions",
+      "condition": "K, G, kappa, thermal and response scales remain independent inputs",
+      "admissible_region": "all g_dev",
+      "strength": "none",
+      "diagnosis": "a relation would be new physics and is forbidden here"
+    },
+    {
+      "sector": "Photon coupling (PHOTON-001)",
+      "g_dev_dependence": "none established; optical beta or full n(u) is independent and missing",
+      "g_dev_functions": "none without an added g_dev-to-electromagnetic map",
+      "g_dev_independent": "conditional Fermat/ray equations and symmetry null tests",
+      "condition": "photon action/effective metric must independently fix n(u)",
+      "admissible_region": "all g_dev",
+      "strength": "none",
+      "diagnosis": "identifying beta with g_dev would be an unsupported assumption"
+    }
+  ],
+  "observables": [
+    {
+      "observable": "normalized component count / two dark modes",
+      "dependence": "independent of g_dev (assuming a nonzero equal access vertex)",
+      "reason": "depends on dimension and direction of the equal-coupling vector, not its magnitude"
+    },
+    {
+      "observable": "coherent-to-single and coherent-to-incoherent ratios",
+      "dependence": "independent of g_dev",
+      "reason": "common powers of g_dev cancel"
+    },
+    {
+      "observable": "absolute microscopic/coarse response amplitude",
+      "dependence": "microscopic source depends directly on g_dev; coarse response also depends on established stiffness/closure structure",
+      "reason": "the auxiliary rescaling degeneracy is gone, but the downstream closure is incomplete"
+    },
+    {
+      "observable": "continuum profile and weak-lensing residuals",
+      "dependence": "independent in existing implementations",
+      "reason": "the frozen laboratory has no g_dev input"
+    },
+    {
+      "observable": "photon deflection and optical phase",
+      "dependence": "conditional on beta and u; no established separate g_dev dependence",
+      "reason": "PHOTON-001 leaves n(u) unspecified"
+    },
+    {
+      "observable": "stability, stiffness positivity and symmetry gates",
+      "dependence": "independent of g_dev in supplied equations",
+      "reason": "g_dev appears as a source scale rather than in the quadratic stability operator"
+    }
+  ],
+  "overlap": {
+    "parameter": "symbolic g_dev",
+    "sector_regions": {
+      "Foundational ontology (FND-001--FND-003)": "all finite g_dev; nonzero if the stipulated coupling is imposed",
+      "CORE-001 microscopic model": "all finite g_dev; nonzero for matter loading",
+      "FND-004 consequences": "g_dev != 0 for the stated coupling premise; no magnitude bound",
+      "FND-005 experimental consequences": "unbounded; separate g_dev unobservable",
+      "Weak-lensing laboratory (WL-001)": "all g_dev",
+      "Constitutive studies (WL-002/WL-002A/WL-003)": "all g_dev",
+      "Micro--macro closure (MB-001)": "all finite g_dev; no closure-derived bound",
+      "Elasticity, rigidity, stiffness and thermal assumptions": "all g_dev",
+      "Photon coupling (PHOTON-001)": "all g_dev"
+    },
+    "mathematical_overlap": "all finite g_dev; if the stipulated fundamental coupling must be nonzero, all finite g_dev except zero",
+    "bounded_interval_found": false,
+    "preferred_value_found": false,
+    "classification": "D) existing theory is insufficient; g_dev is currently indeterminate",
+    "dominant_constraints": [
+      "No supplied symmetry or consistency identity selects a numerical g_dev.",
+      "The micro--macro response is not completed into an independent cross-sector constraint.",
+      "The photon response n(u), especially beta=(dn/du)|_0, is missing and is not linked to g_dev."
+    ],
+    "reassessment": "The previous inverse-rescaling reason for indeterminacy was wholly an artefact and is withdrawn. The final absence of a numerical bound remains for genuine independent reasons: no value-selecting identity, completed closure constraint, or g_dev-linked photon map exists.",
+    "missing_physics_not_g_dev_failure": "Disagreement among downstream amplitudes cannot presently be assigned uniquely to g_dev because closure and photon maps are incomplete.",
+    "no_fit_performed": true
+  },
+  "validation": {
+    "checks": {
+      "all_completed_sectors_audited": true,
+      "dependency_graph_complete": true,
+      "every_sector_has_region_and_diagnosis": true,
+      "g_dev_dependent_and_independent_observables_separated": true,
+      "overlap_analyzed": true,
+      "dominant_obstructions_identified": true,
+      "outcome_is_indeterminate": true,
+      "no_observational_fit": true,
+      "frozen_validation_not_imported_or_modified": true,
+      "no_new_physics_introduced": true
+    },
+    "all_checks_pass": true
+  }
+}

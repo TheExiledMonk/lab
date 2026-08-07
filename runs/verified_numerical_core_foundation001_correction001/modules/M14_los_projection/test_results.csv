@@ -1,0 +1,9 @@
+los_max_err,passes,test,image_plane_err,results,max_los,err,max_diff
+0.0,True,full_constant,,,,,
+,True,image_plane_constant,0.0,,,,
+,True,image_plane_components,,"[{'los_axis': 'z', 'comp_1_label': 'x', 'comp_2_label': 'y', 'comp_1_matches_full': True, 'comp_2_matches_full': True, 'passes': True}, {'los_axis': 'y', 'comp_1_label': 'x', 'comp_2_label': 'z', 'comp_1_matches_full': True, 'comp_2_matches_full': True, 'passes': True}, {'los_axis': 'x', 'comp_1_label': 'y', 'comp_2_label': 'z', 'comp_1_matches_full': True, 'comp_2_matches_full': True, 'passes': True}]",,,
+,True,antisymmetric_depth,,,4.440892098500626e-16,,
+,True,single_slice,,,,0.0,
+,True,zero_field,,,,,
+,True,prod_vs_ref,,,,,0.0
+,True,known_cancellation,,,0.0,,

@@ -1,0 +1,130 @@
+{
+  "milestone": "PBUF CONSTITUTIVE-002",
+  "schema_version": "1.0",
+  "status": "comparative evaluation complete; no unique constitutive law selected",
+  "common_test": {
+    "native_variable": "C[q,q0] in Sym+(3)",
+    "comparison_coordinate": "e >= 0 along any admissible smooth deformation ray C(e), C(0)=1",
+    "energy": "w(e)=W(C(e))",
+    "stress": "sigma(e)=dw/de",
+    "tangent_stiffness": "k_t(e)=d sigma/de=d2w/de2",
+    "compliance": "de/dsigma=1/k_t",
+    "hardening_condition": "k_t' >= 0, equivalently compliance nonincreasing when k_t>0",
+    "weak_limit": "w=(k0/2)e^2+o(e^2), sigma=k0 e+o(e), k0>0"
+  },
+  "families": [
+    {
+      "id": "A",
+      "name": "linear elastic",
+      "domain": "e >= 0",
+      "energy": "k0 e^2/2",
+      "stress": "k0 e",
+      "tangent": "k0",
+      "weak_field": true,
+      "progressive_hardening": false,
+      "coercive": true,
+      "mathematical_limit": null,
+      "finite_energy_reachable_set_bounded": true,
+      "classification": "tangent limit only"
+    },
+    {
+      "id": "B",
+      "name": "polynomial hardening",
+      "domain": "e >= 0",
+      "energy": "k0 e^2/2 + sum_{m=2}^N a_m e^(m+1)/(m+1)",
+      "stress": "k0 e + sum_{m=2}^N a_m e^m",
+      "tangent": "k0 + sum_{m=2}^N m a_m e^(m-1)",
+      "restrictions": ["a_m >= 0", "at least one a_m > 0", "positive leading energy coefficient"],
+      "minimum_order_one_sided": "quadratic stress / cubic energy",
+      "minimum_order_signed_even_energy": "cubic stress / quartic energy",
+      "weak_field": true,
+      "progressive_hardening": true,
+      "coercive": true,
+      "mathematical_limit": null,
+      "finite_energy_reachable_set_bounded": true,
+      "classification": "viable conditional family"
+    },
+    {
+      "id": "C",
+      "name": "exponential hardening",
+      "domain": "e >= 0",
+      "energy": "k0[cosh(b e)-1]/b^2",
+      "stress": "k0 sinh(b e)/b",
+      "tangent": "k0 cosh(b e)",
+      "restrictions": ["b > 0"],
+      "weak_field": true,
+      "progressive_hardening": true,
+      "coercive": true,
+      "mathematical_limit": null,
+      "finite_energy_reachable_set_bounded": true,
+      "classification": "viable but not selected"
+    },
+    {
+      "id": "D",
+      "name": "asymptotic barrier",
+      "domain": "0 <= e < e_star",
+      "energy": "k0 e_star^2{(1-e/e_star)^(-p)-1-p(e/e_star)}/[p(p+1)]",
+      "stress": "k0 e_star{(1-e/e_star)^(-p-1)-1}/(p+1)",
+      "tangent": "k0(1-e/e_star)^(-p-2)",
+      "restrictions": ["e_star > 0", "p > 0"],
+      "weak_field": true,
+      "progressive_hardening": true,
+      "coercive_at_endpoint": true,
+      "mathematical_limit": "e_star",
+      "finite_energy_reachable_set_bounded": true,
+      "classification": "strongest generic match when energetic finite-bound enforcement is required"
+    },
+    {
+      "id": "E1",
+      "name": "Gent-type finite extensibility",
+      "domain": "0 <= e < e_star",
+      "energy": "-(k0 e_star^2/2) log[1-(e/e_star)^2]",
+      "stress": "k0 e/[1-(e/e_star)^2]",
+      "tangent": "k0[1+(e/e_star)^2]/[1-(e/e_star)^2]^2",
+      "weak_field": true,
+      "progressive_hardening": true,
+      "coercive_at_endpoint": true,
+      "mathematical_limit": "e_star",
+      "finite_energy_reachable_set_bounded": true,
+      "classification": "standard barrier exemplar; tensor adaptation required"
+    },
+    {
+      "id": "E2",
+      "name": "quadratic Hencky elasticity",
+      "domain": "C in Sym+(3)",
+      "energy": "(K/2)(tr H)^2 + mu H_TF:H_TF, H=(log C)/2",
+      "stress": "linear in H on pure H rays",
+      "tangent": "constant on pure H rays",
+      "restrictions": ["K > 0", "mu > 0"],
+      "weak_field": true,
+      "progressive_hardening": false,
+      "coercive": "toward zero or infinite eigenvalues in H norm",
+      "mathematical_limit": null,
+      "finite_energy_reachable_set_bounded": true,
+      "classification": "finite-strain parametrization; partial CP-5 match"
+    }
+  ],
+  "finite_energy_rule": {
+    "available_energy": "E_av < infinity",
+    "reachable_set": "S_E={e:w(e)<=E_av}",
+    "conclusion": "coercivity bounds physical reachability but does not create a mathematical deformation cutoff",
+    "regular_finite_endpoint": "requires independent state constraint if endpoint energy is finite"
+  },
+  "recovery_rule": "strict energy minimum supplies restoring tendency; actual relaxation rate or convergence requires an authorized evolution law",
+  "ranking": {
+    "weights_used": false,
+    "unique_winner": false,
+    "linear": "required weak tangent only",
+    "viable_without_cutoff_selection": ["polynomial", "exponential", "asymptotic barrier", "Gent-type"],
+    "conditional_preference": "asymptotic barrier class, with Gent-type as an exemplar, only if energetic enforcement of the accepted finite elastic bound is required"
+  },
+  "forbidden_checks": {
+    "frozen_document_modified": false,
+    "governing_equation_derived": false,
+    "ontology_modified": false,
+    "microscopic_constituent_added": false,
+    "empirical_fit_performed": false,
+    "v11_modified": false,
+    "native_law_declared": false
+  }
+}

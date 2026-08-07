@@ -1,0 +1,19 @@
+{
+  "cluster_id": "MACS0416",
+  "model": "A8",
+  "channel_id": "CH2",
+  "channel_name": "Transverse (local-gradient)",
+  "decomposition_type": "local_transverse",
+  "padded_unpadded": "padded",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "dtype": "float64",
+  "response_rx_sha256": "01d4b55c8c6a1bb586124dff41dbfd1b4c17485596d7a26d8506cada5aa89af9",
+  "response_ry_sha256": "de254a658d6ca539aca52bbe035b0f5d111ceef80e905902c7c7797fc0f9b56f",
+  "kappa_sha256": "79d2acc91a095e07a3ddd6031f16dc532bddab3da140e631e3d331a222e8b56f",
+  "gamma1_sha256": "4b6dfd36848771f1c58367bba39431e727a56c3d7583e76f8a8b9656e205b6b6",
+  "gamma2_sha256": "49a3456a6a5fc5c496e01ba336a100b7750ca9517d637628792e0391ef256f00",
+  "frozen_source_hash": "552c1d3ad00330b6816190049f7172b1cd4fb7d0578fed842ecb84d5210b6b7b"
+}

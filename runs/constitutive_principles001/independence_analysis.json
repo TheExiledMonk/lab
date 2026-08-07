@@ -1,0 +1,37 @@
+[
+  {
+    "left": "P10",
+    "right": "P08",
+    "justification": "Progressive amplitude hardening is local in E06/E09; communication may enter only through balance."
+  },
+  {
+    "left": "P09",
+    "right": "P12",
+    "justification": "Hookean and neo-Hookean branches support waves without a finite extension barrier."
+  },
+  {
+    "left": "P07",
+    "right": "hyperelastic label",
+    "justification": "Recovery follows a conservative single-well energy; the label is sufficient in the elastic sector, not logically necessary for dissipative asymptotic recovery."
+  },
+  {
+    "left": "P13",
+    "right": "P14",
+    "justification": "Gradient and integral nonlocal operators have related long-wave expansions but are not exactly equivalent at finite wavelength."
+  },
+  {
+    "left": "P10",
+    "right": "P12",
+    "justification": "Exponential/polynomial hardening lacks a finite endpoint; a poorly chosen one-invariant barrier need not harden every tensor path."
+  },
+  {
+    "left": "P11",
+    "right": "P12",
+    "justification": "Coercivity acts at infinity; finite extensibility acts at a finite domain boundary."
+  },
+  {
+    "left": "P15",
+    "right": "P09",
+    "justification": "Conservative hyperelastic systems propagate waves without dissipation; dissipative systems may overdamp them."
+  }
+]

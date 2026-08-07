@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M14_los_projection",
+  "version": "1.1.0-correction001",
+  "status": "unit_verified_pending_contract_review",
+  "source_sha256": "2bed6a1c65806573b17e459fb4cc43781ef632dc016cb09df8238665eb302cb0",
+  "test_sha256": "2bed6a1c65806573b17e459fb4cc43781ef632dc016cb09df8238665eb302cb0",
+  "conventions_version": "1.1.0-correction001",
+  "correction_id": "FOUNDATION-001-CORRECTION-001",
+  "tests_passed": 8,
+  "tests_total": 8,
+  "maximum_error": 0.0,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "supersedes": "FOUNDATION-001 previous registry entry (see superseded_certificates/)"
+}

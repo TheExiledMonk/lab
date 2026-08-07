@@ -1,0 +1,51 @@
+{
+  "cluster": "MACS0416",
+  "candidate_id": "PL4_PM2_PS2",
+  "longitudinal_reference": "PL4",
+  "magnitude_formulation": "PM2",
+  "pair_symmetrization": "PS2",
+  "scalar_label": "u_slow",
+  "grid_dimensions": [
+    9,
+    64,
+    64
+  ],
+  "projector_validation": {
+    "err_idempotence": 4.787836793695988e-16,
+    "err_symmetry": 0.0,
+    "err_longitudinal": 4.842046902320263e-16,
+    "passes_idempotence": true,
+    "passes_symmetry": true,
+    "passes_longitudinal": true
+  },
+  "antisymmetry": {
+    "max_antisymmetry_error": 0.0,
+    "passes": true
+  },
+  "closure": {
+    "total_interface": [
+      1.0842021724855044e-19,
+      0.0,
+      3.469446951953614e-18
+    ],
+    "total_voxel": [
+      -5.963111948670274e-19,
+      1.0842021724855044e-19,
+      0.0
+    ],
+    "abs_diff": [
+      7.047314121155779e-19,
+      -1.0842021724855044e-19,
+      3.469446951953614e-18
+    ],
+    "max_abs_diff": 3.469446951953614e-18,
+    "rel_diff": 0.0034694469519536138,
+    "passes": false
+  },
+  "checksums": {
+    "response_x": "9683d0bdc961fe3b23f40e9547e160902a027fa63037061ad8a36dc5e3fdd154",
+    "response_y": "c39b1c71511310787dd9bea4c23b9271619453b151aac78c41bdff8ba7ae0fa5",
+    "response_z": "b09bcdca50f608b1060088d862564998eabb4c6a9b489fcd0331675dcb15d670",
+    "kappa": "8464f0a61f208ec043c2176b3287b6cff57f39975cfb1fff2c84146aae5c3491"
+  }
+}

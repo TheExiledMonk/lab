@@ -1,0 +1,23 @@
+{
+  "milestone": "PBUF DEFORMATION-001",
+  "status": "complete with smallest unavoidable realization family",
+  "native_abstract_variable": "dimensionless objective relative-deformation endomorphism C[q,q0]",
+  "physical_data": "spectrum of C modulo diffeomorphisms and internal gauge",
+  "preferred_instantaneous_branch": "rank-three symmetric positive-definite material C",
+  "remaining_admissible_branch": "rank-four clock-and-ruler relative comparison pending temporal and metric identification",
+  "excluded_as_complete_variables": [
+    "bare scalar",
+    "bare vector",
+    "raw displacement",
+    "raw deformation gradient without rotation quotient"
+  ],
+  "checks": {
+    "foundation_reopened": false,
+    "constitutive_equation_derived": false,
+    "stored_energy_proposed": false,
+    "material_constant_introduced": false,
+    "field_equation_derived": false,
+    "observations_fitted": false,
+    "v11_modified": false
+  }
+}

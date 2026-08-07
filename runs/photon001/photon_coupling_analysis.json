@@ -1,0 +1,269 @@
+{
+  "mission": "PBUF PHOTON-001 Microscopic-to-Photon Coupling Derivation",
+  "outcome": "conditional family; exact response missing",
+  "unique_coupling_derived": false,
+  "missing_theoretical_step": "A photon/electromagnetic action or effective-metric map fixing n(u), especially beta=(dn/du)|_0.",
+  "equations": [
+    {
+      "id": "P001-E01",
+      "equation": "u(x)=C_L[q](x)",
+      "quantity": "coarse scalar deformation",
+      "status": "established definition",
+      "origin": "CORE-001-E03/E04",
+      "assumptions": "CORE-001 scale separation and scalar projection",
+      "implication": "Supplies a possible photon input, not a coupling law."
+    },
+    {
+      "id": "P001-E02",
+      "equation": "S_ray[x]=E0 integral n(u(x)) |dx/dlambda| dlambda",
+      "quantity": "Fermat/eikonal ray functional",
+      "status": "conditional general form",
+      "origin": "spatial isotropy, locality, stationarity, losslessness",
+      "assumptions": "P001-A01--A05",
+      "implication": "The scalar field can influence rays only through an undetermined optical response n(u)."
+    },
+    {
+      "id": "P001-E03",
+      "equation": "d(n t)/ds=grad n",
+      "quantity": "ray equation",
+      "status": "derived from P001-E02",
+      "origin": "Euler-Lagrange variation",
+      "assumptions": "arc length s; unit tangent t",
+      "implication": "Only transverse index gradients bend a ray."
+    },
+    {
+      "id": "P001-E04",
+      "equation": "dt/ds=(I-t t^T) grad ln n(u)",
+      "quantity": "path curvature",
+      "status": "derived from P001-E03",
+      "origin": "projection perpendicular to t",
+      "assumptions": "n>0",
+      "implication": "A uniform deformation changes optical phase but not the ray path."
+    },
+    {
+      "id": "P001-E05",
+      "equation": "n(u)=1+beta u+O(u^2), beta=(dn/du)|_0",
+      "quantity": "small-deformation response",
+      "status": "conditional expansion; coefficient missing",
+      "origin": "P001-A05",
+      "assumptions": "|u| small and differentiability",
+      "implication": "beta is a dimensionless photon-coupling response not fixed by g_dev=1/137."
+    },
+    {
+      "id": "P001-E06",
+      "equation": "dt/ds=beta (I-t t^T) grad u+O(u grad u)",
+      "quantity": "linearized ray curvature",
+      "status": "derived from P001-E04/E05",
+      "origin": "first-order expansion",
+      "assumptions": "weak deformation",
+      "implication": "The deformation gradient drives bending only after beta is supplied."
+    },
+    {
+      "id": "P001-E07",
+      "equation": "Delta Phi=(E0/hbar c) integral [n(u)-1] ds",
+      "quantity": "accumulated optical phase",
+      "status": "derived conditionally from P001-E02",
+      "origin": "eikonal phase",
+      "assumptions": "coherent monochromatic wave and geometrical optics",
+      "implication": "Uniform u can be phase-visible even when it causes no deflection."
+    },
+    {
+      "id": "P001-E08",
+      "equation": "ds_eff^2=-c^2 dt^2/n(u)^2+dx^2 (up to conformal factor)",
+      "quantity": "static isotropic optical metric",
+      "status": "equivalent representation, not PBUF-derived",
+      "origin": "null condition gives |dx/dt|=c/n",
+      "assumptions": "P001-A03 and P001-A06",
+      "implication": "A metric interpretation adds no prediction until n(u) is known; null paths do not fix the conformal factor."
+    },
+    {
+      "id": "P001-E09",
+      "equation": "current WL: update v proportional to -grad u, then normalize",
+      "quantity": "frozen WL scalar interface",
+      "status": "empirical compatibility target",
+      "origin": "pbuf_experiment.py propagate",
+      "assumptions": "implicit beta/sign/normalization; x component is additionally weighted by 0.15",
+      "implication": "Matches the structure of P001-E06 only at leading order after projection, but is not uniquely derived and is not rotationally isotropic as coded."
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "P001-A01",
+      "assumption": "The CORE-001 coarse field u is the photon-accessible scalar.",
+      "status": "conditional",
+      "source": "CORE-001 defines u, but does not say photons couple to it.",
+      "required_for": "scalar optical reduction",
+      "failure_consequence": "Photon coupling may depend on other projections, tensor modes, or derivatives."
+    },
+    {
+      "id": "P001-A02",
+      "assumption": "Geometrical optics applies: wavelength is short compared with the variation scale of u.",
+      "status": "standard approximation",
+      "source": "not a PBUF ontology consequence",
+      "required_for": "ray action and path equation",
+      "failure_consequence": "A wave equation and diffraction must replace rays."
+    },
+    {
+      "id": "P001-A03",
+      "assumption": "The medium is local, static, isotropic, parity even, nondispersive, and nonbirefringent in its rest frame.",
+      "status": "conditional symmetry choice",
+      "source": "compatible with the scalar continuum truncation",
+      "required_for": "one scalar refractive index n(u)",
+      "failure_consequence": "Direction, frequency, polarization, or history dependent optical tensors are allowed."
+    },
+    {
+      "id": "P001-A04",
+      "assumption": "Photon number/frequency is conserved in the static background and propagation is lossless.",
+      "status": "conditional conservation requirement",
+      "source": "not supplied by PBUF",
+      "required_for": "real Fermat functional",
+      "failure_consequence": "Complex response and absorption/emission terms are required."
+    },
+    {
+      "id": "P001-A05",
+      "assumption": "n(u) is differentiable near the unloaded state, with n(0)=1.",
+      "status": "normalization plus regularity",
+      "source": "vacuum normalization is conventional; response is missing",
+      "required_for": "small-deformation expansion",
+      "failure_consequence": "No linear weak-field limit follows."
+    },
+    {
+      "id": "P001-A06",
+      "assumption": "A covariant completion, if used, provides an effective metric whose null rays reproduce the same optical index in the static isotropic limit.",
+      "status": "conditional",
+      "source": "no metric map occurs in established PBUF",
+      "required_for": "effective-metric interpretation",
+      "failure_consequence": "Fermat optics remains phenomenological rather than covariantly derived."
+    }
+  ],
+  "alternatives": [
+    {
+      "hypothesis": "direct deformation n(u)",
+      "allowed": "yes, conditionally",
+      "distinctive_effect": "uniform u changes phase; gradients bend",
+      "ontology_status": "not uniquely implied"
+    },
+    {
+      "hypothesis": "gradient-only n(|grad u|^2) or higher-derivative coupling",
+      "allowed": "yes",
+      "distinctive_effect": "uniform u invisible; typically nonlinear and introduces extra boundary sensitivity",
+      "ontology_status": "not selected by current axioms"
+    },
+    {
+      "hypothesis": "nonlocal accumulated response",
+      "allowed": "yes",
+      "distinctive_effect": "history/path dependence",
+      "ontology_status": "requires a kernel absent from PBUF"
+    },
+    {
+      "hypothesis": "effective metric g_eff[u]",
+      "allowed": "yes",
+      "distinctive_effect": "covariant null geodesics and possible time delay",
+      "ontology_status": "tensor map, causal dynamics, and normalization absent"
+    },
+    {
+      "hypothesis": "direct vector/tensor microstate coupling",
+      "allowed": "yes",
+      "distinctive_effect": "polarization or direction dependence",
+      "ontology_status": "hidden by CORE-001 scalar projection; not excluded by three-component ontology"
+    }
+  ],
+  "predicted_observables": [
+    {
+      "id": "P001-O01",
+      "observable": "ray deflection/curvature",
+      "prediction": "proportional to the transverse gradient of u in the weak scalar limit",
+      "dependencies": "A01--A05 and unknown beta",
+      "signature": "zero for uniform u; reverses with beta or gradient sign",
+      "pass_fail": "PHOTON-002 numerical curvature agrees with beta(I-tt)grad u to preregistered truncation tolerance"
+    },
+    {
+      "id": "P001-O02",
+      "observable": "relative phase/time delay",
+      "prediction": "line integral of n(u)-1; can be nonzero without bending",
+      "dependencies": "coherent timing/phase readout and n(u)",
+      "signature": "path-integrated response",
+      "pass_fail": "phase scales linearly with path length in a uniform-u slab and shows zero transverse deflection"
+    },
+    {
+      "id": "P001-O03",
+      "observable": "frequency dependence",
+      "prediction": "none under A03; chromaticity signals dispersion or failure of scalar nondispersive closure",
+      "dependencies": "multi-frequency propagation",
+      "signature": "same spatial ray at all frequencies",
+      "pass_fail": "paths agree across frequency within tolerance, or A03 is rejected"
+    },
+    {
+      "id": "P001-O04",
+      "observable": "polarization dependence",
+      "prediction": "none under A03; splitting signals birefringent/tensor coupling",
+      "dependencies": "polarization-resolved propagation",
+      "signature": "coincident orthogonal-polarization rays",
+      "pass_fail": "polarization paths agree within tolerance, or scalar coupling is rejected"
+    },
+    {
+      "id": "P001-O05",
+      "observable": "rotational covariance",
+      "prediction": "rotating u and initial ray rotates the output path identically",
+      "dependencies": "isotropic scalar hypothesis",
+      "signature": "no preferred coordinate axis",
+      "pass_fail": "rotated/unrotated solutions agree after inverse rotation; current 0.15 x weighting is expected not to satisfy this gate"
+    }
+  ],
+  "photon002_specification": {
+    "milestone": "PHOTON-002",
+    "purpose": "Implement and test candidate photon maps without fitting observations.",
+    "required_inputs": [
+      "dimensionless u field and coordinates",
+      "independently specified n(u) or beta with provenance",
+      "initial ray position and unit tangent",
+      "step/refinement controls",
+      "optional frequency and polarization labels for null tests"
+    ],
+    "candidate_interface": "optical_response(u)->n and grad_log_n(u,grad_u); integrate dt/ds=(I-tt^T)grad_log_n",
+    "expected_outputs": [
+      "ray coordinates and unit tangents",
+      "local curvature",
+      "integrated optical phase/time delay",
+      "convergence and symmetry diagnostics",
+      "provenance for every coupling choice"
+    ],
+    "mandatory_tests": [
+      "u=0 and spatially uniform u produce straight rays",
+      "constant transverse grad u produces the analytic small-beta curvature",
+      "longitudinal gradients do not create first-order transverse curvature",
+      "step refinement converges at the integrator's declared order",
+      "rotations and translations commute with propagation",
+      "polarization and frequency null tests hold for scalar nondispersive n",
+      "phase accumulates through a uniform-u slab while deflection remains zero",
+      "comparison to frozen WL is diagnostic only and changes no existing artifact or propagator"
+    ],
+    "decision_gates": {
+      "mathematical": "all analytic, convergence, and symmetry tests pass",
+      "compatibility": "leading-order paths match frozen WL only after explicitly documenting beta, sign, units, projection, and the WL x-weight anisotropy",
+      "theory": "beta or full n(u) is derived independently from a photon/electromagnetic action before any observational claim",
+      "falsification": "failure of achromatic or polarization-independent gates rejects A03, not the three-component ontology by itself"
+    },
+    "forbidden": [
+      "fit beta to lensing data",
+      "identify beta with 1/137 without derivation",
+      "modify the frozen propagator",
+      "claim observational validation"
+    ]
+  },
+  "validation": {
+    "checks": {
+      "required_derivations_present": true,
+      "every_equation_traceable": true,
+      "coupling_gap_explicit": true,
+      "alternatives_compared": true,
+      "observables_have_pass_fail_criteria": true,
+      "photon002_inputs_outputs_tests_defined": true,
+      "no_ad_hoc_numeric_coupling": true,
+      "no_weak_lensing_execution": true,
+      "frozen_propagator_untouched": true,
+      "no_observational_validation_claim": true
+    },
+    "all_checks_pass": true
+  }
+}

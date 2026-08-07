@@ -1,0 +1,146 @@
+{
+  "milestone": "PBUF VERSION-B PHYSICS-LAB-001",
+  "kind": "local_response_hypothesis_survey",
+  "frozen_laboratory": "Version 1 weak-lensing laboratory (LAB-FREEZE-001)",
+  "frozen_implementation_sha256": {
+    "constitutive_equations.py": {
+      "expected_sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+      "actual_sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+      "match": true
+    },
+    "weak_lensing_observation001.py": {
+      "expected_sha256": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+      "actual_sha256": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+      "match": true
+    },
+    "observable_lab001.py": {
+      "expected_sha256": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+      "actual_sha256": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+      "match": true
+    },
+    "source_plane_lab001.py": {
+      "expected_sha256": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+      "actual_sha256": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+      "match": true
+    },
+    "numerical_convergence001.py": {
+      "expected_sha256": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+      "actual_sha256": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29",
+      "match": true
+    }
+  },
+  "production_minimum": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "candidates": [
+    {
+      "number": 1,
+      "name": "Gradient (control)",
+      "family": "gradient",
+      "description": "Response = |grad C|; frozen Version A control.",
+      "notes": "Linear, frozen. Used as the control baseline."
+    },
+    {
+      "number": 2,
+      "name": "Local Neighbour Coherence",
+      "family": "neighbour coherence",
+      "description": "Magnitude scaled by (1 + mean_cos)/2 over 8 neighbours.",
+      "notes": "Strengthens where neighbouring gradients align."
+    },
+    {
+      "number": 3,
+      "name": "Cooperative Neighbour Response",
+      "family": "cooperative response",
+      "description": "Cell-averaged gradient (3x3 box).",
+      "notes": "Replaces gradient with neighbour average before rotating."
+    },
+    {
+      "number": 4,
+      "name": "Elastic Memory",
+      "family": "elastic memory",
+      "description": "r_new = (1-w)*R(g) + w*R(g_upstream); w = 0.5.",
+      "notes": "One-step persistence with upstream previous-step strain."
+    },
+    {
+      "number": 5,
+      "name": "Gradient Curvature",
+      "family": "gradient curvature",
+      "description": "A = |grad C| + 0.5 * |Laplacian C|.",
+      "notes": "Augments magnitude with constitutive curvature."
+    },
+    {
+      "number": 6,
+      "name": "Phase-Coherent Response",
+      "family": "phase coherence",
+      "description": "A = |grad C| * mean_cos(phase differences).",
+      "notes": "Modulates magnitude by phase coherence over neighbours."
+    },
+    {
+      "number": 7,
+      "name": "Relaxation Response",
+      "family": "relaxation",
+      "description": "One Jacobi relaxation step toward neighbour mean of response.",
+      "notes": "w = 0.5 (50% incomplete relaxation), fixed. Strictly local."
+    },
+    {
+      "number": 8,
+      "name": "Weak-Gradient Enhancement",
+      "family": "weak-gradient enhancement",
+      "description": "A = |grad C| + 0.05 * exp(-|grad C| / 0.05).",
+      "notes": "Predefined enhancement; no fitting."
+    },
+    {
+      "number": 9,
+      "name": "Constitutive Coupling",
+      "family": "constitutive coupling",
+      "description": "A = |grad C| * (1 + C).",
+      "notes": "Couples response to local constitutive state."
+    },
+    {
+      "number": 10,
+      "name": "Combined Local Response",
+      "family": "combined response",
+      "description": "Combine neighbour coherence (Cand 2) and elastic memory (Cand 4).",
+      "notes": "Most complex candidate; combination of Candidates 2 and 4."
+    }
+  ],
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "fitting_performed": false,
+  "optimisation_performed": false,
+  "cosmological_bridges_introduced": false,
+  "execution_seconds_total": 12.510704457992688
+}

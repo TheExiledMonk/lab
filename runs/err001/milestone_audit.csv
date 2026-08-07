@@ -1,0 +1,8 @@
+milestone,locations_before,correction,status
+CORE-001,"microscopic energy, continuum source, traceability and model mapping",Removed the auxiliary multiplier; matter couples directly through g_dev.,corrected and revalidated
+FND-002,A02 assumption audit and irreducible-postulate discussion,"Withdrew the effective-product substitution and source-rescaling degeneracy; retained g_dev as a direct, underived PBUF premise.",corrected and revalidated
+FND-003,"T08/T09, coupling derivation, postulate P5 and recommendation",Replaced the product-identifiability proof by direct-source dependence; explicitly withdrew the former inverse-rescaling conclusion.,corrected and revalidated
+FND-004,P10 identifiability consequence,Absolute calibrated response is now g_dev-sensitive; normalized component ratios still cancel g_dev.,corrected and revalidated
+FND-005,"P08, ontology comparison and generated catalogue",Removed the nuisance-normalization claim; distinguished absolute vertex sensitivity from g_dev-independent ratios.,corrected and revalidated
+PHOTON-001,no auxiliary coupling occurrence,No coupling equation required modification; the missing optical response remains independent of g_dev unless PBUF derives a link.,unchanged and revalidated
+CONS-001,"dependency graph, three sector rows, overlap logic, report and recommendation",Reran the audit with direct g_dev loading and withdrew rescaling degeneracy as a reason for indeterminacy.,revised and revalidated

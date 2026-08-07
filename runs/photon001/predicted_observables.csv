@@ -1,0 +1,6 @@
+id,observable,prediction,dependencies,signature,pass_fail
+P001-O01,ray deflection/curvature,proportional to the transverse gradient of u in the weak scalar limit,A01--A05 and unknown beta,zero for uniform u; reverses with beta or gradient sign,PHOTON-002 numerical curvature agrees with beta(I-tt)grad u to preregistered truncation tolerance
+P001-O02,relative phase/time delay,line integral of n(u)-1; can be nonzero without bending,coherent timing/phase readout and n(u),path-integrated response,phase scales linearly with path length in a uniform-u slab and shows zero transverse deflection
+P001-O03,frequency dependence,none under A03; chromaticity signals dispersion or failure of scalar nondispersive closure,multi-frequency propagation,same spatial ray at all frequencies,"paths agree across frequency within tolerance, or A03 is rejected"
+P001-O04,polarization dependence,none under A03; splitting signals birefringent/tensor coupling,polarization-resolved propagation,coincident orthogonal-polarization rays,"polarization paths agree within tolerance, or scalar coupling is rejected"
+P001-O05,rotational covariance,rotating u and initial ray rotates the output path identically,isotropic scalar hypothesis,no preferred coordinate axis,rotated/unrotated solutions agree after inverse rotation; current 0.15 x weighting is expected not to satisfy this gate

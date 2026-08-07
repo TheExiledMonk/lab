@@ -1,0 +1,40 @@
+shape,n_pairs,expected,passes,check,test,n_failures,transform,input,output
+"(3, 4, 5)",133,133,True,,,,,,
+"(3, 4, 5)",,,True,no_duplicates,,,,,
+"(3, 4, 5)",,,True,ref_agreement,,,,,
+"[3, 4, 5]",133,,True,,M05-C1,0,,,
+"[3, 4, 5]",133,,True,,M05-C2,0,,,
+"[3, 4, 5]",133,,True,,M05-C3,0,,,
+"(4, 5, 6)",286,286,True,,,,,,
+"(4, 5, 6)",,,True,no_duplicates,,,,,
+"(4, 5, 6)",,,True,ref_agreement,,,,,
+"[4, 5, 6]",286,,True,,M05-C1,0,,,
+"[4, 5, 6]",286,,True,,M05-C2,0,,,
+"[4, 5, 6]",286,,True,,M05-C3,0,,,
+"(5, 4, 3)",133,133,True,,,,,,
+"(5, 4, 3)",,,True,no_duplicates,,,,,
+"(5, 4, 3)",,,True,ref_agreement,,,,,
+"[5, 4, 3]",133,,True,,M05-C1,0,,,
+"[5, 4, 3]",133,,True,,M05-C2,0,,,
+"[5, 4, 3]",133,,True,,M05-C3,0,,,
+,,,True,,,,RC0,xp,xp
+,,,True,,,,RC0,yp,yp
+,,,True,,,,RC0,zp,zp
+,,,True,,,,RC1,xp,yp
+,,,True,,,,RC1,yp,xp
+,,,True,,,,RC1,zp,zp
+,,,True,,,,RC2,xp,zp
+,,,True,,,,RC2,yp,yp
+,,,True,,,,RC2,zp,xp
+,,,True,,,,RC3,xp,xp
+,,,True,,,,RC3,yp,zp
+,,,True,,,,RC3,zp,yp
+,,,True,,,,RC4,xp,xp
+,,,True,,,,RC4,yp,zp
+,,,True,,,,RC4,zp,ym
+,,,True,,,,RC5,xp,zm
+,,,True,,,,RC5,yp,yp
+,,,True,,,,RC5,zp,xp
+,,,True,,,,RC6,xp,yp
+,,,True,,,,RC6,yp,xm
+,,,True,,,,RC6,zp,zp

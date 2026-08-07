@@ -1,0 +1,21 @@
+{
+  "frozen_hashes_match": true,
+  "all_five_existing_cluster_inputs_used": true,
+  "no_new_cluster_files_downloaded": true,
+  "same_proxy_supplied_to_L1_L2_L3": true,
+  "all_proxy_hashes_match_across_lanes": true,
+  "no_amplitude_fitting": true,
+  "no_normalization_fitting": true,
+  "no_smoothing_search": true,
+  "no_mask_optimization": true,
+  "no_lane_specific_preprocessing": true,
+  "no_lane_specific_postprocessing": true,
+  "no_sign_correction": true,
+  "padded_and_unpadded_L1_diagnostics_both_ran": true,
+  "all_five_clusters_completed": true,
+  "all_wrong_controls_completed": true,
+  "all_16_questions_answered": true,
+  "every_PBUF_lane_received_per_cluster_and_aggregate_classification": true,
+  "all_outputs_and_plots_exist": true,
+  "notes": "Same-input Bridge Class D operator comparison.  L1 = standard dimensionless GR operator.  L1 result labelled as 'standard dimensionless GR weak-lensing operator response to the frozen common proxy' and is not an absolute cluster prediction.  Comparisons against L0 are conditional_same_source."
+}

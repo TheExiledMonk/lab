@@ -1,0 +1,33 @@
+{
+  "milestone": "PBUF KINEMATICS-001",
+  "decision": "D with restricted B/C family",
+  "completion_criterion": "satisfied by isolation of the reference-and-identification principle",
+  "deliverables": {
+    "kinematic_derivation_report": "kinematic_derivation_report.md",
+    "deformation_variable_comparison_matrix": "deformation_variable_comparison_matrix.csv",
+    "reference_state_definition": "reference_state_definition.md",
+    "invariant_catalogue": "invariant_catalogue.csv",
+    "dependency_graph": "dependency_graph.md",
+    "recommendation_for_HYPER_001": "kinematic_derivation_report.md#9-recommendation-for-hyper-001"
+  },
+  "checks": {
+    "stored_energy_functional_proposed": false,
+    "material_coefficients_introduced": false,
+    "new_free_parameters_introduced": false,
+    "observational_fit_performed": false,
+    "weak_lensing_modified": false,
+    "V11_quantities_redefined": false,
+    "csv_rectangularity": true
+  },
+  "surviving_frameworks": [
+    "material-coordinate relativistic-solid class",
+    "relative-coframe class",
+    "independent relative symmetric-tensor class",
+    "conditional micromorphic extension"
+  ],
+  "excluded_as_complete_native_kinematics": [
+    "bare scalar",
+    "bare vector"
+  ],
+  "exact_missing_principle": "Specify the covariant clock-and-ruler or material configuration, its unloaded equivalence class, its gauge quotient, and whether relative deformation acts on three material directions or all four spacetime directions."
+}

@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M05_pair_enumeration",
+  "version": "1.1.0-correction001",
+  "status": "unit_verified_pending_contract_review",
+  "source_sha256": "c39d1f01cac2afe5b6286f403a9fa16d544bb3735506406e7695c6a7e22bb386",
+  "test_sha256": "c39d1f01cac2afe5b6286f403a9fa16d544bb3735506406e7695c6a7e22bb386",
+  "conventions_version": "1.1.0-correction001",
+  "correction_id": "FOUNDATION-001-CORRECTION-001",
+  "tests_passed": 39,
+  "tests_total": 39,
+  "maximum_error": 0.0,
+  "tolerance": 0.0,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "supersedes": "FOUNDATION-001 previous registry entry (see superseded_certificates/)"
+}

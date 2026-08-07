@@ -1,0 +1,5 @@
+document,deviation,severity
+CORE-001,Recasts alpha_*=1/137 as a microscopic matter-state vertex and stipulates q in R^3; V11 instead uses alpha_resolved ~=3 alpha_EM ~=0.0219 as elastic/curvature metadata.,substantive symbol/value/role drift
+FND-003,Correctly labels the three-component spatial-vector bridge as requiring post-V11 representation premises; this qualification is stronger than V11's motivating dimensional-count argument.,"clarification, not contradiction"
+ERR-001,"Its equal-component identities use g=alpha_*(1,1,1), giving a squared norm factor 3, but V11's factor 3 multiplies alpha_EM at amplitude level. ERR-001 does not establish these are the same construction.",unsupported retrospective identification if conflated
+CORE/FND/ERR chain,"Does not preserve the V11 Quantum Engine -> metadata/LUT -> cosmology chain, equations (5)-(17), or the distinction among alpha_QM, alpha_T(a), alpha_resolved, and generic model alpha.",missing V11 traceability

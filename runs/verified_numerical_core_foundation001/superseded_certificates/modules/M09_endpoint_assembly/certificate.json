@@ -1,0 +1,19 @@
+{
+  "module": "pbuf.core.M09.endpoint.assembly",
+  "version": "1.0.0",
+  "status": "verified",
+  "source_sha256": "9171fe4a8b92a7b2dbaac5c87d8850e2adc616525e4b88c01e6e68554dafb885",
+  "test_sha256": "9171fe4a8b92a7b2dbaac5c87d8850e2adc616525e4b88c01e6e68554dafb885",
+  "reference_fixture_sha256": "86f36bf9cbc97dce29872339ff012efb842becadcc67cd1bd852986fd73b2444",
+  "conventions_version": "1.0.0",
+  "tests_passed": 2,
+  "tests_total": 2,
+  "maximum_error": 2.432376777795247e-15,
+  "tolerance": 1e-14,
+  "validated_implementations": [
+    "primary",
+    "independent_reference"
+  ],
+  "wrong_controls_passed": true,
+  "superseded_by": "FOUNDATION-001-CORRECTION-001"
+}

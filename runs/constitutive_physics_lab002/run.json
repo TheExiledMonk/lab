@@ -1,0 +1,161 @@
+{
+  "milestone": "PBUF CONSTITUTIVE-PHYSICS-LAB-002",
+  "kind": "constitutive-law discovery",
+  "frozen_laboratory": "Version 1 weak-lensing laboratory (LAB-FREEZE-001)",
+  "frozen_implementation_sha256": {
+    "constitutive_equations.py": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+    "weak_lensing_observation001.py": "a5c3632fec9adfc2659d5c283d07c599db6db7edb2e34e4aebd84e35434642bc",
+    "observable_lab001.py": "2867c0bf94fabe3fbba0264d5d272ecadbdf45fabb341a6a8fe77972fbaec132",
+    "source_plane_lab001.py": "efa9d74924cb61a3b48a69fa075055512d86391d03194be342597420bc353de4",
+    "numerical_convergence001.py": "0442f878713de6530b5a1b1844b8ece037852d461bcb695360e8a3345fd58f29"
+  },
+  "production_configuration": {
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "clusters": [
+    {
+      "id": "Abell2744",
+      "label": "Abell 2744",
+      "slug": "abell2744",
+      "directory": "WL-001_Abell2744"
+    },
+    {
+      "id": "MACS0416",
+      "label": "MACS J0416",
+      "slug": "macs0416",
+      "directory": "WL-002_MACS0416"
+    },
+    {
+      "id": "MACS1149",
+      "label": "MACS J1149",
+      "slug": "macs1149",
+      "directory": "WL-003_MACS1149"
+    },
+    {
+      "id": "AbellS1063",
+      "label": "Abell S1063",
+      "slug": "abells1063",
+      "directory": "WL-004_AbellS1063"
+    },
+    {
+      "id": "Abell370",
+      "label": "Abell 370",
+      "slug": "abell370",
+      "directory": "WL-005_Abell370"
+    }
+  ],
+  "families": [
+    {
+      "number": 1,
+      "code": "F1",
+      "name": "Instantaneous Constitutive Response",
+      "principle": "C=Ceq"
+    },
+    {
+      "number": 2,
+      "code": "F2",
+      "name": "Relaxation Constitutive Law",
+      "principle": "dC/ds=(Ceq-C)/tau"
+    },
+    {
+      "number": 3,
+      "code": "F3",
+      "name": "Local Constitutive Evolution",
+      "principle": "dC/ds=Laplacian(C)"
+    },
+    {
+      "number": 4,
+      "code": "F4",
+      "name": "Constitutive Energy Functional",
+      "principle": "min integral[(C-Ceq)^2+|grad C|^2]"
+    },
+    {
+      "number": 5,
+      "code": "F5",
+      "name": "Gradient-Driven Constitutive Evolution",
+      "principle": "dC/ds=div(g(|grad C|) grad C)"
+    },
+    {
+      "number": 6,
+      "code": "F6",
+      "name": "Relaxation + Neighbour Evolution",
+      "principle": "dC/ds=(Ceq-C)/tau+Laplacian(C)"
+    },
+    {
+      "number": 7,
+      "code": "F7",
+      "name": "Variational Constitutive Law",
+      "principle": "gradient flow of convex local elastic energy with continuity"
+    }
+  ],
+  "fixed_discretization": {
+    "F2": {
+      "iterations": 8,
+      "relaxation": 0.25
+    },
+    "F3": {
+      "iterations": 8,
+      "neighbour_rate": 0.2
+    },
+    "F4": {
+      "iterations": 12,
+      "fidelity_weight": 1.0,
+      "continuity_weight": 1.0
+    },
+    "F5": {
+      "iterations": 8,
+      "rate": 0.2,
+      "edge_scale": "initial lattice-gradient RMS"
+    },
+    "F6": {
+      "iterations": 8,
+      "relaxation": 0.25,
+      "neighbour_rate": 0.15
+    },
+    "F7": {
+      "iterations": 12,
+      "rate": 0.15,
+      "continuity_weight": 0.5,
+      "quartic_weight": 0.25
+    }
+  },
+  "emergence_thresholds": {
+    "coherence_gain": 0.0001,
+    "memory_index": 0.9,
+    "evolution_activity": 1e-06
+  },
+  "c10_archived_reference": {
+    "median_pearson_kappa": 0.10339683814108096,
+    "median_pearson_gamma": 0.08236006923316277,
+    "median_ssim_kappa": -0.01173258724612844,
+    "median_rms_kappa": 0.13989696057451279,
+    "source": "runs/version_b_physics_lab002/interaction_matrix.csv",
+    "sha256": "6f0d83d691296e07727d721c8a080e850c743afd6e7455a430b7eb17073116a9"
+  },
+  "synergy": {
+    "median_pearson_kappa": -0.0037428071206845326,
+    "median_pearson_gamma": 0.004330276057453009,
+    "median_ssim_kappa": -0.00597954183700904,
+    "median_rms_kappa": 0.010893578472012083,
+    "median_constitutive_nonadditivity_index": 0.00399987954752074,
+    "constitutive_by_cluster": {
+      "Abell2744": 0.004874388731329403,
+      "MACS0416": 0.00399987954752074,
+      "MACS1149": 0.0028526521770527048,
+      "AbellS1063": 0.003138054752440797,
+      "Abell370": 0.005563465576422878
+    },
+    "nonlinear_synergy_emerged": true
+  },
+  "fitting_performed": false,
+  "optimisation_performed": false,
+  "frozen_components_modified": false,
+  "execution_seconds_total": 10.243422677041963
+}

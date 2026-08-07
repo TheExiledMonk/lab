@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    "M01_conventions",
+    "M02_coordinate_transforms",
+    "M03_vector_transforms",
+    "M04_tensor_transforms",
+    "M05_pair_enumeration",
+    "M06_a8_pair_amplitude",
+    "M07_transverse_projector",
+    "M08_pair_transfer",
+    "M09_endpoint_assembly",
+    "M10_midpoint_rasterization",
+    "M11_field_diagnostics",
+    "M12_differential_operators",
+    "M13_helmholtz_3d",
+    "M14_los_projection",
+    "M15_ray_interface",
+    "M16_observable_extraction"
+  ],
+  "edges": [
+    {
+      "from": "M02_coordinate_transforms",
+      "to": "M01"
+    },
+    {
+      "from": "M03_vector_transforms",
+      "to": "M02"
+    },
+    {
+      "from": "M04_tensor_transforms",
+      "to": "M02"
+    },
+    {
+      "from": "M05_pair_enumeration",
+      "to": "M01"
+    },
+    {
+      "from": "M06_a8_pair_amplitude",
+      "to": "M01"
+    },
+    {
+      "from": "M06_a8_pair_amplitude",
+      "to": "M05"
+    },
+    {
+      "from": "M08_pair_transfer",
+      "to": "M05"
+    },
+    {
+      "from": "M08_pair_transfer",
+      "to": "M07"
+    },
+    {
+      "from": "M09_endpoint_assembly",
+      "to": "M08"
+    },
+    {
+      "from": "M10_midpoint_rasterization",
+      "to": "M08"
+    },
+    {
+      "from": "M10_midpoint_rasterization",
+      "to": "M09"
+    },
+    {
+      "from": "M13_helmholtz_3d",
+      "to": "M12"
+    },
+    {
+      "from": "M15_ray_interface",
+      "to": "M11"
+    }
+  ]
+}

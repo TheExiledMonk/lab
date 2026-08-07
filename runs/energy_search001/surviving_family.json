@@ -1,0 +1,11 @@
+{
+  "common_class": "invariant local single-valued W on frozen SPD domain with fixed reference 2-jet, nonnegativity, spectral regularity, and acoustic positivity",
+  "endpoint_choices": [
+    "hard extended-value",
+    "complete interior barrier",
+    "finite endpoint plus frozen state constraint"
+  ],
+  "remaining_object": "one invariant scalar remainder R with vanishing reference 2-jet, plus endpoint choice and admissible-domain shape",
+  "dimension": "infinite-dimensional",
+  "ranking": null
+}

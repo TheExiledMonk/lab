@@ -1,0 +1,19 @@
+{
+  "cluster_id": "MACS1149",
+  "model": "A8",
+  "channel_id": "CH4",
+  "channel_name": "Solenoidal (Helmholtz)",
+  "decomposition_type": "helmholtz_solenoidal",
+  "padded_unpadded": "padded",
+  "grid_shape": [
+    64,
+    64
+  ],
+  "dtype": "float64",
+  "response_rx_sha256": "72c799bfc0ffedcdf0367b44437a8172a1ba5c8d5f4cc73b47125f307d8bfd7d",
+  "response_ry_sha256": "7f93d752e0b7ac86c843f93a2e1073df2e08075c9af5b5e7a72743cece743ff4",
+  "kappa_sha256": "2ba9813663b0af821c2773cebbd04554e57156f1b0e29c46fe837e7325e4681f",
+  "gamma1_sha256": "f7f3d2ffc576bb088a2d052d9c62d2c6994b00accb8881accfd4ec00d4ddc876",
+  "gamma2_sha256": "704df03c797e902e2fe4350c2474f87b7513a1f9c57004cdb1b97ae8f62fc791",
+  "frozen_source_hash": "f2ce6780b3bac6fc2ae5d8308db247743224ceec0ca602315c9b61a0a3ce027e"
+}
