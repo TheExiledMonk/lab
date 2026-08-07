@@ -1,0 +1,57 @@
+{
+  "RC0": {
+    "first_failure_checkpoint": null,
+    "previous_checkpoint": "interface",
+    "previous_relative_error": 0.0,
+    "passes_all_diagnostic_checkpoints_at_1e-8": true,
+    "first_failure_threshold": 1e-08
+  },
+  "RC1": {
+    "first_failure_checkpoint": "u_slow",
+    "relative_error": 0.05557109466608821,
+    "previous_checkpoint": "rho_3d",
+    "previous_relative_error": 0.0,
+    "passes_all_diagnostic_checkpoints_at_1e-8": false,
+    "first_failure_threshold": 1e-08
+  },
+  "RC2": {
+    "first_failure_checkpoint": "u_slow",
+    "relative_error": 0.05579609398003639,
+    "previous_checkpoint": "rho_3d",
+    "previous_relative_error": 0.0,
+    "passes_all_diagnostic_checkpoints_at_1e-8": false,
+    "first_failure_threshold": 1e-08
+  },
+  "RC3": {
+    "first_failure_checkpoint": "u_slow",
+    "relative_error": 0.05552605189165219,
+    "previous_checkpoint": "rho_3d",
+    "previous_relative_error": 0.0,
+    "passes_all_diagnostic_checkpoints_at_1e-8": false,
+    "first_failure_threshold": 1e-08
+  },
+  "RC4": {
+    "first_failure_checkpoint": "u_slow",
+    "relative_error": 0.0565622891714513,
+    "previous_checkpoint": "rho_3d",
+    "previous_relative_error": 0.0,
+    "passes_all_diagnostic_checkpoints_at_1e-8": false,
+    "first_failure_threshold": 1e-08
+  },
+  "RC5": {
+    "first_failure_checkpoint": "u_slow",
+    "relative_error": 0.055796639546405534,
+    "previous_checkpoint": "rho_3d",
+    "previous_relative_error": 0.0,
+    "passes_all_diagnostic_checkpoints_at_1e-8": false,
+    "first_failure_threshold": 1e-08
+  },
+  "RC6": {
+    "first_failure_checkpoint": "u_slow",
+    "relative_error": 0.05638370571568082,
+    "previous_checkpoint": "rho_3d",
+    "previous_relative_error": 0.0,
+    "passes_all_diagnostic_checkpoints_at_1e-8": false,
+    "first_failure_threshold": 1e-08
+  }
+}

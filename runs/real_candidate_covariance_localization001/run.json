@@ -1,0 +1,25 @@
+{
+  "lab_id": "PBUF-FOUNDATION-REAL-CANDIDATE-COVARIANCE-LOCALIZATION-001",
+  "head_sha": "b5a5e12aa4bfb53db85bff1c885440681c0b9301",
+  "cluster_id": "MACS0416",
+  "candidate_id": "PL1_PM1_PS2",
+  "nz": 9,
+  "depth_profile": "gaussian",
+  "stencil": "N6",
+  "boundary": "reflective",
+  "strength": 0.18,
+  "seed": 12345,
+  "first_failure_threshold": 1e-08,
+  "config": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "duration_seconds": 17.586808575084433
+}

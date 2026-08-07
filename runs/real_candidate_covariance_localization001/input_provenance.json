@@ -1,0 +1,72 @@
+{
+  "lab_id": "PBUF-FOUNDATION-REAL-CANDIDATE-COVARIANCE-LOCALIZATION-001",
+  "cluster_id": "MACS0416",
+  "candidate_id": "PL1_PM1_PS2",
+  "transform_id_native": "RC0",
+  "nz": 9,
+  "depth_profile": "gaussian",
+  "stencil": "N6",
+  "boundary": "reflective",
+  "strength": 0.18,
+  "seed": 12345,
+  "shape_native": [
+    9,
+    64,
+    64
+  ],
+  "n_pairs": 105344,
+  "full_chain": [
+    "CP01 rho_2d",
+    "CP02 rho_3d",
+    "CP03 u_slow",
+    "CP04 u_fast",
+    "CP05 c_state",
+    "CP06 longitudinal direction eL",
+    "CP07 transverse projector PT",
+    "CP08 pair amplitudes",
+    "CP09 pair responses",
+    "CP10 endpoint field",
+    "CP11 interface field"
+  ],
+  "input": {
+    "input_kind": "observed_frontier_fields_fits",
+    "cluster_id": "MACS0416",
+    "fits_path": "PBUF_benchmark/WL-002_MACS0416/hlsp_frontier_model_macs0416_merten_v1_kappa.fits",
+    "fits_sha256": "8b2b5d634bac95bb204829604d1efcf78c6f17e6321398b1fed928ff0af65b7b",
+    "fits_shape": [
+      180,
+      180
+    ],
+    "proxy_shape": [
+      64,
+      64
+    ],
+    "rho3d_shape": [
+      9,
+      64,
+      64
+    ],
+    "proxy_sha256": "552c1d3ad00330b6816190049f7172b1cd4fb7d0578fed842ecb84d5210b6b7b",
+    "rho3d_sha256": "340750858c8c85d62312b473c9b26e65c2dedf9e712193d01f9211346a794b41",
+    "Z_L": 0.42,
+    "Z_S": 9.0,
+    "nz": 9,
+    "depth_profile": "gaussian",
+    "stencil": "N6",
+    "boundary": "reflective",
+    "strength": 0.18,
+    "seed": 12345
+  },
+  "conventions_version": "1.1.0-correction001",
+  "configuration": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  }
+}
