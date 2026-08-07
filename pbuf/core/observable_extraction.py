@@ -1,30 +1,34 @@
-"""M16 — Observable Extraction.
+"""M16 — Observable Extraction and Field Comparison.
 
-Correlation, regression, and field-comparison observables.
+Second-review correction FOUNDATION-001-CORRECTION-002
+------------------------------------------------------
+This module operates on already-extracted lensing observables. It does
+not derive kappa/gamma from a Jacobian and it does not assume the identity
+of any comparison field.
 
-Correction pass FOUNDATION-001-CORRECTION-001
----------------------------------------------
-* Pearson correlation simplified to the standard form
-    r = cov / sqrt(var_a * var_b)
-  where cov = mean(a_centered * b_centered) and var_* = mean(* ** 2).
-  Clamped only for floating-point overshoot.
-* Spearman correlation uses AVERAGE RANKS for tied values
-  (scipy.stats.rankdata with method="average" or an equivalent).
-* Observable API renamed: ``extract_jacobian_observables`` now takes
-  ALREADY EXTRACTED kappa/gamma1/gamma2 fields and an OPTIONAL
-  reference_kappa field.  It does NOT assume the reference is GR.
-* ``pearson_vs_reference`` / ``spearman_vs_reference`` are only
-  computed when ``reference_kappa`` is supplied.
+Scientific contract:
+* Pearson uses pairwise-finite samples and returns NaN when either field
+  has undefined/near-zero variance.
+* Spearman uses average ranks for ties and the same pairwise-finite mask.
+* Input field shapes must match before flattening/masking.
+* A reference comparison is computed only when an explicit
+  ``reference_kappa`` field is supplied.
+* ``package_lensing_observables`` is the semantically correct public API.
+  ``extract_jacobian_observables`` is retained as a compatibility alias
+  for existing labs.
 """
 from __future__ import annotations
+
 import math
 import numpy as np
 
 from .conventions import EPS_VARIANCE_UNDEFINED
 
 __all__ = [
-    "safe_pearson", "safe_spearman",
+    "safe_pearson",
+    "safe_spearman",
     "_average_ranks",
+    "package_lensing_observables",
     "extract_jacobian_observables",
     "ObservableExtractionError",
 ]
@@ -34,104 +38,93 @@ class ObservableExtractionError(ValueError):
     pass
 
 
-def safe_pearson(field_a, field_b, variance_epsilon=None):
-    """Pearson correlation that returns NaN for near-zero variance.
+def _paired_finite_samples(field_a, field_b):
+    """Return pairwise-finite flattened samples after shape validation."""
+    a0 = np.asarray(field_a, dtype=np.float64)
+    b0 = np.asarray(field_b, dtype=np.float64)
+    if a0.shape != b0.shape:
+        raise ObservableExtractionError(
+            f"field shapes must match, got {a0.shape} and {b0.shape}")
+    a = a0.ravel()
+    b = b0.ravel()
+    mask = np.isfinite(a) & np.isfinite(b)
+    return a[mask], b[mask]
 
-    CORRECTION-001 §12.1: simplified form
-        r = mean(a_centered * b_centered) / sqrt(var_a * var_b)
-    where both numerator and denominator use the same 1/N convention.
+
+def safe_pearson(field_a, field_b, variance_epsilon=None):
+    """Pairwise-finite Pearson correlation.
+
+    Returns NaN when fewer than two finite pairs remain or when either
+    retained field has variance <= ``variance_epsilon``.
     """
     if variance_epsilon is None:
         variance_epsilon = EPS_VARIANCE_UNDEFINED
-    a = np.asarray(field_a, dtype=np.float64).ravel()
-    b = np.asarray(field_b, dtype=np.float64).ravel()
-    mask = np.isfinite(a) & np.isfinite(b)
-    if mask.sum() < 2:
+    if variance_epsilon < 0 or not np.isfinite(variance_epsilon):
+        raise ObservableExtractionError("variance_epsilon must be finite and >= 0")
+
+    a, b = _paired_finite_samples(field_a, field_b)
+    if a.size < 2:
         return float("nan")
-    a = a[mask]; b = b[mask]
-    a_c = a - a.mean()
-    b_c = b - b.mean()
-    var_a = float(np.mean(a_c ** 2))
-    var_b = float(np.mean(b_c ** 2))
+
+    a_c = a - np.mean(a)
+    b_c = b - np.mean(b)
+    var_a = float(np.mean(a_c * a_c))
+    var_b = float(np.mean(b_c * b_c))
     if var_a <= variance_epsilon or var_b <= variance_epsilon:
         return float("nan")
-    denom = math.sqrt(var_a * var_b)
-    if denom == 0.0:
-        return float("nan")
+
     cov = float(np.mean(a_c * b_c))
+    denom = math.sqrt(var_a * var_b)
+    if not math.isfinite(denom) or denom == 0.0:
+        return float("nan")
     r = cov / denom
-    # Clamp only floating-point overshoot (do not mask genuine
-    # invalid values).
-    if r > 1.0:
-        r = 1.0
-    elif r < -1.0:
-        r = -1.0
-    return r
+    if not math.isfinite(r):
+        return float("nan")
+    return float(np.clip(r, -1.0, 1.0))
 
 
 def _average_ranks(x):
-    """Return the average ranks of ``x``.
-
-    Tied values receive their average rank. This is the standard
-    "average" method (matches scipy.stats.rankdata(method='average')).
-    """
-    x = np.asarray(x, dtype=np.float64)
+    """Return one-based average ranks, assigning equal values equal rank."""
+    x = np.asarray(x, dtype=np.float64).ravel()
+    if not np.all(np.isfinite(x)):
+        raise ObservableExtractionError("_average_ranks requires finite input")
     n = x.size
-    # Stable sort indices.
+    if n == 0:
+        return np.empty(0, dtype=np.float64)
+
     order = np.argsort(x, kind="mergesort")
+    sorted_x = x[order]
     ranks = np.empty(n, dtype=np.float64)
-    # Walk through the sorted array and assign average ranks to ties.
     i = 0
     while i < n:
-        j = i
-        while j < n and x[order[j]] == x[order[i]]:
+        j = i + 1
+        while j < n and sorted_x[j] == sorted_x[i]:
             j += 1
-        # Tied group spans [i, j).
-        avg_rank = 0.5 * (i + j - 1) + 1.0  # 1-based average rank
-        for k in range(i, j):
-            ranks[order[k]] = avg_rank
+        avg_rank = 0.5 * ((i + 1) + j)
+        ranks[order[i:j]] = avg_rank
         i = j
     return ranks
 
 
 def safe_spearman(field_a, field_b, variance_epsilon=None):
-    """Spearman rank correlation with AVERAGE ranks for ties.
-
-    CORRECTION-001 §12.2: replaces the previous double-argsort
-    ranking which assigned distinct ranks to ties and therefore
-    produced incorrect Spearman values.
-    """
+    """Pairwise-finite Spearman correlation with average ranks for ties."""
     if variance_epsilon is None:
         variance_epsilon = EPS_VARIANCE_UNDEFINED
-    a = np.asarray(field_a, dtype=np.float64).ravel()
-    b = np.asarray(field_b, dtype=np.float64).ravel()
-    mask = np.isfinite(a) & np.isfinite(b)
-    if mask.sum() < 2:
+    a, b = _paired_finite_samples(field_a, field_b)
+    if a.size < 2:
         return float("nan")
-    a = a[mask]; b = b[mask]
     ra = _average_ranks(a)
     rb = _average_ranks(b)
-    return safe_pearson(ra, rb, variance_epsilon)
+    return safe_pearson(ra, rb, variance_epsilon=variance_epsilon)
 
 
-def extract_jacobian_observables(kappa_field, gamma1_field, gamma2_field,
-                                    reference_kappa=None,
-                                    variance_epsilon=None):
-    """Package κ, γ₁, γ₂, γ observables.
+def package_lensing_observables(kappa_field, gamma1_field, gamma2_field,
+                                reference_kappa=None,
+                                variance_epsilon=None):
+    """Package already-extracted kappa/gamma observables.
 
-    CORRECTION-001 §12.4: takes ALREADY EXTRACTED fields. Does NOT
-    assume the identity of the reference. If ``reference_kappa`` is
-    supplied, computes ``pearson_vs_reference`` and
-    ``spearman_vs_reference``. The caller may label the reference in
-    metadata (the core does not assume it is GR).
-
-    Returns a dict with:
-        kappa            — the input κ field
-        gamma1           — the input γ₁ field
-        gamma2           — the input γ₂ field
-        gamma_mag        — magnitude √(γ₁² + γ₂²)
-        pearson_vs_reference  (only if reference_kappa supplied)
-        spearman_vs_reference (only if reference_kappa supplied)
+    ``reference_kappa`` is optional and deliberately generic; the core
+    never assumes that it represents GR.
     """
     if variance_epsilon is None:
         variance_epsilon = EPS_VARIANCE_UNDEFINED
@@ -140,220 +133,174 @@ def extract_jacobian_observables(kappa_field, gamma1_field, gamma2_field,
     g2 = np.asarray(gamma2_field, dtype=np.float64)
     if kappa.shape != g1.shape or kappa.shape != g2.shape:
         raise ObservableExtractionError(
-            f"kappa/gamma1/gamma2 must share the same shape, "
+            "kappa/gamma1/gamma2 must share shape; "
             f"got {kappa.shape}, {g1.shape}, {g2.shape}")
+
     out = {
         "kappa": kappa,
         "gamma1": g1,
         "gamma2": g2,
-        "gamma_mag": np.sqrt(g1 ** 2 + g2 ** 2),
+        "gamma_mag": np.sqrt(g1 * g1 + g2 * g2),
     }
+
     if reference_kappa is not None:
         ref = np.asarray(reference_kappa, dtype=np.float64)
         if ref.shape != kappa.shape:
             raise ObservableExtractionError(
-                f"reference_kappa shape {ref.shape} does not match "
-                f"kappa shape {kappa.shape}")
-        out["pearson_vs_reference"] = safe_pearson(kappa, ref, variance_epsilon)
-        out["spearman_vs_reference"] = safe_spearman(kappa, ref, variance_epsilon)
+                f"reference_kappa shape {ref.shape} != kappa shape {kappa.shape}")
+        out["pearson_vs_reference"] = safe_pearson(
+            kappa, ref, variance_epsilon=variance_epsilon)
+        out["spearman_vs_reference"] = safe_spearman(
+            kappa, ref, variance_epsilon=variance_epsilon)
     return out
 
 
+def extract_jacobian_observables(kappa_field, gamma1_field, gamma2_field,
+                                 reference_kappa=None,
+                                 variance_epsilon=None):
+    """Backward-compatible alias for :func:`package_lensing_observables`.
+
+    Historical name only: this function does not derive fields from a
+    Jacobian. New code should use ``package_lensing_observables``.
+    """
+    return package_lensing_observables(
+        kappa_field, gamma1_field, gamma2_field,
+        reference_kappa=reference_kappa,
+        variance_epsilon=variance_epsilon,
+    )
+
+
 # ----------------------------------------------------------------------
-# Self-check
+# Self-check / independent validation fixtures
 # ----------------------------------------------------------------------
-def _pearson_basic_test():
-    rng = np.random.RandomState(0)
-    x = rng.randn(1000)
-    y = 2 * x + 0.1 * rng.randn(1000)
-    r = safe_pearson(x, y)
-    return {"pearson": r, "passes": abs(r - 1.0) < 0.01}
-
-
-def _pearson_zero_variance_test():
-    """safe_pearson must return NaN when one variance is below epsilon."""
-    a = np.zeros(100)
-    b = np.linspace(0, 1, 100)
-    r = safe_pearson(a, b)
-    return {"pearson": r, "passes": math.isnan(r)}
-
-
-def _pearson_nan_test():
-    a = np.array([float("nan")] * 10)
-    b = np.linspace(0, 1, 10)
-    r = safe_pearson(a, b)
-    return {"pearson": r, "passes": math.isnan(r)}
-
-
-def _zero_kappa_test():
-    kappa_zero = np.zeros((8, 8))
-    rng = np.random.RandomState(0)
-    gr = rng.randn(8, 8)
-    r = safe_pearson(kappa_zero, gr)
-    return {"pearson": r, "passes": math.isnan(r)}
-
-
-def _spearman_basic_test():
-    rng = np.random.RandomState(0)
-    x = rng.randn(500)
-    y = x + 0.1 * rng.randn(500)  # monotonic increasing
-    r = safe_spearman(x, y)
-    return {"spearman": r, "passes": r > 0.95}
-
-
-def _spearman_decreasing_test():
-    rng = np.random.RandomState(0)
-    x = rng.randn(500)
-    y = -x + 0.1 * rng.randn(500)  # monotonic decreasing
-    r = safe_spearman(x, y)
-    return {"spearman": r, "passes": r < -0.95}
-
-
-def _spearman_no_ties_test():
-    rng = np.random.RandomState(1)
-    x = np.arange(20, dtype=np.float64)
-    rng.shuffle(x)
-    y = 2 * x + 0.5 * rng.randn(20)
-    r = safe_spearman(x, y)
-    # Compare with double-argsort (previous broken implementation).
-    ra = np.argsort(np.argsort(x)).astype(np.float64) + 1
-    rb = np.argsort(np.argsort(y)).astype(np.float64) + 1
-    r_old = safe_pearson(ra, rb)
-    return {"spearman": r, "spearman_old": r_old,
-            "passes": abs(r - r_old) < 1e-12}
-
-
-def _spearman_all_ties_test():
-    a = np.zeros(100)
-    b = np.linspace(0, 1, 100)
-    r = safe_spearman(a, b)
-    return {"spearman": r, "passes": math.isnan(r)}
-
-
-def _spearman_repeated_plateau_test():
-    """A field with a single plateau: ranks must be averaged.
-
-    Plateau at a positions 4, 5, 6 (avg rank 6) does not exactly
-    correspond to a plateau in b, so Spearman ≠ 1 exactly. But the
-    monotonic relationship is preserved and Spearman must be high.
-    Compare the corrected Spearman against the previous
-    (double-argsort) implementation; they MUST disagree."""
-    a = np.array([1, 2, 3, 4, 5, 5, 5, 6, 7, 8], dtype=np.float64)
-    b = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100], dtype=np.float64)
-    r = safe_spearman(a, b)
-    ra_old = np.argsort(np.argsort(a)).astype(np.float64) + 1
-    rb_old = np.argsort(np.argsort(b)).astype(np.float64) + 1
-    r_old = safe_pearson(ra_old, rb_old)
-    return {"spearman": r, "spearman_old": r_old,
-            "passes": (abs(r - r_old) > 0.0) and r > 0.95}
-
-
-def _spearman_monotonic_with_ties_test():
-    """Monotonic increasing with ties: Spearman should be high (>0.95)."""
-    a = np.array([1, 1, 2, 2, 3, 3, 4, 4, 5, 5], dtype=np.float64)
-    b = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], dtype=np.float64)
-    r = safe_spearman(a, b)
-    return {"spearman": r, "passes": r > 0.95}
-
-
-def _spearman_monotonic_decreasing_with_ties_test():
-    a = np.array([5, 5, 4, 4, 3, 3, 2, 2, 1, 1], dtype=np.float64)
-    b = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], dtype=np.float64)
-    r = safe_spearman(a, b)
-    return {"spearman": r, "passes": r < -0.95}
-
-
-def _spearman_nan_test():
-    a = np.array([1.0, 2.0, float("nan"), 4.0, 5.0])
+def _pearson_tests():
+    x = np.arange(20.0)
+    rows = []
+    rows.append(("perfect_positive", safe_pearson(x, 3.0 * x + 2.0), 1.0))
+    rows.append(("perfect_negative", safe_pearson(x, -2.0 * x + 7.0), -1.0))
+    rows.append(("zero_variance", safe_pearson(np.zeros_like(x), x), float("nan")))
+    a = np.array([1.0, 2.0, np.nan, 4.0, 5.0])
     b = np.array([10.0, 20.0, 30.0, 40.0, 50.0])
-    r = safe_spearman(a, b)
-    return {"spearman": r, "passes": math.isnan(r) or abs(r - 1.0) < 1e-12}
+    rows.append(("nan_masked", safe_pearson(a, b), 1.0))
+    passes = True
+    for _, got, expected in rows:
+        if math.isnan(expected):
+            passes &= math.isnan(got)
+        else:
+            passes &= abs(got - expected) < 1e-12
+    return {"rows": rows, "passes": bool(passes)}
+
+
+def _spearman_tie_tests():
+    rows = []
+    a = np.array([1, 1, 2, 2, 3, 3, 4, 4], dtype=float)
+    b = np.array([10, 10, 20, 20, 30, 30, 40, 40], dtype=float)
+    rows.append(("matched_ties_positive", safe_spearman(a, b), 1.0))
+    rows.append(("matched_ties_negative", safe_spearman(a, b[::-1]), -1.0))
+    rows.append(("all_ties", safe_spearman(np.ones(8), np.arange(8.0)), float("nan")))
+    a2 = np.array([1.0, 2.0, np.nan, 4.0, 5.0])
+    b2 = np.array([10.0, 20.0, 30.0, 40.0, 50.0])
+    rows.append(("nan_masked", safe_spearman(a2, b2), 1.0))
+
+    passes = True
+    for _, got, expected in rows:
+        if math.isnan(expected):
+            passes &= math.isnan(got)
+        else:
+            passes &= abs(got - expected) < 1e-12
+    return {"rows": rows, "passes": bool(passes)}
 
 
 def _spearman_against_scipy_test():
-    """If scipy is available, verify average-rank Spearman against it."""
+    """Cross-check tied and untied fixtures against scipy when available."""
     try:
         from scipy.stats import spearmanr
     except Exception:
         return {"skipped": True, "passes": True}
-    rng = np.random.RandomState(7)
-    for _ in range(5):
-        a = rng.randn(40)
-        b = 0.5 * a + 0.5 * rng.randn(40)
-        r_ours = safe_spearman(a, b)
-        r_scipy = float(spearmanr(a, b).statistic)
-        if abs(r_ours - r_scipy) > 1e-10:
-            return {"spearman_ours": r_ours, "spearman_scipy": r_scipy,
-                    "passes": False}
+
+    fixtures = [
+        (np.array([1, 1, 2, 2, 3, 5, 5], float),
+         np.array([7, 6, 6, 4, 3, 2, 2], float)),
+        (np.arange(12.0), np.array([5, 1, 8, 3, 9, 2, 7, 0, 11, 10, 4, 6], float)),
+    ]
+    for a, b in fixtures:
+        ours = safe_spearman(a, b)
+        ref = float(spearmanr(a, b).statistic)
+        if not np.isclose(ours, ref, rtol=0.0, atol=1e-12, equal_nan=True):
+            return {"ours": ours, "scipy": ref, "passes": False}
     return {"passes": True}
 
 
-def _wc5_tied_rank_old_impl_test():
-    """WC5 (CORRECTION-001 §19): the previous double-argsort
-    implementation disagrees with average-rank Spearman on tied data."""
-    # Build a tied-data fixture.
-    a = np.array([1, 1, 2, 2, 3, 3, 4, 4, 5, 5], dtype=np.float64)
-    b = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], dtype=np.float64)
-    # Old (broken) implementation: double argsort, distinct ranks.
-    ra_old = np.argsort(np.argsort(a)).astype(np.float64) + 1
-    rb_old = np.argsort(np.argsort(b)).astype(np.float64) + 1
+def _wrong_control_tied_rank_test():
+    """Old double-argsort ranking must disagree on a tied fixture."""
+    a = np.array([1, 1, 2, 2, 3, 3, 4, 4, 5, 5], dtype=float)
+    b = np.arange(10.0)
+    ra_old = np.argsort(np.argsort(a)).astype(float) + 1.0
+    rb_old = np.argsort(np.argsort(b)).astype(float) + 1.0
     r_old = safe_pearson(ra_old, rb_old)
-    # New (corrected) implementation: average ranks.
     r_new = safe_spearman(a, b)
     return {"r_old": r_old, "r_new": r_new,
-            "passes": abs(r_old - r_new) > 0.0}
+            "passes": abs(r_old - r_new) > 1e-12}
 
 
-def _extract_api_test():
-    """Without reference_kappa: no pearson/spearman keys.
-    With reference_kappa: keys are present and use the supplied
-    reference (not a hard-coded GR field)."""
-    rng = np.random.RandomState(0)
+def _shape_contract_test():
+    try:
+        safe_pearson(np.zeros((2, 3)), np.zeros((6,)))
+    except ObservableExtractionError:
+        pearson_ok = True
+    else:
+        pearson_ok = False
+    try:
+        safe_spearman(np.zeros((2, 3)), np.zeros((6,)))
+    except ObservableExtractionError:
+        spearman_ok = True
+    else:
+        spearman_ok = False
+    return {"passes": pearson_ok and spearman_ok}
+
+
+def _package_api_test():
+    rng = np.random.RandomState(21)
     kappa = rng.randn(10, 10)
     g1 = rng.randn(10, 10)
     g2 = rng.randn(10, 10)
-    out = extract_jacobian_observables(kappa, g1, g2)
-    no_ref = ("pearson_vs_reference" not in out
-              and "spearman_vs_reference" not in out)
-    ref = rng.randn(10, 10)
-    out2 = extract_jacobian_observables(kappa, g1, g2, reference_kappa=ref)
-    has_ref = ("pearson_vs_reference" in out2
-               and "spearman_vs_reference" in out2
-               and out2["pearson_vs_reference"] != float("nan"))
-    return {"passes": no_ref and has_ref}
+
+    out = package_lensing_observables(kappa, g1, g2)
+    no_reference_keys = (
+        "pearson_vs_reference" not in out and
+        "spearman_vs_reference" not in out
+    )
+
+    reference = 2.0 * kappa + 0.01 * rng.randn(10, 10)
+    out_ref = package_lensing_observables(
+        kappa, g1, g2, reference_kappa=reference)
+    finite_reference_metrics = (
+        np.isfinite(out_ref["pearson_vs_reference"]) and
+        np.isfinite(out_ref["spearman_vs_reference"])
+    )
+
+    compat = extract_jacobian_observables(
+        kappa, g1, g2, reference_kappa=reference)
+    compatibility_equal = (
+        np.array_equal(compat["kappa"], out_ref["kappa"]) and
+        compat["pearson_vs_reference"] == out_ref["pearson_vs_reference"] and
+        compat["spearman_vs_reference"] == out_ref["spearman_vs_reference"]
+    )
+    return {"passes": bool(no_reference_keys and finite_reference_metrics
+                            and compatibility_equal)}
 
 
 if __name__ == "__main__":
-    r = _pearson_basic_test(); assert r["passes"], r
-    print(f"M16 pearson basic: r={r['pearson']:.3f}")
-    r = _pearson_zero_variance_test(); assert r["passes"], r
-    print("M16 pearson zero-variance: NaN")
-    r = _pearson_nan_test(); assert r["passes"], r
-    print("M16 pearson NaN: NaN")
-    r = _zero_kappa_test(); assert r["passes"], r
-    print("M16 zero κ vs GR: NaN")
-    r = _spearman_basic_test(); assert r["passes"], r
-    print(f"M16 spearman basic: r={r['spearman']:.3f}")
-    r = _spearman_decreasing_test(); assert r["passes"], r
-    print(f"M16 spearman decreasing: r={r['spearman']:.3f}")
-    r = _spearman_no_ties_test(); assert r["passes"], r
-    print(f"M16 spearman no-ties (ours/old agree): "
-          f"{r['spearman']:.6f} vs {r['spearman_old']:.6f}")
-    r = _spearman_all_ties_test(); assert r["passes"], r
-    print("M16 spearman all-ties: NaN")
-    r = _spearman_repeated_plateau_test(); assert r["passes"], r
-    print(f"M16 spearman plateau: r={r['spearman']:.6f}")
-    r = _spearman_monotonic_with_ties_test(); assert r["passes"], r
-    print(f"M16 spearman monotonic+ties (increasing): r={r['spearman']:.6f}")
-    r = _spearman_monotonic_decreasing_with_ties_test(); assert r["passes"], r
-    print(f"M16 spearman monotonic+ties (decreasing): r={r['spearman']:.6f}")
-    r = _spearman_nan_test(); assert r["passes"], r
-    print(f"M16 spearman NaN-masked: r={r['spearman']:.6f}")
+    r = _pearson_tests(); assert r["passes"], r
+    print("M16 Pearson analytic fixtures: PASS")
+    r = _spearman_tie_tests(); assert r["passes"], r
+    print("M16 Spearman tie/NaN fixtures: PASS")
     r = _spearman_against_scipy_test(); assert r["passes"], r
-    print("M16 spearman vs scipy: agree")
-    r = _wc5_tied_rank_old_impl_test(); assert r["passes"], r
-    print(f"WC5 old vs new on ties: old={r['r_old']:.6f} new={r['r_new']:.6f}")
-    r = _extract_api_test(); assert r["passes"], r
-    print("M16 extract API: no reference → no GR correlation, with reference → "
-          "explicit pearson/spearman")
+    print("M16 Spearman scipy cross-check: PASS")
+    r = _wrong_control_tied_rank_test(); assert r["passes"], r
+    print(f"M16 tied-rank wrong control: old={r['r_old']:.6f}, new={r['r_new']:.6f}")
+    r = _shape_contract_test(); assert r["passes"], r
+    print("M16 correlation shape contract: PASS")
+    r = _package_api_test(); assert r["passes"], r
+    print("M16 observable packaging/reference contract: PASS")
     print("M16 observable extraction: all checks passed")
