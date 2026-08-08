@@ -238,7 +238,7 @@ def main() -> int:
     execution_checks = {
         "local_benchmark_module_used": True,
         "no_network_access_used": True,
-        "HST_download_or_discovery_used": False,
+        "no_HST_download_or_discovery_used": True,
         "benchmark_assisted_source_explicitly_labeled": True,
         "no_independent_prediction_claimed": True,
         "historical_controls_preserved_with_historical_reflect_boundary": True,
