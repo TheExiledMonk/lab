@@ -16,10 +16,16 @@ three paired lanes using the exact same locally loaded source morphology:
              -> -grad(u) -> existing LOS/G3D -> observer
 
 The local kappa map is intentionally used here as a benchmark-assisted source,
-matching earlier foundation lensing diagnostics.  Therefore this lab is NOT an
-independent prediction test.  Its narrow purpose is to test the historical
+matching earlier foundation lensing diagnostics. Therefore this lab is NOT an
+independent prediction test. Its narrow purpose is to test the historical
 strength=0.18 role and whether the newly derived native accumulation can drive
 the already-built full lensing machinery with no replacement scalar.
+
+The historical A8 control retains its original NumPy ``reflect`` boundary for
+reproducibility. The native lane uses the explicit conservative ``zero_flux``
+A8 boundary because raw c_state is required to preserve source integral. This
+changes no A8 coefficient or transport rule; it corrects only the finite-box
+no-through-flow implementation exposed by edge-supported real-cluster maps.
 
 No network access, HST discovery/download, fitted amplitude, native rescaling,
 GR/LCDM potential machinery, Rmax, Quantum Engine, or Planck input is used.
@@ -39,6 +45,7 @@ sys.path.insert(0, str(ROOT))
 from a8_three_dimensional_projection_lab001 import construct_rho_3d
 from weak_lensing_observation001 import resample_to_grid
 from pbuf.core import benchmark_data as BENCH
+from pbuf.models import a8_state as M06_state
 import pbuf.labs.foundation.m10_coverage_25pct_science001 as BASE
 import pbuf.labs.foundation.native_accumulated_full_lensing001 as FULL
 
@@ -80,23 +87,60 @@ def local_source(cluster: dict) -> dict:
     }
 
 
+def native_accumulated_vector_zero_flux(rho3: np.ndarray) -> dict:
+    """Build native accumulated response with conservative A8 edge handling.
+
+    Historical controls remain untouched. The only change versus the original
+    native helper is ``boundary="zero_flux"`` instead of the historical
+    NumPy-``reflect`` edge rule. No source multiplier, normalization, rescaling,
+    or fitted coefficient is introduced.
+    """
+    u0 = np.asarray(rho3, dtype=np.float64).copy()
+    us, uf, history = M06_state.evolve_a8_transport_3d(
+        u0.copy(), u0.copy(), stencil="N6", boundary="zero_flux"
+    )
+    max_abs = max(float(np.max(np.abs(us))), float(np.max(np.abs(uf))))
+    if max_abs >= M06_state.A8_INIT_CLIP - 1.0e-12:
+        raise RuntimeError("raw zero-flux c_state clipping gate failed")
+
+    c = np.asarray(history[-1], dtype=np.float64)
+    sol = FULL.solve_bounded_strain(c)
+    u = np.asarray(sol["field"], dtype=np.float64)
+    gz, gy, gx = np.gradient(u, edge_order=2)
+    vector = (-gx, -gy, -gz)
+
+    rho_integral = float(np.sum(rho3))
+    c_integral = float(np.sum(c))
+    return {
+        "vector": vector,
+        "c_state": c,
+        "accumulated": u,
+        "rho_integral": rho_integral,
+        "c_state_integral": c_integral,
+        "c_state_integral_relative_error": abs(c_integral - rho_integral) / max(abs(rho_integral), 1.0e-30),
+        "a8_boundary": "zero_flux",
+        **sol,
+    }
+
+
 def run_cluster(cluster: dict) -> dict:
     source = local_source(cluster)
     rho2 = source["rho2"]
     rho3 = source["rho3"]
     observed = source["observed"]
 
-    # Exact historical control.  0.18 remains confined to this lane.
+    # Exact historical control. 0.18 and the historical reflective boundary
+    # remain confined to this lane.
     legacy = FULL.legacy_chain(rho3)
 
     # Unit historical route is diagnostic only; it is not a candidate physical
-    # replacement for 0.18.
+    # replacement for 0.18. It also retains the historical boundary exactly.
     unit = FULL.unit_control_chain(rho3)
 
-    # Native lane: no strength factor anywhere.  Raw c_state is accumulated by
-    # the bounded-strain network and its deformation gradient is supplied to the
-    # already-existing LOS/G3D tracker.
-    native_build = FULL.native_accumulated_vector(rho3)
+    # Native lane: no strength factor anywhere. Raw c_state is evolved with the
+    # conservative zero-flux finite-box boundary, accumulated by the bounded-
+    # strain network, and supplied to the existing LOS/G3D tracker as -grad(u).
+    native_build = native_accumulated_vector_zero_flux(rho3)
     native = FULL.run_g3d_from_vector(
         native_build["vector"], observed_for_first_step=None
     )
@@ -118,9 +162,10 @@ def run_cluster(cluster: dict) -> dict:
         "source_role": "local_kappa_benchmark_assisted_diagnostic_source",
         "independent_prediction": False,
         "network_used": False,
-        "legacy_role": "historical_strength_0p18_control_only",
-        "unit_role": "unit_loading_response_diagnostic_only",
-        "native_role": "raw_c_state_to_bounded_strain_accumulation_to_gradient_to_existing_G3D_no_strength",
+        "legacy_role": "historical_strength_0p18_control_only_historical_reflect_boundary",
+        "unit_role": "unit_loading_response_diagnostic_only_historical_reflect_boundary",
+        "native_role": "raw_c_state_zero_flux_to_bounded_strain_accumulation_to_gradient_to_existing_G3D_no_strength",
+        "native_a8_boundary": native_build["a8_boundary"],
         "native_c_state_integral_relative_error": native_build["c_state_integral_relative_error"],
         "native_accumulation_converged": native_build["converged"],
         "native_max_strain_fraction": native_build["max_strain_fraction"],
@@ -175,6 +220,9 @@ def main() -> int:
         "legacy_strength_inventory_exact": bool(
             abs(FULL.LEGACY_STRENGTH - FULL.EXPECTED_LEGACY_STRENGTH) <= 1.0e-15
         ),
+        "native_zero_flux_boundary_used": bool(
+            rows and all(r["native_a8_boundary"] == "zero_flux" for r in rows)
+        ),
         "native_c_state_integral_preserved": bool(
             rows and all(r["native_c_state_integral_relative_error"] <= 1.0e-12 for r in rows)
         ),
@@ -202,6 +250,8 @@ def main() -> int:
         "HST_download_or_discovery_used": False,
         "benchmark_assisted_source_explicitly_labeled": True,
         "independent_prediction_claimed": False,
+        "historical_controls_preserved_with_historical_reflect_boundary": True,
+        "native_zero_flux_boundary_is_conservative_boundary_fix_not_tuning": True,
         "raw_c_state_used_without_strength": True,
         "bounded_strain_accumulation_used_without_rescaling": True,
         "existing_G3D_ray_tracker_reused": True,
@@ -237,7 +287,7 @@ def main() -> int:
 
     if all(checks.values()) and execution_gate_pass:
         status = "LOCAL_BENCHMARK_NATIVE_FULL_LENSING_EXECUTED"
-    elif sum(bool(v) for v in checks.values()) >= 5 and execution_gate_pass:
+    elif sum(bool(v) for v in checks.values()) >= 6 and execution_gate_pass:
         status = "LOCAL_BENCHMARK_NATIVE_FULL_LENSING_PARTIAL_EXECUTION"
     else:
         status = "LOCAL_BENCHMARK_NATIVE_FULL_LENSING_NOT_ESTABLISHED"
@@ -252,9 +302,9 @@ def main() -> int:
             "data_source": "five_existing_local_PBUF_benchmark_Merten_v1_kappa_FITS",
             "network_access": False,
             "source_role": "benchmark_assisted_diagnostic_not_independent_prediction",
-            "historical_control": "local kappa proxy -> strength=0.18 -> A8/M10 -> LOS/G3D",
-            "unit_control": "local kappa proxy -> unit loading diagnostic -> A8/M10 -> LOS/G3D",
-            "native_lane": "local kappa proxy -> raw c_state -> bounded-strain accumulated response -> -grad(u) -> existing LOS/G3D",
+            "historical_control": "local kappa proxy -> strength=0.18 -> historical reflect A8/M10 -> LOS/G3D",
+            "unit_control": "local kappa proxy -> unit loading diagnostic -> historical reflect A8/M10 -> LOS/G3D",
+            "native_lane": "local kappa proxy -> raw zero-flux c_state -> bounded-strain accumulated response -> -grad(u) -> existing LOS/G3D",
             "replacement_strength_scalar": None,
         },
         "rows": rows,
@@ -265,6 +315,7 @@ def main() -> int:
         "interpretation": {
             "question": "On the same five local benchmark sources used by earlier lensing labs, can the native accumulated response drive the existing full G3D stack without the historical strength=0.18 scalar?",
             "strength_role": "historical_initial_source_loading_multiplier_only",
+            "boundary_finding": "The historical NumPy-reflect A8 edge rule is non-conservative for edge-supported fields; native raw-c_state uses an explicit conservative zero-flux boundary while historical controls remain unchanged.",
             "scientific_limit": "The local kappa map supplies both benchmark-assisted source morphology and comparison morphology; this run tests strength removal and end-to-end propagation, not independent predictive power.",
         },
     }
@@ -278,6 +329,8 @@ def main() -> int:
     print("benchmark_assisted_source=true")
     print("independent_prediction=false")
     print(f"legacy_strength={FULL.LEGACY_STRENGTH:.12g}")
+    print("legacy_A8_boundary=historical_reflect")
+    print("native_A8_boundary=zero_flux")
     print("replacement_strength_scalar=none")
     print("native_response_rescaled=false")
     print()
@@ -292,6 +345,7 @@ def main() -> int:
     for r in rows:
         print(
             f"cluster={r['cluster_id']} "
+            f"c_state_integral_relerr={r['native_c_state_integral_relative_error']:.12g} "
             f"legacy_over_unit_los_rms={r['legacy_over_unit_los_rms']:.12g} "
             f"native_over_legacy_los_rms={r['native_over_legacy_los_rms']:.12g} "
             f"legacy_over_unit_angle_rms={r['legacy_over_unit_angle_rms']:.12g} "
