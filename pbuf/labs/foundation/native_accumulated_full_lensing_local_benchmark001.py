@@ -129,17 +129,8 @@ def run_cluster(cluster: dict) -> dict:
     rho3 = source["rho3"]
     observed = source["observed"]
 
-    # Exact historical control. 0.18 and the historical reflective boundary
-    # remain confined to this lane.
     legacy = FULL.legacy_chain(rho3)
-
-    # Unit historical route is diagnostic only; it is not a candidate physical
-    # replacement for 0.18. It also retains the historical boundary exactly.
     unit = FULL.unit_control_chain(rho3)
-
-    # Native lane: no strength factor anywhere. Raw c_state is evolved with the
-    # conservative zero-flux finite-box boundary, accumulated by the bounded-
-    # strain network, and supplied to the existing LOS/G3D tracker as -grad(u).
     native_build = native_accumulated_vector_zero_flux(rho3)
     native = FULL.run_g3d_from_vector(
         native_build["vector"], observed_for_first_step=None
@@ -246,10 +237,10 @@ def main() -> int:
 
     execution_checks = {
         "local_benchmark_module_used": True,
-        "network_access_used": False,
+        "no_network_access_used": True,
         "HST_download_or_discovery_used": False,
         "benchmark_assisted_source_explicitly_labeled": True,
-        "independent_prediction_claimed": False,
+        "no_independent_prediction_claimed": True,
         "historical_controls_preserved_with_historical_reflect_boundary": True,
         "native_zero_flux_boundary_is_conservative_boundary_fix_not_tuning": True,
         "raw_c_state_used_without_strength": True,
