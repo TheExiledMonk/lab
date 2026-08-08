@@ -33,7 +33,7 @@ sys.path.insert(0, str(ROOT))
 from a8_three_dimensional_projection_lab001 import construct_rho_3d
 from pbuf.core import benchmark_data as BENCH
 from pbuf.core import observable_extraction as M16
-from pbuf.core import los_projection as M14
+from pbuf.models import a8_state as A8
 import pbuf.labs.foundation.m10_coverage_25pct_science001 as BASE
 import pbuf.labs.foundation.interface_to_interface_survivor_sweep001 as S92
 import pbuf.labs.foundation.native_channel_transfer_closure_sweep001 as S93
@@ -96,8 +96,8 @@ def native_m10(rho3: np.ndarray) -> tuple[tuple[np.ndarray, np.ndarray, np.ndarr
     c = np.asarray(channels["c"], dtype=np.float64)
     uf = np.asarray(channels["u_fast"], dtype=np.float64)
     us = np.asarray(channels["u_slow"], dtype=np.float64)
-    cf = float(BASE.A8.A8_INIT_DT * BASE.A8.A8_INIT_OMEGA * BASE.A8.A8_INIT_K) if hasattr(BASE, "A8") else 0.03
-    cs = 0.003
+    cf = float(A8.A8_INIT_DT * A8.A8_INIT_OMEGA * A8.A8_INIT_K)
+    cs = float(A8.A8_INIT_DT * A8.A8_INIT_SLOW_TIMESCALE)
     # Guard against silent coefficient drift.
     if abs(cf - 0.03) > 1.0e-15 or abs(cs - 0.003) > 1.0e-15:
         raise RuntimeError(f"frozen pair coefficients changed: fast={cf}, slow={cs}")
@@ -149,8 +149,8 @@ def run_cluster(cluster: dict) -> dict:
     rho3 = source["rho3"]
     benchmark_proxy = source["rho2"]
 
-    # Build both prediction/response lanes solely from the local benchmark-assisted
-    # source. No HST, URL, download, or remote data path exists here.
+    # Build both response lanes solely from the local benchmark-assisted source.
+    # No HST, URL, download, remote data path, normalization, or fitting exists here.
     nm10, channel = native_m10(rho3)
     um10 = unit_m10(rho3)
     native = run_lane(nm10)
