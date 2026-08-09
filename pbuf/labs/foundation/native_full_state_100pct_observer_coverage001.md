@@ -8,8 +8,8 @@ Test whether the richer observer-side information seen at 25% source-plane cover
 
 Only source-plane sampling coverage changes.
 
-- 25% control: existing 266×266 Cartesian launch over the established 8×8 rectangle.
-- 100% lane: deterministic 532×532 Cartesian launch over the full `[-extent,+extent]^2` plane.
+- 25% control: existing 267×267 Cartesian launch over the established 8×8 rectangle.
+- 100% lane: deterministic 534×534 Cartesian launch over the full `[-extent,+extent]^2` plane.
 - The full lane therefore uses exactly 4× the ray count for 4× the area, preserving approximately the same rays per supported source bin.
 
 Both lanes share the same cluster source and one native M10 interface construction. No source, A8, fast/slow transfer, c_state geometry, PM1/PS2, M10, LOS field, propagation coefficient, step size, propagation length, or observer-decoder weight changes.
@@ -35,6 +35,12 @@ Three PR #105 candidates are frozen before this 100% run and reported explicitly
 
 The complete PR #105 candidate inventory is still evaluated so the test remains a wide-net coverage audit.
 
+## Launch-aware receipt repair
+
+The first run exposed a hidden 25%-coverage assumption in the reused PR #104 receipt helper: its initial 3D ray positions were reconstructed internally from the historical 25% launcher. The new 100% lane therefore attempted to combine 285156 terminal rays with 71289 initial rays and failed before any science comparison.
+
+The repair runner `native_full_state_100pct_observer_coverage_launch_fix001.py` changes only that bookkeeping boundary. It supplies the actual lane-specific `x0/y0` launch coordinates to an otherwise equivalent receipt-binning implementation. Physics, propagation, source coverage, channel definitions, decoder inventory, target use, and all guardrails remain unchanged.
+
 ## What this tests
 
 The audit asks whether going from 25% to 100% receipt:
@@ -50,6 +56,7 @@ The audit asks whether going from 25% to 100% receipt:
 - same native M10 shared by the 25% and 100% lanes;
 - exactly 4× rays for exactly 4× source-plane area;
 - same decoder inventory in both lanes;
+- lane-specific launch coordinates preserved through receipt extraction;
 - no observational regression;
 - no fitted decoder weights;
 - no target-derived channel orientation or selection;
@@ -62,7 +69,7 @@ The audit asks whether going from 25% to 100% receipt:
 ## Run
 
 ```bash
-PYTHONPATH=. python pbuf/labs/foundation/native_full_state_100pct_observer_coverage001.py
+PYTHONPATH=. python pbuf/labs/foundation/native_full_state_100pct_observer_coverage_launch_fix001.py
 ```
 
 Expected success status:
