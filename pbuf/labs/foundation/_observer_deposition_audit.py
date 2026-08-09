@@ -15,6 +15,9 @@ from pbuf.wl.received_state import build_received_state
 from pbuf.wl.reconstruction import build_reconstruction_candidates
 from pbuf.wl.screen import build_detector_screen
 from pbuf.wl.observer_cache import ObserverPrimitiveCache, ObserverStateId
+from pbuf.wl.observer_profile import ObserverProfile
+from pbuf.wl.backends.vulkan_kde import make_kde_backend
+import os
 
 EPSILONS = (1e-16, 1e-15, 1e-14, 1e-13, 1e-12)
 DIRECTIONS = {"+u": (1, 0), "-u": (-1, 0), "+v": (0, 1), "-v": (0, -1),
@@ -133,22 +136,24 @@ def ray_difference(cpu_screen, gpu_screen, cpu_prop, gpu_prop):
             "relative_rms_velocity_difference": vel["relative_rms_error"]}
 
 
-def audit_lane(prepared, cpu_prop, gpu_prop):
+def audit_lane(prepared, cpu_prop, gpu_prop, *, return_diagnostics=False):
     cpu_screen = build_detector_screen(prepared["launch"], cpu_prop)
     gpu_screen = build_detector_screen(prepared["launch"], gpu_prop)
-    target_blind = {}; cache = ObserverPrimitiveCache()
+    target_blind = {}; profile = ObserverProfile(); cache = ObserverPrimitiveCache(profile)
+    kde_backend = make_kde_backend(os.environ.get("PBUF_OBSERVER_KDE_BACKEND", "cpu"))
     cpu_id = ObserverStateId(f"cpu_{prepared['launch'].coverage_label}_base", backend="cpu")
     gpu_id = ObserverStateId(f"vulkan_{prepared['launch'].coverage_label}_base", backend="vulkan")
-    for method in METHODS:
-        base = decode(prepared, cpu_prop, cpu_screen, method, cache=cache, state_id=cpu_id)
-        gpu = decode(prepared, gpu_prop, gpu_screen, method, cache=cache, state_id=gpu_id)
+    try:
+      for method in METHODS:
+        base = decode(prepared, cpu_prop, cpu_screen, method, cache=cache, state_id=cpu_id, kde_backend=kde_backend)
+        gpu = decode(prepared, gpu_prop, gpu_screen, method, cache=cache, state_id=gpu_id, kde_backend=kde_backend)
         curves = {}
         machine_ok = True
         for eps in EPSILONS:
             directions = {}
             for direction in DIRECTIONS:
                 changed = decode(prepared, cpu_prop, perturb(cpu_screen, eps, direction), method,
-                                 reconstruct=False, cache=cache,
+                                 reconstruct=False, cache=cache, kde_backend=kde_backend,
                                  state_id=ObserverStateId(cpu_id.base_state, f"translate_{direction}_{eps}", "cpu"))
                 directions[direction] = bank_error(base["bank"], changed["bank"])
                 if eps <= 1e-14:
@@ -159,6 +164,8 @@ def audit_lane(prepared, cpu_prop, gpu_prop):
             "conservation": conservation(method, cpu_screen), "perturbation": curves,
             "machine_scale_stable": bool(machine_ok), "cpu_vulkan": bank_error(base["bank"], gpu["bank"]),
             "information": information(base["bank"])}
+    finally:
+      if hasattr(kde_backend, "close"): kde_backend.close()
     control = target_blind["hard_bin_current"]["base"]["bank"]
     for row in target_blind.values():
         row["morphology"] = morphology(control, row["base"]["bank"])
@@ -175,7 +182,10 @@ def audit_lane(prepared, cpu_prop, gpu_prop):
                       None, bins=OBS_BINS, extent=EXTENT))
                    for direction in DIRECTIONS} for eps in EPSILONS}
         for m in METHODS}
-    return target_blind, ray_difference(cpu_screen, gpu_screen, cpu_prop, gpu_prop), proximity
+    diagnostics={"kde_backend":os.environ.get("PBUF_OBSERVER_KDE_BACKEND","cpu"),
+      "profile":profile.describe(),"cache_requests":profile.describe()["pairwise_kde"]["cache_hit_count"]+profile.describe()["pairwise_kde"]["cache_miss_count"]}
+    result=(target_blind,ray_difference(cpu_screen,gpu_screen,cpu_prop,gpu_prop),proximity)
+    return (*result,diagnostics) if return_diagnostics else result
 
 
 def survivors(rows):

@@ -205,7 +205,7 @@ int pbuf_vk_kde(void *handle, const double *u, const double *v, double *output,
                 uint32_t n, const double *bandwidth, char *err) {
     Runtime *rt=handle; Buffer b[BINDING_COUNT];memset(b,0,sizeof(b));
     VkDescriptorPool pool=VK_NULL_HANDLE;VkCommandPool cp=VK_NULL_HANDLE;VkCommandBuffer cmd=VK_NULL_HANDLE;VkFence fence=VK_NULL_HANDLE;int rc=-1;
-    double config[3]={(double)n,bandwidth[0],bandwidth[1]}; VkDeviceSize sizes[BINDING_COUNT];
+    double config[5]={(double)n,bandwidth[0],bandwidth[1],0.0,0.0}; VkDeviceSize sizes[BINDING_COUNT];
     for(int i=0;i<BINDING_COUNT;++i)sizes[i]=sizeof(double);
     sizes[0]=sizes[1]=sizes[2]=(VkDeviceSize)n*sizeof(double);sizes[3]=sizeof(config);
     for(int i=0;i<BINDING_COUNT;++i)if(make_buffer(rt,sizes[i],&b[i],err))goto done;
@@ -217,8 +217,13 @@ int pbuf_vk_kde(void *handle, const double *u, const double *v, double *output,
     for(uint32_t i=0;i<BINDING_COUNT;++i){bi[i]=(VkDescriptorBufferInfo){.buffer=b[i].buffer,.offset=0,.range=b[i].size};wr[i]=(VkWriteDescriptorSet){.sType=VK_STRUCTURE_TYPE_WRITE_DESCRIPTOR_SET,.dstSet=set,.dstBinding=i,.descriptorCount=1,.descriptorType=VK_DESCRIPTOR_TYPE_STORAGE_BUFFER,.pBufferInfo=&bi[i]};}vkUpdateDescriptorSets(rt->device,BINDING_COUNT,wr,0,NULL);
     VkCommandPoolCreateInfo cpi={.sType=VK_STRUCTURE_TYPE_COMMAND_POOL_CREATE_INFO,.queueFamilyIndex=rt->queue_family};r=vkCreateCommandPool(rt->device,&cpi,NULL,&cp);if(r!=VK_SUCCESS){fail(err,"KDE command pool failed",r);goto done;}
     VkCommandBufferAllocateInfo cai={.sType=VK_STRUCTURE_TYPE_COMMAND_BUFFER_ALLOCATE_INFO,.commandPool=cp,.level=VK_COMMAND_BUFFER_LEVEL_PRIMARY,.commandBufferCount=1};vkAllocateCommandBuffers(rt->device,&cai,&cmd);
-    VkCommandBufferBeginInfo cb={.sType=VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO,.flags=VK_COMMAND_BUFFER_USAGE_ONE_TIME_SUBMIT_BIT};vkBeginCommandBuffer(cmd,&cb);vkCmdBindPipeline(cmd,VK_PIPELINE_BIND_POINT_COMPUTE,rt->pipeline);vkCmdBindDescriptorSets(cmd,VK_PIPELINE_BIND_POINT_COMPUTE,rt->pipeline_layout,0,1,&set,0,NULL);vkCmdDispatch(cmd,(n+rt->workgroup_size-1)/rt->workgroup_size,1,1);vkEndCommandBuffer(cmd);
-    VkFenceCreateInfo fi={.sType=VK_STRUCTURE_TYPE_FENCE_CREATE_INFO};vkCreateFence(rt->device,&fi,NULL,&fence);VkSubmitInfo si={.sType=VK_STRUCTURE_TYPE_SUBMIT_INFO,.commandBufferCount=1,.pCommandBuffers=&cmd};r=vkQueueSubmit(rt->queue,1,&si,fence);if(r==VK_SUCCESS)r=vkWaitForFences(rt->device,1,&fence,VK_TRUE,UINT64_MAX);if(r!=VK_SUCCESS){fail(err,"KDE dispatch failed",r);goto done;}
+    VkFenceCreateInfo fi={.sType=VK_STRUCTURE_TYPE_FENCE_CREATE_INFO};vkCreateFence(rt->device,&fi,NULL,&fence);
+    for(uint32_t offset=0;offset<n;offset+=1024u){
+      uint32_t count=n-offset<1024u?n-offset:1024u;config[3]=(double)offset;config[4]=(double)count;
+      if(copy_in(rt,&b[3],config,err))goto done;
+      vkResetCommandPool(rt->device,cp,0);VkCommandBufferBeginInfo cb={.sType=VK_STRUCTURE_TYPE_COMMAND_BUFFER_BEGIN_INFO,.flags=VK_COMMAND_BUFFER_USAGE_ONE_TIME_SUBMIT_BIT};vkBeginCommandBuffer(cmd,&cb);vkCmdBindPipeline(cmd,VK_PIPELINE_BIND_POINT_COMPUTE,rt->pipeline);vkCmdBindDescriptorSets(cmd,VK_PIPELINE_BIND_POINT_COMPUTE,rt->pipeline_layout,0,1,&set,0,NULL);vkCmdDispatch(cmd,(count+rt->workgroup_size-1)/rt->workgroup_size,1,1);vkEndCommandBuffer(cmd);
+      vkResetFences(rt->device,1,&fence);VkSubmitInfo si={.sType=VK_STRUCTURE_TYPE_SUBMIT_INFO,.commandBufferCount=1,.pCommandBuffers=&cmd};r=vkQueueSubmit(rt->queue,1,&si,fence);if(r==VK_SUCCESS)r=vkWaitForFences(rt->device,1,&fence,VK_TRUE,UINT64_MAX);if(r!=VK_SUCCESS){fail(err,"KDE dispatch failed",r);goto done;}
+    }
     {void *p=NULL;r=vkMapMemory(rt->device,b[2].memory,0,b[2].size,0,&p);if(r!=VK_SUCCESS){fail(err,"KDE output map failed",r);goto done;}memcpy(output,p,(size_t)b[2].size);vkUnmapMemory(rt->device,b[2].memory);}rc=0;
 done:
     if(fence)vkDestroyFence(rt->device,fence,NULL);if(cp)vkDestroyCommandPool(rt->device,cp,NULL);if(pool)vkDestroyDescriptorPool(rt->device,pool,NULL);

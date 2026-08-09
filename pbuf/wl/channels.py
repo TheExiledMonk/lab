@@ -74,7 +74,11 @@ def decode_full_channel_bank(
             key = ObserverPrimitiveCache.key("pairwise_kde", sid,
                 coordinates=(data[0], data[1]), parameters=(role,),
                 translation_invariant=state_id is not None)
-            compute = lambda: backend.evaluate(data[0], data[1], config=bandwidth)
+            def compute():
+                if cache is not None and cache.profile is not None:
+                    with cache.profile.time("pairwise_kde"):
+                        return backend.evaluate(data[0], data[1], config=bandwidth)
+                return backend.evaluate(data[0], data[1], config=bandwidth)
             return cache.get_or_compute(key, compute, "pairwise_kde") if cache else compute()
         return evaluate
     try:

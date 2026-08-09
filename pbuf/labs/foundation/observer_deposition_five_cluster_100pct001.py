@@ -27,16 +27,25 @@ def summarize(rows):
             for name,r in rows.items()}
 
 def main():
-    inventory={c["id"]:c for c in BENCH.clusters()}; raw={}; result_clusters={}; timings={}
+    all_started=time.perf_counter();inventory={c["id"]:c for c in BENCH.clusters()}; raw={}; result_clusters={}; timings={};cache_stats={};backend_matrix={}
     with VulkanBackend() as vk:
         for cluster_id in CLUSTERS:
+            cluster_started=time.perf_counter()
             p=prepare(inventory[cluster_id],"100pct")
             t=time.perf_counter();cpu=CpuReferenceBackend().propagate(p["los"]["field"],p["launch"],CONFIG);cpu_t=time.perf_counter()-t
             t=time.perf_counter();gpu=vk.propagate(p["los"]["field"],p["launch"],CONFIG);gpu_t=time.perf_counter()-t
-            rows,ray,boundary=audit_lane(p,cpu,gpu);raw[cluster_id]=rows
+            rows,ray,boundary,diagnostics=audit_lane(p,cpu,gpu,return_diagnostics=True);raw[cluster_id]=rows
             result_clusters[cluster_id]={"methods":summarize(rows),"ray_state_difference":ray,"boundary_proximity":boundary,
                                          "generated_in_current_process":True}
-            timings[cluster_id]={"cpu_propagation_seconds":cpu_t,"vulkan_propagation_seconds":gpu_t}
+            prof=diagnostics["profile"]["pairwise_kde"]
+            timings[cluster_id]={"propagation_cpu_if_required":cpu_t,"propagation_vulkan":gpu_t,
+              "kde_total":prof["total_seconds"],"deposition_total":0.0,
+              "channel_total":sum(r[s]["decode_seconds"] for r in rows.values() for s in ("base","gpu")),
+              "reconstruction_total":sum(r[s]["reconstruction_seconds"] for r in rows.values() for s in ("base","gpu")),
+              "cluster_total":time.perf_counter()-cluster_started}
+            cache_stats[cluster_id]={"requests":diagnostics["cache_requests"],"hits":prof["cache_hit_count"],"misses":prof["cache_miss_count"]}
+            backend_matrix[cluster_id]=[{"ray_state_backend":"cpu","kde_backend":diagnostics["kde_backend"]},
+                                        {"ray_state_backend":"vulkan","kde_backend":diagnostics["kde_backend"]}]
     survivors_all=[name for name in ("hard_bin_half_open","nearest_center","bilinear_cic","tsc_3x3","gaussian_sigma_half_cell")
                    if all(name in survivors(raw[c]) for c in CLUSTERS)]
     current_unstable=any(not raw[c]["hard_bin_current"]["machine_scale_stable"] for c in CLUSTERS)
@@ -57,12 +66,16 @@ def main():
       "information_geometry_reported_all_methods":True,"morphology_preservation_reported_all_methods":True,
       "stability_survivor_rule_target_blind":True,
       "no_tracked_or_staged_changes":not subprocess.check_output(["git","status","--porcelain","--untracked-files=no"],cwd=ROOT,text=True).strip()}
+    five_total=time.perf_counter()-all_started;timing_summary={"clusters":timings,"five_cluster_total_seconds":five_total,
+      "five_cluster_under_15_minutes":five_total<900,"five_cluster_under_30_minutes":five_total<1800,"five_cluster_under_60_minutes":five_total<3600}
+    executions={c:{"old_kde_call_count":192,"actual_kde_miss_count":cache_stats[c]["misses"]} for c in CLUSTERS}
     result={"lab_id":LAB_ID,"status":status,"clusters":result_clusters,"stability_survivors":survivors_all,
-            "timings":timings,"checks":checks}
+            "backend_matrix":backend_matrix,"timings":timing_summary,"cache_stats":cache_stats,"kde_execution_counts":executions,"checks":checks}
+    print("BACKEND_MATRIX");print(json.dumps(backend_matrix));print("CACHE_STATS");print(json.dumps(cache_stats));print("KDE_EXECUTION_COUNTS");print(json.dumps(executions))
     for block in ("CLUSTER_SUMMARY","CROSS_CLUSTER_STABILITY","CROSS_CLUSTER_INFORMATION","CROSS_CLUSTER_MORPHOLOGY","CROSS_CLUSTER_OBSERVATIONAL_DIAGNOSTICS","STABILITY_SURVIVORS","TIMINGS","CHECKS"):
         print(block)
         if block=="STABILITY_SURVIVORS":print(json.dumps(survivors_all))
-        elif block=="TIMINGS":print(json.dumps(timings))
+        elif block=="TIMINGS":print(json.dumps(timing_summary))
         elif block=="CHECKS":print("\n".join(f"{k}={str(v).lower()}" for k,v in checks.items()))
         else:print(json.dumps(result_clusters,default=str))
     print("RESULT_JSON");print(json.dumps(result,default=str));print(status)
