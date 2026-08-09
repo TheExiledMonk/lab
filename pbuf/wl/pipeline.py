@@ -5,6 +5,7 @@ import numpy as np
 
 from pbuf.labs.foundation import native_full_state_2d_reconstruction_decoder_sweep001 as DEC
 from .channels import decode_full_channel_bank
+from .deposition import DepositionMethod
 from .config import CHECKPOINT, PROPAGATION_STEP, PROPAGATION_STEPS
 from .interface import get_interface_vector
 from .launch import RayLaunch, launch_25pct, launch_100pct
@@ -32,9 +33,11 @@ class WLPipelineResult:
     channel_family: dict[str, str]
     reconstruction_candidates: dict[str, np.ndarray]
     reconstruction_meta: dict
+    deposition_method: str = "hard_bin_current"
 
 
-def run_wl_pipeline(cluster: dict, coverage: str, backend: PropagationBackend | None = None) -> WLPipelineResult:
+def run_wl_pipeline(cluster: dict, coverage: str, backend: PropagationBackend | None = None,
+                    deposition_method: str | DepositionMethod | None = None) -> WLPipelineResult:
     if coverage not in ("25pct", "100pct"):
         raise ValueError(f"unsupported WL coverage: {coverage}")
     source = load_cluster_source(cluster)
@@ -46,10 +49,11 @@ def run_wl_pipeline(cluster: dict, coverage: str, backend: PropagationBackend | 
     )
     screen = build_detector_screen(launch, propagation)
     received = build_received_state(launch, propagation, screen)
-    decoded = decode_full_channel_bank(screen, received)
+    decoded = decode_full_channel_bank(screen, received, deposition_method)
     candidates, meta = build_reconstruction_candidates(decoded["bank"], decoded["family"])
     return WLPipelineResult(cluster["id"], launch.coverage_label, source, native, los, launch,
-                            propagation, screen, received, decoded["bank"], decoded["family"], candidates, meta)
+                            propagation, screen, received, decoded["bank"], decoded["family"], candidates, meta,
+                            decoded["deposition_method"])
 
 
 def compare_with_observations(result: WLPipelineResult, data: dict) -> dict:

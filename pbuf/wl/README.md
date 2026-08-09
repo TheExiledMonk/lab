@@ -23,3 +23,13 @@ availability details.
 
 100% coverage is the primary science workload. 25% coverage remains a parity
 control and regression lane.
+
+## Observer deposition stability
+
+The historical/current observer uses discrete hard-bin deposition. Dev Doc
+109 demonstrated that machine-scale CPU/Vulkan trajectory differences can
+cross hard-bin boundaries and amplify downstream.
+
+Alternative deposition methods are audited separately and do not change
+upstream PBUF propagation physics. The canonical default remains
+`hard_bin_current`; Dev Doc 110 does not promote a replacement method.
