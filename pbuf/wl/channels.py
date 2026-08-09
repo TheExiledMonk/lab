@@ -2,12 +2,15 @@
 
 from contextlib import contextmanager
 import threading
+import os
 import numpy as np
 
 from pbuf.labs.foundation import native_full_received_state_information_retention001 as RET
 from pbuf.labs.foundation import native_observable_extraction_method_sweep001 as EX
 from .config import EXTENT, OBS_BINS
 from .deposition import DepositionMethod, get_deposition_method
+from .backends.vulkan_kde import make_kde_backend
+from .observer_cache import ObserverPrimitiveCache, ObserverStateId
 
 
 _HISTOGRAM_LOCK = threading.RLock()
@@ -48,10 +51,39 @@ def decode_full_channel_bank(
     screen: dict,
     received_state: dict,
     deposition_method: str | DepositionMethod | None = None,
+    *, cache: ObserverPrimitiveCache | None = None,
+    state_id: ObserverStateId | None = None,
+    kde_backend=None,
 ) -> dict:
     method = get_deposition_method(deposition_method)
-    with _deposition_histogram(method):
-        extracted = EX._extract_all(screen, EXTENT, OBS_BINS)
+    backend = kde_backend
+    owns_backend = False
+    if backend is None:
+        backend = make_kde_backend(os.environ.get("PBUF_OBSERVER_KDE_BACKEND", "cpu")); owns_backend = True
+    original_diag = EX.OLD._diag_kde
+    kde_ordinal = 0
+    def cached_diag(data, bandwidth):
+        nonlocal kde_ordinal
+        role = "initial" if kde_ordinal == 0 else "final"
+        kde_ordinal += 1
+        reference = original_diag(data, bandwidth)
+        def evaluate(points):
+            # Only the all-ray self-query is O(N^2); preserve the frozen grid path.
+            if points is not data and not np.array_equal(points, data): return reference(points)
+            sid = state_id or ObserverStateId("anonymous_content_state", backend=backend.name)
+            key = ObserverPrimitiveCache.key("pairwise_kde", sid,
+                coordinates=(data[0], data[1]), parameters=(role,),
+                translation_invariant=state_id is not None)
+            compute = lambda: backend.evaluate(data[0], data[1], config=bandwidth)
+            return cache.get_or_compute(key, compute, "pairwise_kde") if cache else compute()
+        return evaluate
+    try:
+        with _deposition_histogram(method):
+            EX.OLD._diag_kde = cached_diag
+            extracted = EX._extract_all(screen, EXTENT, OBS_BINS)
+    finally:
+        EX.OLD._diag_kde = original_diag
+        if owns_backend and hasattr(backend, "close"): backend.close()
     bank, family = RET._decoded_bank(extracted, received_state)
     if len(bank) != 45:
         raise RuntimeError(f"expected exactly 45 decoded WL channels, got {len(bank)}")

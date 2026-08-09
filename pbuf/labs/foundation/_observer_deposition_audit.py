@@ -14,6 +14,7 @@ from pbuf.wl.deposition import METHODS
 from pbuf.wl.received_state import build_received_state
 from pbuf.wl.reconstruction import build_reconstruction_candidates
 from pbuf.wl.screen import build_detector_screen
+from pbuf.wl.observer_cache import ObserverPrimitiveCache, ObserverStateId
 
 EPSILONS = (1e-16, 1e-15, 1e-14, 1e-13, 1e-12)
 DIRECTIONS = {"+u": (1, 0), "-u": (-1, 0), "+v": (0, 1), "-v": (0, -1),
@@ -44,10 +45,12 @@ def bank_error(reference, candidate):
             "all_finite": all(row["finite"] for row in rows.values())}
 
 
-def decode(prepared, propagation, screen, method, *, reconstruct=True):
+def decode(prepared, propagation, screen, method, *, reconstruct=True, cache=None,
+           state_id=None, kde_backend=None):
     received = build_received_state(prepared["launch"], propagation, screen)
     t0 = time.perf_counter()
-    decoded = decode_full_channel_bank(screen, received, method)
+    decoded = decode_full_channel_bank(screen, received, method, cache=cache,
+                                       state_id=state_id, kde_backend=kde_backend)
     decode_seconds = time.perf_counter() - t0
     candidates, meta, reconstruction_seconds = {}, {}, 0.0
     if reconstruct:
@@ -133,17 +136,20 @@ def ray_difference(cpu_screen, gpu_screen, cpu_prop, gpu_prop):
 def audit_lane(prepared, cpu_prop, gpu_prop):
     cpu_screen = build_detector_screen(prepared["launch"], cpu_prop)
     gpu_screen = build_detector_screen(prepared["launch"], gpu_prop)
-    target_blind = {}
+    target_blind = {}; cache = ObserverPrimitiveCache()
+    cpu_id = ObserverStateId(f"cpu_{prepared['launch'].coverage_label}_base", backend="cpu")
+    gpu_id = ObserverStateId(f"vulkan_{prepared['launch'].coverage_label}_base", backend="vulkan")
     for method in METHODS:
-        base = decode(prepared, cpu_prop, cpu_screen, method)
-        gpu = decode(prepared, gpu_prop, gpu_screen, method)
+        base = decode(prepared, cpu_prop, cpu_screen, method, cache=cache, state_id=cpu_id)
+        gpu = decode(prepared, gpu_prop, gpu_screen, method, cache=cache, state_id=gpu_id)
         curves = {}
         machine_ok = True
         for eps in EPSILONS:
             directions = {}
             for direction in DIRECTIONS:
                 changed = decode(prepared, cpu_prop, perturb(cpu_screen, eps, direction), method,
-                                 reconstruct=False)
+                                 reconstruct=False, cache=cache,
+                                 state_id=ObserverStateId(cpu_id.base_state, f"translate_{direction}_{eps}", "cpu"))
                 directions[direction] = bank_error(base["bank"], changed["bank"])
                 if eps <= 1e-14:
                     row = directions[direction]
