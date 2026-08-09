@@ -1,0 +1,38 @@
+{
+  "gates": {
+    "direct_snapshot_integrity_pass": true,
+    "snapshot_internal_consistency_pass": false,
+    "thermal_alpha_identity_pass": true,
+    "thermal_scale_factor_bookkeeping_pass": true,
+    "historical_failed_optimization_quarantined": true,
+    "no_fitted_numbers_introduced": true,
+    "legacy_strength_not_used": true,
+    "replacement_strength_not_selected": true,
+    "benchmark_pixel_values_not_loaded": true,
+    "lensing_pipeline_not_executed": true,
+    "hst_mass_conversion_not_executed": true,
+    "C_eff_not_promoted_to_physics": true,
+    "local_modulus_not_selected": true
+  },
+  "consistency": {
+    "engine_source_match": true,
+    "method_version_match": true,
+    "table_version_match": true,
+    "temperature_point_count_match": false,
+    "alpha_qm_match": true,
+    "eps0_base_match": true,
+    "f_cut_match": true,
+    "f_coup_match": true,
+    "all_pass": false
+  },
+  "optimization_quarantine": {
+    "artifact_present": true,
+    "phase6a_passed": false,
+    "cmb_status": "sanity_failed",
+    "historical_optimization_used_as_physics_input": false,
+    "optimization_best_parameters_used": false,
+    "optimization_alpha_used": false,
+    "optimization_Rmax_used": false,
+    "quarantine_pass": true
+  }
+}

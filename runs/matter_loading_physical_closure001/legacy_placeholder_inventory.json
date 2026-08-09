@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "path": "constitutive_equations.py",
+      "exists": true,
+      "sha256": "e2c789d19fd559753519704c6668c7a2879c53eb61a315604ec81af6795aca9f",
+      "contains_legacy_strength_0p18": false,
+      "contains_normalized_matter": true,
+      "contains_STRENGTH_times_rho3": false,
+      "contains_physical_mass_calibration": false
+    },
+    {
+      "path": "pbuf/labs/foundation/m10_coverage_25pct_science001.py",
+      "exists": true,
+      "sha256": "1dcf37b67651373f30efee2ce5f683ac43fe5b3f5bd020a0fb202954d6335d0e",
+      "contains_legacy_strength_0p18": true,
+      "contains_normalized_matter": false,
+      "contains_STRENGTH_times_rho3": true,
+      "contains_physical_mass_calibration": false
+    },
+    {
+      "path": "pbuf/labs/foundation/strength_factorization_physical_bridge001.py",
+      "exists": true,
+      "sha256": "255f19f900671949e4c6b9065b123d9ff95cc9fa1249eca9365e81d425ec10f6",
+      "contains_legacy_strength_0p18": true,
+      "contains_normalized_matter": false,
+      "contains_STRENGTH_times_rho3": true,
+      "contains_physical_mass_calibration": false
+    }
+  ]
+}

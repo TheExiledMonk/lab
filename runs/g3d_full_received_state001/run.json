@@ -1,0 +1,9 @@
+{
+  "lab_id": "PBUF-FOUNDATION-G3D-FULL-RECEIVED-STATE-001",
+  "head_sha": "e9cdfd2fc0c1796fedaf810c9e0ba11d1a5ac615",
+  "candidate_id": "PL1_PM1_PS2",
+  "physical_source_representation": "M10_interface_field",
+  "geometry_lane": "G3D_LOS_consistent_diagnostic",
+  "observer_order": "full_3d_position_plus_direction_then_fixed_xy_projection",
+  "note": "Position and direction are measured as separate received channels before projection; no arbitrary weighting or conventional gravitational law is introduced."
+}

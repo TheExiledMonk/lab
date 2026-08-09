@@ -1,0 +1,20 @@
+{
+  "target": "derive_or_close_S_sigma_medium_dynamics_in_metric_strain_normalization_without_free_or_fitted_coefficients",
+  "required_equation": "delta S_sigma[gbar,chi;fixed_PBUF_microphysics]/delta chi_mu_nu = sqrt(-g) J^{mu nu}",
+  "matter_source_fixed_by_this_lab": "J^{mu nu} = -T_m^{mu nu}",
+  "must_derive": [
+    "quadratic/static restoring operator or demonstrate why a different operator is required",
+    "gradient/propagation operator and causal dynamical completion",
+    "normalization/units of the finite laboratory state relative to chi_mu_nu",
+    "stability and causal/hyperbolic conditions",
+    "long_wavelength matching condition consistent with PBUF retained effective spacetime dynamics"
+  ],
+  "forbidden": [
+    "fit_coefficients_to_kappa_or_shear",
+    "replace_0p18_with_another_scalar",
+    "identify_alpha_epsilon0_Rmax_ksat_or_1_over_137_as_local_modulus_without_derivation",
+    "assume_F160W_mass_to_light_ratio",
+    "inject_Newtonian_or_GR_lensing_force_into_PBUF_medium_response",
+    "run_cluster_lensing_before_medium_dynamics_and_source_geometry_close"
+  ]
+}

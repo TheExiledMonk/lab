@@ -1,0 +1,18 @@
+{
+  "lab_id": "PBUF-FOUNDATION-M10-INFORMATION-LOSS-AUDIT-001",
+  "outcome": "Outcome A \u2014 M10-TO-JACOBIAN INFORMATION-LOSS AUDIT COMPLETE",
+  "head_sha": "7e36d5722020b41decbea55865e338531f298ea6",
+  "candidate_id": "PL1_PM1_PS2",
+  "physical_source_representation": "M10_interface_field",
+  "cluster_count_expected": 5,
+  "cluster_count_completed": 5,
+  "all_jacobian_masks_match_ge6_source_support": true,
+  "jacobian_finite_count_identical_across_clusters": true,
+  "jacobian_finite_pixel_count": 288,
+  "jacobian_finite_fraction": 0.0703125,
+  "science_interpretation_required": true,
+  "physics_change_authorized": false,
+  "candidate_change_authorized": false,
+  "source_plane_change_authorized": false,
+  "duration_seconds": 5.372933256090619
+}

@@ -1,0 +1,13 @@
+{
+  "metric_strain_variable": "h_mu_nu = 2 chi_mu_nu = g_mu_nu-gbar_mu_nu",
+  "matter_loading_from_prior_closure": "J_mu_nu = -T_m_mu_nu (prior component-placement convention)",
+  "retained_effective_kinetic_boundary": "linearized Einstein/Fierz-Pauli massless spin-2 operator",
+  "retained_effective_kinetic_boundary_role": "GR_consistency_boundary_only_not_PBUF_elastic_S_sigma",
+  "retained_effective_normalization": "standard Einstein normalization already retained by V11; not re-derived or repurposed here",
+  "new_local_elastic_modulus_derived": false,
+  "naive_algebraic_metric_strain_restoring_term_authorized": false,
+  "reason_naive_algebraic_term_not_authorized": "an algebraic h_mu_nu restoring/mass term is not invariant under linearized diffeomorphism gauge transformations without additional structure",
+  "ordinary_isotropic_solid_closure_selected": false,
+  "ordinary_isotropic_solid_note": "if both longitudinal and transverse material modes are required to share c, the elementary isotropic-solid formulas force negative bulk modulus; this conditional closure is therefore unsuitable",
+  "gr_lensing_law_used_as_PBUF_medium_response": false
+}

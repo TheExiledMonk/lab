@@ -1,0 +1,24 @@
+{
+  "cluster_id": "MACS0416",
+  "cluster_label": "MACS J0416",
+  "input_kind": "observed_frontier_fields_fits",
+  "fits_path": "PBUF_benchmark/WL-002_MACS0416/hlsp_frontier_model_macs0416_merten_v1_kappa.fits",
+  "fits_sha256": "8b2b5d634bac95bb204829604d1efcf78c6f17e6321398b1fed928ff0af65b7b",
+  "fits_shape": [
+    180,
+    180
+  ],
+  "proxy_shape": [
+    64,
+    64
+  ],
+  "rho3d_shape": [
+    9,
+    64,
+    64
+  ],
+  "proxy_sha256": "552c1d3ad00330b6816190049f7172b1cd4fb7d0578fed842ecb84d5210b6b7b",
+  "rho3d_sha256": "340750858c8c85d62312b473c9b26e65c2dedf9e712193d01f9211346a794b41",
+  "Z_L": 0.42,
+  "Z_S": 9.0
+}

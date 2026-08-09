@@ -1,0 +1,17 @@
+{
+  "status": "closed_as_minimal_no_extra_DOF_effective_identification",
+  "interpretive_scope": "effective_metric_strain_variable_not_claimed_microscopic_ontology",
+  "background_structure": "gbar_mu_nu must be specified and transformed covariantly with g_mu_nu",
+  "medium_variable": "chi_mu_nu = (g_mu_nu - gbar_mu_nu)/2",
+  "inverse_map": "g_mu_nu = gbar_mu_nu + 2 chi_mu_nu",
+  "chi_dimensions": "dimensionless_metric_strain",
+  "normalization_origin": "standard_half_metric_change_strain_definition_not_fit",
+  "free_metric_medium_coupling_constant": false,
+  "local_response_kernel": "R_mu_nu,alpha_beta = delta_mu_alpha delta_nu_beta + delta_mu_beta delta_nu_alpha",
+  "minimal_matter_source": "J_alpha_beta = -T_m^{alpha beta}",
+  "source_normalization_fixed_by_action_chain_rule": true,
+  "rho_only_reduction_authorized": false,
+  "new_propagating_degree_of_freedom_introduced": false,
+  "uniqueness_claim": "unique only after choosing metric strain itself as the effective medium coordinate; does not prove this is PBUF microscopic ontology",
+  "nonlinear_extension_note": "finite-strain/nonlinear metric parametrizations may be required outside the perturbative/effective regime and must be derived rather than fit"
+}

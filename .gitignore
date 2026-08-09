@@ -39,5 +39,8 @@ Thumbs.db
 runs/**/high_accuracy/trajectories/photon_trajectories_*.csv
 runs/**/minimum_production/trajectories/photon_trajectories_*.csv
 
-# Plots are kept under version control (they are part of the audit trail).
+# Downloaded observation inputs can exceed GitHub's 100 MB object limit.
+# Labs fetch these FITS files on demand; keep them out of repository history.
+runs/**/downloads/**/*.fits
 
+# Plots are kept under version control (they are part of the audit trail).

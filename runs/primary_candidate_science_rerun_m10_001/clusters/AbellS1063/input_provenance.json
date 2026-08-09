@@ -1,0 +1,24 @@
+{
+  "cluster_id": "AbellS1063",
+  "cluster_label": "Abell S1063",
+  "input_kind": "observed_frontier_fields_fits",
+  "fits_path": "PBUF_benchmark/WL-004_AbellS1063/hlsp_frontier_model_abells1063_merten_v1_kappa.fits",
+  "fits_sha256": "622c6e43c532f66b728edb50e3fc839c88afbee2910af035eabcd9e4eb5a9cda",
+  "fits_shape": [
+    132,
+    132
+  ],
+  "proxy_shape": [
+    64,
+    64
+  ],
+  "rho3d_shape": [
+    9,
+    64,
+    64
+  ],
+  "proxy_sha256": "e4163afe96b8077207a912865a9b427dc6220d6ebde667df29c1b907afccb65f",
+  "rho3d_sha256": "b352b6c35e99d00e11bf41c787cae8220d954917adacefc542cafc7926768f06",
+  "Z_L": 0.348,
+  "Z_S": 9.0
+}

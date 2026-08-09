@@ -1,0 +1,22 @@
+{
+  "lab_id": "PBUF-FOUNDATION-INTERFACE-SOURCE-REQUALIFICATION-001",
+  "head_sha": "7139c0385e041194f611c94b2ae4fb3c35f7f5dd",
+  "cluster_id": "MACS0416",
+  "candidate_id": "PL1_PM1_PS2",
+  "nz": 9,
+  "profile": "gaussian",
+  "strength": 0.18,
+  "seed": 12345,
+  "config": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "duration_seconds": 6.562868145992979
+}

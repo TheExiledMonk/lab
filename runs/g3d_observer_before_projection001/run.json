@@ -1,0 +1,26 @@
+{
+  "lab_id": "PBUF-FOUNDATION-G3D-OBSERVER-BEFORE-PROJECTION-001",
+  "head_sha": "5de8b716051ffdfc026ef393dce7868808b58c3a",
+  "candidate_id": "PL1_PM1_PS2",
+  "physical_source_representation": "M10_interface_field",
+  "geometry_lane": "G3D_LOS_consistent_diagnostic",
+  "observer_order": "full_3d_received_sheet_then_fixed_xy_projection",
+  "observer_projection_normal": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "benchmark_role": "external_morphology_comparison_only",
+  "checkpoint_steps": [
+    0,
+    1,
+    5,
+    10,
+    20,
+    40,
+    80,
+    120,
+    159
+  ],
+  "note": "Full received 3D ray-sheet geometry is measured before any fixed 2D observer projection; no conventional gravitational law is injected."
+}

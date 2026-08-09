@@ -1,0 +1,31 @@
+{
+  "synthetic_only_not_physical_source": true,
+  "tolerance": 1e-12,
+  "metrics": {
+    "metric_strain_inverse_relative_rms_error": 1.549377049782313e-14,
+    "finite_difference_response_relative_rms_error": 6.589319713371306e-07,
+    "response_kernel_action_relative_rms_error": 0.0,
+    "matter_source_J_equals_minus_T_relative_rms_error": 0.0,
+    "linearity_in_stress_energy_relative_rms_error": 0.0,
+    "linearity_in_metric_strain_relative_rms_error": 2.084546731248674e-14,
+    "matter_action_variation_identity_relative_error": 0.0,
+    "metric_strain_tensor_covariance_relative_rms_error": 3.3304644532437355e-14,
+    "matter_source_tensor_covariance_relative_rms_error": 0.0,
+    "zero_stress_energy_source_rms": 0.0,
+    "response_kernel_pair_symmetry_error": 0.0
+  },
+  "checks": {
+    "metric_strain_inverse_pass": true,
+    "finite_difference_response_pass": false,
+    "response_kernel_action_pass": true,
+    "matter_source_identity_J_equals_minus_T_pass": true,
+    "linearity_in_stress_energy_pass": true,
+    "linearity_in_metric_strain_pass": true,
+    "matter_action_variation_identity_pass": true,
+    "metric_strain_tensor_covariance_pass": true,
+    "matter_source_tensor_covariance_pass": true,
+    "zero_stress_energy_zero_source_pass": true,
+    "response_kernel_pair_symmetry_pass": true
+  },
+  "all_checks_pass": false
+}

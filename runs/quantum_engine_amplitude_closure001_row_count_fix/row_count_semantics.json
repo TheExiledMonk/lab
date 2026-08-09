@@ -1,0 +1,14 @@
+{
+  "config_temperature_points": 512,
+  "micro_temperature_points": 512,
+  "metadata_num_points": 512,
+  "config_fit_samples": 128,
+  "expected_total_rows_base_plus_fit_samples": 640,
+  "observed_total_rows": 640,
+  "base_temperature_point_metadata_match": true,
+  "total_row_count_match": true,
+  "interpretation": "QE metadata num_points/temperature_points describe the 512-point base thermal grid; the serialized rows additionally contain the 128 configured fit-sample rows.",
+  "physics_change": false,
+  "tolerance_change": false,
+  "pass": true
+}

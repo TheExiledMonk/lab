@@ -1,0 +1,17 @@
+{
+  "lab_id": "PBUF-FOUNDATION-ENDPOINT-INTERFACE-ROLE-AUDIT-001",
+  "cluster_id": "MACS0416",
+  "candidate_id": "PL1_PM1_PS2",
+  "fits_path": "PBUF_benchmark/WL-002_MACS0416/hlsp_frontier_model_macs0416_merten_v1_kappa.fits",
+  "fits_sha256": "8b2b5d634bac95bb204829604d1efcf78c6f17e6321398b1fed928ff0af65b7b",
+  "native_shape": [
+    9,
+    64,
+    64
+  ],
+  "nz": 9,
+  "profile": "gaussian",
+  "strength": 0.18,
+  "seed": 12345,
+  "observer_rule": "inverse-transform 3D field to RC0, then project native z LOS"
+}

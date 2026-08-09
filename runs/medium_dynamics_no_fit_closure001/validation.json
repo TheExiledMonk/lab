@@ -1,0 +1,51 @@
+{
+  "lab_id": "PBUF-FOUNDATION-MEDIUM-DYNAMICS-NO-FIT-CLOSURE-001",
+  "outcome": "Outcome B \u2014 NO-FIT PBUF MEDIUM DYNAMICS NOT YET CLOSED; GR KINETIC BOUNDARY AND QUANTUM RESPONSE TARGET ISOLATED",
+  "head_sha": "214a638b3994d6d6429ca80a0802f8d75872a8e7",
+  "benchmark_pixel_values_loaded": false,
+  "lensing_pipeline_executed": false,
+  "hst_mass_conversion_executed": false,
+  "fitted_numbers_introduced": false,
+  "legacy_strength_used": false,
+  "replacement_strength_selected": false,
+  "metric_strain_map_inherited_closed": true,
+  "matter_loading_kernel_inherited_closed": true,
+  "retained_GR_kinetic_boundary_verified": true,
+  "retained_GR_kinetic_boundary_adopted_as_PBUF_S_sigma": false,
+  "naive_local_Hooke_metric_potential_authorized": false,
+  "ordinary_isotropic_solid_closure_authorized": false,
+  "PBUF_local_medium_Hessian_derived": false,
+  "PBUF_medium_action_or_closed_dynamics_present": false,
+  "physical_bridge_complete": false,
+  "physical_cluster_lensing_run_authorized": false,
+  "unresolved_required_components": [
+    "PBUF_local_elastic_Hessian_or_retarded_kernel",
+    "microscopic_to_metric_strain_normalization",
+    "coarse_graining_to_finite_PBUF_state",
+    "independent_physical_Tmunu_dataset",
+    "absolute_source_geometry"
+  ],
+  "next_derivation_authorized": true,
+  "next_derivation_target": "derive_local_medium_Hessian_or_retarded_response_kernel_from_Quantum_Engine_microphysics",
+  "algebra": {
+    "synthetic_only_not_physical_model": true,
+    "tolerance": 1e-11,
+    "metrics": {
+      "linearized_einstein_gauge_invariance_relative_rms_error": 3.367862110985365e-16,
+      "linearized_bianchi_relative_rms_error": 2.251140003130968e-16,
+      "naive_algebraic_restoring_gauge_change_per_gauge_increment_rms": 1.0346032494210833,
+      "isotropic_tangent_witness_relative_stress_difference": 0.31329469662154996,
+      "ordinary_equal_speed_witness_lambda_over_mu": -1.0,
+      "ordinary_equal_speed_witness_bulk_over_mu": -0.33333333333333337
+    },
+    "checks": {
+      "linearized_einstein_gauge_invariance_pass": true,
+      "linearized_bianchi_identity_pass": true,
+      "naive_algebraic_restoring_term_rejected_by_gauge_test": true,
+      "stable_isotropic_tangent_nonuniqueness_witness_pass": true,
+      "ordinary_equal_speed_isotropic_solid_stability_conflict_detected": true
+    },
+    "all_checks_pass": true
+  },
+  "duration_seconds": 0.01778568304143846
+}

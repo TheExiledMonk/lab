@@ -1,0 +1,16 @@
+{
+  "cluster_id": "MACS1149",
+  "n_photons": 71289,
+  "checkpoint_count": 9,
+  "production_parity_rms": 0.0,
+  "production_parity_max": 0.0,
+  "production_parity_pass": true,
+  "source_supported_bins": 1024,
+  "los_mag_vs_observed_pearson": 0.7884323322863971,
+  "los_mag_vs_observed_spearman": 0.7011600616612864,
+  "first_finite_linear_step": 1,
+  "final_linear_vs_observed_pearson": 0.0017341527022655854,
+  "final_linear_vs_observed_spearman": 0.05712972532131247,
+  "final_displacement_mag_vs_observed_pearson": NaN,
+  "final_velocity_change_mag_vs_observed_pearson": 0.28579811034535335
+}

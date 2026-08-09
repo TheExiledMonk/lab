@@ -1,0 +1,12 @@
+{
+  "metric_medium_map_closed_for_effective_metric_strain_branch": true,
+  "metric_response_kernel_closed_for_effective_metric_strain_branch": true,
+  "matter_loading_normalization_closed_for_effective_metric_strain_branch": true,
+  "medium_action_or_closed_dynamics_present": false,
+  "coarse_graining_to_existing_finite_PBUF_state_closed": false,
+  "independent_physical_Tmunu_dataset_present": false,
+  "absolute_source_geometry_present": false,
+  "physical_bridge_complete": false,
+  "next_derivation_authorized": true,
+  "next_derivation_target": "derive_or_close_S_sigma_medium_dynamics_in_metric_strain_normalization_without_free_or_fitted_coefficients"
+}

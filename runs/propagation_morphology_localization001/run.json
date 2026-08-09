@@ -1,0 +1,27 @@
+{
+  "lab_id": "PBUF-FOUNDATION-PROPAGATION-MORPHOLOGY-LOCALIZATION-001",
+  "head_sha": "ad8c0c064c925ff70fb78f039d818d6e04140999",
+  "checkpoint_steps": [
+    0,
+    1,
+    5,
+    10,
+    20,
+    40,
+    80,
+    120,
+    159
+  ],
+  "config": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "duration_seconds": 9.883172406931408
+}

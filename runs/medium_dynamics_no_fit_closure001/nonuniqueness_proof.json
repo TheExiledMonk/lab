@@ -1,0 +1,21 @@
+{
+  "result": "current accepted macroscopic constraints do not uniquely determine the PBUF elastic Hessian/kernel",
+  "proof_family": "W2=(lambda/2)(tr e)^2 + mu tr(e^2)",
+  "synthetic_witnesses_only": [
+    {
+      "lambda": 1.0,
+      "mu": 1.0,
+      "physical_PBUF_value": false
+    },
+    {
+      "lambda": 2.0,
+      "mu": 1.0,
+      "physical_PBUF_value": false
+    }
+  ],
+  "both_witnesses_stable_on_test_samples": true,
+  "witnesses_produce_distinct_tangent_response": true,
+  "therefore_fit_free_modulus_selection_from_current_macro_constraints": false,
+  "homogeneous_Omega_sigma_history_sufficient_to_fix_local_tensor_kernel": false,
+  "alpha_or_epsilon0_may_be_relabelled_as_local_modulus_without_derivation": false
+}

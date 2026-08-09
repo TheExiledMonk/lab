@@ -1,0 +1,51 @@
+{
+  "cluster_id": "MACS0416",
+  "candidate_id": "PL1_PM1_PS2",
+  "transform_id": "RC0",
+  "physical_source_representation": "M10_interface_field",
+  "endpoint_role": "conservation_bookkeeping",
+  "shape": [
+    9,
+    64,
+    64
+  ],
+  "n_pairs": 105344,
+  "interface_energy": 1.2839170935185423e-05,
+  "interface_consumed_pair_count": 105344,
+  "interface_expected_pair_count": 105344,
+  "endpoint_energy_bookkeeping": 5.983317615058681e-05,
+  "endpoint_closure_bookkeeping": 1.4092960140259168e-17,
+  "los_rx_rms": 7.541788635671361e-05,
+  "los_ry_rms": 7.59806424918285e-05,
+  "ray_classification": "structured_normal",
+  "n_photons": 19881,
+  "trajectory_sha256": "1abfd6f6a429f7f323b8ad6ad6cadf088aab2c12c3785096a417112d56019118",
+  "mean_endpoint_displacement": 4.769999997126308,
+  "max_endpoint_displacement": 4.7699999997622315,
+  "conservation_max": 2.220446049250313e-16,
+  "kappa_finite_count": 288,
+  "kappa_total_count": 4096,
+  "kappa_finite_fraction": 0.0703125,
+  "kappa_variance_finite": 7.693479536289813e-06,
+  "kappa_rms_finite": 0.002775584783119986,
+  "pearson_vs_observed": -0.05572210819315245,
+  "spearman_vs_observed": -0.06911423105827696,
+  "helmholtz_none": {
+    "field_reconstruction_error": 2.3852343747886095e-17,
+    "energy_closure_error": 0.002456713428535857,
+    "orthogonality_error": 0.0012283567142679047,
+    "f_irr_partition": 0.6374874185330918,
+    "f_sol_partition": 0.3625125814669082,
+    "f_irr_native": 0.635921294631459,
+    "f_sol_native": 0.3616219919400052
+  },
+  "helmholtz_padded": {
+    "field_reconstruction_error": 2.422985356725134e-17,
+    "energy_closure_error": 0.007207107317748796,
+    "orthogonality_error": 0.00360355365887441,
+    "f_irr_partition": 0.635335739379935,
+    "f_sol_partition": 0.3646642606200649,
+    "f_irr_native": 0.6399146722364476,
+    "f_sol_native": 0.3672924350813012
+  }
+}

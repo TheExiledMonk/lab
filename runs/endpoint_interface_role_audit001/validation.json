@@ -1,0 +1,16 @@
+{
+  "lab_id": "PBUF-FOUNDATION-ENDPOINT-INTERFACE-ROLE-AUDIT-001",
+  "outcome": "Outcome A \u2014 INTERFACE FIELD IS COORDINATE-SAFE; ENDPOINT FIELD IS ORIENTATION-DEPENDENT",
+  "head_sha": "af1e48bef95ca74df7fb8ad75dff333c9e85bdcd",
+  "pair_response_even_covariant": true,
+  "endpoint_representation_covariant": false,
+  "endpoint_representation_orientation_dependent": true,
+  "interface_representation_coordinate_safe": true,
+  "interface_native_z_projection_coordinate_safe": true,
+  "interface_pair_counts_pass": true,
+  "endpoint_role_candidate": "conservation_bookkeeping",
+  "interface_role_candidate": "physical_pair_field",
+  "downstream_source_change_authorized": false,
+  "ray_rerun_authorized": false,
+  "duration_seconds": 14.183308181003667
+}
