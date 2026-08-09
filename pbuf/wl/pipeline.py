@@ -55,3 +55,9 @@ def run_wl_pipeline(cluster: dict, coverage: str, backend: PropagationBackend | 
 def compare_with_observations(result: WLPipelineResult, data: dict) -> dict:
     targets = DEC._targets_after_decoding(data)
     return DEC._compare_candidates(result.reconstruction_candidates, targets)
+
+
+def make_backend(name: str) -> PropagationBackend:
+    """Construct a propagation backend without changing pipeline physics."""
+    from .backends import make_backend as _make_backend
+    return _make_backend(name)

@@ -1,0 +1,109 @@
+#version 450
+#extension GL_ARB_gpu_shader_fp64 : require
+
+/*
+CPU REFERENCE STEP
+
+1. Locate each ray in xgrid/ygrid using NumPy searchsorted(side="left") - 1,
+   clamped to the field bounds, and read rx[iy, ix], ry[iy, ix].
+2. Compute vx_raw = vx + step*rx, vy_raw = vy + step*ry, vz_raw = vz.
+3. Compute scale = max(sqrt(vx_raw^2 + vy_raw^2 + vz_raw^2), 1e-12).
+4. Normalize vx, vy, vz by scale.
+5. Update x, y, z by step times the corresponding normalized velocity.
+6. Capture the state after the same canonical step indices as the CPU.
+
+This shader intentionally reproduces the canonical CPU operation order.
+No higher-order integration or precision improvement is introduced here.
+
+Bindings 0..5 are the float64 x,y,z,vx,vy,vz state arrays.  Bindings 6..9
+are xgrid,ygrid,rx,ry.  Bindings 10..15 are checkpoint-major outputs for
+x,y,z,vx,vy,vz.  Binding 16 contains float64 configuration values and
+binding 17 contains float64 checkpoint indices, and binding 18 stores each
+ray's maximum unit-speed error over every executed step.
+*/
+
+layout(local_size_x_id = 0, local_size_y = 1, local_size_z = 1) in;
+
+layout(std430, binding = 0) buffer XBuf { double v[]; } bx;
+layout(std430, binding = 1) buffer YBuf { double v[]; } by;
+layout(std430, binding = 2) buffer ZBuf { double v[]; } bz;
+layout(std430, binding = 3) buffer VXBuf { double v[]; } bvx;
+layout(std430, binding = 4) buffer VYBuf { double v[]; } bvy;
+layout(std430, binding = 5) buffer VZBuf { double v[]; } bvz;
+layout(std430, binding = 6) readonly buffer XGrid { double v[]; } xg;
+layout(std430, binding = 7) readonly buffer YGrid { double v[]; } yg;
+layout(std430, binding = 8) readonly buffer RXField { double v[]; } frx;
+layout(std430, binding = 9) readonly buffer RYField { double v[]; } fry;
+layout(std430, binding = 10) writeonly buffer OutX { double v[]; } ox;
+layout(std430, binding = 11) writeonly buffer OutY { double v[]; } oy;
+layout(std430, binding = 12) writeonly buffer OutZ { double v[]; } oz;
+layout(std430, binding = 13) writeonly buffer OutVX { double v[]; } ovx;
+layout(std430, binding = 14) writeonly buffer OutVY { double v[]; } ovy;
+layout(std430, binding = 15) writeonly buffer OutVZ { double v[]; } ovz;
+layout(std430, binding = 16) readonly buffer Config { double v[]; } cfg;
+layout(std430, binding = 17) readonly buffer Checkpoints { double v[]; } cps;
+layout(std430, binding = 18) writeonly buffer UnitError { double v[]; } unit_error;
+
+uint lower_cell(double value, uint count, bool is_x) {
+    uint lo = 0u;
+    uint hi = count;
+    while (lo < hi) {
+        uint mid = lo + (hi - lo) / 2u;
+        double probe = is_x ? xg.v[mid] : yg.v[mid];
+        if (probe < value) lo = mid + 1u;
+        else hi = mid;
+    }
+    if (lo == 0u) return 0u;
+    uint cell = lo - 1u;
+    return min(cell, count - 1u);
+}
+
+void capture(uint slot, uint i, uint ray_count,
+             double x, double y, double z, double vx, double vy, double vz) {
+    uint q = slot * ray_count + i;
+    ox.v[q] = x; oy.v[q] = y; oz.v[q] = z;
+    ovx.v[q] = vx; ovy.v[q] = vy; ovz.v[q] = vz;
+}
+
+void main() {
+    uint i = gl_GlobalInvocationID.x;
+    uint ray_count = uint(cfg.v[0]);
+    if (i >= ray_count) return;
+    uint nx = uint(cfg.v[1]);
+    uint ny = uint(cfg.v[2]);
+    precise double step = cfg.v[3];
+    uint steps = uint(cfg.v[4]);
+    uint checkpoint_count = uint(cfg.v[5]);
+    precise double x = bx.v[i], y = by.v[i], z = bz.v[i];
+    precise double vx = bvx.v[i], vy = bvy.v[i], vz = bvz.v[i];
+    precise double max_unit_error = 0.0;
+    uint next_cp = 0u;
+    if (checkpoint_count > 0u && uint(cps.v[0]) == 0u) {
+        capture(0u, i, ray_count, x, y, z, vx, vy, vz);
+        next_cp = 1u;
+    }
+    for (uint k = 1u; k < steps; ++k) {
+        uint ix = lower_cell(x, nx, true);
+        uint iy = lower_cell(y, ny, false);
+        uint q = iy * nx + ix;
+        precise double vx_raw = vx + step * frx.v[q];
+        precise double vy_raw = vy + step * fry.v[q];
+        precise double vz_raw = vz;
+        precise double scale = max(sqrt(vx_raw*vx_raw + vy_raw*vy_raw + vz_raw*vz_raw), 1e-12);
+        vx = vx_raw / scale;
+        vy = vy_raw / scale;
+        vz = vz_raw / scale;
+        precise double speed = sqrt(vx*vx + vy*vy + vz*vz);
+        max_unit_error = max(max_unit_error, abs(speed - 1.0));
+        x = x + step * vx;
+        y = y + step * vy;
+        z = z + step * vz;
+        if (next_cp < checkpoint_count && k == uint(cps.v[next_cp])) {
+            capture(next_cp, i, ray_count, x, y, z, vx, vy, vz);
+            ++next_cp;
+        }
+    }
+    bx.v[i] = x; by.v[i] = y; bz.v[i] = z;
+    bvx.v[i] = vx; bvy.v[i] = vy; bvz.v[i] = vz;
+    unit_error.v[i] = max_unit_error;
+}
