@@ -1,0 +1,24 @@
+{
+  "benchmark_status": "UNRESOLVED",
+  "frame_arrows": [
+    "+x",
+    "+y"
+  ],
+  "mode": "SPIN2_BASIS_TRACE",
+  "orientation_selector": [
+    0.0,
+    22.5,
+    45.0,
+    67.5,
+    90.0,
+    112.5,
+    135.0,
+    157.5
+  ],
+  "panels": [
+    "native tensor",
+    "detector tensor",
+    "image/FITS tensor",
+    "final resolved basis tensor"
+  ]
+}

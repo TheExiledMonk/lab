@@ -1,0 +1,62 @@
+{
+  "U01": [
+    "q_scalar"
+  ],
+  "U02": [
+    "u"
+  ],
+  "U03": [
+    "directional_grad_u"
+  ],
+  "U04": [
+    "u_positive"
+  ],
+  "U05": [
+    "grad_u"
+  ],
+  "U06": [
+    "grad_epsilon"
+  ],
+  "U07": [
+    "delta_u_fast"
+  ],
+  "U08": [
+    "delta_u_slow"
+  ],
+  "U09": [
+    "fast_slow"
+  ],
+  "U10": [
+    "neighbor_response"
+  ],
+  "U11": [
+    "boundary"
+  ],
+  "U12": [
+    "W_positive"
+  ],
+  "U13": [
+    "excitation_positive"
+  ],
+  "U14": [
+    "curvature"
+  ],
+  "U15": [
+    "projected_response"
+  ],
+  "U16": [
+    "bundle_area"
+  ],
+  "U17": [
+    "hessian"
+  ],
+  "U18": [
+    "positive_state"
+  ],
+  "U19": [
+    "pair_ratio"
+  ],
+  "U20": [
+    "potential_positive"
+  ]
+}

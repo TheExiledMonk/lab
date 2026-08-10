@@ -1,0 +1,14 @@
+{
+  "forbidden_time_index": true,
+  "history_index": [
+    "path_step",
+    "native_path_position",
+    "propagation_progression"
+  ],
+  "q_semantics": "NEUTRAL",
+  "state": [
+    "position",
+    "direction",
+    "q_scalar"
+  ]
+}

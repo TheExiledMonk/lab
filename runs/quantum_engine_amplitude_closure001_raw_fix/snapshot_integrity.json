@@ -1,0 +1,44 @@
+{
+  "storage_mode": "direct_raw_repository_files",
+  "archive_or_base64_layer_used": false,
+  "checks": {
+    "config.json": {
+      "path": "pbuf/data/quantum/config.json",
+      "size_bytes": 270,
+      "sha256": "d158f3418da473e46df0ec54a793a2d1ef0ad8c43d463b962fa3e2aeaa3ea8a4",
+      "present": true
+    },
+    "defaults.yaml": {
+      "path": "pbuf/data/quantum/config/defaults.yaml",
+      "size_bytes": 927,
+      "sha256": "ac9659cd69e19843fa657bc62b3be14a86a2443c94a41fb8d90ffa01bf3200b7",
+      "present": true
+    },
+    "micro_cache.json": {
+      "path": "pbuf/data/quantum/micro_cache.json",
+      "size_bytes": 3693,
+      "sha256": "d8fd1f4eaf608b9ac6171cd633cba9b954d0cc544d73e124cfe238f6ab01c7d4",
+      "present": true
+    },
+    "optimisation_result.json": {
+      "path": "pbuf/data/quantum/optimisation_result.json",
+      "size_bytes": 1486,
+      "sha256": "fdc8a630aa10a16e8e5ed3cba71c9f8ac3ae9c372b005ff3839fdcba8210cd09",
+      "present": true
+    },
+    "thermal_table_cache.json": {
+      "path": "pbuf/data/quantum/thermal_table_cache.json",
+      "size_bytes": 444514,
+      "sha256": "1de56b28474ba453eb9d1b3b12cf9e2b588cc0acb0d8a4193199fabdcdd6e2bd",
+      "present": true,
+      "expected_size_bytes": 444514,
+      "expected_sha256": "1de56b28474ba453eb9d1b3b12cf9e2b588cc0acb0d8a4193199fabdcdd6e2bd",
+      "size_provenance_pass": true,
+      "sha256_provenance_pass": true,
+      "provenance_pass": true
+    }
+  },
+  "all_required_files_present": true,
+  "thermal_original_provenance_verified": true,
+  "all_pass": true
+}

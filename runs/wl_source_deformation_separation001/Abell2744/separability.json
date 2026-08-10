@@ -1,0 +1,81 @@
+{
+  "cohorts": {
+    "RAY_FAR_CONTROL": {
+      "count": 31639,
+      "deformation_mean": 0.7534609312127049,
+      "source_mean": 0.662709244551431
+    },
+    "RAY_LENS_CORE": {
+      "count": 24535,
+      "deformation_mean": 2.7410684935395584,
+      "source_mean": 0.3362045161292072
+    },
+    "RAY_LENS_INNER": {
+      "count": 48975,
+      "deformation_mean": 1.8427563652061296,
+      "source_mean": 0.3467452564368159
+    },
+    "RAY_LENS_OUTER": {
+      "count": 97969,
+      "deformation_mean": 1.128372819910776,
+      "source_mean": 0.44046193287952534
+    },
+    "RAY_NEAR_LENS": {
+      "count": 76510,
+      "deformation_mean": 0.8249101367933431,
+      "source_mean": 0.5442095629977809
+    },
+    "RAY_UNCLASSIFIED": {
+      "count": 5528,
+      "deformation_mean": 0.7485080510716657,
+      "source_mean": 0.6976326737591044
+    }
+  },
+  "lens_association": {
+    "D_far": 0.6463657607878093,
+    "D_inside": 1.3131276434351382,
+    "D_near": 1.193432190379159,
+    "S_far": 0.8472291858622563,
+    "S_inside": 0.44299966711624095,
+    "S_near": 0.467456163478333,
+    "fixed_null_D": 1.2284276023682241,
+    "true_D": 1.3131276434351382
+  },
+  "separability": {
+    "3d": {
+      "centroid_distance": 0.8516154742474398,
+      "mahalanobis_distance": 1.425141612527646,
+      "within_between_ratio": 3.5860048630991335
+    },
+    "R3": {
+      "centroid_distance": 0.0005712834881278928,
+      "mahalanobis_distance": 0.199472444040185,
+      "within_between_ratio": 384.1102135180043
+    },
+    "R3_D": {
+      "centroid_distance": 0.8096847908220753,
+      "mahalanobis_distance": 0.722384000574868,
+      "within_between_ratio": 3.832578063893314
+    },
+    "R3_S": {
+      "centroid_distance": 0.2639301413405575,
+      "mahalanobis_distance": 1.2581289491384209,
+      "within_between_ratio": 1.2634905026309717
+    },
+    "R3_plus_SD": {
+      "centroid_distance": 0.851615468601707,
+      "mahalanobis_distance": 1.3934202871722392,
+      "within_between_ratio": 3.5859920068237194
+    },
+    "R4": {
+      "centroid_distance": 0.000533632551638627,
+      "mahalanobis_distance": 0.09954858947610959,
+      "within_between_ratio": 403.8322881726868
+    },
+    "raw": {
+      "centroid_distance": 0.0005796385172144021,
+      "mahalanobis_distance": 0.5550246324346853,
+      "within_between_ratio": 400.9709499783077
+    }
+  }
+}

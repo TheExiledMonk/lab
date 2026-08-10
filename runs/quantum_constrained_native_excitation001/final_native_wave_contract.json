@@ -1,0 +1,20 @@
+{
+  "contract": "PBUF_NATIVE_SPATIAL_EXCITATION_WAVE_V1",
+  "dispersion_class": "D01 nondispersive (exact permutation); lattice artifact absent",
+  "handedness_available": true,
+  "interference_supported": true,
+  "k_definition": "2*pi/lambda_n",
+  "k_established": true,
+  "longitudinal_mode": false,
+  "mode_stable": true,
+  "phase_like_state_available": true,
+  "polarization_basis_invariant": true,
+  "source_free": true,
+  "state_definition": "signed rank-2 transverse node state advanced by exact nearest-neighbor permutation",
+  "time_required": false,
+  "two_transverse_modes": true,
+  "wave_state_established": true,
+  "wavelength_definition": "agreement of L01 zero crossings, L03 autocorrelation, and L04 Fourier dominant mode",
+  "wavelength_established": true,
+  "zero_load_common_progression": true
+}

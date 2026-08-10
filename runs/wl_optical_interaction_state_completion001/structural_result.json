@@ -1,0 +1,48 @@
+{
+  "arrival_formation_changes": 0,
+  "availability_classes": [
+    "DIRECTLY_AVAILABLE",
+    "DERIVABLE_FROM_FROZEN_STATE",
+    "PARTIALLY_DERIVABLE",
+    "NOT_TRACKED",
+    "NOT_DEFINED_IN_CURRENT_MODEL",
+    "REQUIRES_NEW_PHYSICS_OR_SOURCE_INPUT"
+  ],
+  "contract_sha256": "3dd0b2231008d93878c1bd7fb63ceb5c5fef2d7f2ebe4cff2355f9b9352a8612",
+  "contract_version": "PBUF_OPTICAL_INTERACTION_STATE_V1",
+  "derivation_classes": [
+    "EXACT_ALGEBRAIC",
+    "EXACT_GEOMETRIC",
+    "NUMERICAL_SUMMARY",
+    "REQUIRES_ASSUMPTION",
+    "NOT_DERIVABLE"
+  ],
+  "dev131_contract_sha256": "9e5e9b62f43e3e4b46492f4bd3efab1828839cddb77efc661276a48f43db1e25",
+  "dev131_interaction_changes": 0,
+  "dev131_structural_sha256": "3baa2263f9bb2f81906d522d51de24f5b02930289aa85909a2d3934b64d4f9a0",
+  "families": [
+    "O0",
+    "O1",
+    "O2",
+    "O3",
+    "O4",
+    "O5",
+    "O6",
+    "O7"
+  ],
+  "hst_pixel_access": false,
+  "propagation_changes": 0,
+  "receiver_changes": 0,
+  "relevance_classes": [
+    "REQUIRED",
+    "POSSIBLY_RELEVANT",
+    "NOT_CURRENTLY_REQUIRED",
+    "UNKNOWN"
+  ],
+  "target_access": false,
+  "trajectory_changes": 0,
+  "zero_lensing_reconstruction": true,
+  "zero_psf": true,
+  "zero_rasterization": true,
+  "zero_source_reconstruction": true
+}

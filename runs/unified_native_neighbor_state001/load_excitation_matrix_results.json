@@ -1,0 +1,656 @@
+{
+  "cases": [
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX01",
+      "interaction": "NO_INTERACTION",
+      "load": "LOAD00",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX02",
+      "interaction": "NO_INTERACTION",
+      "load": "LOAD00",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX03",
+      "interaction": "NO_INTERACTION",
+      "load": "LOAD00",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX04",
+      "interaction": "NO_INTERACTION",
+      "load": "LOAD00",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX05",
+      "interaction": "NO_INTERACTION",
+      "load": "LOAD00",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX06",
+      "interaction": "NO_INTERACTION",
+      "load": "LOAD00",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.278144832416697,
+      "excitation": "EX07",
+      "interaction": "NO_INTERACTION",
+      "load": "LOAD00",
+      "new_interaction_coefficients": 0,
+      "norm_after": 18.635993807213644,
+      "norm_before": 18.635993807213644
+    },
+    {
+      "centroid": 26.66670489528475,
+      "excitation": "EX08",
+      "interaction": "NO_INTERACTION",
+      "load": "LOAD00",
+      "new_interaction_coefficients": 0,
+      "norm_after": 29.317660177340613,
+      "norm_before": 29.317660177340613
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX01",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD01",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX02",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD01",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX03",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD01",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX04",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD01",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX05",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD01",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX06",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD01",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.278144832416697,
+      "excitation": "EX07",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD01",
+      "new_interaction_coefficients": 0,
+      "norm_after": 18.635993807213644,
+      "norm_before": 18.635993807213644
+    },
+    {
+      "centroid": 26.66670489528475,
+      "excitation": "EX08",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD01",
+      "new_interaction_coefficients": 0,
+      "norm_after": 29.317660177340613,
+      "norm_before": 29.317660177340613
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX01",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD02",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX02",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD02",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX03",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD02",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX04",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD02",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX05",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD02",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX06",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD02",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.278144832416697,
+      "excitation": "EX07",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD02",
+      "new_interaction_coefficients": 0,
+      "norm_after": 18.635993807213644,
+      "norm_before": 18.635993807213644
+    },
+    {
+      "centroid": 26.66670489528475,
+      "excitation": "EX08",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD02",
+      "new_interaction_coefficients": 0,
+      "norm_after": 29.317660177340613,
+      "norm_before": 29.317660177340613
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX01",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD03",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX02",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD03",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX03",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD03",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX04",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD03",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX05",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD03",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX06",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD03",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.278144832416697,
+      "excitation": "EX07",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD03",
+      "new_interaction_coefficients": 0,
+      "norm_after": 18.635993807213644,
+      "norm_before": 18.635993807213644
+    },
+    {
+      "centroid": 26.66670489528475,
+      "excitation": "EX08",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD03",
+      "new_interaction_coefficients": 0,
+      "norm_after": 29.317660177340613,
+      "norm_before": 29.317660177340613
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX01",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD04",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX02",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD04",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX03",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD04",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX04",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD04",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX05",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD04",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX06",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD04",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.278144832416697,
+      "excitation": "EX07",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD04",
+      "new_interaction_coefficients": 0,
+      "norm_after": 18.635993807213644,
+      "norm_before": 18.635993807213644
+    },
+    {
+      "centroid": 26.66670489528475,
+      "excitation": "EX08",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD04",
+      "new_interaction_coefficients": 0,
+      "norm_after": 29.317660177340613,
+      "norm_before": 29.317660177340613
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX01",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD05",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX02",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD05",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX03",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD05",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX04",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD05",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX05",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD05",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX06",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD05",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.278144832416697,
+      "excitation": "EX07",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD05",
+      "new_interaction_coefficients": 0,
+      "norm_after": 18.635993807213644,
+      "norm_before": 18.635993807213644
+    },
+    {
+      "centroid": 26.66670489528475,
+      "excitation": "EX08",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD05",
+      "new_interaction_coefficients": 0,
+      "norm_after": 29.317660177340613,
+      "norm_before": 29.317660177340613
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX01",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD06",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX02",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD06",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX03",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD06",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX04",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD06",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX05",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD06",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX06",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD06",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.278144832416697,
+      "excitation": "EX07",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD06",
+      "new_interaction_coefficients": 0,
+      "norm_after": 18.635993807213644,
+      "norm_before": 18.635993807213644
+    },
+    {
+      "centroid": 26.66670489528475,
+      "excitation": "EX08",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD06",
+      "new_interaction_coefficients": 0,
+      "norm_after": 29.317660177340613,
+      "norm_before": 29.317660177340613
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX01",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD07",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX02",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD07",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX03",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD07",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX04",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD07",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX05",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD07",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX06",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD07",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.278144832416697,
+      "excitation": "EX07",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD07",
+      "new_interaction_coefficients": 0,
+      "norm_after": 18.635993807213644,
+      "norm_before": 18.635993807213644
+    },
+    {
+      "centroid": 26.66670489528475,
+      "excitation": "EX08",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD07",
+      "new_interaction_coefficients": 0,
+      "norm_after": 29.317660177340613,
+      "norm_before": 29.317660177340613
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX01",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD08",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.00009945062099,
+      "excitation": "EX02",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD08",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161923,
+      "norm_before": 9.453033128161923
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX03",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD08",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX04",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD08",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX05",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD08",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.000099450620986,
+      "excitation": "EX06",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD08",
+      "new_interaction_coefficients": 0,
+      "norm_after": 9.453033128161925,
+      "norm_before": 9.453033128161925
+    },
+    {
+      "centroid": 24.278144832416697,
+      "excitation": "EX07",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD08",
+      "new_interaction_coefficients": 0,
+      "norm_after": 18.635993807213644,
+      "norm_before": 18.635993807213644
+    },
+    {
+      "centroid": 26.66670489528475,
+      "excitation": "EX08",
+      "interaction": "GEOMETRIC_ONLY",
+      "load": "LOAD08",
+      "new_interaction_coefficients": 0,
+      "norm_after": 29.317660177340613,
+      "norm_before": 29.317660177340613
+    }
+  ],
+  "shape": [
+    9,
+    8
+  ]
+}

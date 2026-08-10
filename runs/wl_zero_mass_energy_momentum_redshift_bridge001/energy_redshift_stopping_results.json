@@ -1,0 +1,107 @@
+{
+  "established": false,
+  "synthetic_controls": [
+    {
+      "ambiguity": "MULTIPLE_STOPS",
+      "candidate_mechanism": "synthetic Q_E control",
+      "classification": "MULTIPLE_STOPS",
+      "contract": "PBUF_ZERO_MASS_ENERGY_REDSHIFT_STOP_V1",
+      "native_stop_depth": null,
+      "scale_free": true,
+      "stop_candidates": [
+        0.0,
+        8.0
+      ],
+      "target_redshift": 0.0,
+      "time_required": false
+    },
+    {
+      "ambiguity": "NO_ENERGY_REDSHIFT_STOP",
+      "candidate_mechanism": "synthetic Q_E control",
+      "classification": "NO_STOP",
+      "contract": "PBUF_ZERO_MASS_ENERGY_REDSHIFT_STOP_V1",
+      "native_stop_depth": null,
+      "scale_free": true,
+      "stop_candidates": [],
+      "target_redshift": 0.0101010101,
+      "time_required": false
+    },
+    {
+      "ambiguity": "NO_ENERGY_REDSHIFT_STOP",
+      "candidate_mechanism": "synthetic Q_E control",
+      "classification": "NO_STOP",
+      "contract": "PBUF_ZERO_MASS_ENERGY_REDSHIFT_STOP_V1",
+      "native_stop_depth": null,
+      "scale_free": true,
+      "stop_candidates": [],
+      "target_redshift": 0.0526315789,
+      "time_required": false
+    },
+    {
+      "ambiguity": "NO_ENERGY_REDSHIFT_STOP",
+      "candidate_mechanism": "synthetic Q_E control",
+      "classification": "NO_STOP",
+      "contract": "PBUF_ZERO_MASS_ENERGY_REDSHIFT_STOP_V1",
+      "native_stop_depth": null,
+      "scale_free": true,
+      "stop_candidates": [],
+      "target_redshift": 0.1111111111,
+      "time_required": false
+    },
+    {
+      "ambiguity": "NO_ENERGY_REDSHIFT_STOP",
+      "candidate_mechanism": "synthetic Q_E control",
+      "classification": "NO_STOP",
+      "contract": "PBUF_ZERO_MASS_ENERGY_REDSHIFT_STOP_V1",
+      "native_stop_depth": null,
+      "scale_free": true,
+      "stop_candidates": [],
+      "target_redshift": 0.25,
+      "time_required": false
+    },
+    {
+      "ambiguity": "NO_ENERGY_REDSHIFT_STOP",
+      "candidate_mechanism": "synthetic Q_E control",
+      "classification": "NO_STOP",
+      "contract": "PBUF_ZERO_MASS_ENERGY_REDSHIFT_STOP_V1",
+      "native_stop_depth": null,
+      "scale_free": true,
+      "stop_candidates": [],
+      "target_redshift": 0.4992503748,
+      "time_required": false
+    },
+    {
+      "ambiguity": "NO_ENERGY_REDSHIFT_STOP",
+      "candidate_mechanism": "synthetic Q_E control",
+      "classification": "NO_STOP",
+      "contract": "PBUF_ZERO_MASS_ENERGY_REDSHIFT_STOP_V1",
+      "native_stop_depth": null,
+      "scale_free": true,
+      "stop_candidates": [],
+      "target_redshift": 1.0,
+      "time_required": false
+    },
+    {
+      "ambiguity": "NO_ENERGY_REDSHIFT_STOP",
+      "candidate_mechanism": "synthetic Q_E control",
+      "classification": "NO_STOP",
+      "contract": "PBUF_ZERO_MASS_ENERGY_REDSHIFT_STOP_V1",
+      "native_stop_depth": null,
+      "scale_free": true,
+      "stop_candidates": [],
+      "target_redshift": 2.003003003,
+      "time_required": false
+    },
+    {
+      "ambiguity": "NO_ENERGY_REDSHIFT_STOP",
+      "candidate_mechanism": "synthetic Q_E control",
+      "classification": "NO_STOP",
+      "contract": "PBUF_ZERO_MASS_ENERGY_REDSHIFT_STOP_V1",
+      "native_stop_depth": null,
+      "scale_free": true,
+      "stop_candidates": [],
+      "target_redshift": 4.0,
+      "time_required": false
+    }
+  ]
+}

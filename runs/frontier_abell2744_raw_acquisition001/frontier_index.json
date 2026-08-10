@@ -1,0 +1,624 @@
+{
+  "abell2744_subdirectories_found": [
+    "catalogs",
+    "frontier",
+    "images",
+    "models"
+  ],
+  "cluster_directories_found": [
+    "abell2744",
+    "abell370",
+    "abells1063",
+    "hlsp",
+    "internal",
+    "macs0416",
+    "macs0717",
+    "macs1149",
+    "scripts"
+  ],
+  "hst_release_directories_found": [
+    "v0.2",
+    "v0.5-20131101",
+    "v0.5-20131108",
+    "v0.5-20131115",
+    "v0.5-20131122",
+    "v0.5-20131129",
+    "v0.5-20140522",
+    "v0.5-20140606",
+    "v0.5-20140620",
+    "v0.5-20140710",
+    "v0.5-current",
+    "v0.5-current-epoch2",
+    "v1.0",
+    "v1.0-epoch1",
+    "v1.0-epoch2"
+  ],
+  "hst_v1_products": [
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f435w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f435w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f435w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f435w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f435w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f435w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f606w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f606w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f606w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f606w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f606w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f606w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f814w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f814w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f814w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f814w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f814w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas-selfcal_abell2744-hffpar_f814w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f435w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f435w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f435w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f435w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f435w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f435w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f606w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f606w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f606w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f606w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f606w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f606w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f814w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f814w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f814w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f814w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f814w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-hffpar_f814w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-par3_f606w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-par3_f606w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-par3_f606w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-par3_f606w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744-par3_f606w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744-par3_f606w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744_f435w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744_f435w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744_f435w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744_f435w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744_f435w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744_f435w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744_f606w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744_f606w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744_f606w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744_f606w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744_f606w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744_f606w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744_f814w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744_f814w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744_f814w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744_f814w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-30mas_abell2744_f814w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-30mas_abell2744_f814w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f435w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f435w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f435w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f435w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f435w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f435w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f606w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f606w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f606w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f606w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f606w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f606w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f814w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f814w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f814w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f814w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f814w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas-selfcal_abell2744-hffpar_f814w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f435w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f435w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f435w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f435w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f435w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f435w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f606w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f606w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f606w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f606w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f606w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f606w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f814w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f814w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f814w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f814w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f814w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-hffpar_f814w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-par3_f606w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-par3_f606w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-par3_f606w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-par3_f606w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744-par3_f606w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744-par3_f606w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744_f435w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744_f435w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744_f435w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744_f435w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744_f435w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744_f435w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744_f606w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744_f606w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744_f606w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744_f606w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744_f606w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744_f606w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED_CONTROL",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744_f814w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744_f814w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744_f814w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744_f814w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_acs-60mas_abell2744_f814w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_acs-60mas_abell2744_f814w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f105w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f105w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f105w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f105w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f105w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f105w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f160w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f160w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f160w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f160w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f160w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744-par2_f160w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f105w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f105w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f105w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f105w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f105w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f105w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f125w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f125w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f125w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f125w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f125w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f125w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f140w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f140w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f140w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f140w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f140w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f140w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f160w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f160w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f160w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f160w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-30mas_abell2744_f160w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-30mas_abell2744_f160w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f105w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f105w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f105w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f105w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f105w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f105w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f160w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f160w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f160w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f160w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f160w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744-par2_f160w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f105w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f105w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f105w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f105w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f105w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f105w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f125w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f125w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f125w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f125w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f125w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f125w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f140w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f140w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f140w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f140w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f140w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f140w_v1.0_wht.fits"
+    },
+    {
+      "classification": "HLSP_DRIZZLED",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f160w_v1.0_drz.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f160w_v1.0_drz.fits"
+    },
+    {
+      "classification": "HLSP_RMS",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f160w_v1.0_rms.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f160w_v1.0_rms.fits"
+    },
+    {
+      "classification": "HLSP_WEIGHT",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-60mas_abell2744_f160w_v1.0_wht.fits",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-60mas_abell2744_f160w_v1.0_wht.fits"
+    },
+    {
+      "classification": "DOCUMENTATION",
+      "is_directory": false,
+      "name": "hlsp_frontier_hst_wfc3-acs_abell2744_v1.0_readme.pdf",
+      "url": "https://archive.stsci.edu/pub/hlsp/frontier/abell2744/images/hst/v1.0/hlsp_frontier_hst_wfc3-acs_abell2744_v1.0_readme.pdf"
+    }
+  ],
+  "raw_exposures_present": false,
+  "raw_status": "FRONTIER_HLSP_RAW_EXPOSURES_NOT_PRESENT",
+  "retrieval_timestamp_utc": "2026-08-10T08:57:09.067800Z",
+  "source_url": "https://archive.stsci.edu/pub/hlsp/frontier/"
+}

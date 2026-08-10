@@ -1,0 +1,49 @@
+{
+  "basis": {
+    "finite": true,
+    "handedness": 1.0,
+    "orthonormal": true,
+    "valid": true
+  },
+  "passed": true,
+  "reflection_determinant": -1.0,
+  "rotation_tests": [
+    {
+      "determinant": 1.0,
+      "max_roundtrip_error": 0.0,
+      "orientation_degrees": 0
+    },
+    {
+      "determinant": 1.0,
+      "max_roundtrip_error": 6.123233995736766e-17,
+      "orientation_degrees": 90
+    },
+    {
+      "determinant": 1.0,
+      "max_roundtrip_error": 1.2246467991473532e-16,
+      "orientation_degrees": 180
+    },
+    {
+      "determinant": 1.0,
+      "max_roundtrip_error": 1.8369701987210297e-16,
+      "orientation_degrees": 270
+    }
+  ],
+  "singular_rejected": true,
+  "two_chip_ids": [
+    "CHIP_1",
+    "CHIP_2",
+    "",
+    "",
+    "CHIP_1",
+    ""
+  ],
+  "two_chip_status": [
+    "ACTIVE_CHIP",
+    "ACTIVE_CHIP",
+    "INTER_CHIP_GAP",
+    "OUTSIDE_DETECTOR",
+    "BOUNDARY",
+    "INVALID"
+  ]
+}

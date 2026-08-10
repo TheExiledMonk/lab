@@ -1,0 +1,21 @@
+{
+  "endpoint_effective_rank": {
+    "effective_rank": 1.0,
+    "variance_count": 1
+  },
+  "endpoint_to_history_r2": [
+    0.999988977791481,
+    0.9999999999999571,
+    0.9387410164128002,
+    0.9387410164128001,
+    0.999988968302245,
+    0.9343441845301208
+  ],
+  "history_effective_rank": {
+    "effective_rank": 1.0697176115034466,
+    "variance_count": 1
+  },
+  "production_abell2744_evidence_available": false,
+  "reason": "frozen propagator exposes nine diagnostic checkpoints, not all integration steps; no scientific outcome inferred",
+  "scope": "target-blind synthetic structural validation"
+}

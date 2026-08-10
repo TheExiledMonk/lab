@@ -1,0 +1,70 @@
+{
+  "source_functional": {
+    "action_architecture": "S = S_EH[g] + S_sigma[g,chi;PBUF microphysics] + S_m[g,Psi]",
+    "exact_nonlocal_source": "J_A(x)=-(1/(2 sqrt(-g(x)))) integral d4y sqrt(-g(y)) T_m^{mu nu}(y) delta G_{mu nu}(y)/delta chi^A(x)",
+    "exact_local_source": "J_A=-(1/2) T_m^{mu nu} partial G_{mu nu}/partial chi^A",
+    "stress_energy_role": "physical measured matter source; not a fitted amplitude",
+    "metric_response_role": "PBUF-derived response kernel fixing which stress-energy projection loads each medium mode",
+    "independent_matter_coupling_constant_allowed": false
+  },
+  "requirements": [
+    {
+      "key": "physical_stress_energy_tensor",
+      "role": "Independent physical T^{mu nu}(x), including energy density and where relevant pressure/momentum/anisotropic stress.",
+      "required": true,
+      "present_in_current_foundation": false,
+      "may_be_fitted": false,
+      "derivation_rule": "Must come from independent observations/physics in SI or a fully documented unit system; never from kappa."
+    },
+    {
+      "key": "metric_medium_response_kernel",
+      "role": "R_{mu nu A}=delta G_{mu nu}/delta chi^A, or an equivalent normalized metric-medium map.",
+      "required": true,
+      "present_in_current_foundation": false,
+      "may_be_fitted": false,
+      "derivation_rule": "Must be derived from the PBUF definition of the medium-to-metric map; no free matter coupling coefficient."
+    },
+    {
+      "key": "medium_action_or_closed_dynamics",
+      "role": "S_sigma or equivalent equations that determine propagation, stiffness and normalization of chi.",
+      "required": true,
+      "present_in_current_foundation": false,
+      "may_be_fitted": false,
+      "derivation_rule": "Must be derived from frozen PBUF microphysics/constitutive dynamics and pass stability/causality checks."
+    },
+    {
+      "key": "coarse_graining_and_mode_projection",
+      "role": "Normalized C and P operators mapping chi/J_A into the finite lab state u and source s.",
+      "required": true,
+      "present_in_current_foundation": false,
+      "may_be_fitted": false,
+      "derivation_rule": "Must be derived/documented before reducing full T^{mu nu} to a scalar/vector loading field."
+    },
+    {
+      "key": "absolute_source_geometry",
+      "role": "Physical cell areas/volumes/depths and coordinate units needed to convert observed matter to T^{mu nu}(x).",
+      "required": true,
+      "present_in_current_foundation": false,
+      "may_be_fitted": false,
+      "derivation_rule": "Must come from measured geometry/redshifts/calibration, not from lensing benchmark morphology."
+    }
+  ],
+  "forbidden_shortcuts": [
+    "replace_0p18_with_another_fitted_scalar",
+    "derive_cluster_mass_from_F160W_using_assumed_or_tuned_mass_to_light_ratio",
+    "use_observed_kappa_or_shear_upstream",
+    "reduce_Tmunu_to_rho_only_before_metric_medium_projection_is_derived",
+    "use_alpha_epsilon0_Rmax_or_ksat_as_local_mass_coupling_without_derivation",
+    "inject_Newtonian_or_GR_lensing_force_as_the_PBUF_response"
+  ],
+  "required_next_derivation_order": [
+    "derive_or_freeze_metric_medium_map_g_of_chi",
+    "derive_R_munuA_deltaG_deltaChi_and_normalization",
+    "derive_medium_dynamics_S_sigma_or_equivalent",
+    "derive_coarse_graining_C_and_projection_P",
+    "acquire_independent_physical_Tmunu_source_with_absolute_geometry",
+    "compute_J_A_without_free_coupling_scalar",
+    "map_J_A_through_closed_medium_dynamics_to_initial_deformation_response",
+    "only_then_run_M10_G3D_observer_and_compare_with_lensing_at_the_end"
+  ]
+}

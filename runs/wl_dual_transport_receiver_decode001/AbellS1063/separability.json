@@ -1,0 +1,36 @@
+{
+  "R0_raw_received": {
+    "centroid_distance": 1.4743434393153452,
+    "mahalanobis_distance": 0.437646832833578,
+    "within_between_ratio": 51.8575634202015
+  },
+  "R1_dual_raw_transport": {
+    "centroid_distance": 2.0853020733904173,
+    "mahalanobis_distance": 0.43791607456170706,
+    "within_between_ratio": 51.84489104049272
+  },
+  "R2_transport_first_order": {
+    "centroid_distance": 2.0853033741966818,
+    "mahalanobis_distance": 0.459484666474291,
+    "within_between_ratio": 51.84743842093076
+  },
+  "R3_transport_first_second_order": {
+    "centroid_distance": 2.085361219298206,
+    "mahalanobis_distance": 0.4702091895494816,
+    "within_between_ratio": 53.16062653993649
+  },
+  "R4_receiver_medium": {
+    "feature_count": 0,
+    "mahalanobis_distance": 0.0
+  },
+  "R5_transport_receiver": {
+    "centroid_distance": 2.085361219298206,
+    "mahalanobis_distance": 0.4702091895494816,
+    "within_between_ratio": 53.16062653993649
+  },
+  "R6_current_observer_R4": {
+    "centroid_distance": 1.4743434343805568,
+    "mahalanobis_distance": 0.4141925156543038,
+    "within_between_ratio": 51.857561338328246
+  }
+}

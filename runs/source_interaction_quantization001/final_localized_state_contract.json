@@ -1,0 +1,17 @@
+{
+  "arbitrary_trapping_potential_used": false,
+  "contract": "PBUF_NATIVE_LOCALIZED_LOADED_EXCITATION_V1",
+  "discrete_state_family": false,
+  "free_parameter_count": 0,
+  "internal_excitation_definition": "frozen Dev148 rank-2 excitation",
+  "internal_k_available": true,
+  "internal_wavelength_available": true,
+  "loading_definition": "L06/L08/L16 native proxies",
+  "localized_state_established": false,
+  "metastable": false,
+  "source_supported": false,
+  "stable": false,
+  "state_definition": "S={L(x),X(x)} synthetic composite only",
+  "state_index_definition": null,
+  "topological_invariant_available": false
+}

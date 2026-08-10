@@ -1,0 +1,122 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "E01",
+      "dimensionally_inverse_length": true,
+      "name": "response gradient",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E02",
+      "dimensionally_inverse_length": true,
+      "name": "strain gradient",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E03",
+      "dimensionally_inverse_length": true,
+      "name": "trajectory curvature",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E04",
+      "dimensionally_inverse_length": false,
+      "name": "c_state",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E05",
+      "dimensionally_inverse_length": false,
+      "name": "accumulated response u",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E06",
+      "dimensionally_inverse_length": false,
+      "name": "delta_u_fast",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E07",
+      "dimensionally_inverse_length": false,
+      "name": "delta_u_slow",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E08",
+      "dimensionally_inverse_length": false,
+      "name": "frozen fast+slow transfer",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E09",
+      "dimensionally_inverse_length": false,
+      "name": "strain epsilon",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E10",
+      "dimensionally_inverse_length": false,
+      "name": "path excess",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E11",
+      "dimensionally_inverse_length": false,
+      "name": "bundle area change",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E12",
+      "dimensionally_inverse_length": false,
+      "name": "bundle divergence",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E13",
+      "dimensionally_inverse_length": false,
+      "name": "local Hessian structure",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E14",
+      "dimensionally_inverse_length": false,
+      "name": "response-curvature cross term",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E15",
+      "dimensionally_inverse_length": false,
+      "name": "medium energy-density difference",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "E16",
+      "dimensionally_inverse_length": false,
+      "name": "bounded-strain energy difference",
+      "physical_magnitude_coupling_established": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    }
+  ],
+  "inverse_length_candidates": [
+    "E01",
+    "E02",
+    "E03"
+  ],
+  "physically_coupled_survivors": []
+}

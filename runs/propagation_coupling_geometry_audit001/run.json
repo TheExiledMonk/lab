@@ -1,0 +1,39 @@
+{
+  "validation": {
+    "lab_id": "PBUF-FOUNDATION-PROPAGATION-COUPLING-GEOMETRY-AUDIT-001",
+    "outcome": "Outcome A \u2014 RESPONSE-PHOTON COUPLING GEOMETRY AUDIT COMPLETE",
+    "candidate_id": "PL1_PM1_PS2",
+    "physical_source_representation": "M10_interface_field",
+    "coverage_lane": "C25",
+    "cluster_count_expected": 5,
+    "cluster_count_completed": 5,
+    "checkpoint_steps": [
+      0,
+      1,
+      5,
+      10,
+      20,
+      40,
+      80,
+      120,
+      159
+    ],
+    "production_parity_tolerance": 1e-12,
+    "first_step_exact_tolerance": 1e-14,
+    "all_cluster_production_parity_pass": true,
+    "all_cluster_first_step_exact_pass": true,
+    "physics_change_authorized": false,
+    "candidate_change_authorized": false,
+    "propagation_change_authorized": false,
+    "next_experiment_authorized": false,
+    "science_interpretation_required": true,
+    "duration_seconds": 12.788361181039363
+  },
+  "repository_state": {
+    "repository": "TheExiledMonk/lab",
+    "branch": "main",
+    "head_sha": "e8123630e4be7697b92fe2f07ebf797af4f9ba10",
+    "tracked_changes": "",
+    "staged_changes": ""
+  }
+}

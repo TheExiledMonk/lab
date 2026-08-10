@@ -1,0 +1,36 @@
+{
+  "contract_sha256": "cbdb6d67989b1dd6c53fd004a26b4ca8d455990d608094c79d17a85fc4369e94",
+  "exposure_count": 116,
+  "exposure_manifest_sha256": "ffecf391bd271f8d0e75be93e5d2c755713d9cbbdf35a1c75ef1f8ade60ab5ca",
+  "hst_header_access": true,
+  "hst_pixel_access": false,
+  "logical_mapping_count": 33078096,
+  "missing_quantities": [
+    {
+      "quantity": "A0 PBUF receiver-coordinate angular/physical scale",
+      "reason": "no units or authoritative scale in Dev132/133 state",
+      "required_for": "A0->A1/A2 transform"
+    },
+    {
+      "quantity": "A0 origin/attitude tie to an exposure sky or V2/V3 reference",
+      "reason": "event state contains receiver coordinates but no RA/Dec or instrument-reference tie",
+      "required_for": "exposure pointing transform"
+    },
+    {
+      "identifiers": [
+        "jref$4bb1536cj_idc.fits",
+        "jref$4bb1536lj_npl.fits",
+        "jref$4bb1536mj_idc.fits",
+        "jref$4bb15371j_d2i.fits"
+      ],
+      "quantity": "referenced distortion/calibration files",
+      "required_for": "complete ideal-to-physical distortion audit"
+    }
+  ],
+  "phase_completed": "Phase A \u2014 header/reference inventory",
+  "production_mapping_performed": false,
+  "science_array_read_count": 0,
+  "status": "WL_HST_ACS_NATIVE_GEOMETRY_INSUFFICIENTLY_SPECIFIED",
+  "structural_sha256": "58a26bfc89dbd1b75d9c8306bc7a003bfd18dcd2dbb5bfa32ef637e99281f3a6",
+  "validation": false
+}

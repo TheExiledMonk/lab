@@ -1,0 +1,110 @@
+{
+  "RAY_FAR_CONTROL": {
+    "median_delta_u": -0.0002427337863375456,
+    "median_delta_v": 1.8389635980220476e-05,
+    "median_transverse_displacement": 0.0019379230018206287,
+    "ray_count": 31639,
+    "received_depth_variance": 6.18601908957719e-08,
+    "received_direction_variance": 5.624311431332671e-07,
+    "received_u_variance": 25.746124736327864,
+    "received_v_variance": 23.359342428168482,
+    "rms_transverse_displacement": 0.0031762054826558303,
+    "transverse_displacement_quantiles": {
+      "q05": 0.00031656885682948186,
+      "q25": 0.0010101779819494938,
+      "q50": 0.0019379230018206287,
+      "q75": 0.0032514220018038473,
+      "q95": 0.006276645766089392
+    }
+  },
+  "RAY_LENS_CORE": {
+    "median_delta_u": -0.0028547431008218993,
+    "median_delta_v": -0.0019433992540505707,
+    "median_transverse_displacement": 0.013793590165295045,
+    "ray_count": 24535,
+    "received_depth_variance": 5.345031216204192e-08,
+    "received_direction_variance": 1.9116047190814253e-05,
+    "received_u_variance": 11.260494706435779,
+    "received_v_variance": 16.377623044582027,
+    "rms_transverse_displacement": 0.018606969339650576,
+    "transverse_displacement_quantiles": {
+      "q05": 0.0030149289400108856,
+      "q25": 0.008564925022106389,
+      "q50": 0.013793590165295045,
+      "q75": 0.019163717702474062,
+      "q95": 0.030203142060356368
+    }
+  },
+  "RAY_LENS_INNER": {
+    "median_delta_u": -0.0008489521314576365,
+    "median_delta_v": -0.00035899335758582396,
+    "median_transverse_displacement": 0.008112095159551537,
+    "ray_count": 48975,
+    "received_depth_variance": 5.786802785531966e-08,
+    "received_direction_variance": 5.864263264913639e-06,
+    "received_u_variance": 18.325616289735606,
+    "received_v_variance": 21.95822152144066,
+    "rms_transverse_displacement": 0.010139849862681016,
+    "transverse_displacement_quantiles": {
+      "q05": 0.001984301073913884,
+      "q25": 0.004998439601276477,
+      "q50": 0.008112095159551537,
+      "q75": 0.012081107060098352,
+      "q95": 0.01739211198089613
+    }
+  },
+  "RAY_LENS_OUTER": {
+    "median_delta_u": 0.0005770562201341534,
+    "median_delta_v": 0.0005153638193716725,
+    "median_transverse_displacement": 0.005027253208691356,
+    "ray_count": 97969,
+    "received_depth_variance": 5.782858795449177e-08,
+    "received_direction_variance": 2.6121124574821626e-06,
+    "received_u_variance": 21.672831734766458,
+    "received_v_variance": 21.138368051981864,
+    "rms_transverse_displacement": 0.006791865226098869,
+    "transverse_displacement_quantiles": {
+      "q05": 0.001254074912562812,
+      "q25": 0.0029248160377706293,
+      "q50": 0.005027253208691356,
+      "q75": 0.007952653629372211,
+      "q95": 0.012439439687979222
+    }
+  },
+  "RAY_NEAR_LENS": {
+    "median_delta_u": 0.00015004290124243091,
+    "median_delta_v": 0.0004223273583288112,
+    "median_transverse_displacement": 0.003096727972295542,
+    "ray_count": 76510,
+    "received_depth_variance": 5.826225201759732e-08,
+    "received_direction_variance": 1.0922703306351935e-06,
+    "received_u_variance": 23.28600984603924,
+    "received_v_variance": 21.388949010869624,
+    "rms_transverse_displacement": 0.004392828088531475,
+    "transverse_displacement_quantiles": {
+      "q05": 0.0007596619258824532,
+      "q25": 0.0019239477624008912,
+      "q50": 0.003096727972295542,
+      "q75": 0.004891470064376064,
+      "q95": 0.00854902892615199
+    }
+  },
+  "RAY_UNCLASSIFIED": {
+    "median_delta_u": 7.859945884192143e-05,
+    "median_delta_v": 0.0003303194552568556,
+    "median_transverse_displacement": 0.002072739946323134,
+    "ray_count": 5528,
+    "received_depth_variance": 5.145042011654676e-08,
+    "received_direction_variance": 3.471940385510286e-07,
+    "received_u_variance": 33.19674546193414,
+    "received_v_variance": 20.6277570505962,
+    "rms_transverse_displacement": 0.0024945838827491753,
+    "transverse_displacement_quantiles": {
+      "q05": 0.00038646885085901573,
+      "q25": 0.0013072341392621643,
+      "q50": 0.002072739946323134,
+      "q75": 0.0028159066482614805,
+      "q95": 0.004396324491263832
+    }
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "checks": {
+    "adjacent_excess_computed": true,
+    "canonical_observer_unchanged": true,
+    "cohort_separability_3d_reported": true,
+    "cohort_separability_r3_reported": true,
+    "cohort_separability_r4_reported": true,
+    "cohort_separability_raw_reported": true,
+    "depth_profiles_reported": true,
+    "depth_redistribution_computed": true,
+    "disturbance_maps_target_blind": true,
+    "expected_geometric_receipt_defined": true,
+    "far_control_geometry_defined": true,
+    "five_checkpoint_metadata_valid": true,
+    "lens_geometry_benchmark_assisted_declared": true,
+    "lens_geometry_loaded_from_source_pipeline": true,
+    "lens_masks_frozen_before_ray_analysis": true,
+    "no_observed_gamma_used_for_registration": true,
+    "no_rotation_scan": true,
+    "no_scale_scan": true,
+    "no_shift_scan": true,
+    "occupancy_expected_computed": true,
+    "occupancy_received_computed": true,
+    "occupancy_residual_computed": true,
+    "propagation_reopened_false": true,
+    "radial_profiles_reported": true,
+    "ray_cohorts_launch_defined": true,
+    "ray_conservation_reported": true,
+    "ray_identity_preserved": true,
+    "received_displacement_computed": true,
+    "redistribution_fraction_computed": true,
+    "registration_not_fit": true,
+    "registration_target_blind": true,
+    "structural_freeze_before_reference": true,
+    "true_registration_vs_fixed_null_reported": true,
+    "viewer_cohort_rgb_supported": true,
+    "viewer_launch_received_supported": true,
+    "viewer_lens_overlay_supported": true,
+    "viewer_trace_from_lens_supported": true,
+    "visual_gap_not_used_for_mask": true,
+    "zero_kde_executions": true,
+    "zero_propagation_runs": true
+  },
+  "clusters": {
+    "Abell2744": {
+      "adjacent_excess": [
+        1961.0,
+        2594.0,
+        2710.0
+      ],
+      "centroid_offset": 1.0171856031623574,
+      "depth_redistribution_fraction": 0.10987351220849201,
+      "footprint_occupancy_deficit": 4639.0,
+      "lens_cohort_size": 171479,
+      "median_displacement": 0.006548061518827239,
+      "multimodality": {
+        "local_maxima": 5,
+        "occupied_connected_regions": 550
+      },
+      "null_control": {
+        "null_abs_residual": 6640.0,
+        "shift_cells": 16,
+        "true_abs_residual": 9431.0
+      },
+      "ray_conservation": {
+        "clipped": 0,
+        "launch": 171479,
+        "received_all": 171479
+      },
+      "redistribution_fraction": 0.00471194723552155,
+      "stage_separability": {
+        "3d": {
+          "centroid_distance": 0.0007117331056507347,
+          "mahalanobis_distance": 0.6148972112827535,
+          "within_between_ratio": 287.4950667523348
+        },
+        "r3": {
+          "centroid_distance": 0.0005835458603503869,
+          "mahalanobis_distance": 0.5790615604760946,
+          "within_between_ratio": 395.78260785507524
+        },
+        "r4": {
+          "centroid_distance": 0.000533632551638627,
+          "mahalanobis_distance": 0.09954858947610959,
+          "within_between_ratio": 403.8322881726868
+        },
+        "raw": {
+          "centroid_distance": 0.0005796385172144021,
+          "mahalanobis_distance": 0.5550246324346853,
+          "within_between_ratio": 400.9709499783077
+        }
+      }
+    },
+    "Abell370": {
+      "adjacent_excess": [
+        1760.0,
+        2707.0,
+        2954.0
+      ],
+      "centroid_offset": 0.14551135346467037,
+      "depth_redistribution_fraction": 0.07370701713659875,
+      "footprint_occupancy_deficit": 4792.0,
+      "lens_cohort_size": 168003,
+      "median_displacement": 0.007313602407421845,
+      "multimodality": {
+        "local_maxima": 5,
+        "occupied_connected_regions": 551
+      },
+      "null_control": {
+        "null_abs_residual": 7645.0,
+        "shift_cells": 16,
+        "true_abs_residual": 9495.0
+      },
+      "ray_conservation": {
+        "clipped": 0,
+        "launch": 168003,
+        "received_all": 168003
+      },
+      "redistribution_fraction": 0.004493967369630304,
+      "stage_separability": {
+        "3d": {
+          "centroid_distance": 0.0006378044287836275,
+          "mahalanobis_distance": 0.9031045892158571,
+          "within_between_ratio": 434.49781184663317
+        },
+        "r3": {
+          "centroid_distance": 0.000591498163156423,
+          "mahalanobis_distance": 0.5202104734215252,
+          "within_between_ratio": 502.6068192482757
+        },
+        "r4": {
+          "centroid_distance": 0.0005381728261121638,
+          "mahalanobis_distance": 0.08912320112399488,
+          "within_between_ratio": 518.3703067412424
+        },
+        "raw": {
+          "centroid_distance": 0.0005841199405154103,
+          "mahalanobis_distance": 0.48026095109466654,
+          "within_between_ratio": 515.0063964919132
+        }
+      }
+    },
+    "AbellS1063": {
+      "adjacent_excess": [
+        906.0,
+        1087.0,
+        1174.0
+      ],
+      "centroid_offset": 1.0493726376490495,
+      "depth_redistribution_fraction": 0.059522244777746945,
+      "footprint_occupancy_deficit": 4305.0,
+      "lens_cohort_size": 205419,
+      "median_displacement": 0.003825327875471359,
+      "multimodality": {
+        "local_maxima": 4,
+        "occupied_connected_regions": 496
+      },
+      "null_control": {
+        "null_abs_residual": 6501.0,
+        "shift_cells": 16,
+        "true_abs_residual": 8638.0
+      },
+      "ray_conservation": {
+        "clipped": 0,
+        "launch": 205419,
+        "received_all": 205419
+      },
+      "redistribution_fraction": 0.0012511014073673808,
+      "stage_separability": {
+        "3d": {
+          "centroid_distance": 0.0004202297882074228,
+          "mahalanobis_distance": 0.668325245437406,
+          "within_between_ratio": 425.0016420003297
+        },
+        "r3": {
+          "centroid_distance": 0.0004191489456355057,
+          "mahalanobis_distance": 0.38435524020814227,
+          "within_between_ratio": 425.1996054056462
+        },
+        "r4": {
+          "centroid_distance": 0.0003848819668086839,
+          "mahalanobis_distance": 0.09435972994762859,
+          "within_between_ratio": 430.64024239374965
+        },
+        "raw": {
+          "centroid_distance": 0.0004170976089429113,
+          "mahalanobis_distance": 0.3739156466833565,
+          "within_between_ratio": 429.0947046682279
+        }
+      }
+    },
+    "MACS0416": {
+      "adjacent_excess": [
+        863.0,
+        995.0,
+        1082.0
+      ],
+      "centroid_offset": 0.9728894987287169,
+      "depth_redistribution_fraction": 0.2916911063450629,
+      "footprint_occupancy_deficit": 5161.0,
+      "lens_cohort_size": 223339,
+      "median_displacement": 0.004462500805412257,
+      "multimodality": {
+        "local_maxima": 2,
+        "occupied_connected_regions": 533
+      },
+      "null_control": {
+        "null_abs_residual": 7101.0,
+        "shift_cells": 16,
+        "true_abs_residual": 10383.0
+      },
+      "ray_conservation": {
+        "clipped": 0,
+        "launch": 223339,
+        "received_all": 223339
+      },
+      "redistribution_fraction": 0.0012357895396683965,
+      "stage_separability": {
+        "3d": {
+          "centroid_distance": 0.0009804954188518235,
+          "mahalanobis_distance": 0.5543653271062913,
+          "within_between_ratio": 105.21491738146477
+        },
+        "r3": {
+          "centroid_distance": 0.0006974182605598704,
+          "mahalanobis_distance": 0.4607643976387058,
+          "within_between_ratio": 184.03693280666724
+        },
+        "r4": {
+          "centroid_distance": 0.0006393187182606662,
+          "mahalanobis_distance": 0.15334908112819715,
+          "within_between_ratio": 186.76161309322657
+        },
+        "raw": {
+          "centroid_distance": 0.0006964698167919728,
+          "mahalanobis_distance": 0.45843526008676855,
+          "within_between_ratio": 184.45518910582658
+        }
+      }
+    },
+    "MACS1149": {
+      "adjacent_excess": [
+        691.0,
+        819.0,
+        843.0
+      ],
+      "centroid_offset": 2.5855013695747404,
+      "depth_redistribution_fraction": 0.09953383743935822,
+      "footprint_occupancy_deficit": 4136.0,
+      "lens_cohort_size": 221382,
+      "median_displacement": 0.0031548919480979694,
+      "multimodality": {
+        "local_maxima": 2,
+        "occupied_connected_regions": 502
+      },
+      "null_control": {
+        "null_abs_residual": 5278.0,
+        "shift_cells": 16,
+        "true_abs_residual": 8207.0
+      },
+      "ray_conservation": {
+        "clipped": 0,
+        "launch": 221382,
+        "received_all": 221382
+      },
+      "redistribution_fraction": 0.0003523321679269317,
+      "stage_separability": {
+        "3d": {
+          "centroid_distance": 0.0013103615239800524,
+          "mahalanobis_distance": 0.582435314830774,
+          "within_between_ratio": 45.13573655114495
+        },
+        "r3": {
+          "centroid_distance": 0.0007182412956737788,
+          "mahalanobis_distance": 0.43674617954856493,
+          "within_between_ratio": 95.85319874146919
+        },
+        "r4": {
+          "centroid_distance": 0.000654147741149273,
+          "mahalanobis_distance": 0.19963897242326292,
+          "within_between_ratio": 98.07173502731305
+        },
+        "raw": {
+          "centroid_distance": 0.0007177754325178066,
+          "mahalanobis_distance": 0.4254784304516374,
+          "within_between_ratio": 95.92332900087135
+        }
+      }
+    }
+  },
+  "cross_cluster": {
+    "adjacent_excess": {
+      "1": {
+        "median": 906.0
+      },
+      "2": {
+        "median": 1087.0
+      },
+      "3": {
+        "median": 1174.0
+      }
+    },
+    "centroid_offset": {
+      "maximum": 2.5855013695747404,
+      "median": 1.0171856031623574,
+      "minimum": 0.14551135346467037,
+      "stddev": 0.7910387546366059
+    },
+    "depth_redistribution_fraction": {
+      "maximum": 0.2916911063450629,
+      "median": 0.09953383743935822,
+      "minimum": 0.059522244777746945,
+      "stddev": 0.0843376146908504
+    },
+    "footprint_occupancy_deficit": {
+      "maximum": 5161.0,
+      "median": 4639.0,
+      "minimum": 4136.0,
+      "stddev": 361.99701656229155
+    },
+    "redistribution_fraction": {
+      "maximum": 0.00471194723552155,
+      "median": 0.0012511014073673808,
+      "minimum": 0.0003523321679269317,
+      "stddev": 0.0018219599010275897
+    }
+  },
+  "kde_executions": 0,
+  "lab_id": "PBUF-FOUNDATION-WL-LENS-FOOTPRINT-RAY-REDISTRIBUTION-001",
+  "outcome": "WL_LENS_FOOTPRINT_TRANSVERSE_REDISTRIBUTION_ESTABLISHED",
+  "propagation_runs": 0,
+  "runtime_seconds": 8.805017948150635,
+  "scientific_answers": {
+    "Q1": "Source coordinates and centre are recorded per cluster in registration.json.",
+    "Q10": "The largest relative weakening can be read from raw/3d/R3/R4 separability.",
+    "Q11": "R3/R4 cohort separability is reported structurally; no observer was altered.",
+    "Q12": "The audit reports evidence for separability without making a double-counting claim.",
+    "Q2": "Identity shared-extent source-to-propagation mapping followed by the frozen detector basis.",
+    "Q3": "Quantified by true-vs-null registered residual association.",
+    "Q4": "Saved without aggregation in ray_redistribution.npz.",
+    "Q5": "Rays are conserved; displacement is redistribution, not loss.",
+    "Q6": "WL_LENS_FOOTPRINT_TRANSVERSE_REDISTRIBUTION_ESTABLISHED",
+    "Q7": "Footprint deficit and fixed-shell excess are reported per cluster.",
+    "Q8": "Radial displacement, direction and cross-tensor profiles are reported.",
+    "Q9": "Raw-stage cohort Mahalanobis separation is reported."
+  },
+  "secondary_findings": [],
+  "structural_sha256": "09faf7b4ddfab9b70d48f7f1efad9e347971f2b29759ad056a6e558811dbc140",
+  "target_access_enabled": false
+}

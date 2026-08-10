@@ -1,0 +1,125 @@
+{
+  "established": false,
+  "results": [
+    {
+      "attempted": true,
+      "id": "Q01",
+      "name": "amplitude threshold",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q02",
+      "name": "minimum stable norm",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q03",
+      "name": "minimum stable packet",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q04",
+      "name": "integer node occupation",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q05",
+      "name": "integer link circulation",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q06",
+      "name": "topological winding",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q07",
+      "name": "polarization winding",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q08",
+      "name": "phase closure",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q09",
+      "name": "boundary closure",
+      "status": "BOUNDARY_QUANTIZED_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "Q10",
+      "name": "standing-mode integer condition",
+      "status": "BOUNDARY_QUANTIZED_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "Q11",
+      "name": "packet self-consistency closure",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q12",
+      "name": "conserved excitation count",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q13",
+      "name": "discrete stable attractors",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q14",
+      "name": "bounded-state saturation increment",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q15",
+      "name": "nonlinear self-localization",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q16",
+      "name": "pair-state counting",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q17",
+      "name": "mode occupation number",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q18",
+      "name": "topology-protected excitation",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "Q19",
+      "name": "continuous excitation only",
+      "status": "CONTINUOUS_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "Q20",
+      "name": "no native quantization mechanism",
+      "status": "ESTABLISHED"
+    }
+  ]
+}

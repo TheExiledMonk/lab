@@ -1,0 +1,94 @@
+{
+  "metric_medium_map": [
+    {
+      "path": "medium001_derivation.py",
+      "markers": [
+        "delta G"
+      ]
+    },
+    {
+      "path": "pbuf/labs/foundation/matter_loading_physical_closure001.py",
+      "markers": [
+        "delta_g_delta_chi",
+        "metric_medium_map",
+        "metric_response_kernel",
+        "delta G",
+        "dG_dchi"
+      ]
+    }
+  ],
+  "medium_action": [
+    {
+      "path": "matter001_derivation.py",
+      "markers": [
+        "S_sigma"
+      ]
+    },
+    {
+      "path": "pbuf/labs/foundation/matter_loading_physical_closure001.py",
+      "markers": [
+        "S_sigma",
+        "medium_action",
+        "elastic_action",
+        "vacuum_action"
+      ]
+    }
+  ],
+  "stress_energy_source_functional": [
+    {
+      "path": "matter001_derivation.py",
+      "markers": [
+        "J_A"
+      ]
+    },
+    {
+      "path": "medium001_derivation.py",
+      "markers": [
+        "J_A"
+      ]
+    },
+    {
+      "path": "pbuf/labs/foundation/matter_loading_physical_closure001.py",
+      "markers": [
+        "J_A",
+        "stress_energy_source",
+        "matter_source_functional"
+      ]
+    }
+  ],
+  "coarse_graining_projection": [
+    {
+      "path": "README.md",
+      "markers": [
+        "source_projection"
+      ]
+    },
+    {
+      "path": "core001_definition.py",
+      "markers": [
+        "coarse_graining",
+        "coarse_grain"
+      ]
+    },
+    {
+      "path": "pbuf/labs/foundation/matter_loading_physical_closure001.py",
+      "markers": [
+        "coarse_graining",
+        "coarse_grain",
+        "source_projection",
+        "projection_operator"
+      ]
+    }
+  ],
+  "physical_mass_density_si": [
+    {
+      "path": "pbuf/labs/foundation/matter_loading_physical_closure001.py",
+      "markers": [
+        "kg_m3",
+        "kg/m^3",
+        "mass_density_si",
+        "surface_density_kg_m2"
+      ]
+    }
+  ]
+}

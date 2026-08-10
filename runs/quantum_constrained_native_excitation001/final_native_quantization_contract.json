@@ -1,0 +1,16 @@
+{
+  "absolute_physical_unit_defined": false,
+  "boundary_quantization_only": true,
+  "contract": "PBUF_NATIVE_EXCITATION_QUANTIZATION_V1",
+  "fractional_packets_allowed": true,
+  "free_propagation_continuous": true,
+  "hbar_used_in_derivation": false,
+  "interaction_quantization_tested": false,
+  "minimum_excitation_definition": null,
+  "minimum_excitation_exists": false,
+  "native_quantum_unit_defined": false,
+  "packet_count_defined": false,
+  "quantization_established": false,
+  "source_interaction_required": true,
+  "topological_integer_found": true
+}

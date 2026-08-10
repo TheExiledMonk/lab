@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "centroid_delta": [
+        4.999999717849152,
+        0.0,
+        0.0
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "norm_drift": 0.0,
+      "reversible": true,
+      "two_modes_preserved": true
+    },
+    {
+      "centroid_delta": [
+        -1.7362730064243497,
+        0.0,
+        0.0
+      ],
+      "direction": [
+        -1,
+        0,
+        0
+      ],
+      "norm_drift": 0.0,
+      "reversible": true,
+      "two_modes_preserved": true
+    },
+    {
+      "centroid_delta": [
+        0.0,
+        4.970725496651529,
+        0.0
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "norm_drift": 0.0,
+      "reversible": true,
+      "two_modes_preserved": true
+    },
+    {
+      "centroid_delta": [
+        0.0,
+        -4.801451589842192,
+        0.0
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "norm_drift": 0.0,
+      "reversible": true,
+      "two_modes_preserved": true
+    },
+    {
+      "centroid_delta": [
+        -8.881784197001252e-16,
+        1.7763568394002505e-15,
+        4.823512440020564
+      ],
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "norm_drift": 7.105427357601002e-15,
+      "reversible": true,
+      "two_modes_preserved": true
+    },
+    {
+      "centroid_delta": [
+        0.0,
+        0.0,
+        -4.18444726309578
+      ],
+      "direction": [
+        0,
+        0,
+        -1
+      ],
+      "norm_drift": 7.105427357601002e-15,
+      "reversible": true,
+      "two_modes_preserved": true
+    }
+  ]
+}

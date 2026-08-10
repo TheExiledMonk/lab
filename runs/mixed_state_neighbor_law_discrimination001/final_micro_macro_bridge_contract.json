@@ -1,0 +1,24 @@
+{
+  "EM_native": false,
+  "GR_native": false,
+  "QM_native": false,
+  "contract": "PBUF_MICRO_MACRO_SHARED_MEDIUM_BRIDGE_V2",
+  "dynamic_ray_parity": false,
+  "free_parameter_count": 0,
+  "loaded_composite_available": false,
+  "localization_available": false,
+  "macro_loading_projection_established": true,
+  "micro_excitation_projection_established": true,
+  "mixed_state_interaction_established": false,
+  "physical_neighbor_law_closed": true,
+  "quantization_revisited": false,
+  "rank3_native_state_established": true,
+  "remaining_missing_physics": [
+    "dynamic-ray lattice mapping",
+    "localization",
+    "loaded composite"
+  ],
+  "remaining_physical_degeneracies": [],
+  "rotational_structure_available": false,
+  "time_required": false
+}

@@ -1,0 +1,25 @@
+{
+  "a0_basis_u": [
+    1,
+    0,
+    0
+  ],
+  "a0_basis_v": [
+    0,
+    1,
+    0
+  ],
+  "a0_normal": [
+    0,
+    0,
+    1
+  ],
+  "absolute_sky_orientation_known": false,
+  "classification": "RELATIVE_ORIENTATION_KNOWN",
+  "lineage": [
+    "launch x/y",
+    "propagation global Cartesian x/y",
+    "Dev130 receiver e_u=(1,0,0), e_v=(0,1,0), normal=(0,0,1)",
+    "Dev133 incoming optical frame"
+  ]
+}

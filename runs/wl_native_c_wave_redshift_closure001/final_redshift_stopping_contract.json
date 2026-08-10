@@ -1,0 +1,22 @@
+{
+  "absolute_length_required": false,
+  "absolute_time_required": false,
+  "contract": "PBUF_NATIVE_REDSHIFT_STOPPING_V1",
+  "dual_checkpoint_established": false,
+  "frequency_state_available": false,
+  "known_stop_reconstruction_established": false,
+  "known_stop_reconstruction_status": "PARTIAL",
+  "multipath_consistency_established": false,
+  "native_stopping_depth_established": false,
+  "observed_redshift_assumed_pure_expansion": false,
+  "remaining_ambiguities": [
+    "missing physical native clock",
+    "missing constitutive wave evolution",
+    "known-stop canonical multi-medium sweep not executed"
+  ],
+  "scale_free_geometry_available": true,
+  "shift_history_available": false,
+  "wave_state_established": false,
+  "wave_stop_reconstruction_established": false,
+  "wavelength_state_available": false
+}

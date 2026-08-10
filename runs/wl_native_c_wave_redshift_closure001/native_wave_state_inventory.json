@@ -1,0 +1,23 @@
+{
+  "inventory": [
+    {
+      "classification": "NUMERICAL_FREQUENCY_ONLY",
+      "name": "native_source_depth.D07 local variable phase",
+      "reason": "covariance determinant label, not physical optical phase",
+      "usable": false
+    },
+    {
+      "classification": "NOT_PHYSICALLY_USABLE",
+      "name": "trajectory path length",
+      "reason": "phase cannot be manufactured from path length",
+      "usable": false
+    },
+    {
+      "classification": "NOT_PHYSICALLY_USABLE",
+      "name": "frequency/wavelength/period/wavenumber state",
+      "reason": "absent from frozen optical transport state",
+      "usable": false
+    }
+  ],
+  "physical_wave_state_count": 0
+}

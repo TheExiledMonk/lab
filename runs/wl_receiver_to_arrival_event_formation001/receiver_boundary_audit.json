@@ -1,0 +1,14 @@
+{
+  "classification": "BEFORE_RECEIVER_PLANE",
+  "normal_residual": {
+    "maximum": -3.4062175302551623e-10,
+    "maximum_abs": 0.0008873267340980817,
+    "median": -2.828882552208256e-06,
+    "median_abs": 2.828882552208256e-06,
+    "minimum": -0.0008873267340980817
+  },
+  "thresholds": {
+    "near_surface": 1e-08,
+    "on_surface": 1e-12
+  }
+}

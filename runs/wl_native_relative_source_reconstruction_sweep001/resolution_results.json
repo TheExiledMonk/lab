@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "summary": {
+    "C0_ambiguity_area": 0.54,
+    "C1_ambiguity_area": 0.545,
+    "C1_triplet_accuracy": 0.465,
+    "C2_ambiguity_area": 0.52625,
+    "C3_ambiguity_area": 0.87625,
+    "C4_ambiguity_area": 0.84625,
+    "C4_triplet_accuracy": 0.8521875,
+    "C5_ambiguity_area": 0.84625,
+    "coordinate_rescaling_CV": 0.0,
+    "correct_multivalued_rate": 0.695,
+    "distance_ratio_error": 0.04113924050632911,
+    "false_unique_rate": 0.0,
+    "median_depth_error": 0.04113924050632911,
+    "position_roundtrip": 1.4547138470889592e-05,
+    "resolution_CV": 0.0,
+    "rich_roundtrip": 0.0015854551053842512,
+    "size_ratio_error": 0.0,
+    "straight_roundtrip": 1.0,
+    "triplet_reduced_fraction": 0.0,
+    "unique_success_rate": 0.2234375
+  },
+  "trial_count": 3200,
+  "truth_access_before_freeze": false,
+  "validation_only": false
+}

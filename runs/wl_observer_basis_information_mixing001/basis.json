@@ -1,0 +1,161 @@
+{
+  "benchmark": {
+    "per_cluster": {
+      "Abell2744": {
+        "ctype": [
+          "RA---TAN",
+          "DEC--TAN"
+        ],
+        "determinant": -1.0,
+        "orthogonal_orientation": [
+          [
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "pixel_to_world_linear": [
+          [
+            -0.002314815,
+            0.0
+          ],
+          [
+            0.0,
+            0.002314815
+          ]
+        ]
+      },
+      "Abell370": {
+        "ctype": [
+          "RA---TAN",
+          "DEC--TAN"
+        ],
+        "determinant": -1.0,
+        "orthogonal_orientation": [
+          [
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "pixel_to_world_linear": [
+          [
+            -0.001736111,
+            0.0
+          ],
+          [
+            0.0,
+            0.001736111
+          ]
+        ]
+      },
+      "AbellS1063": {
+        "ctype": [
+          "RA---TAN",
+          "DEC--TAN"
+        ],
+        "determinant": -1.0,
+        "orthogonal_orientation": [
+          [
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "pixel_to_world_linear": [
+          [
+            -0.003156566,
+            0.0
+          ],
+          [
+            0.0,
+            0.003156566
+          ]
+        ]
+      },
+      "MACS0416": {
+        "ctype": [
+          "RA---TAN",
+          "DEC--TAN"
+        ],
+        "determinant": -1.0,
+        "orthogonal_orientation": [
+          [
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "pixel_to_world_linear": [
+          [
+            -0.002314815,
+            0.0
+          ],
+          [
+            0.0,
+            0.002314815
+          ]
+        ]
+      },
+      "MACS1149": {
+        "ctype": [
+          "RA---TAN",
+          "DEC--TAN"
+        ],
+        "determinant": -1.0,
+        "orthogonal_orientation": [
+          [
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "pixel_to_world_linear": [
+          [
+            -0.001984127,
+            0.0
+          ],
+          [
+            0.0,
+            0.001984127
+          ]
+        ]
+      }
+    },
+    "reason": "FITS WCS specifies pixel orientation but no gamma-component basis convention",
+    "target_data_used": false,
+    "unique_transform": null
+  },
+  "classification": "SPIN2_BASIS_METADATA_INSUFFICIENT",
+  "inventory": {
+    "FITS axis ordering": "numpy [row=NAXIS2, column=NAXIS1]; WCS axis 1=RA, axis 2=DEC",
+    "array column axis": "observer u; increasing column is increasing u",
+    "array row axis": "observer v; increasing row is increasing v",
+    "image origin convention": "FITS is 1-based; numpy/deposited maps are 0-based lower-index origin",
+    "increasing-column physical direction": "increasing u; FITS WCS decreasing RA (east is left)",
+    "increasing-row physical direction": "increasing v; FITS WCS increasing DEC",
+    "launch horizontal axis": "launch.x0 (global +x)",
+    "launch vertical axis": "launch.y0 (global +y)",
+    "observer u axis": "e1: projection of global +x onto detector plane",
+    "observer v axis": "e2=cross(screen_normal,e1)",
+    "received x/y/z convention": "global Cartesian rx,ry,rz; dx,dy,dz are e1,e2,normal projections",
+    "reference gamma1 array ordering": "FITS primary array [DEC pixel, RA pixel]",
+    "reference gamma2 array ordering": "FITS primary array [DEC pixel, RA pixel]",
+    "screen handedness": "right-handed because e2=normal cross e1 and e1 cross e2=normal"
+  }
+}

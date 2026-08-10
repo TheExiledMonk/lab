@@ -1,0 +1,264 @@
+{
+  "Dev120_bundle_Q_control": {
+    "gamma1": {
+      "pearson": -0.028745208150969724,
+      "rms_ratio": 0.5078220346245882,
+      "spearman": 0.0019096832655557006
+    },
+    "gamma2": {
+      "pearson": 0.032148180724279586,
+      "rms_ratio": 0.3662383556169829,
+      "spearman": 0.022307483067884888
+    },
+    "magnitude_pearson": 0.14478099005433745,
+    "orientation_agreement": -0.0024277936610623326
+  },
+  "area_change_spin2": {
+    "gamma1": {
+      "pearson": -0.012362754624763448,
+      "rms_ratio": 0.7308214025408358,
+      "spearman": 0.005900167109726628
+    },
+    "gamma2": {
+      "pearson": -0.027168434698731207,
+      "rms_ratio": 0.06675384620626161,
+      "spearman": 0.022437626004706435
+    },
+    "magnitude_pearson": 0.12645217416058827,
+    "orientation_agreement": 0.04558916690230002
+  },
+  "current_D_jacobian__tsc_3x3_control": {
+    "gamma1": {
+      "count": 4096,
+      "coverage_fraction": 1.0,
+      "obs_rms": 0.07040326076626774,
+      "pearson": 0.11135040891279774,
+      "pred_rms": 0.022747630839136338,
+      "rms_ratio": 0.32310479076610316,
+      "rms_ratio_pred_over_obs": 0.32310479076610316,
+      "spearman": 0.07929981169405437
+    },
+    "gamma2": {
+      "count": 4096,
+      "coverage_fraction": 1.0,
+      "obs_rms": 0.06785332649234575,
+      "pearson": 0.15921558648021944,
+      "pred_rms": 0.01605828484740561,
+      "rms_ratio": 0.23666171840841255,
+      "rms_ratio_pred_over_obs": 0.23666171840841255,
+      "spearman": 0.09613729056217767
+    },
+    "magnitude_pearson": 0.26448999407995244,
+    "orientation_agreement": 0.040587106742224995
+  },
+  "curvature_weighted_shape_spin2": {
+    "gamma1": {
+      "pearson": 0.07351881963138852,
+      "rms_ratio": 4.957367435931473,
+      "spearman": 0.05056085159291219
+    },
+    "gamma2": {
+      "pearson": 0.11685550447871348,
+      "rms_ratio": 2.328517668639471,
+      "spearman": 0.07059834384081343
+    },
+    "magnitude_pearson": 0.16469941935776297,
+    "orientation_agreement": 0.0050225735821849025
+  },
+  "first_order_reconstructed_tensor": {
+    "gamma1": {
+      "pearson": 0.07229710028271086,
+      "rms_ratio": 0.45002676422316834,
+      "spearman": 0.03808313656480637
+    },
+    "gamma2": {
+      "pearson": 0.09838765636776678,
+      "rms_ratio": 0.34980982439094493,
+      "spearman": 0.037167378410302286
+    },
+    "magnitude_pearson": 0.2482570468227621,
+    "orientation_agreement": -0.0026869551433831955
+  },
+  "first_order_transport_control": {
+    "gamma1": {
+      "pearson": 0.07851197447243134,
+      "rms_ratio": 0.5225022964314568,
+      "spearman": 0.04210524676703809
+    },
+    "gamma2": {
+      "pearson": 0.10080509488524202,
+      "rms_ratio": 0.373649510075837,
+      "spearman": 0.03800923196775137
+    },
+    "magnitude_pearson": 0.22916675949588886,
+    "orientation_agreement": -0.0013926444821352364
+  },
+  "mesh_transport_spin2": {
+    "gamma1": {
+      "pearson": -0.015977442699944742,
+      "rms_ratio": 14.118953088651848,
+      "spearman": -0.07981017627896411
+    },
+    "gamma2": {
+      "pearson": 0.05710513960836197,
+      "rms_ratio": 0.4203332851887713,
+      "spearman": 0.014550700999233553
+    },
+    "magnitude_pearson": -0.15477902061707305,
+    "orientation_agreement": -0.03321542808215388
+  },
+  "orientation_change_spin2": {
+    "gamma1": {
+      "pearson": -0.02333849769594918,
+      "rms_ratio": 14.180130268645783,
+      "spearman": -0.06408130448260221
+    },
+    "gamma2": {
+      "pearson": -0.007038472363764212,
+      "rms_ratio": 0.3084245041436541,
+      "spearman": -0.0063988858796441605
+    },
+    "magnitude_pearson": -0.15855392435702445,
+    "orientation_agreement": -0.03424602926603815
+  },
+  "patch_scale_16": {
+    "gamma1": {
+      "pearson": 0.11442353208016481,
+      "rms_ratio": 0.19253216620410957,
+      "spearman": 0.08771913388349581
+    },
+    "gamma2": {
+      "pearson": 0.15090988914317507,
+      "rms_ratio": 0.16462321647281053,
+      "spearman": 0.09569357824025862
+    },
+    "magnitude_pearson": 0.2727915029741763,
+    "orientation_agreement": 0.045157202914457004
+  },
+  "patch_scale_2": {
+    "gamma1": {
+      "pearson": 0.07478731805008468,
+      "rms_ratio": 0.44202231894238275,
+      "spearman": 0.042082618529365
+    },
+    "gamma2": {
+      "pearson": 0.09372477588367616,
+      "rms_ratio": 0.3428565074935377,
+      "spearman": 0.03479743001961305
+    },
+    "magnitude_pearson": 0.24679785551435643,
+    "orientation_agreement": -0.0028644085985481214
+  },
+  "patch_scale_4": {
+    "gamma1": {
+      "pearson": 0.07290146713127653,
+      "rms_ratio": 0.418416770415149,
+      "spearman": 0.04126004201678144
+    },
+    "gamma2": {
+      "pearson": 0.09762329716447773,
+      "rms_ratio": 0.3252313350622356,
+      "spearman": 0.03393877577828885
+    },
+    "magnitude_pearson": 0.257516558565284,
+    "orientation_agreement": -0.00417355599421647
+  },
+  "patch_scale_8": {
+    "gamma1": {
+      "pearson": 0.07879893569544925,
+      "rms_ratio": 0.34555928822827425,
+      "spearman": 0.047927293037549404
+    },
+    "gamma2": {
+      "pearson": 0.108815181718973,
+      "rms_ratio": 0.2740656217602223,
+      "spearman": 0.04034614445207058
+    },
+    "magnitude_pearson": 0.2772111598410162,
+    "orientation_agreement": 0.0038788195636568334
+  },
+  "raw_transport_control": {
+    "gamma1": {
+      "pearson": -0.048609830054729,
+      "rms_ratio": 0.05668472716914255,
+      "spearman": -0.034327780366747655
+    },
+    "gamma2": {
+      "pearson": -0.08648290784150542,
+      "rms_ratio": 0.05810722836876643,
+      "spearman": -0.08260326712342303
+    },
+    "magnitude_pearson": 0.26012024995682737,
+    "orientation_agreement": -0.05780042368759684
+  },
+  "reconstructed_D_associated_geometry": {
+    "gamma1": {
+      "pearson": 0.06063654745816689,
+      "rms_ratio": 3.342394884227753,
+      "spearman": 0.04313755040752199
+    },
+    "gamma2": {
+      "pearson": 0.11651974485657451,
+      "rms_ratio": 1.5112566539088896,
+      "spearman": 0.05893394447585935
+    },
+    "magnitude_pearson": 0.14433618102492088,
+    "orientation_agreement": -0.0008747967073301976
+  },
+  "reconstructed_S_associated_geometry": {
+    "gamma1": {
+      "pearson": 0.05349025020855654,
+      "rms_ratio": 0.19821491620213846,
+      "spearman": 0.030515060146767897
+    },
+    "gamma2": {
+      "pearson": 0.06520867200062504,
+      "rms_ratio": 0.1407768846027468,
+      "spearman": 0.022945269002468006
+    },
+    "magnitude_pearson": 0.2002548149934886,
+    "orientation_agreement": -0.00507026909443988
+  },
+  "reconstructed_shape_spin2": {
+    "gamma1": {
+      "pearson": 0.07229710028271086,
+      "rms_ratio": 0.45002676422316834,
+      "spearman": 0.03808313656480637
+    },
+    "gamma2": {
+      "pearson": 0.09838765636776678,
+      "rms_ratio": 0.34980982439094493,
+      "spearman": 0.037167378410302286
+    },
+    "magnitude_pearson": 0.2482570468227621,
+    "orientation_agreement": -0.0026869551433831955
+  },
+  "second_order_reconstructed_tensor": {
+    "gamma1": {
+      "pearson": 0.07505676031995942,
+      "rms_ratio": 5.289272798685216,
+      "spearman": 0.04807871021415772
+    },
+    "gamma2": {
+      "pearson": 0.11658723503248439,
+      "rms_ratio": 2.6290563915491125,
+      "spearman": 0.06145074215633845
+    },
+    "magnitude_pearson": 0.17314415967026484,
+    "orientation_agreement": 0.0033318286028829573
+  },
+  "second_order_transport_control": {
+    "gamma1": {
+      "pearson": -0.021258896155084767,
+      "rms_ratio": 3.744018395413837,
+      "spearman": -0.031267069116387894
+    },
+    "gamma2": {
+      "pearson": 0.017543960414074036,
+      "rms_ratio": 3.280962509859997,
+      "spearman": -0.01269685550707064
+    },
+    "magnitude_pearson": 0.17230310633342,
+    "orientation_agreement": -0.005476696911614174
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "BROKEN_LAUNCH_LINKS": 0,
+  "BROKEN_RAY_LINKS": 0,
+  "BROKEN_RECEIVER_LINKS": 0,
+  "EVENT_ID_COLLISIONS": 0,
+  "UNEXPLAINED_INFORMATION_LOSS": 0,
+  "checks": {
+    "arrival_direction_preserved": true,
+    "bundle_provenance_preserved": true,
+    "dev130_basis_sha_verified": true,
+    "dev130_manifest_sha_verified": true,
+    "dev130_structural_sha_verified": true,
+    "event_uid_unique": true,
+    "forward_correspondence_complete": true,
+    "hst_pixel_access_false": true,
+    "instrument_input_availability_complete": true,
+    "interaction_contract_frozen": true,
+    "invertibility_audit_complete": true,
+    "launch_linkage_complete": true,
+    "multiplicity_audit_complete": true,
+    "ray_linkage_complete": true,
+    "receiver_depth_preserved": true,
+    "receiver_linkage_complete": true,
+    "reverse_correspondence_complete": true,
+    "surface_position_preserved": true,
+    "surface_roundtrip_complete": true,
+    "target_access_false": true,
+    "trajectory_latent_state_preserved": true,
+    "unexplained_information_loss_zero": true,
+    "zero_detector_pixelization": true,
+    "zero_lensing_reconstruction": true,
+    "zero_psf": true,
+    "zero_source_detection": true
+  },
+  "full_population_count": 285156,
+  "hst_pixel_access": false,
+  "interaction_contract_sha256": "9e5e9b62f43e3e4b46492f4bd3efab1828839cddb77efc661276a48f43db1e25",
+  "multiplicity": {
+    "arrival_count": 285156,
+    "arrival_events_sharing_launch_id": 0,
+    "cardinality_not_assumed": "many-to-many capable",
+    "histogram": {
+      "1": 285156
+    },
+    "launch_count": 285156,
+    "launches_with_multiple_arrivals": 0,
+    "launches_with_zero_arrivals": 0,
+    "unique_event_ids": 285156,
+    "unique_launch_ids": 285156
+  },
+  "outcomes": [
+    "WL_ARRIVAL_EVENT_INFORMATION_PRESERVATION_ESTABLISHED",
+    "WL_RECEIVER_SURFACE_INTERSECTION_REVERSIBLE",
+    "WL_BIDIRECTIONAL_OBSERVER_PROVENANCE_ESTABLISHED",
+    "WL_LOCAL_TRANSPORT_INVERTIBILITY_STRUCTURE_ESTABLISHED",
+    "WL_REVERSE_RECONSTRUCTION_ARCHITECTURE_ESTABLISHED",
+    "WL_INSTRUMENT_INTERACTION_CONTRACT_ESTABLISHED"
+  ],
+  "population_count": 285156,
+  "roundtrip": {
+    "bitwise_equal_rows": 285156,
+    "classification": "EXACT_ROUNDTRIP",
+    "coordinates": [
+      "receiver_u",
+      "receiver_v",
+      "receiver_w"
+    ],
+    "direction_deletion_control": {
+      "classification": "UNDERDETERMINED_WITHOUT_TANGENTIAL_DIRECTION",
+      "free_degrees_of_freedom": 2
+    },
+    "max_abs": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "per_coordinate": [
+      {
+        "max_abs": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "rms": 0.0
+      },
+      {
+        "max_abs": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "rms": 0.0
+      },
+      {
+        "max_abs": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "rms": 0.0
+      }
+    ],
+    "position_only_control": {
+      "classification": "UNDERDETERMINED",
+      "reason": "surface point alone supplies no receiver endpoint displacement"
+    },
+    "rms": 0.0,
+    "tolerance": 9.092290647182351e-13
+  },
+  "runtime_seconds": 14.516330003738403,
+  "structural_sha256": "3baa2263f9bb2f81906d522d51de24f5b02930289aa85909a2d3934b64d4f9a0",
+  "target_access": false,
+  "validation": false
+}

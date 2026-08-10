@@ -1,0 +1,59 @@
+{
+  "guards": {
+    "BOUNDED_STRAIN_LAW_CHANGES": 0,
+    "FAST_SLOW_TRANSFER_CHANGES": 0,
+    "FUNDAMENTAL_TIME_DIMENSION_ASSUMED": false,
+    "KNOWN_DEPTH_RECONSTRUCTION_CHANGES": 0,
+    "MEDIUM_STATIC_RESPONSE_CHANGES": 0,
+    "NATIVE_T0_PRIMITIVE_USED": false,
+    "NATIVE_TIME_COORDINATE_CREATED": false,
+    "RECEIVER_CHANGES": 0,
+    "SOLVER_ITERATION_USED_AS_TIME": false,
+    "WL_TRAJECTORY_CHANGES": 0,
+    "ZERO_MASS_PROPAGATION_CHANGES": 0
+  },
+  "outcomes": [
+    "PBUF_MASS_LOADING_EXCITATION_PROPAGATION_STRUCTURE_ESTABLISHED",
+    "PBUF_MASS_LOADING_SPEED_COUPLING_UNRESOLVED",
+    "PBUF_CURRENT_LOADING_STATE_INSUFFICIENT_FOR_RELATIVISTIC_PROPAGATION"
+  ],
+  "phases": [
+    "Phase A",
+    "Phase B",
+    "Phase C",
+    "Phase D",
+    "Phase E",
+    "Phase F",
+    "Phase G",
+    "Phase H",
+    "Phase I",
+    "Phase J",
+    "Phase K",
+    "Phase L",
+    "Phase M",
+    "Phase N",
+    "Phase O",
+    "Phase P",
+    "Phase Q",
+    "Phase R",
+    "Phase S",
+    "Phase T",
+    "Phase U",
+    "Phase V",
+    "Phase W",
+    "Phase X"
+  ],
+  "source_families": [
+    "M00",
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10"
+  ]
+}

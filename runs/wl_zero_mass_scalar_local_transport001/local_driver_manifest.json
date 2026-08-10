@@ -1,0 +1,31 @@
+{
+  "all_attempted": true,
+  "count": 24,
+  "difference_first": true,
+  "drivers": [
+    "c_state",
+    "u",
+    "delta_u_step",
+    "grad_u",
+    "directional_grad_u",
+    "delta_u_fast",
+    "delta_u_slow",
+    "0.03*delta_u_fast + 0.003*delta_u_slow",
+    "epsilon",
+    "delta_epsilon_step",
+    "grad_epsilon",
+    "directional_grad_epsilon",
+    "W(epsilon)",
+    "delta_W_step",
+    "convex_excitation_excess",
+    "trajectory_curvature",
+    "direction_change_magnitude",
+    "local_Hessian",
+    "path_excess_increment",
+    "bundle_expansion_increment",
+    "bundle_area_ratio_increment",
+    "neighbor_response_difference",
+    "entry_exit_state_difference",
+    "local_response_change projected along path"
+  ]
+}

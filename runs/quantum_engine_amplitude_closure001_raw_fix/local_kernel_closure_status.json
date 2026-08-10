@@ -1,0 +1,14 @@
+{
+  "normalized_QE_amplitude_chain_present": true,
+  "normalized_QE_thermal_state_present": true,
+  "physical_amplitude_bridge_complete": false,
+  "replace_legacy_strength_now_authorized": false,
+  "physical_cluster_lensing_run_authorized": false,
+  "missing_required_components": [
+    "effective_action_normalization_C_definition_and_units",
+    "absolute_microscopic_energy_or_action_density_scale",
+    "microscopic_mode_to_metric_strain_coupling_derivative",
+    "local_tensor_Hessian_K_or_retarded_kernel_G_R",
+    "coarse_graining_normalization_to_finite_metric_strain"
+  ]
+}

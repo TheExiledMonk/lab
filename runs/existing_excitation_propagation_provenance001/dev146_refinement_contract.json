@@ -1,0 +1,11 @@
+{
+  "contract": "PBUF_DEV146_EXCITATION_DOF_REFINEMENT_V1",
+  "dev146_original_classification": "PBUF_CURRENT_MEDIUM_STATE_REQUIRES_ADDITIONAL_DYNAMIC_EXCITATION_DOF",
+  "existing_dynamic_excitation_found": false,
+  "existing_excitation_magnitude_found": false,
+  "existing_excitation_path_found": false,
+  "new_dof_required": true,
+  "reason": "Only geometric position/unit direction persist; response modes are static samples and raw magnitude is numerical.",
+  "refined_classification": "DEV146_ADDITIONAL_DYNAMIC_EXCITATION_DOF_REQUIREMENT_CONFIRMED",
+  "repository_wide_audit_complete": true
+}

@@ -1,0 +1,18 @@
+{
+  "ABSOLUTE_PHYSICAL_SCALE_USED": false,
+  "D_LS_over_D_OL": 1.0,
+  "D_LS_over_D_OS": 0.5,
+  "D_OS_over_D_OL": 2.0,
+  "R_source_over_R_lens": 0.5,
+  "coordinate_rescalings": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "invariant_by_algebra": true,
+  "proof": {
+    "distance": "(L0*D_a)/(L0*D_b)=D_a/D_b",
+    "size": "(L0*R_s)/(L0*R_l)=R_s/R_l"
+  }
+}

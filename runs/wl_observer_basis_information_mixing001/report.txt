@@ -1,0 +1,278 @@
+{
+  "basis": "SPIN2_BASIS_METADATA_INSUFFICIENT",
+  "checks": {
+    "anisotropic_feature_inventory_target_blind": true,
+    "anisotropic_rank_reported": true,
+    "benchmark_basis_derived_without_target": true,
+    "canonical_observer_unchanged": true,
+    "coordinate_inventory_complete": true,
+    "cross_family_mixing_reported": true,
+    "current_operator_order_documented": true,
+    "externally_scored_variants_lte_24": true,
+    "five_received_checkpoints_loaded": true,
+    "gamma2_sign_not_target_selected": true,
+    "local_first_order_tested": true,
+    "local_rank_reported": true,
+    "mixing_index_reported": true,
+    "moment_first_order_tested": true,
+    "no_a8_change": true,
+    "no_amplitude_fit": true,
+    "no_cluster_specific_logic": true,
+    "no_gravity_equation_inserted": true,
+    "no_interface_change": true,
+    "no_launch_change": true,
+    "no_los_change": true,
+    "no_m10_change": true,
+    "no_native_response_change": true,
+    "no_observational_regression": true,
+    "no_propagation_rerun": true,
+    "no_ray_density_change": true,
+    "no_source_change": true,
+    "no_target_derived_reflection": true,
+    "no_target_derived_rotation": true,
+    "no_target_derived_sign_flip": true,
+    "no_target_derived_weights": true,
+    "operator_order_compared_target_blind": true,
+    "propagation_reopened_false": true,
+    "rank_reported_all_stages": true,
+    "raw_feature_inventory_target_blind": true,
+    "reflection_handled_tensorially": true,
+    "spatial_mixing_reported": true,
+    "spin2_transform_derived_without_target": true,
+    "stage_loss_reported": true,
+    "structural_hash_frozen_before_target": true,
+    "targets_loaded_after_structural_freeze": true
+  },
+  "information": "OBSERVER_INFORMATION_BOTTLENECK_ESTABLISHED",
+  "mixing": "RECEIVED_CHANNEL_MIXING_STRONG",
+  "operator_order": "MOMENT_FIRST_EQUIVALENT",
+  "outcome": "WL_OBSERVER_MULTIPLE_DECODING_EFFECTS_ESTABLISHED",
+  "scientific_answers": {
+    "Q1": "Not uniquely decidable: WCS orientation exists but gamma component convention is absent.",
+    "Q10": {
+      "Abell2744": {
+        "ORDER_CURRENT": {
+          "gamma1_pearson": 0.15963721563216143,
+          "gamma1_spearman": 0.09715428188710849,
+          "gamma2_pearson": 0.20242108305073334,
+          "gamma2_spearman": 0.14387459525184157,
+          "magnitude_pearson": 0.2187521646685786,
+          "orientation_agreement": 0.08368696562433091,
+          "rms_ratio": 0.3643595995204813
+        },
+        "ORDER_LOCAL_FIRST": {
+          "gamma1_pearson": 0.10143391441133406,
+          "gamma1_spearman": 0.04064383937623885,
+          "gamma2_pearson": 0.14691226315050243,
+          "gamma2_spearman": 0.07267393651523808,
+          "magnitude_pearson": 0.21982599077744178,
+          "orientation_agreement": 0.02937836891379572,
+          "rms_ratio": 0.7222055968917585
+        },
+        "ORDER_MOMENT_FIRST": {
+          "gamma1_pearson": 0.12224954782681835,
+          "gamma1_spearman": 0.04166390273393111,
+          "gamma2_pearson": 0.13238886535938907,
+          "gamma2_spearman": 0.0736896784777189,
+          "magnitude_pearson": 0.22402336475276535,
+          "orientation_agreement": 0.033260806134835494,
+          "rms_ratio": 0.7571583288967986
+        }
+      },
+      "Abell370": {
+        "ORDER_CURRENT": {
+          "gamma1_pearson": 0.1912653660123157,
+          "gamma1_spearman": 0.10471609765834199,
+          "gamma2_pearson": 0.19343792857237446,
+          "gamma2_spearman": 0.11423619731666207,
+          "magnitude_pearson": 0.20410304647093502,
+          "orientation_agreement": 0.06520217691985924,
+          "rms_ratio": 0.33054110016011723
+        },
+        "ORDER_LOCAL_FIRST": {
+          "gamma1_pearson": 0.11518030528349261,
+          "gamma1_spearman": 0.04393289261423529,
+          "gamma2_pearson": 0.14581084009724168,
+          "gamma2_spearman": 0.055753462836818424,
+          "magnitude_pearson": 0.195937831549167,
+          "orientation_agreement": 0.021781431439696703,
+          "rms_ratio": 0.6190141421046638
+        },
+        "ORDER_MOMENT_FIRST": {
+          "gamma1_pearson": 0.12919432783865908,
+          "gamma1_spearman": 0.04775310237305104,
+          "gamma2_pearson": 0.1331465465910499,
+          "gamma2_spearman": 0.048925971327128046,
+          "magnitude_pearson": 0.18857785540777125,
+          "orientation_agreement": 0.02262244095691973,
+          "rms_ratio": 0.6487659724330189
+        }
+      },
+      "AbellS1063": {
+        "ORDER_CURRENT": {
+          "gamma1_pearson": 0.13825557202787983,
+          "gamma1_spearman": 0.06809022107187113,
+          "gamma2_pearson": 0.12829253502847743,
+          "gamma2_spearman": 0.10944724118301964,
+          "magnitude_pearson": 0.3074009824892171,
+          "orientation_agreement": 0.05865078549436598,
+          "rms_ratio": 0.34801708826751504
+        },
+        "ORDER_LOCAL_FIRST": {
+          "gamma1_pearson": 0.08647715845677537,
+          "gamma1_spearman": 0.019497213533913406,
+          "gamma2_pearson": 0.085704577296314,
+          "gamma2_spearman": 0.06072461763292135,
+          "magnitude_pearson": 0.295359462982653,
+          "orientation_agreement": 0.022386433134111237,
+          "rms_ratio": 0.6122940057703088
+        },
+        "ORDER_MOMENT_FIRST": {
+          "gamma1_pearson": 0.08736572282050649,
+          "gamma1_spearman": 0.022396521347926343,
+          "gamma2_pearson": 0.07586420854163517,
+          "gamma2_spearman": 0.061671082288445214,
+          "magnitude_pearson": 0.27344912878058514,
+          "orientation_agreement": 0.023045552328022318,
+          "rms_ratio": 0.6496485265221718
+        }
+      },
+      "MACS0416": {
+        "ORDER_CURRENT": {
+          "gamma1_pearson": 0.11135040891279771,
+          "gamma1_spearman": 0.07859354265265794,
+          "gamma2_pearson": 0.15921558648021839,
+          "gamma2_spearman": 0.09567555168013583,
+          "magnitude_pearson": 0.26448999407995244,
+          "orientation_agreement": 0.040587106742224995,
+          "rms_ratio": 0.28477162156130575
+        },
+        "ORDER_LOCAL_FIRST": {
+          "gamma1_pearson": 0.08001337778399409,
+          "gamma1_spearman": 0.03131752391748273,
+          "gamma2_pearson": 0.10005796370488913,
+          "gamma2_spearman": 0.04398406954946038,
+          "magnitude_pearson": 0.2440360085196016,
+          "orientation_agreement": 0.004266824828395165,
+          "rms_ratio": 0.5459881375429169
+        },
+        "ORDER_MOMENT_FIRST": {
+          "gamma1_pearson": 0.0758367153659355,
+          "gamma1_spearman": 0.03472492107878901,
+          "gamma2_pearson": 0.10215649899938321,
+          "gamma2_spearman": 0.04437112420774247,
+          "magnitude_pearson": 0.24237948293283118,
+          "orientation_agreement": 0.0033294067166431277,
+          "rms_ratio": 0.5520237753927673
+        }
+      },
+      "MACS1149": {
+        "ORDER_CURRENT": {
+          "gamma1_pearson": 0.09626603255127651,
+          "gamma1_spearman": 0.05703497470844387,
+          "gamma2_pearson": 0.18444301108539785,
+          "gamma2_spearman": 0.1289771371563308,
+          "magnitude_pearson": 0.2092108026174938,
+          "orientation_agreement": 0.05959484575062987,
+          "rms_ratio": 0.17662031492808655
+        },
+        "ORDER_LOCAL_FIRST": {
+          "gamma1_pearson": 0.0439732498489439,
+          "gamma1_spearman": 0.017697011127703555,
+          "gamma2_pearson": 0.11400655536573175,
+          "gamma2_spearman": 0.05708116458560763,
+          "magnitude_pearson": 0.2189807329140327,
+          "orientation_agreement": 0.016932934737475487,
+          "rms_ratio": 0.31771226303742056
+        },
+        "ORDER_MOMENT_FIRST": {
+          "gamma1_pearson": 0.06872741681643356,
+          "gamma1_spearman": 0.021817391525314242,
+          "gamma2_pearson": 0.10782512302445736,
+          "gamma2_spearman": 0.06092641598013288,
+          "magnitude_pearson": 0.22603485840777401,
+          "orientation_agreement": 0.01908688671763799,
+          "rms_ratio": 0.32595424585447014
+        }
+      }
+    },
+    "Q2": "Not applicable; no independently derivable nonidentity transform.",
+    "Q3": {
+      "maximum": 5.053305958790182,
+      "median": 5.020040159803134,
+      "minimum": 5.00535620422444,
+      "stddev": 0.018810115920560613,
+      "values": [
+        5.00535620422444,
+        5.020040159803134,
+        5.040929914050362,
+        5.053305958790182,
+        5.007547650737354
+      ]
+    },
+    "Q4": {
+      "maximum": 6.7651567698340065,
+      "median": 6.718498240193735,
+      "minimum": 6.575794905361559,
+      "stddev": 0.07306074422301174,
+      "values": [
+        6.757046722673917,
+        6.638088441420375,
+        6.7651567698340065,
+        6.575794905361559,
+        6.718498240193735
+      ]
+    },
+    "Q5": "R3_to_R4",
+    "Q6": "RECEIVED_CHANNEL_MIXING_STRONG",
+    "Q7": {
+      "Abell2744": {
+        "range": 0.04112825266461506,
+        "values": [
+          0.7146686330315632,
+          0.7027406149473329,
+          0.6735403803669482,
+          0.7085123752665103
+        ]
+      },
+      "Abell370": {
+        "range": 0.02859726147581121,
+        "values": [
+          0.704708093716196,
+          0.7118910577864067,
+          0.6832937963105955,
+          0.7059475133579229
+        ]
+      },
+      "AbellS1063": {
+        "range": 0.04931133227026152,
+        "values": [
+          0.7368841002447101,
+          0.7216381073004361,
+          0.6946726687049358,
+          0.7439840009751973
+        ]
+      },
+      "MACS0416": {
+        "range": 0.043926872302550435,
+        "values": [
+          0.7144005591273382,
+          0.7323559909770191,
+          0.6884291186744687,
+          0.7143314586333084
+        ]
+      },
+      "MACS1149": {
+        "range": 0.0253348002406113,
+        "values": [
+          0.7103787530248737,
+          0.7017588779621848,
+          0.7214921250272041,
+          0.6961573247865928
+        ]
+      }
+    },
+    "Q8": "Current Jacobian is estimated after grouping by received observer cell.",
+    "Q9": "MOMENT_FIRST_EQUIVALENT"
+  }
+}

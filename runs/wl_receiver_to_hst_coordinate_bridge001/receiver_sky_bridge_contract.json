@@ -1,0 +1,77 @@
+{
+  "bridge_version": "PBUF_RECEIVER_TO_HST_COORDINATE_BRIDGE_V1",
+  "components": {
+    "basis": {
+      "a0_basis_u": [
+        1,
+        0,
+        0
+      ],
+      "a0_basis_v": [
+        0,
+        1,
+        0
+      ],
+      "a0_normal": [
+        0,
+        0,
+        1
+      ],
+      "absolute_sky_orientation_known": false,
+      "classification": "RELATIVE_ORIENTATION_KNOWN",
+      "lineage": [
+        "launch x/y",
+        "propagation global Cartesian x/y",
+        "Dev130 receiver e_u=(1,0,0), e_v=(0,1,0), normal=(0,0,1)",
+        "Dev133 incoming optical frame"
+      ]
+    },
+    "gauge": {
+      "coordinate_gauge_fix_applied": false,
+      "notes": "Internal basis and handedness are fixed. Absolute celestial placement and attitude are absent. Scale is not called gauge-free because scale invariance was not established.",
+      "reflection": "UPSTREAM_FIXED",
+      "rotation": "GAUGE_FREE",
+      "scale": "UNRESOLVED",
+      "translation": "GAUGE_FREE"
+    },
+    "origin": {
+      "a0_origin": "receiver-plane Cartesian origin",
+      "absolute_sky_origin": null,
+      "array_center_assumed": false,
+      "classification": "NUMERICAL_GRID_ORIGIN_ONLY",
+      "origin_resolved": false,
+      "target_alignment_used": false
+    },
+    "scale": {
+      "candidate_sources": [
+        {
+          "classification": "NUMERICAL_ONLY_SCALE",
+          "source": "pbuf.wl.config.EXTENT / m10 CFG extent"
+        },
+        {
+          "classification": "UNRESOLVED",
+          "finding": "SI_length_scale_closed=false",
+          "source": "native_length_scale_mapping_audit001.scale_inventory"
+        }
+      ],
+      "classification": "NUMERICAL_ONLY_SCALE",
+      "conclusion": "No audited grid-unit-to-length or grid-unit-to-angle mapping exists; array dimensions and HST field size were not used.",
+      "coordinate_extent": 8.0,
+      "coordinate_units": "native simulation coordinate",
+      "distance_metadata": null,
+      "physical_or_angular_box_size": null,
+      "redshift_used_as_distance": false,
+      "scale_resolved": false,
+      "target_derived": false
+    }
+  },
+  "hard_independence": {
+    "HST_HEADER_ACCESS": true,
+    "HST_PIXEL_ACCESS": false,
+    "SCIENCE_ARRAY_READ_COUNT": 0,
+    "TARGET_ACCESS": false
+  },
+  "linear_form": "x_sky=O+s R x_A0 when all components are authoritative",
+  "production_bridge_constructed": false,
+  "reverse_definition_complete": false
+}

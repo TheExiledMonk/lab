@@ -1,0 +1,17 @@
+{
+  "arrow_backgrounds": [
+    "receiver-state",
+    "D",
+    "S"
+  ],
+  "mode": "TRANSPORT_RECEIVER",
+  "panes": [
+    "launch coordinates",
+    "transport displacement",
+    "receiver medium state",
+    "transport + receiver orientation"
+  ],
+  "receiver_overlays": [],
+  "sample_stride": 18,
+  "show_transported_test_grid": true
+}

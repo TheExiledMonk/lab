@@ -1,0 +1,321 @@
+{
+  "controls": [
+    {
+      "frequency_emit_native": 4.0,
+      "frequency_observed_native": 4.0,
+      "wavelength_emit_native": 0.25,
+      "wavelength_observed_native": 0.25,
+      "z": 0
+    },
+    {
+      "frequency_emit_native": 2.0,
+      "frequency_observed_native": 2.0,
+      "wavelength_emit_native": 0.5,
+      "wavelength_observed_native": 0.5,
+      "z": 0
+    },
+    {
+      "frequency_emit_native": 1.0,
+      "frequency_observed_native": 1.0,
+      "wavelength_emit_native": 1,
+      "wavelength_observed_native": 1,
+      "z": 0
+    },
+    {
+      "frequency_emit_native": 0.5,
+      "frequency_observed_native": 0.5,
+      "wavelength_emit_native": 2,
+      "wavelength_observed_native": 2,
+      "z": 0
+    },
+    {
+      "frequency_emit_native": 0.25,
+      "frequency_observed_native": 0.25,
+      "wavelength_emit_native": 4,
+      "wavelength_observed_native": 4,
+      "z": 0
+    },
+    {
+      "frequency_emit_native": 4.0,
+      "frequency_observed_native": 3.9603960396039604,
+      "wavelength_emit_native": 0.25,
+      "wavelength_observed_native": 0.2525,
+      "z": 0.01
+    },
+    {
+      "frequency_emit_native": 2.0,
+      "frequency_observed_native": 1.9801980198019802,
+      "wavelength_emit_native": 0.5,
+      "wavelength_observed_native": 0.505,
+      "z": 0.01
+    },
+    {
+      "frequency_emit_native": 1.0,
+      "frequency_observed_native": 0.9900990099009901,
+      "wavelength_emit_native": 1,
+      "wavelength_observed_native": 1.01,
+      "z": 0.01
+    },
+    {
+      "frequency_emit_native": 0.5,
+      "frequency_observed_native": 0.49504950495049505,
+      "wavelength_emit_native": 2,
+      "wavelength_observed_native": 2.02,
+      "z": 0.01
+    },
+    {
+      "frequency_emit_native": 0.25,
+      "frequency_observed_native": 0.24752475247524752,
+      "wavelength_emit_native": 4,
+      "wavelength_observed_native": 4.04,
+      "z": 0.01
+    },
+    {
+      "frequency_emit_native": 4.0,
+      "frequency_observed_native": 3.8095238095238093,
+      "wavelength_emit_native": 0.25,
+      "wavelength_observed_native": 0.2625,
+      "z": 0.05
+    },
+    {
+      "frequency_emit_native": 2.0,
+      "frequency_observed_native": 1.9047619047619047,
+      "wavelength_emit_native": 0.5,
+      "wavelength_observed_native": 0.525,
+      "z": 0.05
+    },
+    {
+      "frequency_emit_native": 1.0,
+      "frequency_observed_native": 0.9523809523809523,
+      "wavelength_emit_native": 1,
+      "wavelength_observed_native": 1.05,
+      "z": 0.05
+    },
+    {
+      "frequency_emit_native": 0.5,
+      "frequency_observed_native": 0.47619047619047616,
+      "wavelength_emit_native": 2,
+      "wavelength_observed_native": 2.1,
+      "z": 0.05
+    },
+    {
+      "frequency_emit_native": 0.25,
+      "frequency_observed_native": 0.23809523809523808,
+      "wavelength_emit_native": 4,
+      "wavelength_observed_native": 4.2,
+      "z": 0.05
+    },
+    {
+      "frequency_emit_native": 4.0,
+      "frequency_observed_native": 3.6363636363636362,
+      "wavelength_emit_native": 0.25,
+      "wavelength_observed_native": 0.275,
+      "z": 0.1
+    },
+    {
+      "frequency_emit_native": 2.0,
+      "frequency_observed_native": 1.8181818181818181,
+      "wavelength_emit_native": 0.5,
+      "wavelength_observed_native": 0.55,
+      "z": 0.1
+    },
+    {
+      "frequency_emit_native": 1.0,
+      "frequency_observed_native": 0.9090909090909091,
+      "wavelength_emit_native": 1,
+      "wavelength_observed_native": 1.1,
+      "z": 0.1
+    },
+    {
+      "frequency_emit_native": 0.5,
+      "frequency_observed_native": 0.45454545454545453,
+      "wavelength_emit_native": 2,
+      "wavelength_observed_native": 2.2,
+      "z": 0.1
+    },
+    {
+      "frequency_emit_native": 0.25,
+      "frequency_observed_native": 0.22727272727272727,
+      "wavelength_emit_native": 4,
+      "wavelength_observed_native": 4.4,
+      "z": 0.1
+    },
+    {
+      "frequency_emit_native": 4.0,
+      "frequency_observed_native": 3.2,
+      "wavelength_emit_native": 0.25,
+      "wavelength_observed_native": 0.3125,
+      "z": 0.25
+    },
+    {
+      "frequency_emit_native": 2.0,
+      "frequency_observed_native": 1.6,
+      "wavelength_emit_native": 0.5,
+      "wavelength_observed_native": 0.625,
+      "z": 0.25
+    },
+    {
+      "frequency_emit_native": 1.0,
+      "frequency_observed_native": 0.8,
+      "wavelength_emit_native": 1,
+      "wavelength_observed_native": 1.25,
+      "z": 0.25
+    },
+    {
+      "frequency_emit_native": 0.5,
+      "frequency_observed_native": 0.4,
+      "wavelength_emit_native": 2,
+      "wavelength_observed_native": 2.5,
+      "z": 0.25
+    },
+    {
+      "frequency_emit_native": 0.25,
+      "frequency_observed_native": 0.2,
+      "wavelength_emit_native": 4,
+      "wavelength_observed_native": 5.0,
+      "z": 0.25
+    },
+    {
+      "frequency_emit_native": 4.0,
+      "frequency_observed_native": 2.6666666666666665,
+      "wavelength_emit_native": 0.25,
+      "wavelength_observed_native": 0.375,
+      "z": 0.5
+    },
+    {
+      "frequency_emit_native": 2.0,
+      "frequency_observed_native": 1.3333333333333333,
+      "wavelength_emit_native": 0.5,
+      "wavelength_observed_native": 0.75,
+      "z": 0.5
+    },
+    {
+      "frequency_emit_native": 1.0,
+      "frequency_observed_native": 0.6666666666666666,
+      "wavelength_emit_native": 1,
+      "wavelength_observed_native": 1.5,
+      "z": 0.5
+    },
+    {
+      "frequency_emit_native": 0.5,
+      "frequency_observed_native": 0.3333333333333333,
+      "wavelength_emit_native": 2,
+      "wavelength_observed_native": 3.0,
+      "z": 0.5
+    },
+    {
+      "frequency_emit_native": 0.25,
+      "frequency_observed_native": 0.16666666666666666,
+      "wavelength_emit_native": 4,
+      "wavelength_observed_native": 6.0,
+      "z": 0.5
+    },
+    {
+      "frequency_emit_native": 4.0,
+      "frequency_observed_native": 2.0,
+      "wavelength_emit_native": 0.25,
+      "wavelength_observed_native": 0.5,
+      "z": 1
+    },
+    {
+      "frequency_emit_native": 2.0,
+      "frequency_observed_native": 1.0,
+      "wavelength_emit_native": 0.5,
+      "wavelength_observed_native": 1.0,
+      "z": 1
+    },
+    {
+      "frequency_emit_native": 1.0,
+      "frequency_observed_native": 0.5,
+      "wavelength_emit_native": 1,
+      "wavelength_observed_native": 2,
+      "z": 1
+    },
+    {
+      "frequency_emit_native": 0.5,
+      "frequency_observed_native": 0.25,
+      "wavelength_emit_native": 2,
+      "wavelength_observed_native": 4,
+      "z": 1
+    },
+    {
+      "frequency_emit_native": 0.25,
+      "frequency_observed_native": 0.125,
+      "wavelength_emit_native": 4,
+      "wavelength_observed_native": 8,
+      "z": 1
+    },
+    {
+      "frequency_emit_native": 4.0,
+      "frequency_observed_native": 1.3333333333333333,
+      "wavelength_emit_native": 0.25,
+      "wavelength_observed_native": 0.75,
+      "z": 2
+    },
+    {
+      "frequency_emit_native": 2.0,
+      "frequency_observed_native": 0.6666666666666666,
+      "wavelength_emit_native": 0.5,
+      "wavelength_observed_native": 1.5,
+      "z": 2
+    },
+    {
+      "frequency_emit_native": 1.0,
+      "frequency_observed_native": 0.3333333333333333,
+      "wavelength_emit_native": 1,
+      "wavelength_observed_native": 3,
+      "z": 2
+    },
+    {
+      "frequency_emit_native": 0.5,
+      "frequency_observed_native": 0.16666666666666666,
+      "wavelength_emit_native": 2,
+      "wavelength_observed_native": 6,
+      "z": 2
+    },
+    {
+      "frequency_emit_native": 0.25,
+      "frequency_observed_native": 0.08333333333333333,
+      "wavelength_emit_native": 4,
+      "wavelength_observed_native": 12,
+      "z": 2
+    },
+    {
+      "frequency_emit_native": 4.0,
+      "frequency_observed_native": 0.8,
+      "wavelength_emit_native": 0.25,
+      "wavelength_observed_native": 1.25,
+      "z": 4
+    },
+    {
+      "frequency_emit_native": 2.0,
+      "frequency_observed_native": 0.4,
+      "wavelength_emit_native": 0.5,
+      "wavelength_observed_native": 2.5,
+      "z": 4
+    },
+    {
+      "frequency_emit_native": 1.0,
+      "frequency_observed_native": 0.2,
+      "wavelength_emit_native": 1,
+      "wavelength_observed_native": 5,
+      "z": 4
+    },
+    {
+      "frequency_emit_native": 0.5,
+      "frequency_observed_native": 0.1,
+      "wavelength_emit_native": 2,
+      "wavelength_observed_native": 10,
+      "z": 4
+    },
+    {
+      "frequency_emit_native": 0.25,
+      "frequency_observed_native": 0.05,
+      "wavelength_emit_native": 4,
+      "wavelength_observed_native": 20,
+      "z": 4
+    }
+  ],
+  "dimensionless_only": true,
+  "truth_hidden_from_inversion": true
+}

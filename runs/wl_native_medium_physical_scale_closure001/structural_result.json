@@ -1,0 +1,21 @@
+{
+  "calibration_plan_sha256": "bc60abf3d6e6bd33c50bfb553479bf34353d8b8964b911e61f889dbb6184fb7f",
+  "dev136_expected": {
+    "ledger": "4fb1609ba1743c49226300033daf3b98fb9168e6aa8e549d39215bcaf41bfbf7",
+    "lineage": "2d018b7994606d9e81045d96c9f565f3a396ebb5bf5f1afd9147fa6e94257c25",
+    "structural": "ca8efcb5319613d2e9d1308524014f196755d36aab99b14dec63426aea480579"
+  },
+  "dimensional_rank_sha256": "50271a86e7f862c126516fd44edb744364d27e5f889bd1f18cc0c9eef7fc437a",
+  "frozen_production_changes": {
+    "ARRIVAL_FORMATION_CHANGES": 0,
+    "BOUNDED_STRAIN_LAW_CHANGES": 0,
+    "FAST_SLOW_TRANSFER_CHANGES": 0,
+    "MEDIUM_RESPONSE_LAW_CHANGES": 0,
+    "PROPAGATION_CHANGES": 0,
+    "RECEIVER_CHANGES": 0,
+    "TRAJECTORY_CHANGES": 0
+  },
+  "medium_unit_contract_sha256": "40c7bc80c903ad20be999d315e016ce7d2c7faad7cd693a558775658f7332257",
+  "preanchor_candidates_sha256": "4df1b534a62e178e07c2597c1cea51a5981eb91a199d8e5bbd98a6b5bf379e8f",
+  "result_schema": "DEV137_V1"
+}

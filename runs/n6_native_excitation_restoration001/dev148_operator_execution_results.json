@@ -1,0 +1,191 @@
+{
+  "rows": [
+    {
+      "array_output": true,
+      "executed": true,
+      "finite": true,
+      "input_norm": 59.29088832294685,
+      "input_shape": [
+        20,
+        18,
+        16,
+        2
+      ],
+      "is_state_to_state": false,
+      "linear": true,
+      "norm_ratio": 0.604223199505079,
+      "operator_id": "O01",
+      "output_norm": 35.82493024398927,
+      "output_shape": [
+        6,
+        20,
+        18,
+        16,
+        2
+      ]
+    },
+    {
+      "array_output": true,
+      "executed": true,
+      "finite": true,
+      "input_norm": 59.29088832294685,
+      "input_shape": [
+        20,
+        18,
+        16,
+        2
+      ],
+      "is_state_to_state": false,
+      "linear": true,
+      "norm_ratio": 0.28005291996770726,
+      "operator_id": "O02",
+      "output_norm": 16.604586402320503,
+      "output_shape": [
+        3,
+        20,
+        18,
+        16,
+        2
+      ]
+    },
+    {
+      "array_output": true,
+      "executed": true,
+      "finite": true,
+      "input_norm": 59.29088832294685,
+      "input_shape": [
+        20,
+        18,
+        16,
+        2
+      ],
+      "is_state_to_state": true,
+      "linear": true,
+      "norm_ratio": 0.14908232894661175,
+      "operator_id": "O03",
+      "output_norm": 8.839223716498383,
+      "output_shape": [
+        20,
+        18,
+        16,
+        2
+      ]
+    },
+    {
+      "array_output": false,
+      "executed": true,
+      "operator_id": "O04",
+      "reason": "oriented circulation requires link/edge values; X is node based",
+      "status": "STATE_PLACEMENT_MISMATCH"
+    },
+    {
+      "array_output": false,
+      "executed": true,
+      "operator_id": "O05",
+      "reason": "3D curl requires a spatial 3-vector or defined link cochain; X has two internal components",
+      "status": "STATE_RANK_MISMATCH"
+    },
+    {
+      "array_output": true,
+      "executed": true,
+      "finite": true,
+      "input_norm": 59.29088832294685,
+      "input_shape": [
+        20,
+        18,
+        16,
+        2
+      ],
+      "is_state_to_state": false,
+      "linear": true,
+      "norm_ratio": 6.000000000000001,
+      "operator_id": "O06",
+      "output_norm": 355.74532993768116,
+      "output_shape": [
+        6,
+        20,
+        18,
+        16,
+        2
+      ]
+    },
+    {
+      "array_output": true,
+      "executed": true,
+      "finite": true,
+      "input_norm": 59.29088832294685,
+      "input_shape": [
+        20,
+        18,
+        16,
+        2
+      ],
+      "is_state_to_state": false,
+      "linear": true,
+      "norm_ratio": 1.120211679870829,
+      "operator_id": "O07",
+      "output_norm": 66.41834560928201,
+      "output_shape": [
+        3,
+        20,
+        18,
+        16,
+        2
+      ]
+    },
+    {
+      "array_output": true,
+      "executed": true,
+      "finite": true,
+      "input_norm": 59.29088832294685,
+      "input_shape": [
+        20,
+        18,
+        16,
+        2
+      ],
+      "is_state_to_state": true,
+      "linear": true,
+      "norm_ratio": 0.14908232894661175,
+      "operator_id": "O08",
+      "output_norm": 8.839223716498383,
+      "output_shape": [
+        20,
+        18,
+        16,
+        2
+      ]
+    },
+    {
+      "array_output": false,
+      "executed": true,
+      "operator_id": "O09",
+      "reason": "no native map from spatial divergence/circulation outputs back to the two internal modes",
+      "status": "OPERATOR_UNDERDEFINED"
+    },
+    {
+      "array_output": true,
+      "executed": true,
+      "finite": true,
+      "input_norm": 59.29088832294685,
+      "input_shape": [
+        20,
+        18,
+        16,
+        2
+      ],
+      "is_state_to_state": false,
+      "linear": true,
+      "norm_ratio": 6.000000000000001,
+      "operator_id": "O10",
+      "output_norm": 355.74532993768116,
+      "output_shape": [
+        6,
+        20,
+        18,
+        16,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "id": "RSP01",
+      "name": "orientation only"
+    },
+    {
+      "id": "RSP02",
+      "name": "progression allocation"
+    },
+    {
+      "id": "RSP03",
+      "name": "reversible amplitude redistribution"
+    },
+    {
+      "id": "RSP04",
+      "name": "local wavelength adjustment"
+    },
+    {
+      "id": "RSP05",
+      "name": "mode redistribution"
+    },
+    {
+      "id": "RSP06",
+      "name": "polarization rotation"
+    },
+    {
+      "id": "RSP07",
+      "name": "handedness rotation"
+    },
+    {
+      "id": "RSP08",
+      "name": "neighbor-transfer preference"
+    },
+    {
+      "id": "RSP09",
+      "name": "state-space capacity modification"
+    },
+    {
+      "id": "RSP10",
+      "name": "reversible excitation/loading exchange"
+    },
+    {
+      "id": "RSP11",
+      "name": "transverse-to-longitudinal conversion"
+    },
+    {
+      "id": "RSP12",
+      "name": "no response"
+    }
+  ],
+  "count": 12
+}

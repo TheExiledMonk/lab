@@ -1,0 +1,42 @@
+{
+  "R0_received_state": {
+    "centroid_distance": 1.8233634900531956,
+    "mahalanobis_distance": 0.486686271910608,
+    "within_between_ratio": 28.024870036490697
+  },
+  "R1_dual_coordinate_raw": {
+    "centroid_distance": 2.579067387341835,
+    "mahalanobis_distance": 0.4871415651695828,
+    "within_between_ratio": 28.01616308491268
+  },
+  "R2_first_order_transport": {
+    "centroid_distance": 2.579068302304542,
+    "mahalanobis_distance": 0.5041544268521179,
+    "within_between_ratio": 28.017310747563652
+  },
+  "R3_second_order_transport": {
+    "centroid_distance": 2.5791237563920606,
+    "mahalanobis_distance": 0.5302477917537093,
+    "within_between_ratio": 28.605768920563797
+  },
+  "R4_reconstructed_transport_bank": {
+    "centroid_distance": 0.7817879326759406,
+    "mahalanobis_distance": 0.7707257003427402,
+    "within_between_ratio": 4.544009667090644
+  },
+  "R5_reconstructed_geometric_image_bank": {
+    "centroid_distance": 0.7793310310242308,
+    "mahalanobis_distance": 1.516445112672364,
+    "within_between_ratio": 2.6021604811357597
+  },
+  "R6_direct_spin2_geometric_bank": {
+    "centroid_distance": 0.0012414629288929357,
+    "mahalanobis_distance": 0.03138449157206639,
+    "within_between_ratio": 3416.813834713355
+  },
+  "R7_current_observer_R4": {
+    "centroid_distance": 1.8233634713757865,
+    "mahalanobis_distance": 0.4602315111963471,
+    "within_between_ratio": 28.024869512946363
+  }
+}

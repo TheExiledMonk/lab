@@ -1,0 +1,42 @@
+[
+  {
+    "current_availability": "AVAILABLE",
+    "field_group": "trajectory raw state",
+    "forward_relevance": "latent",
+    "loss_status": "NO_LOSS",
+    "origin_stage": "Dev128",
+    "recoverability": "EXACT_OR_IMMUTABLE_REFERENCE",
+    "representation": "REFERENCE",
+    "reverse_relevance": "required"
+  },
+  {
+    "current_availability": "AVAILABLE",
+    "field_group": "receiver endpoint/depth/path",
+    "forward_relevance": "candidate/latent",
+    "loss_status": "NO_LOSS",
+    "origin_stage": "Dev129",
+    "recoverability": "EXACT_OR_IMMUTABLE_REFERENCE",
+    "representation": "DIRECT_OR_REFERENCE",
+    "reverse_relevance": "required"
+  },
+  {
+    "current_availability": "AVAILABLE",
+    "field_group": "arrival position/direction/incidence",
+    "forward_relevance": "required",
+    "loss_status": "NO_LOSS",
+    "origin_stage": "Dev130",
+    "recoverability": "EXACT_OR_IMMUTABLE_REFERENCE",
+    "representation": "DIRECT",
+    "reverse_relevance": "required"
+  },
+  {
+    "current_availability": "AVAILABLE",
+    "field_group": "interaction eligibility/indices/conditioning",
+    "forward_relevance": "required",
+    "loss_status": "NO_LOSS",
+    "origin_stage": "Dev131",
+    "recoverability": "EXACT_OR_IMMUTABLE_REFERENCE",
+    "representation": "DERIVED_RECOMPUTABLE",
+    "reverse_relevance": "required"
+  }
+]

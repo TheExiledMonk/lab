@@ -1,0 +1,15 @@
+{
+  "classification": "SPATIAL_STEP_ONLY",
+  "parameters": [
+    {
+      "classification": "SPATIAL_STEP_ONLY",
+      "monotonic": true,
+      "name": "PropagationConfig.step / loop index",
+      "physical_time_interpretation_established": false,
+      "relation_to_direction_update": "indexes successive spatial tangent updates",
+      "relation_to_spatial_displacement": "direct native-coordinate integration increment",
+      "units_provenance": "native coordinate displacement; no clock state",
+      "update_equation": "position_next = position + step * unit_direction + response correction"
+    }
+  ]
+}

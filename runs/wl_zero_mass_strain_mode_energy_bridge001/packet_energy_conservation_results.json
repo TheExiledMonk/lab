@@ -1,0 +1,7 @@
+{
+  "interpretation": "Array translations diagnose candidate bookkeeping but do not derive dynamic medium propagation.",
+  "native_control_only": true,
+  "propagation_law_available": false,
+  "reason": "No native dynamic perturbation evolution exists; translating a fixed array conserves by construction.",
+  "status": "RELATION_ONLY"
+}

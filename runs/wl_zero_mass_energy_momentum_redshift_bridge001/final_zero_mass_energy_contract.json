@@ -1,0 +1,18 @@
+{
+  "L0_required": null,
+  "absolute_energy_established": false,
+  "absolute_momentum_established": false,
+  "contract": "PBUF_ZERO_MASS_ENERGY_TRANSPORT_V1",
+  "energy_transport_driver": null,
+  "energy_transport_law_established": false,
+  "free_coefficients": 0,
+  "localized_medium_energy_behavior": "UNDEFINED",
+  "momentum_direction_available": true,
+  "momentum_magnitude_available": false,
+  "relative_energy_established": false,
+  "relative_momentum_established": false,
+  "reversible": null,
+  "scale_free": false,
+  "time_required": false,
+  "uniform_medium_energy_behavior": "ENERGY_LAW_UNAVAILABLE (synthetic zero-Q control conserves)"
+}

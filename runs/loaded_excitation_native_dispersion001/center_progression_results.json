@@ -1,0 +1,16 @@
+{
+  "beta_measured": false,
+  "history_centers": null,
+  "initial_center_diagnostics": {
+    "C01": 0.0,
+    "C02": null,
+    "C02_status": "ENERGY_LIKE_WEIGHT_UNESTABLISHED",
+    "C03": 0.0,
+    "C04": 0.0,
+    "C05": 0.0,
+    "C06": null,
+    "C06_status": "CONSERVED_NORM_UNESTABLISHED"
+  },
+  "native_dynamics_executed": false,
+  "reason": "No native local excitation update, internal-state evolution, or loaded packet transfer law exists."
+}

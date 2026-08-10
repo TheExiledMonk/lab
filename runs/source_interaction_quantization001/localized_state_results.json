@@ -1,0 +1,14 @@
+{
+  "composite_observables": {
+    "classification": "SYNTHETIC_OVERLAP_NOT_BOUND",
+    "escaped_excitation_norm": null,
+    "internal_k_n": 0.39269908169872414,
+    "internal_wavelength": 16.0,
+    "loading_integral": 22.55965227992133,
+    "localized_excitation_norm": null,
+    "spatial_support": 168,
+    "total_internal_excitation_norm": 42.337191436102216
+  },
+  "reason": "No coefficient-free native loading/excitation coupling exists; synthetic overlap is not binding.",
+  "status": "MISSING_INTERACTION_LAW"
+}

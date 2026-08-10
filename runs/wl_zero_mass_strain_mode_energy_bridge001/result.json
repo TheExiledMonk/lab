@@ -1,0 +1,61 @@
+{
+  "A01_A16_attempted": true,
+  "P01_P30_attempted": true,
+  "baseline": {
+    "DEV141_AUDIT_COMPLETE": true,
+    "DEV141_KNOWN_DEPTH_RECONSTRUCTION_PARITY": true,
+    "DEV141_REQUIRED_OUTCOMES": true,
+    "DEV142_AUDIT_COMPLETE": true,
+    "DEV142_BLIND_ENERGY_STOP_SHA256": true,
+    "DEV142_REQUIRED_OUTCOMES": true
+  },
+  "guards": {
+    "ARRIVAL_FORMATION_CHANGES": 0,
+    "BOUNDED_STRAIN_LAW_CHANGES": 0,
+    "COMPLEX_AMPLITUDE_ASSUMED": false,
+    "FAST_SLOW_TRANSFER_CHANGES": 0,
+    "FUNDAMENTAL_TIME_DIMENSION_ASSUMED": false,
+    "KNOWN_DEPTH_RECONSTRUCTION_CHANGES": 0,
+    "MEDIUM_STATIC_RESPONSE_CHANGES": 0,
+    "NATIVE_T0_PRIMITIVE_USED": false,
+    "NATIVE_TIME_COORDINATE_CREATED": false,
+    "PHASE_ASSUMED": false,
+    "PROPAGATION_CHANGES": 0,
+    "RECEIVER_CHANGES": 0,
+    "SOLVER_ITERATION_USED_AS_TIME": false,
+    "TRAJECTORY_CHANGES": 0
+  },
+  "outcomes": [
+    "WL_PBUF_ZERO_MASS_STRAIN_MODE_SCALAR_UNRESOLVED",
+    "WL_PBUF_ZERO_MASS_MODE_REQUIRES_ADDITIONAL_NATIVE_DEGREE_OF_FREEDOM"
+  ],
+  "phases_executed": [
+    "Phase A",
+    "Phase B",
+    "Phase C",
+    "Phase D",
+    "Phase E",
+    "Phase F",
+    "Phase G",
+    "Phase H",
+    "Phase I",
+    "Phase J",
+    "Phase K",
+    "Phase L",
+    "Phase M",
+    "Phase N",
+    "Phase O",
+    "Phase P",
+    "Phase Q",
+    "Phase R",
+    "Phase S",
+    "Phase T",
+    "Phase U",
+    "Phase V",
+    "Phase W",
+    "Phase X",
+    "Phase Y"
+  ],
+  "scientific_conclusion": "Exact incremental medium energy is definable, but the frozen model supplies no dynamic perturbation state or transport law capable of establishing it as a carried zero-mass mode scalar.",
+  "status": "DEV143_AUDIT_COMPLETE"
+}

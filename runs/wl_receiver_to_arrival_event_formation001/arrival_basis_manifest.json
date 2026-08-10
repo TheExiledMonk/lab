@@ -1,0 +1,37 @@
+{
+  "construction_method": "native Cartesian basis; nominal fixed-step termination w=step*(steps-1)",
+  "e_u": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "e_v": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "handedness": "RIGHT_HANDED_EU_CROSS_EV_EQUALS_NORMAL",
+  "hst_pixel_access": false,
+  "normal": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "normalization_errors": {
+    "e_u": 0.0,
+    "e_v": 0.0,
+    "normal": 0.0
+  },
+  "origin": [
+    0.0,
+    0.0,
+    4.77
+  ],
+  "orthogonality_errors": {
+    "eu_ev": 0.0,
+    "eu_n": 0.0,
+    "ev_n": 0.0
+  },
+  "source_module": "pbuf.labs.foundation.los_consistent_ray_geometry001._propagate_g3d",
+  "target_access": false
+}

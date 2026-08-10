@@ -1,0 +1,24 @@
+{
+  "MOMENTUM_DIRECTION_AVAILABLE": true,
+  "MOMENTUM_MAGNITUDE_AVAILABLE": false,
+  "inventory": [
+    {
+      "available": true,
+      "component": "momentum direction only",
+      "name": "unit propagation direction",
+      "status": "ESTABLISHED"
+    },
+    {
+      "available": false,
+      "component": "magnitude",
+      "name": "scalar momentum magnitude",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "available": false,
+      "component": "vector",
+      "name": "momentum vector p n_hat",
+      "status": "MISSING_NATIVE_STATE"
+    }
+  ]
+}

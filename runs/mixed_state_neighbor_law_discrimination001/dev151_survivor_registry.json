@@ -1,0 +1,88 @@
+{
+  "survivors": [
+    {
+      "basis_invariant": true,
+      "coefficient_free": true,
+      "constitutive_law_id": "C08",
+      "coordinate_status": "COVARIANT",
+      "dynamic_parity_score": 1.0,
+      "executable": true,
+      "free_parameter_count": 0,
+      "mechanism_id": "MEC12",
+      "resolution_status": "DEV151_PARITY",
+      "state_representation": "(L,X1,X2)",
+      "static_parity_score": 1.0,
+      "survivor_id": "S-C08"
+    },
+    {
+      "basis_invariant": true,
+      "coefficient_free": true,
+      "constitutive_law_id": "C10",
+      "coordinate_status": "COVARIANT",
+      "dynamic_parity_score": 1.0,
+      "executable": true,
+      "free_parameter_count": 0,
+      "mechanism_id": "MEC15",
+      "resolution_status": "DEV151_PARITY",
+      "state_representation": "(L,X1,X2)",
+      "static_parity_score": 1.0,
+      "survivor_id": "S-C10"
+    },
+    {
+      "basis_invariant": true,
+      "coefficient_free": true,
+      "constitutive_law_id": "C12",
+      "coordinate_status": "COVARIANT",
+      "dynamic_parity_score": 1.0,
+      "executable": true,
+      "free_parameter_count": 0,
+      "mechanism_id": "MEC02",
+      "resolution_status": "DEV151_PARITY",
+      "state_representation": "(L,X1,X2)",
+      "static_parity_score": 1.0,
+      "survivor_id": "S-C12"
+    },
+    {
+      "basis_invariant": true,
+      "coefficient_free": true,
+      "constitutive_law_id": "C13",
+      "coordinate_status": "COVARIANT",
+      "dynamic_parity_score": 1.0,
+      "executable": true,
+      "free_parameter_count": 0,
+      "mechanism_id": "MEC06",
+      "resolution_status": "DEV151_PARITY",
+      "state_representation": "(L,X1,X2)",
+      "static_parity_score": 1.0,
+      "survivor_id": "S-C13"
+    },
+    {
+      "basis_invariant": true,
+      "coefficient_free": true,
+      "constitutive_law_id": "C16",
+      "coordinate_status": "COVARIANT",
+      "dynamic_parity_score": 1.0,
+      "executable": true,
+      "free_parameter_count": 0,
+      "mechanism_id": "MEC17",
+      "resolution_status": "DEV151_PARITY",
+      "state_representation": "(L,X1,X2)",
+      "static_parity_score": 1.0,
+      "survivor_id": "S-C16"
+    },
+    {
+      "basis_invariant": true,
+      "coefficient_free": true,
+      "constitutive_law_id": "C18",
+      "coordinate_status": "COVARIANT",
+      "dynamic_parity_score": 1.0,
+      "executable": true,
+      "free_parameter_count": 0,
+      "mechanism_id": "MEC18",
+      "resolution_status": "DEV151_PARITY",
+      "state_representation": "(L,X1,X2)",
+      "static_parity_score": 1.0,
+      "survivor_id": "S-C18"
+    }
+  ]
+}

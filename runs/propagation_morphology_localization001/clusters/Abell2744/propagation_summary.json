@@ -1,0 +1,16 @@
+{
+  "cluster_id": "Abell2744",
+  "n_photons": 71289,
+  "checkpoint_count": 9,
+  "production_parity_rms": 0.0,
+  "production_parity_max": 0.0,
+  "production_parity_pass": true,
+  "source_supported_bins": 1024,
+  "los_mag_vs_observed_pearson": 0.7697236967097444,
+  "los_mag_vs_observed_spearman": 0.671986686945565,
+  "first_finite_linear_step": 1,
+  "final_linear_vs_observed_pearson": 0.03156909268108031,
+  "final_linear_vs_observed_spearman": 0.07095577256634003,
+  "final_displacement_mag_vs_observed_pearson": NaN,
+  "final_velocity_change_mag_vs_observed_pearson": 0.24615078859618708
+}

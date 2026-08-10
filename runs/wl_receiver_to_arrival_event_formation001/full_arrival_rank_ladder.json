@@ -1,0 +1,34 @@
+[
+  {
+    "channel_count": 135,
+    "condition_number": 4500.46244763784,
+    "deterministic_rank_sample_count": 20082,
+    "effective_rank": 24.50901504502906,
+    "numerical_rank": 115,
+    "retained_sample_count": 20082,
+    "stage": "F0",
+    "variance_dimension_95": 44,
+    "variance_dimension_99": 61
+  },
+  {
+    "channel_count": 152,
+    "condition_number": 25833651684.518192,
+    "deterministic_rank_sample_count": 20082,
+    "effective_rank": 25.03016811153183,
+    "numerical_rank": 126,
+    "retained_sample_count": 20082,
+    "stage": "F1",
+    "variance_dimension_95": 46,
+    "variance_dimension_99": 63
+  },
+  {
+    "channel_count": 0,
+    "condition_number": null,
+    "deterministic_rank_sample_count": 20082,
+    "effective_rank": 0.0,
+    "retained_sample_count": 0,
+    "stage": "F2",
+    "variance_dimension_95": 0,
+    "variance_dimension_99": 0
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "classification": "GEOMETRIC_TRACER_ONLY",
+  "excitation_path_proxy_gate": false,
+  "neighbor_choice": "interpolated field steering",
+  "reason": "no independently initialized, non-geometric state is transported"
+}

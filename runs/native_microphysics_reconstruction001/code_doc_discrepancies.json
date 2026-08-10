@@ -1,0 +1,52 @@
+[
+  {
+    "classification": "EXACT",
+    "exact_difference": "Exact for frame-aware one-neighbor progression.",
+    "statement": "X_j = R_ij X_i"
+  },
+  {
+    "classification": "EXACT",
+    "exact_difference": "SVD polar factor enforces this numerically.",
+    "statement": "R_ij^T R_ij = I"
+  },
+  {
+    "classification": "EXACT",
+    "exact_difference": "Follows per transported vector.",
+    "statement": "|X_j|^2 = |X_i|^2"
+  },
+  {
+    "classification": "APPROXIMATE_DESCRIPTION",
+    "exact_difference": "Dev153 establishes absence of a derived nontrivial C; identity is the null control, not a separately discovered constitutive law.",
+    "statement": "C_ij = I in established Dev153 result"
+  },
+  {
+    "classification": "EXACT",
+    "exact_difference": "Named amp in observer.",
+    "statement": "rho_a = X1_a^2 + X2_a^2"
+  },
+  {
+    "classification": "EQUIVALENT",
+    "exact_difference": "It is a 1D index-weighted linear mean, not a general spatial vector or circular mean.",
+    "statement": "centroid is density-weighted spatial mean"
+  },
+  {
+    "classification": "EQUIVALENT",
+    "exact_difference": "The code returns centroid history; packet_path artifacts interpret it as trajectory.",
+    "statement": "trajectory is centroid sequence"
+  },
+  {
+    "classification": "INCORRECT",
+    "exact_difference": "No excitation direction estimator exists.",
+    "statement": "direction comes from centroid differences"
+  },
+  {
+    "classification": "INCORRECT",
+    "exact_difference": "No excitation curvature estimator exists; separate WL geometry code has curvature.",
+    "statement": "curvature comes from tangent differences"
+  },
+  {
+    "classification": "EXACT",
+    "exact_difference": "Dev153 execute applies the same fixed rotation irrespective of load.",
+    "statement": "loaded and unloaded packet paths are identical in Dev153"
+  }
+]

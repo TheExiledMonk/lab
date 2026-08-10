@@ -1,0 +1,9 @@
+{
+  "PBUF_LOADED_LINK_TRANSVERSE_RESPONSE_ESTABLISHED": false,
+  "PBUF_UNIQUE_LOADED_LINK_TRANSVERSE_RESPONSE_LAW_SELECTED": false,
+  "descriptor_equivalence_class_established": false,
+  "loaded_link_response_established": false,
+  "outcome": "PBUF_ESTABLISHED_LONGITUDINAL_LINK_STATE_INSUFFICIENT_FOR_TRANSVERSE_RESPONSE",
+  "reason": "Frozen Dev151/152 structure supplies orthogonal R but no L-dependent transverse Hessian, metric, allocation, or conservative exchange map.",
+  "unique_law_selected": false
+}

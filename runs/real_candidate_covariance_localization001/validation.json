@@ -1,0 +1,52 @@
+{
+  "lab_id": "PBUF-FOUNDATION-REAL-CANDIDATE-COVARIANCE-LOCALIZATION-001",
+  "head_sha": "73febbc277e65eca12f7835bed8255dc5c36a650",
+  "outcome": "Outcome E \u2014 PAIR-RESPONSE COVARIANCE FAILURE",
+  "first_failure_threshold": 1e-08,
+  "first_failure": {
+    "RC0": {
+      "first_failure_checkpoint": null,
+      "relative_error": null,
+      "previous_checkpoint": "interface",
+      "previous_relative_error": 0.0
+    },
+    "RC1": {
+      "first_failure_checkpoint": null,
+      "relative_error": null,
+      "previous_checkpoint": "interface",
+      "previous_relative_error": 8.99265912922513e-16
+    },
+    "RC2": {
+      "first_failure_checkpoint": null,
+      "relative_error": null,
+      "previous_checkpoint": "interface",
+      "previous_relative_error": 1.3948670028773022e-15
+    },
+    "RC3": {
+      "first_failure_checkpoint": null,
+      "relative_error": null,
+      "previous_checkpoint": "interface",
+      "previous_relative_error": 1.2054063129473219e-15
+    },
+    "RC4": {
+      "first_failure_checkpoint": "pair_response_oriented",
+      "relative_error": 1.3592573811593276,
+      "previous_checkpoint": "pair_amplitude_oriented",
+      "previous_relative_error": 2.977927065169342e-16
+    },
+    "RC5": {
+      "first_failure_checkpoint": "pair_response_oriented",
+      "relative_error": 1.0309366691111765,
+      "previous_checkpoint": "pair_amplitude_oriented",
+      "previous_relative_error": 3.0449206898304067e-16
+    },
+    "RC6": {
+      "first_failure_checkpoint": "pair_response_oriented",
+      "relative_error": 1.0438337779770173,
+      "previous_checkpoint": "pair_amplitude_oriented",
+      "previous_relative_error": 2.523587160990623e-16
+    }
+  },
+  "full_candidate_rerun_allowed": false,
+  "duration_seconds": 14.196774940937757
+}

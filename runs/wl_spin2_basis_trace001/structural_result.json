@@ -1,0 +1,513 @@
+{
+  "A_full_resolved_part": [
+    [
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "S_full_resolved_part": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0
+    ]
+  ],
+  "analytic_tests": {
+    "axis_swap_test": {
+      "A": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "S": [
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "passed": true,
+      "q_output": [
+        -0.37,
+        -0.81
+      ]
+    },
+    "identity_basis_test": {
+      "A": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "S": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "passed": true,
+      "q_output": [
+        0.37,
+        -0.81
+      ]
+    },
+    "rotation_180_spin2_equivalence_test": {
+      "passed": true
+    },
+    "rotation_22_5_test": {
+      "A": [
+        [
+          0.9238795325112867,
+          -0.3826834323650898
+        ],
+        [
+          0.3826834323650898,
+          0.9238795325112867
+        ]
+      ],
+      "S": [
+        [
+          0.7071067811865475,
+          -0.7071067811865476
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865475
+        ]
+      ],
+      "passed": true,
+      "q_output": [
+        0.834386001800126,
+        -0.3111269837220809
+      ]
+    },
+    "rotation_45_test": {
+      "A": [
+        [
+          0.7071067811865476,
+          -0.7071067811865475
+        ],
+        [
+          0.7071067811865475,
+          0.7071067811865476
+        ]
+      ],
+      "S": [
+        [
+          2.220446049250313e-16,
+          -1.0
+        ],
+        [
+          1.0,
+          2.220446049250313e-16
+        ]
+      ],
+      "passed": true,
+      "q_output": [
+        0.81,
+        0.3699999999999999
+      ]
+    },
+    "rotation_90_test": {
+      "A": [
+        [
+          6.123233995736766e-17,
+          -1.0
+        ],
+        [
+          1.0,
+          6.123233995736766e-17
+        ]
+      ],
+      "S": [
+        [
+          -1.0,
+          -1.2246467991473532e-16
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0
+        ]
+      ],
+      "passed": true,
+      "q_output": [
+        -0.3699999999999999,
+        0.81
+      ]
+    },
+    "rotation_plus_reflection_test": {
+      "A": [
+        [
+          -0.8660254037844387,
+          -0.49999999999999994
+        ],
+        [
+          -0.49999999999999994,
+          0.8660254037844387
+        ]
+      ],
+      "S": [
+        [
+          0.5000000000000002,
+          0.8660254037844386
+        ],
+        [
+          0.8660254037844386,
+          -0.5000000000000002
+        ]
+      ],
+      "passed": true,
+      "q_output": [
+        -0.5164805770653952,
+        0.7254293994002424
+      ]
+    },
+    "tensor_vs_complex_representation_test": {
+      "passed": true
+    },
+    "x_reflection_test": {
+      "A": [
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "S": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "passed": true,
+      "q_output": [
+        0.37,
+        0.81
+      ]
+    },
+    "y_reflection_test": {
+      "A": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "S": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "passed": true,
+      "q_output": [
+        0.37,
+        0.81
+      ]
+    }
+  },
+  "basis_round_trip_max_error": 0.0,
+  "benchmark_gamma_basis_status": "BENCHMARK_GAMMA_BASIS_UNDECLARED",
+  "detector_basis_by_cluster": {
+    "Abell2744": {
+      "det_eu_ev_ew": 1.0,
+      "e_u": [
+        0.9999999998914397,
+        7.334629276727492e-10,
+        -1.473501047529865e-05
+      ],
+      "e_v": [
+        0.0,
+        0.9999999987611309,
+        4.9776885329918215e-05
+      ],
+      "e_w": [
+        1.47350104935534e-05,
+        -4.977688532451442e-05,
+        0.9999999986525706
+      ],
+      "gram_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "handedness": "RIGHT_HANDED",
+      "orthonormal_max_error": 0.0
+    },
+    "Abell370": {
+      "det_eu_ev_ew": 1.0,
+      "e_u": [
+        0.9999999999379836,
+        3.7839447744111445e-11,
+        1.1137006037755301e-05
+      ],
+      "e_v": [
+        -1.2924697071141057e-26,
+        0.9999999999942281,
+        -3.3976319681981327e-06
+      ],
+      "e_w": [
+        -1.1137006037819584e-05,
+        3.397631967987424e-06,
+        0.9999999999322117
+      ],
+      "gram_matrix": [
+        [
+          1.0000000000000002,
+          -6.462348535570529e-27,
+          0.0
+        ],
+        [
+          -6.462348535570529e-27,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0000000000000002
+        ]
+      ],
+      "handedness": "RIGHT_HANDED",
+      "orthonormal_max_error": 2.220446049250313e-16
+    },
+    "AbellS1063": {
+      "det_eu_ev_ew": 1.0,
+      "e_u": [
+        0.9999999999999831,
+        -1.1306499879345825e-12,
+        1.838689555343945e-07
+      ],
+      "e_v": [
+        0.0,
+        0.9999999999810936,
+        6.14921635154286e-06
+      ],
+      "e_w": [
+        -1.838689555378708e-07,
+        -6.149216351542756e-06,
+        0.9999999999810767
+      ],
+      "gram_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "handedness": "RIGHT_HANDED",
+      "orthonormal_max_error": 0.0
+    },
+    "MACS0416": {
+      "det_eu_ev_ew": 1.0,
+      "e_u": [
+        0.999999999179145,
+        1.7099667091283926e-09,
+        -4.051802223350715e-05
+      ],
+      "e_v": [
+        2.0679515313825692e-25,
+        0.9999999991094695,
+        4.2202620299455925e-05
+      ],
+      "e_w": [
+        4.051802226958969e-05,
+        -4.220262026481369e-05,
+        0.9999999982886144
+      ],
+      "gram_matrix": [
+        [
+          1.0,
+          -2.0679515313825692e-25,
+          0.0
+        ],
+        [
+          -2.0679515313825692e-25,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "handedness": "RIGHT_HANDED",
+      "orthonormal_max_error": 2.0679515313825692e-25
+    },
+    "MACS1149": {
+      "det_eu_ev_ew": 1.0000000000000002,
+      "e_u": [
+        0.999999999933438,
+        9.205010519255258e-10,
+        1.1537942313523494e-05
+      ],
+      "e_v": [
+        0.0,
+        0.9999999968175481,
+        -7.97803476549858e-05
+      ],
+      "e_w": [
+        -1.1537942350242442e-05,
+        7.978034764967546e-05,
+        0.9999999967509862
+      ],
+      "gram_matrix": [
+        [
+          1.0000000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000000000000002,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0000000000000002
+        ]
+      ],
+      "handedness": "RIGHT_HANDED",
+      "orthonormal_max_error": 2.220446049250313e-16
+    }
+  },
+  "earth_receiver_hypothesis_parked": true,
+  "kde_executions": 0,
+  "lab_id": "PBUF-FOUNDATION-WL-SPIN2-BASIS-TRACE-001",
+  "native_primary_trajectory_angle_deg": null,
+  "native_primary_trajectory_statement": "No literal 90-degree trajectory parameter exists; propagation is along the mean-velocity normal and e1 is projected global +x.",
+  "native_to_benchmark_90deg_reference_offset_derived": false,
+  "native_to_benchmark_minus_q_derived": false,
+  "outcome": "WL_NATIVE_TO_SKY_BASIS_RESOLVED_BENCHMARK_BASIS_UNDECLARED",
+  "propagation_runs": 0,
+  "raster_index_mapping": "array[row,col]: row increases +v; column increases +u",
+  "resolved_part_classification": {
+    "axis_swap": false,
+    "classification": "REFLECTION",
+    "determinant": -1.0,
+    "equivalent_physical_rotation_deg": null,
+    "reflection_present": true,
+    "rotation_angle_if_proper": null,
+    "spin2_phase_deg": null,
+    "x_flip": true,
+    "y_flip": false
+  },
+  "spin2_round_trip_max_error": 0.0,
+  "structural_freeze_before_gamma": true,
+  "target_access": false,
+  "unresolved_factor": "A_F5_to_F6",
+  "wcs_handedness": "REFLECTED: RA decreases with column; Dec increases with row",
+  "wcs_local_linear_matrices": {
+    "Abell2744": [
+      [
+        -0.002314815,
+        0.0
+      ],
+      [
+        0.0,
+        0.002314815
+      ]
+    ],
+    "Abell370": [
+      [
+        -0.001736111,
+        0.0
+      ],
+      [
+        0.0,
+        0.001736111
+      ]
+    ],
+    "AbellS1063": [
+      [
+        -0.003156566,
+        0.0
+      ],
+      [
+        0.0,
+        0.003156566
+      ]
+    ],
+    "MACS0416": [
+      [
+        -0.002314815,
+        0.0
+      ],
+      [
+        0.0,
+        0.002314815
+      ]
+    ],
+    "MACS1149": [
+      [
+        -0.001984127,
+        0.0
+      ],
+      [
+        0.0,
+        0.001984127
+      ]
+    ]
+  }
+}

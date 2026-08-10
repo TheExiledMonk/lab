@@ -1,0 +1,17 @@
+{
+  "E_equals_pc_used_in_derivation": false,
+  "absolute_normalization_available": false,
+  "coefficient_free_relation_available": false,
+  "contract": "PBUF_NATIVE_EXCITATION_ENERGY_MOMENTUM_V1",
+  "de_broglie_used_in_derivation": false,
+  "energy_like_definition": "sum_sites,components X^2",
+  "energy_like_state_available": true,
+  "energy_vs_k_relation": "E06 packet-construction dependent / E07 no unique relation",
+  "energy_vs_momentum_relation": "candidate flux magnitude equals norm for unit progression, not an independently emerged quantity",
+  "momentum_like_definition": "directional norm flux is structural but lacks stable non-arbitrary relation to k",
+  "momentum_like_state_available": false,
+  "momentum_vs_k_relation": "NO_RELATION",
+  "native_k_available": true,
+  "native_wavelength_available": true,
+  "planck_relation_used_in_derivation": false
+}

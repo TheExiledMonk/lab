@@ -1,0 +1,17 @@
+{
+  "lab_id": "PBUF-3D-PAIRWISE-PRIMARY-CANDIDATE-SCIENCE-RE-RUN-001-M10",
+  "outcome": "Outcome A \u2014 FIVE-CLUSTER M10 PRIMARY-CANDIDATE SCIENCE RUN COMPLETE",
+  "head_sha": "f9248b49f17a6a33f0403004ea3a56fc8ff34eb7",
+  "candidate_id": "PL1_PM1_PS2",
+  "physical_source_representation": "M10_interface_field",
+  "endpoint_role": "conservation_bookkeeping_only",
+  "cluster_count_expected": 5,
+  "cluster_count_completed": 5,
+  "all_cluster_integrity_pass": true,
+  "pearson_mean_finite": 0.0036236346405802726,
+  "pearson_median_finite": -0.05572210819315245,
+  "spearman_mean_finite": 0.012846251101988568,
+  "spearman_median_finite": -0.018136953490147854,
+  "science_interpretation_required": true,
+  "duration_seconds": 5.261151224025525
+}

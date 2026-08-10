@@ -1,0 +1,16 @@
+{
+  "row_count": 640,
+  "alpha_T_equals_alpha_qm_times_epsilon0_T": {
+    "max_relative_error": 0.0,
+    "pass": true
+  },
+  "a_times_T_equals_t_min": {
+    "max_relative_error": 1.6293862038160436e-16,
+    "pass": true,
+    "role": "bookkeeping_identity_not_local_stiffness_law"
+  },
+  "validity_flag_counts": {
+    "clamped": 55,
+    "ok": 585
+  }
+}

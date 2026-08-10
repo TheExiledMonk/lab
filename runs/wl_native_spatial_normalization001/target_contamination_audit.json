@@ -1,0 +1,8 @@
+{
+  "candidates_touching_target_path": [
+    "kappa_proxy"
+  ],
+  "classification": "TARGET_CONTAMINATED_SCALE_CANDIDATE",
+  "historical_kappa_lineage": "kappa -> construct_common_proxy -> construct_rho_3d",
+  "target_derived_scale_used": false
+}

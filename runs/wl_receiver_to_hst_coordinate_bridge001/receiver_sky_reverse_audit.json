@@ -1,0 +1,55 @@
+{
+  "production_reverse_performed": false,
+  "reverse_classification": "UNRESOLVED",
+  "synthetic_validation": {
+    "missing_scale_rejected": true,
+    "passed": true,
+    "reflection_explicit": true,
+    "reflection_test": {
+      "identity_mismatches": 0,
+      "max_error": 0.0,
+      "orientation_error": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "rms": 0.0
+    },
+    "rotation_translation_scale_tests": [
+      {
+        "degrees": 0,
+        "identity_mismatches": 0,
+        "max_error": 0.0,
+        "orientation_error": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "rms": 0.0
+      },
+      {
+        "degrees": 90,
+        "identity_mismatches": 0,
+        "max_error": 6.123233995736766e-17,
+        "orientation_error": 0.0,
+        "p95": 6.123233995736766e-17,
+        "p99": 6.123233995736766e-17,
+        "rms": 4.3297802811774664e-17
+      },
+      {
+        "degrees": 180,
+        "identity_mismatches": 0,
+        "max_error": 9.957992501029599e-17,
+        "orientation_error": 0.0,
+        "p95": 9.957992501029599e-17,
+        "p99": 9.957992501029599e-17,
+        "rms": 7.041364024482818e-17
+      },
+      {
+        "degrees": 270,
+        "identity_mismatches": 0,
+        "max_error": 1.8369701987210297e-16,
+        "orientation_error": 0.0,
+        "p95": 1.6189460464922673e-16,
+        "p99": 1.7933653682752769e-16,
+        "rms": 9.382847700629505e-17
+      }
+    ]
+  }
+}

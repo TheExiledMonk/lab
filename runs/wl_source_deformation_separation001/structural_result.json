@@ -1,0 +1,681 @@
+{
+  "clusters": {
+    "Abell2744": {
+      "checkpoint": {
+        "backend": "vulkan",
+        "cluster_id": "Abell2744",
+        "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+        "ray_count": 285156,
+        "received_state_fingerprint": "657314ba98fec53d07e5c82f8fb78a80c357ea30d7634bbd010c747525d72be3"
+      },
+      "deformation_median": 0.9082121217306351,
+      "effective_rank_deformation": 2.195524896112209,
+      "effective_rank_source": 2.353639881449547,
+      "four_regimes": {
+        "HIGH_S_HIGH_D": 3345,
+        "HIGH_S_LOW_D": 4446,
+        "LOW_S_HIGH_D": 4446,
+        "LOW_S_LOW_D": 3344
+      },
+      "latent_count": 16,
+      "mixed_subspace": {
+        "canonical_correlations": [
+          0.980457973323175,
+          0.8895845056123691,
+          0.6136083029534322,
+          0.5433515536200644,
+          0.12408999156629377
+        ],
+        "combined_effective_rank": 4.856565060323934,
+        "cross_covariance": [
+          [
+            -0.9759200787265176,
+            0.2462975744976434,
+            0.2987016096979459,
+            0.10395262084694433,
+            -0.15483293261747016,
+            0.25512427319411035
+          ],
+          [
+            0.3158869765378103,
+            -0.7523032545475875,
+            -0.8058014574817411,
+            -0.18596457734648764,
+            0.105622337235605,
+            -0.6573949025774216
+          ],
+          [
+            0.2863521470325105,
+            -0.7701882312831326,
+            -0.7797896131840569,
+            -0.18987618700132974,
+            0.08372854267839294,
+            -0.6733864285876038
+          ],
+          [
+            0.1456836817516521,
+            -0.8119184447408911,
+            -0.824266739005747,
+            -0.17329837871351977,
+            0.08640474009669168,
+            -0.733735748839361
+          ],
+          [
+            0.11119753498992199,
+            -0.13034987792437588,
+            -0.12496174885230527,
+            0.23507074128862965,
+            0.5058490989634112,
+            -0.013563189744030278
+          ]
+        ],
+        "principal_angles_degrees": [
+          11.345721673913618,
+          27.178915264377714,
+          52.149122102783,
+          57.08791299898828,
+          82.87179220799243
+        ]
+      },
+      "primitive_features": [
+        "occupancy",
+        "occupancy_residual",
+        "mean_delta_u",
+        "mean_delta_v",
+        "mean_delta_w",
+        "mean_dir_u",
+        "mean_dir_v",
+        "mean_dir_w",
+        "delta_covariance",
+        "direction_covariance",
+        "cross_covariance",
+        "anisotropy_magnitude",
+        "depth_variance",
+        "local_effective_rank",
+        "neighbor_continuity",
+        "neighbor_asymmetry"
+      ],
+      "projection_modes": [
+        "sum",
+        "occupancy_weighted_mean",
+        "rms"
+      ],
+      "sampling": {
+        "100": {
+          "deformation_map_pearson_vs_100": 1.0,
+          "effective_rank": 1.0202122993856764,
+          "ray_count": 285156,
+          "source_continuity": 0.3307069932693124,
+          "source_map_pearson_vs_100": 0.9999999999999999
+        },
+        "25": {
+          "deformation_map_pearson_vs_100": 0.994665731520739,
+          "effective_rank": 1.2207127228246544,
+          "ray_count": 71289,
+          "source_continuity": 0.3294933022754587,
+          "source_map_pearson_vs_100": 0.9689943873017555
+        },
+        "50": {
+          "deformation_map_pearson_vs_100": 0.9951850163679301,
+          "effective_rank": 1.0665695170726526,
+          "ray_count": 142578,
+          "source_continuity": 0.3301554746440773,
+          "source_map_pearson_vs_100": 0.9758250888466828
+        },
+        "75": {
+          "deformation_map_pearson_vs_100": 0.9994675799740896,
+          "effective_rank": 1.03339140788681,
+          "ray_count": 213867,
+          "source_continuity": 0.33036209076259376,
+          "source_map_pearson_vs_100": 0.9938770343310479
+        }
+      },
+      "sampling_classification": "SEPARATION_RAY_DENSITY_STABLE",
+      "source_deformation_correlation": -0.09505313112007752,
+      "source_median": 0.284509662751273
+    },
+    "Abell370": {
+      "checkpoint": {
+        "backend": "vulkan",
+        "cluster_id": "Abell370",
+        "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+        "ray_count": 285156,
+        "received_state_fingerprint": "500d86221f302f506b9d4a71e667582d507ba44ca92e8406b1e30aa832062923"
+      },
+      "deformation_median": 0.9349678123741896,
+      "effective_rank_deformation": 2.0191962342988234,
+      "effective_rank_source": 2.1664019010885047,
+      "four_regimes": {
+        "HIGH_S_HIGH_D": 2059,
+        "HIGH_S_LOW_D": 4088,
+        "LOW_S_HIGH_D": 4088,
+        "LOW_S_LOW_D": 2059
+      },
+      "latent_count": 16,
+      "mixed_subspace": {
+        "canonical_correlations": [
+          0.9879801895659013,
+          0.9194990497382147,
+          0.5969210506745296,
+          0.5463095958875804,
+          0.1113411236611379
+        ],
+        "combined_effective_rank": 4.9284885724577565,
+        "cross_covariance": [
+          [
+            -0.9871163528654783,
+            0.09833367386054132,
+            0.15210798370171455,
+            0.034596642874988946,
+            -0.026702249788541656,
+            0.13231412534508485
+          ],
+          [
+            0.10181046659524905,
+            -0.7707292091738159,
+            -0.8199687598874579,
+            -0.13290113346233923,
+            0.15292474924470362,
+            -0.6768782329728037
+          ],
+          [
+            0.07088255671258732,
+            -0.7906272469155591,
+            -0.7992714807624939,
+            -0.135448007496805,
+            0.1283239969003436,
+            -0.6900682724331153
+          ],
+          [
+            -0.044414717267990324,
+            -0.8140654475869004,
+            -0.8213280584659024,
+            -0.11165692324474506,
+            0.1544947209506356,
+            -0.7279551096027587
+          ],
+          [
+            0.14765634605620717,
+            -0.07886180319322073,
+            -0.09976678987072117,
+            0.1631628079631601,
+            0.533078270233837,
+            -0.012006664107265114
+          ]
+        ],
+        "principal_angles_degrees": [
+          8.892466472130758,
+          23.147041450179923,
+          53.350289692198274,
+          56.88579548976283,
+          83.60736787762245
+        ]
+      },
+      "primitive_features": [
+        "occupancy",
+        "occupancy_residual",
+        "mean_delta_u",
+        "mean_delta_v",
+        "mean_delta_w",
+        "mean_dir_u",
+        "mean_dir_v",
+        "mean_dir_w",
+        "delta_covariance",
+        "direction_covariance",
+        "cross_covariance",
+        "anisotropy_magnitude",
+        "depth_variance",
+        "local_effective_rank",
+        "neighbor_continuity",
+        "neighbor_asymmetry"
+      ],
+      "projection_modes": [
+        "sum",
+        "occupancy_weighted_mean",
+        "rms"
+      ],
+      "sampling": {
+        "100": {
+          "deformation_map_pearson_vs_100": 1.0,
+          "effective_rank": 1.01580586871443,
+          "ray_count": 285156,
+          "source_continuity": 0.27181485227095087,
+          "source_map_pearson_vs_100": 1.0
+        },
+        "25": {
+          "deformation_map_pearson_vs_100": 0.9917761396335157,
+          "effective_rank": 1.1794805575551297,
+          "ray_count": 71289,
+          "source_continuity": 0.2918131759617504,
+          "source_map_pearson_vs_100": 0.9550919662265412
+        },
+        "50": {
+          "deformation_map_pearson_vs_100": 0.9957757708071358,
+          "effective_rank": 1.0538107655573155,
+          "ray_count": 142578,
+          "source_continuity": 0.2924697759562519,
+          "source_map_pearson_vs_100": 0.9586996273687863
+        },
+        "75": {
+          "deformation_map_pearson_vs_100": 0.999332979028462,
+          "effective_rank": 1.0263433942886668,
+          "ray_count": 213867,
+          "source_continuity": 0.2716836123827581,
+          "source_map_pearson_vs_100": 0.9976437599230317
+        }
+      },
+      "sampling_classification": "SEPARATION_RAY_DENSITY_STABLE",
+      "source_deformation_correlation": -0.17999954870747312,
+      "source_median": 0.22248886604008197
+    },
+    "AbellS1063": {
+      "checkpoint": {
+        "backend": "vulkan",
+        "cluster_id": "AbellS1063",
+        "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+        "ray_count": 285156,
+        "received_state_fingerprint": "2d399cf936565a61ea4f916c46ea3fe8594fde16bb052b4b8bc7ac97b5f784bd"
+      },
+      "deformation_median": 0.8488222674029184,
+      "effective_rank_deformation": 1.9327593488438488,
+      "effective_rank_source": 1.8658122349960402,
+      "four_regimes": {
+        "HIGH_S_HIGH_D": 2044,
+        "HIGH_S_LOW_D": 3081,
+        "LOW_S_HIGH_D": 3081,
+        "LOW_S_LOW_D": 2044
+      },
+      "latent_count": 16,
+      "mixed_subspace": {
+        "canonical_correlations": [
+          0.9917898821793454,
+          0.8627551673387885,
+          0.5111505955897544,
+          0.38647401431033485,
+          0.021740482380989395
+        ],
+        "combined_effective_rank": 5.277491397939084,
+        "cross_covariance": [
+          [
+            -0.9915287489203025,
+            0.005986815844862241,
+            0.06677396907597927,
+            0.04314341691785663,
+            0.05022907723265572,
+            0.03893614137323786
+          ],
+          [
+            -0.04918957464272512,
+            -0.6707577113157707,
+            -0.6887066788879249,
+            -0.1761758692022139,
+            0.07363321774336251,
+            -0.6408832684622625
+          ],
+          [
+            -0.07258405164882556,
+            -0.6850725057103632,
+            -0.6661680464728119,
+            -0.1784695208021585,
+            0.05367921418189818,
+            -0.6506365088369102
+          ],
+          [
+            -0.16523760116201047,
+            -0.7441946801268321,
+            -0.7014799753167797,
+            -0.18009201433178432,
+            0.08874584825866602,
+            -0.7069609986791765
+          ],
+          [
+            0.13694613887282672,
+            -0.0989422503888558,
+            -0.14586277181539736,
+            0.0854799341440277,
+            0.4804936147854823,
+            -0.07756906532479217
+          ]
+        ],
+        "principal_angles_degrees": [
+          7.34699328526196,
+          30.372642941218356,
+          59.25949795660652,
+          67.26471550040223,
+          88.75426372287467
+        ]
+      },
+      "primitive_features": [
+        "occupancy",
+        "occupancy_residual",
+        "mean_delta_u",
+        "mean_delta_v",
+        "mean_delta_w",
+        "mean_dir_u",
+        "mean_dir_v",
+        "mean_dir_w",
+        "delta_covariance",
+        "direction_covariance",
+        "cross_covariance",
+        "anisotropy_magnitude",
+        "depth_variance",
+        "local_effective_rank",
+        "neighbor_continuity",
+        "neighbor_asymmetry"
+      ],
+      "projection_modes": [
+        "sum",
+        "occupancy_weighted_mean",
+        "rms"
+      ],
+      "sampling": {
+        "100": {
+          "deformation_map_pearson_vs_100": 1.0,
+          "effective_rank": 1.016778451394485,
+          "ray_count": 285156,
+          "source_continuity": 0.280512550757772,
+          "source_map_pearson_vs_100": 1.0
+        },
+        "25": {
+          "deformation_map_pearson_vs_100": 0.9904082961395904,
+          "effective_rank": 1.1830954174945032,
+          "ray_count": 71289,
+          "source_continuity": 0.2808253736741232,
+          "source_map_pearson_vs_100": 0.9858525195391028
+        },
+        "50": {
+          "deformation_map_pearson_vs_100": 0.9917428749453059,
+          "effective_rank": 1.0556094856169678,
+          "ray_count": 142578,
+          "source_continuity": 0.2803785888459659,
+          "source_map_pearson_vs_100": 0.9862996151681899
+        },
+        "75": {
+          "deformation_map_pearson_vs_100": 0.999115172165525,
+          "effective_rank": 1.0280021384774756,
+          "ray_count": 213867,
+          "source_continuity": 0.28041230954344537,
+          "source_map_pearson_vs_100": 0.9985917392412178
+        }
+      },
+      "sampling_classification": "SEPARATION_RAY_DENSITY_STABLE",
+      "source_deformation_correlation": -0.13319423511583003,
+      "source_median": 0.2679216548075465
+    },
+    "MACS0416": {
+      "checkpoint": {
+        "backend": "vulkan",
+        "cluster_id": "MACS0416",
+        "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+        "ray_count": 285156,
+        "received_state_fingerprint": "3655b62c79d6ba9c533410d3d03a53ab0b313bc9568639e7a190dd0baa7f9ebc"
+      },
+      "deformation_median": 0.9197380295407168,
+      "effective_rank_deformation": 2.1031345775552177,
+      "effective_rank_source": 2.2609114802300216,
+      "four_regimes": {
+        "HIGH_S_HIGH_D": 3339,
+        "HIGH_S_LOW_D": 4131,
+        "LOW_S_HIGH_D": 4131,
+        "LOW_S_LOW_D": 3338
+      },
+      "latent_count": 16,
+      "mixed_subspace": {
+        "canonical_correlations": [
+          0.9787113281873471,
+          0.8586136308385384,
+          0.6510602705878075,
+          0.34813149284103134,
+          0.07328700198684247
+        ],
+        "combined_effective_rank": 5.055392131791166,
+        "cross_covariance": [
+          [
+            -0.9718312162420782,
+            0.22134267959711887,
+            0.2708607680547762,
+            0.10384562232914392,
+            -0.08884613711438187,
+            0.24148994623132272
+          ],
+          [
+            0.2517334161442247,
+            -0.6985603273539497,
+            -0.6841248440484916,
+            -0.13942201225498738,
+            0.11381942286506243,
+            -0.6366522654294547
+          ],
+          [
+            0.2355602978916954,
+            -0.7092782544344112,
+            -0.6709563802762277,
+            -0.13911759708452587,
+            0.10135975272020162,
+            -0.6427568632911234
+          ],
+          [
+            0.10188310947731641,
+            -0.7592473032594306,
+            -0.7058667392933812,
+            -0.12749445080925503,
+            0.09633573107279621,
+            -0.7006470725079976
+          ],
+          [
+            0.12839511111978347,
+            -0.1940464170627817,
+            -0.16488119924178798,
+            0.11693450796137268,
+            0.6398101691830151,
+            -0.08167484027765784
+          ]
+        ],
+        "principal_angles_degrees": [
+          11.843642828696279,
+          30.838721520146215,
+          49.37840991654154,
+          69.62691838767242,
+          85.79719548486446
+        ]
+      },
+      "primitive_features": [
+        "occupancy",
+        "occupancy_residual",
+        "mean_delta_u",
+        "mean_delta_v",
+        "mean_delta_w",
+        "mean_dir_u",
+        "mean_dir_v",
+        "mean_dir_w",
+        "delta_covariance",
+        "direction_covariance",
+        "cross_covariance",
+        "anisotropy_magnitude",
+        "depth_variance",
+        "local_effective_rank",
+        "neighbor_continuity",
+        "neighbor_asymmetry"
+      ],
+      "projection_modes": [
+        "sum",
+        "occupancy_weighted_mean",
+        "rms"
+      ],
+      "sampling": {
+        "100": {
+          "deformation_map_pearson_vs_100": 1.0,
+          "effective_rank": 1.0208374224211474,
+          "ray_count": 285156,
+          "source_continuity": 0.3564770740023781,
+          "source_map_pearson_vs_100": 1.0
+        },
+        "25": {
+          "deformation_map_pearson_vs_100": 0.9957009346303269,
+          "effective_rank": 1.2182285734382534,
+          "ray_count": 71289,
+          "source_continuity": 0.351315267983852,
+          "source_map_pearson_vs_100": 0.9653712166652104
+        },
+        "50": {
+          "deformation_map_pearson_vs_100": 0.9965366393188572,
+          "effective_rank": 1.0670675379008694,
+          "ray_count": 142578,
+          "source_continuity": 0.3550742633220756,
+          "source_map_pearson_vs_100": 0.9736033217210188
+        },
+        "75": {
+          "deformation_map_pearson_vs_100": 0.9994844877532514,
+          "effective_rank": 1.0341246711026593,
+          "ray_count": 213867,
+          "source_continuity": 0.35559614917993126,
+          "source_map_pearson_vs_100": 0.9886548597767364
+        }
+      },
+      "sampling_classification": "SEPARATION_RAY_DENSITY_STABLE",
+      "source_deformation_correlation": -0.01978723696031469,
+      "source_median": 0.29414264632511083
+    },
+    "MACS1149": {
+      "checkpoint": {
+        "backend": "vulkan",
+        "cluster_id": "MACS1149",
+        "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+        "ray_count": 285156,
+        "received_state_fingerprint": "b6daf5ccb9d41ad56c4756e0879118e85338fcc901fd59725ffd9c9535d097e7"
+      },
+      "deformation_median": 0.8015723932197519,
+      "effective_rank_deformation": 1.8521672580585815,
+      "effective_rank_source": 2.1746910334375396,
+      "four_regimes": {
+        "HIGH_S_HIGH_D": 2804,
+        "HIGH_S_LOW_D": 4390,
+        "LOW_S_HIGH_D": 4390,
+        "LOW_S_LOW_D": 2803
+      },
+      "latent_count": 16,
+      "mixed_subspace": {
+        "canonical_correlations": [
+          0.9833255148555091,
+          0.813915786871407,
+          0.3408097007990231,
+          0.29717292166535814,
+          0.050427511108874785
+        ],
+        "combined_effective_rank": 5.363811016506926,
+        "cross_covariance": [
+          [
+            -0.978797245508272,
+            0.17363808167965705,
+            0.2206813143050208,
+            0.06631228900033848,
+            -0.15227347944613728,
+            0.1909418035189848
+          ],
+          [
+            0.21443060861905017,
+            -0.6492804067889809,
+            -0.5872778089477223,
+            -0.21854793293083785,
+            0.12624067891872404,
+            -0.557297898627121
+          ],
+          [
+            0.20187117484663145,
+            -0.6570391609140329,
+            -0.5739300599669975,
+            -0.2216515077540231,
+            0.1152532629494361,
+            -0.5617295265695184
+          ],
+          [
+            0.06464229283889945,
+            -0.7380605133346693,
+            -0.6300227989319336,
+            -0.22329867734417408,
+            0.11766264348703628,
+            -0.6285109787090309
+          ],
+          [
+            0.05563583361546844,
+            -0.2074240463273589,
+            -0.16184529346351023,
+            0.12876969833993215,
+            0.2838916482144486,
+            -0.10627938589897072
+          ]
+        ],
+        "principal_angles_degrees": [
+          10.477774340186594,
+          35.5196997836865,
+          70.07378568261754,
+          72.71210937381939,
+          87.10949012568824
+        ]
+      },
+      "primitive_features": [
+        "occupancy",
+        "occupancy_residual",
+        "mean_delta_u",
+        "mean_delta_v",
+        "mean_delta_w",
+        "mean_dir_u",
+        "mean_dir_v",
+        "mean_dir_w",
+        "delta_covariance",
+        "direction_covariance",
+        "cross_covariance",
+        "anisotropy_magnitude",
+        "depth_variance",
+        "local_effective_rank",
+        "neighbor_continuity",
+        "neighbor_asymmetry"
+      ],
+      "projection_modes": [
+        "sum",
+        "occupancy_weighted_mean",
+        "rms"
+      ],
+      "sampling": {
+        "100": {
+          "deformation_map_pearson_vs_100": 1.0,
+          "effective_rank": 1.0228983287377804,
+          "ray_count": 285156,
+          "source_continuity": 0.3306751228468162,
+          "source_map_pearson_vs_100": 1.0
+        },
+        "25": {
+          "deformation_map_pearson_vs_100": 0.9955746384870405,
+          "effective_rank": 1.242023850544906,
+          "ray_count": 71289,
+          "source_continuity": 0.3271564118258475,
+          "source_map_pearson_vs_100": 0.980703618600386
+        },
+        "50": {
+          "deformation_map_pearson_vs_100": 0.9958045892479062,
+          "effective_rank": 1.0732499330479932,
+          "ray_count": 142578,
+          "source_continuity": 0.32998190612465683,
+          "source_map_pearson_vs_100": 0.9866840659220372
+        },
+        "75": {
+          "deformation_map_pearson_vs_100": 0.9995981587216924,
+          "effective_rank": 1.037770144210374,
+          "ray_count": 213867,
+          "source_continuity": 0.3302647421353128,
+          "source_map_pearson_vs_100": 0.9968271889298712
+        }
+      },
+      "sampling_classification": "SEPARATION_RAY_DENSITY_STABLE",
+      "source_deformation_correlation": -0.07223979444137255,
+      "source_median": 0.24342766206728933
+    }
+  },
+  "formula_version": "dev119_equal_robust_z_v1",
+  "gamma_used_for_decomposition": false,
+  "kappa_used_for_decomposition": false,
+  "kde_executions": 0,
+  "lab_id": "PBUF-FOUNDATION-WL-SOURCE-DEFORMATION-SEPARATION-001",
+  "lens_mask_used_for_decomposition": false,
+  "propagation_runs": 0
+}

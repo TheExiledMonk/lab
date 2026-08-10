@@ -1,0 +1,928 @@
+{
+  "checks": {
+    "3d_separation_before_2d_projection": true,
+    "canonical_observer_unchanged": true,
+    "cohort_separability_combined_reported": true,
+    "cohort_separability_deformation_reported": true,
+    "cohort_separability_source_reported": true,
+    "current_r3_unchanged": true,
+    "current_r4_unchanged": true,
+    "deformation_feature_bank_target_blind": true,
+    "deformation_score_frozen": true,
+    "far_control_association_reported": true,
+    "five_checkpoints_valid": true,
+    "four_regime_map_reported": true,
+    "gamma_hidden_during_decomposition": true,
+    "kappa_hidden_during_decomposition": true,
+    "latent_components_frozen_before_truth": true,
+    "lens_association_reported": true,
+    "lens_truth_enabled_after_freeze": true,
+    "lens_truth_hidden_during_decomposition": true,
+    "max_external_variants_lte_12": true,
+    "no_binary_forced_partition": true,
+    "no_gain_fit": true,
+    "no_rotation_fit": true,
+    "no_sign_fit": true,
+    "pca_target_blind": true,
+    "primitive_features_preserved": true,
+    "propagation_reopened_false": true,
+    "sampling_100_reported": true,
+    "sampling_25_reported": true,
+    "sampling_50_reported": true,
+    "sampling_75_reported": true,
+    "source_deformation_overlap_reported": true,
+    "source_feature_bank_target_blind": true,
+    "source_score_frozen": true,
+    "structural_hash_before_lens_truth": true,
+    "svd_target_blind": true,
+    "true_vs_null_reported": true,
+    "zero_kde_executions": true,
+    "zero_propagation_runs": true
+  },
+  "clusters": {
+    "Abell2744": {
+      "cohorts": {
+        "RAY_FAR_CONTROL": {
+          "count": 31639,
+          "deformation_mean": 0.7534609312127049,
+          "source_mean": 0.662709244551431
+        },
+        "RAY_LENS_CORE": {
+          "count": 24535,
+          "deformation_mean": 2.7410684935395584,
+          "source_mean": 0.3362045161292072
+        },
+        "RAY_LENS_INNER": {
+          "count": 48975,
+          "deformation_mean": 1.8427563652061296,
+          "source_mean": 0.3467452564368159
+        },
+        "RAY_LENS_OUTER": {
+          "count": 97969,
+          "deformation_mean": 1.128372819910776,
+          "source_mean": 0.44046193287952534
+        },
+        "RAY_NEAR_LENS": {
+          "count": 76510,
+          "deformation_mean": 0.8249101367933431,
+          "source_mean": 0.5442095629977809
+        },
+        "RAY_UNCLASSIFIED": {
+          "count": 5528,
+          "deformation_mean": 0.7485080510716657,
+          "source_mean": 0.6976326737591044
+        }
+      },
+      "lens_association": {
+        "D_far": 0.6463657607878093,
+        "D_inside": 1.3131276434351382,
+        "D_near": 1.193432190379159,
+        "S_far": 0.8472291858622563,
+        "S_inside": 0.44299966711624095,
+        "S_near": 0.467456163478333,
+        "fixed_null_D": 1.2284276023682241,
+        "true_D": 1.3131276434351382
+      },
+      "separability": {
+        "3d": {
+          "centroid_distance": 0.8516154742474398,
+          "mahalanobis_distance": 1.425141612527646,
+          "within_between_ratio": 3.5860048630991335
+        },
+        "R3": {
+          "centroid_distance": 0.0005712834881278928,
+          "mahalanobis_distance": 0.199472444040185,
+          "within_between_ratio": 384.1102135180043
+        },
+        "R3_D": {
+          "centroid_distance": 0.8096847908220753,
+          "mahalanobis_distance": 0.722384000574868,
+          "within_between_ratio": 3.832578063893314
+        },
+        "R3_S": {
+          "centroid_distance": 0.2639301413405575,
+          "mahalanobis_distance": 1.2581289491384209,
+          "within_between_ratio": 1.2634905026309717
+        },
+        "R3_plus_SD": {
+          "centroid_distance": 0.851615468601707,
+          "mahalanobis_distance": 1.3934202871722392,
+          "within_between_ratio": 3.5859920068237194
+        },
+        "R4": {
+          "centroid_distance": 0.000533632551638627,
+          "mahalanobis_distance": 0.09954858947610959,
+          "within_between_ratio": 403.8322881726868
+        },
+        "raw": {
+          "centroid_distance": 0.0005796385172144021,
+          "mahalanobis_distance": 0.5550246324346853,
+          "within_between_ratio": 400.9709499783077
+        }
+      }
+    },
+    "Abell370": {
+      "cohorts": {
+        "RAY_FAR_CONTROL": {
+          "count": 37887,
+          "deformation_mean": 0.6630787619170027,
+          "source_mean": 0.524841576133238
+        },
+        "RAY_LENS_CORE": {
+          "count": 23866,
+          "deformation_mean": 2.73797788898145,
+          "source_mean": 0.21498726029192358
+        },
+        "RAY_LENS_INNER": {
+          "count": 47984,
+          "deformation_mean": 1.835831453396151,
+          "source_mean": 0.22565230424975927
+        },
+        "RAY_LENS_OUTER": {
+          "count": 96153,
+          "deformation_mean": 1.0742700826831701,
+          "source_mean": 0.3152223633918989
+        },
+        "RAY_NEAR_LENS": {
+          "count": 71831,
+          "deformation_mean": 0.7339289800760747,
+          "source_mean": 0.4121672189080983
+        },
+        "RAY_UNCLASSIFIED": {
+          "count": 7435,
+          "deformation_mean": 0.6471953530283187,
+          "source_mean": 0.565890819987309
+        }
+      },
+      "lens_association": {
+        "D_far": 0.5826046604880531,
+        "D_inside": 1.3051774959022935,
+        "D_near": 1.061507951922139,
+        "S_far": 0.45517213721389993,
+        "S_inside": 0.33307684878206884,
+        "S_near": 0.3575654303932411,
+        "fixed_null_D": 1.2912855065062203,
+        "true_D": 1.3051774959022935
+      },
+      "separability": {
+        "3d": {
+          "centroid_distance": 0.9002911838202735,
+          "mahalanobis_distance": 1.4896785514477429,
+          "within_between_ratio": 4.206748370775272
+        },
+        "R3": {
+          "centroid_distance": 0.0005651825134557431,
+          "mahalanobis_distance": 0.3664491033197899,
+          "within_between_ratio": 510.68175104149736
+        },
+        "R3_D": {
+          "centroid_distance": 0.8650451883602366,
+          "mahalanobis_distance": 0.6690005821132096,
+          "within_between_ratio": 4.468628956274813
+        },
+        "R3_S": {
+          "centroid_distance": 0.2494407676448851,
+          "mahalanobis_distance": 1.3772270541076426,
+          "within_between_ratio": 1.0544153361898583
+        },
+        "R3_plus_SD": {
+          "centroid_distance": 0.9002911717326113,
+          "mahalanobis_distance": 1.4815647298768708,
+          "within_between_ratio": 4.206732950020021
+        },
+        "R4": {
+          "centroid_distance": 0.0005381728261121638,
+          "mahalanobis_distance": 0.08912320112399488,
+          "within_between_ratio": 518.3703067412424
+        },
+        "raw": {
+          "centroid_distance": 0.0005841199405154103,
+          "mahalanobis_distance": 0.48026095109466654,
+          "within_between_ratio": 515.0063964919132
+        }
+      }
+    },
+    "AbellS1063": {
+      "cohorts": {
+        "RAY_FAR_CONTROL": {
+          "count": 36393,
+          "deformation_mean": 0.8245641898177628,
+          "source_mean": 0.5859859921058458
+        },
+        "RAY_LENS_CORE": {
+          "count": 20473,
+          "deformation_mean": 3.9945935885366057,
+          "source_mean": 0.2414993844742515
+        },
+        "RAY_LENS_INNER": {
+          "count": 40935,
+          "deformation_mean": 2.256734695501055,
+          "source_mean": 0.22913735248340006
+        },
+        "RAY_LENS_OUTER": {
+          "count": 144011,
+          "deformation_mean": 0.8613591214431762,
+          "source_mean": 0.3085072066752106
+        },
+        "RAY_NEAR_LENS": {
+          "count": 43344,
+          "deformation_mean": 0.6682120380880882,
+          "source_mean": 0.3839280431082042
+        },
+        "RAY_UNCLASSIFIED": {
+          "count": 0,
+          "deformation_mean": null,
+          "source_mean": null
+        }
+      },
+      "lens_association": {
+        "D_far": 0.9518657561486383,
+        "D_inside": 1.3832619357040807,
+        "D_near": 1.02426051139563,
+        "S_far": 0.6418561562817199,
+        "S_inside": 0.3027605687757195,
+        "S_near": 0.3584550628036332,
+        "fixed_null_D": 1.3424477784942106,
+        "true_D": 1.3832619357040807
+      },
+      "separability": {
+        "3d": {
+          "centroid_distance": 0.695182426637031,
+          "mahalanobis_distance": 1.5599181544997442,
+          "within_between_ratio": 8.932839465310003
+        },
+        "R3": {
+          "centroid_distance": 0.0003992734275078206,
+          "mahalanobis_distance": 0.1199758348539119,
+          "within_between_ratio": 435.1409524423557
+        },
+        "R3_D": {
+          "centroid_distance": 0.627131796126083,
+          "mahalanobis_distance": 0.43108224892823716,
+          "within_between_ratio": 10.762357222198812
+        },
+        "R3_S": {
+          "centroid_distance": 0.2999735698724931,
+          "mahalanobis_distance": 1.461951339829893,
+          "within_between_ratio": 0.935741738135711
+        },
+        "R3_plus_SD": {
+          "centroid_distance": 0.695182416171328,
+          "mahalanobis_distance": 1.5385416737939226,
+          "within_between_ratio": 8.932828809038229
+        },
+        "R4": {
+          "centroid_distance": 0.0003848819668086839,
+          "mahalanobis_distance": 0.09435972994762859,
+          "within_between_ratio": 430.64024239374965
+        },
+        "raw": {
+          "centroid_distance": 0.0004170976089429113,
+          "mahalanobis_distance": 0.3739156466833565,
+          "within_between_ratio": 429.0947046682279
+        }
+      }
+    },
+    "MACS0416": {
+      "cohorts": {
+        "RAY_FAR_CONTROL": {
+          "count": 21400,
+          "deformation_mean": 0.9123013364952746,
+          "source_mean": 0.7603241741050811
+        },
+        "RAY_LENS_CORE": {
+          "count": 22292,
+          "deformation_mean": 3.446889602874889,
+          "source_mean": 0.35691564147694604
+        },
+        "RAY_LENS_INNER": {
+          "count": 44700,
+          "deformation_mean": 2.1788191670932515,
+          "source_mean": 0.3564622952882924
+        },
+        "RAY_LENS_OUTER": {
+          "count": 156347,
+          "deformation_mean": 1.0997582413639895,
+          "source_mean": 0.5065494098607195
+        },
+        "RAY_NEAR_LENS": {
+          "count": 40417,
+          "deformation_mean": 0.8696801987613391,
+          "source_mean": 0.5994048319409899
+        },
+        "RAY_UNCLASSIFIED": {
+          "count": 0,
+          "deformation_mean": null,
+          "source_mean": null
+        }
+      },
+      "lens_association": {
+        "D_far": 0.9092395144300739,
+        "D_inside": 1.4496677783789629,
+        "D_near": 1.2291321240515947,
+        "S_far": 0.8645812813785145,
+        "S_inside": 0.47612564651332695,
+        "S_near": 0.5418867628576413,
+        "fixed_null_D": 1.4130261708644254,
+        "true_D": 1.4496677783789629
+      },
+      "separability": {
+        "3d": {
+          "centroid_distance": 0.7042084780287668,
+          "mahalanobis_distance": 1.337494278714089,
+          "within_between_ratio": 6.973291436226117
+        },
+        "R3": {
+          "centroid_distance": 0.0006595054331856807,
+          "mahalanobis_distance": 0.3245480254709689,
+          "within_between_ratio": 190.96051267515313
+        },
+        "R3_D": {
+          "centroid_distance": 0.6376974615601081,
+          "mahalanobis_distance": 0.4936125684194475,
+          "within_between_ratio": 8.208330440254983
+        },
+        "R3_S": {
+          "centroid_distance": 0.2987491305046143,
+          "mahalanobis_distance": 1.2193747643026156,
+          "within_between_ratio": 1.3450698430586463
+        },
+        "R3_plus_SD": {
+          "centroid_distance": 0.7042084424407328,
+          "mahalanobis_distance": 1.3306971477099667,
+          "within_between_ratio": 6.973279203321302
+        },
+        "R4": {
+          "centroid_distance": 0.0006393187182606662,
+          "mahalanobis_distance": 0.15334908112819715,
+          "within_between_ratio": 186.76161309322657
+        },
+        "raw": {
+          "centroid_distance": 0.0006964698167919728,
+          "mahalanobis_distance": 0.45843526008676855,
+          "within_between_ratio": 184.45518910582658
+        }
+      }
+    },
+    "MACS1149": {
+      "cohorts": {
+        "RAY_FAR_CONTROL": {
+          "count": 19921,
+          "deformation_mean": 0.7508574304384134,
+          "source_mean": 0.7110439595043136
+        },
+        "RAY_LENS_CORE": {
+          "count": 22130,
+          "deformation_mean": 5.362301421642468,
+          "source_mean": 0.27588608322240893
+        },
+        "RAY_LENS_INNER": {
+          "count": 44241,
+          "deformation_mean": 2.1823453087915077,
+          "source_mean": 0.26925781264606813
+        },
+        "RAY_LENS_OUTER": {
+          "count": 155011,
+          "deformation_mean": 0.9388471505349346,
+          "source_mean": 0.47286025166615436
+        },
+        "RAY_NEAR_LENS": {
+          "count": 43853,
+          "deformation_mean": 0.7394112935417634,
+          "source_mean": 0.62110063977298
+        },
+        "RAY_UNCLASSIFIED": {
+          "count": 0,
+          "deformation_mean": null,
+          "source_mean": null
+        }
+      },
+      "lens_association": {
+        "D_far": 1.2386452448425207,
+        "D_inside": 1.5216851295240488,
+        "D_near": 1.2592146865800304,
+        "S_far": 0.4728768447008155,
+        "S_inside": 0.4470845794623242,
+        "S_near": 0.4671518363890414,
+        "fixed_null_D": 1.4250206750237358,
+        "true_D": 1.5216851295240488
+      },
+      "separability": {
+        "3d": {
+          "centroid_distance": 0.9280109299981831,
+          "mahalanobis_distance": 1.3120711352448244,
+          "within_between_ratio": 7.827633131632126
+        },
+        "R3": {
+          "centroid_distance": 0.000668648013339822,
+          "mahalanobis_distance": 0.3450254868489179,
+          "within_between_ratio": 102.37405306410012
+        },
+        "R3_D": {
+          "centroid_distance": 0.8786720928234762,
+          "mahalanobis_distance": 0.4829982277997018,
+          "within_between_ratio": 8.573079784299493
+        },
+        "R3_S": {
+          "centroid_distance": 0.2985617595873879,
+          "mahalanobis_distance": 1.2079840176297985,
+          "within_between_ratio": 1.3705538393314438
+        },
+        "R3_plus_SD": {
+          "centroid_distance": 0.9280108933006589,
+          "mahalanobis_distance": 1.3111295371175178,
+          "within_between_ratio": 7.827629513133362
+        },
+        "R4": {
+          "centroid_distance": 0.000654147741149273,
+          "mahalanobis_distance": 0.19963897242326292,
+          "within_between_ratio": 98.07173502731305
+        },
+        "raw": {
+          "centroid_distance": 0.0007177754325178066,
+          "mahalanobis_distance": 0.4254784304516374,
+          "within_between_ratio": 95.92332900087135
+        }
+      }
+    }
+  },
+  "external_variant_count": 6,
+  "kde_executions": 0,
+  "lab_id": "PBUF-FOUNDATION-WL-SOURCE-DEFORMATION-SEPARATION-001",
+  "outcome": "WL_TARGET_BLIND_LENS_DEFORMATION_SEPARATION_ESTABLISHED",
+  "propagation_runs": 0,
+  "runtime_seconds": 17.24327063560486,
+  "scientific_answers": {
+    "D_aligns_with_registered_redistribution": true,
+    "D_only_shear_improves_both_components": false,
+    "D_retains_cohort_separability_vs_R4": {
+      "Abell2744": true,
+      "Abell370": true,
+      "AbellS1063": true,
+      "MACS0416": true,
+      "MACS1149": true
+    },
+    "S_D_overlap": {
+      "Abell2744": -0.09505313112007752,
+      "Abell370": -0.17999954870747312,
+      "AbellS1063": -0.13319423511583003,
+      "MACS0416": -0.01978723696031469,
+      "MACS1149": -0.07223979444137255
+    },
+    "S_captures_coherent_structure": "Supported by continuity primitives and saved diagnostics; no target label was used.",
+    "S_only_behaves_differently": true,
+    "deformation_without_truth": true,
+    "multiple_issues_consistent": true,
+    "premature_combination_reduces_separability": {
+      "Abell2744": false,
+      "Abell370": false,
+      "AbellS1063": false,
+      "MACS0416": false,
+      "MACS1149": false
+    },
+    "sampling_stability": {
+      "Abell2744": "SEPARATION_RAY_DENSITY_STABLE",
+      "Abell370": "SEPARATION_RAY_DENSITY_STABLE",
+      "AbellS1063": "SEPARATION_RAY_DENSITY_STABLE",
+      "MACS0416": "SEPARATION_RAY_DENSITY_STABLE",
+      "MACS1149": "SEPARATION_RAY_DENSITY_STABLE"
+    },
+    "source_without_truth": true
+  },
+  "secondary_outcomes": [
+    "WL_SEPARATION_ESTABLISHED_SHEAR_REMAINS_UNRESOLVED"
+  ],
+  "shear_audit": {
+    "Abell2744": {
+      "D_field_only": {
+        "gamma1": {
+          "pearson": -0.010386177605546673,
+          "rms_ratio": 32.54329506926796,
+          "spearman": -0.026681143401743077
+        },
+        "gamma2": {
+          "pearson": 0.033219747319903674,
+          "rms_ratio": 31.366204729989665,
+          "spearman": 0.014519844953222274
+        },
+        "magnitude_pearson": 0.05922375194969508,
+        "orientation_agreement": -0.014312956340120102
+      },
+      "R3_D_bank": {
+        "gamma1": {
+          "pearson": -0.002623738238045106,
+          "rms_ratio": 18.49800260060576,
+          "spearman": -0.001301714180325817
+        },
+        "gamma2": {
+          "pearson": 0.028604223831746215,
+          "rms_ratio": 16.684322392774856,
+          "spearman": 0.008128165635468998
+        },
+        "magnitude_pearson": 0.054021411882019255,
+        "orientation_agreement": -0.003246493750252311
+      },
+      "R3_S_bank": {
+        "gamma1": {
+          "pearson": 0.03302785524396516,
+          "rms_ratio": 0.43966925962083725,
+          "spearman": 0.040258870589609926
+        },
+        "gamma2": {
+          "pearson": 0.04451286411446132,
+          "rms_ratio": 0.3095691698428613,
+          "spearman": 0.03336599219862698
+        },
+        "magnitude_pearson": 0.07044502991666565,
+        "orientation_agreement": 0.033245520375468046
+      },
+      "R3_plus_SD": {
+        "gamma1": {
+          "pearson": -0.009212232510343843,
+          "rms_ratio": 31.56563337903166,
+          "spearman": -0.023597769157734913
+        },
+        "gamma2": {
+          "pearson": 0.035282076153478614,
+          "rms_ratio": 30.893852043995334,
+          "spearman": 0.016374587882751254
+        },
+        "magnitude_pearson": 0.06314891379935808,
+        "orientation_agreement": -0.00812157362035782
+      },
+      "S_field_only": {
+        "gamma1": {
+          "pearson": 0.005313785910386264,
+          "rms_ratio": 0.49973966544680404,
+          "spearman": 0.023736478662243703
+        },
+        "gamma2": {
+          "pearson": 0.026332100072255348,
+          "rms_ratio": 0.4946924560556531,
+          "spearman": 0.017767204681505545
+        },
+        "magnitude_pearson": 0.07494504526947504,
+        "orientation_agreement": 0.018112916188033606
+      },
+      "current_R3_control": {
+        "gamma1": {
+          "pearson": 0.09347044070520673,
+          "rms_ratio": 5503.013019993888,
+          "spearman": 0.056101533784995015
+        },
+        "gamma2": {
+          "pearson": -0.01495437377783913,
+          "rms_ratio": 876.5268853695555,
+          "spearman": -0.008209363406430241
+        },
+        "magnitude_pearson": 0.20685414602431954,
+        "orientation_agreement": 0.017935191986202352
+      }
+    },
+    "Abell370": {
+      "D_field_only": {
+        "gamma1": {
+          "pearson": 0.0210722998816471,
+          "rms_ratio": 78.84779503844666,
+          "spearman": -0.020186088669029694
+        },
+        "gamma2": {
+          "pearson": -0.021574740999285146,
+          "rms_ratio": 23.875126456241592,
+          "spearman": -0.007781788355702959
+        },
+        "magnitude_pearson": 0.05699284978163929,
+        "orientation_agreement": -0.023677224743616603
+      },
+      "R3_D_bank": {
+        "gamma1": {
+          "pearson": 0.013468432259719982,
+          "rms_ratio": 15.834344672236298,
+          "spearman": -0.0009858018025675002
+        },
+        "gamma2": {
+          "pearson": -0.03576180937235857,
+          "rms_ratio": 13.40580824388878,
+          "spearman": -0.008361599207988336
+        },
+        "magnitude_pearson": 0.12311643736326984,
+        "orientation_agreement": -0.019488499722926884
+      },
+      "R3_S_bank": {
+        "gamma1": {
+          "pearson": 0.07444583009473227,
+          "rms_ratio": 0.26550211583938116,
+          "spearman": 0.036416678764547634
+        },
+        "gamma2": {
+          "pearson": 0.010396093482094061,
+          "rms_ratio": 0.21985121340661035,
+          "spearman": -0.009241465622516163
+        },
+        "magnitude_pearson": 0.03852201047795015,
+        "orientation_agreement": 0.007251058767989799
+      },
+      "R3_plus_SD": {
+        "gamma1": {
+          "pearson": 0.021744282722404706,
+          "rms_ratio": 78.7351805509667,
+          "spearman": -0.01530781584298258
+        },
+        "gamma2": {
+          "pearson": -0.021568616408776033,
+          "rms_ratio": 23.57542648532051,
+          "spearman": 0.002713036594106203
+        },
+        "magnitude_pearson": 0.05735166933100841,
+        "orientation_agreement": -0.018833315119985164
+      },
+      "S_field_only": {
+        "gamma1": {
+          "pearson": 0.03169824860090492,
+          "rms_ratio": 0.3002512769474481,
+          "spearman": 0.02279272031386765
+        },
+        "gamma2": {
+          "pearson": -0.003157608743666442,
+          "rms_ratio": 0.32573729593275424,
+          "spearman": -0.013728876485161572
+        },
+        "magnitude_pearson": -0.0004313049993196557,
+        "orientation_agreement": 0.004579206602488487
+      },
+      "current_R3_control": {
+        "gamma1": {
+          "pearson": 0.13074109230508807,
+          "rms_ratio": 4442.644321955813,
+          "spearman": 0.04233945692863804
+        },
+        "gamma2": {
+          "pearson": 0.077611035434883,
+          "rms_ratio": 631.7960792795274,
+          "spearman": 0.05882630155178094
+        },
+        "magnitude_pearson": 0.15168173118882114,
+        "orientation_agreement": 0.01767248686609403
+      }
+    },
+    "AbellS1063": {
+      "D_field_only": {
+        "gamma1": {
+          "pearson": -0.008608941801204088,
+          "rms_ratio": 164.65466886565983,
+          "spearman": -0.03297296111466329
+        },
+        "gamma2": {
+          "pearson": 0.029725409587344574,
+          "rms_ratio": 54.797734838057316,
+          "spearman": 0.04765261954813717
+        },
+        "magnitude_pearson": 0.11825489096336943,
+        "orientation_agreement": -0.0038814757609371853
+      },
+      "R3_D_bank": {
+        "gamma1": {
+          "pearson": -0.008594413885713465,
+          "rms_ratio": 50.99991660173624,
+          "spearman": -0.02808458186997638
+        },
+        "gamma2": {
+          "pearson": 0.021114130337765335,
+          "rms_ratio": 24.545932963965804,
+          "spearman": 0.04747282198316561
+        },
+        "magnitude_pearson": 0.12115025091212148,
+        "orientation_agreement": 0.0055883264742180305
+      },
+      "R3_S_bank": {
+        "gamma1": {
+          "pearson": -0.013847829213625618,
+          "rms_ratio": 0.33758472037552517,
+          "spearman": 0.0022659908097365025
+        },
+        "gamma2": {
+          "pearson": 0.007607300503450275,
+          "rms_ratio": 0.2791879949457172,
+          "spearman": 0.013511233050457983
+        },
+        "magnitude_pearson": -0.08845737423796703,
+        "orientation_agreement": -0.004261141153008228
+      },
+      "R3_plus_SD": {
+        "gamma1": {
+          "pearson": -0.008939888431496816,
+          "rms_ratio": 166.5708839083794,
+          "spearman": -0.03365385802731556
+        },
+        "gamma2": {
+          "pearson": 0.031157984174715297,
+          "rms_ratio": 55.31316276556522,
+          "spearman": 0.05762944303694882
+        },
+        "magnitude_pearson": 0.11694707872521547,
+        "orientation_agreement": -0.0009324657358311325
+      },
+      "S_field_only": {
+        "gamma1": {
+          "pearson": 0.004477723963812829,
+          "rms_ratio": 0.47569373068397325,
+          "spearman": 0.0016728522001210708
+        },
+        "gamma2": {
+          "pearson": 0.011668668167668627,
+          "rms_ratio": 0.4634507342608815,
+          "spearman": 0.01290231022102858
+        },
+        "magnitude_pearson": -0.022154208160156143,
+        "orientation_agreement": -0.013454434627622228
+      },
+      "current_R3_control": {
+        "gamma1": {
+          "pearson": 0.04717182433926894,
+          "rms_ratio": 6176.268244557847,
+          "spearman": 0.006044160736685729
+        },
+        "gamma2": {
+          "pearson": 0.021864674783147815,
+          "rms_ratio": 827.2680267131886,
+          "spearman": 0.00864192870024578
+        },
+        "magnitude_pearson": 0.052391179556287554,
+        "orientation_agreement": 0.0025506711117327893
+      }
+    },
+    "MACS0416": {
+      "D_field_only": {
+        "gamma1": {
+          "pearson": -0.02264211866052869,
+          "rms_ratio": 36.99027180121366,
+          "spearman": -0.021686915493469777
+        },
+        "gamma2": {
+          "pearson": 0.014957654996030164,
+          "rms_ratio": 33.84873766911916,
+          "spearman": -0.009777529330460923
+        },
+        "magnitude_pearson": 0.1368138759859955,
+        "orientation_agreement": -0.004359476341155735
+      },
+      "R3_D_bank": {
+        "gamma1": {
+          "pearson": -0.025426195797094757,
+          "rms_ratio": 16.1852532509809,
+          "spearman": -0.02373512946033035
+        },
+        "gamma2": {
+          "pearson": -0.0030795481868728714,
+          "rms_ratio": 16.08719076653982,
+          "spearman": -0.01359541469164867
+        },
+        "magnitude_pearson": 0.14638895957261816,
+        "orientation_agreement": -0.011845011120396884
+      },
+      "R3_S_bank": {
+        "gamma1": {
+          "pearson": 0.004403160797870364,
+          "rms_ratio": 0.4022272394256888,
+          "spearman": -0.015221410856512997
+        },
+        "gamma2": {
+          "pearson": 0.03413276621658978,
+          "rms_ratio": 0.3321633548221389,
+          "spearman": 0.04733993465887385
+        },
+        "magnitude_pearson": 0.032897666076966134,
+        "orientation_agreement": 0.007908481004913256
+      },
+      "R3_plus_SD": {
+        "gamma1": {
+          "pearson": -0.024032195716922597,
+          "rms_ratio": 36.94896445821248,
+          "spearman": -0.031080991784024035
+        },
+        "gamma2": {
+          "pearson": 0.01590053988660475,
+          "rms_ratio": 34.05205756097111,
+          "spearman": 0.003186668176768456
+        },
+        "magnitude_pearson": 0.14001065068053853,
+        "orientation_agreement": -0.012890561603409623
+      },
+      "S_field_only": {
+        "gamma1": {
+          "pearson": -0.01689646097602347,
+          "rms_ratio": 0.5752191837990662,
+          "spearman": -0.017810564534993776
+        },
+        "gamma2": {
+          "pearson": 0.04526116311591458,
+          "rms_ratio": 0.6235656753863694,
+          "spearman": 0.04874162275794925
+        },
+        "magnitude_pearson": 0.02690760977870306,
+        "orientation_agreement": 0.010260986873744249
+      },
+      "current_R3_control": {
+        "gamma1": {
+          "pearson": -0.0005048091849254605,
+          "rms_ratio": 4945.550522443514,
+          "spearman": -0.015589102424701143
+        },
+        "gamma2": {
+          "pearson": 0.0011336243312007623,
+          "rms_ratio": 742.4174016671185,
+          "spearman": 0.012036288483808041
+        },
+        "magnitude_pearson": 0.18587169122051764,
+        "orientation_agreement": -0.02143034688519413
+      }
+    },
+    "MACS1149": {
+      "D_field_only": {
+        "gamma1": {
+          "pearson": -0.12134281882821656,
+          "rms_ratio": 121.86754277183643,
+          "spearman": -0.03266471808842376
+        },
+        "gamma2": {
+          "pearson": 0.034237457286699025,
+          "rms_ratio": 106.69572919672211,
+          "spearman": -0.007239504496105628
+        },
+        "magnitude_pearson": 0.23355378927743034,
+        "orientation_agreement": -0.01422439576974702
+      },
+      "R3_D_bank": {
+        "gamma1": {
+          "pearson": -0.11096303563930833,
+          "rms_ratio": 52.329303694622844,
+          "spearman": -0.02433122236516402
+        },
+        "gamma2": {
+          "pearson": 0.025994885023763892,
+          "rms_ratio": 43.047432818333434,
+          "spearman": -0.01653323382889001
+        },
+        "magnitude_pearson": 0.20406262106729,
+        "orientation_agreement": -0.015067186730260113
+      },
+      "R3_S_bank": {
+        "gamma1": {
+          "pearson": -0.0010298551471308757,
+          "rms_ratio": 0.24596354376015372,
+          "spearman": -0.018642460524686294
+        },
+        "gamma2": {
+          "pearson": 0.02463296063018678,
+          "rms_ratio": 0.2536289416143895,
+          "spearman": 0.04004321658413017
+        },
+        "magnitude_pearson": 0.04211179708126522,
+        "orientation_agreement": 0.03577105771718725
+      },
+      "R3_plus_SD": {
+        "gamma1": {
+          "pearson": -0.1216305935206901,
+          "rms_ratio": 121.158876214774,
+          "spearman": -0.019364826348472666
+        },
+        "gamma2": {
+          "pearson": 0.0340146857970677,
+          "rms_ratio": 108.37532822681204,
+          "spearman": -0.010249032104432952
+        },
+        "magnitude_pearson": 0.23406314488233024,
+        "orientation_agreement": -0.021071024198514594
+      },
+      "S_field_only": {
+        "gamma1": {
+          "pearson": 0.01004963180375068,
+          "rms_ratio": 0.40813786658728185,
+          "spearman": -0.019837274012228654
+        },
+        "gamma2": {
+          "pearson": 0.0011930306590001345,
+          "rms_ratio": 0.4754883405639369,
+          "spearman": 0.03675230750622493
+        },
+        "magnitude_pearson": 0.06580610913427203,
+        "orientation_agreement": 0.0336742049274165
+      },
+      "current_R3_control": {
+        "gamma1": {
+          "pearson": 0.042237100891876926,
+          "rms_ratio": 3705.4236879025516,
+          "spearman": 0.00289628179922268
+        },
+        "gamma2": {
+          "pearson": -0.11288738263150817,
+          "rms_ratio": 606.5107595006116,
+          "spearman": -0.01932516869995868
+        },
+        "magnitude_pearson": 0.31568627608114724,
+        "orientation_agreement": -0.026598450329439444
+      }
+    }
+  },
+  "structural_sha256": "9b5e628b79995c4f59ba8d6fc44d7dd3ca60c2afd88017c1a1975cc4802951c8"
+}

@@ -1,0 +1,145 @@
+{
+  "dynamic_survivors": [],
+  "results": [
+    {
+      "attempted": true,
+      "id": "E01",
+      "name": "raw trajectory update vector",
+      "status": "NUMERICAL_UPDATE_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E02",
+      "name": "raw update magnitude",
+      "status": "NUMERICAL_UPDATE_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E03",
+      "name": "longitudinal update component",
+      "status": "NUMERICAL_UPDATE_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E04",
+      "name": "transverse update component",
+      "status": "NUMERICAL_UPDATE_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E05",
+      "name": "fast-channel amplitude",
+      "status": "STATIC_MEDIUM_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E06",
+      "name": "slow-channel amplitude",
+      "status": "STATIC_MEDIUM_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E07",
+      "name": "combined fast/slow state",
+      "status": "STATIC_MEDIUM_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E08",
+      "name": "pair-transfer state",
+      "status": "STATIC_MEDIUM_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E09",
+      "name": "link-state norm",
+      "status": "STATIC_MEDIUM_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E10",
+      "name": "per-axis modal state",
+      "status": "STATIC_MEDIUM_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E11",
+      "name": "source weight",
+      "status": "OBSERVATIONAL_WEIGHT_ONLY",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E12",
+      "name": "ray weight",
+      "status": "OBSERVATIONAL_WEIGHT_ONLY",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E13",
+      "name": "bundle weight",
+      "status": "OBSERVATIONAL_WEIGHT_ONLY",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E14",
+      "name": "accumulated response integral",
+      "status": "DYNAMIC_STATE_GEOMETRIC_ONLY",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E15",
+      "name": "curvature-integrated state",
+      "status": "DYNAMIC_STATE_GEOMETRIC_ONLY",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E16",
+      "name": "path-excess state",
+      "status": "DYNAMIC_STATE_GEOMETRIC_ONLY",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E17",
+      "name": "receiver-preserved interaction state",
+      "status": "DYNAMIC_STATE_GEOMETRIC_ONLY",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E18",
+      "name": "discarded pre-normalization state",
+      "status": "NUMERICAL_UPDATE_STATE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E19",
+      "name": "hidden dynamic state elsewhere in propagation stack",
+      "status": "MISSING_PROVENANCE",
+      "survives_dynamic_excitation_gate": false
+    },
+    {
+      "attempted": true,
+      "id": "E20",
+      "name": "no existing dynamic excitation state",
+      "status": "NOT_APPLICABLE",
+      "survives_dynamic_excitation_gate": false
+    }
+  ]
+}

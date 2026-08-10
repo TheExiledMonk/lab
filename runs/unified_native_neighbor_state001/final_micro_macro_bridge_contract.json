@@ -1,0 +1,21 @@
+{
+  "EM_used_as_native_input": false,
+  "GR_used_as_native_input": false,
+  "QM_used_as_native_input": false,
+  "common_constitutive_law_established": false,
+  "common_native_state_established": true,
+  "contract": "PBUF_MICRO_MACRO_SHARED_MEDIUM_BRIDGE_V1",
+  "dynamic_ray_parity": false,
+  "free_parameter_count": 0,
+  "loaded_composite_propagation_available": false,
+  "loading_excitation_interaction_emerges": false,
+  "localized_loaded_excitation_available": false,
+  "macro_deformation_sector_recovered": true,
+  "micro_excitation_sector_recovered": true,
+  "quantization_revisited": false,
+  "remaining_missing_physics": [
+    "unique coefficient-free law deriving both static response and dynamic transfer",
+    "dynamic-ray parity",
+    "localization/backreaction"
+  ]
+}

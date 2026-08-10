@@ -1,0 +1,21 @@
+{
+  "EXCITATION_AMOUNT_CHANGES_C": false,
+  "beta": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "identity_transport": true,
+  "packet_dynamics": "FROZEN_EXISTING_ZERO_MASS_TRANSPORT",
+  "q0": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ]
+}

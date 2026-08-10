@@ -1,0 +1,352 @@
+{
+  "lab_id": "PBUF-FOUNDATION-MASS-MEDIUM-CANDIDATE-AUDIT-001",
+  "status": "FACT_FINDING_ONLY",
+  "question": "candidate absolute baryonic mass-energy to spacetime-medium strain bridge",
+  "guardrails": {
+    "fact_finding_only": true,
+    "no_fit": true,
+    "target_blind": true,
+    "no_kappa": true,
+    "no_shear": true,
+    "no_HST_target_data": true,
+    "no_GR_Newtonian_calibration": true,
+    "no_quantum_engine": true,
+    "existing_pbuf_baryon_alpha_untouched": true,
+    "legacy_strength_0p18_role": "quarantined_scale_comparison_only"
+  },
+  "hypothesis_boundary": {
+    "existing_PBUF_side": "baryon/alpha/multiplicity and current metric-strain framework are treated as existing inputs",
+    "speculative_side": "choice of source response length/volume and Kp* dimensional modulus candidate",
+    "candidate_selection_authorized": false
+  },
+  "repo_state": {
+    "repository": "TheExiledMonk/lab",
+    "branch": "main",
+    "head_sha": "186b0587eaccface4ce80a7f4acb17c40f6544c3",
+    "tracked_changes": "",
+    "staged_changes": ""
+  },
+  "fact_finding": {
+    "reference_quantities": {
+      "proton_mass_kg": 1.67262192595e-27,
+      "proton_rest_energy_J": 1.5032776180163123e-10,
+      "planck_length_m": 1.616255e-35,
+      "planck_cube_volume_m3": 4.222110975097782e-105,
+      "proton_reduced_compton_length_m": 2.1030891005139573e-16,
+      "proton_compton_wavelength_m": 1.3214098536038828e-15,
+      "proton_charge_radius_m": 8.409e-16,
+      "Ep_star_J_equals_hbar_c_over_lP": 1956081666.2572987,
+      "Kp_star_J_m3_equals_Ep_star_over_lP3": 4.6329470679344164e+113,
+      "Kp_star_status": "dimensional_candidate_only_not_derived_PBUF_modulus"
+    },
+    "candidate_rows": [
+      {
+        "key": "planck_cell_cube",
+        "physical_role": "elementary medium-cell boundary hypothesis",
+        "length_m": 1.616255e-35,
+        "volume_geometry": "cube_l_cubed",
+        "volume_m3": 4.222110975097782e-105,
+        "status": "speculative_boundary_case",
+        "baryon_rest_energy_J": 1.5032776180163123e-10,
+        "energy_density_J_m3": 3.560488170213236e+94,
+        "planck_cube_count_in_candidate_volume": 1.0,
+        "uniform_energy_per_planck_cube_J": 1.5032776180163123e-10,
+        "uniform_energy_per_cell_over_Ep_star": 7.685147527059202e-20,
+        "candidate_strain_if_K_equals_Kp_star": 7.685147527059202e-20,
+        "log10_abs_candidate_strain": -19.11434779119966,
+        "legacy_0p18_over_candidate_strain": 2.342180151600535e+18,
+        "candidate_strain_over_legacy_0p18": 4.269526403921779e-19,
+        "uniform_cell_identity_relative_error": 0.0,
+        "metric_strain_map_diagnostic": {
+          "chi_isotropic_spatial_diag": [
+            0.0,
+            7.685147527059202e-20,
+            7.685147527059202e-20,
+            7.685147527059202e-20
+          ],
+          "metric_diag": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metric_determinant": -1.0,
+          "metric_eigenvalues": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "lorentzian_signature_preserved": true,
+          "max_abs_metric_delta": 0.0
+        }
+      },
+      {
+        "key": "reduced_compton_cube",
+        "physical_role": "quantum localization/source-extent candidate",
+        "length_m": 2.1030891005139573e-16,
+        "volume_geometry": "cube_l_cubed",
+        "volume_m3": 9.301928947292034e-48,
+        "status": "speculative_candidate",
+        "baryon_rest_energy_J": 1.5032776180163123e-10,
+        "energy_density_J_m3": 1.6160923465814526e+37,
+        "planck_cube_count_in_candidate_volume": 2.203146483395455e+57,
+        "uniform_energy_per_planck_cube_J": 6.823321233273079e-68,
+        "uniform_energy_per_cell_over_Ep_star": 3.4882598978234855e-77,
+        "candidate_strain_if_K_equals_Kp_star": 3.488259897823486e-77,
+        "log10_abs_candidate_strain": -76.45739116479864,
+        "legacy_0p18_over_candidate_strain": 5.160165964477352e+75,
+        "candidate_strain_over_legacy_0p18": 1.9379221654574923e-76,
+        "uniform_cell_identity_relative_error": 2.1989355048669714e-16,
+        "metric_strain_map_diagnostic": {
+          "chi_isotropic_spatial_diag": [
+            0.0,
+            3.488259897823486e-77,
+            3.488259897823486e-77,
+            3.488259897823486e-77
+          ],
+          "metric_diag": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metric_determinant": -1.0,
+          "metric_eigenvalues": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "lorentzian_signature_preserved": true,
+          "max_abs_metric_delta": 0.0
+        }
+      },
+      {
+        "key": "reduced_compton_sphere",
+        "physical_role": "same reduced-Compton scale with spherical geometry",
+        "length_m": 2.1030891005139573e-16,
+        "volume_geometry": "sphere_radius_l",
+        "volume_m3": 3.8963828860035853e-47,
+        "status": "speculative_candidate_geometry_check",
+        "baryon_rest_energy_J": 1.5032776180163123e-10,
+        "energy_density_J_m3": 3.8581362817712805e+36,
+        "planck_cube_count_in_candidate_volume": 9.228518409356465e+57,
+        "uniform_energy_per_planck_cube_J": 1.6289479538689472e-68,
+        "uniform_energy_per_cell_over_Ep_star": 8.327607082917565e-78,
+        "candidate_strain_if_K_equals_Kp_star": 8.327607082917564e-78,
+        "log10_abs_candidate_strain": -77.07947977410106,
+        "legacy_0p18_over_candidate_strain": 2.161485264707485e+76,
+        "candidate_strain_over_legacy_0p18": 4.626448379398647e-77,
+        "uniform_cell_identity_relative_error": 1.1513599379679734e-16,
+        "metric_strain_map_diagnostic": {
+          "chi_isotropic_spatial_diag": [
+            0.0,
+            8.327607082917564e-78,
+            8.327607082917564e-78,
+            8.327607082917564e-78
+          ],
+          "metric_diag": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metric_determinant": -1.0,
+          "metric_eigenvalues": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "lorentzian_signature_preserved": true,
+          "max_abs_metric_delta": 0.0
+        }
+      },
+      {
+        "key": "compton_cube",
+        "physical_role": "ordinary de Broglie/Compton source-extent candidate",
+        "length_m": 1.3214098536038828e-15,
+        "volume_geometry": "cube_l_cubed",
+        "volume_m3": 2.3073454608018142e-45,
+        "status": "speculative_candidate",
+        "baryon_rest_energy_J": 1.5032776180163123e-10,
+        "energy_density_J_m3": 6.515182245375236e+34,
+        "planck_cube_count_in_candidate_volume": 5.464909554511123e+59,
+        "uniform_energy_per_planck_cube_J": 2.7507822462960998e-70,
+        "uniform_energy_per_cell_over_Ep_star": 1.406271677582539e-79,
+        "candidate_strain_if_K_equals_Kp_star": 1.4062716775825388e-79,
+        "log10_abs_candidate_strain": -78.85193076987298,
+        "legacy_0p18_over_candidate_strain": 1.2799802688868075e+78,
+        "candidate_strain_over_legacy_0p18": 7.812620431014104e-79,
+        "uniform_cell_identity_relative_error": 2.1306500833137522e-16,
+        "metric_strain_map_diagnostic": {
+          "chi_isotropic_spatial_diag": [
+            0.0,
+            1.4062716775825388e-79,
+            1.4062716775825388e-79,
+            1.4062716775825388e-79
+          ],
+          "metric_diag": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metric_determinant": -1.0,
+          "metric_eigenvalues": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "lorentzian_signature_preserved": true,
+          "max_abs_metric_delta": 0.0
+        }
+      },
+      {
+        "key": "compton_sphere",
+        "physical_role": "same ordinary Compton scale with spherical geometry",
+        "length_m": 1.3214098536038828e-15,
+        "volume_geometry": "sphere_radius_l",
+        "volume_m3": 9.66498606526498e-45,
+        "status": "speculative_candidate_geometry_check",
+        "baryon_rest_energy_J": 1.5032776180163123e-10,
+        "energy_density_J_m3": 1.5553851892440341e+34,
+        "planck_cube_count_in_candidate_volume": 2.2891359611979747e+60,
+        "uniform_energy_per_planck_cube_J": 6.567008878011777e-71,
+        "uniform_energy_per_cell_over_Ep_star": 3.357226332260898e-80,
+        "candidate_strain_if_K_equals_Kp_star": 3.3572263322608977e-80,
+        "log10_abs_candidate_strain": -79.47401937917542,
+        "legacy_0p18_over_candidate_strain": 5.36156881263291e+78,
+        "candidate_strain_over_legacy_0p18": 1.8651257401449433e-79,
+        "uniform_cell_identity_relative_error": 1.115605774851494e-16,
+        "metric_strain_map_diagnostic": {
+          "chi_isotropic_spatial_diag": [
+            0.0,
+            3.3572263322608977e-80,
+            3.3572263322608977e-80,
+            3.3572263322608977e-80
+          ],
+          "metric_diag": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metric_determinant": -1.0,
+          "metric_eigenvalues": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "lorentzian_signature_preserved": true,
+          "max_abs_metric_delta": 0.0
+        }
+      },
+      {
+        "key": "proton_charge_radius_cube",
+        "physical_role": "measured baryon charge-size scale used only as a length candidate",
+        "length_m": 8.409e-16,
+        "volume_geometry": "cube_l_cubed",
+        "volume_m3": 5.9461116192900006e-46,
+        "status": "measured_length_speculative_response_volume",
+        "baryon_rest_energy_J": 1.5032776180163123e-10,
+        "energy_density_J_m3": 2.5281691873046477e+35,
+        "planck_cube_count_in_candidate_volume": 1.4083267006387229e+59,
+        "uniform_energy_per_planck_cube_J": 1.0674210872622993e-69,
+        "uniform_energy_per_cell_over_Ep_star": 5.456935186681991e-79,
+        "candidate_strain_if_K_equals_Kp_star": 5.456935186681991e-79,
+        "log10_abs_candidate_strain": -78.26305120440514,
+        "legacy_0p18_over_candidate_strain": 3.2985548452050856e+77,
+        "candidate_strain_over_legacy_0p18": 3.0316306592677726e-78,
+        "uniform_cell_identity_relative_error": 0.0,
+        "metric_strain_map_diagnostic": {
+          "chi_isotropic_spatial_diag": [
+            0.0,
+            5.456935186681991e-79,
+            5.456935186681991e-79,
+            5.456935186681991e-79
+          ],
+          "metric_diag": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metric_determinant": -1.0,
+          "metric_eigenvalues": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "lorentzian_signature_preserved": true,
+          "max_abs_metric_delta": 0.0
+        }
+      },
+      {
+        "key": "proton_charge_radius_sphere",
+        "physical_role": "measured baryon charge-size scale with spherical geometry",
+        "length_m": 8.409e-16,
+        "volume_geometry": "sphere_radius_l",
+        "volume_m3": 2.4907014107448498e-45,
+        "status": "measured_length_speculative_response_volume",
+        "baryon_rest_energy_J": 1.5032776180163123e-10,
+        "energy_density_J_m3": 6.035559346982317e+34,
+        "planck_cube_count_in_candidate_volume": 5.8991850887746185e+59,
+        "uniform_energy_per_planck_cube_J": 2.5482801359748045e-70,
+        "uniform_energy_per_cell_over_Ep_star": 1.3027473136388004e-79,
+        "candidate_strain_if_K_equals_Kp_star": 1.3027473136388002e-79,
+        "log10_abs_candidate_strain": -78.88513981370758,
+        "legacy_0p18_over_candidate_strain": 1.3816954225545753e+78,
+        "candidate_strain_over_legacy_0p18": 7.237485075771113e-79,
+        "uniform_cell_identity_relative_error": 1.149982362517369e-16,
+        "metric_strain_map_diagnostic": {
+          "chi_isotropic_spatial_diag": [
+            0.0,
+            1.3027473136388002e-79,
+            1.3027473136388002e-79,
+            1.3027473136388002e-79
+          ],
+          "metric_diag": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "metric_determinant": -1.0,
+          "metric_eigenvalues": [
+            -1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "lorentzian_signature_preserved": true,
+          "max_abs_metric_delta": 0.0
+        }
+      }
+    ]
+  },
+  "checks": {
+    "all_candidate_numbers_finite_and_positive_volume": true,
+    "uniform_density_planck_cell_identity_pass": true,
+    "current_metric_strain_map_signature_preserved_for_all_candidates": true,
+    "no_candidate_selected_or_ranked": true,
+    "no_fit_performed": true,
+    "target_blind_no_kappa_shear_or_HST_loaded": true,
+    "quantum_engine_not_used": true,
+    "existing_pbuf_baryon_alpha_structure_untouched": true,
+    "legacy_strength_used_only_as_quarantined_scale_reference": true,
+    "no_tracked_or_staged_changes_after_run": true
+  },
+  "runtime_seconds": 0.006956815719604492,
+  "post_run_repo_state": {
+    "repository": "TheExiledMonk/lab",
+    "branch": "main",
+    "head_sha": "186b0587eaccface4ce80a7f4acb17c40f6544c3",
+    "tracked_changes": "",
+    "staged_changes": ""
+  }
+}

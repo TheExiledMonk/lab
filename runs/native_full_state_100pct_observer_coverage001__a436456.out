@@ -1,0 +1,99 @@
+PBUF-FOUNDATION-FULL-STATE-100PCT-OBSERVER-COVERAGE-001
+status=FULL_STATE_100PCT_OBSERVER_COVERAGE_NOT_ESTABLISHED
+head_sha=a43645625b9d6f9a1f166f9166799d3232403f3f
+rays_25pct=71289
+rays_100pct=285156
+support_25pct=1024
+support_100pct=4096
+upstream_physics=frozen
+decoder_inventory=exact_PR105_inventory
+observations=after_both_lane_decoders
+
+CHECKS
+canonical_five_cluster_inventory=true
+all_five_clusters_completed=false
+same_native_M10_shared_between_coverage_lanes=false
+25pct_expected_ray_count=true
+100pct_ray_count_is_exactly_4x_25pct=true
+100pct_expected_source_support=false
+25pct_expected_source_support=false
+same_decoder_inventory_both_lanes=false
+full_45_channel_bank_both_lanes=false
+native_terminal_common_history_identity=false
+G3D_unit_speed_valid_both_lanes=false
+observations_used_only_after_both_lane_decoders_constructed=true
+no_observational_fit_or_decoder_weighting=true
+no_physical_output_rescaling=true
+no_upstream_physics_change=true
+no_cluster_specific_decoder_choice=true
+no_historical_strength_or_replacement_scalar=true
+no_tracked_or_staged_changes=true
+
+RESULT_JSON
+{
+  "lab_id": "PBUF-FOUNDATION-FULL-STATE-100PCT-OBSERVER-COVERAGE-001",
+  "status": "FULL_STATE_100PCT_OBSERVER_COVERAGE_NOT_ESTABLISHED",
+  "repo_state": {
+    "repository": "TheExiledMonk/lab",
+    "branch": "foundation/native-full-state-100pct-observer-coverage001",
+    "head_sha": "a43645625b9d6f9a1f166f9166799d3232403f3f",
+    "tracked_changes": "",
+    "staged_changes": ""
+  },
+  "coverage_rule": "same native M10 and same decoder inventory; only source-plane coverage/ray count changes from 25% to 100% at approximately fixed rays per source bin",
+  "side_25pct": 267,
+  "side_100pct": 534,
+  "rays_25pct": 71289,
+  "rays_100pct": 285156,
+  "expected_support_25pct": 1024,
+  "expected_support_100pct": 4096,
+  "frozen_carry_forward_candidates": [
+    "full_whitened_pca_energy_8",
+    "full_l2",
+    "established2d_l2"
+  ],
+  "aggregate": {},
+  "rows": [],
+  "failures": [
+    {
+      "cluster_id": "Abell2744",
+      "error": "ValueError: operands could not be broadcast together with shapes (285156,) (71289,) "
+    },
+    {
+      "cluster_id": "MACS0416",
+      "error": "ValueError: operands could not be broadcast together with shapes (285156,) (71289,) "
+    },
+    {
+      "cluster_id": "MACS1149",
+      "error": "ValueError: operands could not be broadcast together with shapes (285156,) (71289,) "
+    },
+    {
+      "cluster_id": "AbellS1063",
+      "error": "ValueError: operands could not be broadcast together with shapes (285156,) (71289,) "
+    },
+    {
+      "cluster_id": "Abell370",
+      "error": "ValueError: operands could not be broadcast together with shapes (285156,) (71289,) "
+    }
+  ],
+  "checks": {
+    "canonical_five_cluster_inventory": true,
+    "all_five_clusters_completed": false,
+    "same_native_M10_shared_between_coverage_lanes": false,
+    "25pct_expected_ray_count": true,
+    "100pct_ray_count_is_exactly_4x_25pct": true,
+    "100pct_expected_source_support": false,
+    "25pct_expected_source_support": false,
+    "same_decoder_inventory_both_lanes": false,
+    "full_45_channel_bank_both_lanes": false,
+    "native_terminal_common_history_identity": false,
+    "G3D_unit_speed_valid_both_lanes": false,
+    "observations_used_only_after_both_lane_decoders_constructed": true,
+    "no_observational_fit_or_decoder_weighting": true,
+    "no_physical_output_rescaling": true,
+    "no_upstream_physics_change": true,
+    "no_cluster_specific_decoder_choice": true,
+    "no_historical_strength_or_replacement_scalar": true,
+    "no_tracked_or_staged_changes": true
+  }
+}

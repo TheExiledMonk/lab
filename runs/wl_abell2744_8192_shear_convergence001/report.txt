@@ -1,0 +1,178 @@
+{
+  "baseline": {
+    "gamma1": {
+      "count": 4096,
+      "coverage_fraction": 1.0,
+      "obs_rms": 0.062160042482900475,
+      "pearson": 0.15963721563216124,
+      "pred_rms": 0.0239242457539334,
+      "rms_ratio_pred_over_obs": 0.38488142540305836,
+      "spearman": 0.09715428188710849
+    },
+    "gamma2": {
+      "count": 4096,
+      "coverage_fraction": 1.0,
+      "obs_rms": 0.05586397422966777,
+      "pearson": 0.20242108305073303,
+      "pred_rms": 0.018838754008152395,
+      "rms_ratio_pred_over_obs": 0.33722545285988026,
+      "spearman": 0.14387459525184157
+    },
+    "magnitude_pearson": 0.2187521646685786,
+    "orientation_agreement": 0.08368696562433091
+  },
+  "checks": {
+    "a8_unchanged": true,
+    "abell2744_only": true,
+    "all_67108864_rays_processed": true,
+    "atomic_checkpointing": true,
+    "baseline_comparison_reported": true,
+    "bounded_memory_execution": true,
+    "candidate_frozen_D_jacobian": true,
+    "completed_tiles_not_recomputed": true,
+    "deposition_frozen_tsc_3x3": true,
+    "diagnostic_images_written": true,
+    "disk_safety_pass": true,
+    "gamma1_scored": true,
+    "gamma2_scored": true,
+    "interface_unchanged": true,
+    "launch_8192x8192": true,
+    "los_unchanged": true,
+    "m10_unchanged": true,
+    "native_response_unchanged": true,
+    "no_16384_execution": true,
+    "no_amplitude_rescale": true,
+    "no_kappa_evaluation": true,
+    "no_kde": true,
+    "no_observational_fit": true,
+    "no_recipe_search": true,
+    "no_rotation_fit": true,
+    "no_sign_flip": true,
+    "no_target_guided_sampling": true,
+    "observed_map_unchanged": true,
+    "observer_grid_frozen_64x64": true,
+    "occupancy_reported": true,
+    "orientation_reported": true,
+    "predictions_frozen_before_target_load": true,
+    "propagation_law_unchanged": true,
+    "ray_count_exact_67108864": true,
+    "resume_supported": true,
+    "rms_recovery_reported": true,
+    "screen_bounds_unchanged": true,
+    "source_unchanged": true,
+    "streamed_path_parity_pass": true,
+    "upstream_physics_frozen": true,
+    "vram_safety_pass": true
+  },
+  "current_vs_8192": {
+    "gamma1": {
+      "current_vs_8192_pearson": 0.9883735432532696,
+      "current_vs_8192_spearman": 0.9736688929282215,
+      "maximum_absolute_difference": 0.031212645818493763,
+      "mean_absolute_difference": 0.002320960063374465,
+      "residual_mae_8192": 0.04877138228119521,
+      "residual_mae_baseline": 0.048907661362790344,
+      "residual_rms_8192": 0.06278027267929222,
+      "residual_rms_baseline": 0.06302946834436475,
+      "rms_difference": 0.00364139182049328
+    },
+    "gamma2": {
+      "current_vs_8192_pearson": 0.9894938014563218,
+      "current_vs_8192_spearman": 0.9812428944157858,
+      "maximum_absolute_difference": 0.03400432189547094,
+      "mean_absolute_difference": 0.0016759114869932617,
+      "residual_mae_8192": 0.04333025780444788,
+      "residual_mae_baseline": 0.043324067245685924,
+      "residual_rms_8192": 0.055343533702819726,
+      "residual_rms_baseline": 0.05522011480907374,
+      "rms_difference": 0.0027268607586142077
+    }
+  },
+  "deltas": {
+    "gamma1_pearson": 0.006775759201217119,
+    "gamma1_rms_ratio": -0.007149991989067628,
+    "gamma1_spearman": 0.006586127783183182,
+    "gamma2_pearson": -0.006864841285680823,
+    "gamma2_rms_ratio": -0.002051453125013092,
+    "gamma2_spearman": -0.002560873086467269
+  },
+  "estimated_16384_seconds_EXTRAPOLATED_NOT_MEASURED": 24.372521968005458,
+  "lab_id": "PBUF-FOUNDATION-WL-ABELL2744-8192-SHEAR-CONVERGENCE-001",
+  "manifest": {
+    "backend": "vulkan",
+    "baseline_commit": "b54caa8ec50043cd07fee0b8955372bc1990bd5b",
+    "benchmark_source_fingerprint": "91ab77f732c934a278445dd05162c2ef73fb6acaf45834921f953325aaeea0d3",
+    "candidate": "D_jacobian",
+    "candidate_code_fingerprint": "b72fc5464e1f73ddeeb6b10f152fdddb6cf4df4baab1f6a44b639b82b6490441",
+    "cluster": "Abell2744",
+    "deposition": "tsc_3x3",
+    "launch_fingerprint": "0935d4e1651fb042f250816cbc60042f677a2774656d534e7140ec780ae71c42",
+    "launch_height": 8192,
+    "launch_width": 8192,
+    "observer_shape": [
+      64,
+      64
+    ],
+    "ray_count": 67108864,
+    "streaming_code_fingerprint": "49ffafc1b953528dea6c33e777b4582b66966b5ee27ed2d663336a7f8baa070c",
+    "tile_size": 512
+  },
+  "metrics": {
+    "gamma1": {
+      "count": 4096,
+      "coverage_fraction": 1.0,
+      "obs_rms": 0.062160042482900475,
+      "pearson": 0.16641297483337836,
+      "pred_rms": 0.023479801948140557,
+      "rms_ratio_pred_over_obs": 0.37773143341399074,
+      "spearman": 0.10374040967029168
+    },
+    "gamma2": {
+      "count": 4096,
+      "coverage_fraction": 1.0,
+      "obs_rms": 0.05586397422966777,
+      "pearson": 0.1955562417650522,
+      "pred_rms": 0.01872415168364329,
+      "rms_ratio_pred_over_obs": 0.33517399973486717,
+      "spearman": 0.1413137221653743
+    },
+    "magnitude_pearson": 0.21775252482107063,
+    "orientation_agreement": 0.08693631626557127
+  },
+  "occupancy": {
+    "baseline": {
+      "empty_cells": 0,
+      "maximum": 96,
+      "mean": 69.6181640625,
+      "median": 71.0,
+      "minimum_occupied": 31,
+      "total_rays": 285156
+    },
+    "fixed_cell_theoretical_mean": 16384,
+    "highres": {
+      "empty_cells": 0,
+      "maximum": 21260,
+      "mean": 16377.44091796875,
+      "median": 16408.0,
+      "minimum_occupied": 7134,
+      "total_rays": 67108864
+    }
+  },
+  "outcome": "WL_8192_RECEPTION_DENSITY_SHEAR_NEAR_CONVERGED",
+  "performance": {
+    "max_tile_seconds": 0.1396930129994871,
+    "mean_tile_seconds": 0.11370438043792319,
+    "median_tile_seconds": 0.11123261450120481,
+    "million_rays_per_second": 2.3054872555514017,
+    "min_tile_seconds": 0.09916896499635186,
+    "preflight_seconds": 3.6187498229992343,
+    "propagation_and_observer_accumulation_total": 29.108321392108337,
+    "rays_per_second": 2305487.2555514015,
+    "tile_count": 256,
+    "wall_total": 6.0931304920013645
+  },
+  "prediction_fingerprints": {
+    "gamma1": "c442139bfd324847aac2c3989dbe057e9f61bc48e1095f72ca4dff27a6d774c0",
+    "gamma2": "9763e863d1ac7f006481f6e16c1d3a69180a2bcc1c7e651c3b69644be52a070e"
+  }
+}

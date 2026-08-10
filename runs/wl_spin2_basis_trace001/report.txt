@@ -1,0 +1,19 @@
+WL_NATIVE_TO_SKY_BASIS_RESOLVED_BENCHMARK_BASIS_UNDECLARED
+1. Native transverse basis: global +x,+y; F1 is not distinct.
+2. Detector: e_u=projected global +x; e_v=cross(normal,e_u); e_w=normal; right-handed.
+3. No literal 90-degree parameter exists; the reference normal is mean velocity.
+4. row -> +v; column -> +u.
+5. Detector raster -> FITS pixel is identity in (column,row).
+6. FITS -> (RA,Dec) is the recorded CD matrix, normalized diag(-1,+1).
+7. The resolved native-to-sky chain has a WCS reflection.
+8. No axis swap occurs.
+9-10. A pure rotation/phase is undefined for this improper transform; its spin-2 action is diag(+1,-1).
+11. The resolved chain does not imply Q -> -Q.
+12. Benchmark gamma basis is not explicitly declared.
+13-14. No sky-to-gamma matrix is derivable; A_F5_to_F6 remains unresolved.
+15-18. No corrected lane was manufactured, so improvement and control-outperformance claims are unsupported.
+19. Basis bookkeeping is not established as the primary decoder error; shear remains unresolved.
+DEV124_STRUCTURAL_SHA256=9639487a2426e89252d55f15fa9992c5ee3f5890fb04e6f685eaa1e8ad2edef4
+EARTH_RECEIVER_HYPOTHESIS_PARKED=true
+PROPAGATION_RUNS=0
+KDE_EXECUTIONS=0

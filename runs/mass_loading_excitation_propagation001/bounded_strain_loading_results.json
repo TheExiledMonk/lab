@@ -1,0 +1,15 @@
+{
+  "bounded": true,
+  "coefficient_free": true,
+  "ell_definition": "abs(epsilon)/epsilon_max",
+  "energy_normalization": {
+    "coefficient_free_fraction": false,
+    "finite_native_maximum": false,
+    "outcome": "NO_NATIVE_FINITE_W_NORMALIZATION"
+  },
+  "maps_to_speed": false,
+  "stress_normalization": {
+    "coefficient_free_fraction": false,
+    "finite_native_maximum": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "lab_id": "PBUF-FOUNDATION-G3D-DISPLACEMENT-TOPOLOGY-001",
+  "head_sha": "9118505b5b596106d5993f5b3913423374e86410",
+  "candidate_id": "PL1_PM1_PS2",
+  "physical_source_representation": "M10_interface_field",
+  "geometry_lane": "G3D_LOS_consistent_diagnostic",
+  "benchmark_role": "external_morphology_comparison_only",
+  "checkpoint_steps": [
+    0,
+    1,
+    5,
+    10,
+    20,
+    40,
+    80,
+    120,
+    159
+  ],
+  "note": "No conventional gravitational law is injected; observed kappa is an external morphology benchmark only."
+}

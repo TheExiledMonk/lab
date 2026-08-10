@@ -1,0 +1,205 @@
+[
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "DIRECT_DERIVATION",
+    "old_channel": "u0",
+    "old_group": "G0"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "DIRECT_DERIVATION",
+    "old_channel": "v0",
+    "old_group": "G0"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "DIRECT_DERIVATION",
+    "old_channel": "uf",
+    "old_group": "G0"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "DIRECT_DERIVATION",
+    "old_channel": "vf",
+    "old_group": "G0"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "DIRECT_DERIVATION",
+    "old_channel": "wf",
+    "old_group": "G0"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "DIRECT_DERIVATION",
+    "old_channel": "dir_u",
+    "old_group": "G0"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "DIRECT_DERIVATION",
+    "old_channel": "dir_v",
+    "old_group": "G0"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "DIRECT_DERIVATION",
+    "old_channel": "dir_w",
+    "old_group": "G0"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_u_delta_u",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_v_delta_u",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_u_delta_v",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_v_delta_v",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_u_wf",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_v_wf",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_u_dir_u",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_v_dir_u",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_u_dir_v",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_v_dir_v",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_u_dir_w",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_v_dir_w",
+    "old_group": "G1"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_uu_delta_u",
+    "old_group": "G2"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_uv_delta_u",
+    "old_group": "G2"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_vv_delta_u",
+    "old_group": "G2"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_uu_delta_v",
+    "old_group": "G2"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_uv_delta_v",
+    "old_group": "G2"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_vv_delta_v",
+    "old_group": "G2"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_uu_wf",
+    "old_group": "G2"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_uv_wf",
+    "old_group": "G2"
+  },
+  {
+    "classification": "derived receiver relation",
+    "dev129_channel": "C8 bundle transport",
+    "mapping": "RELATIONAL_EQUIVALENT",
+    "old_channel": "d_vv_wf",
+    "old_group": "G2"
+  }
+]

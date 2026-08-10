@@ -1,0 +1,94 @@
+[
+  {
+    "availability": "AVAILABLE",
+    "category": "I0",
+    "missing_fields": [],
+    "name": "surface location",
+    "tracked_fields": [
+      "arrival_u",
+      "arrival_v"
+    ]
+  },
+  {
+    "availability": "AVAILABLE",
+    "category": "I1",
+    "missing_fields": [],
+    "name": "arrival direction",
+    "tracked_fields": [
+      "arrival_dir_u",
+      "arrival_dir_v",
+      "arrival_dir_n"
+    ]
+  },
+  {
+    "availability": "AVAILABLE",
+    "category": "I2",
+    "missing_fields": [],
+    "name": "incidence geometry",
+    "tracked_fields": [
+      "receiver_incidence_cosine",
+      "receiver_incidence_angle"
+    ]
+  },
+  {
+    "availability": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "category": "I3",
+    "missing_fields": [],
+    "name": "event weight / carried signal",
+    "tracked_fields": []
+  },
+  {
+    "availability": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "category": "I4",
+    "missing_fields": [],
+    "name": "wavelength/frequency state",
+    "tracked_fields": []
+  },
+  {
+    "availability": "PARTIALLY_AVAILABLE",
+    "category": "I5",
+    "missing_fields": [],
+    "name": "timing/path state",
+    "tracked_fields": [
+      "path_length",
+      "path_excess"
+    ]
+  },
+  {
+    "availability": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "category": "I6",
+    "missing_fields": [],
+    "name": "polarization state",
+    "tracked_fields": []
+  },
+  {
+    "availability": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "category": "I7",
+    "missing_fields": [],
+    "name": "phase/coherence state",
+    "tracked_fields": []
+  },
+  {
+    "availability": "AVAILABLE",
+    "category": "I8",
+    "missing_fields": [],
+    "name": "local bundle geometry",
+    "tracked_fields": [
+      "final_J11",
+      "final_J12",
+      "final_J21",
+      "final_J22"
+    ]
+  },
+  {
+    "availability": "AVAILABLE",
+    "category": "I9",
+    "missing_fields": [],
+    "name": "transport provenance",
+    "tracked_fields": [
+      "ray_index",
+      "receiver_row_index",
+      "launch_grid_index"
+    ]
+  }
+]

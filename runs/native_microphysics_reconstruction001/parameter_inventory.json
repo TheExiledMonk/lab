@@ -1,0 +1,103 @@
+[
+  {
+    "classification": "numerical",
+    "code_location": "pbuf/models/a8_state.py:28",
+    "name": "A8_INIT_DT",
+    "origin": "frozen historical",
+    "status": "active",
+    "value": 0.03
+  },
+  {
+    "classification": "structural normalization",
+    "code_location": "pbuf/models/a8_state.py:29",
+    "name": "A8_INIT_OMEGA",
+    "origin": "frozen historical",
+    "status": "active",
+    "value": 1.0
+  },
+  {
+    "classification": "structural normalization",
+    "code_location": "pbuf/models/a8_state.py:30",
+    "name": "A8_INIT_K",
+    "origin": "frozen historical",
+    "status": "active",
+    "value": 1.0
+  },
+  {
+    "classification": "numerical",
+    "code_location": "pbuf/models/a8_state.py:31",
+    "name": "A8_INIT_STEPS",
+    "origin": "frozen historical",
+    "status": "active",
+    "value": 160
+  },
+  {
+    "classification": "fitted/history unresolved",
+    "code_location": "pbuf/models/a8_state.py:33-34",
+    "name": "A8_INIT_COUP_F2S/S2F",
+    "origin": "frozen historical",
+    "status": "active",
+    "value": 0.5
+  },
+  {
+    "classification": "numerical/model",
+    "code_location": "pbuf/models/a8_state.py:35-36",
+    "name": "A8_INIT_FAST/SLOW_TIMESCALE",
+    "origin": "frozen historical",
+    "status": "active",
+    "value": [
+      1.0,
+      0.1
+    ]
+  },
+  {
+    "classification": "numerical guard",
+    "code_location": "pbuf/models/a8_state.py:37",
+    "name": "A8_INIT_CLIP",
+    "origin": "frozen historical",
+    "status": "active",
+    "value": 5.0
+  },
+  {
+    "classification": "structural normalization",
+    "code_location": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:51-52",
+    "name": "K0/epsilon_max",
+    "origin": "normalization",
+    "status": "active",
+    "value": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "classification": "numerical",
+    "code_location": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:53-55",
+    "name": "Picard tol/max/damp",
+    "origin": "solver",
+    "status": "active",
+    "value": [
+      2e-07,
+      30,
+      0.65
+    ]
+  },
+  {
+    "classification": "numerical",
+    "code_location": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:56-57",
+    "name": "CG rel tol/max",
+    "origin": "solver",
+    "status": "active",
+    "value": [
+      2e-09,
+      700
+    ]
+  },
+  {
+    "classification": "historical",
+    "code_location": "pbuf/models/a8_state.py:144",
+    "name": "strength",
+    "origin": "historical self-test",
+    "status": "retired from native bridge",
+    "value": 0.18
+  }
+]

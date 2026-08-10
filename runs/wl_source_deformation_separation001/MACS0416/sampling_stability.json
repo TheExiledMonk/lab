@@ -1,0 +1,33 @@
+{
+  "classification": "SEPARATION_RAY_DENSITY_STABLE",
+  "fractions": {
+    "100": {
+      "deformation_map_pearson_vs_100": 1.0,
+      "effective_rank": 1.0208374224211474,
+      "ray_count": 285156,
+      "source_continuity": 0.3564770740023781,
+      "source_map_pearson_vs_100": 1.0
+    },
+    "25": {
+      "deformation_map_pearson_vs_100": 0.9957009346303269,
+      "effective_rank": 1.2182285734382534,
+      "ray_count": 71289,
+      "source_continuity": 0.351315267983852,
+      "source_map_pearson_vs_100": 0.9653712166652104
+    },
+    "50": {
+      "deformation_map_pearson_vs_100": 0.9965366393188572,
+      "effective_rank": 1.0670675379008694,
+      "ray_count": 142578,
+      "source_continuity": 0.3550742633220756,
+      "source_map_pearson_vs_100": 0.9736033217210188
+    },
+    "75": {
+      "deformation_map_pearson_vs_100": 0.9994844877532514,
+      "effective_rank": 1.0341246711026593,
+      "ray_count": 213867,
+      "source_continuity": 0.35559614917993126,
+      "source_map_pearson_vs_100": 0.9886548597767364
+    }
+  }
+}

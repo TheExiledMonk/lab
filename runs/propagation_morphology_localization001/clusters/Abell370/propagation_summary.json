@@ -1,0 +1,16 @@
+{
+  "cluster_id": "Abell370",
+  "n_photons": 71289,
+  "checkpoint_count": 9,
+  "production_parity_rms": 0.0,
+  "production_parity_max": 0.0,
+  "production_parity_pass": true,
+  "source_supported_bins": 1024,
+  "los_mag_vs_observed_pearson": 0.7918907566644745,
+  "los_mag_vs_observed_spearman": 0.6990111606304666,
+  "first_finite_linear_step": 1,
+  "final_linear_vs_observed_pearson": -0.08411353379616798,
+  "final_linear_vs_observed_spearman": 0.028880076085401617,
+  "final_displacement_mag_vs_observed_pearson": -0.18715139599622088,
+  "final_velocity_change_mag_vs_observed_pearson": 0.3323093987721856
+}

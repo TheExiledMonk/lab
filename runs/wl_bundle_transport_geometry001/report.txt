@@ -1,0 +1,237 @@
+{
+  "checks": {
+    "SD_bundle_relation_computed": true,
+    "bundle_2d_matrix_preserved": true,
+    "bundle_3d_matrix_preserved": true,
+    "bundle_cohort_separability_reported": true,
+    "bundle_det_computed": true,
+    "bundle_fit_quality_reported": true,
+    "bundle_fit_target_blind": true,
+    "bundle_information_rank_reported": true,
+    "bundle_q_computed": true,
+    "bundle_scale1_created": true,
+    "bundle_scale2_created": true,
+    "bundle_scale4_created": true,
+    "bundle_scale8_created": true,
+    "canonical_observer_unchanged": true,
+    "current_r3_unchanged": true,
+    "current_r4_unchanged": true,
+    "depth_gradient_computed": true,
+    "dev119_SD_unchanged": true,
+    "dual_coordinate_bank_created": true,
+    "dual_coordinate_separability_reported": true,
+    "five_checkpoints_valid": true,
+    "fold_sign_change_computed": true,
+    "launch_component_count_computed": true,
+    "launch_identity_preserved": true,
+    "launch_origin_entropy_computed": true,
+    "launch_topology_reconstructed": true,
+    "lens_true_vs_null_reported": true,
+    "max_external_variants_lte_24": true,
+    "multiscale_classification_target_blind": true,
+    "multiscale_orientation_reported": true,
+    "no_gain_fit": true,
+    "no_resolution_target_selection": true,
+    "no_rotation_fit": true,
+    "no_scale_target_selection": true,
+    "no_sign_fit": true,
+    "ordinary_direction_control_preserved": true,
+    "parity_classification_target_blind": true,
+    "polar_decomposition_computed": true,
+    "propagation_reopened_false": true,
+    "r3_information_rank_reported": true,
+    "r4_information_rank_reported": true,
+    "raw_information_rank_reported": true,
+    "received_overlap_computed": true,
+    "resolution_128_computed": true,
+    "resolution_256_computed": true,
+    "resolution_64_computed": true,
+    "resolution_classification_target_blind": true,
+    "spin2_direction_statistics_computed": true,
+    "structural_freeze_before_gamma": true,
+    "structural_freeze_before_lens_truth": true,
+    "triangle_orientation_flip_computed": true,
+    "viewer_bundle_transport_supported": true,
+    "viewer_fold_layers_supported": true,
+    "viewer_resolution_selector_supported": true,
+    "viewer_reverse_received_selection_supported": true,
+    "viewer_scale_selector_supported": true,
+    "zero_kde_executions": true,
+    "zero_propagation_runs": true
+  },
+  "outcome": "WL_DUAL_COORDINATE_TRANSPORT_ADVANTAGE_ESTABLISHED",
+  "scientific_answers": {
+    "Q1": "Valid-fit fractions and multiscale persistence quantify launch-neighborhood coherence.",
+    "Q10": "Circular spin-2 retention advantage in 0/5 clusters.",
+    "Q11": {
+      "Abell2744": "SCALE_TRANSITION",
+      "Abell370": "SCALE_TRANSITION",
+      "AbellS1063": "SCALE_TRANSITION",
+      "MACS0416": "SCALE_TRANSITION",
+      "MACS1149": "SCALE_TRANSITION"
+    },
+    "Q12": {
+      "Abell2744": "OBSERVER_RESOLUTION_STABLE",
+      "Abell370": "OBSERVER_RESOLUTION_MODERATE_SENSITIVITY",
+      "AbellS1063": "OBSERVER_RESOLUTION_STABLE",
+      "MACS0416": "OBSERVER_RESOLUTION_STABLE",
+      "MACS1149": "OBSERVER_RESOLUTION_STABLE"
+    },
+    "Q13": {
+      "Abell2744": true,
+      "Abell370": true,
+      "AbellS1063": true,
+      "MACS0416": true,
+      "MACS1149": true
+    },
+    "Q14": {
+      "Abell2744": true,
+      "Abell370": true,
+      "AbellS1063": true,
+      "MACS0416": true,
+      "MACS1149": true
+    },
+    "Q15": "The rank and separability stage plots identify the largest cluster-specific loss.",
+    "Q16": {
+      "Abell2744": 0.009698001002782295,
+      "Abell370": -0.027656148813019258,
+      "AbellS1063": -0.055210168603123076,
+      "MACS0416": -0.028745208150969724,
+      "MACS1149": -0.06738126253423987
+    },
+    "Q17": {
+      "Abell2744": 0.0989164786784278,
+      "Abell370": 0.05151972081751917,
+      "AbellS1063": 0.009594130059897756,
+      "MACS0416": 0.051882784841287936,
+      "MACS1149": 0.06647761394063441
+    },
+    "Q18": "Secondary classifications report simultaneous mechanisms; the outcome hierarchy selects one top-level result.",
+    "Q2": "Bundle Q beats the frozen cell-Jacobian aggregate in 2/5 clusters.",
+    "Q3": {
+      "Abell2744": 2.8054819116553746e-05,
+      "Abell370": 0.0,
+      "AbellS1063": 2.454796672698453e-05,
+      "MACS0416": 3.156167150612296e-05,
+      "MACS1149": 9.819186690793812e-05
+    },
+    "Q4": "Two-indicator fold support occurs in 0/5 clusters.",
+    "Q5": {
+      "Abell2744": true,
+      "Abell370": true,
+      "AbellS1063": false,
+      "MACS0416": true,
+      "MACS1149": false
+    },
+    "Q6": {
+      "Abell2744": {
+        "fraction_cells_with_gt1_launch_component": 0.000732421875,
+        "fraction_parity_mixed_cells": 0.000732421875,
+        "fraction_rays_in_multi_origin_cells": 0.0006838362159659975,
+        "median_launch_origin_entropy": 0.0,
+        "p95_launch_origin_entropy": 0.0
+      },
+      "Abell370": {
+        "fraction_cells_with_gt1_launch_component": 0.000244140625,
+        "fraction_parity_mixed_cells": 0.0,
+        "fraction_rays_in_multi_origin_cells": 0.0001999025036911822,
+        "median_launch_origin_entropy": 0.0,
+        "p95_launch_origin_entropy": 0.0
+      },
+      "AbellS1063": {
+        "fraction_cells_with_gt1_launch_component": 0.0,
+        "fraction_parity_mixed_cells": 0.000732421875,
+        "fraction_rays_in_multi_origin_cells": 0.0,
+        "median_launch_origin_entropy": 0.0,
+        "p95_launch_origin_entropy": 0.0
+      },
+      "MACS0416": {
+        "fraction_cells_with_gt1_launch_component": 0.000244140625,
+        "fraction_parity_mixed_cells": 0.00048828125,
+        "fraction_rays_in_multi_origin_cells": 0.0002279525998870758,
+        "median_launch_origin_entropy": 0.0,
+        "p95_launch_origin_entropy": 0.0
+      },
+      "MACS1149": {
+        "fraction_cells_with_gt1_launch_component": 0.0,
+        "fraction_parity_mixed_cells": 0.0009765625,
+        "fraction_rays_in_multi_origin_cells": 0.0,
+        "median_launch_origin_entropy": 0.0,
+        "p95_launch_origin_entropy": 0.0
+      }
+    },
+    "Q7": {
+      "Abell2744": {
+        "D_vs_abs_Q": 0.31283247734644176,
+        "D_vs_abs_det_deviation": 0.2866948465153122,
+        "D_vs_depth_gradient": 0.1445489460002751,
+        "D_vs_fold_score": 0.04389442700548392,
+        "D_vs_rotation_magnitude": 0.2239382759430097,
+        "S_vs_directional_coherence": 0.011501253190328081,
+        "S_vs_fit_coherence": 0.15373060421849677,
+        "mean_D_gradient_Q_alignment": 0.0068882589586779595,
+        "mean_S_gradient_Q_alignment": 0.007578510337767977,
+        "median_received_overlap_fraction": 1.0,
+        "received_overlap_pair_count": 3
+      },
+      "Abell370": {
+        "D_vs_abs_Q": 0.35527781127878627,
+        "D_vs_abs_det_deviation": 0.338220843915588,
+        "D_vs_depth_gradient": 0.20638850753166926,
+        "D_vs_fold_score": 0.03712709705125921,
+        "D_vs_rotation_magnitude": 0.23834166072237414,
+        "S_vs_directional_coherence": -0.0159984167022383,
+        "S_vs_fit_coherence": 0.17387222888782505,
+        "mean_D_gradient_Q_alignment": -4.840809015734345e-05,
+        "mean_S_gradient_Q_alignment": 0.0005797619245149213,
+        "median_received_overlap_fraction": 1.0,
+        "received_overlap_pair_count": 1
+      },
+      "AbellS1063": {
+        "D_vs_abs_Q": 0.3695175124204993,
+        "D_vs_abs_det_deviation": 0.3570361040000966,
+        "D_vs_depth_gradient": 0.1890793378988832,
+        "D_vs_fold_score": 0.06298865419246817,
+        "D_vs_rotation_magnitude": 0.251657885817386,
+        "S_vs_directional_coherence": 0.03987084317715975,
+        "S_vs_fit_coherence": 0.13982187424093323,
+        "mean_D_gradient_Q_alignment": 0.07872842849181057,
+        "mean_S_gradient_Q_alignment": 0.08714672090781017,
+        "median_received_overlap_fraction": 0.0,
+        "received_overlap_pair_count": 0
+      },
+      "MACS0416": {
+        "D_vs_abs_Q": 0.3548512045588191,
+        "D_vs_abs_det_deviation": 0.3035753181329423,
+        "D_vs_depth_gradient": 0.25876634156261435,
+        "D_vs_fold_score": 0.053132819289008835,
+        "D_vs_rotation_magnitude": 0.2715639952539753,
+        "S_vs_directional_coherence": 0.03466298701185501,
+        "S_vs_fit_coherence": 0.16560367074787707,
+        "mean_D_gradient_Q_alignment": -0.03680027338624921,
+        "mean_S_gradient_Q_alignment": -0.03777751211946335,
+        "median_received_overlap_fraction": 1.0,
+        "received_overlap_pair_count": 1
+      },
+      "MACS1149": {
+        "D_vs_abs_Q": 0.3771828801711629,
+        "D_vs_abs_det_deviation": 0.3516225789663277,
+        "D_vs_depth_gradient": 0.2003147297012388,
+        "D_vs_fold_score": 0.04556792034375591,
+        "D_vs_rotation_magnitude": 0.2082647445382609,
+        "S_vs_directional_coherence": 0.03764899668806125,
+        "S_vs_fit_coherence": 0.18202375490282072,
+        "mean_D_gradient_Q_alignment": -0.02311949408858869,
+        "mean_S_gradient_Q_alignment": -0.0243034338801928,
+        "median_received_overlap_fraction": 0.0,
+        "received_overlap_pair_count": 0
+      }
+    },
+    "Q8": "S/coherence correlations are reported per cluster.",
+    "Q9": "Stable relation to both S and D in 1/5 clusters."
+  },
+  "secondary_outcomes": [
+    "DUAL_COORDINATE_INFORMATION_ADVANTAGE",
+    "OBSERVER_RESOLUTION_STABLE"
+  ]
+}

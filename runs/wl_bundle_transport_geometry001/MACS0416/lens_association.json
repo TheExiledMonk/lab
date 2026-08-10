@@ -1,0 +1,32 @@
+{
+  "bundle_anisotropy": {
+    "far": 0.005814291901898426,
+    "fixed_null": 0.04383982345275929,
+    "true_gt_fixed_null": true,
+    "true_registered": 0.04548351174446718
+  },
+  "depth_gradient": {
+    "far": 6.002186899389357e-05,
+    "fixed_null": 0.00010025135917250437,
+    "true_gt_fixed_null": false,
+    "true_registered": 9.619684195750625e-05
+  },
+  "fold_score": {
+    "far": 0.0,
+    "fixed_null": 0.0002857532119744375,
+    "true_gt_fixed_null": false,
+    "true_registered": 0.00021184384271959696
+  },
+  "launch_origin_entropy": {
+    "far": 0.0,
+    "fixed_null": 4.8203238897077236e-05,
+    "true_gt_fixed_null": false,
+    "true_registered": 0.0
+  },
+  "parity_boundaries": {
+    "far": 0.0,
+    "fixed_null": 0.0008406893652795292,
+    "true_gt_fixed_null": false,
+    "true_registered": 0.0006232471174820816
+  }
+}

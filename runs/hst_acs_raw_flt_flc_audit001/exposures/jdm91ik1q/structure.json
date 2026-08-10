@@ -1,0 +1,637 @@
+{
+  "flc": [
+    {
+      "BITPIX": 16,
+      "EXTNAME": "PRIMARY",
+      "EXTVER": null,
+      "NAXIS": 0,
+      "data_present": false,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 326,
+      "index": 0,
+      "shape": null
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "SCI",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 250,
+      "index": 1,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "ERR",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 53,
+      "index": 2,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": 16,
+      "EXTNAME": "DQ",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 45,
+      "index": 3,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "SCI",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 248,
+      "index": 4,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "ERR",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 53,
+      "index": 5,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": 16,
+      "EXTNAME": "DQ",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 45,
+      "index": 6,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "HDRLET",
+      "EXTVER": 1,
+      "NAXIS": 1,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 18,
+      "index": 7,
+      "shape": null
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "HDRLET",
+      "EXTVER": 2,
+      "NAXIS": 1,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 26,
+      "index": 8,
+      "shape": null
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "WCSCORR",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 59,
+      "index": 9,
+      "shape": null
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "HDRLET",
+      "EXTVER": 18,
+      "NAXIS": 1,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 26,
+      "index": 10,
+      "shape": null
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "WCSDVARR",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 11,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "WCSDVARR",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 12,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "D2IMARR",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 13,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "D2IMARR",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 14,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "WCSDVARR",
+      "EXTVER": 3,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 15,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "WCSDVARR",
+      "EXTVER": 4,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 16,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "D2IMARR",
+      "EXTVER": 3,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 17,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "D2IMARR",
+      "EXTVER": 4,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 18,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "HDRLET",
+      "EXTVER": 4,
+      "NAXIS": 1,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 26,
+      "index": 19,
+      "shape": null
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "HDRLET",
+      "EXTVER": 5,
+      "NAXIS": 1,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 26,
+      "index": 20,
+      "shape": null
+    }
+  ],
+  "flt": [
+    {
+      "BITPIX": 16,
+      "EXTNAME": "PRIMARY",
+      "EXTVER": null,
+      "NAXIS": 0,
+      "data_present": false,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 275,
+      "index": 0,
+      "shape": null
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "SCI",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 245,
+      "index": 1,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "ERR",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 53,
+      "index": 2,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": 16,
+      "EXTNAME": "DQ",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 45,
+      "index": 3,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "SCI",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 243,
+      "index": 4,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "ERR",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 53,
+      "index": 5,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": 16,
+      "EXTNAME": "DQ",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 45,
+      "index": 6,
+      "shape": [
+        2048,
+        4096
+      ]
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "HDRLET",
+      "EXTVER": 1,
+      "NAXIS": 1,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 18,
+      "index": 7,
+      "shape": null
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "HDRLET",
+      "EXTVER": 2,
+      "NAXIS": 1,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 26,
+      "index": 8,
+      "shape": null
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "WCSCORR",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 59,
+      "index": 9,
+      "shape": null
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "HDRLET",
+      "EXTVER": 18,
+      "NAXIS": 1,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 26,
+      "index": 10,
+      "shape": null
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "WCSDVARR",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 11,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "WCSDVARR",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 12,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "D2IMARR",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 13,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "D2IMARR",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 14,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "WCSDVARR",
+      "EXTVER": 3,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 15,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "WCSDVARR",
+      "EXTVER": 4,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 16,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "D2IMARR",
+      "EXTVER": 3,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 17,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": -32,
+      "EXTNAME": "D2IMARR",
+      "EXTVER": 4,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_-32",
+      "header_keyword_count": 15,
+      "index": 18,
+      "shape": [
+        32,
+        64
+      ]
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "HDRLET",
+      "EXTVER": 4,
+      "NAXIS": 1,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 26,
+      "index": 19,
+      "shape": null
+    },
+    {
+      "BITPIX": 8,
+      "EXTNAME": "HDRLET",
+      "EXTVER": 5,
+      "NAXIS": 1,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_8",
+      "header_keyword_count": 26,
+      "index": 20,
+      "shape": null
+    }
+  ],
+  "raw": [
+    {
+      "BITPIX": 16,
+      "EXTNAME": "PRIMARY",
+      "EXTVER": null,
+      "NAXIS": 0,
+      "data_present": false,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 223,
+      "index": 0,
+      "shape": null
+    },
+    {
+      "BITPIX": 16,
+      "EXTNAME": "SCI",
+      "EXTVER": 1,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 97,
+      "index": 1,
+      "shape": [
+        2068,
+        4144
+      ]
+    },
+    {
+      "BITPIX": 16,
+      "EXTNAME": "ERR",
+      "EXTVER": 1,
+      "NAXIS": 0,
+      "data_present": false,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 49,
+      "index": 2,
+      "shape": null
+    },
+    {
+      "BITPIX": 16,
+      "EXTNAME": "DQ",
+      "EXTVER": 1,
+      "NAXIS": 0,
+      "data_present": false,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 41,
+      "index": 3,
+      "shape": null
+    },
+    {
+      "BITPIX": 16,
+      "EXTNAME": "SCI",
+      "EXTVER": 2,
+      "NAXIS": 2,
+      "data_present": true,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 97,
+      "index": 4,
+      "shape": [
+        2068,
+        4144
+      ]
+    },
+    {
+      "BITPIX": 16,
+      "EXTNAME": "ERR",
+      "EXTVER": 2,
+      "NAXIS": 0,
+      "data_present": false,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 49,
+      "index": 5,
+      "shape": null
+    },
+    {
+      "BITPIX": 16,
+      "EXTNAME": "DQ",
+      "EXTVER": 2,
+      "NAXIS": 0,
+      "data_present": false,
+      "dtype": "FITS_BITPIX_16",
+      "header_keyword_count": 43,
+      "index": 6,
+      "shape": null
+    }
+  ]
+}

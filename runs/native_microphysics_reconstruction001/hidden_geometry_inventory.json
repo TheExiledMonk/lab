@@ -1,0 +1,22 @@
+[
+  {
+    "effect": "selects sole recipient",
+    "geometry": "periodic 1D index adjacency",
+    "location": "native_excitation_transfer.py:24-29"
+  },
+  {
+    "effect": "builds local frame",
+    "geometry": "link relation normalized to e_parallel",
+    "location": "native_neighbor_state.py:26-32"
+  },
+  {
+    "effect": "rotates X",
+    "geometry": "transverse frame overlap",
+    "location": "native_neighbor_state.py:48-52"
+  },
+  {
+    "effect": "constructs link frames in Dev152 audit only",
+    "geometry": "loading gradient fixture",
+    "location": "native_neighbor_loaded_excitation.py:23-24"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "arrival_formation_changes": 0,
+  "arrival_knn": {
+    "k": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "tie_break": "canonical event index"
+  },
+  "conditioning_thresholds": {
+    "anisotropic": 0.0001,
+    "singular_candidate": 1e-12,
+    "well": 0.01
+  },
+  "contract_sha256": "9e5e9b62f43e3e4b46492f4bd3efab1828839cddb77efc661276a48f43db1e25",
+  "contract_version": "PBUF_INSTRUMENT_INTERACTION_CONTRACT_V1",
+  "dev130_hashes": {
+    "arrival_basis_manifest.json": "4ea16cb2091ff7731f8e8371ecc158baa77151b5f9baa148610f4d9eedcf2755",
+    "arrival_event_channel_manifest.json": "294a3d1fbbacf32483661347a4facc70e28bbc1667471260f363d2de499e463f",
+    "structural_result.json": "6f0fd18cf520f2182fb1bc380e86e114a209510138faca88446923e640bf1e1d"
+  },
+  "event_uid_derivation": "sha256(PBUF-EVENT-V1:ray_index:receiver_row_index:arrival_index)",
+  "hst_pixel_access": false,
+  "propagation_changes": 0,
+  "receiver_changes": 0,
+  "roundtrip_tolerance": "512*float64_eps*max(1,max_abs_original)",
+  "target_access": false,
+  "trajectory_changes": 0,
+  "zero_detector_pixelization": true
+}

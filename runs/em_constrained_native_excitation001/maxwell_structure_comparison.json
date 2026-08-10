@@ -1,0 +1,14 @@
+{
+  "Maxwell_structure_used_as_post_freeze_benchmark": true,
+  "Maxwell_used_in_native_derivation": false,
+  "compatible": false,
+  "gates": {
+    "common_c": true,
+    "conserved_energy_like_norm": true,
+    "mutually_coupled_effective_components": false,
+    "source_free_wave": true,
+    "static_radiative_distinction": true,
+    "superposition": true,
+    "two_transverse_modes": true
+  }
+}

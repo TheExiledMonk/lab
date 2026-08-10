@@ -1,0 +1,80 @@
+{
+  "classification": "C12 no coupling present in current propagation code",
+  "existing_excitation_state_available": false,
+  "existing_native_coupling_found": false,
+  "families": [
+    {
+      "attempted": true,
+      "id": "C01",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C02",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C03",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C04",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C05",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C06",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C07",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C08",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C09",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C10",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C11",
+      "native_equation_found": false,
+      "status": "NOT_APPLICABLE_NO_EXISTING_DYNAMIC_EXCITATION"
+    },
+    {
+      "attempted": true,
+      "id": "C12",
+      "native_equation_found": true,
+      "status": "ESTABLISHED"
+    }
+  ],
+  "persistent_loading_available": true
+}

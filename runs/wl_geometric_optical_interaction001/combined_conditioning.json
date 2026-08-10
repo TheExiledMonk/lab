@@ -1,0 +1,11 @@
+{
+  "basis_orientation": "shared right-handed Cartesian",
+  "combined_condition_number": "infinite",
+  "composition_status": "TRANSPORT_COMPOSITION_VALID",
+  "coordinate_order": "(u,v)->(u,v)",
+  "effect": "degrades at exact focal plane; no physical information amplification claimed",
+  "normal_convention": "+z",
+  "optical_condition_number": "infinite",
+  "pbuf_condition_number": 1.0,
+  "units_scales": "same native length"
+}

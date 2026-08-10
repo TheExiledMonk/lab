@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    {
+      "attempted": true,
+      "id": "I01",
+      "name": "sign alternation"
+    },
+    {
+      "attempted": true,
+      "id": "I02",
+      "name": "transverse orientation change"
+    },
+    {
+      "attempted": true,
+      "id": "I03",
+      "name": "local excitation cycling"
+    },
+    {
+      "attempted": true,
+      "id": "I04",
+      "name": "packet deformation without centroid motion"
+    },
+    {
+      "attempted": true,
+      "id": "I05",
+      "name": "link-state exchange"
+    },
+    {
+      "attempted": true,
+      "id": "I06",
+      "name": "fast/slow exchange"
+    },
+    {
+      "attempted": true,
+      "id": "I07",
+      "name": "loading/excitation exchange"
+    },
+    {
+      "attempted": true,
+      "id": "I08",
+      "name": "bounded local state cycling"
+    }
+  ]
+}

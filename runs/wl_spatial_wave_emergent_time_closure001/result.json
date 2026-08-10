@@ -1,0 +1,214 @@
+{
+  "baseline": {
+    "DEV137_PLAN": true,
+    "DEV137_PREANCHOR": true,
+    "DEV138_SEMANTIC_VIA_FROZEN_DEV140": true,
+    "DEV140_BLIND": true,
+    "DEV140_STATUS": true
+  },
+  "candidate_families": [
+    {
+      "candidate_id": "S01",
+      "family": "spatial propagation progression",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "S02",
+      "family": "zero-mass medium propagation invariant",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "S03",
+      "family": "light/GW shared spatial propagation structure",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S04",
+      "family": "spatial path accumulation",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "S05",
+      "family": "spatial wave-number state",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "candidate_id": "S06",
+      "family": "spatial wavelength state",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "candidate_id": "S07",
+      "family": "local medium-state/wavelength coupling",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S08",
+      "family": "local gradient/wavelength coupling",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S09",
+      "family": "accumulated-response/wavelength coupling",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S10",
+      "family": "curvature/wavelength coupling",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S11",
+      "family": "path-geometry/wavelength coupling",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S12",
+      "family": "neighbor-transfer/wavelength coupling",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S13",
+      "family": "homogeneous-medium spatial wave evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S14",
+      "family": "source loading/wavelength coupling",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S15",
+      "family": "interaction-region wavelength shift",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S16",
+      "family": "entry/exit medium shift symmetry",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S17",
+      "family": "local reversible wave-state transfer",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S18",
+      "family": "cumulative spatial redshift function",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S19",
+      "family": "reverse spatial wave-state evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S20",
+      "family": "redshift-derived propagation stop",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S21",
+      "family": "dual source/lens redshift spatial checkpoints",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S22",
+      "family": "multipath common-redshift stop",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S23",
+      "family": "known-depth reverse footprint",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "S24",
+      "family": "footprint minimum/stability",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "S25",
+      "family": "branch common-source reconstruction",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "S26",
+      "family": "geometric-depth vs wave-depth convergence",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "S27",
+      "family": "corrected dimensional-rank closure",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "S28",
+      "family": "emergent-time reconstruction after L0",
+      "status": "DERIVABLE"
+    },
+    {
+      "candidate_id": "S29",
+      "family": "scale-free source geometry",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "S30",
+      "family": "missing-constitutive-law identification",
+      "status": "ESTABLISHED"
+    }
+  ],
+  "guards": {
+    "ARRIVAL_FORMATION_CHANGES": 0,
+    "BOUNDED_STRAIN_CHANGES": 0,
+    "CLASS_ACCESS": false,
+    "CONVENTIONAL_REDSHIFT_DISTANCE_ACCESS": false,
+    "FAST_SLOW_TRANSFER_CHANGES": 0,
+    "FUNDAMENTAL_TIME_DIMENSION_ASSUMED": false,
+    "GEOMETRIC_DEPTH_USED_TO_TUNE_WAVE_LAW": false,
+    "HISTORICAL_STRENGTH_0P18_USED": false,
+    "LCDM_ACCESS": false,
+    "MEDIUM_STATIC_RESPONSE_CHANGES": 0,
+    "NATIVE_T0_PRIMITIVE_USED": false,
+    "NATIVE_TIME_COORDINATE_CREATED": false,
+    "PBUF_UNIVERSE_AGE_USED": false,
+    "PHASE_ASSUMED": false,
+    "PLANCK_LENGTH_ASSUMED": false,
+    "PROPAGATION_CHANGES": 0,
+    "RECEIVER_CHANGES": 0,
+    "RMAX_USED": false,
+    "SOLVER_ITERATION_USED_AS_TIME": false,
+    "TRAJECTORY_CHANGES": 0
+  },
+  "outcomes": [
+    "WL_PBUF_TIME_AS_EMERGENT_PROPAGATION_MEASURE_ESTABLISHED",
+    "WL_PBUF_NATIVE_T0_DEGENERACY_RETIRED",
+    "WL_PBUF_SPATIAL_ONLY_DIMENSIONAL_CLOSURE_ESTABLISHED",
+    "WL_PBUF_SPATIAL_WAVE_CONSTITUTIVE_MECHANISM_UNRESOLVED",
+    "WL_PBUF_SOURCE_RECONSTRUCTION_AT_KNOWN_NATIVE_DEPTH_ESTABLISHED"
+  ],
+  "phases_executed": [
+    "Phase A",
+    "Phase B",
+    "Phase C",
+    "Phase D",
+    "Phase E",
+    "Phase F",
+    "Phase G",
+    "Phase H",
+    "Phase I",
+    "Phase J",
+    "Phase K",
+    "Phase L",
+    "Phase M",
+    "Phase N",
+    "Phase O",
+    "Phase P",
+    "Phase Q",
+    "Phase R",
+    "Phase S",
+    "Phase T",
+    "Phase U"
+  ],
+  "status": "DEV141_AUDIT_COMPLETE"
+}

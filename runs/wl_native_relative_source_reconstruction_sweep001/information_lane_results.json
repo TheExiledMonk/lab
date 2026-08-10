@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "correct_multivalued_rate": 0.445,
+      "false_unique_rate": 0.0025,
+      "lane": "C0",
+      "matched_triplet_classification_accuracy": 0.36,
+      "median_ambiguity_area": 0.54,
+      "median_depth_error": 0.5195147679324894,
+      "strong_unique_depth_success_rate": 0.02,
+      "unique_depth_success_rate": 0.02
+    },
+    {
+      "correct_multivalued_rate": 0.5275,
+      "false_unique_rate": 0.0025,
+      "lane": "C1",
+      "matched_triplet_classification_accuracy": 0.465,
+      "median_ambiguity_area": 0.545,
+      "median_depth_error": 0.10759493670886089,
+      "strong_unique_depth_success_rate": 0.02,
+      "unique_depth_success_rate": 0.02
+    },
+    {
+      "correct_multivalued_rate": 0.79,
+      "false_unique_rate": 0.005,
+      "lane": "C2",
+      "matched_triplet_classification_accuracy": 0.85,
+      "median_ambiguity_area": 0.52625,
+      "median_depth_error": 0.048523206751054815,
+      "strong_unique_depth_success_rate": 0.06,
+      "unique_depth_success_rate": 0.06
+    },
+    {
+      "correct_multivalued_rate": 0.683125,
+      "false_unique_rate": 0.0,
+      "lane": "C3",
+      "matched_triplet_classification_accuracy": 0.755,
+      "median_ambiguity_area": 0.87625,
+      "median_depth_error": 0.05458860759493689,
+      "strong_unique_depth_success_rate": 0.105625,
+      "unique_depth_success_rate": 0.1259375
+    },
+    {
+      "correct_multivalued_rate": 0.695,
+      "false_unique_rate": 0.0,
+      "lane": "C4",
+      "matched_triplet_classification_accuracy": 0.8521875,
+      "median_ambiguity_area": 0.84625,
+      "median_depth_error": 0.04113924050632911,
+      "strong_unique_depth_success_rate": 0.163125,
+      "unique_depth_success_rate": 0.2234375
+    },
+    {
+      "correct_multivalued_rate": 0.69375,
+      "false_unique_rate": 0.0,
+      "lane": "C5",
+      "matched_triplet_classification_accuracy": 0.86875,
+      "median_ambiguity_area": 0.84625,
+      "median_depth_error": 0.04113924050632911,
+      "strong_unique_depth_success_rate": 0.17875,
+      "unique_depth_success_rate": 0.23875
+    }
+  ]
+}

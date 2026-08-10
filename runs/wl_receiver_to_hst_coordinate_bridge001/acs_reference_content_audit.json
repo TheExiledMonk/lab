@@ -1,0 +1,215 @@
+{
+  "components_kept_separate": true,
+  "distortion_application_order": [
+    "DET2IM/D2IM",
+    "polynomial/IDCTAB",
+    "non-polynomial/NPOL residual",
+    "linear frame/WCS"
+  ],
+  "references": [
+    {
+      "extensions": [
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": null,
+          "filter2": null,
+          "index": 0,
+          "naxis": 0,
+          "shape_from_header": []
+        },
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": null,
+          "filter2": null,
+          "index": 1,
+          "naxis": 2,
+          "shape_from_header": [
+            394,
+            672
+          ]
+        }
+      ],
+      "logical_reference_name": "jref$4bb1536cj_idc.fits"
+    },
+    {
+      "extensions": [
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": "CLEAR1L",
+          "filter2": "F814W",
+          "index": 0,
+          "naxis": 0,
+          "shape_from_header": []
+        },
+        {
+          "bunit": null,
+          "ccdchip": 2,
+          "extname": "DX",
+          "extver": 1,
+          "filter1": null,
+          "filter2": null,
+          "index": 1,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 2,
+          "extname": "DY",
+          "extver": 1,
+          "filter1": null,
+          "filter2": null,
+          "index": 2,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 1,
+          "extname": "DX",
+          "extver": 2,
+          "filter1": null,
+          "filter2": null,
+          "index": 3,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 1,
+          "extname": "DY",
+          "extver": 2,
+          "filter1": null,
+          "filter2": null,
+          "index": 4,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        }
+      ],
+      "logical_reference_name": "jref$4bb1536lj_npl.fits"
+    },
+    {
+      "extensions": [
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": null,
+          "filter2": null,
+          "index": 0,
+          "naxis": 0,
+          "shape_from_header": []
+        },
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": null,
+          "filter2": null,
+          "index": 1,
+          "naxis": 2,
+          "shape_from_header": [
+            394,
+            672
+          ]
+        }
+      ],
+      "logical_reference_name": "jref$4bb1536mj_idc.fits"
+    },
+    {
+      "extensions": [
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": null,
+          "filter2": null,
+          "index": 0,
+          "naxis": 0,
+          "shape_from_header": []
+        },
+        {
+          "bunit": null,
+          "ccdchip": 2,
+          "extname": "DX",
+          "extver": 1,
+          "filter1": null,
+          "filter2": null,
+          "index": 1,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 2,
+          "extname": "DY",
+          "extver": 1,
+          "filter1": null,
+          "filter2": null,
+          "index": 2,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 1,
+          "extname": "DX",
+          "extver": 2,
+          "filter1": null,
+          "filter2": null,
+          "index": 3,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 1,
+          "extname": "DY",
+          "extver": 2,
+          "filter1": null,
+          "filter2": null,
+          "index": 4,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        }
+      ],
+      "logical_reference_name": "jref$4bb15371j_d2i.fits"
+    }
+  ]
+}

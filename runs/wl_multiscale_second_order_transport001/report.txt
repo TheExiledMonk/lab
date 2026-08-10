@@ -1,0 +1,13 @@
+WL_MULTISCALE_TRANSPORT_INFORMATION_ADVANTAGE_ESTABLISHED
+Largest independent groups are reported by leave-one-group-out rank loss.
+The 29→7 losses are traced channel-by-channel in structural_result.json and the loss figure.
+Spatial aggregation preserves rank when the reported multiscale rank exceeds R4.
+Scale growth and classification are reported per cluster without target access.
+Primary outcome: WL_MULTISCALE_TRANSPORT_INFORMATION_ADVANTAGE_ESTABLISHED.
+Best frozen external candidate: cross_first_second_quadrupole_scale8.
+The surviving bottleneck is the final fixed spin-2 readout if information advantage holds without shear advantage.
+DEV123_CHANNEL_MANIFEST_SHA256=aa5cc9d085daf13ed395010c855a95a04cc287de3ca6311c1ad15ed8f9ccd1b3
+DEV123_STRUCTURAL_SHA256=7c0469c6193d9c1a795d0d0ada7dcebd6701f4d31f83b3d8d69ddc743e6483a7
+EARTH_RECEIVER_HYPOTHESIS_PARKED=true
+PROPAGATION_RUNS=0
+KDE_EXECUTIONS=0

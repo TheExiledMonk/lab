@@ -1,0 +1,11 @@
+{
+  "operations": [
+    {
+      "classification": "GEOMETRIC_DIRECTION_NORMALIZATION",
+      "loss_class": "N02 removes arbitrary numerical scale",
+      "operation": "v_raw -> v_raw / |v_raw|",
+      "physical_c_derivation": false,
+      "reason": "the magnitude depends on path_step and response representation and is not a persistent state"
+    }
+  ]
+}

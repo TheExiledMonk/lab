@@ -1,0 +1,6 @@
+{
+  "W_equation": "-K epsilon_max^2/2 ln(1-epsilon^2/epsilon_max^2)",
+  "medium_energy_semantics": true,
+  "status": "MISSING_CONSTITUTIVE_LAW",
+  "zero_mass_mode_exchange_semantics": false
+}

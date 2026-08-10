@@ -1,0 +1,14 @@
+{
+  "loading_bound_modes": [],
+  "reason": "No coefficient-free native loading/excitation coupling exists; synthetic overlap is not binding.",
+  "status": "MISSING_INTERACTION_LAW",
+  "wavelengths": [
+    4,
+    6,
+    8,
+    12,
+    16,
+    24,
+    32
+  ]
+}

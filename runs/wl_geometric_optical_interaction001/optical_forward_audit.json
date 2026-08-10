@@ -1,0 +1,16 @@
+{
+  "DEV132_FIELDS_LOST": 0,
+  "blocked": 0,
+  "events": 285156,
+  "lost": [],
+  "preserved_directly": [
+    "event_uid",
+    "upstream provenance",
+    "latent-state reference"
+  ],
+  "transformed": [
+    "position",
+    "direction"
+  ],
+  "transmitted": 285156
+}

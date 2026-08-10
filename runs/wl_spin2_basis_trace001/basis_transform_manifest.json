@@ -1,0 +1,191 @@
+{
+  "transforms": [
+    {
+      "axis_swap": false,
+      "basis_round_trip_max_error": 0.0,
+      "classification": "IDENTITY",
+      "determinant": 1.0,
+      "equivalent_physical_rotation_deg": 0.0,
+      "matrix_2x2": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "reflection_present": false,
+      "rotation_angle_if_proper": 0.0,
+      "source_code_reference": "FRAME_NOT_DISTINCT: pbuf/wl/los.py",
+      "source_frame": "F0 launch_grid",
+      "spin2_matrix_2x2": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "spin2_phase_deg": 0.0,
+      "spin2_round_trip_max_error": 0.0,
+      "target_frame": "F1 propagation_transverse",
+      "x_flip": false,
+      "y_flip": false
+    },
+    {
+      "axis_swap": false,
+      "basis_round_trip_max_error": 0.0,
+      "classification": "IDENTITY",
+      "determinant": 1.0,
+      "equivalent_physical_rotation_deg": 0.0,
+      "matrix_2x2": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "reflection_present": false,
+      "rotation_angle_if_proper": 0.0,
+      "source_code_reference": "native_observable_extraction_method_sweep001.py:_screen_basis",
+      "source_frame": "F1 propagation_transverse",
+      "spin2_matrix_2x2": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "spin2_phase_deg": 0.0,
+      "spin2_round_trip_max_error": 0.0,
+      "target_frame": "F2 received_detector",
+      "x_flip": false,
+      "y_flip": false
+    },
+    {
+      "axis_swap": false,
+      "basis_round_trip_max_error": 0.0,
+      "classification": "IDENTITY",
+      "determinant": 1.0,
+      "equivalent_physical_rotation_deg": 0.0,
+      "matrix_2x2": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "reflection_present": false,
+      "rotation_angle_if_proper": 0.0,
+      "source_code_reference": "pbuf/wl/deposition.py: row=v,col=u",
+      "source_frame": "F2 received_detector",
+      "spin2_matrix_2x2": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "spin2_phase_deg": 0.0,
+      "spin2_round_trip_max_error": 0.0,
+      "target_frame": "F3 observer_raster",
+      "x_flip": false,
+      "y_flip": false
+    },
+    {
+      "axis_swap": false,
+      "basis_round_trip_max_error": 0.0,
+      "classification": "IDENTITY",
+      "determinant": 1.0,
+      "equivalent_physical_rotation_deg": 0.0,
+      "matrix_2x2": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "reflection_present": false,
+      "rotation_angle_if_proper": 0.0,
+      "source_code_reference": "pbuf/core/benchmark_data.py: numpy/FITS indexing",
+      "source_frame": "F3 observer_raster",
+      "spin2_matrix_2x2": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "spin2_phase_deg": 0.0,
+      "spin2_round_trip_max_error": 0.0,
+      "target_frame": "F4 FITS_pixel",
+      "x_flip": false,
+      "y_flip": false
+    },
+    {
+      "axis_swap": false,
+      "basis_round_trip_max_error": 0.0,
+      "classification": "REFLECTION",
+      "determinant": -1.0,
+      "equivalent_physical_rotation_deg": null,
+      "matrix_2x2": [
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "reflection_present": true,
+      "rotation_angle_if_proper": null,
+      "source_code_reference": "current FITS CD matrices",
+      "source_frame": "F4 FITS_pixel",
+      "spin2_matrix_2x2": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "spin2_phase_deg": null,
+      "spin2_round_trip_max_error": 0.0,
+      "target_frame": "F5 WCS_sky",
+      "x_flip": true,
+      "y_flip": false
+    },
+    {
+      "reason": "BENCHMARK_GAMMA_BASIS_UNDECLARED",
+      "source_code_reference": "no declaring FITS keyword",
+      "source_frame": "F5 WCS_sky",
+      "status": "UNRESOLVED",
+      "target_frame": "F6 benchmark_gamma"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "EXCITATION_ENERGY_LIKE_STATE_ESTABLISHED": false,
+  "classification": "PBUF_EXCITATION_PHYSICAL_DEFINITION_UNRESOLVED",
+  "gates": {
+    "additive_composable": false,
+    "conserved_under_unloaded_identity_transport": true,
+    "consistent_exchange": false,
+    "nonnegative": false,
+    "source_supplied": true,
+    "transferable": false
+  }
+}

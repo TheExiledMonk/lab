@@ -1,0 +1,207 @@
+{
+  "P01_P20": [
+    {
+      "attempted": true,
+      "id": "P01",
+      "name": "local loading"
+    },
+    {
+      "attempted": true,
+      "id": "P02",
+      "name": "accumulated loading"
+    },
+    {
+      "attempted": true,
+      "id": "P03",
+      "name": "strain"
+    },
+    {
+      "attempted": true,
+      "id": "P04",
+      "name": "stress"
+    },
+    {
+      "attempted": true,
+      "id": "P05",
+      "name": "elastic deformation energy"
+    },
+    {
+      "attempted": true,
+      "id": "P06",
+      "name": "normalized loading ratio"
+    },
+    {
+      "attempted": true,
+      "id": "P07",
+      "name": "loading / excitation"
+    },
+    {
+      "attempted": true,
+      "id": "P08",
+      "name": "excitable fraction"
+    },
+    {
+      "attempted": true,
+      "id": "P09",
+      "name": "unloaded medium fraction"
+    },
+    {
+      "attempted": true,
+      "id": "P10",
+      "name": "local constitutive stiffness state"
+    },
+    {
+      "attempted": true,
+      "id": "P11",
+      "name": "loading compactness"
+    },
+    {
+      "attempted": true,
+      "id": "P12",
+      "name": "integrated deformation"
+    },
+    {
+      "attempted": true,
+      "id": "P13",
+      "name": "response fingerprint"
+    },
+    {
+      "attempted": true,
+      "id": "P14",
+      "name": "bound-strain proximity"
+    },
+    {
+      "attempted": true,
+      "id": "P15",
+      "name": "conservation relation"
+    },
+    {
+      "attempted": true,
+      "id": "P16",
+      "name": "orthogonal loading/excitation decomposition"
+    },
+    {
+      "attempted": true,
+      "id": "P17",
+      "name": "energy partition"
+    },
+    {
+      "attempted": true,
+      "id": "P18",
+      "name": "momentum-loading relation"
+    },
+    {
+      "attempted": true,
+      "id": "P19",
+      "name": "invariant norm"
+    },
+    {
+      "attempted": true,
+      "id": "P20",
+      "name": "no existing loading variable sufficient"
+    }
+  ],
+  "R01_R20": [
+    {
+      "attempted": true,
+      "id": "R01",
+      "name": "local loading resistance"
+    },
+    {
+      "attempted": true,
+      "id": "R02",
+      "name": "integrated loading resistance"
+    },
+    {
+      "attempted": true,
+      "id": "R03",
+      "name": "strain-fraction resistance"
+    },
+    {
+      "attempted": true,
+      "id": "R04",
+      "name": "stress-state resistance"
+    },
+    {
+      "attempted": true,
+      "id": "R05",
+      "name": "deformation-energy resistance"
+    },
+    {
+      "attempted": true,
+      "id": "R06",
+      "name": "loading/excitation ratio"
+    },
+    {
+      "attempted": true,
+      "id": "R07",
+      "name": "excitation-minus-loading capacity"
+    },
+    {
+      "attempted": true,
+      "id": "R08",
+      "name": "normalized remaining-capacity"
+    },
+    {
+      "attempted": true,
+      "id": "R09",
+      "name": "additive state partition"
+    },
+    {
+      "attempted": true,
+      "id": "R10",
+      "name": "quadratic state partition"
+    },
+    {
+      "attempted": true,
+      "id": "R11",
+      "name": "orthogonal norm partition"
+    },
+    {
+      "attempted": true,
+      "id": "R12",
+      "name": "bounded-state geometric partition"
+    },
+    {
+      "attempted": true,
+      "id": "R13",
+      "name": "local stiffness modulation"
+    },
+    {
+      "attempted": true,
+      "id": "R14",
+      "name": "compactness-dependent propagation"
+    },
+    {
+      "attempted": true,
+      "id": "R15",
+      "name": "accumulated-response-dependent propagation"
+    },
+    {
+      "attempted": true,
+      "id": "R16",
+      "name": "excitation-to-loading ratio"
+    },
+    {
+      "attempted": true,
+      "id": "R17",
+      "name": "conserved total-state norm"
+    },
+    {
+      "attempted": true,
+      "id": "R18",
+      "name": "conserved pair-state norm"
+    },
+    {
+      "attempted": true,
+      "id": "R19",
+      "name": "rest-loading invariant + variable excitation"
+    },
+    {
+      "attempted": true,
+      "id": "R20",
+      "name": "no derivable relation in current PBUF"
+    }
+  ],
+  "all_attempted": true
+}

@@ -1,0 +1,31 @@
+{
+  "availability_flags": [
+    "has_physical_weight",
+    "has_spectral_state",
+    "has_arrival_time",
+    "has_phase",
+    "has_polarization",
+    "has_bundle_state",
+    "has_reverse_provenance"
+  ],
+  "detector_pixels_generated": false,
+  "field_inventory": "optical_state_inventory.json",
+  "forward_reverse_labels_independent": true,
+  "groups": [
+    "geometry",
+    "carried_signal",
+    "spectral",
+    "temporal",
+    "phase_coherence",
+    "polarization",
+    "bundle_state",
+    "latent_reverse_state",
+    "availability_metadata",
+    "provenance"
+  ],
+  "hst_pixel_access": false,
+  "missing_value_semantics": "explicit event-wise boolean mask; numeric NaN is not semantic",
+  "primitive_first": true,
+  "target_access": false,
+  "version": "PBUF_OPTICAL_INTERACTION_STATE_V1"
+}

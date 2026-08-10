@@ -1,0 +1,22 @@
+{
+  "contract": "PBUF_EXISTING_EXCITATION_PROVENANCE_V1",
+  "dynamic_excitation_definition": null,
+  "dynamic_excitation_state_found": false,
+  "fast_slow_dynamic": false,
+  "fast_slow_static": true,
+  "link_based": false,
+  "longitudinal_component_exists": true,
+  "new_dynamic_dof_required": true,
+  "node_based": false,
+  "normalization_discards_physical_state": false,
+  "raw_magnitude_definition": "|n + path_step*(rx,ry,0)|",
+  "raw_magnitude_exists": true,
+  "raw_magnitude_physical": false,
+  "receiver_preserves_excitation_state": false,
+  "source_initialized": false,
+  "state_location": null,
+  "step_persistent": false,
+  "trajectory_attached": false,
+  "trajectory_semantics": "GEOMETRIC_TRACER_ONLY",
+  "transverse_component_exists": true
+}

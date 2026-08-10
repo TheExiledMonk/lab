@@ -1,0 +1,770 @@
+{
+  "dimensions": [
+    64,
+    64,
+    64
+  ],
+  "normalization_notice": "VISUALIZATION_NORMALIZATION_ONLY",
+  "channels": [
+    {
+      "name": "occupancy",
+      "file": "viewer_channels/occupancy.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 65.9360122680664
+    },
+    {
+      "name": "ray_count",
+      "file": "viewer_channels/ray_count.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 81.0
+    },
+    {
+      "name": "sum_delta_u",
+      "file": "viewer_channels/sum_delta_u.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.8235942125320435,
+      "max": 1.2817410230636597
+    },
+    {
+      "name": "sum_squared_delta_u",
+      "file": "viewer_channels/sum_squared_delta_u.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.09233349561691284
+    },
+    {
+      "name": "mean_delta_u",
+      "file": "viewer_channels/mean_delta_u.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.06838500499725342,
+      "max": 0.07206246256828308
+    },
+    {
+      "name": "sum_delta_u2",
+      "file": "viewer_channels/sum_delta_u2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.09233349561691284
+    },
+    {
+      "name": "sum_squared_delta_u2",
+      "file": "viewer_channels/sum_squared_delta_u2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.00047915702452883124
+    },
+    {
+      "name": "mean_delta_u2",
+      "file": "viewer_channels/mean_delta_u2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 1.4216032864777794e-12,
+      "max": 0.005192997865378857
+    },
+    {
+      "name": "sum_dir_u",
+      "file": "viewer_channels/sum_dir_u.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.34247860312461853,
+      "max": 0.5301831364631653
+    },
+    {
+      "name": "sum_squared_dir_u",
+      "file": "viewer_channels/sum_squared_dir_u.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.01580207422375679
+    },
+    {
+      "name": "mean_dir_u",
+      "file": "viewer_channels/mean_dir_u.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.028473971411585808,
+      "max": 0.030035249888896942
+    },
+    {
+      "name": "sum_dir_u2",
+      "file": "viewer_channels/sum_dir_u2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.01580207422375679
+    },
+    {
+      "name": "sum_squared_dir_u2",
+      "file": "viewer_channels/sum_squared_dir_u2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1.4047278455109335e-05
+    },
+    {
+      "name": "mean_dir_u2",
+      "file": "viewer_channels/mean_dir_u2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 1.654184601795894e-13,
+      "max": 0.0009021162404678762
+    },
+    {
+      "name": "sum_delta_v",
+      "file": "viewer_channels/sum_delta_v.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.8782126307487488,
+      "max": 1.033673644065857
+    },
+    {
+      "name": "sum_squared_delta_v",
+      "file": "viewer_channels/sum_squared_delta_v.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.05977999046444893
+    },
+    {
+      "name": "mean_delta_v",
+      "file": "viewer_channels/mean_delta_v.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.04909240081906319,
+      "max": 0.05787062644958496
+    },
+    {
+      "name": "sum_delta_v2",
+      "file": "viewer_channels/sum_delta_v2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.05977999046444893
+    },
+    {
+      "name": "sum_squared_delta_v2",
+      "file": "viewer_channels/sum_squared_delta_v2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.00019994143804069608
+    },
+    {
+      "name": "mean_delta_v2",
+      "file": "viewer_channels/mean_delta_v2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 1.4432026754218619e-11,
+      "max": 0.0033490092027932405
+    },
+    {
+      "name": "sum_dir_v",
+      "file": "viewer_channels/sum_dir_v.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.36536017060279846,
+      "max": 0.42550528049468994
+    },
+    {
+      "name": "sum_squared_dir_v",
+      "file": "viewer_channels/sum_squared_dir_v.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.010134251788258553
+    },
+    {
+      "name": "mean_dir_v",
+      "file": "viewer_channels/mean_dir_v.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.020502880215644836,
+      "max": 0.02406081184744835
+    },
+    {
+      "name": "sum_dir_v2",
+      "file": "viewer_channels/sum_dir_v2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.010134251788258553
+    },
+    {
+      "name": "sum_squared_dir_v2",
+      "file": "viewer_channels/sum_squared_dir_v2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 5.756004156864947e-06
+    },
+    {
+      "name": "mean_dir_v2",
+      "file": "viewer_channels/mean_dir_v2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 1.934731888586505e-12,
+      "max": 0.0005789226852357388
+    },
+    {
+      "name": "sum_delta_w",
+      "file": "viewer_channels/sum_delta_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 314.5137634277344
+    },
+    {
+      "name": "sum_squared_delta_w",
+      "file": "viewer_channels/sum_squared_delta_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1500.2259521484375
+    },
+    {
+      "name": "mean_delta_w",
+      "file": "viewer_channels/mean_delta_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 4.769113540649414,
+      "max": 4.769999980926514
+    },
+    {
+      "name": "sum_delta_w2",
+      "file": "viewer_channels/sum_delta_w2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1500.2259521484375
+    },
+    {
+      "name": "sum_squared_delta_w2",
+      "file": "viewer_channels/sum_squared_delta_w2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 34134.27734375
+    },
+    {
+      "name": "mean_delta_w2",
+      "file": "viewer_channels/mean_delta_w2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 22.74444580078125,
+      "max": 22.752899169921875
+    },
+    {
+      "name": "sum_dir_w",
+      "file": "viewer_channels/sum_dir_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 65.9354019165039
+    },
+    {
+      "name": "sum_squared_dir_w",
+      "file": "viewer_channels/sum_squared_dir_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 65.93479919433594
+    },
+    {
+      "name": "mean_dir_w",
+      "file": "viewer_channels/mean_dir_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.9994477033615112,
+      "max": 1.0
+    },
+    {
+      "name": "sum_dir_w2",
+      "file": "viewer_channels/sum_dir_w2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 65.93479919433594
+    },
+    {
+      "name": "sum_squared_dir_w2",
+      "file": "viewer_channels/sum_squared_dir_w2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 65.93359375
+    },
+    {
+      "name": "mean_dir_w2",
+      "file": "viewer_channels/mean_dir_w2.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.9988957047462463,
+      "max": 1.0
+    },
+    {
+      "name": "sum_delta_uv",
+      "file": "viewer_channels/sum_delta_uv.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.03906739503145218,
+      "max": 0.03298629820346832
+    },
+    {
+      "name": "sum_squared_delta_uv",
+      "file": "viewer_channels/sum_squared_delta_uv.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 9.245399269275367e-05
+    },
+    {
+      "name": "mean_delta_uv",
+      "file": "viewer_channels/mean_delta_uv.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.002196936635300517,
+      "max": 0.002804374787956476
+    },
+    {
+      "name": "sum_dir_uv",
+      "file": "viewer_channels/sum_dir_uv.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.006727177184075117,
+      "max": 0.005711540579795837
+    },
+    {
+      "name": "sum_squared_dir_uv",
+      "file": "viewer_channels/sum_squared_dir_uv.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 2.7737846721720416e-06
+    },
+    {
+      "name": "mean_dir_uv",
+      "file": "viewer_channels/mean_dir_uv.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.0003829382767435163,
+      "max": 0.00048784262617118657
+    },
+    {
+      "name": "sum_delta_uw",
+      "file": "viewer_channels/sum_delta_uw.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -3.9283502101898193,
+      "max": 6.112811088562012
+    },
+    {
+      "name": "sum_squared_delta_uw",
+      "file": "viewer_channels/sum_squared_delta_uw.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 2.1001033782958984
+    },
+    {
+      "name": "mean_delta_uw",
+      "file": "viewer_channels/mean_delta_uw.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.32613587379455566,
+      "max": 0.3436763882637024
+    },
+    {
+      "name": "sum_dir_uw",
+      "file": "viewer_channels/sum_dir_uw.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.3424283564090729,
+      "max": 0.529904842376709
+    },
+    {
+      "name": "sum_squared_dir_uw",
+      "file": "viewer_channels/sum_squared_dir_uw.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.01578548178076744
+    },
+    {
+      "name": "mean_dir_uw",
+      "file": "viewer_channels/mean_dir_uw.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.02845824509859085,
+      "max": 0.030019257217645645
+    },
+    {
+      "name": "sum_delta_vw",
+      "file": "viewer_channels/sum_delta_vw.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -4.188778400421143,
+      "max": 4.930042266845703
+    },
+    {
+      "name": "sum_squared_delta_vw",
+      "file": "viewer_channels/sum_squared_delta_vw.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1.3598475456237793
+    },
+    {
+      "name": "mean_delta_vw",
+      "file": "viewer_channels/mean_delta_vw.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.23415419459342957,
+      "max": 0.27601027488708496
+    },
+    {
+      "name": "sum_dir_vw",
+      "file": "viewer_channels/sum_dir_vw.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.36528387665748596,
+      "max": 0.4253591299057007
+    },
+    {
+      "name": "sum_squared_dir_vw",
+      "file": "viewer_channels/sum_squared_dir_vw.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.010127285495400429
+    },
+    {
+      "name": "mean_dir_vw",
+      "file": "viewer_channels/mean_dir_vw.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.02049856074154377,
+      "max": 0.02405238151550293
+    },
+    {
+      "name": "sum_delta_u_dir_u",
+      "file": "viewer_channels/sum_delta_u_dir_u.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -3.37542127581969e-09,
+      "max": 0.038193479180336
+    },
+    {
+      "name": "sum_squared_delta_u_dir_u",
+      "file": "viewer_channels/sum_squared_delta_u_dir_u.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 8.200677257264033e-05
+    },
+    {
+      "name": "mean_delta_u_dir_u",
+      "file": "viewer_channels/mean_delta_u_dir_u.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -1.0312270433132653e-06,
+      "max": 0.00216441391967237
+    },
+    {
+      "name": "sum_delta_u_dir_v",
+      "file": "viewer_channels/sum_delta_u_dir_v.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.01626092568039894,
+      "max": 0.013733399100601673
+    },
+    {
+      "name": "sum_squared_delta_u_dir_v",
+      "file": "viewer_channels/sum_squared_delta_u_dir_v.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1.6032365238061175e-05
+    },
+    {
+      "name": "mean_delta_u_dir_v",
+      "file": "viewer_channels/mean_delta_u_dir_v.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.000918769568670541,
+      "max": 0.0011716356966644526
+    },
+    {
+      "name": "sum_delta_u_dir_w",
+      "file": "viewer_channels/sum_delta_u_dir_w.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.8234733939170837,
+      "max": 1.2810684442520142
+    },
+    {
+      "name": "sum_squared_delta_u_dir_w",
+      "file": "viewer_channels/sum_squared_delta_u_dir_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.09223662316799164
+    },
+    {
+      "name": "mean_delta_u_dir_w",
+      "file": "viewer_channels/mean_delta_u_dir_w.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.06834723800420761,
+      "max": 0.07202408462762833
+    },
+    {
+      "name": "sum_delta_v_dir_u",
+      "file": "viewer_channels/sum_delta_v_dir_u.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.01616005413234234,
+      "max": 0.013716921210289001
+    },
+    {
+      "name": "sum_squared_delta_v_dir_u",
+      "file": "viewer_channels/sum_squared_delta_v_dir_u.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1.5988500308594666e-05
+    },
+    {
+      "name": "mean_delta_v_dir_u",
+      "file": "viewer_channels/mean_delta_v_dir_u.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.0009156715241260827,
+      "max": 0.0011676782742142677
+    },
+    {
+      "name": "sum_delta_v_dir_v",
+      "file": "viewer_channels/sum_delta_v_dir_v.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -2.1900116280448856e-06,
+      "max": 0.02460869401693344
+    },
+    {
+      "name": "sum_squared_delta_v_dir_v",
+      "file": "viewer_channels/sum_squared_delta_v_dir_v.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 3.389867924852297e-05
+    },
+    {
+      "name": "mean_delta_v_dir_v",
+      "file": "viewer_channels/mean_delta_v_dir_v.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -7.18103592589614e-06,
+      "max": 0.001392414211295545
+    },
+    {
+      "name": "sum_delta_v_dir_w",
+      "file": "viewer_channels/sum_delta_v_dir_w.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.8780292868614197,
+      "max": 1.0333188772201538
+    },
+    {
+      "name": "sum_squared_delta_v_dir_w",
+      "file": "viewer_channels/sum_squared_delta_v_dir_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.05973896384239197
+    },
+    {
+      "name": "mean_delta_v_dir_w",
+      "file": "viewer_channels/mean_delta_v_dir_w.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.049082063138484955,
+      "max": 0.057850345969200134
+    },
+    {
+      "name": "sum_delta_w_dir_u",
+      "file": "viewer_channels/sum_delta_w_dir_u.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -1.6335420608520508,
+      "max": 2.5285212993621826
+    },
+    {
+      "name": "sum_squared_delta_w_dir_u",
+      "file": "viewer_channels/sum_squared_delta_w_dir_u.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.35941439867019653
+    },
+    {
+      "name": "mean_delta_w_dir_u",
+      "file": "viewer_channels/mean_delta_w_dir_u.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.13579560816287994,
+      "max": 0.1432424932718277
+    },
+    {
+      "name": "sum_delta_w_dir_v",
+      "file": "viewer_channels/sum_delta_w_dir_v.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -1.7426449060440063,
+      "max": 2.029420852661133
+    },
+    {
+      "name": "sum_squared_delta_w_dir_v",
+      "file": "viewer_channels/sum_squared_delta_w_dir_v.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 0.23052926361560822
+    },
+    {
+      "name": "mean_delta_w_dir_v",
+      "file": "viewer_channels/mean_delta_w_dir_v.f32",
+      "dtype": "float32",
+      "signed": true,
+      "min": -0.09779182076454163,
+      "max": 0.1147565245628357
+    },
+    {
+      "name": "sum_delta_w_dir_w",
+      "file": "viewer_channels/sum_delta_w_dir_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 314.5108947753906
+    },
+    {
+      "name": "sum_squared_delta_w_dir_w",
+      "file": "viewer_channels/sum_squared_delta_w_dir_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1500.198486328125
+    },
+    {
+      "name": "mean_delta_w_dir_w",
+      "file": "viewer_channels/mean_delta_w_dir_w.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 4.7664794921875,
+      "max": 4.769999980926514
+    },
+    {
+      "name": "sum_launch_receipt_separation",
+      "file": "viewer_channels/sum_launch_receipt_separation.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 314.5145263671875
+    },
+    {
+      "name": "sum_squared_launch_receipt_separation",
+      "file": "viewer_channels/sum_squared_launch_receipt_separation.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1500.233154296875
+    },
+    {
+      "name": "mean_launch_receipt_separation",
+      "file": "viewer_channels/mean_launch_receipt_separation.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 4.769780158996582,
+      "max": 4.769999980926514
+    },
+    {
+      "name": "sum_received_depth",
+      "file": "viewer_channels/sum_received_depth.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 314.53173828125
+    },
+    {
+      "name": "sum_squared_received_depth",
+      "file": "viewer_channels/sum_squared_received_depth.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1500.3973388671875
+    },
+    {
+      "name": "mean_received_depth",
+      "file": "viewer_channels/mean_received_depth.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 4.769075870513916,
+      "max": 4.77050256729126
+    },
+    {
+      "name": "sum_depth_change",
+      "file": "viewer_channels/sum_depth_change.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 314.5137634277344
+    },
+    {
+      "name": "sum_squared_depth_change",
+      "file": "viewer_channels/sum_squared_depth_change.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1500.2259521484375
+    },
+    {
+      "name": "mean_depth_change",
+      "file": "viewer_channels/mean_depth_change.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 4.769113540649414,
+      "max": 4.769999980926514
+    },
+    {
+      "name": "displacement_anisotropy",
+      "file": "viewer_channels/displacement_anisotropy.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1.4142135381698608
+    },
+    {
+      "name": "direction_anisotropy",
+      "file": "viewer_channels/direction_anisotropy.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1.4142135381698608
+    },
+    {
+      "name": "cross_tensor_anisotropy",
+      "file": "viewer_channels/cross_tensor_anisotropy.f32",
+      "dtype": "float32",
+      "signed": false,
+      "min": 0.0,
+      "max": 1.4142135381698608
+    }
+  ]
+}

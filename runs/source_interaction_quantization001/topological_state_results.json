@@ -1,0 +1,65 @@
+{
+  "T01_T10": [
+    {
+      "attempted": true,
+      "id": "T01",
+      "name": "no topology",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "T02",
+      "name": "sign-domain topology",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "T03",
+      "name": "transverse orientation winding",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "T04",
+      "name": "circulation winding",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "T05",
+      "name": "shell topology",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "T06",
+      "name": "node parity",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "T07",
+      "name": "link circulation",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "T08",
+      "name": "closed-loop state",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "T09",
+      "name": "mixed loading/excitation topology",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "T10",
+      "name": "no stable invariant",
+      "status": "MISSING_LOCALIZED_STATE"
+    }
+  ],
+  "native_integer_mode_index_established": false
+}

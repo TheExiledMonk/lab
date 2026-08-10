@@ -1,0 +1,20 @@
+{
+  "lab_id": "PBUF-FOUNDATION-G3D-PRINCIPAL-AXIS-ORIENTATION-001",
+  "head_sha": "10adbe29a138daf8aa17f6ed0f408cb22df2e256",
+  "candidate_id": "PL1_PM1_PS2",
+  "physical_source_representation": "M10_interface_field",
+  "geometry_lane": "G3D_LOS_consistent_diagnostic",
+  "benchmark_role": "external_morphology_comparison_only",
+  "checkpoint_steps": [
+    0,
+    1,
+    5,
+    10,
+    20,
+    40,
+    80,
+    120,
+    159
+  ],
+  "note": "Pure PBUF tensor/eigenorientation diagnostic; no conventional gravitational law injected."
+}

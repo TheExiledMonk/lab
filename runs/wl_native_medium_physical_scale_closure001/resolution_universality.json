@@ -1,0 +1,17 @@
+{
+  "reason": "no finite authoritative L0 estimator",
+  "resolutions": [
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "result": {
+    "classification": "NOT_TESTABLE",
+    "cv": null,
+    "log_slope": null,
+    "values": []
+  },
+  "status": "NOT_TESTABLE"
+}

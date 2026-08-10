@@ -1,0 +1,22 @@
+[
+  {
+    "mechanism": "Rmax",
+    "status": "RETIRED"
+  },
+  {
+    "mechanism": "historical strength=0.18",
+    "status": "HISTORICAL_SELF_TEST_ONLY"
+  },
+  {
+    "mechanism": "trajectory-as-physical-excitation",
+    "status": "RETIRED"
+  },
+  {
+    "mechanism": "fundamental native time/T0",
+    "status": "RETIRED"
+  },
+  {
+    "mechanism": "reflect padding interpreted as zero flux",
+    "status": "RETIRED_INTERPRETATION"
+  }
+]

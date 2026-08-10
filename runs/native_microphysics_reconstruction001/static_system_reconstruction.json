@@ -1,0 +1,307 @@
+{
+  "domains": [
+    {
+      "CARPET_FIBER_ANALOGY": "A grid bond may be pictured as a fiber connection; this is analogy only, not an ontological claim.",
+      "Code implementation": "pbuf/core/conventions.py:177-191; pbuf/models/a8_state.py:40-77",
+      "Conservation/invariants": "Quadratic X norm for dynamic permutation/orthogonal transport; static solver residual for equilibrium",
+      "Downstream consumers": "See native_dependency_graph.json",
+      "Inputs": "upstream quantities listed in dependency graph",
+      "Known controls/tests": "Dev145-153 contracts and Dev154 source reconstruction; domain 1",
+      "Mathematical definition": "N_6=\\{\\pm\\hat x,\\pm\\hat y,\\pm\\hat z\\}",
+      "Name": "native spatial topology",
+      "Outputs": "Provide Cartesian nearest-neighbor support",
+      "PLAIN_LANGUAGE": "Provide Cartesian nearest-neighbor support using the concrete code path cited above.",
+      "Physical meaning": "Implementation-level native quantity or diagnostic; not an identification with established external physics.",
+      "Purpose": "Provide Cartesian nearest-neighbor support",
+      "Status": "ESTABLISHED",
+      "Stored variables": "scalar grid fields or geometric records",
+      "Units/dimensional status": "native dimensionless/index units; absolute physical closure unresolved",
+      "Update/evolution equation": "N_6=\\{\\pm\\hat x,\\pm\\hat y,\\pm\\hat z\\}",
+      "Upstream dependencies": "See native_dependency_graph.json",
+      "What it DOES NOT establish": "New cross-coupling, absolute units, or identification with gravity/EM/QM",
+      "What it DOES establish": "Provide Cartesian nearest-neighbor support",
+      "id": "D01"
+    },
+    {
+      "CARPET_FIBER_ANALOGY": "A grid bond may be pictured as a fiber connection; this is analogy only, not an ontological claim.",
+      "Code implementation": "pbuf/excitation/native_excitation_state.py:34-47; pbuf/foundation/native_neighbor_state.py:54-70",
+      "Conservation/invariants": "Quadratic X norm for dynamic permutation/orthogonal transport; static solver residual for equilibrium",
+      "Downstream consumers": "See native_dependency_graph.json",
+      "Inputs": "upstream quantities listed in dependency graph",
+      "Known controls/tests": "Dev145-153 contracts and Dev154 source reconstruction; domain 2",
+      "Mathematical definition": "u,c: grid scalars; \\mathcal S_i=(L_i,X_{1i},X_{2i})",
+      "Name": "node/link representation",
+      "Outputs": "Distinguish node arrays from audit link state",
+      "PLAIN_LANGUAGE": "Distinguish node arrays from audit link state using the concrete code path cited above.",
+      "Physical meaning": "Implementation-level native quantity or diagnostic; not an identification with established external physics.",
+      "Purpose": "Distinguish node arrays from audit link state",
+      "Status": "REPRESENTATIONAL",
+      "Stored variables": "scalar grid fields or geometric records",
+      "Units/dimensional status": "native dimensionless/index units; absolute physical closure unresolved",
+      "Update/evolution equation": "u,c: grid scalars; \\mathcal S_i=(L_i,X_{1i},X_{2i})",
+      "Upstream dependencies": "See native_dependency_graph.json",
+      "What it DOES NOT establish": "New cross-coupling, absolute units, or identification with gravity/EM/QM",
+      "What it DOES establish": "Distinguish node arrays from audit link state",
+      "id": "D02"
+    },
+    {
+      "CARPET_FIBER_ANALOGY": "A grid bond may be pictured as a fiber connection; this is analogy only, not an ontological claim.",
+      "Code implementation": "pbuf/models/a8_state.py:117-136",
+      "Conservation/invariants": "Quadratic X norm for dynamic permutation/orthogonal transport; static solver residual for equilibrium",
+      "Downstream consumers": "See native_dependency_graph.json",
+      "Inputs": "upstream quantities listed in dependency graph",
+      "Known controls/tests": "Dev145-153 contracts and Dev154 source reconstruction; domain 3",
+      "Mathematical definition": "u_s^0=u_f^0=\\rho;\\ c=(u_s+u_f)/2",
+      "Name": "static loading input",
+      "Outputs": "Turn rho into fast/slow initialization",
+      "PLAIN_LANGUAGE": "Turn rho into fast/slow initialization using the concrete code path cited above.",
+      "Physical meaning": "Implementation-level native quantity or diagnostic; not an identification with established external physics.",
+      "Purpose": "Turn rho into fast/slow initialization",
+      "Status": "ESTABLISHED",
+      "Stored variables": "scalar grid fields or geometric records",
+      "Units/dimensional status": "native dimensionless/index units; absolute physical closure unresolved",
+      "Update/evolution equation": "u_s^0=u_f^0=\\rho;\\ c=(u_s+u_f)/2",
+      "Upstream dependencies": "See native_dependency_graph.json",
+      "What it DOES NOT establish": "New cross-coupling, absolute units, or identification with gravity/EM/QM",
+      "What it DOES establish": "Turn rho into fast/slow initialization",
+      "id": "D03"
+    },
+    {
+      "CARPET_FIBER_ANALOGY": "A grid bond may be pictured as a fiber connection; this is analogy only, not an ontological claim.",
+      "Code implementation": "pbuf/models/a8_state.py:80-114",
+      "Conservation/invariants": "Quadratic X norm for dynamic permutation/orthogonal transport; static solver residual for equilibrium",
+      "Downstream consumers": "See native_dependency_graph.json",
+      "Inputs": "upstream quantities listed in dependency graph",
+      "Known controls/tests": "Dev145-153 contracts and Dev154 source reconstruction; domain 4",
+      "Mathematical definition": "c_{state}=(u_s+u_f)/2",
+      "Name": "local medium loading/state",
+      "Outputs": "Store fast, slow, and combined scalar response",
+      "PLAIN_LANGUAGE": "Store fast, slow, and combined scalar response using the concrete code path cited above.",
+      "Physical meaning": "Implementation-level native quantity or diagnostic; not an identification with established external physics.",
+      "Purpose": "Store fast, slow, and combined scalar response",
+      "Status": "ESTABLISHED",
+      "Stored variables": "scalar grid fields or geometric records",
+      "Units/dimensional status": "native dimensionless/index units; absolute physical closure unresolved",
+      "Update/evolution equation": "c_{state}=(u_s+u_f)/2",
+      "Upstream dependencies": "See native_dependency_graph.json",
+      "What it DOES NOT establish": "New cross-coupling, absolute units, or identification with gravity/EM/QM",
+      "What it DOES establish": "Store fast, slow, and combined scalar response",
+      "id": "D04"
+    },
+    {
+      "CARPET_FIBER_ANALOGY": "A grid bond may be pictured as a fiber connection; this is analogy only, not an ontological claim.",
+      "Code implementation": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:128-220",
+      "Conservation/invariants": "Quadratic X norm for dynamic permutation/orthogonal transport; static solver residual for equilibrium",
+      "Downstream consumers": "See native_dependency_graph.json",
+      "Inputs": "upstream quantities listed in dependency graph",
+      "Known controls/tests": "Dev145-153 contracts and Dev154 source reconstruction; domain 5",
+      "Mathematical definition": "A(u)=c_{state}",
+      "Name": "neighbor equilibrium",
+      "Outputs": "Solve discrete nonlinear force balance",
+      "PLAIN_LANGUAGE": "Solve discrete nonlinear force balance using the concrete code path cited above.",
+      "Physical meaning": "Implementation-level native quantity or diagnostic; not an identification with established external physics.",
+      "Purpose": "Solve discrete nonlinear force balance",
+      "Status": "ESTABLISHED",
+      "Stored variables": "scalar grid fields or geometric records",
+      "Units/dimensional status": "native dimensionless/index units; absolute physical closure unresolved",
+      "Update/evolution equation": "A(u)=c_{state}",
+      "Upstream dependencies": "See native_dependency_graph.json",
+      "What it DOES NOT establish": "New cross-coupling, absolute units, or identification with gravity/EM/QM",
+      "What it DOES establish": "Solve discrete nonlinear force balance",
+      "id": "D05"
+    },
+    {
+      "CARPET_FIBER_ANALOGY": "A grid bond may be pictured as a fiber connection; this is analogy only, not an ontological claim.",
+      "Code implementation": "pbuf/wl/native_incremental_elastic_energy.py:18-41",
+      "Conservation/invariants": "Quadratic X norm for dynamic permutation/orthogonal transport; static solver residual for equilibrium",
+      "Downstream consumers": "See native_dependency_graph.json",
+      "Inputs": "upstream quantities listed in dependency graph",
+      "Known controls/tests": "Dev145-153 contracts and Dev154 source reconstruction; domain 6",
+      "Mathematical definition": "\\epsilon=(u_b-u_a)/\\Delta x;\\ W,\\sigma,K_{tan}\\text{ as E06--E08}",
+      "Name": "bounded strain",
+      "Outputs": "Bound bond deformation constitutively",
+      "PLAIN_LANGUAGE": "Bound bond deformation constitutively using the concrete code path cited above.",
+      "Physical meaning": "Implementation-level native quantity or diagnostic; not an identification with established external physics.",
+      "Purpose": "Bound bond deformation constitutively",
+      "Status": "ESTABLISHED",
+      "Stored variables": "scalar grid fields or geometric records",
+      "Units/dimensional status": "native dimensionless/index units; absolute physical closure unresolved",
+      "Update/evolution equation": "\\epsilon=(u_b-u_a)/\\Delta x;\\ W,\\sigma,K_{tan}\\text{ as E06--E08}",
+      "Upstream dependencies": "See native_dependency_graph.json",
+      "What it DOES NOT establish": "New cross-coupling, absolute units, or identification with gravity/EM/QM",
+      "What it DOES establish": "Bound bond deformation constitutively",
+      "id": "D06"
+    },
+    {
+      "CARPET_FIBER_ANALOGY": "A grid bond may be pictured as a fiber connection; this is analogy only, not an ontological claim.",
+      "Code implementation": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:223-230",
+      "Conservation/invariants": "Quadratic X norm for dynamic permutation/orthogonal transport; static solver residual for equilibrium",
+      "Downstream consumers": "See native_dependency_graph.json",
+      "Inputs": "upstream quantities listed in dependency graph",
+      "Known controls/tests": "Dev145-153 contracts and Dev154 source reconstruction; domain 7",
+      "Mathematical definition": "u=A^{-1}_{bounded}(c_{state})",
+      "Name": "accumulated deformation response",
+      "Outputs": "Produce long-range u from local c_state",
+      "PLAIN_LANGUAGE": "Produce long-range u from local c_state using the concrete code path cited above.",
+      "Physical meaning": "Implementation-level native quantity or diagnostic; not an identification with established external physics.",
+      "Purpose": "Produce long-range u from local c_state",
+      "Status": "ESTABLISHED",
+      "Stored variables": "scalar grid fields or geometric records",
+      "Units/dimensional status": "native dimensionless/index units; absolute physical closure unresolved",
+      "Update/evolution equation": "u=A^{-1}_{bounded}(c_{state})",
+      "Upstream dependencies": "See native_dependency_graph.json",
+      "What it DOES NOT establish": "New cross-coupling, absolute units, or identification with gravity/EM/QM",
+      "What it DOES establish": "Produce long-range u from local c_state",
+      "id": "D07"
+    }
+  ],
+  "equations": [
+    {
+      "assumptions": [
+        "unit Cartesian N6 grid"
+      ],
+      "code_location": "pbuf/models/a8_state.py:40-77",
+      "equation_id": "E01",
+      "first_dev": "historical A8",
+      "last_verified_dev": 154,
+      "latex": "\\bar u_a=\\frac16\\sum_{b\\in N_6(a)}u_b",
+      "name": "A8 N6 mean",
+      "status": "ESTABLISHED",
+      "variables": [
+        "u"
+      ]
+    },
+    {
+      "assumptions": [
+        "160 iterations"
+      ],
+      "code_location": "pbuf/models/a8_state.py:101-112",
+      "equation_id": "E02",
+      "first_dev": "historical A8",
+      "last_verified_dev": 154,
+      "latex": "u_f'=clip[u_f+0.03((\\bar u_f-u_f)+0.5(u_s-u_f)),-5,5]",
+      "name": "fast update",
+      "status": "ESTABLISHED",
+      "variables": [
+        "u_fast",
+        "u_slow"
+      ]
+    },
+    {
+      "assumptions": [
+        "simultaneous increments from old fields"
+      ],
+      "code_location": "pbuf/models/a8_state.py:101-112",
+      "equation_id": "E03",
+      "first_dev": "historical A8",
+      "last_verified_dev": 154,
+      "latex": "u_s'=clip[u_s+0.003((\\bar u_s-u_s)+0.5(u_f-u_s)),-5,5]",
+      "name": "slow update",
+      "status": "ESTABLISHED",
+      "variables": [
+        "u_fast",
+        "u_slow"
+      ]
+    },
+    {
+      "assumptions": [],
+      "code_location": "pbuf/models/a8_state.py:89-114",
+      "equation_id": "E04",
+      "first_dev": "historical A8",
+      "last_verified_dev": 154,
+      "latex": "c_{state}=(u_s+u_f)/2",
+      "name": "combined loading state",
+      "status": "ESTABLISHED",
+      "variables": [
+        "c_state",
+        "u_fast",
+        "u_slow"
+      ]
+    },
+    {
+      "assumptions": [
+        "axis-aligned positive bonds"
+      ],
+      "code_location": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:128-133",
+      "equation_id": "E05",
+      "first_dev": 143,
+      "last_verified_dev": 154,
+      "latex": "\\epsilon_{ab}=(u_b-u_a)/\\Delta x",
+      "name": "bond strain",
+      "status": "ESTABLISHED",
+      "variables": [
+        "epsilon",
+        "u"
+      ]
+    },
+    {
+      "assumptions": [
+        "|epsilon|<epsilon_max"
+      ],
+      "code_location": "pbuf/wl/native_incremental_elastic_energy.py:18-26",
+      "equation_id": "E06",
+      "first_dev": 143,
+      "last_verified_dev": 154,
+      "latex": "W=-\\frac{K\\epsilon_{max}^2}{2}\\ln(1-\\epsilon^2/\\epsilon_{max}^2)",
+      "name": "bounded energy",
+      "status": "ESTABLISHED",
+      "variables": [
+        "W",
+        "epsilon",
+        "K"
+      ]
+    },
+    {
+      "assumptions": [
+        "|epsilon|<epsilon_max"
+      ],
+      "code_location": "pbuf/wl/native_incremental_elastic_energy.py:29-33",
+      "equation_id": "E07",
+      "first_dev": 143,
+      "last_verified_dev": 154,
+      "latex": "\\sigma=K\\epsilon/(1-\\epsilon^2/\\epsilon_{max}^2)",
+      "name": "bounded stress",
+      "status": "ESTABLISHED",
+      "variables": [
+        "sigma",
+        "epsilon",
+        "K"
+      ]
+    },
+    {
+      "assumptions": [
+        "equals W''"
+      ],
+      "code_location": "pbuf/wl/native_incremental_elastic_energy.py:36-41",
+      "equation_id": "E08",
+      "first_dev": 143,
+      "last_verified_dev": 154,
+      "latex": "K_{tan}=K(1+q)/(1-q)^2,\\ q=(\\epsilon/\\epsilon_{max})^2",
+      "name": "tangent stiffness",
+      "status": "ESTABLISHED",
+      "variables": [
+        "K_tangent",
+        "epsilon",
+        "K"
+      ]
+    },
+    {
+      "assumptions": [
+        "zero Dirichlet accumulation boundary",
+        "Picard+CG"
+      ],
+      "code_location": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:136-220",
+      "equation_id": "E09",
+      "first_dev": 145,
+      "last_verified_dev": 154,
+      "latex": "A(u)_a=\\Delta x^{-2}\\sum_{b\\in N_6(a)}K\\frac{u_a-u_b}{1-\\epsilon_{ab}^2/\\epsilon_{max}^2}=c_{state,a}",
+      "name": "nonlinear equilibrium",
+      "status": "ESTABLISHED",
+      "variables": [
+        "u",
+        "c_state",
+        "epsilon"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "append_only": true,
+  "deterministic_record_uid_rule": "sha256(event_uid\\0surface_id\\0interaction_index)",
+  "record_order": [
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "records": 1140624
+}

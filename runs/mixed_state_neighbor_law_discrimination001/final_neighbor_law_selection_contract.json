@@ -1,0 +1,42 @@
+{
+  "basis_covariance": true,
+  "contract": "PBUF_NATIVE_NEIGHBOR_LAW_SELECTION_V1",
+  "dev151_survivor_count": 6,
+  "dynamic_parity": true,
+  "dynamic_ray_status": "NOT_COMPARABLE",
+  "equivalence_class_members": [
+    "S-C10",
+    "S-C12",
+    "S-C13",
+    "S-C16",
+    "S-C18"
+  ],
+  "equivalence_class_selected": true,
+  "frame_transport_status": "F02-F06 equivalent orthogonal maps",
+  "free_parameter_count": 0,
+  "joint_invariant": "J01",
+  "loaded_composite_status": false,
+  "localization_status": false,
+  "mixed_state_symmetry": true,
+  "new_cross_coefficient_count": 0,
+  "physical_survivor_count": 1,
+  "representation_equivalence_classes": [
+    {
+      "class_id": "E01",
+      "invertible_mapping_proven": true,
+      "members": [
+        "S-C10",
+        "S-C12",
+        "S-C13",
+        "S-C16",
+        "S-C18"
+      ],
+      "signature": "orthogonal-neighbor-frame-map"
+    }
+  ],
+  "rotational_companion_status": false,
+  "selected_law_id": null,
+  "selection_basis": "basis-covariant orthogonal frame transport",
+  "static_parity": true,
+  "unique_law_selected": false
+}

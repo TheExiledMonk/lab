@@ -1,0 +1,17 @@
+{
+  "L0_required": false,
+  "SR_benchmark_compatible": false,
+  "SR_used_in_derivation": false,
+  "beta_law": null,
+  "beta_law_established": false,
+  "beta_upper_bound": 1.0,
+  "contract": "PBUF_LOADED_PROPAGATION_SPEED_V1",
+  "excitation_input": "neutral q control (not identified as energy)",
+  "free_parameters": 0,
+  "high_excitation_limit": "UNRESOLVED",
+  "loading_input": "persistent native loading proxy",
+  "low_excitation_limit": "REPRESENTABLE_NOT_DERIVED",
+  "same_mass_variable_speed_supported": "STATE_ONTOLOGY_ONLY",
+  "time_required": false,
+  "zero_load_beta": 1.0
+}

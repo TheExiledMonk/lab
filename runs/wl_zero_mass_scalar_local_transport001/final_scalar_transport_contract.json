@@ -1,0 +1,22 @@
+{
+  "L0_required": false,
+  "absolute_scalar_normalization_required": false,
+  "candidate_driver": null,
+  "contract": "PBUF_ZERO_MASS_TRANSPORTED_SCALAR_V1",
+  "fractional_q0_invariant": true,
+  "free_coefficients": 0,
+  "local_update_law_established": false,
+  "medium_generates_initial_scalar": false,
+  "path_memory": false,
+  "physical_identity": null,
+  "physical_identity_status": "UNRESOLVED",
+  "reversible": true,
+  "scalar_transport_structure_established": true,
+  "source_supplied_initial_scalar": true,
+  "telescoping": false,
+  "time_required": false,
+  "trajectory_independent": true,
+  "uniform_medium_identity": true,
+  "update_form": "IDENTITY_ONLY",
+  "zero_mass_speed_independent": true
+}

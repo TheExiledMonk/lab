@@ -1,0 +1,22 @@
+{
+  "REST_LOADING_INVARIANT_UNDER_TRANSLATIONAL_Q_SWEEP": true,
+  "loading_levels": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "loading_only_gate": "FAILS_VARIABLE_SPEED_SAME_MASS",
+  "multiple_beta_derived": false,
+  "multiple_beta_required": true,
+  "q0": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "state_representation_available": true
+}

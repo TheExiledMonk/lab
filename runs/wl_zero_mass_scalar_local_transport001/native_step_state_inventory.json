@@ -1,0 +1,125 @@
+{
+  "T01_T24_attempted": true,
+  "drivers": [
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T01",
+      "name": "c_state"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T02",
+      "name": "u"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T03",
+      "name": "delta_u_step"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T04",
+      "name": "grad_u"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T05",
+      "name": "directional_grad_u"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T06",
+      "name": "delta_u_fast"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T07",
+      "name": "delta_u_slow"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T08",
+      "name": "0.03*delta_u_fast + 0.003*delta_u_slow"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T09",
+      "name": "epsilon"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T10",
+      "name": "delta_epsilon_step"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T11",
+      "name": "grad_epsilon"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T12",
+      "name": "directional_grad_epsilon"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T13",
+      "name": "W(epsilon)"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T14",
+      "name": "delta_W_step"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T15",
+      "name": "convex_excitation_excess"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T16",
+      "name": "trajectory_curvature"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T17",
+      "name": "direction_change_magnitude"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T18",
+      "name": "local_Hessian"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T19",
+      "name": "path_excess_increment"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T20",
+      "name": "bundle_expansion_increment"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T21",
+      "name": "bundle_area_ratio_increment"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T22",
+      "name": "neighbor_response_difference"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T23",
+      "name": "entry_exit_state_difference"
+    },
+    {
+      "available_per_step": "diagnostic_or_optional",
+      "id": "T24",
+      "name": "local_response_change projected along path"
+    }
+  ]
+}

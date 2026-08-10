@@ -1,0 +1,483 @@
+{
+  "clusters": {
+    "Abell2744": {
+      "bundle_valid_fraction": {
+        "1": 0.9999859725904418,
+        "2": 1.0,
+        "4": 1.0,
+        "8": 1.0
+      },
+      "checkpoint": {
+        "backend": "vulkan",
+        "cluster_id": "Abell2744",
+        "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+        "ray_count": 285156,
+        "received_state_fingerprint": "657314ba98fec53d07e5c82f8fb78a80c357ea30d7634bbd010c747525d72be3"
+      },
+      "information_rank": {
+        "S_D_relational": 2.760537197916321,
+        "bundle_geometry": 3.361556168058107,
+        "current_R3": 2.0000046805732965,
+        "current_R4": 1.9999999992971265,
+        "dual_coordinate_transport": 2.0000168867490977,
+        "raw_received_ray_state": 2.000008959319748
+      },
+      "launch_topology": {
+        "exact_regular_grid": true,
+        "shape": [
+          534,
+          534
+        ],
+        "spacing": [
+          0.029962546816479474,
+          0.029962546816479474
+        ]
+      },
+      "mixing": {
+        "fraction_cells_with_gt1_launch_component": 0.000732421875,
+        "fraction_parity_mixed_cells": 0.000732421875,
+        "fraction_rays_in_multi_origin_cells": 0.0006838362159659975,
+        "median_launch_origin_entropy": 0.0,
+        "p95_launch_origin_entropy": 0.0
+      },
+      "multiscale": {
+        "classification": "SCALE_TRANSITION",
+        "mean_orientation_persistence": 0.5244060066871334,
+        "neighboring_scales": {
+          "1_to_2": {
+            "magnitude_pearson": 0.8129993966288741,
+            "orientation_persistence": 0.2604895398225073
+          },
+          "2_to_4": {
+            "magnitude_pearson": 0.8096171361143598,
+            "orientation_persistence": 0.614963126745347
+          },
+          "4_to_8": {
+            "magnitude_pearson": 0.7953760734876556,
+            "orientation_persistence": 0.6977653534935458
+          }
+        }
+      },
+      "resolution": {
+        "64_vs_128": {
+          "D_map_preservation": 0.9985385447228133,
+          "Q_map_Pearson": 0.9882596076546484,
+          "Q_orientation_agreement": 0.9927814623989444,
+          "fold_map_overlap": 1.0,
+          "launch_origin_entropy_preservation": 0.2504871514531369,
+          "parity_boundary_overlap": 1.0
+        },
+        "64_vs_256": {
+          "D_map_preservation": 0.9975051662585188,
+          "Q_map_Pearson": 0.9585590745782389,
+          "Q_orientation_agreement": 0.9845862040022164,
+          "fold_map_overlap": 1.0,
+          "launch_origin_entropy_preservation": 0.16340147175178335,
+          "parity_boundary_overlap": 1.0
+        },
+        "classification": "OBSERVER_RESOLUTION_STABLE"
+      },
+      "target_blind_associations": {
+        "D_vs_abs_Q": 0.31283247734644176,
+        "D_vs_abs_det_deviation": 0.2866948465153122,
+        "D_vs_depth_gradient": 0.1445489460002751,
+        "D_vs_fold_score": 0.04389442700548392,
+        "D_vs_rotation_magnitude": 0.2239382759430097,
+        "S_vs_directional_coherence": 0.011501253190328081,
+        "S_vs_fit_coherence": 0.15373060421849677,
+        "mean_D_gradient_Q_alignment": 0.0068882589586779595,
+        "mean_S_gradient_Q_alignment": 0.007578510337767977,
+        "median_received_overlap_fraction": 1.0,
+        "received_overlap_pair_count": 3
+      }
+    },
+    "Abell370": {
+      "bundle_valid_fraction": {
+        "1": 0.9999859725904418,
+        "2": 1.0,
+        "4": 1.0,
+        "8": 1.0
+      },
+      "checkpoint": {
+        "backend": "vulkan",
+        "cluster_id": "Abell370",
+        "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+        "ray_count": 285156,
+        "received_state_fingerprint": "500d86221f302f506b9d4a71e667582d507ba44ca92e8406b1e30aa832062923"
+      },
+      "information_rank": {
+        "S_D_relational": 2.5215681545775004,
+        "bundle_geometry": 3.281238038938518,
+        "current_R3": 2.0000057614734623,
+        "current_R4": 1.999999999584902,
+        "dual_coordinate_transport": 2.000021439635843,
+        "raw_received_ray_state": 2.000011380820206
+      },
+      "launch_topology": {
+        "exact_regular_grid": true,
+        "shape": [
+          534,
+          534
+        ],
+        "spacing": [
+          0.029962546816479474,
+          0.029962546816479474
+        ]
+      },
+      "mixing": {
+        "fraction_cells_with_gt1_launch_component": 0.000244140625,
+        "fraction_parity_mixed_cells": 0.0,
+        "fraction_rays_in_multi_origin_cells": 0.0001999025036911822,
+        "median_launch_origin_entropy": 0.0,
+        "p95_launch_origin_entropy": 0.0
+      },
+      "multiscale": {
+        "classification": "SCALE_TRANSITION",
+        "mean_orientation_persistence": 0.5738754043502333,
+        "neighboring_scales": {
+          "1_to_2": {
+            "magnitude_pearson": 0.8150141089634535,
+            "orientation_persistence": 0.40451659910898313
+          },
+          "2_to_4": {
+            "magnitude_pearson": 0.8124227854387559,
+            "orientation_persistence": 0.6144438447973897
+          },
+          "4_to_8": {
+            "magnitude_pearson": 0.8008228191936041,
+            "orientation_persistence": 0.7026657691443272
+          }
+        }
+      },
+      "resolution": {
+        "64_vs_128": {
+          "D_map_preservation": 0.9964268920306375,
+          "Q_map_Pearson": 0.9886561524462399,
+          "Q_orientation_agreement": 0.9934839565924308,
+          "fold_map_overlap": 1.0,
+          "launch_origin_entropy_preservation": 0.3501004378538294,
+          "parity_boundary_overlap": 1.0
+        },
+        "64_vs_256": {
+          "D_map_preservation": 0.9896416250080937,
+          "Q_map_Pearson": 0.944286514395537,
+          "Q_orientation_agreement": 0.986093510091768,
+          "fold_map_overlap": 1.0,
+          "launch_origin_entropy_preservation": 0.19829032052783563,
+          "parity_boundary_overlap": 1.0
+        },
+        "classification": "OBSERVER_RESOLUTION_MODERATE_SENSITIVITY"
+      },
+      "target_blind_associations": {
+        "D_vs_abs_Q": 0.35527781127878627,
+        "D_vs_abs_det_deviation": 0.338220843915588,
+        "D_vs_depth_gradient": 0.20638850753166926,
+        "D_vs_fold_score": 0.03712709705125921,
+        "D_vs_rotation_magnitude": 0.23834166072237414,
+        "S_vs_directional_coherence": -0.0159984167022383,
+        "S_vs_fit_coherence": 0.17387222888782505,
+        "mean_D_gradient_Q_alignment": -4.840809015734345e-05,
+        "mean_S_gradient_Q_alignment": 0.0005797619245149213,
+        "median_received_overlap_fraction": 1.0,
+        "received_overlap_pair_count": 1
+      }
+    },
+    "AbellS1063": {
+      "bundle_valid_fraction": {
+        "1": 0.9999859725904418,
+        "2": 1.0,
+        "4": 1.0,
+        "8": 1.0
+      },
+      "checkpoint": {
+        "backend": "vulkan",
+        "cluster_id": "AbellS1063",
+        "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+        "ray_count": 285156,
+        "received_state_fingerprint": "2d399cf936565a61ea4f916c46ea3fe8594fde16bb052b4b8bc7ac97b5f784bd"
+      },
+      "information_rank": {
+        "S_D_relational": 2.249575112451423,
+        "bundle_geometry": 3.1922208063992357,
+        "current_R3": 2.0000030961958144,
+        "current_R4": 1.9999999982012964,
+        "dual_coordinate_transport": 2.0000113900370495,
+        "raw_received_ray_state": 2.000006028258508
+      },
+      "launch_topology": {
+        "exact_regular_grid": true,
+        "shape": [
+          534,
+          534
+        ],
+        "spacing": [
+          0.029962546816479474,
+          0.029962546816479474
+        ]
+      },
+      "mixing": {
+        "fraction_cells_with_gt1_launch_component": 0.0,
+        "fraction_parity_mixed_cells": 0.000732421875,
+        "fraction_rays_in_multi_origin_cells": 0.0,
+        "median_launch_origin_entropy": 0.0,
+        "p95_launch_origin_entropy": 0.0
+      },
+      "multiscale": {
+        "classification": "SCALE_TRANSITION",
+        "mean_orientation_persistence": 0.605195301991611,
+        "neighboring_scales": {
+          "1_to_2": {
+            "magnitude_pearson": 0.8269085987060644,
+            "orientation_persistence": 0.4743109314353586
+          },
+          "2_to_4": {
+            "magnitude_pearson": 0.8340278290613488,
+            "orientation_persistence": 0.6068638065303111
+          },
+          "4_to_8": {
+            "magnitude_pearson": 0.8301724629734081,
+            "orientation_persistence": 0.7344111680091632
+          }
+        }
+      },
+      "resolution": {
+        "64_vs_128": {
+          "D_map_preservation": 0.999214278529036,
+          "Q_map_Pearson": 0.9907956429272611,
+          "Q_orientation_agreement": 0.9935618784389417,
+          "fold_map_overlap": 1.0,
+          "launch_origin_entropy_preservation": 0.0,
+          "parity_boundary_overlap": 1.0
+        },
+        "64_vs_256": {
+          "D_map_preservation": 0.9903958825152258,
+          "Q_map_Pearson": 0.9743772644921321,
+          "Q_orientation_agreement": 0.9877129949770029,
+          "fold_map_overlap": 1.0,
+          "launch_origin_entropy_preservation": 0.0,
+          "parity_boundary_overlap": 1.0
+        },
+        "classification": "OBSERVER_RESOLUTION_STABLE"
+      },
+      "target_blind_associations": {
+        "D_vs_abs_Q": 0.3695175124204993,
+        "D_vs_abs_det_deviation": 0.3570361040000966,
+        "D_vs_depth_gradient": 0.1890793378988832,
+        "D_vs_fold_score": 0.06298865419246817,
+        "D_vs_rotation_magnitude": 0.251657885817386,
+        "S_vs_directional_coherence": 0.03987084317715975,
+        "S_vs_fit_coherence": 0.13982187424093323,
+        "mean_D_gradient_Q_alignment": 0.07872842849181057,
+        "mean_S_gradient_Q_alignment": 0.08714672090781017,
+        "median_received_overlap_fraction": 0.0,
+        "received_overlap_pair_count": 0
+      }
+    },
+    "MACS0416": {
+      "bundle_valid_fraction": {
+        "1": 0.9999859725904418,
+        "2": 1.0,
+        "4": 1.0,
+        "8": 1.0
+      },
+      "checkpoint": {
+        "backend": "vulkan",
+        "cluster_id": "MACS0416",
+        "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+        "ray_count": 285156,
+        "received_state_fingerprint": "3655b62c79d6ba9c533410d3d03a53ab0b313bc9568639e7a190dd0baa7f9ebc"
+      },
+      "information_rank": {
+        "S_D_relational": 2.449225552299977,
+        "bundle_geometry": 3.3009542946260244,
+        "current_R3": 2.0000035241572314,
+        "current_R4": 1.9999999979177077,
+        "dual_coordinate_transport": 2.000013292450723,
+        "raw_received_ray_state": 2.0000070428576526
+      },
+      "launch_topology": {
+        "exact_regular_grid": true,
+        "shape": [
+          534,
+          534
+        ],
+        "spacing": [
+          0.029962546816479474,
+          0.029962546816479474
+        ]
+      },
+      "mixing": {
+        "fraction_cells_with_gt1_launch_component": 0.000244140625,
+        "fraction_parity_mixed_cells": 0.00048828125,
+        "fraction_rays_in_multi_origin_cells": 0.0002279525998870758,
+        "median_launch_origin_entropy": 0.0,
+        "p95_launch_origin_entropy": 0.0
+      },
+      "multiscale": {
+        "classification": "SCALE_TRANSITION",
+        "mean_orientation_persistence": 0.5675500005320547,
+        "neighboring_scales": {
+          "1_to_2": {
+            "magnitude_pearson": 0.8158628021317587,
+            "orientation_persistence": 0.3844831778955412
+          },
+          "2_to_4": {
+            "magnitude_pearson": 0.8139672516749218,
+            "orientation_persistence": 0.6043010933448676
+          },
+          "4_to_8": {
+            "magnitude_pearson": 0.8019187369884196,
+            "orientation_persistence": 0.7138657303557553
+          }
+        }
+      },
+      "resolution": {
+        "64_vs_128": {
+          "D_map_preservation": 0.9980163227985619,
+          "Q_map_Pearson": 0.9934971903249715,
+          "Q_orientation_agreement": 0.9962742161889071,
+          "fold_map_overlap": 1.0,
+          "launch_origin_entropy_preservation": 0.26752633545933807,
+          "parity_boundary_overlap": 1.0
+        },
+        "64_vs_256": {
+          "D_map_preservation": 0.9917938567586222,
+          "Q_map_Pearson": 0.970562203725757,
+          "Q_orientation_agreement": 0.9886127936888844,
+          "fold_map_overlap": 1.0,
+          "launch_origin_entropy_preservation": 0.1646356018207062,
+          "parity_boundary_overlap": 1.0
+        },
+        "classification": "OBSERVER_RESOLUTION_STABLE"
+      },
+      "target_blind_associations": {
+        "D_vs_abs_Q": 0.3548512045588191,
+        "D_vs_abs_det_deviation": 0.3035753181329423,
+        "D_vs_depth_gradient": 0.25876634156261435,
+        "D_vs_fold_score": 0.053132819289008835,
+        "D_vs_rotation_magnitude": 0.2715639952539753,
+        "S_vs_directional_coherence": 0.03466298701185501,
+        "S_vs_fit_coherence": 0.16560367074787707,
+        "mean_D_gradient_Q_alignment": -0.03680027338624921,
+        "mean_S_gradient_Q_alignment": -0.03777751211946335,
+        "median_received_overlap_fraction": 1.0,
+        "received_overlap_pair_count": 1
+      }
+    },
+    "MACS1149": {
+      "bundle_valid_fraction": {
+        "1": 0.9999859725904418,
+        "2": 1.0,
+        "4": 1.0,
+        "8": 1.0
+      },
+      "checkpoint": {
+        "backend": "vulkan",
+        "cluster_id": "MACS1149",
+        "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+        "ray_count": 285156,
+        "received_state_fingerprint": "b6daf5ccb9d41ad56c4756e0879118e85338fcc901fd59725ffd9c9535d097e7"
+      },
+      "information_rank": {
+        "S_D_relational": 1.925233542066682,
+        "bundle_geometry": 3.4284519138486216,
+        "current_R3": 2.0000020876230504,
+        "current_R4": 1.999999999164655,
+        "dual_coordinate_transport": 2.0000080408605463,
+        "raw_received_ray_state": 2.0000042531961006
+      },
+      "launch_topology": {
+        "exact_regular_grid": true,
+        "shape": [
+          534,
+          534
+        ],
+        "spacing": [
+          0.029962546816479474,
+          0.029962546816479474
+        ]
+      },
+      "mixing": {
+        "fraction_cells_with_gt1_launch_component": 0.0,
+        "fraction_parity_mixed_cells": 0.0009765625,
+        "fraction_rays_in_multi_origin_cells": 0.0,
+        "median_launch_origin_entropy": 0.0,
+        "p95_launch_origin_entropy": 0.0
+      },
+      "multiscale": {
+        "classification": "SCALE_TRANSITION",
+        "mean_orientation_persistence": 0.5678521797945894,
+        "neighboring_scales": {
+          "1_to_2": {
+            "magnitude_pearson": 0.8237409181281327,
+            "orientation_persistence": 0.37372626772927175
+          },
+          "2_to_4": {
+            "magnitude_pearson": 0.8338313303186627,
+            "orientation_persistence": 0.604082535308616
+          },
+          "4_to_8": {
+            "magnitude_pearson": 0.8246772758672315,
+            "orientation_persistence": 0.7257477363458804
+          }
+        }
+      },
+      "resolution": {
+        "64_vs_128": {
+          "D_map_preservation": 0.998057271691454,
+          "Q_map_Pearson": 0.9726702562158865,
+          "Q_orientation_agreement": 0.9934602326436776,
+          "fold_map_overlap": 1.0,
+          "launch_origin_entropy_preservation": 0.0,
+          "parity_boundary_overlap": 1.0
+        },
+        "64_vs_256": {
+          "D_map_preservation": 0.9953003629312146,
+          "Q_map_Pearson": 0.9795286806566131,
+          "Q_orientation_agreement": 0.9867412670990985,
+          "fold_map_overlap": 1.0,
+          "launch_origin_entropy_preservation": 0.0,
+          "parity_boundary_overlap": 1.0
+        },
+        "classification": "OBSERVER_RESOLUTION_STABLE"
+      },
+      "target_blind_associations": {
+        "D_vs_abs_Q": 0.3771828801711629,
+        "D_vs_abs_det_deviation": 0.3516225789663277,
+        "D_vs_depth_gradient": 0.2003147297012388,
+        "D_vs_fold_score": 0.04556792034375591,
+        "D_vs_rotation_magnitude": 0.2082647445382609,
+        "S_vs_directional_coherence": 0.03764899668806125,
+        "S_vs_fit_coherence": 0.18202375490282072,
+        "mean_D_gradient_Q_alignment": -0.02311949408858869,
+        "mean_S_gradient_Q_alignment": -0.0243034338801928,
+        "median_received_overlap_fraction": 0.0,
+        "received_overlap_pair_count": 0
+      }
+    }
+  },
+  "direction_threshold": 1e-15,
+  "formula_version": "dev120_native_bundle_transport_v1",
+  "gamma_accessed": false,
+  "kde_executions": 0,
+  "lab_id": "PBUF-FOUNDATION-WL-BUNDLE-TRANSPORT-GEOMETRY-001",
+  "lens_truth_accessed": false,
+  "parity_epsilon": 1e-10,
+  "propagation_runs": 0,
+  "resolutions": [
+    64,
+    128,
+    256
+  ],
+  "scales": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "validity": {
+    "condition_number_max": 10000000000.0,
+    "minimum_rays": 6,
+    "rank": 2
+  }
+}

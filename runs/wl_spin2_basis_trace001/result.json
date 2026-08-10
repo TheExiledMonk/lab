@@ -1,0 +1,177 @@
+{
+  "checks": {
+    "axis_swap_test_passed": true,
+    "basis_round_trip_passed": true,
+    "basis_transform_manifest_created": true,
+    "benchmark_gamma_basis_status_reported": true,
+    "benchmark_gamma_convention_inventory_created": true,
+    "canonical_pipeline_unchanged": true,
+    "current_jacobian_control_unchanged": true,
+    "detector_basis_reported": true,
+    "detector_frame_resolved": true,
+    "detector_handedness_reported": true,
+    "dev123_candidates_unchanged": true,
+    "earth_receiver_hypothesis_parked": true,
+    "external_variant_count_lte_7": true,
+    "fits_axis_mapping_reported": true,
+    "fits_frame_resolved": true,
+    "five_checkpoints_valid": true,
+    "frame_manifest_created": true,
+    "identity_basis_test_passed": true,
+    "launch_frame_resolved": true,
+    "native_primary_trajectory_angle_reported": true,
+    "no_target_derived_axis_swap": true,
+    "no_target_derived_reflection": true,
+    "no_target_derived_rotation": true,
+    "no_target_derived_sign": true,
+    "observer_raster_frame_resolved": true,
+    "propagation_frame_resolved": true,
+    "propagation_reopened_false": true,
+    "raster_index_mapping_reported": true,
+    "rotation_180_equivalence_test_passed": true,
+    "rotation_22_5_test_passed": true,
+    "rotation_45_test_passed": true,
+    "rotation_90_test_passed": true,
+    "rotation_plus_reflection_test_passed": true,
+    "spin2_complex_transform_derived": true,
+    "spin2_tensor_transform_derived": true,
+    "structural_freeze_before_gamma": true,
+    "structural_hash_reproducible": true,
+    "synthetic_0_trace_passed": true,
+    "synthetic_112_5_trace_passed": true,
+    "synthetic_135_trace_passed": true,
+    "synthetic_157_5_trace_passed": true,
+    "synthetic_22_5_trace_passed": true,
+    "synthetic_45_trace_passed": true,
+    "synthetic_67_5_trace_passed": true,
+    "synthetic_90_trace_passed": true,
+    "tensor_complex_equivalence_passed": true,
+    "viewer_spin2_basis_trace_supported": true,
+    "wcs_frame_resolved": true,
+    "wcs_handedness_reported": true,
+    "wcs_round_trip_passed_if_available": true,
+    "x_reflection_test_passed": true,
+    "y_reflection_test_passed": true,
+    "zero_kde_executions": true,
+    "zero_propagation_runs": true
+  },
+  "earth_receiver_hypothesis_parked": true,
+  "external_evaluation_policy": "Original lane diagnostic only; corrected benchmark lane prohibited because F5->F6 is undeclared.",
+  "external_metrics_aggregate": {
+    "cross_first_second_quadrupole_scale8": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.007046854981272076,
+        "maximum": 0.014551256921611308,
+        "median": -0.01672254196537781,
+        "minimum": -0.03538757687510636
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.00760059066775858,
+        "maximum": 0.011399452450152217,
+        "median": 0.00611346838780868,
+        "minimum": -0.012964243620876201
+      },
+      "lane_B_status": "UNAVAILABLE_BY_GUARDRAIL"
+    },
+    "current_D_jacobian__tsc_3x3_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.02414340335968175,
+        "maximum": 0.19126536601231553,
+        "median": 0.13825557202787922,
+        "minimum": 0.09626603255127673
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.017111171046077456,
+        "maximum": 0.20242108305073303,
+        "median": 0.18444301108539854,
+        "minimum": 0.1282925350284782
+      },
+      "lane_B_status": "UNAVAILABLE_BY_GUARDRAIL"
+    },
+    "curvature_quadrupole_scale16": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.018003733945856693,
+        "maximum": -0.20365101603676952,
+        "median": -0.25255756118546074,
+        "minimum": -0.31618676507730586
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.02446958756092854,
+        "maximum": -0.29792060702487183,
+        "median": -0.32445019123370794,
+        "minimum": -0.3989541241095807
+      },
+      "lane_B_status": "UNAVAILABLE_BY_GUARDRAIL"
+    },
+    "curvature_quadrupole_scale32": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.005255667132367692,
+        "maximum": -0.2971774703975288,
+        "median": -0.33961568906629125,
+        "minimum": -0.3645584506665755
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.006106939591495608,
+        "maximum": -0.34494453840383765,
+        "median": -0.4050691285071442,
+        "minimum": -0.5474277084098597
+      },
+      "lane_B_status": "UNAVAILABLE_BY_GUARDRAIL"
+    },
+    "first_order_energy_quadrupole_scale32": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.02255692237990714,
+        "maximum": -0.2735745305833507,
+        "median": -0.30832090956160535,
+        "minimum": -0.3225494208560319
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.010499533835137964,
+        "maximum": -0.280234388149321,
+        "median": -0.34638459403453775,
+        "minimum": -0.4471686628799891
+      },
+      "lane_B_status": "UNAVAILABLE_BY_GUARDRAIL"
+    },
+    "patch_scale_16_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.004180971553912768,
+        "maximum": 0.13937706854483947,
+        "median": 0.11442353208016481,
+        "minimum": 0.06518059137760648
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.025180907497167088,
+        "maximum": 0.20392883793317615,
+        "median": 0.1763617768471587,
+        "minimum": 0.13684879932852034
+      },
+      "lane_B_status": "UNAVAILABLE_BY_GUARDRAIL"
+    },
+    "second_order_energy_quadrupole_scale32": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.0027235248003105728,
+        "maximum": -0.26256869853532777,
+        "median": -0.29862197195984147,
+        "minimum": -0.30416129717005075
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.033820122715873036,
+        "maximum": -0.24938364193070398,
+        "median": -0.34713715931780753,
+        "minimum": -0.44603648610482477
+      },
+      "lane_B_status": "UNAVAILABLE_BY_GUARDRAIL"
+    }
+  },
+  "external_variant_count": 7,
+  "kde_executions": 0,
+  "lab_id": "PBUF-FOUNDATION-WL-SPIN2-BASIS-TRACE-001",
+  "outcome": "WL_NATIVE_TO_SKY_BASIS_RESOLVED_BENCHMARK_BASIS_UNDECLARED",
+  "propagation_runs": 0,
+  "runtime_seconds": 0.9783439636230469,
+  "spin2_basis_correction_improves_shear": false,
+  "spin2_basis_mismatch_was_primary_decoder_error": false,
+  "structural_sha256": "9639487a2426e89252d55f15fa9992c5ee3f5890fb04e6f685eaa1e8ad2edef4",
+  "target_access_after_freeze": true
+}

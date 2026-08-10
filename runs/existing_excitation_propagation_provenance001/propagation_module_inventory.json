@@ -1,0 +1,1474 @@
+{
+  "count": 192,
+  "modules": [
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.core.pair_transfer_verified"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.core.ray_interface"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.data.frontier_raw_acquisition"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.data.hst_acs_calibration_audit"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject"
+      ],
+      "module": "pbuf.foundation.excitation_loading_coupling_audit"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "arrival",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.foundation.excitation_propagation_provenance"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.foundation.fast_slow_excitation_audit"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "response"
+      ],
+      "module": "pbuf.foundation.trajectory_normalization_audit"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation._observer_deposition_audit"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation._vulkan_g3d_common"
+    },
+    {
+      "families": [
+        "fast",
+        "slow"
+      ],
+      "module": "pbuf.labs.foundation.a8_fast_slow_eigenmode_decomposition_audit001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.baryon_mode_counting_audit001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.baryonic_density_normalization_audit001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.bounded_strain_3d_domain_convergence001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.bounded_strain_3d_neighbor_network001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.bounded_strain_finite_domain_convergence001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.bounded_strain_neighbor_constitutive001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.c_state_bounded_strain_bridge001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.c_state_bridge_domain_convergence001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "slow"
+      ],
+      "module": "pbuf.labs.foundation.clean_current_weak_lensing_benchmark001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.cluster_distance_redshift_closure_audit001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.collective_mass_scaling_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.constitutive_tangent_propagation_coupling001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.current_native_five_cluster_observable_benchmark001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.deformed_medium_geometry_propagation001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.endpoint_interface_role_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "arrival",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.existing_excitation_propagation_provenance001"
+    },
+    {
+      "families": [
+        "propagat",
+        "arrival",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.g3d_angular_higher_moment_sufficiency001"
+    },
+    {
+      "families": [
+        "propagat",
+        "arrival"
+      ],
+      "module": "pbuf.labs.foundation.g3d_angular_moment_decomposition001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.g3d_angular_moment_decomposition001_step0fix"
+    },
+    {
+      "families": [
+        "propagat",
+        "arrival"
+      ],
+      "module": "pbuf.labs.foundation.g3d_angular_received_distribution001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.g3d_displacement_topology001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.g3d_full_received_state001"
+    },
+    {
+      "families": [
+        "propagat",
+        "arrival"
+      ],
+      "module": "pbuf.labs.foundation.g3d_native_angular_detector_image001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.g3d_observer_before_projection001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.g3d_principal_axis_orientation001"
+    },
+    {
+      "families": [
+        "traject"
+      ],
+      "module": "pbuf.labs.foundation.g3d_to_2d_observer_method_sweep001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.g_derivation_omnibus_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.g_free_microscopic_scale_audit001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.homogeneous_medium_state_derivation001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.independent_mass_response_amplitude_audit001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.independent_source_training_wheels_off001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.interface_source_requalification001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.interface_to_interface_survivor_sweep001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.jacobian_observable_consistency001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.known_source_inverse_response_fingerprint001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.loaded_excitation_native_dispersion001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.local_benchmark_native_channel_full_lensing001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.los_consistent_ray_geometry001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.m10_coverage_25pct_science001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.m10_coverage_25pct_science001_correction001"
+    },
+    {
+      "families": [
+        "propagat",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.m10_information_loss_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.m10_local_interface_decomposition_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.mass_loading_excitation_propagation001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.mass_medium_candidate_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.mass_spacetime_response_strength_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.matter_loading_physical_closure001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.medium_dynamics_no_fit_closure001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.metric_strain_map_closure001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.metric_strain_map_closure001_fd_fix"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_accumulated_full_lensing001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_accumulated_full_lensing_local_benchmark001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_channel_full_weak_lensing_five_cluster001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_channel_transfer_closure_sweep001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_field_curvature_dimension_audit001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_forward_transfer_operator_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver"
+      ],
+      "module": "pbuf.labs.foundation.native_full_received_state_information_retention001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.native_full_state_100pct_observer_coverage001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_full_state_100pct_observer_coverage_fix001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow"
+      ],
+      "module": "pbuf.labs.foundation.native_full_state_2d_reconstruction_decoder_sweep001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_length_scale_mapping_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_local_dynamic_response_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_medium_propagation_shape001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_medium_response_accumulation001"
+    },
+    {
+      "families": [
+        "traject",
+        "fast",
+        "slow"
+      ],
+      "module": "pbuf.labs.foundation.native_multichannel_observer_fusion_sweep001"
+    },
+    {
+      "families": [
+        "traject",
+        "fast",
+        "slow",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.native_observable_extraction_method_sweep001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_propagation_interface_amplitude_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_response_fingerprint_match001"
+    },
+    {
+      "families": [
+        "traject",
+        "fast",
+        "slow",
+        "receiver"
+      ],
+      "module": "pbuf.labs.foundation.native_rgb_channel_matrix001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.native_transfer_factor_decomposition_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.observer_bin_boundary_stability001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.observer_deposition_five_cluster_100pct001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.pretensioned_neighbor_medium_response001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.primary_candidate_science_rerun_m10_001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.propagation_coupling_geometry_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.propagation_interface_wide_net_sweep001"
+    },
+    {
+      "families": [
+        "propagat",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.propagation_morphology_localization001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.quantum_engine_amplitude_closure001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.quantum_engine_amplitude_closure001_row_count_fix"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.radial_wave_origin_audit001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.real_candidate_covariance_localization001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.rmax_forbidden_background_closure_audit001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.rmax_retirement_background_reformulation001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.second_review_requalification001"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.spatial_coherence_kernel_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.strength_factorization_physical_bridge001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.verified_numerical_core_foundation001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.verified_numerical_core_foundation001_correction001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast"
+      ],
+      "module": "pbuf.labs.foundation.vulkan_exact_kde_benchmark001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.vulkan_exact_kde_parity001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.vulkan_g3d_100pct_benchmark001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.vulkan_g3d_cpu_parity001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.vulkan_g3d_five_cluster_smoke001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_3d_shear_readout_recovery001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_abell2744_8192_shear_convergence001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "receiver",
+        "arrival",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.wl_arrival_instrument_interaction_contract001"
+    },
+    {
+      "families": [
+        "propagat",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.wl_bundle_transport_geometry001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.wl_channel_component_completion001"
+    },
+    {
+      "families": [
+        "propagat",
+        "fast",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_channel_specific_compatibility001"
+    },
+    {
+      "families": [
+        "propagat",
+        "receiver",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.wl_dual_transport_receiver_decode001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_full_3d_observer_volume001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "receiver",
+        "arrival",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.wl_geometric_optical_interaction001"
+    },
+    {
+      "families": [
+        "receiver"
+      ],
+      "module": "pbuf.labs.foundation.wl_hst_acs_detector_geometry001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.wl_lens_footprint_ray_redistribution001"
+    },
+    {
+      "families": [
+        "propagat",
+        "receiver"
+      ],
+      "module": "pbuf.labs.foundation.wl_multiscale_second_order_transport001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "arrival",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_native_c_wave_redshift_closure001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "arrival",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_native_medium_physical_scale_closure001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "arrival",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_native_relative_source_reconstruction001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_native_relative_source_reconstruction_sweep001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "receiver",
+        "arrival",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_native_spatial_normalization001"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_observer_basis_information_mixing001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "receiver",
+        "arrival",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_optical_interaction_state_completion001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "receiver",
+        "arrival",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.wl_receiver_state_channel_completion001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "receiver",
+        "arrival",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.wl_receiver_to_arrival_event_formation001"
+    },
+    {
+      "families": [
+        "propagat",
+        "receiver"
+      ],
+      "module": "pbuf.labs.foundation.wl_receiver_to_hst_coordinate_bridge001"
+    },
+    {
+      "families": [
+        "propagat",
+        "receiver",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.wl_reconstruction_first_decode001"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.labs.foundation.wl_source_deformation_separation001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "arrival",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_spatial_wave_emergent_time_closure001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "receiver"
+      ],
+      "module": "pbuf.labs.foundation.wl_spin2_basis_trace001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.wl_trajectory_fullstep_audit001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "bundle"
+      ],
+      "module": "pbuf.labs.foundation.wl_trajectory_state_completion001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "arrival",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_zero_mass_energy_momentum_redshift_bridge001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "arrival",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_zero_mass_scalar_local_transport001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "receiver",
+        "arrival",
+        "response"
+      ],
+      "module": "pbuf.labs.foundation.wl_zero_mass_strain_mode_energy_bridge001"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.labs.recovery.pairwise_3d_field_path_recovery001"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow"
+      ],
+      "module": "pbuf.matter.native_excitation_state"
+    },
+    {
+      "families": [
+        "fast",
+        "slow"
+      ],
+      "module": "pbuf.matter.native_loaded_excitation_modes"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.matter.native_loaded_propagation"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.matter.native_mass_loading_state"
+    },
+    {
+      "families": [
+        "fast",
+        "slow"
+      ],
+      "module": "pbuf.models.a8_pair_amplitude"
+    },
+    {
+      "families": [
+        "fast",
+        "slow"
+      ],
+      "module": "pbuf.models.a8_state"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "receiver",
+        "arrival"
+      ],
+      "module": "pbuf.wl.arrival_formation"
+    },
+    {
+      "families": [
+        "receiver",
+        "arrival",
+        "bundle"
+      ],
+      "module": "pbuf.wl.arrival_information"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.backends.__init__"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.backends.cpu"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.backends.vulkan"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.backends.vulkan_runtime"
+    },
+    {
+      "families": [
+        "bundle"
+      ],
+      "module": "pbuf.wl.bundle_transport_geometry"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.config"
+    },
+    {
+      "families": [
+        "bundle"
+      ],
+      "module": "pbuf.wl.dual_transport_field"
+    },
+    {
+      "families": [
+        "propagat",
+        "receiver",
+        "arrival"
+      ],
+      "module": "pbuf.wl.geometric_optics"
+    },
+    {
+      "families": [
+        "bundle"
+      ],
+      "module": "pbuf.wl.hst_acs_geometry"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.wl.hst_acs_reference_closure"
+    },
+    {
+      "families": [
+        "traject",
+        "receiver",
+        "arrival",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.wl.instrument_interaction"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.wl.interface"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.lens_ray_registration"
+    },
+    {
+      "families": [
+        "traject",
+        "fast",
+        "slow",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.wl.medium_dimensional_closure"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.wl.native_propagation_units"
+    },
+    {
+      "families": [
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.wl.native_response"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.wl.native_scale_candidates"
+    },
+    {
+      "families": [
+        "traject",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.wl.native_source_controls"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "bundle"
+      ],
+      "module": "pbuf.wl.native_source_depth"
+    },
+    {
+      "families": [
+        "arrival"
+      ],
+      "module": "pbuf.wl.native_source_reconstruction"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.wl.native_source_reconstruction_metrics"
+    },
+    {
+      "families": [
+        "traject",
+        "receiver",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.wl.native_source_reconstruction_sweep"
+    },
+    {
+      "families": [
+        "propagat",
+        "bundle"
+      ],
+      "module": "pbuf.wl.native_spatial_scale"
+    },
+    {
+      "families": [
+        "traject",
+        "fast",
+        "slow",
+        "response"
+      ],
+      "module": "pbuf.wl.native_spatial_wave_evolution"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.native_strain_mode_transport"
+    },
+    {
+      "families": [
+        "traject"
+      ],
+      "module": "pbuf.wl.native_wave_state"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "fast",
+        "slow",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.wl.native_zero_mass_energy"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.native_zero_mass_scalar"
+    },
+    {
+      "families": [
+        "traject",
+        "fast",
+        "slow",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.wl.native_zero_mass_scalar_transport"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "response"
+      ],
+      "module": "pbuf.wl.native_zero_mass_strain_mode"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.wl.non_lensing_physical_anchors"
+    },
+    {
+      "families": [
+        "response"
+      ],
+      "module": "pbuf.wl.observer_late_projection"
+    },
+    {
+      "families": [
+        "bundle"
+      ],
+      "module": "pbuf.wl.optical_bundle_transport"
+    },
+    {
+      "families": [
+        "receiver",
+        "arrival",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.wl.optical_interaction_state"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.wl.parity"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.wl.pipeline"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.propagation"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.received_state"
+    },
+    {
+      "families": [
+        "traject",
+        "receiver",
+        "arrival"
+      ],
+      "module": "pbuf.wl.receiver_information"
+    },
+    {
+      "families": [
+        "receiver"
+      ],
+      "module": "pbuf.wl.receiver_sky_bridge"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "receiver",
+        "arrival",
+        "bundle"
+      ],
+      "module": "pbuf.wl.receiver_state"
+    },
+    {
+      "families": [
+        "propagat",
+        "receiver",
+        "arrival"
+      ],
+      "module": "pbuf.wl.reverse_transport"
+    },
+    {
+      "families": [
+        "propagat"
+      ],
+      "module": "pbuf.wl.screen"
+    },
+    {
+      "families": [
+        "propagat",
+        "response"
+      ],
+      "module": "pbuf.wl.shear_readout"
+    },
+    {
+      "families": [
+        "receiver"
+      ],
+      "module": "pbuf.wl.spatial_lineage_audit"
+    },
+    {
+      "families": [
+        "propagat",
+        "traject",
+        "bundle",
+        "response"
+      ],
+      "module": "pbuf.wl.trajectory_state"
+    },
+    {
+      "families": [
+        "receiver"
+      ],
+      "module": "pbuf.wl.transport_mesh"
+    },
+    {
+      "families": [
+        "receiver"
+      ],
+      "module": "pbuf.wl.transport_receiver_decode"
+    },
+    {
+      "families": [
+        "receiver"
+      ],
+      "module": "pbuf.wl.transport_reconstruction"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "candidate_count": 20,
+  "guards": {
+    "ARRIVAL_FORMATION_CHANGES": 0,
+    "BOUNDED_STRAIN_LAW_CHANGES": 0,
+    "CAMB_ACCESS": false,
+    "CLASS_ACCESS": false,
+    "CONVENTIONAL_LOOKBACK_TIME_ACCESS": false,
+    "CONVENTIONAL_REDSHIFT_DISTANCE_ACCESS": false,
+    "FAST_SLOW_TRANSFER_CHANGES": 0,
+    "FUNDAMENTAL_TIME_DIMENSION_ASSUMED": false,
+    "HISTORICAL_STRENGTH_0P18_USED": false,
+    "KNOWN_DEPTH_RECONSTRUCTION_CHANGES": 0,
+    "LCDM_ACCESS": false,
+    "MEDIUM_STATIC_RESPONSE_CHANGES": 0,
+    "NATIVE_T0_PRIMITIVE_USED": false,
+    "NATIVE_TIME_COORDINATE_CREATED": false,
+    "PBUF_UNIVERSE_AGE_USED": false,
+    "PLANCK_LENGTH_ASSUMED": false,
+    "PROPAGATION_CHANGES": 0,
+    "RECEIVER_CHANGES": 0,
+    "RMAX_USED": false,
+    "SOLVER_ITERATION_USED_AS_TIME": false,
+    "TRAJECTORY_CHANGES": 0
+  },
+  "hypotheses": [
+    {
+      "attempted": true,
+      "id": "S01",
+      "status": "STRUCTURALLY_VALID"
+    },
+    {
+      "attempted": true,
+      "id": "S02",
+      "status": "STRUCTURALLY_VALID"
+    },
+    {
+      "attempted": true,
+      "id": "S03",
+      "status": "STRUCTURALLY_VALID"
+    },
+    {
+      "attempted": true,
+      "id": "S04",
+      "status": "STRUCTURALLY_VALID"
+    },
+    {
+      "attempted": true,
+      "id": "S05",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S06",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S07",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S08",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S09",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S10",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S11",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S12",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S13",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S14",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S15",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S16",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "S17",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S18",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "S19",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S20",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S21",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "S22",
+      "status": "STRUCTURALLY_VALID"
+    },
+    {
+      "attempted": true,
+      "id": "S23",
+      "status": "STRUCTURALLY_VALID"
+    },
+    {
+      "attempted": true,
+      "id": "S24",
+      "status": "STRUCTURALLY_VALID"
+    },
+    {
+      "attempted": true,
+      "id": "S25",
+      "status": "STRUCTURALLY_VALID"
+    },
+    {
+      "attempted": true,
+      "id": "S26",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "S27",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "S28",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "S29",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "S30",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "S31",
+      "status": "STRUCTURALLY_VALID"
+    },
+    {
+      "attempted": true,
+      "id": "S32",
+      "status": "RELATION_ONLY"
+    }
+  ],
+  "phases": [
+    "Phase A",
+    "Phase B",
+    "Phase C",
+    "Phase D",
+    "Phase E",
+    "Phase F",
+    "Phase G",
+    "Phase H",
+    "Phase I",
+    "Phase J",
+    "Phase K",
+    "Phase L",
+    "Phase M",
+    "Phase N",
+    "Phase O",
+    "Phase P",
+    "Phase Q",
+    "Phase R",
+    "Phase S",
+    "Phase T",
+    "Phase U",
+    "Phase V",
+    "Phase W",
+    "Phase X",
+    "Phase Y",
+    "Phase Z",
+    "Phase AA",
+    "Phase AB"
+  ]
+}

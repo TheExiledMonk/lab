@@ -1,0 +1,546 @@
+BASELINE {"branch": "dev-doc-112-fullscale-vulkan-observer-validation", "head": "b54caa8ec50043cd07fee0b8955372bc1990bd5b"}
+DEV114_BASELINE {"gamma1": {"count": 4096, "coverage_fraction": 1.0, "obs_rms": 0.062160042482900475, "pearson": 0.15963721563216124, "pred_rms": 0.0239242457539334, "rms_ratio_pred_over_obs": 0.38488142540305836, "spearman": 0.09715428188710849}, "gamma2": {"count": 4096, "coverage_fraction": 1.0, "obs_rms": 0.05586397422966777, "pearson": 0.20242108305073303, "pred_rms": 0.018838754008152395, "rms_ratio_pred_over_obs": 0.33722545285988026, "spearman": 0.14387459525184157}, "magnitude_pearson": 0.2187521646685786, "orientation_agreement": 0.08368696562433091}
+DEV114_RESULT_SHA256=49004fee6cc532a27ad3b6c3359403f64fa0359d5c55f15bc6d6422005d3a0c8
+STREAMING_PARITY {"gamma1_max_abs": 3.8143099789778034e-14, "gamma2_max_abs": 1.2016429518091343e-14, "pass": true}
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.046s
+
+OK
+HIGHRES_LAUNCH_GEOMETRY_SHA256=0935d4e1651fb042f250816cbc60042f677a2774656d534e7140ec780ae71c42
+SELECTED_TILE_SIZE=512
+HIGHRES_CONFIG {"backend": "vulkan", "baseline_commit": "b54caa8ec50043cd07fee0b8955372bc1990bd5b", "benchmark_source_fingerprint": "91ab77f732c934a278445dd05162c2ef73fb6acaf45834921f953325aaeea0d3", "candidate": "D_jacobian", "candidate_code_fingerprint": "b72fc5464e1f73ddeeb6b10f152fdddb6cf4df4baab1f6a44b639b82b6490441", "cluster": "Abell2744", "deposition": "tsc_3x3", "launch_fingerprint": "0935d4e1651fb042f250816cbc60042f677a2774656d534e7140ec780ae71c42", "launch_height": 8192, "launch_width": 8192, "observer_shape": [64, 64], "ray_count": 67108864, "streaming_code_fingerprint": "49ffafc1b953528dea6c33e777b4582b66966b5ee27ed2d663336a7f8baa070c", "tile_size": 512}
+LAUNCH_GEOMETRY {"fingerprint": "0935d4e1651fb042f250816cbc60042f677a2774656d534e7140ec780ae71c42", "ordering": "row-major"}
+DISK_PREFLIGHT {"estimated_checkpoint_bytes": 140000000, "free_bytes": 1663135592448, "pass": true, "required_two_x": 280000000}
+VRAM_PREFLIGHT {"gpu": {"api_version": "1.4.354", "compute_queue_family_index": 0, "device_id": 29772, "device_name": "AMD Radeon RX 7900 XTX (RADV NAVI31)", "device_type": "discrete_gpu", "driver_version": "26.1.6", "max_compute_workgroup_invocations": 1024, "max_compute_workgroup_size_x": 1024, "supports_float64": true, "vendor_id": 4098}, "pass": true, "peak_observed": 3668402176, "safety_margin": 22084624384, "single_tile_seconds": 0.049774541999795474, "total": 25753026560, "used_after": 3668402176, "used_before": 3659497472}
+HIGHRES_RUN_AUTHORIZED=true
+PROGRESS basis tile 1 / 256
+PROGRESS basis tile 2 / 256
+PROGRESS basis tile 3 / 256
+PROGRESS basis tile 4 / 256
+PROGRESS basis tile 5 / 256
+PROGRESS basis tile 6 / 256
+PROGRESS basis tile 7 / 256
+PROGRESS basis tile 8 / 256
+PROGRESS basis tile 9 / 256
+PROGRESS basis tile 10 / 256
+PROGRESS basis tile 11 / 256
+PROGRESS basis tile 12 / 256
+PROGRESS basis tile 13 / 256
+PROGRESS basis tile 14 / 256
+PROGRESS basis tile 15 / 256
+PROGRESS basis tile 16 / 256
+PROGRESS basis tile 17 / 256
+PROGRESS basis tile 18 / 256
+PROGRESS basis tile 19 / 256
+PROGRESS basis tile 20 / 256
+PROGRESS basis tile 21 / 256
+PROGRESS basis tile 22 / 256
+PROGRESS basis tile 23 / 256
+PROGRESS basis tile 24 / 256
+PROGRESS basis tile 25 / 256
+PROGRESS basis tile 26 / 256
+PROGRESS basis tile 27 / 256
+PROGRESS basis tile 28 / 256
+PROGRESS basis tile 29 / 256
+PROGRESS basis tile 30 / 256
+PROGRESS basis tile 31 / 256
+PROGRESS basis tile 32 / 256
+PROGRESS basis tile 33 / 256
+PROGRESS basis tile 34 / 256
+PROGRESS basis tile 35 / 256
+PROGRESS basis tile 36 / 256
+PROGRESS basis tile 37 / 256
+PROGRESS basis tile 38 / 256
+PROGRESS basis tile 39 / 256
+PROGRESS basis tile 40 / 256
+PROGRESS basis tile 41 / 256
+PROGRESS basis tile 42 / 256
+PROGRESS basis tile 43 / 256
+PROGRESS basis tile 44 / 256
+PROGRESS basis tile 45 / 256
+PROGRESS basis tile 46 / 256
+PROGRESS basis tile 47 / 256
+PROGRESS basis tile 48 / 256
+PROGRESS basis tile 49 / 256
+PROGRESS basis tile 50 / 256
+PROGRESS basis tile 51 / 256
+PROGRESS basis tile 52 / 256
+PROGRESS basis tile 53 / 256
+PROGRESS basis tile 54 / 256
+PROGRESS basis tile 55 / 256
+PROGRESS basis tile 56 / 256
+PROGRESS basis tile 57 / 256
+PROGRESS basis tile 58 / 256
+PROGRESS basis tile 59 / 256
+PROGRESS basis tile 60 / 256
+PROGRESS basis tile 61 / 256
+PROGRESS basis tile 62 / 256
+PROGRESS basis tile 63 / 256
+PROGRESS basis tile 64 / 256
+PROGRESS basis tile 65 / 256
+PROGRESS basis tile 66 / 256
+PROGRESS basis tile 67 / 256
+PROGRESS basis tile 68 / 256
+PROGRESS basis tile 69 / 256
+PROGRESS basis tile 70 / 256
+PROGRESS basis tile 71 / 256
+PROGRESS basis tile 72 / 256
+PROGRESS basis tile 73 / 256
+PROGRESS basis tile 74 / 256
+PROGRESS basis tile 75 / 256
+PROGRESS basis tile 76 / 256
+PROGRESS basis tile 77 / 256
+PROGRESS basis tile 78 / 256
+PROGRESS basis tile 79 / 256
+PROGRESS basis tile 80 / 256
+PROGRESS basis tile 81 / 256
+PROGRESS basis tile 82 / 256
+PROGRESS basis tile 83 / 256
+PROGRESS basis tile 84 / 256
+PROGRESS basis tile 85 / 256
+PROGRESS basis tile 86 / 256
+PROGRESS basis tile 87 / 256
+PROGRESS basis tile 88 / 256
+PROGRESS basis tile 89 / 256
+PROGRESS basis tile 90 / 256
+PROGRESS basis tile 91 / 256
+PROGRESS basis tile 92 / 256
+PROGRESS basis tile 93 / 256
+PROGRESS basis tile 94 / 256
+PROGRESS basis tile 95 / 256
+PROGRESS basis tile 96 / 256
+PROGRESS basis tile 97 / 256
+PROGRESS basis tile 98 / 256
+PROGRESS basis tile 99 / 256
+PROGRESS basis tile 100 / 256
+PROGRESS basis tile 101 / 256
+PROGRESS basis tile 102 / 256
+PROGRESS basis tile 103 / 256
+PROGRESS basis tile 104 / 256
+PROGRESS basis tile 105 / 256
+PROGRESS basis tile 106 / 256
+PROGRESS basis tile 107 / 256
+PROGRESS basis tile 108 / 256
+PROGRESS basis tile 109 / 256
+PROGRESS basis tile 110 / 256
+PROGRESS basis tile 111 / 256
+PROGRESS basis tile 112 / 256
+PROGRESS basis tile 113 / 256
+PROGRESS basis tile 114 / 256
+PROGRESS basis tile 115 / 256
+PROGRESS basis tile 116 / 256
+PROGRESS basis tile 117 / 256
+PROGRESS basis tile 118 / 256
+PROGRESS basis tile 119 / 256
+PROGRESS basis tile 120 / 256
+PROGRESS basis tile 121 / 256
+PROGRESS basis tile 122 / 256
+PROGRESS basis tile 123 / 256
+PROGRESS basis tile 124 / 256
+PROGRESS basis tile 125 / 256
+PROGRESS basis tile 126 / 256
+PROGRESS basis tile 127 / 256
+PROGRESS basis tile 128 / 256
+PROGRESS basis tile 129 / 256
+PROGRESS basis tile 130 / 256
+PROGRESS basis tile 131 / 256
+PROGRESS basis tile 132 / 256
+PROGRESS basis tile 133 / 256
+PROGRESS basis tile 134 / 256
+PROGRESS basis tile 135 / 256
+PROGRESS basis tile 136 / 256
+PROGRESS basis tile 137 / 256
+PROGRESS basis tile 138 / 256
+PROGRESS basis tile 139 / 256
+PROGRESS basis tile 140 / 256
+PROGRESS basis tile 141 / 256
+PROGRESS basis tile 142 / 256
+PROGRESS basis tile 143 / 256
+PROGRESS basis tile 144 / 256
+PROGRESS basis tile 145 / 256
+PROGRESS basis tile 146 / 256
+PROGRESS basis tile 147 / 256
+PROGRESS basis tile 148 / 256
+PROGRESS basis tile 149 / 256
+PROGRESS basis tile 150 / 256
+PROGRESS basis tile 151 / 256
+PROGRESS basis tile 152 / 256
+PROGRESS basis tile 153 / 256
+PROGRESS basis tile 154 / 256
+PROGRESS basis tile 155 / 256
+PROGRESS basis tile 156 / 256
+PROGRESS basis tile 157 / 256
+PROGRESS basis tile 158 / 256
+PROGRESS basis tile 159 / 256
+PROGRESS basis tile 160 / 256
+PROGRESS basis tile 161 / 256
+PROGRESS basis tile 162 / 256
+PROGRESS basis tile 163 / 256
+PROGRESS basis tile 164 / 256
+PROGRESS basis tile 165 / 256
+PROGRESS basis tile 166 / 256
+PROGRESS basis tile 167 / 256
+PROGRESS basis tile 168 / 256
+PROGRESS basis tile 169 / 256
+PROGRESS basis tile 170 / 256
+PROGRESS basis tile 171 / 256
+PROGRESS basis tile 172 / 256
+PROGRESS basis tile 173 / 256
+PROGRESS basis tile 174 / 256
+PROGRESS basis tile 175 / 256
+PROGRESS basis tile 176 / 256
+PROGRESS basis tile 177 / 256
+PROGRESS basis tile 178 / 256
+PROGRESS basis tile 179 / 256
+PROGRESS basis tile 180 / 256
+PROGRESS basis tile 181 / 256
+PROGRESS basis tile 182 / 256
+PROGRESS basis tile 183 / 256
+PROGRESS basis tile 184 / 256
+PROGRESS basis tile 185 / 256
+PROGRESS basis tile 186 / 256
+PROGRESS basis tile 187 / 256
+PROGRESS basis tile 188 / 256
+PROGRESS basis tile 189 / 256
+PROGRESS basis tile 190 / 256
+PROGRESS basis tile 191 / 256
+PROGRESS basis tile 192 / 256
+PROGRESS basis tile 193 / 256
+PROGRESS basis tile 194 / 256
+PROGRESS basis tile 195 / 256
+PROGRESS basis tile 196 / 256
+PROGRESS basis tile 197 / 256
+PROGRESS basis tile 198 / 256
+PROGRESS basis tile 199 / 256
+PROGRESS basis tile 200 / 256
+PROGRESS basis tile 201 / 256
+PROGRESS basis tile 202 / 256
+PROGRESS basis tile 203 / 256
+PROGRESS basis tile 204 / 256
+PROGRESS basis tile 205 / 256
+PROGRESS basis tile 206 / 256
+PROGRESS basis tile 207 / 256
+PROGRESS basis tile 208 / 256
+PROGRESS basis tile 209 / 256
+PROGRESS basis tile 210 / 256
+PROGRESS basis tile 211 / 256
+PROGRESS basis tile 212 / 256
+PROGRESS basis tile 213 / 256
+PROGRESS basis tile 214 / 256
+PROGRESS basis tile 215 / 256
+PROGRESS basis tile 216 / 256
+PROGRESS basis tile 217 / 256
+PROGRESS basis tile 218 / 256
+PROGRESS basis tile 219 / 256
+PROGRESS basis tile 220 / 256
+PROGRESS basis tile 221 / 256
+PROGRESS basis tile 222 / 256
+PROGRESS basis tile 223 / 256
+PROGRESS basis tile 224 / 256
+PROGRESS basis tile 225 / 256
+PROGRESS basis tile 226 / 256
+PROGRESS basis tile 227 / 256
+PROGRESS basis tile 228 / 256
+PROGRESS basis tile 229 / 256
+PROGRESS basis tile 230 / 256
+PROGRESS basis tile 231 / 256
+PROGRESS basis tile 232 / 256
+PROGRESS basis tile 233 / 256
+PROGRESS basis tile 234 / 256
+PROGRESS basis tile 235 / 256
+PROGRESS basis tile 236 / 256
+PROGRESS basis tile 237 / 256
+PROGRESS basis tile 238 / 256
+PROGRESS basis tile 239 / 256
+PROGRESS basis tile 240 / 256
+PROGRESS basis tile 241 / 256
+PROGRESS basis tile 242 / 256
+PROGRESS basis tile 243 / 256
+PROGRESS basis tile 244 / 256
+PROGRESS basis tile 245 / 256
+PROGRESS basis tile 246 / 256
+PROGRESS basis tile 247 / 256
+PROGRESS basis tile 248 / 256
+PROGRESS basis tile 249 / 256
+PROGRESS basis tile 250 / 256
+PROGRESS basis tile 251 / 256
+PROGRESS basis tile 252 / 256
+PROGRESS basis tile 253 / 256
+PROGRESS basis tile 254 / 256
+PROGRESS basis tile 255 / 256
+PROGRESS basis tile 256 / 256
+PROGRESS tile 1 / 256 rays 262144 / 67108864 0.3906% tile_seconds=0.109 elapsed_seconds=0.160 estimated_remaining_seconds=40.914
+PROGRESS tile 2 / 256 rays 524288 / 67108864 0.7812% tile_seconds=0.109 elapsed_seconds=0.321 estimated_remaining_seconds=40.817
+PROGRESS tile 3 / 256 rays 786432 / 67108864 1.1719% tile_seconds=0.102 elapsed_seconds=0.475 estimated_remaining_seconds=40.075
+PROGRESS tile 4 / 256 rays 1048576 / 67108864 1.5625% tile_seconds=0.101 elapsed_seconds=0.628 estimated_remaining_seconds=39.568
+PROGRESS tile 5 / 256 rays 1310720 / 67108864 1.9531% tile_seconds=0.099 elapsed_seconds=0.780 estimated_remaining_seconds=39.140
+PROGRESS tile 6 / 256 rays 1572864 / 67108864 2.3438% tile_seconds=0.100 elapsed_seconds=0.932 estimated_remaining_seconds=38.816
+PROGRESS tile 7 / 256 rays 1835008 / 67108864 2.7344% tile_seconds=0.104 elapsed_seconds=1.088 estimated_remaining_seconds=38.706
+PROGRESS tile 8 / 256 rays 2097152 / 67108864 3.1250% tile_seconds=0.111 elapsed_seconds=1.256 estimated_remaining_seconds=38.941
+PROGRESS tile 9 / 256 rays 2359296 / 67108864 3.5156% tile_seconds=0.105 elapsed_seconds=1.414 estimated_remaining_seconds=38.801
+PROGRESS tile 10 / 256 rays 2621440 / 67108864 3.9062% tile_seconds=0.113 elapsed_seconds=1.582 estimated_remaining_seconds=38.905
+PROGRESS tile 11 / 256 rays 2883584 / 67108864 4.2969% tile_seconds=0.125 elapsed_seconds=1.761 estimated_remaining_seconds=39.232
+PROGRESS tile 12 / 256 rays 3145728 / 67108864 4.6875% tile_seconds=0.117 elapsed_seconds=1.933 estimated_remaining_seconds=39.300
+PROGRESS tile 13 / 256 rays 3407872 / 67108864 5.0781% tile_seconds=0.116 elapsed_seconds=2.104 estimated_remaining_seconds=39.334
+PROGRESS tile 14 / 256 rays 3670016 / 67108864 5.4688% tile_seconds=0.113 elapsed_seconds=2.272 estimated_remaining_seconds=39.268
+PROGRESS tile 15 / 256 rays 3932160 / 67108864 5.8594% tile_seconds=0.111 elapsed_seconds=2.440 estimated_remaining_seconds=39.198
+PROGRESS tile 16 / 256 rays 4194304 / 67108864 6.2500% tile_seconds=0.113 elapsed_seconds=2.607 estimated_remaining_seconds=39.104
+PROGRESS tile 17 / 256 rays 4456448 / 67108864 6.6406% tile_seconds=0.115 elapsed_seconds=2.779 estimated_remaining_seconds=39.073
+PROGRESS tile 18 / 256 rays 4718592 / 67108864 7.0312% tile_seconds=0.117 elapsed_seconds=2.956 estimated_remaining_seconds=39.089
+PROGRESS tile 19 / 256 rays 4980736 / 67108864 7.4219% tile_seconds=0.120 elapsed_seconds=3.136 estimated_remaining_seconds=39.123
+PROGRESS tile 20 / 256 rays 5242880 / 67108864 7.8125% tile_seconds=0.108 elapsed_seconds=3.298 estimated_remaining_seconds=38.914
+PROGRESS tile 21 / 256 rays 5505024 / 67108864 8.2031% tile_seconds=0.107 elapsed_seconds=3.458 estimated_remaining_seconds=38.699
+PROGRESS tile 22 / 256 rays 5767168 / 67108864 8.5938% tile_seconds=0.109 elapsed_seconds=3.626 estimated_remaining_seconds=38.569
+PROGRESS tile 23 / 256 rays 6029312 / 67108864 8.9844% tile_seconds=0.107 elapsed_seconds=3.787 estimated_remaining_seconds=38.365
+PROGRESS tile 24 / 256 rays 6291456 / 67108864 9.3750% tile_seconds=0.106 elapsed_seconds=3.950 estimated_remaining_seconds=38.182
+PROGRESS tile 25 / 256 rays 6553600 / 67108864 9.7656% tile_seconds=0.104 elapsed_seconds=4.110 estimated_remaining_seconds=37.979
+PROGRESS tile 26 / 256 rays 6815744 / 67108864 10.1562% tile_seconds=0.117 elapsed_seconds=4.285 estimated_remaining_seconds=37.902
+PROGRESS tile 27 / 256 rays 7077888 / 67108864 10.5469% tile_seconds=0.120 elapsed_seconds=4.464 estimated_remaining_seconds=37.861
+PROGRESS tile 28 / 256 rays 7340032 / 67108864 10.9375% tile_seconds=0.120 elapsed_seconds=4.641 estimated_remaining_seconds=37.794
+PROGRESS tile 29 / 256 rays 7602176 / 67108864 11.3281% tile_seconds=0.117 elapsed_seconds=4.815 estimated_remaining_seconds=37.687
+PROGRESS tile 30 / 256 rays 7864320 / 67108864 11.7188% tile_seconds=0.117 elapsed_seconds=4.987 estimated_remaining_seconds=37.566
+PROGRESS tile 31 / 256 rays 8126464 / 67108864 12.1094% tile_seconds=0.118 elapsed_seconds=5.159 estimated_remaining_seconds=37.443
+PROGRESS tile 32 / 256 rays 8388608 / 67108864 12.5000% tile_seconds=0.108 elapsed_seconds=5.321 estimated_remaining_seconds=37.245
+PROGRESS tile 33 / 256 rays 8650752 / 67108864 12.8906% tile_seconds=0.128 elapsed_seconds=5.510 estimated_remaining_seconds=37.235
+PROGRESS tile 34 / 256 rays 8912896 / 67108864 13.2812% tile_seconds=0.128 elapsed_seconds=5.693 estimated_remaining_seconds=37.174
+PROGRESS tile 35 / 256 rays 9175040 / 67108864 13.6719% tile_seconds=0.111 elapsed_seconds=5.859 estimated_remaining_seconds=36.995
+PROGRESS tile 36 / 256 rays 9437184 / 67108864 14.0625% tile_seconds=0.108 elapsed_seconds=6.027 estimated_remaining_seconds=36.832
+PROGRESS tile 37 / 256 rays 9699328 / 67108864 14.4531% tile_seconds=0.121 elapsed_seconds=6.202 estimated_remaining_seconds=36.712
+PROGRESS tile 38 / 256 rays 9961472 / 67108864 14.8438% tile_seconds=0.107 elapsed_seconds=6.364 estimated_remaining_seconds=36.507
+PROGRESS tile 39 / 256 rays 10223616 / 67108864 15.2344% tile_seconds=0.127 elapsed_seconds=6.546 estimated_remaining_seconds=36.422
+PROGRESS tile 40 / 256 rays 10485760 / 67108864 15.6250% tile_seconds=0.109 elapsed_seconds=6.709 estimated_remaining_seconds=36.231
+PROGRESS tile 41 / 256 rays 10747904 / 67108864 16.0156% tile_seconds=0.123 elapsed_seconds=6.889 estimated_remaining_seconds=36.123
+PROGRESS tile 42 / 256 rays 11010048 / 67108864 16.4062% tile_seconds=0.116 elapsed_seconds=7.064 estimated_remaining_seconds=35.995
+PROGRESS tile 43 / 256 rays 11272192 / 67108864 16.7969% tile_seconds=0.122 elapsed_seconds=7.242 estimated_remaining_seconds=35.873
+PROGRESS tile 44 / 256 rays 11534336 / 67108864 17.1875% tile_seconds=0.128 elapsed_seconds=7.429 estimated_remaining_seconds=35.792
+PROGRESS tile 45 / 256 rays 11796480 / 67108864 17.5781% tile_seconds=0.110 elapsed_seconds=7.600 estimated_remaining_seconds=35.634
+PROGRESS tile 46 / 256 rays 12058624 / 67108864 17.9688% tile_seconds=0.126 elapsed_seconds=7.782 estimated_remaining_seconds=35.527
+PROGRESS tile 47 / 256 rays 12320768 / 67108864 18.3594% tile_seconds=0.118 elapsed_seconds=7.957 estimated_remaining_seconds=35.383
+PROGRESS tile 48 / 256 rays 12582912 / 67108864 18.7500% tile_seconds=0.119 elapsed_seconds=8.138 estimated_remaining_seconds=35.265
+PROGRESS tile 49 / 256 rays 12845056 / 67108864 19.1406% tile_seconds=0.125 elapsed_seconds=8.322 estimated_remaining_seconds=35.156
+PROGRESS tile 50 / 256 rays 13107200 / 67108864 19.5312% tile_seconds=0.111 elapsed_seconds=8.488 estimated_remaining_seconds=34.970
+PROGRESS tile 51 / 256 rays 13369344 / 67108864 19.9219% tile_seconds=0.121 elapsed_seconds=8.668 estimated_remaining_seconds=34.842
+PROGRESS tile 52 / 256 rays 13631488 / 67108864 20.3125% tile_seconds=0.112 elapsed_seconds=8.835 estimated_remaining_seconds=34.660
+PROGRESS tile 53 / 256 rays 13893632 / 67108864 20.7031% tile_seconds=0.110 elapsed_seconds=9.005 estimated_remaining_seconds=34.493
+PROGRESS tile 54 / 256 rays 14155776 / 67108864 21.0938% tile_seconds=0.119 elapsed_seconds=9.181 estimated_remaining_seconds=34.345
+PROGRESS tile 55 / 256 rays 14417920 / 67108864 21.4844% tile_seconds=0.106 elapsed_seconds=9.348 estimated_remaining_seconds=34.163
+PROGRESS tile 56 / 256 rays 14680064 / 67108864 21.8750% tile_seconds=0.105 elapsed_seconds=9.509 estimated_remaining_seconds=33.959
+PROGRESS tile 57 / 256 rays 14942208 / 67108864 22.2656% tile_seconds=0.109 elapsed_seconds=9.679 estimated_remaining_seconds=33.790
+PROGRESS tile 58 / 256 rays 15204352 / 67108864 22.6562% tile_seconds=0.125 elapsed_seconds=9.864 estimated_remaining_seconds=33.673
+PROGRESS tile 59 / 256 rays 15466496 / 67108864 23.0469% tile_seconds=0.106 elapsed_seconds=10.026 estimated_remaining_seconds=33.475
+PROGRESS tile 60 / 256 rays 15728640 / 67108864 23.4375% tile_seconds=0.104 elapsed_seconds=10.191 estimated_remaining_seconds=33.290
+PROGRESS tile 61 / 256 rays 15990784 / 67108864 23.8281% tile_seconds=0.122 elapsed_seconds=10.376 estimated_remaining_seconds=33.169
+PROGRESS tile 62 / 256 rays 16252928 / 67108864 24.2188% tile_seconds=0.109 elapsed_seconds=10.541 estimated_remaining_seconds=32.983
+PROGRESS tile 63 / 256 rays 16515072 / 67108864 24.6094% tile_seconds=0.103 elapsed_seconds=10.699 estimated_remaining_seconds=32.776
+PROGRESS tile 64 / 256 rays 16777216 / 67108864 25.0000% tile_seconds=0.100 elapsed_seconds=10.854 estimated_remaining_seconds=32.563
+PROGRESS tile 65 / 256 rays 17039360 / 67108864 25.3906% tile_seconds=0.099 elapsed_seconds=11.010 estimated_remaining_seconds=32.353
+PROGRESS tile 66 / 256 rays 17301504 / 67108864 25.7812% tile_seconds=0.110 elapsed_seconds=11.177 estimated_remaining_seconds=32.175
+PROGRESS tile 67 / 256 rays 17563648 / 67108864 26.1719% tile_seconds=0.111 elapsed_seconds=11.347 estimated_remaining_seconds=32.009
+PROGRESS tile 68 / 256 rays 17825792 / 67108864 26.5625% tile_seconds=0.109 elapsed_seconds=11.513 estimated_remaining_seconds=31.829
+PROGRESS tile 69 / 256 rays 18087936 / 67108864 26.9531% tile_seconds=0.112 elapsed_seconds=11.686 estimated_remaining_seconds=31.671
+PROGRESS tile 70 / 256 rays 18350080 / 67108864 27.3438% tile_seconds=0.113 elapsed_seconds=11.862 estimated_remaining_seconds=31.519
+PROGRESS tile 71 / 256 rays 18612224 / 67108864 27.7344% tile_seconds=0.110 elapsed_seconds=12.027 estimated_remaining_seconds=31.337
+PROGRESS tile 72 / 256 rays 18874368 / 67108864 28.1250% tile_seconds=0.108 elapsed_seconds=12.191 estimated_remaining_seconds=31.154
+PROGRESS tile 73 / 256 rays 19136512 / 67108864 28.5156% tile_seconds=0.115 elapsed_seconds=12.367 estimated_remaining_seconds=31.001
+PROGRESS tile 74 / 256 rays 19398656 / 67108864 28.9062% tile_seconds=0.123 elapsed_seconds=12.549 estimated_remaining_seconds=30.863
+PROGRESS tile 75 / 256 rays 19660800 / 67108864 29.2969% tile_seconds=0.110 elapsed_seconds=12.717 estimated_remaining_seconds=30.690
+PROGRESS tile 76 / 256 rays 19922944 / 67108864 29.6875% tile_seconds=0.122 elapsed_seconds=12.900 estimated_remaining_seconds=30.553
+PROGRESS tile 77 / 256 rays 20185088 / 67108864 30.0781% tile_seconds=0.109 elapsed_seconds=13.069 estimated_remaining_seconds=30.381
+PROGRESS tile 78 / 256 rays 20447232 / 67108864 30.4688% tile_seconds=0.122 elapsed_seconds=13.247 estimated_remaining_seconds=30.231
+PROGRESS tile 79 / 256 rays 20709376 / 67108864 30.8594% tile_seconds=0.121 elapsed_seconds=13.430 estimated_remaining_seconds=30.090
+PROGRESS tile 80 / 256 rays 20971520 / 67108864 31.2500% tile_seconds=0.106 elapsed_seconds=13.598 estimated_remaining_seconds=29.916
+PROGRESS tile 81 / 256 rays 21233664 / 67108864 31.6406% tile_seconds=0.106 elapsed_seconds=13.761 estimated_remaining_seconds=29.730
+PROGRESS tile 82 / 256 rays 21495808 / 67108864 32.0312% tile_seconds=0.106 elapsed_seconds=13.923 estimated_remaining_seconds=29.544
+PROGRESS tile 83 / 256 rays 21757952 / 67108864 32.4219% tile_seconds=0.119 elapsed_seconds=14.099 estimated_remaining_seconds=29.387
+PROGRESS tile 84 / 256 rays 22020096 / 67108864 32.8125% tile_seconds=0.121 elapsed_seconds=14.278 estimated_remaining_seconds=29.235
+PROGRESS tile 85 / 256 rays 22282240 / 67108864 33.2031% tile_seconds=0.107 elapsed_seconds=14.446 estimated_remaining_seconds=29.062
+PROGRESS tile 86 / 256 rays 22544384 / 67108864 33.5938% tile_seconds=0.119 elapsed_seconds=14.622 estimated_remaining_seconds=28.904
+PROGRESS tile 87 / 256 rays 22806528 / 67108864 33.9844% tile_seconds=0.106 elapsed_seconds=14.786 estimated_remaining_seconds=28.722
+PROGRESS tile 88 / 256 rays 23068672 / 67108864 34.3750% tile_seconds=0.120 elapsed_seconds=14.963 estimated_remaining_seconds=28.566
+PROGRESS tile 89 / 256 rays 23330816 / 67108864 34.7656% tile_seconds=0.111 elapsed_seconds=15.131 estimated_remaining_seconds=28.391
+PROGRESS tile 90 / 256 rays 23592960 / 67108864 35.1562% tile_seconds=0.123 elapsed_seconds=15.316 estimated_remaining_seconds=28.249
+PROGRESS tile 91 / 256 rays 23855104 / 67108864 35.5469% tile_seconds=0.120 elapsed_seconds=15.499 estimated_remaining_seconds=28.103
+PROGRESS tile 92 / 256 rays 24117248 / 67108864 35.9375% tile_seconds=0.125 elapsed_seconds=15.683 estimated_remaining_seconds=27.956
+PROGRESS tile 93 / 256 rays 24379392 / 67108864 36.3281% tile_seconds=0.120 elapsed_seconds=15.862 estimated_remaining_seconds=27.801
+PROGRESS tile 94 / 256 rays 24641536 / 67108864 36.7188% tile_seconds=0.110 elapsed_seconds=16.029 estimated_remaining_seconds=27.625
+PROGRESS tile 95 / 256 rays 24903680 / 67108864 37.1094% tile_seconds=0.108 elapsed_seconds=16.196 estimated_remaining_seconds=27.448
+PROGRESS tile 96 / 256 rays 25165824 / 67108864 37.5000% tile_seconds=0.126 elapsed_seconds=16.381 estimated_remaining_seconds=27.302
+PROGRESS tile 97 / 256 rays 25427968 / 67108864 37.8906% tile_seconds=0.109 elapsed_seconds=16.553 estimated_remaining_seconds=27.133
+PROGRESS tile 98 / 256 rays 25690112 / 67108864 38.2812% tile_seconds=0.112 elapsed_seconds=16.722 estimated_remaining_seconds=26.961
+PROGRESS tile 99 / 256 rays 25952256 / 67108864 38.6719% tile_seconds=0.114 elapsed_seconds=16.900 estimated_remaining_seconds=26.800
+PROGRESS tile 100 / 256 rays 26214400 / 67108864 39.0625% tile_seconds=0.112 elapsed_seconds=17.069 estimated_remaining_seconds=26.628
+PROGRESS tile 101 / 256 rays 26476544 / 67108864 39.4531% tile_seconds=0.107 elapsed_seconds=17.239 estimated_remaining_seconds=26.456
+PROGRESS tile 102 / 256 rays 26738688 / 67108864 39.8438% tile_seconds=0.110 elapsed_seconds=17.413 estimated_remaining_seconds=26.291
+PROGRESS tile 103 / 256 rays 27000832 / 67108864 40.2344% tile_seconds=0.113 elapsed_seconds=17.585 estimated_remaining_seconds=26.122
+PROGRESS tile 104 / 256 rays 27262976 / 67108864 40.6250% tile_seconds=0.111 elapsed_seconds=17.754 estimated_remaining_seconds=25.948
+PROGRESS tile 105 / 256 rays 27525120 / 67108864 41.0156% tile_seconds=0.122 elapsed_seconds=17.935 estimated_remaining_seconds=25.792
+PROGRESS tile 106 / 256 rays 27787264 / 67108864 41.4062% tile_seconds=0.109 elapsed_seconds=18.102 estimated_remaining_seconds=25.616
+PROGRESS tile 107 / 256 rays 28049408 / 67108864 41.7969% tile_seconds=0.107 elapsed_seconds=18.268 estimated_remaining_seconds=25.438
+PROGRESS tile 108 / 256 rays 28311552 / 67108864 42.1875% tile_seconds=0.121 elapsed_seconds=18.450 estimated_remaining_seconds=25.284
+PROGRESS tile 109 / 256 rays 28573696 / 67108864 42.5781% tile_seconds=0.105 elapsed_seconds=18.619 estimated_remaining_seconds=25.110
+PROGRESS tile 110 / 256 rays 28835840 / 67108864 42.9688% tile_seconds=0.108 elapsed_seconds=18.791 estimated_remaining_seconds=24.941
+PROGRESS tile 111 / 256 rays 29097984 / 67108864 43.3594% tile_seconds=0.134 elapsed_seconds=18.985 estimated_remaining_seconds=24.801
+PROGRESS tile 112 / 256 rays 29360128 / 67108864 43.7500% tile_seconds=0.103 elapsed_seconds=19.147 estimated_remaining_seconds=24.618
+PROGRESS tile 113 / 256 rays 29622272 / 67108864 44.1406% tile_seconds=0.105 elapsed_seconds=19.310 estimated_remaining_seconds=24.437
+PROGRESS tile 114 / 256 rays 29884416 / 67108864 44.5312% tile_seconds=0.107 elapsed_seconds=19.479 estimated_remaining_seconds=24.264
+PROGRESS tile 115 / 256 rays 30146560 / 67108864 44.9219% tile_seconds=0.107 elapsed_seconds=19.644 estimated_remaining_seconds=24.086
+PROGRESS tile 116 / 256 rays 30408704 / 67108864 45.3125% tile_seconds=0.104 elapsed_seconds=19.813 estimated_remaining_seconds=23.912
+PROGRESS tile 117 / 256 rays 30670848 / 67108864 45.7031% tile_seconds=0.125 elapsed_seconds=20.003 estimated_remaining_seconds=23.764
+PROGRESS tile 118 / 256 rays 30932992 / 67108864 46.0938% tile_seconds=0.109 elapsed_seconds=20.170 estimated_remaining_seconds=23.589
+PROGRESS tile 119 / 256 rays 31195136 / 67108864 46.4844% tile_seconds=0.106 elapsed_seconds=20.335 estimated_remaining_seconds=23.411
+PROGRESS tile 120 / 256 rays 31457280 / 67108864 46.8750% tile_seconds=0.124 elapsed_seconds=20.519 estimated_remaining_seconds=23.255
+PROGRESS tile 121 / 256 rays 31719424 / 67108864 47.2656% tile_seconds=0.123 elapsed_seconds=20.707 estimated_remaining_seconds=23.103
+PROGRESS tile 122 / 256 rays 31981568 / 67108864 47.6562% tile_seconds=0.108 elapsed_seconds=20.875 estimated_remaining_seconds=22.928
+PROGRESS tile 123 / 256 rays 32243712 / 67108864 48.0469% tile_seconds=0.124 elapsed_seconds=21.059 estimated_remaining_seconds=22.771
+PROGRESS tile 124 / 256 rays 32505856 / 67108864 48.4375% tile_seconds=0.109 elapsed_seconds=21.229 estimated_remaining_seconds=22.598
+PROGRESS tile 125 / 256 rays 32768000 / 67108864 48.8281% tile_seconds=0.111 elapsed_seconds=21.399 estimated_remaining_seconds=22.426
+PROGRESS tile 126 / 256 rays 33030144 / 67108864 49.2188% tile_seconds=0.111 elapsed_seconds=21.568 estimated_remaining_seconds=22.253
+PROGRESS tile 127 / 256 rays 33292288 / 67108864 49.6094% tile_seconds=0.106 elapsed_seconds=21.740 estimated_remaining_seconds=22.082
+PROGRESS tile 128 / 256 rays 33554432 / 67108864 50.0000% tile_seconds=0.119 elapsed_seconds=21.918 estimated_remaining_seconds=21.918
+PROGRESS tile 129 / 256 rays 33816576 / 67108864 50.3906% tile_seconds=0.105 elapsed_seconds=22.087 estimated_remaining_seconds=21.744
+PROGRESS tile 130 / 256 rays 34078720 / 67108864 50.7812% tile_seconds=0.122 elapsed_seconds=22.274 estimated_remaining_seconds=21.589
+PROGRESS tile 131 / 256 rays 34340864 / 67108864 51.1719% tile_seconds=0.122 elapsed_seconds=22.456 estimated_remaining_seconds=21.427
+PROGRESS tile 132 / 256 rays 34603008 / 67108864 51.5625% tile_seconds=0.108 elapsed_seconds=22.627 estimated_remaining_seconds=21.256
+PROGRESS tile 133 / 256 rays 34865152 / 67108864 51.9531% tile_seconds=0.108 elapsed_seconds=22.800 estimated_remaining_seconds=21.086
+PROGRESS tile 134 / 256 rays 35127296 / 67108864 52.3438% tile_seconds=0.120 elapsed_seconds=22.981 estimated_remaining_seconds=20.923
+PROGRESS tile 135 / 256 rays 35389440 / 67108864 52.7344% tile_seconds=0.108 elapsed_seconds=23.154 estimated_remaining_seconds=20.753
+PROGRESS tile 136 / 256 rays 35651584 / 67108864 53.1250% tile_seconds=0.106 elapsed_seconds=23.320 estimated_remaining_seconds=20.576
+PROGRESS tile 137 / 256 rays 35913728 / 67108864 53.5156% tile_seconds=0.115 elapsed_seconds=23.498 estimated_remaining_seconds=20.411
+PROGRESS tile 138 / 256 rays 36175872 / 67108864 53.9062% tile_seconds=0.114 elapsed_seconds=23.672 estimated_remaining_seconds=20.242
+PROGRESS tile 139 / 256 rays 36438016 / 67108864 54.2969% tile_seconds=0.111 elapsed_seconds=23.849 estimated_remaining_seconds=20.074
+PROGRESS tile 140 / 256 rays 36700160 / 67108864 54.6875% tile_seconds=0.125 elapsed_seconds=24.035 estimated_remaining_seconds=19.915
+PROGRESS tile 141 / 256 rays 36962304 / 67108864 55.0781% tile_seconds=0.120 elapsed_seconds=24.216 estimated_remaining_seconds=19.751
+PROGRESS tile 142 / 256 rays 37224448 / 67108864 55.4688% tile_seconds=0.109 elapsed_seconds=24.390 estimated_remaining_seconds=19.581
+PROGRESS tile 143 / 256 rays 37486592 / 67108864 55.8594% tile_seconds=0.125 elapsed_seconds=24.582 estimated_remaining_seconds=19.425
+PROGRESS tile 144 / 256 rays 37748736 / 67108864 56.2500% tile_seconds=0.113 elapsed_seconds=24.757 estimated_remaining_seconds=19.256
+PROGRESS tile 145 / 256 rays 38010880 / 67108864 56.6406% tile_seconds=0.117 elapsed_seconds=24.936 estimated_remaining_seconds=19.089
+PROGRESS tile 146 / 256 rays 38273024 / 67108864 57.0312% tile_seconds=0.111 elapsed_seconds=25.107 estimated_remaining_seconds=18.916
+PROGRESS tile 147 / 256 rays 38535168 / 67108864 57.4219% tile_seconds=0.111 elapsed_seconds=25.284 estimated_remaining_seconds=18.748
+PROGRESS tile 148 / 256 rays 38797312 / 67108864 57.8125% tile_seconds=0.125 elapsed_seconds=25.471 estimated_remaining_seconds=18.587
+PROGRESS tile 149 / 256 rays 39059456 / 67108864 58.2031% tile_seconds=0.112 elapsed_seconds=25.643 estimated_remaining_seconds=18.415
+PROGRESS tile 150 / 256 rays 39321600 / 67108864 58.5938% tile_seconds=0.121 elapsed_seconds=25.825 estimated_remaining_seconds=18.250
+PROGRESS tile 151 / 256 rays 39583744 / 67108864 58.9844% tile_seconds=0.107 elapsed_seconds=25.994 estimated_remaining_seconds=18.075
+PROGRESS tile 152 / 256 rays 39845888 / 67108864 59.3750% tile_seconds=0.108 elapsed_seconds=26.169 estimated_remaining_seconds=17.905
+PROGRESS tile 153 / 256 rays 40108032 / 67108864 59.7656% tile_seconds=0.127 elapsed_seconds=26.357 estimated_remaining_seconds=17.744
+PROGRESS tile 154 / 256 rays 40370176 / 67108864 60.1562% tile_seconds=0.109 elapsed_seconds=26.528 estimated_remaining_seconds=17.570
+PROGRESS tile 155 / 256 rays 40632320 / 67108864 60.5469% tile_seconds=0.108 elapsed_seconds=26.698 estimated_remaining_seconds=17.397
+PROGRESS tile 156 / 256 rays 40894464 / 67108864 60.9375% tile_seconds=0.110 elapsed_seconds=26.876 estimated_remaining_seconds=17.228
+PROGRESS tile 157 / 256 rays 41156608 / 67108864 61.3281% tile_seconds=0.120 elapsed_seconds=27.061 estimated_remaining_seconds=17.064
+PROGRESS tile 158 / 256 rays 41418752 / 67108864 61.7188% tile_seconds=0.117 elapsed_seconds=27.241 estimated_remaining_seconds=16.896
+PROGRESS tile 159 / 256 rays 41680896 / 67108864 62.1094% tile_seconds=0.108 elapsed_seconds=27.409 estimated_remaining_seconds=16.721
+PROGRESS tile 160 / 256 rays 41943040 / 67108864 62.5000% tile_seconds=0.106 elapsed_seconds=27.578 estimated_remaining_seconds=16.547
+PROGRESS tile 161 / 256 rays 42205184 / 67108864 62.8906% tile_seconds=0.109 elapsed_seconds=27.748 estimated_remaining_seconds=16.373
+PROGRESS tile 162 / 256 rays 42467328 / 67108864 63.2812% tile_seconds=0.120 elapsed_seconds=27.931 estimated_remaining_seconds=16.207
+PROGRESS tile 163 / 256 rays 42729472 / 67108864 63.6719% tile_seconds=0.124 elapsed_seconds=28.118 estimated_remaining_seconds=16.043
+PROGRESS tile 164 / 256 rays 42991616 / 67108864 64.0625% tile_seconds=0.112 elapsed_seconds=28.299 estimated_remaining_seconds=15.875
+PROGRESS tile 165 / 256 rays 43253760 / 67108864 64.4531% tile_seconds=0.121 elapsed_seconds=28.483 estimated_remaining_seconds=15.709
+PROGRESS tile 166 / 256 rays 43515904 / 67108864 64.8438% tile_seconds=0.126 elapsed_seconds=28.673 estimated_remaining_seconds=15.545
+PROGRESS tile 167 / 256 rays 43778048 / 67108864 65.2344% tile_seconds=0.111 elapsed_seconds=28.845 estimated_remaining_seconds=15.372
+PROGRESS tile 168 / 256 rays 44040192 / 67108864 65.6250% tile_seconds=0.138 elapsed_seconds=29.046 estimated_remaining_seconds=15.214
+PROGRESS tile 169 / 256 rays 44302336 / 67108864 66.0156% tile_seconds=0.113 elapsed_seconds=29.220 estimated_remaining_seconds=15.042
+PROGRESS tile 170 / 256 rays 44564480 / 67108864 66.4062% tile_seconds=0.122 elapsed_seconds=29.404 estimated_remaining_seconds=14.875
+PROGRESS tile 171 / 256 rays 44826624 / 67108864 66.7969% tile_seconds=0.110 elapsed_seconds=29.583 estimated_remaining_seconds=14.705
+PROGRESS tile 172 / 256 rays 45088768 / 67108864 67.1875% tile_seconds=0.106 elapsed_seconds=29.755 estimated_remaining_seconds=14.531
+PROGRESS tile 173 / 256 rays 45350912 / 67108864 67.5781% tile_seconds=0.107 elapsed_seconds=29.927 estimated_remaining_seconds=14.358
+PROGRESS tile 174 / 256 rays 45613056 / 67108864 67.9688% tile_seconds=0.113 elapsed_seconds=30.109 estimated_remaining_seconds=14.189
+PROGRESS tile 175 / 256 rays 45875200 / 67108864 68.3594% tile_seconds=0.108 elapsed_seconds=30.287 estimated_remaining_seconds=14.018
+PROGRESS tile 176 / 256 rays 46137344 / 67108864 68.7500% tile_seconds=0.122 elapsed_seconds=30.471 estimated_remaining_seconds=13.851
+PROGRESS tile 177 / 256 rays 46399488 / 67108864 69.1406% tile_seconds=0.106 elapsed_seconds=30.646 estimated_remaining_seconds=13.678
+PROGRESS tile 178 / 256 rays 46661632 / 67108864 69.5312% tile_seconds=0.124 elapsed_seconds=30.833 estimated_remaining_seconds=13.511
+PROGRESS tile 179 / 256 rays 46923776 / 67108864 69.9219% tile_seconds=0.108 elapsed_seconds=31.008 estimated_remaining_seconds=13.339
+PROGRESS tile 180 / 256 rays 47185920 / 67108864 70.3125% tile_seconds=0.125 elapsed_seconds=31.196 estimated_remaining_seconds=13.171
+PROGRESS tile 181 / 256 rays 47448064 / 67108864 70.7031% tile_seconds=0.112 elapsed_seconds=31.370 estimated_remaining_seconds=12.999
+PROGRESS tile 182 / 256 rays 47710208 / 67108864 71.0938% tile_seconds=0.107 elapsed_seconds=31.540 estimated_remaining_seconds=12.824
+PROGRESS tile 183 / 256 rays 47972352 / 67108864 71.4844% tile_seconds=0.110 elapsed_seconds=31.719 estimated_remaining_seconds=12.653
+PROGRESS tile 184 / 256 rays 48234496 / 67108864 71.8750% tile_seconds=0.120 elapsed_seconds=31.913 estimated_remaining_seconds=12.488
+PROGRESS tile 185 / 256 rays 48496640 / 67108864 72.2656% tile_seconds=0.125 elapsed_seconds=32.111 estimated_remaining_seconds=12.324
+PROGRESS tile 186 / 256 rays 48758784 / 67108864 72.6562% tile_seconds=0.107 elapsed_seconds=32.295 estimated_remaining_seconds=12.154
+PROGRESS tile 187 / 256 rays 49020928 / 67108864 73.0469% tile_seconds=0.111 elapsed_seconds=32.478 estimated_remaining_seconds=11.984
+PROGRESS tile 188 / 256 rays 49283072 / 67108864 73.4375% tile_seconds=0.106 elapsed_seconds=32.657 estimated_remaining_seconds=11.812
+PROGRESS tile 189 / 256 rays 49545216 / 67108864 73.8281% tile_seconds=0.140 elapsed_seconds=32.865 estimated_remaining_seconds=11.651
+PROGRESS tile 190 / 256 rays 49807360 / 67108864 74.2188% tile_seconds=0.110 elapsed_seconds=33.040 estimated_remaining_seconds=11.477
+PROGRESS tile 191 / 256 rays 50069504 / 67108864 74.6094% tile_seconds=0.109 elapsed_seconds=33.214 estimated_remaining_seconds=11.303
+PROGRESS tile 192 / 256 rays 50331648 / 67108864 75.0000% tile_seconds=0.108 elapsed_seconds=33.384 estimated_remaining_seconds=11.128
+PROGRESS tile 193 / 256 rays 50593792 / 67108864 75.3906% tile_seconds=0.108 elapsed_seconds=33.556 estimated_remaining_seconds=10.954
+PROGRESS tile 194 / 256 rays 50855936 / 67108864 75.7812% tile_seconds=0.125 elapsed_seconds=33.746 estimated_remaining_seconds=10.785
+PROGRESS tile 195 / 256 rays 51118080 / 67108864 76.1719% tile_seconds=0.113 elapsed_seconds=33.922 estimated_remaining_seconds=10.611
+PROGRESS tile 196 / 256 rays 51380224 / 67108864 76.5625% tile_seconds=0.106 elapsed_seconds=34.092 estimated_remaining_seconds=10.436
+PROGRESS tile 197 / 256 rays 51642368 / 67108864 76.9531% tile_seconds=0.109 elapsed_seconds=34.265 estimated_remaining_seconds=10.262
+PROGRESS tile 198 / 256 rays 51904512 / 67108864 77.3438% tile_seconds=0.124 elapsed_seconds=34.454 estimated_remaining_seconds=10.093
+PROGRESS tile 199 / 256 rays 52166656 / 67108864 77.7344% tile_seconds=0.108 elapsed_seconds=34.626 estimated_remaining_seconds=9.918
+PROGRESS tile 200 / 256 rays 52428800 / 67108864 78.1250% tile_seconds=0.138 elapsed_seconds=34.829 estimated_remaining_seconds=9.752
+PROGRESS tile 201 / 256 rays 52690944 / 67108864 78.5156% tile_seconds=0.124 elapsed_seconds=35.018 estimated_remaining_seconds=9.582
+PROGRESS tile 202 / 256 rays 52953088 / 67108864 78.9062% tile_seconds=0.113 elapsed_seconds=35.201 estimated_remaining_seconds=9.410
+PROGRESS tile 203 / 256 rays 53215232 / 67108864 79.2969% tile_seconds=0.119 elapsed_seconds=35.384 estimated_remaining_seconds=9.238
+PROGRESS tile 204 / 256 rays 53477376 / 67108864 79.6875% tile_seconds=0.111 elapsed_seconds=35.560 estimated_remaining_seconds=9.064
+PROGRESS tile 205 / 256 rays 53739520 / 67108864 80.0781% tile_seconds=0.112 elapsed_seconds=35.738 estimated_remaining_seconds=8.891
+PROGRESS tile 206 / 256 rays 54001664 / 67108864 80.4688% tile_seconds=0.108 elapsed_seconds=35.917 estimated_remaining_seconds=8.718
+PROGRESS tile 207 / 256 rays 54263808 / 67108864 80.8594% tile_seconds=0.111 elapsed_seconds=36.092 estimated_remaining_seconds=8.543
+PROGRESS tile 208 / 256 rays 54525952 / 67108864 81.2500% tile_seconds=0.103 elapsed_seconds=36.260 estimated_remaining_seconds=8.368
+PROGRESS tile 209 / 256 rays 54788096 / 67108864 81.6406% tile_seconds=0.118 elapsed_seconds=36.448 estimated_remaining_seconds=8.196
+PROGRESS tile 210 / 256 rays 55050240 / 67108864 82.0312% tile_seconds=0.110 elapsed_seconds=36.629 estimated_remaining_seconds=8.024
+PROGRESS tile 211 / 256 rays 55312384 / 67108864 82.4219% tile_seconds=0.109 elapsed_seconds=36.803 estimated_remaining_seconds=7.849
+PROGRESS tile 212 / 256 rays 55574528 / 67108864 82.8125% tile_seconds=0.108 elapsed_seconds=36.978 estimated_remaining_seconds=7.675
+PROGRESS tile 213 / 256 rays 55836672 / 67108864 83.2031% tile_seconds=0.110 elapsed_seconds=37.152 estimated_remaining_seconds=7.500
+PROGRESS tile 214 / 256 rays 56098816 / 67108864 83.5938% tile_seconds=0.121 elapsed_seconds=37.337 estimated_remaining_seconds=7.328
+PROGRESS tile 215 / 256 rays 56360960 / 67108864 83.9844% tile_seconds=0.105 elapsed_seconds=37.512 estimated_remaining_seconds=7.153
+PROGRESS tile 216 / 256 rays 56623104 / 67108864 84.3750% tile_seconds=0.122 elapsed_seconds=37.700 estimated_remaining_seconds=6.981
+PROGRESS tile 217 / 256 rays 56885248 / 67108864 84.7656% tile_seconds=0.107 elapsed_seconds=37.873 estimated_remaining_seconds=6.807
+PROGRESS tile 218 / 256 rays 57147392 / 67108864 85.1562% tile_seconds=0.106 elapsed_seconds=38.044 estimated_remaining_seconds=6.632
+PROGRESS tile 219 / 256 rays 57409536 / 67108864 85.5469% tile_seconds=0.112 elapsed_seconds=38.221 estimated_remaining_seconds=6.457
+PROGRESS tile 220 / 256 rays 57671680 / 67108864 85.9375% tile_seconds=0.121 elapsed_seconds=38.409 estimated_remaining_seconds=6.285
+PROGRESS tile 221 / 256 rays 57933824 / 67108864 86.3281% tile_seconds=0.108 elapsed_seconds=38.582 estimated_remaining_seconds=6.110
+PROGRESS tile 222 / 256 rays 58195968 / 67108864 86.7188% tile_seconds=0.108 elapsed_seconds=38.756 estimated_remaining_seconds=5.936
+PROGRESS tile 223 / 256 rays 58458112 / 67108864 87.1094% tile_seconds=0.110 elapsed_seconds=38.938 estimated_remaining_seconds=5.762
+PROGRESS tile 224 / 256 rays 58720256 / 67108864 87.5000% tile_seconds=0.132 elapsed_seconds=39.142 estimated_remaining_seconds=5.592
+PROGRESS tile 225 / 256 rays 58982400 / 67108864 87.8906% tile_seconds=0.108 elapsed_seconds=39.314 estimated_remaining_seconds=5.417
+PROGRESS tile 226 / 256 rays 59244544 / 67108864 88.2812% tile_seconds=0.112 elapsed_seconds=39.500 estimated_remaining_seconds=5.243
+PROGRESS tile 227 / 256 rays 59506688 / 67108864 88.6719% tile_seconds=0.111 elapsed_seconds=39.675 estimated_remaining_seconds=5.069
+PROGRESS tile 228 / 256 rays 59768832 / 67108864 89.0625% tile_seconds=0.108 elapsed_seconds=39.848 estimated_remaining_seconds=4.894
+PROGRESS tile 229 / 256 rays 60030976 / 67108864 89.4531% tile_seconds=0.106 elapsed_seconds=40.030 estimated_remaining_seconds=4.720
+PROGRESS tile 230 / 256 rays 60293120 / 67108864 89.8438% tile_seconds=0.121 elapsed_seconds=40.223 estimated_remaining_seconds=4.547
+PROGRESS tile 231 / 256 rays 60555264 / 67108864 90.2344% tile_seconds=0.117 elapsed_seconds=40.413 estimated_remaining_seconds=4.374
+PROGRESS tile 232 / 256 rays 60817408 / 67108864 90.6250% tile_seconds=0.112 elapsed_seconds=40.590 estimated_remaining_seconds=4.199
+PROGRESS tile 233 / 256 rays 61079552 / 67108864 91.0156% tile_seconds=0.106 elapsed_seconds=40.764 estimated_remaining_seconds=4.024
+PROGRESS tile 234 / 256 rays 61341696 / 67108864 91.4062% tile_seconds=0.111 elapsed_seconds=40.949 estimated_remaining_seconds=3.850
+PROGRESS tile 235 / 256 rays 61603840 / 67108864 91.7969% tile_seconds=0.120 elapsed_seconds=41.136 estimated_remaining_seconds=3.676
+PROGRESS tile 236 / 256 rays 61865984 / 67108864 92.1875% tile_seconds=0.120 elapsed_seconds=41.329 estimated_remaining_seconds=3.502
+PROGRESS tile 237 / 256 rays 62128128 / 67108864 92.5781% tile_seconds=0.126 elapsed_seconds=41.528 estimated_remaining_seconds=3.329
+PROGRESS tile 238 / 256 rays 62390272 / 67108864 92.9688% tile_seconds=0.108 elapsed_seconds=41.710 estimated_remaining_seconds=3.155
+PROGRESS tile 239 / 256 rays 62652416 / 67108864 93.3594% tile_seconds=0.120 elapsed_seconds=41.903 estimated_remaining_seconds=2.981
+PROGRESS tile 240 / 256 rays 62914560 / 67108864 93.7500% tile_seconds=0.119 elapsed_seconds=42.138 estimated_remaining_seconds=2.809
+PROGRESS tile 241 / 256 rays 63176704 / 67108864 94.1406% tile_seconds=0.101 elapsed_seconds=42.305 estimated_remaining_seconds=2.633
+PROGRESS tile 242 / 256 rays 63438848 / 67108864 94.5312% tile_seconds=0.116 elapsed_seconds=42.487 estimated_remaining_seconds=2.458
+PROGRESS tile 243 / 256 rays 63700992 / 67108864 94.9219% tile_seconds=0.119 elapsed_seconds=42.674 estimated_remaining_seconds=2.283
+PROGRESS tile 244 / 256 rays 63963136 / 67108864 95.3125% tile_seconds=0.118 elapsed_seconds=42.858 estimated_remaining_seconds=2.108
+PROGRESS tile 245 / 256 rays 64225280 / 67108864 95.7031% tile_seconds=0.109 elapsed_seconds=43.040 estimated_remaining_seconds=1.932
+PROGRESS tile 246 / 256 rays 64487424 / 67108864 96.0938% tile_seconds=0.108 elapsed_seconds=43.221 estimated_remaining_seconds=1.757
+PROGRESS tile 247 / 256 rays 64749568 / 67108864 96.4844% tile_seconds=0.124 elapsed_seconds=43.412 estimated_remaining_seconds=1.582
+PROGRESS tile 248 / 256 rays 65011712 / 67108864 96.8750% tile_seconds=0.105 elapsed_seconds=43.590 estimated_remaining_seconds=1.406
+PROGRESS tile 249 / 256 rays 65273856 / 67108864 97.2656% tile_seconds=0.118 elapsed_seconds=43.775 estimated_remaining_seconds=1.231
+PROGRESS tile 250 / 256 rays 65536000 / 67108864 97.6562% tile_seconds=0.107 elapsed_seconds=43.956 estimated_remaining_seconds=1.055
+PROGRESS tile 251 / 256 rays 65798144 / 67108864 98.0469% tile_seconds=0.123 elapsed_seconds=44.146 estimated_remaining_seconds=0.879
+PROGRESS tile 252 / 256 rays 66060288 / 67108864 98.4375% tile_seconds=0.104 elapsed_seconds=44.323 estimated_remaining_seconds=0.704
+PROGRESS tile 253 / 256 rays 66322432 / 67108864 98.8281% tile_seconds=0.124 elapsed_seconds=44.515 estimated_remaining_seconds=0.528
+PROGRESS tile 254 / 256 rays 66584576 / 67108864 99.2188% tile_seconds=0.107 elapsed_seconds=44.695 estimated_remaining_seconds=0.352
+PROGRESS tile 255 / 256 rays 66846720 / 67108864 99.6094% tile_seconds=0.118 elapsed_seconds=44.886 estimated_remaining_seconds=0.176
+PROGRESS tile 256 / 256 rays 67108864 / 67108864 100.0000% tile_seconds=0.116 elapsed_seconds=45.077 estimated_remaining_seconds=0.000
+PRED_GAMMA1_SHA256=c442139bfd324847aac2c3989dbe057e9f61bc48e1095f72ca4dff27a6d774c0
+PRED_GAMMA2_SHA256=9763e863d1ac7f006481f6e16c1d3a69180a2bcc1c7e651c3b69644be52a070e
+HIGHRES_RECEIPT {"rays_processed": 67108864}
+PREDICTION_FINGERPRINTS {"gamma1": "c442139bfd324847aac2c3989dbe057e9f61bc48e1095f72ca4dff27a6d774c0", "gamma2": "9763e863d1ac7f006481f6e16c1d3a69180a2bcc1c7e651c3b69644be52a070e"}
+GAMMA1_COMPARISON {"count": 4096, "coverage_fraction": 1.0, "obs_rms": 0.062160042482900475, "pearson": 0.16641297483337836, "pred_rms": 0.023479801948140557, "rms_ratio_pred_over_obs": 0.37773143341399074, "spearman": 0.10374040967029168}
+GAMMA2_COMPARISON {"count": 4096, "coverage_fraction": 1.0, "obs_rms": 0.05586397422966777, "pearson": 0.1955562417650522, "pred_rms": 0.01872415168364329, "rms_ratio_pred_over_obs": 0.33517399973486717, "spearman": 0.1413137221653743}
+SHEAR_MAGNITUDE_COMPARISON 0.21775252482107063
+ORIENTATION_COMPARISON 0.08693631626557127
+RMS_RECOVERY {"gamma1_pearson": 0.006775759201217119, "gamma1_spearman": 0.006586127783183182, "gamma2_pearson": -0.006864841285680823, "gamma2_spearman": -0.002560873086467269}
+OCCUPANCY {"empty_cells": 0, "maximum": 21260, "mean": 16377.44091796875, "median": 16408.0, "minimum_occupied": 7134, "total_rays": 67108864}
+CURRENT_VS_8192 {"gamma1": {"current_vs_8192_pearson": 0.9883735432532685, "maximum_absolute_difference": 0.031212645818493763, "mean_absolute_difference": 0.002320960063374465, "residual_mae_8192": 0.04877138228119521, "residual_mae_baseline": 0.048907661362790344, "residual_rms_8192": 0.06278027267929222, "residual_rms_baseline": 0.06302946834436475, "rms_difference": 0.00364139182049328}, "gamma2": {"current_vs_8192_pearson": 0.9894938014563213, "maximum_absolute_difference": 0.03400432189547094, "mean_absolute_difference": 0.0016759114869932617, "residual_mae_8192": 0.04333025780444788, "residual_mae_baseline": 0.043324067245685924, "residual_rms_8192": 0.055343533702819726, "residual_rms_baseline": 0.05522011480907374, "rms_difference": 0.0027268607586142077}}
+RESIDUAL_COMPARISON {"gamma1": {"current_vs_8192_pearson": 0.9883735432532685, "maximum_absolute_difference": 0.031212645818493763, "mean_absolute_difference": 0.002320960063374465, "residual_mae_8192": 0.04877138228119521, "residual_mae_baseline": 0.048907661362790344, "residual_rms_8192": 0.06278027267929222, "residual_rms_baseline": 0.06302946834436475, "rms_difference": 0.00364139182049328}, "gamma2": {"current_vs_8192_pearson": 0.9894938014563213, "maximum_absolute_difference": 0.03400432189547094, "mean_absolute_difference": 0.0016759114869932617, "residual_mae_8192": 0.04333025780444788, "residual_mae_baseline": 0.043324067245685924, "residual_rms_8192": 0.055343533702819726, "residual_rms_baseline": 0.05522011480907374, "rms_difference": 0.0027268607586142077}}
+PERFORMANCE {"max_tile_seconds": 0.1396930129994871, "mean_tile_seconds": 0.11370438043792319, "median_tile_seconds": 0.11123261450120481, "min_tile_seconds": 0.09916896499635186, "rays_per_second": 2305487.2555514015, "tile_count": 256, "wall_total": 62.77293488500436}
+EXTRAPOLATED_16384_RUNTIME 251.09173954001744
+CHECKS {"abell2744_only": true, "all_67108864_rays_processed": true, "atomic_checkpointing": true, "bounded_memory_execution": true, "candidate_frozen_D_jacobian": true, "completed_tiles_not_recomputed": true, "deposition_frozen_tsc_3x3": true, "diagnostic_images_written": true, "disk_safety_pass": true, "gamma1_scored": true, "gamma2_scored": true, "launch_8192x8192": true, "no_16384_execution": true, "no_kappa_evaluation": true, "no_kde": true, "observer_grid_frozen_64x64": true, "predictions_frozen_before_target_load": true, "ray_count_exact_67108864": true, "resume_supported": true, "streamed_path_parity_pass": true, "vram_safety_pass": true}
+WL_8192_RECEPTION_DENSITY_SHEAR_NEAR_CONVERGED
+RESULT_JSON
+{"baseline": {"gamma1": {"count": 4096, "coverage_fraction": 1.0, "obs_rms": 0.062160042482900475, "pearson": 0.15963721563216124, "pred_rms": 0.0239242457539334, "rms_ratio_pred_over_obs": 0.38488142540305836, "spearman": 0.09715428188710849}, "gamma2": {"count": 4096, "coverage_fraction": 1.0, "obs_rms": 0.05586397422966777, "pearson": 0.20242108305073303, "pred_rms": 0.018838754008152395, "rms_ratio_pred_over_obs": 0.33722545285988026, "spearman": 0.14387459525184157}, "magnitude_pearson": 0.2187521646685786, "orientation_agreement": 0.08368696562433091}, "checks": {"abell2744_only": true, "all_67108864_rays_processed": true, "atomic_checkpointing": true, "bounded_memory_execution": true, "candidate_frozen_D_jacobian": true, "completed_tiles_not_recomputed": true, "deposition_frozen_tsc_3x3": true, "diagnostic_images_written": true, "disk_safety_pass": true, "gamma1_scored": true, "gamma2_scored": true, "launch_8192x8192": true, "no_16384_execution": true, "no_kappa_evaluation": true, "no_kde": true, "observer_grid_frozen_64x64": true, "predictions_frozen_before_target_load": true, "ray_count_exact_67108864": true, "resume_supported": true, "streamed_path_parity_pass": true, "vram_safety_pass": true}, "current_vs_8192": {"gamma1": {"current_vs_8192_pearson": 0.9883735432532685, "maximum_absolute_difference": 0.031212645818493763, "mean_absolute_difference": 0.002320960063374465, "residual_mae_8192": 0.04877138228119521, "residual_mae_baseline": 0.048907661362790344, "residual_rms_8192": 0.06278027267929222, "residual_rms_baseline": 0.06302946834436475, "rms_difference": 0.00364139182049328}, "gamma2": {"current_vs_8192_pearson": 0.9894938014563213, "maximum_absolute_difference": 0.03400432189547094, "mean_absolute_difference": 0.0016759114869932617, "residual_mae_8192": 0.04333025780444788, "residual_mae_baseline": 0.043324067245685924, "residual_rms_8192": 0.055343533702819726, "residual_rms_baseline": 0.05522011480907374, "rms_difference": 0.0027268607586142077}}, "deltas": {"gamma1_pearson": 0.006775759201217119, "gamma1_spearman": 0.006586127783183182, "gamma2_pearson": -0.006864841285680823, "gamma2_spearman": -0.002560873086467269}, "estimated_16384_seconds_EXTRAPOLATED_NOT_MEASURED": 251.09173954001744, "lab_id": "PBUF-FOUNDATION-WL-ABELL2744-8192-SHEAR-CONVERGENCE-001", "manifest": {"backend": "vulkan", "baseline_commit": "b54caa8ec50043cd07fee0b8955372bc1990bd5b", "benchmark_source_fingerprint": "91ab77f732c934a278445dd05162c2ef73fb6acaf45834921f953325aaeea0d3", "candidate": "D_jacobian", "candidate_code_fingerprint": "b72fc5464e1f73ddeeb6b10f152fdddb6cf4df4baab1f6a44b639b82b6490441", "cluster": "Abell2744", "deposition": "tsc_3x3", "launch_fingerprint": "0935d4e1651fb042f250816cbc60042f677a2774656d534e7140ec780ae71c42", "launch_height": 8192, "launch_width": 8192, "observer_shape": [64, 64], "ray_count": 67108864, "streaming_code_fingerprint": "49ffafc1b953528dea6c33e777b4582b66966b5ee27ed2d663336a7f8baa070c", "tile_size": 512}, "metrics": {"gamma1": {"count": 4096, "coverage_fraction": 1.0, "obs_rms": 0.062160042482900475, "pearson": 0.16641297483337836, "pred_rms": 0.023479801948140557, "rms_ratio_pred_over_obs": 0.37773143341399074, "spearman": 0.10374040967029168}, "gamma2": {"count": 4096, "coverage_fraction": 1.0, "obs_rms": 0.05586397422966777, "pearson": 0.1955562417650522, "pred_rms": 0.01872415168364329, "rms_ratio_pred_over_obs": 0.33517399973486717, "spearman": 0.1413137221653743}, "magnitude_pearson": 0.21775252482107063, "orientation_agreement": 0.08693631626557127}, "occupancy": {"empty_cells": 0, "maximum": 21260, "mean": 16377.44091796875, "median": 16408.0, "minimum_occupied": 7134, "total_rays": 67108864}, "outcome": "WL_8192_RECEPTION_DENSITY_SHEAR_NEAR_CONVERGED", "performance": {"max_tile_seconds": 0.1396930129994871, "mean_tile_seconds": 0.11370438043792319, "median_tile_seconds": 0.11123261450120481, "min_tile_seconds": 0.09916896499635186, "rays_per_second": 2305487.2555514015, "tile_count": 256, "wall_total": 62.77293488500436}, "prediction_fingerprints": {"gamma1": "c442139bfd324847aac2c3989dbe057e9f61bc48e1095f72ca4dff27a6d774c0", "gamma2": "9763e863d1ac7f006481f6e16c1d3a69180a2bcc1c7e651c3b69644be52a070e"}}

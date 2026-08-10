@@ -1,0 +1,20 @@
+Dev125 status: FRONTIER_ABELL2744_RAW_HST_ACQUISITION_ESTABLISHED
+DEV125_SELECTION_SHA256=f9b5633102c525a04cc4674b6d4c5f11c9a1ba98031ca61f1505ebf752b9feb2
+
+Scientific/provenance answers:
+1. Does the Frontier HLSP tree itself contain raw detector exposures? NO
+2. Which files there are processed HLSP controls? hlsp_frontier_hst_acs-60mas_abell2744_f814w_v1.0_drz.fits
+3. How many matching main-field observations? 159
+4. Which HST program IDs supplied them? 11689, 13386, 13459, 13495, 15117, 15936, 16278, NOT_PRESENT
+5. How many distinct detector exposures exist? 116
+6. Does every exposure have _raw.fits? YES
+7. How many have _flt.fits? 116
+8. How many have _flc.fits? 116
+9. Total raw dataset size (bytes)? 3983904000
+10. Parallel-field exposures rejected? 13
+11. Ambiguous observations rejected? 0
+12. Is every raw FITS byte-preserved? YES
+13. Are all SHA256 hashes recorded? YES
+14. Are all archive product URIs recorded? YES
+15. Can acquisition be reproduced from the frozen manifest? YES
+16. Is reconstructed lensing data present in primary science directory? NO

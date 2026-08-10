@@ -1,0 +1,18 @@
+{
+  "constitutive_component": false,
+  "contract": "PBUF_NATIVE_SHARED_STATE_COUPLING_V1",
+  "coupling_origin": "UNRESOLVED",
+  "excitation_changes_loading": false,
+  "frame_transport_component": true,
+  "geometry_component": false,
+  "handedness_response": "NEUTRAL",
+  "joint_invariant": "J01",
+  "loaded_composite_available": false,
+  "loading_changes_excitation": false,
+  "localization_available": false,
+  "new_coupling_coefficient_count": 0,
+  "norm_exchange": "NO_EXCHANGE",
+  "polarization_response": "GEOMETRY_DERIVED",
+  "shared_state_coupling_established": false,
+  "wavelength_response": "NO_WAVELENGTH_SHIFT"
+}

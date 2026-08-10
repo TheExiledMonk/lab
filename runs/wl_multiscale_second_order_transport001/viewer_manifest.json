@@ -1,0 +1,35 @@
+{
+  "channel_groups": [
+    "raw",
+    "first-order",
+    "second-order",
+    "depth",
+    "direction",
+    "curvature",
+    "cross first-second"
+  ],
+  "comparison": {
+    "identical_field": true,
+    "selectors": [
+      "scale A",
+      "scale B"
+    ],
+    "synchronized": true
+  },
+  "display_modes": [
+    "scalar magnitude",
+    "q1",
+    "q2",
+    "spin2 orientation",
+    "local variance",
+    "local rank"
+  ],
+  "mode": "MULTISCALE_TRANSPORT",
+  "scales": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "alpha": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "controls": [
+    {
+      "exact_cancellation": true,
+      "native_log_increment": 0.06,
+      "physical_log_increment": 0.06
+    },
+    {
+      "exact_cancellation": true,
+      "native_log_increment": 0.06,
+      "physical_log_increment": 0.06
+    },
+    {
+      "exact_cancellation": true,
+      "native_log_increment": 0.06,
+      "physical_log_increment": 0.06
+    },
+    {
+      "exact_cancellation": true,
+      "native_log_increment": 0.06,
+      "physical_log_increment": 0.06
+    }
+  ],
+  "native_candidate_established": false,
+  "synthetic_ratio_CV": 0.0
+}

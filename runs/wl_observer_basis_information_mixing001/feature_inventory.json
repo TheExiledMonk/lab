@@ -1,0 +1,130 @@
+{
+  "families": [
+    "displacement",
+    "direction",
+    "cross displacement-direction",
+    "covariance",
+    "Jacobian",
+    "launch-receipt",
+    "depth",
+    "density/occupancy",
+    "other canonical"
+  ],
+  "features": [
+    {
+      "family": "displacement",
+      "name": "delta_u",
+      "spin": "vector / spin-1-like"
+    },
+    {
+      "family": "displacement",
+      "name": "delta_v",
+      "spin": "vector / spin-1-like"
+    },
+    {
+      "family": "depth",
+      "name": "delta_z",
+      "spin": "scalar / spin-0"
+    },
+    {
+      "family": "direction",
+      "name": "received_du",
+      "spin": "vector / spin-1-like"
+    },
+    {
+      "family": "direction",
+      "name": "received_dv",
+      "spin": "vector / spin-1-like"
+    },
+    {
+      "family": "depth",
+      "name": "received_dz",
+      "spin": "scalar / spin-0"
+    },
+    {
+      "family": "displacement",
+      "name": "delta_u2",
+      "spin": "tensor anisotropy / spin-2-like"
+    },
+    {
+      "family": "displacement",
+      "name": "delta_v2",
+      "spin": "tensor anisotropy / spin-2-like"
+    },
+    {
+      "family": "displacement",
+      "name": "delta_uv",
+      "spin": "tensor anisotropy / spin-2-like"
+    },
+    {
+      "family": "direction",
+      "name": "dir_u2",
+      "spin": "tensor anisotropy / spin-2-like"
+    },
+    {
+      "family": "direction",
+      "name": "dir_v2",
+      "spin": "tensor anisotropy / spin-2-like"
+    },
+    {
+      "family": "direction",
+      "name": "dir_uv",
+      "spin": "tensor anisotropy / spin-2-like"
+    },
+    {
+      "family": "cross displacement-direction",
+      "name": "delta_u_dir_u",
+      "spin": "tensor anisotropy / spin-2-like"
+    },
+    {
+      "family": "cross displacement-direction",
+      "name": "delta_v_dir_v",
+      "spin": "tensor anisotropy / spin-2-like"
+    },
+    {
+      "family": "cross displacement-direction",
+      "name": "delta_u_dir_v",
+      "spin": "unclassified"
+    },
+    {
+      "family": "cross displacement-direction",
+      "name": "delta_v_dir_u",
+      "spin": "unclassified"
+    },
+    {
+      "family": "launch-receipt",
+      "name": "radial_transverse_displacement",
+      "spin": "scalar / spin-0"
+    },
+    {
+      "family": "launch-receipt",
+      "name": "tangential_transverse_displacement",
+      "spin": "pseudoscalar / parity-sensitive"
+    },
+    {
+      "family": "density/occupancy",
+      "name": "local_ray_density",
+      "spin": "scalar / spin-0"
+    },
+    {
+      "family": "density/occupancy",
+      "name": "local_occupancy",
+      "spin": "scalar / spin-0"
+    },
+    {
+      "family": "launch-receipt",
+      "name": "launch_receipt_separation",
+      "spin": "scalar / spin-0"
+    },
+    {
+      "family": "depth",
+      "name": "received_depth",
+      "spin": "scalar / spin-0"
+    },
+    {
+      "family": "depth",
+      "name": "depth_change",
+      "spin": "scalar / spin-0"
+    }
+  ]
+}

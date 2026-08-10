@@ -1,0 +1,382 @@
+{
+  "edges": [
+    {
+      "reason": "shared independence class",
+      "source": "S02",
+      "target": "S14"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S03",
+      "target": "S11"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S03",
+      "target": "S15"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S03",
+      "target": "S16"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S04",
+      "target": "S07"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S04",
+      "target": "S08"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S04",
+      "target": "S10"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S05",
+      "target": "S06"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S05",
+      "target": "S27"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S05",
+      "target": "S28"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S05",
+      "target": "S29"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S06",
+      "target": "S27"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S06",
+      "target": "S28"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S06",
+      "target": "S29"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S07",
+      "target": "S08"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S07",
+      "target": "S10"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S08",
+      "target": "S10"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S09",
+      "target": "S22"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S09",
+      "target": "S23"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S09",
+      "target": "S24"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S09",
+      "target": "S25"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S09",
+      "target": "S26"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S11",
+      "target": "S15"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S11",
+      "target": "S16"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S12",
+      "target": "S13"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S15",
+      "target": "S16"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S17",
+      "target": "S18"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S17",
+      "target": "S19"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S18",
+      "target": "S19"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S20",
+      "target": "S21"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S20",
+      "target": "S30"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S21",
+      "target": "S30"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S22",
+      "target": "S23"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S22",
+      "target": "S24"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S22",
+      "target": "S25"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S22",
+      "target": "S26"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S23",
+      "target": "S24"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S23",
+      "target": "S25"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S23",
+      "target": "S26"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S24",
+      "target": "S25"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S24",
+      "target": "S26"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S25",
+      "target": "S26"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S27",
+      "target": "S28"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S27",
+      "target": "S29"
+    },
+    {
+      "reason": "shared independence class",
+      "source": "S28",
+      "target": "S29"
+    }
+  ],
+  "effective_independent_support": 0,
+  "nodes": [
+    {
+      "family": "trajectory curvature",
+      "id": "S01",
+      "independence_class": "TRAJECTORY_LOCAL"
+    },
+    {
+      "family": "integrated direction change",
+      "id": "S02",
+      "independence_class": "TRAJECTORY_INTEGRATED"
+    },
+    {
+      "family": "fast/slow medium spatial-gradient restoration",
+      "id": "S03",
+      "independence_class": "MEDIUM_DYNAMIC"
+    },
+    {
+      "family": "six-neighbor Laplacian spacing restoration",
+      "id": "S04",
+      "independence_class": "MEDIUM_STATIC"
+    },
+    {
+      "family": "physical source-loading / native cell response",
+      "id": "S05",
+      "independence_class": "SOURCE_SIDE"
+    },
+    {
+      "family": "physical mass-volume loading",
+      "id": "S06",
+      "independence_class": "SOURCE_SIDE"
+    },
+    {
+      "family": "source-surface response",
+      "id": "S07",
+      "independence_class": "MEDIUM_STATIC"
+    },
+    {
+      "family": "far-field 1/r response",
+      "id": "S08",
+      "independence_class": "MEDIUM_STATIC"
+    },
+    {
+      "family": "measured-G macroscopic response",
+      "id": "S09",
+      "independence_class": "MACROSCOPIC_ANCHOR"
+    },
+    {
+      "family": "potential-vs-response-gradient joint closure",
+      "id": "S10",
+      "independence_class": "MEDIUM_STATIC"
+    },
+    {
+      "family": "field-gradient vs trajectory-curvature joint closure",
+      "id": "S11",
+      "independence_class": "MEDIUM_DYNAMIC"
+    },
+    {
+      "family": "bundle-Jacobian spatial evolution",
+      "id": "S12",
+      "independence_class": "BUNDLE"
+    },
+    {
+      "family": "bundle-Hessian spatial evolution",
+      "id": "S13",
+      "independence_class": "BUNDLE"
+    },
+    {
+      "family": "path-excess physicalization",
+      "id": "S14",
+      "independence_class": "TRAJECTORY_INTEGRATED"
+    },
+    {
+      "family": "propagation-speed / temporal closure",
+      "id": "S15",
+      "independence_class": "MEDIUM_DYNAMIC"
+    },
+    {
+      "family": "medium-relaxation closure",
+      "id": "S16",
+      "independence_class": "MEDIUM_DYNAMIC"
+    },
+    {
+      "family": "elastic-energy-density closure",
+      "id": "S17",
+      "independence_class": "ENERGY"
+    },
+    {
+      "family": "elastic-gradient-energy closure",
+      "id": "S18",
+      "independence_class": "ENERGY"
+    },
+    {
+      "family": "bounded-strain gradient closure",
+      "id": "S19",
+      "independence_class": "ENERGY"
+    },
+    {
+      "family": "full dimensional-unit restoration",
+      "id": "S20",
+      "independence_class": "DIMENSIONAL"
+    },
+    {
+      "family": "dimensional-rank / Buckingham-Pi identifiability",
+      "id": "S21",
+      "independence_class": "DIMENSIONAL"
+    },
+    {
+      "family": "one-anchor universal-scale closure",
+      "id": "S22",
+      "independence_class": "MACROSCOPIC_ANCHOR"
+    },
+    {
+      "family": "Earth physical anchor",
+      "id": "S23",
+      "independence_class": "MACROSCOPIC_ANCHOR"
+    },
+    {
+      "family": "laboratory physical anchor",
+      "id": "S24",
+      "independence_class": "MACROSCOPIC_ANCHOR"
+    },
+    {
+      "family": "Solar-system physical anchor",
+      "id": "S25",
+      "independence_class": "MACROSCOPIC_ANCHOR"
+    },
+    {
+      "family": "cross-anchor universality",
+      "id": "S26",
+      "independence_class": "MACROSCOPIC_ANCHOR"
+    },
+    {
+      "family": "density-scaling universality",
+      "id": "S27",
+      "independence_class": "SOURCE_SIDE"
+    },
+    {
+      "family": "mass-scaling universality",
+      "id": "S28",
+      "independence_class": "SOURCE_SIDE"
+    },
+    {
+      "family": "radius-scaling universality",
+      "id": "S29",
+      "independence_class": "SOURCE_SIDE"
+    },
+    {
+      "family": "numerical-resolution invariance",
+      "id": "S30",
+      "independence_class": "DIMENSIONAL"
+    }
+  ]
+}

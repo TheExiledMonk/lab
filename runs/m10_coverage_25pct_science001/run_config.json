@@ -1,0 +1,33 @@
+{
+  "lab_id": "PBUF-FOUNDATION-M10-COVERAGE-25PCT-SCIENCE-001",
+  "candidate_id": "PL1_PM1_PS2",
+  "physical_source_representation": "M10_interface_field",
+  "endpoint_role": "conservation_bookkeeping_only",
+  "cluster_ids": [
+    "Abell2744",
+    "MACS0416",
+    "MACS1149",
+    "AbellS1063",
+    "Abell370"
+  ],
+  "nz": 9,
+  "profile": "gaussian",
+  "strength": 0.18,
+  "seed": 12345,
+  "control_nphotons_requested": 20000,
+  "control_expected_jacobian_pixels": 288,
+  "expanded_source_rectangle": [
+    -8.0,
+    0.0,
+    -4.0,
+    4.0
+  ],
+  "expanded_source_area": 64.0,
+  "expanded_grid_side": 267,
+  "expanded_nphotons": 71289,
+  "expanded_target_pixels": 1024,
+  "expanded_target_fraction": 0.25,
+  "density_rule": "scale photon count by source-rectangle area relative to C07",
+  "propagation_step": 0.03,
+  "propagation_steps": 160
+}

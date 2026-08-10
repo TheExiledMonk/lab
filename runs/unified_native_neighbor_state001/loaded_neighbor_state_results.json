@@ -1,0 +1,14 @@
+{
+  "families": [
+    "LOAD00 unloaded",
+    "LOAD01 weak compact",
+    "LOAD02 moderate compact",
+    "LOAD03 strong compact unsaturated",
+    "LOAD04 diffuse",
+    "LOAD05 asymmetric",
+    "LOAD06 two-center",
+    "LOAD07 shell-like",
+    "LOAD08 gradient"
+  ],
+  "loading_changes_frames": true
+}

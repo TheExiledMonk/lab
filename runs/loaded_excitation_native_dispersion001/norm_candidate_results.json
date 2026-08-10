@@ -1,0 +1,70 @@
+{
+  "N01_N09": [
+    {
+      "attempted": true,
+      "id": "N01",
+      "name": "additive",
+      "native_conservation_derivation": false,
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "N02",
+      "name": "quadratic",
+      "native_conservation_derivation": false,
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "N03",
+      "name": "Euclidean/orthogonal",
+      "native_conservation_derivation": false,
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "N04",
+      "name": "bounded constitutive norm",
+      "native_conservation_derivation": false,
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "N05",
+      "name": "conserved pair norm",
+      "native_conservation_derivation": false,
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "N06",
+      "name": "conserved packet norm",
+      "native_conservation_derivation": false,
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "N07",
+      "name": "loading-dependent norm",
+      "native_conservation_derivation": false,
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "N08",
+      "name": "excitation-dependent norm",
+      "native_conservation_derivation": false,
+      "status": "RELATION_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "N09",
+      "name": "no native norm",
+      "native_conservation_derivation": false,
+      "status": "ESTABLISHED"
+    }
+  ],
+  "R11_revisited": "MISSING_EXCITATION_DEFINITION",
+  "R17_revisited": "MISSING_EXCITATION_DEFINITION",
+  "R18_revisited": "MISSING_EXCITATION_DEFINITION"
+}

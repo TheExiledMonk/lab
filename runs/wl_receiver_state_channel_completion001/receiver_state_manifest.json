@@ -1,0 +1,19 @@
+{
+  "array_files": [
+    "receiver_state_primary.npz",
+    "receiver_relational_channels.npz",
+    "receiver_bundle_channels.npz",
+    "receiver_validity_masks.npz"
+  ],
+  "groups": [
+    "ray_identity",
+    "arrival_state",
+    "launch_correspondence",
+    "trajectory_state",
+    "local_receiver_relations",
+    "bundle_relations",
+    "channel_bank",
+    "metadata"
+  ],
+  "ray_count": 285156
+}

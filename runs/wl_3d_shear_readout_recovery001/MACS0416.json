@@ -1,0 +1,1011 @@
+{
+  "candidate_failures": {},
+  "checkpoint": {
+    "backend": "vulkan",
+    "cluster_id": "MACS0416",
+    "launch_geometry_fingerprint": "dec23063cee81dbc5d855803a7dfa5fecb4020051b63333176bab90795973e03",
+    "ray_count": 285156,
+    "received_state_fingerprint": "3655b62c79d6ba9c533410d3d03a53ab0b313bc9568639e7a190dd0baa7f9ebc"
+  },
+  "metrics": {
+    "A_displacement__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03515832219071422,
+        "pred_rms": 4.7476218365782797e-05,
+        "rms_ratio_pred_over_obs": 0.0006743468675889802,
+        "spearman": -0.04774816580769436
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.006427097840915835,
+        "pred_rms": 0.00011680476004897555,
+        "rms_ratio_pred_over_obs": 0.0017214301212211283,
+        "spearman": -0.003606595659284925
+      },
+      "magnitude_pearson": 0.18097316580574244,
+      "orientation_agreement": 0.029815093710911605
+    },
+    "A_displacement__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03757783533212345,
+        "pred_rms": 4.2518678167085594e-05,
+        "rms_ratio_pred_over_obs": 0.0006039305240171139,
+        "spearman": -0.045870225765711765
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.00973451501641255,
+        "pred_rms": 0.00010508198637836705,
+        "rms_ratio_pred_over_obs": 0.0015486637400190086,
+        "spearman": -0.012459442258023992
+      },
+      "magnitude_pearson": 0.18732411281694725,
+      "orientation_agreement": 0.03679457663320448
+    },
+    "A_displacement__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.037807674948324224,
+        "pred_rms": 4.215440144708213e-05,
+        "rms_ratio_pred_over_obs": 0.0005987563784443282,
+        "spearman": -0.04564700792064386
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.010424281162149192,
+        "pred_rms": 0.00010445173396087555,
+        "rms_ratio_pred_over_obs": 0.0015393752872625678,
+        "spearman": -0.013253066344380861
+      },
+      "magnitude_pearson": 0.18792695317659303,
+      "orientation_agreement": 0.037405706943261834
+    },
+    "B_direction__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03567094978421129,
+        "pred_rms": 7.981787219333466e-06,
+        "rms_ratio_pred_over_obs": 0.00011337240821603782,
+        "spearman": -0.049620201433658626
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.00561310336959639,
+        "pred_rms": 1.8950864748166106e-05,
+        "rms_ratio_pred_over_obs": 0.00027929160923752017,
+        "spearman": -0.00588095871679883
+      },
+      "magnitude_pearson": 0.18559327583168475,
+      "orientation_agreement": 0.028051511043404677
+    },
+    "B_direction__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03799130317489806,
+        "pred_rms": 7.151122234179808e-06,
+        "rms_ratio_pred_over_obs": 0.00010157373616430733,
+        "spearman": -0.04860898110021864
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.008567469935163486,
+        "pred_rms": 1.7113811720947094e-05,
+        "rms_ratio_pred_over_obs": 0.0002522177261696614,
+        "spearman": -0.014552434931656479
+      },
+      "magnitude_pearson": 0.19149719176352267,
+      "orientation_agreement": 0.03581906541656773
+    },
+    "B_direction__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.038198637806751735,
+        "pred_rms": 7.095942996528011e-06,
+        "rms_ratio_pred_over_obs": 0.00010078997647688337,
+        "spearman": -0.048678822830180324
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.00920317746387783,
+        "pred_rms": 1.703620979468822e-05,
+        "rms_ratio_pred_over_obs": 0.00025107405451389335,
+        "spearman": -0.015167241857342697
+      },
+      "magnitude_pearson": 0.1919294391675092,
+      "orientation_agreement": 0.03631250419726801
+    },
+    "C_covariance__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.04023201236122963,
+        "pred_rms": 2.903566903671222e-05,
+        "rms_ratio_pred_over_obs": 0.00041241937831697787,
+        "spearman": 0.009923925831898139
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.009646133201153576,
+        "pred_rms": 2.9661866958241985e-05,
+        "rms_ratio_pred_over_obs": 0.0004371468355584308,
+        "spearman": -0.03009327818849845
+      },
+      "magnitude_pearson": 0.19050664192796973,
+      "orientation_agreement": 0.029720864075656706
+    },
+    "C_covariance__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.04456104601306616,
+        "pred_rms": 2.4458184703363036e-05,
+        "rms_ratio_pred_over_obs": 0.00034740130552421325,
+        "spearman": 0.015324783380731675
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.006791382636456006,
+        "pred_rms": 2.73247706662779e-05,
+        "rms_ratio_pred_over_obs": 0.0004027034793844675,
+        "spearman": -0.035752394369913176
+      },
+      "magnitude_pearson": 0.20269209706858274,
+      "orientation_agreement": 0.03181590408109029
+    },
+    "C_covariance__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.04553402363447921,
+        "pred_rms": 2.3498680053936772e-05,
+        "rms_ratio_pred_over_obs": 0.0003337726093674865,
+        "spearman": 0.01563787831630535
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.006628221737477635,
+        "pred_rms": 2.6815382825175362e-05,
+        "rms_ratio_pred_over_obs": 0.0003951962889866614,
+        "spearman": -0.03685037660300523
+      },
+      "magnitude_pearson": 0.20552134551996912,
+      "orientation_agreement": 0.031663129366939824
+    },
+    "D_jacobian__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.1007616418631699,
+        "pred_rms": 0.027178852981284835,
+        "rms_ratio_pred_over_obs": 0.3860453718403199,
+        "spearman": 0.06371412457224003
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.14366731830160914,
+        "pred_rms": 0.018828477127948547,
+        "rms_ratio_pred_over_obs": 0.27748790076006824,
+        "spearman": 0.08107508389862945
+      },
+      "magnitude_pearson": 0.2597191857794435,
+      "orientation_agreement": 0.02647776137401799
+    },
+    "D_jacobian__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.1091007712603352,
+        "pred_rms": 0.02355853001768578,
+        "rms_ratio_pred_over_obs": 0.3346227115232333,
+        "spearman": 0.07558234472752061
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.1560946652859816,
+        "pred_rms": 0.016569669720517752,
+        "rms_ratio_pred_over_obs": 0.24419834040689084,
+        "spearman": 0.09280434397229236
+      },
+      "magnitude_pearson": 0.26348947126563316,
+      "orientation_agreement": 0.03737781626815062
+    },
+    "D_jacobian__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.11135040891279774,
+        "pred_rms": 0.022747630839136338,
+        "rms_ratio_pred_over_obs": 0.32310479076610316,
+        "spearman": 0.07929981169405437
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.15921558648021944,
+        "pred_rms": 0.01605828484740561,
+        "rms_ratio_pred_over_obs": 0.23666171840841255,
+        "spearman": 0.09613729056217767
+      },
+      "magnitude_pearson": 0.26448999407995244,
+      "orientation_agreement": 0.040587106742224995
+    },
+    "E_late_3d_covariance__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": -0.004862173114138454,
+        "pred_rms": 0.00047349992355798676,
+        "rms_ratio_pred_over_obs": 0.006725539675356265,
+        "spearman": -0.009732249447074903
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.004969666015164353,
+        "pred_rms": 0.00024425903559533943,
+        "rms_ratio_pred_over_obs": 0.0035998092978226093,
+        "spearman": -0.013037251553941384
+      },
+      "magnitude_pearson": 0.03638537418783865,
+      "orientation_agreement": 0.02210632491051795
+    },
+    "E_late_3d_covariance__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": -0.006342911383116655,
+        "pred_rms": 0.00039363586521558986,
+        "rms_ratio_pred_over_obs": 0.005591159570327633,
+        "spearman": -0.010462100250454139
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.004473614493352544,
+        "pred_rms": 0.00020745986746636624,
+        "rms_ratio_pred_over_obs": 0.003057475266002897,
+        "spearman": -0.013697443175132287
+      },
+      "magnitude_pearson": 0.03675343813405276,
+      "orientation_agreement": 0.019507121615067905
+    },
+    "E_late_3d_covariance__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": -0.006749311840760667,
+        "pred_rms": 0.00037484161571060007,
+        "rms_ratio_pred_over_obs": 0.005324208163525824,
+        "spearman": -0.010494729660490587
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.004291772807173377,
+        "pred_rms": 0.0001989752184557585,
+        "rms_ratio_pred_over_obs": 0.002932431300596649,
+        "spearman": -0.014261826562708826
+      },
+      "magnitude_pearson": 0.037164944967928895,
+      "orientation_agreement": 0.018703898291398364
+    },
+    "F_late_3d_direction__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03567094978421129,
+        "pred_rms": 7.981787219333466e-06,
+        "rms_ratio_pred_over_obs": 0.00011337240821603782,
+        "spearman": -0.049620201433658626
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.00561310336959639,
+        "pred_rms": 1.8950864748166106e-05,
+        "rms_ratio_pred_over_obs": 0.00027929160923752017,
+        "spearman": -0.00588095871679883
+      },
+      "magnitude_pearson": 0.18559327583168475,
+      "orientation_agreement": 0.028051511043404677
+    },
+    "F_late_3d_direction__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03799130317489806,
+        "pred_rms": 7.151122234179808e-06,
+        "rms_ratio_pred_over_obs": 0.00010157373616430733,
+        "spearman": -0.04860898110021864
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.008567469935163486,
+        "pred_rms": 1.7113811720947094e-05,
+        "rms_ratio_pred_over_obs": 0.0002522177261696614,
+        "spearman": -0.014552434931656479
+      },
+      "magnitude_pearson": 0.19149719176352267,
+      "orientation_agreement": 0.03581906541656773
+    },
+    "F_late_3d_direction__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.038198637806751735,
+        "pred_rms": 7.095942996528011e-06,
+        "rms_ratio_pred_over_obs": 0.00010078997647688337,
+        "spearman": -0.048678822830180324
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.00920317746387783,
+        "pred_rms": 1.703620979468822e-05,
+        "rms_ratio_pred_over_obs": 0.00025107405451389335,
+        "spearman": -0.015167241857342697
+      },
+      "magnitude_pearson": 0.1919294391675092,
+      "orientation_agreement": 0.03631250419726801
+    },
+    "G_launch_receipt__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.1007616418631699,
+        "pred_rms": 0.027178852981284835,
+        "rms_ratio_pred_over_obs": 0.3860453718403199,
+        "spearman": 0.06371412457224003
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.14366731830160914,
+        "pred_rms": 0.018828477127948547,
+        "rms_ratio_pred_over_obs": 0.27748790076006824,
+        "spearman": 0.08107508389862945
+      },
+      "magnitude_pearson": 0.2597191857794435,
+      "orientation_agreement": 0.02647776137401799
+    },
+    "G_launch_receipt__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.1091007712603352,
+        "pred_rms": 0.02355853001768578,
+        "rms_ratio_pred_over_obs": 0.3346227115232333,
+        "spearman": 0.07558234472752061
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.1560946652859816,
+        "pred_rms": 0.016569669720517752,
+        "rms_ratio_pred_over_obs": 0.24419834040689084,
+        "spearman": 0.09280434397229236
+      },
+      "magnitude_pearson": 0.26348947126563316,
+      "orientation_agreement": 0.03737781626815062
+    },
+    "G_launch_receipt__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.11135040891279774,
+        "pred_rms": 0.022747630839136338,
+        "rms_ratio_pred_over_obs": 0.32310479076610316,
+        "spearman": 0.07929981169405437
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.15921558648021944,
+        "pred_rms": 0.01605828484740561,
+        "rms_ratio_pred_over_obs": 0.23666171840841255,
+        "spearman": 0.09613729056217767
+      },
+      "magnitude_pearson": 0.26448999407995244,
+      "orientation_agreement": 0.040587106742224995
+    },
+    "H_neighborhood_deformation__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.1007616418631699,
+        "pred_rms": 0.027178852981284835,
+        "rms_ratio_pred_over_obs": 0.3860453718403199,
+        "spearman": 0.06371412457224003
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.14366731830160914,
+        "pred_rms": 0.018828477127948547,
+        "rms_ratio_pred_over_obs": 0.27748790076006824,
+        "spearman": 0.08107508389862945
+      },
+      "magnitude_pearson": 0.2597191857794435,
+      "orientation_agreement": 0.02647776137401799
+    },
+    "H_neighborhood_deformation__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.1091007712603352,
+        "pred_rms": 0.02355853001768578,
+        "rms_ratio_pred_over_obs": 0.3346227115232333,
+        "spearman": 0.07558234472752061
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.1560946652859816,
+        "pred_rms": 0.016569669720517752,
+        "rms_ratio_pred_over_obs": 0.24419834040689084,
+        "spearman": 0.09280434397229236
+      },
+      "magnitude_pearson": 0.26348947126563316,
+      "orientation_agreement": 0.03737781626815062
+    },
+    "H_neighborhood_deformation__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.11135040891279774,
+        "pred_rms": 0.022747630839136338,
+        "rms_ratio_pred_over_obs": 0.32310479076610316,
+        "spearman": 0.07929981169405437
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.15921558648021944,
+        "pred_rms": 0.01605828484740561,
+        "rms_ratio_pred_over_obs": 0.23666171840841255,
+        "spearman": 0.09613729056217767
+      },
+      "magnitude_pearson": 0.26448999407995244,
+      "orientation_agreement": 0.040587106742224995
+    },
+    "I_density_weighted__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03515832219071422,
+        "pred_rms": 4.7476218365782797e-05,
+        "rms_ratio_pred_over_obs": 0.0006743468675889802,
+        "spearman": -0.04774816580769436
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.006427097840915835,
+        "pred_rms": 0.00011680476004897555,
+        "rms_ratio_pred_over_obs": 0.0017214301212211283,
+        "spearman": -0.003606595659284925
+      },
+      "magnitude_pearson": 0.18097316580574244,
+      "orientation_agreement": 0.029815093710911605
+    },
+    "I_density_weighted__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03757783533212345,
+        "pred_rms": 4.2518678167085594e-05,
+        "rms_ratio_pred_over_obs": 0.0006039305240171139,
+        "spearman": -0.045870225765711765
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.00973451501641255,
+        "pred_rms": 0.00010508198637836705,
+        "rms_ratio_pred_over_obs": 0.0015486637400190086,
+        "spearman": -0.012459442258023992
+      },
+      "magnitude_pearson": 0.18732411281694725,
+      "orientation_agreement": 0.03679457663320448
+    },
+    "I_density_weighted__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.037807674948324224,
+        "pred_rms": 4.215440144708213e-05,
+        "rms_ratio_pred_over_obs": 0.0005987563784443282,
+        "spearman": -0.04564700792064386
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.010424281162149192,
+        "pred_rms": 0.00010445173396087555,
+        "rms_ratio_pred_over_obs": 0.0015393752872625678,
+        "spearman": -0.013253066344380861
+      },
+      "magnitude_pearson": 0.18792695317659303,
+      "orientation_agreement": 0.037405706943261834
+    },
+    "J_kde_weighted__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03137707909559909,
+        "pred_rms": 1.753977899841075e-07,
+        "rms_ratio_pred_over_obs": 2.491330487751296e-06,
+        "spearman": -0.04968201088690614
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.009584194078305831,
+        "pred_rms": 4.4836627395570565e-07,
+        "rms_ratio_pred_over_obs": 6.607874619180004e-06,
+        "spearman": -0.004982550636358547
+      },
+      "magnitude_pearson": 0.1693943505895955,
+      "orientation_agreement": 0.02988207725042804
+    },
+    "J_kde_weighted__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03380718489383329,
+        "pred_rms": 1.5632223579573414e-07,
+        "rms_ratio_pred_over_obs": 2.220383460855732e-06,
+        "spearman": -0.04785861210180198
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.013195781038581425,
+        "pred_rms": 4.0331622686638766e-07,
+        "rms_ratio_pred_over_obs": 5.943941848037237e-06,
+        "spearman": -0.014177620157196752
+      },
+      "magnitude_pearson": 0.17537685989729832,
+      "orientation_agreement": 0.03727365574247268
+    },
+    "J_kde_weighted__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.034108300579902766,
+        "pred_rms": 1.550185171019014e-07,
+        "rms_ratio_pred_over_obs": 2.201865587114614e-06,
+        "spearman": -0.047717172340143464
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.013896693872954271,
+        "pred_rms": 4.0092229853491877e-07,
+        "rms_ratio_pred_over_obs": 5.908660919964552e-06,
+        "spearman": -0.014901261191918602
+      },
+      "magnitude_pearson": 0.1760591329902159,
+      "orientation_agreement": 0.03797232154411198
+    },
+    "K_direction_covariance__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.04960036247842372,
+        "pred_rms": 0.2543188959655349,
+        "rms_ratio_pred_over_obs": 3.6123170034673526,
+        "spearman": -0.004783201655075042
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.0019084733447463282,
+        "pred_rms": 0.43838778555171753,
+        "rms_ratio_pred_over_obs": 6.4608149403135045,
+        "spearman": -0.019834498075817306
+      },
+      "magnitude_pearson": 0.19703017103119774,
+      "orientation_agreement": 0.02904369113480237
+    },
+    "K_direction_covariance__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.054236585035040745,
+        "pred_rms": 0.2184189171753393,
+        "rms_ratio_pred_over_obs": 3.1023977412135744,
+        "spearman": 7.954977776649335e-05
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.0011188617688261278,
+        "pred_rms": 0.40268172185397516,
+        "rms_ratio_pred_over_obs": 5.934590721936086,
+        "spearman": -0.026283549481072355
+      },
+      "magnitude_pearson": 0.20415907155998567,
+      "orientation_agreement": 0.029897235106248282
+    },
+    "K_direction_covariance__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.05527632364139318,
+        "pred_rms": 0.21140144264567523,
+        "rms_ratio_pred_over_obs": 3.002722322017276,
+        "spearman": 0.0004828166752731325
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.0016089667199615792,
+        "pred_rms": 0.3982608653275037,
+        "rms_ratio_pred_over_obs": 5.869437593047555,
+        "spearman": -0.027727556521181394
+      },
+      "magnitude_pearson": 0.20524146064456816,
+      "orientation_agreement": 0.031198734186755867
+    },
+    "K_displacement_covariance__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.048975356988098614,
+        "pred_rms": 0.2555678343363046,
+        "rms_ratio_pred_over_obs": 3.630056783659012,
+        "spearman": -0.004019162710767892
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.0013583100080317044,
+        "pred_rms": 0.44414697003316206,
+        "rms_ratio_pred_over_obs": 6.5456919062511165,
+        "spearman": -0.019696109569620097
+      },
+      "magnitude_pearson": 0.19462084259915674,
+      "orientation_agreement": 0.03172695735283335
+    },
+    "K_displacement_covariance__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.0536565955363554,
+        "pred_rms": 0.21923932702700036,
+        "rms_ratio_pred_over_obs": 3.1140507505022312,
+        "spearman": 0.0003824601197691439
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.0018354645378109867,
+        "pred_rms": 0.407008920161877,
+        "rms_ratio_pred_over_obs": 5.998363546815792,
+        "spearman": -0.02591305314058864
+      },
+      "magnitude_pearson": 0.20190320870233797,
+      "orientation_agreement": 0.03338039767036336
+    },
+    "K_displacement_covariance__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.05470019019509227,
+        "pred_rms": 0.2121078522545614,
+        "rms_ratio_pred_over_obs": 3.0127560846753916,
+        "spearman": 0.000905164793670253
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.002354730143640522,
+        "pred_rms": 0.4022624469121318,
+        "rms_ratio_pred_over_obs": 5.92841158579763,
+        "spearman": -0.02740558102947979
+      },
+      "magnitude_pearson": 0.2030461810567648,
+      "orientation_agreement": 0.03435129946668987
+    },
+    "K_displacement_direction__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03543720336038858,
+        "pred_rms": 0.20279161864951642,
+        "rms_ratio_pred_over_obs": 2.880429350037716,
+        "spearman": -0.04876280808212201
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.006026060182989176,
+        "pred_rms": 0.49033003921407514,
+        "rms_ratio_pred_over_obs": 7.226322784180481,
+        "spearman": -0.004509623683229254
+      },
+      "magnitude_pearson": 0.18329639440485898,
+      "orientation_agreement": 0.029694278171610664
+    },
+    "K_displacement_direction__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03780695882480321,
+        "pred_rms": 0.18165793234664895,
+        "rms_ratio_pred_over_obs": 2.580248845997863,
+        "spearman": -0.04733937304060465
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.00915837089615228,
+        "pred_rms": 0.441957631214298,
+        "rms_ratio_pred_over_obs": 6.51342615109892,
+        "spearman": -0.013691579286466509
+      },
+      "magnitude_pearson": 0.18942514218756804,
+      "orientation_agreement": 0.03686302938475205
+    },
+    "K_displacement_direction__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.03802503284527705,
+        "pred_rms": 0.18018247090732578,
+        "rms_ratio_pred_over_obs": 2.55929155761002,
+        "spearman": -0.047439244315999204
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.009820963963767087,
+        "pred_rms": 0.43963090522706205,
+        "rms_ratio_pred_over_obs": 6.479135629063889,
+        "spearman": -0.014112480124191681
+      },
+      "magnitude_pearson": 0.1899430657416987,
+      "orientation_agreement": 0.03752083996498534
+    },
+    "K_jacobian_covariance__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.08614450483957445,
+        "pred_rms": 0.40633304282193533,
+        "rms_ratio_pred_over_obs": 5.771508853416934,
+        "spearman": 0.052011544772757955
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.10915787951144998,
+        "pred_rms": 0.2557578006878919,
+        "rms_ratio_pred_over_obs": 3.7692743143070935,
+        "spearman": 0.06185346769925216
+      },
+      "magnitude_pearson": 0.1940308872961643,
+      "orientation_agreement": 0.01798548509067422
+    },
+    "K_jacobian_covariance__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.09484843518754744,
+        "pred_rms": 0.34583560979050765,
+        "rms_ratio_pred_over_obs": 4.912210116782085,
+        "spearman": 0.06641882313034106
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.11409143151227003,
+        "pred_rms": 0.22806466965647992,
+        "rms_ratio_pred_over_obs": 3.3611420610632394,
+        "spearman": 0.0682792684575361
+      },
+      "magnitude_pearson": 0.20430843201502902,
+      "orientation_agreement": 0.027577363632721338
+    },
+    "K_jacobian_covariance__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.09698878847142717,
+        "pred_rms": 0.3329730074152626,
+        "rms_ratio_pred_over_obs": 4.729511158875182,
+        "spearman": 0.07039195794856937
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": 0.11567840715667659,
+        "pred_rms": 0.22197834708681427,
+        "rms_ratio_pred_over_obs": 3.2714438416199787,
+        "spearman": 0.07028578833827716
+      },
+      "magnitude_pearson": 0.207557443601117,
+      "orientation_agreement": 0.030573856658766215
+    },
+    "K_late3d_cov_direction__bilinear_cic": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.008680669827373382,
+        "pred_rms": 0.2739338832275732,
+        "rms_ratio_pred_over_obs": 3.8909260770890737,
+        "spearman": -0.009508802936901439
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.00744873040677037,
+        "pred_rms": 0.2721660780123656,
+        "rms_ratio_pred_over_obs": 4.01109410668418,
+        "spearman": -0.01341815993029364
+      },
+      "magnitude_pearson": 0.12464383971125215,
+      "orientation_agreement": 0.01889472805394449
+    },
+    "K_late3d_cov_direction__gaussian_sigma_half_cell": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.009160799650240916,
+        "pred_rms": 0.2297099672076188,
+        "rms_ratio_pred_over_obs": 3.262774546341461,
+        "spearman": -0.010110865757078742
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.009838034290928095,
+        "pred_rms": 0.24244555948584381,
+        "rms_ratio_pred_over_obs": 3.5730828836106228,
+        "spearman": -0.017477587089882392
+      },
+      "magnitude_pearson": 0.13234888833845795,
+      "orientation_agreement": 0.01667793094244585
+    },
+    "K_late3d_cov_direction__tsc_3x3": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07040326076626774,
+        "pearson": 0.009449632862511577,
+        "pred_rms": 0.21991781462134855,
+        "rms_ratio_pred_over_obs": 3.1236879120053143,
+        "spearman": -0.010615623102526499
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.06785332649234575,
+        "pearson": -0.01033001430261284,
+        "pred_rms": 0.23954502394419008,
+        "rms_ratio_pred_over_obs": 3.5303357451636823,
+        "spearman": -0.018520952251996844
+      },
+      "magnitude_pearson": 0.13491241017079844,
+      "orientation_agreement": 0.017369236616729573
+    }
+  },
+  "performance": {
+    "candidate_evaluation_seconds": 7.04544195500057,
+    "kde_seconds": 140.54911650499707,
+    "observational_scoring_seconds": 0.34351569599675713,
+    "primitive_construction_seconds": 0.5465922959992895,
+    "propagation_seconds": 1.0359344620010233,
+    "receipt_seconds": 0.00490039699798217,
+    "total_seconds": 149.88307710699883
+  }
+}

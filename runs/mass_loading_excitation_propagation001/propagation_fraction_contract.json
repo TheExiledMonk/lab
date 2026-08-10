@@ -1,0 +1,13 @@
+{
+  "SI_velocity_created": false,
+  "definition": "fraction of maximum available medium propagation/change rate",
+  "loaded_beta_law": "UNRESOLVED",
+  "range": [
+    0,
+    1
+  ],
+  "super_c_allowed": false,
+  "symbol": "beta_PBUF",
+  "time_required": false,
+  "zero_loading_beta": 1
+}

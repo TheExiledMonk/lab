@@ -1,0 +1,28 @@
+{
+  "affine": {
+    "max_error": 4.440892098500626e-16,
+    "status": "UNIQUE_INVERSE"
+  },
+  "anisotropic": {
+    "max_error": 0.0,
+    "status": "UNIQUE_INVERSE"
+  },
+  "folded": {
+    "status": "MULTIPLE_LAUNCH_CANDIDATES"
+  },
+  "identity": {
+    "max_error": 0.0,
+    "status": "UNIQUE_INVERSE"
+  },
+  "rotation": {
+    "max_error": 0.0,
+    "status": "UNIQUE_INVERSE"
+  },
+  "singular": {
+    "status": "NON_UNIQUE_INVERSE"
+  },
+  "translation": {
+    "max_error": 0.0,
+    "status": "UNIQUE_INVERSE"
+  }
+}

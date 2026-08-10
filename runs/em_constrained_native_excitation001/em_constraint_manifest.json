@@ -1,0 +1,100 @@
+{
+  "EM01_EM16": [
+    {
+      "attempted": true,
+      "constraint": "source-free propagation",
+      "id": "EM01",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "common zero-mass c",
+      "id": "EM02",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "two transverse physical modes",
+      "id": "EM03",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "no required longitudinal vacuum mode",
+      "id": "EM04",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "coupled two-component observable structure",
+      "id": "EM05",
+      "passes": false
+    },
+    {
+      "attempted": true,
+      "constraint": "weak superposition",
+      "id": "EM06",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "polarity/sign reversal",
+      "id": "EM07",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "orientation/polarization",
+      "id": "EM08",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "finite carried excitation magnitude",
+      "id": "EM09",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "propagation without substrate translation",
+      "id": "EM10",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "local energy transport",
+      "id": "EM11",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "momentum/direction transport",
+      "id": "EM12",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "static distinct from traveling",
+      "id": "EM13",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "source-removal persistence",
+      "id": "EM14",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "reversible vacuum propagation",
+      "id": "EM15",
+      "passes": true
+    },
+    {
+      "attempted": true,
+      "constraint": "no vacuum dissipation",
+      "id": "EM16",
+      "passes": true
+    }
+  ]
+}

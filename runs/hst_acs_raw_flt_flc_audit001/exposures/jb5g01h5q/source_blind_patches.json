@@ -1,0 +1,108 @@
+{
+  "1": {
+    "128": {
+      "median_metrics": [
+        0.03130134589719091,
+        3082.7736139149383,
+        3203.961324740636,
+        4065.665045543139,
+        0.9996307659216458
+      ],
+      "metric_order": [
+        "mean_change",
+        "variance_change",
+        "gradient_energy_change",
+        "curvature_energy_change",
+        "cross_correlation"
+      ],
+      "patch_count": 512
+    },
+    "32": {
+      "median_metrics": [
+        0.026224982924759388,
+        1202.8184041993527,
+        1364.5675711285485,
+        1813.5011261667032,
+        0.9990347556169965
+      ],
+      "metric_order": [
+        "mean_change",
+        "variance_change",
+        "gradient_energy_change",
+        "curvature_energy_change",
+        "cross_correlation"
+      ],
+      "patch_count": 8192
+    },
+    "64": {
+      "median_metrics": [
+        0.03019060625229031,
+        2214.6914569932487,
+        2349.937861968092,
+        3034.2956010749012,
+        0.9994656500174086
+      ],
+      "metric_order": [
+        "mean_change",
+        "variance_change",
+        "gradient_energy_change",
+        "curvature_energy_change",
+        "cross_correlation"
+      ],
+      "patch_count": 2048
+    }
+  },
+  "2": {
+    "128": {
+      "median_metrics": [
+        0.03372881641553249,
+        3366.673475921418,
+        3540.514083637381,
+        4486.887327379814,
+        0.9995415967673553
+      ],
+      "metric_order": [
+        "mean_change",
+        "variance_change",
+        "gradient_energy_change",
+        "curvature_energy_change",
+        "cross_correlation"
+      ],
+      "patch_count": 512
+    },
+    "32": {
+      "median_metrics": [
+        0.02653605816885829,
+        1308.902954576176,
+        1498.143778489487,
+        1987.585718703972,
+        0.999006337922829
+      ],
+      "metric_order": [
+        "mean_change",
+        "variance_change",
+        "gradient_energy_change",
+        "curvature_energy_change",
+        "cross_correlation"
+      ],
+      "patch_count": 8192
+    },
+    "64": {
+      "median_metrics": [
+        0.03247119591105729,
+        2314.88784074101,
+        2514.323570305318,
+        3221.003057556625,
+        0.9993925468938003
+      ],
+      "metric_order": [
+        "mean_change",
+        "variance_change",
+        "gradient_energy_change",
+        "curvature_energy_change",
+        "cross_correlation"
+      ],
+      "patch_count": 2048
+    }
+  }
+}

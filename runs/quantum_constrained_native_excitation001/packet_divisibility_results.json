@@ -1,0 +1,27 @@
+{
+  "arbitrary_fractional_packets_allowed": true,
+  "classification": "ARBITRARILY_CONTINUOUS",
+  "fractions": [
+    {
+      "measured_norm_fraction": 0.5,
+      "requested_norm_fraction": 0.5,
+      "structure_preserved": true
+    },
+    {
+      "measured_norm_fraction": 0.3333333333333333,
+      "requested_norm_fraction": 0.3333333333333333,
+      "structure_preserved": true
+    },
+    {
+      "measured_norm_fraction": 0.25,
+      "requested_norm_fraction": 0.25,
+      "structure_preserved": true
+    },
+    {
+      "measured_norm_fraction": 0.13699999999999998,
+      "requested_norm_fraction": 0.137,
+      "structure_preserved": true
+    }
+  ],
+  "quantization_established": false
+}

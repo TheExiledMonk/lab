@@ -1,0 +1,14 @@
+{
+  "lab_id": "PBUF-FOUNDATION-INTERFACE-SOURCE-REQUALIFICATION-001",
+  "outcome": "Outcome A \u2014 INTERFACE-SOURCE CORE REQUALIFIED",
+  "head_sha": "7139c0385e041194f611c94b2ae4fb3c35f7f5dd",
+  "physical_source_representation": "M10_interface_field",
+  "endpoint_role": "conservation_bookkeeping_only",
+  "R2_real_cluster_interface_ray_pass": true,
+  "R3_interface_and_native_z_los_covariance_pass": true,
+  "covariance_tolerance": 1e-08,
+  "second_review_status": "accepted",
+  "full_candidate_rerun_allowed": true,
+  "next_permitted_experiment": "PBUF 3D PAIRWISE PRIMARY-CANDIDATE SCIENCE RE-RUN 001 \u2014 M10 INTERFACE SOURCE",
+  "duration_seconds": 6.562868145992979
+}

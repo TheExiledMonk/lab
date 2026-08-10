@@ -1,0 +1,280 @@
+{
+  "R0": {
+    "T0_degeneracy_classification": "ONTOLOGY_ARTIFACT_REMOVED",
+    "apparent_old_degeneracy_ontological": true,
+    "corrected_nullity": 3,
+    "corrected_rank": 1,
+    "corrected_unknown_count": 4,
+    "old_nullity": 5,
+    "old_rank": 1,
+    "old_unknown_count": 6,
+    "remaining_degeneracies": [
+      "L0^1 * U0^1",
+      "L0^1 * K0_phys^1",
+      "L0^-1 * S0^1"
+    ],
+    "removed_equations": [],
+    "removed_unknowns": [
+      "T0",
+      "M0"
+    ]
+  },
+  "R1": {
+    "L0_identifiability": "NON_IDENTIFIABLE_FROM_CURRENT_PHYSICS",
+    "base_dimensions": [
+      "M",
+      "L"
+    ],
+    "independent_dimensional_equations_count": 1,
+    "matrix_rank": 1,
+    "native_time_dimension": false,
+    "nullity": 3,
+    "nullspace_basis": [
+      [
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "remaining_free_combinations": [
+      "L0^1 * U0^1",
+      "L0^1 * K0_phys^1",
+      "L0^-1 * S0^1"
+    ],
+    "unknown_unit_scales_count": 4,
+    "unknowns": [
+      "L0",
+      "U0",
+      "K0_phys",
+      "S0"
+    ]
+  },
+  "R2": {
+    "L0_identifiability": "NON_IDENTIFIABLE_FROM_CURRENT_PHYSICS",
+    "base_dimensions": [
+      "M",
+      "L"
+    ],
+    "independent_dimensional_equations_count": 1,
+    "matrix_rank": 1,
+    "native_time_dimension": false,
+    "nullity": 3,
+    "nullspace_basis": [
+      [
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "remaining_free_combinations": [
+      "L0^1 * U0^1",
+      "L0^1 * K0_phys^1",
+      "L0^-1 * S0^1"
+    ],
+    "unknown_unit_scales_count": 4,
+    "unknowns": [
+      "L0",
+      "U0",
+      "K0_phys",
+      "S0"
+    ]
+  },
+  "R3": {
+    "L0_identifiability": "NON_IDENTIFIABLE_FROM_CURRENT_PHYSICS",
+    "base_dimensions": [
+      "M",
+      "L"
+    ],
+    "independent_dimensional_equations_count": 1,
+    "matrix_rank": 1,
+    "native_time_dimension": false,
+    "nullity": 3,
+    "nullspace_basis": [
+      [
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "remaining_free_combinations": [
+      "L0^1 * U0^1",
+      "L0^1 * K0_phys^1",
+      "L0^-1 * S0^1"
+    ],
+    "unknown_unit_scales_count": 4,
+    "unknowns": [
+      "L0",
+      "U0",
+      "K0_phys",
+      "S0"
+    ]
+  },
+  "R4": {
+    "L0_identifiability": "NON_IDENTIFIABLE_FROM_CURRENT_PHYSICS",
+    "base_dimensions": [
+      "M",
+      "L"
+    ],
+    "independent_dimensional_equations_count": 1,
+    "matrix_rank": 1,
+    "native_time_dimension": false,
+    "nullity": 3,
+    "nullspace_basis": [
+      [
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "remaining_free_combinations": [
+      "L0^1 * U0^1",
+      "L0^1 * K0_phys^1",
+      "L0^-1 * S0^1"
+    ],
+    "unknown_unit_scales_count": 4,
+    "unknowns": [
+      "L0",
+      "U0",
+      "K0_phys",
+      "S0"
+    ]
+  },
+  "R5": {
+    "L0_identifiability": "NON_IDENTIFIABLE_FROM_CURRENT_PHYSICS",
+    "base_dimensions": [
+      "M",
+      "L"
+    ],
+    "independent_dimensional_equations_count": 1,
+    "matrix_rank": 1,
+    "native_time_dimension": false,
+    "nullity": 3,
+    "nullspace_basis": [
+      [
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "remaining_free_combinations": [
+      "L0^1 * U0^1",
+      "L0^1 * K0_phys^1",
+      "L0^-1 * S0^1"
+    ],
+    "unknown_unit_scales_count": 4,
+    "unknowns": [
+      "L0",
+      "U0",
+      "K0_phys",
+      "S0"
+    ]
+  },
+  "R6": {
+    "L0_identifiability": "NON_IDENTIFIABLE_FROM_CURRENT_PHYSICS",
+    "base_dimensions": [
+      "M",
+      "L"
+    ],
+    "independent_dimensional_equations_count": 1,
+    "matrix_rank": 1,
+    "native_time_dimension": false,
+    "nullity": 3,
+    "nullspace_basis": [
+      [
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "remaining_free_combinations": [
+      "L0^1 * U0^1",
+      "L0^1 * K0_phys^1",
+      "L0^-1 * S0^1"
+    ],
+    "unknown_unit_scales_count": 4,
+    "unknowns": [
+      "L0",
+      "U0",
+      "K0_phys",
+      "S0"
+    ]
+  }
+}

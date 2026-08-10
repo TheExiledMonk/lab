@@ -1,0 +1,47 @@
+{
+  "contract_sha256": "cbdb6d67989b1dd6c53fd004a26b4ca8d455990d608094c79d17a85fc4369e94",
+  "dataset_identity": "/home/fabian/pbuf-test/PBUF_raw_benchmark/WLRAW-001_Abell2744",
+  "dev133": {
+    "contract_sha256": "5ab9f1e490154ebb90bc3a5431e2c406331274508d96a8983577044ee1006ddd",
+    "optical_system_sha256": "0a4afbdc18259113b69e8e2a82cfcfb03a65c6d4dec488e9efa18c7c60ec4cff",
+    "structural_sha256": "580249b502680478d80a16bafdd8035b8c624ee4f8512c506ad0fdd7389dfd98"
+  },
+  "exposure_manifest_sha256": "ffecf391bd271f8d0e75be93e5d2c755713d9cbbdf35a1c75ef1f8ade60ab5ca",
+  "mapping_frozen": false,
+  "source_manifest": {
+    "HST_HEADER_ACCESS": true,
+    "HST_PIXEL_ACCESS": false,
+    "SCIENCE_ARRAY_READ_COUNT": 0,
+    "dataset": "/home/fabian/pbuf-test/PBUF_raw_benchmark/WLRAW-001_Abell2744",
+    "exposure_count": 116,
+    "reference_identifiers": [
+      "jref$4bb1536cj_idc.fits",
+      "jref$4bb1536lj_npl.fits",
+      "jref$4bb1536mj_idc.fits",
+      "jref$4bb15371j_d2i.fits"
+    ],
+    "unresolved_quantities": [
+      {
+        "quantity": "A0 PBUF receiver-coordinate angular/physical scale",
+        "reason": "no units or authoritative scale in Dev132/133 state",
+        "required_for": "A0->A1/A2 transform"
+      },
+      {
+        "quantity": "A0 origin/attitude tie to an exposure sky or V2/V3 reference",
+        "reason": "event state contains receiver coordinates but no RA/Dec or instrument-reference tie",
+        "required_for": "exposure pointing transform"
+      },
+      {
+        "identifiers": [
+          "jref$4bb1536cj_idc.fits",
+          "jref$4bb1536lj_npl.fits",
+          "jref$4bb1536mj_idc.fits",
+          "jref$4bb15371j_d2i.fits"
+        ],
+        "quantity": "referenced distortion/calibration files",
+        "required_for": "complete ideal-to-physical distortion audit"
+      }
+    ]
+  },
+  "stop_reason": "ACS_NATIVE_GEOMETRY_INCOMPLETE_FROM_LOCAL_SOURCES"
+}

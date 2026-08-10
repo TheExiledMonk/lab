@@ -1,0 +1,326 @@
+{
+  "controls": [
+    {
+      "control_id": "C0000",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0001",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0002",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0003",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0004",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0005",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0006",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0007",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0008",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0009",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0010",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0011",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0012",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0013",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0014",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0015",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0016",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0017",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0018",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0019",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0020",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0021",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0022",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0023",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0024",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0025",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0026",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0027",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0028",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0029",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0030",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0031",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0032",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0033",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0034",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0035",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0036",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0037",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0038",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0039",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0040",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0041",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0042",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0043",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0044",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0045",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0046",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0047",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0048",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0049",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0050",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0051",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0052",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0053",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0054",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0055",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0056",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0057",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0058",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0059",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0060",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0061",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0062",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0063",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0064",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0065",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0066",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0067",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0068",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0069",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0070",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0071",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0072",
+      "split": "VALIDATION"
+    },
+    {
+      "control_id": "C0073",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0074",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0075",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0076",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0077",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0078",
+      "split": "TRAIN"
+    },
+    {
+      "control_id": "C0079",
+      "split": "VALIDATION"
+    }
+  ],
+  "training_fraction_contract": 0.6,
+  "validation_fraction_contract": 0.4
+}

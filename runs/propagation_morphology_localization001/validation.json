@@ -1,0 +1,29 @@
+{
+  "lab_id": "PBUF-FOUNDATION-PROPAGATION-MORPHOLOGY-LOCALIZATION-001",
+  "outcome": "Outcome A \u2014 PROPAGATION MORPHOLOGY LOCALIZATION COMPLETE",
+  "head_sha": "ad8c0c064c925ff70fb78f039d818d6e04140999",
+  "candidate_id": "PL1_PM1_PS2",
+  "physical_source_representation": "M10_interface_field",
+  "coverage_lane": "C25",
+  "cluster_count_expected": 5,
+  "cluster_count_completed": 5,
+  "checkpoint_steps": [
+    0,
+    1,
+    5,
+    10,
+    20,
+    40,
+    80,
+    120,
+    159
+  ],
+  "production_parity_tolerance": 1e-12,
+  "all_cluster_production_parity_pass": true,
+  "physics_change_authorized": false,
+  "candidate_change_authorized": false,
+  "propagation_change_authorized": false,
+  "next_experiment_authorized": false,
+  "science_interpretation_required": true,
+  "duration_seconds": 9.883172406931408
+}

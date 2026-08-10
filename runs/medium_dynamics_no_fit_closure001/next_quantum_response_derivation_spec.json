@@ -1,0 +1,30 @@
+{
+  "target": "derive_local_medium_Hessian_or_retarded_response_kernel_from_Quantum_Engine_microphysics",
+  "required_object": "K_{mu nu alpha beta}(x,y)=delta^2 S_sigma/(delta chi_mu_nu(x) delta chi_alpha_beta(y)) or equivalent causal inverse G_R",
+  "required_inputs_must_be_independent_of_lensing_target": [
+    "normalized microscopic medium degrees of freedom",
+    "physical regulator/cutoff normalization",
+    "mode degeneracy/counting",
+    "microscopic energy scale in SI or exact natural-unit map",
+    "coupling of microscopic modes to metric strain chi_mu_nu",
+    "coarse-graining measure from microscopic modes to local tensor strain",
+    "state/temperature dependence where required"
+  ],
+  "required_checks": [
+    "dimensions close without fitted scalar",
+    "Hessian symmetry/reciprocity on reversible branch",
+    "positive static energy on physical modes",
+    "causal/hyperbolic retarded response",
+    "no ghost or unauthorized extra propagating mode",
+    "low-frequency/long-wavelength compatibility with retained Einstein dynamics",
+    "homogeneous limit reproduces PBUF Omega_sigma only after local kernel is independently derived"
+  ],
+  "forbidden": [
+    "fit_modulus_to_kappa_shear_or_cluster_lensing",
+    "replace_0p18_with_new_scalar",
+    "set_local_modulus_equal_to_alpha_epsilon0_Rmax_ksat_without_derivation",
+    "use_GR_lensing_force_as_PBUF_elastic_source",
+    "infer_kernel_from_F160W_morphology",
+    "run_cluster_lensing_before_local_kernel_coarse_graining_and_physical_Tmunu_close"
+  ]
+}

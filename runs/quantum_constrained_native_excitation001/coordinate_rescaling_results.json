@@ -1,0 +1,13 @@
+{
+  "alpha": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "k_rule": "k -> k/alpha",
+  "lambda_rule": "lambda -> alpha lambda",
+  "norm_rule": "discrete sum depends on sampling; fixed integrated normalization invariant",
+  "packet_width_rule": "width -> alpha width",
+  "spectral_width_rule": "Delta k -> Delta k/alpha"
+}

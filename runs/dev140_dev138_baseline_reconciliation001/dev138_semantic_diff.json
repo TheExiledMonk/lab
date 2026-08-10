@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "blind_truth_boundary_changed": false,
+    "consensus_rules_changed": false,
+    "d01_d35_changed": false,
+    "objective_weighting_changed": false,
+    "reconstruction_schema_semantically_changed": false,
+    "scale_free_ratio_definitions_changed": false,
+    "search_grids_changed": false,
+    "source_or_lens_controls_changed": false,
+    "thresholds_changed": false
+  },
+  "parity": {
+    "DEV138_BLINDNESS_PARITY": true,
+    "DEV138_CONSENSUS_PARITY": true,
+    "DEV138_D01_D35_PARITY": true,
+    "DEV138_ORIGINAL_SEMANTIC_FIELDS_PARITY": true,
+    "DEV138_SCALE_FREE_RATIO_PARITY": true,
+    "DEV138_THRESHOLDS_PARITY": true
+  },
+  "semantic_changes": [],
+  "source_of_apparent_drift": "Frozen declarations are canonical semantic-object hashes, while the two reported current values are raw pretty-printed file-byte hashes.",
+  "dev139_preparation": {
+    "artifact_semantics_changed_for_dev139": false,
+    "backward_compatible_code_and_test_files_added_after_dev138_artifact_generation": true,
+    "detail": "Dev139 support modules/tests have later mtimes, but the Dev138 artifact semantic projections still reproduce the original frozen hashes exactly."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "base_dimensions": [
+    "M",
+    "L",
+    "T"
+  ],
+  "frozen_coefficients": {
+    "fast": 0.03,
+    "physical_dimensions": "symbolic transfer coefficient",
+    "slow": 0.003
+  },
+  "primitives": {
+    "A_ij": {
+      "dimensions": "U0",
+      "source": "0.03*delta_u_fast + 0.003*delta_u_slow"
+    },
+    "bounded_strain_stress": {
+      "dimensions": "K0_phys*U0/L0",
+      "source": "bounded-strain constitutive law"
+    },
+    "bundle_Hessian": {
+      "dimensions": "L0^-1",
+      "source": "second endpoint derivative"
+    },
+    "bundle_Jacobian": {
+      "dimensions": "1",
+      "source": "endpoint derivative wrt launch coordinate"
+    },
+    "c_state": {
+      "dimensions": "U0",
+      "source": "pbuf.wl.native_response:construct_c_state"
+    },
+    "curvature": {
+      "dimensions": "L0^-1",
+      "source": "delta(direction)/delta(path)"
+    },
+    "direction": {
+      "dimensions": "1",
+      "source": "normalized displacement"
+    },
+    "displacement_response": {
+      "dimensions": "U0",
+      "source": "native response array"
+    },
+    "fast_channel": {
+      "dimensions": "U0",
+      "source": "pbuf.wl.backends.cpu:pair transfer"
+    },
+    "path_length": {
+      "dimensions": "L0",
+      "source": "Euclidean segment sum"
+    },
+    "slow_channel": {
+      "dimensions": "U0",
+      "source": "pbuf.wl.backends.cpu:pair transfer"
+    },
+    "source_term": {
+      "dimensions": "S0",
+      "source": "native source loading"
+    },
+    "strain": {
+      "dimensions": "U0/L0",
+      "source": "neighbor difference / native spacing"
+    },
+    "trajectory_coordinate": {
+      "dimensions": "L0",
+      "source": "pbuf.wl.backends.cpu:positions"
+    }
+  },
+  "unit_scales": {
+    "coordinate": "L0",
+    "mass": "M0",
+    "response": "U0",
+    "source": "S0",
+    "stiffness": "K0_phys",
+    "time": "T0"
+  }
+}

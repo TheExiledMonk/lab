@@ -1,0 +1,37 @@
+{
+  "3D": {
+    "centroid_distance": 1.823363510371894,
+    "mahalanobis_distance": 0.4866862719101831,
+    "within_between_ratio": 28.024871561256212
+  },
+  "R3": {
+    "centroid_distance": 1.8233634713757865,
+    "mahalanobis_distance": 0.4602315111963471,
+    "within_between_ratio": 28.024869512946363
+  },
+  "R4": {
+    "centroid_distance": 1.8233634661160307,
+    "mahalanobis_distance": 0.36769689885413903,
+    "within_between_ratio": 28.024868530261895
+  },
+  "S_D_relational": {
+    "centroid_distance": 0.9286621366392339,
+    "mahalanobis_distance": 1.260996396570151,
+    "within_between_ratio": 10.772106348010706
+  },
+  "bundle_geometry": {
+    "centroid_distance": 0.0028013722867255954,
+    "mahalanobis_distance": 0.06146610306993973,
+    "within_between_ratio": 1464.6345439229224
+  },
+  "dual_coordinate": {
+    "centroid_distance": 2.579067387341835,
+    "mahalanobis_distance": 0.4871415651695828,
+    "within_between_ratio": 28.01616308491268
+  },
+  "raw": {
+    "centroid_distance": 1.8233634900531956,
+    "mahalanobis_distance": 0.486686271910608,
+    "within_between_ratio": 28.024870036490697
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "geometric_lens_projection": [
+    30.610185476265325,
+    30.860421251178874
+  ],
+  "lens_geometry_center": [
+    30.610185476265325,
+    30.860421251178874
+  ],
+  "lens_geometry_coordinate_system": "canonical source x,y,z; shared native extent",
+  "lens_geometry_dimensions": [
+    9,
+    64,
+    64
+  ],
+  "lens_geometry_extent": [
+    -8.0,
+    8.0,
+    -8.0,
+    8.0
+  ],
+  "lens_geometry_fingerprint": "57457e6a727d9cde005dd74a1335590f1eb9bfdaa857e57e54585bc185b4c1a7",
+  "lens_geometry_source_field": "rho3 / max-depth rho2 normalized positive kappa proxy",
+  "lens_geometry_source_file": "pbuf/wl/source.py -> current_native_five_cluster_observable_benchmark001.py",
+  "mask_rule": {
+    "positive_p10": 0.003075910909948088,
+    "positive_p30": null,
+    "positive_p70": 0.01912498192834543,
+    "positive_p90": 0.030131666217223456,
+    "rule": ">0 explicit support; >=p90 core; >=p70 inner; one-cell near shell; lowest 10% source-loading region outside the near shell (source-only control)"
+  },
+  "observed_ray_disturbance": [
+    32.36659736659737,
+    29.123354123354122
+  ],
+  "propagation_to_observer": {
+    "matrix": [
+      [
+        0.999999999933438,
+        9.205010519255258e-10,
+        1.1537942313523494e-05
+      ],
+      [
+        0.0,
+        0.9999999968175481,
+        -7.97803476549858e-05
+      ],
+      [
+        -1.1537942350242442e-05,
+        7.978034764967546e-05,
+        0.9999999967509862
+      ]
+    ],
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rule": "frozen detector orthonormal basis"
+  },
+  "source_to_propagation": {
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rule": "shared canonical source/proxy and propagation extent; voxel centres"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "dynamic_non_geometric_edge": false,
+  "edges": [
+    [
+      "RayLaunch",
+      "_propagate_g3d"
+    ],
+    [
+      "_propagate_g3d",
+      "_sample"
+    ],
+    [
+      "_sample",
+      "normalize"
+    ],
+    [
+      "normalize",
+      "checkpoint"
+    ],
+    [
+      "checkpoint",
+      "receiver"
+    ],
+    [
+      "receiver",
+      "ArrivalEvent2D"
+    ]
+  ],
+  "nodes": [
+    "RayLaunch",
+    "_propagate_g3d",
+    "_sample",
+    "normalize",
+    "checkpoint",
+    "receiver",
+    "ArrivalEvent2D"
+  ]
+}

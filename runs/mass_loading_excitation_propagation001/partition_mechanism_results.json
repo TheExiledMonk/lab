@@ -1,0 +1,62 @@
+{
+  "native_norm_found": false,
+  "results": [
+    {
+      "id": "R09",
+      "name": "additive state partition",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "id": "R10",
+      "name": "quadratic state partition",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "id": "R11",
+      "name": "orthogonal norm partition",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "MISSING_EXCITATION_DEFINITION"
+    },
+    {
+      "id": "R12",
+      "name": "bounded-state geometric partition",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "id": "R17",
+      "name": "conserved total-state norm",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "MISSING_EXCITATION_DEFINITION"
+    },
+    {
+      "id": "R18",
+      "name": "conserved pair-state norm",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "MISSING_EXCITATION_DEFINITION"
+    },
+    {
+      "id": "R19",
+      "name": "rest-loading invariant + variable excitation",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "id": "R20",
+      "name": "no derivable relation in current PBUF",
+      "native_beta_law": false,
+      "same_mass_variable_speed": false,
+      "status": "ESTABLISHED"
+    }
+  ],
+  "survivors": []
+}

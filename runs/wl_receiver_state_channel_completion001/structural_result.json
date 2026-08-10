@@ -1,0 +1,31 @@
+{
+  "families": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9"
+  ],
+  "formulas_frozen_by_manifest_sha256": "49aa5faeb1ff70b0aca2dd843e93b0c2da8574bdaf313d437001f88fbce9b7ab",
+  "hst_pixel_access": false,
+  "mapping_sha256": "56104a091fde1991b7099a90d3a00207f54a0219a6d822a750851c75c3993d74",
+  "propagation_changes": 0,
+  "receiver_coordinate_contract": "native receiver basis (u,v,w) = frozen global Cartesian components",
+  "scale_set": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "target_access": false,
+  "upstream_sha256": "84967317309d24463f2d59b5e989161b3e266ad51cc02725efd5f4e722afef16",
+  "upstream_verified": true,
+  "validity_policy": "VALID_NEIGHBOR_ONLY"
+}

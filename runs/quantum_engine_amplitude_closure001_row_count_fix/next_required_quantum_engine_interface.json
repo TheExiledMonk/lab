@@ -1,0 +1,11 @@
+{
+  "target": "expose_QE_effective_action_normalization_and_local_metric_strain_response_interface",
+  "required": [
+    "C definition/provenance/dimensions/regulator dependence",
+    "absolute microscopic energy or action density scale",
+    "delta S_micro/delta chi_mn or dE_mode/dchi_mn",
+    "K_mn_ab or causal G_R",
+    "dimension-preserving coarse-graining to finite chi_mn"
+  ],
+  "rule": "if absent in external QE, mark missing; never infer by fitting"
+}

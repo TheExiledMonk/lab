@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "DEV148_AUDIT_COMPLETE": true,
+    "DEV149_AUDIT_COMPLETE": true,
+    "DEV150_AUDIT_COMPLETE": true,
+    "DEV151_AUDIT_COMPLETE": true,
+    "DEV152_AUDIT_COMPLETE": true,
+    "DEV153_AUDIT_COMPLETE": true,
+    "DEV154_AUDIT_COMPLETE": true
+  },
+  "outcomes": [
+    "DEV155_AUDIT_COMPLETE",
+    "PBUF_NATIVE_EXCITATION_N6_TOPOLOGY_RESTORED",
+    "PBUF_DEV148_N6_OPERATOR_CANDIDATES_EXECUTED",
+    "PBUF_NATIVE_EXCITATION_TRANSPORT_SELECTION_REOPENED"
+  ],
+  "scientific_conclusion": "All six directional N6 permutations preserve the Dev148 invariants, but the rank-2 internal state contains no coefficient-free selector or allocation rule choosing among six spatial recipients. Symmetric averaging loses quadratic norm; raw multi-neighbor copying multiplies it. This is a reopened transport question, not authorization for a coupling coefficient.",
+  "status": "DEV155_AUDIT_COMPLETE"
+}

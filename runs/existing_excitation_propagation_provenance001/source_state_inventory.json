@@ -1,0 +1,64 @@
+{
+  "states": [
+    {
+      "classification": "GEOMETRIC",
+      "name": "initial position",
+      "present": true,
+      "source": "RayLaunch.x0/y0"
+    },
+    {
+      "classification": "GEOMETRIC",
+      "name": "initial direction",
+      "present": true,
+      "source": "hard-coded (0,0,1)"
+    },
+    {
+      "classification": "ABSENT",
+      "name": "initial path state",
+      "present": false,
+      "source": null
+    },
+    {
+      "classification": "ABSENT",
+      "name": "initial response-channel state",
+      "present": false,
+      "source": null
+    },
+    {
+      "classification": "ABSENT",
+      "name": "source weight",
+      "present": false,
+      "source": null
+    },
+    {
+      "classification": "ABSENT",
+      "name": "source amplitude-like fields",
+      "present": false,
+      "source": null
+    },
+    {
+      "classification": "ABSENT",
+      "name": "ray weight",
+      "present": false,
+      "source": null
+    },
+    {
+      "classification": "ABSENT",
+      "name": "bundle weight",
+      "present": false,
+      "source": null
+    },
+    {
+      "classification": "ABSENT",
+      "name": "event weight",
+      "present": false,
+      "source": null
+    },
+    {
+      "classification": "ABSENT",
+      "name": "hidden source scalar",
+      "present": false,
+      "source": null
+    }
+  ]
+}

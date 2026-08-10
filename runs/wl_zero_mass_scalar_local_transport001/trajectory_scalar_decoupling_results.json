@@ -1,0 +1,10 @@
+{
+  "DIRECTION_HISTORY_EQUAL": true,
+  "PATH_LENGTH_EQUAL": true,
+  "POSITION_HISTORY_EQUAL": true,
+  "Q0_TRAJECTORY_PARITY": true,
+  "Q_CHANGES_ZERO_MASS_PROPAGATION_SPEED": false,
+  "TRAJECTORY_DEPENDS_ON_Q": false,
+  "max_direction_difference": 0.0,
+  "max_position_difference": 0.0
+}

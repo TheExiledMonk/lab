@@ -1,0 +1,30 @@
+{
+  "coloring": [
+    "path curvature",
+    "direction change",
+    "native sampled field",
+    "bundle area ratio"
+  ],
+  "fields": [
+    "position",
+    "direction",
+    "local curvature",
+    "bundle metrics"
+  ],
+  "fractions": [
+    0.0,
+    0.125,
+    0.25,
+    0.375,
+    0.5,
+    0.625,
+    0.75,
+    0.875,
+    1.0
+  ],
+  "mode": "TRAJECTORY_HISTORY_3D",
+  "path_slider": [
+    0.0,
+    1.0
+  ]
+}

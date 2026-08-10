@@ -1,0 +1,28 @@
+[
+  {
+    "availability": "AVAILABLE_PER_STEP",
+    "currently_used_by_propagation": true,
+    "dtype": "float64",
+    "name": "rx_sample",
+    "producer_module": "los_consistent_ray_geometry001",
+    "shape": "(ray_count,)",
+    "source_module": "pbuf.labs.foundation.los_consistent_ray_geometry001._sample",
+    "units": "native response per propagation length",
+    "used_by_propagation": true,
+    "variable_source_function": "_sample",
+    "where_sampled": "before direction update and at checkpoints"
+  },
+  {
+    "availability": "AVAILABLE_PER_STEP",
+    "currently_used_by_propagation": true,
+    "dtype": "float64",
+    "name": "ry_sample",
+    "producer_module": "los_consistent_ray_geometry001",
+    "shape": "(ray_count,)",
+    "source_module": "pbuf.labs.foundation.los_consistent_ray_geometry001._sample",
+    "units": "native response per propagation length",
+    "used_by_propagation": true,
+    "variable_source_function": "_sample",
+    "where_sampled": "before direction update and at checkpoints"
+  }
+]

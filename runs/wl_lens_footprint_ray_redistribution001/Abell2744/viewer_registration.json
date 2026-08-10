@@ -1,0 +1,103 @@
+{
+  "cohorts": [
+    "RAY_UNCLASSIFIED",
+    "RAY_LENS_CORE",
+    "RAY_LENS_INNER",
+    "RAY_LENS_OUTER",
+    "RAY_NEAR_LENS",
+    "RAY_FAR_CONTROL"
+  ],
+  "correspondence_stride": 100,
+  "dimensions": [
+    64,
+    64
+  ],
+  "legend": "REGISTERED FROM SOURCE GEOMETRY \u2014 NOT FIT TO VIEW",
+  "mode": "LENS_RAY_REGISTRATION",
+  "registration": {
+    "geometric_lens_projection": [
+      30.444399350649352,
+      31.56452922077922
+    ],
+    "lens_geometry_center": [
+      30.444399350649352,
+      31.56452922077922
+    ],
+    "lens_geometry_coordinate_system": "canonical source x,y,z; shared native extent",
+    "lens_geometry_dimensions": [
+      9,
+      64,
+      64
+    ],
+    "lens_geometry_extent": [
+      -8.0,
+      8.0,
+      -8.0,
+      8.0
+    ],
+    "lens_geometry_fingerprint": "c42edb49d5acc8c214c7447ab7eb05abf888c0503942effad6ca7befef2e7e20",
+    "lens_geometry_source_field": "rho3 / max-depth rho2 normalized positive kappa proxy",
+    "lens_geometry_source_file": "pbuf/wl/source.py -> current_native_five_cluster_observable_benchmark001.py",
+    "mask_rule": {
+      "positive_p10": 0.005530918991196342,
+      "positive_p30": 0.013961874469178197,
+      "positive_p70": 0.03031980797471508,
+      "positive_p90": 0.0444028790650873,
+      "rule": ">=p30 positive source loading (no explicit boundary); >=p90 core; >=p70 inner; one-cell near shell; lowest 10% source-loading region outside the near shell (source-only control)"
+    },
+    "observed_ray_disturbance": [
+      30.789861751152074,
+      30.730875576036865
+    ],
+    "propagation_to_observer": {
+      "matrix": [
+        [
+          0.9999999998914397,
+          7.334629276727492e-10,
+          -1.473501047529865e-05
+        ],
+        [
+          0.0,
+          0.9999999987611309,
+          4.9776885329918215e-05
+        ],
+        [
+          1.47350104935534e-05,
+          -4.977688532451442e-05,
+          0.9999999986525706
+        ]
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rule": "frozen detector orthonormal basis"
+    },
+    "source_to_propagation": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rule": "shared canonical source/proxy and propagation extent; voxel centres"
+    }
+  }
+}

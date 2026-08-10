@@ -1,0 +1,16 @@
+{
+  "description": "smallest currently eligible geometric optical event state",
+  "fields": [
+    "arrival_u",
+    "arrival_v",
+    "arrival_dir_u",
+    "arrival_dir_v",
+    "arrival_dir_n",
+    "incidence_cosine",
+    "incidence_angle",
+    "intersection_t"
+  ],
+  "no_unit_weight_substitution": true,
+  "physical_weight": null,
+  "physical_weight_status": "EVENT_WEIGHT_NOT_TRACKED"
+}

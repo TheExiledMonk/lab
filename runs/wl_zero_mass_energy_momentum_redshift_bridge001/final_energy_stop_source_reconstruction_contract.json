@@ -1,0 +1,14 @@
+{
+  "contract": "PBUF_ENERGY_STOP_SOURCE_RECONSTRUCTION_V1",
+  "energy_stop_established": false,
+  "known_depth_reconstruction_parity": true,
+  "multipath_source_reconstruction": false,
+  "physical_distance_required": false,
+  "remaining_ambiguities": [
+    "native zero-mass energy/momentum magnitude absent",
+    "medium-to-mode-energy constitutive law absent"
+  ],
+  "source_layout_recoverable": false,
+  "source_size_recoverable": false,
+  "time_required": false
+}

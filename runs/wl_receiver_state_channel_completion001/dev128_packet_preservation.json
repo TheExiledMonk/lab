@@ -1,0 +1,151 @@
+{
+  "DEV128_PACKET_RECONSTRUCTION_R2": {
+    "endpoint_final_direction": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "endpoint_initial_direction": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "endpoint_launch_position": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "endpoint_receive_position": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_rx_sample_absolute_integral": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_rx_sample_argmax_path": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_rx_sample_integral": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_rx_sample_maximum": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_rx_sample_mean": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_rx_sample_minimum": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_rx_sample_path_location_of_max_abs": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_rx_sample_rms": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_rx_sample_square_integral": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_ry_sample_absolute_integral": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_ry_sample_argmax_path": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_ry_sample_integral": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_ry_sample_maximum": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_ry_sample_mean": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_ry_sample_minimum": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_ry_sample_path_location_of_max_abs": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_ry_sample_rms": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "native_ry_sample_square_integral": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_curvature_max": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_curvature_mean": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_curvature_path_centroid": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_curvature_rms": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_maximum_local_direction_change": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_net_direction_change": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_number_of_steps": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_path_curvature_integral": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_path_curvature_squared_integral": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_path_excess": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_path_length": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_path_location_of_maximum_direction_change": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_straight_line_distance": {
+      "exact": true,
+      "r2": 1.0
+    },
+    "path_total_direction_change": {
+      "exact": true,
+      "r2": 1.0
+    }
+  },
+  "DIRECT_TRAJECTORY_FIELDS_LOST": 0,
+  "lost_fields": [],
+  "status": "PASS"
+}

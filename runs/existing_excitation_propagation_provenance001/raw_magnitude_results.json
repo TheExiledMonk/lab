@@ -1,0 +1,43 @@
+{
+  "classification": "NUMERICAL_UPDATE_MAGNITUDE_ONLY",
+  "controls": {
+    "asymmetric": {
+      "parallel_max": 0.001767391751161309,
+      "raw_magnitude_max": 1.0017857972153141,
+      "raw_magnitude_min": 1.0,
+      "transverse_max": 0.006072588113640423
+    },
+    "moderate": {
+      "parallel_max": 0.0003056454164951512,
+      "raw_magnitude_max": 1.0002983177748686,
+      "raw_magnitude_min": 0.9997008465919022,
+      "transverse_max": 0.003992507986937756
+    },
+    "strong_unsaturated": {
+      "parallel_max": 0.0028100197068020214,
+      "raw_magnitude_max": 1.0027620659877527,
+      "raw_magnitude_min": 0.9972529581841868,
+      "transverse_max": 0.01229901202119721
+    },
+    "symmetric": {
+      "parallel_max": 5.996545668867223e-05,
+      "raw_magnitude_max": 1.0000589085199514,
+      "raw_magnitude_min": 0.9999410928301744,
+      "transverse_max": 0.0025000000000000005
+    },
+    "uniform": {
+      "parallel_max": 0.0,
+      "raw_magnitude_max": 1.0,
+      "raw_magnitude_min": 1.0,
+      "transverse_max": 0.0
+    },
+    "weak": {
+      "parallel_max": 4.997196534331281e-06,
+      "raw_magnitude_max": 1.0000049058654314,
+      "raw_magnitude_min": 0.9999950941406622,
+      "transverse_max": 0.0004999178457460766
+    }
+  },
+  "resolution_physical_candidate": false,
+  "step_size_dependent": true
+}

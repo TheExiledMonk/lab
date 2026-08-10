@@ -1,0 +1,35 @@
+{
+  "HST_HEADER_ACCESS": true,
+  "HST_PIXEL_ACCESS": false,
+  "SCIENCE_ARRAY_READ_COUNT": 0,
+  "dataset": "/home/fabian/pbuf-test/PBUF_raw_benchmark/WLRAW-001_Abell2744",
+  "exposure_count": 116,
+  "reference_identifiers": [
+    "jref$4bb1536cj_idc.fits",
+    "jref$4bb1536lj_npl.fits",
+    "jref$4bb1536mj_idc.fits",
+    "jref$4bb15371j_d2i.fits"
+  ],
+  "unresolved_quantities": [
+    {
+      "quantity": "A0 PBUF receiver-coordinate angular/physical scale",
+      "reason": "no units or authoritative scale in Dev132/133 state",
+      "required_for": "A0->A1/A2 transform"
+    },
+    {
+      "quantity": "A0 origin/attitude tie to an exposure sky or V2/V3 reference",
+      "reason": "event state contains receiver coordinates but no RA/Dec or instrument-reference tie",
+      "required_for": "exposure pointing transform"
+    },
+    {
+      "identifiers": [
+        "jref$4bb1536cj_idc.fits",
+        "jref$4bb1536lj_npl.fits",
+        "jref$4bb1536mj_idc.fits",
+        "jref$4bb15371j_d2i.fits"
+      ],
+      "quantity": "referenced distortion/calibration files",
+      "required_for": "complete ideal-to-physical distortion audit"
+    }
+  ]
+}

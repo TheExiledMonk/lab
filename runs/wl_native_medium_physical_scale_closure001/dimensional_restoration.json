@@ -1,0 +1,62 @@
+{
+  "operators": [
+    {
+      "L0_power": -1,
+      "native_equation": "Delta u / Delta x_n",
+      "operator": "gradient",
+      "physical_equation": "(U0/L0) Delta_n u",
+      "unknowns": [
+        "U0"
+      ]
+    },
+    {
+      "L0_power": -2,
+      "native_equation": "sum_neighbors(u_i-u_j)",
+      "operator": "six_neighbor_laplacian",
+      "physical_equation": "(U0/L0^2) Laplacian_n u",
+      "unknowns": [
+        "U0",
+        "K0_phys",
+        "S0"
+      ]
+    },
+    {
+      "L0_power": 3,
+      "native_equation": "dV_n",
+      "operator": "cell_volume",
+      "physical_equation": "L0^3 dV_n",
+      "unknowns": []
+    },
+    {
+      "L0_power": -1,
+      "native_equation": "dtheta/ds_n",
+      "operator": "trajectory_curvature",
+      "physical_equation": "kappa_n/L0",
+      "unknowns": []
+    },
+    {
+      "L0_power": 1,
+      "native_equation": "L_path,n-L_straight,n",
+      "operator": "path_excess",
+      "physical_equation": "L0 DeltaL_n",
+      "unknowns": []
+    },
+    {
+      "L0_power": -1,
+      "native_equation": "dJ/ds_n",
+      "operator": "bundle_rate",
+      "physical_equation": "(1/L0)dJ/ds_n",
+      "unknowns": []
+    },
+    {
+      "L0_power": 1,
+      "native_equation": "sum |grad_n u|^2 dV_n",
+      "operator": "gradient_energy_3d",
+      "physical_equation": "U0^2 L0 sum |grad_n u|^2 dV_n",
+      "unknowns": [
+        "U0",
+        "K0_phys"
+      ]
+    }
+  ]
+}

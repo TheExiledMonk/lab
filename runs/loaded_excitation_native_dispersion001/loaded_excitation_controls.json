@@ -1,0 +1,13 @@
+{
+  "beta_measured": false,
+  "identical_packet_construction": true,
+  "loading": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "native_dynamics_executed": false,
+  "reason": "No native local excitation update, internal-state evolution, or loaded packet transfer law exists."
+}

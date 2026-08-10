@@ -1,0 +1,47 @@
+{
+  "bundle_scales": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "contract": {
+    "boundary_rule": "r <= R transmits; equality labeled ON_APERTURE_BOUNDARY",
+    "history": "append-only",
+    "interaction_types": [
+      "FREE_PROPAGATION",
+      "APERTURE_TEST",
+      "IDEAL_DIRECTION_TRANSFORM",
+      "PLANE_INTERSECTION"
+    ],
+    "numerical_sampling_weight_only": true,
+    "unsupported_state_not_introduced": true,
+    "version": "PBUF_GEOMETRIC_OPTICAL_INTERACTION_V1"
+  },
+  "event_schema": {
+    "groups": [
+      "event identity",
+      "surface identity",
+      "input position",
+      "input direction",
+      "intersection position",
+      "surface coordinates",
+      "incoming direction",
+      "outgoing direction",
+      "interaction status",
+      "aperture status",
+      "parent event identity",
+      "reverse metadata",
+      "upstream provenance reference",
+      "latent-state reference"
+    ]
+  },
+  "hst_pixel_access": false,
+  "loss_policy": "physical and declared; pre-loss state retained",
+  "system_sha256": "0a4afbdc18259113b69e8e2a82cfcfb03a65c6d4dec488e9efa18c7c60ec4cff",
+  "target_access": false,
+  "upstream_contract_sha256": "3dd0b2231008d93878c1bd7fb63ceb5c5fef2d7f2ebe4cff2355f9b9352a8612",
+  "upstream_structural_sha256": "cfe611d6a6ea3a893fce904543538221896d968cf41f48827721f817d683aebb"
+}

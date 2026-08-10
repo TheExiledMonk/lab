@@ -1,0 +1,164 @@
+[
+  {
+    "canonical_equation": "\\bar u_a=\\frac16\\sum_{b\\in N_6(a)}u_b",
+    "canonical_implementation": "pbuf/models/a8_state.py:40-77",
+    "mechanism": "A8 N6 mean",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "A8 N6 mean",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "u_f'=clip[u_f+0.03((\\bar u_f-u_f)+0.5(u_s-u_f)),-5,5]",
+    "canonical_implementation": "pbuf/models/a8_state.py:101-112",
+    "mechanism": "fast update",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "fast update",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "u_s'=clip[u_s+0.003((\\bar u_s-u_s)+0.5(u_f-u_s)),-5,5]",
+    "canonical_implementation": "pbuf/models/a8_state.py:101-112",
+    "mechanism": "slow update",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "slow update",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "c_{state}=(u_s+u_f)/2",
+    "canonical_implementation": "pbuf/models/a8_state.py:89-114",
+    "mechanism": "combined loading state",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "combined loading state",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "\\epsilon_{ab}=(u_b-u_a)/\\Delta x",
+    "canonical_implementation": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:128-133",
+    "mechanism": "bond strain",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "bond strain",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "W=-\\frac{K\\epsilon_{max}^2}{2}\\ln(1-\\epsilon^2/\\epsilon_{max}^2)",
+    "canonical_implementation": "pbuf/wl/native_incremental_elastic_energy.py:18-26",
+    "mechanism": "bounded energy",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "bounded energy",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "\\sigma=K\\epsilon/(1-\\epsilon^2/\\epsilon_{max}^2)",
+    "canonical_implementation": "pbuf/wl/native_incremental_elastic_energy.py:29-33",
+    "mechanism": "bounded stress",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "bounded stress",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "K_{tan}=K(1+q)/(1-q)^2,\\ q=(\\epsilon/\\epsilon_{max})^2",
+    "canonical_implementation": "pbuf/wl/native_incremental_elastic_energy.py:36-41",
+    "mechanism": "tangent stiffness",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "tangent stiffness",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "A(u)_a=\\Delta x^{-2}\\sum_{b\\in N_6(a)}K\\frac{u_a-u_b}{1-\\epsilon_{ab}^2/\\epsilon_{max}^2}=c_{state,a}",
+    "canonical_implementation": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:136-220",
+    "mechanism": "nonlinear equilibrium",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "nonlinear equilibrium",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "X_a=A\\exp[-\\tfrac12((a-a_0)/w)^2]\\,p/\\|p\\|",
+    "canonical_implementation": "pbuf/excitation/native_excitation_state.py:24-32",
+    "mechanism": "packet initialization",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "packet initialization",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "X_a^{n+1}=X_{(a-d)\\bmod N}^{n},\\ d\\in\\{-1,+1\\}",
+    "canonical_implementation": "pbuf/excitation/native_excitation_transfer.py:24-37",
+    "mechanism": "free progression",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "free progression",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "X_j^{n+1}=R_{ij}X_i^n,\\ j=(i+1)\\bmod N",
+    "canonical_implementation": "pbuf/foundation/native_neighbor_mixed_state.py:17-33",
+    "mechanism": "frame-aware progression",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "frame-aware progression",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "R_{ij}=UV^T,\\quad B_{ij}=E_{\\perp,j}E_{\\perp,i}^T=U\\Sigma V^T",
+    "canonical_implementation": "pbuf/foundation/native_neighbor_state.py:48-52",
+    "mechanism": "orthogonal frame map",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "orthogonal frame map",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "N_X=\\sum_a(X_{1,a}^2+X_{2,a}^2)",
+    "canonical_implementation": "pbuf/excitation/native_excitation_invariants.py:7-15",
+    "mechanism": "excitation norm",
+    "status": "ESTABLISHED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "excitation norm",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "\\rho_{X,a}=X_{1,a}^2+X_{2,a}^2",
+    "canonical_implementation": "pbuf/foundation/native_neighbor_mixed_observer.py:6-9",
+    "mechanism": "excitation density",
+    "status": "DERIVED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "excitation density",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "\\bar r_n=\\sum_a a\\rho_{X,a}^{(n)}/\\sum_a\\rho_{X,a}^{(n)}",
+    "canonical_implementation": "pbuf/foundation/native_neighbor_mixed_observer.py:6-9",
+    "mechanism": "packet centroid",
+    "status": "DERIVED",
+    "superseded_implementations": [],
+    "what_it_already_solves": "packet centroid",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "m_n=argmax_{m\\ge1}|FFT(X_1)_m|^2,\\ \\lambda_n=N/max(m_n,1)",
+    "canonical_implementation": "pbuf/foundation/native_neighbor_mixed_observer.py:10-12",
+    "mechanism": "FFT wavelength",
+    "status": "DIAGNOSTIC",
+    "superseded_implementations": [],
+    "what_it_already_solves": "FFT wavelength",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  },
+  {
+    "canonical_equation": "\\mathcal S=(L,X_1,X_2)",
+    "canonical_implementation": "pbuf/foundation/native_neighbor_state.py:54-70",
+    "mechanism": "unified state",
+    "status": "REPRESENTATIONAL",
+    "superseded_implementations": [],
+    "what_it_already_solves": "unified state",
+    "what_it_does_not_solve": "loaded-state cross-effect or absolute physical interpretation"
+  }
+]

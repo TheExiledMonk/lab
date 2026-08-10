@@ -1,0 +1,1857 @@
+[
+  {
+    "channel_id": "DEV129_0000",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C0",
+    "name": "receive_u",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0001",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C0",
+    "name": "receive_v",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0002",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C0",
+    "name": "receive_w",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0003",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C1",
+    "name": "final_dir_u",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0004",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C1",
+    "name": "final_dir_v",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0005",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C1",
+    "name": "final_dir_w",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0006",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C2",
+    "name": "delta_u",
+    "retention": "KEEP_DERIVED"
+  },
+  {
+    "channel_id": "DEV129_0007",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C2",
+    "name": "delta_v",
+    "retention": "KEEP_DERIVED"
+  },
+  {
+    "channel_id": "DEV129_0008",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C2",
+    "name": "delta_w",
+    "retention": "KEEP_DERIVED"
+  },
+  {
+    "channel_id": "DEV129_0009",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C2",
+    "name": "full_displacement_norm",
+    "retention": "KEEP_DERIVED"
+  },
+  {
+    "channel_id": "DEV129_0010",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C2",
+    "name": "transverse_displacement_norm",
+    "retention": "KEEP_DERIVED"
+  },
+  {
+    "channel_id": "DEV129_0011",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C3",
+    "name": "path_excess",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0012",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C3",
+    "name": "path_excess_fraction",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0013",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C3",
+    "name": "path_length",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0014",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C3",
+    "name": "straight_line_distance",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0015",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C4",
+    "name": "direction_history_ratio",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0016",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C4",
+    "name": "maximum_local_direction_change",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0017",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C4",
+    "name": "net_direction_change",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0018",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C4",
+    "name": "path_location_of_maximum_direction_change",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0019",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C4",
+    "name": "total_direction_change",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0020",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C5",
+    "name": "curvature_integral",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0021",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C5",
+    "name": "curvature_max",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0022",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C5",
+    "name": "curvature_mean",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0023",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C5",
+    "name": "curvature_path_centroid",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0024",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C5",
+    "name": "curvature_rms",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0025",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C5",
+    "name": "curvature_squared_integral",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0026",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "initial_dir_u",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0027",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "initial_dir_v",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0028",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "initial_dir_w",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0029",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "number_of_steps",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0030",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "rx_sample_absolute_integral",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0031",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "rx_sample_argmax_path",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0032",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "rx_sample_integral",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0033",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "rx_sample_maximum",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0034",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "rx_sample_mean",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0035",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "rx_sample_minimum",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0036",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "rx_sample_path_location_of_max_abs",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0037",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "rx_sample_rms",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0038",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "rx_sample_square_integral",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0039",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "ry_sample_absolute_integral",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0040",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "ry_sample_argmax_path",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0041",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "ry_sample_integral",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0042",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "ry_sample_maximum",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0043",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "ry_sample_mean",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0044",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "ry_sample_minimum",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0045",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "ry_sample_path_location_of_max_abs",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0046",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "ry_sample_rms",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0047",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C6",
+    "name": "ry_sample_square_integral",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0076",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_cov_u_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0077",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_cov_v_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0078",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_direction_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0079",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_direction_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0080",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_direction_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0081",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_direction_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0082",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_direction_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0083",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_direction_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0084",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_direction_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0085",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_direction_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0086",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_direction_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0087",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_local_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0088",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_local_received_area_ratio",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0089",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_mean_neighbor_displacement_u",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0090",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_mean_neighbor_displacement_v",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0091",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_mean_pair_separation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0092",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_mean_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0093",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_position_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0094",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_position_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0095",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_position_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0096",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_position_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0097",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_position_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0098",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_position_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0099",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_position_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0100",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_position_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0101",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_position_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0102",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_separation_variance",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0103",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s1_var_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0104",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_cov_u_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0105",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_cov_v_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0106",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_direction_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0107",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_direction_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0108",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_direction_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0109",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_direction_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0110",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_direction_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0111",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_direction_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0112",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_direction_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0113",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_direction_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0114",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_direction_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0115",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_local_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0116",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_local_received_area_ratio",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0117",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_mean_neighbor_displacement_u",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0118",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_mean_neighbor_displacement_v",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0119",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_mean_pair_separation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0120",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_mean_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0121",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_position_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0122",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_position_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0123",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_position_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0124",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_position_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0125",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_position_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0126",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_position_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0127",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_position_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0128",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_position_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0129",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_position_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0130",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_separation_variance",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0131",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s2_var_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0160",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_cov_u_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0161",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_cov_v_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0162",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_direction_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0163",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_direction_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0164",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_direction_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0165",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_direction_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0166",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_direction_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0167",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_direction_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0168",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_direction_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0169",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_direction_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0170",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_direction_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0171",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_local_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0172",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_local_received_area_ratio",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0173",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_mean_neighbor_displacement_u",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0174",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_mean_neighbor_displacement_v",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0175",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_mean_pair_separation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0176",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_mean_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0177",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_position_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0178",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_position_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0179",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_position_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0180",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_position_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0181",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_position_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0182",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_position_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0183",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_position_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0184",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_position_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0185",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_position_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0186",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_separation_variance",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0187",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s4_var_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0188",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_cov_u_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0189",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_cov_v_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0190",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_direction_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0191",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_direction_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0192",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_direction_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0193",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_direction_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0194",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_direction_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0195",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_direction_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0196",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_direction_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0197",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_direction_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0198",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_direction_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0199",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_local_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0200",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_local_received_area_ratio",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0201",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_mean_neighbor_displacement_u",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0202",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_mean_neighbor_displacement_v",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0203",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_mean_pair_separation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0204",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_mean_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0205",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_position_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0206",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_position_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0207",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_position_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0208",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_position_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0209",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_position_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0210",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_position_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0211",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_position_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0212",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_position_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0213",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_position_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0214",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_separation_variance",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0215",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s8_var_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0048",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_cov_u_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0049",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_cov_v_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0050",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_direction_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0051",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_direction_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0052",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_direction_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0053",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_direction_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0054",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_direction_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0055",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_direction_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0056",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_direction_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0057",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_direction_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0058",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_direction_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0059",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_local_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0060",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_local_received_area_ratio",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0061",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_mean_neighbor_displacement_u",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0062",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_mean_neighbor_displacement_v",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0063",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_mean_pair_separation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0064",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_mean_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0065",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_position_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0066",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_position_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0067",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_position_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0068",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_position_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0069",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_position_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0070",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_position_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0071",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_position_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0072",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_position_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0073",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_position_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0074",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_separation_variance",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0075",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s16_var_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0132",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_cov_u_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0133",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_cov_v_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0134",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_direction_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0135",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_direction_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0136",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_direction_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0137",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_direction_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0138",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_direction_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0139",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_direction_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0140",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_direction_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0141",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_direction_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0142",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_direction_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0143",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_local_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0144",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_local_received_area_ratio",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0145",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_mean_neighbor_displacement_u",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0146",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_mean_neighbor_displacement_v",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0147",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_mean_pair_separation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0148",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_mean_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0149",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_position_anisotropy",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0150",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_position_cov_uu",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0151",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_position_cov_uv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0152",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_position_cov_vv",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0153",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_position_determinant",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0154",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_position_eigenvalue_1",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0155",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_position_eigenvalue_2",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0156",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_position_orientation",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0157",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_position_trace",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0158",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_separation_variance",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0159",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C7",
+    "name": "s32_var_receive_w",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0216",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "area_orientation_change",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0217",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_H1_uu",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0218",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_H1_uv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0219",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_H1_vv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0220",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_H2_uu",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0221",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_H2_uv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0222",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_H2_vv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0223",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_J11",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0224",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_J12",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0225",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_J21",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0226",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_J22",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0227",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_anisotropy",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0228",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_area_ratio",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0229",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_orientation",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0230",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "final_second_order_norm",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0231",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "maximum_anisotropy",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0232",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "maximum_area_ratio",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0233",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "maximum_orientation",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0234",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "maximum_second_order_norm",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0235",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "mean_H1_uu",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0236",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "mean_H1_uv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0237",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "mean_H1_vv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0238",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "mean_H2_uu",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0239",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "mean_H2_uv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0240",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "mean_H2_vv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0241",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "mean_J11",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0242",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "mean_J12",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0243",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "mean_J21",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0244",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "mean_J22",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0245",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "minimum_anisotropy",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0246",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "minimum_area_ratio",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0247",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "minimum_orientation",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0248",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "minimum_second_order_norm",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0249",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "rms_H1_uu",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0250",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "rms_H1_uv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0251",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "rms_H1_vv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0252",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "rms_H2_uu",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0253",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "rms_H2_uv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0254",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "rms_H2_vv",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0255",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "rms_J11",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0256",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "rms_J12",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0257",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "rms_J21",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0258",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C8",
+    "name": "rms_J22",
+    "retention": "KEEP_DIRECT"
+  },
+  {
+    "channel_id": "DEV129_0259",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C9",
+    "name": "bundle_anisotropy_curvature_magnitude",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0260",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C9",
+    "name": "bundle_area_ratio_direction_dispersion",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0261",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C9",
+    "name": "direction_history_curvature_magnitude",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0262",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C9",
+    "name": "displacement_curvature_alignment",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0263",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C9",
+    "name": "displacement_direction_alignment",
+    "retention": "KEEP_RELATIONAL"
+  },
+  {
+    "channel_id": "DEV129_0264",
+    "evidence": "direct received/trajectory quantity or frozen structural relation",
+    "family": "C9",
+    "name": "path_excess_curvature_magnitude",
+    "retention": "KEEP_RELATIONAL"
+  }
+]

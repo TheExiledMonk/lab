@@ -1,0 +1,86 @@
+{
+  "all_stable": true,
+  "results": [
+    {
+      "classification": "STABLE_NATIVE_MODE",
+      "norm_conserved": true,
+      "polarization_structure_stable": true,
+      "propagation_rate_stable": true,
+      "systematic_vacuum_dissipation": false,
+      "wavelength": 4,
+      "wavelength_stable": true
+    },
+    {
+      "classification": "STABLE_NATIVE_MODE",
+      "norm_conserved": true,
+      "polarization_structure_stable": true,
+      "propagation_rate_stable": true,
+      "systematic_vacuum_dissipation": false,
+      "wavelength": 6,
+      "wavelength_stable": true
+    },
+    {
+      "classification": "STABLE_NATIVE_MODE",
+      "norm_conserved": true,
+      "polarization_structure_stable": true,
+      "propagation_rate_stable": true,
+      "systematic_vacuum_dissipation": false,
+      "wavelength": 8,
+      "wavelength_stable": true
+    },
+    {
+      "classification": "STABLE_NATIVE_MODE",
+      "norm_conserved": true,
+      "polarization_structure_stable": true,
+      "propagation_rate_stable": true,
+      "systematic_vacuum_dissipation": false,
+      "wavelength": 12,
+      "wavelength_stable": true
+    },
+    {
+      "classification": "STABLE_NATIVE_MODE",
+      "norm_conserved": true,
+      "polarization_structure_stable": true,
+      "propagation_rate_stable": true,
+      "systematic_vacuum_dissipation": false,
+      "wavelength": 16,
+      "wavelength_stable": true
+    },
+    {
+      "classification": "STABLE_NATIVE_MODE",
+      "norm_conserved": true,
+      "polarization_structure_stable": true,
+      "propagation_rate_stable": true,
+      "systematic_vacuum_dissipation": false,
+      "wavelength": 24,
+      "wavelength_stable": true
+    },
+    {
+      "classification": "STABLE_NATIVE_MODE",
+      "norm_conserved": true,
+      "polarization_structure_stable": true,
+      "propagation_rate_stable": true,
+      "systematic_vacuum_dissipation": false,
+      "wavelength": 32,
+      "wavelength_stable": true
+    },
+    {
+      "classification": "STABLE_NATIVE_MODE",
+      "norm_conserved": true,
+      "polarization_structure_stable": true,
+      "propagation_rate_stable": true,
+      "systematic_vacuum_dissipation": false,
+      "wavelength": 48,
+      "wavelength_stable": true
+    },
+    {
+      "classification": "STABLE_NATIVE_MODE",
+      "norm_conserved": true,
+      "polarization_structure_stable": true,
+      "propagation_rate_stable": true,
+      "systematic_vacuum_dissipation": false,
+      "wavelength": 64,
+      "wavelength_stable": true
+    }
+  ]
+}

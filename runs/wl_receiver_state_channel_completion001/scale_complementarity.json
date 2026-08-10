@@ -1,0 +1,80 @@
+[
+  {
+    "classification": "SCALE_DOMINANT",
+    "rank": {
+      "channel_count": 0,
+      "condition_number": null,
+      "effective_rank": 0.0,
+      "variance_dimension_95": 0,
+      "variance_dimension_99": 0
+    },
+    "reconstruction_from_smaller_median_r2": 0.0,
+    "retained_sample_count": 0,
+    "scale": 1
+  },
+  {
+    "classification": "SCALE_DOMINANT",
+    "rank": {
+      "channel_count": 0,
+      "condition_number": null,
+      "effective_rank": 0.0,
+      "variance_dimension_95": 0,
+      "variance_dimension_99": 0
+    },
+    "reconstruction_from_smaller_median_r2": 0.0,
+    "retained_sample_count": 0,
+    "scale": 2
+  },
+  {
+    "classification": "SCALE_DOMINANT",
+    "rank": {
+      "channel_count": 0,
+      "condition_number": null,
+      "effective_rank": 0.0,
+      "variance_dimension_95": 0,
+      "variance_dimension_99": 0
+    },
+    "reconstruction_from_smaller_median_r2": 0.0,
+    "retained_sample_count": 0,
+    "scale": 4
+  },
+  {
+    "classification": "SCALE_DOMINANT",
+    "rank": {
+      "channel_count": 0,
+      "condition_number": null,
+      "effective_rank": 0.0,
+      "variance_dimension_95": 0,
+      "variance_dimension_99": 0
+    },
+    "reconstruction_from_smaller_median_r2": 0.0,
+    "retained_sample_count": 0,
+    "scale": 8
+  },
+  {
+    "classification": "SCALE_DOMINANT",
+    "rank": {
+      "channel_count": 0,
+      "condition_number": null,
+      "effective_rank": 0.0,
+      "variance_dimension_95": 0,
+      "variance_dimension_99": 0
+    },
+    "reconstruction_from_smaller_median_r2": 0.0,
+    "retained_sample_count": 0,
+    "scale": 16
+  },
+  {
+    "classification": "SCALE_DOMINANT",
+    "rank": {
+      "channel_count": 0,
+      "condition_number": null,
+      "effective_rank": 0.0,
+      "variance_dimension_95": 0,
+      "variance_dimension_99": 0
+    },
+    "reconstruction_from_smaller_median_r2": 0.0,
+    "retained_sample_count": 0,
+    "scale": 32
+  }
+]

@@ -1,0 +1,383 @@
+{
+  "checks": {
+    "SD_structural_comparison_reported": true,
+    "anisotropic_stretch_test_passed": true,
+    "canonical_observer_unchanged": true,
+    "current_r4_unchanged": true,
+    "dev119_unchanged": true,
+    "dev120_unchanged": true,
+    "dev121_unchanged": true,
+    "direct_vs_reconstruction_first_reported": true,
+    "dual_coordinates_preserved": true,
+    "earth_receiver_hypothesis_parked": true,
+    "first_order_reconstruction_created": true,
+    "five_checkpoints_valid": true,
+    "identity_transport_test_passed": true,
+    "information_rank_R0_reported": true,
+    "information_rank_R1_reported": true,
+    "information_rank_R2_reported": true,
+    "information_rank_R3_reported": true,
+    "information_rank_R4_reported": true,
+    "information_rank_R5_reported": true,
+    "information_rank_R6_reported": true,
+    "information_rank_R7_reported": true,
+    "isotropic_scale_test_passed": true,
+    "launch_identity_preserved": true,
+    "lens_cohort_separability_reported": true,
+    "max_external_variants_lte_20": true,
+    "mesh_reconstruction_created": true,
+    "no_gain_fit": true,
+    "no_patch_target_selection": true,
+    "no_rotation_fit": true,
+    "no_scale_target_selection": true,
+    "no_sign_fit": true,
+    "patch_multiscale_created": true,
+    "propagation_reopened_false": true,
+    "quadratic_warp_test_passed": true,
+    "raw_reconstruction_created": true,
+    "reconstructed_anisotropy_computed": true,
+    "reconstructed_area_computed": true,
+    "reconstructed_curvature_computed": true,
+    "reconstructed_orientation_computed": true,
+    "rotation_test_passed": true,
+    "second_order_reconstruction_created": true,
+    "structural_freeze_before_gamma": true,
+    "structural_freeze_before_lens_truth": true,
+    "structural_hash_reproducible": true,
+    "synthetic_patterns_target_blind": true,
+    "translation_test_passed": true,
+    "viewer_reconstruction_first_supported": true,
+    "zero_kde_executions": true,
+    "zero_propagation_runs": true
+  },
+  "direct_vs_reconstruction_first": {
+    "direct": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.01651316556371868,
+        "maximum": 0.1111979474538974,
+        "median": 0.07851197447243134,
+        "minimum": 0.06964613213258787
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.02266971856292005,
+        "maximum": 0.1453217044068256,
+        "median": 0.10080509488524202,
+        "minimum": 0.08467673296873593
+      }
+    },
+    "direct_candidate": "first_order_transport_control",
+    "improves_gamma1_median": false,
+    "improves_gamma2_median": true,
+    "no_material_minimum_regression": false,
+    "reconstruction_first": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.00440234185978966,
+        "maximum": 0.08981142222276844,
+        "median": 0.07505676031995942,
+        "minimum": 0.03301421234740548
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.05362180207027699,
+        "maximum": 0.17698299332112027,
+        "median": 0.11658723503248439,
+        "minimum": 0.05290042934234526
+      }
+    },
+    "reconstruction_first_candidate": "second_order_reconstructed_tensor",
+    "supported": false
+  },
+  "earth_receiver_hypothesis_parked": true,
+  "external_metrics_aggregate": {
+    "Dev120_bundle_Q_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.013777009895051907,
+        "maximum": 0.009698001002782295,
+        "median": -0.028745208150969724,
+        "minimum": -0.06738126253423987
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.017417874887201153,
+        "maximum": 0.054020712664417395,
+        "median": 0.032148180724279586,
+        "minimum": -0.0071109923578350125
+      }
+    },
+    "area_change_spin2": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.013702365534433943,
+        "maximum": 0.08333500764349099,
+        "median": 0.034251357417533504,
+        "minimum": -0.012362754624763448
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.01540273340577755,
+        "maximum": 0.03008349869170354,
+        "median": -0.0002015424128129557,
+        "minimum": -0.031129560803534663
+      }
+    },
+    "current_D_jacobian__tsc_3x3_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.02414340335968175,
+        "maximum": 0.19126536601231553,
+        "median": 0.13825557202787922,
+        "minimum": 0.09626603255127673
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.017111171046077456,
+        "maximum": 0.20242108305073303,
+        "median": 0.18444301108539854,
+        "minimum": 0.1282925350284782
+      }
+    },
+    "curvature_weighted_shape_spin2": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.003810285702618904,
+        "maximum": 0.08783126122488646,
+        "median": 0.07351881963138852,
+        "minimum": 0.03125195130595108
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.054945599752382765,
+        "maximum": 0.17892269260712604,
+        "median": 0.11685550447871348,
+        "minimum": 0.045463776269659
+      }
+    },
+    "first_order_reconstructed_tensor": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.012303055851672365,
+        "maximum": 0.09116130104362262,
+        "median": 0.07229710028271086,
+        "minimum": 0.04039957155176301
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.017934323543724734,
+        "maximum": 0.1343970253152727,
+        "median": 0.1016537656079272,
+        "minimum": 0.08438571051914445
+      }
+    },
+    "first_order_transport_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.01651316556371868,
+        "maximum": 0.1111979474538974,
+        "median": 0.07851197447243134,
+        "minimum": 0.06964613213258787
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.02266971856292005,
+        "maximum": 0.1453217044068256,
+        "median": 0.10080509488524202,
+        "minimum": 0.08467673296873593
+      }
+    },
+    "mesh_transport_spin2": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.0276933139662174,
+        "maximum": -0.00811661844335372,
+        "median": -0.02405795760871507,
+        "minimum": -0.12277889009498828
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.007808451165974145,
+        "maximum": 0.10716644661971261,
+        "median": 0.06505430080560062,
+        "minimum": 0.052800783385746584
+      }
+    },
+    "orientation_change_spin2": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.016401329588994436,
+        "maximum": -0.011367232788399724,
+        "median": -0.05215424895015628,
+        "minimum": -0.10581002112568734
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.01211314967033783,
+        "maximum": 0.04395782667420504,
+        "median": -0.00500932450754045,
+        "minimum": -0.04043230532741346
+      }
+    },
+    "patch_scale_16": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.004180971553912768,
+        "maximum": 0.13937706854483947,
+        "median": 0.11442353208016481,
+        "minimum": 0.06518059137760648
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.025180907497167088,
+        "maximum": 0.20392883793317615,
+        "median": 0.1763617768471587,
+        "minimum": 0.13684879932852034
+      }
+    },
+    "patch_scale_2": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.012458384847277404,
+        "maximum": 0.09033059448332438,
+        "median": 0.07478731805008468,
+        "minimum": 0.04040633368133032
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.018998574368618376,
+        "maximum": 0.13287483954250306,
+        "median": 0.10051464429668056,
+        "minimum": 0.0870622682234153
+      }
+    },
+    "patch_scale_4": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.012123370432106206,
+        "maximum": 0.0942627135806982,
+        "median": 0.07290146713127653,
+        "minimum": 0.03835267692701863
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.0196165354122185,
+        "maximum": 0.13840576784854017,
+        "median": 0.10523682346996481,
+        "minimum": 0.08880248933209835
+      }
+    },
+    "patch_scale_8": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.007856516591959614,
+        "maximum": 0.10467600858782176,
+        "median": 0.07879893569544925,
+        "minimum": 0.040371438436287044
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.021137161572960472,
+        "maximum": 0.15400935557653622,
+        "median": 0.11987488383652921,
+        "minimum": 0.09773463918437789
+      }
+    },
+    "raw_transport_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.020332705325984496,
+        "maximum": -0.002480009659949616,
+        "median": -0.048609830054729,
+        "minimum": -0.11144101977361326
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.04246647249529514,
+        "maximum": 0.022158111260316582,
+        "median": -0.017408412805399617,
+        "minimum": -0.08648290784150542
+      }
+    },
+    "reconstructed_D_associated_geometry": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.01028762292905841,
+        "maximum": 0.0968110227762231,
+        "median": 0.05954858191431249,
+        "minimum": -0.016719216768657928
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.03402543060413682,
+        "maximum": 0.15623935050962284,
+        "median": 0.11651974485657451,
+        "minimum": 0.0758741244002766
+      }
+    },
+    "reconstructed_S_associated_geometry": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.011222821000182556,
+        "maximum": 0.07029373718123816,
+        "median": 0.05349025020855654,
+        "minimum": 0.02829419723085037
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.014699608390918793,
+        "maximum": 0.12569572299915316,
+        "median": 0.06520867200062504,
+        "minimum": 0.05536963487129424
+      }
+    },
+    "reconstructed_shape_spin2": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.012303055851672365,
+        "maximum": 0.09116130104362262,
+        "median": 0.07229710028271086,
+        "minimum": 0.04039957155176301
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.017934323543724734,
+        "maximum": 0.1343970253152727,
+        "median": 0.1016537656079272,
+        "minimum": 0.08438571051914445
+      }
+    },
+    "second_order_reconstructed_tensor": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.00440234185978966,
+        "maximum": 0.08981142222276844,
+        "median": 0.07505676031995942,
+        "minimum": 0.03301421234740548
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.05362180207027699,
+        "maximum": 0.17698299332112027,
+        "median": 0.11658723503248439,
+        "minimum": 0.05290042934234526
+      }
+    },
+    "second_order_transport_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.016253564134945844,
+        "maximum": 0.04203428584768027,
+        "median": -0.007318606806268115,
+        "minimum": -0.04602471489562181
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.006981003011699204,
+        "maximum": 0.039407377915300155,
+        "median": 0.0137814793624606,
+        "minimum": -0.02587785897193932
+      }
+    }
+  },
+  "external_variant_count": 18,
+  "information_collapse": {
+    "per_cluster": {
+      "Abell2744": {
+        "after": 7,
+        "before": 29
+      },
+      "Abell370": {
+        "after": 7,
+        "before": 29
+      },
+      "AbellS1063": {
+        "after": 7,
+        "before": 29
+      },
+      "MACS0416": {
+        "after": 7,
+        "before": 29
+      },
+      "MACS1149": {
+        "after": 7,
+        "before": 29
+      }
+    },
+    "stage": "R3_second_order_transport -> R4_reconstructed_transport_bank"
+  },
+  "kde_executions": 0,
+  "lab_id": "PBUF-FOUNDATION-WL-RECONSTRUCTION-FIRST-DECODE-001",
+  "outcome": "WL_SECOND_ORDER_RECONSTRUCTION_ADVANTAGE_ESTABLISHED",
+  "propagation_runs": 0,
+  "runtime_seconds": 13.524380445480347,
+  "second_order_external_advantage": true,
+  "secondary_outcomes": [
+    "SECOND_ORDER_RECONSTRUCTION_ADVANTAGE",
+    "WL_RECONSTRUCTED_GEOMETRY_INFORMATION_ADVANTAGE_ESTABLISHED",
+    "WL_TRANSPORT_INFORMATION_COLLAPSE_STAGE_IDENTIFIED",
+    "WL_RECONSTRUCTION_FIRST_SHEAR_REMAINS_UNRESOLVED"
+  ],
+  "structural_sha256": "d6838decc990d3bd8f5eeee46c3d78c54e3c07136d19f1729ce130497e5f7b70"
+}

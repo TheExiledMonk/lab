@@ -1,0 +1,18 @@
+{
+  "absorption_discrete": false,
+  "box_quantization_rejected": true,
+  "contract": "PBUF_NATIVE_INTERACTION_QUANTIZATION_V1",
+  "emission_discrete": false,
+  "fractional_incident_packets_allowed": true,
+  "free_propagation_continuous": true,
+  "grid_quantization_rejected": true,
+  "interaction_quantization_established": false,
+  "localized_states_discrete": false,
+  "nonlinear_quantization": false,
+  "quantization_location": "QL10 no quantization in current localized physics",
+  "source_boundary_quantization": false,
+  "subthreshold_accumulation_behavior": "UNRESOLVED",
+  "topological_quantization": false,
+  "transition_norm_conserved": false,
+  "transition_norm_defined": true
+}

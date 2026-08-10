@@ -1,0 +1,7 @@
+{
+  "X11_X13_attempted": true,
+  "beta_measured": false,
+  "existing_response_channels_are_not_excitation_states": true,
+  "native_dynamics_executed": false,
+  "reason": "No native local excitation update, internal-state evolution, or loaded packet transfer law exists."
+}

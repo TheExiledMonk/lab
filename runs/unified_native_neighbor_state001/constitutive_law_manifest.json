@@ -1,0 +1,124 @@
+{
+  "C01_C20": [
+    {
+      "attempted": true,
+      "id": "C01",
+      "name": "magnitude-only bond energy",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C02",
+      "name": "longitudinal + transverse quadratic norm",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C03",
+      "name": "bounded longitudinal + linear transverse",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C04",
+      "name": "bounded full-vector bond deformation",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C05",
+      "name": "separation/orientation energy",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C06",
+      "name": "symmetric/antisymmetric state energy",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C07",
+      "name": "tension-derived transverse stiffness",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C08",
+      "name": "local tangent-stiffness state",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "C09",
+      "name": "bond-length-dependent transverse transfer",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C10",
+      "name": "geometry-only neighbor interaction",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "C11",
+      "name": "conserved pair-state norm",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C12",
+      "name": "constrained state-manifold law",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "C13",
+      "name": "orientation-compatibility law",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "C14",
+      "name": "reciprocal push/pull law",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C15",
+      "name": "finite-capacity neighbor-state law",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C16",
+      "name": "nonlinear geometric law",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "C17",
+      "name": "pre-tensioned vector-bond law",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C18",
+      "name": "shared state with separate static/dynamic limits",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "C19",
+      "name": "underdetermined family",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "C20",
+      "name": "no coefficient-free unified law",
+      "status": "FALSIFIED"
+    }
+  ]
+}

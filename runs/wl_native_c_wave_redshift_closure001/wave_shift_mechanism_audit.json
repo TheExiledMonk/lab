@@ -1,0 +1,77 @@
+{
+  "all_12_attempted": true,
+  "mechanisms": [
+    {
+      "mechanism_id": "W01",
+      "name": "evolving medium state along path",
+      "status": "MISSING_REQUIRED_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W02",
+      "name": "local medium loading",
+      "status": "DERIVABLE_FROM_EXISTING_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W03",
+      "name": "accumulated medium response",
+      "status": "DERIVABLE_FROM_EXISTING_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W04",
+      "name": "trajectory curvature",
+      "status": "DERIVABLE_FROM_EXISTING_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W05",
+      "name": "path-length evolution",
+      "status": "DERIVABLE_FROM_EXISTING_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W06",
+      "name": "source/receiver relative motion",
+      "status": "MISSING_REQUIRED_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W07",
+      "name": "local propagation-rate variation",
+      "status": "MISSING_REQUIRED_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W08",
+      "name": "time-dependent constitutive state",
+      "status": "MISSING_REQUIRED_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W09",
+      "name": "neighbor-state transfer history",
+      "status": "DERIVABLE_FROM_EXISTING_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W10",
+      "name": "interaction entry/exit",
+      "status": "DERIVABLE_FROM_EXISTING_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W11",
+      "name": "homogeneous expansion-like evolution",
+      "status": "MISSING_REQUIRED_STATE",
+      "wave_shift_law_established": false
+    },
+    {
+      "mechanism_id": "W12",
+      "name": "other wave-state operators",
+      "status": "NOT_SUPPORTED",
+      "wave_shift_law_established": false
+    }
+  ]
+}

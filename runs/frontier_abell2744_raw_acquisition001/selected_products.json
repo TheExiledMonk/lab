@@ -1,0 +1,2790 @@
+{
+  "products": [
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jb5g08yxq_flc.fits",
+      "obsid": "24086696",
+      "product_uri": "mast:HST/product/jb5g08yxq_flc.fits",
+      "rootname": "jb5g08yxq",
+      "size": 168330240
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jb5g08yxq_flt.fits",
+      "obsid": "24086696",
+      "product_uri": "mast:HST/product/jb5g08yxq_flt.fits",
+      "rootname": "jb5g08yxq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jb5g08yxq_raw.fits",
+      "obsid": "24086696",
+      "product_uri": "mast:HST/product/jb5g08yxq_raw.fits",
+      "rootname": "jb5g08yxq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jb5g01h5q_flc.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01h5q_flc.fits",
+      "rootname": "jb5g01h5q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jb5g01h5q_flt.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01h5q_flt.fits",
+      "rootname": "jb5g01h5q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jb5g01h5q_raw.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01h5q_raw.fits",
+      "rootname": "jb5g01h5q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jb5g01h6q_flc.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01h6q_flc.fits",
+      "rootname": "jb5g01h6q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jb5g01h6q_flt.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01h6q_flt.fits",
+      "rootname": "jb5g01h6q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jb5g01h6q_raw.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01h6q_raw.fits",
+      "rootname": "jb5g01h6q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jb5g01h8q_flc.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01h8q_flc.fits",
+      "rootname": "jb5g01h8q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jb5g01h8q_flt.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01h8q_flt.fits",
+      "rootname": "jb5g01h8q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jb5g01h8q_raw.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01h8q_raw.fits",
+      "rootname": "jb5g01h8q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jb5g01haq_flc.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01haq_flc.fits",
+      "rootname": "jb5g01haq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jb5g01haq_flt.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01haq_flt.fits",
+      "rootname": "jb5g01haq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jb5g01haq_raw.fits",
+      "obsid": "24831672",
+      "product_uri": "mast:HST/product/jb5g01haq_raw.fits",
+      "rootname": "jb5g01haq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jb5g02hdq_flc.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02hdq_flc.fits",
+      "rootname": "jb5g02hdq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jb5g02hdq_flt.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02hdq_flt.fits",
+      "rootname": "jb5g02hdq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jb5g02hdq_raw.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02hdq_raw.fits",
+      "rootname": "jb5g02hdq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jb5g02heq_flc.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02heq_flc.fits",
+      "rootname": "jb5g02heq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jb5g02heq_flt.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02heq_flt.fits",
+      "rootname": "jb5g02heq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jb5g02heq_raw.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02heq_raw.fits",
+      "rootname": "jb5g02heq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jb5g02hgq_flc.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02hgq_flc.fits",
+      "rootname": "jb5g02hgq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jb5g02hgq_flt.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02hgq_flt.fits",
+      "rootname": "jb5g02hgq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jb5g02hgq_raw.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02hgq_raw.fits",
+      "rootname": "jb5g02hgq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jb5g02hiq_flc.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02hiq_flc.fits",
+      "rootname": "jb5g02hiq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jb5g02hiq_flt.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02hiq_flt.fits",
+      "rootname": "jb5g02hiq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jb5g02hiq_raw.fits",
+      "obsid": "24831673",
+      "product_uri": "mast:HST/product/jb5g02hiq_raw.fits",
+      "rootname": "jb5g02hiq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n38miq_flc.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38miq_flc.fits",
+      "rootname": "jc8n38miq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n38miq_flt.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38miq_flt.fits",
+      "rootname": "jc8n38miq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n38miq_raw.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38miq_raw.fits",
+      "rootname": "jc8n38miq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n38mkq_flc.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38mkq_flc.fits",
+      "rootname": "jc8n38mkq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n38mkq_flt.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38mkq_flt.fits",
+      "rootname": "jc8n38mkq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n38mkq_raw.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38mkq_raw.fits",
+      "rootname": "jc8n38mkq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n38moq_flc.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38moq_flc.fits",
+      "rootname": "jc8n38moq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n38moq_flt.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38moq_flt.fits",
+      "rootname": "jc8n38moq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n38moq_raw.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38moq_raw.fits",
+      "rootname": "jc8n38moq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n38mrq_flc.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38mrq_flc.fits",
+      "rootname": "jc8n38mrq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n38mrq_flt.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38mrq_flt.fits",
+      "rootname": "jc8n38mrq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n38mrq_raw.fits",
+      "obsid": "24837884",
+      "product_uri": "mast:HST/product/jc8n38mrq_raw.fits",
+      "rootname": "jc8n38mrq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n40y6q_flc.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40y6q_flc.fits",
+      "rootname": "jc8n40y6q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n40y6q_flt.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40y6q_flt.fits",
+      "rootname": "jc8n40y6q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n40y6q_raw.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40y6q_raw.fits",
+      "rootname": "jc8n40y6q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n40y8q_flc.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40y8q_flc.fits",
+      "rootname": "jc8n40y8q",
+      "size": 168500160
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n40y8q_flt.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40y8q_flt.fits",
+      "rootname": "jc8n40y8q",
+      "size": 168494400
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n40y8q_raw.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40y8q_raw.fits",
+      "rootname": "jc8n40y8q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n40ycq_flc.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40ycq_flc.fits",
+      "rootname": "jc8n40ycq",
+      "size": 168500160
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n40ycq_flt.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40ycq_flt.fits",
+      "rootname": "jc8n40ycq",
+      "size": 168494400
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n40ycq_raw.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40ycq_raw.fits",
+      "rootname": "jc8n40ycq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n40yiq_flc.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40yiq_flc.fits",
+      "rootname": "jc8n40yiq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n40yiq_flt.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40yiq_flt.fits",
+      "rootname": "jc8n40yiq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n40yiq_raw.fits",
+      "obsid": "24837885",
+      "product_uri": "mast:HST/product/jc8n40yiq_raw.fits",
+      "rootname": "jc8n40yiq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n45brq_flc.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45brq_flc.fits",
+      "rootname": "jc8n45brq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n45brq_flt.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45brq_flt.fits",
+      "rootname": "jc8n45brq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n45brq_raw.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45brq_raw.fits",
+      "rootname": "jc8n45brq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n45btq_flc.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45btq_flc.fits",
+      "rootname": "jc8n45btq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n45btq_flt.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45btq_flt.fits",
+      "rootname": "jc8n45btq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n45btq_raw.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45btq_raw.fits",
+      "rootname": "jc8n45btq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n45bxq_flc.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45bxq_flc.fits",
+      "rootname": "jc8n45bxq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n45bxq_flt.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45bxq_flt.fits",
+      "rootname": "jc8n45bxq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n45bxq_raw.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45bxq_raw.fits",
+      "rootname": "jc8n45bxq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n45c0q_flc.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45c0q_flc.fits",
+      "rootname": "jc8n45c0q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n45c0q_flt.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45c0q_flt.fits",
+      "rootname": "jc8n45c0q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n45c0q_raw.fits",
+      "obsid": "24837886",
+      "product_uri": "mast:HST/product/jc8n45c0q_raw.fits",
+      "rootname": "jc8n45c0q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n50c8q_flc.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50c8q_flc.fits",
+      "rootname": "jc8n50c8q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n50c8q_flt.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50c8q_flt.fits",
+      "rootname": "jc8n50c8q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n50c8q_raw.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50c8q_raw.fits",
+      "rootname": "jc8n50c8q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n50caq_flc.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50caq_flc.fits",
+      "rootname": "jc8n50caq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n50caq_flt.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50caq_flt.fits",
+      "rootname": "jc8n50caq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n50caq_raw.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50caq_raw.fits",
+      "rootname": "jc8n50caq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n50ceq_flc.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50ceq_flc.fits",
+      "rootname": "jc8n50ceq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n50ceq_flt.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50ceq_flt.fits",
+      "rootname": "jc8n50ceq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n50ceq_raw.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50ceq_raw.fits",
+      "rootname": "jc8n50ceq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n50ckq_flc.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50ckq_flc.fits",
+      "rootname": "jc8n50ckq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n50ckq_flt.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50ckq_flt.fits",
+      "rootname": "jc8n50ckq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n50ckq_raw.fits",
+      "obsid": "24837887",
+      "product_uri": "mast:HST/product/jc8n50ckq_raw.fits",
+      "rootname": "jc8n50ckq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n51hfq_flc.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hfq_flc.fits",
+      "rootname": "jc8n51hfq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n51hfq_flt.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hfq_flt.fits",
+      "rootname": "jc8n51hfq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n51hfq_raw.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hfq_raw.fits",
+      "rootname": "jc8n51hfq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n51hhq_flc.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hhq_flc.fits",
+      "rootname": "jc8n51hhq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n51hhq_flt.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hhq_flt.fits",
+      "rootname": "jc8n51hhq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n51hhq_raw.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hhq_raw.fits",
+      "rootname": "jc8n51hhq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n51hlq_flc.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hlq_flc.fits",
+      "rootname": "jc8n51hlq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n51hlq_flt.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hlq_flt.fits",
+      "rootname": "jc8n51hlq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n51hlq_raw.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hlq_raw.fits",
+      "rootname": "jc8n51hlq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n51hoq_flc.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hoq_flc.fits",
+      "rootname": "jc8n51hoq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n51hoq_flt.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hoq_flt.fits",
+      "rootname": "jc8n51hoq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n51hoq_raw.fits",
+      "obsid": "24837888",
+      "product_uri": "mast:HST/product/jc8n51hoq_raw.fits",
+      "rootname": "jc8n51hoq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n55abq_flc.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55abq_flc.fits",
+      "rootname": "jc8n55abq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n55abq_flt.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55abq_flt.fits",
+      "rootname": "jc8n55abq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n55abq_raw.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55abq_raw.fits",
+      "rootname": "jc8n55abq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n55aeq_flc.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55aeq_flc.fits",
+      "rootname": "jc8n55aeq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n55aeq_flt.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55aeq_flt.fits",
+      "rootname": "jc8n55aeq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n55aeq_raw.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55aeq_raw.fits",
+      "rootname": "jc8n55aeq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n55b6q_flc.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55b6q_flc.fits",
+      "rootname": "jc8n55b6q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n55b6q_flt.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55b6q_flt.fits",
+      "rootname": "jc8n55b6q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n55b6q_raw.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55b6q_raw.fits",
+      "rootname": "jc8n55b6q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n55b9q_flc.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55b9q_flc.fits",
+      "rootname": "jc8n55b9q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n55b9q_flt.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55b9q_flt.fits",
+      "rootname": "jc8n55b9q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n55b9q_raw.fits",
+      "obsid": "24837889",
+      "product_uri": "mast:HST/product/jc8n55b9q_raw.fits",
+      "rootname": "jc8n55b9q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n60blq_flc.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60blq_flc.fits",
+      "rootname": "jc8n60blq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n60blq_flt.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60blq_flt.fits",
+      "rootname": "jc8n60blq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n60blq_raw.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60blq_raw.fits",
+      "rootname": "jc8n60blq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n60bnq_flc.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60bnq_flc.fits",
+      "rootname": "jc8n60bnq",
+      "size": 168500160
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n60bnq_flt.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60bnq_flt.fits",
+      "rootname": "jc8n60bnq",
+      "size": 168494400
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n60bnq_raw.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60bnq_raw.fits",
+      "rootname": "jc8n60bnq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n60brq_flc.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60brq_flc.fits",
+      "rootname": "jc8n60brq",
+      "size": 168500160
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n60brq_flt.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60brq_flt.fits",
+      "rootname": "jc8n60brq",
+      "size": 168494400
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n60brq_raw.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60brq_raw.fits",
+      "rootname": "jc8n60brq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n60buq_flc.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60buq_flc.fits",
+      "rootname": "jc8n60buq",
+      "size": 168500160
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n60buq_flt.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60buq_flt.fits",
+      "rootname": "jc8n60buq",
+      "size": 168494400
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n60buq_raw.fits",
+      "obsid": "24837890",
+      "product_uri": "mast:HST/product/jc8n60buq_raw.fits",
+      "rootname": "jc8n60buq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n63ejq_flc.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63ejq_flc.fits",
+      "rootname": "jc8n63ejq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n63ejq_flt.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63ejq_flt.fits",
+      "rootname": "jc8n63ejq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n63ejq_raw.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63ejq_raw.fits",
+      "rootname": "jc8n63ejq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n63elq_flc.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63elq_flc.fits",
+      "rootname": "jc8n63elq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n63elq_flt.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63elq_flt.fits",
+      "rootname": "jc8n63elq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n63elq_raw.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63elq_raw.fits",
+      "rootname": "jc8n63elq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n63epq_flc.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63epq_flc.fits",
+      "rootname": "jc8n63epq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n63epq_flt.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63epq_flt.fits",
+      "rootname": "jc8n63epq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n63epq_raw.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63epq_raw.fits",
+      "rootname": "jc8n63epq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n63esq_flc.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63esq_flc.fits",
+      "rootname": "jc8n63esq",
+      "size": 168500160
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n63esq_flt.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63esq_flt.fits",
+      "rootname": "jc8n63esq",
+      "size": 168494400
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n63esq_raw.fits",
+      "obsid": "24837891",
+      "product_uri": "mast:HST/product/jc8n63esq_raw.fits",
+      "rootname": "jc8n63esq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n65eyq_flc.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65eyq_flc.fits",
+      "rootname": "jc8n65eyq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n65eyq_flt.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65eyq_flt.fits",
+      "rootname": "jc8n65eyq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n65eyq_raw.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65eyq_raw.fits",
+      "rootname": "jc8n65eyq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n65f3q_flc.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65f3q_flc.fits",
+      "rootname": "jc8n65f3q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n65f3q_flt.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65f3q_flt.fits",
+      "rootname": "jc8n65f3q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n65f3q_raw.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65f3q_raw.fits",
+      "rootname": "jc8n65f3q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n65fcq_flc.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65fcq_flc.fits",
+      "rootname": "jc8n65fcq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n65fcq_flt.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65fcq_flt.fits",
+      "rootname": "jc8n65fcq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n65fcq_raw.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65fcq_raw.fits",
+      "rootname": "jc8n65fcq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n65g2q_flc.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65g2q_flc.fits",
+      "rootname": "jc8n65g2q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n65g2q_flt.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65g2q_flt.fits",
+      "rootname": "jc8n65g2q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n65g2q_raw.fits",
+      "obsid": "24837892",
+      "product_uri": "mast:HST/product/jc8n65g2q_raw.fits",
+      "rootname": "jc8n65g2q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n81r9q_flc.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81r9q_flc.fits",
+      "rootname": "jc8n81r9q",
+      "size": 168503040
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n81r9q_flt.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81r9q_flt.fits",
+      "rootname": "jc8n81r9q",
+      "size": 168494400
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n81r9q_raw.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81r9q_raw.fits",
+      "rootname": "jc8n81r9q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n81rnq_flc.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81rnq_flc.fits",
+      "rootname": "jc8n81rnq",
+      "size": 168503040
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n81rnq_flt.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81rnq_flt.fits",
+      "rootname": "jc8n81rnq",
+      "size": 168494400
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n81rnq_raw.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81rnq_raw.fits",
+      "rootname": "jc8n81rnq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n81rvq_flc.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81rvq_flc.fits",
+      "rootname": "jc8n81rvq",
+      "size": 168503040
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n81rvq_flt.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81rvq_flt.fits",
+      "rootname": "jc8n81rvq",
+      "size": 168494400
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n81rvq_raw.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81rvq_raw.fits",
+      "rootname": "jc8n81rvq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n81s4q_flc.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81s4q_flc.fits",
+      "rootname": "jc8n81s4q",
+      "size": 167952960
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n81s4q_flt.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81s4q_flt.fits",
+      "rootname": "jc8n81s4q",
+      "size": 167950080
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n81s4q_raw.fits",
+      "obsid": "24837895",
+      "product_uri": "mast:HST/product/jc8n81s4q_raw.fits",
+      "rootname": "jc8n81s4q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n82dzq_flc.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82dzq_flc.fits",
+      "rootname": "jc8n82dzq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n82dzq_flt.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82dzq_flt.fits",
+      "rootname": "jc8n82dzq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n82dzq_raw.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82dzq_raw.fits",
+      "rootname": "jc8n82dzq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n82e6q_flc.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82e6q_flc.fits",
+      "rootname": "jc8n82e6q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n82e6q_flt.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82e6q_flt.fits",
+      "rootname": "jc8n82e6q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n82e6q_raw.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82e6q_raw.fits",
+      "rootname": "jc8n82e6q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n82elq_flc.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82elq_flc.fits",
+      "rootname": "jc8n82elq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n82elq_flt.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82elq_flt.fits",
+      "rootname": "jc8n82elq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n82elq_raw.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82elq_raw.fits",
+      "rootname": "jc8n82elq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n82fdq_flc.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82fdq_flc.fits",
+      "rootname": "jc8n82fdq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n82fdq_flt.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82fdq_flt.fits",
+      "rootname": "jc8n82fdq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n82fdq_raw.fits",
+      "obsid": "24837897",
+      "product_uri": "mast:HST/product/jc8n82fdq_raw.fits",
+      "rootname": "jc8n82fdq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n83req_flc.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83req_flc.fits",
+      "rootname": "jc8n83req",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n83req_flt.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83req_flt.fits",
+      "rootname": "jc8n83req",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n83req_raw.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83req_raw.fits",
+      "rootname": "jc8n83req",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n83rlq_flc.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83rlq_flc.fits",
+      "rootname": "jc8n83rlq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n83rlq_flt.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83rlq_flt.fits",
+      "rootname": "jc8n83rlq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n83rlq_raw.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83rlq_raw.fits",
+      "rootname": "jc8n83rlq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n83rzq_flc.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83rzq_flc.fits",
+      "rootname": "jc8n83rzq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n83rzq_flt.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83rzq_flt.fits",
+      "rootname": "jc8n83rzq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n83rzq_raw.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83rzq_raw.fits",
+      "rootname": "jc8n83rzq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n83t0q_flc.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83t0q_flc.fits",
+      "rootname": "jc8n83t0q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n83t0q_flt.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83t0q_flt.fits",
+      "rootname": "jc8n83t0q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n83t0q_raw.fits",
+      "obsid": "24837899",
+      "product_uri": "mast:HST/product/jc8n83t0q_raw.fits",
+      "rootname": "jc8n83t0q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n91afq_flc.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91afq_flc.fits",
+      "rootname": "jc8n91afq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n91afq_flt.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91afq_flt.fits",
+      "rootname": "jc8n91afq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n91afq_raw.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91afq_raw.fits",
+      "rootname": "jc8n91afq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n91amq_flc.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91amq_flc.fits",
+      "rootname": "jc8n91amq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n91amq_flt.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91amq_flt.fits",
+      "rootname": "jc8n91amq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n91amq_raw.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91amq_raw.fits",
+      "rootname": "jc8n91amq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n91auq_flc.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91auq_flc.fits",
+      "rootname": "jc8n91auq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n91auq_flt.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91auq_flt.fits",
+      "rootname": "jc8n91auq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n91auq_raw.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91auq_raw.fits",
+      "rootname": "jc8n91auq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n91bxq_flc.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91bxq_flc.fits",
+      "rootname": "jc8n91bxq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n91bxq_flt.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91bxq_flt.fits",
+      "rootname": "jc8n91bxq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n91bxq_raw.fits",
+      "obsid": "24837901",
+      "product_uri": "mast:HST/product/jc8n91bxq_raw.fits",
+      "rootname": "jc8n91bxq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n92ncq_flc.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92ncq_flc.fits",
+      "rootname": "jc8n92ncq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n92ncq_flt.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92ncq_flt.fits",
+      "rootname": "jc8n92ncq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n92ncq_raw.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92ncq_raw.fits",
+      "rootname": "jc8n92ncq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n92njq_flc.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92njq_flc.fits",
+      "rootname": "jc8n92njq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n92njq_flt.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92njq_flt.fits",
+      "rootname": "jc8n92njq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n92njq_raw.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92njq_raw.fits",
+      "rootname": "jc8n92njq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n92nrq_flc.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92nrq_flc.fits",
+      "rootname": "jc8n92nrq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n92nrq_flt.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92nrq_flt.fits",
+      "rootname": "jc8n92nrq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n92nrq_raw.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92nrq_raw.fits",
+      "rootname": "jc8n92nrq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n92nyq_flc.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92nyq_flc.fits",
+      "rootname": "jc8n92nyq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n92nyq_flt.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92nyq_flt.fits",
+      "rootname": "jc8n92nyq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n92nyq_raw.fits",
+      "obsid": "24837903",
+      "product_uri": "mast:HST/product/jc8n92nyq_raw.fits",
+      "rootname": "jc8n92nyq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n93a7q_flc.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93a7q_flc.fits",
+      "rootname": "jc8n93a7q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n93a7q_flt.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93a7q_flt.fits",
+      "rootname": "jc8n93a7q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n93a7q_raw.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93a7q_raw.fits",
+      "rootname": "jc8n93a7q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n93afq_flc.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93afq_flc.fits",
+      "rootname": "jc8n93afq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n93afq_flt.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93afq_flt.fits",
+      "rootname": "jc8n93afq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n93afq_raw.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93afq_raw.fits",
+      "rootname": "jc8n93afq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n93amq_flc.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93amq_flc.fits",
+      "rootname": "jc8n93amq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n93amq_flt.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93amq_flt.fits",
+      "rootname": "jc8n93amq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n93amq_raw.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93amq_raw.fits",
+      "rootname": "jc8n93amq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n93zzq_flc.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93zzq_flc.fits",
+      "rootname": "jc8n93zzq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n93zzq_flt.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93zzq_flt.fits",
+      "rootname": "jc8n93zzq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n93zzq_raw.fits",
+      "obsid": "24837905",
+      "product_uri": "mast:HST/product/jc8n93zzq_raw.fits",
+      "rootname": "jc8n93zzq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n94d4q_flc.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94d4q_flc.fits",
+      "rootname": "jc8n94d4q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n94d4q_flt.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94d4q_flt.fits",
+      "rootname": "jc8n94d4q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n94d4q_raw.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94d4q_raw.fits",
+      "rootname": "jc8n94d4q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n94dbq_flc.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94dbq_flc.fits",
+      "rootname": "jc8n94dbq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n94dbq_flt.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94dbq_flt.fits",
+      "rootname": "jc8n94dbq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n94dbq_raw.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94dbq_raw.fits",
+      "rootname": "jc8n94dbq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n94djq_flc.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94djq_flc.fits",
+      "rootname": "jc8n94djq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n94djq_flt.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94djq_flt.fits",
+      "rootname": "jc8n94djq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n94djq_raw.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94djq_raw.fits",
+      "rootname": "jc8n94djq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n94dqq_flc.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94dqq_flc.fits",
+      "rootname": "jc8n94dqq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n94dqq_flt.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94dqq_flt.fits",
+      "rootname": "jc8n94dqq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n94dqq_raw.fits",
+      "obsid": "24837907",
+      "product_uri": "mast:HST/product/jc8n94dqq_raw.fits",
+      "rootname": "jc8n94dqq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n95wlq_flc.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95wlq_flc.fits",
+      "rootname": "jc8n95wlq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n95wlq_flt.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95wlq_flt.fits",
+      "rootname": "jc8n95wlq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n95wlq_raw.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95wlq_raw.fits",
+      "rootname": "jc8n95wlq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n95wsq_flc.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95wsq_flc.fits",
+      "rootname": "jc8n95wsq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n95wsq_flt.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95wsq_flt.fits",
+      "rootname": "jc8n95wsq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n95wsq_raw.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95wsq_raw.fits",
+      "rootname": "jc8n95wsq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n95x0q_flc.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95x0q_flc.fits",
+      "rootname": "jc8n95x0q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n95x0q_flt.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95x0q_flt.fits",
+      "rootname": "jc8n95x0q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n95x0q_raw.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95x0q_raw.fits",
+      "rootname": "jc8n95x0q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n95x7q_flc.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95x7q_flc.fits",
+      "rootname": "jc8n95x7q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n95x7q_flt.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95x7q_flt.fits",
+      "rootname": "jc8n95x7q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n95x7q_raw.fits",
+      "obsid": "24837909",
+      "product_uri": "mast:HST/product/jc8n95x7q_raw.fits",
+      "rootname": "jc8n95x7q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n96eoq_flc.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96eoq_flc.fits",
+      "rootname": "jc8n96eoq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n96eoq_flt.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96eoq_flt.fits",
+      "rootname": "jc8n96eoq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n96eoq_raw.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96eoq_raw.fits",
+      "rootname": "jc8n96eoq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n96evq_flc.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96evq_flc.fits",
+      "rootname": "jc8n96evq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n96evq_flt.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96evq_flt.fits",
+      "rootname": "jc8n96evq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n96evq_raw.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96evq_raw.fits",
+      "rootname": "jc8n96evq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n96f3q_flc.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96f3q_flc.fits",
+      "rootname": "jc8n96f3q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n96f3q_flt.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96f3q_flt.fits",
+      "rootname": "jc8n96f3q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n96f3q_raw.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96f3q_raw.fits",
+      "rootname": "jc8n96f3q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n96faq_flc.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96faq_flc.fits",
+      "rootname": "jc8n96faq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n96faq_flt.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96faq_flt.fits",
+      "rootname": "jc8n96faq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n96faq_raw.fits",
+      "obsid": "24837911",
+      "product_uri": "mast:HST/product/jc8n96faq_raw.fits",
+      "rootname": "jc8n96faq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n97nvq_flc.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97nvq_flc.fits",
+      "rootname": "jc8n97nvq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n97nvq_flt.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97nvq_flt.fits",
+      "rootname": "jc8n97nvq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n97nvq_raw.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97nvq_raw.fits",
+      "rootname": "jc8n97nvq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n97o2q_flc.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97o2q_flc.fits",
+      "rootname": "jc8n97o2q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n97o2q_flt.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97o2q_flt.fits",
+      "rootname": "jc8n97o2q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n97o2q_raw.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97o2q_raw.fits",
+      "rootname": "jc8n97o2q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n97oaq_flc.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97oaq_flc.fits",
+      "rootname": "jc8n97oaq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n97oaq_flt.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97oaq_flt.fits",
+      "rootname": "jc8n97oaq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n97oaq_raw.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97oaq_raw.fits",
+      "rootname": "jc8n97oaq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n97ohq_flc.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97ohq_flc.fits",
+      "rootname": "jc8n97ohq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n97ohq_flt.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97ohq_flt.fits",
+      "rootname": "jc8n97ohq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n97ohq_raw.fits",
+      "obsid": "24837913",
+      "product_uri": "mast:HST/product/jc8n97ohq_raw.fits",
+      "rootname": "jc8n97ohq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n98jcq_flc.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jcq_flc.fits",
+      "rootname": "jc8n98jcq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n98jcq_flt.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jcq_flt.fits",
+      "rootname": "jc8n98jcq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n98jcq_raw.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jcq_raw.fits",
+      "rootname": "jc8n98jcq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n98jjq_flc.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jjq_flc.fits",
+      "rootname": "jc8n98jjq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n98jjq_flt.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jjq_flt.fits",
+      "rootname": "jc8n98jjq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n98jjq_raw.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jjq_raw.fits",
+      "rootname": "jc8n98jjq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n98jrq_flc.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jrq_flc.fits",
+      "rootname": "jc8n98jrq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n98jrq_flt.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jrq_flt.fits",
+      "rootname": "jc8n98jrq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n98jrq_raw.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jrq_raw.fits",
+      "rootname": "jc8n98jrq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n98jyq_flc.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jyq_flc.fits",
+      "rootname": "jc8n98jyq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n98jyq_flt.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jyq_flt.fits",
+      "rootname": "jc8n98jyq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n98jyq_raw.fits",
+      "obsid": "24837915",
+      "product_uri": "mast:HST/product/jc8n98jyq_raw.fits",
+      "rootname": "jc8n98jyq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n99ikq_flc.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99ikq_flc.fits",
+      "rootname": "jc8n99ikq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n99ikq_flt.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99ikq_flt.fits",
+      "rootname": "jc8n99ikq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n99ikq_raw.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99ikq_raw.fits",
+      "rootname": "jc8n99ikq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n99irq_flc.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99irq_flc.fits",
+      "rootname": "jc8n99irq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n99irq_flt.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99irq_flt.fits",
+      "rootname": "jc8n99irq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n99irq_raw.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99irq_raw.fits",
+      "rootname": "jc8n99irq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n99izq_flc.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99izq_flc.fits",
+      "rootname": "jc8n99izq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n99izq_flt.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99izq_flt.fits",
+      "rootname": "jc8n99izq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n99izq_raw.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99izq_raw.fits",
+      "rootname": "jc8n99izq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jc8n99j6q_flc.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99j6q_flc.fits",
+      "rootname": "jc8n99j6q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jc8n99j6q_flt.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99j6q_flt.fits",
+      "rootname": "jc8n99j6q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jc8n99j6q_raw.fits",
+      "obsid": "24837917",
+      "product_uri": "mast:HST/product/jc8n99j6q_raw.fits",
+      "rootname": "jc8n99j6q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jca9t1niq_flc.fits",
+      "obsid": "24838433",
+      "product_uri": "mast:HST/product/jca9t1niq_flc.fits",
+      "rootname": "jca9t1niq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jca9t1niq_flt.fits",
+      "obsid": "24838433",
+      "product_uri": "mast:HST/product/jca9t1niq_flt.fits",
+      "rootname": "jca9t1niq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jca9t1niq_raw.fits",
+      "obsid": "24838433",
+      "product_uri": "mast:HST/product/jca9t1niq_raw.fits",
+      "rootname": "jca9t1niq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jca9t1njq_flc.fits",
+      "obsid": "24838433",
+      "product_uri": "mast:HST/product/jca9t1njq_flc.fits",
+      "rootname": "jca9t1njq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jca9t1njq_flt.fits",
+      "obsid": "24838433",
+      "product_uri": "mast:HST/product/jca9t1njq_flt.fits",
+      "rootname": "jca9t1njq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jca9t1njq_raw.fits",
+      "obsid": "24838433",
+      "product_uri": "mast:HST/product/jca9t1njq_raw.fits",
+      "rootname": "jca9t1njq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jca9t1nyq_flc.fits",
+      "obsid": "24838433",
+      "product_uri": "mast:HST/product/jca9t1nyq_flc.fits",
+      "rootname": "jca9t1nyq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jca9t1nyq_flt.fits",
+      "obsid": "24838433",
+      "product_uri": "mast:HST/product/jca9t1nyq_flt.fits",
+      "rootname": "jca9t1nyq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jca9t1nyq_raw.fits",
+      "obsid": "24838433",
+      "product_uri": "mast:HST/product/jca9t1nyq_raw.fits",
+      "rootname": "jca9t1nyq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jca9t2nwq_flc.fits",
+      "obsid": "24838435",
+      "product_uri": "mast:HST/product/jca9t2nwq_flc.fits",
+      "rootname": "jca9t2nwq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jca9t2nwq_flt.fits",
+      "obsid": "24838435",
+      "product_uri": "mast:HST/product/jca9t2nwq_flt.fits",
+      "rootname": "jca9t2nwq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jca9t2nwq_raw.fits",
+      "obsid": "24838435",
+      "product_uri": "mast:HST/product/jca9t2nwq_raw.fits",
+      "rootname": "jca9t2nwq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jca9t2o5q_flc.fits",
+      "obsid": "24838435",
+      "product_uri": "mast:HST/product/jca9t2o5q_flc.fits",
+      "rootname": "jca9t2o5q",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jca9t2o5q_flt.fits",
+      "obsid": "24838435",
+      "product_uri": "mast:HST/product/jca9t2o5q_flt.fits",
+      "rootname": "jca9t2o5q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jca9t2o5q_raw.fits",
+      "obsid": "24838435",
+      "product_uri": "mast:HST/product/jca9t2o5q_raw.fits",
+      "rootname": "jca9t2o5q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jca9t2oeq_flc.fits",
+      "obsid": "24838435",
+      "product_uri": "mast:HST/product/jca9t2oeq_flc.fits",
+      "rootname": "jca9t2oeq",
+      "size": 168448320
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jca9t2oeq_flt.fits",
+      "obsid": "24838435",
+      "product_uri": "mast:HST/product/jca9t2oeq_flt.fits",
+      "rootname": "jca9t2oeq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jca9t2oeq_raw.fits",
+      "obsid": "24838435",
+      "product_uri": "mast:HST/product/jca9t2oeq_raw.fits",
+      "rootname": "jca9t2oeq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91kluq_flc.fits",
+      "obsid": "26229449",
+      "product_uri": "mast:HST/product/jdm91kluq_flc.fits",
+      "rootname": "jdm91kluq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91kluq_flt.fits",
+      "obsid": "26229449",
+      "product_uri": "mast:HST/product/jdm91kluq_flt.fits",
+      "rootname": "jdm91kluq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91kluq_raw.fits",
+      "obsid": "26229449",
+      "product_uri": "mast:HST/product/jdm91kluq_raw.fits",
+      "rootname": "jdm91kluq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91klzq_flc.fits",
+      "obsid": "26229449",
+      "product_uri": "mast:HST/product/jdm91klzq_flc.fits",
+      "rootname": "jdm91klzq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91klzq_flt.fits",
+      "obsid": "26229449",
+      "product_uri": "mast:HST/product/jdm91klzq_flt.fits",
+      "rootname": "jdm91klzq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91klzq_raw.fits",
+      "obsid": "26229449",
+      "product_uri": "mast:HST/product/jdm91klzq_raw.fits",
+      "rootname": "jdm91klzq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91jkeq_flc.fits",
+      "obsid": "26229454",
+      "product_uri": "mast:HST/product/jdm91jkeq_flc.fits",
+      "rootname": "jdm91jkeq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91jkeq_flt.fits",
+      "obsid": "26229454",
+      "product_uri": "mast:HST/product/jdm91jkeq_flt.fits",
+      "rootname": "jdm91jkeq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91jkeq_raw.fits",
+      "obsid": "26229454",
+      "product_uri": "mast:HST/product/jdm91jkeq_raw.fits",
+      "rootname": "jdm91jkeq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91jkmq_flc.fits",
+      "obsid": "26229454",
+      "product_uri": "mast:HST/product/jdm91jkmq_flc.fits",
+      "rootname": "jdm91jkmq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91jkmq_flt.fits",
+      "obsid": "26229454",
+      "product_uri": "mast:HST/product/jdm91jkmq_flt.fits",
+      "rootname": "jdm91jkmq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91jkmq_raw.fits",
+      "obsid": "26229454",
+      "product_uri": "mast:HST/product/jdm91jkmq_raw.fits",
+      "rootname": "jdm91jkmq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91ijwq_flc.fits",
+      "obsid": "26229457",
+      "product_uri": "mast:HST/product/jdm91ijwq_flc.fits",
+      "rootname": "jdm91ijwq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91ijwq_flt.fits",
+      "obsid": "26229457",
+      "product_uri": "mast:HST/product/jdm91ijwq_flt.fits",
+      "rootname": "jdm91ijwq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91ijwq_raw.fits",
+      "obsid": "26229457",
+      "product_uri": "mast:HST/product/jdm91ijwq_raw.fits",
+      "rootname": "jdm91ijwq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91ik1q_flc.fits",
+      "obsid": "26229457",
+      "product_uri": "mast:HST/product/jdm91ik1q_flc.fits",
+      "rootname": "jdm91ik1q",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91ik1q_flt.fits",
+      "obsid": "26229457",
+      "product_uri": "mast:HST/product/jdm91ik1q_flt.fits",
+      "rootname": "jdm91ik1q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91ik1q_raw.fits",
+      "obsid": "26229457",
+      "product_uri": "mast:HST/product/jdm91ik1q_raw.fits",
+      "rootname": "jdm91ik1q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91lmiq_flc.fits",
+      "obsid": "26229473",
+      "product_uri": "mast:HST/product/jdm91lmiq_flc.fits",
+      "rootname": "jdm91lmiq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91lmiq_flt.fits",
+      "obsid": "26229473",
+      "product_uri": "mast:HST/product/jdm91lmiq_flt.fits",
+      "rootname": "jdm91lmiq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91lmiq_raw.fits",
+      "obsid": "26229473",
+      "product_uri": "mast:HST/product/jdm91lmiq_raw.fits",
+      "rootname": "jdm91lmiq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91lmnq_flc.fits",
+      "obsid": "26229473",
+      "product_uri": "mast:HST/product/jdm91lmnq_flc.fits",
+      "rootname": "jdm91lmnq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91lmnq_flt.fits",
+      "obsid": "26229473",
+      "product_uri": "mast:HST/product/jdm91lmnq_flt.fits",
+      "rootname": "jdm91lmnq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91lmnq_raw.fits",
+      "obsid": "26229473",
+      "product_uri": "mast:HST/product/jdm91lmnq_raw.fits",
+      "rootname": "jdm91lmnq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91orzq_flc.fits",
+      "obsid": "26235037",
+      "product_uri": "mast:HST/product/jdm91orzq_flc.fits",
+      "rootname": "jdm91orzq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91orzq_flt.fits",
+      "obsid": "26235037",
+      "product_uri": "mast:HST/product/jdm91orzq_flt.fits",
+      "rootname": "jdm91orzq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91orzq_raw.fits",
+      "obsid": "26235037",
+      "product_uri": "mast:HST/product/jdm91orzq_raw.fits",
+      "rootname": "jdm91orzq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91os4q_flc.fits",
+      "obsid": "26235037",
+      "product_uri": "mast:HST/product/jdm91os4q_flc.fits",
+      "rootname": "jdm91os4q",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91os4q_flt.fits",
+      "obsid": "26235037",
+      "product_uri": "mast:HST/product/jdm91os4q_flt.fits",
+      "rootname": "jdm91os4q",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91os4q_raw.fits",
+      "obsid": "26235037",
+      "product_uri": "mast:HST/product/jdm91os4q_raw.fits",
+      "rootname": "jdm91os4q",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91mqkq_flc.fits",
+      "obsid": "26235050",
+      "product_uri": "mast:HST/product/jdm91mqkq_flc.fits",
+      "rootname": "jdm91mqkq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91mqkq_flt.fits",
+      "obsid": "26235050",
+      "product_uri": "mast:HST/product/jdm91mqkq_flt.fits",
+      "rootname": "jdm91mqkq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91mqkq_raw.fits",
+      "obsid": "26235050",
+      "product_uri": "mast:HST/product/jdm91mqkq_raw.fits",
+      "rootname": "jdm91mqkq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91mqpq_flc.fits",
+      "obsid": "26235050",
+      "product_uri": "mast:HST/product/jdm91mqpq_flc.fits",
+      "rootname": "jdm91mqpq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91mqpq_flt.fits",
+      "obsid": "26235050",
+      "product_uri": "mast:HST/product/jdm91mqpq_flt.fits",
+      "rootname": "jdm91mqpq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91mqpq_raw.fits",
+      "obsid": "26235050",
+      "product_uri": "mast:HST/product/jdm91mqpq_raw.fits",
+      "rootname": "jdm91mqpq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91nrgq_flc.fits",
+      "obsid": "26235055",
+      "product_uri": "mast:HST/product/jdm91nrgq_flc.fits",
+      "rootname": "jdm91nrgq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91nrgq_flt.fits",
+      "obsid": "26235055",
+      "product_uri": "mast:HST/product/jdm91nrgq_flt.fits",
+      "rootname": "jdm91nrgq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91nrgq_raw.fits",
+      "obsid": "26235055",
+      "product_uri": "mast:HST/product/jdm91nrgq_raw.fits",
+      "rootname": "jdm91nrgq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91nrlq_flc.fits",
+      "obsid": "26235055",
+      "product_uri": "mast:HST/product/jdm91nrlq_flc.fits",
+      "rootname": "jdm91nrlq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91nrlq_flt.fits",
+      "obsid": "26235055",
+      "product_uri": "mast:HST/product/jdm91nrlq_flt.fits",
+      "rootname": "jdm91nrlq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91nrlq_raw.fits",
+      "obsid": "26235055",
+      "product_uri": "mast:HST/product/jdm91nrlq_raw.fits",
+      "rootname": "jdm91nrlq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91psmq_flc.fits",
+      "obsid": "26235072",
+      "product_uri": "mast:HST/product/jdm91psmq_flc.fits",
+      "rootname": "jdm91psmq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91psmq_flt.fits",
+      "obsid": "26235072",
+      "product_uri": "mast:HST/product/jdm91psmq_flt.fits",
+      "rootname": "jdm91psmq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91psmq_raw.fits",
+      "obsid": "26235072",
+      "product_uri": "mast:HST/product/jdm91psmq_raw.fits",
+      "rootname": "jdm91psmq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jdm91psrq_flc.fits",
+      "obsid": "26235072",
+      "product_uri": "mast:HST/product/jdm91psrq_flc.fits",
+      "rootname": "jdm91psrq",
+      "size": 168451200
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jdm91psrq_flt.fits",
+      "obsid": "26235072",
+      "product_uri": "mast:HST/product/jdm91psrq_flt.fits",
+      "rootname": "jdm91psrq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jdm91psrq_raw.fits",
+      "obsid": "26235072",
+      "product_uri": "mast:HST/product/jdm91psrq_raw.fits",
+      "rootname": "jdm91psrq",
+      "size": 34344000
+    },
+    {
+      "classification": "FLC_CTE_CALIBRATED_CONTROL",
+      "filename": "jb5g07ypq_flc.fits",
+      "obsid": "26415090",
+      "product_uri": "mast:HST/product/jb5g07ypq_flc.fits",
+      "rootname": "jb5g07ypq",
+      "size": 168330240
+    },
+    {
+      "classification": "FLT_CALIBRATED_CONTROL",
+      "filename": "jb5g07ypq_flt.fits",
+      "obsid": "26415090",
+      "product_uri": "mast:HST/product/jb5g07ypq_flt.fits",
+      "rootname": "jb5g07ypq",
+      "size": 168442560
+    },
+    {
+      "classification": "RAW_DETECTOR",
+      "filename": "jb5g07ypq_raw.fits",
+      "obsid": "26415090",
+      "product_uri": "mast:HST/product/jb5g07ypq_raw.fits",
+      "rootname": "jb5g07ypq",
+      "size": 34344000
+    }
+  ],
+  "schema": "DEV125_SELECTION_V1",
+  "selection_sha256": "f9b5633102c525a04cc4674b6d4c5f11c9a1ba98031ca61f1505ebf752b9feb2"
+}

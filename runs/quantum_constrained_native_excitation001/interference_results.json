@@ -1,0 +1,67 @@
+{
+  "anti_phase": {
+    "cross_term": -88.0289961388597,
+    "identity_residual": 0.0,
+    "norm_a": 44.01449806942985,
+    "norm_b": 44.01449806942985,
+    "norm_superposition": 0.0
+  },
+  "in_phase": {
+    "cross_term": 88.0289961388597,
+    "identity_residual": -1.4210854715202004e-14,
+    "norm_a": 44.01449806942985,
+    "norm_b": 44.01449806942985,
+    "norm_superposition": 176.0579922777194
+  },
+  "orthogonal": {
+    "cross_term": 0.0,
+    "identity_residual": 0.0,
+    "norm_a": 44.01449806942985,
+    "norm_b": 44.01449806942985,
+    "norm_superposition": 88.0289961388597
+  },
+  "registry": [
+    {
+      "attempted": true,
+      "id": "I01",
+      "name": "same polarization in phase",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "I02",
+      "name": "same polarization anti-phase",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "I03",
+      "name": "orthogonal polarization",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "I04",
+      "name": "unequal amplitudes",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "I05",
+      "name": "unequal wavelengths",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "I06",
+      "name": "packet overlap",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "I07",
+      "name": "separated packets",
+      "status": "ESTABLISHED"
+    }
+  ]
+}

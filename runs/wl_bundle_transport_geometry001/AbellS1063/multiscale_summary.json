@@ -1,0 +1,18 @@
+{
+  "classification": "SCALE_TRANSITION",
+  "mean_orientation_persistence": 0.605195301991611,
+  "neighboring_scales": {
+    "1_to_2": {
+      "magnitude_pearson": 0.8269085987060644,
+      "orientation_persistence": 0.4743109314353586
+    },
+    "2_to_4": {
+      "magnitude_pearson": 0.8340278290613488,
+      "orientation_persistence": 0.6068638065303111
+    },
+    "4_to_8": {
+      "magnitude_pearson": 0.8301724629734081,
+      "orientation_persistence": 0.7344111680091632
+    }
+  }
+}

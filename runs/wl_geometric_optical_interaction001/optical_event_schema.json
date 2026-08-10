@@ -1,0 +1,18 @@
+{
+  "groups": [
+    "event identity",
+    "surface identity",
+    "input position",
+    "input direction",
+    "intersection position",
+    "surface coordinates",
+    "incoming direction",
+    "outgoing direction",
+    "interaction status",
+    "aperture status",
+    "parent event identity",
+    "reverse metadata",
+    "upstream provenance reference",
+    "latent-state reference"
+  ]
+}

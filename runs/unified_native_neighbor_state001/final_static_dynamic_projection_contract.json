@@ -1,0 +1,15 @@
+{
+  "bounded_strain_parity": true,
+  "contract": "PBUF_UNIFIED_STATIC_DYNAMIC_PROJECTION_V1",
+  "dynamic_parity_status": "PARITY_ESTABLISHED",
+  "dynamic_projection_established": true,
+  "interference_parity": true,
+  "norm_parity": true,
+  "polarization_parity": true,
+  "sector_switching_required": false,
+  "static_parity_status": "PARITY_ESTABLISHED",
+  "static_projection_established": true,
+  "surface_far_parity": true,
+  "two_transverse_mode_parity": true,
+  "wavelength_parity": true
+}

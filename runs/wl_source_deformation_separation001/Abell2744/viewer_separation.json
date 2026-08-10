@@ -1,0 +1,16 @@
+{
+  "depth_scan": true,
+  "mode": "SOURCE_DEFORMATION_SEPARATION",
+  "panels": [
+    "raw",
+    "S",
+    "D",
+    "S+D overlay"
+  ],
+  "rgb": [
+    "D",
+    "S",
+    "occupancy"
+  ],
+  "truth_label": "DIAGNOSTIC TRUTH \u2014 NOT USED FOR DECOMPOSITION"
+}

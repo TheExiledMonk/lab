@@ -1,0 +1,179 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "Q01",
+      "name": "existing zero-mass energy state",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "candidate_id": "Q02",
+      "name": "existing zero-mass momentum state",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "candidate_id": "Q03",
+      "name": "trajectory direction as momentum direction",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "Q04",
+      "name": "momentum magnitude from transport state",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "candidate_id": "Q05",
+      "name": "energy from momentum and c",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "candidate_id": "Q06",
+      "name": "momentum from energy and c",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "candidate_id": "Q07",
+      "name": "wave number from p/hbar",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "candidate_id": "Q08",
+      "name": "wave number from E/(hbar c)",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "candidate_id": "Q09",
+      "name": "wavelength from hc/E",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "candidate_id": "Q10",
+      "name": "redshift from energy ratio",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "candidate_id": "Q11",
+      "name": "redshift from momentum ratio",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "candidate_id": "Q12",
+      "name": "redshift from k ratio",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "candidate_id": "Q13",
+      "name": "local medium loading -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q14",
+      "name": "accumulated response -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q15",
+      "name": "response gradient -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q16",
+      "name": "fast transfer -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q17",
+      "name": "slow transfer -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q18",
+      "name": "combined fast/slow transfer -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q19",
+      "name": "strain -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q20",
+      "name": "strain gradient -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q21",
+      "name": "trajectory curvature -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q22",
+      "name": "curvature integral -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q23",
+      "name": "path excess -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q24",
+      "name": "bundle deformation -> energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q25",
+      "name": "entry/exit energy transfer",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q26",
+      "name": "energy conservation in uniform medium",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "Q27",
+      "name": "forward/reverse energy closure",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q28",
+      "name": "scale-free energy-ratio transport",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q29",
+      "name": "redshift stopping from energy evolution",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q30",
+      "name": "source reconstruction at energy stop",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q31",
+      "name": "multipath common-source consistency",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q32",
+      "name": "energy-depth vs geometry-depth convergence",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "candidate_id": "Q33",
+      "name": "inferred spatial wave-state closure",
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "candidate_id": "Q34",
+      "name": "corrected quantum-to-PBUF bridge classification",
+      "status": "ESTABLISHED"
+    },
+    {
+      "candidate_id": "Q35",
+      "name": "missing constitutive quantity identification",
+      "status": "ESTABLISHED"
+    }
+  ]
+}

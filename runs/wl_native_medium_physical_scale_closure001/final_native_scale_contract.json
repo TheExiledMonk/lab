@@ -1,0 +1,26 @@
+{
+  "L0_m_per_native": null,
+  "calibration_anchor": null,
+  "closure_type": "UNRESOLVED",
+  "contract": "PBUF_NATIVE_PHYSICAL_SCALE_V2",
+  "density_stability": "NOT_TESTABLE",
+  "derivation_class": "MULTIPLE_DIMENSIONAL_CLOSURES_REQUIRED",
+  "established": false,
+  "lcdm_independent": true,
+  "mass_stability": "NOT_TESTABLE",
+  "production_ready": false,
+  "radius_stability": "NOT_TESTABLE",
+  "reason": "Current native equations constrain combinations of length, response, stiffness, source, and time units but do not isolate L0.",
+  "remaining_degeneracies": [
+    "L0_U0_CO_DEGENERACY",
+    "L0_Kphys_CO_DEGENERACY",
+    "L0_S0_CO_DEGENERACY",
+    "L0_T0_CO_DEGENERACY"
+  ],
+  "resolution_stability": "NOT_TESTABLE",
+  "supporting_candidate_ids": [],
+  "supporting_independence_classes": [],
+  "target_independent": true,
+  "uncertainty": null,
+  "validation_anchors": []
+}

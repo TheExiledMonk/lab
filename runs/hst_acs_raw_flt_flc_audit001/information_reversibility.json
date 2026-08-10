@@ -1,0 +1,13 @@
+{
+  "flt_to_flc": "PARTIALLY_REVERSIBLE",
+  "information_loss_indicators": {
+    "combination": false,
+    "interpolation": "NOT_RECORDED_BY_AUDIT",
+    "pixel_deletion_raw_to_flt": "overscan/reference regions removed",
+    "pixel_replacement": "UNKNOWN",
+    "pixel_value_modification_flt_to_flc": true,
+    "resampling": false
+  },
+  "raw_to_flt": "PARTIALLY_REVERSIBLE",
+  "reason": "Exact inverse cannot be established without local calibration reference arrays; archive RAW preserves recovery source."
+}

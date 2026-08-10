@@ -1,0 +1,350 @@
+{
+  "classification": "RECEIVED_CHANNEL_MIXING_STRONG",
+  "clusters": {
+    "Abell2744": {
+      "mixing": {
+        "cross_family_coupling": 0.2862077648896431,
+        "fraction_covariance_energy_off_block": 0.6892701281002716,
+        "mixing_index": 0.6892701281002716,
+        "strongest_off_block_pairs": [
+          {
+            "a": "dir_v2",
+            "b": "delta_v_dir_v",
+            "covariance": 1.0001071743175949
+          },
+          {
+            "a": "dir_u2",
+            "b": "delta_u_dir_u",
+            "covariance": 1.0000897515277543
+          },
+          {
+            "a": "delta_v",
+            "b": "received_dv",
+            "covariance": 1.000080371742616
+          },
+          {
+            "a": "delta_v2",
+            "b": "delta_v_dir_v",
+            "covariance": 1.0000324492794859
+          },
+          {
+            "a": "delta_u2",
+            "b": "delta_u_dir_u",
+            "covariance": 1.0000092791599315
+          },
+          {
+            "a": "delta_u",
+            "b": "received_du",
+            "covariance": 1.0000081764621158
+          },
+          {
+            "a": "dir_uv",
+            "b": "delta_v_dir_u",
+            "covariance": 0.9999429728482634
+          },
+          {
+            "a": "delta_uv",
+            "b": "delta_u_dir_v",
+            "covariance": 0.9998774009334882
+          },
+          {
+            "a": "dir_uv",
+            "b": "delta_u_dir_v",
+            "covariance": 0.9998698309988591
+          },
+          {
+            "a": "delta_uv",
+            "b": "delta_v_dir_u",
+            "covariance": 0.9997936288948698
+          }
+        ],
+        "within_family_coupling": 0.4935067223411187
+      },
+      "spatial_mixing": {
+        "range": 0.04112825266461506,
+        "values": [
+          0.7146686330315632,
+          0.7027406149473329,
+          0.6735403803669482,
+          0.7085123752665103
+        ]
+      }
+    },
+    "Abell370": {
+      "mixing": {
+        "cross_family_coupling": 0.2921583872835992,
+        "fraction_covariance_energy_off_block": 0.6886223686266811,
+        "mixing_index": 0.6886223686266811,
+        "strongest_off_block_pairs": [
+          {
+            "a": "received_dz",
+            "b": "launch_receipt_separation",
+            "covariance": 1.0001731576474309
+          },
+          {
+            "a": "dir_v2",
+            "b": "delta_v_dir_v",
+            "covariance": 1.0000950854083572
+          },
+          {
+            "a": "delta_v",
+            "b": "received_dv",
+            "covariance": 1.0000713810630724
+          },
+          {
+            "a": "delta_v2",
+            "b": "delta_v_dir_v",
+            "covariance": 1.000066974029915
+          },
+          {
+            "a": "dir_u2",
+            "b": "delta_u_dir_u",
+            "covariance": 1.0000572649769621
+          },
+          {
+            "a": "launch_receipt_separation",
+            "b": "received_depth",
+            "covariance": 1.000034768464311
+          },
+          {
+            "a": "launch_receipt_separation",
+            "b": "depth_change",
+            "covariance": 1.000034768464311
+          },
+          {
+            "a": "delta_z",
+            "b": "launch_receipt_separation",
+            "covariance": 1.000034768464311
+          },
+          {
+            "a": "delta_u",
+            "b": "received_du",
+            "covariance": 1.0000234853002654
+          },
+          {
+            "a": "delta_u2",
+            "b": "delta_u_dir_u",
+            "covariance": 1.0000088290356064
+          }
+        ],
+        "within_family_coupling": 0.49534764842258133
+      },
+      "spatial_mixing": {
+        "range": 0.02859726147581121,
+        "values": [
+          0.704708093716196,
+          0.7118910577864067,
+          0.6832937963105955,
+          0.7059475133579229
+        ]
+      }
+    },
+    "AbellS1063": {
+      "mixing": {
+        "cross_family_coupling": 0.3798027329802428,
+        "fraction_covariance_energy_off_block": 0.7184120876808963,
+        "mixing_index": 0.7184120876808963,
+        "strongest_off_block_pairs": [
+          {
+            "a": "launch_receipt_separation",
+            "b": "received_depth",
+            "covariance": 1.000133498266467
+          },
+          {
+            "a": "launch_receipt_separation",
+            "b": "depth_change",
+            "covariance": 1.000133498266467
+          },
+          {
+            "a": "delta_z",
+            "b": "launch_receipt_separation",
+            "covariance": 1.000133498266467
+          },
+          {
+            "a": "dir_u2",
+            "b": "delta_u_dir_u",
+            "covariance": 1.00013200440099
+          },
+          {
+            "a": "received_dz",
+            "b": "launch_receipt_separation",
+            "covariance": 1.0001206998316232
+          },
+          {
+            "a": "dir_uv",
+            "b": "delta_u_dir_v",
+            "covariance": 1.0001034689248414
+          },
+          {
+            "a": "delta_u2",
+            "b": "delta_u_dir_u",
+            "covariance": 1.0001034456131912
+          },
+          {
+            "a": "delta_uv",
+            "b": "delta_v_dir_u",
+            "covariance": 1.0000920933508008
+          },
+          {
+            "a": "dir_v2",
+            "b": "delta_v_dir_v",
+            "covariance": 1.0000825381057692
+          },
+          {
+            "a": "delta_v",
+            "b": "received_dv",
+            "covariance": 1.0000330544113922
+          }
+        ],
+        "within_family_coupling": 0.5787412553613535
+      },
+      "spatial_mixing": {
+        "range": 0.04931133227026152,
+        "values": [
+          0.7368841002447101,
+          0.7216381073004361,
+          0.6946726687049358,
+          0.7439840009751973
+        ]
+      }
+    },
+    "MACS0416": {
+      "mixing": {
+        "cross_family_coupling": 0.311194209611662,
+        "fraction_covariance_energy_off_block": 0.7025985937189336,
+        "mixing_index": 0.7025985937189336,
+        "strongest_off_block_pairs": [
+          {
+            "a": "dir_u2",
+            "b": "delta_u_dir_u",
+            "covariance": 1.0001170657434049
+          },
+          {
+            "a": "dir_v2",
+            "b": "delta_v_dir_v",
+            "covariance": 1.000075753195904
+          },
+          {
+            "a": "delta_u2",
+            "b": "delta_u_dir_u",
+            "covariance": 1.0000606366542448
+          },
+          {
+            "a": "delta_u",
+            "b": "received_du",
+            "covariance": 1.0000269491765095
+          },
+          {
+            "a": "dir_uv",
+            "b": "delta_u_dir_v",
+            "covariance": 0.9999895139855401
+          },
+          {
+            "a": "delta_v",
+            "b": "received_dv",
+            "covariance": 0.9999823428339841
+          },
+          {
+            "a": "delta_v2",
+            "b": "delta_v_dir_v",
+            "covariance": 0.9999451135305809
+          },
+          {
+            "a": "delta_uv",
+            "b": "delta_v_dir_u",
+            "covariance": 0.9999049316347122
+          },
+          {
+            "a": "dir_uv",
+            "b": "delta_v_dir_u",
+            "covariance": 0.99979288978905
+          },
+          {
+            "a": "delta_uv",
+            "b": "delta_u_dir_v",
+            "covariance": 0.9997211071338827
+          }
+        ],
+        "within_family_coupling": 0.5169602557907819
+      },
+      "spatial_mixing": {
+        "range": 0.043926872302550435,
+        "values": [
+          0.7144005591273382,
+          0.7323559909770191,
+          0.6884291186744687,
+          0.7143314586333084
+        ]
+      }
+    },
+    "MACS1149": {
+      "mixing": {
+        "cross_family_coupling": 0.30707910221820517,
+        "fraction_covariance_energy_off_block": 0.6913119398493027,
+        "mixing_index": 0.6913119398493027,
+        "strongest_off_block_pairs": [
+          {
+            "a": "delta_u",
+            "b": "received_du",
+            "covariance": 1.0001077757166754
+          },
+          {
+            "a": "dir_u2",
+            "b": "delta_u_dir_u",
+            "covariance": 1.0000356425232575
+          },
+          {
+            "a": "delta_v",
+            "b": "received_dv",
+            "covariance": 0.9999772160367
+          },
+          {
+            "a": "dir_uv",
+            "b": "delta_u_dir_v",
+            "covariance": 0.9999665911208155
+          },
+          {
+            "a": "delta_u2",
+            "b": "delta_u_dir_u",
+            "covariance": 0.999899637037634
+          },
+          {
+            "a": "delta_uv",
+            "b": "delta_v_dir_u",
+            "covariance": 0.9997876062135432
+          },
+          {
+            "a": "dir_v2",
+            "b": "delta_v_dir_v",
+            "covariance": 0.9997582724086074
+          },
+          {
+            "a": "delta_v2",
+            "b": "delta_v_dir_v",
+            "covariance": 0.9996105836618083
+          },
+          {
+            "a": "dir_uv",
+            "b": "delta_v_dir_u",
+            "covariance": 0.999376644408755
+          },
+          {
+            "a": "delta_uv",
+            "b": "delta_u_dir_v",
+            "covariance": 0.9992591612882216
+          }
+        ],
+        "within_family_coupling": 0.5243807252216481
+      },
+      "spatial_mixing": {
+        "range": 0.0253348002406113,
+        "values": [
+          0.7103787530248737,
+          0.7017588779621848,
+          0.7214921250272041,
+          0.6961573247865928
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "lab_id": "PBUF-FOUNDATION-M10-INFORMATION-LOSS-AUDIT-001",
+  "head_sha": "7e36d5722020b41decbea55865e338531f298ea6",
+  "candidate_id": "PL1_PM1_PS2",
+  "physical_source_representation": "M10_interface_field",
+  "fixed_primary_config": {
+    "label": "minimum_production",
+    "nphotons": 20000,
+    "grid_n": 256,
+    "step": 0.03,
+    "steps": 160,
+    "y_span": 3.0,
+    "extent": 8.0,
+    "strength": 0.18,
+    "bins": 64
+  },
+  "duration_seconds": 5.372933256090619
+}
