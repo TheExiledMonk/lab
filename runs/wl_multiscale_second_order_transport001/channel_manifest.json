@@ -1,0 +1,266 @@
+{
+  "channels": [
+    {
+      "component_type": "launch_u",
+      "coordinate_basis": "launch_grid",
+      "derivative_order": 0,
+      "group": "G0_raw_transport",
+      "index": 0,
+      "name": "u0",
+      "source_field": "dual_transport"
+    },
+    {
+      "component_type": "launch_v",
+      "coordinate_basis": "launch_grid",
+      "derivative_order": 0,
+      "group": "G0_raw_transport",
+      "index": 1,
+      "name": "v0",
+      "source_field": "dual_transport"
+    },
+    {
+      "component_type": "received_u",
+      "coordinate_basis": "launch_grid",
+      "derivative_order": 0,
+      "group": "G0_raw_transport",
+      "index": 2,
+      "name": "uf",
+      "source_field": "dual_transport"
+    },
+    {
+      "component_type": "received_v",
+      "coordinate_basis": "launch_grid",
+      "derivative_order": 0,
+      "group": "G0_raw_transport",
+      "index": 3,
+      "name": "vf",
+      "source_field": "dual_transport"
+    },
+    {
+      "component_type": "depth",
+      "coordinate_basis": "launch_grid",
+      "derivative_order": 0,
+      "group": "G0_raw_transport",
+      "index": 4,
+      "name": "wf",
+      "source_field": "dual_transport"
+    },
+    {
+      "component_type": "direction_u",
+      "coordinate_basis": "launch_grid",
+      "derivative_order": 0,
+      "group": "G0_raw_transport",
+      "index": 5,
+      "name": "dir_u",
+      "source_field": "dual_transport"
+    },
+    {
+      "component_type": "direction_v",
+      "coordinate_basis": "launch_grid",
+      "derivative_order": 0,
+      "group": "G0_raw_transport",
+      "index": 6,
+      "name": "dir_v",
+      "source_field": "dual_transport"
+    },
+    {
+      "component_type": "direction_w",
+      "coordinate_basis": "launch_grid",
+      "derivative_order": 0,
+      "group": "G0_raw_transport",
+      "index": 7,
+      "name": "dir_w",
+      "source_field": "dual_transport"
+    },
+    {
+      "component_type": "transverse_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G1_first_order_transverse",
+      "index": 8,
+      "name": "d_u_delta_u",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "transverse_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G1_first_order_transverse",
+      "index": 9,
+      "name": "d_v_delta_u",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "transverse_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G1_first_order_transverse",
+      "index": 10,
+      "name": "d_u_delta_v",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "transverse_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G1_first_order_transverse",
+      "index": 11,
+      "name": "d_v_delta_v",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "depth_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G2_first_order_depth",
+      "index": 12,
+      "name": "d_u_wf",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "depth_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G2_first_order_depth",
+      "index": 13,
+      "name": "d_v_wf",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "direction_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G3_first_order_direction",
+      "index": 14,
+      "name": "d_u_dir_u",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "direction_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G3_first_order_direction",
+      "index": 15,
+      "name": "d_v_dir_u",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "direction_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G3_first_order_direction",
+      "index": 16,
+      "name": "d_u_dir_v",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "direction_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G3_first_order_direction",
+      "index": 17,
+      "name": "d_v_dir_v",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "direction_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G3_first_order_direction",
+      "index": 18,
+      "name": "d_u_dir_w",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "direction_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 1,
+      "group": "G3_first_order_direction",
+      "index": 19,
+      "name": "d_v_dir_w",
+      "source_field": "first_order_transport"
+    },
+    {
+      "component_type": "transverse_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 2,
+      "group": "G4_second_order_transverse",
+      "index": 20,
+      "name": "d_uu_delta_u",
+      "source_field": "second_order_transport"
+    },
+    {
+      "component_type": "transverse_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 2,
+      "group": "G4_second_order_transverse",
+      "index": 21,
+      "name": "d_uv_delta_u",
+      "source_field": "second_order_transport"
+    },
+    {
+      "component_type": "transverse_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 2,
+      "group": "G4_second_order_transverse",
+      "index": 22,
+      "name": "d_vv_delta_u",
+      "source_field": "second_order_transport"
+    },
+    {
+      "component_type": "transverse_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 2,
+      "group": "G4_second_order_transverse",
+      "index": 23,
+      "name": "d_uu_delta_v",
+      "source_field": "second_order_transport"
+    },
+    {
+      "component_type": "transverse_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 2,
+      "group": "G4_second_order_transverse",
+      "index": 24,
+      "name": "d_uv_delta_v",
+      "source_field": "second_order_transport"
+    },
+    {
+      "component_type": "transverse_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 2,
+      "group": "G4_second_order_transverse",
+      "index": 25,
+      "name": "d_vv_delta_v",
+      "source_field": "second_order_transport"
+    },
+    {
+      "component_type": "depth_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 2,
+      "group": "G5_second_order_depth",
+      "index": 26,
+      "name": "d_uu_wf",
+      "source_field": "second_order_transport"
+    },
+    {
+      "component_type": "depth_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 2,
+      "group": "G5_second_order_depth",
+      "index": 27,
+      "name": "d_uv_wf",
+      "source_field": "second_order_transport"
+    },
+    {
+      "component_type": "depth_derivative",
+      "coordinate_basis": "launch_uv",
+      "derivative_order": 2,
+      "group": "G5_second_order_depth",
+      "index": 28,
+      "name": "d_vv_wf",
+      "source_field": "second_order_transport"
+    }
+  ],
+  "sha256": "aa5cc9d085daf13ed395010c855a95a04cc287de3ca6311c1ad15ed8f9ccd1b3"
+}

@@ -1,0 +1,15 @@
+{
+  "incremental_energy": [
+    "background strain",
+    "perturbation strain",
+    "K",
+    "epsilon_max",
+    "packet support",
+    "native cell volume"
+  ],
+  "quantum_proxy": [
+    "established mode-energy proxy",
+    "external E=pc",
+    "external p=hbar k"
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "channel_count": 3,
+    "condition_number": 1.020948868958587,
+    "effective_rank": 2.9995702926865038,
+    "incremental_effective_rank": 2.9995702926865038,
+    "numerical_rank": 3,
+    "retained_sample_count": 285156,
+    "stage": "G0",
+    "variance_dimension_95": 3,
+    "variance_dimension_99": 3
+  },
+  {
+    "channel_count": 6,
+    "condition_number": 21.177751134617484,
+    "effective_rank": 4.767521696922827,
+    "incremental_effective_rank": 1.7679514042363236,
+    "numerical_rank": 6,
+    "retained_sample_count": 285156,
+    "stage": "G1",
+    "variance_dimension_95": 5,
+    "variance_dimension_99": 5
+  },
+  {
+    "channel_count": 9,
+    "condition_number": 22.983013558885457,
+    "effective_rank": 4.180958460295404,
+    "incremental_effective_rank": -0.5865632366274234,
+    "numerical_rank": 7,
+    "retained_sample_count": 285156,
+    "stage": "G2",
+    "variance_dimension_95": 5,
+    "variance_dimension_99": 6
+  },
+  {
+    "channel_count": 33,
+    "condition_number": 29.268362227779246,
+    "effective_rank": 15.97157396059478,
+    "incremental_effective_rank": 11.790615500299376,
+    "numerical_rank": 31,
+    "retained_sample_count": 220900,
+    "stage": "G3",
+    "variance_dimension_95": 20,
+    "variance_dimension_99": 26
+  },
+  {
+    "channel_count": 135,
+    "condition_number": 4506.714045810751,
+    "effective_rank": 24.347584915444575,
+    "incremental_effective_rank": 8.376010954849795,
+    "numerical_rank": 115,
+    "retained_sample_count": 220900,
+    "stage": "G4",
+    "variance_dimension_95": 44,
+    "variance_dimension_99": 61
+  }
+]

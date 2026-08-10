@@ -1,0 +1,201 @@
+{
+  "I01_I20_attempted": true,
+  "QL01_QL10_attempted": true,
+  "QX01_QX20": [
+    {
+      "attempted": true,
+      "id": "QX01",
+      "name": "discrete stable localized norms",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX02",
+      "name": "discrete internal wavelengths",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX03",
+      "name": "discrete node counts",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX04",
+      "name": "discrete winding states",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX05",
+      "name": "discrete loading/excitation composites",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX06",
+      "name": "transition-only discreteness",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX07",
+      "name": "absorption thresholds",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX08",
+      "name": "emission thresholds",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX09",
+      "name": "state-difference packet norm",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX10",
+      "name": "state-difference emitted k",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX11",
+      "name": "mode-selective coupling",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX12",
+      "name": "polarization-selective transitions",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX13",
+      "name": "handedness-selective transitions",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX14",
+      "name": "discrete source burst",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX15",
+      "name": "subthreshold accumulation",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX16",
+      "name": "topological transition",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX17",
+      "name": "nonlinear attractor transitions",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX18",
+      "name": "continuous localized states but discrete interaction",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX19",
+      "name": "fully continuous interaction",
+      "status": "MISSING_LOCALIZED_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "QX20",
+      "name": "current physics insufficient",
+      "status": "ESTABLISHED"
+    }
+  ],
+  "S01_S20_attempted": true,
+  "guards": {
+    "BOUNDED_STRAIN_LAW_CHANGES": 0,
+    "DEV148_CONSERVED_NORM_CHANGES": 0,
+    "DEV148_EXCITATION_STATE_RANK_CHANGES": 0,
+    "DEV148_EXCITATION_TRANSFER_CHANGES": 0,
+    "DEV148_TRANSVERSE_MODE_CHANGES": 0,
+    "DEV149_FREE_PROPAGATION_CHANGES": 0,
+    "DEV149_WAVELENGTH_DEFINITION_CHANGES": 0,
+    "DEV149_WAVE_STATE_CHANGES": 0,
+    "EMITTED_PACKET_INJECTED_EXTERNALLY": false,
+    "EXCITATION_BOUND_IDENTIFIED_WITH_STRAIN_BOUND": false,
+    "FAST_SLOW_TRANSFER_CHANGES": 0,
+    "FREE_EXCITATION_CONTINUITY_RETAINED": true,
+    "FUNDAMENTAL_TIME_DIMENSION_ASSUMED": false,
+    "HAMILTONIAN_ASSUMED_NATIVE": false,
+    "HBAR_USED_IN_NATIVE_DERIVATION": false,
+    "MEDIUM_STATIC_RESPONSE_CHANGES": 0,
+    "NATIVE_EXCITATION_BELOW_QM": true,
+    "NATIVE_T0_PRIMITIVE_USED": false,
+    "NATIVE_TIME_COORDINATE_CREATED": false,
+    "PHOTON_ASSUMED_NATIVE": false,
+    "PLANCK_RELATION_USED_TO_BUILD_TRANSITIONS": false,
+    "POST_HOC_INTERACTION_COEFFICIENTS": 0,
+    "QM_IS_EFFECTIVE_ARTIFACT": true,
+    "RECEIVER_CHANGES": 0,
+    "SCHRODINGER_EQUATION_ASSUMED_NATIVE": false,
+    "SOLVER_ITERATION_USED_AS_TIME": false,
+    "WAVEFUNCTION_ASSUMED_NATIVE": false,
+    "WL_TRAJECTORY_CHANGES": 0,
+    "ZERO_MASS_PROPAGATION_CHANGES": 0
+  },
+  "hard_gate_stopped_downstream_claims": true,
+  "outcomes": [
+    "PBUF_LOADING_EXCITATION_LOCALIZATION_COUPLING_UNRESOLVED",
+    "PBUF_INTERACTION_QUANTIZATION_NOT_ESTABLISHED"
+  ],
+  "phases": [
+    "Phase A",
+    "Phase B",
+    "Phase C",
+    "Phase D",
+    "Phase E",
+    "Phase F",
+    "Phase G",
+    "Phase H",
+    "Phase I",
+    "Phase J",
+    "Phase K",
+    "Phase L",
+    "Phase M",
+    "Phase N",
+    "Phase O",
+    "Phase P",
+    "Phase Q",
+    "Phase R",
+    "Phase S",
+    "Phase T",
+    "Phase U",
+    "Phase V",
+    "Phase W",
+    "Phase X",
+    "Phase Y",
+    "Phase Z",
+    "Phase AA",
+    "Phase AB",
+    "Phase AC",
+    "Phase AD",
+    "Phase AE",
+    "Phase AF",
+    "Phase AG",
+    "Phase AH",
+    "Phase AI",
+    "Phase AJ"
+  ]
+}

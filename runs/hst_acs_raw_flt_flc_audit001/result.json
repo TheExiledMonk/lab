@@ -1,0 +1,46 @@
+{
+  "DEV126_STRUCTURAL_SHA256": "9b6278c7a8ce31b4d2273430bd5b74a3c8cfc7616d00565ff206ad4686eea786",
+  "FLT_TO_FLC_PRIMARY_TRANSFORM": {
+    "PIXEL_BASED_CTE_CORRECTION": 116
+  },
+  "actual_science_ccd_images": 232,
+  "calibration_suitability": {
+    "FLC": "CONTROL_ONLY",
+    "FLT": "CANDIDATE_NATIVE_DETECTOR_BASELINE",
+    "RAW": "RAW_PROVENANCE_ONLY"
+  },
+  "checks": {
+    "116_triplets_present": true,
+    "348_archive_files_present": true,
+    "348_hashes_available": true,
+    "all_files_read_only": true,
+    "canonical_wl_pipeline_unchanged": true,
+    "dev125_selection_sha_verified": true,
+    "raw_benchmark_unchanged": true,
+    "sawlens_benchmark_unchanged": true,
+    "structural_hash_reproducible": true,
+    "zero_archive_file_modifications": true,
+    "zero_calibration_executions": true,
+    "zero_cosmology": true,
+    "zero_drizzle_executions": true,
+    "zero_lensing_reconstruction": true,
+    "zero_resampling_executions": true,
+    "zero_shape_measurement": true,
+    "zero_source_detection": true
+  },
+  "cross_exposure_consistency": "MOSTLY_CONSISTENT",
+  "execution_counters": {
+    "CALIBRATION_EXECUTIONS": 0,
+    "DRIZZLE_EXECUTIONS": 0,
+    "RESAMPLING_EXECUTIONS": 0,
+    "SCIENCE_REDUCTION_EXECUTIONS": 0
+  },
+  "information_preservation": {
+    "FLC": "INSTRUMENT_CALIBRATED_INFORMATION_MODIFYING",
+    "FLT": "INSTRUMENT_CALIBRATED_PIXEL_PRESERVING",
+    "RAW": "ARCHIVE_RAW"
+  },
+  "outcome": "HST_ACS_CALIBRATION_INFORMATION_EFFECTS_REQUIRE_REFERENCE_FILE_AUDIT",
+  "rms_cv": 0.17539276221560673,
+  "selection_sha256": "f9b5633102c525a04cc4674b6d4c5f11c9a1ba98031ca61f1505ebf752b9feb2"
+}

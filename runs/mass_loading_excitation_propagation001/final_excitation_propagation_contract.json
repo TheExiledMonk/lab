@@ -1,0 +1,9 @@
+{
+  "contract": "PBUF_EXCITATION_PROPAGATION_V1",
+  "excitation_magnitude_changes_c": false,
+  "excitation_semantics": "NEUTRAL_Q_CONTROL",
+  "rest_loading_required_for_sub_c_motion": "HYPOTHESIS_CONSISTENT_NOT_DERIVED",
+  "same_loading_variable_beta_supported": "ONTOLOGY_ONLY",
+  "translational_excitation_state_available": true,
+  "zero_mass_excitation_propagates_at_c": true
+}

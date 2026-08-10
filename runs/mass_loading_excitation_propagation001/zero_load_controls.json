@@ -1,0 +1,22 @@
+{
+  "REST_LOADING_PRESENT": false,
+  "SUPER_C_PROPAGATION": false,
+  "beta": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "excitation_magnitude_changes_c": false,
+  "pass": true,
+  "q0": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ]
+}

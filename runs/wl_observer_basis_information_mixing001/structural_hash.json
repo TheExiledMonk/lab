@@ -1,0 +1,183 @@
+{
+  "artifact": {
+    "basis_transform": {
+      "determinant": null,
+      "matrix": null,
+      "provenance": "implementation plus FITS/WCS metadata",
+      "spin2_transform": null,
+      "target_data_used_for_transform": false
+    },
+    "feature_groups": [
+      "displacement",
+      "direction",
+      "cross displacement-direction",
+      "covariance",
+      "Jacobian",
+      "launch-receipt",
+      "depth",
+      "density/occupancy",
+      "other canonical"
+    ],
+    "feature_inventory": [
+      {
+        "family": "displacement",
+        "name": "delta_u",
+        "spin": "vector / spin-1-like"
+      },
+      {
+        "family": "displacement",
+        "name": "delta_v",
+        "spin": "vector / spin-1-like"
+      },
+      {
+        "family": "depth",
+        "name": "delta_z",
+        "spin": "scalar / spin-0"
+      },
+      {
+        "family": "direction",
+        "name": "received_du",
+        "spin": "vector / spin-1-like"
+      },
+      {
+        "family": "direction",
+        "name": "received_dv",
+        "spin": "vector / spin-1-like"
+      },
+      {
+        "family": "depth",
+        "name": "received_dz",
+        "spin": "scalar / spin-0"
+      },
+      {
+        "family": "displacement",
+        "name": "delta_u2",
+        "spin": "tensor anisotropy / spin-2-like"
+      },
+      {
+        "family": "displacement",
+        "name": "delta_v2",
+        "spin": "tensor anisotropy / spin-2-like"
+      },
+      {
+        "family": "displacement",
+        "name": "delta_uv",
+        "spin": "tensor anisotropy / spin-2-like"
+      },
+      {
+        "family": "direction",
+        "name": "dir_u2",
+        "spin": "tensor anisotropy / spin-2-like"
+      },
+      {
+        "family": "direction",
+        "name": "dir_v2",
+        "spin": "tensor anisotropy / spin-2-like"
+      },
+      {
+        "family": "direction",
+        "name": "dir_uv",
+        "spin": "tensor anisotropy / spin-2-like"
+      },
+      {
+        "family": "cross displacement-direction",
+        "name": "delta_u_dir_u",
+        "spin": "tensor anisotropy / spin-2-like"
+      },
+      {
+        "family": "cross displacement-direction",
+        "name": "delta_v_dir_v",
+        "spin": "tensor anisotropy / spin-2-like"
+      },
+      {
+        "family": "cross displacement-direction",
+        "name": "delta_u_dir_v",
+        "spin": "unclassified"
+      },
+      {
+        "family": "cross displacement-direction",
+        "name": "delta_v_dir_u",
+        "spin": "unclassified"
+      },
+      {
+        "family": "launch-receipt",
+        "name": "radial_transverse_displacement",
+        "spin": "scalar / spin-0"
+      },
+      {
+        "family": "launch-receipt",
+        "name": "tangential_transverse_displacement",
+        "spin": "pseudoscalar / parity-sensitive"
+      },
+      {
+        "family": "density/occupancy",
+        "name": "local_ray_density",
+        "spin": "scalar / spin-0"
+      },
+      {
+        "family": "density/occupancy",
+        "name": "local_occupancy",
+        "spin": "scalar / spin-0"
+      },
+      {
+        "family": "launch-receipt",
+        "name": "launch_receipt_separation",
+        "spin": "scalar / spin-0"
+      },
+      {
+        "family": "depth",
+        "name": "received_depth",
+        "spin": "scalar / spin-0"
+      },
+      {
+        "family": "depth",
+        "name": "depth_change",
+        "spin": "scalar / spin-0"
+      }
+    ],
+    "operator_order_definitions": {
+      "ORDER_CURRENT": "received-cell local differential then tsc_3x3 deposit",
+      "ORDER_LOCAL_FIRST": "launch-cell differential before observer averaging",
+      "ORDER_MOMENT_FIRST": "sufficient X'X and X'Y moments reconstruct current differential"
+    },
+    "pca_dimensions": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      12
+    ],
+    "spin2_eligible_pairs": [
+      "displacement_quadrupole",
+      "direction_quadrupole",
+      "covariance_traceless",
+      "jacobian_symmetric_traceless"
+    ],
+    "spin_tests": {
+      "angles_degrees": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        90,
+        135
+      ],
+      "max_normalized_error": 2.0452621225519473e-16,
+      "normalized_errors": {
+        "0": 0.0,
+        "135": 1.6821560979169038e-16,
+        "15": 1.8493645237611696e-16,
+        "30": 2.0452621225519473e-16,
+        "45": 1.6821560979169038e-16,
+        "60": 9.246822618805848e-17,
+        "90": 1.2616170734376778e-16
+      },
+      "pass": true,
+      "tolerance": 1e-10
+    }
+  },
+  "sha256": "753df1ddafca8a54b4adcbd1e8759bed02cd687b05113dd59ed527488801dd84"
+}

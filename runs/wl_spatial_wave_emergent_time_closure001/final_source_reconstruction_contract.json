@@ -1,0 +1,15 @@
+{
+  "contract": "PBUF_SPATIAL_STOP_SOURCE_RECONSTRUCTION_V1",
+  "known_depth_reconstruction_established": true,
+  "multipath_reconstruction_established": false,
+  "native_stop_required": true,
+  "physical_distance_required": false,
+  "remaining_ambiguities": [
+    "spatial wave constitutive law missing"
+  ],
+  "scale_free_geometry_available": true,
+  "source_layout_recoverable": true,
+  "source_size_recoverable": true,
+  "time_required": false,
+  "wave_stop_reconstruction_established": false
+}

@@ -1,0 +1,206 @@
+{
+  "S01_S20": [
+    {
+      "attempted": true,
+      "id": "S01",
+      "name": "loading only",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "S02",
+      "name": "weak internal excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S03",
+      "name": "moderate internal excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S04",
+      "name": "strong internal excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S05",
+      "name": "compact excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S06",
+      "name": "diffuse excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S07",
+      "name": "symmetric excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S08",
+      "name": "asymmetric excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S09",
+      "name": "single transverse mode",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S10",
+      "name": "orthogonal transverse mode",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S11",
+      "name": "mixed transverse state",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S12",
+      "name": "rotating transverse state",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S13",
+      "name": "standing internal excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S14",
+      "name": "circulating internal excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S15",
+      "name": "node-centered excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S16",
+      "name": "shell-like excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S17",
+      "name": "multi-lobed excitation",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S18",
+      "name": "loading-bound spatial mode",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S19",
+      "name": "naturally stable localized survivor",
+      "status": "MISSING_COUPLING"
+    },
+    {
+      "attempted": true,
+      "id": "S20",
+      "name": "no stable localized excitation",
+      "status": "ESTABLISHED"
+    }
+  ],
+  "loading_families": [
+    {
+      "id": "LOAD01",
+      "name": "weak compact",
+      "proxy": [
+        "L06 |epsilon|",
+        "L08 W(epsilon)",
+        "L16 volume-integrated loading"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "LOAD02",
+      "name": "moderate compact",
+      "proxy": [
+        "L06 |epsilon|",
+        "L08 W(epsilon)",
+        "L16 volume-integrated loading"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "LOAD03",
+      "name": "strong compact unsaturated",
+      "proxy": [
+        "L06 |epsilon|",
+        "L08 W(epsilon)",
+        "L16 volume-integrated loading"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "LOAD04",
+      "name": "weak diffuse",
+      "proxy": [
+        "L06 |epsilon|",
+        "L08 W(epsilon)",
+        "L16 volume-integrated loading"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "LOAD05",
+      "name": "strong diffuse",
+      "proxy": [
+        "L06 |epsilon|",
+        "L08 W(epsilon)",
+        "L16 volume-integrated loading"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "LOAD06",
+      "name": "asymmetric",
+      "proxy": [
+        "L06 |epsilon|",
+        "L08 W(epsilon)",
+        "L16 volume-integrated loading"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "LOAD07",
+      "name": "shell-like",
+      "proxy": [
+        "L06 |epsilon|",
+        "L08 W(epsilon)",
+        "L16 volume-integrated loading"
+      ],
+      "synthetic": true
+    },
+    {
+      "id": "LOAD08",
+      "name": "two-center",
+      "proxy": [
+        "L06 |epsilon|",
+        "L08 W(epsilon)",
+        "L16 volume-integrated loading"
+      ],
+      "synthetic": true
+    }
+  ]
+}

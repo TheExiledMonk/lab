@@ -1,0 +1,53 @@
+{
+  "inventory": [
+    {
+      "conservation": "not a propagated-mode invariant",
+      "dimensional_role": "medium energy density",
+      "equation_origin": "bounded-strain constitutive law",
+      "name": "bounded-strain medium energy density W(epsilon)",
+      "native_or_physical": "physical after K normalization",
+      "propagation_dependent": false,
+      "scope": "local",
+      "source_dependent": true,
+      "static_or_dynamic": "static medium state",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "conservation": "not defined",
+      "dimensional_role": "response increment",
+      "equation_origin": "frozen 0.03 delta_u_fast + 0.003 delta_u_slow",
+      "name": "fast/slow response transfer",
+      "native_or_physical": "native",
+      "propagation_dependent": true,
+      "scope": "local",
+      "source_dependent": true,
+      "static_or_dynamic": "transport update",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "conservation": "unknown",
+      "dimensional_role": "energy",
+      "equation_origin": null,
+      "name": "zero-mass mode energy",
+      "native_or_physical": null,
+      "propagation_dependent": null,
+      "scope": null,
+      "source_dependent": null,
+      "static_or_dynamic": null,
+      "status": "MISSING_NATIVE_STATE"
+    },
+    {
+      "conservation": "unknown",
+      "dimensional_role": "absent",
+      "equation_origin": null,
+      "name": "action/Hamiltonian/complex amplitude",
+      "native_or_physical": null,
+      "propagation_dependent": null,
+      "scope": null,
+      "source_dependent": null,
+      "static_or_dynamic": null,
+      "status": "MISSING_NATIVE_STATE"
+    }
+  ],
+  "native_zero_mass_energy_count": 0
+}

@@ -1,0 +1,204 @@
+{
+  "rows": [
+    {
+      "basis_covariant": true,
+      "candidate_id": "T20",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 1,
+      "status": "NO_EFFECT",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T01",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 2,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T02",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 3,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T03",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 4,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T04",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 5,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T05",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 6,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T06",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 7,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T07",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 8,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T08",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 9,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T09",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 10,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T10",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 11,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T11",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 12,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T12",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 13,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T13",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 14,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T14",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 15,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T15",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 16,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T16",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 17,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T17",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 18,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T18",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 19,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    },
+    {
+      "basis_covariant": true,
+      "candidate_id": "T19",
+      "coefficient_free": true,
+      "conservative": true,
+      "derived_longitudinal_response": false,
+      "rank": 20,
+      "status": "UNDERDETERMINED",
+      "zero_load_recovery": true
+    }
+  ]
+}

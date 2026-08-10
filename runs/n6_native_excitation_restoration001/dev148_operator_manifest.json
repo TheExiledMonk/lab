@@ -1,0 +1,54 @@
+{
+  "operators": [
+    {
+      "executed": true,
+      "id": "O01",
+      "name": "nearest-neighbor differences"
+    },
+    {
+      "executed": true,
+      "id": "O02",
+      "name": "central differences"
+    },
+    {
+      "executed": true,
+      "id": "O03",
+      "name": "divergence-like node sum"
+    },
+    {
+      "executed": true,
+      "id": "O04",
+      "name": "oriented link circulation"
+    },
+    {
+      "executed": true,
+      "id": "O05",
+      "name": "plaquette curl-like operator"
+    },
+    {
+      "executed": true,
+      "id": "O06",
+      "name": "transverse neighbor rotation"
+    },
+    {
+      "executed": true,
+      "id": "O07",
+      "name": "antisymmetric pair exchange"
+    },
+    {
+      "executed": true,
+      "id": "O08",
+      "name": "six-neighbor vector Laplacian"
+    },
+    {
+      "executed": true,
+      "id": "O09",
+      "name": "coupled divergence/circulation"
+    },
+    {
+      "executed": true,
+      "id": "O10",
+      "name": "existing medium N6 topology"
+    }
+  ]
+}

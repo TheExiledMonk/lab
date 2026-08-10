@@ -1,0 +1,30 @@
+{
+  "acyclic": true,
+  "derived_fields_without_retained_primitives": 0,
+  "edges": [
+    {
+      "derived": "incidence_cosine",
+      "source": "arrival_dir_n"
+    },
+    {
+      "derived": "incidence_angle",
+      "source": "incidence_cosine"
+    },
+    {
+      "derived": "launch_measure",
+      "source": "launch_u"
+    },
+    {
+      "derived": "launch_measure",
+      "source": "launch_v"
+    },
+    {
+      "derived": "local_position_direction_volume",
+      "source": "neighbor arrival position"
+    },
+    {
+      "derived": "local_position_direction_volume",
+      "source": "neighbor arrival direction"
+    }
+  ]
+}

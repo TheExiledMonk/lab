@@ -1,0 +1,27 @@
+{
+  "multiscale_scale16": {
+    "centroid_distance": 6.945900185416698,
+    "mahalanobis_distance": 1.3095385630349703,
+    "within_between_ratio": 90.731877832565
+  },
+  "multiscale_scale2": {
+    "centroid_distance": 0.7473517738083039,
+    "mahalanobis_distance": 0.9799892994220547,
+    "within_between_ratio": 2.591332853639708
+  },
+  "multiscale_scale32": {
+    "centroid_distance": 42.02757471169985,
+    "mahalanobis_distance": 1.369797521578556,
+    "within_between_ratio": 45.14369406207757
+  },
+  "multiscale_scale4": {
+    "centroid_distance": 0.7518939453651339,
+    "mahalanobis_distance": 1.014659115918716,
+    "within_between_ratio": 10.56053108594905
+  },
+  "multiscale_scale8": {
+    "centroid_distance": 1.3542062299844364,
+    "mahalanobis_distance": 1.144428261898994,
+    "within_between_ratio": 105.1154490068589
+  }
+}

@@ -1,0 +1,296 @@
+[
+  {
+    "assumptions": [
+      "unit Cartesian N6 grid"
+    ],
+    "code_location": "pbuf/models/a8_state.py:40-77",
+    "equation_id": "E01",
+    "first_dev": "historical A8",
+    "last_verified_dev": 154,
+    "latex": "\\bar u_a=\\frac16\\sum_{b\\in N_6(a)}u_b",
+    "name": "A8 N6 mean",
+    "status": "ESTABLISHED",
+    "variables": [
+      "u"
+    ]
+  },
+  {
+    "assumptions": [
+      "160 iterations"
+    ],
+    "code_location": "pbuf/models/a8_state.py:101-112",
+    "equation_id": "E02",
+    "first_dev": "historical A8",
+    "last_verified_dev": 154,
+    "latex": "u_f'=clip[u_f+0.03((\\bar u_f-u_f)+0.5(u_s-u_f)),-5,5]",
+    "name": "fast update",
+    "status": "ESTABLISHED",
+    "variables": [
+      "u_fast",
+      "u_slow"
+    ]
+  },
+  {
+    "assumptions": [
+      "simultaneous increments from old fields"
+    ],
+    "code_location": "pbuf/models/a8_state.py:101-112",
+    "equation_id": "E03",
+    "first_dev": "historical A8",
+    "last_verified_dev": 154,
+    "latex": "u_s'=clip[u_s+0.003((\\bar u_s-u_s)+0.5(u_f-u_s)),-5,5]",
+    "name": "slow update",
+    "status": "ESTABLISHED",
+    "variables": [
+      "u_fast",
+      "u_slow"
+    ]
+  },
+  {
+    "assumptions": [],
+    "code_location": "pbuf/models/a8_state.py:89-114",
+    "equation_id": "E04",
+    "first_dev": "historical A8",
+    "last_verified_dev": 154,
+    "latex": "c_{state}=(u_s+u_f)/2",
+    "name": "combined loading state",
+    "status": "ESTABLISHED",
+    "variables": [
+      "c_state",
+      "u_fast",
+      "u_slow"
+    ]
+  },
+  {
+    "assumptions": [
+      "axis-aligned positive bonds"
+    ],
+    "code_location": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:128-133",
+    "equation_id": "E05",
+    "first_dev": 143,
+    "last_verified_dev": 154,
+    "latex": "\\epsilon_{ab}=(u_b-u_a)/\\Delta x",
+    "name": "bond strain",
+    "status": "ESTABLISHED",
+    "variables": [
+      "epsilon",
+      "u"
+    ]
+  },
+  {
+    "assumptions": [
+      "|epsilon|<epsilon_max"
+    ],
+    "code_location": "pbuf/wl/native_incremental_elastic_energy.py:18-26",
+    "equation_id": "E06",
+    "first_dev": 143,
+    "last_verified_dev": 154,
+    "latex": "W=-\\frac{K\\epsilon_{max}^2}{2}\\ln(1-\\epsilon^2/\\epsilon_{max}^2)",
+    "name": "bounded energy",
+    "status": "ESTABLISHED",
+    "variables": [
+      "W",
+      "epsilon",
+      "K"
+    ]
+  },
+  {
+    "assumptions": [
+      "|epsilon|<epsilon_max"
+    ],
+    "code_location": "pbuf/wl/native_incremental_elastic_energy.py:29-33",
+    "equation_id": "E07",
+    "first_dev": 143,
+    "last_verified_dev": 154,
+    "latex": "\\sigma=K\\epsilon/(1-\\epsilon^2/\\epsilon_{max}^2)",
+    "name": "bounded stress",
+    "status": "ESTABLISHED",
+    "variables": [
+      "sigma",
+      "epsilon",
+      "K"
+    ]
+  },
+  {
+    "assumptions": [
+      "equals W''"
+    ],
+    "code_location": "pbuf/wl/native_incremental_elastic_energy.py:36-41",
+    "equation_id": "E08",
+    "first_dev": 143,
+    "last_verified_dev": 154,
+    "latex": "K_{tan}=K(1+q)/(1-q)^2,\\ q=(\\epsilon/\\epsilon_{max})^2",
+    "name": "tangent stiffness",
+    "status": "ESTABLISHED",
+    "variables": [
+      "K_tangent",
+      "epsilon",
+      "K"
+    ]
+  },
+  {
+    "assumptions": [
+      "zero Dirichlet accumulation boundary",
+      "Picard+CG"
+    ],
+    "code_location": "pbuf/labs/foundation/c_state_bounded_strain_bridge001.py:136-220",
+    "equation_id": "E09",
+    "first_dev": 145,
+    "last_verified_dev": 154,
+    "latex": "A(u)_a=\\Delta x^{-2}\\sum_{b\\in N_6(a)}K\\frac{u_a-u_b}{1-\\epsilon_{ab}^2/\\epsilon_{max}^2}=c_{state,a}",
+    "name": "nonlinear equilibrium",
+    "status": "ESTABLISHED",
+    "variables": [
+      "u",
+      "c_state",
+      "epsilon"
+    ]
+  },
+  {
+    "assumptions": [
+      "node state",
+      "no carrier phase"
+    ],
+    "code_location": "pbuf/excitation/native_excitation_state.py:24-32",
+    "equation_id": "E10",
+    "first_dev": 148,
+    "last_verified_dev": 154,
+    "latex": "X_a=A\\exp[-\\tfrac12((a-a_0)/w)^2]\\,p/\\|p\\|",
+    "name": "packet initialization",
+    "status": "ESTABLISHED",
+    "variables": [
+      "X1",
+      "X2"
+    ]
+  },
+  {
+    "assumptions": [
+      "1D periodic support",
+      "no branching"
+    ],
+    "code_location": "pbuf/excitation/native_excitation_transfer.py:24-37",
+    "equation_id": "E11",
+    "first_dev": 148,
+    "last_verified_dev": 154,
+    "latex": "X_a^{n+1}=X_{(a-d)\\bmod N}^{n},\\ d\\in\\{-1,+1\\}",
+    "name": "free progression",
+    "status": "ESTABLISHED",
+    "variables": [
+      "X1",
+      "X2"
+    ]
+  },
+  {
+    "assumptions": [
+      "one outgoing neighbor"
+    ],
+    "code_location": "pbuf/foundation/native_neighbor_mixed_state.py:17-33",
+    "equation_id": "E12",
+    "first_dev": 152,
+    "last_verified_dev": 154,
+    "latex": "X_j^{n+1}=R_{ij}X_i^n,\\ j=(i+1)\\bmod N",
+    "name": "frame-aware progression",
+    "status": "ESTABLISHED",
+    "variables": [
+      "X1",
+      "X2",
+      "R_ij"
+    ]
+  },
+  {
+    "assumptions": [
+      "nearest orthogonal polar factor"
+    ],
+    "code_location": "pbuf/foundation/native_neighbor_state.py:48-52",
+    "equation_id": "E13",
+    "first_dev": 152,
+    "last_verified_dev": 154,
+    "latex": "R_{ij}=UV^T,\\quad B_{ij}=E_{\\perp,j}E_{\\perp,i}^T=U\\Sigma V^T",
+    "name": "orthogonal frame map",
+    "status": "ESTABLISHED",
+    "variables": [
+      "R_ij"
+    ]
+  },
+  {
+    "assumptions": [],
+    "code_location": "pbuf/excitation/native_excitation_invariants.py:7-15",
+    "equation_id": "E14",
+    "first_dev": 148,
+    "last_verified_dev": 154,
+    "latex": "N_X=\\sum_a(X_{1,a}^2+X_{2,a}^2)",
+    "name": "excitation norm",
+    "status": "ESTABLISHED",
+    "variables": [
+      "N_X",
+      "X1",
+      "X2"
+    ]
+  },
+  {
+    "assumptions": [
+      "diagnostic, not probability"
+    ],
+    "code_location": "pbuf/foundation/native_neighbor_mixed_observer.py:6-9",
+    "equation_id": "E15",
+    "first_dev": 149,
+    "last_verified_dev": 154,
+    "latex": "\\rho_{X,a}=X_{1,a}^2+X_{2,a}^2",
+    "name": "excitation density",
+    "status": "DERIVED",
+    "variables": [
+      "rho_X",
+      "X1",
+      "X2"
+    ]
+  },
+  {
+    "assumptions": [
+      "linear centroid; packet must not cross periodic seam"
+    ],
+    "code_location": "pbuf/foundation/native_neighbor_mixed_observer.py:6-9",
+    "equation_id": "E16",
+    "first_dev": 149,
+    "last_verified_dev": 154,
+    "latex": "\\bar r_n=\\sum_a a\\rho_{X,a}^{(n)}/\\sum_a\\rho_{X,a}^{(n)}",
+    "name": "packet centroid",
+    "status": "DERIVED",
+    "variables": [
+      "rbar",
+      "rho_X"
+    ]
+  },
+  {
+    "assumptions": [
+      "first transverse component only"
+    ],
+    "code_location": "pbuf/foundation/native_neighbor_mixed_observer.py:10-12",
+    "equation_id": "E17",
+    "first_dev": 149,
+    "last_verified_dev": 154,
+    "latex": "m_n=argmax_{m\\ge1}|FFT(X_1)_m|^2,\\ \\lambda_n=N/max(m_n,1)",
+    "name": "FFT wavelength",
+    "status": "DIAGNOSTIC",
+    "variables": [
+      "lambda_n",
+      "X1"
+    ]
+  },
+  {
+    "assumptions": [
+      "L is audit longitudinal array, not c_state primitive"
+    ],
+    "code_location": "pbuf/foundation/native_neighbor_state.py:54-70",
+    "equation_id": "E18",
+    "first_dev": 151,
+    "last_verified_dev": 154,
+    "latex": "\\mathcal S=(L,X_1,X_2)",
+    "name": "unified state",
+    "status": "REPRESENTATIONAL",
+    "variables": [
+      "L",
+      "X1",
+      "X2"
+    ]
+  }
+]

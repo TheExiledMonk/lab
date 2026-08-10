@@ -1,0 +1,145 @@
+{
+  "classifications": [
+    {
+      "id": "L01",
+      "local_or_integrated": "LOCAL",
+      "name": "c_state",
+      "persistence": "PERSISTENT",
+      "status": "NOT_LOADING"
+    },
+    {
+      "id": "L02",
+      "local_or_integrated": "LOCAL",
+      "name": "source loading S",
+      "persistence": "PERSISTENT",
+      "status": "SOURCE_DEPENDENT"
+    },
+    {
+      "id": "L03",
+      "local_or_integrated": "LOCAL",
+      "name": "accumulated response u",
+      "persistence": "PERSISTENT",
+      "status": "DERIVABLE_LOADING_PROXY"
+    },
+    {
+      "id": "L04",
+      "local_or_integrated": "LOCAL",
+      "name": "|u|",
+      "persistence": "PERSISTENT",
+      "status": "DERIVABLE_LOADING_PROXY"
+    },
+    {
+      "id": "L05",
+      "local_or_integrated": "LOCAL",
+      "name": "strain epsilon",
+      "persistence": "PERSISTENT",
+      "status": "STRUCTURALLY_PLAUSIBLE"
+    },
+    {
+      "id": "L06",
+      "local_or_integrated": "LOCAL",
+      "name": "|epsilon|",
+      "persistence": "PERSISTENT",
+      "status": "DERIVABLE_LOADING_PROXY"
+    },
+    {
+      "id": "L07",
+      "local_or_integrated": "LOCAL",
+      "name": "stress sigma(epsilon)",
+      "persistence": "PERSISTENT",
+      "status": "DERIVABLE_LOADING_PROXY"
+    },
+    {
+      "id": "L08",
+      "local_or_integrated": "LOCAL",
+      "name": "bounded-strain energy W(epsilon)",
+      "persistence": "PERSISTENT",
+      "status": "DERIVABLE_LOADING_PROXY"
+    },
+    {
+      "id": "L09",
+      "local_or_integrated": "LOCAL",
+      "name": "local response gradient",
+      "persistence": "MIXED",
+      "status": "GEOMETRY_DEPENDENT"
+    },
+    {
+      "id": "L10",
+      "local_or_integrated": "LOCAL",
+      "name": "local strain gradient",
+      "persistence": "MIXED",
+      "status": "GEOMETRY_DEPENDENT"
+    },
+    {
+      "id": "L11",
+      "local_or_integrated": "INTEGRATED",
+      "name": "integrated local deformation",
+      "persistence": "PERSISTENT",
+      "status": "NONLOCAL"
+    },
+    {
+      "id": "L12",
+      "local_or_integrated": "COMPOSITE",
+      "name": "source-normalized loading",
+      "persistence": "UNDETERMINED",
+      "status": "DIMENSIONALLY_UNSUITABLE"
+    },
+    {
+      "id": "L13",
+      "local_or_integrated": "COMPOSITE",
+      "name": "response-normalized loading",
+      "persistence": "UNDETERMINED",
+      "status": "DIMENSIONALLY_UNSUITABLE"
+    },
+    {
+      "id": "L14",
+      "local_or_integrated": "LOCAL",
+      "name": "deformation energy above unloaded state",
+      "persistence": "PERSISTENT",
+      "status": "DERIVABLE_LOADING_PROXY"
+    },
+    {
+      "id": "L15",
+      "local_or_integrated": "LOCAL",
+      "name": "central loading",
+      "persistence": "PERSISTENT",
+      "status": "GEOMETRY_DEPENDENT"
+    },
+    {
+      "id": "L16",
+      "local_or_integrated": "INTEGRATED",
+      "name": "volume-integrated loading",
+      "persistence": "PERSISTENT",
+      "status": "DERIVABLE_LOADING_PROXY"
+    },
+    {
+      "id": "L17",
+      "local_or_integrated": "INTEGRATED",
+      "name": "surface loading fingerprint",
+      "persistence": "PERSISTENT",
+      "status": "GEOMETRY_DEPENDENT"
+    },
+    {
+      "id": "L18",
+      "local_or_integrated": "INTEGRATED",
+      "name": "far-response loading fingerprint",
+      "persistence": "PERSISTENT",
+      "status": "NONLOCAL"
+    },
+    {
+      "id": "L19",
+      "local_or_integrated": "COMPOSITE",
+      "name": "compactness-like native ratio",
+      "persistence": "PERSISTENT",
+      "status": "STRUCTURALLY_PLAUSIBLE"
+    },
+    {
+      "id": "L20",
+      "local_or_integrated": "COMPOSITE",
+      "name": "native loading/state composite",
+      "persistence": "UNDETERMINED",
+      "status": "UNRESOLVED"
+    }
+  ],
+  "rest_mass_identification": false
+}

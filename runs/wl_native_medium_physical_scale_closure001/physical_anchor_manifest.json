@@ -1,0 +1,42 @@
+{
+  "loaded_only_after_phase_G": true,
+  "manifest": "DEV137_NON_LENSING_ANCHORS_V1",
+  "records": [
+    {
+      "id": "MEASURED_G",
+      "quantity": "Newtonian constant of gravitation",
+      "role": "VALIDATION",
+      "source_provenance": "CODATA 2018 recommended value (NIST SP 959)",
+      "uncertainty": 1.5e-15,
+      "units": "m^3 kg^-1 s^-2",
+      "value": 6.6743e-11
+    },
+    {
+      "id": "EARTH",
+      "quantity": "nominal equatorial radius",
+      "role": "VALIDATION",
+      "source_provenance": "IAU 2015 Resolution B3 nominal conversion constant",
+      "uncertainty": 0.0,
+      "units": "m",
+      "value": 6378100.0
+    },
+    {
+      "id": "LABORATORY",
+      "quantity": "controlled source-response configuration",
+      "role": "VALIDATION",
+      "source_provenance": "LAB_ANCHOR_DATA_UNAVAILABLE",
+      "uncertainty": null,
+      "units": null,
+      "value": null
+    },
+    {
+      "id": "SOLAR",
+      "quantity": "nominal solar radius",
+      "role": "VALIDATION",
+      "source_provenance": "IAU 2015 Resolution B3 nominal conversion constant",
+      "uncertainty": 0.0,
+      "units": "m",
+      "value": 695700000.0
+    }
+  ]
+}

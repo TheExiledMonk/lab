@@ -1,0 +1,23 @@
+{
+  "active_endpoint_hash": "05db8d4708c394ebdf6cd02ee6198bf628f73f20bb3a4970867cda3ffd6f2035",
+  "bundle_fraction_count": 9,
+  "dev127_structural_sha_verified": true,
+  "fields_exposed": [
+    "position",
+    "direction",
+    "delta_s",
+    "rx_sample",
+    "ry_sample"
+  ],
+  "fields_unavailable": [],
+  "hook_event_convention": "launch, POST_STEP 1..159, termination",
+  "hook_source": "_propagate_g3d/TrajectoryStepAccumulator",
+  "hst_pixel_access": false,
+  "null_endpoint_hash": "05db8d4708c394ebdf6cd02ee6198bf628f73f20bb3a4970867cda3ffd6f2035",
+  "parity_status": "EXACT",
+  "propagator_source_files": [
+    "pbuf/labs/foundation/los_consistent_ray_geometry001.py"
+  ],
+  "ray_count": 285156,
+  "target_access": false
+}

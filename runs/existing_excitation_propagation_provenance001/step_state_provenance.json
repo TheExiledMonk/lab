@@ -1,0 +1,11 @@
+{
+  "propagated_native_state": [
+    "position",
+    "unit direction"
+  ],
+  "recurrence": "n_next=normalize(n+path_step*(rx,ry,0)); x_next=x+path_step*n_next",
+  "static_samples": [
+    "rx",
+    "ry"
+  ]
+}

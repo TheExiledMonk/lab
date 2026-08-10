@@ -1,0 +1,64 @@
+{
+  "QL01_QL10": [
+    {
+      "attempted": true,
+      "id": "QL01",
+      "name": "localized-state quantization",
+      "status": "MISSING_INTERACTION_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "QL02",
+      "name": "emission transition quantization",
+      "status": "MISSING_INTERACTION_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "QL03",
+      "name": "absorption transition quantization",
+      "status": "MISSING_INTERACTION_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "QL04",
+      "name": "source boundary quantization",
+      "status": "MISSING_INTERACTION_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "QL05",
+      "name": "interaction threshold quantization",
+      "status": "MISSING_INTERACTION_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "QL06",
+      "name": "topological localized-state quantization",
+      "status": "MISSING_INTERACTION_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "QL07",
+      "name": "nonlinear localized-state quantization",
+      "status": "MISSING_INTERACTION_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "QL08",
+      "name": "loading-bound mode quantization",
+      "status": "MISSING_INTERACTION_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "QL09",
+      "name": "combined loading/excitation quantization",
+      "status": "MISSING_INTERACTION_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "QL10",
+      "name": "no quantization in current localized physics",
+      "status": "ESTABLISHED"
+    }
+  ]
+}

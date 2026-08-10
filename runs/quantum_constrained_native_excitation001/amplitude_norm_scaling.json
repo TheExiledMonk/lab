@@ -1,0 +1,41 @@
+{
+  "classification": "N_X proportional to amplitude squared",
+  "results": [
+    {
+      "amplitude": 0.0625,
+      "norm": 0.2140125817725686,
+      "norm_over_a2": 54.78722093377756
+    },
+    {
+      "amplitude": 0.125,
+      "norm": 0.8560503270902744,
+      "norm_over_a2": 54.78722093377756
+    },
+    {
+      "amplitude": 0.25,
+      "norm": 3.4242013083610976,
+      "norm_over_a2": 54.78722093377756
+    },
+    {
+      "amplitude": 0.5,
+      "norm": 13.69680523344439,
+      "norm_over_a2": 54.78722093377756
+    },
+    {
+      "amplitude": 1,
+      "norm": 54.78722093377756,
+      "norm_over_a2": 54.78722093377756
+    },
+    {
+      "amplitude": 2,
+      "norm": 219.14888373511025,
+      "norm_over_a2": 54.78722093377756
+    },
+    {
+      "amplitude": 4,
+      "norm": 876.595534940441,
+      "norm_over_a2": 54.78722093377756
+    }
+  ],
+  "verified": true
+}

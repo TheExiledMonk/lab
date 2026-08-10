@@ -1,0 +1,131 @@
+{
+  "results": [
+    {
+      "attempted": true,
+      "id": "X01",
+      "name": "signed node scalar",
+      "status": "FAILS_TWO_TRANSVERSE_DOF"
+    },
+    {
+      "attempted": true,
+      "id": "X02",
+      "name": "signed link scalar",
+      "status": "FAILS_TWO_TRANSVERSE_DOF"
+    },
+    {
+      "attempted": true,
+      "id": "X03",
+      "name": "node vector",
+      "status": "OVERCOMPLETE"
+    },
+    {
+      "attempted": true,
+      "id": "X04",
+      "name": "oriented link vector",
+      "status": "OVERCOMPLETE"
+    },
+    {
+      "attempted": true,
+      "id": "X05",
+      "name": "two-component node state",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "X06",
+      "name": "two-component link state",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "X07",
+      "name": "transverse two-component state",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "X08",
+      "name": "antisymmetric pair state",
+      "status": "DERIVABLE"
+    },
+    {
+      "attempted": true,
+      "id": "X09",
+      "name": "coupled scalar pair",
+      "status": "FAILS_TWO_TRANSVERSE_DOF"
+    },
+    {
+      "attempted": true,
+      "id": "X10",
+      "name": "coupled vector pair",
+      "status": "OVERCOMPLETE"
+    },
+    {
+      "attempted": true,
+      "id": "X11",
+      "name": "local orientation + magnitude",
+      "status": "DERIVABLE"
+    },
+    {
+      "attempted": true,
+      "id": "X12",
+      "name": "link orientation + magnitude",
+      "status": "DERIVABLE"
+    },
+    {
+      "attempted": true,
+      "id": "X13",
+      "name": "excitation/response conjugate pair",
+      "status": "DERIVABLE"
+    },
+    {
+      "attempted": true,
+      "id": "X14",
+      "name": "displacement-like + circulation-like pair",
+      "status": "DERIVABLE"
+    },
+    {
+      "attempted": true,
+      "id": "X15",
+      "name": "strain-like dynamic tensor perturbation",
+      "status": "DERIVABLE"
+    },
+    {
+      "attempted": true,
+      "id": "X16",
+      "name": "antisymmetric tensor-like excitation",
+      "status": "DERIVABLE"
+    },
+    {
+      "attempted": true,
+      "id": "X17",
+      "name": "three-axis pair state",
+      "status": "OVERCOMPLETE"
+    },
+    {
+      "attempted": true,
+      "id": "X18",
+      "name": "six-component native mode state",
+      "status": "OVERCOMPLETE"
+    },
+    {
+      "attempted": true,
+      "id": "X19",
+      "name": "minimal state inferred from EM rank",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "X20",
+      "name": "no tested state sufficient",
+      "status": "NOT_APPLICABLE"
+    }
+  ],
+  "survivors": [
+    "X05",
+    "X06",
+    "X07",
+    "X19"
+  ],
+  "unique": false
+}

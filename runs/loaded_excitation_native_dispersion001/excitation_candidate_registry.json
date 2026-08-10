@@ -1,0 +1,166 @@
+{
+  "all_attempted": true,
+  "candidates": [
+    {
+      "conserved": "IDENTITY_ONLY",
+      "energy_like": false,
+      "id": "X01",
+      "name": "Dev144 transported scalar q",
+      "source_initializable": true,
+      "status": "ESTABLISHED_NEUTRAL_STATE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X02",
+      "name": "signed excitation state",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X03",
+      "name": "excitation magnitude + sign",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X04",
+      "name": "local excitation vector",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X05",
+      "name": "transverse excitation vector",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X06",
+      "name": "neighbor-link excitation",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X07",
+      "name": "excitation density",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X08",
+      "name": "packet-integrated excitation",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X09",
+      "name": "excitation norm",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X10",
+      "name": "excitation-gradient state",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X11",
+      "name": "fast-channel excitation",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X12",
+      "name": "slow-channel excitation",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X13",
+      "name": "coupled fast/slow excitation",
+      "source_initializable": true,
+      "status": "STRUCTURALLY_DEFINABLE"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X14",
+      "name": "localized standing component",
+      "source_initializable": false,
+      "status": "MISSING_DYNAMIC_DECOMPOSITION"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X15",
+      "name": "propagating component",
+      "source_initializable": false,
+      "status": "MISSING_DYNAMIC_DECOMPOSITION"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X16",
+      "name": "localized + propagating pair",
+      "source_initializable": false,
+      "status": "MISSING_DYNAMIC_DECOMPOSITION"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X17",
+      "name": "conserved excitation norm",
+      "source_initializable": false,
+      "status": "MISSING_NATIVE_NORM"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X18",
+      "name": "conserved pair-state excitation",
+      "source_initializable": false,
+      "status": "MISSING_NATIVE_NORM"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X19",
+      "name": "loading-bound excitation component",
+      "source_initializable": false,
+      "status": "MISSING_DYNAMIC_DECOMPOSITION"
+    },
+    {
+      "conserved": "NOT_DERIVED",
+      "energy_like": false,
+      "id": "X20",
+      "name": "minimal additional excitation state required",
+      "source_initializable": false,
+      "status": "REQUIRED_ADDITIONAL_DOF"
+    }
+  ],
+  "count": 20
+}

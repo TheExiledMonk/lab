@@ -1,0 +1,110 @@
+{
+  "RAY_FAR_CONTROL": {
+    "median_delta_u": 3.568877721349395e-06,
+    "median_delta_v": -0.0004795855382200287,
+    "median_transverse_displacement": 0.000671011106006628,
+    "ray_count": 19921,
+    "received_depth_variance": 1.7595342872793938e-07,
+    "received_direction_variance": 1.393292976525522e-07,
+    "received_u_variance": 24.274468273284533,
+    "received_v_variance": 28.066954700580304,
+    "rms_transverse_displacement": 0.001727811737833141,
+    "transverse_displacement_quantiles": {
+      "q05": 0.00022155695140143816,
+      "q25": 0.0004242622318035227,
+      "q50": 0.000671011106006628,
+      "q75": 0.0016054678633281038,
+      "q95": 0.004163921158124264
+    }
+  },
+  "RAY_LENS_CORE": {
+    "median_delta_u": -0.0022257130769758326,
+    "median_delta_v": -0.0020007055938473517,
+    "median_transverse_displacement": 0.010448758055199845,
+    "ray_count": 22130,
+    "received_depth_variance": 8.819311241982318e-08,
+    "received_direction_variance": 1.1365733606475857e-05,
+    "received_u_variance": 14.208333556851292,
+    "received_v_variance": 13.260044261644389,
+    "rms_transverse_displacement": 0.014358640403105822,
+    "transverse_displacement_quantiles": {
+      "q05": 0.0027633318334222318,
+      "q25": 0.006542554396426198,
+      "q50": 0.010448758055199845,
+      "q75": 0.014072561270451174,
+      "q95": 0.020315177155057252
+    }
+  },
+  "RAY_LENS_INNER": {
+    "median_delta_u": -0.000736147143893362,
+    "median_delta_v": -0.00043701339461899025,
+    "median_transverse_displacement": 0.006386593965831194,
+    "ray_count": 44241,
+    "received_depth_variance": 1.1856209365834145e-07,
+    "received_direction_variance": 2.991543366233146e-06,
+    "received_u_variance": 21.48663435272829,
+    "received_v_variance": 17.66601907312254,
+    "rms_transverse_displacement": 0.0072170820321690535,
+    "transverse_displacement_quantiles": {
+      "q05": 0.0017531771708935685,
+      "q25": 0.004028179961444363,
+      "q50": 0.006386593965831194,
+      "q75": 0.008691909673715468,
+      "q95": 0.011699425753574525
+    }
+  },
+  "RAY_LENS_OUTER": {
+    "median_delta_u": 0.00027703447083154975,
+    "median_delta_v": -1.7374741199116528e-05,
+    "median_transverse_displacement": 0.002352214939279027,
+    "ray_count": 155011,
+    "received_depth_variance": 1.4041482295876199e-07,
+    "received_direction_variance": 6.980983597044192e-07,
+    "received_u_variance": 21.42991885716997,
+    "received_v_variance": 21.331137866387625,
+    "rms_transverse_displacement": 0.0034933386832775902,
+    "transverse_displacement_quantiles": {
+      "q05": 0.0004779318646540766,
+      "q25": 0.0013675634518406361,
+      "q50": 0.002352214939279027,
+      "q75": 0.0038493857260039495,
+      "q95": 0.007093236605436946
+    }
+  },
+  "RAY_NEAR_LENS": {
+    "median_delta_u": 9.547218366101617e-05,
+    "median_delta_v": -0.00037305223050765335,
+    "median_transverse_displacement": 0.0013275476318395933,
+    "ray_count": 43853,
+    "received_depth_variance": 1.527206410498391e-07,
+    "received_direction_variance": 2.692626480271687e-07,
+    "received_u_variance": 21.39644135034786,
+    "received_v_variance": 24.19342718087965,
+    "rms_transverse_displacement": 0.0021841889084525438,
+    "transverse_displacement_quantiles": {
+      "q05": 0.0002748193592402496,
+      "q25": 0.0006442206301313402,
+      "q50": 0.0013275476318395933,
+      "q75": 0.002295576881418537,
+      "q95": 0.004391264942673028
+    }
+  },
+  "RAY_UNCLASSIFIED": {
+    "median_delta_u": null,
+    "median_delta_v": null,
+    "median_transverse_displacement": null,
+    "ray_count": 0,
+    "received_depth_variance": null,
+    "received_direction_variance": null,
+    "received_u_variance": null,
+    "received_v_variance": null,
+    "rms_transverse_displacement": null,
+    "transverse_displacement_quantiles": {
+      "q05": null,
+      "q25": null,
+      "q50": null,
+      "q75": null,
+      "q95": null
+    }
+  }
+}

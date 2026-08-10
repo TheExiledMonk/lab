@@ -1,0 +1,79 @@
+[
+  {
+    "input_coordinate": "source_grid",
+    "input_units": "index / target-product pixels",
+    "invertible": true,
+    "operation": "construct_common_proxy; resample to configured square extent",
+    "output_coordinate": "network_grid",
+    "output_units": "native coordinate",
+    "physical_provenance_retained": false,
+    "scale_metadata_retained": false,
+    "stage": "N0/N9 source construction"
+  },
+  {
+    "input_coordinate": "network_grid",
+    "input_units": "native coordinate",
+    "invertible": true,
+    "operation": "construct_rho_3d and solve c_state on same array lattice",
+    "output_coordinate": "c_state_grid",
+    "output_units": "grid-cell coordinate",
+    "physical_provenance_retained": false,
+    "scale_metadata_retained": false,
+    "stage": "N5 medium construction"
+  },
+  {
+    "input_coordinate": "c_state_grid",
+    "input_units": "grid-cell coordinate",
+    "invertible": true,
+    "operation": "linspace(-extent,+extent,N); interpolate response",
+    "output_coordinate": "propagation_grid",
+    "output_units": "native coordinate",
+    "physical_provenance_retained": false,
+    "scale_metadata_retained": false,
+    "stage": "N6 propagation sampling"
+  },
+  {
+    "input_coordinate": "propagation_grid",
+    "input_units": "native coordinate",
+    "invertible": true,
+    "operation": "uniform Cartesian launch over [-8,+8]^2",
+    "output_coordinate": "launch_grid",
+    "output_units": "native coordinate",
+    "physical_provenance_retained": false,
+    "scale_metadata_retained": false,
+    "stage": "N7 launch"
+  },
+  {
+    "input_coordinate": "launch_grid",
+    "input_units": "native coordinate",
+    "invertible": true,
+    "operation": "fixed step integration; Euclidean segment accumulation",
+    "output_coordinate": "trajectory_coordinates",
+    "output_units": "native coordinate length",
+    "physical_provenance_retained": false,
+    "scale_metadata_retained": false,
+    "stage": "N6 integration"
+  },
+  {
+    "input_coordinate": "trajectory_coordinates",
+    "input_units": "native coordinate length",
+    "invertible": true,
+    "operation": "Cartesian endpoint projected on A0 e_u/e_v",
+    "output_coordinate": "receiver_coordinates",
+    "output_units": "A0 native coordinate",
+    "physical_provenance_retained": false,
+    "scale_metadata_retained": false,
+    "stage": "N8 receiver"
+  },
+  {
+    "input_coordinate": "receiver_coordinates",
+    "input_units": "A0 native coordinate",
+    "invertible": true,
+    "operation": "identity receiver-plane intersection coordinates",
+    "output_coordinate": "arrival_coordinates",
+    "output_units": "A0 native coordinate",
+    "physical_provenance_retained": false,
+    "scale_metadata_retained": false,
+    "stage": "arrival formation"
+  }
+]

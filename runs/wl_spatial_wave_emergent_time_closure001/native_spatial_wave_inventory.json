@@ -1,0 +1,26 @@
+{
+  "inventory": [
+    {
+      "classification": "NUMERICAL_ONLY",
+      "name": "transport mode/iteration indices",
+      "usable": false
+    },
+    {
+      "classification": "NOT_WAVE_STATE",
+      "name": "trajectory spatial path",
+      "usable": false
+    },
+    {
+      "classification": "NUMERICAL_ONLY",
+      "name": "local variable named phase in D07",
+      "usable": false
+    },
+    {
+      "classification": "UNUSABLE",
+      "name": "physical k_n or lambda_n",
+      "reason": "absent",
+      "usable": false
+    }
+  ],
+  "physical_count": 0
+}

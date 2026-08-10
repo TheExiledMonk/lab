@@ -1,0 +1,22 @@
+{
+  "beta_measured": false,
+  "center_progression": null,
+  "loading": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "native_dynamics_executed": false,
+  "q": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "reason": "No native local excitation update, internal-state evolution, or loaded packet transfer law exists."
+}

@@ -1,0 +1,166 @@
+{
+  "results": [
+    {
+      "class": "STRAIN_AMPLITUDE",
+      "id": "A01",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "STRAIN_AMPLITUDE",
+      "id": "A02",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "STRAIN_NORM",
+      "id": "A03",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "STRAIN_NORM",
+      "id": "A04",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "INCREMENTAL_ELASTIC_ENERGY",
+      "id": "A05",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "INCREMENTAL_ELASTIC_ENERGY",
+      "id": "A06",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "PACKET_VOLUME",
+      "id": "A07",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "PACKET_VOLUME",
+      "id": "A08",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "AMPLITUDE_WIDTH_COMPOSITE",
+      "id": "A09",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "AMPLITUDE_WIDTH_COMPOSITE",
+      "id": "A10",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "FAST_SLOW_STATE",
+      "id": "A11",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "FAST_SLOW_STATE",
+      "id": "A12",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "GRADIENT_STATE",
+      "id": "A13",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "GRADIENT_STATE",
+      "id": "A14",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "SPATIAL_MODE_STRUCTURE",
+      "id": "A15",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    },
+    {
+      "class": "SPATIAL_MODE_STRUCTURE",
+      "id": "A16",
+      "status": "RELATION_ONLY",
+      "translation_control": {
+        "classification": "CONSERVED",
+        "cv": 0.0
+      }
+    }
+  ],
+  "values": {
+    "A01": 0.04999847115986425,
+    "A02": 0.03003022331654844,
+    "A03": 7.900653115244767,
+    "A04": 0.5321369129338009,
+    "A05": 0.04999847115986425,
+    "A06": 0.03003022331654844,
+    "A07": 0.005865057099729582,
+    "A08": 7.900653115244767,
+    "A09": 0.2831696941067156,
+    "A10": 0.05657719065380075,
+    "A11": 0.05657719065380075,
+    "A12": 0.05657719065380075,
+    "A13": 9.822091886608007,
+    "A14": 90.78821509425109,
+    "A15": 0.49108957792210706,
+    "A16": 0.024553728098648375
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "beta_is_output": true,
+  "beta_supplied_as_input": false,
+  "excitation_is_energy": false,
+  "excitation_source": "Dev144 neutral q",
+  "loading_is_rest_mass": false,
+  "loading_proxies": [
+    "L06",
+    "L08",
+    "L16"
+  ],
+  "spatial_progression_only": true
+}

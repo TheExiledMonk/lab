@@ -1,0 +1,14 @@
+{
+  "coefficient_free_coupling_available": false,
+  "contract": "PBUF_DYNAMIC_EXCITATION_STATIC_MEDIUM_COUPLING_V1",
+  "coupling_definition": null,
+  "dynamic_excitation_available": true,
+  "frozen_ray_path_comparison_available": false,
+  "loaded_progression_available": false,
+  "mass_loading_coupling_preliminary": false,
+  "nonuniform_path_emergence": false,
+  "static_medium_available": true,
+  "trajectory_parity": false,
+  "unloaded_propagation": true,
+  "zero_mass_propagation_changed": false
+}

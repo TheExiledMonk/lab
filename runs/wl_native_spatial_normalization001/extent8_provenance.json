@@ -1,0 +1,12 @@
+{
+  "call_sites": "pbuf.wl.config.EXTENT and downstream launch/deposition/receiver labs",
+  "classification": "EXTENT8_NUMERICAL",
+  "current_frozen_value": 8.0,
+  "default_source": "a8_three_dimensional_projection_lab001.PRODUCTION['extent']",
+  "first_definition": "a8_three_dimensional_projection_lab001.py:92 PRODUCTION['extent']=8.0",
+  "reason": "numerical square half-extent inherited by source proxy and launch/receiver grids; no explicit physical unit or source-size derivation",
+  "relation_to_receiver_extent": "receiver binning uses the same +/- EXTENT boundary",
+  "relation_to_source_network_extent": "shared canonical proxy/propagation extent; array lattice spacing is separately numerical",
+  "runtime_override_possibilities": "lab-local configuration only; frozen WL config imports value",
+  "value": 8.0
+}

@@ -1,0 +1,46 @@
+{
+  "gamma_access": false,
+  "interpolation": "linear_in_cumulative_arc_length; diagnostic only",
+  "kappa_target_access": false,
+  "lab_id": "PBUF-FOUNDATION-WL-TRAJECTORY-STATE-COMPLETION-001",
+  "mapping_count": 29,
+  "native_manifest": [
+    {
+      "currently_used_by_propagation": true,
+      "name": "rx_sample",
+      "source_module": "pbuf.labs.foundation.los_consistent_ray_geometry001._sample",
+      "units": "native response per propagation length",
+      "where_sampled": "before direction update and at checkpoints"
+    },
+    {
+      "currently_used_by_propagation": true,
+      "name": "ry_sample",
+      "source_module": "pbuf.labs.foundation.los_consistent_ray_geometry001._sample",
+      "units": "native response per propagation length",
+      "where_sampled": "before direction update and at checkpoints"
+    }
+  ],
+  "propagation_physics_changes": 0,
+  "synthetic_information": {
+    "endpoint_effective_rank": {
+      "effective_rank": 1.0,
+      "variance_count": 1
+    },
+    "endpoint_to_history_r2": [
+      0.999988977791481,
+      0.9999999999999571,
+      0.9387410164128002,
+      0.9387410164128001,
+      0.999988968302245,
+      0.9343441845301208
+    ],
+    "history_effective_rank": {
+      "effective_rank": 1.0697176115034466,
+      "variance_count": 1
+    },
+    "production_abell2744_evidence_available": false,
+    "reason": "frozen propagator exposes nine diagnostic checkpoints, not all integration steps; no scientific outcome inferred",
+    "scope": "target-blind synthetic structural validation"
+  },
+  "target_access": false
+}

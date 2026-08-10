@@ -1,0 +1,147 @@
+{
+  "contract": "PBUF_GEOMETRIC_OPTICAL_INTERACTION_V1",
+  "control_radius": 8.475402390156061,
+  "diffraction": false,
+  "geometry_parameter_policy": {
+    "clipping_control": "0.75 * same extent",
+    "primary_aperture": "1.05 * frozen complete S1 radial extent"
+  },
+  "hst_pixel_access": false,
+  "label": "IDEAL_GEOMETRIC_FOCUS_CONTROL",
+  "phase_optics": false,
+  "physical_intensity_formation": false,
+  "spectral_optics": false,
+  "surface_order": [
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "surfaces": [
+    {
+      "aperture_parameters": {},
+      "aperture_type": "NONE",
+      "basis_u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "interaction_parameters": {},
+      "interaction_type": "PLANE_INTERSECTION",
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normal_convention": "basis_u_cross_basis_v_equals_normal",
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reverse_classification": "EXACTLY_REVERSIBLE",
+      "surface_id": "S0",
+      "surface_type": "PLANE"
+    },
+    {
+      "aperture_parameters": {
+        "radius": 11.865563346218487
+      },
+      "aperture_type": "CIRCULAR",
+      "basis_u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "interaction_parameters": {},
+      "interaction_type": "APERTURE_TEST",
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normal_convention": "basis_u_cross_basis_v_equals_normal",
+      "origin": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "reverse_classification": "EXACTLY_REVERSIBLE",
+      "surface_id": "S1",
+      "surface_type": "PLANE"
+    },
+    {
+      "aperture_parameters": {},
+      "aperture_type": "NONE",
+      "basis_u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "interaction_parameters": {
+        "focal_distance": 1.0
+      },
+      "interaction_type": "IDEAL_DIRECTION_TRANSFORM",
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normal_convention": "basis_u_cross_basis_v_equals_normal",
+      "origin": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "reverse_classification": "REVERSIBLE_WITH_METADATA",
+      "surface_id": "S2",
+      "surface_type": "PLANE"
+    },
+    {
+      "aperture_parameters": {},
+      "aperture_type": "NONE",
+      "basis_u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "basis_v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "interaction_parameters": {},
+      "interaction_type": "PLANE_INTERSECTION",
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "normal_convention": "basis_u_cross_basis_v_equals_normal",
+      "origin": [
+        0.0,
+        0.0,
+        3.0
+      ],
+      "reverse_classification": "EXACTLY_REVERSIBLE",
+      "surface_id": "S3",
+      "surface_type": "PLANE"
+    }
+  ],
+  "target_access": false
+}

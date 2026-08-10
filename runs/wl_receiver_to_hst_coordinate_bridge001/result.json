@@ -1,0 +1,52 @@
+{
+  "answers": {
+    "a0_to_hst_v2v3": false,
+    "absolute_sky_attitude": false,
+    "absolute_sky_origin": false,
+    "all_events_in_common_hst_frame": false,
+    "dev134_unblocked": false,
+    "physical_scale": false,
+    "reverse_mapping": false,
+    "scale_origin": "numerical simulation extent only",
+    "scale_without_LCDM": false
+  },
+  "checks": {
+    "a0_basis_audit_complete": true,
+    "a0_origin_audit_complete": true,
+    "a0_scale_audit_complete": true,
+    "acs_reference_closure_audit_complete": true,
+    "bridge_derivation_explicit": true,
+    "bridge_inverse_defined_if_established": true,
+    "broken_coordinate_bridge_provenance_links_zero": true,
+    "dev133_fields_lost_zero": true,
+    "dev134_contract_sha_verified": true,
+    "dev134_manifest_sha_verified": true,
+    "dev134_structural_sha_verified": true,
+    "event_uid_changes_zero": true,
+    "exact_three_blocker_classes": true,
+    "gauge_audit_complete": true,
+    "header_attitude_audit_complete": true,
+    "hst_pixel_access_false": true,
+    "no_target_derived_attitude": true,
+    "no_target_derived_origin": true,
+    "no_target_derived_scale": true,
+    "science_array_read_count_zero": true,
+    "siaf_audit_complete": true,
+    "status_verified": true,
+    "target_access_false": true,
+    "unexplained_information_loss_zero": true
+  },
+  "hst_pixel_access": false,
+  "outcomes": [
+    "WL_PBUF_RECEIVER_PHYSICAL_SCALE_UNRESOLVED",
+    "WL_PBUF_RECEIVER_SKY_ATTITUDE_UNRESOLVED",
+    "WL_PBUF_RECEIVER_GLOBAL_SKY_GAUGE_IDENTIFIED",
+    "WL_ACS_REFERENCE_CALIBRATION_CLOSURE_ESTABLISHED"
+  ],
+  "phase_completed": "Phase E \u2014 SIAF/header attitude audit; Phases F-H gated",
+  "production_bridge_constructed": false,
+  "reference_closure_complete": true,
+  "science_array_read_count": 0,
+  "status": "WL_PBUF_RECEIVER_PHYSICAL_SCALE_UNRESOLVED",
+  "target_access": false
+}

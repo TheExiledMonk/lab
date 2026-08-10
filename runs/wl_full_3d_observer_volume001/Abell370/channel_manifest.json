@@ -1,0 +1,1428 @@
+[
+  {
+    "dtype": "float64",
+    "family": "occupancy",
+    "name": "occupancy",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "received_observer_coordinates"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "int64",
+    "family": "occupancy",
+    "name": "ray_count",
+    "normalization": "raw_count",
+    "source_fields": [
+      "received_observer_coordinates"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_delta_u",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_squared_delta_u",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "mean_delta_u",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_delta_u2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_squared_delta_u2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "mean_delta_u2",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_dir_u",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_squared_dir_u",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "mean_dir_u",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_dir_u2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_squared_dir_u2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "mean_dir_u2",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_delta_v",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_squared_delta_v",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "mean_delta_v",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_delta_v2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_squared_delta_v2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "mean_delta_v2",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_dir_v",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_squared_dir_v",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "mean_dir_v",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_dir_v2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_squared_dir_v2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "mean_dir_v2",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_delta_w",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_squared_delta_w",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "mean_delta_w",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_delta_w2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_squared_delta_w2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "mean_delta_w2",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_dir_w",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_squared_dir_w",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "mean_dir_w",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_dir_w2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_squared_dir_w2",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "mean_dir_w2",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_delta_uv",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_squared_delta_uv",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "mean_delta_uv",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_dir_uv",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_squared_dir_uv",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "mean_dir_uv",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_delta_uw",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_squared_delta_uw",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "mean_delta_uw",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_dir_uw",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_squared_dir_uw",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "mean_dir_uw",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_delta_vw",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "sum_squared_delta_vw",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement",
+    "name": "mean_delta_vw",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_dir_vw",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "sum_squared_dir_vw",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "direction",
+    "name": "mean_dir_vw",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_delta_u_dir_u",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_squared_delta_u_dir_u",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "mean_delta_u_dir_u",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_delta_u_dir_v",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_squared_delta_u_dir_v",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "mean_delta_u_dir_v",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_delta_u_dir_w",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_squared_delta_u_dir_w",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "mean_delta_u_dir_w",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_delta_v_dir_u",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_squared_delta_v_dir_u",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "mean_delta_v_dir_u",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_delta_v_dir_v",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_squared_delta_v_dir_v",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "mean_delta_v_dir_v",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_delta_v_dir_w",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_squared_delta_v_dir_w",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "mean_delta_v_dir_w",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_delta_w_dir_u",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_squared_delta_w_dir_u",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "mean_delta_w_dir_u",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_delta_w_dir_v",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_squared_delta_w_dir_v",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "mean_delta_w_dir_v",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_delta_w_dir_w",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "sum_squared_delta_w_dir_w",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "displacement_direction_cross",
+    "name": "mean_delta_w_dir_w",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "dx",
+      "dy",
+      "dz",
+      "observer_normal",
+      "received_position",
+      "u0",
+      "uf",
+      "v0",
+      "vf"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "launch_receipt",
+    "name": "sum_launch_receipt_separation",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "launch_position",
+      "received_position"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "launch_receipt",
+    "name": "sum_squared_launch_receipt_separation",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "launch_position",
+      "received_position"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "launch_receipt",
+    "name": "mean_launch_receipt_separation",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "launch_position",
+      "received_position"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "launch_receipt",
+    "name": "sum_received_depth",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "launch_position",
+      "received_position"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "launch_receipt",
+    "name": "sum_squared_received_depth",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "launch_position",
+      "received_position"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "launch_receipt",
+    "name": "mean_received_depth",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "launch_position",
+      "received_position"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "launch_receipt",
+    "name": "sum_depth_change",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "launch_position",
+      "received_position"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "launch_receipt",
+    "name": "sum_squared_depth_change",
+    "normalization": "weighted_sum",
+    "source_fields": [
+      "launch_position",
+      "received_position"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  },
+  {
+    "dtype": "float64",
+    "family": "launch_receipt",
+    "name": "mean_depth_change",
+    "normalization": "occupancy_weighted_mean",
+    "source_fields": [
+      "launch_position",
+      "received_position"
+    ],
+    "spin_class": "tensor_or_component",
+    "units": "native observer coordinate"
+  }
+]

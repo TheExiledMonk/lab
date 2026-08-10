@@ -1,0 +1,8 @@
+{
+  "coordinate_gauge_fix_applied": false,
+  "notes": "Internal basis and handedness are fixed. Absolute celestial placement and attitude are absent. Scale is not called gauge-free because scale invariance was not established.",
+  "reflection": "UPSTREAM_FIXED",
+  "rotation": "GAUGE_FREE",
+  "scale": "UNRESOLVED",
+  "translation": "GAUGE_FREE"
+}

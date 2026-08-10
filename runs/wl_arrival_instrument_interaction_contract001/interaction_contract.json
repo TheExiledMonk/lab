@@ -1,0 +1,117 @@
+{
+  "availability_flags": {
+    "I0": "AVAILABLE",
+    "I1": "AVAILABLE",
+    "I2": "AVAILABLE",
+    "I3": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "I4": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "I5": "PARTIALLY_AVAILABLE",
+    "I6": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "I7": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "I8": "AVAILABLE",
+    "I9": "AVAILABLE"
+  },
+  "cardinality": "many-to-many capable; current multiplicity audited separately",
+  "event_input_schema": {
+    "arrival_direction": {
+      "classification": "BIDIRECTIONAL_REQUIRED",
+      "fields": [
+        "arrival_dir_u",
+        "arrival_dir_v",
+        "arrival_dir_n"
+      ]
+    },
+    "incidence_state": {
+      "classification": "FORWARD_REQUIRED",
+      "fields": [
+        "receiver_incidence_cosine",
+        "receiver_incidence_angle",
+        "intersection_t"
+      ]
+    },
+    "surface_position": {
+      "classification": "BIDIRECTIONAL_REQUIRED",
+      "fields": [
+        "arrival_u",
+        "arrival_v"
+      ]
+    }
+  },
+  "hst_pixel_access": false,
+  "latent_state_schema": {
+    "path": {
+      "classification": "ARCHIVAL_LATENT",
+      "fields": [
+        "path_length",
+        "path_excess",
+        "trajectory history reference"
+      ]
+    },
+    "receiver_depth": {
+      "classification": "REVERSE_REQUIRED",
+      "fields": [
+        "global_receive_position"
+      ]
+    }
+  },
+  "neighbor_bundle_schema": {
+    "arrival_neighbors": {
+      "k": [
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "tie_break": "canonical arrival index"
+    },
+    "bundle_transport": {
+      "classification": "BIDIRECTIONAL_REQUIRED",
+      "storage": "immutable Dev129 reference"
+    },
+    "launch_neighbors": {
+      "scales": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "storage": "regenerable from frozen launch_grid_index"
+    }
+  },
+  "provenance_schema": {
+    "identity": {
+      "classification": "BIDIRECTIONAL_REQUIRED",
+      "fields": [
+        "event_uid",
+        "ray_index",
+        "receiver_row_index",
+        "arrival_index"
+      ]
+    },
+    "launch": {
+      "classification": "REVERSE_REQUIRED",
+      "fields": [
+        "launch_u",
+        "launch_v",
+        "launch_grid_index"
+      ]
+    },
+    "trajectory": {
+      "classification": "ARCHIVAL_LATENT",
+      "fields": [
+        "immutable Dev128/Dev129 references"
+      ]
+    }
+  },
+  "reverse_index_schema": {
+    "bundle_to_events": "regenerable membership",
+    "event_to_launch": "int64[N]",
+    "launch_to_events": "CSR offsets + event indices",
+    "receiver_to_event": "CSR capable"
+  },
+  "target_access": false,
+  "version": "PBUF_INSTRUMENT_INTERACTION_CONTRACT_V1"
+}

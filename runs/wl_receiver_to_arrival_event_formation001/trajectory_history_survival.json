@@ -1,0 +1,28 @@
+{
+  "available_channels": 12,
+  "group": "trajectory_history",
+  "independent": false,
+  "per_channel_r2": {
+    "curvature_max": 0.9921751087707996,
+    "curvature_mean": 0.9978210763956721,
+    "curvature_path_centroid": 0.20005314656776432,
+    "curvature_rms": 0.9976983583853287,
+    "maximum_local_direction_change": 0.9921751087707992,
+    "net_direction_change": 1.0,
+    "path_curvature_integral": 0.9978210763956717,
+    "path_curvature_squared_integral": 0.9989081595258463,
+    "path_excess": 0.9994805054556076,
+    "path_length": 0.998579981146573,
+    "path_location_of_maximum_direction_change": 0.27083230156655835,
+    "total_direction_change": 0.9978210763956717
+  },
+  "retained_sample_count": 220900,
+  "summary": {
+    "maximum": 1.0,
+    "mean": 0.8702804916146912,
+    "median": 0.9978210763956717,
+    "minimum": 0.20005314656776432,
+    "p10": 0.3429665822869825,
+    "p90": 0.9994232708626315
+  }
+}

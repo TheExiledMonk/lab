@@ -1,0 +1,24 @@
+{
+  "candidate_sha256": "2eca3b1956c24293ff83d4ffff7c2e33a8aa418af19674a4d23af70058a03ba8",
+  "dev135_expected": {
+    "attitude": "4a850fd5cdbbca808add559088d6728d664e8d8f707be060675233cb7082ada1",
+    "contract": "ee2cb47035525c3eae177a273412d1e598de5530be61e9305d26958fb68510b9",
+    "reference": "e29080552358373d27183668a06cabdd3bda244a8f3d501e0235dddb0fd17ded",
+    "scale": "8fa9b91e619cfff672f8a437e6d06d32061d1de0b050433797298d467dcc46c9",
+    "structural": "3b86deb81c8792cd36b9be94af65de7d1c6a5d775fe9ac7e9a846cd4d99c8ada"
+  },
+  "frozen_upstream_changes": {
+    "ARRIVAL_FORMATION_CHANGES": 0,
+    "DEV131_INTERACTION_CHANGES": 0,
+    "DEV132_OPTICAL_STATE_CHANGES": 0,
+    "DEV133_GEOMETRIC_OPTICS_CHANGES": 0,
+    "DEV134_GEOMETRY_CONTRACT_CHANGES": 0,
+    "DEV135_BRIDGE_CHANGES": 0,
+    "PROPAGATION_CHANGES": 0,
+    "RECEIVER_CHANGES": 0,
+    "TRAJECTORY_CHANGES": 0
+  },
+  "ledger_sha256": "4fb1609ba1743c49226300033daf3b98fb9168e6aa8e549d39215bcaf41bfbf7",
+  "lineage_sha256": "2d018b7994606d9e81045d96c9f565f3a396ebb5bf5f1afd9147fa6e94257c25",
+  "result_schema": "DEV136_V1"
+}

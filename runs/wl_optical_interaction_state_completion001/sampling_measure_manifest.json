@@ -1,0 +1,24 @@
+{
+  "RAY_DENSITY_NOT_ASSUMED_PHYSICAL_INTENSITY": true,
+  "bundle_area_relationship": "final received area ratio is stored; no flux law asserted",
+  "conservation_candidates": [
+    "ray identity",
+    "path ordering",
+    "bundle membership"
+  ],
+  "conserved": null,
+  "evidence": {
+    "spacing_u": 0.029962546816479474,
+    "spacing_v": 0.029962546816479474,
+    "unique_u_count": 534,
+    "unique_v_count": 534
+  },
+  "initialization_rule": null,
+  "launch_measure": 0.0008977542117297242,
+  "launch_measure_classification": "NUMERICAL_GEOMETRIC_MEASURE",
+  "launch_type": "uniform launch grid",
+  "physical_intensity_interpretation": false,
+  "physically_interpreted": false,
+  "updated_during_propagation": false,
+  "weight_source": null
+}

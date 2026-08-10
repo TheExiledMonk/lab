@@ -1,0 +1,18 @@
+{
+  "losses": [
+    {
+      "created": "_propagate_g3d direction update",
+      "loss_location": "normalization",
+      "loss_reason": "direction-only recurrence",
+      "normalization_loss": true,
+      "numerical_compression": true,
+      "observer_compression": false,
+      "physical_loss": false,
+      "retained_lost": "lost",
+      "state": "v_raw and |v_raw|",
+      "transformed": "unit direction",
+      "unused_state": false
+    }
+  ],
+  "physical_magnitude_lost": false
+}

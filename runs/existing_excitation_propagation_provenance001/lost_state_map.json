@@ -1,0 +1,30 @@
+{
+  "losses": [
+    {
+      "created": "_propagate_g3d direction update",
+      "loss_location": "normalization",
+      "loss_reason": "direction-only recurrence",
+      "normalization_loss": true,
+      "numerical_compression": true,
+      "observer_compression": false,
+      "physical_loss": false,
+      "retained_lost": "lost",
+      "state": "v_raw and |v_raw|",
+      "transformed": "unit direction",
+      "unused_state": false
+    },
+    {
+      "created": "medium construction",
+      "loss_location": "propagation boundary",
+      "loss_reason": "static field compression",
+      "normalization_loss": false,
+      "numerical_compression": false,
+      "observer_compression": true,
+      "physical_loss": false,
+      "retained_lost": "not attached to ray",
+      "state": "fast/slow and pair transfer",
+      "transformed": "rx/ry response field",
+      "unused_state": false
+    }
+  ]
+}

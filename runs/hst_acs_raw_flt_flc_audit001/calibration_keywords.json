@@ -1,0 +1,8934 @@
+{
+  "jb5g01h5q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jb5g01h6q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jb5g01h8q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jb5g01haq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jb5g02hdq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jb5g02heq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jb5g02hgq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jb5g02hiq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jb5g07ypq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jb5g08yxq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n38miq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n38mkq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n38moq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n38mrq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n40y6q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n40y8q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n40ycq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n40yiq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n45brq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n45btq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n45bxq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n45c0q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n50c8q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n50caq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n50ceq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n50ckq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n51hfq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n51hhq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n51hlq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n51hoq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n55abq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n55aeq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n55b6q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n55b9q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n60blq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n60bnq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n60brq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n60buq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n63ejq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n63elq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n63epq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n63esq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n65eyq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n65f3q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n65fcq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n65g2q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n81r9q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n81rnq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n81rvq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n81s4q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n82dzq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n82e6q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n82elq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n82fdq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n83req": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n83rlq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n83rzq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n83t0q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n91afq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n91amq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n91auq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n91bxq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n92ncq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n92njq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n92nrq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n92nyq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n93a7q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n93afq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n93amq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n93zzq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n94d4q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n94dbq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n94djq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n94dqq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n95wlq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n95wsq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n95x0q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n95x7q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n96eoq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n96evq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n96f3q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n96faq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n97nvq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n97o2q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n97oaq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n97ohq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n98jcq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n98jjq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n98jrq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n98jyq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n99ikq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n99irq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n99izq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jc8n99j6q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jca9t1niq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jca9t1njq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jca9t1nyq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jca9t2nwq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jca9t2o5q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jca9t2oeq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    }
+  },
+  "jdm91ijwq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91ik1q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91jkeq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91jkmq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91kluq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91klzq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91lmiq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91lmnq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91mqkq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91mqpq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91nrgq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91nrlq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91orzq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91os4q": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91psmq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  },
+  "jdm91psrq": {
+    "ATODCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "BIASCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "BLEVCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "CRCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "DARKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "DQICORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLATCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "FLSHCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "GLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "LFLGCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "NLINCORR": {
+      "flc": null,
+      "flt": null,
+      "raw": null
+    },
+    "PCTECORR": {
+      "flc": "COMPLETE",
+      "flt": "PERFORM",
+      "raw": "PERFORM"
+    },
+    "PHOTCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    },
+    "SHADCORR": {
+      "flc": "OMIT",
+      "flt": "OMIT",
+      "raw": "OMIT"
+    },
+    "SINKCORR": {
+      "flc": "COMPLETE",
+      "flt": "COMPLETE",
+      "raw": "PERFORM"
+    }
+  }
+}

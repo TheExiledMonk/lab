@@ -1,0 +1,4242 @@
+[
+  {
+    "channel_id": "DEV129_0000",
+    "classification": "PRIMARY",
+    "description": "receive u",
+    "dtype": "float64",
+    "family": "C0",
+    "formula": "direct copy",
+    "name": "receive_u",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0001",
+    "classification": "PRIMARY",
+    "description": "receive v",
+    "dtype": "float64",
+    "family": "C0",
+    "formula": "direct copy",
+    "name": "receive_v",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0002",
+    "classification": "PRIMARY",
+    "description": "receive w",
+    "dtype": "float64",
+    "family": "C0",
+    "formula": "direct copy",
+    "name": "receive_w",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0003",
+    "classification": "PRIMARY",
+    "description": "final dir u",
+    "dtype": "float64",
+    "family": "C1",
+    "formula": "direct copy",
+    "name": "final_dir_u",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0004",
+    "classification": "PRIMARY",
+    "description": "final dir v",
+    "dtype": "float64",
+    "family": "C1",
+    "formula": "direct copy",
+    "name": "final_dir_v",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0005",
+    "classification": "PRIMARY",
+    "description": "final dir w",
+    "dtype": "float64",
+    "family": "C1",
+    "formula": "direct copy",
+    "name": "final_dir_w",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0006",
+    "classification": "DERIVED",
+    "description": "delta u",
+    "dtype": "float64",
+    "family": "C2",
+    "formula": "deterministic receiver relation",
+    "name": "delta_u",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0007",
+    "classification": "DERIVED",
+    "description": "delta v",
+    "dtype": "float64",
+    "family": "C2",
+    "formula": "deterministic receiver relation",
+    "name": "delta_v",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0008",
+    "classification": "DERIVED",
+    "description": "delta w",
+    "dtype": "float64",
+    "family": "C2",
+    "formula": "deterministic receiver relation",
+    "name": "delta_w",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0009",
+    "classification": "DERIVED",
+    "description": "full displacement norm",
+    "dtype": "float64",
+    "family": "C2",
+    "formula": "deterministic receiver relation",
+    "name": "full_displacement_norm",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0010",
+    "classification": "DERIVED",
+    "description": "transverse displacement norm",
+    "dtype": "float64",
+    "family": "C2",
+    "formula": "deterministic receiver relation",
+    "name": "transverse_displacement_norm",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0011",
+    "classification": "PRIMARY",
+    "description": "path excess",
+    "dtype": "float64",
+    "family": "C3",
+    "formula": "direct copy",
+    "name": "path_excess",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0012",
+    "classification": "PRIMARY",
+    "description": "path excess fraction",
+    "dtype": "float64",
+    "family": "C3",
+    "formula": "direct copy",
+    "name": "path_excess_fraction",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0013",
+    "classification": "PRIMARY",
+    "description": "path length",
+    "dtype": "float64",
+    "family": "C3",
+    "formula": "direct copy",
+    "name": "path_length",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0014",
+    "classification": "PRIMARY",
+    "description": "straight line distance",
+    "dtype": "float64",
+    "family": "C3",
+    "formula": "direct copy",
+    "name": "straight_line_distance",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0015",
+    "classification": "PRIMARY",
+    "description": "direction history ratio",
+    "dtype": "float64",
+    "family": "C4",
+    "formula": "direct copy",
+    "name": "direction_history_ratio",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0016",
+    "classification": "PRIMARY",
+    "description": "maximum local direction change",
+    "dtype": "float64",
+    "family": "C4",
+    "formula": "direct copy",
+    "name": "maximum_local_direction_change",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0017",
+    "classification": "PRIMARY",
+    "description": "net direction change",
+    "dtype": "float64",
+    "family": "C4",
+    "formula": "direct copy",
+    "name": "net_direction_change",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0018",
+    "classification": "PRIMARY",
+    "description": "path location of maximum direction change",
+    "dtype": "float64",
+    "family": "C4",
+    "formula": "direct copy",
+    "name": "path_location_of_maximum_direction_change",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0019",
+    "classification": "PRIMARY",
+    "description": "total direction change",
+    "dtype": "float64",
+    "family": "C4",
+    "formula": "direct copy",
+    "name": "total_direction_change",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0020",
+    "classification": "PRIMARY",
+    "description": "curvature integral",
+    "dtype": "float64",
+    "family": "C5",
+    "formula": "direct copy",
+    "name": "curvature_integral",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0021",
+    "classification": "PRIMARY",
+    "description": "curvature max",
+    "dtype": "float64",
+    "family": "C5",
+    "formula": "direct copy",
+    "name": "curvature_max",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0022",
+    "classification": "PRIMARY",
+    "description": "curvature mean",
+    "dtype": "float64",
+    "family": "C5",
+    "formula": "direct copy",
+    "name": "curvature_mean",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0023",
+    "classification": "PRIMARY",
+    "description": "curvature path centroid",
+    "dtype": "float64",
+    "family": "C5",
+    "formula": "direct copy",
+    "name": "curvature_path_centroid",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0024",
+    "classification": "PRIMARY",
+    "description": "curvature rms",
+    "dtype": "float64",
+    "family": "C5",
+    "formula": "direct copy",
+    "name": "curvature_rms",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0025",
+    "classification": "PRIMARY",
+    "description": "curvature squared integral",
+    "dtype": "float64",
+    "family": "C5",
+    "formula": "direct copy",
+    "name": "curvature_squared_integral",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0026",
+    "classification": "PRIMARY",
+    "description": "initial dir u",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "initial_dir_u",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0027",
+    "classification": "PRIMARY",
+    "description": "initial dir v",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "initial_dir_v",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0028",
+    "classification": "PRIMARY",
+    "description": "initial dir w",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "initial_dir_w",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0029",
+    "classification": "PRIMARY",
+    "description": "number of steps",
+    "dtype": "int64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "number_of_steps",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0030",
+    "classification": "PRIMARY",
+    "description": "rx sample absolute integral",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "rx_sample_absolute_integral",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0031",
+    "classification": "PRIMARY",
+    "description": "rx sample argmax path",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "rx_sample_argmax_path",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0032",
+    "classification": "PRIMARY",
+    "description": "rx sample integral",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "rx_sample_integral",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0033",
+    "classification": "PRIMARY",
+    "description": "rx sample maximum",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "rx_sample_maximum",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0034",
+    "classification": "PRIMARY",
+    "description": "rx sample mean",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "rx_sample_mean",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0035",
+    "classification": "PRIMARY",
+    "description": "rx sample minimum",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "rx_sample_minimum",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0036",
+    "classification": "PRIMARY",
+    "description": "rx sample path location of max abs",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "rx_sample_path_location_of_max_abs",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0037",
+    "classification": "PRIMARY",
+    "description": "rx sample rms",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "rx_sample_rms",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0038",
+    "classification": "PRIMARY",
+    "description": "rx sample square integral",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "rx_sample_square_integral",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0039",
+    "classification": "PRIMARY",
+    "description": "ry sample absolute integral",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "ry_sample_absolute_integral",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0040",
+    "classification": "PRIMARY",
+    "description": "ry sample argmax path",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "ry_sample_argmax_path",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0041",
+    "classification": "PRIMARY",
+    "description": "ry sample integral",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "ry_sample_integral",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0042",
+    "classification": "PRIMARY",
+    "description": "ry sample maximum",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "ry_sample_maximum",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0043",
+    "classification": "PRIMARY",
+    "description": "ry sample mean",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "ry_sample_mean",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0044",
+    "classification": "PRIMARY",
+    "description": "ry sample minimum",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "ry_sample_minimum",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0045",
+    "classification": "PRIMARY",
+    "description": "ry sample path location of max abs",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "ry_sample_path_location_of_max_abs",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0046",
+    "classification": "PRIMARY",
+    "description": "ry sample rms",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "ry_sample_rms",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0047",
+    "classification": "PRIMARY",
+    "description": "ry sample square integral",
+    "dtype": "float64",
+    "family": "C6",
+    "formula": "direct copy",
+    "name": "ry_sample_square_integral",
+    "scale": null,
+    "source_fields": [
+      "Dev128 trajectory packet"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0076",
+    "classification": "DERIVED",
+    "description": "s1 cov u w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_cov_u_w",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0077",
+    "classification": "DERIVED",
+    "description": "s1 cov v w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_cov_v_w",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0078",
+    "classification": "DERIVED",
+    "description": "s1 direction anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_direction_anisotropy",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0079",
+    "classification": "DERIVED",
+    "description": "s1 direction cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_direction_cov_uu",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0080",
+    "classification": "DERIVED",
+    "description": "s1 direction cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_direction_cov_uv",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0081",
+    "classification": "DERIVED",
+    "description": "s1 direction cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_direction_cov_vv",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0082",
+    "classification": "DERIVED",
+    "description": "s1 direction determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_direction_determinant",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0083",
+    "classification": "DERIVED",
+    "description": "s1 direction eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_direction_eigenvalue_1",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0084",
+    "classification": "DERIVED",
+    "description": "s1 direction eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_direction_eigenvalue_2",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0085",
+    "classification": "DERIVED",
+    "description": "s1 direction orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_direction_orientation",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0086",
+    "classification": "DERIVED",
+    "description": "s1 direction trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_direction_trace",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0087",
+    "classification": "DERIVED",
+    "description": "s1 local anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_local_anisotropy",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0088",
+    "classification": "DERIVED",
+    "description": "s1 local received area ratio",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_local_received_area_ratio",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0089",
+    "classification": "DERIVED",
+    "description": "s1 mean neighbor displacement u",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_mean_neighbor_displacement_u",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0090",
+    "classification": "DERIVED",
+    "description": "s1 mean neighbor displacement v",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_mean_neighbor_displacement_v",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0091",
+    "classification": "DERIVED",
+    "description": "s1 mean pair separation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_mean_pair_separation",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0092",
+    "classification": "DERIVED",
+    "description": "s1 mean receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_mean_receive_w",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0093",
+    "classification": "DERIVED",
+    "description": "s1 position anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_position_anisotropy",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0094",
+    "classification": "DERIVED",
+    "description": "s1 position cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_position_cov_uu",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0095",
+    "classification": "DERIVED",
+    "description": "s1 position cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_position_cov_uv",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0096",
+    "classification": "DERIVED",
+    "description": "s1 position cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_position_cov_vv",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0097",
+    "classification": "DERIVED",
+    "description": "s1 position determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_position_determinant",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0098",
+    "classification": "DERIVED",
+    "description": "s1 position eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_position_eigenvalue_1",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0099",
+    "classification": "DERIVED",
+    "description": "s1 position eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_position_eigenvalue_2",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0100",
+    "classification": "DERIVED",
+    "description": "s1 position orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_position_orientation",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0101",
+    "classification": "DERIVED",
+    "description": "s1 position trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_position_trace",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0102",
+    "classification": "DERIVED",
+    "description": "s1 separation variance",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_separation_variance",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0103",
+    "classification": "DERIVED",
+    "description": "s1 var receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s1_var_receive_w",
+    "scale": 1,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0104",
+    "classification": "DERIVED",
+    "description": "s2 cov u w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_cov_u_w",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0105",
+    "classification": "DERIVED",
+    "description": "s2 cov v w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_cov_v_w",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0106",
+    "classification": "DERIVED",
+    "description": "s2 direction anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_direction_anisotropy",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0107",
+    "classification": "DERIVED",
+    "description": "s2 direction cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_direction_cov_uu",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0108",
+    "classification": "DERIVED",
+    "description": "s2 direction cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_direction_cov_uv",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0109",
+    "classification": "DERIVED",
+    "description": "s2 direction cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_direction_cov_vv",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0110",
+    "classification": "DERIVED",
+    "description": "s2 direction determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_direction_determinant",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0111",
+    "classification": "DERIVED",
+    "description": "s2 direction eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_direction_eigenvalue_1",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0112",
+    "classification": "DERIVED",
+    "description": "s2 direction eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_direction_eigenvalue_2",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0113",
+    "classification": "DERIVED",
+    "description": "s2 direction orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_direction_orientation",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0114",
+    "classification": "DERIVED",
+    "description": "s2 direction trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_direction_trace",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0115",
+    "classification": "DERIVED",
+    "description": "s2 local anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_local_anisotropy",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0116",
+    "classification": "DERIVED",
+    "description": "s2 local received area ratio",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_local_received_area_ratio",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0117",
+    "classification": "DERIVED",
+    "description": "s2 mean neighbor displacement u",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_mean_neighbor_displacement_u",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0118",
+    "classification": "DERIVED",
+    "description": "s2 mean neighbor displacement v",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_mean_neighbor_displacement_v",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0119",
+    "classification": "DERIVED",
+    "description": "s2 mean pair separation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_mean_pair_separation",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0120",
+    "classification": "DERIVED",
+    "description": "s2 mean receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_mean_receive_w",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0121",
+    "classification": "DERIVED",
+    "description": "s2 position anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_position_anisotropy",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0122",
+    "classification": "DERIVED",
+    "description": "s2 position cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_position_cov_uu",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0123",
+    "classification": "DERIVED",
+    "description": "s2 position cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_position_cov_uv",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0124",
+    "classification": "DERIVED",
+    "description": "s2 position cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_position_cov_vv",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0125",
+    "classification": "DERIVED",
+    "description": "s2 position determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_position_determinant",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0126",
+    "classification": "DERIVED",
+    "description": "s2 position eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_position_eigenvalue_1",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0127",
+    "classification": "DERIVED",
+    "description": "s2 position eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_position_eigenvalue_2",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0128",
+    "classification": "DERIVED",
+    "description": "s2 position orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_position_orientation",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0129",
+    "classification": "DERIVED",
+    "description": "s2 position trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_position_trace",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0130",
+    "classification": "DERIVED",
+    "description": "s2 separation variance",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_separation_variance",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0131",
+    "classification": "DERIVED",
+    "description": "s2 var receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s2_var_receive_w",
+    "scale": 2,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0160",
+    "classification": "DERIVED",
+    "description": "s4 cov u w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_cov_u_w",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0161",
+    "classification": "DERIVED",
+    "description": "s4 cov v w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_cov_v_w",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0162",
+    "classification": "DERIVED",
+    "description": "s4 direction anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_direction_anisotropy",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0163",
+    "classification": "DERIVED",
+    "description": "s4 direction cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_direction_cov_uu",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0164",
+    "classification": "DERIVED",
+    "description": "s4 direction cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_direction_cov_uv",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0165",
+    "classification": "DERIVED",
+    "description": "s4 direction cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_direction_cov_vv",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0166",
+    "classification": "DERIVED",
+    "description": "s4 direction determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_direction_determinant",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0167",
+    "classification": "DERIVED",
+    "description": "s4 direction eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_direction_eigenvalue_1",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0168",
+    "classification": "DERIVED",
+    "description": "s4 direction eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_direction_eigenvalue_2",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0169",
+    "classification": "DERIVED",
+    "description": "s4 direction orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_direction_orientation",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0170",
+    "classification": "DERIVED",
+    "description": "s4 direction trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_direction_trace",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0171",
+    "classification": "DERIVED",
+    "description": "s4 local anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_local_anisotropy",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0172",
+    "classification": "DERIVED",
+    "description": "s4 local received area ratio",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_local_received_area_ratio",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0173",
+    "classification": "DERIVED",
+    "description": "s4 mean neighbor displacement u",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_mean_neighbor_displacement_u",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0174",
+    "classification": "DERIVED",
+    "description": "s4 mean neighbor displacement v",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_mean_neighbor_displacement_v",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0175",
+    "classification": "DERIVED",
+    "description": "s4 mean pair separation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_mean_pair_separation",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0176",
+    "classification": "DERIVED",
+    "description": "s4 mean receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_mean_receive_w",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0177",
+    "classification": "DERIVED",
+    "description": "s4 position anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_position_anisotropy",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0178",
+    "classification": "DERIVED",
+    "description": "s4 position cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_position_cov_uu",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0179",
+    "classification": "DERIVED",
+    "description": "s4 position cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_position_cov_uv",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0180",
+    "classification": "DERIVED",
+    "description": "s4 position cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_position_cov_vv",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0181",
+    "classification": "DERIVED",
+    "description": "s4 position determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_position_determinant",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0182",
+    "classification": "DERIVED",
+    "description": "s4 position eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_position_eigenvalue_1",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0183",
+    "classification": "DERIVED",
+    "description": "s4 position eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_position_eigenvalue_2",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0184",
+    "classification": "DERIVED",
+    "description": "s4 position orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_position_orientation",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0185",
+    "classification": "DERIVED",
+    "description": "s4 position trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_position_trace",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0186",
+    "classification": "DERIVED",
+    "description": "s4 separation variance",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_separation_variance",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0187",
+    "classification": "DERIVED",
+    "description": "s4 var receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s4_var_receive_w",
+    "scale": 4,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0188",
+    "classification": "DERIVED",
+    "description": "s8 cov u w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_cov_u_w",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0189",
+    "classification": "DERIVED",
+    "description": "s8 cov v w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_cov_v_w",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0190",
+    "classification": "DERIVED",
+    "description": "s8 direction anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_direction_anisotropy",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0191",
+    "classification": "DERIVED",
+    "description": "s8 direction cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_direction_cov_uu",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0192",
+    "classification": "DERIVED",
+    "description": "s8 direction cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_direction_cov_uv",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0193",
+    "classification": "DERIVED",
+    "description": "s8 direction cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_direction_cov_vv",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0194",
+    "classification": "DERIVED",
+    "description": "s8 direction determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_direction_determinant",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0195",
+    "classification": "DERIVED",
+    "description": "s8 direction eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_direction_eigenvalue_1",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0196",
+    "classification": "DERIVED",
+    "description": "s8 direction eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_direction_eigenvalue_2",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0197",
+    "classification": "DERIVED",
+    "description": "s8 direction orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_direction_orientation",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0198",
+    "classification": "DERIVED",
+    "description": "s8 direction trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_direction_trace",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0199",
+    "classification": "DERIVED",
+    "description": "s8 local anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_local_anisotropy",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0200",
+    "classification": "DERIVED",
+    "description": "s8 local received area ratio",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_local_received_area_ratio",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0201",
+    "classification": "DERIVED",
+    "description": "s8 mean neighbor displacement u",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_mean_neighbor_displacement_u",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0202",
+    "classification": "DERIVED",
+    "description": "s8 mean neighbor displacement v",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_mean_neighbor_displacement_v",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0203",
+    "classification": "DERIVED",
+    "description": "s8 mean pair separation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_mean_pair_separation",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0204",
+    "classification": "DERIVED",
+    "description": "s8 mean receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_mean_receive_w",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0205",
+    "classification": "DERIVED",
+    "description": "s8 position anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_position_anisotropy",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0206",
+    "classification": "DERIVED",
+    "description": "s8 position cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_position_cov_uu",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0207",
+    "classification": "DERIVED",
+    "description": "s8 position cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_position_cov_uv",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0208",
+    "classification": "DERIVED",
+    "description": "s8 position cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_position_cov_vv",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0209",
+    "classification": "DERIVED",
+    "description": "s8 position determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_position_determinant",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0210",
+    "classification": "DERIVED",
+    "description": "s8 position eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_position_eigenvalue_1",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0211",
+    "classification": "DERIVED",
+    "description": "s8 position eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_position_eigenvalue_2",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0212",
+    "classification": "DERIVED",
+    "description": "s8 position orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_position_orientation",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0213",
+    "classification": "DERIVED",
+    "description": "s8 position trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_position_trace",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0214",
+    "classification": "DERIVED",
+    "description": "s8 separation variance",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_separation_variance",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0215",
+    "classification": "DERIVED",
+    "description": "s8 var receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s8_var_receive_w",
+    "scale": 8,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0048",
+    "classification": "DERIVED",
+    "description": "s16 cov u w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_cov_u_w",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0049",
+    "classification": "DERIVED",
+    "description": "s16 cov v w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_cov_v_w",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0050",
+    "classification": "DERIVED",
+    "description": "s16 direction anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_direction_anisotropy",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0051",
+    "classification": "DERIVED",
+    "description": "s16 direction cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_direction_cov_uu",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0052",
+    "classification": "DERIVED",
+    "description": "s16 direction cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_direction_cov_uv",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0053",
+    "classification": "DERIVED",
+    "description": "s16 direction cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_direction_cov_vv",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0054",
+    "classification": "DERIVED",
+    "description": "s16 direction determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_direction_determinant",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0055",
+    "classification": "DERIVED",
+    "description": "s16 direction eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_direction_eigenvalue_1",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0056",
+    "classification": "DERIVED",
+    "description": "s16 direction eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_direction_eigenvalue_2",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0057",
+    "classification": "DERIVED",
+    "description": "s16 direction orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_direction_orientation",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0058",
+    "classification": "DERIVED",
+    "description": "s16 direction trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_direction_trace",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0059",
+    "classification": "DERIVED",
+    "description": "s16 local anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_local_anisotropy",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0060",
+    "classification": "DERIVED",
+    "description": "s16 local received area ratio",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_local_received_area_ratio",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0061",
+    "classification": "DERIVED",
+    "description": "s16 mean neighbor displacement u",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_mean_neighbor_displacement_u",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0062",
+    "classification": "DERIVED",
+    "description": "s16 mean neighbor displacement v",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_mean_neighbor_displacement_v",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0063",
+    "classification": "DERIVED",
+    "description": "s16 mean pair separation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_mean_pair_separation",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0064",
+    "classification": "DERIVED",
+    "description": "s16 mean receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_mean_receive_w",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0065",
+    "classification": "DERIVED",
+    "description": "s16 position anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_position_anisotropy",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0066",
+    "classification": "DERIVED",
+    "description": "s16 position cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_position_cov_uu",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0067",
+    "classification": "DERIVED",
+    "description": "s16 position cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_position_cov_uv",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0068",
+    "classification": "DERIVED",
+    "description": "s16 position cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_position_cov_vv",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0069",
+    "classification": "DERIVED",
+    "description": "s16 position determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_position_determinant",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0070",
+    "classification": "DERIVED",
+    "description": "s16 position eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_position_eigenvalue_1",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0071",
+    "classification": "DERIVED",
+    "description": "s16 position eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_position_eigenvalue_2",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0072",
+    "classification": "DERIVED",
+    "description": "s16 position orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_position_orientation",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0073",
+    "classification": "DERIVED",
+    "description": "s16 position trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_position_trace",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0074",
+    "classification": "DERIVED",
+    "description": "s16 separation variance",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_separation_variance",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0075",
+    "classification": "DERIVED",
+    "description": "s16 var receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s16_var_receive_w",
+    "scale": 16,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0132",
+    "classification": "DERIVED",
+    "description": "s32 cov u w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_cov_u_w",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0133",
+    "classification": "DERIVED",
+    "description": "s32 cov v w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_cov_v_w",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0134",
+    "classification": "DERIVED",
+    "description": "s32 direction anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_direction_anisotropy",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0135",
+    "classification": "DERIVED",
+    "description": "s32 direction cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_direction_cov_uu",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0136",
+    "classification": "DERIVED",
+    "description": "s32 direction cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_direction_cov_uv",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0137",
+    "classification": "DERIVED",
+    "description": "s32 direction cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_direction_cov_vv",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0138",
+    "classification": "DERIVED",
+    "description": "s32 direction determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_direction_determinant",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0139",
+    "classification": "DERIVED",
+    "description": "s32 direction eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_direction_eigenvalue_1",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0140",
+    "classification": "DERIVED",
+    "description": "s32 direction eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_direction_eigenvalue_2",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0141",
+    "classification": "DERIVED",
+    "description": "s32 direction orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_direction_orientation",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0142",
+    "classification": "DERIVED",
+    "description": "s32 direction trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_direction_trace",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0143",
+    "classification": "DERIVED",
+    "description": "s32 local anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_local_anisotropy",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0144",
+    "classification": "DERIVED",
+    "description": "s32 local received area ratio",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_local_received_area_ratio",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0145",
+    "classification": "DERIVED",
+    "description": "s32 mean neighbor displacement u",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_mean_neighbor_displacement_u",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0146",
+    "classification": "DERIVED",
+    "description": "s32 mean neighbor displacement v",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_mean_neighbor_displacement_v",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0147",
+    "classification": "DERIVED",
+    "description": "s32 mean pair separation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_mean_pair_separation",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0148",
+    "classification": "DERIVED",
+    "description": "s32 mean receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_mean_receive_w",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0149",
+    "classification": "DERIVED",
+    "description": "s32 position anisotropy",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_position_anisotropy",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0150",
+    "classification": "DERIVED",
+    "description": "s32 position cov uu",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_position_cov_uu",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0151",
+    "classification": "DERIVED",
+    "description": "s32 position cov uv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_position_cov_uv",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0152",
+    "classification": "DERIVED",
+    "description": "s32 position cov vv",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_position_cov_vv",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0153",
+    "classification": "DERIVED",
+    "description": "s32 position determinant",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_position_determinant",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0154",
+    "classification": "DERIVED",
+    "description": "s32 position eigenvalue 1",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_position_eigenvalue_1",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0155",
+    "classification": "DERIVED",
+    "description": "s32 position eigenvalue 2",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_position_eigenvalue_2",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0156",
+    "classification": "DERIVED",
+    "description": "s32 position orientation",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_position_orientation",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0157",
+    "classification": "DERIVED",
+    "description": "s32 position trace",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_position_trace",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0158",
+    "classification": "DERIVED",
+    "description": "s32 separation variance",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_separation_variance",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0159",
+    "classification": "DERIVED",
+    "description": "s32 var receive w",
+    "dtype": "float64",
+    "family": "C7",
+    "formula": "deterministic receiver relation",
+    "name": "s32_var_receive_w",
+    "scale": 32,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "VALID_NEIGHBOR_ONLY"
+  },
+  {
+    "channel_id": "DEV129_0216",
+    "classification": "PRIMARY",
+    "description": "area orientation change",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "area_orientation_change",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0217",
+    "classification": "PRIMARY",
+    "description": "final H1 uu",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_H1_uu",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0218",
+    "classification": "PRIMARY",
+    "description": "final H1 uv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_H1_uv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0219",
+    "classification": "PRIMARY",
+    "description": "final H1 vv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_H1_vv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0220",
+    "classification": "PRIMARY",
+    "description": "final H2 uu",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_H2_uu",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0221",
+    "classification": "PRIMARY",
+    "description": "final H2 uv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_H2_uv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0222",
+    "classification": "PRIMARY",
+    "description": "final H2 vv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_H2_vv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0223",
+    "classification": "PRIMARY",
+    "description": "final J11",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_J11",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0224",
+    "classification": "PRIMARY",
+    "description": "final J12",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_J12",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0225",
+    "classification": "PRIMARY",
+    "description": "final J21",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_J21",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0226",
+    "classification": "PRIMARY",
+    "description": "final J22",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_J22",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0227",
+    "classification": "PRIMARY",
+    "description": "final anisotropy",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_anisotropy",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0228",
+    "classification": "PRIMARY",
+    "description": "final area ratio",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_area_ratio",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0229",
+    "classification": "PRIMARY",
+    "description": "final orientation",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_orientation",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0230",
+    "classification": "PRIMARY",
+    "description": "final second order norm",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "final_second_order_norm",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0231",
+    "classification": "PRIMARY",
+    "description": "maximum anisotropy",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "maximum_anisotropy",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0232",
+    "classification": "PRIMARY",
+    "description": "maximum area ratio",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "maximum_area_ratio",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0233",
+    "classification": "PRIMARY",
+    "description": "maximum orientation",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "maximum_orientation",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0234",
+    "classification": "PRIMARY",
+    "description": "maximum second order norm",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "maximum_second_order_norm",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0235",
+    "classification": "PRIMARY",
+    "description": "mean H1 uu",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "mean_H1_uu",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0236",
+    "classification": "PRIMARY",
+    "description": "mean H1 uv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "mean_H1_uv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0237",
+    "classification": "PRIMARY",
+    "description": "mean H1 vv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "mean_H1_vv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0238",
+    "classification": "PRIMARY",
+    "description": "mean H2 uu",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "mean_H2_uu",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0239",
+    "classification": "PRIMARY",
+    "description": "mean H2 uv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "mean_H2_uv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0240",
+    "classification": "PRIMARY",
+    "description": "mean H2 vv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "mean_H2_vv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0241",
+    "classification": "PRIMARY",
+    "description": "mean J11",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "mean_J11",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0242",
+    "classification": "PRIMARY",
+    "description": "mean J12",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "mean_J12",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0243",
+    "classification": "PRIMARY",
+    "description": "mean J21",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "mean_J21",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0244",
+    "classification": "PRIMARY",
+    "description": "mean J22",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "mean_J22",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0245",
+    "classification": "PRIMARY",
+    "description": "minimum anisotropy",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "minimum_anisotropy",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0246",
+    "classification": "PRIMARY",
+    "description": "minimum area ratio",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "minimum_area_ratio",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0247",
+    "classification": "PRIMARY",
+    "description": "minimum orientation",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "minimum_orientation",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0248",
+    "classification": "PRIMARY",
+    "description": "minimum second order norm",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "minimum_second_order_norm",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0249",
+    "classification": "PRIMARY",
+    "description": "rms H1 uu",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "rms_H1_uu",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0250",
+    "classification": "PRIMARY",
+    "description": "rms H1 uv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "rms_H1_uv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0251",
+    "classification": "PRIMARY",
+    "description": "rms H1 vv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "rms_H1_vv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0252",
+    "classification": "PRIMARY",
+    "description": "rms H2 uu",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "rms_H2_uu",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0253",
+    "classification": "PRIMARY",
+    "description": "rms H2 uv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "rms_H2_uv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0254",
+    "classification": "PRIMARY",
+    "description": "rms H2 vv",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "rms_H2_vv",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0255",
+    "classification": "PRIMARY",
+    "description": "rms J11",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "rms_J11",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0256",
+    "classification": "PRIMARY",
+    "description": "rms J12",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "rms_J12",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0257",
+    "classification": "PRIMARY",
+    "description": "rms J21",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "rms_J21",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0258",
+    "classification": "PRIMARY",
+    "description": "rms J22",
+    "dtype": "float64",
+    "family": "C8",
+    "formula": "direct copy",
+    "name": "rms_J22",
+    "scale": null,
+    "source_fields": [
+      "Dev128 bundle history"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0259",
+    "classification": "DERIVED",
+    "description": "bundle anisotropy curvature magnitude",
+    "dtype": "float64",
+    "family": "C9",
+    "formula": "deterministic receiver relation",
+    "name": "bundle_anisotropy_curvature_magnitude",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0260",
+    "classification": "DERIVED",
+    "description": "bundle area ratio direction dispersion",
+    "dtype": "float64",
+    "family": "C9",
+    "formula": "deterministic receiver relation",
+    "name": "bundle_area_ratio_direction_dispersion",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0261",
+    "classification": "DERIVED",
+    "description": "direction history curvature magnitude",
+    "dtype": "float64",
+    "family": "C9",
+    "formula": "deterministic receiver relation",
+    "name": "direction_history_curvature_magnitude",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0262",
+    "classification": "DERIVED",
+    "description": "displacement curvature alignment",
+    "dtype": "float64",
+    "family": "C9",
+    "formula": "deterministic receiver relation",
+    "name": "displacement_curvature_alignment",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0263",
+    "classification": "DERIVED",
+    "description": "displacement direction alignment",
+    "dtype": "float64",
+    "family": "C9",
+    "formula": "deterministic receiver relation",
+    "name": "displacement_direction_alignment",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  },
+  {
+    "channel_id": "DEV129_0264",
+    "classification": "DERIVED",
+    "description": "path excess curvature magnitude",
+    "dtype": "float64",
+    "family": "C9",
+    "formula": "deterministic receiver relation",
+    "name": "path_excess_curvature_magnitude",
+    "scale": null,
+    "source_fields": [
+      "receiver relation"
+    ],
+    "target_access": false,
+    "units": "native or dimensionless as named",
+    "validity_requirements": "valid ray"
+  }
+]

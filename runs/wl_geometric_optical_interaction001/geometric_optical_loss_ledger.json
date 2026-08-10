@@ -1,0 +1,20 @@
+[
+  {
+    "affected_event_count": 0,
+    "loss_type": "NONE_PRIMARY_LANE",
+    "operation": "APERTURE_TEST",
+    "recoverable_from_downstream_output": true,
+    "recoverable_with_preserved_metadata": true,
+    "surface": "S1",
+    "upstream_archive_retained": true
+  },
+  {
+    "affected_event_count": 41743,
+    "loss_type": "INFORMATION_LOSSY_DOWNSTREAM",
+    "operation": "APERTURE_TEST",
+    "recoverable_from_downstream_output": false,
+    "recoverable_with_preserved_metadata": true,
+    "surface": "S1_CONTROL",
+    "upstream_archive_retained": true
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "npz": "reverse_correspondence_index.npz",
+  "schema": {
+    "event_to_launch": {
+      "dtype": "int64",
+      "shape": [
+        285156
+      ]
+    },
+    "launch_event_indices": {
+      "dtype": "int64",
+      "shape": [
+        285156
+      ]
+    },
+    "launch_keys": {
+      "dtype": "int64",
+      "shape": [
+        285156
+      ]
+    },
+    "launch_offsets": {
+      "dtype": "int64",
+      "shape": [
+        285157
+      ]
+    },
+    "receiver_event_indices": {
+      "dtype": "int64",
+      "shape": [
+        285156
+      ]
+    },
+    "receiver_keys": {
+      "dtype": "int64",
+      "shape": [
+        285156
+      ]
+    },
+    "receiver_offsets": {
+      "dtype": "int64",
+      "shape": [
+        285157
+      ]
+    }
+  },
+  "supports_multiple_arrivals": true
+}

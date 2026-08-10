@@ -1,0 +1,19 @@
+{
+  "decision": {
+    "equivalence_class": {
+      "class_id": "E01",
+      "invertible_mapping_proven": true,
+      "members": [
+        "S-C10",
+        "S-C12",
+        "S-C13",
+        "S-C16",
+        "S-C18"
+      ],
+      "signature": "orthogonal-neighbor-frame-map"
+    },
+    "outcome": "PBUF_NATIVE_NEIGHBOR_CONSTITUTIVE_EQUIVALENCE_CLASS_ESTABLISHED",
+    "unique": false
+  },
+  "remains": false
+}

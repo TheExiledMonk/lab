@@ -1,0 +1,13 @@
+{
+  "candidate_launch_identities": "tuple[int]",
+  "candidate_states": "tuple[state]",
+  "conditioning": "transport diagnostics",
+  "constraint_provenance": "event/trajectory/bundle/instrument references",
+  "observation_identity": "event_uid/string",
+  "uniqueness_classification": [
+    "UNIQUE_INVERSE",
+    "MULTIPLE_LAUNCH_CANDIDATES",
+    "NON_UNIQUE_INVERSE",
+    "UNRESOLVED"
+  ]
+}

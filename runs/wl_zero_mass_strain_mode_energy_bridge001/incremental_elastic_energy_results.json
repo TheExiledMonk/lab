@@ -1,0 +1,23 @@
+{
+  "Delta_W_defined": true,
+  "excitation_integral": {
+    "absolute": 0.005086870352338948,
+    "cell_count": 314,
+    "native_cell_volume_normalized": false,
+    "positive": 0.005086870352338948,
+    "signed": 0.005086870352338948
+  },
+  "positivity": {
+    "minimum_excitation": 0.0075976937822794036,
+    "minimum_signed": -0.04002135383676822,
+    "positive_excitation_nonnegative": true,
+    "signed_increment_can_be_negative": true
+  },
+  "signed_integral": {
+    "absolute": 0.05657719065380075,
+    "cell_count": 314,
+    "native_cell_volume_normalized": false,
+    "positive": 0.05657719065380075,
+    "signed": 0.05657719065380075
+  }
+}

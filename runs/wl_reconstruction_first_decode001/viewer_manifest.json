@@ -1,0 +1,38 @@
+{
+  "mode": "RECONSTRUCTION_FIRST",
+  "overlays": [
+    "area change",
+    "orientation",
+    "anisotropy",
+    "curvature",
+    "D",
+    "S"
+  ],
+  "panels": [
+    "launch diagnostic pattern",
+    "transport field",
+    "reconstructed received image",
+    "geometric deformation channels"
+  ],
+  "patterns": [
+    "grid",
+    "checker",
+    "dots",
+    "horizontal bars",
+    "vertical bars",
+    "45 bars",
+    "135 bars",
+    "rings"
+  ],
+  "reconstructions": [
+    "endpoint only",
+    "raw transport",
+    "first-order",
+    "second-order",
+    "mesh",
+    "patch2",
+    "patch4",
+    "patch8",
+    "patch16"
+  ]
+}

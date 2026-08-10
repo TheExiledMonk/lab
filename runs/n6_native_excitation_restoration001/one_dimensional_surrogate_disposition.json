@@ -1,0 +1,5 @@
+{
+  "allowed_role": "single-axis regression comparator only",
+  "law": "np.roll(axis=0)",
+  "status": "RETIRED_AS_PHYSICAL_REFERENCE"
+}

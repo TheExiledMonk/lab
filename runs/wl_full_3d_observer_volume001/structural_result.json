@@ -1,0 +1,32 @@
+{
+  "gates": {
+    "finite": true,
+    "isotropic_scaling_behavior": true,
+    "reflection_parity": true,
+    "spin2_covariance": true,
+    "spin2_max_normalized_error": 1.7607637751746982e-16,
+    "synthetic_anisotropic_response": true,
+    "translation_stable": true
+  },
+  "primitive_hashes": {
+    "Abell2744": "2212be9125ec7cb3d91b0ca38039aa7e6b5a467ffa169b476c32895fa336ff7a",
+    "Abell370": "3cfc48b19f9bf205cc7c3e5f017ec517a91593a2c1add48c0c177a9ecadc0152",
+    "AbellS1063": "a62069ee62625ef2c4b7de0bd2d0a6230c9a6bd15cc90a2528e73ef0bc28dc5c",
+    "MACS0416": "22e6baf2b7b95a7dd8c235cdf07c2b3897263375c22029e6eb58e937ee646d0a",
+    "MACS1149": "36e8aad2c8828f89dc85b7929053f410455a1f9b7b39850be1b407437faf2132"
+  },
+  "variants": [
+    "displacement__occupancy_weighted_mean",
+    "displacement__sum",
+    "displacement__rms",
+    "direction__occupancy_weighted_mean",
+    "direction__sum",
+    "direction__rms",
+    "cross_symmetric__occupancy_weighted_mean",
+    "cross_symmetric__sum",
+    "cross_symmetric__rms",
+    "full_mixed__occupancy_weighted_mean",
+    "full_mixed__sum",
+    "full_mixed__rms"
+  ]
+}

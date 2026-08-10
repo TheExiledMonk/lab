@@ -1,0 +1,11 @@
+DEV126 HST ACS/WFC RAW->FLT->FLC INSTRUMENT INFORMATION AUDIT
+
+Outcome: HST_ACS_CALIBRATION_INFORMATION_EFFECTS_REQUIRE_REFERENCE_FILE_AUDIT
+Families: 116; science CCD comparisons: 232
+FLT->FLC primary transform: {'PIXEL_BASED_CTE_CORRECTION': 116}
+RAW->FLT direct subtraction: invalid (geometry, overscan, units and calibration state differ).
+FLT->FLC: native 1:1 detector grid; no resampling/reprojection recorded or detected structurally.
+Cross-exposure correction consistency: MOSTLY_CONSISTENT (RMS CV=0.175393).
+Suitability: RAW provenance only; FLT candidate native-detector baseline; FLC retained as a CTE-corrected control pending reference-file audit.
+No calibration, drizzle, resampling, source detection, shape measurement, lensing, or cosmology was executed.
+DEV126_STRUCTURAL_SHA256=9b6278c7a8ce31b4d2273430bd5b74a3c8cfc7616d00565ff206ad4686eea786

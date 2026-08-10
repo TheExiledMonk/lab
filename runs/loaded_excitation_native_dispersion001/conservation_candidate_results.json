@@ -1,0 +1,54 @@
+{
+  "CNS01_CNS07": [
+    {
+      "attempted": true,
+      "id": "CNS01",
+      "joint_load_internal_translation_invariant": false,
+      "name": "scalar sum",
+      "status": "IDENTITY_Q_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "CNS02",
+      "joint_load_internal_translation_invariant": false,
+      "name": "quadratic norm",
+      "status": "MISSING_TRANSFER_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "CNS03",
+      "joint_load_internal_translation_invariant": false,
+      "name": "packet norm",
+      "status": "MISSING_TRANSFER_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "CNS04",
+      "joint_load_internal_translation_invariant": false,
+      "name": "pairwise norm",
+      "status": "MISSING_TRANSFER_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "CNS05",
+      "joint_load_internal_translation_invariant": false,
+      "name": "bounded constitutive invariant",
+      "status": "MISSING_TRANSFER_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "CNS06",
+      "joint_load_internal_translation_invariant": false,
+      "name": "local-to-global conserved flux",
+      "status": "MISSING_TRANSFER_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "CNS07",
+      "joint_load_internal_translation_invariant": false,
+      "name": "no conserved state found",
+      "status": "ESTABLISHED"
+    }
+  ],
+  "native_joint_norm_established": false
+}

@@ -1,0 +1,169 @@
+{
+  "P01_P20": [
+    {
+      "attempted": true,
+      "id": "P01",
+      "name": "local loading",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P02",
+      "name": "accumulated loading",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P03",
+      "name": "strain",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P04",
+      "name": "stress",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P05",
+      "name": "elastic deformation energy",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P06",
+      "name": "normalized loading ratio",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P07",
+      "name": "loading / excitation",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P08",
+      "name": "excitable fraction",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P09",
+      "name": "unloaded medium fraction",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P10",
+      "name": "local constitutive stiffness state",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P11",
+      "name": "loading compactness",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P12",
+      "name": "integrated deformation",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P13",
+      "name": "response fingerprint",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P14",
+      "name": "bound-strain proximity",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P15",
+      "name": "conservation relation",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P16",
+      "name": "orthogonal loading/excitation decomposition",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P17",
+      "name": "energy partition",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P18",
+      "name": "momentum-loading relation",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P19",
+      "name": "invariant norm",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "attempted": true,
+      "id": "P20",
+      "name": "no existing loading variable sufficient",
+      "native_beta_law_established": false,
+      "reason": "Existing loading diagnostics and neutral q supply no coefficient-free excitation-to-translation map.",
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    }
+  ],
+  "loading_only": {
+    "beta_law_accepted": false,
+    "reason": "rest loading alone fixes at most one beta",
+    "status": "FAILS_VARIABLE_SPEED_SAME_MASS"
+  }
+}

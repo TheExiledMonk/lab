@@ -1,0 +1,276 @@
+{
+  "missing_references": [],
+  "official_service": "https://hst-crds.stsci.edu/unchecked_get/references/hst",
+  "offline": true,
+  "records": [
+    {
+      "byte_size": 285120,
+      "extensions": [
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": null,
+          "filter2": null,
+          "index": 0,
+          "naxis": 0,
+          "shape_from_header": []
+        },
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": null,
+          "filter2": null,
+          "index": 1,
+          "naxis": 2,
+          "shape_from_header": [
+            394,
+            672
+          ]
+        }
+      ],
+      "fits_primary_metadata": {
+        "DESCRIP": "IDCTAB based on absolute Gaia DR2 and Sahlmann V2V3 SIAF values.",
+        "DETECTOR": "WFC",
+        "FILETYPE": "DISTORTION COEFFICIENTS",
+        "INSTRUME": "ACS",
+        "PEDIGREE": "INFLIGHT 01/06/2002 01/06/2002",
+        "USEAFTER": "Jan 01 2009 00:00:00"
+      },
+      "logical_reference_name": "jref$4bb1536cj_idc.fits",
+      "reference_pedigree": "INFLIGHT 01/06/2002 01/06/2002",
+      "resolved_filename": "4bb1536cj_idc.fits",
+      "retrieval_utc": null,
+      "sha256": "9bef1901fdecff5c797e8b277870e16800a79b8f7703a06d23835dcdfbcf6ccf",
+      "source_url_service": "https://hst-crds.stsci.edu/unchecked_get/references/hst/4bb1536cj_idc.fits",
+      "status": "VERIFIED_LOCAL_OFFLINE",
+      "useafter_date_applicability": "Jan 01 2009 00:00:00"
+    },
+    {
+      "byte_size": 51840,
+      "extensions": [
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": "CLEAR1L",
+          "filter2": "F814W",
+          "index": 0,
+          "naxis": 0,
+          "shape_from_header": []
+        },
+        {
+          "bunit": null,
+          "ccdchip": 2,
+          "extname": "DX",
+          "extver": 1,
+          "filter1": null,
+          "filter2": null,
+          "index": 1,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 2,
+          "extname": "DY",
+          "extver": 1,
+          "filter1": null,
+          "filter2": null,
+          "index": 2,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 1,
+          "extname": "DX",
+          "extver": 2,
+          "filter1": null,
+          "filter2": null,
+          "index": 3,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 1,
+          "extname": "DY",
+          "extver": 2,
+          "filter1": null,
+          "filter2": null,
+          "index": 4,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        }
+      ],
+      "fits_primary_metadata": {
+        "DESCRIP": "Non-polynomial filter dependent distortion file for ACS/WFC--------",
+        "DETECTOR": "WFC",
+        "FILETYPE": "DXY GRID",
+        "INSTRUME": "ACS",
+        "PEDIGREE": "INFLIGHT 11/11/2002 11/11/2002",
+        "USEAFTER": "Mar 01 2002 00:00:00"
+      },
+      "logical_reference_name": "jref$4bb1536lj_npl.fits",
+      "reference_pedigree": "INFLIGHT 11/11/2002 11/11/2002",
+      "resolved_filename": "4bb1536lj_npl.fits",
+      "retrieval_utc": null,
+      "sha256": "5f6038aa9e9c99afabd8ca3616e15b53547be8152b8bb6c21573b6dc8cde74fa",
+      "source_url_service": "https://hst-crds.stsci.edu/unchecked_get/references/hst/4bb1536lj_npl.fits",
+      "status": "VERIFIED_LOCAL_OFFLINE",
+      "useafter_date_applicability": "Mar 01 2002 00:00:00"
+    },
+    {
+      "byte_size": 285120,
+      "extensions": [
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": null,
+          "filter2": null,
+          "index": 0,
+          "naxis": 0,
+          "shape_from_header": []
+        },
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": null,
+          "filter2": null,
+          "index": 1,
+          "naxis": 2,
+          "shape_from_header": [
+            394,
+            672
+          ]
+        }
+      ],
+      "fits_primary_metadata": {
+        "DESCRIP": "IDCTAB based on absolute Gaia DR2 and Sahlmann V2V3 SIAF values.",
+        "DETECTOR": "WFC",
+        "FILETYPE": "DISTORTION COEFFICIENTS",
+        "INSTRUME": "ACS",
+        "PEDIGREE": "INFLIGHT 01/06/2002 01/06/2002",
+        "USEAFTER": "Oct 01 2016 00:00:00"
+      },
+      "logical_reference_name": "jref$4bb1536mj_idc.fits",
+      "reference_pedigree": "INFLIGHT 01/06/2002 01/06/2002",
+      "resolved_filename": "4bb1536mj_idc.fits",
+      "retrieval_utc": null,
+      "sha256": "fd8b8dc04ee08d3cf031dcc78da47a9a0bdd2e4cf4455e0fee72e2d5be4467b5",
+      "source_url_service": "https://hst-crds.stsci.edu/unchecked_get/references/hst/4bb1536mj_idc.fits",
+      "status": "VERIFIED_LOCAL_OFFLINE",
+      "useafter_date_applicability": "Oct 01 2016 00:00:00"
+    },
+    {
+      "byte_size": 51840,
+      "extensions": [
+        {
+          "bunit": null,
+          "ccdchip": null,
+          "extname": "PRIMARY",
+          "extver": null,
+          "filter1": null,
+          "filter2": null,
+          "index": 0,
+          "naxis": 0,
+          "shape_from_header": []
+        },
+        {
+          "bunit": null,
+          "ccdchip": 2,
+          "extname": "DX",
+          "extver": 1,
+          "filter1": null,
+          "filter2": null,
+          "index": 1,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 2,
+          "extname": "DY",
+          "extver": 1,
+          "filter1": null,
+          "filter2": null,
+          "index": 2,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 1,
+          "extname": "DX",
+          "extver": 2,
+          "filter1": null,
+          "filter2": null,
+          "index": 3,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        },
+        {
+          "bunit": null,
+          "ccdchip": 1,
+          "extname": "DY",
+          "extver": 2,
+          "filter1": null,
+          "filter2": null,
+          "index": 4,
+          "naxis": 2,
+          "shape_from_header": [
+            64,
+            32
+          ]
+        }
+      ],
+      "fits_primary_metadata": {
+        "DESCRIP": "Non-polynomial 2-D look up table correction",
+        "DETECTOR": "WFC",
+        "FILETYPE": "WFC D2I FILE",
+        "INSTRUME": "ACS",
+        "PEDIGREE": "INFLIGHT 11/11/2002 11/11/2002",
+        "USEAFTER": "Mar 01 2002 00:00:00"
+      },
+      "logical_reference_name": "jref$4bb15371j_d2i.fits",
+      "reference_pedigree": "INFLIGHT 11/11/2002 11/11/2002",
+      "resolved_filename": "4bb15371j_d2i.fits",
+      "retrieval_utc": null,
+      "sha256": "bf1fabb9dc8027c81be0b0f164947cfef4404427f51a24691815a52703ec6240",
+      "source_url_service": "https://hst-crds.stsci.edu/unchecked_get/references/hst/4bb15371j_d2i.fits",
+      "status": "VERIFIED_LOCAL_OFFLINE",
+      "useafter_date_applicability": "Mar 01 2002 00:00:00"
+    }
+  ],
+  "reference_closure_complete": true
+}

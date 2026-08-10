@@ -1,0 +1,690 @@
+[
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O0 geometric arrival state",
+    "forward_instrument_relevance": "REQUIRED",
+    "name": "arrival_u",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "arrival_u",
+    "source_stage": "Dev130",
+    "units": "receiver-plane coordinate"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O0 geometric arrival state",
+    "forward_instrument_relevance": "REQUIRED",
+    "name": "arrival_v",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "arrival_v",
+    "source_stage": "Dev130",
+    "units": "receiver-plane coordinate"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O0 geometric arrival state",
+    "forward_instrument_relevance": "REQUIRED",
+    "name": "arrival_dir_u",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "arrival_dir_u",
+    "source_stage": "Dev130",
+    "units": "dimensionless direction cosine/component"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O0 geometric arrival state",
+    "forward_instrument_relevance": "REQUIRED",
+    "name": "arrival_dir_v",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "arrival_dir_v",
+    "source_stage": "Dev130",
+    "units": "dimensionless direction cosine/component"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O0 geometric arrival state",
+    "forward_instrument_relevance": "REQUIRED",
+    "name": "arrival_dir_n",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "arrival_dir_n",
+    "source_stage": "Dev130",
+    "units": "dimensionless direction cosine/component"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O0 geometric arrival state",
+    "forward_instrument_relevance": "REQUIRED",
+    "name": "incidence_cosine",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "receiver_incidence_cosine",
+    "source_stage": "Dev130",
+    "units": "dimensionless"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O0 geometric arrival state",
+    "forward_instrument_relevance": "REQUIRED",
+    "name": "incidence_angle",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "receiver_incidence_angle",
+    "source_stage": "Dev130",
+    "units": "radian"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O0 geometric arrival state",
+    "forward_instrument_relevance": "REQUIRED",
+    "name": "intersection_t",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "intersection_t",
+    "source_stage": "Dev130",
+    "units": "propagation coordinate"
+  },
+  {
+    "assumptions_required": [
+      "new physical source normalization/transport law"
+    ],
+    "availability_class": "NOT_TRACKED",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O1 carried weight / intensity",
+    "forward_instrument_relevance": "REQUIRED",
+    "name": "physical_weight",
+    "reverse_reconstruction_relevance": "POSSIBLY_RELEVANT",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DERIVABLE_FROM_FROZEN_STATE",
+    "derivation_class": "EXACT_ALGEBRAIC",
+    "derivation_formula": "1 per computational ray; not physical intensity",
+    "family": "O1 carried weight / intensity",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "numerical_sampling_weight",
+    "reverse_reconstruction_relevance": "POSSIBLY_RELEVANT",
+    "source_field": "implicit equal samples",
+    "source_stage": "launch sampling",
+    "units": "dimensionless"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DERIVABLE_FROM_FROZEN_STATE",
+    "derivation_class": "EXACT_ALGEBRAIC",
+    "derivation_formula": "median(diff(unique(launch_u))) * median(diff(unique(launch_v)))",
+    "family": "O1 carried weight / intensity",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "launch_measure",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "launch_u, launch_v",
+    "source_stage": "Dev130 launch grid",
+    "units": "launch-coordinate area"
+  },
+  {
+    "assumptions_required": [
+      "new source spectral input"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O2 wavelength / frequency",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "wavelength",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "new source spectral input"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O2 wavelength / frequency",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "frequency",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "new source spectral input"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O2 wavelength / frequency",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "photon_energy",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "new source spectral input"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O2 wavelength / frequency",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "spectral_bin",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "new source spectral input"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O2 wavelength / frequency",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "filter_band_identity",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O3 time / delay",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "path_length",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "path_length",
+    "source_stage": "Dev129",
+    "units": "path coordinate length"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O3 time / delay",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "path_excess",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "path_excess",
+    "source_stage": "Dev129",
+    "units": "path coordinate length"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O3 time / delay",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "number_of_steps",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "number_of_steps",
+    "source_stage": "Dev129",
+    "units": "count"
+  },
+  {
+    "assumptions_required": [
+      "propagation speed and physical time origin"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O3 time / delay",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "arrival_time",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "time"
+  },
+  {
+    "assumptions_required": [
+      "propagation speed and physical time origin"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O3 time / delay",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "relative_arrival_delay",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "time"
+  },
+  {
+    "assumptions_required": [
+      "propagation speed and physical time origin"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O3 time / delay",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "emission_time",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "time"
+  },
+  {
+    "assumptions_required": [
+      "propagation speed and physical time origin"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O3 time / delay",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "absolute_time_origin",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "time"
+  },
+  {
+    "assumptions_required": [
+      "wavelength plus coherent evolution physics"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O4 phase / coherence",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "phase",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "wavelength plus coherent evolution physics"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O4 phase / coherence",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "phase_offset",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "wavelength plus coherent evolution physics"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O4 phase / coherence",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "complex_amplitude",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "wavelength plus coherent evolution physics"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O4 phase / coherence",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "coherence_length",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "wavelength plus coherent evolution physics"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O4 phase / coherence",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "wavefront_phase",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "source polarization and polarization transport"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O5 polarization",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "polarization_vector",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "source polarization and polarization transport"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O5 polarization",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "stokes_parameters",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "source polarization and polarization transport"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O5 polarization",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "helicity",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [
+      "source polarization and polarization transport"
+    ],
+    "availability_class": "NOT_DEFINED_IN_CURRENT_MODEL",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O5 polarization",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "jones_state",
+    "reverse_reconstruction_relevance": "NOT_CURRENTLY_REQUIRED",
+    "source_field": null,
+    "source_stage": "none",
+    "units": "unspecified"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O6 local bundle / etendue-like structure",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "bundle_jacobian",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "final_J11,J12,J21,J22",
+    "source_stage": "Dev129/Dev131",
+    "units": "structural/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O6 local bundle / etendue-like structure",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "bundle_hessian",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "final_H1/H2_uu/uv/vv",
+    "source_stage": "Dev129/Dev131",
+    "units": "structural/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O6 local bundle / etendue-like structure",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "bundle_area_ratio",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "final_area_ratio",
+    "source_stage": "Dev129/Dev131",
+    "units": "structural/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O6 local bundle / etendue-like structure",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "bundle_anisotropy",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "final_anisotropy",
+    "source_stage": "Dev129/Dev131",
+    "units": "structural/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O6 local bundle / etendue-like structure",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "bundle_history",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "mean/rms/minimum/maximum bundle channels",
+    "source_stage": "Dev129/Dev131",
+    "units": "structural/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DERIVABLE_FROM_FROZEN_STATE",
+    "derivation_class": "NUMERICAL_SUMMARY",
+    "derivation_formula": "covariance of neighboring (arrival_dir_u,arrival_dir_v,arrival_dir_n)",
+    "family": "O6 local bundle / etendue-like structure",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "arrival_direction_spread",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "arrival directions + arrival neighbor index",
+    "source_stage": "Dev129/Dev131",
+    "units": "structural/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DERIVABLE_FROM_FROZEN_STATE",
+    "derivation_class": "NUMERICAL_SUMMARY",
+    "derivation_formula": "cross-covariance of neighboring (arrival_u,arrival_v) and arrival direction",
+    "family": "O6 local bundle / etendue-like structure",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "position_direction_coupling",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "arrival positions/directions + neighbor index",
+    "source_stage": "Dev129/Dev131",
+    "units": "structural/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DERIVABLE_FROM_FROZEN_STATE",
+    "derivation_class": "NUMERICAL_SUMMARY",
+    "derivation_formula": "sqrt(max(0,det(cov([u,v,dir_u,dir_v]))))",
+    "family": "O6 local bundle / etendue-like structure",
+    "forward_instrument_relevance": "POSSIBLY_RELEVANT",
+    "name": "local_position_direction_volume",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "position/direction neighbor covariance",
+    "source_stage": "Dev129/Dev131",
+    "units": "structural/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O7 provenance / latent reverse state",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "event_uid",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "Dev131 event UID",
+    "source_stage": "Dev128-Dev131",
+    "units": "identity/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O7 provenance / latent reverse state",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "arrival_identity",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "arrival_index",
+    "source_stage": "Dev128-Dev131",
+    "units": "identity/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O7 provenance / latent reverse state",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "ray_identity",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "ray_index",
+    "source_stage": "Dev128-Dev131",
+    "units": "identity/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O7 provenance / latent reverse state",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "receiver_identity",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "receiver_row_index",
+    "source_stage": "Dev128-Dev131",
+    "units": "identity/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O7 provenance / latent reverse state",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "launch_identity",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "launch_grid_index,launch_u,launch_v",
+    "source_stage": "Dev128-Dev131",
+    "units": "identity/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O7 provenance / latent reverse state",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "path_state",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "path_length/path_excess and trajectory history reference",
+    "source_stage": "Dev128-Dev131",
+    "units": "identity/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O7 provenance / latent reverse state",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "receiver_depth",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "global_receive_position",
+    "source_stage": "Dev128-Dev131",
+    "units": "identity/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O7 provenance / latent reverse state",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "bundle_provenance",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "launch/arrival neighbors and bundle archive",
+    "source_stage": "Dev128-Dev131",
+    "units": "identity/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O7 provenance / latent reverse state",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "conditioning_state",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "transport_conditioning.npz",
+    "source_stage": "Dev128-Dev131",
+    "units": "identity/native"
+  },
+  {
+    "assumptions_required": [],
+    "availability_class": "DIRECTLY_AVAILABLE",
+    "derivation_class": "NOT_DERIVABLE",
+    "derivation_formula": null,
+    "family": "O7 provenance / latent reverse state",
+    "forward_instrument_relevance": "NOT_CURRENTLY_REQUIRED",
+    "name": "reverse_candidate_metadata",
+    "reverse_reconstruction_relevance": "REQUIRED",
+    "source_field": "reverse_candidate_schema.json",
+    "source_stage": "Dev128-Dev131",
+    "units": "identity/native"
+  }
+]

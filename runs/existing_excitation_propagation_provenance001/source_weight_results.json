@@ -1,0 +1,13 @@
+{
+  "classification": "NOT_APPLICABLE",
+  "sweep": [
+    0.25,
+    0.5,
+    1,
+    2,
+    4,
+    8
+  ],
+  "trajectory_dependency": false,
+  "weight_field_found": false
+}

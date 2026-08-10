@@ -1,0 +1,126 @@
+{
+  "free_coefficients": 0,
+  "frozen_survivor": "D04/D14/D16/D18 exact transverse nearest-neighbor permutation",
+  "results": [
+    {
+      "attempted": true,
+      "id": "D01",
+      "name": "scalar neighbor exchange",
+      "status": "REQUIRES_FREE_COEFFICIENT"
+    },
+    {
+      "attempted": true,
+      "id": "D02",
+      "name": "signed scalar wave exchange",
+      "status": "REQUIRES_FREE_COEFFICIENT"
+    },
+    {
+      "attempted": true,
+      "id": "D03",
+      "name": "vector neighbor exchange",
+      "status": "REQUIRES_FREE_COEFFICIENT"
+    },
+    {
+      "attempted": true,
+      "id": "D04",
+      "name": "transverse vector exchange",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "D05",
+      "name": "coupled scalar-pair exchange",
+      "status": "REQUIRES_FREE_COEFFICIENT"
+    },
+    {
+      "attempted": true,
+      "id": "D06",
+      "name": "coupled vector-pair exchange",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "D07",
+      "name": "node-link conjugate exchange",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "D08",
+      "name": "divergence/circulation conjugate exchange",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "D09",
+      "name": "oriented-link rotation exchange",
+      "status": "REQUIRES_FREE_COEFFICIENT"
+    },
+    {
+      "attempted": true,
+      "id": "D10",
+      "name": "antisymmetric pair exchange",
+      "status": "REQUIRES_FREE_COEFFICIENT"
+    },
+    {
+      "attempted": true,
+      "id": "D11",
+      "name": "six-mode coupled exchange",
+      "status": "REQUIRES_FREE_COEFFICIENT"
+    },
+    {
+      "attempted": true,
+      "id": "D12",
+      "name": "strain-excitation coupled exchange",
+      "status": "REQUIRES_FREE_COEFFICIENT"
+    },
+    {
+      "attempted": true,
+      "id": "D13",
+      "name": "excitation/circulation coupled exchange",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "D14",
+      "name": "conserved-norm transport",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "D15",
+      "name": "bounded excitation transport",
+      "status": "REQUIRES_FREE_COEFFICIENT"
+    },
+    {
+      "attempted": true,
+      "id": "D16",
+      "name": "source-free reciprocal exchange",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "D17",
+      "name": "magnetism-inspired rotational exchange",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "D18",
+      "name": "EM-rank-minimal exchange",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "D19",
+      "name": "structurally valid but underdetermined",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "D20",
+      "name": "no coefficient-free law",
+      "status": "REQUIRES_FREE_COEFFICIENT"
+    }
+  ]
+}

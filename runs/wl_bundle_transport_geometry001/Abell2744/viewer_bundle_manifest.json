@@ -1,0 +1,45 @@
+{
+  "columns": [
+    "ray_id",
+    "launch_u",
+    "launch_v",
+    "received_u",
+    "received_v",
+    "q_abs",
+    "q_angle",
+    "parity",
+    "fold_score",
+    "S",
+    "D"
+  ],
+  "fold_layers": [
+    "det sign-change boundary",
+    "orientation-flip bundles",
+    "multi-origin overlap",
+    "near-singular bundles"
+  ],
+  "mode": "BUNDLE_TRANSPORT",
+  "panels": [
+    "Launch geometry",
+    "Received geometry",
+    "Bundle anisotropy",
+    "Parity/fold structure"
+  ],
+  "resolutions": [
+    64,
+    128,
+    256
+  ],
+  "reverse_received_selection": true,
+  "rgb_label": "STRUCTURAL RGB \u2014 NOT PHYSICAL COLOR",
+  "scales": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "shape": [
+    534,
+    534
+  ]
+}

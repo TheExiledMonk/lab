@@ -155,7 +155,18 @@ def _linear_kappa_map(x0, y0, xf, yf, groups):
     return out
 
 
-def _propagate_g3d(field, step, steps, x0, y0):
+def _observer_array(value):
+    """Return an isolated read-only observer payload.
+
+    Observer callbacks are outside the frozen numerical path.  Copies prevent
+    even a deliberately hostile callback from mutating propagator state.
+    """
+    payload = np.asarray(value, dtype=np.float64).copy()
+    payload.flags.writeable = False
+    return payload
+
+
+def _propagate_g3d(field, step, steps, x0, y0, step_observer=None):
     """Same normalized response update as production with explicit LOS z."""
     wanted = set(CHECKPOINTS)
     if max(wanted) >= steps:
@@ -169,6 +180,17 @@ def _propagate_g3d(field, step, steps, x0, y0):
     vz = np.ones_like(x)
     checkpoints = {}
     max_unit_error = 0.0
+
+    if step_observer is not None:
+        launch_rx, launch_ry = _sample(field, x, y)
+        step_observer.observe_launch(
+            ray_index=np.arange(x.size, dtype=np.int64),
+            position=_observer_array(np.column_stack((x, y, z))),
+            direction=_observer_array(np.column_stack((vx, vy, vz))),
+            launch_coordinates=_observer_array(np.column_stack((x0, y0))),
+            native_state={"rx_sample": _observer_array(launch_rx),
+                          "ry_sample": _observer_array(launch_ry)},
+        )
 
     def capture(k):
         rx, ry = _sample(field, x, y)
@@ -195,8 +217,24 @@ def _propagate_g3d(field, step, steps, x0, y0):
         x = x + step * vx
         y = y + step * vy
         z = z + step * vz
+        if step_observer is not None:
+            # POST_STEP convention.  rx/ry are the native values actually used
+            # by this update; no duplicate interpolation is performed.
+            step_observer.observe_step(
+                ray_index=np.arange(x.size, dtype=np.int64), step_index=int(k),
+                position=_observer_array(np.column_stack((x, y, z))),
+                direction=_observer_array(np.column_stack((vx, vy, vz))),
+                native_state={"rx_sample": _observer_array(rx),
+                              "ry_sample": _observer_array(ry)},
+                ds=float(step),
+            )
         if k in wanted:
             capture(k)
+
+    if step_observer is not None:
+        step_observer.observe_termination(
+            ray_index=np.arange(x.size, dtype=np.int64),
+            termination_status="completed", final_step_index=int(steps - 1))
 
     return checkpoints, {
         "x": x, "y": y, "z": z,

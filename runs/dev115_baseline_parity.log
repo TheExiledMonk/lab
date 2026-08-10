@@ -1,0 +1,4 @@
+BASELINE {"branch": "dev-doc-112-fullscale-vulkan-observer-validation", "head": "b54caa8ec50043cd07fee0b8955372bc1990bd5b"}
+DEV114_BASELINE {"gamma1": {"count": 4096, "coverage_fraction": 1.0, "obs_rms": 0.062160042482900475, "pearson": 0.15963721563216124, "pred_rms": 0.0239242457539334, "rms_ratio_pred_over_obs": 0.38488142540305836, "spearman": 0.09715428188710849}, "gamma2": {"count": 4096, "coverage_fraction": 1.0, "obs_rms": 0.05586397422966777, "pearson": 0.20242108305073303, "pred_rms": 0.018838754008152395, "rms_ratio_pred_over_obs": 0.33722545285988026, "spearman": 0.14387459525184157}, "magnitude_pearson": 0.2187521646685786, "orientation_agreement": 0.08368696562433091}
+DEV114_RESULT_SHA256=49004fee6cc532a27ad3b6c3359403f64fa0359d5c55f15bc6d6422005d3a0c8
+STREAMING_PARITY {"gamma1_max_abs": 3.8143099789778034e-14, "gamma2_max_abs": 1.2016429518091343e-14, "pass": true}

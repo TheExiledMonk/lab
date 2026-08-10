@@ -1,0 +1,1327 @@
+{
+  "archive_mode": "IMMUTABLE_HASHED_REFERENCE_NO_BLIND_DUPLICATION",
+  "identity_mapping": "event_uid + upstream row/index foreign keys",
+  "sources": [
+    {
+      "fields": {
+        "arrival_dir_n": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "arrival_dir_u": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "arrival_dir_v": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "arrival_u": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "arrival_v": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "forward_distance": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "intersection_status": {
+          "dtype": "<U24",
+          "shape": [
+            285156
+          ]
+        },
+        "intersection_t": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "launch_grid_index": {
+          "dtype": "int64",
+          "shape": [
+            285156
+          ]
+        },
+        "launch_u": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "launch_v": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "ray_index": {
+          "dtype": "int64",
+          "shape": [
+            285156
+          ]
+        },
+        "receiver_incidence_angle": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "receiver_incidence_cosine": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "receiver_row_index": {
+          "dtype": "int64",
+          "shape": [
+            285156
+          ]
+        },
+        "surface_residual": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "validity": {
+          "dtype": "<U20",
+          "shape": [
+            285156
+          ]
+        }
+      },
+      "path": "runs/wl_receiver_to_arrival_event_formation001/arrival_events_primary.npz",
+      "sha256": "d1afb783f101a4bc757b071871063bbeb5c23a5eab65e0c7c6d9889c0b75b9ac"
+    },
+    {
+      "fields": {
+        "s16_arrival_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_arrival_area_ratio": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_arrival_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_arrival_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_arrival_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_arrival_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_arrival_eigenvalue_1": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_arrival_eigenvalue_2": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_arrival_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_arrival_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_cov_u_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_cov_u_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_cov_v_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_cov_v_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_direction_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_direction_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_direction_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_direction_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_direction_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_direction_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s16_direction_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_arrival_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_arrival_area_ratio": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_arrival_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_arrival_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_arrival_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_arrival_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_arrival_eigenvalue_1": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_arrival_eigenvalue_2": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_arrival_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_arrival_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_cov_u_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_cov_u_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_cov_v_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_cov_v_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_direction_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_direction_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_direction_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_direction_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_direction_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_direction_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s1_direction_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_arrival_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_arrival_area_ratio": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_arrival_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_arrival_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_arrival_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_arrival_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_arrival_eigenvalue_1": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_arrival_eigenvalue_2": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_arrival_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_arrival_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_cov_u_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_cov_u_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_cov_v_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_cov_v_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_direction_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_direction_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_direction_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_direction_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_direction_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_direction_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s2_direction_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_arrival_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_arrival_area_ratio": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_arrival_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_arrival_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_arrival_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_arrival_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_arrival_eigenvalue_1": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_arrival_eigenvalue_2": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_arrival_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_arrival_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_cov_u_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_cov_u_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_cov_v_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_cov_v_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_direction_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_direction_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_direction_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_direction_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_direction_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_direction_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s32_direction_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_arrival_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_arrival_area_ratio": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_arrival_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_arrival_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_arrival_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_arrival_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_arrival_eigenvalue_1": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_arrival_eigenvalue_2": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_arrival_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_arrival_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_cov_u_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_cov_u_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_cov_v_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_cov_v_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_direction_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_direction_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_direction_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_direction_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_direction_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_direction_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s4_direction_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_arrival_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_arrival_area_ratio": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_arrival_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_arrival_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_arrival_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_arrival_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_arrival_eigenvalue_1": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_arrival_eigenvalue_2": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_arrival_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_arrival_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_cov_u_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_cov_u_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_cov_v_du": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_cov_v_dv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_direction_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_direction_cov_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_direction_cov_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_direction_cov_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_direction_determinant": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_direction_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "s8_direction_trace": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        }
+      },
+      "path": "runs/wl_receiver_to_arrival_event_formation001/arrival_relational_channels.npz",
+      "sha256": "c2182f9e15c7031bf909f2f52af5b0e05e79dfecc3a472231685435ca92d905f"
+    },
+    {
+      "fields": {
+        "curvature_max": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "curvature_mean": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "curvature_path_centroid": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "curvature_rms": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "delta": {
+          "dtype": "float64",
+          "shape": [
+            285156,
+            3
+          ]
+        },
+        "final_direction": {
+          "dtype": "float64",
+          "shape": [
+            285156,
+            3
+          ]
+        },
+        "global_final_direction": {
+          "dtype": "float64",
+          "shape": [
+            285156,
+            3
+          ]
+        },
+        "global_initial_direction": {
+          "dtype": "float64",
+          "shape": [
+            285156,
+            3
+          ]
+        },
+        "global_launch_position": {
+          "dtype": "float64",
+          "shape": [
+            285156,
+            3
+          ]
+        },
+        "global_receive_position": {
+          "dtype": "float64",
+          "shape": [
+            285156,
+            3
+          ]
+        },
+        "launch_grid_index": {
+          "dtype": "int64",
+          "shape": [
+            285156
+          ]
+        },
+        "launch_u": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "launch_v": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "maximum_local_direction_change": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "net_direction_change": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "normalized_final_direction": {
+          "dtype": "float64",
+          "shape": [
+            285156,
+            3
+          ]
+        },
+        "number_of_steps": {
+          "dtype": "int64",
+          "shape": [
+            285156
+          ]
+        },
+        "path_curvature_integral": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "path_curvature_squared_integral": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "path_excess": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "path_length": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "path_location_of_maximum_direction_change": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "ray_index": {
+          "dtype": "int64",
+          "shape": [
+            285156
+          ]
+        },
+        "receive_position": {
+          "dtype": "float64",
+          "shape": [
+            285156,
+            3
+          ]
+        },
+        "straight_line_distance": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "termination_status": {
+          "dtype": "object",
+          "shape": [
+            285156
+          ]
+        },
+        "total_direction_change": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "validity": {
+          "dtype": "bool",
+          "shape": [
+            285156
+          ]
+        }
+      },
+      "path": "runs/wl_receiver_state_channel_completion001/receiver_state_primary.npz",
+      "sha256": "b7260e3463343f8cee18a00ecc1f6d8ec8df490a9f06fe7778ebb024b4ad2ba0"
+    },
+    {
+      "fields": {
+        "area_orientation_change": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_H1_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_H1_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_H1_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_H2_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_H2_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_H2_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_J11": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_J12": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_J21": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_J22": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_area_ratio": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "final_second_order_norm": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "maximum_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "maximum_area_ratio": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "maximum_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "maximum_second_order_norm": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "mean_H1_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "mean_H1_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "mean_H1_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "mean_H2_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "mean_H2_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "mean_H2_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "mean_J11": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "mean_J12": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "mean_J21": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "mean_J22": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "minimum_anisotropy": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "minimum_area_ratio": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "minimum_orientation": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "minimum_second_order_norm": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "rms_H1_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "rms_H1_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "rms_H1_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "rms_H2_uu": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "rms_H2_uv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "rms_H2_vv": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "rms_J11": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "rms_J12": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "rms_J21": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        },
+        "rms_J22": {
+          "dtype": "float64",
+          "shape": [
+            285156
+          ]
+        }
+      },
+      "path": "runs/wl_receiver_state_channel_completion001/receiver_bundle_channels.npz",
+      "sha256": "36e5fb7ad6c4a7e50a72d40e02dab4185ca6810427e74638657490dfba67bf5e"
+    }
+  ],
+  "upstream_structural_shas": {
+    "arrival_basis_manifest.json": "4ea16cb2091ff7731f8e8371ecc158baa77151b5f9baa148610f4d9eedcf2755",
+    "arrival_event_channel_manifest.json": "294a3d1fbbacf32483661347a4facc70e28bbc1667471260f363d2de499e463f",
+    "structural_result.json": "6f0fd18cf520f2182fb1bc380e86e114a209510138faca88446923e640bf1e1d"
+  }
+}

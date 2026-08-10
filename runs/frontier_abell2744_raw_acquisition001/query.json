@@ -1,0 +1,17 @@
+{
+  "Dec": -30.40024,
+  "RA": 3.58611,
+  "filter": "F814W",
+  "instrument": "ACS/WFC",
+  "main_field_criterion": {
+    "center_deg": [
+      3.58611,
+      -30.40024
+    ],
+    "method": "footprint_or_pointing_overlap",
+    "radius_deg": 0.065
+  },
+  "mission": "HST",
+  "public_only": true,
+  "search_radius_deg": 0.25
+}

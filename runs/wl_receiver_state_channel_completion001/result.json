@@ -1,0 +1,14 @@
+{
+  "DIRECT_TRAJECTORY_FIELDS_LOST": 0,
+  "channel_manifest_sha256": "49aa5faeb1ff70b0aca2dd843e93b0c2da8574bdaf313d437001f88fbce9b7ab",
+  "hst_pixel_access": false,
+  "outcome": "WL_3D_RECEIVER_STATE_COMPLETION_ESTABLISHED",
+  "ray_count": 285156,
+  "runtime_seconds": 14.314423084259033,
+  "secondary_outcomes": [
+    "WL_3D_RECEIVER_STATE_INFORMATION_ADVANTAGE_ESTABLISHED"
+  ],
+  "structural_sha256": "ae97ac81e084fa4de1b7de4509e29c569753937a7e16f565ff3c91ec603d90b7",
+  "target_access": false,
+  "validation": false
+}

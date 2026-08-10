@@ -1,0 +1,36 @@
+{
+  "BROKEN_OPTICAL_PROVENANCE_LINKS": 0,
+  "events": 285156,
+  "metadata_inverse": "REVERSIBLE_WITH_METADATA",
+  "output_only_candidate_count": "unbounded incoming directions at fixed intersection",
+  "output_only_transform_inverse": "MULTIVALUED_INVERSE",
+  "roundtrip": {
+    "bitwise_equal_rows": 284425,
+    "classification": "NUMERICALLY_EXACT_ROUNDTRIP",
+    "max_abs": 8.881784197001252e-16,
+    "p95": 0.0,
+    "p99": 0.0,
+    "per_coordinate": [
+      {
+        "max_abs": 2.220446049250313e-16,
+        "p95": 0.0,
+        "p99": 0.0,
+        "rms": 3.947263584079309e-18
+      },
+      {
+        "max_abs": 8.881784197001252e-16,
+        "p95": 0.0,
+        "p99": 0.0,
+        "rms": 6.301948349467285e-18
+      },
+      {
+        "max_abs": 0.0,
+        "p95": 0.0,
+        "p99": 0.0,
+        "rms": 0.0
+      }
+    ],
+    "rms": 4.2932288859533244e-18,
+    "tolerance": 9.092290789420271e-13
+  }
+}

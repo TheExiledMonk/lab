@@ -1,0 +1,22 @@
+{
+  "candidate_sources": [
+    {
+      "classification": "NUMERICAL_ONLY_SCALE",
+      "source": "pbuf.wl.config.EXTENT / m10 CFG extent"
+    },
+    {
+      "classification": "UNRESOLVED",
+      "finding": "SI_length_scale_closed=false",
+      "source": "native_length_scale_mapping_audit001.scale_inventory"
+    }
+  ],
+  "classification": "NUMERICAL_ONLY_SCALE",
+  "conclusion": "No audited grid-unit-to-length or grid-unit-to-angle mapping exists; array dimensions and HST field size were not used.",
+  "coordinate_extent": 8.0,
+  "coordinate_units": "native simulation coordinate",
+  "distance_metadata": null,
+  "physical_or_angular_box_size": null,
+  "redshift_used_as_distance": false,
+  "scale_resolved": false,
+  "target_derived": false
+}

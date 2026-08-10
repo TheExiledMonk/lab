@@ -1,0 +1,57 @@
+{
+  "audit": {
+    "conserved": true,
+    "definition": "conserved directional excitation-norm flux",
+    "direction": 1,
+    "magnitude": 44.01449806942985,
+    "momentum_like_established": false,
+    "non_arbitrary_magnitude": true,
+    "norm": 44.01449806942985,
+    "selected_candidate": "PM06",
+    "stable_relation_to_spatial_mode": false
+  },
+  "registry": [
+    {
+      "attempted": true,
+      "id": "PM01",
+      "name": "N_X * n_hat",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "PM02",
+      "name": "k_n * n_hat",
+      "status": "DERIVABLE"
+    },
+    {
+      "attempted": true,
+      "id": "PM03",
+      "name": "N_X*k_n*n_hat",
+      "status": "DERIVABLE"
+    },
+    {
+      "attempted": true,
+      "id": "PM04",
+      "name": "packet flux vector",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "PM05",
+      "name": "centroid transport x norm",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "PM06",
+      "name": "conserved directional excitation flux",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "PM07",
+      "name": "no native momentum magnitude",
+      "status": "FALSIFIED"
+    }
+  ]
+}

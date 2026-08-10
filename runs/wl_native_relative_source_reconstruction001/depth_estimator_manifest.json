@@ -1,0 +1,177 @@
+[
+  {
+    "attempted": true,
+    "estimator_class": "POSITION",
+    "estimator_id": "D01"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "POSITION",
+    "estimator_id": "D02"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "POSITION",
+    "estimator_id": "D03"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "BUNDLE",
+    "estimator_id": "D04"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "POSITION",
+    "estimator_id": "D05"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "DIRECTION",
+    "estimator_id": "D06"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "POSITION_DIRECTION",
+    "estimator_id": "D07"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "POSITION_DIRECTION",
+    "estimator_id": "D08"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "BUNDLE",
+    "estimator_id": "D09"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "SECOND_ORDER",
+    "estimator_id": "D10"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "TOPOLOGY",
+    "estimator_id": "D11"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "TOPOLOGY",
+    "estimator_id": "D12"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "TOPOLOGY",
+    "estimator_id": "D13"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "TOPOLOGY",
+    "estimator_id": "D14"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "TOPOLOGY",
+    "estimator_id": "D15"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "POSITION_DIRECTION",
+    "estimator_id": "D16"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "GEOMETRIC_CONTROL",
+    "estimator_id": "D17"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "GEOMETRIC_CONTROL",
+    "estimator_id": "D18"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "MULTIPATH",
+    "estimator_id": "D19"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "MULTIPATH",
+    "estimator_id": "D20"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "MULTIPATH",
+    "estimator_id": "D21"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "MULTIPATH",
+    "estimator_id": "D22"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "MULTIPATH",
+    "estimator_id": "D23"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "BUNDLE",
+    "estimator_id": "D24"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "POSITION",
+    "estimator_id": "D25"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "BUNDLE",
+    "estimator_id": "D26"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "TRAJECTORY_HISTORY",
+    "estimator_id": "D27"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "SECOND_ORDER",
+    "estimator_id": "D28"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "COMPLEXITY",
+    "estimator_id": "D29"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "COMPLEXITY",
+    "estimator_id": "D30"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "ROUNDTRIP",
+    "estimator_id": "D31"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "ROUNDTRIP",
+    "estimator_id": "D32"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "GEOMETRIC_CONTROL",
+    "estimator_id": "D33"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "GEOMETRIC_CONTROL",
+    "estimator_id": "D34"
+  },
+  {
+    "attempted": true,
+    "estimator_class": "ROUNDTRIP",
+    "estimator_id": "D35"
+  }
+]

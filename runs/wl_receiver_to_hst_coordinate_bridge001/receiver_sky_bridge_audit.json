@@ -1,0 +1,11 @@
+{
+  "orientation_resolved": false,
+  "origin_resolved": false,
+  "production_ready": false,
+  "reference_closure_complete": true,
+  "scale_resolved": false,
+  "stop_reasons": [
+    "PBUF_RECEIVER_PHYSICAL_SCALE_NOT_ESTABLISHED",
+    "PBUF_RECEIVER_SKY_ATTITUDE_NOT_ESTABLISHED"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "16_32": {
+    "magnitude_correlation": 0.18909836441106392,
+    "orientation_persistence": 0.41420211210761926,
+    "sign_consistency": 0.74169921875
+  },
+  "2_4": {
+    "magnitude_correlation": 0.7753031799095821,
+    "orientation_persistence": 0.775123170248361,
+    "sign_consistency": 0.93115234375
+  },
+  "4_8": {
+    "magnitude_correlation": 0.6246090629520789,
+    "orientation_persistence": 0.7284682401666581,
+    "sign_consistency": 0.90576171875
+  },
+  "8_16": {
+    "magnitude_correlation": 0.37879099776307035,
+    "orientation_persistence": 0.5313967237518714,
+    "sign_consistency": 0.804931640625
+  }
+}

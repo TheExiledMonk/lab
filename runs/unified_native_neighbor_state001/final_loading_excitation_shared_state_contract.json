@@ -1,0 +1,16 @@
+{
+  "backreaction": "NO_BACKREACTION",
+  "constitutive_coupling": "UNDERDETERMINED",
+  "contract": "PBUF_LOADING_EXCITATION_SHARED_NEIGHBOR_COUPLING_V1",
+  "excitation_uses_same_neighbor_state": true,
+  "frame_transport_coupling": "STRUCTURALLY_SUPPORTED",
+  "geometry_coupling": "STRUCTURALLY_SUPPORTED",
+  "loaded_composite_available": false,
+  "loaded_excitation_path_available": true,
+  "loading_changes_neighbor_state": true,
+  "localization_available": false,
+  "new_cross_coefficient_count": 0,
+  "norm_exchange": "none",
+  "shared_neighbor_state_available": true,
+  "vacuum_drag": false
+}

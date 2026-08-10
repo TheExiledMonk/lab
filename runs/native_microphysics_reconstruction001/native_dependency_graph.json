@@ -1,0 +1,134 @@
+{
+  "conceptual_only": [
+    {
+      "from": "c_state",
+      "kind": "CONCEPTUAL_RELATION_ONLY",
+      "to": "L"
+    },
+    {
+      "from": "u accumulated",
+      "kind": "CONCEPTUAL_RELATION_ONLY",
+      "to": "excitation progression"
+    },
+    {
+      "from": "packet trajectory",
+      "kind": "CONCEPTUAL_RELATION_ONLY",
+      "to": "weak-lensing ray"
+    },
+    {
+      "from": "rbar history",
+      "kind": "CONCEPTUAL_RELATION_ONLY",
+      "to": "direction"
+    },
+    {
+      "from": "direction",
+      "kind": "CONCEPTUAL_RELATION_ONLY",
+      "to": "curvature"
+    },
+    {
+      "from": "lambda_n",
+      "kind": "CONCEPTUAL_RELATION_ONLY",
+      "to": "k_n"
+    }
+  ],
+  "edges": [
+    {
+      "from": "rho3",
+      "kind": "CODE_DEPENDENCY",
+      "to": "u_slow/u_fast initialization"
+    },
+    {
+      "from": "u_slow/u_fast",
+      "kind": "CODE_DEPENDENCY",
+      "to": "c_state"
+    },
+    {
+      "from": "c_state",
+      "kind": "CODE_DEPENDENCY",
+      "to": "bounded equilibrium source"
+    },
+    {
+      "from": "bounded equilibrium source",
+      "kind": "CODE_DEPENDENCY",
+      "to": "u accumulated"
+    },
+    {
+      "from": "u accumulated",
+      "kind": "CODE_DEPENDENCY",
+      "to": "epsilon"
+    },
+    {
+      "from": "epsilon",
+      "kind": "CODE_DEPENDENCY",
+      "to": "sigma/W/K_tangent"
+    },
+    {
+      "from": "packet controls",
+      "kind": "CODE_DEPENDENCY",
+      "to": "X"
+    },
+    {
+      "from": "X_n",
+      "kind": "CODE_DEPENDENCY",
+      "to": "X_n+1"
+    },
+    {
+      "from": "local frames",
+      "kind": "CODE_DEPENDENCY",
+      "to": "R_ij"
+    },
+    {
+      "from": "R_ij",
+      "kind": "CODE_DEPENDENCY",
+      "to": "X_n+1"
+    },
+    {
+      "from": "X",
+      "kind": "CODE_DEPENDENCY",
+      "to": "rho_X"
+    },
+    {
+      "from": "rho_X",
+      "kind": "CODE_DEPENDENCY",
+      "to": "rbar"
+    },
+    {
+      "from": "rbar history",
+      "kind": "CODE_DEPENDENCY",
+      "to": "packet trajectory"
+    },
+    {
+      "from": "X1",
+      "kind": "CODE_DEPENDENCY",
+      "to": "lambda_n"
+    }
+  ],
+  "nodes": [
+    "L",
+    "R_ij",
+    "X",
+    "X1",
+    "X_n",
+    "X_n+1",
+    "bounded equilibrium source",
+    "c_state",
+    "curvature",
+    "direction",
+    "epsilon",
+    "excitation progression",
+    "k_n",
+    "lambda_n",
+    "local frames",
+    "packet controls",
+    "packet trajectory",
+    "rbar",
+    "rbar history",
+    "rho3",
+    "rho_X",
+    "sigma/W/K_tangent",
+    "u accumulated",
+    "u_slow/u_fast",
+    "u_slow/u_fast initialization",
+    "weak-lensing ray"
+  ]
+}

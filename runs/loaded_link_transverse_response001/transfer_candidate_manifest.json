@@ -1,0 +1,105 @@
+{
+  "candidates": [
+    {
+      "gradient_only": false,
+      "id": "T01",
+      "name": "actual neighbor separation"
+    },
+    {
+      "gradient_only": false,
+      "id": "T02",
+      "name": "normalized longitudinal strain"
+    },
+    {
+      "gradient_only": false,
+      "id": "T03",
+      "name": "native stress/tension"
+    },
+    {
+      "gradient_only": false,
+      "id": "T04",
+      "name": "tangent stiffness"
+    },
+    {
+      "gradient_only": false,
+      "id": "T05",
+      "name": "bounded constitutive curvature"
+    },
+    {
+      "gradient_only": false,
+      "id": "T06",
+      "name": "local constitutive energy density"
+    },
+    {
+      "gradient_only": false,
+      "id": "T07",
+      "name": "geometric stretch ratio"
+    },
+    {
+      "gradient_only": false,
+      "id": "T08",
+      "name": "normalized link-length ratio"
+    },
+    {
+      "gradient_only": true,
+      "id": "T09",
+      "name": "local longitudinal-state gradient"
+    },
+    {
+      "gradient_only": true,
+      "id": "T10",
+      "name": "local stress gradient"
+    },
+    {
+      "gradient_only": true,
+      "id": "T11",
+      "name": "local tangent-stiffness gradient"
+    },
+    {
+      "gradient_only": true,
+      "id": "T12",
+      "name": "link-state curvature along propagation"
+    },
+    {
+      "gradient_only": true,
+      "id": "T13",
+      "name": "pairwise loading contrast"
+    },
+    {
+      "gradient_only": true,
+      "id": "T14",
+      "name": "local loading anisotropy"
+    },
+    {
+      "gradient_only": false,
+      "id": "T15",
+      "name": "longitudinal equilibrium offset"
+    },
+    {
+      "gradient_only": false,
+      "id": "T16",
+      "name": "bond-response derivative"
+    },
+    {
+      "gradient_only": false,
+      "id": "T17",
+      "name": "local state-space capacity"
+    },
+    {
+      "gradient_only": false,
+      "id": "T18",
+      "name": "joint link norm constraint"
+    },
+    {
+      "gradient_only": false,
+      "id": "T19",
+      "name": "geometry + constitutive-state combination"
+    },
+    {
+      "gradient_only": false,
+      "id": "T20",
+      "name": "no native longitudinal dependence"
+    }
+  ],
+  "count": 20
+}

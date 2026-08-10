@@ -1,0 +1,16 @@
+{
+  "energy": {
+    "coefficient_free_fraction": false,
+    "finite_native_maximum": false,
+    "outcome": "NO_NATIVE_FINITE_W_NORMALIZATION"
+  },
+  "strain_fraction": {
+    "bounded": true,
+    "coefficient_free": true,
+    "definition": "abs(epsilon)/epsilon_max"
+  },
+  "stress": {
+    "coefficient_free_fraction": false,
+    "finite_native_maximum": false
+  }
+}

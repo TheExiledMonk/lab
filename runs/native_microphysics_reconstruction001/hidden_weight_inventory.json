@@ -1,0 +1,27 @@
+[
+  {
+    "location": "a8_state.py:57,77",
+    "operation": "N6 average",
+    "value": "1/6"
+  },
+  {
+    "location": "a8_state.py:90,112",
+    "operation": "fast/slow mean",
+    "value": "1/2"
+  },
+  {
+    "location": "a8_state.py:104-109",
+    "operation": "channel couplings",
+    "value": "0.5 each"
+  },
+  {
+    "location": "c_state_bounded_strain_bridge001.py:206",
+    "operation": "Picard damping",
+    "value": "0.65/0.35"
+  },
+  {
+    "location": "native_neighbor_mixed_state.py:23-27",
+    "operation": "excitation allocation",
+    "value": "one destination, weight 1"
+  }
+]

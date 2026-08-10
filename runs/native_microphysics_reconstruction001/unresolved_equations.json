@@ -1,0 +1,47 @@
+[
+  {
+    "classification": "ACTUAL_MISSING_PHYSICS",
+    "dev_that_established_gap": 153,
+    "downstream_required_quantity": "C_ij(L)",
+    "missing_relation": "loaded longitudinal state -> transverse evolution operator",
+    "upstream_known_quantities": [
+      "L",
+      "epsilon",
+      "sigma",
+      "W",
+      "K_tangent",
+      "geometry"
+    ],
+    "why_current_equations_are_insufficient": "No mixed Hessian, metric, allocation, or conservative exchange map is implemented."
+  },
+  {
+    "classification": "ACTUAL_MISSING_PHYSICS",
+    "dev_that_established_gap": 154,
+    "downstream_required_quantity": "native direction",
+    "missing_relation": "excitation centroid history -> direction",
+    "upstream_known_quantities": [
+      "rbar history"
+    ],
+    "why_current_equations_are_insufficient": "No excitation observer implements the finite difference or zero-step rule."
+  },
+  {
+    "classification": "IMPLEMENTED_UNDER_DIFFERENT_NAME",
+    "dev_that_established_gap": 154,
+    "downstream_required_quantity": "native curvature",
+    "missing_relation": "excitation direction -> curvature",
+    "upstream_known_quantities": [
+      "direction history"
+    ],
+    "why_current_equations_are_insufficient": "Curvature exists only in separate geometric WL trajectory code."
+  },
+  {
+    "classification": "ACTUAL_MISSING_PHYSICS",
+    "dev_that_established_gap": 154,
+    "downstream_required_quantity": "k_n",
+    "missing_relation": "FFT wavelength -> native k",
+    "upstream_known_quantities": [
+      "lambda_n"
+    ],
+    "why_current_equations_are_insufficient": "The canonical observer emits wavelength but not k."
+  }
+]

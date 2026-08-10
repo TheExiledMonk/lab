@@ -1,0 +1,24 @@
+{
+  "Planck_relation_postfreeze_status": "NOT_UNIQUE: total norm depends on amplitude and support, not k alone",
+  "QM_equations_native": false,
+  "QM_used_as_inverse_constraint": true,
+  "absolute_energy_scale_unresolved": true,
+  "absolute_length_scale_unresolved": true,
+  "contract": "PBUF_NATIVE_TO_EFFECTIVE_QUANTUM_BRIDGE_V1",
+  "de_Broglie_postfreeze_status": "MISSING_NATIVE_MECHANISM: directional norm flux has no unique k relation",
+  "energy_like_norm_established": true,
+  "interference_established": true,
+  "momentum_like_state_established": false,
+  "native_excitation_established": true,
+  "native_wave_state_established": true,
+  "photon_like_structure_established": false,
+  "polarization_state_space_established": true,
+  "quantization_established": false,
+  "quantized_photon_like_structure_established": false,
+  "remaining_missing_physics": [
+    "source/absorber interaction dynamics",
+    "non-arbitrary momentum magnitude tied to k",
+    "packet-construction-independent energy-k relation",
+    "absolute length and energy normalization"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "artifact": "runs/wl_native_relative_source_reconstruction001/structural_result.json",
+  "canonicalization": {
+    "algorithm": "sha256(json.dumps(value, sort_keys=True, separators=(',', ':'), allow_nan=False).encode())",
+    "excluded_envelope_fields": [
+      "DEV138_STRUCTURAL_SHA256",
+      "blind_manifest_sha256",
+      "frozen_production_changes"
+    ],
+    "semantic_projection": "structural payload constructed before audit/provenance envelope fields are attached"
+  },
+  "current_file_bytes_sha256": "4511199a02b167a69ee16367162fcf57beded8374367fb4c633a5e3d1489db01",
+  "current_full_object_canonical_sha256": "c2861473fecada37ef87aabc16ad48c0b3eab8deb7576517dd1f48150c06af6a",
+  "current_semantic_sha256": "867a29c1d844c9effd9816436e81d50d50c7f096085344c348b56d82a0219756",
+  "expected_semantic_sha256": "867a29c1d844c9effd9816436e81d50d50c7f096085344c348b56d82a0219756",
+  "field_changes": [],
+  "ignored_nonsemantic_differences": [
+    {
+      "classification": "AUDIT_ENVELOPE",
+      "paths": [
+        "/DEV138_STRUCTURAL_SHA256",
+        "/blind_manifest_sha256",
+        "/frozen_production_changes"
+      ]
+    },
+    {
+      "classification": "SERIALIZATION_WHITESPACE",
+      "detail": "The file uses indented JSON plus a terminal newline; the frozen hash uses compact canonical JSON."
+    }
+  ],
+  "historical_byte_snapshot_available": false,
+  "semantic_parity": true
+}

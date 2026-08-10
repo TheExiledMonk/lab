@@ -1,0 +1,166 @@
+{
+  "rows": [
+    {
+      "hard_gates": {
+        "BASIS_COVARIANT": false,
+        "DYNAMIC_PARITY": true,
+        "NEW_INTERACTION_COEFFICIENTS": 0,
+        "PROGRESSION_STEP_CONVERGED": true,
+        "RESOLUTION_CONVERGED": true,
+        "STATIC_PARITY": true,
+        "SYMMETRY_CONSISTENT": false
+      },
+      "scores": {
+        "S1": "PASS",
+        "S10": "NOT_ESTABLISHED",
+        "S11": "PASS",
+        "S12": "PASS",
+        "S2": "PASS",
+        "S3": "PASS",
+        "S4": "PASS",
+        "S5": "PASS",
+        "S6": "PASS",
+        "S7": "PASS",
+        "S8": "PASS",
+        "S9": "NOT_ESTABLISHED"
+      },
+      "survivor_id": "S-C08",
+      "viable": false
+    },
+    {
+      "hard_gates": {
+        "BASIS_COVARIANT": true,
+        "DYNAMIC_PARITY": true,
+        "NEW_INTERACTION_COEFFICIENTS": 0,
+        "PROGRESSION_STEP_CONVERGED": true,
+        "RESOLUTION_CONVERGED": true,
+        "STATIC_PARITY": true,
+        "SYMMETRY_CONSISTENT": true
+      },
+      "scores": {
+        "S1": "PASS",
+        "S10": "NOT_ESTABLISHED",
+        "S11": "PASS",
+        "S12": "PASS",
+        "S2": "PASS",
+        "S3": "PASS",
+        "S4": "PASS",
+        "S5": "PASS",
+        "S6": "PASS",
+        "S7": "PASS",
+        "S8": "PASS",
+        "S9": "NOT_ESTABLISHED"
+      },
+      "survivor_id": "S-C10",
+      "viable": true
+    },
+    {
+      "hard_gates": {
+        "BASIS_COVARIANT": true,
+        "DYNAMIC_PARITY": true,
+        "NEW_INTERACTION_COEFFICIENTS": 0,
+        "PROGRESSION_STEP_CONVERGED": true,
+        "RESOLUTION_CONVERGED": true,
+        "STATIC_PARITY": true,
+        "SYMMETRY_CONSISTENT": true
+      },
+      "scores": {
+        "S1": "PASS",
+        "S10": "NOT_ESTABLISHED",
+        "S11": "PASS",
+        "S12": "PASS",
+        "S2": "PASS",
+        "S3": "PASS",
+        "S4": "PASS",
+        "S5": "PASS",
+        "S6": "PASS",
+        "S7": "PASS",
+        "S8": "PASS",
+        "S9": "NOT_ESTABLISHED"
+      },
+      "survivor_id": "S-C12",
+      "viable": true
+    },
+    {
+      "hard_gates": {
+        "BASIS_COVARIANT": true,
+        "DYNAMIC_PARITY": true,
+        "NEW_INTERACTION_COEFFICIENTS": 0,
+        "PROGRESSION_STEP_CONVERGED": true,
+        "RESOLUTION_CONVERGED": true,
+        "STATIC_PARITY": true,
+        "SYMMETRY_CONSISTENT": true
+      },
+      "scores": {
+        "S1": "PASS",
+        "S10": "NOT_ESTABLISHED",
+        "S11": "PASS",
+        "S12": "PASS",
+        "S2": "PASS",
+        "S3": "PASS",
+        "S4": "PASS",
+        "S5": "PASS",
+        "S6": "PASS",
+        "S7": "PASS",
+        "S8": "PASS",
+        "S9": "NOT_ESTABLISHED"
+      },
+      "survivor_id": "S-C13",
+      "viable": true
+    },
+    {
+      "hard_gates": {
+        "BASIS_COVARIANT": true,
+        "DYNAMIC_PARITY": true,
+        "NEW_INTERACTION_COEFFICIENTS": 0,
+        "PROGRESSION_STEP_CONVERGED": true,
+        "RESOLUTION_CONVERGED": true,
+        "STATIC_PARITY": true,
+        "SYMMETRY_CONSISTENT": true
+      },
+      "scores": {
+        "S1": "PASS",
+        "S10": "NOT_ESTABLISHED",
+        "S11": "PASS",
+        "S12": "PASS",
+        "S2": "PASS",
+        "S3": "PASS",
+        "S4": "PASS",
+        "S5": "PASS",
+        "S6": "PASS",
+        "S7": "PASS",
+        "S8": "PASS",
+        "S9": "NOT_ESTABLISHED"
+      },
+      "survivor_id": "S-C16",
+      "viable": true
+    },
+    {
+      "hard_gates": {
+        "BASIS_COVARIANT": true,
+        "DYNAMIC_PARITY": true,
+        "NEW_INTERACTION_COEFFICIENTS": 0,
+        "PROGRESSION_STEP_CONVERGED": true,
+        "RESOLUTION_CONVERGED": true,
+        "STATIC_PARITY": true,
+        "SYMMETRY_CONSISTENT": true
+      },
+      "scores": {
+        "S1": "PASS",
+        "S10": "NOT_ESTABLISHED",
+        "S11": "PASS",
+        "S12": "PASS",
+        "S2": "PASS",
+        "S3": "PASS",
+        "S4": "PASS",
+        "S5": "PASS",
+        "S6": "PASS",
+        "S7": "PASS",
+        "S8": "PASS",
+        "S9": "NOT_ESTABLISHED"
+      },
+      "survivor_id": "S-C18",
+      "viable": true
+    }
+  ]
+}

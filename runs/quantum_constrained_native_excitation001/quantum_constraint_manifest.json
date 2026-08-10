@@ -1,0 +1,104 @@
+{
+  "QC01_QC20": [
+    {
+      "attempted": true,
+      "id": "QC01",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "QC02",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "QC03",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "QC04",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "QC05",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "QC06",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "QC07",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "QC08",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "QC09",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "id": "QC10",
+      "status": "NOT_UNIQUE"
+    },
+    {
+      "attempted": true,
+      "id": "QC11",
+      "status": "NOT_UNIQUE"
+    },
+    {
+      "attempted": true,
+      "id": "QC12",
+      "status": "CONTINUOUS_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "QC13",
+      "status": "CONTINUOUS_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "QC14",
+      "status": "CONTINUOUS_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "QC15",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "QC16",
+      "status": "MISSING_NATIVE_MECHANISM"
+    },
+    {
+      "attempted": true,
+      "id": "QC17",
+      "status": "SOURCE_INTERACTION_REQUIRED"
+    },
+    {
+      "attempted": true,
+      "id": "QC18",
+      "status": "SOURCE_INTERACTION_REQUIRED"
+    },
+    {
+      "attempted": true,
+      "id": "QC19",
+      "status": "CONTINUOUS_ONLY"
+    },
+    {
+      "attempted": true,
+      "id": "QC20",
+      "status": "MISSING_NATIVE_MECHANISM"
+    }
+  ]
+}

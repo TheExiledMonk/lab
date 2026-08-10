@@ -1,0 +1,11 @@
+{
+  "DE_BROGLIE_USED_TO_CONSTRUCT_NATIVE_LAW": false,
+  "E_EQUALS_PC_USED_TO_CONSTRUCT_NATIVE_LAW": false,
+  "HBAR_USED_IN_NATIVE_DERIVATION": false,
+  "PLANCK_RELATION_USED_AS_POST_FREEZE_BENCHMARK": true,
+  "PLANCK_RELATION_USED_TO_CONSTRUCT_NATIVE_MODE": false,
+  "QM_BENCHMARK_READ_ONLY": true,
+  "de_broglie_status": "MISSING_NATIVE_MECHANISM: directional norm flux has no unique k relation",
+  "planck_relation_status": "NOT_UNIQUE: total norm depends on amplitude and support, not k alone",
+  "polarization_status": "POST_FREEZE_QM_COMPATIBLE"
+}

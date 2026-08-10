@@ -1,0 +1,31 @@
+{
+  "boundary_rule": "lower inclusive; upper exclusive; exact edges labeled BOUNDARY",
+  "coordinates": "continuous float64; no pixel index or accumulation",
+  "fits_origin": "FITS 1-based metadata retained separately from continuous physical and numpy coordinates",
+  "frames": {
+    "A0": "PBUF incoming optical frame",
+    "A1": "telescope/instrument reference frame",
+    "A2": "ACS/WFC ideal focal/detector reference frame",
+    "A3": "chip-native physical frame",
+    "A4": "calibrated FLT/FLC array frame",
+    "A5": "diagnostic sky/WCS only"
+  },
+  "image_generation": false,
+  "losses": [
+    "DETECTOR_GEOMETRIC_GAP_LOSS",
+    "OUTSIDE_ACTIVE_DETECTOR",
+    "DISTORTION_DOMAIN_FAILURE"
+  ],
+  "reverse_lanes": [
+    "FULL_METADATA_REVERSE",
+    "OUTPUT_GEOMETRY_ONLY_REVERSE"
+  ],
+  "science_array_access": false,
+  "source_hierarchy": [
+    "LOCAL_FITS_HEADER",
+    "LOCAL_REFERENCE_FILE",
+    "OFFICIAL_INSTRUMENT_DOCUMENT",
+    "DERIVED_FROM_FROZEN_SOURCE"
+  ],
+  "version": "PBUF_HST_ACS_WFC_GEOMETRY_V1"
+}

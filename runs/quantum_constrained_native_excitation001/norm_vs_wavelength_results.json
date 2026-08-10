@@ -1,0 +1,250 @@
+{
+  "classification": "E06 packet-construction dependent / E07 no unique relation",
+  "controls": [
+    {
+      "k": 1.5707963267948966,
+      "norm": 56.71726643393513,
+      "policy": "fixed_width",
+      "wavelength": 4,
+      "width": 64
+    },
+    {
+      "k": 1.5707963267948966,
+      "norm": 14.17963080724413,
+      "policy": "fixed_cycles",
+      "wavelength": 4,
+      "width": 16
+    },
+    {
+      "k": 1.5707963267948966,
+      "norm": 0.9999999999999998,
+      "policy": "fixed_norm",
+      "wavelength": 4,
+      "width": 16
+    },
+    {
+      "k": 1.0471975511965976,
+      "norm": 56.71726547273401,
+      "policy": "fixed_width",
+      "wavelength": 6,
+      "width": 64
+    },
+    {
+      "k": 1.0471975511965976,
+      "norm": 21.269446210866192,
+      "policy": "fixed_cycles",
+      "wavelength": 6,
+      "width": 24
+    },
+    {
+      "k": 1.0471975511965976,
+      "norm": 0.9999999999999998,
+      "policy": "fixed_norm",
+      "wavelength": 6,
+      "width": 24
+    },
+    {
+      "k": 0.7853981633974483,
+      "norm": 56.717263553847296,
+      "policy": "fixed_width",
+      "wavelength": 8,
+      "width": 64
+    },
+    {
+      "k": 0.7853981633974483,
+      "norm": 28.35926161448824,
+      "policy": "fixed_cycles",
+      "wavelength": 8,
+      "width": 32
+    },
+    {
+      "k": 0.7853981633974483,
+      "norm": 1.0,
+      "policy": "fixed_norm",
+      "wavelength": 8,
+      "width": 32
+    },
+    {
+      "k": 0.5235987755982988,
+      "norm": 56.71725782520264,
+      "policy": "fixed_width",
+      "wavelength": 12,
+      "width": 64
+    },
+    {
+      "k": 0.5235987755982988,
+      "norm": 42.53889174596699,
+      "policy": "fixed_cycles",
+      "wavelength": 12,
+      "width": 48
+    },
+    {
+      "k": 0.5235987755982988,
+      "norm": 1.0,
+      "policy": "fixed_norm",
+      "wavelength": 12,
+      "width": 48
+    },
+    {
+      "k": 0.39269908169872414,
+      "norm": 56.717249794903495,
+      "policy": "fixed_width",
+      "wavelength": 16,
+      "width": 64
+    },
+    {
+      "k": 0.39269908169872414,
+      "norm": 56.717249794903495,
+      "policy": "fixed_cycles",
+      "wavelength": 16,
+      "width": 64
+    },
+    {
+      "k": 0.39269908169872414,
+      "norm": 1.0,
+      "policy": "fixed_norm",
+      "wavelength": 16,
+      "width": 64
+    },
+    {
+      "k": 0.2617993877991494,
+      "norm": 56.71722725245666,
+      "policy": "fixed_width",
+      "wavelength": 24,
+      "width": 64
+    },
+    {
+      "k": 0.2617993877991494,
+      "norm": 84.67691281785666,
+      "policy": "fixed_cycles",
+      "wavelength": 24,
+      "width": 96
+    },
+    {
+      "k": 0.2617993877991494,
+      "norm": 1.0000000000000002,
+      "policy": "fixed_norm",
+      "wavelength": 24,
+      "width": 96
+    },
+    {
+      "k": 0.19634954084936207,
+      "norm": 56.71719677452272,
+      "policy": "fixed_width",
+      "wavelength": 32,
+      "width": 64
+    },
+    {
+      "k": 0.19634954084936207,
+      "norm": 109.57570142933024,
+      "policy": "fixed_cycles",
+      "wavelength": 32,
+      "width": 128
+    },
+    {
+      "k": 0.19634954084936207,
+      "norm": 1.0,
+      "policy": "fixed_norm",
+      "wavelength": 32,
+      "width": 128
+    },
+    {
+      "k": 0.1308996938995747,
+      "norm": 56.717116280752904,
+      "policy": "fixed_width",
+      "wavelength": 48,
+      "width": 64
+    },
+    {
+      "k": 0.1308996938995747,
+      "norm": 143.33363853014873,
+      "policy": "fixed_cycles",
+      "wavelength": 48,
+      "width": 192
+    },
+    {
+      "k": 0.1308996938995747,
+      "norm": 1.0,
+      "policy": "fixed_norm",
+      "wavelength": 48,
+      "width": 192
+    },
+    {
+      "k": 0.09817477042468103,
+      "norm": 56.71701814198249,
+      "policy": "fixed_width",
+      "wavelength": 64,
+      "width": 64
+    },
+    {
+      "k": 0.09817477042468103,
+      "norm": 161.25550693656214,
+      "policy": "fixed_cycles",
+      "wavelength": 64,
+      "width": 256
+    },
+    {
+      "k": 0.09817477042468103,
+      "norm": 1.0000000000000002,
+      "policy": "fixed_norm",
+      "wavelength": 64,
+      "width": 256
+    }
+  ],
+  "raw_sweep": [
+    {
+      "k": 1.5707963267948966,
+      "norm": 14.17963080724413,
+      "progression_rate": 1.0,
+      "wavelength": 4
+    },
+    {
+      "k": 1.0471975511965976,
+      "norm": 21.269445867530997,
+      "progression_rate": 1.0,
+      "wavelength": 6
+    },
+    {
+      "k": 0.7853981633974483,
+      "norm": 28.358621759351614,
+      "progression_rate": 1.0,
+      "wavelength": 8
+    },
+    {
+      "k": 0.5235987755982988,
+      "norm": 42.338258791907805,
+      "progression_rate": 1.0,
+      "wavelength": 12
+    },
+    {
+      "k": 0.39269908169872414,
+      "norm": 54.78722093377756,
+      "progression_rate": 1.0,
+      "wavelength": 16
+    },
+    {
+      "k": 0.2617993877991494,
+      "norm": 71.66585293883492,
+      "progression_rate": 1.0,
+      "wavelength": 24
+    },
+    {
+      "k": 0.19634954084936207,
+      "norm": 80.62691477316383,
+      "progression_rate": 1.0,
+      "wavelength": 32
+    },
+    {
+      "k": 0.1308996938995747,
+      "norm": 120.94130474638136,
+      "progression_rate": 1.0,
+      "wavelength": 48
+    },
+    {
+      "k": 0.09817477042468103,
+      "norm": 161.25550693656214,
+      "progression_rate": 1.0,
+      "wavelength": 64
+    }
+  ]
+}

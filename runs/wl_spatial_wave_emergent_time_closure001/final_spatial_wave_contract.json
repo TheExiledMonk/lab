@@ -1,0 +1,17 @@
+{
+  "absolute_length_required": null,
+  "contract": "PBUF_SPATIAL_WAVE_CONSTITUTIVE_V1",
+  "free_parameters": [],
+  "frequency_emergent_if_length_known": true,
+  "frequency_native": false,
+  "native_redshift_history_established": false,
+  "native_redshift_stop_established": false,
+  "reversible": null,
+  "scale_free": false,
+  "spatial_wave_state_established": false,
+  "time_required": false,
+  "wave_evolution_established": false,
+  "wave_evolution_mechanism": null,
+  "wave_number_available": false,
+  "wavelength_available": false
+}

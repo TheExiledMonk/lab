@@ -1,0 +1,21 @@
+DEV140-A DEV138 BASELINE RECONCILIATION
+
+The apparent drift is a hash-domain mismatch, not an upstream artifact mutation.
+Dev138 computes its frozen declarations from compact, key-sorted canonical JSON. The blind hash covers the entire parsed blind manifest. The structural hash covers the structural payload before the hash/provenance audit envelope is attached. Raw sha256sum values over the pretty-printed files are therefore different by construction.
+
+The current artifacts reproduce both original semantic hashes exactly. No D01-D35, blindness, control, grid, threshold, consensus, weighting, ratio, or reconstruction-schema semantic change was found. The 17 stored Dev138 guard conditions remain true.
+
+The six test files required by the Dev138 document currently collect seven tests, and all seven pass. Including seven later Dev139-support tests gives 14/14 passing. The repository contains no evidence of an original 24-test collection, so that specific count cannot be certified.
+
+DEV138_OLD_BLIND_SHA256=918a22a3728803d53d121bb06baab59f23b9e8901a9fdd233e7c79295ab6bbdb
+DEV138_CURRENT_BLIND_SHA256=91f7631639a39b0181b6828ad44a25730cb22d6264bb102f3aecb8269ac080cb
+DEV138_CURRENT_BLIND_SEMANTIC_SHA256=918a22a3728803d53d121bb06baab59f23b9e8901a9fdd233e7c79295ab6bbdb
+
+DEV138_OLD_STRUCTURAL_SHA256=867a29c1d844c9effd9816436e81d50d50c7f096085344c348b56d82a0219756
+DEV138_CURRENT_STRUCTURAL_SHA256=4511199a02b167a69ee16367162fcf57beded8374367fb4c633a5e3d1489db01
+DEV138_CURRENT_STRUCTURAL_SEMANTIC_SHA256=867a29c1d844c9effd9816436e81d50d50c7f096085344c348b56d82a0219756
+
+DEV138_SEMANTIC_PARITY=true
+DEV138_HASH_DRIFT_CLASSIFICATION=IDENTICAL_SEMANTICS_HASH_ONLY
+DEV140_REBASE_ALLOWED=true
+DEV140_HASH_UPDATE_REQUIRED=false

@@ -1,0 +1,34 @@
+{
+  "candidates": [
+    {
+      "attempted": true,
+      "id": "C01",
+      "name": "excitation centroid"
+    },
+    {
+      "attempted": true,
+      "id": "C02",
+      "name": "excitation-energy-like centroid"
+    },
+    {
+      "attempted": true,
+      "id": "C03",
+      "name": "absolute-state centroid"
+    },
+    {
+      "attempted": true,
+      "id": "C04",
+      "name": "packet-support centroid"
+    },
+    {
+      "attempted": true,
+      "id": "C05",
+      "name": "peak position"
+    },
+    {
+      "attempted": true,
+      "id": "C06",
+      "name": "conserved-norm centroid"
+    }
+  ]
+}

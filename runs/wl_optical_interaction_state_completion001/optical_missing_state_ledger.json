@@ -1,0 +1,47 @@
+[
+  {
+    "future_extension_required": true,
+    "needed_for_detector_energy_response": true,
+    "needed_for_diffraction_interference": false,
+    "needed_for_geometric_optics": false,
+    "needed_for_reverse_reconstruction": false,
+    "quantity": "physical event weight",
+    "why_absent": "no source-defined or conserved signal field exists"
+  },
+  {
+    "future_extension_required": true,
+    "needed_for_detector_energy_response": true,
+    "needed_for_diffraction_interference": true,
+    "needed_for_geometric_optics": false,
+    "needed_for_reverse_reconstruction": false,
+    "quantity": "wavelength/frequency/photon energy",
+    "why_absent": "not represented in frozen launch, trajectory, receiver, or arrival state"
+  },
+  {
+    "future_extension_required": false,
+    "needed_for_detector_energy_response": false,
+    "needed_for_diffraction_interference": false,
+    "needed_for_geometric_optics": false,
+    "needed_for_reverse_reconstruction": false,
+    "quantity": "arrival time and time origin",
+    "why_absent": "path length exists but propagation speed and physical time origin are undefined"
+  },
+  {
+    "future_extension_required": true,
+    "needed_for_detector_energy_response": false,
+    "needed_for_diffraction_interference": true,
+    "needed_for_geometric_optics": false,
+    "needed_for_reverse_reconstruction": false,
+    "quantity": "phase/coherence",
+    "why_absent": "no coherent state or evolution law; path length alone is insufficient"
+  },
+  {
+    "future_extension_required": false,
+    "needed_for_detector_energy_response": false,
+    "needed_for_diffraction_interference": false,
+    "needed_for_geometric_optics": false,
+    "needed_for_reverse_reconstruction": false,
+    "quantity": "polarization",
+    "why_absent": "no source polarization or transport state"
+  }
+]

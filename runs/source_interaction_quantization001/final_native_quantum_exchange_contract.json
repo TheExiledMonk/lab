@@ -1,0 +1,22 @@
+{
+  "Planck_relation_postfreeze_status": "NOT_COMPARABLE_MISSING_NATIVE_TRANSITIONS",
+  "Planck_relation_used_in_derivation": false,
+  "absolute_energy_normalization_available": false,
+  "absolute_length_normalization_available": false,
+  "contract": "PBUF_NATIVE_TO_EFFECTIVE_QUANTUM_EXCHANGE_V1",
+  "discrete_exchange_established": false,
+  "free_wave_continuous": true,
+  "free_wave_state_established": true,
+  "hbar_used_in_derivation": false,
+  "interaction_quantization_established": false,
+  "localized_matter_state_established": false,
+  "localized_state_quantization_established": false,
+  "native_emitted_k_available": false,
+  "native_transition_energy_like_quantity": "bound norm difference defined but no transition available",
+  "native_transition_norm_k_relation": "NOT_APPLICABLE",
+  "photon_like_exchange_structure": false,
+  "remaining_missing_physics": [
+    "coefficient-free loading-excitation binding law",
+    "localized interaction dynamics"
+  ]
+}

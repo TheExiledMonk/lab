@@ -1,0 +1,22 @@
+{
+  "classification": "EXPLICIT_INTERSECTION_REQUIRED",
+  "delta_u": {
+    "maximum": 2.5752268868417527e-05,
+    "median_abs": 3.140335103068992e-09,
+    "p95": 1.542425946965409e-07,
+    "p99": 6.701237369455271e-07,
+    "rms": 6.545027387112479e-07
+  },
+  "delta_v": {
+    "maximum": 1.5255085683785197e-05,
+    "median_abs": 3.0179116983219956e-09,
+    "p95": 1.5603246450446306e-07,
+    "p99": 6.019755853792219e-07,
+    "rms": 4.568925677882182e-07
+  },
+  "radial_maximum": 2.9514732072938998e-05,
+  "thresholds": {
+    "already_surface": 1e-12,
+    "near_surface": 1e-08
+  }
+}

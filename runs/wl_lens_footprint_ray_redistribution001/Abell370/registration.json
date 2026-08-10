@@ -1,0 +1,86 @@
+{
+  "geometric_lens_projection": [
+    31.59510982179859,
+    32.03439701616245
+  ],
+  "lens_geometry_center": [
+    31.59510982179859,
+    32.03439701616245
+  ],
+  "lens_geometry_coordinate_system": "canonical source x,y,z; shared native extent",
+  "lens_geometry_dimensions": [
+    9,
+    64,
+    64
+  ],
+  "lens_geometry_extent": [
+    -8.0,
+    8.0,
+    -8.0,
+    8.0
+  ],
+  "lens_geometry_fingerprint": "5c7e84d7069ad970717361409e117123a30a9b8ccf89189ad88ad8c7c24bf4b2",
+  "lens_geometry_source_field": "rho3 / max-depth rho2 normalized positive kappa proxy",
+  "lens_geometry_source_file": "pbuf/wl/source.py -> current_native_five_cluster_observable_benchmark001.py",
+  "mask_rule": {
+    "positive_p10": 0.00546810247098497,
+    "positive_p30": 0.014466616515173147,
+    "positive_p70": 0.03390308176386272,
+    "positive_p90": 0.05053716625188831,
+    "rule": ">=p30 positive source loading (no explicit boundary); >=p90 core; >=p70 inner; one-cell near shell; lowest 10% source-loading region outside the near shell (source-only control)"
+  },
+  "observed_ray_disturbance": [
+    31.55768353853169,
+    31.857273141814865
+  ],
+  "propagation_to_observer": {
+    "matrix": [
+      [
+        0.9999999999379836,
+        3.7839447744111445e-11,
+        1.1137006037755301e-05
+      ],
+      [
+        -1.2924697071141057e-26,
+        0.9999999999942281,
+        -3.3976319681981327e-06
+      ],
+      [
+        -1.1137006037819584e-05,
+        3.397631967987424e-06,
+        0.9999999999322117
+      ]
+    ],
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rule": "frozen detector orthonormal basis"
+  },
+  "source_to_propagation": {
+    "matrix": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rule": "shared canonical source/proxy and propagation extent; voxel centres"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "PBUF_NATIVE_LOADING_LAW_SR_COMPATIBLE": false,
+  "comparison_possible": false,
+  "mapping": "ORTHOGONAL_BENCHMARK_MAPPING",
+  "native_candidate_frozen": true,
+  "reason": "native strain loading is a rest-state field proxy, not total-energy-normalized loading"
+}

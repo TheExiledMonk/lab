@@ -1,0 +1,124 @@
+{
+  "MEC01_MEC20": [
+    {
+      "attempted": true,
+      "id": "MEC01",
+      "name": "longitudinal equilibrium + transverse perturbation",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC02",
+      "name": "vector bond displacement",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC03",
+      "name": "pre-tensioned transverse wave",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC04",
+      "name": "strain-dependent transverse stiffness",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC05",
+      "name": "tangent-stiffness propagation",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC06",
+      "name": "orientation-transport propagation",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC07",
+      "name": "link-frame rotation",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC08",
+      "name": "pair-state conserved norm",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC09",
+      "name": "bounded vector-bond constitutive law",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC10",
+      "name": "symmetric/antisymmetric decomposition",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC11",
+      "name": "full displacement-vector elasticity",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC12",
+      "name": "local bond-energy curvature",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC13",
+      "name": "finite-capacity state manifold",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC14",
+      "name": "state-space orthogonality",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC15",
+      "name": "geometric constraint-only coupling",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC16",
+      "name": "constitutive constraint-only coupling",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC17",
+      "name": "geometry + constitutive coupling",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC18",
+      "name": "unified law reproduces sectors but no cross-coupling",
+      "status": "STRUCTURALLY_SUPPORTED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC19",
+      "name": "multiple equivalent unified laws",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "attempted": true,
+      "id": "MEC20",
+      "name": "no tested unified law",
+      "status": "FALSIFIED"
+    }
+  ]
+}

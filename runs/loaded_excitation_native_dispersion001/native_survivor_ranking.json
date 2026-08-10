@@ -1,0 +1,153 @@
+{
+  "D19": "SUPPORTED",
+  "D20": "ESTABLISHED",
+  "dispersion": [],
+  "energy_like_excitation": [],
+  "loaded_dynamics": [],
+  "mechanisms": [
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D01",
+      "name": "excitation centroid progression",
+      "status": "MEASUREMENT_DEFINITION_ONLY"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D02",
+      "name": "excitation packet group progression",
+      "status": "MEASUREMENT_DEFINITION_ONLY"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D03",
+      "name": "internal-vs-translational partition",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D04",
+      "name": "excitation/loading exchange",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D05",
+      "name": "conserved total excitation norm",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D06",
+      "name": "conserved local pair norm",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D07",
+      "name": "link excitation transfer",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D08",
+      "name": "standing+traveling state decomposition",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D09",
+      "name": "transverse excitation transport",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D10",
+      "name": "fast/slow excitation decomposition",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D11",
+      "name": "loading-modulated packet progression",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D12",
+      "name": "bounded-strain-modulated excitation",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D13",
+      "name": "spatial periodicity change",
+      "status": "MEASUREMENT_DEFINITION_ONLY"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D14",
+      "name": "localized mode plus translating envelope",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D15",
+      "name": "packet dispersion from loading",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D16",
+      "name": "internal cycling with reduced translation",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D17",
+      "name": "native quadratic progression norm",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D18",
+      "name": "native nonquadratic progression norm",
+      "status": "MISSING_DYNAMIC_EXCITATION_LAW"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D19",
+      "name": "excitation definition found, speed still missing",
+      "status": "ESTABLISHED"
+    },
+    {
+      "attempted": true,
+      "beta_emerged": false,
+      "id": "D20",
+      "name": "current state insufficient",
+      "status": "ESTABLISHED"
+    }
+  ],
+  "native_norm": [],
+  "structural_excitation": [
+    "X01"
+  ]
+}

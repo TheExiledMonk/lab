@@ -1,0 +1,138 @@
+{
+  "cross_first_second_quadrupole_scale8": {
+    "lane_A_original": {
+      "gamma1": {
+        "pearson": -0.013897820084357405,
+        "rms_ratio": 27.784269975265754,
+        "spearman": -0.023512383361254937
+      },
+      "gamma2": {
+        "pearson": -0.006115418336880521,
+        "rms_ratio": 68.01905062687852,
+        "spearman": -0.015605248903949272
+      },
+      "magnitude_pearson": 0.022984589508309776,
+      "orientation_agreement": -0.012311626847838729
+    },
+    "lane_B_basis_transformed": null,
+    "lane_B_status": "NOT_MANUFACTURED_BENCHMARK_GAMMA_BASIS_UNDECLARED"
+  },
+  "current_D_jacobian__tsc_3x3_control": {
+    "lane_A_original": {
+      "gamma1": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.09319199519081389,
+        "pearson": 0.09626603255127673,
+        "pred_rms": 0.018083119857865645,
+        "rms_ratio": 0.19404155711914764,
+        "rms_ratio_pred_over_obs": 0.19404155711914764,
+        "spearman": 0.05703473692322376
+      },
+      "gamma2": {
+        "count": 4096,
+        "coverage_fraction": 1.0,
+        "obs_rms": 0.07935420007843118,
+        "pearson": 0.18444301108539854,
+        "pred_rms": 0.011847160929059665,
+        "rms_ratio": 0.14929469287511318,
+        "rms_ratio_pred_over_obs": 0.14929469287511318,
+        "spearman": 0.12897604672529478
+      },
+      "magnitude_pearson": 0.2092108026174938,
+      "orientation_agreement": 0.059594845750629864
+    },
+    "lane_B_basis_transformed": null,
+    "lane_B_status": "NOT_MANUFACTURED_BENCHMARK_GAMMA_BASIS_UNDECLARED"
+  },
+  "curvature_quadrupole_scale16": {
+    "lane_A_original": {
+      "gamma1": {
+        "pearson": -0.20365101603676952,
+        "rms_ratio": 225.60867448860495,
+        "spearman": -0.21961055804443932
+      },
+      "gamma2": {
+        "pearson": -0.32445019123370794,
+        "rms_ratio": 472.8312153876141,
+        "spearman": -0.31877223935353916
+      },
+      "magnitude_pearson": 0.09683062824112204,
+      "orientation_agreement": -0.24127984216215917
+    },
+    "lane_B_basis_transformed": null,
+    "lane_B_status": "NOT_MANUFACTURED_BENCHMARK_GAMMA_BASIS_UNDECLARED"
+  },
+  "curvature_quadrupole_scale32": {
+    "lane_A_original": {
+      "gamma1": {
+        "pearson": -0.2971774703975288,
+        "rms_ratio": 1049.7935708164594,
+        "spearman": -0.3523261796700745
+      },
+      "gamma2": {
+        "pearson": -0.5474277084098597,
+        "rms_ratio": 2007.5511830613125,
+        "spearman": -0.5397510100822999
+      },
+      "magnitude_pearson": 0.22855740096419866,
+      "orientation_agreement": -0.38486101786183635
+    },
+    "lane_B_basis_transformed": null,
+    "lane_B_status": "NOT_MANUFACTURED_BENCHMARK_GAMMA_BASIS_UNDECLARED"
+  },
+  "first_order_energy_quadrupole_scale32": {
+    "lane_A_original": {
+      "gamma1": {
+        "pearson": -0.2735745305833507,
+        "rms_ratio": 1877.914575930207,
+        "spearman": -0.32448137675808925
+      },
+      "gamma2": {
+        "pearson": -0.4471686628799891,
+        "rms_ratio": 3723.1287601981144,
+        "spearman": -0.4536514292806158
+      },
+      "magnitude_pearson": 0.11786591211076171,
+      "orientation_agreement": -0.33377397185135455
+    },
+    "lane_B_basis_transformed": null,
+    "lane_B_status": "NOT_MANUFACTURED_BENCHMARK_GAMMA_BASIS_UNDECLARED"
+  },
+  "patch_scale_16_control": {
+    "lane_A_original": {
+      "gamma1": {
+        "pearson": 0.06518059137760648,
+        "rms_ratio": 0.11391614883868958,
+        "spearman": 0.07193841702019883
+      },
+      "gamma2": {
+        "pearson": 0.1763617768471587,
+        "rms_ratio": 0.10830965513965626,
+        "spearman": 0.12723112402600256
+      },
+      "magnitude_pearson": 0.16494155907377048,
+      "orientation_agreement": 0.07183646661558518
+    },
+    "lane_B_basis_transformed": null,
+    "lane_B_status": "NOT_MANUFACTURED_BENCHMARK_GAMMA_BASIS_UNDECLARED"
+  },
+  "second_order_energy_quadrupole_scale32": {
+    "lane_A_original": {
+      "gamma1": {
+        "pearson": -0.26256869853532777,
+        "rms_ratio": 1953.5853260718336,
+        "spearman": -0.3076469165335743
+      },
+      "gamma2": {
+        "pearson": -0.44603648610482477,
+        "rms_ratio": 3951.2846606543712,
+        "spearman": -0.438596300523676
+      },
+      "magnitude_pearson": 0.11196320290569613,
+      "orientation_agreement": -0.31458791142307707
+    },
+    "lane_B_basis_transformed": null,
+    "lane_B_status": "NOT_MANUFACTURED_BENCHMARK_GAMMA_BASIS_UNDECLARED"
+  }
+}

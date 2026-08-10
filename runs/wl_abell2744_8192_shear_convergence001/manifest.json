@@ -1,0 +1,19 @@
+{
+  "backend": "vulkan",
+  "baseline_commit": "b54caa8ec50043cd07fee0b8955372bc1990bd5b",
+  "benchmark_source_fingerprint": "91ab77f732c934a278445dd05162c2ef73fb6acaf45834921f953325aaeea0d3",
+  "candidate": "D_jacobian",
+  "candidate_code_fingerprint": "b72fc5464e1f73ddeeb6b10f152fdddb6cf4df4baab1f6a44b639b82b6490441",
+  "cluster": "Abell2744",
+  "deposition": "tsc_3x3",
+  "launch_fingerprint": "0935d4e1651fb042f250816cbc60042f677a2774656d534e7140ec780ae71c42",
+  "launch_height": 8192,
+  "launch_width": 8192,
+  "observer_shape": [
+    64,
+    64
+  ],
+  "ray_count": 67108864,
+  "streaming_code_fingerprint": "49ffafc1b953528dea6c33e777b4582b66966b5ee27ed2d663336a7f8baa070c",
+  "tile_size": 512
+}

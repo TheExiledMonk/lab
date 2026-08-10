@@ -9,11 +9,13 @@ from ..config import UNIT_SPEED_TOL
 
 
 class CpuReferenceBackend:
-    def propagate(self, field, launch, config) -> dict:
+    def propagate(self, field, launch, config, step_observer=None) -> dict:
         groups = GEO._source_groups(launch.x0, launch.y0)
         if len(groups) != launch.expected_support_bins:
             raise RuntimeError(f"expected {launch.expected_support_bins} source bins, got {len(groups)}")
-        checkpoints, g3d = GEO._propagate_g3d(field, config.step, config.steps, launch.x0, launch.y0)
+        checkpoints, g3d = GEO._propagate_g3d(
+            field, config.step, config.steps, launch.x0, launch.y0,
+            step_observer=step_observer)
         if g3d["max_unit_speed_error"] > UNIT_SPEED_TOL:
             raise RuntimeError(f"G3D unit-speed gate failed: {g3d['max_unit_speed_error']}")
         los_mag = np.hypot(field["rx"], field["ry"])

@@ -1,0 +1,51 @@
+[
+  {
+    "current_status": "ESTABLISHED",
+    "first_introduced": "historical A8",
+    "later_modified": "zero-flux option added",
+    "latest_verifying_dev": 154,
+    "mechanism": "static N6 A8 state"
+  },
+  {
+    "current_status": "ESTABLISHED",
+    "first_introduced": 143,
+    "later_modified": 145,
+    "latest_verifying_dev": 154,
+    "mechanism": "bounded-strain accumulation"
+  },
+  {
+    "current_status": "ESTABLISHED",
+    "first_introduced": 148,
+    "later_modified": 149,
+    "latest_verifying_dev": 154,
+    "mechanism": "rank-2 excitation"
+  },
+  {
+    "current_status": "REPRESENTATIONAL",
+    "first_introduced": 151,
+    "later_modified": "none",
+    "latest_verifying_dev": 154,
+    "mechanism": "rank-3 representation"
+  },
+  {
+    "current_status": "ESTABLISHED",
+    "first_introduced": 152,
+    "later_modified": "none",
+    "latest_verifying_dev": 154,
+    "mechanism": "orthogonal frame transport"
+  },
+  {
+    "current_status": "UNRESOLVED",
+    "first_introduced": 153,
+    "later_modified": "none",
+    "latest_verifying_dev": 154,
+    "mechanism": "loaded-link response"
+  },
+  {
+    "current_status": "DIAGNOSTIC",
+    "first_introduced": 149,
+    "later_modified": 152,
+    "latest_verifying_dev": 154,
+    "mechanism": "packet centroid trajectory"
+  }
+]

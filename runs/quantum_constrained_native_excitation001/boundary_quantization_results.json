@@ -1,0 +1,38 @@
+{
+  "FINITE_BOX_MODE_COUNT_IDENTIFIED_AS_QUANTIZATION": false,
+  "classification": "BOUNDARY_QUANTIZATION_ONLY",
+  "modes": [
+    {
+      "m": 1,
+      "wavelength": 64.0
+    },
+    {
+      "m": 2,
+      "wavelength": 32.0
+    },
+    {
+      "m": 3,
+      "wavelength": 21.333333333333332
+    },
+    {
+      "m": 4,
+      "wavelength": 16.0
+    },
+    {
+      "m": 5,
+      "wavelength": 12.8
+    },
+    {
+      "m": 6,
+      "wavelength": 10.666666666666666
+    },
+    {
+      "m": 7,
+      "wavelength": 9.142857142857142
+    },
+    {
+      "m": 8,
+      "wavelength": 8.0
+    }
+  ]
+}

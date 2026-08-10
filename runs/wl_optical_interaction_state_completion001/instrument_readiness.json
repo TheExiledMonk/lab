@@ -1,0 +1,15 @@
+{
+  "ABSOLUTE_TIME_ORIGIN_NOT_DEFINED": true,
+  "PHASE_NOT_DERIVABLE_FROM_CURRENT_STATE": true,
+  "PHYSICAL_EVENT_WEIGHT_UNAVAILABLE": true,
+  "TIME_DELAY_CONVERSION_NOT_YET_JUSTIFIED": true,
+  "frequency_dependence": "FREQUENCY_STATE_UNUSED",
+  "frequency_interpretation": "implementation does not establish physical achromaticity",
+  "geometric_optics_compatibility": "CURRENT_STATE_GEOMETRIC_OPTICS_SUFFICIENT",
+  "highest_forward_optical_readiness": "L0_GEOMETRIC_INTERACTION_READY",
+  "next_level": "L1_WEIGHTED_GEOMETRIC_READY",
+  "next_level_blocker": "no source-defined/conserved physical event weight",
+  "phase_dependence": "NOT_DEFINED",
+  "polarization_dependence": "NOT_DEFINED",
+  "wave_optics_compatibility": "CURRENT_STATE_WAVE_OPTICS_INCOMPLETE"
+}

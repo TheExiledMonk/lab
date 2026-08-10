@@ -1,0 +1,20 @@
+{
+  "T0_degeneracy_classification": "ONTOLOGY_ARTIFACT_REMOVED",
+  "apparent_old_degeneracy_ontological": true,
+  "corrected_nullity": 3,
+  "corrected_rank": 1,
+  "corrected_unknown_count": 4,
+  "old_nullity": 5,
+  "old_rank": 1,
+  "old_unknown_count": 6,
+  "remaining_degeneracies": [
+    "L0^1 * U0^1",
+    "L0^1 * K0_phys^1",
+    "L0^-1 * S0^1"
+  ],
+  "removed_equations": [],
+  "removed_unknowns": [
+    "T0",
+    "M0"
+  ]
+}

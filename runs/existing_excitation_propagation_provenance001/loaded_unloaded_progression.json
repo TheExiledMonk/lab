@@ -1,0 +1,45 @@
+{
+  "P07": "ESTABLISHED",
+  "beta": null,
+  "input_arrays_supplied": false,
+  "loaded_progression_defined": false,
+  "measures": [
+    {
+      "attempted": true,
+      "id": "P01",
+      "status": "NOT_APPLICABLE_NO_EXCITATION_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "P02",
+      "status": "NOT_APPLICABLE_NO_EXCITATION_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "P03",
+      "status": "NOT_APPLICABLE_NO_EXCITATION_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "P04",
+      "status": "NOT_APPLICABLE_NO_EXCITATION_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "P05",
+      "status": "NOT_APPLICABLE_NO_EXCITATION_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "P06",
+      "status": "NOT_APPLICABLE_NO_EXCITATION_STATE"
+    },
+    {
+      "attempted": true,
+      "id": "P07",
+      "status": "NOT_APPLICABLE_NO_EXCITATION_STATE"
+    }
+  ],
+  "native_beta_measurable": false,
+  "unloaded_progression_defined": false
+}

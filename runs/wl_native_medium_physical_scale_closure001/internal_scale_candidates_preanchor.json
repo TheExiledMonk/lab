@@ -1,0 +1,773 @@
+{
+  "PREANCHOR_EXTERNAL_VALUE_ACCESS": false,
+  "candidate_results": [
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^-1",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S01",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^-1",
+      "empirical_anchors": [],
+      "equations": [
+        "independent physical curvature relation absent"
+      ],
+      "family": "trajectory curvature",
+      "independence_class": "TRAJECTORY_LOCAL",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "independent physical curvature relation absent"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "independent physical curvature relation absent",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "MISSING_PHYSICAL_INPUT"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^0",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S02",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^0",
+      "empirical_anchors": [],
+      "equations": [
+        "independent physical directional-evolution relation absent"
+      ],
+      "family": "integrated direction change",
+      "independence_class": "TRAJECTORY_INTEGRATED",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "independent physical directional-evolution relation absent"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "independent physical directional-evolution relation absent",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "MISSING_PHYSICAL_INPUT"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^-1",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S03",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^-1",
+      "empirical_anchors": [],
+      "equations": [
+        "identifies U0/L0; response amplitude unit is free"
+      ],
+      "family": "fast/slow medium spatial-gradient restoration",
+      "independence_class": "MEDIUM_DYNAMIC",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "identifies U0/L0; response amplitude unit is free"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "identifies U0/L0; response amplitude unit is free",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "SCALE_RELATION_ONLY"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^-2",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S04",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^-2",
+      "empirical_anchors": [],
+      "equations": [
+        "identifies K0_phys*U0/(S0*L0^2); stiffness and source units are free"
+      ],
+      "family": "six-neighbor Laplacian spacing restoration",
+      "independence_class": "MEDIUM_STATIC",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "identifies K0_phys*U0/(S0*L0^2); stiffness and source units are free"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "identifies K0_phys*U0/(S0*L0^2); stiffness and source units are free",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "SCALE_RELATION_ONLY"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^3",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S05",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^3",
+      "empirical_anchors": [],
+      "equations": [
+        "physical-to-native source normalization requires the unknown cell volume"
+      ],
+      "family": "physical source-loading / native cell response",
+      "independence_class": "SOURCE_SIDE",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "physical-to-native source normalization requires the unknown cell volume"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "physical-to-native source normalization requires the unknown cell volume",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "NON_IDENTIFIABLE"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^3",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S06",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^3",
+      "empirical_anchors": [],
+      "equations": [
+        "no independently normalized native mass-volume counterpart"
+      ],
+      "family": "physical mass-volume loading",
+      "independence_class": "SOURCE_SIDE",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "no independently normalized native mass-volume counterpart"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "no independently normalized native mass-volume counterpart",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "MISSING_NATIVE_INPUT"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^0",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S07",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^0",
+      "empirical_anchors": [],
+      "equations": [
+        "surface response has no established physical bridge"
+      ],
+      "family": "source-surface response",
+      "independence_class": "MEDIUM_STATIC",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "surface response has no established physical bridge"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "surface response has no established physical bridge",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "MISSING_PHYSICAL_INPUT"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^-1",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S08",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^-1",
+      "empirical_anchors": [],
+      "equations": [
+        "far-field response amplitude unit is unnormalized"
+      ],
+      "family": "far-field 1/r response",
+      "independence_class": "MEDIUM_STATIC",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "far-field response amplitude unit is unnormalized"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "far-field response amplitude unit is unnormalized",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "MISSING_PHYSICAL_INPUT"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^-2",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S09",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^-2",
+      "empirical_anchors": [],
+      "equations": [
+        "macroscopic acceleration cannot map to native response without U0 and T0"
+      ],
+      "family": "measured-G macroscopic response",
+      "independence_class": "MACROSCOPIC_ANCHOR",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "macroscopic acceleration cannot map to native response without U0 and T0"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "macroscopic acceleration cannot map to native response without U0 and T0",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "NON_IDENTIFIABLE"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^-1",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S10",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^-1",
+      "empirical_anchors": [],
+      "equations": [
+        "amplitude-gradient closure identifies U0/L0 but not either factor"
+      ],
+      "family": "potential-vs-response-gradient joint closure",
+      "independence_class": "MEDIUM_STATIC",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "amplitude-gradient closure identifies U0/L0 but not either factor"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "amplitude-gradient closure identifies U0/L0 but not either factor",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "SCALE_RELATION_ONLY"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^-1",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S11",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^-1",
+      "empirical_anchors": [],
+      "equations": [
+        "neither physical medium gradient nor physical curvature is independently normalized"
+      ],
+      "family": "field-gradient vs trajectory-curvature joint closure",
+      "independence_class": "MEDIUM_DYNAMIC",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "neither physical medium gradient nor physical curvature is independently normalized"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "neither physical medium gradient nor physical curvature is independently normalized",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "MISSING_PHYSICAL_INPUT"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^-1",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S12",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^-1",
+      "empirical_anchors": [],
+      "equations": [
+        "bundle Jacobian rate scales as L0^-1; physical rate absent"
+      ],
+      "family": "bundle-Jacobian spatial evolution",
+      "independence_class": "BUNDLE",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "bundle Jacobian rate scales as L0^-1; physical rate absent"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "bundle Jacobian rate scales as L0^-1; physical rate absent",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "SCALE_RELATION_ONLY"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^-1",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S13",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^-1",
+      "empirical_anchors": [],
+      "equations": [
+        "primitive bundle Hessian contributes L0^-1; physical counterpart absent"
+      ],
+      "family": "bundle-Hessian spatial evolution",
+      "independence_class": "BUNDLE",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "primitive bundle Hessian contributes L0^-1; physical counterpart absent"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "primitive bundle Hessian contributes L0^-1; physical counterpart absent",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "SCALE_RELATION_ONLY"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^1",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S14",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^1",
+      "empirical_anchors": [],
+      "equations": [
+        "native path excess exists but no independent physical path excess"
+      ],
+      "family": "path-excess physicalization",
+      "independence_class": "TRAJECTORY_INTEGRATED",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "native path excess exists but no independent physical path excess"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "native path excess exists but no independent physical path excess",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "MISSING_PHYSICAL_INPUT"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^other",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S15",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^other",
+      "empirical_anchors": [],
+      "equations": [
+        "UNDERDETERMINED_L0_T0_PAIR"
+      ],
+      "family": "propagation-speed / temporal closure",
+      "independence_class": "MEDIUM_DYNAMIC",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "UNDERDETERMINED_L0_T0_PAIR"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "UNDERDETERMINED_L0_T0_PAIR",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^other",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S16",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^other",
+      "empirical_anchors": [],
+      "equations": [
+        "independent physical relaxation time and velocity absent"
+      ],
+      "family": "medium-relaxation closure",
+      "independence_class": "MEDIUM_DYNAMIC",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "independent physical relaxation time and velocity absent"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "independent physical relaxation time and velocity absent",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "MISSING_PHYSICAL_INPUT"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^3",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S17",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^3",
+      "empirical_anchors": [],
+      "equations": [
+        "energy normalization remains co-degenerate with L0^3"
+      ],
+      "family": "elastic-energy-density closure",
+      "independence_class": "ENERGY",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "energy normalization remains co-degenerate with L0^3"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "energy normalization remains co-degenerate with L0^3",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "SCALE_RELATION_ONLY"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^1",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S18",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^1",
+      "empirical_anchors": [],
+      "equations": [
+        "gradient energy identifies K0_phys*U0^2*L0"
+      ],
+      "family": "elastic-gradient-energy closure",
+      "independence_class": "ENERGY",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "gradient energy identifies K0_phys*U0^2*L0"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "gradient energy identifies K0_phys*U0^2*L0",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "SCALE_RELATION_ONLY"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^0",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S19",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^0",
+      "empirical_anchors": [],
+      "equations": [
+        "dimensionless strain leaves U0/L0 co-degeneracy"
+      ],
+      "family": "bounded-strain gradient closure",
+      "independence_class": "ENERGY",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "dimensionless strain leaves U0/L0 co-degeneracy"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "dimensionless strain leaves U0/L0 co-degeneracy",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "SCALE_RELATION_ONLY"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^other",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S20",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^other",
+      "empirical_anchors": [],
+      "equations": [
+        "complete unit restoration retains multiple free unit scales"
+      ],
+      "family": "full dimensional-unit restoration",
+      "independence_class": "DIMENSIONAL",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "complete unit restoration retains multiple free unit scales"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "complete unit restoration retains multiple free unit scales",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "SCALE_RELATION_ONLY"
+    },
+    {
+      "L0_m_per_native": null,
+      "L0_power": "L0^other",
+      "L0_uncertainty_m_per_native": null,
+      "assumptions": [],
+      "candidate_id": "S21",
+      "cross_candidate_consistency": "NOT_TESTABLE",
+      "density_stability": "NOT_TESTABLE",
+      "derivation_steps": [
+        "restore symbolic SI unit factors from primitive operation",
+        "test whether all non-L0 dimensions are independently fixed"
+      ],
+      "diagnostic_score": 0.0,
+      "dimension_signature": "L0^other",
+      "empirical_anchors": [],
+      "equations": [
+        "NON_IDENTIFIABLE_FROM_CURRENT_PHYSICS"
+      ],
+      "family": "dimensional-rank / Buckingham-Pi identifiability",
+      "independence_class": "DIMENSIONAL",
+      "independent_of_lcdm": true,
+      "independent_of_target": true,
+      "internal_consistency": "UNRESOLVED",
+      "limitations": [
+        "NON_IDENTIFIABLE_FROM_CURRENT_PHYSICS"
+      ],
+      "mass_stability": "NOT_TESTABLE",
+      "native_inputs": [],
+      "physical_inputs": [],
+      "radius_stability": "NOT_TESTABLE",
+      "rejection_reason": "NON_IDENTIFIABLE_FROM_CURRENT_PHYSICS",
+      "resolution_stability": "NOT_TESTABLE",
+      "source_family_stability": "NOT_TESTABLE",
+      "status": "NON_IDENTIFIABLE"
+    }
+  ],
+  "external_values_loaded": false,
+  "registry": {
+    "S01": "trajectory curvature",
+    "S02": "integrated direction change",
+    "S03": "fast/slow medium spatial-gradient restoration",
+    "S04": "six-neighbor Laplacian spacing restoration",
+    "S05": "physical source-loading / native cell response",
+    "S06": "physical mass-volume loading",
+    "S07": "source-surface response",
+    "S08": "far-field 1/r response",
+    "S09": "measured-G macroscopic response",
+    "S10": "potential-vs-response-gradient joint closure",
+    "S11": "field-gradient vs trajectory-curvature joint closure",
+    "S12": "bundle-Jacobian spatial evolution",
+    "S13": "bundle-Hessian spatial evolution",
+    "S14": "path-excess physicalization",
+    "S15": "propagation-speed / temporal closure",
+    "S16": "medium-relaxation closure",
+    "S17": "elastic-energy-density closure",
+    "S18": "elastic-gradient-energy closure",
+    "S19": "bounded-strain gradient closure",
+    "S20": "full dimensional-unit restoration",
+    "S21": "dimensional-rank / Buckingham-Pi identifiability",
+    "S22": "one-anchor universal-scale closure",
+    "S23": "Earth physical anchor",
+    "S24": "laboratory physical anchor",
+    "S25": "Solar-system physical anchor",
+    "S26": "cross-anchor universality",
+    "S27": "density-scaling universality",
+    "S28": "mass-scaling universality",
+    "S29": "radius-scaling universality",
+    "S30": "numerical-resolution invariance"
+  }
+}

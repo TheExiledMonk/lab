@@ -1,0 +1,19 @@
+{
+  "64_vs_128": {
+    "D_map_preservation": 0.9964268920306375,
+    "Q_map_Pearson": 0.9886561524462399,
+    "Q_orientation_agreement": 0.9934839565924308,
+    "fold_map_overlap": 1.0,
+    "launch_origin_entropy_preservation": 0.3501004378538294,
+    "parity_boundary_overlap": 1.0
+  },
+  "64_vs_256": {
+    "D_map_preservation": 0.9896416250080937,
+    "Q_map_Pearson": 0.944286514395537,
+    "Q_orientation_agreement": 0.986093510091768,
+    "fold_map_overlap": 1.0,
+    "launch_origin_entropy_preservation": 0.19829032052783563,
+    "parity_boundary_overlap": 1.0
+  },
+  "classification": "OBSERVER_RESOLUTION_MODERATE_SENSITIVITY"
+}

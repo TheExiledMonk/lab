@@ -1,0 +1,52 @@
+[
+  {
+    "classification": "DISTINCT_PHYSICS",
+    "concept": "trajectory",
+    "implementations": [
+      "excitation centroid history",
+      "pbuf.wl.trajectory_state geometric path",
+      "weak-lensing ray histories"
+    ]
+  },
+  {
+    "classification": "SAME_PHYSICS_DIFFERENT_REPRESENTATION for first two; DISTINCT_PHYSICS for WL",
+    "concept": "propagation",
+    "implementations": [
+      "np.roll excitation permutation",
+      "frame-aware link permutation",
+      "weak-lensing geometric propagation"
+    ]
+  },
+  {
+    "classification": "IMPLEMENTED_UNDER_DIFFERENT_NAME; no code derivation between them",
+    "concept": "loading",
+    "implementations": [
+      "A8 c_state",
+      "Dev151 L profile"
+    ]
+  },
+  {
+    "classification": "SAME_PHYSICS_SAME_IMPLEMENTATION",
+    "concept": "frame rotation",
+    "implementations": [
+      "frame_overlap",
+      "F02-F06 transport_map"
+    ]
+  },
+  {
+    "classification": "DISTINCT_PHYSICS",
+    "concept": "wavelength",
+    "implementations": [
+      "excitation FFT estimator",
+      "wl.native_wave_state metadata"
+    ]
+  },
+  {
+    "classification": "HISTORICAL_ONLY for excitation; geometric implementation exists elsewhere",
+    "concept": "curvature",
+    "implementations": [
+      "WL geometric path curvature",
+      "claimed excitation trajectory curvature"
+    ]
+  }
+]

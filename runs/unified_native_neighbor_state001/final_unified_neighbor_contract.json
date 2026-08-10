@@ -1,0 +1,18 @@
+{
+  "basis_invariant": true,
+  "contract": "PBUF_UNIFIED_NATIVE_NEIGHBOR_STATE_V1",
+  "dynamic_perturbation_available": true,
+  "dynamic_sector_available": true,
+  "equilibrium_state_available": true,
+  "link_based": true,
+  "longitudinal_component": true,
+  "neighbor_based": true,
+  "node_based": false,
+  "shared_state_not_separate_overlay": true,
+  "state_definition": "rank-3 link state {longitudinal strain, transverse pair}",
+  "state_established": true,
+  "state_rank": 3,
+  "static_sector_available": true,
+  "time_required": false,
+  "transverse_component_count": 2
+}

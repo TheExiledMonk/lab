@@ -1,0 +1,45 @@
+{
+  "classification": "ARBITRARILY_CONTINUOUS",
+  "scan": [
+    {
+      "amplitude": 0.0625,
+      "norm": 0.2140125817725686,
+      "valid": true
+    },
+    {
+      "amplitude": 0.125,
+      "norm": 0.8560503270902744,
+      "valid": true
+    },
+    {
+      "amplitude": 0.25,
+      "norm": 3.4242013083610976,
+      "valid": true
+    },
+    {
+      "amplitude": 0.5,
+      "norm": 13.69680523344439,
+      "valid": true
+    },
+    {
+      "amplitude": 1,
+      "norm": 54.78722093377756,
+      "valid": true
+    },
+    {
+      "amplitude": 2,
+      "norm": 219.14888373511025,
+      "valid": true
+    },
+    {
+      "amplitude": 4,
+      "norm": 876.595534940441,
+      "valid": true
+    },
+    {
+      "amplitude": 1e-06,
+      "norm": 5.4787220933777565e-11,
+      "valid": true
+    }
+  ]
+}

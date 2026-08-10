@@ -1,0 +1,90 @@
+{
+  "VACUUM_MASS_DRAG": false,
+  "results": [
+    {
+      "id": "R01",
+      "name": "local loading resistance",
+      "native_beta_law": false,
+      "same_mass_variable_speed": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "id": "R02",
+      "name": "integrated loading resistance",
+      "native_beta_law": false,
+      "same_mass_variable_speed": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "id": "R03",
+      "name": "strain-fraction resistance",
+      "native_beta_law": false,
+      "same_mass_variable_speed": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "id": "R04",
+      "name": "stress-state resistance",
+      "native_beta_law": false,
+      "same_mass_variable_speed": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "id": "R05",
+      "name": "deformation-energy resistance",
+      "native_beta_law": false,
+      "same_mass_variable_speed": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "id": "R06",
+      "name": "loading/excitation ratio",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "id": "R07",
+      "name": "excitation-minus-loading capacity",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "id": "R08",
+      "name": "normalized remaining-capacity",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "RELATION_ONLY"
+    },
+    {
+      "id": "R13",
+      "name": "local stiffness modulation",
+      "native_beta_law": false,
+      "same_mass_variable_speed": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "id": "R14",
+      "name": "compactness-dependent propagation",
+      "native_beta_law": false,
+      "same_mass_variable_speed": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "id": "R15",
+      "name": "accumulated-response-dependent propagation",
+      "native_beta_law": false,
+      "same_mass_variable_speed": false,
+      "status": "MISSING_CONSTITUTIVE_LAW"
+    },
+    {
+      "id": "R16",
+      "name": "excitation-to-loading ratio",
+      "native_beta_law": false,
+      "same_mass_variable_speed": "REPRESENTABLE",
+      "status": "RELATION_ONLY"
+    }
+  ],
+  "survivors": []
+}

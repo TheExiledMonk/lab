@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "bundle_area_history_computed": true,
+    "curvature_integrals_computed": true,
+    "curvature_moments_computed": true,
+    "dev121_mapping_complete": true,
+    "first_order_transport_history_computed": true,
+    "gamma_access_false": true,
+    "kappa_target_access_false": true,
+    "max_local_direction_change_computed": true,
+    "native_field_manifest_created": true,
+    "native_path_integrals_computed_if_available": true,
+    "net_direction_change_computed": true,
+    "nine_path_fractions_computed": true,
+    "path_excess_computed": true,
+    "path_length_computed": true,
+    "second_order_transport_history_computed": true,
+    "structural_hash_reproducible": true,
+    "target_access_false": true,
+    "total_direction_change_computed": true,
+    "trajectory_curvature_computed": true,
+    "zero_detector_modeling": true,
+    "zero_psf_modeling": true,
+    "zero_raw_hst_usage": true,
+    "zero_sawlens_scoring": true
+  },
+  "outcome": "WL_TRAJECTORY_STATE_COMPLETION_ESTABLISHED",
+  "qualification": "structural and analytic contract; production Abell2744 instrumentation pending",
+  "runtime_seconds": 0.8632128238677979,
+  "structural_sha256": "646341dc2837a3f80b02f04af14aa380925853818c14bf0575368088b1655cfa"
+}

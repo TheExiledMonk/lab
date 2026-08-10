@@ -1,0 +1,11 @@
+{
+  "classification": "LONGITUDINAL_RESPONSE_DESCRIPTOR_DEGENERACY",
+  "does_not_supply_transfer_law": true,
+  "monotonic_branch": [
+    "separation",
+    "link_stretch_ratio",
+    "strain",
+    "stress",
+    "tangent_stiffness/curvature (even)"
+  ]
+}

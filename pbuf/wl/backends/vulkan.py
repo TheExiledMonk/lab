@@ -96,3 +96,22 @@ class VulkanBackend:
                 "groups": groups, "first_step": first, "angular_gates": gates, "final_ang": final_ang,
                 "backend_metadata": {"device": self.runtime.device,
                     "workgroup_size": self.runtime.workgroup_size, "timing": self.last_timing}}
+
+    def propagate_final_snapshot(self, field, launch, config) -> dict:
+        """Propagate one streaming tile and return only the frozen checkpoint.
+
+        This uses the identical shader and float64 inputs as :meth:`propagate`,
+        but omits global observer diagnostics which are not mathematically
+        composable per tile.
+        """
+        n, xgrid, ygrid, _rx, _ry, arrays = self._validated_inputs(field, launch)
+        output = self.runtime.propagate(arrays, n, xgrid.size, ygrid.size,
+                                        float(config.step), int(config.steps),
+                                        (int(config.checkpoint),))
+        names = ("x", "y", "z", "vx", "vy", "vz")
+        snapshot = {name: output[j][0].copy() for j, name in enumerate(names)}
+        max_unit_error = float(np.max(output[6]))
+        if max_unit_error > UNIT_SPEED_TOL:
+            raise RuntimeError(f"G3D unit-speed gate failed: {max_unit_error}")
+        snapshot["max_unit_speed_error"] = max_unit_error
+        return snapshot

@@ -1,0 +1,12 @@
+{
+  "bounded_loading": true,
+  "contract": "PBUF_MASS_LOADING_V1",
+  "dimensionless_loading_available": true,
+  "dimensionless_loading_definition": "abs(epsilon)/epsilon_max (local proxy)",
+  "loading_composite_behavior": "binding-dependent/geometry-dependent diagnostic",
+  "loading_geometry_dependence": "MIXED",
+  "persistent_loading": "SUPPORTED_PROXIES_NOT_MASS_IDENTIFICATION",
+  "rest_loading_definition": null,
+  "rest_loading_established": false,
+  "zero_loading_state_defined": true
+}

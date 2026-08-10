@@ -1,0 +1,324 @@
+{
+  "detector_basis_by_cluster": {
+    "Abell2744": {
+      "det_eu_ev_ew": 1.0,
+      "e_u": [
+        0.9999999998914397,
+        7.334629276727492e-10,
+        -1.473501047529865e-05
+      ],
+      "e_v": [
+        0.0,
+        0.9999999987611309,
+        4.9776885329918215e-05
+      ],
+      "e_w": [
+        1.47350104935534e-05,
+        -4.977688532451442e-05,
+        0.9999999986525706
+      ],
+      "gram_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "handedness": "RIGHT_HANDED",
+      "orthonormal_max_error": 0.0
+    },
+    "Abell370": {
+      "det_eu_ev_ew": 1.0,
+      "e_u": [
+        0.9999999999379836,
+        3.7839447744111445e-11,
+        1.1137006037755301e-05
+      ],
+      "e_v": [
+        -1.2924697071141057e-26,
+        0.9999999999942281,
+        -3.3976319681981327e-06
+      ],
+      "e_w": [
+        -1.1137006037819584e-05,
+        3.397631967987424e-06,
+        0.9999999999322117
+      ],
+      "gram_matrix": [
+        [
+          1.0000000000000002,
+          -6.462348535570529e-27,
+          0.0
+        ],
+        [
+          -6.462348535570529e-27,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0000000000000002
+        ]
+      ],
+      "handedness": "RIGHT_HANDED",
+      "orthonormal_max_error": 2.220446049250313e-16
+    },
+    "AbellS1063": {
+      "det_eu_ev_ew": 1.0,
+      "e_u": [
+        0.9999999999999831,
+        -1.1306499879345825e-12,
+        1.838689555343945e-07
+      ],
+      "e_v": [
+        0.0,
+        0.9999999999810936,
+        6.14921635154286e-06
+      ],
+      "e_w": [
+        -1.838689555378708e-07,
+        -6.149216351542756e-06,
+        0.9999999999810767
+      ],
+      "gram_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "handedness": "RIGHT_HANDED",
+      "orthonormal_max_error": 0.0
+    },
+    "MACS0416": {
+      "det_eu_ev_ew": 1.0,
+      "e_u": [
+        0.999999999179145,
+        1.7099667091283926e-09,
+        -4.051802223350715e-05
+      ],
+      "e_v": [
+        2.0679515313825692e-25,
+        0.9999999991094695,
+        4.2202620299455925e-05
+      ],
+      "e_w": [
+        4.051802226958969e-05,
+        -4.220262026481369e-05,
+        0.9999999982886144
+      ],
+      "gram_matrix": [
+        [
+          1.0,
+          -2.0679515313825692e-25,
+          0.0
+        ],
+        [
+          -2.0679515313825692e-25,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "handedness": "RIGHT_HANDED",
+      "orthonormal_max_error": 2.0679515313825692e-25
+    },
+    "MACS1149": {
+      "det_eu_ev_ew": 1.0000000000000002,
+      "e_u": [
+        0.999999999933438,
+        9.205010519255258e-10,
+        1.1537942313523494e-05
+      ],
+      "e_v": [
+        0.0,
+        0.9999999968175481,
+        -7.97803476549858e-05
+      ],
+      "e_w": [
+        -1.1537942350242442e-05,
+        7.978034764967546e-05,
+        0.9999999967509862
+      ],
+      "gram_matrix": [
+        [
+          1.0000000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000000000000002,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0000000000000002
+        ]
+      ],
+      "handedness": "RIGHT_HANDED",
+      "orthonormal_max_error": 2.220446049250313e-16
+    }
+  },
+  "frames": [
+    {
+      "axis_order": [
+        "x",
+        "y"
+      ],
+      "axis_signs": [
+        "+x",
+        "+y"
+      ],
+      "handedness": "right-handed with +z",
+      "name": "F0 launch_grid",
+      "origin": "grid center",
+      "source_file": "pbuf/wl/launch.py",
+      "source_function": "RayLaunch",
+      "status": "RESOLVED",
+      "units": "native grid",
+      "x_axis_definition": "global +x",
+      "y_axis_definition": "global +y"
+    },
+    {
+      "axis_order": [
+        "x",
+        "y"
+      ],
+      "axis_signs": [
+        "+x",
+        "+y"
+      ],
+      "handedness": "right-handed with +z",
+      "name": "F1 propagation_transverse",
+      "origin": "launch origin",
+      "source_file": "pbuf/wl/los.py",
+      "source_function": "project_interface_to_los",
+      "status": "FRAME_NOT_DISTINCT",
+      "units": "native",
+      "x_axis_definition": "same global +x",
+      "y_axis_definition": "same global +y"
+    },
+    {
+      "axis_order": [
+        "u",
+        "v"
+      ],
+      "axis_signs": [
+        "+u",
+        "+v"
+      ],
+      "handedness": "e1 cross e2=normal",
+      "name": "F2 received_detector",
+      "origin": "global origin",
+      "source_file": "pbuf/labs/foundation/native_observable_extraction_method_sweep001.py",
+      "source_function": "_screen_basis",
+      "status": "RESOLVED",
+      "units": "native",
+      "x_axis_definition": "e1=projected global +x",
+      "y_axis_definition": "e2=cross(normal,e1)"
+    },
+    {
+      "axis_order": [
+        "column",
+        "row"
+      ],
+      "axis_signs": [
+        "+col=+u",
+        "+row=+v"
+      ],
+      "handedness": "right-handed coordinate plane",
+      "name": "F3 observer_raster",
+      "origin": "lower cell edge",
+      "source_file": "pbuf/wl/deposition.py",
+      "source_function": "NearestGrid.deposit",
+      "status": "RESOLVED",
+      "units": "pixel",
+      "x_axis_definition": "column increases +u",
+      "y_axis_definition": "row increases +v"
+    },
+    {
+      "axis_order": [
+        "xpix",
+        "ypix"
+      ],
+      "axis_signs": [
+        "+xpix",
+        "+ypix"
+      ],
+      "handedness": "pixel order",
+      "name": "F4 FITS_pixel",
+      "origin": "CRPIX, FITS 1-based",
+      "source_file": "pbuf/core/benchmark_data.py",
+      "source_function": "load_header_shape",
+      "status": "RESOLVED",
+      "units": "pixel",
+      "x_axis_definition": "axis1/column",
+      "y_axis_definition": "axis2/row"
+    },
+    {
+      "axis_order": [
+        "RA",
+        "Dec"
+      ],
+      "axis_signs": [
+        "+RA",
+        "+Dec"
+      ],
+      "handedness": "from det(CD)",
+      "name": "F5 WCS_sky",
+      "origin": "CRVAL at CRPIX",
+      "source_file": "benchmark FITS headers",
+      "source_function": "CD matrix",
+      "status": "RESOLVED",
+      "units": "degrees",
+      "x_axis_definition": "increasing RA",
+      "y_axis_definition": "increasing Dec"
+    },
+    {
+      "axis_order": [
+        "gamma1",
+        "gamma2"
+      ],
+      "axis_signs": [
+        "UNDECLARED",
+        "UNDECLARED"
+      ],
+      "handedness": "UNDECLARED",
+      "name": "F6 benchmark_gamma",
+      "origin": "FITS samples",
+      "source_file": "benchmark FITS headers",
+      "source_function": "no declaring keyword",
+      "status": "BENCHMARK_GAMMA_BASIS_UNDECLARED",
+      "units": "dimensionless",
+      "x_axis_definition": "undeclared gamma1 positive axis",
+      "y_axis_definition": "undeclared gamma2 sign"
+    }
+  ]
+}

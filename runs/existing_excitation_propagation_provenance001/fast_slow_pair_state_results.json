@@ -1,0 +1,17 @@
+{
+  "accumulated_by_trajectory": false,
+  "candidate_status": "STATIC_MEDIUM_STATE",
+  "conservation_interpretation": "UNDEFINED",
+  "consumer": "static response-field construction before ray propagation",
+  "definition": "A_ij = 0.03*delta_u_fast + 0.003*delta_u_slow",
+  "pair_reverse_classification": "ANTI_SYMMETRIC",
+  "persistent_across_trajectory_steps": false,
+  "positive_definite": false,
+  "sample_norm": 0.06710299918781575,
+  "scalar_vector_tensor": "scalar per pair/component at construction",
+  "shape": [
+    2
+  ],
+  "signed": true,
+  "state_location": "LINK_STATE"
+}

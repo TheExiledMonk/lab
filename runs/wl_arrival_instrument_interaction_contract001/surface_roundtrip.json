@@ -1,0 +1,42 @@
+{
+  "bitwise_equal_rows": 285156,
+  "classification": "EXACT_ROUNDTRIP",
+  "coordinates": [
+    "receiver_u",
+    "receiver_v",
+    "receiver_w"
+  ],
+  "direction_deletion_control": {
+    "classification": "UNDERDETERMINED_WITHOUT_TANGENTIAL_DIRECTION",
+    "free_degrees_of_freedom": 2
+  },
+  "max_abs": 0.0,
+  "p95": 0.0,
+  "p99": 0.0,
+  "per_coordinate": [
+    {
+      "max_abs": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "rms": 0.0
+    },
+    {
+      "max_abs": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "rms": 0.0
+    },
+    {
+      "max_abs": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "rms": 0.0
+    }
+  ],
+  "position_only_control": {
+    "classification": "UNDERDETERMINED",
+    "reason": "surface point alone supplies no receiver endpoint displacement"
+  },
+  "rms": 0.0,
+  "tolerance": 9.092290647182351e-13
+}

@@ -1,0 +1,27 @@
+{
+  "contract": "DEV140_A_DEV138_BASELINE_RECONCILIATION_V1",
+  "DEV138_OLD_BLIND_SHA256": "918a22a3728803d53d121bb06baab59f23b9e8901a9fdd233e7c79295ab6bbdb",
+  "DEV138_CURRENT_BLIND_FILE_BYTES_SHA256": "91f7631639a39b0181b6828ad44a25730cb22d6264bb102f3aecb8269ac080cb",
+  "DEV138_CURRENT_BLIND_SEMANTIC_SHA256": "918a22a3728803d53d121bb06baab59f23b9e8901a9fdd233e7c79295ab6bbdb",
+  "DEV138_OLD_STRUCTURAL_SHA256": "867a29c1d844c9effd9816436e81d50d50c7f096085344c348b56d82a0219756",
+  "DEV138_CURRENT_STRUCTURAL_FILE_BYTES_SHA256": "4511199a02b167a69ee16367162fcf57beded8374367fb4c633a5e3d1489db01",
+  "DEV138_CURRENT_STRUCTURAL_SEMANTIC_SHA256": "867a29c1d844c9effd9816436e81d50d50c7f096085344c348b56d82a0219756",
+  "DEV138_SEMANTIC_PARITY": true,
+  "DEV138_HASH_DRIFT_CLASSIFICATION": "IDENTICAL_SEMANTICS_HASH_ONLY",
+  "DEV140_REBASE_ALLOWED": true,
+  "DEV140_HASH_UPDATE_REQUIRED": false,
+  "guard_conditions": {
+    "count": 17,
+    "passed": 17
+  },
+  "tests": {
+    "dev138_original_required_files": 6,
+    "dev138_original_collected_tests": 7,
+    "dev138_original_passed": 7,
+    "dev139_extension_collected_tests": 7,
+    "combined_passed": 14,
+    "claimed_original_test_count_24_verified": false,
+    "note": "The Dev138 document names six required test files; the current files collect seven tests, all passing. No repository evidence for an original 24-test collection was found."
+  },
+  "historical_artifact_limit": "No byte-identical historical JSON snapshots are tracked; parity is established by reproducing both declared semantic hashes using the canonicalization implemented by the Dev138 lab."
+}

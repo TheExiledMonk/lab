@@ -1,0 +1,18 @@
+[
+  {
+    "location": "native_excitation_state.py:28-32",
+    "operation": "polarization unit normalization"
+  },
+  {
+    "location": "native_neighbor_state.py:48-52",
+    "operation": "SVD frame orthogonalization"
+  },
+  {
+    "location": "native_neighbor_mixed_observer.py:9",
+    "operation": "centroid denominator guard 1e-30"
+  },
+  {
+    "location": "native_excitation_transfer.py:31-37",
+    "operation": "no excitation renormalization"
+  }
+]

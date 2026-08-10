@@ -43,4 +43,11 @@ runs/**/minimum_production/trajectories/photon_trajectories_*.csv
 # Labs fetch these FITS files on demand; keep them out of repository history.
 runs/**/downloads/**/*.fits
 
+# Raw benchmark observations are external, reproducible inputs and are too
+# large for ordinary Git/GitHub storage.
+PBUF_raw_benchmark/
+
+# Generated correspondence expansion exceeds GitHub's 100 MB object limit.
+runs/wl_arrival_instrument_interaction_contract001/forward_correspondence_manifest.json
+
 # Plots are kept under version control (they are part of the audit trail).

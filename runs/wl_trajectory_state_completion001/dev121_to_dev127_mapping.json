@@ -1,0 +1,176 @@
+[
+  {
+    "dev121_name": "u0",
+    "dev127_source": "endpoint",
+    "index": 0,
+    "mapping": "exact equivalent"
+  },
+  {
+    "dev121_name": "v0",
+    "dev127_source": "endpoint",
+    "index": 1,
+    "mapping": "exact equivalent"
+  },
+  {
+    "dev121_name": "uf",
+    "dev127_source": "endpoint",
+    "index": 2,
+    "mapping": "exact equivalent"
+  },
+  {
+    "dev121_name": "vf",
+    "dev127_source": "endpoint",
+    "index": 3,
+    "mapping": "exact equivalent"
+  },
+  {
+    "dev121_name": "wf",
+    "dev127_source": "endpoint",
+    "index": 4,
+    "mapping": "exact equivalent"
+  },
+  {
+    "dev121_name": "dir_u",
+    "dev127_source": "endpoint",
+    "index": 5,
+    "mapping": "exact equivalent"
+  },
+  {
+    "dev121_name": "dir_v",
+    "dev127_source": "endpoint",
+    "index": 6,
+    "mapping": "exact equivalent"
+  },
+  {
+    "dev121_name": "dir_w",
+    "dev127_source": "endpoint",
+    "index": 7,
+    "mapping": "exact equivalent"
+  },
+  {
+    "dev121_name": "d_u_delta_u",
+    "dev127_source": "first_order_transport_history",
+    "index": 8,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_v_delta_u",
+    "dev127_source": "first_order_transport_history",
+    "index": 9,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_u_delta_v",
+    "dev127_source": "first_order_transport_history",
+    "index": 10,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_v_delta_v",
+    "dev127_source": "first_order_transport_history",
+    "index": 11,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_u_wf",
+    "dev127_source": "first_order_transport_history",
+    "index": 12,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_v_wf",
+    "dev127_source": "first_order_transport_history",
+    "index": 13,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_u_dir_u",
+    "dev127_source": "first_order_transport_history",
+    "index": 14,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_v_dir_u",
+    "dev127_source": "first_order_transport_history",
+    "index": 15,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_u_dir_v",
+    "dev127_source": "first_order_transport_history",
+    "index": 16,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_v_dir_v",
+    "dev127_source": "first_order_transport_history",
+    "index": 17,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_u_dir_w",
+    "dev127_source": "first_order_transport_history",
+    "index": 18,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_v_dir_w",
+    "dev127_source": "first_order_transport_history",
+    "index": 19,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_uu_delta_u",
+    "dev127_source": "second_order_transport_history",
+    "index": 20,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_uv_delta_u",
+    "dev127_source": "second_order_transport_history",
+    "index": 21,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_vv_delta_u",
+    "dev127_source": "second_order_transport_history",
+    "index": 22,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_uu_delta_v",
+    "dev127_source": "second_order_transport_history",
+    "index": 23,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_uv_delta_v",
+    "dev127_source": "second_order_transport_history",
+    "index": 24,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_vv_delta_v",
+    "dev127_source": "second_order_transport_history",
+    "index": 25,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_uu_wf",
+    "dev127_source": "second_order_transport_history",
+    "index": 26,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_uv_wf",
+    "dev127_source": "second_order_transport_history",
+    "index": 27,
+    "mapping": "history-enhanced equivalent"
+  },
+  {
+    "dev121_name": "d_vv_wf",
+    "dev127_source": "second_order_transport_history",
+    "index": 28,
+    "mapping": "history-enhanced equivalent"
+  }
+]

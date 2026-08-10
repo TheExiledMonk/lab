@@ -1,0 +1,24 @@
+{
+  "L0_established": false,
+  "L0_metres_per_native": null,
+  "L0_over_T0_established": false,
+  "L0_over_T0_value": null,
+  "T0_established": false,
+  "T0_seconds_per_native": null,
+  "c_anchor_used": true,
+  "contract": "PBUF_C_PROPAGATION_UNIT_CLOSURE_V1",
+  "dynamic_medium_relation_established": false,
+  "gw_native_speed": null,
+  "lcdm_independent": true,
+  "messenger_constraints_independent": false,
+  "native_speed_established": false,
+  "native_time_established": false,
+  "pbuf_universe_age_used": false,
+  "photon_native_speed": null,
+  "remaining_constitutive_degeneracies": [
+    "L0_U0_CO_DEGENERACY",
+    "L0_Kphys_CO_DEGENERACY",
+    "L0_S0_CO_DEGENERACY",
+    "L0_T0_CO_DEGENERACY"
+  ]
+}

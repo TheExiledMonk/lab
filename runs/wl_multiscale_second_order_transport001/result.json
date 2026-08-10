@@ -1,0 +1,422 @@
+{
+  "best_structurally_frozen_candidate": "cross_first_second_quadrupole_scale8",
+  "channel_manifest_sha256": "aa5cc9d085daf13ed395010c855a95a04cc287de3ca6311c1ad15ed8f9ccd1b3",
+  "checks": {
+    "29_to_7_loss_traced": true,
+    "SD_relations_reported": true,
+    "anisotropic_quadratic_test_passed": true,
+    "canonical_pipeline_unchanged": true,
+    "channel_groups_frozen": true,
+    "channel_manifest_hashed": true,
+    "cohort_separability_by_scale_reported": true,
+    "constant_field_test_passed": true,
+    "cross_channel_quadrupoles_computed": true,
+    "cross_group_covariances_computed": true,
+    "current_observer_unchanged": true,
+    "curvature_relations_computed": true,
+    "dev119_unchanged": true,
+    "dev120_unchanged": true,
+    "dev121_29_channel_manifest_preserved": true,
+    "dev121_unchanged": true,
+    "dev122_unchanged": true,
+    "earth_receiver_hypothesis_parked": true,
+    "energy_quadrupoles_computed": true,
+    "five_checkpoints_valid": true,
+    "global_covariances_computed": true,
+    "gradients_computed": true,
+    "group_ablation_reported": true,
+    "hessian_invariants_computed": true,
+    "information_survival_reported": true,
+    "isotropic_quadratic_test_passed": true,
+    "launch_radial_computed": true,
+    "launch_square_computed": true,
+    "leave_one_group_out_rank_reported": true,
+    "linear_gradient_test_passed": true,
+    "local_means_computed": true,
+    "local_variances_computed": true,
+    "max_external_variants_lte_24": true,
+    "no_axis_swap_fit": true,
+    "no_gain_fit": true,
+    "no_rotation_fit": true,
+    "no_scale_target_selection": true,
+    "no_sign_fit": true,
+    "no_target_weighted_multiscale_combination": true,
+    "nonlocality_classification_target_blind": true,
+    "propagation_reopened_false": true,
+    "received_radial_control_computed": true,
+    "rotated_quadratic_test_passed": true,
+    "scale16_computed": true,
+    "scale2_computed": true,
+    "scale32_computed": true,
+    "scale4_computed": true,
+    "scale8_computed": true,
+    "scale_canonical_correlations_reported": true,
+    "scale_persistence_reported": true,
+    "scale_sanity_test_passed": true,
+    "signed_quadrupoles_computed": true,
+    "spin2_rotation_test_passed": true,
+    "structural_freeze_before_cohort_truth": true,
+    "structural_freeze_before_gamma": true,
+    "structural_hash_reproducible": true,
+    "viewer_multiscale_transport_supported": true,
+    "viewer_scale_comparison_supported": true,
+    "zero_kde_executions": true,
+    "zero_propagation_runs": true
+  },
+  "classifications": {
+    "Abell2744": "LARGE_SCALE_DOMINANT",
+    "Abell370": "LARGE_SCALE_DOMINANT",
+    "AbellS1063": "LARGE_SCALE_DOMINANT",
+    "MACS0416": "LARGE_SCALE_DOMINANT",
+    "MACS1149": "LARGE_SCALE_DOMINANT"
+  },
+  "earth_receiver_hypothesis_parked": true,
+  "external_metrics_aggregate": {
+    "cross_first_second_quadrupole_scale16": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.028282578814178207,
+        "maximum": -0.0015885762550054614,
+        "median": -0.05518716010605836,
+        "minimum": -0.09440632236806004
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.0021499959882757824,
+        "maximum": -0.02052960304577183,
+        "median": -0.04984746871860011,
+        "minimum": -0.06932430346920795
+      }
+    },
+    "cross_first_second_quadrupole_scale32": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.021805003823920616,
+        "maximum": -0.01190278650673319,
+        "median": -0.08748894593511615,
+        "minimum": -0.10043673700666456
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.013428316266674283,
+        "maximum": -0.034824178581813574,
+        "median": -0.048979914775338085,
+        "minimum": -0.0703247802529676
+      }
+    },
+    "cross_first_second_quadrupole_scale8": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.007046854981272076,
+        "maximum": 0.014551256921611308,
+        "median": -0.01672254196537781,
+        "minimum": -0.03538757687510636
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.00760059066775858,
+        "maximum": 0.011399452450152217,
+        "median": 0.00611346838780868,
+        "minimum": -0.012964243620876201
+      }
+    },
+    "current_D_jacobian__tsc_3x3_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.02414340335968175,
+        "maximum": 0.19126536601231553,
+        "median": 0.13825557202787922,
+        "minimum": 0.09626603255127673
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.017111171046077456,
+        "maximum": 0.20242108305073303,
+        "median": 0.18444301108539854,
+        "minimum": 0.1282925350284782
+      }
+    },
+    "curvature_quadrupole_scale16": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.018003733945856693,
+        "maximum": -0.20365101603676952,
+        "median": -0.25255756118546074,
+        "minimum": -0.31618676507730586
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.02446958756092854,
+        "maximum": -0.29792060702487183,
+        "median": -0.32445019123370794,
+        "minimum": -0.3989541241095807
+      }
+    },
+    "curvature_quadrupole_scale2": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.0035280207029846876,
+        "maximum": -0.023084132997257055,
+        "median": -0.028318231796372866,
+        "minimum": -0.05183695932565669
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.003185911375805678,
+        "maximum": -0.0651754147527058,
+        "median": -0.07554328387872598,
+        "minimum": -0.09279709382455378
+      }
+    },
+    "curvature_quadrupole_scale32": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.005255667132367692,
+        "maximum": -0.2971774703975288,
+        "median": -0.33961568906629125,
+        "minimum": -0.3645584506665755
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.006106939591495608,
+        "maximum": -0.34494453840383765,
+        "median": -0.4050691285071442,
+        "minimum": -0.5474277084098597
+      }
+    },
+    "curvature_quadrupole_scale4": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.0024344706536248706,
+        "maximum": -0.09982921089601743,
+        "median": -0.11569341381210513,
+        "minimum": -0.12862243433232023
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.007077164755164317,
+        "maximum": -0.08470547863744393,
+        "median": -0.09195378804794099,
+        "minimum": -0.1267535551521992
+      }
+    },
+    "curvature_quadrupole_scale8": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.016182461952941096,
+        "maximum": -0.09785418292084633,
+        "median": -0.11365132001386984,
+        "minimum": -0.16269360571585018
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.024568190593263983,
+        "maximum": -0.14577760708924198,
+        "median": -0.17383571397925704,
+        "minimum": -0.23020613496148928
+      }
+    },
+    "first_order_energy_quadrupole_scale16": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.027407339750110504,
+        "maximum": -0.16369664706282347,
+        "median": -0.19198226632632964,
+        "minimum": -0.2569533302530725
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.024724824910940857,
+        "maximum": -0.20959136369997605,
+        "median": -0.23211980757499634,
+        "minimum": -0.31723353186852593
+      }
+    },
+    "first_order_energy_quadrupole_scale2": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.01592590385986514,
+        "maximum": -0.001624848479239745,
+        "median": -0.0020130689252161097,
+        "minimum": -0.03701041973174002
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.016206666282406152,
+        "maximum": -0.0006668340382383628,
+        "median": -0.02883462671874139,
+        "minimum": -0.0468629507804584
+      }
+    },
+    "first_order_energy_quadrupole_scale32": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.02255692237990714,
+        "maximum": -0.2735745305833507,
+        "median": -0.30832090956160535,
+        "minimum": -0.3225494208560319
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.010499533835137964,
+        "maximum": -0.280234388149321,
+        "median": -0.34638459403453775,
+        "minimum": -0.4471686628799891
+      }
+    },
+    "first_order_energy_quadrupole_scale4": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.012512120517273545,
+        "maximum": -0.07938953737057469,
+        "median": -0.10392908075862453,
+        "minimum": -0.11260406931772313
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.0037621225401692077,
+        "maximum": -0.03773759564294913,
+        "median": -0.05132277347950425,
+        "minimum": -0.06227876419082286
+      }
+    },
+    "first_order_energy_quadrupole_scale8": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.016719739637925182,
+        "maximum": -0.06611051482233306,
+        "median": -0.0919363774810217,
+        "minimum": -0.12771943922474646
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.007456026291676951,
+        "maximum": -0.08356499533068074,
+        "median": -0.09800011490824537,
+        "minimum": -0.13375821560216908
+      }
+    },
+    "first_order_transport_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.01651316556371868,
+        "maximum": 0.1111979474538974,
+        "median": 0.07851197447243134,
+        "minimum": 0.06964613213258787
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.02266971856292005,
+        "maximum": 0.1453217044068256,
+        "median": 0.10080509488524202,
+        "minimum": 0.08467673296873593
+      }
+    },
+    "multiscale_summed_curvature_quadrupole": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.008308727563935359,
+        "maximum": -0.2132424952936874,
+        "median": -0.23926178442610188,
+        "minimum": -0.27703924638857913
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.01797929427734557,
+        "maximum": -0.23873512896423532,
+        "median": -0.2919186737141894,
+        "minimum": -0.32798253483033935
+      }
+    },
+    "multiscale_summed_second_order_quadrupole": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.005082490799026274,
+        "maximum": 0.03157337359881508,
+        "median": -0.02198722133571604,
+        "minimum": -0.03248649887661152
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.008228067772070077,
+        "maximum": 0.012322134836149285,
+        "median": -0.013745660941748889,
+        "minimum": -0.06228983983452377
+      }
+    },
+    "patch_scale_16_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.004180971553912768,
+        "maximum": 0.13937706854483947,
+        "median": 0.11442353208016481,
+        "minimum": 0.06518059137760648
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.025180907497167088,
+        "maximum": 0.20392883793317615,
+        "median": 0.1763617768471587,
+        "minimum": 0.13684879932852034
+      }
+    },
+    "second_order_energy_quadrupole_scale16": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.012660855931261539,
+        "maximum": -0.14322158691217107,
+        "median": -0.1789534932754927,
+        "minimum": -0.22581337920274475
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.019614414680683923,
+        "maximum": -0.1823054749888667,
+        "median": -0.22816587215992737,
+        "minimum": -0.30442173273603684
+      }
+    },
+    "second_order_energy_quadrupole_scale2": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.005082490799026326,
+        "maximum": 0.03157337359881342,
+        "median": -0.02198722133571615,
+        "minimum": -0.032486498876610634
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.008228067772070729,
+        "maximum": 0.012322134836148723,
+        "median": -0.01374566094174839,
+        "minimum": -0.062289839834530576
+      }
+    },
+    "second_order_energy_quadrupole_scale32": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.0027235248003105728,
+        "maximum": -0.26256869853532777,
+        "median": -0.29862197195984147,
+        "minimum": -0.30416129717005075
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.033820122715873036,
+        "maximum": -0.24938364193070398,
+        "median": -0.34713715931780753,
+        "minimum": -0.44603648610482477
+      }
+    },
+    "second_order_energy_quadrupole_scale4": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.005349447500015488,
+        "maximum": -0.04878205280092292,
+        "median": -0.05959417673407461,
+        "minimum": -0.0846795670217554
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.00012065320316442113,
+        "maximum": -0.03159460422555984,
+        "median": -0.040972720624482865,
+        "minimum": -0.0675094926002106
+      }
+    },
+    "second_order_energy_quadrupole_scale8": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.01794205103606894,
+        "maximum": -0.06198668754581676,
+        "median": -0.06898857155782763,
+        "minimum": -0.10346409138903685
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.011185152868620332,
+        "maximum": -0.06827393324714491,
+        "median": -0.07256895005822225,
+        "minimum": -0.13009492933965267
+      }
+    },
+    "second_order_reconstructed_tensor_control": {
+      "gamma1_pearson": {
+        "loo_stability_range": 0.00440234185978966,
+        "maximum": 0.08981142222276844,
+        "median": 0.07505676031995942,
+        "minimum": 0.03301421234740548
+      },
+      "gamma2_pearson": {
+        "loo_stability_range": 0.05362180207027699,
+        "maximum": 0.17698299332112027,
+        "median": 0.11658723503248439,
+        "minimum": 0.05290042934234526
+      }
+    }
+  },
+  "external_variant_count": 24,
+  "kde_executions": 0,
+  "lab_id": "PBUF-FOUNDATION-WL-MULTISCALE-SECOND-ORDER-TRANSPORT-001",
+  "large_scale_transport_relation_supported": true,
+  "multiscale_transport_information_advantage": true,
+  "multiscale_transport_shear_advantage": false,
+  "outcome": "WL_MULTISCALE_TRANSPORT_INFORMATION_ADVANTAGE_ESTABLISHED",
+  "propagation_runs": 0,
+  "runtime_seconds": 51.58727812767029,
+  "structural_sha256": "7c0469c6193d9c1a795d0d0ada7dcebd6701f4d31f83b3d8d69ddc743e6483a7"
+}

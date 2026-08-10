@@ -1,0 +1,20 @@
+{
+  "position_fixed_fraction": {
+    "classification": "CHECKPOINT_SUFFICIENT",
+    "maximum": 5.3283269272151636e-06,
+    "median": 2.575559345253868e-07,
+    "p90": 5.2357542683171135e-06,
+    "p95": 5.282040597766139e-06,
+    "p99": 5.3190696613253585e-06
+  },
+  "thresholds_frozen": {
+    "approximate": [
+      0.05,
+      0.2
+    ],
+    "sufficient": [
+      0.01,
+      0.05
+    ]
+  }
+}

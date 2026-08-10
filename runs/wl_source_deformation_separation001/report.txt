@@ -1,0 +1,80 @@
+{
+  "checks": {
+    "3d_separation_before_2d_projection": true,
+    "canonical_observer_unchanged": true,
+    "cohort_separability_combined_reported": true,
+    "cohort_separability_deformation_reported": true,
+    "cohort_separability_source_reported": true,
+    "current_r3_unchanged": true,
+    "current_r4_unchanged": true,
+    "deformation_feature_bank_target_blind": true,
+    "deformation_score_frozen": true,
+    "far_control_association_reported": true,
+    "five_checkpoints_valid": true,
+    "four_regime_map_reported": true,
+    "gamma_hidden_during_decomposition": true,
+    "kappa_hidden_during_decomposition": true,
+    "latent_components_frozen_before_truth": true,
+    "lens_association_reported": true,
+    "lens_truth_enabled_after_freeze": true,
+    "lens_truth_hidden_during_decomposition": true,
+    "max_external_variants_lte_12": true,
+    "no_binary_forced_partition": true,
+    "no_gain_fit": true,
+    "no_rotation_fit": true,
+    "no_sign_fit": true,
+    "pca_target_blind": true,
+    "primitive_features_preserved": true,
+    "propagation_reopened_false": true,
+    "sampling_100_reported": true,
+    "sampling_25_reported": true,
+    "sampling_50_reported": true,
+    "sampling_75_reported": true,
+    "source_deformation_overlap_reported": true,
+    "source_feature_bank_target_blind": true,
+    "source_score_frozen": true,
+    "structural_hash_before_lens_truth": true,
+    "svd_target_blind": true,
+    "true_vs_null_reported": true,
+    "zero_kde_executions": true,
+    "zero_propagation_runs": true
+  },
+  "outcome": "WL_TARGET_BLIND_LENS_DEFORMATION_SEPARATION_ESTABLISHED",
+  "scientific_answers": {
+    "D_aligns_with_registered_redistribution": true,
+    "D_only_shear_improves_both_components": false,
+    "D_retains_cohort_separability_vs_R4": {
+      "Abell2744": true,
+      "Abell370": true,
+      "AbellS1063": true,
+      "MACS0416": true,
+      "MACS1149": true
+    },
+    "S_D_overlap": {
+      "Abell2744": -0.09505313112007752,
+      "Abell370": -0.17999954870747312,
+      "AbellS1063": -0.13319423511583003,
+      "MACS0416": -0.01978723696031469,
+      "MACS1149": -0.07223979444137255
+    },
+    "S_captures_coherent_structure": "Supported by continuity primitives and saved diagnostics; no target label was used.",
+    "S_only_behaves_differently": true,
+    "deformation_without_truth": true,
+    "multiple_issues_consistent": true,
+    "premature_combination_reduces_separability": {
+      "Abell2744": false,
+      "Abell370": false,
+      "AbellS1063": false,
+      "MACS0416": false,
+      "MACS1149": false
+    },
+    "sampling_stability": {
+      "Abell2744": "SEPARATION_RAY_DENSITY_STABLE",
+      "Abell370": "SEPARATION_RAY_DENSITY_STABLE",
+      "AbellS1063": "SEPARATION_RAY_DENSITY_STABLE",
+      "MACS0416": "SEPARATION_RAY_DENSITY_STABLE",
+      "MACS1149": "SEPARATION_RAY_DENSITY_STABLE"
+    },
+    "source_without_truth": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "perturbations": [
+    "\u00b11%",
+    "\u00b15%",
+    "\u00b110%"
+  ],
+  "reason": "No coefficient-free native loading/excitation coupling exists; synthetic overlap is not binding.",
+  "stable_localized_survivor": false,
+  "status": "MISSING_INTERACTION_LAW"
+}

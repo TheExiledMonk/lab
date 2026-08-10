@@ -1,0 +1,20 @@
+{
+  "artifact": "runs/wl_native_relative_source_reconstruction001/blind_reconstruction_manifest.json",
+  "canonicalization": {
+    "algorithm": "sha256(json.dumps(value, sort_keys=True, separators=(',', ':'), allow_nan=False).encode())",
+    "semantic_projection": "entire parsed JSON object"
+  },
+  "current_file_bytes_sha256": "91f7631639a39b0181b6828ad44a25730cb22d6264bb102f3aecb8269ac080cb",
+  "current_semantic_sha256": "918a22a3728803d53d121bb06baab59f23b9e8901a9fdd233e7c79295ab6bbdb",
+  "expected_semantic_sha256": "918a22a3728803d53d121bb06baab59f23b9e8901a9fdd233e7c79295ab6bbdb",
+  "field_changes": [],
+  "ignored_nonsemantic_differences": [
+    {
+      "classification": "SERIALIZATION_WHITESPACE",
+      "detail": "The file uses indented JSON plus a terminal newline; the frozen hash uses compact canonical JSON."
+    }
+  ],
+  "historical_byte_snapshot_available": false,
+  "semantic_parity": true,
+  "truth_boundary_parity": true
+}

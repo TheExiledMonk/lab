@@ -1,0 +1,37 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "extent8",
+      "units": "native",
+      "valid": false
+    },
+    {
+      "candidate_id": "unit_spacing",
+      "units": "grid-cell",
+      "valid": false
+    },
+    {
+      "candidate_id": "kappa_proxy",
+      "units": "arcsec",
+      "valid": true
+    },
+    {
+      "candidate_id": "historical_0p18",
+      "units": "native",
+      "valid": false
+    },
+    {
+      "candidate_id": "retired_rmax",
+      "units": "m",
+      "valid": true
+    },
+    {
+      "candidate_id": "planck_name",
+      "units": "m",
+      "valid": true
+    }
+  ],
+  "dimensional_constants_establish_length": false,
+  "mass_density_bridge": "unavailable: neither independent physical mass nor physical density is established",
+  "path_length_units": "NATIVE_COORDINATE_LENGTH"
+}
