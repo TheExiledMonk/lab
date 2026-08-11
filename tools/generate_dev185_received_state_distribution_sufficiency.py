@@ -4,9 +4,11 @@ This consumer deliberately reads only the frozen DEV184 packet-aware receipts.
 It contains no propagator, observer, smoothing, selection, or fitted threshold.
 """
 from __future__ import annotations
-import hashlib, json, subprocess, sys
+import hashlib, json, os, subprocess, sys
 from itertools import combinations
 from pathlib import Path
+os.environ.setdefault('OPENBLAS_NUM_THREADS','1')
+os.environ.setdefault('MKL_NUM_THREADS','1')
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
