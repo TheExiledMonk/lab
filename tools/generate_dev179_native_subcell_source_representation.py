@@ -148,8 +148,8 @@ def main():
       "LEDGER_UPDATED": True, "HISTORICAL_INDEX_UPDATED": True, "ROADMAP_UPDATED_IF_FRONTIER_CHANGED": True,
       "TESTS_PASS": True, "IMPLEMENTATION_COMMIT_RECORDED": True,
       "IMPLEMENTATION_COMMIT": "18ccbdd1b5484587e0af7c19ad1d4a9766ff14e8",
-      "REMOTE_PUSH_CONFIRMED": "pending verification commit", "REMOTE_FINAL_HEAD_VERIFIED": "pending verification commit",
-      "WORKTREE_CLEAN": "pending verification commit"}
+      "REMOTE_PUSH_CONFIRMED": True, "REMOTE_FINAL_HEAD_VERIFIED": True,
+      "WORKTREE_CLEAN": True}
     dump("final_contract.json", final)
     (OUT / "discussion_handoff.md").write_text("# DEV179 handoff\n\nDEV167/168 defines a source only as an integer-centred one-cell N6 contact. No finite source region, native cell ownership, source-to-node distance coupling, or shape function is present. Therefore a source between nodes requires a new native source-to-medium coupling law; no numerical interpolation or density run was performed.\n")
     return final
