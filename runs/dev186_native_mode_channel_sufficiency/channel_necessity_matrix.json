@@ -1,0 +1,478 @@
+[
+  {
+    "depth_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_reconstructable": false,
+    "feature": "delta_x",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_reconstructable": false,
+    "feature": "delta_y",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_reconstructable": false,
+    "feature": "delta_z",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_reconstructable": false,
+    "feature": "d_x",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_reconstructable": false,
+    "feature": "d_y",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_reconstructable": false,
+    "feature": "d_z",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_reconstructable": false,
+    "feature": "p_x",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_reconstructable": false,
+    "feature": "p_y",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_reconstructable": false,
+    "feature": "p_z",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_reconstructable": false,
+    "feature": "J_x",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_reconstructable": false,
+    "feature": "J_y",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "NO_LOSS_DETECTED_BUT_NOT_PROVEN_REDUNDANT"
+  },
+  {
+    "depth_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_reconstructable": false,
+    "feature": "J_z",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "NO_LOSS_DETECTED_BUT_NOT_PROVEN_REDUNDANT"
+  },
+  {
+    "depth_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_reconstructable": false,
+    "feature": "weight",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "PRIMITIVE_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK"
+  },
+  {
+    "depth_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_reconstructable": true,
+    "feature": "W01",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "DERIVED_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "DERIVED_BUT_INFORMATION_PRESERVING"
+  },
+  {
+    "depth_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_reconstructable": false,
+    "feature": "W02",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "CONTENT_CANDIDATE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "NO_LOSS_DETECTED_BUT_NOT_PROVEN_REDUNDANT"
+  },
+  {
+    "depth_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "exact_reconstructable": true,
+    "feature": "W03",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "DERIVED_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": "DERIVED_BUT_INFORMATION_PRESERVING"
+  },
+  {
+    "depth_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "exact_reconstructable": true,
+    "feature": "W04",
+    "launch_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "primitive_derived": "DERIVED_NATIVE",
+    "realization_structure_loss": "NONE for exact reconstructable content; otherwise not proven absent",
+    "single_drop_rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "DERIVED_BUT_INFORMATION_PRESERVING"
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "RELEVANT_HISTORICAL_CHANNEL_WORK_INSPECTED": true,
+  "RELEVANT_HISTORICAL_MODE_WORK_INSPECTED": true,
+  "queries": {
+    "45-channel observer": [
+      "TARGET: Physical observer mapping",
+      "STATUS: OPEN",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL"
+    ],
+    "DFT": [
+      "TARGET: Native mode / channel sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "Fourier": [],
+    "Helmholtz": [],
+    "P1": [
+      "TARGET: Physical observer mapping",
+      "STATUS: OPEN",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL"
+    ],
+    "P7": [
+      "TARGET: Physical observer mapping",
+      "STATUS: OPEN",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL"
+    ],
+    "PCA": [
+      "TARGET: Native mode / channel sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "W01": [
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "W02": [],
+    "W03": [
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "W04": [
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "channel": [
+      "TARGET: Physical observer mapping",
+      "STATUS: OPEN",
+      "",
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native mode / channel sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL",
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "channel sufficiency": [
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native mode / channel sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL",
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "content candidate": [],
+    "curl": [],
+    "divergence": [],
+    "eigenvector": [],
+    "feature ablation": [
+      "TARGET: Native mode / channel sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "full received state": [
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL"
+    ],
+    "mode": [
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native mode / channel sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL",
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "parallel perpendicular": [
+      "TARGET: Native mode / channel sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "rank contribution": [
+      "TARGET: Native mode / channel sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "spin-2": [
+      "TARGET: Physical observer mapping",
+      "STATUS: OPEN",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL"
+    ],
+    "topology": []
+  }
+}

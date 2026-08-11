@@ -101,6 +101,10 @@
       "type": "TARGET"
     },
     {
+      "id": "native_mode_channel_sufficiency",
+      "type": "TARGET"
+    },
+    {
       "id": "dev151_shared_state_cross_coupling",
       "type": "ATTEMPT"
     },
@@ -131,10 +135,6 @@
     {
       "id": "dev167_vector_relational_dynamics",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "canonical:dev167_vector_relational_dynamics",
-      "type": "CANONICAL_RESULT"
     },
     {
       "id": "pr36_effective_matter_loading",
@@ -169,20 +169,12 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "canonical:dev170_source_work_accounting",
-      "type": "CANONICAL_RESULT"
-    },
-    {
       "id": "dev179_subcell_source_closure",
       "type": "ATTEMPT"
     },
     {
       "id": "dev180_density_reconciliation",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "canonical:dev180_density_reconciliation",
-      "type": "CANONICAL_RESULT"
     },
     {
       "id": "pr16_c25_launch_density",
@@ -205,16 +197,8 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "canonical:dev183_discrete_launch_domain_packet_lineage",
-      "type": "CANONICAL_RESULT"
-    },
-    {
       "id": "dev168_finite_loaded_receipt",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "canonical:dev168_finite_loaded_receipt",
-      "type": "CANONICAL_RESULT"
     },
     {
       "id": "dev169_depth_sensitivity",
@@ -223,10 +207,6 @@
     {
       "id": "dev171_independent_3d_source",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "canonical:dev171_independent_3d_source",
-      "type": "CANONICAL_RESULT"
     },
     {
       "id": "dev172_frozen_morphology_gate",
@@ -241,10 +221,6 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "canonical:dev174_coordinate_serialization",
-      "type": "CANONICAL_RESULT"
-    },
-    {
       "id": "dev175_pyrrg_recovery",
       "type": "ATTEMPT"
     },
@@ -255,10 +231,6 @@
     {
       "id": "dev177_full_received_state",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "canonical:dev177_full_received_state",
-      "type": "CANONICAL_RESULT"
     },
     {
       "id": "historical_scalar_gradient_lensing",
@@ -277,24 +249,12 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "canonical:dev184_discrete_launch_density_convergence",
-      "type": "CANONICAL_RESULT"
-    },
-    {
       "id": "dev185_received_state_distribution_sufficiency",
       "type": "ATTEMPT"
     },
     {
-      "id": "canonical:dev185_received_state_distribution_sufficiency",
-      "type": "CANONICAL_RESULT"
-    },
-    {
-      "id": "owers_spectroscopy",
-      "type": "DATASET"
-    },
-    {
-      "id": "harvey_massey_pyrrg",
-      "type": "DATASET"
+      "id": "dev186_native_mode_channel_sufficiency",
+      "type": "ATTEMPT"
     }
   ],
   "edges": [
@@ -339,11 +299,6 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev167_vector_relational_dynamics",
-      "target": "canonical:dev167_vector_relational_dynamics",
-      "type": "VALIDATED_BY"
-    },
-    {
       "source": "pr36_effective_matter_loading",
       "target": "source_medium_coupling",
       "type": "ATTEMPTS_TO_SOLVE"
@@ -384,11 +339,6 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev170_source_work_accounting",
-      "target": "canonical:dev170_source_work_accounting",
-      "type": "VALIDATED_BY"
-    },
-    {
       "source": "dev179_subcell_source_closure",
       "target": "source_medium_coupling",
       "type": "ATTEMPTS_TO_SOLVE"
@@ -397,11 +347,6 @@
       "source": "dev180_density_reconciliation",
       "target": "sampling_density_terms",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "dev180_density_reconciliation",
-      "target": "canonical:dev180_density_reconciliation",
-      "type": "VALIDATED_BY"
     },
     {
       "source": "pr16_c25_launch_density",
@@ -429,19 +374,9 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev183_discrete_launch_domain_packet_lineage",
-      "target": "canonical:dev183_discrete_launch_domain_packet_lineage",
-      "type": "VALIDATED_BY"
-    },
-    {
       "source": "dev168_finite_loaded_receipt",
       "target": "finite_loaded_receipt",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "dev168_finite_loaded_receipt",
-      "target": "canonical:dev168_finite_loaded_receipt",
-      "type": "VALIDATED_BY"
     },
     {
       "source": "dev169_depth_sensitivity",
@@ -452,11 +387,6 @@
       "source": "dev171_independent_3d_source",
       "target": "source_depth_reconstruction",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "dev171_independent_3d_source",
-      "target": "canonical:dev171_independent_3d_source",
-      "type": "VALIDATED_BY"
     },
     {
       "source": "dev172_frozen_morphology_gate",
@@ -474,11 +404,6 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev174_coordinate_serialization",
-      "target": "canonical:dev174_coordinate_serialization",
-      "type": "VALIDATED_BY"
-    },
-    {
       "source": "dev175_pyrrg_recovery",
       "target": "observational_lensing_comparison",
       "type": "ATTEMPTS_TO_SOLVE"
@@ -492,11 +417,6 @@
       "source": "dev177_full_received_state",
       "target": "physical_observer_mapping",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "dev177_full_received_state",
-      "target": "canonical:dev177_full_received_state",
-      "type": "VALIDATED_BY"
     },
     {
       "source": "historical_scalar_gradient_lensing",
@@ -520,11 +440,6 @@
     },
     {
       "source": "dev184_discrete_launch_density_convergence",
-      "target": "canonical:dev184_discrete_launch_density_convergence",
-      "type": "VALIDATED_BY"
-    },
-    {
-      "source": "dev184_discrete_launch_density_convergence",
       "target": "dev183_discrete_launch_domain_packet_lineage",
       "type": "DERIVED_FROM"
     },
@@ -535,18 +450,18 @@
     },
     {
       "source": "dev185_received_state_distribution_sufficiency",
-      "target": "canonical:dev185_received_state_distribution_sufficiency",
-      "type": "VALIDATED_BY"
-    },
-    {
-      "source": "dev185_received_state_distribution_sufficiency",
       "target": "dev184_discrete_launch_density_convergence",
       "type": "DERIVED_FROM"
     },
     {
-      "source": "pr70_bounded_strain_constitutive",
-      "target": "dev167_vector_relational_dynamics",
-      "type": "EQUIVALENT_TO"
+      "source": "dev186_native_mode_channel_sufficiency",
+      "target": "native_mode_channel_sufficiency",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev186_native_mode_channel_sufficiency",
+      "target": "dev185_received_state_distribution_sufficiency",
+      "type": "DERIVED_FROM"
     }
   ]
 }

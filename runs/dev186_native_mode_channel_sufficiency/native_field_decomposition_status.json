@@ -1,0 +1,7 @@
+{
+  "HELMHOLTZ_FIELD_REQUIREMENT_AUDITED": true,
+  "NO_INTERPOLATED_FIELD_CREATED": true,
+  "TOPOLOGY_NOT_INVENTED": true,
+  "event_aggregate_vs_native_field": "receipt cell aggregation is not independently a native vector field",
+  "status": "NO_EXACT_NATIVE_FIELD"
+}

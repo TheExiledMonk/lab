@@ -294,3 +294,14 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - Distribution result: the raw full DEV177 feature ordering has numerical rank 14 in every realization; exact DEV177 depth ablation retains a rank increment of 4 in every realization. All receipt channels are defined at C100, no exact pairwise feature redundancy was found, and launch-equal count, native-weight, progression, support, covariance, higher-moment, empirical-distribution, extreme-launch, periodic-boundary, and exact DFT diagnostics are retained separately from event-weighted receipt information.
 - Closure: `OUTCOME_A`; `RECEIVED_STATE_DISTRIBUTION_SUFFICIENCY=FULL` and `NATIVE_MODE_CHANNEL_GATE=AUTHORIZED`. Statistical eigendirections and launch-domain DFT modes remain diagnostics only. `PHYSICAL_OBSERVER_GATE=BLOCKED_PENDING_MODE_CHANNEL`.
 - Next frontier: `NATIVE MODE / CHANNEL SUFFICIENCY`. No channel is selected, removed, or identified as an observer in this entry.
+
+## LEDGER ENTRY 019 — DEV186 NATIVE MODE / CHANNEL SUFFICIENCY
+
+- Date: 2026-08-12. DEV186 consumed only frozen C100 packet-aware receipt artifacts. The full raw DEV177 feature basis remains the native physical reference: rank is 14 and the depth increment is 4 in each DEV171 realization.
+- Exact dependency audit: the current DEV168 definitions prove `W01 = 0.5‖p‖²`, `W03 = W01 + W02`, and `W04 = ‖J‖`; all three were verified directly in every C100 receipt collection. Removing the stored W01/W03/W04 columns while retaining momentum, flux, and W02 preserves rank 14 and depth increment 4 in all eight realizations and allows exact reconstruction.
+- Closure: `NATIVE_CHANNEL_SUFFICIENCY=REDUCED_EXACT_SUFFICIENT_SET_FOUND`; `NATIVE_MODE_SUFFICIENCY=RAW_BASIS_ONLY_PHYSICALLY_JUSTIFIED`. PCA eigendirections and launch-domain DFT remain invertible diagnostic coordinates only. No field, Helmholtz/topology construction, transverse collapse, channel promotion, or observer code was introduced.
+- Next frontier: physical observer derivation is authorized from the full raw state or the exact information-equivalent storage representation, without observational comparison.
+
+**Native Information Sufficiency Rule:** A native receipt feature may be removed before observer construction only with exact mathematical redundancy or independently derived physical irrelevance while preserving canonical rank, depth, launch-domain, and cross-realization information. Correlation, small variance, PCA importance, Fourier power, or simplicity are insufficient.
+
+**Basis Neutrality Rule:** An invertible coordinate change preserves information but does not establish physical preference. Statistical eigendirections and finite-domain Fourier modes remain diagnostics until derived from native dynamics.

@@ -1,0 +1,13 @@
+{
+  "EXACT_Z11_DFT_DIAGNOSTIC_ONLY": true,
+  "NO_FOURIER_POWER_CUTOFF": true,
+  "all_121_modes_retained": true,
+  "domain": "exact Z11xZ11 launch response fields",
+  "power_shape": [
+    8,
+    38,
+    11,
+    11
+  ],
+  "real_input_conjugate_symmetry": "storage redundancy only"
+}

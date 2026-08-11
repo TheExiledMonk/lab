@@ -44,6 +44,8 @@ DEV184 result: the frozen 1/30/60/121 nested exact-reset packet ladder was compl
 
 DEV185 result: the complete frozen C100 receipt distribution is structurally sufficient across all eight realizations (full raw-feature rank 14; DEV177 depth increment 4 in every realization). This authorizes only the next native mode/channel sufficiency audit; no channel, statistical component, DFT mode, or observer is promoted.
 
+DEV186 result: only the exact storage-derived content columns W01, W03, and W04 are reconstructable from retained momentum, W02, and flux; the reduced representation preserves all eight rank/depth gates. PCA and DFT remain diagnostic bases, and the raw native basis retains physical priority. Physical observer derivation—not observational comparison—is now authorized.
+
 ## Registry integration (DEV181)
 
 The mechanism registry at `docs/PBUF_MECHANISM_REGISTRY.json` is now the primary historical lookup layer. This Historical Attempt Index remains a concise anti-circularity index and must not be expanded into a duplicate of the full registry. Every row above maps to one or more target/attempt records in that registry.

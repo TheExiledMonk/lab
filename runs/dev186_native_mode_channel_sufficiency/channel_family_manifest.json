@@ -1,0 +1,36 @@
+{
+  "families": {
+    "direction": [
+      3,
+      4,
+      5
+    ],
+    "displacement": [
+      0,
+      1,
+      2
+    ],
+    "flux": [
+      9,
+      10,
+      11
+    ],
+    "momentum": [
+      6,
+      7,
+      8
+    ],
+    "weight_content": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "new_scientific_grouping": false,
+  "presentation_only_extra": [
+    "received geometry/provenance"
+  ],
+  "source": "DEV177 channel_family_definition"
+}

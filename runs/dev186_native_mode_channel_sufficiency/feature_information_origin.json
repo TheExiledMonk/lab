@@ -1,0 +1,121 @@
+{
+  "J_x": {
+    "across_launch_variance": 1.85323083860846e-19,
+    "across_realization_variance": 7.758390295052418e-20,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": true,
+    "within_launch_variance": 1.9433080248113204e-14
+  },
+  "J_y": {
+    "across_launch_variance": 1.7897193913685462e-29,
+    "across_realization_variance": 8.19905211886606e-31,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 1.9313572353037078e-26
+  },
+  "J_z": {
+    "across_launch_variance": 1.385373174614168e-29,
+    "across_realization_variance": 5.15780737249118e-32,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 1.5913394077864577e-26
+  },
+  "W01": {
+    "across_launch_variance": 2.379515785504941e-19,
+    "across_realization_variance": 2.5170280456169634e-20,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 2.1777807239839593e-15
+  },
+  "W02": {
+    "across_launch_variance": 9.083865870478297e-19,
+    "across_realization_variance": 4.491055461063212e-19,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 3.2185213377024076e-14
+  },
+  "W03": {
+    "across_launch_variance": 1.611689354133145e-18,
+    "across_realization_variance": 6.779871253456685e-19,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 4.2315847175454346e-14
+  },
+  "W04": {
+    "across_launch_variance": 6.017635466663632e-19,
+    "across_realization_variance": 2.5963593674498436e-19,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 1.9228399929554543e-14
+  },
+  "d_x": {
+    "across_launch_variance": 0.0005805855100876998,
+    "across_realization_variance": 0.00018842907876492952,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": true,
+    "within_launch_variance": 0.29994941866987507
+  },
+  "d_y": {
+    "across_launch_variance": 0.0007306510252546405,
+    "across_realization_variance": 0.0005414349594284054,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 0.38451132774920294
+  },
+  "d_z": {
+    "across_launch_variance": 0.000453136269486735,
+    "across_realization_variance": 0.0006260761694762741,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 0.3057354882865352
+  },
+  "delta_x": {
+    "across_launch_variance": 7.126519298161483e-12,
+    "across_realization_variance": 2.254144729459348e-12,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": true,
+    "within_launch_variance": 5.7925114786323086e-08
+  },
+  "delta_y": {
+    "across_launch_variance": 3.20650580697717e-17,
+    "across_realization_variance": 1.7469210472501625e-16,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 1.3792702435639077e-14
+  },
+  "delta_z": {
+    "across_launch_variance": 2.2734223663618938e-17,
+    "across_realization_variance": 5.5007193068681044e-17,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 1.712805703836395e-14
+  },
+  "p_x": {
+    "across_launch_variance": 4.904951397575284e-12,
+    "across_realization_variance": 5.480615050318425e-13,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": true,
+    "within_launch_variance": 1.0624800563548587e-08
+  },
+  "p_y": {
+    "across_launch_variance": 6.013674801130197e-18,
+    "across_realization_variance": 3.587816118115861e-17,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 6.1636294107051806e-15
+  },
+  "p_z": {
+    "across_launch_variance": 5.783504948287942e-18,
+    "across_realization_variance": 9.097010305216688e-18,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 5.713064519089088e-15
+  },
+  "weight": {
+    "across_launch_variance": 2.2331339318379442e-21,
+    "across_realization_variance": 6.133988883563902e-22,
+    "classification": "receipt_event + launch + realization variation recorded",
+    "depth_sensitivity": false,
+    "within_launch_variance": 5.604774175196349e-17
+  }
+}

@@ -184,7 +184,7 @@
       "blocked_by": [],
       "blocks": [],
       "do_not_rederive": true,
-      "reopen_condition": "After received-state and channel sufficiency gates."
+      "reopen_condition": "Physical observer derivation is authorized from the exact sufficient native state; observational comparison remains separate."
     },
     {
       "target_id": "source_depth_reconstruction",
@@ -799,6 +799,42 @@
       ],
       "do_not_rederive": true,
       "reopen_condition": "Only if C100 lineage or numerical validity is invalidated."
+    },
+    {
+      "target_id": "native_mode_channel_sufficiency",
+      "canonical_name": "Native mode / channel sufficiency",
+      "plain_language_question": "Which native components can be removed without losing established C100 information?",
+      "aliases": [
+        "mode sufficiency",
+        "channel sufficiency",
+        "feature ablation"
+      ],
+      "keywords": [
+        "mode",
+        "channel",
+        "feature ablation",
+        "rank contribution",
+        "parallel perpendicular",
+        "PCA",
+        "DFT"
+      ],
+      "domain": "WEAK LENSING",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev186_native_mode_channel_sufficiency"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev186_native_mode_channel_sufficiency"
+      ],
+      "open_questions": [
+        "Derive a physical observer from the information-sufficient native state."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if the C100 receipt schema or exact content definitions change."
     }
   ],
   "attempts": [
@@ -3101,6 +3137,80 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev186_native_mode_channel_sufficiency",
+      "target_id": "native_mode_channel_sufficiency",
+      "name": "DEV186 native mode/channel sufficiency",
+      "aliases": [
+        "exact content redundancy",
+        "C100 feature ablation"
+      ],
+      "summary": "Exact W01/W03/W04 content relations permit an information-equivalent reduced raw representation; raw basis remains the only physically justified basis.",
+      "why_attempted": "Close the distinct information-sufficiency gate before physical observer derivation.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV186",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "tools/generate_dev186_native_mode_channel_sufficiency.py"
+      ],
+      "run_directories": [
+        "runs/dev186_native_mode_channel_sufficiency"
+      ],
+      "tests": [
+        "tests/test_dev186_native_mode_channel_sufficiency.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Exact native content definitions prove only W01/W03/W04 storage redundancy; all hard gates are preserved.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev185_received_state_distribution_sufficiency"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev177_full_received_state"
+      ],
+      "still_valid_components": [
+        "raw component reference basis",
+        "exact reduced content representation"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "exact reconstruction",
+        "rank/depth preservation"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "C100 receipt definitions change.",
+      "do_not_repeat_reason": "Observer derivation, not statistical channel pruning, is next.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev186_native_mode_channel_sufficiency/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "equivalences": [
@@ -3120,9 +3230,9 @@
   ],
   "current_frontiers": [
     {
-      "target_id": "native_mode_channel_sufficiency",
-      "status": "AUTHORIZED",
-      "reason": "DEV185 full C100 distribution sufficiency is complete; physical observer remains blocked."
+      "target_id": "physical_observer_mapping",
+      "status": "AUTHORIZED_FULL_STATE",
+      "reason": "DEV186 found only exact storage redundancy; raw native basis remains the physical reference."
     }
   ]
 }

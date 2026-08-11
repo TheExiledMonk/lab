@@ -1,0 +1,72 @@
+[
+  {
+    "family": "displacement",
+    "rank_loss": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "status": "REQUIRED_BY_RANK_OR_STRUCTURE"
+  },
+  {
+    "family": "direction",
+    "rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK_OR_STRUCTURE"
+  },
+  {
+    "family": "momentum",
+    "rank_loss": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "status": "REQUIRED_BY_RANK_OR_STRUCTURE"
+  },
+  {
+    "family": "flux",
+    "rank_loss": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "status": "REQUIRED_BY_RANK_OR_STRUCTURE"
+  },
+  {
+    "family": "weight_content",
+    "rank_loss": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "status": "REQUIRED_BY_RANK_OR_STRUCTURE"
+  }
+]
