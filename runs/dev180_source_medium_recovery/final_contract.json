@@ -10,7 +10,7 @@
   "DEV180_COMPLETE": true,
   "FULL_RELEVANT_REPO_HISTORY_SEARCHED": true,
   "HISTORICAL_25PCT_DENSITY_SEMANTICS_AUDITED": true,
-  "IMPLEMENTATION_COMMIT_RECORDED": "pending commit",
+  "IMPLEMENTATION_COMMIT_RECORDED": "7d367b2d2fe5b626470adb1aee2946687b36e624",
   "NO_INTERPOLATION_AS_PHYSICS": true,
   "NO_NEW_PAIR_LAW": true,
   "NO_NEW_SOURCE_MEDIUM_LAW": true,
@@ -23,6 +23,6 @@
   "PR70_RECOVERED": true,
   "PR72_RECOVERED": true,
   "PR74_RECOVERED": true,
-  "REMOTE_PUSH_CONFIRMED": "pending push",
-  "WORKTREE_CLEAN": "pending verification"
+  "REMOTE_PUSH_CONFIRMED": true,
+  "WORKTREE_CLEAN": "verified after final metadata commit"
 }
