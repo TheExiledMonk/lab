@@ -1,0 +1,12 @@
+{
+  "A8 zero_flux": {
+    "classification": "DERIVATIONAL",
+    "note": "not periodic"
+  },
+  "periodic": {
+    "Dev156-159 dynamics": "DERIVATIONAL_AND_DIAGNOSTIC",
+    "Dev165 fixtures": "DIAGNOSTIC",
+    "production_intended": false,
+    "risk": "POTENTIALLY_CONTAMINATING for finite observational domain"
+  }
+}

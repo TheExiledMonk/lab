@@ -1,0 +1,288 @@
+{
+  "amplitude_sweep": [
+    {
+      "absolute_frequency_error": 4.996003610813204e-16,
+      "amplitude": 0.0001,
+      "analytic_progression_frequency": 0.22787651238471482,
+      "k_magnitude": 0.5619851784832581,
+      "k_vector": [
+        0.5026548245743669,
+        0.25132741228718347,
+        0.0
+      ],
+      "mode_indices": [
+        2,
+        1,
+        0
+      ],
+      "native_wavelength": 11.180339887498947,
+      "phase_progression": 0.40548491509995027,
+      "progression_frequency": 0.22787651238471432,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.22787651238471482,
+      "k_magnitude": 0.5619851784832581,
+      "k_vector": [
+        0.5026548245743669,
+        0.25132741228718347,
+        0.0
+      ],
+      "mode_indices": [
+        2,
+        1,
+        0
+      ],
+      "native_wavelength": 11.180339887498947,
+      "phase_progression": 0.40548491509995116,
+      "progression_frequency": 0.22787651238471482,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.01,
+      "analytic_progression_frequency": 0.22787651238471482,
+      "k_magnitude": 0.5619851784832581,
+      "k_vector": [
+        0.5026548245743669,
+        0.25132741228718347,
+        0.0
+      ],
+      "mode_indices": [
+        2,
+        1,
+        0
+      ],
+      "native_wavelength": 11.180339887498947,
+      "phase_progression": 0.40548491509995116,
+      "progression_frequency": 0.22787651238471482,
+      "steps": 24
+    }
+  ],
+  "analytic_relation": "cos(Omega_prog)=1-sum_i(sin(k_i/2)^2)/3",
+  "boundary": "periodic",
+  "dc_handling": "k=0 has Omega=0 and no finite wavelength",
+  "frequency_units": "radians/progression-step",
+  "k_units": "radians/lattice-cell",
+  "maximum_frequency_error": 3.3306690738754696e-16,
+  "modes": [
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.10237886236709137,
+      "k_magnitude": 0.25132741228718347,
+      "k_vector": [
+        0.25132741228718347,
+        0.0,
+        0.0
+      ],
+      "mode_indices": [
+        1,
+        0,
+        0
+      ],
+      "native_wavelength": 24.999999999999996,
+      "phase_progression": 0.4073525503461853,
+      "progression_frequency": 0.10237886236709137,
+      "radial_group_progression": 0.40556037139155116,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.20340491064766944,
+      "k_magnitude": 0.5026548245743669,
+      "k_vector": [
+        0.5026548245743669,
+        0.0,
+        0.0
+      ],
+      "mode_indices": [
+        2,
+        0,
+        0
+      ],
+      "native_wavelength": 12.499999999999998,
+      "phase_progression": 0.40466121223427354,
+      "progression_frequency": 0.20340491064766944,
+      "radial_group_progression": 0.3974762744141794,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 3.3306690738754696e-16,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.30171554758651653,
+      "k_magnitude": 0.7539822368615503,
+      "k_vector": [
+        0.7539822368615503,
+        0.0,
+        0.0
+      ],
+      "mode_indices": [
+        3,
+        0,
+        0
+      ],
+      "native_wavelength": 8.333333333333334,
+      "phase_progression": 0.40016267338393446,
+      "progression_frequency": 0.30171554758651686,
+      "radial_group_progression": 0.3839402507256562,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.14484894854010957,
+      "k_magnitude": 0.3554306350526693,
+      "k_vector": [
+        0.25132741228718347,
+        0.25132741228718347,
+        0.0
+      ],
+      "mode_indices": [
+        1,
+        1,
+        0
+      ],
+      "native_wavelength": 17.67766952966369,
+      "phase_progression": 0.4075308492151927,
+      "progression_frequency": 0.14484894854010957,
+      "radial_group_progression": 0.4060937078689415,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.28815828228792556,
+      "k_magnitude": 0.7108612701053386,
+      "k_vector": [
+        0.5026548245743669,
+        0.5026548245743669,
+        0.0
+      ],
+      "mode_indices": [
+        2,
+        2,
+        0
+      ],
+      "native_wavelength": 8.838834764831844,
+      "phase_progression": 0.4053650049681634,
+      "progression_frequency": 0.28815828228792556,
+      "radial_group_progression": 0.3995624688645862,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.1774808064140557,
+      "k_magnitude": 0.4353118474162123,
+      "k_vector": [
+        0.25132741228718347,
+        0.25132741228718347,
+        0.25132741228718347
+      ],
+      "mode_indices": [
+        1,
+        1,
+        1
+      ],
+      "native_wavelength": 14.433756729740642,
+      "phase_progression": 0.4077095706617926,
+      "progression_frequency": 0.1774808064140557,
+      "radial_group_progression": 0.4066291540050081,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 3.3306690738754696e-16,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.3535389348029765,
+      "k_magnitude": 0.8706236948324246,
+      "k_vector": [
+        0.5026548245743669,
+        0.5026548245743669,
+        0.5026548245743669
+      ],
+      "mode_indices": [
+        2,
+        2,
+        2
+      ],
+      "native_wavelength": 7.216878364870321,
+      "phase_progression": 0.4060754800281704,
+      "progression_frequency": 0.35353893480297616,
+      "radial_group_progression": 0.40168186075737616,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.10237886236709137,
+      "k_magnitude": 0.25132741228718347,
+      "k_vector": [
+        0.0,
+        0.25132741228718347,
+        0.0
+      ],
+      "mode_indices": [
+        0,
+        1,
+        0
+      ],
+      "native_wavelength": 24.999999999999996,
+      "phase_progression": 0.4073525503461853,
+      "progression_frequency": 0.10237886236709137,
+      "radial_group_progression": 0.40556037139155116,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.10237886236709137,
+      "k_magnitude": 0.25132741228718347,
+      "k_vector": [
+        0.0,
+        0.0,
+        0.25132741228718347
+      ],
+      "mode_indices": [
+        0,
+        0,
+        1
+      ],
+      "native_wavelength": 24.999999999999996,
+      "phase_progression": 0.4073525503461853,
+      "progression_frequency": 0.10237886236709137,
+      "radial_group_progression": 0.40556037139155116,
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.10237886236709137,
+      "k_magnitude": 0.25132741228718347,
+      "k_vector": [
+        -0.25132741228718347,
+        0.0,
+        0.0
+      ],
+      "mode_indices": [
+        24,
+        0,
+        0
+      ],
+      "native_wavelength": 24.999999999999996,
+      "phase_progression": 0.4073525503461853,
+      "progression_frequency": 0.10237886236709137,
+      "radial_group_progression": 0.40556037139155116,
+      "steps": 24
+    }
+  ],
+  "representation": "F02",
+  "shape": [
+    25,
+    25,
+    25
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "geometry_candidates": [
+    "geometry",
+    "embedding",
+    "vector relation",
+    "orientation",
+    "trajectory"
+  ],
+  "loaded_directional_mechanism": [
+    "directional allocation",
+    "routing",
+    "redistribution",
+    "scattering",
+    "neighbor transfer",
+    "bond flux",
+    "cross-coupling",
+    "loaded redirection",
+    "trajectory steering"
+  ],
+  "relational_metric_candidates": [
+    "bond length",
+    "separation",
+    "relation magnitude",
+    "local propagation condition",
+    "effective speed"
+  ]
+}

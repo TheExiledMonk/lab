@@ -1,0 +1,14 @@
+{
+  "assumptions": {
+    "Cartesian storage coordinates": "REPRESENTATIONAL",
+    "N6 topology": "POSTULATED",
+    "linear F03": "POSTULATED",
+    "one-cell source contact": "POSTULATED",
+    "periodic boundaries": "NUMERICAL",
+    "progression-step evolution": "POSTULATED",
+    "scalar source amplitude": "POSTULATED",
+    "second dynamical memory": "DERIVED_REQUIREMENT / representation nonunique",
+    "source locality": "POSTULATED",
+    "zero-mode gauge": "REPRESENTATIONAL"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "GEOMETRY_SHAPE_DEPENDS_ON_SOURCE_SCALE": "UNRESOLVED",
+  "reason": "Amplitude scaling of scalar state is exact, but no geometry mapping is defined.",
+  "rows": [
+    {
+      "name": "Z01_THIN_CENTRAL",
+      "normalized_directional_pattern_correlation": 0.9999999999999999,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 1
+    },
+    {
+      "name": "Z01_THIN_CENTRAL",
+      "normalized_directional_pattern_correlation": 0.9999999999999999,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 2
+    },
+    {
+      "name": "Z01_THIN_CENTRAL",
+      "normalized_directional_pattern_correlation": 0.9999999999999999,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 4
+    },
+    {
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 1
+    },
+    {
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 2
+    },
+    {
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 4
+    },
+    {
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 1
+    },
+    {
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 2
+    },
+    {
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 4
+    },
+    {
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 1
+    },
+    {
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 2
+    },
+    {
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 4
+    },
+    {
+      "name": "Z04_DOUBLE_LAYER",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 1
+    },
+    {
+      "name": "Z04_DOUBLE_LAYER",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 2
+    },
+    {
+      "name": "Z04_DOUBLE_LAYER",
+      "normalized_directional_pattern_correlation": 1.0,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 4
+    },
+    {
+      "name": "Z05_ASYMMETRIC",
+      "normalized_directional_pattern_correlation": 1.0000000000000002,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 1
+    },
+    {
+      "name": "Z05_ASYMMETRIC",
+      "normalized_directional_pattern_correlation": 1.0000000000000002,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 2
+    },
+    {
+      "name": "Z05_ASYMMETRIC",
+      "normalized_directional_pattern_correlation": 1.0000000000000002,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 4
+    },
+    {
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "normalized_directional_pattern_correlation": 0.9999999999999999,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 1
+    },
+    {
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "normalized_directional_pattern_correlation": 0.9999999999999999,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 2
+    },
+    {
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "normalized_directional_pattern_correlation": 0.9999999999999999,
+      "scalar_state_linearity_error": 0.0,
+      "scale": 4
+    }
+  ],
+  "scalar_deformation_shape_scale_invariant": true
+}

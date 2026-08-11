@@ -1,0 +1,43 @@
+{
+  "channels": [
+    {
+      "anisotropy": 0.059978028265419384,
+      "centroid_xy": [
+        55.27681515422089,
+        64.10486138566722
+      ],
+      "channel": "F814W",
+      "connected_components": "NOT_COMPUTED_WITHOUT_MORPHOLOGY_THRESHOLD",
+      "peak_locations_xy": [
+        [
+          12,
+          79
+        ],
+        [
+          100,
+          110
+        ],
+        [
+          45,
+          91
+        ],
+        [
+          45,
+          92
+        ],
+        [
+          27,
+          13
+        ]
+      ],
+      "principal_axis_variances": [
+        848.5180813632423,
+        752.492616475058
+      ],
+      "rms_radius": 40.0126317284717,
+      "support_fraction": 0.21783447265625,
+      "support_pixels": 3569
+    }
+  ],
+  "normalization": "L1 relative per channel"
+}

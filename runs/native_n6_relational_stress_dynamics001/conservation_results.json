@@ -1,0 +1,20 @@
+{
+  "F01": {
+    "Q_q_final": 0.005440770873122591,
+    "Q_q_initial": 1.0,
+    "conserved": false
+  },
+  "F02": {
+    "conserved": true,
+    "formula": "sum(q^2)+sum(|tau|^2)/6+sum(Gq*tau)/6",
+    "maximum_absolute_drift": 6.661338147750939e-16,
+    "object": "NODE_PLUS_BOND"
+  },
+  "F03": {
+    "coefficient_origin": "exact invariant of executed update; 6 is N6 coordination",
+    "conserved": true,
+    "formula": "sum(r^2)+sum(|Gq|^2)/6-sum(Gq*Gr)/6",
+    "maximum_absolute_drift": 8.881784197001252e-16,
+    "object": "NODE_PLUS_RETAINED_CHANGE"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "boundary": "periodic; measurements stop at 12 steps on 17^3, boundary wrap may begin for axial fronts",
+  "centroid_interpretation": "diagnostic only; not a ray trajectory",
+  "classification": {
+    "F01": "DIFFUSIVE_RELAXATIONAL",
+    "F02": "WAVE_LIKE_RELATIONAL_CANDIDATE",
+    "F03": "REVERSIBLE_WAVE_LIKE_RELATIONAL_PROPAGATION",
+    "F04": "REVERSIBLE_NONMINIMAL"
+  },
+  "directional_diagnostic": {
+    "derived_not_inserted": true,
+    "peak_axis_antisymmetry": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "spatial_asymmetry_encoded": true
+  },
+  "dispersion": "DISPERSIVE: cos(omega)=1-lambda_N6/12, so spatial wavelengths differ",
+  "runs": [
+    {
+      "combined_invariant_max_abs_drift": 4.440892098500626e-16,
+      "final_support_radius": 8.94427190999916,
+      "front_speed_native_upper": 1.0,
+      "initial_support_radius": 0.0,
+      "perturbation": "P01",
+      "sign_change_observed": true
+    },
+    {
+      "combined_invariant_max_abs_drift": 4.440892098500626e-16,
+      "final_support_radius": 9.433981132056603,
+      "front_speed_native_upper": 1.0,
+      "initial_support_radius": 1.0,
+      "perturbation": "P02",
+      "sign_change_observed": true
+    },
+    {
+      "combined_invariant_max_abs_drift": 8.881784197001252e-16,
+      "final_support_radius": 9.433981132056603,
+      "front_speed_native_upper": 1.0,
+      "initial_support_radius": 1.0,
+      "perturbation": "P03",
+      "sign_change_observed": true
+    },
+    {
+      "combined_invariant_max_abs_drift": 8.881784197001252e-16,
+      "final_support_radius": 13.856406460551018,
+      "front_speed_native_upper": 1.0,
+      "initial_support_radius": 13.856406460551018,
+      "perturbation": "P04",
+      "sign_change_observed": true
+    },
+    {
+      "combined_invariant_max_abs_drift": 8.881784197001252e-16,
+      "final_support_radius": 9.433981132056603,
+      "front_speed_native_upper": 1.0,
+      "initial_support_radius": 1.0,
+      "perturbation": "P05",
+      "sign_change_observed": true
+    }
+  ]
+}

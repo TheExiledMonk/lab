@@ -1,0 +1,24 @@
+{
+  "absolute_frequency_error": 0.1699636880126608,
+  "dev157_progression_frequency": 0.1699636880126608,
+  "direction": "DERIVED_FROM_RELATIONAL_ASYMMETRY",
+  "directional_k2_fractions": [
+    0.37641493462353165,
+    0.31179253268823426,
+    0.3117925326882342
+  ],
+  "dominant_mode_indices": [
+    14,
+    0,
+    0
+  ],
+  "geometry": "ONE_CELL",
+  "measured_progression_frequency": 0.0,
+  "packet_initialized": false,
+  "rms_native_wave_number": 2.0472699856977297,
+  "rms_native_wavelength": 3.0690555476678933,
+  "source_generated": true,
+  "spectral_participation_modes": 64.17465350370526,
+  "spectral_width_measure": "RMS_NATIVE_WAVE_NUMBER",
+  "total_spectral_power": 5.509345975556986
+}

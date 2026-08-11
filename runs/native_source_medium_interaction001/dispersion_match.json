@@ -1,0 +1,9 @@
+{
+  "classification": "TRUE",
+  "experiment": "source-removal free residual; no packet initialization",
+  "frequency_bin_width": 0.1308996938995747,
+  "moving_source_residual_classification": "PARTIAL",
+  "reason": "free release occupies Dev157 eigenmodes; finite time-bin comparison is compatible, while the continuously forced moving wake is not itself source-free",
+  "weighted_branch_error": 0.03199652233809252,
+  "within_one_frequency_bin": true
+}

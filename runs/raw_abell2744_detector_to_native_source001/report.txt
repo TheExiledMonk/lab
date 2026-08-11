@@ -1,0 +1,19 @@
+DEV161 RAW ABELL 2744 DETECTOR-TO-NATIVE-SOURCE BRIDGE AUDIT
+
+Outcome: a target-blind multi-channel native 2D source constraint is justified.
+FLT is the minimum calibrated primary pixel product; RAW remains provenance and FLC a CTE-corrected control.
+All 116 RAW/FLT/FLC families were inventoried and 232 FLT science-chip arrays were accessed with ERR and DQ handling.
+The common frame uses only FITS celestial WCS and fixed sky binning. Filters remain separate.
+Per-chip median background removal and inverse-variance combination are instrument/data driven.
+The promoted amplitudes are relative L1-normalized projected intensity constraints, not mass density.
+Broadband filters provide no unique depth. Historical rho3 is therefore not justified and no extrusion was performed.
+The 2D distributed constraint is structurally compatible with Dev159 after target-blind lattice mapping; its absolute coupling remains unresolved.
+No kappa, gamma, five-cluster source, mass prior, lens, propagation, or observer was used or executed.
+
+PREFERRED_RAW_NATIVE_ENDPOINT=NATIVE_MULTI_CHANNEL_SOURCE_CONSTRAINT
+RAW_TO_NATIVE_SOURCE_EDGE=RESOLVED
+RAW_DATA_CAN_JUSTIFY_HISTORICAL_RHO3=FALSE
+ABSOLUTE_NATIVE_SOURCE_SCALE=RELATIVE_ONLY
+NATIVE_LENS_GENERATED=false
+DEV159_PROPAGATION_EXECUTED=false
+OBSERVER_EXECUTED=false

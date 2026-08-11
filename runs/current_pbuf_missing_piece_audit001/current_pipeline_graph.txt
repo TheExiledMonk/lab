@@ -1,0 +1,21 @@
+CURRENT PBUF PIPELINE
+
+[PASS] RAW archive -> [PASS] FLT/FLC calibration -> [PASS] common WCS
+  -> [PASS] projected native source -> [PARTIAL] non-unique 3D family
+  -> [PASS] stationary N6 source/lens
+
+[PASS] free finite native state -> [PARTIAL] native propagation condition
+                                      |
+[PASS] stationary lens ----------------+
+                                      v
+                         [UNDERDETERMINED] loaded directional mechanism
+                                      v
+                         [BLOCKED] finite loaded propagation
+                                      v
+                         [BLOCKED] received native 3D state
+                                      v
+                         [PASS/HISTORICAL HARNESS] existing observer
+                                      v
+                         [BLOCKED] new finite-native 2D output
+
+[MISSING] physical normalization -> [BLOCKED] observational comparison

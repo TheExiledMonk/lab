@@ -1,0 +1,70 @@
+{
+  "LOADED_DYNAMIC_INVARIANT": "EXACT",
+  "energy_density_manufactured": false,
+  "rows": [
+    {
+      "absolute_error": 5.460684512557097e-24,
+      "after": 5.5768750622585916e-11,
+      "before": 5.5768750622591376e-11,
+      "classification": "EXACT",
+      "name": "DEV156_F03_PERTURBATION_QUADRATIC_INVARIANT",
+      "name_realization": "Z01_THIN_CENTRAL",
+      "new_energy_density_introduced": false
+    },
+    {
+      "absolute_error": 5.234502313812128e-25,
+      "after": 5.57687506225919e-11,
+      "before": 5.5768750622591376e-11,
+      "classification": "EXACT",
+      "name": "DEV156_F03_PERTURBATION_QUADRATIC_INVARIANT",
+      "name_realization": "Z02_UNIFORM_DEPTH_2",
+      "new_energy_density_introduced": false
+    },
+    {
+      "absolute_error": 2.3070584271986787e-24,
+      "after": 5.5768750622593683e-11,
+      "before": 5.5768750622591376e-11,
+      "classification": "EXACT",
+      "name": "DEV156_F03_PERTURBATION_QUADRATIC_INVARIANT",
+      "name_realization": "Z02_UNIFORM_DEPTH_4",
+      "new_energy_density_introduced": false
+    },
+    {
+      "absolute_error": 1.1761474334738362e-24,
+      "after": 5.576875062259255e-11,
+      "before": 5.5768750622591376e-11,
+      "classification": "EXACT",
+      "name": "DEV156_F03_PERTURBATION_QUADRATIC_INVARIANT",
+      "name_realization": "Z03_SYMMETRIC_COMPACT",
+      "new_energy_density_introduced": false
+    },
+    {
+      "absolute_error": 3.509055254814797e-24,
+      "after": 5.5768750622594885e-11,
+      "before": 5.5768750622591376e-11,
+      "classification": "EXACT",
+      "name": "DEV156_F03_PERTURBATION_QUADRATIC_INVARIANT",
+      "name_realization": "Z04_DOUBLE_LAYER",
+      "new_energy_density_introduced": false
+    },
+    {
+      "absolute_error": 1.0423768187875263e-23,
+      "after": 5.576875062258095e-11,
+      "before": 5.5768750622591376e-11,
+      "classification": "EXACT",
+      "name": "DEV156_F03_PERTURBATION_QUADRATIC_INVARIANT",
+      "name_realization": "Z05_ASYMMETRIC",
+      "new_energy_density_introduced": false
+    },
+    {
+      "absolute_error": 3.7933985903799e-24,
+      "after": 5.576875062258758e-11,
+      "before": 5.5768750622591376e-11,
+      "classification": "EXACT",
+      "name": "DEV156_F03_PERTURBATION_QUADRATIC_INVARIANT",
+      "name_realization": "Z06_SPATIALLY_VARIABLE",
+      "new_energy_density_introduced": false
+    }
+  ],
+  "scope": "load-independent F03 perturbation map"
+}

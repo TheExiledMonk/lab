@@ -1,0 +1,7 @@
+{
+  "OBSERVER_BLOCKED_BY_UPSTREAM_PHYSICS": true,
+  "OBSERVER_GENUINELY_MISSING_COMPONENTS": [],
+  "OBSERVER_RECONNECTION_STATUS": "ADAPTER_REQUIRED",
+  "adapter_implemented": false,
+  "reason": "existing observer consumes ray-shaped receipt fields; finite lattice state has no current receipt-to-ray/channel adapter"
+}

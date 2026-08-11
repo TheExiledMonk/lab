@@ -1,0 +1,36 @@
+{
+  "channels": [
+    "F814W"
+  ],
+  "classification": "HIGH",
+  "lensing_target_used": false,
+  "measures": [
+    "spatial correlation",
+    "centroid differences",
+    "principal-axis differences",
+    "support overlap",
+    "connected-component correspondence",
+    "peak-location consistency"
+  ],
+  "pairwise": [],
+  "per_channel": [
+    {
+      "centroid_xy": [
+        55.27681515422089,
+        64.10486138566722
+      ],
+      "channel_index": 0,
+      "peak_location_xy": [
+        12,
+        79
+      ],
+      "principal_angle_degrees": 155.6982359978672,
+      "principal_variances": [
+        848.5180813632423,
+        752.492616475058
+      ],
+      "support_fraction": 0.21783447265625
+    }
+  ],
+  "single_channel_note": "No cross-filter pair exists"
+}

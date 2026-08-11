@@ -1,0 +1,40 @@
+{
+  "amplitude_scaling_linear": true,
+  "conclusion": "Magnitude scales response amplitude; linear frozen dynamics leaves normalized spectral selection to source motion and geometry.",
+  "dominant_mode_changes_with_magnitude": false,
+  "rows": [
+    {
+      "amplitude": 0.01,
+      "dominant_mode_indices": [
+        14,
+        0,
+        0
+      ],
+      "residual_peak": 0.010634405778399005,
+      "spectral_participation_modes": 64.17465350370526,
+      "stationary_peak": 0.01426151627416755
+    },
+    {
+      "amplitude": 0.02,
+      "dominant_mode_indices": [
+        14,
+        0,
+        0
+      ],
+      "residual_peak": 0.02126881155679801,
+      "spectral_participation_modes": 64.17465350370526,
+      "stationary_peak": 0.0285230325483351
+    },
+    {
+      "amplitude": 0.04,
+      "dominant_mode_indices": [
+        14,
+        0,
+        0
+      ],
+      "residual_peak": 0.04253762311359602,
+      "spectral_participation_modes": 64.17465350370526,
+      "stationary_peak": 0.0570460650966702
+    }
+  ]
+}

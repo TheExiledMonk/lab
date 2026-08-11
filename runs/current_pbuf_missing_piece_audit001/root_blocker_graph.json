@@ -1,0 +1,36 @@
+{
+  "ROOT_BLOCKERS": [
+    {
+      "candidates": [
+        "state-dependent propagation condition",
+        "conservative bond-flux law",
+        "directional allocation law",
+        "missing relation/separation state",
+        "missing native interaction primitive"
+      ],
+      "id": "RB1",
+      "immediate_manifestation": "no derived loaded directional propagation response",
+      "name": "native loaded propagation mechanism",
+      "status": "UNDERDETERMINED"
+    },
+    {
+      "critical_for_structural_observer_path": false,
+      "id": "RB2",
+      "name": "absolute physical normalization",
+      "status": "UNRESOLVED"
+    },
+    {
+      "critical_for_diagnostic_family_path": false,
+      "id": "RB3",
+      "name": "source depth/3D uniqueness",
+      "status": "NON_UNIQUE"
+    }
+  ],
+  "ROOT_BLOCKER_COUNT": 3,
+  "critical_chain": [
+    "received native state absent",
+    "finite loaded propagation absent",
+    "loaded directional response absent",
+    "deeper mechanism: MULTIPLE_CANDIDATES / UNDERDETERMINED"
+  ]
+}

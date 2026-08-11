@@ -1,0 +1,8 @@
+{
+  "absolute_coupling": "UNRESOLVED",
+  "coefficient_fitted": false,
+  "executed_source_medium_response": false,
+  "mapping": "each supported native (i,j) cell is a local source constraint with raw-derived relative amplitude; k/depth remains unassigned",
+  "status": "COMPATIBLE_AFTER_TARGET_BLIND_MAPPING",
+  "structural_test": "amplitudes are finite, nonnegative, channel-L1 normalized and indexed on a native 2D lattice"
+}

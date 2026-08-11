@@ -1,0 +1,331 @@
+{
+  "LEDGER_EPOCH": "POST_RESTORED_N6_CURRENT_STATE",
+  "PRE_LEDGER_HISTORY_CANONICAL": false,
+  "entries": [
+    {
+      "LEDGER_ENTRY": "PRE_LEDGER_HISTORY",
+      "STATUS": "HISTORICAL_ONLY",
+      "warning": "Earlier development includes exploratory, superseded, and lower-dimensional surrogate implementations. Historical results must not override the current restored N6 code unless explicitly revalidated or preserved."
+    },
+    {
+      "BRANCH": "dev-doc-112-fullscale-vulkan-observer-validation",
+      "DATE": "2026-08-11",
+      "DEV_ID": "CURRENT_RESTORED_N6_BASELINE",
+      "FINAL_COMMIT": "f56e6a8bea77572ba80772e81806a68742c864d1",
+      "FROZEN_RESULTS": [
+        "Dev163 loaded scalar perturbation cancels to free F03",
+        "Dev164 scalar static state does not derive geometry",
+        "Dev165 no mechanism survives promotion"
+      ],
+      "LEDGER_ENTRY": "000",
+      "PARTIAL_MECHANISMS": [
+        "H07 directional allocation",
+        "H14 emergent geometry as output",
+        "H15 new primitive required"
+      ],
+      "PUSH_CONFIRMED": true,
+      "REJECTED_MECHANISMS": [
+        "linear loaded F03 changes disturbance",
+        "scalar static state defines geometry",
+        "existing scalar bond state alone redirects",
+        "frozen F02/F03 memory alone redirects",
+        "minimal binary magnetic-like pair"
+      ],
+      "RESULT": "restored N6 chain through Dev165 present locally",
+      "START_COMMIT": "f56e6a8bea77572ba80772e81806a68742c864d1",
+      "STATUS": "BASELINE",
+      "TESTS": "Dev156-165 canonical suite: 38 passed",
+      "TITLE": "Current restored N6 baseline",
+      "UNDERDETERMINED_MECHANISMS": [
+        "separation state",
+        "orientation/polarity",
+        "richer magnetic-like interaction",
+        "vector neighbor relation",
+        "interaction matrix",
+        "multicomponent element",
+        "preferred relation state",
+        "state-dependent propagation speed"
+      ],
+      "current_active_modules": [
+        "runs/native_n6_relational_stress_dynamics001/report.txt",
+        "runs/native_propagation_spatial_scale_dispersion001/report.txt",
+        "runs/native_unified_medium_excursion001/report.txt",
+        "runs/native_source_medium_interaction001/report.txt",
+        "runs/raw_abell2744_simple_lensing_baseline001/report.txt",
+        "runs/raw_abell2744_detector_to_native_source001/report.txt",
+        "runs/raw_abell2744_3d_source_ambiguity_native_lens001/report.txt",
+        "runs/raw_abell2744_finite_native_lensing_gate001/report.txt",
+        "runs/static_native_deformation_to_relational_geometry001/report.txt",
+        "runs/native_medium_interaction_wide_net001/report.txt"
+      ],
+      "current_blockers": [
+        "native loaded propagation mechanism",
+        "absolute physical normalization",
+        "source depth/3D uniqueness"
+      ],
+      "observer_state": "existing, upstream-blocked",
+      "raw_data_state": "116 RAW/FLT/FLC; one effective F814W channel; projected relative source serialized",
+      "repository_cleanliness": "52 untracked intended Dev156-165 files at epoch capture"
+    },
+    {
+      "BRANCH": "dev-doc-112-fullscale-vulkan-observer-validation",
+      "DATE": "2026-08-11",
+      "DEV_ID": "DEV166",
+      "DOWNSTREAM_BLOCKED": [
+        "finite loaded propagation",
+        "received native 3D state",
+        "new native observer output"
+      ],
+      "DOWNSTREAM_UNBLOCKED": [],
+      "FILES_CHANGED": [
+        "docs/PBUF_DEVELOPMENT_LEDGER.md",
+        "docs/PBUF_DEVELOPMENT_LEDGER.json",
+        "runs/current_pbuf_missing_piece_audit001/*"
+      ],
+      "FINAL_COMMIT": "RECORDED_AFTER_AUDIT_COMMIT",
+      "FROZEN_RESULTS": [
+        "LOADED_DYNAMIC_COUPLING_DERIVED=FALSE",
+        "DEFORMED_BOND_LENGTHS_DERIVABLE=FALSE",
+        "DEFORMED_BOND_DIRECTIONS_DERIVABLE=FALSE",
+        "GLOBAL_NODE_EMBEDDING_DERIVABLE=FALSE",
+        "SURVIVING_MECHANISM_COUNT=0"
+      ],
+      "LEDGER_ENTRY": "001",
+      "NEXT_ALLOWED_ACTION": "discussion/research review only; NEXT_DEV_AUTHORIZED=false",
+      "PARTIAL_MECHANISMS": [
+        "H07 directional allocation",
+        "H14 emergent geometry as output",
+        "H15 new primitive required"
+      ],
+      "PUSH_CONFIRMED": "PENDING_FINALIZATION",
+      "QUESTION": "What exists, what is missing, and which missing pieces are the same unresolved problem?",
+      "REJECTED_MECHANISMS": [
+        "linear loaded F03 changes disturbance",
+        "scalar static state defines geometry",
+        "existing scalar bond state alone redirects",
+        "frozen F02/F03 memory alone redirects",
+        "minimal binary magnetic-like pair"
+      ],
+      "REOPEN_CONDITIONS": [
+        {
+          "BY": "DEV163",
+          "MECHANISM": "linear loaded F03 changes disturbance",
+          "REOPEN_ONLY_IF": "governing dynamic operator changes independently",
+          "STATUS": "REJECTED"
+        },
+        {
+          "BY": "DEV164",
+          "MECHANISM": "scalar static state defines geometry",
+          "REOPEN_ONLY_IF": "new native geometry semantics/state exists independently",
+          "STATUS": "REJECTED"
+        },
+        {
+          "BY": "DEV165_H01",
+          "MECHANISM": "existing scalar bond state alone redirects",
+          "REOPEN_ONLY_IF": "governing loaded update changes independently",
+          "STATUS": "REJECTED"
+        },
+        {
+          "BY": "DEV165_H06",
+          "MECHANISM": "frozen F02/F03 memory alone redirects",
+          "REOPEN_ONLY_IF": "memory receives an independently derived load-dependent law",
+          "STATUS": "REJECTED"
+        },
+        {
+          "BY": "DEV165_H12",
+          "MECHANISM": "minimal binary magnetic-like pair",
+          "REOPEN_ONLY_IF": "richer state and reversible law are independently established",
+          "STATUS": "REJECTED"
+        }
+      ],
+      "RESULT": "complete canonical dependency/circularity audit; no new physics",
+      "ROOT_BLOCKER_CHANGED": true,
+      "START_COMMIT": "f56e6a8bea77572ba80772e81806a68742c864d1",
+      "STATUS": "COMPLETE_PENDING_REMOTE_FINALIZATION",
+      "TESTS": "50 Dev156-165 tests pass via python -m pytest; diff check pending finalization",
+      "TITLE": "Complete missing-piece audit",
+      "UNDERDETERMINED_MECHANISMS": [
+        "separation state",
+        "orientation/polarity",
+        "richer magnetic-like interaction",
+        "vector neighbor relation",
+        "interaction matrix",
+        "multicomponent element",
+        "preferred relation state",
+        "state-dependent propagation speed"
+      ]
+    }
+  ],
+  "mechanism_ledger": [
+    {
+      "BY": "DEV163",
+      "MECHANISM": "linear loaded F03 changes disturbance",
+      "REOPEN_ONLY_IF": "governing dynamic operator changes independently",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV164",
+      "MECHANISM": "scalar static state defines geometry",
+      "REOPEN_ONLY_IF": "new native geometry semantics/state exists independently",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV165_H01",
+      "MECHANISM": "existing scalar bond state alone redirects",
+      "REOPEN_ONLY_IF": "governing loaded update changes independently",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV165_H06",
+      "MECHANISM": "frozen F02/F03 memory alone redirects",
+      "REOPEN_ONLY_IF": "memory receives an independently derived load-dependent law",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV165_H12",
+      "MECHANISM": "minimal binary magnetic-like pair",
+      "REOPEN_ONLY_IF": "richer state and reversible law are independently established",
+      "STATUS": "REJECTED"
+    },
+    {
+      "COEFFICIENT_FREE": true,
+      "CONSERVATIVE": true,
+      "DERIVED_FROM_FROZEN_PBUF": false,
+      "MECHANISM": "H07 directional allocation",
+      "PERMUTATION_COVARIANT": true,
+      "REDIRECTION_DEMONSTRATED": true,
+      "STATUS": "PARTIAL"
+    },
+    {
+      "MECHANISM": "H14 emergent geometry as output",
+      "STATUS": "PARTIAL",
+      "evidence": "directional effect demonstrated only with nonderived routing"
+    },
+    {
+      "MECHANISM": "H15 new primitive required",
+      "STATUS": "PARTIAL",
+      "evidence": "need localized; primitive identity not determined"
+    },
+    {
+      "MECHANISM": "separation state",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "orientation/polarity",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "richer magnetic-like interaction",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "vector neighbor relation",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "interaction matrix",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "multicomponent element",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "preferred relation state",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "state-dependent propagation speed",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    }
+  ],
+  "missing_piece_ledger": [
+    {
+      "BLOCKED_BY": "underdetermined deeper mechanism",
+      "BLOCKS": "finite loaded propagation",
+      "LAYER": "native dynamics",
+      "MISSING_ITEM": "loaded directional response",
+      "NEEDED_FOR_CURRENT_GOAL": true,
+      "ROOT_OR_DOWNSTREAM": "ROOT",
+      "STATUS": "MISSING"
+    },
+    {
+      "BLOCKED_BY": "loaded directional response",
+      "BLOCKS": "received native 3D state",
+      "LAYER": "native dynamics",
+      "MISSING_ITEM": "finite loaded propagation",
+      "NEEDED_FOR_CURRENT_GOAL": true,
+      "ROOT_OR_DOWNSTREAM": "DOWNSTREAM",
+      "STATUS": "BLOCKED"
+    },
+    {
+      "BLOCKED_BY": "finite loaded propagation",
+      "BLOCKS": "observer reconnection",
+      "LAYER": "receipt",
+      "MISSING_ITEM": "received finite native 3D state",
+      "NEEDED_FOR_CURRENT_GOAL": true,
+      "ROOT_OR_DOWNSTREAM": "DOWNSTREAM",
+      "STATUS": "BLOCKED"
+    },
+    {
+      "BLOCKED_BY": "receipt contract absent",
+      "BLOCKS": "finite-state observer input",
+      "LAYER": "observer interface",
+      "MISSING_ITEM": "observer adapter",
+      "NEEDED_FOR_CURRENT_GOAL": true,
+      "ROOT_OR_DOWNSTREAM": "DOWNSTREAM",
+      "STATUS": "ADAPTER_REQUIRED"
+    },
+    {
+      "BLOCKED_BY": null,
+      "BLOCKS": "physical comparison",
+      "LAYER": "physical scale",
+      "MISSING_ITEM": "absolute normalization",
+      "NEEDED_FOR_CURRENT_GOAL": false,
+      "ROOT_OR_DOWNSTREAM": "ROOT_INDEPENDENT",
+      "STATUS": "UNRESOLVED"
+    },
+    {
+      "BLOCKED_BY": "projected detector data",
+      "BLOCKS": "unique physical 3D interpretation",
+      "LAYER": "source",
+      "MISSING_ITEM": "unique 3D source depth",
+      "NEEDED_FOR_CURRENT_GOAL": false,
+      "ROOT_OR_DOWNSTREAM": "ROOT_INDEPENDENT",
+      "STATUS": "NON_UNIQUE"
+    }
+  ],
+  "permanent_future_dev_rule": [
+    "read current ledger",
+    "inspect current GitHub implementation",
+    "check aliases/status/reopen conditions",
+    "tests pass",
+    "ledger updated",
+    "commit SHA recorded",
+    "push succeeds",
+    "remote SHA verified"
+  ],
+  "research_leads": [
+    {
+      "IMPLEMENTATION_STATUS": "NOT_AUTHORIZED",
+      "LEAD": "Accelerating-wave / variable-medium propagation",
+      "STATUS": "OPEN_RESEARCH"
+    }
+  ]
+}

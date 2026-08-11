@@ -1,0 +1,28 @@
+{
+  "invariants": [
+    {
+      "DIMENSION": "N6 3D",
+      "EXACT_OR_APPROXIMATE": "EXACT",
+      "LAW": "sum q^2 + sum b^2/6 + sum grad(q)b/6",
+      "NAME": "F02 quadratic invariant",
+      "PHYSICAL_ENERGY_INTERPRETATION": "NOT_DERIVED",
+      "STATE": "q,bonds"
+    },
+    {
+      "DIMENSION": "N6 3D",
+      "EXACT_OR_APPROXIMATE": "EXACT",
+      "LAW": "sum r^2 + sum grad(q)^2/6 - sum grad(q)grad(r)/6",
+      "NAME": "F03 quadratic invariant",
+      "PHYSICAL_ENERGY_INTERPRETATION": "NOT_DERIVED",
+      "STATE": "q,retained change"
+    },
+    {
+      "DIMENSION": "N6 3D",
+      "EXACT_OR_APPROXIMATE": "EXACT",
+      "LAW": "same as free F03 after background cancellation",
+      "NAME": "source-loaded perturbation invariant",
+      "PHYSICAL_ENERGY_INTERPRETATION": "NOT_DERIVED",
+      "STATE": "perturbation"
+    }
+  ]
+}

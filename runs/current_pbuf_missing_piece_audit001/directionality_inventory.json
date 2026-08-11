@@ -1,0 +1,39 @@
+{
+  "conflations": [
+    "historical geometric ray direction must not be promoted to finite native propagation",
+    "directed scalar differences must not be called bond geometry"
+  ],
+  "items": [
+    {
+      "name": "N6 topological direction",
+      "semantics": "Cartesian storage-neighbor labels",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "name": "directional scalar relation",
+      "semantics": "u_b-u_a; not geometry",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "name": "excitation direction",
+      "semantics": "relational asymmetry/free transfer",
+      "status": "PARTIAL"
+    },
+    {
+      "name": "bond flux",
+      "status": "ABSENT_AS_LOADED_LAW"
+    },
+    {
+      "name": "effective propagation direction",
+      "status": "MISSING_LOADED"
+    },
+    {
+      "name": "physical observer trajectory",
+      "status": "HISTORICAL_GEOMETRIC_CONTROL"
+    },
+    {
+      "name": "zero-width ray direction",
+      "status": "HISTORICAL"
+    }
+  ]
+}

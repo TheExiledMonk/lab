@@ -1,0 +1,21 @@
+{
+  "bounds_degrees": {
+    "dec": [
+      -30.45877612466402,
+      -30.331889032401282
+    ],
+    "ra": [
+      3.5207153724129374,
+      3.655152743459256
+    ]
+  },
+  "coordinate_covariance": "WCS geometry explicit; no downstream morphology enters frame selection",
+  "frame": "ICRS celestial bounding box sampled from calibrated SCI WCS",
+  "mapping": "FITS WCS celestial pixel_to_world followed by fixed rectangular sky binning",
+  "morphology_targeted_alignment": false,
+  "shape": [
+    128,
+    128
+  ],
+  "status": "TRUE"
+}

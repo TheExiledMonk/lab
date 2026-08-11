@@ -1,0 +1,13 @@
+{
+  "COSMOLOGY_EXECUTED": false,
+  "inspection_only": true,
+  "state_dependent_propagation_speed_embedded": false,
+  "uses": {
+    "CMB": "historical",
+    "WL": "historical bridge",
+    "acceleration": "historical",
+    "c_state": "historical source/loading use exists outside propagation-speed semantics",
+    "elastic state": "historical/partial",
+    "growth": "historical"
+  }
+}

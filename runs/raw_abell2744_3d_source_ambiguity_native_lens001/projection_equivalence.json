@@ -1,0 +1,42 @@
+{
+  "all_3d_realizations_projection_equivalent": true,
+  "fixed_tolerance": 1e-14,
+  "maximum_projected_reconstruction_error": 6.938893903907228e-18,
+  "rows": [
+    {
+      "equivalent": true,
+      "max_absolute_error": 0.0,
+      "name": "Z01_THIN_CENTRAL"
+    },
+    {
+      "equivalent": true,
+      "max_absolute_error": 1.734723475976807e-18,
+      "name": "Z02_UNIFORM_DEPTH_2"
+    },
+    {
+      "equivalent": true,
+      "max_absolute_error": 3.469446951953614e-18,
+      "name": "Z02_UNIFORM_DEPTH_4"
+    },
+    {
+      "equivalent": true,
+      "max_absolute_error": 6.938893903907228e-18,
+      "name": "Z03_SYMMETRIC_COMPACT"
+    },
+    {
+      "equivalent": true,
+      "max_absolute_error": 0.0,
+      "name": "Z04_DOUBLE_LAYER"
+    },
+    {
+      "equivalent": true,
+      "max_absolute_error": 4.336808689942018e-19,
+      "name": "Z05_ASYMMETRIC"
+    },
+    {
+      "equivalent": true,
+      "max_absolute_error": 0.0,
+      "name": "Z06_SPATIALLY_VARIABLE"
+    }
+  ]
+}

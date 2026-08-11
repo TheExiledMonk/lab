@@ -1,0 +1,1148 @@
+{
+  "runs": [
+    {
+      "density_warning": "support uses positive state magnitude only; it is not a local decomposition of the conserved invariant",
+      "family": "P01",
+      "maximum_invariant_absolute_drift": 4.235164736271502e-22,
+      "metrics": [
+        {
+          "finite_support_max_radius": 0.0,
+          "front_thickness_radial_std": 0.0,
+          "invariant": 1e-06,
+          "participation_linear_scale": 1.0,
+          "participation_volume": 1.0,
+          "peak_radius": 0.0,
+          "rms_radius": 0.0,
+          "step": 0
+        },
+        {
+          "finite_support_max_radius": 1.0,
+          "front_thickness_radial_std": 0.4948716593053935,
+          "invariant": 1e-06,
+          "participation_linear_scale": 1.5496730475617762,
+          "participation_volume": 3.721518987341772,
+          "peak_radius": 0.0,
+          "rms_radius": 0.7559289460184544,
+          "step": 1
+        },
+        {
+          "finite_support_max_radius": 2.0,
+          "front_thickness_radial_std": 0.545943035242031,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.3742904213647602,
+          "participation_volume": 2.595586810266064,
+          "peak_radius": 0.0,
+          "rms_radius": 0.6966586921393669,
+          "step": 2
+        },
+        {
+          "finite_support_max_radius": 3.0,
+          "front_thickness_radial_std": 0.700675114953843,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.7707946550365998,
+          "participation_volume": 5.552705077935188,
+          "peak_radius": 0.0,
+          "rms_radius": 1.0581380752922422,
+          "step": 3
+        },
+        {
+          "finite_support_max_radius": 4.0,
+          "front_thickness_radial_std": 0.6258990968354833,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 2.1714162837263253,
+          "participation_volume": 10.238333476303499,
+          "peak_radius": 0.0,
+          "rms_radius": 1.1846524499543247,
+          "step": 4
+        },
+        {
+          "finite_support_max_radius": 5.0,
+          "front_thickness_radial_std": 0.7555978195329323,
+          "invariant": 1.0000000000000004e-06,
+          "participation_linear_scale": 2.554244539660419,
+          "participation_volume": 16.664313257190262,
+          "peak_radius": 0.0,
+          "rms_radius": 1.4235406778292912,
+          "step": 5
+        },
+        {
+          "finite_support_max_radius": 6.0,
+          "front_thickness_radial_std": 0.6722123899808051,
+          "invariant": 1e-06,
+          "participation_linear_scale": 3.300650021447968,
+          "participation_volume": 35.95824038400581,
+          "peak_radius": 0.0,
+          "rms_radius": 1.6661818481593893,
+          "step": 6
+        },
+        {
+          "finite_support_max_radius": 7.0,
+          "front_thickness_radial_std": 0.7516165464871131,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 3.524222179423868,
+          "participation_volume": 43.771339802066805,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 1.9000595934937143,
+          "step": 7
+        },
+        {
+          "finite_support_max_radius": 8.0,
+          "front_thickness_radial_std": 0.7648889356704428,
+          "invariant": 1e-06,
+          "participation_linear_scale": 4.251144929532051,
+          "participation_volume": 76.82768258403024,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.151633472707224,
+          "step": 8
+        },
+        {
+          "finite_support_max_radius": 9.0,
+          "front_thickness_radial_std": 0.8059791053878205,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 4.35637054234243,
+          "participation_volume": 82.67504463968186,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.3985384305277924,
+          "step": 9
+        },
+        {
+          "finite_support_max_radius": 10.0,
+          "front_thickness_radial_std": 0.8706055238866908,
+          "invariant": 1e-06,
+          "participation_linear_scale": 4.087342846834531,
+          "participation_volume": 68.28466824151775,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.6014482997254347,
+          "step": 10
+        },
+        {
+          "finite_support_max_radius": 11.0,
+          "front_thickness_radial_std": 0.8779541189731249,
+          "invariant": 1e-06,
+          "participation_linear_scale": 5.096222091710495,
+          "participation_volume": 132.35642813289243,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.925677432825063,
+          "step": 11
+        },
+        {
+          "finite_support_max_radius": 11.045361017187261,
+          "front_thickness_radial_std": 0.984559170261495,
+          "invariant": 1e-06,
+          "participation_linear_scale": 5.04284656655948,
+          "participation_volume": 128.2411085748881,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 3.10160995938278,
+          "step": 12
+        }
+      ],
+      "representation": "F02",
+      "shape": [
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "density_warning": "support uses positive state magnitude only; it is not a local decomposition of the conserved invariant",
+      "family": "P02",
+      "maximum_invariant_absolute_drift": 4.235164736271502e-22,
+      "metrics": [
+        {
+          "finite_support_max_radius": 1.0,
+          "front_thickness_radial_std": 0.5,
+          "invariant": 2e-06,
+          "participation_linear_scale": 1.2599210498948732,
+          "participation_volume": 2.0,
+          "peak_radius": 0.0,
+          "rms_radius": 0.7071067811865476,
+          "step": 0
+        },
+        {
+          "finite_support_max_radius": 2.0,
+          "front_thickness_radial_std": 0.5751648412737377,
+          "invariant": 1.9999999999999995e-06,
+          "participation_linear_scale": 1.6696512179385854,
+          "participation_volume": 4.654545454545454,
+          "peak_radius": 0.0,
+          "rms_radius": 0.9013878188659974,
+          "step": 1
+        },
+        {
+          "finite_support_max_radius": 3.0,
+          "front_thickness_radial_std": 0.590926327140574,
+          "invariant": 2.0000000000000003e-06,
+          "participation_linear_scale": 1.4797501749666535,
+          "participation_volume": 3.240150626836992,
+          "peak_radius": 0.0,
+          "rms_radius": 0.8623728130494773,
+          "step": 2
+        },
+        {
+          "finite_support_max_radius": 4.0,
+          "front_thickness_radial_std": 0.6148724865279067,
+          "invariant": 2.0000000000000003e-06,
+          "participation_linear_scale": 2.1984270550728517,
+          "participation_volume": 10.625177165194009,
+          "peak_radius": 1.0,
+          "rms_radius": 1.2145438742301187,
+          "step": 3
+        },
+        {
+          "finite_support_max_radius": 5.0,
+          "front_thickness_radial_std": 0.6568970577832086,
+          "invariant": 2.0000000000000003e-06,
+          "participation_linear_scale": 2.1474567481604794,
+          "participation_volume": 9.903148158103344,
+          "peak_radius": 0.0,
+          "rms_radius": 1.2058645315387482,
+          "step": 4
+        },
+        {
+          "finite_support_max_radius": 6.0,
+          "front_thickness_radial_std": 0.7356891595524115,
+          "invariant": 2.0000000000000003e-06,
+          "participation_linear_scale": 2.556682531350881,
+          "participation_volume": 16.712076398867147,
+          "peak_radius": 0.0,
+          "rms_radius": 1.470370747655297,
+          "step": 5
+        },
+        {
+          "finite_support_max_radius": 7.0,
+          "front_thickness_radial_std": 0.6603065357489485,
+          "invariant": 2.0000000000000003e-06,
+          "participation_linear_scale": 3.159839484613084,
+          "participation_volume": 31.54968771690711,
+          "peak_radius": 1.0,
+          "rms_radius": 1.6441054249533054,
+          "step": 6
+        },
+        {
+          "finite_support_max_radius": 8.0,
+          "front_thickness_radial_std": 0.7637645529722054,
+          "invariant": 2e-06,
+          "participation_linear_scale": 3.5925752196546563,
+          "participation_volume": 46.3679195063868,
+          "peak_radius": 0.0,
+          "rms_radius": 1.862494821082327,
+          "step": 7
+        },
+        {
+          "finite_support_max_radius": 9.0,
+          "front_thickness_radial_std": 0.7437801605487582,
+          "invariant": 1.9999999999999995e-06,
+          "participation_linear_scale": 3.937863629850936,
+          "participation_volume": 61.06354547070645,
+          "peak_radius": 1.4142135623730951,
+          "rms_radius": 2.066550220843957,
+          "step": 8
+        },
+        {
+          "finite_support_max_radius": 10.0,
+          "front_thickness_radial_std": 0.7958149367612808,
+          "invariant": 2.0000000000000003e-06,
+          "participation_linear_scale": 4.359891658113749,
+          "participation_volume": 82.87567754576868,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.3085163222888907,
+          "step": 9
+        },
+        {
+          "finite_support_max_radius": 11.0,
+          "front_thickness_radial_std": 0.8411043360551269,
+          "invariant": 2.0000000000000003e-06,
+          "participation_linear_scale": 4.163729834427073,
+          "participation_volume": 72.18511073744908,
+          "peak_radius": 1.4142135623730951,
+          "rms_radius": 2.4681012539044462,
+          "step": 10
+        },
+        {
+          "finite_support_max_radius": 11.045361017187261,
+          "front_thickness_radial_std": 0.8457284592970037,
+          "invariant": 2.0000000000000003e-06,
+          "participation_linear_scale": 4.874383628618061,
+          "participation_volume": 115.81348207763172,
+          "peak_radius": 2.449489742783178,
+          "rms_radius": 2.7851557271204848,
+          "step": 11
+        },
+        {
+          "finite_support_max_radius": 12.041594578792296,
+          "front_thickness_radial_std": 0.944324777894334,
+          "invariant": 1.9999999999999995e-06,
+          "participation_linear_scale": 4.871310996650014,
+          "participation_volume": 115.59460644198494,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.9119405063905934,
+          "step": 12
+        }
+      ],
+      "representation": "F02",
+      "shape": [
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "density_warning": "support uses positive state magnitude only; it is not a local decomposition of the conserved invariant",
+      "family": "P03",
+      "maximum_invariant_absolute_drift": 7.940933880509066e-23,
+      "metrics": [
+        {
+          "finite_support_max_radius": 0.0,
+          "front_thickness_radial_std": 0.0,
+          "invariant": 1.6666666666666665e-07,
+          "participation_linear_scale": 1.0,
+          "participation_volume": 1.0,
+          "peak_radius": 0.0,
+          "rms_radius": 0.0,
+          "step": 0
+        },
+        {
+          "finite_support_max_radius": 1.0,
+          "front_thickness_radial_std": 0.33071891388307384,
+          "invariant": 1.6666666666666665e-07,
+          "participation_linear_scale": 1.0857670466379625,
+          "participation_volume": 1.28,
+          "peak_radius": 0.0,
+          "rms_radius": 0.3535533905932738,
+          "step": 1
+        },
+        {
+          "finite_support_max_radius": 2.0,
+          "front_thickness_radial_std": 0.5442261326973558,
+          "invariant": 1.6666666666666668e-07,
+          "participation_linear_scale": 1.3309708180481044,
+          "participation_volume": 2.3577926015767128,
+          "peak_radius": 0.0,
+          "rms_radius": 0.6871842709362768,
+          "step": 2
+        },
+        {
+          "finite_support_max_radius": 3.0,
+          "front_thickness_radial_std": 0.5597551045922986,
+          "invariant": 1.6666666666666668e-07,
+          "participation_linear_scale": 1.8549318866054867,
+          "participation_volume": 6.382398261138072,
+          "peak_radius": 0.0,
+          "rms_radius": 1.0051520176134536,
+          "step": 3
+        },
+        {
+          "finite_support_max_radius": 4.0,
+          "front_thickness_radial_std": 0.663939723760928,
+          "invariant": 1.6666666666666673e-07,
+          "participation_linear_scale": 1.869114633875753,
+          "participation_volume": 6.529919286434854,
+          "peak_radius": 0.0,
+          "rms_radius": 1.0817655539305977,
+          "step": 4
+        },
+        {
+          "finite_support_max_radius": 5.0,
+          "front_thickness_radial_std": 0.8185598950392908,
+          "invariant": 1.6666666666666673e-07,
+          "participation_linear_scale": 1.638697255948746,
+          "participation_volume": 4.40044076652725,
+          "peak_radius": 0.0,
+          "rms_radius": 1.133590650601593,
+          "step": 5
+        },
+        {
+          "finite_support_max_radius": 6.0,
+          "front_thickness_radial_std": 0.9247320503286514,
+          "invariant": 1.6666666666666673e-07,
+          "participation_linear_scale": 1.3998998784416496,
+          "participation_volume": 2.743411327338067,
+          "peak_radius": 0.0,
+          "rms_radius": 1.1498974701174067,
+          "step": 6
+        },
+        {
+          "finite_support_max_radius": 7.0,
+          "front_thickness_radial_std": 1.00326753696418,
+          "invariant": 1.6666666666666668e-07,
+          "participation_linear_scale": 1.4967269896275095,
+          "participation_volume": 3.352955351609292,
+          "peak_radius": 0.0,
+          "rms_radius": 1.293830817447283,
+          "step": 7
+        },
+        {
+          "finite_support_max_radius": 8.0,
+          "front_thickness_radial_std": 1.050681159600842,
+          "invariant": 1.666666666666667e-07,
+          "participation_linear_scale": 1.7366394166400847,
+          "participation_volume": 5.237559407682853,
+          "peak_radius": 0.0,
+          "rms_radius": 1.458015787593307,
+          "step": 8
+        },
+        {
+          "finite_support_max_radius": 9.0,
+          "front_thickness_radial_std": 1.1312800252621917,
+          "invariant": 1.666666666666667e-07,
+          "participation_linear_scale": 1.8478541653063587,
+          "participation_volume": 6.30961818796857,
+          "peak_radius": 0.0,
+          "rms_radius": 1.6110352370255796,
+          "step": 9
+        },
+        {
+          "finite_support_max_radius": 10.0,
+          "front_thickness_radial_std": 1.2681845071109825,
+          "invariant": 1.6666666666666673e-07,
+          "participation_linear_scale": 1.7697665154098816,
+          "participation_volume": 5.543038837845062,
+          "peak_radius": 0.0,
+          "rms_radius": 1.7558193364052053,
+          "step": 10
+        },
+        {
+          "finite_support_max_radius": 10.04987562112089,
+          "front_thickness_radial_std": 1.3801787632751017,
+          "invariant": 1.6666666666666673e-07,
+          "participation_linear_scale": 1.7286954343499978,
+          "participation_volume": 5.166012526995165,
+          "peak_radius": 0.0,
+          "rms_radius": 1.8896710236421153,
+          "step": 11
+        },
+        {
+          "finite_support_max_radius": 11.045361017187261,
+          "front_thickness_radial_std": 1.491223829962141,
+          "invariant": 1.6666666666666668e-07,
+          "participation_linear_scale": 1.7344158810259929,
+          "participation_volume": 5.21746716210496,
+          "peak_radius": 0.0,
+          "rms_radius": 2.0297407786182773,
+          "step": 12
+        }
+      ],
+      "representation": "F02",
+      "shape": [
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "density_warning": "support uses positive state magnitude only; it is not a local decomposition of the conserved invariant",
+      "family": "P07",
+      "maximum_invariant_absolute_drift": 4.235164736271502e-22,
+      "metrics": [
+        {
+          "finite_support_max_radius": 0.0,
+          "front_thickness_radial_std": 0.0,
+          "invariant": 1e-06,
+          "participation_linear_scale": 1.0,
+          "participation_volume": 1.0,
+          "peak_radius": 0.0,
+          "rms_radius": 0.0,
+          "step": 0
+        },
+        {
+          "finite_support_max_radius": 1.0,
+          "front_thickness_radial_std": 0.4948716593053935,
+          "invariant": 1e-06,
+          "participation_linear_scale": 1.5496730475617762,
+          "participation_volume": 3.721518987341772,
+          "peak_radius": 0.0,
+          "rms_radius": 0.7559289460184544,
+          "step": 1
+        },
+        {
+          "finite_support_max_radius": 2.0,
+          "front_thickness_radial_std": 0.545943035242031,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.3742904213647602,
+          "participation_volume": 2.595586810266064,
+          "peak_radius": 0.0,
+          "rms_radius": 0.6966586921393669,
+          "step": 2
+        },
+        {
+          "finite_support_max_radius": 3.0,
+          "front_thickness_radial_std": 0.700675114953843,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.7707946550365998,
+          "participation_volume": 5.552705077935188,
+          "peak_radius": 0.0,
+          "rms_radius": 1.0581380752922422,
+          "step": 3
+        },
+        {
+          "finite_support_max_radius": 4.0,
+          "front_thickness_radial_std": 0.6258990968354833,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 2.1714162837263253,
+          "participation_volume": 10.238333476303499,
+          "peak_radius": 0.0,
+          "rms_radius": 1.1846524499543247,
+          "step": 4
+        },
+        {
+          "finite_support_max_radius": 5.0,
+          "front_thickness_radial_std": 0.7555978195329323,
+          "invariant": 1.0000000000000004e-06,
+          "participation_linear_scale": 2.554244539660419,
+          "participation_volume": 16.664313257190262,
+          "peak_radius": 0.0,
+          "rms_radius": 1.4235406778292912,
+          "step": 5
+        },
+        {
+          "finite_support_max_radius": 6.0,
+          "front_thickness_radial_std": 0.6722123899808051,
+          "invariant": 1e-06,
+          "participation_linear_scale": 3.300650021447968,
+          "participation_volume": 35.95824038400581,
+          "peak_radius": 0.0,
+          "rms_radius": 1.6661818481593893,
+          "step": 6
+        },
+        {
+          "finite_support_max_radius": 7.0,
+          "front_thickness_radial_std": 0.7516165464871131,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 3.524222179423868,
+          "participation_volume": 43.771339802066805,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 1.9000595934937143,
+          "step": 7
+        },
+        {
+          "finite_support_max_radius": 8.0,
+          "front_thickness_radial_std": 0.7648889356704428,
+          "invariant": 1e-06,
+          "participation_linear_scale": 4.251144929532051,
+          "participation_volume": 76.82768258403024,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.151633472707224,
+          "step": 8
+        },
+        {
+          "finite_support_max_radius": 9.0,
+          "front_thickness_radial_std": 0.8059791053878205,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 4.35637054234243,
+          "participation_volume": 82.67504463968186,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.3985384305277924,
+          "step": 9
+        },
+        {
+          "finite_support_max_radius": 10.0,
+          "front_thickness_radial_std": 0.8706055238866908,
+          "invariant": 1e-06,
+          "participation_linear_scale": 4.087342846834531,
+          "participation_volume": 68.28466824151775,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.6014482997254347,
+          "step": 10
+        },
+        {
+          "finite_support_max_radius": 11.0,
+          "front_thickness_radial_std": 0.8779541189731249,
+          "invariant": 1e-06,
+          "participation_linear_scale": 5.096222091710495,
+          "participation_volume": 132.35642813289243,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.925677432825063,
+          "step": 11
+        },
+        {
+          "finite_support_max_radius": 11.045361017187261,
+          "front_thickness_radial_std": 0.984559170261495,
+          "invariant": 1e-06,
+          "participation_linear_scale": 5.04284656655948,
+          "participation_volume": 128.2411085748881,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 3.10160995938278,
+          "step": 12
+        }
+      ],
+      "representation": "F02",
+      "shape": [
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "density_warning": "support uses positive state magnitude only; it is not a local decomposition of the conserved invariant",
+      "family": "P01",
+      "maximum_invariant_absolute_drift": 2.117582368135751e-22,
+      "metrics": [
+        {
+          "finite_support_max_radius": 0.0,
+          "front_thickness_radial_std": 0.0,
+          "invariant": 1e-06,
+          "participation_linear_scale": 1.0,
+          "participation_volume": 1.0,
+          "peak_radius": 0.0,
+          "rms_radius": 0.0,
+          "step": 0
+        },
+        {
+          "finite_support_max_radius": 1.0,
+          "front_thickness_radial_std": 0.4330127018922193,
+          "invariant": 1e-06,
+          "participation_linear_scale": 1.204026875817583,
+          "participation_volume": 1.7454545454545451,
+          "peak_radius": 0.0,
+          "rms_radius": 0.5,
+          "step": 1
+        },
+        {
+          "finite_support_max_radius": 2.0,
+          "front_thickness_radial_std": 0.4282415685977503,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.1156783894911038,
+          "participation_volume": 1.3887275870475848,
+          "peak_radius": 0.0,
+          "rms_radius": 0.4633457300296649,
+          "step": 2
+        },
+        {
+          "finite_support_max_radius": 3.0,
+          "front_thickness_radial_std": 0.6142273282840852,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.7387988369160925,
+          "participation_volume": 5.257121605586633,
+          "peak_radius": 0.0,
+          "rms_radius": 0.9323723407620915,
+          "step": 3
+        },
+        {
+          "finite_support_max_radius": 4.0,
+          "front_thickness_radial_std": 0.6483959258991023,
+          "invariant": 9.999999999999997e-07,
+          "participation_linear_scale": 1.8104057813360588,
+          "participation_volume": 5.933730034867617,
+          "peak_radius": 0.0,
+          "rms_radius": 1.0025507467049073,
+          "step": 4
+        },
+        {
+          "finite_support_max_radius": 5.0,
+          "front_thickness_radial_std": 0.7372324920443395,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 2.283701829554115,
+          "participation_volume": 11.910176555218115,
+          "peak_radius": 0.0,
+          "rms_radius": 1.3191472911441535,
+          "step": 5
+        },
+        {
+          "finite_support_max_radius": 6.0,
+          "front_thickness_radial_std": 0.6429567081001472,
+          "invariant": 1e-06,
+          "participation_linear_scale": 3.0328414493224467,
+          "participation_volume": 27.8964616003481,
+          "peak_radius": 0.0,
+          "rms_radius": 1.5166067360186457,
+          "step": 6
+        },
+        {
+          "finite_support_max_radius": 7.0,
+          "front_thickness_radial_std": 0.7390638874375361,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 3.3089734384735614,
+          "participation_volume": 36.23096013121642,
+          "peak_radius": 0.0,
+          "rms_radius": 1.7721902051752474,
+          "step": 7
+        },
+        {
+          "finite_support_max_radius": 8.0,
+          "front_thickness_radial_std": 0.7198253839272369,
+          "invariant": 1e-06,
+          "participation_linear_scale": 3.961710482699901,
+          "participation_volume": 62.179640079447445,
+          "peak_radius": 1.4142135623730951,
+          "rms_radius": 2.014626059492051,
+          "step": 8
+        },
+        {
+          "finite_support_max_radius": 9.0,
+          "front_thickness_radial_std": 0.7629942300038609,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 3.9819732175137537,
+          "participation_volume": 63.13860816123054,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.264802193511404,
+          "step": 9
+        },
+        {
+          "finite_support_max_radius": 10.0,
+          "front_thickness_radial_std": 0.8215910856232223,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 3.9039626436598875,
+          "participation_volume": 59.49999921219815,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.4557028352752615,
+          "step": 10
+        },
+        {
+          "finite_support_max_radius": 11.0,
+          "front_thickness_radial_std": 0.8159318981766789,
+          "invariant": 1e-06,
+          "participation_linear_scale": 4.54752155291863,
+          "participation_volume": 94.0425286805236,
+          "peak_radius": 2.449489742783178,
+          "rms_radius": 2.781519491504923,
+          "step": 11
+        },
+        {
+          "finite_support_max_radius": 11.045361017187261,
+          "front_thickness_radial_std": 0.9391210989462672,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 4.535848679736107,
+          "participation_volume": 93.32020258992894,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.9386951198957796,
+          "step": 12
+        }
+      ],
+      "representation": "F03",
+      "shape": [
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "density_warning": "support uses positive state magnitude only; it is not a local decomposition of the conserved invariant",
+      "family": "P02",
+      "maximum_invariant_absolute_drift": 8.470329472543003e-22,
+      "metrics": [
+        {
+          "finite_support_max_radius": 1.0,
+          "front_thickness_radial_std": 0.5,
+          "invariant": 2.333333333333333e-06,
+          "participation_linear_scale": 1.2599210498948732,
+          "participation_volume": 2.0,
+          "peak_radius": 0.0,
+          "rms_radius": 0.7071067811865476,
+          "step": 0
+        },
+        {
+          "finite_support_max_radius": 2.0,
+          "front_thickness_radial_std": 0.5532633811286567,
+          "invariant": 2.333333333333334e-06,
+          "participation_linear_scale": 1.4189834119703837,
+          "participation_volume": 2.8571428571428568,
+          "peak_radius": 0.0,
+          "rms_radius": 0.8366600265340756,
+          "step": 1
+        },
+        {
+          "finite_support_max_radius": 3.0,
+          "front_thickness_radial_std": 0.5583266359774504,
+          "invariant": 2.333333333333334e-06,
+          "participation_linear_scale": 1.3276037271917303,
+          "participation_volume": 2.3399435964009134,
+          "peak_radius": 0.0,
+          "rms_radius": 0.8008833506910612,
+          "step": 2
+        },
+        {
+          "finite_support_max_radius": 4.0,
+          "front_thickness_radial_std": 0.5877875849666572,
+          "invariant": 2.3333333333333327e-06,
+          "participation_linear_scale": 2.1145118106421417,
+          "participation_volume": 9.454321044559283,
+          "peak_radius": 0.0,
+          "rms_radius": 1.1627042565153067,
+          "step": 3
+        },
+        {
+          "finite_support_max_radius": 5.0,
+          "front_thickness_radial_std": 0.6638583324072739,
+          "invariant": 2.3333333333333327e-06,
+          "participation_linear_scale": 1.8278348483131628,
+          "participation_volume": 6.106760096869108,
+          "peak_radius": 0.0,
+          "rms_radius": 1.1302997565246726,
+          "step": 4
+        },
+        {
+          "finite_support_max_radius": 6.0,
+          "front_thickness_radial_std": 0.6873339804437377,
+          "invariant": 2.3333333333333336e-06,
+          "participation_linear_scale": 2.607215636848397,
+          "participation_volume": 17.72273960120862,
+          "peak_radius": 0.0,
+          "rms_radius": 1.4515935730427556,
+          "step": 5
+        },
+        {
+          "finite_support_max_radius": 7.0,
+          "front_thickness_radial_std": 0.6806927255490581,
+          "invariant": 2.3333333333333327e-06,
+          "participation_linear_scale": 2.863723859445612,
+          "participation_volume": 23.485154073771508,
+          "peak_radius": 0.0,
+          "rms_radius": 1.5596026323974652,
+          "step": 6
+        },
+        {
+          "finite_support_max_radius": 8.0,
+          "front_thickness_radial_std": 0.7435830559247747,
+          "invariant": 2.3333333333333336e-06,
+          "participation_linear_scale": 3.3479345041344803,
+          "participation_volume": 37.52587778518102,
+          "peak_radius": 0.0,
+          "rms_radius": 1.8117032447178436,
+          "step": 7
+        },
+        {
+          "finite_support_max_radius": 9.0,
+          "front_thickness_radial_std": 0.7304160112428727,
+          "invariant": 2.3333333333333327e-06,
+          "participation_linear_scale": 3.816966614202491,
+          "participation_volume": 55.6102802837347,
+          "peak_radius": 1.0,
+          "rms_radius": 1.9895539742674333,
+          "step": 8
+        },
+        {
+          "finite_support_max_radius": 10.0,
+          "front_thickness_radial_std": 0.7776588907716919,
+          "invariant": 2.3333333333333336e-06,
+          "participation_linear_scale": 4.040424052144377,
+          "participation_volume": 65.96002980793634,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.2412403063471333,
+          "step": 9
+        },
+        {
+          "finite_support_max_radius": 11.0,
+          "front_thickness_radial_std": 0.8212110821805985,
+          "invariant": 2.3333333333333327e-06,
+          "participation_linear_scale": 3.987702993910688,
+          "participation_volume": 63.41155644450968,
+          "peak_radius": 1.4142135623730951,
+          "rms_radius": 2.3834848499137355,
+          "step": 10
+        },
+        {
+          "finite_support_max_radius": 12.0,
+          "front_thickness_radial_std": 0.8169974240605806,
+          "invariant": 2.333333333333334e-06,
+          "participation_linear_scale": 4.66165955258794,
+          "participation_volume": 101.30284904763141,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.7054410815325953,
+          "step": 11
+        },
+        {
+          "finite_support_max_radius": 12.041594578792296,
+          "front_thickness_radial_std": 0.9283014156962968,
+          "invariant": 2.3333333333333336e-06,
+          "participation_linear_scale": 4.4498489392510265,
+          "participation_volume": 88.11215116319025,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.8114948309069825,
+          "step": 12
+        }
+      ],
+      "representation": "F03",
+      "shape": [
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "density_warning": "support uses positive state magnitude only; it is not a local decomposition of the conserved invariant",
+      "family": "P04",
+      "maximum_invariant_absolute_drift": 4.235164736271502e-22,
+      "metrics": [
+        {
+          "finite_support_max_radius": 0.0,
+          "front_thickness_radial_std": 0.0,
+          "invariant": 1e-06,
+          "participation_linear_scale": 1.0,
+          "participation_volume": 1.0,
+          "peak_radius": 0.0,
+          "rms_radius": 0.0,
+          "step": 0
+        },
+        {
+          "finite_support_max_radius": 0.0,
+          "front_thickness_radial_std": 0.0,
+          "invariant": 1e-06,
+          "participation_linear_scale": 1.0,
+          "participation_volume": 1.0,
+          "peak_radius": 0.0,
+          "rms_radius": 0.0,
+          "step": 1
+        },
+        {
+          "finite_support_max_radius": 1.0,
+          "front_thickness_radial_std": 0.4330127018922193,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.204026875817583,
+          "participation_volume": 1.7454545454545451,
+          "peak_radius": 0.0,
+          "rms_radius": 0.5,
+          "step": 2
+        },
+        {
+          "finite_support_max_radius": 2.0,
+          "front_thickness_radial_std": 0.5298783775827643,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.6148577106943942,
+          "participation_volume": 4.2111701055178425,
+          "peak_radius": 0.0,
+          "rms_radius": 0.7883330048613164,
+          "step": 3
+        },
+        {
+          "finite_support_max_radius": 3.0,
+          "front_thickness_radial_std": 0.6766972212518221,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.7273531708970602,
+          "participation_volume": 5.153988256595851,
+          "peak_radius": 0.0,
+          "rms_radius": 1.009468585298067,
+          "step": 4
+        },
+        {
+          "finite_support_max_radius": 4.0,
+          "front_thickness_radial_std": 0.5895011321216654,
+          "invariant": 1e-06,
+          "participation_linear_scale": 2.8391945338510074,
+          "participation_volume": 22.8868198237326,
+          "peak_radius": 0.0,
+          "rms_radius": 1.3631390769567062,
+          "step": 5
+        },
+        {
+          "finite_support_max_radius": 5.0,
+          "front_thickness_radial_std": 0.7258267963276889,
+          "invariant": 1.0000000000000004e-06,
+          "participation_linear_scale": 3.0810008980708683,
+          "participation_volume": 29.246606015984963,
+          "peak_radius": 0.0,
+          "rms_radius": 1.608158256909476,
+          "step": 6
+        },
+        {
+          "finite_support_max_radius": 6.0,
+          "front_thickness_radial_std": 0.7405068670690108,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 3.8113752937162713,
+          "participation_volume": 55.36625432502255,
+          "peak_radius": 0.0,
+          "rms_radius": 1.918655871900115,
+          "step": 7
+        },
+        {
+          "finite_support_max_radius": 7.0,
+          "front_thickness_radial_std": 0.7771475716662137,
+          "invariant": 1.0000000000000004e-06,
+          "participation_linear_scale": 4.285500035581128,
+          "participation_volume": 78.70539613677174,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.184026816340282,
+          "step": 8
+        },
+        {
+          "finite_support_max_radius": 8.0,
+          "front_thickness_radial_std": 0.8355274185682028,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 4.096842474911305,
+          "participation_volume": 68.76188860886235,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.447299845651216,
+          "step": 9
+        },
+        {
+          "finite_support_max_radius": 9.0,
+          "front_thickness_radial_std": 0.8805470696143981,
+          "invariant": 1e-06,
+          "participation_linear_scale": 5.000646870821453,
+          "participation_volume": 125.04852158850755,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.7791962564732766,
+          "step": 10
+        },
+        {
+          "finite_support_max_radius": 10.0,
+          "front_thickness_radial_std": 0.9652511945360199,
+          "invariant": 1e-06,
+          "participation_linear_scale": 4.80157952742921,
+          "participation_volume": 110.70121286650715,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 3.021409670836113,
+          "step": 11
+        },
+        {
+          "finite_support_max_radius": 11.0,
+          "front_thickness_radial_std": 1.0592780175436662,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 5.179607605683402,
+          "participation_volume": 138.96024774890262,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 3.3045509923987697,
+          "step": 12
+        }
+      ],
+      "representation": "F03",
+      "shape": [
+        33,
+        33,
+        33
+      ]
+    },
+    {
+      "density_warning": "support uses positive state magnitude only; it is not a local decomposition of the conserved invariant",
+      "family": "P07",
+      "maximum_invariant_absolute_drift": 2.117582368135751e-22,
+      "metrics": [
+        {
+          "finite_support_max_radius": 0.0,
+          "front_thickness_radial_std": 0.0,
+          "invariant": 1e-06,
+          "participation_linear_scale": 1.0,
+          "participation_volume": 1.0,
+          "peak_radius": 0.0,
+          "rms_radius": 0.0,
+          "step": 0
+        },
+        {
+          "finite_support_max_radius": 1.0,
+          "front_thickness_radial_std": 0.4330127018922193,
+          "invariant": 1e-06,
+          "participation_linear_scale": 1.204026875817583,
+          "participation_volume": 1.7454545454545451,
+          "peak_radius": 0.0,
+          "rms_radius": 0.5,
+          "step": 1
+        },
+        {
+          "finite_support_max_radius": 2.0,
+          "front_thickness_radial_std": 0.4282415685977503,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.1156783894911038,
+          "participation_volume": 1.3887275870475848,
+          "peak_radius": 0.0,
+          "rms_radius": 0.4633457300296649,
+          "step": 2
+        },
+        {
+          "finite_support_max_radius": 3.0,
+          "front_thickness_radial_std": 0.6142273282840852,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 1.7387988369160925,
+          "participation_volume": 5.257121605586633,
+          "peak_radius": 0.0,
+          "rms_radius": 0.9323723407620915,
+          "step": 3
+        },
+        {
+          "finite_support_max_radius": 4.0,
+          "front_thickness_radial_std": 0.6483959258991023,
+          "invariant": 9.999999999999997e-07,
+          "participation_linear_scale": 1.8104057813360588,
+          "participation_volume": 5.933730034867617,
+          "peak_radius": 0.0,
+          "rms_radius": 1.0025507467049073,
+          "step": 4
+        },
+        {
+          "finite_support_max_radius": 5.0,
+          "front_thickness_radial_std": 0.7372324920443395,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 2.283701829554115,
+          "participation_volume": 11.910176555218115,
+          "peak_radius": 0.0,
+          "rms_radius": 1.3191472911441535,
+          "step": 5
+        },
+        {
+          "finite_support_max_radius": 6.0,
+          "front_thickness_radial_std": 0.6429567081001472,
+          "invariant": 1e-06,
+          "participation_linear_scale": 3.0328414493224467,
+          "participation_volume": 27.8964616003481,
+          "peak_radius": 0.0,
+          "rms_radius": 1.5166067360186457,
+          "step": 6
+        },
+        {
+          "finite_support_max_radius": 7.0,
+          "front_thickness_radial_std": 0.7390638874375361,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 3.3089734384735614,
+          "participation_volume": 36.23096013121642,
+          "peak_radius": 0.0,
+          "rms_radius": 1.7721902051752474,
+          "step": 7
+        },
+        {
+          "finite_support_max_radius": 8.0,
+          "front_thickness_radial_std": 0.7198253839272369,
+          "invariant": 1e-06,
+          "participation_linear_scale": 3.961710482699901,
+          "participation_volume": 62.179640079447445,
+          "peak_radius": 1.4142135623730951,
+          "rms_radius": 2.014626059492051,
+          "step": 8
+        },
+        {
+          "finite_support_max_radius": 9.0,
+          "front_thickness_radial_std": 0.7629942300038609,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 3.9819732175137537,
+          "participation_volume": 63.13860816123054,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.264802193511404,
+          "step": 9
+        },
+        {
+          "finite_support_max_radius": 10.0,
+          "front_thickness_radial_std": 0.8215910856232223,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 3.9039626436598875,
+          "participation_volume": 59.49999921219815,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.4557028352752615,
+          "step": 10
+        },
+        {
+          "finite_support_max_radius": 11.0,
+          "front_thickness_radial_std": 0.8159318981766789,
+          "invariant": 1e-06,
+          "participation_linear_scale": 4.54752155291863,
+          "participation_volume": 94.0425286805236,
+          "peak_radius": 2.449489742783178,
+          "rms_radius": 2.781519491504923,
+          "step": 11
+        },
+        {
+          "finite_support_max_radius": 11.045361017187261,
+          "front_thickness_radial_std": 0.9391210989462672,
+          "invariant": 1.0000000000000002e-06,
+          "participation_linear_scale": 4.535848679736107,
+          "participation_volume": 93.32020258992894,
+          "peak_radius": 1.7320508075688772,
+          "rms_radius": 2.9386951198957796,
+          "step": 12
+        }
+      ],
+      "representation": "F03",
+      "shape": [
+        33,
+        33,
+        33
+      ]
+    }
+  ]
+}

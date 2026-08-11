@@ -1,0 +1,39 @@
+{
+  "candidates": [
+    {
+      "id": "C00",
+      "result": "D_L=D_0",
+      "status": "DERIVED_NULL_CONTROL"
+    },
+    {
+      "id": "C01",
+      "reason": "Tangent stiffness is not a coefficient in the frozen dynamic restoring law.",
+      "status": "REJECTED"
+    },
+    {
+      "id": "C02",
+      "reason": "Bounded stress is not the Dev162 equilibrium law; substituting its derivative changes the equations.",
+      "status": "REJECTED"
+    },
+    {
+      "id": "C03",
+      "reason": "The exact Dev159 equilibrium Jacobian is the constant free N6 operator.",
+      "status": "DERIVED_BUT_LOAD_INDEPENDENT"
+    }
+  ],
+  "existing_law_inventory": {
+    "Dev156_F02": "source-free bond-storage kick-drift",
+    "Dev156_F03": "linear normalized N6 relational imbalance kick-drift",
+    "Dev159_loaded_equation": "F03 restoring kick plus fixed source excursion",
+    "Dev162_static_equation": "linear distributed Dev159 equilibrium",
+    "bounded_stress_tangent": "existing diagnostic, absent from Dev156/159/162 governing operators"
+  },
+  "fitted_coefficients": [],
+  "historical_geometric_force_used_as_native_coupling": false,
+  "representation_coverage": {
+    "F02": "NO_LOADED_EQUILIBRIUM_DERIVED",
+    "F02_reason": "The frozen F02 state has no distributed-source term or nonconstant stationary node equilibrium to linearize; adding one would be a new law.",
+    "F03": "EXACT_LINEARIZATION_LOAD_INDEPENDENT"
+  },
+  "surviving_nontrivial_loaded_candidate": null
+}

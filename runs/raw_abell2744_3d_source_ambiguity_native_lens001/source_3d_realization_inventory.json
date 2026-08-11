@@ -1,0 +1,129 @@
+{
+  "array_order": "z,y,x",
+  "count": 7,
+  "diagnostic_only": true,
+  "physical_depth_scale_assumed": false,
+  "realizations": [
+    {
+      "depth_cells": [
+        0
+      ],
+      "family": "THIN",
+      "name": "Z01_THIN_CENTRAL",
+      "physical_truth_claimed": false,
+      "shape": [
+        17,
+        128,
+        128
+      ],
+      "total_source_content": 1.0
+    },
+    {
+      "depth_cells": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "family": "FINITE_SYMMETRIC",
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "physical_truth_claimed": false,
+      "shape": [
+        17,
+        128,
+        128
+      ],
+      "total_source_content": 1.0
+    },
+    {
+      "depth_cells": [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": "FINITE_SYMMETRIC",
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "physical_truth_claimed": false,
+      "shape": [
+        17,
+        128,
+        128
+      ],
+      "total_source_content": 1.0
+    },
+    {
+      "depth_cells": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "family": "SYMMETRIC_COMPACT",
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "physical_truth_claimed": false,
+      "shape": [
+        17,
+        128,
+        128
+      ],
+      "total_source_content": 1.0
+    },
+    {
+      "depth_cells": [
+        -4,
+        4
+      ],
+      "family": "DOUBLE_LAYER",
+      "name": "Z04_DOUBLE_LAYER",
+      "physical_truth_claimed": false,
+      "shape": [
+        17,
+        128,
+        128
+      ],
+      "total_source_content": 0.9999999999999999
+    },
+    {
+      "depth_cells": [
+        0,
+        2,
+        4
+      ],
+      "family": "ASYMMETRIC",
+      "name": "Z05_ASYMMETRIC",
+      "physical_truth_claimed": false,
+      "shape": [
+        17,
+        128,
+        128
+      ],
+      "total_source_content": 1.0
+    },
+    {
+      "depth_cells": [
+        -4,
+        3
+      ],
+      "family": "SPATIALLY_VARIABLE_DEPTH",
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "physical_truth_claimed": false,
+      "shape": [
+        17,
+        128,
+        128
+      ],
+      "total_source_content": 1.0
+    }
+  ],
+  "total_source_content_matched": true
+}

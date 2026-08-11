@@ -1,0 +1,16 @@
+{
+  "FLC": {
+    "role": "FLT-equivalent calibrated exposure with pixel-based CTE correction",
+    "use": "retained control; not assumed universally preferable"
+  },
+  "FLT": {
+    "role": "flat-fielded calibrated exposure on native detector grid",
+    "use": "PRIMARY_PIXEL_PRODUCT"
+  },
+  "PRIMARY_PIXEL_PRODUCT": "FLT",
+  "RAW": {
+    "role": "uncalibrated/minimally calibrated detector readout",
+    "use": "provenance and archive baseline; not direct science combination"
+  },
+  "reason": "Dev126 classifies FLT as the candidate native-detector baseline; choosing FLC would add a detector-specific correction preference not required for this minimum bridge."
+}

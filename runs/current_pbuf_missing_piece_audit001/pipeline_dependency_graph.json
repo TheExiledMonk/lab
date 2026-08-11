@@ -1,0 +1,126 @@
+{
+  "directed_acyclic": true,
+  "edges": [
+    {
+      "EDGE_ID": "E01",
+      "FROM": "RAW archive",
+      "STATUS": "IMPLEMENTED",
+      "TO": "FLT/FLC calibration"
+    },
+    {
+      "EDGE_ID": "E02",
+      "FROM": "FLT/FLC calibration",
+      "STATUS": "IMPLEMENTED",
+      "TO": "common WCS source representation"
+    },
+    {
+      "EDGE_ID": "E03",
+      "FROM": "common WCS source representation",
+      "STATUS": "IMPLEMENTED",
+      "TO": "native projected source constraint"
+    },
+    {
+      "EDGE_ID": "E04",
+      "FROM": "native projected source constraint",
+      "STATUS": "PARTIAL",
+      "TO": "3D source ambiguity family"
+    },
+    {
+      "EDGE_ID": "E05",
+      "FROM": "3D source ambiguity family",
+      "STATUS": "IMPLEMENTED",
+      "TO": "stationary native source response"
+    },
+    {
+      "EDGE_ID": "E06",
+      "FROM": "stationary native source response",
+      "STATUS": "IMPLEMENTED",
+      "TO": "stationary native lens"
+    },
+    {
+      "EDGE_ID": "E07",
+      "FROM": "stationary native source response",
+      "STATUS": "DERIVED_NOT_CONNECTED",
+      "TO": "free finite native state"
+    },
+    {
+      "EDGE_ID": "E08",
+      "FROM": "free finite native state",
+      "STATUS": "PARTIAL",
+      "TO": "native propagation condition"
+    },
+    {
+      "EDGE_ID": "E09",
+      "FROM": "stationary native lens",
+      "STATUS": "BLOCKED",
+      "TO": "loaded directional response"
+    },
+    {
+      "EDGE_ID": "E10",
+      "FROM": "native propagation condition",
+      "STATUS": "MISSING",
+      "TO": "loaded directional response"
+    },
+    {
+      "EDGE_ID": "E11",
+      "FROM": "loaded directional response",
+      "STATUS": "BLOCKED",
+      "TO": "finite loaded propagation"
+    },
+    {
+      "EDGE_ID": "E12",
+      "FROM": "finite loaded propagation",
+      "STATUS": "BLOCKED",
+      "TO": "received native 3D state"
+    },
+    {
+      "EDGE_ID": "E13",
+      "FROM": "received native 3D state",
+      "STATUS": "BLOCKED",
+      "TO": "observer receipt"
+    },
+    {
+      "EDGE_ID": "E14",
+      "FROM": "observer receipt",
+      "STATUS": "IMPLEMENTED",
+      "TO": "observer reduction"
+    },
+    {
+      "EDGE_ID": "E15",
+      "FROM": "observer reduction",
+      "STATUS": "IMPLEMENTED",
+      "TO": "2D observer output"
+    },
+    {
+      "EDGE_ID": "E16",
+      "FROM": "2D observer output",
+      "STATUS": "MISSING",
+      "TO": "physical normalization"
+    },
+    {
+      "EDGE_ID": "E17",
+      "FROM": "physical normalization",
+      "STATUS": "BLOCKED",
+      "TO": "observational comparison"
+    }
+  ],
+  "nodes": [
+    "RAW archive",
+    "FLT/FLC calibration",
+    "common WCS source representation",
+    "native projected source constraint",
+    "3D source ambiguity family",
+    "stationary native source response",
+    "stationary native lens",
+    "free finite native state",
+    "native propagation condition",
+    "loaded directional response",
+    "finite loaded propagation",
+    "received native 3D state",
+    "observer receipt",
+    "observer reduction",
+    "2D observer output",
+    "physical normalization",
+    "observational comparison"
+  ]
+}

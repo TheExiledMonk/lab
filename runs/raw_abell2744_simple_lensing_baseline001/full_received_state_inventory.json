@@ -1,0 +1,19 @@
+{
+  "channel_count": 0,
+  "dimension": "NOT_DEFINED",
+  "fields": [],
+  "production_checkpoint_fields_if_benchmark_lane_were_used": [
+    "x",
+    "y",
+    "z",
+    "vx",
+    "vy",
+    "vz",
+    "rx_sample",
+    "ry_sample"
+  ],
+  "reason": "No repository transform connects RAW detector pixels to rho3 or an M10 native lens field.",
+  "stage": "R0_FULL_3D_RECEIPT",
+  "status": "NOT_DEFINED",
+  "support": "NOT_DEFINED"
+}

@@ -1,0 +1,22 @@
+{
+  "alternatives": [
+    "uncombined multi-exposure (preserved as S01 contract)",
+    "exposure-time weighted mean",
+    "masked mean",
+    "robust median"
+  ],
+  "background_estimator": "median of finite DQ=0 deterministic samples",
+  "background_model": "per-chip constant",
+  "least_destructive_endpoint": "multi-channel common-frame field plus uncertainty and coverage; detector exposure inventory retained",
+  "masking_rule": "DQ must equal zero; SCI/ERR/WCS finite; ERR positive",
+  "overlap": {
+    "F814W": {
+      "cells_with_overlap": 10406,
+      "coverage_fraction": 0.642578125,
+      "covered_cells": 10528,
+      "maximum_sample_coverage": 301,
+      "sample_count": 232
+    }
+  },
+  "selected": "inverse-variance weighted mean of deterministic detector samples"
+}

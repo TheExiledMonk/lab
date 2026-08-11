@@ -1,0 +1,6 @@
+{
+  "DIRECTIONAL_ALLOCATION_ASSUMED_FUNDAMENTAL": false,
+  "H07_REWRITABLE_AS_BOND_FLUX": "PARTIAL",
+  "PROPAGATION_SPEED_ALLOCATION_RELATION": "UNRESOLVED",
+  "finding": "H07 conservative zero-sum outgoing weights admit a transfer/flux bookkeeping representation, but the audit does not establish pair antisymmetry, reversibility of the full state map, or derivation from PBUF; variable speed has no implemented law to compare."
+}

@@ -1,0 +1,282 @@
+{
+  "archive_exists": true,
+  "archive_root": "PBUF_raw_benchmark/WLRAW-001_Abell2744",
+  "classification_counts": {
+    "FLC_CTE_CALIBRATED_CONTROL": 116,
+    "FLT_CALIBRATED_CONTROL": 116,
+    "RAW_DETECTOR": 116
+  },
+  "classification_note": {
+    "DEV126_METRICS": "PBUF-derived audit intermediates, not lensing input",
+    "FLC_CTE_CALIBRATED_CONTROL": "external calibrated/CTE-corrected control",
+    "FLT_CALIBRATED_CONTROL": "external calibrated control",
+    "RAW_DETECTOR": "raw input"
+  },
+  "data_mode": "RAW",
+  "fields": [
+    "PRIMARY/SCI detector counts",
+    "ERR",
+    "DQ",
+    "header metadata"
+  ],
+  "pbuf_internal_preprocessing": "NONE in acquisition; Dev126 performs read-only audit statistics",
+  "raw_exposure_count": 116,
+  "raw_input_current_lensing_consumers": [],
+  "raw_masks": "DQ extensions (archive input; not consumed by a lensing runner)",
+  "raw_metadata": "FITS headers plus acquisition provenance manifests",
+  "representative_shapes_units_coordinates": {
+    "FLC_CTE_CALIBRATED_CONTROL": {
+      "bunit": [
+        null,
+        "ELECTRONS",
+        "ELECTRONS",
+        "UNITLESS",
+        "ELECTRONS",
+        "ELECTRONS",
+        "UNITLESS",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "coordinate_metadata": {
+        "DEC_TARG": -30.39351111111,
+        "ORIENTAT": null,
+        "PA_V3": 204.944794,
+        "RA_TARG": 3.577575
+      },
+      "hdu_shapes": [
+        null,
+        [
+          2048,
+          4096
+        ],
+        [
+          2048,
+          4096
+        ],
+        [
+          2048,
+          4096
+        ],
+        [
+          2048,
+          4096
+        ],
+        [
+          2048,
+          4096
+        ],
+        [
+          2048,
+          4096
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          8640
+        ],
+        [
+          112320
+        ],
+        [
+          14,
+          455
+        ],
+        [
+          112320
+        ],
+        [
+          112320
+        ]
+      ],
+      "path": "PBUF_raw_benchmark/WLRAW-001_Abell2744/flc/jb5g08yxq_flc.fits"
+    },
+    "FLT_CALIBRATED_CONTROL": {
+      "bunit": [
+        null,
+        "ELECTRONS",
+        "ELECTRONS",
+        "UNITLESS",
+        "ELECTRONS",
+        "ELECTRONS",
+        "UNITLESS",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "coordinate_metadata": {
+        "DEC_TARG": -30.39351111111,
+        "ORIENTAT": null,
+        "PA_V3": 204.944794,
+        "RA_TARG": 3.577575
+      },
+      "hdu_shapes": [
+        null,
+        [
+          2048,
+          4096
+        ],
+        [
+          2048,
+          4096
+        ],
+        [
+          2048,
+          4096
+        ],
+        [
+          2048,
+          4096
+        ],
+        [
+          2048,
+          4096
+        ],
+        [
+          2048,
+          4096
+        ],
+        [
+          8640
+        ],
+        [
+          112320
+        ],
+        [
+          14,
+          455
+        ],
+        [
+          112320
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          32,
+          64
+        ],
+        [
+          112320
+        ],
+        [
+          112320
+        ]
+      ],
+      "path": "PBUF_raw_benchmark/WLRAW-001_Abell2744/flt/jb5g08yxq_flt.fits"
+    },
+    "RAW_DETECTOR": {
+      "bunit": [
+        null,
+        "COUNTS",
+        "COUNTS",
+        "UNITLESS",
+        "COUNTS",
+        "COUNTS",
+        "UNITLESS"
+      ],
+      "coordinate_metadata": {
+        "DEC_TARG": -30.39351111111,
+        "ORIENTAT": null,
+        "PA_V3": 204.944794,
+        "RA_TARG": 3.577575
+      },
+      "hdu_shapes": [
+        null,
+        [
+          2068,
+          4144
+        ],
+        null,
+        null,
+        [
+          2068,
+          4144
+        ],
+        null,
+        null
+      ],
+      "path": "PBUF_raw_benchmark/WLRAW-001_Abell2744/raw/jb5g08yxq_raw.fits"
+    }
+  },
+  "selected_file_count": 348,
+  "selection_manifest": "PBUF_raw_benchmark/WLRAW-001_Abell2744/provenance/selected_products.json",
+  "selection_sha256": "f9b5633102c525a04cc4674b6d4c5f11c9a1ba98031ca61f1505ebf752b9feb2",
+  "target_cluster": "Abell2744"
+}

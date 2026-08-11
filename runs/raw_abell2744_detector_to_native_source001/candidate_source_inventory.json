@@ -1,0 +1,22 @@
+{
+  "S01": {
+    "representation": "individual FLT SCI/ERR/DQ exposures",
+    "status": "VALID"
+  },
+  "S02": {
+    "representation": "common-frame projected 2D field",
+    "status": "VALID"
+  },
+  "S03": {
+    "representation": "separate-filter common-frame projected fields",
+    "status": "PROMOTED"
+  },
+  "S04": {
+    "representation": "relative L1-normalized multi-channel 2D native lattice boundary constraint",
+    "status": "PROMOTED"
+  },
+  "S05": {
+    "reason": "detector images contain no direct depth coordinate",
+    "status": "REJECTED"
+  }
+}

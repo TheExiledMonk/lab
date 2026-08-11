@@ -1,0 +1,13 @@
+{
+  "DEV156_F03_q_error_linf": 0.0,
+  "DEV156_F03_retained_error_linf": 0.0,
+  "ZERO_LOAD_RECOVERS_DEV156": true,
+  "ZERO_LOAD_RECOVERS_DEV157_DISPERSION": true,
+  "dev157_omega_grid_finite": true,
+  "dispersion_basis": "identical F03 operator, hence identical Fourier eigenvalues",
+  "zero_array_shape": [
+    17,
+    128,
+    128
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "RAW_TO_3D_SOURCE_UNIQUENESS": "NON_UNIQUE",
+  "arbitrary_extrusion_performed": false,
+  "archive_depth_coordinate": false,
+  "classification": "FILTER_ONLY",
+  "filter_semantics": "spectral channels, not line-of-sight positions",
+  "filters": [
+    "F814W"
+  ],
+  "projection_degeneracy": "For any measured I(x,y), infinitely many rho(x,y,z) share the same line-of-sight integral."
+}

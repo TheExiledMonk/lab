@@ -1,0 +1,14 @@
+{
+  "MAGNETIC_LIKE_PROPAGATION": "FALSE_FOR_H12_OTHERWISE_NOT_DERIVED",
+  "MAGNETIC_LIKE_STABLE_EQUILIBRIUM": "FALSE_FOR_H12_OTHERWISE_NOT_DERIVED",
+  "candidate_ids": [
+    "H04",
+    "H12",
+    "H13"
+  ],
+  "ordinary_electromagnetism_identified": false,
+  "orientation_required": "UNRESOLVED",
+  "pair_polarity_required": "UNRESOLVED",
+  "polarity_state_required": "UNRESOLVED",
+  "separation_state_required": "UNRESOLVED"
+}

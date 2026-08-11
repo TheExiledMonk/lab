@@ -1,0 +1,29 @@
+{
+  "classification": "NOT_DERIVED",
+  "footprint_radii_computed": false,
+  "reason": "Exact local summands can be negative; absolute values or clipping are forbidden.",
+  "rows": [
+    {
+      "classification": "NOT_DERIVED",
+      "exact_local_summand": true,
+      "global_invariant": 588.9370490863253,
+      "minimum": -0.512992110692449,
+      "negative_site_count": 206,
+      "pointwise_positive_proven": false,
+      "representation": "F02",
+      "sum": 588.9370490863253,
+      "sum_matches_global": true
+    },
+    {
+      "classification": "NOT_DERIVED",
+      "exact_local_summand": true,
+      "global_invariant": 1595.0582915942948,
+      "minimum": -0.1560643020203858,
+      "negative_site_count": 9,
+      "pointwise_positive_proven": false,
+      "representation": "F03",
+      "sum": 1595.0582915942946,
+      "sum_matches_global": true
+    }
+  ]
+}

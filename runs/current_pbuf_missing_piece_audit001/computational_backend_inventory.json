@@ -1,0 +1,16 @@
+{
+  "CPU": {
+    "deterministic": "reference",
+    "dimensions": "historical G3D rays and observer",
+    "native_finite_state_compatible": "UNRESOLVED",
+    "present": true
+  },
+  "Vulkan": {
+    "dimensions": "frozen G3D propagation and exact KDE",
+    "limitations": "runtime/device availability; finite native lattice interface absent",
+    "parity_tests": true,
+    "present": true
+  },
+  "computational_blocker": null,
+  "physics_blocker": "RB1"
+}

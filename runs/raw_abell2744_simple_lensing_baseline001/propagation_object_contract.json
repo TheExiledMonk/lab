@@ -1,0 +1,20 @@
+{
+  "current_production_propagation_object": "ZERO_WIDTH_RAY",
+  "dev159_state_used": false,
+  "implementation": "pbuf.labs.foundation.los_consistent_ray_geometry001._propagate_g3d",
+  "per_element_state": [
+    "x",
+    "y",
+    "z",
+    "vx",
+    "vy",
+    "vz",
+    "launch x0",
+    "launch y0",
+    "step index",
+    "rx_sample",
+    "ry_sample"
+  ],
+  "production_launch_container": "RAY_SHEET (independent zero-width rays on regular launch grid)",
+  "raw_lane_status": "NOT_REACHABLE"
+}

@@ -1,0 +1,44 @@
+{
+  "families": [
+    {
+      "id": "F01",
+      "primitive_state": [
+        "local_state"
+      ],
+      "result": "DIFFUSIVE_NULL_CONTROL"
+    },
+    {
+      "id": "F02",
+      "primitive_state": [
+        "local_state",
+        "dynamic_bond_state"
+      ],
+      "result": "REVERSIBLE_BUT_NOT_MINIMUM_RANK"
+    },
+    {
+      "id": "F03",
+      "primitive_state": [
+        "local_state",
+        "retained_change"
+      ],
+      "result": "MINIMAL_REVERSIBLE_PROPAGATION"
+    },
+    {
+      "id": "F04",
+      "primitive_state": [
+        "local_state",
+        "retained_change",
+        "dynamic_bond_state"
+      ],
+      "result": "EXECUTED_NOT_REQUIRED"
+    }
+  ],
+  "fitted_coefficients": [],
+  "normalization": "1/N6_COORDINATION=1/6 derived from six equal Cartesian neighbors",
+  "shape": [
+    17,
+    17,
+    17
+  ],
+  "topology": "N6_3D_PERIODIC"
+}

@@ -1,0 +1,12 @@
+{
+  "candidate_route": "S -> source_medium_response -> source_imposed_excursion -> medium_medium_response -> u",
+  "classification": "STRUCTURAL",
+  "equilibrium_structure": "EXACT_CONSTRAINED_VARIATIONAL",
+  "historical_bridge_status": "SURVIVES_AS_EFFECTIVE_BRIDGE",
+  "historical_route": "rho -> u_s,u_f -> c_state -> u",
+  "monotonicity": "STRUCTURAL",
+  "numerical_equality_claimed": false,
+  "profile_topology": "LONG_RANGE_PERIODIC_GREEN_RESPONSE",
+  "support": "DOMAIN_WIDE_ZERO_MEAN",
+  "symmetry": "COMPATIBLE"
+}

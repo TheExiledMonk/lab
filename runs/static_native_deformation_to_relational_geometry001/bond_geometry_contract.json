@@ -1,0 +1,37 @@
+{
+  "deformed_bond_directions_derivable": false,
+  "deformed_bond_lengths_derivable": false,
+  "n6_topology_modified": false,
+  "scalar_edge_reciprocity": [
+    {
+      "name": "Z01_THIN_CENTRAL",
+      "scalar_edge_reciprocity_error": 0.0
+    },
+    {
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "scalar_edge_reciprocity_error": 0.0
+    },
+    {
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "scalar_edge_reciprocity_error": 0.0
+    },
+    {
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "scalar_edge_reciprocity_error": 0.0
+    },
+    {
+      "name": "Z04_DOUBLE_LAYER",
+      "scalar_edge_reciprocity_error": 0.0
+    },
+    {
+      "name": "Z05_ASYMMETRIC",
+      "scalar_edge_reciprocity_error": 0.0
+    },
+    {
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "scalar_edge_reciprocity_error": 0.0
+    }
+  ],
+  "spatial_bond_reciprocity": "NOT_TESTED_NO_DEFORMED_BONDS",
+  "undeformed_control_available": true
+}

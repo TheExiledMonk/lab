@@ -1,0 +1,24 @@
+DEV157_AUDIT_COMPLETE=true
+INTRINSIC_SCALE_FOUND=false
+SCALE_BEHAVIOR=SOURCE_DEPENDENT
+F02_F03_SCALE_EQUIVALENCE=SAME_DISPERSION_DIFFERENT_STATE_SUPPORT
+OBSERVER_FINITE_KERNEL_READY=false
+
+Scientific conclusion:
+The unloaded Dev156 N6 medium supplies a definite dispersive progression law but selects no unique nonzero spatial mode. Wavelength and packet width remain source-selected. Compact initial data has finite-step causal support, while its support grows and disperses rather than stabilizing at an intrinsic width.
+
+The exact global invariants do not yet provide a proven pointwise-positive local density. Therefore cumulative invariant radii and a physical observer kernel remain unresolved; no Gaussian or fitted substitute was introduced.
+
+Required tests:
+T01=PASS
+T02=PASS
+T03=PASS
+T04=PASS
+T05=PASS
+T06=PASS
+T07=PASS
+T08=PASS
+T09=PASS
+T10=PASS
+T11=PASS
+T12=PASS

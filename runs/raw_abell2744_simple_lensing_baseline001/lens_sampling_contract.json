@@ -1,0 +1,9 @@
+{
+  "current_production_method": "POINT_SAMPLE",
+  "finite_neighborhood": false,
+  "implementation": "_sample",
+  "index_rule": "searchsorted then clipped preceding grid index",
+  "integrated_footprint": false,
+  "interpolation": false,
+  "raw_lane_status": "NOT_REACHABLE"
+}

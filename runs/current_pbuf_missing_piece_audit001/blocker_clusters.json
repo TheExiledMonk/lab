@@ -1,0 +1,36 @@
+{
+  "clusters": [
+    {
+      "aliases": [
+        "directional allocation",
+        "routing",
+        "redistribution",
+        "scattering",
+        "neighbor transfer",
+        "bond flux",
+        "cross-coupling",
+        "loaded redirection",
+        "trajectory steering"
+      ],
+      "name": "native propagation mechanism",
+      "root": "RB1"
+    },
+    {
+      "name": "physical normalization",
+      "root": "RB2"
+    },
+    {
+      "name": "source-depth information",
+      "root": "RB3"
+    },
+    {
+      "classification": "DOWNSTREAM",
+      "name": "observer integration",
+      "root": "RB1"
+    },
+    {
+      "classification": "NONCRITICAL_UNDERDETERMINED",
+      "name": "effective EM mapping"
+    }
+  ]
+}

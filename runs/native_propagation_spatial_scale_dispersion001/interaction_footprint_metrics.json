@@ -1,0 +1,6 @@
+{
+  "marker": "LOCAL_INTERACTION_FOOTPRINT_UNRESOLVED",
+  "observer_kernel_promoted": false,
+  "reason": "The frozen exact invariants contain spatial cross terms; no pointwise-positive local decomposition was established. Positive state magnitude metrics are diagnostics only.",
+  "status": "NOT_LOCALLY_DECOMPOSABLE"
+}

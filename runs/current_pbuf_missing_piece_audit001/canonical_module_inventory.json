@@ -1,0 +1,102 @@
+{
+  "active_groups": [
+    "pbuf/excitation native N6",
+    "pbuf/data RAW bridge",
+    "pbuf/source 3D family",
+    "pbuf/lens stationary response",
+    "pbuf/wl historical geometric observer stack"
+  ],
+  "dev156_165": [
+    {
+      "classification": [
+        "FOUND_IN_CURRENT_CODE",
+        "FOUND_IN_CURRENT_ARTIFACTS",
+        "FOUND_IN_CURRENT_TESTS"
+      ],
+      "dev": "DEV156",
+      "evidence": "runs/native_n6_relational_stress_dynamics001/report.txt"
+    },
+    {
+      "classification": [
+        "FOUND_IN_CURRENT_CODE",
+        "FOUND_IN_CURRENT_ARTIFACTS",
+        "FOUND_IN_CURRENT_TESTS"
+      ],
+      "dev": "DEV157",
+      "evidence": "runs/native_propagation_spatial_scale_dispersion001/report.txt"
+    },
+    {
+      "classification": [
+        "FOUND_IN_CURRENT_CODE",
+        "FOUND_IN_CURRENT_ARTIFACTS",
+        "FOUND_IN_CURRENT_TESTS"
+      ],
+      "dev": "DEV158",
+      "evidence": "runs/native_unified_medium_excursion001/report.txt"
+    },
+    {
+      "classification": [
+        "FOUND_IN_CURRENT_CODE",
+        "FOUND_IN_CURRENT_ARTIFACTS",
+        "FOUND_IN_CURRENT_TESTS"
+      ],
+      "dev": "DEV159",
+      "evidence": "runs/native_source_medium_interaction001/report.txt"
+    },
+    {
+      "classification": [
+        "FOUND_IN_CURRENT_CODE",
+        "FOUND_IN_CURRENT_ARTIFACTS",
+        "FOUND_IN_CURRENT_TESTS"
+      ],
+      "dev": "DEV160",
+      "evidence": "runs/raw_abell2744_simple_lensing_baseline001/report.txt"
+    },
+    {
+      "classification": [
+        "FOUND_IN_CURRENT_CODE",
+        "FOUND_IN_CURRENT_ARTIFACTS",
+        "FOUND_IN_CURRENT_TESTS"
+      ],
+      "dev": "DEV161",
+      "evidence": "runs/raw_abell2744_detector_to_native_source001/report.txt"
+    },
+    {
+      "classification": [
+        "FOUND_IN_CURRENT_CODE",
+        "FOUND_IN_CURRENT_ARTIFACTS",
+        "FOUND_IN_CURRENT_TESTS"
+      ],
+      "dev": "DEV162",
+      "evidence": "runs/raw_abell2744_3d_source_ambiguity_native_lens001/report.txt"
+    },
+    {
+      "classification": [
+        "FOUND_IN_CURRENT_CODE",
+        "FOUND_IN_CURRENT_ARTIFACTS",
+        "FOUND_IN_CURRENT_TESTS"
+      ],
+      "dev": "DEV163",
+      "evidence": "runs/raw_abell2744_finite_native_lensing_gate001/report.txt"
+    },
+    {
+      "classification": [
+        "FOUND_IN_CURRENT_CODE",
+        "FOUND_IN_CURRENT_ARTIFACTS",
+        "FOUND_IN_CURRENT_TESTS"
+      ],
+      "dev": "DEV164",
+      "evidence": "runs/static_native_deformation_to_relational_geometry001/report.txt"
+    },
+    {
+      "classification": [
+        "FOUND_IN_CURRENT_CODE",
+        "FOUND_IN_CURRENT_ARTIFACTS",
+        "FOUND_IN_CURRENT_TESTS"
+      ],
+      "dev": "DEV165",
+      "evidence": "runs/native_medium_interaction_wide_net001/report.txt"
+    }
+  ],
+  "ledger_epoch": "POST_RESTORED_N6_CURRENT_STATE"
+}

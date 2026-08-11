@@ -1,0 +1,10 @@
+{
+  "COMMON_MORPHOLOGY_LANE": true,
+  "MULTI_CHANNEL_LANE": true,
+  "derived": true,
+  "rule": "equal weighting of separately L1-normalized channels",
+  "target_blind": true,
+  "weights": [
+    1.0
+  ]
+}
