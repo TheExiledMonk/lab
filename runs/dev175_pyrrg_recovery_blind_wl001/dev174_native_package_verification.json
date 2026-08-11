@@ -1,0 +1,285 @@
+{
+  "all_verified": true,
+  "dev171_arrays": [
+    {
+      "file": "observer_realization_00.npy",
+      "sha256": "b13275a972958a7cb66996a2a1533858193da9d65a57533bd8d93669426597aa"
+    },
+    {
+      "file": "observer_realization_01.npy",
+      "sha256": "707e1cd5f73350fdd931e0ec2ea48e2785fa6f180612b9cbe95e46e4cbc88de3"
+    },
+    {
+      "file": "observer_realization_02.npy",
+      "sha256": "d4989af1df91cf278db8aedfd0aac71f96e9636ae4485c75484d707ec6307806"
+    },
+    {
+      "file": "observer_realization_03.npy",
+      "sha256": "707e1cd5f73350fdd931e0ec2ea48e2785fa6f180612b9cbe95e46e4cbc88de3"
+    },
+    {
+      "file": "observer_realization_04.npy",
+      "sha256": "b13275a972958a7cb66996a2a1533858193da9d65a57533bd8d93669426597aa"
+    },
+    {
+      "file": "observer_realization_05.npy",
+      "sha256": "ce1a2d74bfa37e46ff9756d33fe44cfc6cbdd7e04d03e147d36446c196bc52dd"
+    },
+    {
+      "file": "observer_realization_06.npy",
+      "sha256": "b13275a972958a7cb66996a2a1533858193da9d65a57533bd8d93669426597aa"
+    },
+    {
+      "file": "observer_realization_07.npy",
+      "sha256": "b13275a972958a7cb66996a2a1533858193da9d65a57533bd8d93669426597aa"
+    }
+  ],
+  "manifest_checks": [
+    {
+      "actual_sha256": "2a9e95a109d2a4c66f528a2dbe069c6720872611e52cb8b17e20a24a2d4744f0",
+      "expected_sha256": "2a9e95a109d2a4c66f528a2dbe069c6720872611e52cb8b17e20a24a2d4744f0",
+      "file": "coordinate_closure_test.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "caf76924b1529665b1fb6649151872888e62526c1ddb42c30b08164f29b4bc15",
+      "expected_sha256": "caf76924b1529665b1fb6649151872888e62526c1ddb42c30b08164f29b4bc15",
+      "file": "coordinate_roundtrip_test.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "89af4a55b4ca19ceba19e94831d08d7b7e6e7c8712538698399ebdf7d0e8c64a",
+      "expected_sha256": "89af4a55b4ca19ceba19e94831d08d7b7e6e7c8712538698399ebdf7d0e8c64a",
+      "file": "cross_realization_grid_consistency.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "4cfdc2d64fb250aef2e310e9bca41a6fa7a09df78016613195ba5900ed698bd0",
+      "expected_sha256": "4cfdc2d64fb250aef2e310e9bca41a6fa7a09df78016613195ba5900ed698bd0",
+      "file": "final_contract.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "042828f5a7e4a5955176de929f65c416301db893387ac1c8cdd1afd4389eb810",
+      "expected_sha256": "042828f5a7e4a5955176de929f65c416301db893387ac1c8cdd1afd4389eb810",
+      "file": "frozen_dev171_hashes.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "6fd79ae987e1d33f158bf95c2ac00544a8015b887b07387a70517aafb1e43378",
+      "expected_sha256": "6fd79ae987e1d33f158bf95c2ac00544a8015b887b07387a70517aafb1e43378",
+      "file": "native_bin_footprints.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "cfd5117707a5991294aec00ffb2dfe8838666180e350282f889632067d72c485",
+      "expected_sha256": "cfd5117707a5991294aec00ffb2dfe8838666180e350282f889632067d72c485",
+      "file": "native_bin_footprints_realization_00.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "0f6a7010a33fe22063d6a520eea8506d76226bf259be376abbfd746439ea7984",
+      "expected_sha256": "0f6a7010a33fe22063d6a520eea8506d76226bf259be376abbfd746439ea7984",
+      "file": "native_bin_footprints_realization_01.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "decd6b6f28cc6bebcffe85f7803a9c4181720c1c156cbc911ee1c29b1ad796c5",
+      "expected_sha256": "decd6b6f28cc6bebcffe85f7803a9c4181720c1c156cbc911ee1c29b1ad796c5",
+      "file": "native_bin_footprints_realization_02.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "0bd871e6483bc4447fff204e2e5a74a724a2db92b409287d4eeb3ec3c38a45ce",
+      "expected_sha256": "0bd871e6483bc4447fff204e2e5a74a724a2db92b409287d4eeb3ec3c38a45ce",
+      "file": "native_bin_footprints_realization_03.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "1965ff1f0be888def564deb0ccdc23b6038689f8bed988baf3d6353b2c9886bf",
+      "expected_sha256": "1965ff1f0be888def564deb0ccdc23b6038689f8bed988baf3d6353b2c9886bf",
+      "file": "native_bin_footprints_realization_04.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "638dc4b5b531f6f27c6e0ca0ae8fdc9b64421261fad25b3804a879127274bb33",
+      "expected_sha256": "638dc4b5b531f6f27c6e0ca0ae8fdc9b64421261fad25b3804a879127274bb33",
+      "file": "native_bin_footprints_realization_05.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "05336ca6f5dbb3b88a4aaadbcbcb78c247caf545492c9f0729ad8e1dae94f522",
+      "expected_sha256": "05336ca6f5dbb3b88a4aaadbcbcb78c247caf545492c9f0729ad8e1dae94f522",
+      "file": "native_bin_footprints_realization_06.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "659d27cef28120a14edb905d09f209f265e7fbda27fa67ec5652ded1f93e06bc",
+      "expected_sha256": "659d27cef28120a14edb905d09f209f265e7fbda27fa67ec5652ded1f93e06bc",
+      "file": "native_bin_footprints_realization_07.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "9b7f991670aa94e3277624e2f67f6e6513535a87c7638ac1e5b646775cb4e788",
+      "expected_sha256": "9b7f991670aa94e3277624e2f67f6e6513535a87c7638ac1e5b646775cb4e788",
+      "file": "native_observer_coordinate_contract.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "ccd7bb2837e481c30202085fddc2dc19a805ba6393e7c5df61a7fde68934cec5",
+      "expected_sha256": "ccd7bb2837e481c30202085fddc2dc19a805ba6393e7c5df61a7fde68934cec5",
+      "file": "observational_asset_status.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "31f34c1c2ee69e34abf71c9cca2d34fda16e0027ea46cc5fe695bc4d03a2d80d",
+      "expected_sha256": "31f34c1c2ee69e34abf71c9cca2d34fda16e0027ea46cc5fe695bc4d03a2d80d",
+      "file": "observer_bin_edges.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "7dfbf2d47dd6acee7a76d7313f7e8360d08246385958b4fd65bdc7ccd601e608",
+      "expected_sha256": "7dfbf2d47dd6acee7a76d7313f7e8360d08246385958b4fd65bdc7ccd601e608",
+      "file": "observer_dynamic_extent.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "df68ab5e12620c585c2644e8be3be644ee3632a9d78f115feba57ae19ee6c8ad",
+      "expected_sha256": "df68ab5e12620c585c2644e8be3be644ee3632a9d78f115feba57ae19ee6c8ad",
+      "file": "observer_realization_000.coordinate_provenance.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "0e23c62f680fdee154341126210478a6a4e46fb1dc7a2cbdccd9edc807a92c37",
+      "expected_sha256": "0e23c62f680fdee154341126210478a6a4e46fb1dc7a2cbdccd9edc807a92c37",
+      "file": "observer_realization_001.coordinate_provenance.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "d45feba2cc9b1fbe5cc38d6256d90ecf7637d4af29666457fd43e0ab607fb172",
+      "expected_sha256": "d45feba2cc9b1fbe5cc38d6256d90ecf7637d4af29666457fd43e0ab607fb172",
+      "file": "observer_realization_002.coordinate_provenance.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "2b03e462dcb112012ebca5bb18219d468c24adee47bb86180e9b0d5aae03f1ad",
+      "expected_sha256": "2b03e462dcb112012ebca5bb18219d468c24adee47bb86180e9b0d5aae03f1ad",
+      "file": "observer_realization_003.coordinate_provenance.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "d83abc1daf6412cfc71dee3c29f549dc483de8d5b7098e32f376945fa595b9d9",
+      "expected_sha256": "d83abc1daf6412cfc71dee3c29f549dc483de8d5b7098e32f376945fa595b9d9",
+      "file": "observer_realization_004.coordinate_provenance.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "63ab27104b5076b98cccd5650631d63f24fe7c842067f3ebb1c1e238fad9a238",
+      "expected_sha256": "63ab27104b5076b98cccd5650631d63f24fe7c842067f3ebb1c1e238fad9a238",
+      "file": "observer_realization_005.coordinate_provenance.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "4f31f0fbb3b17f9372d9634af183d408d711ef6d0a834686a832a7232f3bbb9a",
+      "expected_sha256": "4f31f0fbb3b17f9372d9634af183d408d711ef6d0a834686a832a7232f3bbb9a",
+      "file": "observer_realization_006.coordinate_provenance.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "a88beb1902f143a78bf1bbc960019636feff56b00fe1c3efa281496edede7dab",
+      "expected_sha256": "a88beb1902f143a78bf1bbc960019636feff56b00fe1c3efa281496edede7dab",
+      "file": "observer_realization_007.coordinate_provenance.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "527883a83385cfa49af75d8b4b2e6ffdf1102b9c83ad37f88d2ec3f13e2e2a83",
+      "expected_sha256": "527883a83385cfa49af75d8b4b2e6ffdf1102b9c83ad37f88d2ec3f13e2e2a83",
+      "file": "observer_runtime_coordinate_capture.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "5934c8ff00dd5bb8c4a75db6431d77bbd544db8923e01685068a93a334156a08",
+      "expected_sha256": "5934c8ff00dd5bb8c4a75db6431d77bbd544db8923e01685068a93a334156a08",
+      "file": "observer_screen_basis.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "52248347f42e95a0aaa8a2e95d7369feba50fdf6890b5e7e98cd262bcbb51ad3",
+      "expected_sha256": "52248347f42e95a0aaa8a2e95d7369feba50fdf6890b5e7e98cd262bcbb51ad3",
+      "file": "receipt_lineage_serialization.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "a82f58a75ec71f618e9cac9142261e12d9fb379734090979faf79f9ed571902e",
+      "expected_sha256": "a82f58a75ec71f618e9cac9142261e12d9fb379734090979faf79f9ed571902e",
+      "file": "repository_provenance.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "6189ba580992206eea80ca84da50f1e4dd5646044538d1a1e846d9f98b98214f",
+      "expected_sha256": "6189ba580992206eea80ca84da50f1e4dd5646044538d1a1e846d9f98b98214f",
+      "file": "required_test_results.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "df0aa4f52bd0844b4c5b5816bda9aac9fc171b12989b29ee766466ca055d583e",
+      "expected_sha256": "df0aa4f52bd0844b4c5b5816bda9aac9fc171b12989b29ee766466ca055d583e",
+      "file": "sky_bin_footprints.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "9420469f9aef845c964ed1be01c6b5e221f18fe32a63ce9e6061fcb8b91bdb4e",
+      "expected_sha256": "9420469f9aef845c964ed1be01c6b5e221f18fe32a63ce9e6061fcb8b91bdb4e",
+      "file": "sky_bin_footprints_realization_00.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "4e30484695327b15cd66869e2cc27f2a099a84f784df97c3e3eaecdede51758e",
+      "expected_sha256": "4e30484695327b15cd66869e2cc27f2a099a84f784df97c3e3eaecdede51758e",
+      "file": "sky_bin_footprints_realization_01.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "66eaf1854c629afff179c9df928dcba313d076e4d5eedfd64ab17d67c086a0a0",
+      "expected_sha256": "66eaf1854c629afff179c9df928dcba313d076e4d5eedfd64ab17d67c086a0a0",
+      "file": "sky_bin_footprints_realization_02.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "6f251dfbd82c51a39c9568fc5d8497d9a0377c943c2bddccf9cf2768f9c1ddb7",
+      "expected_sha256": "6f251dfbd82c51a39c9568fc5d8497d9a0377c943c2bddccf9cf2768f9c1ddb7",
+      "file": "sky_bin_footprints_realization_03.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "6f5a097f3debf4aacb29d886566149870dc2a3aa91fac68b0ecc1ba402207f33",
+      "expected_sha256": "6f5a097f3debf4aacb29d886566149870dc2a3aa91fac68b0ecc1ba402207f33",
+      "file": "sky_bin_footprints_realization_04.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "70fbc161f98531d1e5ddf4f27ad839153f60ae44cd8257707519964cdd53f81e",
+      "expected_sha256": "70fbc161f98531d1e5ddf4f27ad839153f60ae44cd8257707519964cdd53f81e",
+      "file": "sky_bin_footprints_realization_05.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "87bbdf473f3cccfb55665ef43c701bd36516adfa73169e44f2dc50bc82c0818e",
+      "expected_sha256": "87bbdf473f3cccfb55665ef43c701bd36516adfa73169e44f2dc50bc82c0818e",
+      "file": "sky_bin_footprints_realization_06.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "502bc7b42894eecb9ab982ae30aabefc685d4e38822705000e28abaf44ebd77d",
+      "expected_sha256": "502bc7b42894eecb9ab982ae30aabefc685d4e38822705000e28abaf44ebd77d",
+      "file": "sky_bin_footprints_realization_07.json",
+      "match": true
+    },
+    {
+      "actual_sha256": "b3d459348d16cdec71bd2f7c76e3f06522e2ce146adb017c436b3104e9910567",
+      "expected_sha256": "b3d459348d16cdec71bd2f7c76e3f06522e2ce146adb017c436b3104e9910567",
+      "file": "source_lineage_serialization.json",
+      "match": true
+    }
+  ]
+}

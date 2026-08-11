@@ -134,8 +134,8 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 | Finite loaded propagation | Native dynamics | STRUCTURALLY_CLOSED | DOWNSTREAM | — | received 3D state | no |
 | Received finite native 3D state | Receipt | ESTABLISHED | DOWNSTREAM | — | observer reconnection | no |
 | Observer adapter | Interface | MECHANICAL_ADAPTER_DEFINED | DOWNSTREAM | — | finite-state observer use | no |
-| Observer coordinate lineage | Interface | METADATA_NOT_FORWARDED_AT_SERIALIZED_6X6_OUTPUT | DOWNSTREAM | serialization omitted receipt/screen/extent/bin provenance | native grid → sky footprint | yes |
-| Native grid → sky mapping | Interface | DETERMINISTIC_CELL_FOOTPRINT_RECOVERABLE | DOWNSTREAM | discretization and absent final provenance serialization | blind morphology coordinate bridge | yes |
+| Observer coordinate lineage | Interface | SERIALIZED / CLOSED | DOWNSTREAM | Dev174 serialized receipt/screen/extent/bin provenance | native grid → sky footprint | no |
+| Native grid → sky mapping | Interface | DETERMINISTIC_CELL_FOOTPRINT_SERIALIZED | DOWNSTREAM | finite-cell discretization retained explicitly | blind morphology coordinate bridge | no |
 | Observational WL WCS asset | External data | UNAVAILABLE | INDEPENDENT | no immutable pyRRG A2744 WCS-bearing product | observational comparison | yes |
 | Absolute normalization | Physical scale | UNRESOLVED | INDEPENDENT ROOT | — | physical comparison | no |
 | Unique 3D depth | Source | NON_UNIQUE | INDEPENDENT ROOT | projected detector data | unique physical source | no |
@@ -147,6 +147,18 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 - Dev168 receipt and the observer adapter retain relative position, direction, launch and received points in memory. The first information-loss boundary is `serialized_6x6_output`: Dev171 serializes only the primary 6×6 values, dropping receipt records, screen basis, dynamic extent, bin footprints and source lineage.
 - Result: `GRID_TO_SKY_RECOVERABILITY=DETERMINISTIC_APPROXIMATION`; point locations remain discretized but a native-bin-to-sky footprint is reconstructible from frozen inputs and deterministic code. This is `OUTCOME_B` plus `OUTCOME_C`, not a missing effective-EM bridge.
 - Refinement: `DEV172_PHYSICAL_BRIDGE_FLAG=TOO_BROAD`; `COMPARISON_REQUIRES_COORDINATE_PROVENANCE_BRIDGE=true`. The independent external pyRRG A2744 WCS asset remains unavailable (`OUTCOME_F`).
+
+## LEDGER ENTRY 008 — DEV174 NATIVE OBSERVER COORDINATE-PROVENANCE SERIALIZATION
+
+- Dev174 closed the serialized coordinate boundary without altering any Dev171 6×6 value: `Observer coordinate lineage = SERIALIZED / CLOSED`; `Native grid → sky mapping = DETERMINISTIC_CELL_FOOTPRINT_SERIALIZED`; `Native coordinate blocker = CLOSED`.
+- The external state at closure was `Observational WL WCS asset = UNAVAILABLE`. This is provenance repair only, not a scientific rerun.
+
+## LEDGER ENTRY 009 — DEV175 PYRRG RELEASE RECOVERY / BLIND WL GATE
+
+- Date: 2026-08-12; start commit: `8af0e01a1cc405d2db99abd5647b66364f9653a2`. Dev174’s closure and complete coordinate-package hashes were independently rechecked before observational work.
+- Release-provenance search covered the current pyRRG tree, full reachable history and deletions, branches/PR refs, tags/releases, LFS pointers, linked storage, journal supplement, Durham and EPFL deposits, arXiv ancillary material, and author-controlled public repositories. The historical A2744 training assets found in Git history are not the 2024 JWST paper product and were rejected as `UNVERIFIED_CANDIDATE`.
+- Result: no exact released convergence raster, exact released source catalogue, or author-archived copy with deterministic astrometry was recovered. `Observational WL asset = EXTERNAL_UNAVAILABLE`; `OUTCOME_F`; `BLIND_WL_MORPHOLOGY_STATUS=NOT_EVALUATED`.
+- No figure digitization, third-party map, registration, PBUF-array access, retuning, or comparison was performed. The Dev172 metric contract remains frozen but is formally not run because the asset/astrometry gates failed.
 
 ## Permanent rules
 

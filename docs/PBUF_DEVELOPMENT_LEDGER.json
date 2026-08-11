@@ -437,6 +437,22 @@
       "OBSERVATIONAL_ASSET_BLOCKER": true,
       "OUTCOME": "OUTCOME_A_AND_F",
       "NEXT_DEV_AUTHORIZED": false
+    },
+    {
+      "DATE": "2026-08-12",
+      "DEV_ID": "DEV175",
+      "LEDGER_ENTRY": "009",
+      "TITLE": "Published pyRRG asset recovery and frozen blind morphology gate",
+      "START_COMMIT": "8af0e01a1cc405d2db99abd5647b66364f9653a2",
+      "STATUS": "COMPLETE",
+      "DEV174_CANONICAL_LEDGER_RECONCILED": true,
+      "DEV174_NATIVE_COORDINATE_PACKAGE_HASHES_VERIFIED": true,
+      "OBSERVATIONAL_WL_WCS_ASSET": "EXTERNAL_UNAVAILABLE",
+      "RELEASE_SEARCH_COMPLETE": true,
+      "WL_ASSET_RECOVERED": false,
+      "BLIND_WL_MORPHOLOGY_STATUS": "NOT_EVALUATED",
+      "OUTCOME": "OUTCOME_F",
+      "NEXT_DEV_AUTHORIZED": false
     }
   ],
   "permanent_future_dev_rule": [
