@@ -1,0 +1,16 @@
+{
+  "MINIMUM_OBSERVER_PRIMITIVES": [
+    "launch_coordinates/source_position",
+    "received_position_3d",
+    "effective_direction_3d",
+    "native content/deposition weight",
+    "source/channel identity"
+  ],
+  "NATIVE_RECEIPT_MUST_HAVE_45_CHANNELS": false,
+  "OBSERVER_REQUIRED_PRIMITIVES_COVERED": true,
+  "native content weight": "density/deposition weight",
+  "native effective direction": "endpoint_final_direction / dx,dy,dz",
+  "native metadata": "ray identity and source/channel metadata",
+  "native received position": "endpoint_receive_position / uf,vf plus retained depth",
+  "native source position": "endpoint_launch_position / u0,v0"
+}

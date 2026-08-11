@@ -60,6 +60,22 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 - Outcome: `OUTCOME_A`
 - Status: `STRUCTURALLY_CLOSED`
 
+## LEDGER ENTRY 003 — DEV168 FINITE NATIVE LOADED RECEIPT
+
+- Date: 2026-08-11
+- Start commit: `106a62295ae8203b5322e28f6490f621a776f3bc`
+- Implementation commit: `PENDING_IMPLEMENTATION_COMMIT`
+- Verified remote HEAD: `SELF` (the provenance commit containing this verification record)
+- Branch: `dev-doc-112-fullscale-vulkan-observer-validation`
+- Current-state correction: loaded directional response and the native loaded propagation mechanism are `STRUCTURALLY_CLOSED` by Dev167; finite loaded receipt was the next active target
+- Receipt: full 3D distributed bond-flux crossings through a predeclared downstream plane, retaining source lineage, local displacement, momentum, flux, content candidates, direction, and progression step
+- Controls: unloaded and centered transverse nulls; off-axis receipt shift; reflected sign reversal; numerical-step and synthetic amplitude/loading/offset ladders
+- Weight: positive outward Dev167 pair-flux increment, promoted only as a native-content proxy; finite-step content closure is explicitly partial and not normalized
+- Observer: minimum primitives covered by a mechanical field adapter; 45-channel bank remains downstream; observer not executed or modified
+- Physical normalization/cosmology/Abell: none
+- Outcome: `OUTCOME_A`
+- Status: `STRUCTURALLY_CLOSED`
+
 ## Mechanism ledger
 
 | Mechanism | Status | Established by | Current evidence | Reopen only if | Dependents |
@@ -80,10 +96,10 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 
 | Missing item | Layer | Status | Root/downstream | Blocked by | Blocks | Needed now |
 |---|---|---|---|---|---|---|
-| Loaded directional response | Native dynamics | MISSING | ROOT | deeper mechanism underdetermined | finite loaded propagation | yes |
-| Finite loaded propagation | Native dynamics | BLOCKED | DOWNSTREAM | loaded directional response | received 3D state | yes |
-| Received finite native 3D state | Receipt | BLOCKED | DOWNSTREAM | finite loaded propagation | observer reconnection | yes |
-| Observer adapter | Interface | ADAPTER_REQUIRED | DOWNSTREAM | receipt contract absent | finite-state observer use | yes |
+| Loaded directional response | Native dynamics | STRUCTURALLY_CLOSED | ROOT | — | finite loaded propagation | no |
+| Finite loaded propagation | Native dynamics | STRUCTURALLY_CLOSED | DOWNSTREAM | — | received 3D state | no |
+| Received finite native 3D state | Receipt | ESTABLISHED | DOWNSTREAM | — | observer reconnection | no |
+| Observer adapter | Interface | MECHANICAL_ADAPTER_DEFINED | DOWNSTREAM | — | finite-state observer use | no |
 | Absolute normalization | Physical scale | UNRESOLVED | INDEPENDENT ROOT | — | physical comparison | no |
 | Unique 3D depth | Source | NON_UNIQUE | INDEPENDENT ROOT | projected detector data | unique physical source | no |
 

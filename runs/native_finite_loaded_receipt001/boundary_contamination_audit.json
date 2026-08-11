@@ -1,0 +1,8 @@
+{
+  "PERIODIC_WRAP_CONTAMINATION": false,
+  "classification": "receipt precedes forward wrap arrival by construction",
+  "forward_distance": 6,
+  "minimum_wrap_distance": 5,
+  "packet_launch": 2,
+  "receipt_plane": 8
+}

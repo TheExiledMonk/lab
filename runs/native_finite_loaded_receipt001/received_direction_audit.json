@@ -1,0 +1,7 @@
+{
+  "D01_LOCAL_MOMENTUM_AVAILABLE": true,
+  "D02_LOCAL_BOND_FLUX_AVAILABLE": true,
+  "PRIMARY_DIRECTION": "D02_LOCAL_BOND_FLUX",
+  "RECEIVED_DIRECTION_DERIVED": true,
+  "selection_basis": "local conservative crossing semantics, not observer performance"
+}

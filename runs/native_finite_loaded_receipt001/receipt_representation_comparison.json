@@ -1,0 +1,51 @@
+{
+  "DOUBLE_COUNTING_AUDITED": true,
+  "FLUX_REPEATED_CROSSINGS_RETAINED": true,
+  "NODE_DUPLICATION": false,
+  "PREFERRED_RECEIPT_REPRESENTATION": "BOND_FLUX",
+  "R01_NODE_RECEIPT": {
+    "centroid": [
+      8.0,
+      4.998740790870528,
+      5.000000000000003
+    ],
+    "count": 121,
+    "direction_shift": [
+      -0.00033326751272264434,
+      2.228473822682666e-15
+    ],
+    "effective_direction": [
+      0.999999944466381,
+      -0.00033326751272264434,
+      2.228473822682666e-15
+    ],
+    "transverse_shift": [
+      -0.001259209129472083,
+      2.6645352591003757e-15
+    ],
+    "weight_sum": 1.9281035555524037e-05
+  },
+  "R02_BOND_FLUX_RECEIPT": {
+    "centroid": [
+      7.49999999999997,
+      5.18462837993539,
+      4.999999999999993
+    ],
+    "count": 14851,
+    "direction_shift": [
+      2.2764758130250466e-05,
+      -8.203422945917229e-06
+    ],
+    "effective_direction": [
+      0.9999999997072347,
+      2.2764758130250466e-05,
+      -8.203422945917229e-06
+    ],
+    "transverse_shift": [
+      0.18462837993538983,
+      -7.105427357601002e-15
+    ],
+    "weight_sum": 2.7661511841511268e-05
+  },
+  "reason": "signed face crossings avoid threshold selection and node snapshot timing ambiguity"
+}

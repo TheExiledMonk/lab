@@ -1,0 +1,37 @@
+{
+  "centroid": [
+    8.0,
+    4.998740790870528,
+    5.000000000000003
+  ],
+  "count": 121,
+  "direction_shift": [
+    -0.00033326751272264434,
+    2.228473822682666e-15
+  ],
+  "effective_direction": [
+    0.999999944466381,
+    -0.00033326751272264434,
+    2.228473822682666e-15
+  ],
+  "fields": [
+    "source_positions",
+    "received_positions",
+    "directions",
+    "weights",
+    "progression_steps",
+    "native_cell_ids",
+    "local_displacement",
+    "local_momentum",
+    "local_flux",
+    "local_content_candidates"
+  ],
+  "full_3d_preserved": true,
+  "representation": "NODE_SUPPORT",
+  "source_lineage_preserved": true,
+  "transverse_shift": [
+    -0.001259209129472083,
+    2.6645352591003757e-15
+  ],
+  "weight_sum": 1.9281035555524037e-05
+}

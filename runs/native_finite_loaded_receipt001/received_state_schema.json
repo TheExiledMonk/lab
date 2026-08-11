@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "channels": "native metadata; 45 observer channels downstream",
+    "directions": "float64[N,3]",
+    "local_content_candidates": "float64[N,4] W01--W04",
+    "local_displacement": "float64[N,3]",
+    "local_flux": "float64[N,3]",
+    "local_momentum": "float64[N,3]",
+    "progression_steps": "int64[N]",
+    "received_positions": "float64[N,3]",
+    "source_positions": "float64[N,3]",
+    "weights": "float64[N] W04 positive outward pair-flux increment"
+  },
+  "representation": "BOND_FLUX",
+  "type": "NativeReceivedState"
+}

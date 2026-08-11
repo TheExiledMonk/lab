@@ -1,0 +1,18 @@
+{
+  "PROMOTED": "W04_POSITIVE_OUTWARD_PAIR_FLUX_INCREMENT",
+  "RECEIPT_WEIGHT_STATUS": "DERIVED_NATIVE_CONTENT_PROXY",
+  "W01": {
+    "locally_defined": true,
+    "nonnegative": true
+  },
+  "W02": {
+    "nonnegative_for_packet_relative_state": true
+  },
+  "W03": {
+    "nonnegative_for_packet_relative_state": true
+  },
+  "W04": {
+    "nonnegative_after_predeclared_outward-crossing selection": true
+  },
+  "called_energy": false
+}
