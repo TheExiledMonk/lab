@@ -1,0 +1,2134 @@
+{
+  "extremes": [
+    {
+      "diagnostic": "receipt_count",
+      "max_launch": "R00_DX+00_DY+00_DZ+01",
+      "min_launch": "R00_DX+00_DY+00_DZ+06",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "total_weight",
+      "max_launch": "R00_DX+00_DY+09_DZ+00",
+      "min_launch": "R00_DX+00_DY+01_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_mean",
+      "max_launch": "R00_DX+00_DY+09_DZ+08",
+      "min_launch": "R00_DX+00_DY+04_DZ+01",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_variance",
+      "max_launch": "R00_DX+00_DY+02_DZ+09",
+      "min_launch": "R00_DX+00_DY+10_DZ+05",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_x",
+      "max_launch": "R00_DX+00_DY+00_DZ+06",
+      "min_launch": "R00_DX+00_DY+00_DZ+01",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_y",
+      "max_launch": "R00_DX+00_DY+08_DZ+00",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_z",
+      "max_launch": "R00_DX+00_DY+00_DZ+08",
+      "min_launch": "R00_DX+00_DY+00_DZ+03",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_x",
+      "max_launch": "R00_DX+00_DY+06_DZ+08",
+      "min_launch": "R00_DX+00_DY+00_DZ+01",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_y",
+      "max_launch": "R00_DX+00_DY+04_DZ+02",
+      "min_launch": "R00_DX+00_DY+00_DZ+01",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_z",
+      "max_launch": "R00_DX+00_DY+10_DZ+01",
+      "min_launch": "R00_DX+00_DY+07_DZ+08",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_x",
+      "max_launch": "R00_DX+00_DY+09_DZ+00",
+      "min_launch": "R00_DX+00_DY+02_DZ+01",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_y",
+      "max_launch": "R00_DX+00_DY+08_DZ+00",
+      "min_launch": "R00_DX+00_DY+00_DZ+01",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_z",
+      "max_launch": "R00_DX+00_DY+00_DZ+08",
+      "min_launch": "R00_DX+00_DY+00_DZ+03",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_x",
+      "max_launch": "R00_DX+00_DY+00_DZ+06",
+      "min_launch": "R00_DX+00_DY+10_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_y",
+      "max_launch": "R00_DX+00_DY+10_DZ+00",
+      "min_launch": "R00_DX+00_DY+01_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_z",
+      "max_launch": "R00_DX+00_DY+00_DZ+10",
+      "min_launch": "R00_DX+00_DY+00_DZ+01",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_weight",
+      "max_launch": "R00_DX+00_DY+09_DZ+00",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W01",
+      "max_launch": "R00_DX+00_DY+10_DZ+00",
+      "min_launch": "R00_DX+00_DY+01_DZ+01",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W02",
+      "max_launch": "R00_DX+00_DY+00_DZ+06",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W03",
+      "max_launch": "R00_DX+00_DY+00_DZ+06",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W04",
+      "max_launch": "R00_DX+00_DY+00_DZ+06",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_x",
+      "max_launch": "R00_DX+00_DY+00_DZ+06",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_y",
+      "max_launch": "R00_DX+00_DY+00_DZ+00",
+      "min_launch": "R00_DX+00_DY+01_DZ+10",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_z",
+      "max_launch": "R00_DX+00_DY+00_DZ+00",
+      "min_launch": "R00_DX+00_DY+01_DZ+10",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_x",
+      "max_launch": "R00_DX+00_DY+05_DZ+00",
+      "min_launch": "R00_DX+00_DY+09_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_y",
+      "max_launch": "R00_DX+00_DY+01_DZ+06",
+      "min_launch": "R00_DX+00_DY+06_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_z",
+      "max_launch": "R00_DX+00_DY+06_DZ+00",
+      "min_launch": "R00_DX+00_DY+01_DZ+06",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_x",
+      "max_launch": "R00_DX+00_DY+10_DZ+00",
+      "min_launch": "R00_DX+00_DY+01_DZ+01",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_y",
+      "max_launch": "R00_DX+00_DY+00_DZ+00",
+      "min_launch": "R00_DX+00_DY+08_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_z",
+      "max_launch": "R00_DX+00_DY+00_DZ+00",
+      "min_launch": "R00_DX+00_DY+02_DZ+02",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_x",
+      "max_launch": "R00_DX+00_DY+00_DZ+06",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_y",
+      "max_launch": "R00_DX+00_DY+10_DZ+00",
+      "min_launch": "R00_DX+00_DY+07_DZ+10",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_z",
+      "max_launch": "R00_DX+00_DY+00_DZ+10",
+      "min_launch": "R00_DX+00_DY+00_DZ+07",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_weight",
+      "max_launch": "R00_DX+00_DY+10_DZ+00",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W01",
+      "max_launch": "R00_DX+00_DY+10_DZ+00",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W02",
+      "max_launch": "R00_DX+00_DY+00_DZ+06",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W03",
+      "max_launch": "R00_DX+00_DY+00_DZ+06",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W04",
+      "max_launch": "R00_DX+00_DY+00_DZ+06",
+      "min_launch": "R00_DX+00_DY+00_DZ+00",
+      "realization": 0,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "receipt_count",
+      "max_launch": "R01_DX+00_DY+00_DZ+02",
+      "min_launch": "R01_DX+00_DY+00_DZ+06",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "total_weight",
+      "max_launch": "R01_DX+00_DY+09_DZ+00",
+      "min_launch": "R01_DX+00_DY+01_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_mean",
+      "max_launch": "R01_DX+00_DY+09_DZ+07",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_variance",
+      "max_launch": "R01_DX+00_DY+03_DZ+07",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_x",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+01_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_y",
+      "max_launch": "R01_DX+00_DY+10_DZ+00",
+      "min_launch": "R01_DX+00_DY+03_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_z",
+      "max_launch": "R01_DX+00_DY+00_DZ+09",
+      "min_launch": "R01_DX+00_DY+00_DZ+03",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_x",
+      "max_launch": "R01_DX+00_DY+09_DZ+07",
+      "min_launch": "R01_DX+00_DY+02_DZ+01",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_y",
+      "max_launch": "R01_DX+00_DY+05_DZ+02",
+      "min_launch": "R01_DX+00_DY+10_DZ+10",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_z",
+      "max_launch": "R01_DX+00_DY+01_DZ+03",
+      "min_launch": "R01_DX+00_DY+09_DZ+06",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_x",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+01_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_y",
+      "max_launch": "R01_DX+00_DY+10_DZ+00",
+      "min_launch": "R01_DX+00_DY+04_DZ+01",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_z",
+      "max_launch": "R01_DX+00_DY+01_DZ+09",
+      "min_launch": "R01_DX+00_DY+01_DZ+03",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_x",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+10_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_y",
+      "max_launch": "R01_DX+00_DY+08_DZ+10",
+      "min_launch": "R01_DX+00_DY+01_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_z",
+      "max_launch": "R01_DX+00_DY+01_DZ+03",
+      "min_launch": "R01_DX+00_DY+00_DZ+01",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_weight",
+      "max_launch": "R01_DX+00_DY+00_DZ+07",
+      "min_launch": "R01_DX+00_DY+01_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W01",
+      "max_launch": "R01_DX+00_DY+09_DZ+00",
+      "min_launch": "R01_DX+00_DY+01_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W02",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W03",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+01_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W04",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_x",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_y",
+      "max_launch": "R01_DX+00_DY+10_DZ+00",
+      "min_launch": "R01_DX+00_DY+04_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_z",
+      "max_launch": "R01_DX+00_DY+00_DZ+00",
+      "min_launch": "R01_DX+00_DY+10_DZ+08",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_x",
+      "max_launch": "R01_DX+00_DY+05_DZ+00",
+      "min_launch": "R01_DX+00_DY+00_DZ+01",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_y",
+      "max_launch": "R01_DX+00_DY+00_DZ+05",
+      "min_launch": "R01_DX+00_DY+05_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_z",
+      "max_launch": "R01_DX+00_DY+06_DZ+00",
+      "min_launch": "R01_DX+00_DY+00_DZ+05",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_x",
+      "max_launch": "R01_DX+00_DY+09_DZ+00",
+      "min_launch": "R01_DX+00_DY+01_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_y",
+      "max_launch": "R01_DX+00_DY+00_DZ+00",
+      "min_launch": "R01_DX+00_DY+06_DZ+01",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_z",
+      "max_launch": "R01_DX+00_DY+00_DZ+00",
+      "min_launch": "R01_DX+00_DY+01_DZ+06",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_x",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_y",
+      "max_launch": "R01_DX+00_DY+01_DZ+00",
+      "min_launch": "R01_DX+00_DY+06_DZ+01",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_z",
+      "max_launch": "R01_DX+00_DY+01_DZ+03",
+      "min_launch": "R01_DX+00_DY+00_DZ+08",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_weight",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W01",
+      "max_launch": "R01_DX+00_DY+10_DZ+00",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W02",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W03",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W04",
+      "max_launch": "R01_DX+00_DY+00_DZ+06",
+      "min_launch": "R01_DX+00_DY+00_DZ+00",
+      "realization": 1,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "receipt_count",
+      "max_launch": "R02_DX+00_DY+10_DZ+00",
+      "min_launch": "R02_DX+00_DY+04_DZ+00",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "total_weight",
+      "max_launch": "R02_DX+00_DY+00_DZ+00",
+      "min_launch": "R02_DX+00_DY+00_DZ+08",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_mean",
+      "max_launch": "R02_DX+00_DY+00_DZ+03",
+      "min_launch": "R02_DX+00_DY+06_DZ+07",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_variance",
+      "max_launch": "R02_DX+00_DY+02_DZ+07",
+      "min_launch": "R02_DX+00_DY+00_DZ+00",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_x",
+      "max_launch": "R02_DX+00_DY+00_DZ+04",
+      "min_launch": "R02_DX+00_DY+01_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_y",
+      "max_launch": "R02_DX+00_DY+09_DZ+00",
+      "min_launch": "R02_DX+00_DY+04_DZ+00",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_z",
+      "max_launch": "R02_DX+00_DY+00_DZ+10",
+      "min_launch": "R02_DX+00_DY+00_DZ+03",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_x",
+      "max_launch": "R02_DX+00_DY+04_DZ+05",
+      "min_launch": "R02_DX+00_DY+00_DZ+00",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_y",
+      "max_launch": "R02_DX+00_DY+05_DZ+02",
+      "min_launch": "R02_DX+00_DY+09_DZ+07",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_z",
+      "max_launch": "R02_DX+00_DY+03_DZ+03",
+      "min_launch": "R02_DX+00_DY+10_DZ+06",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_x",
+      "max_launch": "R02_DX+00_DY+00_DZ+00",
+      "min_launch": "R02_DX+00_DY+07_DZ+06",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_y",
+      "max_launch": "R02_DX+00_DY+10_DZ+00",
+      "min_launch": "R02_DX+00_DY+03_DZ+00",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_z",
+      "max_launch": "R02_DX+00_DY+00_DZ+10",
+      "min_launch": "R02_DX+00_DY+00_DZ+03",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_x",
+      "max_launch": "R02_DX+00_DY+04_DZ+00",
+      "min_launch": "R02_DX+00_DY+00_DZ+00",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_y",
+      "max_launch": "R02_DX+00_DY+09_DZ+09",
+      "min_launch": "R02_DX+00_DY+01_DZ+00",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_z",
+      "max_launch": "R02_DX+00_DY+00_DZ+03",
+      "min_launch": "R02_DX+00_DY+00_DZ+01",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_weight",
+      "max_launch": "R02_DX+00_DY+00_DZ+04",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W01",
+      "max_launch": "R02_DX+00_DY+00_DZ+00",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W02",
+      "max_launch": "R02_DX+00_DY+00_DZ+04",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W03",
+      "max_launch": "R02_DX+00_DY+00_DZ+04",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W04",
+      "max_launch": "R02_DX+00_DY+00_DZ+04",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_x",
+      "max_launch": "R02_DX+00_DY+00_DZ+04",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_y",
+      "max_launch": "R02_DX+00_DY+00_DZ+00",
+      "min_launch": "R02_DX+00_DY+04_DZ+00",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_z",
+      "max_launch": "R02_DX+00_DY+00_DZ+00",
+      "min_launch": "R02_DX+00_DY+00_DZ+06",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_x",
+      "max_launch": "R02_DX+00_DY+05_DZ+00",
+      "min_launch": "R02_DX+00_DY+09_DZ+00",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_y",
+      "max_launch": "R02_DX+00_DY+01_DZ+05",
+      "min_launch": "R02_DX+00_DY+06_DZ+00",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_z",
+      "max_launch": "R02_DX+00_DY+06_DZ+00",
+      "min_launch": "R02_DX+00_DY+01_DZ+05",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_x",
+      "max_launch": "R02_DX+00_DY+00_DZ+00",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_y",
+      "max_launch": "R02_DX+00_DY+00_DZ+00",
+      "min_launch": "R02_DX+00_DY+09_DZ+08",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_z",
+      "max_launch": "R02_DX+00_DY+00_DZ+00",
+      "min_launch": "R02_DX+00_DY+00_DZ+06",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_x",
+      "max_launch": "R02_DX+00_DY+00_DZ+04",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_y",
+      "max_launch": "R02_DX+00_DY+01_DZ+00",
+      "min_launch": "R02_DX+00_DY+05_DZ+01",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_z",
+      "max_launch": "R02_DX+00_DY+00_DZ+03",
+      "min_launch": "R02_DX+00_DY+01_DZ+07",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_weight",
+      "max_launch": "R02_DX+00_DY+00_DZ+00",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W01",
+      "max_launch": "R02_DX+00_DY+00_DZ+00",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W02",
+      "max_launch": "R02_DX+00_DY+04_DZ+00",
+      "min_launch": "R02_DX+00_DY+00_DZ+10",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W03",
+      "max_launch": "R02_DX+00_DY+04_DZ+00",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W04",
+      "max_launch": "R02_DX+00_DY+00_DZ+04",
+      "min_launch": "R02_DX+00_DY+00_DZ+09",
+      "realization": 2,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "receipt_count",
+      "max_launch": "R03_DX+00_DY+00_DZ+00",
+      "min_launch": "R03_DX+00_DY+05_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "total_weight",
+      "max_launch": "R03_DX+00_DY+09_DZ+00",
+      "min_launch": "R03_DX+00_DY+01_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_mean",
+      "max_launch": "R03_DX+00_DY+00_DZ+05",
+      "min_launch": "R03_DX+00_DY+04_DZ+10",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_variance",
+      "max_launch": "R03_DX+00_DY+04_DZ+07",
+      "min_launch": "R03_DX+00_DY+00_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_x",
+      "max_launch": "R03_DX+00_DY+06_DZ+01",
+      "min_launch": "R03_DX+00_DY+00_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_y",
+      "max_launch": "R03_DX+00_DY+10_DZ+00",
+      "min_launch": "R03_DX+00_DY+03_DZ+10",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_z",
+      "max_launch": "R03_DX+00_DY+00_DZ+09",
+      "min_launch": "R03_DX+00_DY+00_DZ+02",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_x",
+      "max_launch": "R03_DX+00_DY+04_DZ+05",
+      "min_launch": "R03_DX+00_DY+00_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_y",
+      "max_launch": "R03_DX+00_DY+10_DZ+04",
+      "min_launch": "R03_DX+00_DY+04_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_z",
+      "max_launch": "R03_DX+00_DY+02_DZ+03",
+      "min_launch": "R03_DX+00_DY+08_DZ+07",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_x",
+      "max_launch": "R03_DX+00_DY+09_DZ+01",
+      "min_launch": "R03_DX+00_DY+01_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_y",
+      "max_launch": "R03_DX+00_DY+10_DZ+10",
+      "min_launch": "R03_DX+00_DY+03_DZ+10",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_z",
+      "max_launch": "R03_DX+00_DY+00_DZ+09",
+      "min_launch": "R03_DX+00_DY+00_DZ+03",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_x",
+      "max_launch": "R03_DX+00_DY+05_DZ+00",
+      "min_launch": "R03_DX+00_DY+10_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_y",
+      "max_launch": "R03_DX+00_DY+03_DZ+10",
+      "min_launch": "R03_DX+00_DY+07_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_z",
+      "max_launch": "R03_DX+00_DY+00_DZ+03",
+      "min_launch": "R03_DX+00_DY+01_DZ+01",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_weight",
+      "max_launch": "R03_DX+00_DY+06_DZ+01",
+      "min_launch": "R03_DX+00_DY+00_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W01",
+      "max_launch": "R03_DX+00_DY+10_DZ+00",
+      "min_launch": "R03_DX+00_DY+01_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W02",
+      "max_launch": "R03_DX+00_DY+05_DZ+00",
+      "min_launch": "R03_DX+00_DY+00_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W03",
+      "max_launch": "R03_DX+00_DY+06_DZ+01",
+      "min_launch": "R03_DX+00_DY+00_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W04",
+      "max_launch": "R03_DX+00_DY+05_DZ+00",
+      "min_launch": "R03_DX+00_DY+00_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_x",
+      "max_launch": "R03_DX+00_DY+05_DZ+00",
+      "min_launch": "R03_DX+00_DY+00_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_y",
+      "max_launch": "R03_DX+00_DY+10_DZ+00",
+      "min_launch": "R03_DX+00_DY+08_DZ+07",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_z",
+      "max_launch": "R03_DX+00_DY+00_DZ+03",
+      "min_launch": "R03_DX+00_DY+01_DZ+10",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_x",
+      "max_launch": "R03_DX+00_DY+05_DZ+00",
+      "min_launch": "R03_DX+00_DY+09_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_y",
+      "max_launch": "R03_DX+00_DY+00_DZ+06",
+      "min_launch": "R03_DX+00_DY+06_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_z",
+      "max_launch": "R03_DX+00_DY+06_DZ+00",
+      "min_launch": "R03_DX+00_DY+01_DZ+05",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_x",
+      "max_launch": "R03_DX+00_DY+10_DZ+00",
+      "min_launch": "R03_DX+00_DY+01_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_y",
+      "max_launch": "R03_DX+00_DY+00_DZ+00",
+      "min_launch": "R03_DX+00_DY+02_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_z",
+      "max_launch": "R03_DX+00_DY+00_DZ+00",
+      "min_launch": "R03_DX+00_DY+10_DZ+08",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_x",
+      "max_launch": "R03_DX+00_DY+05_DZ+00",
+      "min_launch": "R03_DX+00_DY+00_DZ+01",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_y",
+      "max_launch": "R03_DX+00_DY+10_DZ+01",
+      "min_launch": "R03_DX+00_DY+09_DZ+10",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_z",
+      "max_launch": "R03_DX+00_DY+01_DZ+10",
+      "min_launch": "R03_DX+00_DY+00_DZ+08",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_weight",
+      "max_launch": "R03_DX+00_DY+10_DZ+00",
+      "min_launch": "R03_DX+00_DY+00_DZ+01",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W01",
+      "max_launch": "R03_DX+00_DY+10_DZ+00",
+      "min_launch": "R03_DX+00_DY+01_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W02",
+      "max_launch": "R03_DX+00_DY+05_DZ+00",
+      "min_launch": "R03_DX+00_DY+00_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W03",
+      "max_launch": "R03_DX+00_DY+05_DZ+00",
+      "min_launch": "R03_DX+00_DY+00_DZ+00",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W04",
+      "max_launch": "R03_DX+00_DY+05_DZ+00",
+      "min_launch": "R03_DX+00_DY+00_DZ+01",
+      "realization": 3,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "receipt_count",
+      "max_launch": "R04_DX+00_DY+00_DZ+00",
+      "min_launch": "R04_DX+00_DY+00_DZ+06",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "total_weight",
+      "max_launch": "R04_DX+00_DY+10_DZ+01",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_mean",
+      "max_launch": "R04_DX+00_DY+09_DZ+07",
+      "min_launch": "R04_DX+00_DY+04_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_variance",
+      "max_launch": "R04_DX+00_DY+03_DZ+08",
+      "min_launch": "R04_DX+00_DY+00_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_x",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_y",
+      "max_launch": "R04_DX+00_DY+10_DZ+00",
+      "min_launch": "R04_DX+00_DY+03_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_z",
+      "max_launch": "R04_DX+00_DY+00_DZ+09",
+      "min_launch": "R04_DX+00_DY+00_DZ+02",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_x",
+      "max_launch": "R04_DX+00_DY+04_DZ+05",
+      "min_launch": "R04_DX+00_DY+00_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_y",
+      "max_launch": "R04_DX+00_DY+05_DZ+01",
+      "min_launch": "R04_DX+00_DY+01_DZ+07",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_z",
+      "max_launch": "R04_DX+00_DY+09_DZ+02",
+      "min_launch": "R04_DX+00_DY+03_DZ+06",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_x",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_y",
+      "max_launch": "R04_DX+00_DY+10_DZ+00",
+      "min_launch": "R04_DX+00_DY+04_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_z",
+      "max_launch": "R04_DX+00_DY+00_DZ+09",
+      "min_launch": "R04_DX+00_DY+00_DZ+04",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_x",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+10_DZ+01",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_y",
+      "max_launch": "R04_DX+00_DY+09_DZ+09",
+      "min_launch": "R04_DX+00_DY+02_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_z",
+      "max_launch": "R04_DX+00_DY+00_DZ+03",
+      "min_launch": "R04_DX+00_DY+01_DZ+01",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_weight",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W01",
+      "max_launch": "R04_DX+00_DY+10_DZ+01",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W02",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+00_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W03",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W04",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_x",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+00_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_y",
+      "max_launch": "R04_DX+00_DY+10_DZ+00",
+      "min_launch": "R04_DX+00_DY+04_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_z",
+      "max_launch": "R04_DX+00_DY+00_DZ+01",
+      "min_launch": "R04_DX+00_DY+07_DZ+05",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_x",
+      "max_launch": "R04_DX+00_DY+01_DZ+05",
+      "min_launch": "R04_DX+00_DY+09_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_y",
+      "max_launch": "R04_DX+00_DY+00_DZ+05",
+      "min_launch": "R04_DX+00_DY+05_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_z",
+      "max_launch": "R04_DX+00_DY+05_DZ+00",
+      "min_launch": "R04_DX+00_DY+00_DZ+05",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_x",
+      "max_launch": "R04_DX+00_DY+10_DZ+01",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_y",
+      "max_launch": "R04_DX+00_DY+00_DZ+00",
+      "min_launch": "R04_DX+00_DY+07_DZ+10",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_z",
+      "max_launch": "R04_DX+00_DY+00_DZ+00",
+      "min_launch": "R04_DX+00_DY+00_DZ+09",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_x",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_y",
+      "max_launch": "R04_DX+00_DY+00_DZ+00",
+      "min_launch": "R04_DX+00_DY+09_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_z",
+      "max_launch": "R04_DX+00_DY+00_DZ+03",
+      "min_launch": "R04_DX+00_DY+01_DZ+08",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_weight",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W01",
+      "max_launch": "R04_DX+00_DY+10_DZ+00",
+      "min_launch": "R04_DX+00_DY+01_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W02",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+00_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W03",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+00_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W04",
+      "max_launch": "R04_DX+00_DY+00_DZ+06",
+      "min_launch": "R04_DX+00_DY+00_DZ+00",
+      "realization": 4,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "receipt_count",
+      "max_launch": "R05_DX+00_DY+02_DZ+00",
+      "min_launch": "R05_DX+00_DY+10_DZ+04",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "total_weight",
+      "max_launch": "R05_DX+00_DY+10_DZ+01",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_mean",
+      "max_launch": "R05_DX+00_DY+00_DZ+05",
+      "min_launch": "R05_DX+00_DY+03_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_variance",
+      "max_launch": "R05_DX+00_DY+02_DZ+09",
+      "min_launch": "R05_DX+00_DY+07_DZ+02",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_x",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+02_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_y",
+      "max_launch": "R05_DX+00_DY+08_DZ+00",
+      "min_launch": "R05_DX+00_DY+02_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_z",
+      "max_launch": "R05_DX+00_DY+09_DZ+08",
+      "min_launch": "R05_DX+00_DY+09_DZ+02",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_x",
+      "max_launch": "R05_DX+00_DY+07_DZ+06",
+      "min_launch": "R05_DX+00_DY+00_DZ+01",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_y",
+      "max_launch": "R05_DX+00_DY+05_DZ+06",
+      "min_launch": "R05_DX+00_DY+10_DZ+10",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_z",
+      "max_launch": "R05_DX+00_DY+08_DZ+03",
+      "min_launch": "R05_DX+00_DY+03_DZ+10",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_x",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_y",
+      "max_launch": "R05_DX+00_DY+08_DZ+00",
+      "min_launch": "R05_DX+00_DY+09_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_z",
+      "max_launch": "R05_DX+00_DY+09_DZ+09",
+      "min_launch": "R05_DX+00_DY+00_DZ+09",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_x",
+      "max_launch": "R05_DX+00_DY+10_DZ+05",
+      "min_launch": "R05_DX+00_DY+10_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_y",
+      "max_launch": "R05_DX+00_DY+10_DZ+00",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_z",
+      "max_launch": "R05_DX+00_DY+00_DZ+10",
+      "min_launch": "R05_DX+00_DY+00_DZ+01",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_weight",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W01",
+      "max_launch": "R05_DX+00_DY+10_DZ+00",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W02",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+01_DZ+10",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W03",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W04",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_x",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+01_DZ+10",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_y",
+      "max_launch": "R05_DX+00_DY+00_DZ+00",
+      "min_launch": "R05_DX+00_DY+06_DZ+01",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_z",
+      "max_launch": "R05_DX+00_DY+00_DZ+04",
+      "min_launch": "R05_DX+00_DY+09_DZ+05",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_x",
+      "max_launch": "R05_DX+00_DY+00_DZ+06",
+      "min_launch": "R05_DX+00_DY+04_DZ+06",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_y",
+      "max_launch": "R05_DX+00_DY+01_DZ+05",
+      "min_launch": "R05_DX+00_DY+06_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_z",
+      "max_launch": "R05_DX+00_DY+06_DZ+00",
+      "min_launch": "R05_DX+00_DY+01_DZ+05",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_x",
+      "max_launch": "R05_DX+00_DY+10_DZ+00",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_y",
+      "max_launch": "R05_DX+00_DY+00_DZ+00",
+      "min_launch": "R05_DX+00_DY+01_DZ+10",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_z",
+      "max_launch": "R05_DX+00_DY+00_DZ+09",
+      "min_launch": "R05_DX+00_DY+01_DZ+06",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_x",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+00_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_y",
+      "max_launch": "R05_DX+00_DY+10_DZ+00",
+      "min_launch": "R05_DX+00_DY+09_DZ+03",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_z",
+      "max_launch": "R05_DX+00_DY+00_DZ+10",
+      "min_launch": "R05_DX+00_DY+01_DZ+06",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_weight",
+      "max_launch": "R05_DX+00_DY+10_DZ+00",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W01",
+      "max_launch": "R05_DX+00_DY+10_DZ+00",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W02",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+01_DZ+10",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W03",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+01_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W04",
+      "max_launch": "R05_DX+00_DY+10_DZ+04",
+      "min_launch": "R05_DX+00_DY+00_DZ+00",
+      "realization": 5,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "receipt_count",
+      "max_launch": "R06_DX+00_DY+00_DZ+10",
+      "min_launch": "R06_DX+00_DY+00_DZ+05",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "total_weight",
+      "max_launch": "R06_DX+00_DY+10_DZ+00",
+      "min_launch": "R06_DX+00_DY+01_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_mean",
+      "max_launch": "R06_DX+00_DY+07_DZ+00",
+      "min_launch": "R06_DX+00_DY+04_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_variance",
+      "max_launch": "R06_DX+00_DY+02_DZ+08",
+      "min_launch": "R06_DX+00_DY+10_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_x",
+      "max_launch": "R06_DX+00_DY+00_DZ+05",
+      "min_launch": "R06_DX+00_DY+02_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_y",
+      "max_launch": "R06_DX+00_DY+10_DZ+00",
+      "min_launch": "R06_DX+00_DY+03_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_z",
+      "max_launch": "R06_DX+00_DY+00_DZ+08",
+      "min_launch": "R06_DX+00_DY+00_DZ+02",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_x",
+      "max_launch": "R06_DX+00_DY+07_DZ+10",
+      "min_launch": "R06_DX+00_DY+00_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_y",
+      "max_launch": "R06_DX+00_DY+04_DZ+02",
+      "min_launch": "R06_DX+00_DY+07_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_z",
+      "max_launch": "R06_DX+00_DY+01_DZ+05",
+      "min_launch": "R06_DX+00_DY+06_DZ+09",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_x",
+      "max_launch": "R06_DX+00_DY+10_DZ+00",
+      "min_launch": "R06_DX+00_DY+02_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_y",
+      "max_launch": "R06_DX+00_DY+10_DZ+00",
+      "min_launch": "R06_DX+00_DY+02_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_z",
+      "max_launch": "R06_DX+00_DY+00_DZ+08",
+      "min_launch": "R06_DX+00_DY+00_DZ+02",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_x",
+      "max_launch": "R06_DX+00_DY+00_DZ+05",
+      "min_launch": "R06_DX+00_DY+00_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_y",
+      "max_launch": "R06_DX+00_DY+10_DZ+02",
+      "min_launch": "R06_DX+00_DY+08_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_z",
+      "max_launch": "R06_DX+00_DY+01_DZ+03",
+      "min_launch": "R06_DX+00_DY+00_DZ+08",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_weight",
+      "max_launch": "R06_DX+00_DY+10_DZ+00",
+      "min_launch": "R06_DX+00_DY+01_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W01",
+      "max_launch": "R06_DX+00_DY+00_DZ+00",
+      "min_launch": "R06_DX+00_DY+01_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W02",
+      "max_launch": "R06_DX+00_DY+00_DZ+05",
+      "min_launch": "R06_DX+00_DY+00_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W03",
+      "max_launch": "R06_DX+00_DY+00_DZ+05",
+      "min_launch": "R06_DX+00_DY+01_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W04",
+      "max_launch": "R06_DX+00_DY+00_DZ+05",
+      "min_launch": "R06_DX+00_DY+01_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_x",
+      "max_launch": "R06_DX+00_DY+00_DZ+05",
+      "min_launch": "R06_DX+00_DY+00_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_y",
+      "max_launch": "R06_DX+00_DY+00_DZ+00",
+      "min_launch": "R06_DX+00_DY+04_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_z",
+      "max_launch": "R06_DX+00_DY+00_DZ+00",
+      "min_launch": "R06_DX+00_DY+01_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_x",
+      "max_launch": "R06_DX+00_DY+05_DZ+01",
+      "min_launch": "R06_DX+00_DY+10_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_y",
+      "max_launch": "R06_DX+00_DY+01_DZ+05",
+      "min_launch": "R06_DX+00_DY+06_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_z",
+      "max_launch": "R06_DX+00_DY+06_DZ+00",
+      "min_launch": "R06_DX+00_DY+01_DZ+05",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_x",
+      "max_launch": "R06_DX+00_DY+00_DZ+00",
+      "min_launch": "R06_DX+00_DY+01_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_y",
+      "max_launch": "R06_DX+00_DY+00_DZ+00",
+      "min_launch": "R06_DX+00_DY+02_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_z",
+      "max_launch": "R06_DX+00_DY+00_DZ+00",
+      "min_launch": "R06_DX+00_DY+01_DZ+07",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_x",
+      "max_launch": "R06_DX+00_DY+00_DZ+05",
+      "min_launch": "R06_DX+00_DY+00_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_y",
+      "max_launch": "R06_DX+00_DY+09_DZ+00",
+      "min_launch": "R06_DX+00_DY+05_DZ+00",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_z",
+      "max_launch": "R06_DX+00_DY+01_DZ+03",
+      "min_launch": "R06_DX+00_DY+01_DZ+07",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_weight",
+      "max_launch": "R06_DX+00_DY+00_DZ+00",
+      "min_launch": "R06_DX+00_DY+01_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W01",
+      "max_launch": "R06_DX+00_DY+00_DZ+00",
+      "min_launch": "R06_DX+00_DY+01_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W02",
+      "max_launch": "R06_DX+00_DY+00_DZ+05",
+      "min_launch": "R06_DX+00_DY+00_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W03",
+      "max_launch": "R06_DX+00_DY+00_DZ+05",
+      "min_launch": "R06_DX+00_DY+00_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W04",
+      "max_launch": "R06_DX+00_DY+00_DZ+05",
+      "min_launch": "R06_DX+00_DY+00_DZ+10",
+      "realization": 6,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "receipt_count",
+      "max_launch": "R07_DX+00_DY+00_DZ+00",
+      "min_launch": "R07_DX+00_DY+06_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "total_weight",
+      "max_launch": "R07_DX+00_DY+10_DZ+02",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_mean",
+      "max_launch": "R07_DX+00_DY+09_DZ+08",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "progression_variance",
+      "max_launch": "R07_DX+00_DY+00_DZ+07",
+      "min_launch": "R07_DX+00_DY+10_DZ+01",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_x",
+      "max_launch": "R07_DX+00_DY+00_DZ+06",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_y",
+      "max_launch": "R07_DX+00_DY+07_DZ+03",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_delta_z",
+      "max_launch": "R07_DX+00_DY+00_DZ+05",
+      "min_launch": "R07_DX+00_DY+01_DZ+09",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_x",
+      "max_launch": "R07_DX+00_DY+10_DZ+06",
+      "min_launch": "R07_DX+00_DY+02_DZ+01",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_y",
+      "max_launch": "R07_DX+00_DY+04_DZ+02",
+      "min_launch": "R07_DX+00_DY+10_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_d_z",
+      "max_launch": "R07_DX+00_DY+02_DZ+04",
+      "min_launch": "R07_DX+00_DY+09_DZ+08",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_x",
+      "max_launch": "R07_DX+00_DY+09_DZ+01",
+      "min_launch": "R07_DX+00_DY+02_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_y",
+      "max_launch": "R07_DX+00_DY+02_DZ+00",
+      "min_launch": "R07_DX+00_DY+10_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_p_z",
+      "max_launch": "R07_DX+00_DY+01_DZ+02",
+      "min_launch": "R07_DX+00_DY+01_DZ+09",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_x",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+10_DZ+01",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_y",
+      "max_launch": "R07_DX+00_DY+10_DZ+00",
+      "min_launch": "R07_DX+00_DY+02_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_J_z",
+      "max_launch": "R07_DX+00_DY+01_DZ+09",
+      "min_launch": "R07_DX+00_DY+00_DZ+01",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_weight",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W01",
+      "max_launch": "R07_DX+00_DY+10_DZ+02",
+      "min_launch": "R07_DX+00_DY+01_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W02",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W03",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+01_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "mean_W04",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_x",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_y",
+      "max_launch": "R07_DX+00_DY+10_DZ+00",
+      "min_launch": "R07_DX+00_DY+05_DZ+02",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_delta_z",
+      "max_launch": "R07_DX+00_DY+00_DZ+05",
+      "min_launch": "R07_DX+00_DY+10_DZ+09",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_x",
+      "max_launch": "R07_DX+00_DY+05_DZ+10",
+      "min_launch": "R07_DX+00_DY+09_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_y",
+      "max_launch": "R07_DX+00_DY+00_DZ+06",
+      "min_launch": "R07_DX+00_DY+06_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_d_z",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+06",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_x",
+      "max_launch": "R07_DX+00_DY+10_DZ+02",
+      "min_launch": "R07_DX+00_DY+01_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_y",
+      "max_launch": "R07_DX+00_DY+09_DZ+00",
+      "min_launch": "R07_DX+00_DY+07_DZ+09",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_p_z",
+      "max_launch": "R07_DX+00_DY+00_DZ+02",
+      "min_launch": "R07_DX+00_DY+10_DZ+09",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_x",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_y",
+      "max_launch": "R07_DX+00_DY+10_DZ+00",
+      "min_launch": "R07_DX+00_DY+10_DZ+03",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_J_z",
+      "max_launch": "R07_DX+00_DY+01_DZ+09",
+      "min_launch": "R07_DX+00_DY+03_DZ+01",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_weight",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W01",
+      "max_launch": "R07_DX+00_DY+10_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W02",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W03",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    },
+    {
+      "diagnostic": "variance_W04",
+      "max_launch": "R07_DX+00_DY+06_DZ+00",
+      "min_launch": "R07_DX+00_DY+00_DZ+00",
+      "realization": 7,
+      "validity": "VALID_RAW_C100_RECEIPT"
+    }
+  ],
+  "serialization_issue_detected": false,
+  "zero_receipt_states_removed": false
+}

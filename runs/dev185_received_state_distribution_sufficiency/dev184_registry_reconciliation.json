@@ -1,0 +1,11 @@
+{
+  "all_8_realizations": "CONVERGED_BY_C50",
+  "canonical_future_coverage": "C100_DISCRETE",
+  "current_status": "CANONICAL",
+  "minimum_converged_coverage": "C50_DISCRETE",
+  "received_state_distribution_gate": "AUTHORIZED",
+  "registered_attempt": "dev184_discrete_launch_density_convergence",
+  "registered_target": "native_launch_density_convergence",
+  "result": "FULL",
+  "stale_target": "discrete_native_launch_domain"
+}

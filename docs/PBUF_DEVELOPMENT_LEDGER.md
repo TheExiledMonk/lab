@@ -286,3 +286,11 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - The deterministic nested `1 → 30 → 60 → 121` aggregates retain DEV168 physical receipt arrays and DEV183 packet/launch/realization lineage. Baselines reproduce all eight DEV177 canonical receipt arrays exactly.
 - Result: all eight rank trajectories are `CONVERGED_BY_C50`; native depth information remains nonzero at C100 in every realization. C100 remains the canonical future coverage because the finite domain is small and fully enumerated; C50 is the recorded minimum converged coverage under the current rank-led structural diagnostic.
 - Status: `OUTCOME_B`; `RECEIVED_STATE_DISTRIBUTION_GATE=AUTHORIZED`. This closes density sufficiency only. Native mode/channel sufficiency and physical observer mapping remain later, separate gates.
+
+## LEDGER ENTRY 018 — DEV185 RECEIVED-STATE DISTRIBUTION SUFFICIENCY
+
+- Date: 2026-08-12. DEV185 read the complete frozen DEV184 C100 packet-aware collections: all 121 launches in each of the eight DEV171 source-depth realizations. No propagation, launch, channel, observer, smoothing, observational, or GR/ΛCDM operation was performed.
+- Permanent-record reconciliation: DEV184 is registered as canonical `native_launch_density_convergence` with `result=FULL`; its frozen final-contract delivery flags remain historically unchanged, while DEV185 records that implementation commit `6089c89` was merged by PR #109 at `8c721da`.
+- Distribution result: the raw full DEV177 feature ordering has numerical rank 14 in every realization; exact DEV177 depth ablation retains a rank increment of 4 in every realization. All receipt channels are defined at C100, no exact pairwise feature redundancy was found, and launch-equal count, native-weight, progression, support, covariance, higher-moment, empirical-distribution, extreme-launch, periodic-boundary, and exact DFT diagnostics are retained separately from event-weighted receipt information.
+- Closure: `OUTCOME_A`; `RECEIVED_STATE_DISTRIBUTION_SUFFICIENCY=FULL` and `NATIVE_MODE_CHANNEL_GATE=AUTHORIZED`. Statistical eigendirections and launch-domain DFT modes remain diagnostics only. `PHYSICAL_OBSERVER_GATE=BLOCKED_PENDING_MODE_CHANNEL`.
+- Next frontier: `NATIVE MODE / CHANNEL SUFFICIENCY`. No channel is selected, removed, or identified as an observer in this entry.

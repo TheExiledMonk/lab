@@ -93,6 +93,14 @@
       "type": "TARGET"
     },
     {
+      "id": "native_launch_density_convergence",
+      "type": "TARGET"
+    },
+    {
+      "id": "received_state_distribution_sufficiency",
+      "type": "TARGET"
+    },
+    {
       "id": "dev151_shared_state_cross_coupling",
       "type": "ATTEMPT"
     },
@@ -109,10 +117,6 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "dev163_scalar_loaded_f03:eq_dev163_scalar_loaded_f03",
-      "type": "EQUATION"
-    },
-    {
       "id": "dev164_scalar_geometry",
       "type": "ATTEMPT"
     },
@@ -127,14 +131,6 @@
     {
       "id": "dev167_vector_relational_dynamics",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
-      "type": "EQUATION"
-    },
-    {
-      "id": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
-      "type": "EQUATION"
     },
     {
       "id": "canonical:dev167_vector_relational_dynamics",
@@ -157,16 +153,8 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "pr69_forcing_redistribution:eq_pr69_forcing_redistribution",
-      "type": "EQUATION"
-    },
-    {
       "id": "pr70_bounded_strain_constitutive",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "pr70_bounded_strain_constitutive:eq_pr70_bounded_strain_constitutive",
-      "type": "EQUATION"
     },
     {
       "id": "pr72_local_n6_redistribution",
@@ -269,10 +257,6 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "dev177_full_received_state:eq_dev177_full_received_state",
-      "type": "EQUATION"
-    },
-    {
       "id": "canonical:dev177_full_received_state",
       "type": "CANONICAL_RESULT"
     },
@@ -289,8 +273,20 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "infrastructure:dev178_vulkan_viewer",
-      "type": "INFRASTRUCTURE"
+      "id": "dev184_discrete_launch_density_convergence",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "canonical:dev184_discrete_launch_density_convergence",
+      "type": "CANONICAL_RESULT"
+    },
+    {
+      "id": "dev185_received_state_distribution_sufficiency",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "canonical:dev185_received_state_distribution_sufficiency",
+      "type": "CANONICAL_RESULT"
     },
     {
       "id": "owers_spectroscopy",
@@ -323,11 +319,6 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev163_scalar_loaded_f03",
-      "target": "dev163_scalar_loaded_f03:eq_dev163_scalar_loaded_f03",
-      "type": "USES"
-    },
-    {
       "source": "dev164_scalar_geometry",
       "target": "native_loaded_directional_response",
       "type": "ATTEMPTS_TO_SOLVE"
@@ -346,16 +337,6 @@
       "source": "dev167_vector_relational_dynamics",
       "target": "native_loaded_directional_response",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "dev167_vector_relational_dynamics",
-      "target": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
-      "type": "USES"
-    },
-    {
-      "source": "dev167_vector_relational_dynamics",
-      "target": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
-      "type": "USES"
     },
     {
       "source": "dev167_vector_relational_dynamics",
@@ -383,19 +364,9 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "pr69_forcing_redistribution",
-      "target": "pr69_forcing_redistribution:eq_pr69_forcing_redistribution",
-      "type": "USES"
-    },
-    {
       "source": "pr70_bounded_strain_constitutive",
       "target": "bounded_strain_constitutive",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "pr70_bounded_strain_constitutive",
-      "target": "pr70_bounded_strain_constitutive:eq_pr70_bounded_strain_constitutive",
-      "type": "USES"
     },
     {
       "source": "pr72_local_n6_redistribution",
@@ -524,11 +495,6 @@
     },
     {
       "source": "dev177_full_received_state",
-      "target": "dev177_full_received_state:eq_dev177_full_received_state",
-      "type": "USES"
-    },
-    {
-      "source": "dev177_full_received_state",
       "target": "canonical:dev177_full_received_state",
       "type": "VALIDATED_BY"
     },
@@ -548,9 +514,34 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev178_vulkan_viewer",
-      "target": "infrastructure:dev178_vulkan_viewer",
-      "type": "PRODUCES"
+      "source": "dev184_discrete_launch_density_convergence",
+      "target": "native_launch_density_convergence",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev184_discrete_launch_density_convergence",
+      "target": "canonical:dev184_discrete_launch_density_convergence",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "dev184_discrete_launch_density_convergence",
+      "target": "dev183_discrete_launch_domain_packet_lineage",
+      "type": "DERIVED_FROM"
+    },
+    {
+      "source": "dev185_received_state_distribution_sufficiency",
+      "target": "received_state_distribution_sufficiency",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev185_received_state_distribution_sufficiency",
+      "target": "canonical:dev185_received_state_distribution_sufficiency",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "dev185_received_state_distribution_sufficiency",
+      "target": "dev184_discrete_launch_density_convergence",
+      "type": "DERIVED_FROM"
     },
     {
       "source": "pr70_bounded_strain_constitutive",

@@ -1,0 +1,9 @@
+{
+  "Helmholtz": "NOT_EXECUTED; requires a spatial field construction, not raw receipt rows",
+  "PCA_COMPONENTS_NOT_PROMOTED": true,
+  "PCA_NOT_PHYSICAL_OBSERVER": true,
+  "covariance_eigendirections": "APPLICABLE_DIAGNOSTIC_ONLY",
+  "finite_Z11xZ11_DFT": "APPLICABLE_DIAGNOSTIC_ONLY",
+  "raw_component_basis": "APPLICABLE",
+  "topology": "NOT_EXECUTED; requires independently defined field topology"
+}

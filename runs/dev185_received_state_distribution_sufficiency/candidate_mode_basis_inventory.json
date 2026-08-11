@@ -1,0 +1,32 @@
+{
+  "bases": [
+    {
+      "basis": "raw component basis",
+      "current_applicability": "APPLICABLE",
+      "free_parameters": [],
+      "origin": "DEV177 full feature ordering",
+      "physics_status": "native components, not observer selection"
+    },
+    {
+      "basis": "STATISTICAL_EIGENDIRECTIONS",
+      "current_applicability": "APPLICABLE_DIAGNOSTIC_ONLY",
+      "free_parameters": [],
+      "origin": "DEV185 raw covariance",
+      "physics_status": "not physical modes"
+    },
+    {
+      "basis": "exact Z11xZ11 DFT",
+      "current_applicability": "APPLICABLE_DIAGNOSTIC_ONLY",
+      "free_parameters": [],
+      "origin": "DEV183 finite launch domain",
+      "physics_status": "not physical modes"
+    },
+    {
+      "basis": "field decomposition",
+      "current_applicability": "NOT_YET_STRUCTURALLY_CONSTRUCTED",
+      "free_parameters": [],
+      "origin": "historical Helmholtz/topology search",
+      "physics_status": "not executed"
+    }
+  ]
+}

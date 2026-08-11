@@ -1,0 +1,134 @@
+{
+  "components_retained": true,
+  "family": "content_candidate",
+  "per_realization": [
+    {
+      "event_weighted_summary": "recorded from raw receipt rows before launch aggregation",
+      "launch_equal_summary": {
+        "count": 2057,
+        "excess_kurtosis": 13.37938720821802,
+        "max": 0.1377887670805847,
+        "mean": 0.006647506993770867,
+        "median": 7.688245508826849e-09,
+        "min": -0.034985427840476674,
+        "q25": 7.260611109799028e-16,
+        "q75": 2.85333758712465e-08,
+        "skewness": 3.6956631423400728,
+        "variance": 0.0006186826815900853
+      },
+      "realization": 0
+    },
+    {
+      "event_weighted_summary": "recorded from raw receipt rows before launch aggregation",
+      "launch_equal_summary": {
+        "count": 2057,
+        "excess_kurtosis": 6.639222248336468,
+        "max": 0.1286243636192675,
+        "mean": 0.0036503951814415127,
+        "median": 8.10139711679602e-09,
+        "min": -0.13144034565326962,
+        "q25": 5.549054585756661e-16,
+        "q75": 2.7442731417053295e-08,
+        "skewness": 0.6837229357752252,
+        "variance": 0.0008934076957573513
+      },
+      "realization": 1
+    },
+    {
+      "event_weighted_summary": "recorded from raw receipt rows before launch aggregation",
+      "launch_equal_summary": {
+        "count": 2057,
+        "excess_kurtosis": 9.672719180979005,
+        "max": 0.13975672090475505,
+        "mean": 0.007415538077990257,
+        "median": 9.398553074702364e-09,
+        "min": -0.054436822548244904,
+        "q25": 1.001395870823161e-09,
+        "q75": 2.4212047842601945e-05,
+        "skewness": 3.1208517246979364,
+        "variance": 0.0007153806791236538
+      },
+      "realization": 2
+    },
+    {
+      "event_weighted_summary": "recorded from raw receipt rows before launch aggregation",
+      "launch_equal_summary": {
+        "count": 2057,
+        "excess_kurtosis": 9.13225487690025,
+        "max": 0.10942600895498461,
+        "mean": 0.002733128226447228,
+        "median": 8.912163158081792e-09,
+        "min": -0.08910953877106341,
+        "q25": 9.69449476574789e-10,
+        "q75": 2.7375189404889716e-08,
+        "skewness": 1.9044342796350668,
+        "variance": 0.0005182466290644118
+      },
+      "realization": 3
+    },
+    {
+      "event_weighted_summary": "recorded from raw receipt rows before launch aggregation",
+      "launch_equal_summary": {
+        "count": 2057,
+        "excess_kurtosis": 8.237091114544675,
+        "max": 0.10089326654837465,
+        "mean": 0.0032855814992989573,
+        "median": 7.999525687686409e-09,
+        "min": -0.08138364214018841,
+        "q25": 4.1449179734480417e-16,
+        "q75": 2.7927299090397783e-08,
+        "skewness": 1.7787966330432192,
+        "variance": 0.0004273795620586107
+      },
+      "realization": 4
+    },
+    {
+      "event_weighted_summary": "recorded from raw receipt rows before launch aggregation",
+      "launch_equal_summary": {
+        "count": 2057,
+        "excess_kurtosis": 8.830447496284231,
+        "max": 0.10340059116577711,
+        "mean": 0.003295025599041269,
+        "median": 5.431266731126836e-09,
+        "min": -0.06670297244796891,
+        "q25": -5.495749104897435e-16,
+        "q75": 2.7401124962489528e-08,
+        "skewness": 2.451038344813779,
+        "variance": 0.00044012109833085146
+      },
+      "realization": 5
+    },
+    {
+      "event_weighted_summary": "recorded from raw receipt rows before launch aggregation",
+      "launch_equal_summary": {
+        "count": 2057,
+        "excess_kurtosis": 7.175064806739638,
+        "max": 0.10047067294885238,
+        "mean": 0.0006732877903499079,
+        "median": 8.13017376713005e-09,
+        "min": -0.08487420030135438,
+        "q25": 1.1873624104748843e-16,
+        "q75": 2.7224235731202722e-08,
+        "skewness": 1.1959375145355142,
+        "variance": 0.0004961393822541885
+      },
+      "realization": 6
+    },
+    {
+      "event_weighted_summary": "recorded from raw receipt rows before launch aggregation",
+      "launch_equal_summary": {
+        "count": 2057,
+        "excess_kurtosis": 10.8310883381193,
+        "max": 0.11766889849908482,
+        "mean": 0.0036059063357199686,
+        "median": 8.142366020850987e-09,
+        "min": -0.07663843064729453,
+        "q25": 3.6072019914428455e-16,
+        "q75": 2.802663740688607e-08,
+        "skewness": 2.5101187452348244,
+        "variance": 0.00034909737036999274
+      },
+      "realization": 7
+    }
+  ]
+}

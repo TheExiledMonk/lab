@@ -1,0 +1,29 @@
+{
+  "KS": "two-sample empirical CDF supremum",
+  "Wasserstein": "equal-quantile empirical W1",
+  "covariance": "sample covariance ddof=1",
+  "dtype": "float64 except progression_steps/int64 and lineage/int32",
+  "exact_DEV177_definition_reused": true,
+  "ordered_features": [
+    "delta_x",
+    "delta_y",
+    "delta_z",
+    "d_x",
+    "d_y",
+    "d_z",
+    "p_x",
+    "p_y",
+    "p_z",
+    "J_x",
+    "J_y",
+    "J_z",
+    "weight",
+    "W01",
+    "W02",
+    "W03",
+    "W04"
+  ],
+  "rank_convention": "DEV177 rtol=1e-10",
+  "scaling": "raw physical values; correlation separately diagnostic",
+  "skew_kurtosis": "population central standardized moments; kurtosis is excess"
+}

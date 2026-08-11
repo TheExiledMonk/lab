@@ -729,6 +729,76 @@
       "blocks": [],
       "do_not_rederive": false,
       "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    },
+    {
+      "target_id": "native_launch_density_convergence",
+      "canonical_name": "Native launch-density convergence",
+      "plain_language_question": "Has the complete frozen discrete launch domain converged?",
+      "aliases": [
+        "discrete native launch domain",
+        "launch density convergence",
+        "C50_DISCRETE",
+        "C100_DISCRETE"
+      ],
+      "keywords": [
+        "launch density",
+        "C100",
+        "C50",
+        "received-state distribution gate"
+      ],
+      "domain": "SAMPLING / RAY DENSITY",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev184_discrete_launch_density_convergence"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev184_discrete_launch_density_convergence"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen C100 receipt lineage is invalidated."
+    },
+    {
+      "target_id": "received_state_distribution_sufficiency",
+      "canonical_name": "Received-state distribution sufficiency",
+      "plain_language_question": "Is the full C100 native received state stable, finite, and non-degenerate across launches and depth realizations?",
+      "aliases": [
+        "received-state distribution",
+        "distribution sufficiency",
+        "receipt distribution",
+        "full received state"
+      ],
+      "keywords": [
+        "received-state distribution",
+        "distribution sufficiency",
+        "covariance",
+        "higher moments",
+        "channel sufficiency",
+        "mode sufficiency"
+      ],
+      "domain": "WEAK LENSING",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev185_received_state_distribution_sufficiency"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev185_received_state_distribution_sufficiency"
+      ],
+      "open_questions": [
+        "Native mode/channel sufficiency is separately required before an observer."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "physical_observer_mapping"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if C100 lineage or numerical validity is invalidated."
     }
   ],
   "attempts": [
@@ -2877,6 +2947,160 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev184_discrete_launch_density_convergence",
+      "target_id": "native_launch_density_convergence",
+      "name": "DEV184 discrete launch density convergence",
+      "aliases": [
+        "C50_DISCRETE",
+        "C100_DISCRETE"
+      ],
+      "summary": "All 8 realizations CONVERGED_BY_C50; C50 is minimum converged coverage, C100 is canonical future coverage, and the received-state distribution gate is AUTHORIZED.",
+      "why_attempted": "Close density sufficiency over DEV183 finite launch domain.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV184",
+      "pr": "#109",
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [
+        "6089c89e237448bd24a5c274793aebbc0006d289",
+        "8c721da621f97f1450547f145c31b3dd371ddcd7"
+      ],
+      "files": [
+        "tools/generate_dev184_discrete_launch_density_convergence.py"
+      ],
+      "run_directories": [
+        "runs/dev184_discrete_launch_density_convergence"
+      ],
+      "tests": [
+        "tests/test_dev184_discrete_launch_density_convergence.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "All eight finite-domain rank trajectories converge by C50.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev183_discrete_launch_domain_packet_lineage"
+      ],
+      "ancestor_of": [
+        "dev185_received_state_distribution_sufficiency"
+      ],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev177_full_received_state"
+      ],
+      "still_valid_components": [
+        "C100 frozen receipts"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "minimum C50 convergence",
+        "C100 canonical coverage"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Receipt lineage or frozen domain invalidation.",
+      "do_not_repeat_reason": "Density is closed; C100 is the canonical future dataset.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev184_discrete_launch_density_convergence/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev185_received_state_distribution_sufficiency",
+      "target_id": "received_state_distribution_sufficiency",
+      "name": "DEV185 received-state distribution sufficiency",
+      "aliases": [
+        "C100 receipt distribution",
+        "native distribution audit"
+      ],
+      "summary": "Read-only C100 distribution audit across all 968 frozen packet replays.",
+      "why_attempted": "Authorize only a later native mode/channel audit, never an observer.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV185",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "tools/generate_dev185_received_state_distribution_sufficiency.py"
+      ],
+      "run_directories": [
+        "runs/dev185_received_state_distribution_sufficiency"
+      ],
+      "tests": [
+        "tests/test_dev185_received_state_distribution_sufficiency.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Complete C100 state is finite, structured and non-degenerate; detailed evidence is in the frozen run.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev184_discrete_launch_density_convergence"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [
+        "dev184_discrete_launch_density_convergence"
+      ],
+      "related_attempts": [
+        "dev177_full_received_state"
+      ],
+      "still_valid_components": [
+        "full native state",
+        "depth dimension",
+        "all four W candidates"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "distribution gate"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Frozen C100 lineage invalidated.",
+      "do_not_repeat_reason": "Mode/channel question is the next distinct gate.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev185_received_state_distribution_sufficiency/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "equivalences": [
@@ -2896,16 +3120,9 @@
   ],
   "current_frontiers": [
     {
-      "target_id": "discrete_native_launch_domain",
-      "summary": "OUTCOME_A: the complete same-experiment domain is 121 exact transverse periodic translations at fixed x, with additive packet-aware receipt lineage. Current-native discrete density convergence is authorized."
-    },
-    {
-      "target_id": "sampling_density_terms",
-      "summary": "Historical C25 count discrepancy is reconciled: executable C25 is 267x267=71,289 and executable 100% is 534x534=285,156; neither count is a current target."
-    },
-    {
-      "target_id": "physical_observer_mapping",
-      "summary": "Physical image-forming mapping awaits received-state and channel sufficiency."
+      "target_id": "native_mode_channel_sufficiency",
+      "status": "AUTHORIZED",
+      "reason": "DEV185 full C100 distribution sufficiency is complete; physical observer remains blocked."
     }
   ]
 }
