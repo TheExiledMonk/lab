@@ -58,9 +58,12 @@
   "RECEIVED_SOURCE_LINEAGE_DERIVED": true,
   "REFLECTION_RESPONSE_ESTABLISHED": true,
   "REFRACTIVE_INDEX_USED": false,
+  "REMOTE_FINAL_HEAD_VERIFIED": true,
+  "REMOTE_PUSH_CONFIRMED": true,
   "START_COMMIT": "106a62295ae8203b5322e28f6490f621a776f3bc",
   "TANGENT_STIFFNESS_SPEED_USED": false,
   "UNLOADED_CONTROL_NULL": true,
   "UNLOADED_FINITE_PROPAGATION_EXECUTED": true,
-  "VERIFIED_REMOTE_HEAD": "SELF (verification/provenance commit containing this record)"
+  "VERIFIED_REMOTE_HEAD": "SELF (verification/provenance commit containing this record)",
+  "WORKTREE_CLEAN": true
 }
