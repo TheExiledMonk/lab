@@ -1,0 +1,12 @@
+{
+  "SOURCE_LATTICE_SEMANTICS": "PHYSICAL_DISCRETE_LOCATIONS",
+  "classification_basis": [
+    "DEV167 source_contact_force takes tuple[int,int,int] center",
+    "DEV169 distributed_force enumerates np.argwhere(source > 0) and superposes node contacts",
+    "DEV171 image_from_objects rounds catalog positions into native cells",
+    "DEV178 records integer native lattice cells and subcell_launch_semantics=ABSENT"
+  ],
+  "mixed_or_unresolved": false,
+  "native_medium_nodes_exist": true,
+  "underlying_continuous_source_plane_established": false
+}

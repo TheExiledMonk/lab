@@ -1,0 +1,13 @@
+{
+  "DEV168_receipt_assignment": "nearest supported integer packet cell; this is receipt provenance, not source loading",
+  "source_positions": {
+    "carries_geometric_coordinates": "native integer lattice geometry only",
+    "continuous_propagation_influence": false,
+    "current_value": "integer lattice coordinates emitted as float receipt vectors",
+    "enters_observer_reconstruction": "lineage/geometry only",
+    "enters_pair_geometry": false,
+    "enters_receipt_lineage": true,
+    "enters_source_loading": "only after integer-cell indexing",
+    "labels_node_ids": true
+  }
+}

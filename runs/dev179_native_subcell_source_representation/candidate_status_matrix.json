@@ -1,0 +1,16 @@
+{
+  "C5_DISCRETE_NODE_CONTACT": {
+    "conservation": true,
+    "derived": true,
+    "integer_recovery": true,
+    "lattice_symmetry": true,
+    "promotion": "canonical existing path",
+    "subcell": false,
+    "zero_source": true
+  },
+  "SUBCELL_MAPPING": {
+    "coefficient_free": false,
+    "derived": false,
+    "reason": "NEW_NATIVE_SOURCE_COUPLING_REQUIRED"
+  }
+}

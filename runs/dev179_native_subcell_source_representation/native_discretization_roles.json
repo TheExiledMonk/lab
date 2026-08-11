@@ -1,0 +1,8 @@
+{
+  "MEDIUM_NODE_DISCRETIZATION": "N6 node displacement/momentum state",
+  "NUMERICAL_GRID_DISCRETIZATION": "11x11x11 periodic N6 computational lattice",
+  "PROPAGATION_STATE_DISCRETIZATION": "node vector state plus progression-step kick-drift",
+  "RECEIPT_POSITION_DISCRETIZATION": "predeclared integer node / half-bond face positions",
+  "SOURCE_POSITION_DISCRETIZATION": "integer one-cell source contact centre",
+  "not_equated_without_evidence": true
+}

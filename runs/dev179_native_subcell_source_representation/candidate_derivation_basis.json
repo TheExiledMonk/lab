@@ -1,0 +1,12 @@
+{
+  "DEV167_pair_law_unchanged": true,
+  "arbitrary_kernel_forbidden": [
+    "bilinear",
+    "trilinear",
+    "spline",
+    "Gaussian",
+    "nearest-neighbor"
+  ],
+  "missing_physical_law": "source position between nodes -> conserved loading fractions / source-to-medium coupling",
+  "unique_subcell_mapping_from_current_structure": false
+}

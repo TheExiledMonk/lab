@@ -1,0 +1,25 @@
+{
+  "SUBCELL_CANDIDATES_PREDECLARED": true,
+  "candidates": [
+    {
+      "candidate_id": "C5_DISCRETE_NODE_CONTACT",
+      "conservation_basis": "one contact operation per occupied node; no partition",
+      "derivation_basis": "explicit DEV167 source_contact_force integer center and DEV169 superposition",
+      "free_coefficients": [],
+      "native_quantities_used": [
+        "integer node index",
+        "six N6 offsets",
+        "source magnitude"
+      ],
+      "node_recovery_basis": "identity",
+      "promotion_status": "CURRENT_CANONICAL_ONLY",
+      "symmetry_basis": "N6 offset set and DEV167 lattice covariance"
+    }
+  ],
+  "not_candidates": {
+    "C1_finite_volume_overlap": "no source volume or node ownership exists",
+    "C2_barycentric_ownership": "no cell ownership/basis exists",
+    "C3_distance_partition": "no source-to-node distance coupling law exists",
+    "C4_shape_function": "no finite-element-like source basis exists"
+  }
+}

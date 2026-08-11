@@ -1,0 +1,14 @@
+{
+  "F1": {
+    "distributed_native_loading": "single canonical contact",
+    "input_source_content": 0.02,
+    "relative_conservation_error": 0.0
+  },
+  "F7": {
+    "distributed_native_loading_norm": 0.0,
+    "input_source_content": 0.0,
+    "relative_conservation_error": 0.0
+  },
+  "SOURCE_CONSERVATION_TESTED": true,
+  "subcell_fixtures": "not defined; no fractions exist to test"
+}

@@ -200,3 +200,17 @@ This is canonical planning context, not completed science. Before a new weak-len
 **Channel Complementarity Principle:** No native received channel or spatial dimension may be discarded until redundancy or observer irrelevance is demonstrated from the frozen native state.
 
 Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACCELERATION=AVAILABLE`; `VIEWER_IS_DIAGNOSTIC_ONLY=true`.
+
+## LEDGER ENTRY 012 — DEV179 NATIVE SUB-CELL SOURCE / LAUNCH REPRESENTATION CLOSURE
+
+- Date: 2026-08-12. DEV179 audited the current GitHub implementation, ledger, historical index, DEV167/168 loading and receipt semantics, DEV171 source construction, DEV177 receipts, DEV178 blocker, and historical continuous launch architecture before adding isolated experimental code.
+- The `7x7` packet plane is classified as `PHYSICAL_DISCRETE_LOCATIONS` under current semantics: DEV167 defines `source_contact_force(shape, center: tuple[int,int,int], magnitude)`; DEV169/171 build sources by integer-cell occupancy and superposition; DEV168 records integer source lineage. The floating receipt representation does not supply continuous source loading.
+- No finite source region, native cell ownership/Voronoi rule, source-to-node distance coupling, partition law, or implicit node basis/shape function exists. Thus no coefficient-free mapping from an off-node physical coordinate to native loading can be derived. Bilinear, trilinear, spline, Gaussian, and nearest-node rules remain numerical interpolation, not PBUF physics.
+- Exact integer-node recovery and zero-source identity were verified on the existing contact path. The edge, cell-center, asymmetric, translated, reflected, path, and node-crossing fixtures are explicitly undefined rather than interpolated. DEV167 pair dynamics and DEV168 receipt semantics remain unchanged; DEV171/177/178 frozen artifacts hash-identically preserved.
+- Outcome: `OUTCOME_D`; `SOURCE_POSITION_NATIVE_DISCRETE=true`; `NEW_NATIVE_SOURCE_COUPLING_REQUIRED=true`; `SUBCELL_SOURCE_REPRESENTATION_DERIVED=false`; `TRUE_HIGH_DENSITY_SAMPLING_AUTHORIZED=false`.
+- Anti-circularity rule: **Sub-cell coordinates do not constitute new physical information merely because a numerical interpolation can assign them values. A high-density launch is physically admissible only after the native source-to-medium representation is independently closed.**
+- New frontier: `NEXT = SOURCE/MEDIUM COUPLING DERIVATION`. The current 7x7 lane remains canonical. No 25% density escalation, observer construction, observational input, or pair-law modification occurred.
+
+## CURRENT WEAK-LENSING ROADMAP (DEV179 UPDATE)
+
+`DEV179 native source/launch representation` → `SOURCE/MEDIUM COUPLING DERIVATION` → `true current-native 25% density convergence` → received-state distribution sufficiency → native mode/channel sufficiency → physical observer mapping → direct JWST PSF-corrected `e1/e2`.
