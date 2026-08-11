@@ -1,0 +1,16 @@
+{
+  "EFFECTIVE_EM_OBSERVATION_BRIDGE_REQUIRED": false,
+  "MORPHOLOGY_ONLY_REQUIRES_FULL_EM_BRIDGE": false,
+  "existing_sufficient_upstream_fields": [
+    "catalog RA/DEC",
+    "catalog reference centre",
+    "frozen source ensemble manifest",
+    "native source cells",
+    "receipt source_positions/directions",
+    "adapter screen basis and extent"
+  ],
+  "minimum_required": "per-realization observer bin -> native launch-cell/source-footprint -> RA/DEC footprint, including screen basis and extent",
+  "missing_at_final_serialization": [
+    "per-bin provenance, screen basis, extent, footprint table"
+  ]
+}

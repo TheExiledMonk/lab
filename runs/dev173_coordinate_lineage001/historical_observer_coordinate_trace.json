@@ -1,0 +1,15 @@
+{
+  "actual_names": {
+    "bins": "r,c / row,col",
+    "launch": "launch_coordinates_3d / source_positions",
+    "received": "received_position_3d / received_positions",
+    "screen_final": "uf,vf",
+    "screen_initial": "u0,v0"
+  },
+  "locations": [
+    "pbuf/excitation/native_observer_adapter.py",
+    "pbuf/labs/foundation/native_observable_extraction_method_sweep001.py",
+    "pbuf/labs/foundation/native_full_received_state_information_retention001.py"
+  ],
+  "no_assumed_launch_x_y_z_names": true
+}

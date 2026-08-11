@@ -1,0 +1,14 @@
+{
+  "branch": "agent/dev173-coordinate-lineage",
+  "expected_start_commit": "93d0ec0c4bedcf47400210af6f8b09fc4d2c40c0",
+  "frozen_code_locations": [
+    "tools/generate_dev171_independent_3d_abell.py",
+    "pbuf/excitation/native_finite_receipt.py",
+    "pbuf/excitation/native_observer_adapter.py",
+    "pbuf/labs/foundation/native_observable_extraction_method_sweep001.py"
+  ],
+  "local_start_commit": "93d0ec0c4bedcf47400210af6f8b09fc4d2c40c0",
+  "remote_advance_recorded_before_audit": true,
+  "remote_head_at_audit": "231e4519532e7984eedb80c1b807df832bd41045",
+  "remote_head_matches_expected_start": false
+}

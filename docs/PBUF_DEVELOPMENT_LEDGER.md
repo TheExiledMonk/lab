@@ -134,8 +134,19 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 | Finite loaded propagation | Native dynamics | STRUCTURALLY_CLOSED | DOWNSTREAM | — | received 3D state | no |
 | Received finite native 3D state | Receipt | ESTABLISHED | DOWNSTREAM | — | observer reconnection | no |
 | Observer adapter | Interface | MECHANICAL_ADAPTER_DEFINED | DOWNSTREAM | — | finite-state observer use | no |
+| Observer coordinate lineage | Interface | METADATA_NOT_FORWARDED_AT_SERIALIZED_6X6_OUTPUT | DOWNSTREAM | serialization omitted receipt/screen/extent/bin provenance | native grid → sky footprint | yes |
+| Native grid → sky mapping | Interface | DETERMINISTIC_CELL_FOOTPRINT_RECOVERABLE | DOWNSTREAM | discretization and absent final provenance serialization | blind morphology coordinate bridge | yes |
+| Observational WL WCS asset | External data | UNAVAILABLE | INDEPENDENT | no immutable pyRRG A2744 WCS-bearing product | observational comparison | yes |
 | Absolute normalization | Physical scale | UNRESOLVED | INDEPENDENT ROOT | — | physical comparison | no |
 | Unique 3D depth | Source | NON_UNIQUE | INDEPENDENT ROOT | projected detector data | unique physical source | no |
+
+## LEDGER ENTRY 007 — DEV173 SOURCE-TO-OBSERVER COORDINATE LINEAGE RECOVERY
+
+- Date: 2026-08-12; start commit: `93d0ec0c4bedcf47400210af6f8b09fc4d2c40c0`.
+- The frozen Dev171 catalog transform is deterministic: RA/DEC maps to relative arcminute offsets and then to fixed native-cell footprints. The frozen depth ensemble supplies the relative native x coordinate.
+- Dev168 receipt and the observer adapter retain relative position, direction, launch and received points in memory. The first information-loss boundary is `serialized_6x6_output`: Dev171 serializes only the primary 6×6 values, dropping receipt records, screen basis, dynamic extent, bin footprints and source lineage.
+- Result: `GRID_TO_SKY_RECOVERABILITY=DETERMINISTIC_APPROXIMATION`; point locations remain discretized but a native-bin-to-sky footprint is reconstructible from frozen inputs and deterministic code. This is `OUTCOME_B` plus `OUTCOME_C`, not a missing effective-EM bridge.
+- Refinement: `DEV172_PHYSICAL_BRIDGE_FLAG=TOO_BROAD`; `COMPARISON_REQUIRES_COORDINATE_PROVENANCE_BRIDGE=true`. The independent external pyRRG A2744 WCS asset remains unavailable (`OUTCOME_F`).
 
 ## Permanent rules
 

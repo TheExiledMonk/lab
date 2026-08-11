@@ -1,0 +1,114 @@
+{
+  "stages": [
+    {
+      "absolute_or_relative_position": "absolute RA/DEC",
+      "depth": false,
+      "launch_point": false,
+      "observer_landing_point": false,
+      "propagation_direction": false,
+      "received_point": false,
+      "source_lineage": true,
+      "stage": "catalog_sky"
+    },
+    {
+      "absolute_or_relative_position": "relative native only",
+      "depth": false,
+      "launch_point": false,
+      "observer_landing_point": false,
+      "propagation_direction": false,
+      "received_point": false,
+      "source_lineage": true,
+      "stage": "dev171_projected_source"
+    },
+    {
+      "absolute_or_relative_position": "relative native only",
+      "depth": true,
+      "launch_point": false,
+      "observer_landing_point": false,
+      "propagation_direction": false,
+      "received_point": false,
+      "source_lineage": true,
+      "stage": "dev171_3d_source"
+    },
+    {
+      "absolute_or_relative_position": "relative native only",
+      "depth": true,
+      "launch_point": false,
+      "observer_landing_point": false,
+      "propagation_direction": false,
+      "received_point": false,
+      "source_lineage": true,
+      "stage": "dev167_native_lattice"
+    },
+    {
+      "absolute_or_relative_position": "relative native only",
+      "depth": true,
+      "launch_point": true,
+      "observer_landing_point": false,
+      "propagation_direction": false,
+      "received_point": false,
+      "source_lineage": true,
+      "stage": "packet_launch"
+    },
+    {
+      "absolute_or_relative_position": "relative native only",
+      "depth": true,
+      "launch_point": true,
+      "observer_landing_point": false,
+      "propagation_direction": true,
+      "received_point": true,
+      "source_lineage": true,
+      "stage": "dev168_receipt"
+    },
+    {
+      "absolute_or_relative_position": "relative native only",
+      "depth": true,
+      "launch_point": true,
+      "observer_landing_point": false,
+      "propagation_direction": true,
+      "received_point": true,
+      "source_lineage": true,
+      "stage": "observer_adapter"
+    },
+    {
+      "absolute_or_relative_position": "relative native only",
+      "depth": false,
+      "launch_point": true,
+      "observer_landing_point": false,
+      "propagation_direction": false,
+      "received_point": false,
+      "source_lineage": true,
+      "stage": "observer_launch_coordinates"
+    },
+    {
+      "absolute_or_relative_position": "relative native only",
+      "depth": false,
+      "launch_point": false,
+      "observer_landing_point": true,
+      "propagation_direction": true,
+      "received_point": true,
+      "source_lineage": true,
+      "stage": "observer_final_coordinates"
+    },
+    {
+      "absolute_or_relative_position": "relative native only",
+      "depth": false,
+      "launch_point": false,
+      "observer_landing_point": true,
+      "propagation_direction": false,
+      "received_point": false,
+      "source_lineage": true,
+      "stage": "observer_grid_bins"
+    },
+    {
+      "absolute_or_relative_position": "relative native only",
+      "depth": false,
+      "launch_point": false,
+      "observer_landing_point": false,
+      "propagation_direction": false,
+      "received_point": false,
+      "source_lineage": false,
+      "stage": "serialized_6x6_output"
+    }
+  ]
+}
