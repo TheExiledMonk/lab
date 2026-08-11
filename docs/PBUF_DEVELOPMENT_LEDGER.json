@@ -82,7 +82,7 @@
         "docs/PBUF_DEVELOPMENT_LEDGER.json",
         "runs/current_pbuf_missing_piece_audit001/*"
       ],
-      "FINAL_COMMIT": "RECORDED_AFTER_AUDIT_COMMIT",
+      "FINAL_COMMIT": "7d919178b29e27832e231b740b9b6839f1805c13",
       "FROZEN_RESULTS": [
         "LOADED_DYNAMIC_COUPLING_DERIVED=FALSE",
         "DEFORMED_BOND_LENGTHS_DERIVABLE=FALSE",
@@ -97,7 +97,7 @@
         "H14 emergent geometry as output",
         "H15 new primitive required"
       ],
-      "PUSH_CONFIRMED": "PENDING_FINALIZATION",
+      "PUSH_CONFIRMED": true,
       "QUESTION": "What exists, what is missing, and which missing pieces are the same unresolved problem?",
       "REJECTED_MECHANISMS": [
         "linear loaded F03 changes disturbance",
@@ -141,8 +141,8 @@
       "RESULT": "complete canonical dependency/circularity audit; no new physics",
       "ROOT_BLOCKER_CHANGED": true,
       "START_COMMIT": "f56e6a8bea77572ba80772e81806a68742c864d1",
-      "STATUS": "COMPLETE_PENDING_REMOTE_FINALIZATION",
-      "TESTS": "50 Dev156-165 tests pass via python -m pytest; diff check pending finalization",
+      "STATUS": "COMPLETE",
+      "TESTS": "38 Dev156-165 tests pass via python -m pytest; git diff --check passes",
       "TITLE": "Complete missing-piece audit",
       "UNDERDETERMINED_MECHANISMS": [
         "separation state",
