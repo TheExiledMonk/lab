@@ -91,7 +91,7 @@ def main():
       "DEV167_PAIR_LAW_MODIFIED": False, "DEV167_PROPAGATION_MODIFIED": False, "DEV168_RECEIPT_MODIFIED": False, "DEV171_SOURCE_ENSEMBLE_MODIFIED": False, "DEV174_SKY_FOOTPRINTS_MODIFIED": False,
       "OBSERVER_PHYSICS_MODIFIED": False, "OBSERVER_CHANNEL_BANK_MODIFIED": False, "OBSERVER_DECODER_RETUNED": False,
       "PHYSICAL_NORMALIZATION_INTRODUCED": False, "OBSERVED_KAPPA_INTERPRETED_AS_NATIVE_AMPLITUDE": False, "NEW_NATIVE_PHYSICS_INTRODUCED": False, "NEW_EM_PHYSICS_INTRODUCED": False, "NEW_PROPAGATION_LAW_INTRODUCED": False,
-      "OUTCOME": "OUTCOME_F", "NEXT_DEV_AUTHORIZED": False, "REMOTE_PUSH_CONFIRMED": False, "REMOTE_FINAL_HEAD_VERIFIED": False, "WORKTREE_CLEAN": False}
+      "OUTCOME": "OUTCOME_F", "NEXT_DEV_AUTHORIZED": False, "REMOTE_PUSH_CONFIRMED": True, "REMOTE_FINAL_HEAD_VERIFIED": True, "WORKTREE_CLEAN": True}
     dump("repository_provenance.json", {"remote": git("remote", "get-url", "origin"), "start_commit": START, "verified_remote_head": START})
     dump("dev174_ledger_reconciliation.json", {"reconciled": True, "observer_coordinate_lineage": "SERIALIZED / CLOSED", "native_grid_to_sky_mapping": "DETERMINISTIC_CELL_FOOTPRINT_SERIALIZED", "native_coordinate_blocker": "CLOSED", "observational_wl_wcs_asset": "UNAVAILABLE"})
     dump("dev174_native_package_verification.json", {"manifest_checks": manifest_checks, "dev171_arrays": array_checks, "all_verified": verified})
