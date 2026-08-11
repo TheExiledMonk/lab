@@ -1,0 +1,15 @@
+{
+  "cluster_redshift_reference": 0.30609999535078364,
+  "columns": [
+    "x_arcmin",
+    "y_arcmin",
+    "v_los_kms"
+  ],
+  "member_count": 341,
+  "redshift_directly_used_as_geometric_depth": false,
+  "reference_coordinate_deg": [
+    3.569375,
+    -30.391083
+  ],
+  "velocity_definition": "c*(z-z_cluster)/(1+z_cluster)"
+}

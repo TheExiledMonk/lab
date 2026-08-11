@@ -106,6 +106,17 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 | Richer magnetic-like interaction | UNDERDETERMINED | Dev165/166 | H12 does not exclude richer families | native semantics and reversible law supplied | loaded response |
 | Distance-bound vector pair relation | STRUCTURALLY_CLOSED | Dev167 | exact reciprocal vector relations, source-loaded equilibrium, reversible pair dynamics, reflected transverse packet response | richer interaction only if later physical gates fail | finite loaded receipt |
 
+## LEDGER ENTRY 005 — DEV171 INDEPENDENT 3D ABELL SOURCE RECONSTRUCTION
+
+- Date: 2026-08-12; start commit: `8b1fb5acfbfa3600f6e370ef926f0d167605c91e`; branch: `dev171-independent-3d-abell-source`.
+- Input: the independently acquired Owers et al. (2011) spectroscopy catalog, frozen with SHA-256 provenance. A fixed secure-redshift plus projected-aperture selection yields 341 members, an approximate reproduction of the published 343-member 3-Mpc sample, without a cosmological distance conversion.
+- Method: catalog identity, RA/DEC and rest-frame LOS velocity form a lensing-blind phase-space input; a predeclared three-component clustering model and broad component-depth probability families produce an eight-realization frozen ensemble.
+- Hard separation: spectroscopy was not converted to geometric depth. `SPECTROSCOPIC_REDSHIFT_AS_DIRECT_DEPTH=FORBIDDEN`; peculiar-velocity degeneracy is retained.
+- Prohibitions met: no weak/strong-lensing maps, lensing halo count/masses, PBUF observer output, fitted coefficient, physical normalization, cosmology, or changed native/receipt/observer physics was used.
+- Result: all eight frozen realizations passed unchanged native propagation. Mean constrained observer RMS spread is `0.10928180988704732` versus `0.19464989238637528` for Dev169's arbitrary diagnostic lanes (ratio `1.7811737615579724`).
+- Outcome: `OUTCOME_E`; `SOURCE_DEPTH_STATUS=INDEPENDENTLY_CONSTRAINED_ENSEMBLE`; exact geometric depths remain an allowed family rather than a claimed unique reconstruction.
+- Old strategy closure: `ARBITRARY_2D_TO_3D_DEPTH_LANE_SELECTION=DIAGNOSTIC_ONLY / MUST_NOT_BE_PROMOTED`.
+
 ## Missing-piece ledger
 
 | Missing item | Layer | Status | Root/downstream | Blocked by | Blocks | Needed now |

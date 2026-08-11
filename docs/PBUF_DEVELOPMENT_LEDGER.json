@@ -361,6 +361,20 @@
     },
     {
       "DATE": "2026-08-12",
+      "DEV_ID": "DEV171",
+      "LEDGER_ENTRY": "005",
+      "TITLE": "Independent 3D Abell source reconstruction",
+      "START_COMMIT": "8b1fb5acfbfa3600f6e370ef926f0d167605c91e",
+      "STATUS": "COMPLETE",
+      "PRIMARY_3D_SOURCE_ORIGIN": "INDEPENDENT_OBJECT_CATALOGS",
+      "SPECTROSCOPIC_REDSHIFT_AS_DIRECT_DEPTH": "FORBIDDEN",
+      "ARBITRARY_2D_TO_3D_DEPTH_LANE_SELECTION": "DIAGNOSTIC_ONLY / MUST_NOT_BE_PROMOTED",
+      "SOURCE_DEPTH_STATUS": "INDEPENDENTLY_CONSTRAINED_ENSEMBLE",
+      "OUTCOME": "OUTCOME_E",
+      "NEXT_DEV_AUTHORIZED": false
+    },
+    {
+      "DATE": "2026-08-12",
       "DEV_ID": "DEV170",
       "LEDGER_ENTRY": "004",
       "TITLE": "Dev169 forensic accounting and depth-sensitivity audit",

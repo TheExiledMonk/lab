@@ -1,0 +1,23 @@
+{
+  "new_depth_status": "CONSTRAINED_ENSEMBLE",
+  "new_path": [
+    "independent catalog",
+    "constrained 3D ensemble"
+  ],
+  "old_depth_status": "DIAGNOSTIC_ONLY",
+  "old_path": [
+    "3D reality",
+    "F814W 2D",
+    "diagnostic guessed 3D"
+  ],
+  "retained_new": [
+    "source identity",
+    "RA/DEC",
+    "spectroscopic redshift",
+    "LOS velocity",
+    "component membership",
+    "component covariance",
+    "source lineage",
+    "depth uncertainty"
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "channel_variation": "frozen observer primary output; no channel selection",
+  "mean_rms_difference": 0.10624528343935943,
+  "metrics": [
+    "correlation",
+    "RMS",
+    "centroid",
+    "covariance",
+    "direction"
+  ],
+  "min_correlation": 0.24546437640449834,
+  "pairwise": [
+    {
+      "centroid_difference": 0.0548197110819271,
+      "correlation": 0.804399666539843,
+      "covariance_difference": 0.09150492268465185,
+      "direction_difference": 1.5777925179618252e-06,
+      "realizations": [
+        0,
+        1
+      ],
+      "rms_difference": 0.08216777476527243
+    },
+    {
+      "centroid_difference": 0.13447660150503393,
+      "correlation": 0.36310764459059697,
+      "covariance_difference": 0.20764218349266822,
+      "direction_difference": 1.1903454265097371e-06,
+      "realizations": [
+        0,
+        2
+      ],
+      "rms_difference": 0.19498126796414122
+    },
+    {
+      "centroid_difference": 0.014289484978626577,
+      "correlation": 0.804399666539843,
+      "covariance_difference": 0.09630474114448591,
+      "direction_difference": 2.1394250086663823e-06,
+      "realizations": [
+        0,
+        3
+      ],
+      "rms_difference": 0.08216777476527243
+    },
+    {
+      "centroid_difference": 0.1090369025753092,
+      "correlation": 1.0,
+      "covariance_difference": 0.07889350252607732,
+      "direction_difference": 2.5422915402039283e-06,
+      "realizations": [
+        0,
+        4
+      ],
+      "rms_difference": 0.0
+    },
+    {
+      "centroid_difference": 0.04940362615140932,
+      "correlation": 0.27310249243418977,
+      "covariance_difference": 0.13240535387884436,
+      "direction_difference": 9.17339854625102e-07,
+      "realizations": [
+        0,
+        5
+      ],
+      "rms_difference": 0.17079275851273282
+    },
+    {
+      "centroid_difference": 0.09857475921828165,
+      "correlation": 1.0,
+      "covariance_difference": 0.2510704117872075,
+      "direction_difference": 8.397982745827963e-07,
+      "realizations": [
+        0,
+        6
+      ],
+      "rms_difference": 0.0
+    },
+    {
+      "centroid_difference": 0.013483453877945091,
+      "correlation": 1.0,
+      "covariance_difference": 0.09496955363481385,
+      "direction_difference": 2.596278589357443e-06,
+      "realizations": [
+        0,
+        7
+      ],
+      "rms_difference": 0.0
+    },
+    {
+      "centroid_difference": 0.0816440585560874,
+      "correlation": 0.49769479234668945,
+      "covariance_difference": 0.12601687170542708,
+      "direction_difference": 1.248893359820099e-06,
+      "realizations": [
+        1,
+        2
+      ],
+      "rms_difference": 0.1713335356081994
+    },
+    {
+      "centroid_difference": 0.044491807750291316,
+      "correlation": 1.0000000000000002,
+      "covariance_difference": 0.030354891143464846,
+      "direction_difference": 5.651214716380924e-07,
+      "realizations": [
+        1,
+        3
+      ],
+      "rms_difference": 0.0
+    },
+    {
+      "centroid_difference": 0.09965590493562743,
+      "correlation": 0.804399666539843,
+      "covariance_difference": 0.0602731415041532,
+      "direction_difference": 1.713141966603316e-06,
+      "realizations": [
+        1,
+        4
+      ],
+      "rms_difference": 0.08216777476527243
+    },
+    {
+      "centroid_difference": 0.03166158093644423,
+      "correlation": 0.35910426632930126,
+      "covariance_difference": 0.05235387241415155,
+      "direction_difference": 1.556994379943537e-06,
+      "realizations": [
+        1,
+        5
+      ],
+      "rms_difference": 0.14902357046781123
+    },
+    {
+      "centroid_difference": 0.04653888352821058,
+      "correlation": 0.804399666539843,
+      "covariance_difference": 0.16087866557272834,
+      "direction_difference": 9.679810550177808e-07,
+      "realizations": [
+        1,
+        6
+      ],
+      "rms_difference": 0.08216777476527243
+    },
+    {
+      "centroid_difference": 0.04825799574174748,
+      "correlation": 0.804399666539843,
+      "covariance_difference": 0.17940662224546267,
+      "direction_difference": 3.73302652222451e-06,
+      "realizations": [
+        1,
+        7
+      ],
+      "rms_difference": 0.08216777476527243
+    },
+    {
+      "centroid_difference": 0.12581936455952897,
+      "correlation": 0.49769479234668945,
+      "covariance_difference": 0.12277714184270296,
+      "direction_difference": 1.6365481962773136e-06,
+      "realizations": [
+        2,
+        3
+      ],
+      "rms_difference": 0.1713335356081994
+    },
+    {
+      "centroid_difference": 0.15360997283573521,
+      "correlation": 0.36310764459059697,
+      "covariance_difference": 0.17395884621508004,
+      "direction_difference": 1.3851340051577579e-06,
+      "realizations": [
+        2,
+        4
+      ],
+      "rms_difference": 0.19498126796414122
+    },
+    {
+      "centroid_difference": 0.1069454297452032,
+      "correlation": 0.24546437640449834,
+      "covariance_difference": 0.07697657805179164,
+      "direction_difference": 4.600130611672259e-07,
+      "realizations": [
+        2,
+        5
+      ],
+      "rms_difference": 0.21371542012036776
+    },
+    {
+      "centroid_difference": 0.03591140438611162,
+      "correlation": 0.36310764459059697,
+      "covariance_difference": 0.07079672026759307,
+      "direction_difference": 4.905408565863937e-07,
+      "realizations": [
+        2,
+        6
+      ],
+      "rms_difference": 0.19498126796414122
+    },
+    {
+      "centroid_difference": 0.12968708085145442,
+      "correlation": 0.36310764459059697,
+      "covariance_difference": 0.2938609348112416,
+      "direction_difference": 3.785005111254444e-06,
+      "realizations": [
+        2,
+        7
+      ],
+      "rms_difference": 0.19498126796414122
+    },
+    {
+      "centroid_difference": 0.09654792473099857,
+      "correlation": 0.804399666539843,
+      "covariance_difference": 0.08719832024499562,
+      "direction_difference": 1.6247311979289172e-06,
+      "realizations": [
+        3,
+        4
+      ],
+      "rms_difference": 0.08216777476527243
+    },
+    {
+      "centroid_difference": 0.035149460425513,
+      "correlation": 0.35910426632930126,
+      "covariance_difference": 0.057340662452282865,
+      "direction_difference": 2.0156169790157447e-06,
+      "realizations": [
+        3,
+        5
+      ],
+      "rms_difference": 0.14902357046781123
+    },
+    {
+      "centroid_difference": 0.09019589863501111,
+      "correlation": 0.804399666539843,
+      "covariance_difference": 0.16434458702032387,
+      "direction_difference": 1.4692253974440362e-06,
+      "realizations": [
+        3,
+        6
+      ],
+      "rms_difference": 0.08216777476527243
+    },
+    {
+      "centroid_difference": 0.004002149636425265,
+      "correlation": 0.804399666539843,
+      "covariance_difference": 0.18998950498818348,
+      "direction_difference": 4.243197299347446e-06,
+      "realizations": [
+        3,
+        7
+      ],
+      "rms_difference": 0.08216777476527243
+    },
+    {
+      "centroid_difference": 0.0711024913198487,
+      "correlation": 0.27310249243418977,
+      "covariance_difference": 0.09996117411470617,
+      "direction_difference": 1.8109617182011904e-06,
+      "realizations": [
+        4,
+        5
+      ],
+      "rms_difference": 0.17079275851273282
+    },
+    {
+      "centroid_difference": 0.13070072055913917,
+      "correlation": 1.0,
+      "covariance_difference": 0.19961181581166978,
+      "direction_difference": 1.720778894231616e-06,
+      "realizations": [
+        4,
+        6
+      ],
+      "rms_difference": 0.0
+    },
+    {
+      "centroid_difference": 0.0958335555053535,
+      "correlation": 1.0,
+      "covariance_difference": 0.14117042737052068,
+      "direction_difference": 5.102701320146256e-06,
+      "realizations": [
+        4,
+        7
+      ],
+      "rms_difference": 0.0
+    },
+    {
+      "centroid_difference": 0.07448328177693773,
+      "correlation": 0.27310249243418977,
+      "covariance_difference": 0.12262717198722056,
+      "direction_difference": 6.078065461195397e-07,
+      "realizations": [
+        5,
+        6
+      ],
+      "rms_difference": 0.17079275851273282
+    },
+    {
+      "centroid_difference": 0.036982602063107356,
+      "correlation": 0.27310249243418977,
+      "covariance_difference": 0.21812187836058827,
+      "direction_difference": 3.4845703366875074e-06,
+      "realizations": [
+        5,
+        7
+      ],
+      "rms_difference": 0.17079275851273282
+    },
+    {
+      "centroid_difference": 0.09410448601993185,
+      "correlation": 1.0,
+      "covariance_difference": 0.33457233610461656,
+      "direction_difference": 3.3836158160833187e-06,
+      "realizations": [
+        6,
+        7
+      ],
+      "rms_difference": 0.0
+    }
+  ]
+}
