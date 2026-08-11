@@ -15,7 +15,7 @@
     },
     {
       "file": "final_contract.json",
-      "sha256": "180265b8040d20c16536eb225c0f3b0b9aa24c9ffd0ab53bbeb2869f83e08df4"
+      "sha256": "4cfdc2d64fb250aef2e310e9bca41a6fa7a09df78016613195ba5900ed698bd0"
     },
     {
       "file": "frozen_dev171_hashes.json",
@@ -56,6 +56,10 @@
     {
       "file": "native_bin_footprints_realization_07.json",
       "sha256": "659d27cef28120a14edb905d09f209f265e7fbda27fa67ec5652ded1f93e06bc"
+    },
+    {
+      "file": "native_observer_coordinate_contract.json",
+      "sha256": "9b7f991670aa94e3277624e2f67f6e6513535a87c7638ac1e5b646775cb4e788"
     },
     {
       "file": "observational_asset_status.json",
