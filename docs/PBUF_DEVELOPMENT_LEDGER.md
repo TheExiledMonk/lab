@@ -160,6 +160,14 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 - Result: no exact released convergence raster, exact released source catalogue, or author-archived copy with deterministic astrometry was recovered. `Observational WL asset = EXTERNAL_UNAVAILABLE`; `OUTCOME_F`; `BLIND_WL_MORPHOLOGY_STATUS=NOT_EVALUATED`.
 - No figure digitization, third-party map, registration, PBUF-array access, retuning, or comparison was performed. The Dev172 metric contract remains frozen but is formally not run because the asset/astrometry gates failed.
 
+## LEDGER ENTRY 010 — DEV176 DIRECT SHAPE OBSERVABLE MATRIX (PARTIAL)
+
+- Date: 2026-08-12. DEV176 replays all eight frozen Dev171 realizations solely to recover the full immutable DEV168 receipt fields; every replayed 6×6 observer output is byte-identical to its frozen file.
+- P1--P6 are implemented as coefficient-free spin-2 receipt candidates and P7 as an observer-only control. Candidate definitions were frozen without observational shape values.
+- Structural status: `STRUCTURALLY_PARTIAL`. The 6×6 footprint geometry leaves sparse support, and the required unloaded, centered, reflected, and independent finite-support control replays have not yet been completed. No candidate is promoted.
+- Observation: the repository contains HST raw inputs, not authentic JWST images plus a frozen pyRRG PSF-corrected `e1/e2` catalogue. The direct comparison remains `BLOCKED_EXTERNAL_OR_DATA_PIPELINE`; no convergence map or Kaiser--Squires stage was used.
+- Outcome: `OUTCOME_A_AND_F_PENDING_NATIVE_CONTROLS`; no native law, source ensemble, coordinate package, or observer was changed.
+
 ## Permanent rules
 
 Every future Dev begins by reading this ledger and current GitHub implementation, checking aliases and reopen conditions, and only then considering implementation. A Dev is incomplete until tests pass, ledger is updated, a commit SHA is recorded, push succeeds, and the remote SHA is verified. Rejected mechanisms are not retested unless their explicit reopen condition changes. Directional allocation is not assumed fundamental until state-dependent propagation and conservative flux equivalence are resolved.
