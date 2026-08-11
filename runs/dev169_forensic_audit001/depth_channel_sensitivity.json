@@ -1,0 +1,275 @@
+{
+  "channels": [
+    {
+      "channel": "covariance_area__convergence",
+      "range": 1130232257673248.0,
+      "rank": 1,
+      "variance": 2.552363133786416e+28
+    },
+    {
+      "channel": "covariance_area__shear_g1",
+      "range": 610907479815624.4,
+      "rank": 2,
+      "variance": 2.1310272619638648e+27
+    },
+    {
+      "channel": "kernel_density__convergence",
+      "range": 1356603318.8678322,
+      "rank": 3,
+      "variance": 7274058575869938.0
+    },
+    {
+      "channel": "mean_dw",
+      "range": 7.613589826076297,
+      "rank": 4,
+      "variance": 6.460474002868642
+    },
+    {
+      "channel": "mean_dv",
+      "range": 9.98056273368424,
+      "rank": 5,
+      "variance": 2.090327633001833
+    },
+    {
+      "channel": "covariance_transport__convergence",
+      "range": 11.3633424812061,
+      "rank": 6,
+      "variance": 1.516571408887223
+    },
+    {
+      "channel": "mean_du",
+      "range": 6.513871488725044,
+      "rank": 7,
+      "variance": 0.582810376107822
+    },
+    {
+      "channel": "jacobian_affine__convergence",
+      "range": 4.62884534669713,
+      "rank": 8,
+      "variance": 0.3816481079828528
+    },
+    {
+      "channel": "polar_jacobian__convergence",
+      "range": 4.628845346697126,
+      "rank": 9,
+      "variance": 0.3816481078338512
+    },
+    {
+      "channel": "j3_e2_v",
+      "range": 3.172095055449751,
+      "rank": 10,
+      "variance": 0.3086452350067534
+    },
+    {
+      "channel": "j3_e1_u",
+      "range": 3.425119158998837,
+      "rank": 11,
+      "variance": 0.30247685283685816
+    },
+    {
+      "channel": "j3_n_v",
+      "range": 3.503529171453968,
+      "rank": 12,
+      "variance": 0.20892913632546262
+    },
+    {
+      "channel": "std_tn",
+      "range": 0.9464468217227047,
+      "rank": 13,
+      "variance": 0.06277101703796094
+    },
+    {
+      "channel": "std_du",
+      "range": 0.9137912219405153,
+      "rank": 14,
+      "variance": 0.06185625312531319
+    },
+    {
+      "channel": "covariance_transport__shear_g2",
+      "range": 3.9637237550054625,
+      "rank": 15,
+      "variance": 0.059377299812290514
+    },
+    {
+      "channel": "std_dv",
+      "range": 0.8797793837741468,
+      "rank": 16,
+      "variance": 0.051254354803934886
+    },
+    {
+      "channel": "j3_n_u",
+      "range": 2.50909959255693,
+      "rank": 17,
+      "variance": 0.04812279393031744
+    },
+    {
+      "channel": "std_t2",
+      "range": 0.8361015002153713,
+      "rank": 18,
+      "variance": 0.037157937748534396
+    },
+    {
+      "channel": "std_t1",
+      "range": 0.7867240680985432,
+      "rank": 19,
+      "variance": 0.032235372226346815
+    },
+    {
+      "channel": "kernel_density__shear_g2",
+      "range": 1.2841417325878186,
+      "rank": 20,
+      "variance": 0.030423887095865666
+    },
+    {
+      "channel": "knn_density__shear_g2",
+      "range": 1.285865746842127,
+      "rank": 21,
+      "variance": 0.030278648843123836
+    },
+    {
+      "channel": "kernel_density__shear_g1",
+      "range": 1.4667209598809554,
+      "rank": 22,
+      "variance": 0.028392094637606356
+    },
+    {
+      "channel": "knn_density__shear_g1",
+      "range": 1.4629410038236177,
+      "rank": 23,
+      "variance": 0.0281666086367405
+    },
+    {
+      "channel": "histogram_density__convergence",
+      "range": 1.4865871833084947,
+      "rank": 24,
+      "variance": 0.02404947542389895
+    },
+    {
+      "channel": "covariance_transport__shear_g1",
+      "range": 1.437728292404252,
+      "rank": 25,
+      "variance": 0.01948267991969312
+    },
+    {
+      "channel": "jacobian_affine__shear_g1",
+      "range": 1.3474105825222074,
+      "rank": 26,
+      "variance": 0.019272115175516604
+    },
+    {
+      "channel": "polar_jacobian__shear_g1",
+      "range": 1.3497410501427454,
+      "rank": 27,
+      "variance": 0.01918042344165085
+    },
+    {
+      "channel": "mean_tn",
+      "range": 0.8981674338997995,
+      "rank": 28,
+      "variance": 0.019129378255307004
+    },
+    {
+      "channel": "std_dw",
+      "range": 0.7167343692677105,
+      "rank": 29,
+      "variance": 0.01843447350599194
+    },
+    {
+      "channel": "histogram_density__shear_g1",
+      "range": 1.187016822692828,
+      "rank": 30,
+      "variance": 0.017863050983205533
+    },
+    {
+      "channel": "j3_e2_u",
+      "range": 1.7231129950931754,
+      "rank": 31,
+      "variance": 0.01534438878477892
+    },
+    {
+      "channel": "j3_e1_v",
+      "range": 1.551441839669732,
+      "rank": 32,
+      "variance": 0.014361990074184382
+    },
+    {
+      "channel": "displacement_divergence__convergence",
+      "range": 1.0554430067899738,
+      "rank": 33,
+      "variance": 0.011976741145249709
+    },
+    {
+      "channel": "histogram_density__shear_g2",
+      "range": 0.9779364352641782,
+      "rank": 34,
+      "variance": 0.011415336415134298
+    },
+    {
+      "channel": "polar_jacobian__shear_g2",
+      "range": 1.5008651844469585,
+      "rank": 35,
+      "variance": 0.011314725783794288
+    },
+    {
+      "channel": "jacobian_affine__shear_g2",
+      "range": 1.506170707079638,
+      "rank": 36,
+      "variance": 0.01116468387378243
+    },
+    {
+      "channel": "displacement_divergence__shear_g2",
+      "range": 1.0554430067899738,
+      "rank": 37,
+      "variance": 0.009747359421449622
+    },
+    {
+      "channel": "displacement_divergence__shear_g1",
+      "range": 0.9025049576380589,
+      "rank": 38,
+      "variance": 0.007920651715387573
+    },
+    {
+      "channel": "mean_t1",
+      "range": 0.841993245926243,
+      "rank": 39,
+      "variance": 0.0052310814769566056
+    },
+    {
+      "channel": "cov_dv_dw",
+      "range": 0.4841428779535829,
+      "rank": 40,
+      "variance": 0.0032929188279131913
+    },
+    {
+      "channel": "cov_du_dv",
+      "range": 0.5072748611215574,
+      "rank": 41,
+      "variance": 0.0028774077326319926
+    },
+    {
+      "channel": "mean_t2",
+      "range": 0.575982281100066,
+      "rank": 42,
+      "variance": 0.002042507023489602
+    },
+    {
+      "channel": "cov_du_dw",
+      "range": 0.35761010645733265,
+      "rank": 43,
+      "variance": 0.0013700984054995891
+    },
+    {
+      "channel": "covariance_area__shear_g2",
+      "range": 0.0,
+      "rank": 44,
+      "variance": 0.0
+    },
+    {
+      "channel": "knn_density__convergence",
+      "range": 0.0,
+      "rank": 45,
+      "variance": 0.0
+    }
+  ],
+  "ranked_by": "across-lane pixelwise variance of existing channel"
+}

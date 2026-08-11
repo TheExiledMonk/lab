@@ -1,0 +1,24 @@
+{
+  "CHANNEL_STATUS": "EXPECTED_DEGENERACY",
+  "NONFINITE_CHANNEL_RESOLUTION_DEPENDENT": false,
+  "rows": [
+    {
+      "bins": 5,
+      "nonfinite_channels": [
+        "knn_density__convergence"
+      ]
+    },
+    {
+      "bins": 6,
+      "nonfinite_channels": [
+        "knn_density__convergence"
+      ]
+    },
+    {
+      "bins": 7,
+      "nonfinite_channels": [
+        "knn_density__convergence"
+      ]
+    }
+  ]
+}

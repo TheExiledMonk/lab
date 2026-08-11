@@ -1,0 +1,22 @@
+{
+  "cross_term_change": 2.0166990392842617e-05,
+  "definition": "interaction=I_full-I_lens-I_packet; nonlinear potential therefore makes it nonadditive",
+  "final": {
+    "interaction": 2.0134357623245952e-05,
+    "lens": 4.5583524395372876e-05,
+    "medium": 0.00016306524409845038,
+    "medium_plus_source": 4.923637350389876e-05,
+    "packet": 9.734736207983155e-05,
+    "source_potential": -0.00011382887059455162,
+    "step": 180
+  },
+  "initial": {
+    "interaction": -3.2632769596664495e-08,
+    "lens": 4.5583524395372876e-05,
+    "medium": 0.00014289825370560776,
+    "medium_plus_source": 5.1710831135450046e-05,
+    "packet": 9.734736207983155e-05,
+    "source_potential": -9.118742257015772e-05,
+    "step": 0
+  }
+}

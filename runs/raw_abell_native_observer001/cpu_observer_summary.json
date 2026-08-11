@@ -1,0 +1,32 @@
+{
+  "asymmetry": 0.11329038404067658,
+  "centroid": [
+    3.7921919534743087,
+    3.3300018442597947
+  ],
+  "complete": true,
+  "covariance": [
+    [
+      1.870918769222413,
+      -0.03607113840408538
+    ],
+    [
+      -0.0360711384040854,
+      1.4319290623192071
+    ]
+  ],
+  "deposition_count": 15373,
+  "finite_pixel_count": 36,
+  "nonfinite_pixel_count": 0,
+  "output_dimensions": [
+    6,
+    6
+  ],
+  "principal_axes": [
+    1.8738629359932237,
+    1.4289848955483964
+  ],
+  "receipt_count": 15373,
+  "source_plane_coverage": "100_PERCENT",
+  "total_deposition": -8.326672684688674e-17
+}

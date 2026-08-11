@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "CODE_LOCATION": "pbuf/excitation/native_finite_receipt.py:NativeReceivedState",
+      "FIELD_NAME": "NativeReceivedState.weights",
+      "MATHEMATICAL_DEFINITION": "positive outward pair-power-flux increment times numerical step",
+      "NATIVE_OR_OBSERVER": "native",
+      "SIGNED_OR_UNSIGNED": "unsigned",
+      "SUM_EXPECTATION": "receipt proxy total"
+    },
+    {
+      "CODE_LOCATION": "native_observer_adapter.execute_frozen_observer -> histogram_density__convergence",
+      "FIELD_NAME": "primary observer output",
+      "MATHEMATICAL_DEFINITION": "unchanged historical decoded convergence-like channel",
+      "NATIVE_OR_OBSERVER": "observer",
+      "SIGNED_OR_UNSIGNED": "signed",
+      "SUM_EXPECTATION": "not a deposition total"
+    },
+    {
+      "CODE_LOCATION": "Dev169 output_summary",
+      "FIELD_NAME": "observer_output_summary.total_deposition",
+      "MATHEMATICAL_DEFINITION": "sum of signed primary channel pixels",
+      "NATIVE_OR_OBSERVER": "observer",
+      "SIGNED_OR_UNSIGNED": "signed",
+      "SUM_EXPECTATION": "can cancel to zero"
+    }
+  ]
+}

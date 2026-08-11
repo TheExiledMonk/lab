@@ -1,0 +1,6 @@
+{
+  "RECEIPT_DOUBLE_COUNTS_NATIVE_CONTENT": false,
+  "RECEIPT_IS_DIAGNOSTIC_ONLY": true,
+  "RECEIPT_REMOVES_NATIVE_CONTENT": false,
+  "evidence": "Dev169 run records positive crossing_bond_flux into a separate receipt array and never mutates VectorPairState"
+}

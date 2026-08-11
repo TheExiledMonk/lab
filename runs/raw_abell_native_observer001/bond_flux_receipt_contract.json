@@ -1,0 +1,18 @@
+{
+  "fields": [
+    "source_positions",
+    "received_positions",
+    "directions",
+    "weights",
+    "progression_steps",
+    "native_cell_ids",
+    "local_displacement",
+    "local_momentum",
+    "local_flux",
+    "local_content_candidates"
+  ],
+  "predeclared": true,
+  "representation": "BOND_FLUX",
+  "surface": "x=8 positive bond face",
+  "weight": "positive outward native content proxy"
+}

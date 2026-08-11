@@ -16,5 +16,8 @@ alone records canonical status.
 | Scalar loaded F03 | Dev163 | N6 scalar | loaded perturbation cancels | rejected/frozen | unchanged operator gives free F03 | vector-pair branch | governing operator independently changes |
 | Scalar geometry | Dev164 | N6 scalar | lengths/directions underived | rejected/frozen | scalar differences are not geometry | explicit vector relations | independent relational state exists |
 | H07 allocation | Dev165 | N6 allocation | partial redirection | partial, nongoverning | allocation not derived | structural comparison only | derived dynamics produces it |
-| Minimal binary magnetic pair | Dev165 H12 | N6 binary pair | gates failed | rejected | binary polarity insufficient | richer magnetic-like space open | richer reversible state/law exists |
-
+| Minimal binary magnetic pair | Dev165 H12 | N6 binary pair | gates failed | rejected | binary polarity insufficient | richer magnetic-like space open | richer reversible law exists |
+| DEV169 invariant-drift forensic audit | Dev170 | N6 accounting | persistent source potential omitted from medium-only invariant | resolved bookkeeping | not a pair-law failure | source-work invariant semantics | source force or invariant definition independently changes |
+| DEV169 depth-sensitivity provenance audit | Dev170 | native→observer | mixed native direction/receipt variation and observer amplification | resolved mixed | does not establish unique source depth | source-depth uniqueness | new independent 3D source constraint |
+| DEV169 deposition-semantics audit | Dev170 | observer interface | loaded summary was stale signed-channel value; arrays reconcile exactly | resolved | label/provenance issue | serialized-array semantics | serializer or summary path changes |
+| DEV169 nonfinite-channel audit | Dev170 | observer bank | knn_density convergence undefined with duplicate launch points / zero kNN radius | expected degeneracy | no implementation defect | retain unchanged bank | input geometry or kNN implementation changes |

@@ -60,6 +60,20 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 - Outcome: `OUTCOME_A`
 - Status: `STRUCTURALLY_CLOSED`
 
+## LEDGER ENTRY 004 — DEV170 DEV169 FORENSIC ACCOUNTING AND DEPTH-SENSITIVITY AUDIT
+
+- Date: 2026-08-12
+- Branch: `dev-doc-112-fullscale-vulkan-observer-validation`
+- Scope: forensic accounting and unchanged-observer audit only; no native, receipt, or observer physics changed.
+- RAW→observer structural chain: `CLOSED`.
+- Invariant/accounting: persistent source applies an external static force every propagation step. The reported 31% medium-only change omits its conservative source potential. The medium-plus-source audit and frozen/unloaded controls support `SOURCE_WORK_OMITTED`, not a reason to reopen the Dev167 pair law.
+- Receipt: diagnostic-only; it neither removes nor double-counts propagated state.
+- Observer deposition semantics: Dev169's loaded `total_deposition` was a stale pre-serialization signed-channel sum, not the serialized loaded-array sum. The serialized loaded and difference arrays agree exactly because unloaded is zero.
+- Nonfinite channel: `knn_density__convergence` is an expected degeneracy from repeated launch coordinates giving a zero k=8 initial-neighbour radius; no bank modification is warranted.
+- Source-depth sensitivity: mixed native receipt/direction variation and frozen-observer nonlinearity; largest normalized transition is vector lens→receipt. Source-depth uniqueness remains an active structural frontier.
+- Absolute normalization: `UNRESOLVED`.
+- Outcome: `OUTCOME_G`; `NEXT_DEV_AUTHORIZED=false`.
+
 ## LEDGER ENTRY 003 — DEV168 FINITE NATIVE LOADED RECEIPT
 
 - Date: 2026-08-11

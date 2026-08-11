@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "lane": "Z01_THIN_CENTRAL",
+      "max_abs_strain": 0.0024306725955316466,
+      "max_bond_length": 1.0024306725955316,
+      "min_bond_length": 0.9989958302705987
+    },
+    {
+      "lane": "Z02_UNIFORM_DEPTH_2",
+      "max_abs_strain": 0.0005578750125434517,
+      "max_bond_length": 1.0005578750125435,
+      "min_bond_length": 0.999534947885342
+    },
+    {
+      "lane": "Z02_UNIFORM_DEPTH_4",
+      "max_abs_strain": 0.0004652098920167047,
+      "max_bond_length": 1.000270924279886,
+      "min_bond_length": 0.9995347901079833
+    },
+    {
+      "lane": "Z03_SYMMETRIC_COMPACT",
+      "max_abs_strain": 0.0006533518667040106,
+      "max_bond_length": 1.000653351866704,
+      "min_bond_length": 0.9995349968846975
+    },
+    {
+      "lane": "Z04_DOUBLE_LAYER",
+      "max_abs_strain": 0.0012176589481893707,
+      "max_bond_length": 1.0012176589481894,
+      "min_bond_length": 0.9994973115865936
+    },
+    {
+      "lane": "Z05_ASYMMETRIC",
+      "max_abs_strain": 0.001521366654514189,
+      "max_bond_length": 1.0015213666545142,
+      "min_bond_length": 0.9993717084982067
+    },
+    {
+      "lane": "Z06_SPATIALLY_VARIABLE",
+      "max_abs_strain": 0.0024306725955316466,
+      "max_bond_length": 1.0024306725955316,
+      "min_bond_length": 0.9989958302705986
+    }
+  ]
+}
