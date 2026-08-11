@@ -201,7 +201,9 @@
       "C25"
     ],
     "attempt_ids": [
-      "dev180_density_reconciliation"
+      "dev180_density_reconciliation",
+      "pr16_c25_launch_density",
+      "pr106_coverage_density"
     ],
     "blocked_by": [],
     "blocks": [],
@@ -226,6 +228,44 @@
     "plain_language_question": "Which density is being discussed: source, medium, launch, packet, receipt, or observer bin?",
     "reopen_condition": "Only after a current-native packet/launch representation is independently derived.",
     "target_id": "sampling_density_terms"
+  },
+  {
+    "aliases": [
+      "packet launch",
+      "excitation launch",
+      "photon launch",
+      "launch surface",
+      "launch lineage",
+      "independent replay",
+      "continuous packet launch"
+    ],
+    "attempt_ids": [
+      "dev182_native_packet_launch_representation"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native packet launch representation",
+    "canonical_solution_ids": [
+      "dev182_native_packet_launch_representation"
+    ],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "SAMPLING / RAY DENSITY",
+    "first_seen_date": null,
+    "keywords": [
+      "packet launch",
+      "excitation launch",
+      "photon launch",
+      "launch surface",
+      "launch lineage",
+      "independent replay",
+      "continuous packet launch"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "What independently initialized DEV167 packet supports can traverse one fixed loaded medium, and under what replay/reset semantics?",
+    "reopen_condition": "Only if a new native packet placement, direction, mode, or physical probe derivation independently changes the discrete-support closure.",
+    "target_id": "native_packet_launch_representation"
   },
   {
     "aliases": [
@@ -366,6 +406,7 @@
       "DEV174"
     ],
     "attempt_ids": [
+      "pr107_launch_lineage",
       "dev173_coordinate_lineage",
       "dev174_coordinate_serialization"
     ],

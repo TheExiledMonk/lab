@@ -25,6 +25,10 @@
       "type": "TARGET"
     },
     {
+      "id": "native_packet_launch_representation",
+      "type": "TARGET"
+    },
+    {
       "id": "vulkan_viewer",
       "type": "TARGET"
     },
@@ -187,6 +191,22 @@
     {
       "id": "canonical:dev180_density_reconciliation",
       "type": "CANONICAL_RESULT"
+    },
+    {
+      "id": "pr16_c25_launch_density",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "pr106_coverage_density",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "pr107_launch_lineage",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev182_native_packet_launch_representation",
+      "type": "ATTEMPT"
     },
     {
       "id": "dev168_finite_loaded_receipt",
@@ -399,6 +419,26 @@
       "source": "dev180_density_reconciliation",
       "target": "canonical:dev180_density_reconciliation",
       "type": "VALIDATED_BY"
+    },
+    {
+      "source": "pr16_c25_launch_density",
+      "target": "sampling_density_terms",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "pr106_coverage_density",
+      "target": "sampling_density_terms",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "pr107_launch_lineage",
+      "target": "coordinate_lineage",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev182_native_packet_launch_representation",
+      "target": "native_packet_launch_representation",
+      "type": "ATTEMPTS_TO_SOLVE"
     },
     {
       "source": "dev168_finite_loaded_receipt",

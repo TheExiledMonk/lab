@@ -130,6 +130,26 @@
     "type": "VALIDATED_BY"
   },
   {
+    "source": "pr16_c25_launch_density",
+    "target": "sampling_density_terms",
+    "type": "ATTEMPTS_TO_SOLVE"
+  },
+  {
+    "source": "pr106_coverage_density",
+    "target": "sampling_density_terms",
+    "type": "ATTEMPTS_TO_SOLVE"
+  },
+  {
+    "source": "pr107_launch_lineage",
+    "target": "coordinate_lineage",
+    "type": "ATTEMPTS_TO_SOLVE"
+  },
+  {
+    "source": "dev182_native_packet_launch_representation",
+    "target": "native_packet_launch_representation",
+    "type": "ATTEMPTS_TO_SOLVE"
+  },
+  {
     "source": "dev168_finite_loaded_receipt",
     "target": "finite_loaded_receipt",
     "type": "ATTEMPTS_TO_SOLVE"

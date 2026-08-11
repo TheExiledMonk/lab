@@ -36,6 +36,8 @@ New 2D observer extractors are allowed only if `FULL_NATIVE_RECEIPT_AUDIT_COMPLE
 
 Historical continuous G3D launch density cannot be transferred directly to DEV167/168 without a current-native source-position representation. Sub-cell coordinates do not become physical information merely because interpolation can assign values; high-density launches remain blocked until source-to-medium representation closure.
 
+DEV182 reconciliation: executable PR16 C25 is `267×267=71,289`, not the stale nominal `266×266=70,756`; executable PR106 is `534×534=285,156`. PR107 establishes that actual launch-coordinate arrays are primary receipt lineage. Current DEV167 packet launches are finite discrete node supports under exact-reset replay, not continuous historical ray coordinates.
+
 ## Registry integration (DEV181)
 
 The mechanism registry at `docs/PBUF_MECHANISM_REGISTRY.json` is now the primary historical lookup layer. This Historical Attempt Index remains a concise anti-circularity index and must not be expanded into a duplicate of the full registry. Every row above maps to one or more target/attempt records in that registry.

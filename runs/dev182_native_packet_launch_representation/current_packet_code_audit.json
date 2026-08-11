@@ -1,0 +1,18 @@
+{
+  "CURRENT_DEV167_PACKET_CODE_AUDITED": true,
+  "CURRENT_DEV168_LAUNCH_RECEIPT_LINEAGE_AUDITED": true,
+  "packet_constructor": "tools/generate_dev169_raw_abell_native_observer.py:packet(image)",
+  "packet_fields": {
+    "displacement": "pu[...,0]=0.006*Gaussian_x*transverse_image",
+    "momentum": "pp[...,0]=-0.006*(roll(env,-x)-env)",
+    "support": "finite x Gaussian times positive 7x7 transverse image"
+  },
+  "production_sequence": [
+    "DEV171 projected 7x7 image",
+    "one packet(image) -> (pu, pp)",
+    "VectorPairState(background+pu, pp)",
+    "frozen DEV167 step",
+    "DEV168 positive bond-flux receipt"
+  ],
+  "receipt_lineage": "DEV169 receipt maps a bond-flux event to nearest supported packet cell; it does not create a packet"
+}

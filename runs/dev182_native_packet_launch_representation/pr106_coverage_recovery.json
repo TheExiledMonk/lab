@@ -1,0 +1,9 @@
+{
+  "area_ratio": 4,
+  "count_ratio": 4,
+  "executable_count": 285156,
+  "executable_grid_side": 534,
+  "launcher": "native_full_state_100pct_observer_coverage001._launch_full_100pct",
+  "relationship": "SIDE100 = 2 * SIDE25; area=4x; N100=4*N25",
+  "semantics": "constant launch density N_launch/A_launch"
+}

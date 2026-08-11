@@ -19,6 +19,7 @@
   "tools/generate_dev180_source_medium_recovery.py",
   "tools/pbuf_registry.py",
   "tools/build_pbuf_registry.py",
+  "tools/generate_dev182_native_packet_launch_representation.py",
   "tools/wl_3d_observer_viewer/serve.py",
   "pbuf/core/__init__.py",
   "pbuf/core/conventions.py",

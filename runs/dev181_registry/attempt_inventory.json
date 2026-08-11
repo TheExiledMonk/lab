@@ -1093,6 +1093,275 @@
     "why_attempted": "Recover history before declaring a source coupling or density mechanism missing."
   },
   {
+    "aliases": [
+      "C25",
+      "71,289",
+      "70,756",
+      "266x266"
+    ],
+    "ancestor_of": [],
+    "assumptions": [],
+    "attempt_id": "pr16_c25_launch_density",
+    "branch": null,
+    "canonical": false,
+    "commits": [],
+    "confidence": "HIGH",
+    "current_status": "HISTORICAL_ONLY",
+    "date_completed": null,
+    "date_confidence": "LOW",
+    "date_started": null,
+    "derived_from": [],
+    "descendant_of": [],
+    "dev": null,
+    "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+    "equations": [],
+    "equivalent_to": [],
+    "evidence": [
+      {
+        "type": "file",
+        "value": "pbuf/labs/foundation/m10_coverage_25pct_science001.py"
+      }
+    ],
+    "failed_components": [],
+    "files": [
+      "pbuf/labs/foundation/m10_coverage_25pct_science001.py"
+    ],
+    "fitted_parameters": [],
+    "fixed_structural_normalizations": [],
+    "free_parameters": [],
+    "infrastructure_reusable": false,
+    "inputs": [],
+    "invalidated_components": [],
+    "name": "Historical C25 launch-density expansion",
+    "observational_inputs": [
+      "synthetic_only"
+    ],
+    "outputs": [],
+    "physics_reusable": true,
+    "pr": "PR16",
+    "related_attempts": [],
+    "reopen_condition": "Only if its stated assumptions are independently re-established.",
+    "result": "FULL",
+    "result_reason": "Executable cell-centred launcher derives side 267 and 71,289 rays; stale nominal documentation says 266x266/70,756.",
+    "run_directories": [
+      "runs/m10_coverage_25pct_science001"
+    ],
+    "status_at_completion": "HISTORICAL_ONLY",
+    "still_valid_components": [],
+    "successful_components": [],
+    "summary": "Executable cell-centred launcher derives side 267 and 71,289 rays; stale nominal documentation says 266x266/70,756.",
+    "superseded_by": [],
+    "supersedes": [],
+    "target_id": "sampling_density_terms",
+    "tests": [],
+    "why_attempted": "Expand launch coverage while retaining approximate rays per supported bin."
+  },
+  {
+    "aliases": [
+      "100% coverage",
+      "285,156",
+      "534x534"
+    ],
+    "ancestor_of": [],
+    "assumptions": [],
+    "attempt_id": "pr106_coverage_density",
+    "branch": null,
+    "canonical": false,
+    "commits": [],
+    "confidence": "HIGH",
+    "current_status": "HISTORICAL_ONLY",
+    "date_completed": null,
+    "date_confidence": "LOW",
+    "date_started": null,
+    "derived_from": [],
+    "descendant_of": [],
+    "dev": null,
+    "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+    "equations": [],
+    "equivalent_to": [],
+    "evidence": [
+      {
+        "type": "file",
+        "value": "pbuf/labs/foundation/native_full_state_100pct_observer_coverage001.py"
+      }
+    ],
+    "failed_components": [],
+    "files": [
+      "pbuf/labs/foundation/native_full_state_100pct_observer_coverage001.py"
+    ],
+    "fitted_parameters": [],
+    "fixed_structural_normalizations": [],
+    "free_parameters": [],
+    "infrastructure_reusable": false,
+    "inputs": [],
+    "invalidated_components": [],
+    "name": "Historical 25% to 100% launch-density coverage",
+    "observational_inputs": [
+      "synthetic_only"
+    ],
+    "outputs": [],
+    "physics_reusable": true,
+    "pr": "PR106",
+    "related_attempts": [],
+    "reopen_condition": "Only if its stated assumptions are independently re-established.",
+    "result": "FULL",
+    "result_reason": "Executable 100% side is 534, exactly double executable C25 side 267, yielding 285,156 = 4*71,289 rays.",
+    "run_directories": [],
+    "status_at_completion": "HISTORICAL_ONLY",
+    "still_valid_components": [],
+    "successful_components": [],
+    "summary": "Executable 100% side is 534, exactly double executable C25 side 267, yielding 285,156 = 4*71,289 rays.",
+    "superseded_by": [],
+    "supersedes": [],
+    "target_id": "sampling_density_terms",
+    "tests": [],
+    "why_attempted": "Expand the Cartesian launch area fourfold at constant ray density."
+  },
+  {
+    "aliases": [
+      "launch coordinates",
+      "receipt lineage",
+      "71,289"
+    ],
+    "ancestor_of": [],
+    "assumptions": [],
+    "attempt_id": "pr107_launch_lineage",
+    "branch": null,
+    "canonical": false,
+    "commits": [],
+    "confidence": "HIGH",
+    "current_status": "HISTORICAL_ONLY",
+    "date_completed": null,
+    "date_confidence": "LOW",
+    "date_started": null,
+    "derived_from": [],
+    "descendant_of": [],
+    "dev": null,
+    "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+    "equations": [],
+    "equivalent_to": [],
+    "evidence": [
+      {
+        "type": "file",
+        "value": "pbuf/wl/launch.py"
+      }
+    ],
+    "failed_components": [],
+    "files": [
+      "pbuf/wl/launch.py"
+    ],
+    "fitted_parameters": [],
+    "fixed_structural_normalizations": [],
+    "free_parameters": [],
+    "infrastructure_reusable": false,
+    "inputs": [],
+    "invalidated_components": [],
+    "name": "Historical launch-coordinate receipt correction",
+    "observational_inputs": [
+      "synthetic_only"
+    ],
+    "outputs": [],
+    "physics_reusable": true,
+    "pr": "PR107",
+    "related_attempts": [],
+    "reopen_condition": "Only if its stated assumptions are independently re-established.",
+    "result": "FULL",
+    "result_reason": "Actual propagation-lane x0/y0 arrays, not a hard-coded historical launcher, are required lineage.",
+    "run_directories": [],
+    "status_at_completion": "HISTORICAL_ONLY",
+    "still_valid_components": [],
+    "successful_components": [],
+    "summary": "Actual propagation-lane x0/y0 arrays, not a hard-coded historical launcher, are required lineage.",
+    "superseded_by": [],
+    "supersedes": [],
+    "target_id": "coordinate_lineage",
+    "tests": [],
+    "why_attempted": "Repair receipt reconstruction after a launch-array shape mismatch."
+  },
+  {
+    "aliases": [
+      "packet launch",
+      "independent replay",
+      "packet density",
+      "launch density"
+    ],
+    "ancestor_of": [],
+    "assumptions": [],
+    "attempt_id": "dev182_native_packet_launch_representation",
+    "branch": null,
+    "canonical": false,
+    "commits": [],
+    "confidence": "HIGH",
+    "current_status": "PARTIAL",
+    "date_completed": "2026-08-12",
+    "date_confidence": "HIGH",
+    "date_started": "2026-08-12",
+    "derived_from": [],
+    "descendant_of": [],
+    "dev": "DEV182",
+    "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+    "equations": [],
+    "equivalent_to": [],
+    "evidence": [
+      {
+        "type": "file",
+        "value": "tools/generate_dev182_native_packet_launch_representation.py"
+      },
+      {
+        "type": "file",
+        "value": "tools/generate_dev169_raw_abell_native_observer.py"
+      },
+      {
+        "type": "file",
+        "value": "pbuf/excitation/native_vector_pair_dynamics.py"
+      },
+      {
+        "type": "file",
+        "value": "pbuf/excitation/native_finite_receipt.py"
+      }
+    ],
+    "failed_components": [],
+    "files": [
+      "tools/generate_dev182_native_packet_launch_representation.py",
+      "tools/generate_dev169_raw_abell_native_observer.py",
+      "pbuf/excitation/native_vector_pair_dynamics.py",
+      "pbuf/excitation/native_finite_receipt.py"
+    ],
+    "fitted_parameters": [],
+    "fixed_structural_normalizations": [],
+    "free_parameters": [],
+    "infrastructure_reusable": false,
+    "inputs": [],
+    "invalidated_components": [],
+    "name": "Current-native packet launch representation closure",
+    "observational_inputs": [
+      "synthetic_only"
+    ],
+    "outputs": [],
+    "physics_reusable": true,
+    "pr": null,
+    "related_attempts": [
+      "dev167_vector_relational_dynamics",
+      "dev168_finite_loaded_receipt",
+      "dev180_density_reconciliation"
+    ],
+    "reopen_condition": "Only if its stated assumptions are independently re-established.",
+    "result": "PARTIAL",
+    "result_reason": "Independent exact-reset replays of finite node-supported packets are structurally valid; continuous coordinates, direction continuum, free production amplitude, and packet-aware receipt provenance are not derived. Outcome B.",
+    "run_directories": [
+      "runs/dev182_native_packet_launch_representation"
+    ],
+    "status_at_completion": "PARTIAL",
+    "still_valid_components": [],
+    "successful_components": [],
+    "summary": "Independent exact-reset replays of finite node-supported packets are structurally valid; continuous coordinates, direction continuum, free production amplitude, and packet-aware receipt provenance are not derived. Outcome B.",
+    "superseded_by": [],
+    "supersedes": [],
+    "target_id": "native_packet_launch_representation",
+    "tests": [],
+    "why_attempted": "Recover historical ray semantics and determine the legitimate current packet replay family before density work."
+  },
+  {
     "aliases": [],
     "ancestor_of": [],
     "assumptions": [],

@@ -1,0 +1,13 @@
+{
+  "INITIAL_LOADED_MEDIUM_IDENTICAL_FOR_ALL_REPLAYS": true,
+  "initial_hashes": [
+    "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+    "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d"
+  ],
+  "interpretation": "independent deterministic computational replays are valid; no state is shared across launches",
+  "results": [
+    "1e12440d3c7ce4314259fc9212bc12075b4c36b1cd3907a075423bcb11e9bb40",
+    "3e428417baa636cf9fc0fb53dd292225f7aeff8ce0c19296136b4952a5333ef9"
+  ],
+  "source_loading_hash_unchanged": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d"
+}

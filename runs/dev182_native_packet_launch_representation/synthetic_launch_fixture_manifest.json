@@ -1,0 +1,72 @@
+{
+  "P0": "canonical DEV167/169 packet",
+  "P1": "same packet translated one native y node",
+  "P2": "same packet translated two native y nodes",
+  "P3": "no additional current-production direction is derived",
+  "P4": "two independent replays from the same state",
+  "P5": "unloaded control",
+  "PACKET_LINEAGE_FIELDS_REQUIRED": [
+    "packet_id",
+    "launch_id",
+    "launch_position/support",
+    "launch_direction",
+    "launch_mode",
+    "launch_amplitude",
+    "source_environment_id",
+    "realization_id"
+  ],
+  "fixtures": {
+    "P0": {
+      "final_state_hash": "1e12440d3c7ce4314259fc9212bc12075b4c36b1cd3907a075423bcb11e9bb40",
+      "initial_loaded_medium_hash": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "launch_amplitude": 0.006,
+      "launch_direction": "+x canonical",
+      "launch_id": "P0",
+      "launch_mode": "canonical",
+      "launch_position_support": "integer-node finite support",
+      "packet_id": "P0",
+      "realization_id": "synthetic",
+      "source_environment_id": "synthetic_unloaded_control"
+    },
+    "P1": {
+      "final_state_hash": "3e428417baa636cf9fc0fb53dd292225f7aeff8ce0c19296136b4952a5333ef9",
+      "initial_loaded_medium_hash": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "launch_amplitude": 0.006,
+      "launch_direction": "+x canonical",
+      "launch_id": "P1",
+      "launch_mode": "canonical",
+      "launch_position_support": {
+        "native_y_translation": 1
+      },
+      "packet_id": "P1",
+      "realization_id": "synthetic",
+      "source_environment_id": "synthetic_unloaded_control"
+    },
+    "P2": {
+      "final_state_hash": "797b89e22ba07c9103c758737527c2ed4992fc514803734c93c2c04de7464f48",
+      "initial_loaded_medium_hash": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "launch_amplitude": 0.006,
+      "launch_direction": "+x canonical",
+      "launch_id": "P2",
+      "launch_mode": "canonical",
+      "launch_position_support": {
+        "native_y_translation": 2
+      },
+      "packet_id": "P2",
+      "realization_id": "synthetic",
+      "source_environment_id": "synthetic_unloaded_control"
+    },
+    "P4": {
+      "final_state_hash": "1e12440d3c7ce4314259fc9212bc12075b4c36b1cd3907a075423bcb11e9bb40",
+      "initial_loaded_medium_hash": "bb1c113d27036957e8ff4408c773f18a18ce338b41e848721267979e7fd5795d",
+      "launch_amplitude": 0.006,
+      "launch_direction": "+x canonical",
+      "launch_id": "P4",
+      "launch_mode": "canonical",
+      "launch_position_support": "integer-node finite support",
+      "packet_id": "P4",
+      "realization_id": "synthetic",
+      "source_environment_id": "synthetic_unloaded_control"
+    }
+  }
+}

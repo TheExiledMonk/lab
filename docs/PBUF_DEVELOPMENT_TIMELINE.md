@@ -26,8 +26,12 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-12 | DEV178 | Vulkan and native viewer | Restored diagnostic Vulkan and native receipt viewer | FULL | INFRASTRUCTURE |
 | 2026-08-12 | DEV179 | Matter and source–medium coupling | Native sub-cell source representation closure | PARTIAL | PARTIAL |
 | 2026-08-12 | DEV180 | Sampling and density terminology | Historical source–medium recovery and density reconciliation | FULL | CANONICAL |
+| 2026-08-12 | DEV182 | Native packet launch representation | Current-native packet launch representation closure | PARTIAL | PARTIAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
+| UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |
+| UNKNOWN | PR107 | Coordinate lineage and WCS bridge | Historical launch-coordinate receipt correction | FULL | HISTORICAL_ONLY |
+| UNKNOWN | PR16 | Sampling and density terminology | Historical C25 launch-density expansion | FULL | HISTORICAL_ONLY |
 | UNKNOWN | PR36 | Matter and source–medium coupling | Effective minimal matter loading | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR37 | Matter and source–medium coupling | Metric-strain normalization | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR69 | Matter and source–medium coupling | Local forcing versus redistribution | FULL | SUPERSEDED |

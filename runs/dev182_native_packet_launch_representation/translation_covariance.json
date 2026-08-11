@@ -1,0 +1,7 @@
+{
+  "control": "unloaded periodic N6 medium",
+  "defined": true,
+  "max_abs_error": 0.0,
+  "note": "loaded translation covariance is not expected without translating the loaded state too",
+  "passed": true
+}

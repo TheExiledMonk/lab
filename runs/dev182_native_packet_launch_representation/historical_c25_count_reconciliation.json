@@ -1,0 +1,10 @@
+{
+  "HISTORICAL_100PCT_COUNT_RECONCILED": true,
+  "HISTORICAL_C25_COUNT_RECONCILED": true,
+  "executable_PR106_534_squared": 285156,
+  "executable_PR16_267_squared": 71289,
+  "historical_100pct_documented_532_squared": 283024,
+  "nominal_266_squared": 70756,
+  "why_100pct_different": "PR106 doubles the actual executable 267 side rather than the stale 266 label",
+  "why_different": "the preserved PR16 code derives EXPANDED_SIDE by rounded area scaling from 20,000 control rays: round(sqrt(20000*64/18)) = 267; its docstring/config retained the older 266 nominal label"
+}

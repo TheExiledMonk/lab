@@ -1,0 +1,28 @@
+{
+  "LAUNCH_COORDINATES_ARE_PRIMARY_LINEAGE": true,
+  "PR106_25_100_relationship": "SIDE100 = 2 * SIDE25; area=4x; N100=4*N25",
+  "PR107_lineage_bug": "receipt helper reconstructed initial coordinates from the old hard-coded 25% launcher",
+  "PR16_count": 71289,
+  "PR16_launch_geometry": {
+    "x": [
+      -8.0,
+      0.0
+    ],
+    "y": [
+      -4.0,
+      4.0
+    ]
+  },
+  "PR16_nominal_count": 70756,
+  "historical_independence_backreaction": "rays sample a fixed field and do not update it or one another",
+  "historical_ray_state": {
+    "fields": [
+      "x0",
+      "y0",
+      "vx0",
+      "vy0"
+    ],
+    "propagation": "A8/M10/G3D historical-only geometric tracer"
+  },
+  "historical_source_relationship": "distinct from fixed source/interface field"
+}
