@@ -119,7 +119,7 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 
 ## LEDGER ENTRY 006 — DEV172 FROZEN OBSERVATIONAL-MORPHOLOGY GATE
 
-- Date: 2026-08-12; start commit: `3b03764502d3f5b1de24ddfa35edff052de15cfd`; branch: `dev171-independent-3d-abell-source`.
+- Date: 2026-08-12; start commit: `3b03764502d3f5b1de24ddfa35edff052de15cfd`; implementation commit: `5cf3025901a52937d3e77932b08a36c384fd26aa`; branch: `dev171-independent-3d-abell-source`.
 - Dev171 reconciliation: `SAME_METRIC_STALE_LEDGER`; the frozen artifacts establish `V_constrained=0.10624528343935943` and `R_3D=1.832080315334409`. The eight immutable observer-output hashes were recorded and verified unchanged.
 - Observational target: Harvey & Massey (2024) pyRRG-JWST / UNCOVER DR1 Abell 2744 weak-lensing reconstruction. The public pyRRG repository revision inspected provides code, but no A2744 convergence-map or catalogue asset suitable for freezing a file hash and WCS.
 - Gate outcome: `OUTCOME_D`; `COMPARISON_REQUIRES_MISSING_PHYSICAL_BRIDGE=true`. Dev171’s frozen 6×6 observer output has no serialized WCS, and no observational raster WCS was available. Thus a common sky grid cannot be constructed without introducing an unrecorded coordinate bridge or manual registration.

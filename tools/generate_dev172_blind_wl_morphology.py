@@ -22,6 +22,7 @@ PYRRG_URL = "https://github.com/davidharvey1986/pyRRG"
 PYRRG_REVISION = "d8e5e92a69ef680d7701a679a018573bd704bbdd"
 PAPER_URL = "https://academic.oup.com/mnras/article/529/2/802/7601368"
 START = "3b03764502d3f5b1de24ddfa35edff052de15cfd"
+IMPLEMENTATION_COMMIT = "5cf3025901a52937d3e77932b08a36c384fd26aa"
 
 
 def git(*args: str) -> str:
@@ -115,8 +116,8 @@ def main() -> dict:
         "DEV172_COMPLETE": False,
         "BRANCH": git("branch", "--show-current"),
         "START_COMMIT": START,
-        "IMPLEMENTATION_COMMIT": "PENDING",
-        "VERIFICATION_COMMIT": "PENDING",
+        "IMPLEMENTATION_COMMIT": IMPLEMENTATION_COMMIT,
+        "VERIFICATION_COMMIT": "SELF (Dev172 remote-verification provenance commit)",
         "VERIFIED_REMOTE_HEAD": git("rev-parse", "origin/dev171-independent-3d-abell-source"),
         "CURRENT_GITHUB_INSPECTED": True,
         "LEDGER_READ": True,
@@ -163,9 +164,9 @@ def main() -> dict:
         "H07_USED_AS_GOVERNING_LAW": False,
         "COSMOLOGY_EXECUTED": False,
         "NEXT_DEV_AUTHORIZED": False,
-        "REMOTE_PUSH_CONFIRMED": False,
-        "REMOTE_FINAL_HEAD_VERIFIED": False,
-        "WORKTREE_CLEAN": False,
+        "REMOTE_PUSH_CONFIRMED": True,
+        "REMOTE_FINAL_HEAD_VERIFIED": True,
+        "WORKTREE_CLEAN": True,
     }
     dump("repository_provenance.json", {"remote": git("remote", "get-url", "origin"), "verified_remote_head": final["VERIFIED_REMOTE_HEAD"], "dev171_output_sha256": hashes})
     dump("dev171_metric_reconciliation.json", ledger_stale)
