@@ -1,0 +1,16 @@
+{
+  "STATIONARY_SOURCE_RELATIONAL_CONFIGURATION_ESTABLISHED": true,
+  "far_relational_response": 0.0054568263356979995,
+  "iterations": 10,
+  "max_force_residual": 1.0719749063040836e-05,
+  "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "pair_extension_max": 0.016354006309199587,
+  "pair_extension_min": -0.0036436570832923953,
+  "source_center": [
+    5,
+    7,
+    5
+  ],
+  "source_region_displacement": 0.016354006309199257,
+  "success": true
+}

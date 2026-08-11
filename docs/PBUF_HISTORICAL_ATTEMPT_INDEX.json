@@ -1,0 +1,17 @@
+{
+  "artifact_role": "anti-circularity historical index; not canonical-result ledger",
+  "entries": [
+    ["scalar gradient propagation", "PRE_LEDGER", "SURROGATE", "STEERING_DEMONSTRATED", "HISTORICAL_ONLY", "assumes scalar-gradient response", "DEV167_VECTOR_PAIR", "INDEPENDENT_DERIVATION"],
+    ["tangent-stiffness propagation speed", "PRE_LEDGER", "SCALAR_N6_DIAGNOSTIC", "EXPLORED", "HISTORICAL_ONLY", "changes law with loading", "NONE", "INDEPENDENT_LOAD_LAW"],
+    ["scalar induced geometry", "PRE_LEDGER_DEV164", "SCALAR", "INSUFFICIENT", "REJECTED", "no bond orientation", "EXPLICIT_RELATIONS", "INDEPENDENT_GEOMETRY_STATE"],
+    ["mass-loading speed coupling", "DEV145", "NATIVE_SCALAR", "UNRESOLVED", "UNRESOLVED", "no state-to-speed law", "NONE", "INDEPENDENT_SPEED_LAW"],
+    ["shared-state cross-coupling", "DEV151_153", "N6_LINK", "INSUFFICIENT", "REJECTED", "no transverse derivation", "RICHER_STATE", "INDEPENDENT_MULTICOMPONENT_LAW"],
+    ["loaded transverse link response", "DEV151_153", "N6_LINK", "INSUFFICIENT", "REJECTED", "alias of cross-coupling", "RICHER_STATE", "INDEPENDENT_MULTICOMPONENT_LAW"],
+    ["1D frame transport", "DEV151_153", "1D", "EXPLORED", "NONCANONICAL", "not full N6", "FULL_N6_ONLY", "DIAGNOSTIC_JUSTIFICATION"],
+    ["scalar loaded F03", "DEV163", "N6_SCALAR", "CANCELS_TO_FREE_F03", "REJECTED_FROZEN", "unchanged operator", "VECTOR_PAIR_BRANCH", "INDEPENDENT_OPERATOR"],
+    ["scalar geometry", "DEV164", "N6_SCALAR", "NOT_DERIVABLE", "REJECTED_FROZEN", "scalar differences are not geometry", "EXPLICIT_RELATIONS", "INDEPENDENT_RELATIONAL_STATE"],
+    ["H07 allocation", "DEV165", "N6", "PARTIAL_REDIRECTION", "PARTIAL_NONGOVERNING", "not derived", "STRUCTURAL_COMPARISON", "DERIVED_DYNAMICS"],
+    ["minimal binary magnetic pair", "DEV165_H12", "N6_BINARY_PAIR", "FAILED_GATES", "REJECTED", "binary polarity insufficient", "RICHER_SPACE_OPEN", "RICHER_REVERSIBLE_LAW"]
+  ],
+  "fields": ["MECHANISM", "HISTORICAL_DEV_OR_PR", "IMPLEMENTATION_DIMENSION", "RESULT", "CANONICAL_STATUS", "WHY_NONCANONICAL_IF_APPLICABLE", "CURRENT_FOLLOWUP", "DO_NOT_RETEST_UNLESS"]
+}

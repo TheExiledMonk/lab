@@ -42,6 +42,24 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 - Next allowed action: discussion/research review only
 - `NEXT_DEV_AUTHORIZED=false`
 
+## LEDGER ENTRY 002 — DEV167 NATIVE VECTOR-PAIR RELATIONAL DYNAMICS
+
+- Date: 2026-08-11
+- Authorization: explicit user-supplied physical premise; `DEV167_AUTHORIZED_BY_USER=true`
+- Start commit: `bd985e7d7da88011139d39f5d60cbf91f9e25736`
+- Implementation commit: `PENDING_COMMIT`
+- Verified remote HEAD: `PENDING_PUSH`
+- Branch: `dev-doc-112-fullscale-vulkan-observer-validation`
+- New state: integrable 3-vector node displacements deriving exact oriented N6 relation vectors
+- Law: the same bounded-strain central pair force in unloaded, loaded, removal, and packet states
+- Synthetic result: off-axis independently source-loaded configuration redirects an identical finite packet; centered and unloaded controls are null and reflected loading reverses the response
+- Dynamics: exactly reversible kick–drift map to floating-point tolerance; native Hamiltonian is numerically conserved with first-order energy-envelope convergence for this map
+- Free comparison: different valid native vector mode; different mode family from scalar Dev157/F03
+- H07 comparison: structurally similar only; not used as a governing law
+- Observer/cosmology/Abell execution: none
+- Outcome: `OUTCOME_A`
+- Status: `STRUCTURALLY_CLOSED`
+
 ## Mechanism ledger
 
 | Mechanism | Status | Established by | Current evidence | Reopen only if | Dependents |
@@ -56,6 +74,7 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 | H15 new primitive required | PARTIAL | Dev165 | missing capability localized, identity unknown | candidate semantics/law independently supplied | loaded response |
 | State-dependent propagation speed | UNDERDETERMINED | Dev166 audit | conceptual lead only; `c_state` is not speed | native state-to-speed law independently derived | flux/allocation research |
 | Richer magnetic-like interaction | UNDERDETERMINED | Dev165/166 | H12 does not exclude richer families | native semantics and reversible law supplied | loaded response |
+| Distance-bound vector pair relation | STRUCTURALLY_CLOSED | Dev167 | exact reciprocal vector relations, source-loaded equilibrium, reversible pair dynamics, reflected transverse packet response | richer interaction only if later physical gates fail | finite loaded receipt |
 
 ## Missing-piece ledger
 

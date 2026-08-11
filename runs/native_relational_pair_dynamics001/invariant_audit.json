@@ -1,0 +1,9 @@
+{
+  "EXPLICIT_DAMPING_TERM_INTRODUCED": false,
+  "classification": "NUMERICALLY_CONSERVED",
+  "convergence_ratio": 1.9595071511889017,
+  "formula": "sum |p|^2/2 + sum -log(1-epsilon^2)/2",
+  "half_step_relative_envelope": 0.009599621888974284,
+  "relative_envelope": 0.018810527740154622,
+  "symplectic": true
+}

@@ -1,0 +1,18 @@
+{
+  "DEV163_REOPEN_CONDITION_SATISFIED": true,
+  "DEV164_REOPEN_CONDITION_SATISFIED": true,
+  "DO_NOT_RETEST_AS_DEV167_MECHANISM": [
+    "scalar gradient propagation",
+    "tangent-stiffness propagation speed",
+    "scalar induced geometry",
+    "mass-loading speed coupling",
+    "shared-state cross-coupling",
+    "loaded transverse link response",
+    "1D frame transport",
+    "scalar loaded F03",
+    "scalar geometry",
+    "H07 allocation",
+    "minimal binary magnetic pair"
+  ],
+  "HISTORICAL_MECHANISM_INDEX_CHECKED": true
+}
