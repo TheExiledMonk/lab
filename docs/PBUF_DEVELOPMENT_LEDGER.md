@@ -240,3 +240,24 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 **Density Terminology Rule:** Source resolution, medium resolution, propagation-launch density, packet density, receipt density, and observer-bin density are distinct quantities and may not be used interchangeably.
 
 **Permanent anti-loop requirement:** Before any new Dev inspect current HEAD, read the ledger and historical index, search relevant code, PRs, commits and Dev docs, identify prior equivalents, and only then define the frontier.
+
+## LEDGER ENTRY 014 — DEV181 COMPLETE PBUF MECHANISM REGISTRY
+
+- Date: 2026-08-12. Start SHA: `89e9ef8b40c170bba4be2bdba5fe8db346dc39fa`.
+- Canonical structured memory: `docs/PBUF_MECHANISM_REGISTRY.json`, schema version `1`; generated views: `docs/PBUF_MECHANISM_REGISTRY.md`, `docs/PBUF_DERIVATION_GRAPH.json`, and `docs/PBUF_DEVELOPMENT_TIMELINE.md`.
+- Coverage: full reachable PBUF history was inventoried through current tree, reachable refs/commits, ledger, historical index, DEV180 artifacts, scientific modules, tests, and run directories. Recoverability gaps and confidence remain explicit in `runs/dev181_registry/`.
+- Validation: schema/semantic validation, aliases, Dev/PR lookup, and confirmed PR70↔DEV167 normalization-equivalence lookup are supplied by `tools/pbuf_registry.py`; audit artifacts are under `runs/dev181_registry/`.
+- Historical correction preserved: DEV179's node-discrete current-contact result remains valid; DEV180's scope correction, PR70 equivalence, and C25 `70,756` ray-launch semantics are registered.
+- No physics, observer, cosmology, source loading, normalization, sampling, density run, or observational comparison was changed. `SCIENTIFIC_STATE_UNCHANGED=true`.
+
+## Permanent rules (DEV181 additions)
+
+**Mechanism Registry Rule:** Every new PBUF development must query `PBUF_MECHANISM_REGISTRY` for the target, aliases, related mechanisms, canonical solutions, failed attempts, superseded branches, equivalences, and reopen conditions before proposing new physics. Registry hits must be followed to their source code/PR/commit before defining the new frontier.
+
+**Memory Independence Rule:** PBUF development must never depend on the project author's or assistant's recollection that a mechanism was or was not previously explored. Repository evidence and the mechanism registry define historical knowledge.
+
+**Semantic Duplicate Rule:** A mechanism may not be treated as new merely because it uses different terminology. Alias, equation-equivalence, derivation-history, and target-level searches must be performed first.
+
+**Attempt Preservation Rule:** Failed, partial, blocked, superseded, and diagnostic mechanisms remain permanently registered with their original purpose, equations, outcome, reason, surviving components, and reopen condition.
+
+**Registry completion rule:** Before a new Dev: inspect current GitHub, query/read matching registry entries, follow matches to source, read this ledger and the historical index, and identify the frontier. After a completed Dev: update this ledger, the historical index if required, the registry, and validate the registry.

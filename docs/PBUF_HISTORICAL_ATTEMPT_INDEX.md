@@ -35,3 +35,7 @@ alone records canonical status.
 New 2D observer extractors are allowed only if `FULL_NATIVE_RECEIPT_AUDIT_COMPLETE` and `PHYSICAL_OBSERVER_MAPPING_REQUIRES_IT` are both true.
 
 Historical continuous G3D launch density cannot be transferred directly to DEV167/168 without a current-native source-position representation. Sub-cell coordinates do not become physical information merely because interpolation can assign values; high-density launches remain blocked until source-to-medium representation closure.
+
+## Registry integration (DEV181)
+
+The mechanism registry at `docs/PBUF_MECHANISM_REGISTRY.json` is now the primary historical lookup layer. This Historical Attempt Index remains a concise anti-circularity index and must not be expanded into a duplicate of the full registry. Every row above maps to one or more target/attempt records in that registry.

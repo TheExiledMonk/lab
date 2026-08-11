@@ -1,0 +1,190 @@
+{
+  "bounded_strain_constitutive": [
+    "bounded strain",
+    "epsilon",
+    "PR70",
+    "normalization",
+    "bounded strain",
+    "epsilon",
+    "PR70",
+    "normalization"
+  ],
+  "coordinate_lineage": [
+    "WCS",
+    "sky bridge",
+    "coordinate serialization",
+    "DEV173",
+    "DEV174",
+    "WCS",
+    "sky bridge",
+    "coordinate serialization",
+    "DEV173",
+    "DEV174"
+  ],
+  "domain_accumulation": [
+    "accumulation",
+    "accumulation"
+  ],
+  "domain_cosmology": [
+    "cosmology",
+    "cosmology"
+  ],
+  "domain_data_pipelines": [
+    "data pipelines",
+    "data pipelines"
+  ],
+  "domain_em_waves": [
+    "em / waves",
+    "em / waves"
+  ],
+  "domain_foundations": [
+    "foundations",
+    "foundations"
+  ],
+  "domain_momentum_flux": [
+    "momentum / flux",
+    "momentum / flux"
+  ],
+  "domain_planck_finite_bound": [
+    "planck / finite bound",
+    "planck / finite bound"
+  ],
+  "domain_propagation": [
+    "propagation",
+    "propagation"
+  ],
+  "domain_reversibility": [
+    "reversibility",
+    "reversibility"
+  ],
+  "finite_loaded_receipt": [
+    "receipt",
+    "bond flux",
+    "content",
+    "packet",
+    "excitation",
+    "receipt",
+    "bond flux",
+    "content",
+    "packet",
+    "excitation"
+  ],
+  "native_loaded_directional_response": [
+    "transverse response",
+    "loaded redirection",
+    "directional allocation",
+    "magnetic-like",
+    "F03",
+    "H07",
+    "scalar geometry",
+    "transverse response",
+    "loaded redirection",
+    "directional allocation",
+    "magnetic-like",
+    "F03",
+    "H07",
+    "scalar geometry"
+  ],
+  "observational_lensing_comparison": [
+    "pyRRG",
+    "Harvey Massey",
+    "JWST",
+    "raw data",
+    "kappa",
+    "pyRRG",
+    "Harvey Massey",
+    "JWST",
+    "raw data",
+    "kappa"
+  ],
+  "physical_observer_mapping": [
+    "45-channel observer",
+    "spin-2",
+    "P1",
+    "P7",
+    "J3",
+    "G3",
+    "full-state retention",
+    "45-channel observer",
+    "spin-2",
+    "P1",
+    "P7",
+    "J3",
+    "G3",
+    "full-state retention"
+  ],
+  "sampling_density_terms": [
+    "ray density",
+    "packet density",
+    "launch density",
+    "70,756",
+    "266x266",
+    "C25",
+    "ray density",
+    "packet density",
+    "launch density",
+    "70,756",
+    "266x266",
+    "C25"
+  ],
+  "source_depth_reconstruction": [
+    "source depth",
+    "2D to 3D",
+    "spectroscopy",
+    "Owers",
+    "redshift",
+    "source depth",
+    "2D to 3D",
+    "spectroscopy",
+    "Owers",
+    "redshift"
+  ],
+  "source_medium_coupling": [
+    "source loading",
+    "matter loading",
+    "local forcing",
+    "medium redistribution",
+    "c_state",
+    "source medium",
+    "source loading",
+    "matter loading",
+    "local forcing",
+    "medium redistribution",
+    "c_state",
+    "source medium"
+  ],
+  "source_work_accounting": [
+    "source work",
+    "invariant drift",
+    "DEV170",
+    "source work",
+    "invariant drift",
+    "DEV170"
+  ],
+  "vulkan_viewer": [
+    "Vulkan",
+    "viewer",
+    "KDE",
+    "GPU",
+    "coverage",
+    "Vulkan",
+    "viewer",
+    "KDE",
+    "GPU",
+    "coverage"
+  ],
+  "weak_lensing_native_path": [
+    "lensing",
+    "kappa",
+    "G3D",
+    "A8",
+    "M10",
+    "processed lensing map",
+    "lensing",
+    "kappa",
+    "G3D",
+    "A8",
+    "M10",
+    "processed lensing map"
+  ]
+}

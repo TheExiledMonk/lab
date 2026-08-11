@@ -1,0 +1,626 @@
+[
+  {
+    "aliases": [
+      "transverse response",
+      "loaded redirection",
+      "directional allocation",
+      "magnetic-like",
+      "F03",
+      "H07",
+      "scalar geometry"
+    ],
+    "attempt_ids": [
+      "dev151_shared_state_cross_coupling",
+      "dev152_transverse_link_response",
+      "dev153_link_candidate_selection",
+      "dev163_scalar_loaded_f03",
+      "dev164_scalar_geometry",
+      "dev165_h07_allocation",
+      "dev166_missing_piece_audit",
+      "dev167_vector_relational_dynamics"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Loaded native directional response",
+    "canonical_solution_ids": [
+      "dev167_vector_relational_dynamics"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": null,
+    "keywords": [
+      "transverse response",
+      "loaded redirection",
+      "directional allocation",
+      "magnetic-like",
+      "F03",
+      "H07",
+      "scalar geometry"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "How can identical propagation redirect in a loaded relational medium without changing the local pair law?",
+    "reopen_condition": "Only if a later physical gate invalidates DEV167.",
+    "target_id": "native_loaded_directional_response"
+  },
+  {
+    "aliases": [
+      "source loading",
+      "matter loading",
+      "local forcing",
+      "medium redistribution",
+      "c_state",
+      "source medium"
+    ],
+    "attempt_ids": [
+      "pr36_effective_matter_loading",
+      "pr37_metric_strain_normalization",
+      "dev159_local_source_forcing",
+      "pr69_forcing_redistribution",
+      "pr72_local_n6_redistribution",
+      "pr74_a8_cstate_accumulation",
+      "dev179_subcell_source_closure"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Matter and source\u2013medium coupling",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "SOURCE / MATTER",
+    "first_seen_date": null,
+    "keywords": [
+      "source loading",
+      "matter loading",
+      "local forcing",
+      "medium redistribution",
+      "c_state",
+      "source medium"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "How does matter/source loading contact and redistribute through the native medium?",
+    "reopen_condition": "Only with an independently derived current-native bridge; interpolation is not physics.",
+    "target_id": "source_medium_coupling"
+  },
+  {
+    "aliases": [
+      "lensing",
+      "kappa",
+      "G3D",
+      "A8",
+      "M10",
+      "processed lensing map"
+    ],
+    "attempt_ids": [
+      "historical_scalar_gradient_lensing",
+      "historical_a8_m10_lensing"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Weak-lensing native path",
+    "canonical_solution_ids": [],
+    "current_status": "ACTIVE",
+    "do_not_rederive": true,
+    "domain": "WEAK LENSING",
+    "first_seen_date": null,
+    "keywords": [
+      "lensing",
+      "kappa",
+      "G3D",
+      "A8",
+      "M10",
+      "processed lensing map"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "What current-native chain connects source, propagation, receipt and an eventual physical observer?",
+    "reopen_condition": "Only reopen historical processed paths with an independently justified current-native bridge.",
+    "target_id": "weak_lensing_native_path"
+  },
+  {
+    "aliases": [
+      "45-channel observer",
+      "spin-2",
+      "P1",
+      "P7",
+      "J3",
+      "G3",
+      "full-state retention"
+    ],
+    "attempt_ids": [
+      "dev176_spin2_matrix",
+      "dev177_full_received_state"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Physical observer mapping",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": null,
+    "keywords": [
+      "45-channel observer",
+      "spin-2",
+      "P1",
+      "P7",
+      "J3",
+      "G3",
+      "full-state retention"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "What deterministic image-forming operation acts on full native received state?",
+    "reopen_condition": "After received-state and channel sufficiency gates.",
+    "target_id": "physical_observer_mapping"
+  },
+  {
+    "aliases": [
+      "source depth",
+      "2D to 3D",
+      "spectroscopy",
+      "Owers",
+      "redshift"
+    ],
+    "attempt_ids": [
+      "dev169_depth_sensitivity",
+      "dev171_independent_3d_source"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Source depth / 3D reconstruction",
+    "canonical_solution_ids": [
+      "dev171_independent_3d_source"
+    ],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "SOURCE / MATTER",
+    "first_seen_date": null,
+    "keywords": [
+      "source depth",
+      "2D to 3D",
+      "spectroscopy",
+      "Owers",
+      "redshift"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "How can source depth be independently constrained without treating spectroscopy as geometric depth?",
+    "reopen_condition": "Only with an independent depth constraint; spectroscopic redshift as direct depth remains forbidden.",
+    "target_id": "source_depth_reconstruction"
+  },
+  {
+    "aliases": [
+      "ray density",
+      "packet density",
+      "launch density",
+      "70,756",
+      "266x266",
+      "C25"
+    ],
+    "attempt_ids": [
+      "dev180_density_reconciliation"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Sampling and density terminology",
+    "canonical_solution_ids": [
+      "dev180_density_reconciliation"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "SAMPLING / RAY DENSITY",
+    "first_seen_date": null,
+    "keywords": [
+      "ray density",
+      "packet density",
+      "launch density",
+      "70,756",
+      "266x266",
+      "C25"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Which density is being discussed: source, medium, launch, packet, receipt, or observer bin?",
+    "reopen_condition": "Only after a current-native packet/launch representation is independently derived.",
+    "target_id": "sampling_density_terms"
+  },
+  {
+    "aliases": [
+      "Vulkan",
+      "viewer",
+      "KDE",
+      "GPU",
+      "coverage"
+    ],
+    "attempt_ids": [
+      "dev178_vulkan_viewer"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Vulkan and native viewer",
+    "canonical_solution_ids": [
+      "dev178_vulkan_viewer"
+    ],
+    "current_status": "INFRASTRUCTURE",
+    "do_not_rederive": true,
+    "domain": "INFRASTRUCTURE",
+    "first_seen_date": null,
+    "keywords": [
+      "Vulkan",
+      "viewer",
+      "KDE",
+      "GPU",
+      "coverage"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "How can frozen native state be inspected without promoting visual diagnostics to physics?",
+    "reopen_condition": "Only if diagnostic infrastructure changes; visual appearance cannot select physics.",
+    "target_id": "vulkan_viewer"
+  },
+  {
+    "aliases": [
+      "bounded strain",
+      "epsilon",
+      "PR70",
+      "normalization"
+    ],
+    "attempt_ids": [
+      "pr70_bounded_strain_constitutive"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Bounded-strain constitutive response",
+    "canonical_solution_ids": [
+      "dev167_vector_relational_dynamics"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "ELASTIC / BOUNDED STRAIN",
+    "first_seen_date": null,
+    "keywords": [
+      "bounded strain",
+      "epsilon",
+      "PR70",
+      "normalization"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Has the normalized bounded-strain constitutive family already been derived?",
+    "reopen_condition": "Only if the frozen normalization or governing pair law independently changes.",
+    "target_id": "bounded_strain_constitutive"
+  },
+  {
+    "aliases": [
+      "receipt",
+      "bond flux",
+      "content",
+      "packet",
+      "excitation"
+    ],
+    "attempt_ids": [
+      "dev168_finite_loaded_receipt"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Finite loaded receipt",
+    "canonical_solution_ids": [
+      "dev168_finite_loaded_receipt"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "RECEIPT",
+    "first_seen_date": null,
+    "keywords": [
+      "receipt",
+      "bond flux",
+      "content",
+      "packet",
+      "excitation"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "What full native state crosses the downstream plane?",
+    "reopen_condition": "Only if receipt conservation or native state definitions independently fail.",
+    "target_id": "finite_loaded_receipt"
+  },
+  {
+    "aliases": [
+      "source work",
+      "invariant drift",
+      "DEV170"
+    ],
+    "attempt_ids": [
+      "dev170_source_work_accounting"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Source work and conservation accounting",
+    "canonical_solution_ids": [
+      "dev170_source_work_accounting"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "CONSERVATION",
+    "first_seen_date": null,
+    "keywords": [
+      "source work",
+      "invariant drift",
+      "DEV170"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "How is persistent external source work represented in medium-plus-source accounting?",
+    "reopen_condition": "Only if source force or invariant definitions independently change.",
+    "target_id": "source_work_accounting"
+  },
+  {
+    "aliases": [
+      "WCS",
+      "sky bridge",
+      "coordinate serialization",
+      "DEV173",
+      "DEV174"
+    ],
+    "attempt_ids": [
+      "dev173_coordinate_lineage",
+      "dev174_coordinate_serialization"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Coordinate lineage and WCS bridge",
+    "canonical_solution_ids": [
+      "dev174_coordinate_serialization"
+    ],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "COORDINATE LINEAGE",
+    "first_seen_date": null,
+    "keywords": [
+      "WCS",
+      "sky bridge",
+      "coordinate serialization",
+      "DEV173",
+      "DEV174"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "What provenance persists from source through receipt to observer and sky footprint?",
+    "reopen_condition": "Only with an independent astrometric observational asset or physical normalization.",
+    "target_id": "coordinate_lineage"
+  },
+  {
+    "aliases": [
+      "pyRRG",
+      "Harvey Massey",
+      "JWST",
+      "raw data",
+      "kappa"
+    ],
+    "attempt_ids": [
+      "dev172_frozen_morphology_gate",
+      "dev175_pyrrg_recovery"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Observational weak-lensing comparison",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "WEAK LENSING",
+    "first_seen_date": null,
+    "keywords": [
+      "pyRRG",
+      "Harvey Massey",
+      "JWST",
+      "raw data",
+      "kappa"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Can a frozen native observer be compared to an authentic external shape/map product?",
+    "reopen_condition": "When an authentic numerical asset with deterministic astrometry is recovered.",
+    "target_id": "observational_lensing_comparison"
+  },
+  {
+    "aliases": [
+      "foundations"
+    ],
+    "attempt_ids": [],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Foundations",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": false,
+    "domain": "FOUNDATIONS",
+    "first_seen_date": null,
+    "keywords": [
+      "foundations"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Repository-wide registry group for FOUNDATIONS.",
+    "reopen_condition": "Only when independent repository evidence changes the stated closure.",
+    "target_id": "domain_foundations"
+  },
+  {
+    "aliases": [
+      "propagation"
+    ],
+    "attempt_ids": [],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Propagation",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": false,
+    "domain": "PROPAGATION",
+    "first_seen_date": null,
+    "keywords": [
+      "propagation"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Repository-wide registry group for PROPAGATION.",
+    "reopen_condition": "Only when independent repository evidence changes the stated closure.",
+    "target_id": "domain_propagation"
+  },
+  {
+    "aliases": [
+      "cosmology"
+    ],
+    "attempt_ids": [],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Cosmology",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": false,
+    "domain": "COSMOLOGY",
+    "first_seen_date": null,
+    "keywords": [
+      "cosmology"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Repository-wide registry group for COSMOLOGY.",
+    "reopen_condition": "Only when independent repository evidence changes the stated closure.",
+    "target_id": "domain_cosmology"
+  },
+  {
+    "aliases": [
+      "em / waves"
+    ],
+    "attempt_ids": [],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Em / Waves",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": false,
+    "domain": "EM / WAVES",
+    "first_seen_date": null,
+    "keywords": [
+      "em / waves"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Repository-wide registry group for EM / WAVES.",
+    "reopen_condition": "Only when independent repository evidence changes the stated closure.",
+    "target_id": "domain_em_waves"
+  },
+  {
+    "aliases": [
+      "data pipelines"
+    ],
+    "attempt_ids": [],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Data Pipelines",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": false,
+    "domain": "DATA PIPELINES",
+    "first_seen_date": null,
+    "keywords": [
+      "data pipelines"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Repository-wide registry group for DATA PIPELINES.",
+    "reopen_condition": "Only when independent repository evidence changes the stated closure.",
+    "target_id": "domain_data_pipelines"
+  },
+  {
+    "aliases": [
+      "planck / finite bound"
+    ],
+    "attempt_ids": [],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Planck / Finite Bound",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": false,
+    "domain": "PLANCK / FINITE BOUND",
+    "first_seen_date": null,
+    "keywords": [
+      "planck / finite bound"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Repository-wide registry group for PLANCK / FINITE BOUND.",
+    "reopen_condition": "Only when independent repository evidence changes the stated closure.",
+    "target_id": "domain_planck_finite_bound"
+  },
+  {
+    "aliases": [
+      "reversibility"
+    ],
+    "attempt_ids": [],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Reversibility",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": false,
+    "domain": "REVERSIBILITY",
+    "first_seen_date": null,
+    "keywords": [
+      "reversibility"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Repository-wide registry group for REVERSIBILITY.",
+    "reopen_condition": "Only when independent repository evidence changes the stated closure.",
+    "target_id": "domain_reversibility"
+  },
+  {
+    "aliases": [
+      "momentum / flux"
+    ],
+    "attempt_ids": [],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Momentum / Flux",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": false,
+    "domain": "MOMENTUM / FLUX",
+    "first_seen_date": null,
+    "keywords": [
+      "momentum / flux"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Repository-wide registry group for MOMENTUM / FLUX.",
+    "reopen_condition": "Only when independent repository evidence changes the stated closure.",
+    "target_id": "domain_momentum_flux"
+  },
+  {
+    "aliases": [
+      "accumulation"
+    ],
+    "attempt_ids": [],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Accumulation",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": false,
+    "domain": "ACCUMULATION",
+    "first_seen_date": null,
+    "keywords": [
+      "accumulation"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Repository-wide registry group for ACCUMULATION.",
+    "reopen_condition": "Only when independent repository evidence changes the stated closure.",
+    "target_id": "domain_accumulation"
+  }
+]

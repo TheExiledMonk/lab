@@ -1,0 +1,771 @@
+{
+  "classification_note": "GitHub metadata is included when authenticated; otherwise reachable historical refs and commits are the audit source.",
+  "discovered_pr_numbers": [],
+  "github_prs_inspected": [
+    {
+      "headRefName": "dev-doc-112-fullscale-vulkan-observer-validation",
+      "mergedAt": "2026-08-10T20:35:25Z",
+      "number": 108,
+      "state": "MERGED",
+      "title": "Restore native N6 excitation and publish audit work"
+    },
+    {
+      "headRefName": "foundation/native-full-state-100pct-observer-coverage-fix001",
+      "mergedAt": "2026-08-09T06:56:38Z",
+      "number": 107,
+      "state": "MERGED",
+      "title": "FOUNDATION: fix 100% observer coverage launch-coordinate receipt"
+    },
+    {
+      "headRefName": "foundation/native-full-state-100pct-observer-coverage001",
+      "mergedAt": "2026-08-09T06:16:30Z",
+      "number": 106,
+      "state": "MERGED",
+      "title": "FOUNDATION: full-state 100% observer coverage audit"
+    },
+    {
+      "headRefName": "foundation/native-full-state-2d-reconstruction-decoder-sweep001",
+      "mergedAt": "2026-08-09T05:59:20Z",
+      "number": 105,
+      "state": "MERGED",
+      "title": "FOUNDATION: full-state 2D reconstruction decoder sweep"
+    },
+    {
+      "headRefName": "foundation/native-full-received-state-information-retention001",
+      "mergedAt": "2026-08-08T19:54:47Z",
+      "number": 104,
+      "state": "MERGED",
+      "title": "FOUNDATION: full received-state information retention audit"
+    },
+    {
+      "headRefName": "foundation/native-rgb-channel-matrix001",
+      "mergedAt": "2026-08-08T19:35:14Z",
+      "number": 103,
+      "state": "MERGED",
+      "title": "FOUNDATION: native RGB-like channel matrix"
+    },
+    {
+      "headRefName": "foundation/native-multichannel-observer-fusion-sweep001",
+      "mergedAt": "2026-08-08T19:19:22Z",
+      "number": 102,
+      "state": "MERGED",
+      "title": "FOUNDATION: native multichannel observer fusion sweep"
+    },
+    {
+      "headRefName": "foundation/native-observable-extraction-method-sweep001",
+      "mergedAt": "2026-08-08T19:03:02Z",
+      "number": 101,
+      "state": "MERGED",
+      "title": "FOUNDATION: native observable extraction method sweep"
+    },
+    {
+      "headRefName": "foundation/g3d-to-2d-observer-method-sweep001",
+      "mergedAt": "2026-08-08T18:50:19Z",
+      "number": 100,
+      "state": "MERGED",
+      "title": "FOUNDATION: G3D to 2D observer method sweep"
+    },
+    {
+      "headRefName": "foundation/current-native-five-cluster-observable-benchmark001",
+      "mergedAt": "2026-08-08T18:37:45Z",
+      "number": 99,
+      "state": "MERGED",
+      "title": "FOUNDATION: current native five-cluster weak-lensing observable benchmark"
+    },
+    {
+      "headRefName": "foundation/local-scientific-data-inventory001",
+      "mergedAt": null,
+      "number": 98,
+      "state": "CLOSED",
+      "title": "ABANDONED: duplicate inventory branch PR"
+    },
+    {
+      "headRefName": "foundation/local-scientific-data-inventory001",
+      "mergedAt": null,
+      "number": 97,
+      "state": "CLOSED",
+      "title": "ABANDONED: local scientific data inventory"
+    },
+    {
+      "headRefName": "foundation/clean-current-weak-lensing-benchmark001",
+      "mergedAt": "2026-08-08T18:20:33Z",
+      "number": 96,
+      "state": "MERGED",
+      "title": "FOUNDATION: clean current weak-lensing benchmark gate"
+    },
+    {
+      "headRefName": "foundation/local-benchmark-native-channel-full-lensing001",
+      "mergedAt": "2026-08-08T18:11:22Z",
+      "number": 95,
+      "state": "MERGED",
+      "title": "FOUNDATION: local-only five-cluster native channel full lensing"
+    },
+    {
+      "headRefName": "foundation/native-channel-full-weak-lensing-five-cluster001",
+      "mergedAt": "2026-08-08T17:58:59Z",
+      "number": 94,
+      "state": "MERGED",
+      "title": "FOUNDATION: full five-cluster weak lensing with native channel transfer"
+    },
+    {
+      "headRefName": "foundation/native-channel-transfer-closure-sweep001",
+      "mergedAt": "2026-08-08T17:50:32Z",
+      "number": 93,
+      "state": "MERGED",
+      "title": "FOUNDATION: native channel transfer closure sweep"
+    },
+    {
+      "headRefName": "foundation/interface-to-interface-survivor-sweep001",
+      "mergedAt": "2026-08-08T17:40:15Z",
+      "number": 92,
+      "state": "MERGED",
+      "title": "FOUNDATION: interface-to-interface survivor sweep"
+    },
+    {
+      "headRefName": "foundation/propagation-interface-wide-net-sweep001",
+      "mergedAt": "2026-08-08T17:31:50Z",
+      "number": 91,
+      "state": "MERGED",
+      "title": "FOUNDATION: wide-net propagation interface candidate sweep"
+    },
+    {
+      "headRefName": "foundation/a8-fast-slow-eigenmode-decomposition001",
+      "mergedAt": "2026-08-08T17:24:24Z",
+      "number": 90,
+      "state": "MERGED",
+      "title": "FOUNDATION: audit A8 fast/slow eigenmode cancellation"
+    },
+    {
+      "headRefName": "foundation/native-forward-transfer-operator-audit001",
+      "mergedAt": "2026-08-08T17:16:50Z",
+      "number": 89,
+      "state": "MERGED",
+      "title": "FOUNDATION: forward-audit native transfer through frozen A8/M10"
+    },
+    {
+      "headRefName": "foundation/native-transfer-factor-decomposition001",
+      "mergedAt": "2026-08-08T17:07:43Z",
+      "number": 88,
+      "state": "MERGED",
+      "title": "FOUNDATION: decompose native transfer scale into frozen factors"
+    },
+    {
+      "headRefName": "foundation/native-local-dynamic-response-audit001",
+      "mergedAt": "2026-08-08T17:01:02Z",
+      "number": 87,
+      "state": "MERGED",
+      "title": "FOUNDATION: audit native local dynamic response scale"
+    },
+    {
+      "headRefName": "foundation/m10-local-interface-decomposition001",
+      "mergedAt": "2026-08-08T16:51:37Z",
+      "number": 86,
+      "state": "MERGED",
+      "title": "FOUNDATION: decompose M10 local interface scale"
+    },
+    {
+      "headRefName": "foundation/native-propagation-interface-audit001",
+      "mergedAt": "2026-08-08T16:29:30Z",
+      "number": 85,
+      "state": "MERGED",
+      "title": "FOUNDATION: audit native propagation interface amplitude by stage"
+    },
+    {
+      "headRefName": "foundation/local-benchmark-execution-gate-fix002",
+      "mergedAt": "2026-08-08T16:19:41Z",
+      "number": 84,
+      "state": "MERGED",
+      "title": "FOUNDATION: fix final local benchmark execution gate flag"
+    },
+    {
+      "headRefName": "foundation/local-benchmark-execution-gate-fix001",
+      "mergedAt": "2026-08-08T16:11:16Z",
+      "number": 83,
+      "state": "MERGED",
+      "title": "FOUNDATION: fix local benchmark execution gate semantics"
+    },
+    {
+      "headRefName": "foundation/a8-zero-flux-native-benchmark-fix001",
+      "mergedAt": "2026-08-08T16:00:48Z",
+      "number": 82,
+      "state": "MERGED",
+      "title": "FOUNDATION: fix native A8 boundary conservation on real cluster maps"
+    },
+    {
+      "headRefName": "foundation/local-benchmark-loader-full-lensing001",
+      "mergedAt": "2026-08-08T15:51:04Z",
+      "number": 81,
+      "state": "MERGED",
+      "title": "FOUNDATION: centralize local benchmark loading and rerun full lensing"
+    },
+    {
+      "headRefName": "foundation/native-accumulated-full-lensing001",
+      "mergedAt": "2026-08-08T15:40:51Z",
+      "number": 80,
+      "state": "MERGED",
+      "title": "FOUNDATION: run native accumulated response through full lensing stack"
+    },
+    {
+      "headRefName": "foundation/deformed-medium-geometry-propagation001",
+      "mergedAt": "2026-08-08T15:29:03Z",
+      "number": 79,
+      "state": "MERGED",
+      "title": "FOUNDATION: test deformed medium geometry propagation"
+    },
+    {
+      "headRefName": "foundation/constitutive-tangent-propagation-coupling001",
+      "mergedAt": "2026-08-08T15:21:28Z",
+      "number": 78,
+      "state": "MERGED",
+      "title": "FOUNDATION: test constitutive tangent propagation coupling"
+    },
+    {
+      "headRefName": "foundation/native-medium-propagation-shape001",
+      "mergedAt": "2026-08-08T15:14:25Z",
+      "number": 77,
+      "state": "MERGED",
+      "title": "FOUNDATION: test native medium propagation shape"
+    },
+    {
+      "headRefName": "foundation/c-state-bridge-propagation-shape001",
+      "mergedAt": null,
+      "number": 76,
+      "state": "CLOSED",
+      "title": "FOUNDATION: test c_state bridge propagation shape"
+    },
+    {
+      "headRefName": "foundation/c-state-bridge-domain-convergence001",
+      "mergedAt": "2026-08-08T15:05:02Z",
+      "number": 75,
+      "state": "MERGED",
+      "title": "FOUNDATION: test c_state bridge domain convergence"
+    },
+    {
+      "headRefName": "foundation/c-state-bounded-strain-bridge001",
+      "mergedAt": "2026-08-08T14:56:45Z",
+      "number": 74,
+      "state": "MERGED",
+      "title": "FOUNDATION: connect c_state to bounded-strain accumulation bridge"
+    },
+    {
+      "headRefName": "foundation/bounded-strain-3d-domain-convergence001",
+      "mergedAt": "2026-08-08T14:45:20Z",
+      "number": 73,
+      "state": "MERGED",
+      "title": "FOUNDATION: test bounded-strain 3D domain convergence"
+    },
+    {
+      "headRefName": "foundation/bounded-strain-3d-neighbor-network001",
+      "mergedAt": "2026-08-08T14:32:19Z",
+      "number": 72,
+      "state": "MERGED",
+      "title": "FOUNDATION: test bounded-strain 3D neighbor network"
+    },
+    {
+      "headRefName": "foundation/bounded-strain-finite-domain-convergence001",
+      "mergedAt": "2026-08-08T14:21:31Z",
+      "number": 71,
+      "state": "MERGED",
+      "title": "FOUNDATION: test bounded-strain finite-domain convergence"
+    },
+    {
+      "headRefName": "foundation/bounded-strain-neighbor-constitutive001",
+      "mergedAt": "2026-08-08T14:11:25Z",
+      "number": 70,
+      "state": "MERGED",
+      "title": "FOUNDATION: test bounded-strain neighbor constitutive response"
+    },
+    {
+      "headRefName": "foundation/pretensioned-neighbor-medium-response001",
+      "mergedAt": "2026-08-08T13:57:35Z",
+      "number": 69,
+      "state": "MERGED",
+      "title": "FOUNDATION: test pretensioned neighbor medium response"
+    },
+    {
+      "headRefName": "foundation/native-medium-response-accumulation-gate-fix001",
+      "mergedAt": "2026-08-08T13:40:34Z",
+      "number": 68,
+      "state": "MERGED",
+      "title": "FOUNDATION: separate scientific nonfinite result from execution gate"
+    },
+    {
+      "headRefName": "foundation/native-medium-response-accumulation001",
+      "mergedAt": "2026-08-08T13:27:58Z",
+      "number": 67,
+      "state": "MERGED",
+      "title": "FOUNDATION: audit existing native medium-response accumulation candidates"
+    },
+    {
+      "headRefName": "foundation/devdoc-native-medium-response-accumulation001",
+      "mergedAt": "2026-08-08T13:21:07Z",
+      "number": 66,
+      "state": "MERGED",
+      "title": "FOUNDATION: add dev doc for native medium response accumulation"
+    },
+    {
+      "headRefName": "foundation/native-response-fingerprint-match001",
+      "mergedAt": "2026-08-08T12:01:09Z",
+      "number": 65,
+      "state": "MERGED",
+      "title": "FOUNDATION: compare native fields to frozen response fingerprint"
+    },
+    {
+      "headRefName": "foundation/known-source-inverse-response-fingerprint001",
+      "mergedAt": "2026-08-08T11:55:09Z",
+      "number": 64,
+      "state": "MERGED",
+      "title": "FOUNDATION: fix inverse-response policy gate polarity"
+    },
+    {
+      "headRefName": "foundation/known-source-inverse-response-fingerprint001",
+      "mergedAt": "2026-08-08T11:50:23Z",
+      "number": 63,
+      "state": "MERGED",
+      "title": "FOUNDATION: add known-source inverse response fingerprint lab"
+    },
+    {
+      "headRefName": "foundation/homogeneous-medium-state-derivation001",
+      "mergedAt": "2026-08-08T11:29:05Z",
+      "number": 62,
+      "state": "MERGED",
+      "title": "FOUNDATION: add homogeneous medium state derivation audit"
+    },
+    {
+      "headRefName": "foundation/homogeneous-elastic-energy-closure-audit001",
+      "mergedAt": "2026-08-08T11:23:37Z",
+      "number": 61,
+      "state": "MERGED",
+      "title": "FOUNDATION: add homogeneous elastic energy closure audit"
+    },
+    {
+      "headRefName": "foundation/rmax-retirement-background-reformulation001",
+      "mergedAt": "2026-08-08T11:17:55Z",
+      "number": 60,
+      "state": "MERGED",
+      "title": "FOUNDATION: retire Rmax and audit background reformulation"
+    },
+    {
+      "headRefName": "foundation/rmax-forbidden-background-closure-audit001",
+      "mergedAt": "2026-08-08T11:09:48Z",
+      "number": 59,
+      "state": "MERGED",
+      "title": "FOUNDATION: add Rmax-forbidden background closure audit"
+    },
+    {
+      "headRefName": "foundation/pbuf-background-parameter-provenance-audit001",
+      "mergedAt": "2026-08-08T10:36:15Z",
+      "number": 58,
+      "state": "MERGED",
+      "title": "FOUNDATION: add PBUF background parameter provenance audit"
+    },
+    {
+      "headRefName": "foundation/pbuf-background-distance-recovery-audit001",
+      "mergedAt": "2026-08-08T08:46:51Z",
+      "number": 57,
+      "state": "MERGED",
+      "title": "FOUNDATION: add PBUF background distance recovery audit"
+    },
+    {
+      "headRefName": "foundation/cluster-distance-redshift-closure-audit001",
+      "mergedAt": "2026-08-08T08:33:00Z",
+      "number": 56,
+      "state": "MERGED",
+      "title": "FOUNDATION: add cluster distance-redshift closure audit"
+    },
+    {
+      "headRefName": "foundation/cluster-baryonic-source-input-inventory001",
+      "mergedAt": "2026-08-08T08:17:30Z",
+      "number": 55,
+      "state": "MERGED",
+      "title": "FOUNDATION: add cluster baryonic source input inventory"
+    },
+    {
+      "headRefName": "foundation/baryonic-density-normalization-audit001",
+      "mergedAt": "2026-08-08T08:04:16Z",
+      "number": 54,
+      "state": "MERGED",
+      "title": "FOUNDATION: add baryonic density normalization audit"
+    },
+    {
+      "headRefName": "foundation/native-length-scale-mapping-audit001",
+      "mergedAt": "2026-08-08T07:47:08Z",
+      "number": 53,
+      "state": "MERGED",
+      "title": "FOUNDATION: add native physical-scale mapping audit"
+    },
+    {
+      "headRefName": "foundation/native-field-curvature-dimension-audit001",
+      "mergedAt": "2026-08-08T07:32:45Z",
+      "number": 52,
+      "state": "MERGED",
+      "title": "FOUNDATION: add native field curvature-dimension audit"
+    },
+    {
+      "headRefName": "foundation/mass-spacetime-response-strength-audit001",
+      "mergedAt": "2026-08-08T07:05:59Z",
+      "number": 51,
+      "state": "MERGED",
+      "title": "FOUNDATION: add mass-spacetime response strength audit"
+    },
+    {
+      "headRefName": "foundation/g-derivation-omnibus-audit001",
+      "mergedAt": "2026-08-08T06:46:16Z",
+      "number": 50,
+      "state": "MERGED",
+      "title": "FOUNDATION: add G derivation omnibus audit"
+    },
+    {
+      "headRefName": "foundation/baryon-mode-counting-audit001",
+      "mergedAt": "2026-08-08T05:56:27Z",
+      "number": 49,
+      "state": "MERGED",
+      "title": "FOUNDATION: audit baryon mode counting behind exponent 18"
+    },
+    {
+      "headRefName": "foundation/g-free-microscopic-scale-audit001",
+      "mergedAt": "2026-08-07T20:41:16Z",
+      "number": 48,
+      "state": "MERGED",
+      "title": "FOUNDATION: add G-free microscopic scale audit"
+    },
+    {
+      "headRefName": "foundation/radial-wave-origin-audit001",
+      "mergedAt": "2026-08-07T20:31:54Z",
+      "number": 47,
+      "state": "MERGED",
+      "title": "FOUNDATION: derive inverse-r candidate from radial wave geometry"
+    },
+    {
+      "headRefName": "foundation/spatial-coherence-kernel-audit001",
+      "mergedAt": "2026-08-07T20:12:03Z",
+      "number": 46,
+      "state": "MERGED",
+      "title": "FOUNDATION: add target-blind spatial coherence kernel audit"
+    },
+    {
+      "headRefName": "foundation/collective-mass-scaling-audit001",
+      "mergedAt": "2026-08-07T20:01:37Z",
+      "number": 45,
+      "state": "MERGED",
+      "title": "FOUNDATION: add collective physical mass scaling audit"
+    },
+    {
+      "headRefName": "foundation/mass-medium-candidate-audit001",
+      "mergedAt": "2026-08-07T19:44:59Z",
+      "number": 44,
+      "state": "MERGED",
+      "title": "FOUNDATION: add target-blind mass-medium candidate audit"
+    },
+    {
+      "headRefName": "foundation/qe-row-count-semantics-fix001",
+      "mergedAt": "2026-08-07T18:18:45Z",
+      "number": 43,
+      "state": "MERGED",
+      "title": "FOUNDATION: correct QE thermal row-count semantics"
+    },
+    {
+      "headRefName": "foundation/qe-raw-snapshot-path-fix001",
+      "mergedAt": "2026-08-07T18:02:34Z",
+      "number": 42,
+      "state": "MERGED",
+      "title": "FOUNDATION: point QE amplitude audit to raw quantum snapshot"
+    },
+    {
+      "headRefName": "foundation/qe-snapshot-archive-integrity-fix001",
+      "mergedAt": "2026-08-07T17:50:37Z",
+      "number": 41,
+      "state": "MERGED",
+      "title": "FOUNDATION: repair QE thermal snapshot archive integrity"
+    },
+    {
+      "headRefName": "foundation/quantum-engine-amplitude-closure001",
+      "mergedAt": "2026-08-07T17:27:03Z",
+      "number": 40,
+      "state": "MERGED",
+      "title": "FOUNDATION: import Quantum Engine snapshot and audit amplitude closure"
+    },
+    {
+      "headRefName": "foundation/medium-dynamics-no-fit-closure001",
+      "mergedAt": "2026-08-07T16:32:57Z",
+      "number": 39,
+      "state": "MERGED",
+      "title": "FOUNDATION: isolate no-fit medium dynamics boundary"
+    },
+    {
+      "headRefName": "foundation/metric-strain-fd-conditioning-fix001",
+      "mergedAt": "2026-08-07T16:25:02Z",
+      "number": 38,
+      "state": "MERGED",
+      "title": "FOUNDATION: condition metric-strain finite-difference gate"
+    },
+    {
+      "headRefName": "foundation/metric-strain-map-closure001",
+      "mergedAt": "2026-08-07T16:19:11Z",
+      "number": 37,
+      "state": "MERGED",
+      "title": "FOUNDATION: close minimal metric-strain map"
+    },
+    {
+      "headRefName": "foundation/matter-loading-physical-closure001",
+      "mergedAt": "2026-08-07T16:09:16Z",
+      "number": 36,
+      "state": "MERGED",
+      "title": "FOUNDATION: add no-fit physical matter-loading closure audit"
+    },
+    {
+      "headRefName": "foundation/strength-factorization-physical-bridge001",
+      "mergedAt": "2026-08-07T15:56:13Z",
+      "number": 35,
+      "state": "MERGED",
+      "title": "FOUNDATION: factor legacy strength and define physical bridge"
+    },
+    {
+      "headRefName": "foundation/independent-mass-response-amplitude-audit001",
+      "mergedAt": "2026-08-07T15:39:01Z",
+      "number": 34,
+      "state": "MERGED",
+      "title": "FOUNDATION: add independent mass-response amplitude audit"
+    },
+    {
+      "headRefName": "foundation/independent-source-common-footprint-fix001",
+      "mergedAt": "2026-08-07T15:18:00Z",
+      "number": 33,
+      "state": "MERGED",
+      "title": "FOUNDATION: fix training-wheels-off common sky footprint"
+    },
+    {
+      "headRefName": "foundation/independent-source-training-wheels-off001",
+      "mergedAt": "2026-08-07T15:09:24Z",
+      "number": 32,
+      "state": "MERGED",
+      "title": "FOUNDATION: add independent-source training-wheels-off audit"
+    },
+    {
+      "headRefName": "foundation/g3d-native-angular-detector-image001",
+      "mergedAt": "2026-08-07T14:47:11Z",
+      "number": 31,
+      "state": "MERGED",
+      "title": "FOUNDATION: add native angular detector image audit"
+    },
+    {
+      "headRefName": "foundation/g3d-angular-higher-moment-sufficiency001",
+      "mergedAt": "2026-08-07T14:31:30Z",
+      "number": 30,
+      "state": "MERGED",
+      "title": "FOUNDATION: add G3D angular higher-moment sufficiency audit"
+    },
+    {
+      "headRefName": "foundation/g3d-angular-moment-decomposition-step0-importfix",
+      "mergedAt": "2026-08-07T14:22:47Z",
+      "number": 29,
+      "state": "MERGED",
+      "title": "FOUNDATION: fix step0 correction import path"
+    },
+    {
+      "headRefName": "foundation/g3d-angular-moment-decomposition-step0-fix",
+      "mergedAt": "2026-08-07T14:16:42Z",
+      "number": 28,
+      "state": "MERGED",
+      "title": "FOUNDATION: fix zero-energy step-0 fraction gate"
+    },
+    {
+      "headRefName": "foundation/g3d-angular-moment-decomposition001",
+      "mergedAt": "2026-08-07T14:12:54Z",
+      "number": 27,
+      "state": "MERGED",
+      "title": "FOUNDATION: add G3D angular moment decomposition audit"
+    },
+    {
+      "headRefName": "foundation/g3d-angular-received-distribution001",
+      "mergedAt": "2026-08-07T13:59:59Z",
+      "number": 26,
+      "state": "MERGED",
+      "title": "FOUNDATION: add G3D angular received distribution audit"
+    },
+    {
+      "headRefName": "foundation/g3d-full-received-state001",
+      "mergedAt": "2026-08-07T13:51:10Z",
+      "number": 25,
+      "state": "MERGED",
+      "title": "FOUNDATION: add G3D full received-state audit"
+    },
+    {
+      "headRefName": "foundation/g3d-observer-before-projection001",
+      "mergedAt": "2026-08-07T13:41:34Z",
+      "number": 24,
+      "state": "MERGED",
+      "title": "FOUNDATION: add G3D observer-before-projection audit"
+    },
+    {
+      "headRefName": "foundation/g3d-principal-axis-orientation001",
+      "mergedAt": "2026-08-07T13:27:22Z",
+      "number": 23,
+      "state": "MERGED",
+      "title": "FOUNDATION: add G3D principal-axis orientation audit"
+    },
+    {
+      "headRefName": "foundation/g3d-displacement-topology001",
+      "mergedAt": "2026-08-07T13:16:34Z",
+      "number": 22,
+      "state": "MERGED",
+      "title": "FOUNDATION: add G3D displacement topology audit"
+    },
+    {
+      "headRefName": "foundation/los-consistent-ray-geometry001",
+      "mergedAt": "2026-08-07T13:05:39Z",
+      "number": 21,
+      "state": "MERGED",
+      "title": "FOUNDATION: add LOS-consistent ray geometry audit"
+    },
+    {
+      "headRefName": "foundation/propagation-coupling-geometry-audit001",
+      "mergedAt": "2026-08-07T12:06:49Z",
+      "number": 20,
+      "state": "MERGED",
+      "title": "FOUNDATION: add propagation coupling geometry audit"
+    },
+    {
+      "headRefName": "foundation/propagation-morphology-localization001",
+      "mergedAt": "2026-08-07T11:57:37Z",
+      "number": 19,
+      "state": "MERGED",
+      "title": "FOUNDATION: add propagation morphology localization audit"
+    },
+    {
+      "headRefName": "foundation/jacobian-observable-consistency001",
+      "mergedAt": "2026-08-07T11:48:41Z",
+      "number": 18,
+      "state": "MERGED",
+      "title": "FOUNDATION: add Jacobian observable consistency audit"
+    },
+    {
+      "headRefName": "foundation/m10-coverage-25pct-corrfix001",
+      "mergedAt": "2026-08-07T11:39:11Z",
+      "number": 17,
+      "state": "MERGED",
+      "title": "FOUNDATION: fix M10 25% coverage correlation API"
+    },
+    {
+      "headRefName": "foundation/m10-coverage-25pct-science001",
+      "mergedAt": "2026-08-07T11:31:15Z",
+      "number": 16,
+      "state": "MERGED",
+      "title": "FOUNDATION: add paired 7% to 25% M10 coverage science experiment"
+    },
+    {
+      "headRefName": "foundation/m10-information-loss-audit001",
+      "mergedAt": "2026-08-07T10:40:24Z",
+      "number": 15,
+      "state": "MERGED",
+      "title": "FOUNDATION: add M10-to-Jacobian information-loss audit"
+    },
+    {
+      "headRefName": "foundation/primary-candidate-m10-rerun001",
+      "mergedAt": "2026-08-07T10:15:25Z",
+      "number": 14,
+      "state": "MERGED",
+      "title": "FOUNDATION: add five-cluster M10 primary-candidate science rerun"
+    },
+    {
+      "headRefName": "foundation/interface-source-requalification001",
+      "mergedAt": "2026-08-07T09:16:41Z",
+      "number": 13,
+      "state": "MERGED",
+      "title": "FOUNDATION: route real-ray requalification through M10 interface field"
+    },
+    {
+      "headRefName": "foundation/endpoint-interface-role-audit001",
+      "mergedAt": "2026-08-07T08:43:36Z",
+      "number": 12,
+      "state": "MERGED",
+      "title": "FOUNDATION: add endpoint/interface representation role audit"
+    },
+    {
+      "headRefName": "foundation/covariance-localization001",
+      "mergedAt": "2026-08-07T08:01:17Z",
+      "number": 11,
+      "state": "MERGED",
+      "title": "FOUNDATION: add standalone real-candidate covariance localization lab"
+    },
+    {
+      "headRefName": "foundation/real-candidate-covariance-localization001",
+      "mergedAt": null,
+      "number": 10,
+      "state": "CLOSED",
+      "title": "FOUNDATION covariance-localization: real MACS0416 candidate diagnostic"
+    },
+    {
+      "headRefName": "foundation/real-recovery-requalification-fix",
+      "mergedAt": "2026-08-07T07:15:32Z",
+      "number": 9,
+      "state": "MERGED",
+      "title": "FOUNDATION requalification fix: real MACS0416 and real candidate covariance"
+    },
+    {
+      "headRefName": "foundation/second-review-requalification001",
+      "mergedAt": "2026-08-07T06:56:41Z",
+      "number": 8,
+      "state": "MERGED",
+      "title": "FOUNDATION second-review-requalification: validated/frozen core"
+    },
+    {
+      "headRefName": "foundation-m16-observable-validation",
+      "mergedAt": "2026-08-07T06:41:03Z",
+      "number": 7,
+      "state": "MERGED",
+      "title": "FOUNDATION second review: tighten M16 observable validation"
+    },
+    {
+      "headRefName": "foundation-m15-ray-validation",
+      "mergedAt": "2026-08-07T06:33:45Z",
+      "number": 6,
+      "state": "MERGED",
+      "title": "FOUNDATION second review: tighten M15 ray input validation"
+    },
+    {
+      "headRefName": "foundation-m13-metric-separation",
+      "mergedAt": "2026-08-07T06:29:57Z",
+      "number": 5,
+      "state": "MERGED",
+      "title": "FOUNDATION second review: separate M13 Helmholtz metrics"
+    },
+    {
+      "headRefName": "foundation-m11-strict-nonfinite-diagnostics",
+      "mergedAt": "2026-08-07T06:23:26Z",
+      "number": 4,
+      "state": "MERGED",
+      "title": "FOUNDATION second review: make M11 nonfinite diagnostics strict"
+    },
+    {
+      "headRefName": "foundation-m03-independent-validation",
+      "mergedAt": "2026-08-07T06:19:34Z",
+      "number": 3,
+      "state": "MERGED",
+      "title": "FOUNDATION second review: make M03 vector validation independent"
+    },
+    {
+      "headRefName": "pbuf-foundation-second-review",
+      "mergedAt": "2026-08-07T06:11:36Z",
+      "number": 2,
+      "state": "MERGED",
+      "title": "FOUNDATION second review: repair M08-M10 pair transfer and raster audit"
+    },
+    {
+      "headRefName": "chore/remove-minimum-production-trajectories",
+      "mergedAt": "2026-08-07T05:50:33Z",
+      "number": 1,
+      "state": "MERGED",
+      "title": "chore: exclude minimum_production trajectory CSVs from version control"
+    }
+  ],
+  "registered": [
+    "PR36",
+    "PR36",
+    "PR37",
+    "PR69",
+    "PR70",
+    "PR72",
+    "PR74"
+  ]
+}

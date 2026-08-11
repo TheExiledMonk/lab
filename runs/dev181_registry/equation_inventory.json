@@ -1,0 +1,169 @@
+[
+  {
+    "attempt_id": "dev151_shared_state_cross_coupling",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev152_transverse_link_response",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev153_link_candidate_selection",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev163_scalar_loaded_f03",
+    "equations": [
+      {
+        "id": "eq_dev163_scalar_loaded_f03",
+        "latex": "F03_{loaded}-F03_{background}=F03_{free}",
+        "role": "governing",
+        "source_commit": null,
+        "source_file": "tests/test_dev163_raw_abell2744_finite_native_lensing_gate.py"
+      }
+    ]
+  },
+  {
+    "attempt_id": "dev164_scalar_geometry",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev165_h07_allocation",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev166_missing_piece_audit",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev167_vector_relational_dynamics",
+    "equations": [
+      {
+        "id": "eq_dev167_vector_relational_dynamics",
+        "latex": "\\mathbf F_{ab}=\\sigma(\\epsilon_{ab})\\hat{\\mathbf r}_{ab}",
+        "role": "governing",
+        "source_commit": null,
+        "source_file": "pbuf/excitation/native_vector_pair_dynamics.py"
+      },
+      {
+        "id": "eq_dev167_vector_relational_dynamics",
+        "latex": "\\sigma(\\epsilon)=\\epsilon/(1-\\epsilon^2)",
+        "role": "governing",
+        "source_commit": null,
+        "source_file": "pbuf/excitation/native_vector_pair_dynamics.py"
+      }
+    ]
+  },
+  {
+    "attempt_id": "pr36_effective_matter_loading",
+    "equations": []
+  },
+  {
+    "attempt_id": "pr37_metric_strain_normalization",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev159_local_source_forcing",
+    "equations": []
+  },
+  {
+    "attempt_id": "pr69_forcing_redistribution",
+    "equations": [
+      {
+        "id": "eq_pr69_forcing_redistribution",
+        "latex": "\\dot u=S+L[u]",
+        "role": "governing",
+        "source_commit": null,
+        "source_file": null
+      }
+    ]
+  },
+  {
+    "attempt_id": "pr70_bounded_strain_constitutive",
+    "equations": [
+      {
+        "id": "eq_pr70_bounded_strain_constitutive",
+        "latex": "\\epsilon/(1-\\epsilon^2)",
+        "role": "governing",
+        "source_commit": null,
+        "source_file": null
+      }
+    ]
+  },
+  {
+    "attempt_id": "pr72_local_n6_redistribution",
+    "equations": []
+  },
+  {
+    "attempt_id": "pr74_a8_cstate_accumulation",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev170_source_work_accounting",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev179_subcell_source_closure",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev180_density_reconciliation",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev168_finite_loaded_receipt",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev169_depth_sensitivity",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev171_independent_3d_source",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev172_frozen_morphology_gate",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev173_coordinate_lineage",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev174_coordinate_serialization",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev175_pyrrg_recovery",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev176_spin2_matrix",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev177_full_received_state",
+    "equations": [
+      {
+        "id": "eq_dev177_full_received_state",
+        "latex": "G3=J3^T J3",
+        "role": "governing",
+        "source_commit": null,
+        "source_file": "tools/generate_dev177_full_native_received_state.py"
+      }
+    ]
+  },
+  {
+    "attempt_id": "historical_scalar_gradient_lensing",
+    "equations": []
+  },
+  {
+    "attempt_id": "historical_a8_m10_lensing",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev178_vulkan_viewer",
+    "equations": []
+  }
+]

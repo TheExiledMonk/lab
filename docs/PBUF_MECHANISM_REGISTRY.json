@@ -1,0 +1,2486 @@
+{
+  "registry_schema_version": 1,
+  "registry_metadata": {
+    "MECHANISM_REGISTRY_JSON_CANONICAL": true,
+    "MECHANISM_REGISTRY_MD_GENERATED": true,
+    "REGISTRY_SCOPE": "FULL_REACHABLE_PBUF_HISTORY",
+    "PRE_LEDGER_HISTORY_REGISTRY_REQUIRED": true
+  },
+  "density_terms": {
+    "source_resolution": "physical source placement resolution",
+    "medium_resolution": "native medium grid resolution",
+    "launch_density": "propagating excitation/ray starts",
+    "packet_density": "native packet support density",
+    "receipt_density": "crossing-event density",
+    "observer_bin_density": "observer spatial bin density"
+  },
+  "datasets": [
+    {
+      "dataset_id": "owers_spectroscopy",
+      "name": "Owers et al. spectroscopy",
+      "role": "lensing-blind phase-space input",
+      "provenance": "DEV171 frozen SHA-256 provenance"
+    },
+    {
+      "dataset_id": "harvey_massey_pyrrg",
+      "name": "Harvey\u2013Massey pyRRG-JWST",
+      "role": "blocked comparison asset",
+      "provenance": "DEV175 unrecovered"
+    }
+  ],
+  "targets": [
+    {
+      "target_id": "native_loaded_directional_response",
+      "canonical_name": "Loaded native directional response",
+      "plain_language_question": "How can identical propagation redirect in a loaded relational medium without changing the local pair law?",
+      "aliases": [
+        "transverse response",
+        "loaded redirection",
+        "directional allocation",
+        "magnetic-like",
+        "F03",
+        "H07",
+        "scalar geometry"
+      ],
+      "keywords": [
+        "transverse response",
+        "loaded redirection",
+        "directional allocation",
+        "magnetic-like",
+        "F03",
+        "H07",
+        "scalar geometry"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev151_shared_state_cross_coupling",
+        "dev152_transverse_link_response",
+        "dev153_link_candidate_selection",
+        "dev163_scalar_loaded_f03",
+        "dev164_scalar_geometry",
+        "dev165_h07_allocation",
+        "dev166_missing_piece_audit",
+        "dev167_vector_relational_dynamics"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev167_vector_relational_dynamics"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if a later physical gate invalidates DEV167."
+    },
+    {
+      "target_id": "source_medium_coupling",
+      "canonical_name": "Matter and source\u2013medium coupling",
+      "plain_language_question": "How does matter/source loading contact and redistribute through the native medium?",
+      "aliases": [
+        "source loading",
+        "matter loading",
+        "local forcing",
+        "medium redistribution",
+        "c_state",
+        "source medium"
+      ],
+      "keywords": [
+        "source loading",
+        "matter loading",
+        "local forcing",
+        "medium redistribution",
+        "c_state",
+        "source medium"
+      ],
+      "domain": "SOURCE / MATTER",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "pr36_effective_matter_loading",
+        "pr37_metric_strain_normalization",
+        "dev159_local_source_forcing",
+        "pr69_forcing_redistribution",
+        "pr72_local_n6_redistribution",
+        "pr74_a8_cstate_accumulation",
+        "dev179_subcell_source_closure"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently derived current-native bridge; interpolation is not physics."
+    },
+    {
+      "target_id": "weak_lensing_native_path",
+      "canonical_name": "Weak-lensing native path",
+      "plain_language_question": "What current-native chain connects source, propagation, receipt and an eventual physical observer?",
+      "aliases": [
+        "lensing",
+        "kappa",
+        "G3D",
+        "A8",
+        "M10",
+        "processed lensing map"
+      ],
+      "keywords": [
+        "lensing",
+        "kappa",
+        "G3D",
+        "A8",
+        "M10",
+        "processed lensing map"
+      ],
+      "domain": "WEAK LENSING",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "historical_scalar_gradient_lensing",
+        "historical_a8_m10_lensing"
+      ],
+      "current_status": "ACTIVE",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only reopen historical processed paths with an independently justified current-native bridge."
+    },
+    {
+      "target_id": "physical_observer_mapping",
+      "canonical_name": "Physical observer mapping",
+      "plain_language_question": "What deterministic image-forming operation acts on full native received state?",
+      "aliases": [
+        "45-channel observer",
+        "spin-2",
+        "P1",
+        "P7",
+        "J3",
+        "G3",
+        "full-state retention"
+      ],
+      "keywords": [
+        "45-channel observer",
+        "spin-2",
+        "P1",
+        "P7",
+        "J3",
+        "G3",
+        "full-state retention"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev176_spin2_matrix",
+        "dev177_full_received_state"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "After received-state and channel sufficiency gates."
+    },
+    {
+      "target_id": "source_depth_reconstruction",
+      "canonical_name": "Source depth / 3D reconstruction",
+      "plain_language_question": "How can source depth be independently constrained without treating spectroscopy as geometric depth?",
+      "aliases": [
+        "source depth",
+        "2D to 3D",
+        "spectroscopy",
+        "Owers",
+        "redshift"
+      ],
+      "keywords": [
+        "source depth",
+        "2D to 3D",
+        "spectroscopy",
+        "Owers",
+        "redshift"
+      ],
+      "domain": "SOURCE / MATTER",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev169_depth_sensitivity",
+        "dev171_independent_3d_source"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [
+        "dev171_independent_3d_source"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independent depth constraint; spectroscopic redshift as direct depth remains forbidden."
+    },
+    {
+      "target_id": "sampling_density_terms",
+      "canonical_name": "Sampling and density terminology",
+      "plain_language_question": "Which density is being discussed: source, medium, launch, packet, receipt, or observer bin?",
+      "aliases": [
+        "ray density",
+        "packet density",
+        "launch density",
+        "70,756",
+        "266x266",
+        "C25"
+      ],
+      "keywords": [
+        "ray density",
+        "packet density",
+        "launch density",
+        "70,756",
+        "266x266",
+        "C25"
+      ],
+      "domain": "SAMPLING / RAY DENSITY",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev180_density_reconciliation"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev180_density_reconciliation"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only after a current-native packet/launch representation is independently derived."
+    },
+    {
+      "target_id": "vulkan_viewer",
+      "canonical_name": "Vulkan and native viewer",
+      "plain_language_question": "How can frozen native state be inspected without promoting visual diagnostics to physics?",
+      "aliases": [
+        "Vulkan",
+        "viewer",
+        "KDE",
+        "GPU",
+        "coverage"
+      ],
+      "keywords": [
+        "Vulkan",
+        "viewer",
+        "KDE",
+        "GPU",
+        "coverage"
+      ],
+      "domain": "INFRASTRUCTURE",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev178_vulkan_viewer"
+      ],
+      "current_status": "INFRASTRUCTURE",
+      "canonical_solution_ids": [
+        "dev178_vulkan_viewer"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if diagnostic infrastructure changes; visual appearance cannot select physics."
+    },
+    {
+      "target_id": "bounded_strain_constitutive",
+      "canonical_name": "Bounded-strain constitutive response",
+      "plain_language_question": "Has the normalized bounded-strain constitutive family already been derived?",
+      "aliases": [
+        "bounded strain",
+        "epsilon",
+        "PR70",
+        "normalization"
+      ],
+      "keywords": [
+        "bounded strain",
+        "epsilon",
+        "PR70",
+        "normalization"
+      ],
+      "domain": "ELASTIC / BOUNDED STRAIN",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "pr70_bounded_strain_constitutive"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev167_vector_relational_dynamics"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if the frozen normalization or governing pair law independently changes."
+    },
+    {
+      "target_id": "finite_loaded_receipt",
+      "canonical_name": "Finite loaded receipt",
+      "plain_language_question": "What full native state crosses the downstream plane?",
+      "aliases": [
+        "receipt",
+        "bond flux",
+        "content",
+        "packet",
+        "excitation"
+      ],
+      "keywords": [
+        "receipt",
+        "bond flux",
+        "content",
+        "packet",
+        "excitation"
+      ],
+      "domain": "RECEIPT",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev168_finite_loaded_receipt"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev168_finite_loaded_receipt"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if receipt conservation or native state definitions independently fail."
+    },
+    {
+      "target_id": "source_work_accounting",
+      "canonical_name": "Source work and conservation accounting",
+      "plain_language_question": "How is persistent external source work represented in medium-plus-source accounting?",
+      "aliases": [
+        "source work",
+        "invariant drift",
+        "DEV170"
+      ],
+      "keywords": [
+        "source work",
+        "invariant drift",
+        "DEV170"
+      ],
+      "domain": "CONSERVATION",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev170_source_work_accounting"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev170_source_work_accounting"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if source force or invariant definitions independently change."
+    },
+    {
+      "target_id": "coordinate_lineage",
+      "canonical_name": "Coordinate lineage and WCS bridge",
+      "plain_language_question": "What provenance persists from source through receipt to observer and sky footprint?",
+      "aliases": [
+        "WCS",
+        "sky bridge",
+        "coordinate serialization",
+        "DEV173",
+        "DEV174"
+      ],
+      "keywords": [
+        "WCS",
+        "sky bridge",
+        "coordinate serialization",
+        "DEV173",
+        "DEV174"
+      ],
+      "domain": "COORDINATE LINEAGE",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev173_coordinate_lineage",
+        "dev174_coordinate_serialization"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [
+        "dev174_coordinate_serialization"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independent astrometric observational asset or physical normalization."
+    },
+    {
+      "target_id": "observational_lensing_comparison",
+      "canonical_name": "Observational weak-lensing comparison",
+      "plain_language_question": "Can a frozen native observer be compared to an authentic external shape/map product?",
+      "aliases": [
+        "pyRRG",
+        "Harvey Massey",
+        "JWST",
+        "raw data",
+        "kappa"
+      ],
+      "keywords": [
+        "pyRRG",
+        "Harvey Massey",
+        "JWST",
+        "raw data",
+        "kappa"
+      ],
+      "domain": "WEAK LENSING",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev172_frozen_morphology_gate",
+        "dev175_pyrrg_recovery"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "When an authentic numerical asset with deterministic astrometry is recovered."
+    },
+    {
+      "target_id": "domain_foundations",
+      "canonical_name": "Foundations",
+      "plain_language_question": "Repository-wide registry group for FOUNDATIONS.",
+      "aliases": [
+        "foundations"
+      ],
+      "keywords": [
+        "foundations"
+      ],
+      "domain": "FOUNDATIONS",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": false,
+      "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    },
+    {
+      "target_id": "domain_propagation",
+      "canonical_name": "Propagation",
+      "plain_language_question": "Repository-wide registry group for PROPAGATION.",
+      "aliases": [
+        "propagation"
+      ],
+      "keywords": [
+        "propagation"
+      ],
+      "domain": "PROPAGATION",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": false,
+      "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    },
+    {
+      "target_id": "domain_cosmology",
+      "canonical_name": "Cosmology",
+      "plain_language_question": "Repository-wide registry group for COSMOLOGY.",
+      "aliases": [
+        "cosmology"
+      ],
+      "keywords": [
+        "cosmology"
+      ],
+      "domain": "COSMOLOGY",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": false,
+      "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    },
+    {
+      "target_id": "domain_em_waves",
+      "canonical_name": "Em / Waves",
+      "plain_language_question": "Repository-wide registry group for EM / WAVES.",
+      "aliases": [
+        "em / waves"
+      ],
+      "keywords": [
+        "em / waves"
+      ],
+      "domain": "EM / WAVES",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": false,
+      "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    },
+    {
+      "target_id": "domain_data_pipelines",
+      "canonical_name": "Data Pipelines",
+      "plain_language_question": "Repository-wide registry group for DATA PIPELINES.",
+      "aliases": [
+        "data pipelines"
+      ],
+      "keywords": [
+        "data pipelines"
+      ],
+      "domain": "DATA PIPELINES",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": false,
+      "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    },
+    {
+      "target_id": "domain_planck_finite_bound",
+      "canonical_name": "Planck / Finite Bound",
+      "plain_language_question": "Repository-wide registry group for PLANCK / FINITE BOUND.",
+      "aliases": [
+        "planck / finite bound"
+      ],
+      "keywords": [
+        "planck / finite bound"
+      ],
+      "domain": "PLANCK / FINITE BOUND",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": false,
+      "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    },
+    {
+      "target_id": "domain_reversibility",
+      "canonical_name": "Reversibility",
+      "plain_language_question": "Repository-wide registry group for REVERSIBILITY.",
+      "aliases": [
+        "reversibility"
+      ],
+      "keywords": [
+        "reversibility"
+      ],
+      "domain": "REVERSIBILITY",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": false,
+      "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    },
+    {
+      "target_id": "domain_momentum_flux",
+      "canonical_name": "Momentum / Flux",
+      "plain_language_question": "Repository-wide registry group for MOMENTUM / FLUX.",
+      "aliases": [
+        "momentum / flux"
+      ],
+      "keywords": [
+        "momentum / flux"
+      ],
+      "domain": "MOMENTUM / FLUX",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": false,
+      "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    },
+    {
+      "target_id": "domain_accumulation",
+      "canonical_name": "Accumulation",
+      "plain_language_question": "Repository-wide registry group for ACCUMULATION.",
+      "aliases": [
+        "accumulation"
+      ],
+      "keywords": [
+        "accumulation"
+      ],
+      "domain": "ACCUMULATION",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": false,
+      "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    }
+  ],
+  "attempts": [
+    {
+      "attempt_id": "dev151_shared_state_cross_coupling",
+      "target_id": "native_loaded_directional_response",
+      "name": "Shared-state cross-coupling",
+      "aliases": [
+        "shared state",
+        "cross coupling"
+      ],
+      "summary": "Longitudinal link state did not derive transverse response.",
+      "why_attempted": "Test scalar/link state for a loaded transverse response.",
+      "date_started": "2026-08-10",
+      "date_completed": "2026-08-10",
+      "date_confidence": "HIGH",
+      "dev": "DEV151",
+      "pr": "PR36",
+      "branch": null,
+      "commits": [],
+      "files": [
+        "pbuf/foundation/native_neighbor_mixed_invariants.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FAILED",
+      "result_reason": "Longitudinal link state did not derive transverse response.",
+      "status_at_completion": "REJECTED",
+      "current_status": "REJECTED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "pbuf/foundation/native_neighbor_mixed_invariants.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev152_transverse_link_response",
+      "target_id": "native_loaded_directional_response",
+      "name": "Loaded transverse link response",
+      "aliases": [
+        "transverse link",
+        "frame transport"
+      ],
+      "summary": "No independently derived transverse loaded response.",
+      "why_attempted": "Test link-local coupling and frame transport.",
+      "date_started": "2026-08-10",
+      "date_completed": "2026-08-10",
+      "date_confidence": "HIGH",
+      "dev": "DEV152",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "pbuf/foundation/native_loaded_link_response.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FAILED",
+      "result_reason": "No independently derived transverse loaded response.",
+      "status_at_completion": "REJECTED",
+      "current_status": "REJECTED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev151_shared_state_cross_coupling"
+      ],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "pbuf/foundation/native_loaded_link_response.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev153_link_candidate_selection",
+      "target_id": "native_loaded_directional_response",
+      "name": "N6 link candidate selection",
+      "aliases": [],
+      "summary": "No candidate supplied the required native allocation.",
+      "why_attempted": "Evaluate surviving scalar/link candidates.",
+      "date_started": "2026-08-10",
+      "date_completed": "2026-08-10",
+      "date_confidence": "HIGH",
+      "dev": "DEV153",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tests/test_dev153_candidate_selection.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FAILED",
+      "result_reason": "No candidate supplied the required native allocation.",
+      "status_at_completion": "REJECTED",
+      "current_status": "REJECTED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev152_transverse_link_response"
+      ],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tests/test_dev153_candidate_selection.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev163_scalar_loaded_f03",
+      "target_id": "native_loaded_directional_response",
+      "name": "Scalar loaded F03",
+      "aliases": [
+        "F03",
+        "loaded scalar"
+      ],
+      "summary": "Loaded background cancels and the perturbation propagates as free F03.",
+      "why_attempted": "Test whether unchanged scalar F03 reacts differently in a loaded medium.",
+      "date_started": "2026-08-11",
+      "date_completed": "2026-08-11",
+      "date_confidence": "HIGH",
+      "dev": "DEV163",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tests/test_dev163_raw_abell2744_finite_native_lensing_gate.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [
+        {
+          "id": "eq_dev163_scalar_loaded_f03",
+          "latex": "F03_{loaded}-F03_{background}=F03_{free}",
+          "role": "governing",
+          "source_file": "tests/test_dev163_raw_abell2744_finite_native_lensing_gate.py",
+          "source_commit": null
+        }
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FAILED",
+      "result_reason": "Loaded background cancels and the perturbation propagates as free F03.",
+      "status_at_completion": "REJECTED",
+      "current_status": "REJECTED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Unchanged scalar F03 perturbation cancels loaded background and propagates as free F03.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tests/test_dev163_raw_abell2744_finite_native_lensing_gate.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev164_scalar_geometry",
+      "target_id": "native_loaded_directional_response",
+      "name": "Scalar static geometry",
+      "aliases": [],
+      "summary": "Scalar differences are not lengths or orientations.",
+      "why_attempted": "Determine whether scalar static state supplies geometry for redirection.",
+      "date_started": "2026-08-11",
+      "date_completed": "2026-08-11",
+      "date_confidence": "HIGH",
+      "dev": "DEV164",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "pbuf/geometry/static_deformation_embedding.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FAILED",
+      "result_reason": "Scalar differences are not lengths or orientations.",
+      "status_at_completion": "REJECTED",
+      "current_status": "REJECTED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "pbuf/geometry/static_deformation_embedding.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev165_h07_allocation",
+      "target_id": "native_loaded_directional_response",
+      "name": "H07 directional allocation",
+      "aliases": [
+        "H07",
+        "allocation"
+      ],
+      "summary": "Redirects but its allocation law was not derived.",
+      "why_attempted": "Seek coefficient-free conservative permutation-covariant redirection.",
+      "date_started": "2026-08-11",
+      "date_completed": "2026-08-11",
+      "date_confidence": "HIGH",
+      "dev": "DEV165",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tests/test_dev165_native_medium_interaction_wide_net.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "PARTIAL",
+      "result_reason": "Redirects but its allocation law was not derived.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tests/test_dev165_native_medium_interaction_wide_net.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev166_missing_piece_audit",
+      "target_id": "native_loaded_directional_response",
+      "name": "Missing-piece audit",
+      "aliases": [],
+      "summary": "Localized richer relational state/allocation requirement.",
+      "why_attempted": "Classify underdetermined capabilities before new physics.",
+      "date_started": "2026-08-11",
+      "date_completed": "2026-08-11",
+      "date_confidence": "HIGH",
+      "dev": "DEV166",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev166_audit.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "DIAGNOSTIC_ONLY",
+      "result_reason": "Localized richer relational state/allocation requirement.",
+      "status_at_completion": "HISTORICAL_ONLY",
+      "current_status": "HISTORICAL_ONLY",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev166_audit.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev167_vector_relational_dynamics",
+      "target_id": "native_loaded_directional_response",
+      "name": "Native vector relational pair dynamics",
+      "aliases": [],
+      "summary": "Reversible bounded vector pair dynamics redirects off-axis loaded packets with null/reflection controls.",
+      "why_attempted": "Introduce the user-authorized explicit vector relational state needed for directional response.",
+      "date_started": "2026-08-11",
+      "date_completed": "2026-08-11",
+      "date_confidence": "HIGH",
+      "dev": "DEV167",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "pbuf/excitation/native_vector_pair_dynamics.py",
+        "tools/generate_dev167_pair_dynamics.py"
+      ],
+      "run_directories": [
+        "runs/native_relational_pair_dynamics001"
+      ],
+      "tests": [],
+      "equations": [
+        {
+          "id": "eq_dev167_vector_relational_dynamics",
+          "latex": "\\mathbf F_{ab}=\\sigma(\\epsilon_{ab})\\hat{\\mathbf r}_{ab}",
+          "role": "governing",
+          "source_file": "pbuf/excitation/native_vector_pair_dynamics.py",
+          "source_commit": null
+        },
+        {
+          "id": "eq_dev167_vector_relational_dynamics",
+          "latex": "\\sigma(\\epsilon)=\\epsilon/(1-\\epsilon^2)",
+          "role": "governing",
+          "source_file": "pbuf/excitation/native_vector_pair_dynamics.py",
+          "source_commit": null
+        }
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Reversible bounded vector pair dynamics redirects off-axis loaded packets with null/reflection controls.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev165_h07_allocation"
+      ],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "pbuf/excitation/native_vector_pair_dynamics.py"
+        },
+        {
+          "type": "file",
+          "value": "tools/generate_dev167_pair_dynamics.py"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "pr36_effective_matter_loading",
+      "target_id": "source_medium_coupling",
+      "name": "Effective minimal matter loading",
+      "aliases": [
+        "matter loading"
+      ],
+      "summary": "Effective-level constraint, not current vector microscopic source map.",
+      "why_attempted": "Recover effective matter-loading constraints.",
+      "date_started": null,
+      "date_completed": null,
+      "date_confidence": "LOW",
+      "dev": null,
+      "pr": "PR36",
+      "branch": null,
+      "commits": [],
+      "files": [],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "PARTIAL",
+      "result_reason": "Effective-level constraint, not current vector microscopic source map.",
+      "status_at_completion": "HISTORICAL_ONLY",
+      "current_status": "HISTORICAL_ONLY",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "documentation",
+          "value": "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.md"
+        }
+      ],
+      "confidence": "LOW"
+    },
+    {
+      "attempt_id": "pr37_metric_strain_normalization",
+      "target_id": "source_medium_coupling",
+      "name": "Metric-strain normalization",
+      "aliases": [],
+      "summary": "Does not supply current microscopic source map.",
+      "why_attempted": "Establish historical normalization constraints.",
+      "date_started": null,
+      "date_completed": null,
+      "date_confidence": "LOW",
+      "dev": null,
+      "pr": "PR37",
+      "branch": null,
+      "commits": [],
+      "files": [],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "PARTIAL",
+      "result_reason": "Does not supply current microscopic source map.",
+      "status_at_completion": "HISTORICAL_ONLY",
+      "current_status": "HISTORICAL_ONLY",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "documentation",
+          "value": "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.md"
+        }
+      ],
+      "confidence": "LOW"
+    },
+    {
+      "attempt_id": "dev159_local_source_forcing",
+      "target_id": "source_medium_coupling",
+      "name": "Node-discrete stationary/moving local forcing",
+      "aliases": [],
+      "summary": "Records node-discrete forcing, not a continuous coordinate law.",
+      "why_attempted": "Test native local source forcing.",
+      "date_started": "2026-08-11",
+      "date_completed": "2026-08-11",
+      "date_confidence": "HIGH",
+      "dev": "DEV159",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "pbuf/source/native_source_medium_interaction.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "PARTIAL",
+      "result_reason": "Records node-discrete forcing, not a continuous coordinate law.",
+      "status_at_completion": "HISTORICAL_ONLY",
+      "current_status": "HISTORICAL_ONLY",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "pbuf/source/native_source_medium_interaction.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "pr69_forcing_redistribution",
+      "target_id": "source_medium_coupling",
+      "name": "Local forcing versus redistribution",
+      "aliases": [],
+      "summary": "The separation survives historically but is not current governing physics.",
+      "why_attempted": "Separate local source forcing S from neighbour redistribution L[u].",
+      "date_started": null,
+      "date_completed": null,
+      "date_confidence": "LOW",
+      "dev": null,
+      "pr": "PR69",
+      "branch": null,
+      "commits": [],
+      "files": [],
+      "run_directories": [],
+      "tests": [],
+      "equations": [
+        {
+          "id": "eq_pr69_forcing_redistribution",
+          "latex": "\\dot u=S+L[u]",
+          "role": "governing",
+          "source_file": null,
+          "source_commit": null
+        }
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "The separation survives historically but is not current governing physics.",
+      "status_at_completion": "SUPERSEDED",
+      "current_status": "SUPERSEDED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "documentation",
+          "value": "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.md"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "pr70_bounded_strain_constitutive",
+      "target_id": "bounded_strain_constitutive",
+      "name": "Bounded-strain normalized constitutive response",
+      "aliases": [],
+      "summary": "Mathematically normalization-equivalent to DEV167 constitutive family.",
+      "why_attempted": "Derive bounded constitutive response under frozen normalization.",
+      "date_started": null,
+      "date_completed": null,
+      "date_confidence": "LOW",
+      "dev": null,
+      "pr": "PR70",
+      "branch": null,
+      "commits": [],
+      "files": [],
+      "run_directories": [],
+      "tests": [],
+      "equations": [
+        {
+          "id": "eq_pr70_bounded_strain_constitutive",
+          "latex": "\\epsilon/(1-\\epsilon^2)",
+          "role": "governing",
+          "source_file": null,
+          "source_commit": null
+        }
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Mathematically normalization-equivalent to DEV167 constitutive family.",
+      "status_at_completion": "SUPERSEDED",
+      "current_status": "SUPERSEDED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "documentation",
+          "value": "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.md"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "pr72_local_n6_redistribution",
+      "target_id": "source_medium_coupling",
+      "name": "Historical local N6 redistribution",
+      "aliases": [],
+      "summary": "Historical ancestor of current local relational mechanics.",
+      "why_attempted": "Implement local N6 redistribution.",
+      "date_started": null,
+      "date_completed": null,
+      "date_confidence": "LOW",
+      "dev": null,
+      "pr": "PR72",
+      "branch": null,
+      "commits": [],
+      "files": [],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Historical ancestor of current local relational mechanics.",
+      "status_at_completion": "SUPERSEDED",
+      "current_status": "SUPERSEDED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "documentation",
+          "value": "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.md"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "pr74_a8_cstate_accumulation",
+      "target_id": "source_medium_coupling",
+      "name": "rho \u2192 A8 \u2192 c_state source proxy",
+      "aliases": [
+        "c_state",
+        "A8"
+      ],
+      "summary": "A8/c_state route is superseded; source-to-accumulation role remains historical context.",
+      "why_attempted": "Connect source proxy to accumulation.",
+      "date_started": null,
+      "date_completed": null,
+      "date_confidence": "LOW",
+      "dev": null,
+      "pr": "PR74",
+      "branch": null,
+      "commits": [],
+      "files": [],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "PARTIAL",
+      "result_reason": "A8/c_state route is superseded; source-to-accumulation role remains historical context.",
+      "status_at_completion": "SUPERSEDED",
+      "current_status": "SUPERSEDED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [
+        "legacy strength=0.18"
+      ],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "documentation",
+          "value": "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.md"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev170_source_work_accounting",
+      "target_id": "source_work_accounting",
+      "name": "DEV169 forensic source-work accounting",
+      "aliases": [],
+      "summary": "Persistent external source potential was omitted from a medium-only invariant.",
+      "why_attempted": "Explain invariant drift without changing pair dynamics.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV170",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev170_forensic_audit.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Persistent external source potential was omitted from a medium-only invariant.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev170_forensic_audit.py"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev179_subcell_source_closure",
+      "target_id": "source_medium_coupling",
+      "name": "Native sub-cell source representation closure",
+      "aliases": [],
+      "summary": "Correctly establishes current contact is node-discrete; broader missing-history inference corrected by DEV180.",
+      "why_attempted": "Determine whether production source contact supplies physical off-node mapping.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV179",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev179_native_subcell_source_representation.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "PARTIAL",
+      "result_reason": "Correctly establishes current contact is node-discrete; broader missing-history inference corrected by DEV180.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev179_native_subcell_source_representation.py"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev180_density_reconciliation",
+      "target_id": "sampling_density_terms",
+      "name": "Historical source\u2013medium recovery and density reconciliation",
+      "aliases": [
+        "source medium",
+        "matter loading",
+        "ray density",
+        "C25",
+        "70,756"
+      ],
+      "summary": "Corrected DEV179 scope; C25 70,756 are propagating ray launches, not matter locations; no density work authorized.",
+      "why_attempted": "Recover history before declaring a source coupling or density mechanism missing.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV180",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev180_source_medium_recovery.py"
+      ],
+      "run_directories": [
+        "runs/dev180_source_medium_recovery"
+      ],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Corrected DEV179 scope; C25 70,756 are propagating ray launches, not matter locations; no density work authorized.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev180_source_medium_recovery.py"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev168_finite_loaded_receipt",
+      "target_id": "finite_loaded_receipt",
+      "name": "Finite native loaded receipt",
+      "aliases": [],
+      "summary": "Retains lineage, displacement, momentum, flux, content proxy, direction and step.",
+      "why_attempted": "Capture full distributed bond-flux crossings after DEV167 closure.",
+      "date_started": "2026-08-11",
+      "date_completed": "2026-08-11",
+      "date_confidence": "HIGH",
+      "dev": "DEV168",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "pbuf/excitation/native_finite_receipt.py"
+      ],
+      "run_directories": [
+        "runs/native_finite_loaded_receipt001"
+      ],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Retains lineage, displacement, momentum, flux, content proxy, direction and step.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "pbuf/excitation/native_finite_receipt.py"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev169_depth_sensitivity",
+      "target_id": "source_depth_reconstruction",
+      "name": "Diagnostic 2D\u21923D depth lanes",
+      "aliases": [],
+      "summary": "Demonstrates sensitivity but cannot promote guessed depths.",
+      "why_attempted": "Assess source-depth sensitivity using arbitrary diagnostic lanes.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV169",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev169_raw_abell_native_observer.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "DIAGNOSTIC_ONLY",
+      "result_reason": "Demonstrates sensitivity but cannot promote guessed depths.",
+      "status_at_completion": "HISTORICAL_ONLY",
+      "current_status": "HISTORICAL_ONLY",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev169_raw_abell_native_observer.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev171_independent_3d_source",
+      "target_id": "source_depth_reconstruction",
+      "name": "Independent spectroscopic source ensemble",
+      "aliases": [],
+      "summary": "Frozen eight-realization phase-space ensemble; direct spectroscopic redshift as depth is forbidden.",
+      "why_attempted": "Constrain depth family with lensing-blind Owers spectroscopy without geometric-depth conversion.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV171",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev171_independent_3d_abell.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Frozen eight-realization phase-space ensemble; direct spectroscopic redshift as depth is forbidden.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "raw_observation"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev171_independent_3d_abell.py"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev172_frozen_morphology_gate",
+      "target_id": "observational_lensing_comparison",
+      "name": "Frozen weak-lensing morphology gate",
+      "aliases": [],
+      "summary": "No valid product/WCS basis was available; comparison not run.",
+      "why_attempted": "Attempt a comparison only with released authenticated product and WCS.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV172",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev172_blind_wl_morphology.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "BLOCKED",
+      "result_reason": "No valid product/WCS basis was available; comparison not run.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "processed_lensing_map"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev172_blind_wl_morphology.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev173_coordinate_lineage",
+      "target_id": "coordinate_lineage",
+      "name": "Source-to-observer coordinate lineage",
+      "aliases": [],
+      "summary": "Identified serialization boundary that dropped 6x6 provenance.",
+      "why_attempted": "Recover deterministic footprint provenance.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV173",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev173_coordinate_lineage.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Identified serialization boundary that dropped 6x6 provenance.",
+      "status_at_completion": "SUPERSEDED",
+      "current_status": "SUPERSEDED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev173_coordinate_lineage.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev174_coordinate_serialization",
+      "target_id": "coordinate_lineage",
+      "name": "Observer coordinate-provenance serialization",
+      "aliases": [],
+      "summary": "All frozen outputs carry provenance; no formal WCS claimed.",
+      "why_attempted": "Serialize native and deterministic sky footprints.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV174",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev174_observer_coordinate_serialization.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "All frozen outputs carry provenance; no formal WCS claimed.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev174_observer_coordinate_serialization.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev175_pyrrg_recovery",
+      "target_id": "observational_lensing_comparison",
+      "name": "pyRRG release recovery and blind gate",
+      "aliases": [],
+      "summary": "Exact map/catalogue was unrecoverable; scientific comparison was not performed.",
+      "why_attempted": "Recover authentic published numerical asset before comparison.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV175",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev175_pyrrg_recovery.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "BLOCKED",
+      "result_reason": "Exact map/catalogue was unrecoverable; scientific comparison was not performed.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "processed_lensing_map"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev175_pyrrg_recovery.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev176_spin2_matrix",
+      "target_id": "physical_observer_mapping",
+      "name": "Direct receipt spin-2 candidates P1\u2013P7",
+      "aliases": [],
+      "summary": "Candidates remain unpromoted; support and controls incomplete.",
+      "why_attempted": "Characterize candidate direct shape diagnostics without observational fitting.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV176",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev176_direct_shape_observable_matrix.py",
+        "pbuf/direct_shape_observables.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "PARTIAL",
+      "result_reason": "Candidates remain unpromoted; support and controls incomplete.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev176_direct_shape_observable_matrix.py"
+        },
+        {
+          "type": "file",
+          "value": "pbuf/direct_shape_observables.py"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev177_full_received_state",
+      "target_id": "physical_observer_mapping",
+      "name": "Full native received-state channel audit",
+      "aliases": [],
+      "summary": "Canonical observer input retains full state; J3/G3 are intrinsic diagnostics, not observable mapping.",
+      "why_attempted": "Prevent premature dimensional/channel collapse before physical observer derivation.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV177",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev177_full_native_received_state.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [
+        {
+          "id": "eq_dev177_full_received_state",
+          "latex": "G3=J3^T J3",
+          "role": "governing",
+          "source_file": "tools/generate_dev177_full_native_received_state.py",
+          "source_commit": null
+        }
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Canonical observer input retains full state; J3/G3 are intrinsic diagnostics, not observable mapping.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev177_full_native_received_state.py"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "historical_scalar_gradient_lensing",
+      "target_id": "weak_lensing_native_path",
+      "name": "Scalar/gradient lensing and old ray architecture",
+      "aliases": [
+        "scalar gradient",
+        "old ray"
+      ],
+      "summary": "Surrogate mechanics are noncanonical; architecture remains evidence.",
+      "why_attempted": "Historical scalar-gradient steering and ray path.",
+      "date_started": null,
+      "date_completed": null,
+      "date_confidence": "LOW",
+      "dev": null,
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "PARTIAL",
+      "result_reason": "Surrogate mechanics are noncanonical; architecture remains evidence.",
+      "status_at_completion": "HISTORICAL_ONLY",
+      "current_status": "HISTORICAL_ONLY",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "documentation",
+          "value": "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.md"
+        }
+      ],
+      "confidence": "LOW"
+    },
+    {
+      "attempt_id": "historical_a8_m10_lensing",
+      "target_id": "weak_lensing_native_path",
+      "name": "A8/M10 processed five-lens path",
+      "aliases": [
+        "A8",
+        "M10",
+        "kappa"
+      ],
+      "summary": "Processed kappa proxies and legacy A8/M10 physics superseded; sampling/Vulkan infrastructure reusable.",
+      "why_attempted": "Historical five-lens processing and coverage work.",
+      "date_started": null,
+      "date_completed": null,
+      "date_confidence": "LOW",
+      "dev": null,
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Processed kappa proxies and legacy A8/M10 physics superseded; sampling/Vulkan infrastructure reusable.",
+      "status_at_completion": "SUPERSEDED",
+      "current_status": "SUPERSEDED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": false,
+      "infrastructure_reusable": false,
+      "free_parameters": [
+        "legacy strength=0.18"
+      ],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "GR_derived_product"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "documentation",
+          "value": "docs/PBUF_HISTORICAL_ATTEMPT_INDEX.md"
+        }
+      ],
+      "confidence": "MEDIUM"
+    },
+    {
+      "attempt_id": "dev178_vulkan_viewer",
+      "target_id": "vulkan_viewer",
+      "name": "Restored diagnostic Vulkan and native receipt viewer",
+      "aliases": [],
+      "summary": "Infrastructure is reusable; true high-density current-native run remains blocked.",
+      "why_attempted": "Restore GPU/viewer diagnostics and audit 25% sampling eligibility.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV178",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev178_high_density_native_vulkan.py",
+        "tools/pbuf_native_receipt_viewer.py"
+      ],
+      "run_directories": [],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Infrastructure is reusable; true high-density current-native run remains blocked.",
+      "status_at_completion": "INFRASTRUCTURE",
+      "current_status": "INFRASTRUCTURE",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev178_high_density_native_vulkan.py"
+        },
+        {
+          "type": "file",
+          "value": "tools/pbuf_native_receipt_viewer.py"
+        }
+      ],
+      "confidence": "HIGH"
+    }
+  ],
+  "equivalences": [
+    {
+      "relation_id": "eq_pr70_dev167",
+      "source": "pr70_bounded_strain_constitutive",
+      "target": "dev167_vector_relational_dynamics",
+      "relation": "NORMALIZATION_EQUIVALENT",
+      "reason": "Both use epsilon/(1-epsilon^2) after frozen dimensionless normalization.",
+      "evidence": [
+        {
+          "type": "run",
+          "value": "runs/dev180_source_medium_recovery/source_medium_correspondence_matrix.json"
+        }
+      ]
+    }
+  ],
+  "current_frontiers": [
+    {
+      "target_id": "sampling_density_terms",
+      "summary": "Current-native packet-launch representation remains unresolved (DENSITY_E); no density run authorized."
+    },
+    {
+      "target_id": "physical_observer_mapping",
+      "summary": "Physical image-forming mapping awaits received-state and channel sufficiency."
+    }
+  ]
+}

@@ -1,0 +1,1807 @@
+[
+  {
+    "date": "2026-08-12",
+    "sha": "89e9ef8b40c170bba4be2bdba5fe8db346dc39fa",
+    "subject": "DEV180 record delivery verification"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "7d367b2d2fe5b626470adb1aee2946687b36e624",
+    "subject": "DEV180 recover source-medium history"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "3212364b77979bc46f9c05135748d3b7cf7c78f1",
+    "subject": "DEV179 verify remote delivery contract"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "d66fdb11f35d371f937a3ee481817346a105b3ae",
+    "subject": "DEV179 record verification contract"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "18ccbdd1b5484587e0af7c19ad1d4a9766ff14e8",
+    "subject": "DEV179 close native subcell source representation"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "d8eda1639e8df0352e95e9248c4c2703082840d8",
+    "subject": "DEV178 audit native sampling and restore Vulkan diagnostics"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "802f8940609cf2bd056c49f974b22703e08aff27",
+    "subject": "DEV177 verify remote completion"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "d3cbf0c571ad4ea0d56dd4462e8bfda170373061",
+    "subject": "DEV177 record retained receipt fixtures"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "4a93c090fe4ef8727963bae54a66994661ce6842",
+    "subject": "DEV177 audit full native received state"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "fe8ea3cdcaef98b641bd05d826634c2c9706bb26",
+    "subject": "DEV176 add direct shape observable matrix"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "d512a5b1e48858b294798445e9245aad01ff9081",
+    "subject": "docs summarize lensing state and observational gap"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "962853ede7fe0f24ebab0c62c9cef5c17abe54a0",
+    "subject": "dev175 attest remote completion"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "8c78071ffec0fbd2beb9163e52719b0b47b76b59",
+    "subject": "dev175 record implementation provenance"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "4e223f3c7362f9de04262ae22b2d7fbe679c9065",
+    "subject": "dev175 record pyRRG asset recovery gate"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "8af0e01a1cc405d2db99abd5647b66364f9653a2",
+    "subject": "DEV174: record provenance verification"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "058bd88eaedd769e3abf30a2216c7ab8e442f631",
+    "subject": "DEV174: serialize observer coordinate provenance"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "6fa81ad3dd6e3cd8b1d49b7da8d67f22695da674",
+    "subject": "DEV173: record coordinate audit verification"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "e7c52ef2b3540fde09c67bb619208fb81a4b71f0",
+    "subject": "DEV173: audit source observer coordinate lineage"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "93d0ec0c4bedcf47400210af6f8b09fc4d2c40c0",
+    "subject": "DEV172: record verification provenance"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "5cf3025901a52937d3e77932b08a36c384fd26aa",
+    "subject": "DEV172: record blind WL comparison gate"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "3b03764502d3f5b1de24ddfa35edff052de15cfd",
+    "subject": "DEV171: record remote verification provenance"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "880ff07fd094818ba381d2807dc1c8b559541c7a",
+    "subject": "DEV171: establish independent 3D Abell source ensemble"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "8b1fb5acfbfa3600f6e370ef926f0d167605c91e",
+    "subject": "DEV170: verify remote completion gates"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "81b6ed6b12528677841473147a54900de7ddfac4",
+    "subject": "DEV170: record implementation provenance"
+  },
+  {
+    "date": "2026-08-12",
+    "sha": "0aecdd6204858f4e18661b67cbf12cd80f4e8e4d",
+    "subject": "DEV170: audit Dev169 accounting and observer sensitivity"
+  },
+  {
+    "date": "2026-08-11",
+    "sha": "6d3753fb105f595ab7f299578794b7870ec1ad4b",
+    "subject": "DEV168: confirm remote completion gates"
+  },
+  {
+    "date": "2026-08-11",
+    "sha": "3cbc22791007cc5a4786ef868e2dc97099125b03",
+    "subject": "DEV168: record implementation provenance"
+  },
+  {
+    "date": "2026-08-11",
+    "sha": "f3cc6540b84fd3fad2410a94fe3f8b9a89685d61",
+    "subject": "DEV168: establish finite native loaded receipt"
+  },
+  {
+    "date": "2026-08-11",
+    "sha": "106a62295ae8203b5322e28f6490f621a776f3bc",
+    "subject": "DEV167: record implementation provenance"
+  },
+  {
+    "date": "2026-08-11",
+    "sha": "0bb0263157c837f62dae704b342d3f132ec98276",
+    "subject": "DEV167: add native vector pair relational dynamics"
+  },
+  {
+    "date": "2026-08-11",
+    "sha": "bd985e7d7da88011139d39f5d60cbf91f9e25736",
+    "subject": "DEV166: record remote synchronization verification"
+  },
+  {
+    "date": "2026-08-11",
+    "sha": "7d919178b29e27832e231b740b9b6839f1805c13",
+    "subject": "DEV166: establish canonical N6 ledger and missing-piece audit"
+  },
+  {
+    "date": "2026-08-11",
+    "sha": "231e4519532e7984eedb80c1b807df832bd41045",
+    "subject": "Merge pull request #108 from TheExiledMonk/dev-doc-112-fullscale-vulkan-observer-validation"
+  },
+  {
+    "date": "2026-08-11",
+    "sha": "f56e6a8bea77572ba80772e81806a68742c864d1",
+    "subject": "Restore native N6 excitation and publish audit work"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "b54caa8ec50043cd07fee0b8955372bc1990bd5b",
+    "subject": "Add full-scale Vulkan observer validation"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "c620cd9dc342df883ab93e6a3423706eb263130a",
+    "subject": "Add exact Vulkan observer KDE acceleration"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "fca7fb3c983227d543bde313f9f5b273ab5a462f",
+    "subject": "Audit observer deposition stability"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "1dbc1b9e0b2f848179ac4696a2a6c790f9f5ce36",
+    "subject": "Record Dev Doc 109 Vulkan Outcome B"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "e3adac16fc83b8ae3fc3a691c50a7de23d07e3fd",
+    "subject": "Add canonical WL modularization and audit artifacts"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "ab8960ea23dd29903c9d9937f8ea86b2408185a3",
+    "subject": "Merge pull request #107 from TheExiledMonk/foundation/native-full-state-100pct-observer-coverage-fix001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "67c059bef25be6c2b42efc491e435de513011a62",
+    "subject": "FOUNDATION: add 100% observer coverage fix runner notes"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "f9cb68a8fcaa45eaacb6716e18dccfd9ce671a9b",
+    "subject": "FOUNDATION: document 100% observer coverage launch-coordinate fix"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "ee50f6409633947b3510ae5a575ed016ce6085a8",
+    "subject": "FOUNDATION: fix 100% observer receipt to preserve lane launch coordinates"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "fb323c95ea027d2271dff809102eb91d09f6cfd2",
+    "subject": "FOUNDATION: document launch-aware 100% coverage repair"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "f423dc36c4a6c3ae08e33e015ecd38661811f816",
+    "subject": "FOUNDATION: repair 100% coverage receipt binning for lane-specific launches"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "534b82bbeee8aea1ee3d7cf1038d9c6cd57d1ba7",
+    "subject": "Merge pull request #106 from TheExiledMonk/foundation/native-full-state-100pct-observer-coverage001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "a43645625b9d6f9a1f166f9166799d3232403f3f",
+    "subject": "FOUNDATION: add 100 percent coverage runner notes"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "6cd476d6f8273f40d90ffcc4c26fa818a36e13eb",
+    "subject": "FOUNDATION: document full-state 100 percent observer coverage audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "52ba0b2b8c95713dced2e714df730293e51cccd0",
+    "subject": "FOUNDATION: add full-state 100 percent observer coverage audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "0b401155733c100ff3a705ddbfe89a044d88bd2a",
+    "subject": "Merge pull request #105 from TheExiledMonk/foundation/native-full-state-2d-reconstruction-decoder-sweep001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "e20af0fcad81a2262f4b8cfbb506968f5771832a",
+    "subject": "FOUNDATION: document full-state 2D reconstruction decoder sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "d83904beaec8d304af53bfa6d6eebdc08bf921e4",
+    "subject": "FOUNDATION: add full-state 2D reconstruction decoder sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "976e5ea2b11bd3afa2e44ac366f90ae734c50527",
+    "subject": "Merge pull request #104 from TheExiledMonk/foundation/native-full-received-state-information-retention001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "2efeb75c18dc8216d320835dd46689413ab09d35",
+    "subject": "FOUNDATION: document full received-state information-retention audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "15337631b9596f4aa128c5cdc9d194a23a1f9c9c",
+    "subject": "FOUNDATION: add full received-state information-retention audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "0b3ceb54588a76db9d1f3309eb2caa4220ab0811",
+    "subject": "Merge pull request #103 from TheExiledMonk/foundation/native-rgb-channel-matrix001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "7594beabd5c4e51101ed4c67660d8c8f1fce3ab9",
+    "subject": "FOUNDATION: document native RGB-like channel matrix"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "c846358e1e3150c08af34a4d4198bc771572927a",
+    "subject": "FOUNDATION: add native RGB-like channel matrix"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "4885307ac9bfaf33c9179effecf10ad70912a890",
+    "subject": "Merge pull request #102 from TheExiledMonk/foundation/native-multichannel-observer-fusion-sweep001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "d48f7cdbeb5c6f0d9ab802c9ed1ad4a998b6a673",
+    "subject": "FOUNDATION: document native multichannel observer fusion sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "ed66d5319b69cad465a8fcc0fa07a2c5099aaf6d",
+    "subject": "FOUNDATION: add native multichannel observer fusion sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "2b05f0ac8b0bb8d9040ff4c883f0178756047f70",
+    "subject": "Merge pull request #101 from TheExiledMonk/foundation/native-observable-extraction-method-sweep001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "ed054de07f62ca1453c8c42427445c46577b4b84",
+    "subject": "FOUNDATION: document native observable extraction method sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "6701aaffc3b82bffc6707bea92171d97fb971c1a",
+    "subject": "FOUNDATION: add native observable extraction method sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "60236006639e56772813c7a964497e18f7267916",
+    "subject": "Merge pull request #100 from TheExiledMonk/foundation/g3d-to-2d-observer-method-sweep001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "4fa01aafd63c0e615fa1236c245ed6e4278176b2",
+    "subject": "FOUNDATION: document G3D to 2D observer method sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "7601ff35310f61e6b9b4fe661c431bc30cd95f75",
+    "subject": "FOUNDATION: add wide-net G3D to 2D observer method sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "b760af7a85c805ec7334f2e4818ba0a411b83952",
+    "subject": "Merge pull request #99 from TheExiledMonk/foundation/current-native-five-cluster-observable-benchmark001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "f2f30cfb6d88229c72e9f3ee4648855722e36065",
+    "subject": "FOUNDATION: document current native five-cluster observable benchmark"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "affd2da79d2b4bc872ff94d8dcfdfd508e14b76e",
+    "subject": "FOUNDATION: add current native five-cluster observable benchmark"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "7e8897418fa9178c775ec16286cf265c1634f388",
+    "subject": "FOUNDATION: expose canonical local weak-lensing products through benchmark loader"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "63ae44da0aab078601b26865c70b208369c2d122",
+    "subject": "FOUNDATION: document local scientific data inventory audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "d4ecea96dd485c51f4abab41f44fef6c42564bd6",
+    "subject": "FOUNDATION: add local scientific data inventory audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "aff29244fe7bc56bc50fe2cc996a6d2426c0f8e0",
+    "subject": "Merge pull request #96 from TheExiledMonk/foundation/clean-current-weak-lensing-benchmark001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "8974cdbc629ab3c8b1b5f33dccb8eb04efdad786",
+    "subject": "FOUNDATION: document clean current weak-lensing benchmark"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "caf11696fd44ea1e57b891a818a3b23f11a049c7",
+    "subject": "FOUNDATION: add clean current weak-lensing benchmark gate"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "a37200401d5082e6e1c21eb453eb59c2f017dbbd",
+    "subject": "Merge pull request #95 from TheExiledMonk/foundation/local-benchmark-native-channel-full-lensing001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "32a0844703dd8a2b70f2b5e723dd9c49e1df2745",
+    "subject": "FOUNDATION: document local-only five-cluster native channel lensing run"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "3eea302233fa16e2698779ccdeb0e881d66f6c20",
+    "subject": "FOUNDATION: bind local lensing run to frozen A8 coefficients"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "bca9230ba9f96c40aac53378e213181bf945466d",
+    "subject": "FOUNDATION: add local-only five-cluster native channel full lensing run"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "94f7fdb89c9c9f5d1f6b52759d7ed35eaec6127f",
+    "subject": "Merge pull request #94 from TheExiledMonk/foundation/native-channel-full-weak-lensing-five-cluster001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "fbdd6f66f2d35ec4b10faa439c7e4b20e484aa82",
+    "subject": "FOUNDATION: document full native-channel five-cluster weak-lensing test"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "9abcaade8848702bd07f2f86ebe71f8e5fa08ebd",
+    "subject": "FOUNDATION: run full five-cluster weak-lensing test with native channel transfer"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "23cde7c50ec3fee255f4e9eb58fef55d91752ebf",
+    "subject": "Merge pull request #93 from TheExiledMonk/foundation/native-channel-transfer-closure-sweep001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "c03f679f2a381dc5f368f52a5863fcb11a79d862",
+    "subject": "FOUNDATION: document native channel transfer closure sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "a2ffca8c3f22fb014a5bdf99fbefdb4cc472a382",
+    "subject": "FOUNDATION: add native channel transfer closure sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "3207702d44689bd2931efb097a2217ec6f08146b",
+    "subject": "Merge pull request #92 from TheExiledMonk/foundation/interface-to-interface-survivor-sweep001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "1fa78a7f3f361bb65deabebffa1b7f75f318f722",
+    "subject": "FOUNDATION: document interface-to-interface survivor sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "e0a0171125f8fd7c5b8f1629dcf504b51080ec6e",
+    "subject": "FOUNDATION: add interface-to-interface survivor sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "97436b47122b5bd5dca4f1bad7b9f4acaeb71a80",
+    "subject": "Merge pull request #91 from TheExiledMonk/foundation/propagation-interface-wide-net-sweep001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "9f75ecb131695daa119ded1063baab61b88b8c5a",
+    "subject": "FOUNDATION: document wide-net propagation interface sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "7b4d63bd522bab0ca0b1b0a13d6e60a28d3c9dda",
+    "subject": "FOUNDATION: add wide-net propagation interface candidate sweep"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "d19a2c055a6d5e046d8595466e2cc65b8ba783c4",
+    "subject": "Merge pull request #90 from TheExiledMonk/foundation/a8-fast-slow-eigenmode-decomposition001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "c63c0b704075707882f4f516eb61af1e75c8fd5c",
+    "subject": "FOUNDATION: document A8 fast/slow eigenmode decomposition audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "37ba5c9d9dd9efa94cf400232c5ac3e34f1da58b",
+    "subject": "FOUNDATION: audit A8 fast/slow eigenmode decomposition"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "1c0567b5345c7c616386fb53b20c67da93269b2c",
+    "subject": "Merge pull request #89 from TheExiledMonk/foundation/native-forward-transfer-operator-audit001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "3a0ec625d7b7673f337af6779f675e8857528b74",
+    "subject": "FOUNDATION: document forward native transfer operator audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "5defd50164ded1e9bcd60bf35d259f55344b6911",
+    "subject": "FOUNDATION: audit forward native transfer operator through frozen A8/M10"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "76d55f64e2a999a3a6e73c6bba0e0255cc4e3b56",
+    "subject": "Merge pull request #88 from TheExiledMonk/foundation/native-transfer-factor-decomposition001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "2b71dffb97ce2acf469e35a944fa0e58b248573f",
+    "subject": "FOUNDATION: document native transfer factor decomposition audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "3e7cc1448d93a2a620b11d982f1546366e3c39f6",
+    "subject": "FOUNDATION: audit frozen-factor decomposition of native transfer scale"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "63df1e6588e8ac7e8a4d980606d55edf5dc5c64d",
+    "subject": "Merge pull request #87 from TheExiledMonk/foundation/native-local-dynamic-response-audit001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "0894680df9211d8517a11001d82e0afe63d53c17",
+    "subject": "FOUNDATION: document native local dynamic response audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "9a9ada28977490acb68a635b676c959fa5dc82d5",
+    "subject": "FOUNDATION: audit native local dynamic response scale"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "a8150dc1396b425b7e2657c5d1328f5478176341",
+    "subject": "Merge pull request #86 from TheExiledMonk/foundation/m10-local-interface-decomposition001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "61399a1a1f162b62e613ddce5729e46dff55f79f",
+    "subject": "FOUNDATION: document M10 local interface decomposition audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "503940c4eebb28bfd900b6ff71f6ee1b78502f41",
+    "subject": "FOUNDATION: decompose M10 local interface scale"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "cd70e774222ac60df48ac851fa35a559f6427e0e",
+    "subject": "Merge pull request #85 from TheExiledMonk/foundation/native-propagation-interface-audit001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "ff012bfa23d197676056f922aba99dadfe3b1df0",
+    "subject": "FOUNDATION: document native propagation interface amplitude audit"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "16b57c3aee28f767b57fee9e6b055c47352f3f46",
+    "subject": "FOUNDATION: audit native propagation interface amplitude by stage"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "37c10a21fb0ed42eebd146d761615f446ddd14ed",
+    "subject": "Merge pull request #84 from TheExiledMonk/foundation/local-benchmark-execution-gate-fix002"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "8cce18932644c5a13aae1c80d367187118c906eb",
+    "subject": "FOUNDATION: make final execution gate check positive"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "59c4ea0d7a4939f905f829399ed527cdf91d3c6f",
+    "subject": "x"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "cb9a235e9b09af758dd3da734b8087e114a592c6",
+    "subject": "Merge pull request #83 from TheExiledMonk/foundation/local-benchmark-execution-gate-fix001"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "1fdfe01da563ca9eb187dbd129375bd7e3c43a7b",
+    "subject": "FOUNDATION: fix execution gate semantics for no-network diagnostic"
+  },
+  {
+    "date": "2026-08-09",
+    "sha": "d5d7f8ab0706a967d574ccbae519d713190f0f5e",
+    "subject": "Merge pull request #82 from TheExiledMonk/foundation/a8-zero-flux-native-benchmark-fix001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "6010638d10beea5b557b7e7cff88030c9c0cc223",
+    "subject": "remove accidental placeholder"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a188b04d7dba7a907a9cc07ac387eadfe5d4ba6f",
+    "subject": "x"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "7826a190059bf88c7d78ade7fd5e6e427a9f5bb5",
+    "subject": "remove accidental placeholder"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "9ab821a4f6fe895a787ef5b304f98c50637be325",
+    "subject": "x"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "49514d00daa6942616ea525ebf8cdf1fbe2b5cf2",
+    "subject": "FOUNDATION: document zero-flux native benchmark fix"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "c4c1b93c7f59e6cf3bfc5ba4a51075229e191619",
+    "subject": "FOUNDATION: use conservative zero-flux A8 transport in native benchmark lane"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "54aa17c49f1bd2e4b4201e29e6ac1ad9e4cebab5",
+    "subject": "FOUNDATION: add conservative zero-flux A8 boundary mode"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "cde4bbb0eff4fdccd15f6f4ca6f1ecdbac41af25",
+    "subject": "FOUNDATION: use conservative zero-flux A8 transport in native benchmark lane"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "13938ec0819f5b31b4ff6bb703d22de56d1522d6",
+    "subject": "FOUNDATION: add conservative zero-flux A8 boundary mode"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "86dce041b9a2815b96edbd338130282ea0341a30",
+    "subject": "Merge pull request #81 from TheExiledMonk/foundation/local-benchmark-loader-full-lensing001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "e57faefed380c4e0cdba45b71791700e31c47f13",
+    "subject": "FOUNDATION: document local benchmark full lensing runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "daa3187d3c682f45b76cbab1e81dc3bafbfcfba5",
+    "subject": "FOUNDATION: rerun full lensing from canonical local benchmarks"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "58cb106de70425fa8fab891a5d562038f2eac874",
+    "subject": "CORE: centralize local five-cluster benchmark loading"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "b224bd4ed782a2b0201e4d43b1906a21fc0387fd",
+    "subject": "Merge pull request #80 from TheExiledMonk/foundation/native-accumulated-full-lensing001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "d5935247c8110749999b5cc24535ac4823897b36",
+    "subject": "FOUNDATION: document native accumulated full lensing runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "09e487461c06659db9dd128e1a7a190c93394f2b",
+    "subject": "FOUNDATION: add native accumulated full lensing audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a9ebfd95fc01b1755476f7a2ad398b8bcfabdbf2",
+    "subject": "Merge pull request #79 from TheExiledMonk/foundation/deformed-medium-geometry-propagation001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "8beec2946993b057a7b4bc4c6711637164f70fc4",
+    "subject": "FOUNDATION: document deformed medium geometry propagation runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "729f76665e48ab310e7086724a25ead349169958",
+    "subject": "FOUNDATION: add deformed medium geometry propagation audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "510e11dffa7737154cc247ea927e7a3ffbb921e5",
+    "subject": "Merge pull request #78 from TheExiledMonk/foundation/constitutive-tangent-propagation-coupling001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "53ad1617954c13a96ab97884ce33ec6d08579050",
+    "subject": "FOUNDATION: document constitutive tangent propagation coupling runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "516fa0ee206094d1c1e3c45b522bc3ab1a37f0ba",
+    "subject": "FOUNDATION: add constitutive tangent propagation coupling audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "190f153a715044ad594184aed2b02e299e77b832",
+    "subject": "Merge pull request #77 from TheExiledMonk/foundation/native-medium-propagation-shape001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "ed816857d87565a3f497cdd2db3cf08646db2bdb",
+    "subject": "FOUNDATION: document native medium propagation shape runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "ff0ce3bb74e4faba4afc9cd82438bc8d4896e758",
+    "subject": "FOUNDATION: add native medium propagation shape audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "3f60569630b49fc533bf3df8811ecc068b865740",
+    "subject": "FOUNDATION: document c_state bridge propagation shape runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "1ae42d68aeb6313ca5c5dc64bf20e9e9c1bf55ae",
+    "subject": "FOUNDATION: add c_state bridge propagation shape audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "f772da02f1850abcf842f7ca5a836c2eb8ce3638",
+    "subject": "Merge pull request #75 from TheExiledMonk/foundation/c-state-bridge-domain-convergence001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "ec7d14261d49c1d1fe035c118e9ea11301d831e9",
+    "subject": "FOUNDATION: document c_state bridge domain convergence runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "95cb578110d27e43505646ca5c0f666629b14bd2",
+    "subject": "FOUNDATION: add c_state bridge domain convergence audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "957d05e8751bda28d57f11a660b217b6282ec93f",
+    "subject": "Merge pull request #74 from TheExiledMonk/foundation/c-state-bounded-strain-bridge001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "e1c56cde6e25d76bc54ebb9e624d30a3aa7992e5",
+    "subject": "FOUNDATION: document c_state bounded-strain bridge runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "cc175096ab5d7bc498f4c2ec3ae7fe52f3ddf618",
+    "subject": "FOUNDATION: add c_state bounded-strain bridge audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "60364f8b49592308715c0285a587a3265b833241",
+    "subject": "Merge pull request #73 from TheExiledMonk/foundation/bounded-strain-3d-domain-convergence001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "d7c7ebe28bbdf5aa38cbb198b3549bf80e6a3ebd",
+    "subject": "FOUNDATION: document bounded-strain 3D domain convergence runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "dc1e616dc73dd55f41a6af6d473a6c3f2b317ef2",
+    "subject": "FOUNDATION: add bounded-strain 3D domain convergence audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "8f7d4fec16efdeb3f6ff59abbb5e7f2b980bc617",
+    "subject": "Merge pull request #72 from TheExiledMonk/foundation/bounded-strain-3d-neighbor-network001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "afd1db5802ce45e12476f011937f894f3c7c2959",
+    "subject": "FOUNDATION: document bounded-strain 3D neighbor network runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "12615a052cdc85ee458e69fe69b6b43cd3b09476",
+    "subject": "FOUNDATION: add bounded-strain 3D neighbor network audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "850f4f32aa4d7a7d0d55aecf8244b83d26ff7a3b",
+    "subject": "Merge pull request #71 from TheExiledMonk/foundation/bounded-strain-finite-domain-convergence001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "c64e4a12f36f4c0e65b1636fc867aebf4767dd1e",
+    "subject": "FOUNDATION: document bounded-strain finite-domain convergence runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "fd1a24b14d807ed2a65d339b9c6054dc66f3ff20",
+    "subject": "FOUNDATION: add bounded-strain finite-domain convergence audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a304f4921ad1cdc9f8e7731efa9c604ade8ddc4e",
+    "subject": "Merge pull request #70 from TheExiledMonk/foundation/bounded-strain-neighbor-constitutive001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a2fdddb580eed8cefd88a8fcb317deae5d535b8e",
+    "subject": "FOUNDATION: document bounded-strain neighbor constitutive runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "fed4675eae40fee6919940dd3183f83def74c851",
+    "subject": "FOUNDATION: add bounded-strain neighbor constitutive lab"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "4a517d108e053d48951fe6fa253a401b002bb035",
+    "subject": "Merge pull request #69 from TheExiledMonk/foundation/pretensioned-neighbor-medium-response001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "c173573d996fae8bce0c0b6f020fab83ce652fe0",
+    "subject": "FOUNDATION: document pretensioned neighbor medium response runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "ac3ee599ad6fe1b6b962d4bd3db742c715201e06",
+    "subject": "FOUNDATION: add pretensioned neighbor medium response lab"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "f86f07665da68ad8c266850d941799556dcaaa74",
+    "subject": "Merge pull request #68 from TheExiledMonk/foundation/native-medium-response-accumulation-gate-fix001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "8d25259b08a9868c0340f2a5bec4f8a9dd3207ef",
+    "subject": "FOUNDATION: separate scientific nonfinite result from execution gate"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "d20a07e4a8728bb1287e666adf34ddc925b4feaa",
+    "subject": "Merge pull request #67 from TheExiledMonk/foundation/native-medium-response-accumulation001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "b0416818629841958e1737a3a367b001fa28be14",
+    "subject": "FOUNDATION: document native medium response accumulation runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a7f8cc626fcfa2ee372bb5266fc5a6ed1d62a418",
+    "subject": "FOUNDATION: add native medium response accumulation audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "4d2f588b8d0eb2049afcb1c5347ff22dea1ad4fc",
+    "subject": "Merge pull request #66 from TheExiledMonk/foundation/devdoc-native-medium-response-accumulation001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "c3d4c0453beebff7adf67bf1663ada950fbd74dc",
+    "subject": "FOUNDATION: add dev doc for native medium response accumulation"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "9b1d97cd21666f7d7ba1ddaa7e8c7f4b3f2c7a84",
+    "subject": "Merge pull request #65 from TheExiledMonk/foundation/native-response-fingerprint-match001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "f3b21be549625fd7f1774abac2a8500a38ddfd0a",
+    "subject": "FOUNDATION: document native response fingerprint match runner"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "b8a4d6fdebcfef56e8e9a5d498e127b3cadfc6c8",
+    "subject": "FOUNDATION: add native response fingerprint match lab"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "9bd0b6f8e360a72c2be3605bd73f4070b4274a13",
+    "subject": "Merge pull request #64 from TheExiledMonk/foundation/known-source-inverse-response-fingerprint001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "c7034870f1e0cb8a7043e0b74252dfc6f4ebbd99",
+    "subject": "FOUNDATION: fix inverse-response policy gate polarity"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "59b17ea1d63ea684f87ba1787a76fa906a2eca72",
+    "subject": "Merge pull request #63 from TheExiledMonk/foundation/known-source-inverse-response-fingerprint001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "eff3e78f4481377b92a9078ceab43e367ba5e514",
+    "subject": "FOUNDATION: document known-source inverse response fingerprint runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "9a32fb256776add899824e3fca904c8c2e24e335",
+    "subject": "FOUNDATION: add known-source inverse response fingerprint lab"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "77556ea4bc09a012e0a598c054fb86aa7bb59205",
+    "subject": "Merge pull request #62 from TheExiledMonk/foundation/homogeneous-medium-state-derivation001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "5866231bf66ac7522ff312353741af7cd9903fcf",
+    "subject": "FOUNDATION: document homogeneous medium state derivation runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "5ecfe90c74496bc70d552b7b35e9af39cdedbf3b",
+    "subject": "FOUNDATION: add homogeneous medium state derivation audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "d950efe7582e67f9025d02757dfa347b130ab75e",
+    "subject": "Merge pull request #61 from TheExiledMonk/foundation/homogeneous-elastic-energy-closure-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "e0d607894a851309a809bcfbf171c4ac7df95c4c",
+    "subject": "FOUNDATION: document homogeneous elastic energy closure runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "d3129bb268831f06232e99e1e665ab35d1548d2d",
+    "subject": "FOUNDATION: add homogeneous elastic energy closure audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "fa0ec2bd9c3835fdedce013fa1d5da02bee8f2be",
+    "subject": "Merge pull request #60 from TheExiledMonk/foundation/rmax-retirement-background-reformulation001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "acaf38ea510bb965fd9286bc75c3cfb1460e6b24",
+    "subject": "FOUNDATION: document Rmax retirement background reformulation runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a032b45d93d0f147a5955c89513b28a1846f6b4f",
+    "subject": "FOUNDATION: add Rmax retirement background reformulation audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "22abe02c9603cf4f50dbc2162241e6a6dec06b92",
+    "subject": "Merge pull request #59 from TheExiledMonk/foundation/rmax-forbidden-background-closure-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "eba98890eaa01308f79e6c23b31f8543bd678353",
+    "subject": "FOUNDATION: document Rmax-forbidden background closure runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "c1d489b120474a9a4b574e19214117dd7916c65f",
+    "subject": "FOUNDATION: add Rmax-forbidden background closure audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "d5a2cdda77aaf74dafa2a9fdf66298cd5e9fcaab",
+    "subject": "Merge pull request #58 from TheExiledMonk/foundation/pbuf-background-parameter-provenance-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "767ff95ccd86998cb4eb2c88761077eb9c584ab8",
+    "subject": "FOUNDATION: document PBUF background parameter provenance runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "419052838ccf26b2944822215bc723de402154d7",
+    "subject": "FOUNDATION: add PBUF background parameter provenance audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "1d591fbf93c5518b5a2a6ace6b5d6acd94e94c57",
+    "subject": "Merge pull request #57 from TheExiledMonk/foundation/pbuf-background-distance-recovery-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "c4e121708326f7373b3c36a1444b674ff8e0e87c",
+    "subject": "FOUNDATION: document PBUF background distance recovery runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a3ec2b7d4f2e6cc6aadbf7b40068c2586e2bbb0a",
+    "subject": "FOUNDATION: add PBUF background distance recovery audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "7ef0567a835b6c344c2ea0b079d345389fc1cb64",
+    "subject": "Remove accidental placeholder file"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "81f51d6da487c47291e2c034f75f77c39bf76237",
+    "subject": "noop"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "3538c8c6abcc5ba8a79966e055bc99d0a5972dc3",
+    "subject": "Merge pull request #56 from TheExiledMonk/foundation/cluster-distance-redshift-closure-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a5386c78944347e32769812de71db6b43a463daa",
+    "subject": "FOUNDATION: document cluster distance-redshift closure runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "73c26d134430f97e90abbb51d3dca8c03c4085fe",
+    "subject": "FOUNDATION: add cluster distance-redshift closure audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "15b42b5ed2803d8563282e11af8313cee832ef64",
+    "subject": "Merge pull request #55 from TheExiledMonk/foundation/cluster-baryonic-source-input-inventory001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "3f1c8238eb3addc61d7894c7d227a875b892d7f4",
+    "subject": "FOUNDATION: document cluster baryonic source inventory runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "c1a987914302f868d9c57593966b2d43ba609702",
+    "subject": "FOUNDATION: add cluster baryonic source input inventory"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "95f35facb41fb172e7e556db62cbf2e16aa7c715",
+    "subject": "Merge pull request #54 from TheExiledMonk/foundation/baryonic-density-normalization-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "348f6c35a4d7cdbef7b98fa6b922cb1e5fa680dc",
+    "subject": "FOUNDATION: document baryonic density normalization runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "e992d67e24b5075bbe7303a35ad4e9749d4059e9",
+    "subject": "FOUNDATION: add baryonic density normalization audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "04dbbc7c6823a23425ef4f942c0b994984560263",
+    "subject": "Merge pull request #53 from TheExiledMonk/foundation/native-length-scale-mapping-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "5e392a0e7327cfe7492dbb8f46e51693108a3b4c",
+    "subject": "FOUNDATION: add native physical-scale mapping audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "82eda6a19fb19dce52486054c2bcdbeff24a58a0",
+    "subject": "Merge pull request #52 from TheExiledMonk/foundation/native-field-curvature-dimension-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "70996a5a6979e60eaf0895898f7bc35ff8831996",
+    "subject": "FOUNDATION: document native field dimension runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "755329e3c6266e15e25e8c885fc730f969d267ba",
+    "subject": "FOUNDATION: add native field curvature-dimension audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "ee7673f9cae3cfeafd883b01291904c228643545",
+    "subject": "Merge pull request #51 from TheExiledMonk/foundation/mass-spacetime-response-strength-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a54f2fe3a00aa09a98442c91fbb6e392d060d1d4",
+    "subject": "FOUNDATION: document mass-spacetime response runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "8d5102f5c7f585953f8207cdfca28a78b29f681a",
+    "subject": "FOUNDATION: add mass-spacetime response strength audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "8894330683011ddddfee4e376e8c25da70fd48e1",
+    "subject": "Merge pull request #50 from TheExiledMonk/foundation/g-derivation-omnibus-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "692aef8c45977fc698a5a3d75114d1c752afee8c",
+    "subject": "FOUNDATION: document G derivation omnibus runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "0a99bbcf09fb13fc8ac8ee04848f56d7037ce0e2",
+    "subject": "FOUNDATION: add G derivation omnibus fact-finding audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "04748a94cb8b03dcf9aba565170de64bcdbe9e56",
+    "subject": "Merge pull request #49 from TheExiledMonk/foundation/baryon-mode-counting-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "e9483ba7c08fd3edbeca2a9daf42c314f54144c1",
+    "subject": "FOUNDATION: document baryon mode counting audit runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "048646dfb8fbdf0a65a6bdb44bb68b4a49e40e0b",
+    "subject": "FOUNDATION: add baryon mode counting fact-finding audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "4da1d6a3371eb0ec470b0e3dd10c6bae8031f3d3",
+    "subject": "Merge pull request #48 from TheExiledMonk/foundation/g-free-microscopic-scale-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "226fadc5874cbe80d2c5391f5edc8039c97e17d7",
+    "subject": "FOUNDATION: add G-free microscopic scale audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "b6f523a168629beed03b7a2034589a2a50bcb80a",
+    "subject": "Merge pull request #47 from TheExiledMonk/foundation/radial-wave-origin-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "b1b1ce34ee165e43bb14f37d3e54d332f760b2ce",
+    "subject": "FOUNDATION: document radial wave origin audit runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "0cec68e4d152532d00f69b8c3bcddb9d4193ca29",
+    "subject": "FOUNDATION: add radial wave origin fact-finding audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "9943ab2d4a8db7ab806e61acde16c96b639434f1",
+    "subject": "Merge pull request #46 from TheExiledMonk/foundation/spatial-coherence-kernel-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "2a55aa5fdbf0b899f45b1eb5e70b9e42212cdf92",
+    "subject": "FOUNDATION: document spatial coherence audit runner contract"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "5cf8907327410581f4b199039c67172bd3a11619",
+    "subject": "FOUNDATION: add target-blind spatial coherence kernel audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "937dee34dffe599114b77391743febc91964f746",
+    "subject": "Merge pull request #45 from TheExiledMonk/foundation/collective-mass-scaling-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "86a2e205392bf46e7bde562ce8e63dacc142c636",
+    "subject": "FOUNDATION: add collective physical mass scaling audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "186b0587eaccface4ce80a7f4acb17c40f6544c3",
+    "subject": "Merge pull request #44 from TheExiledMonk/foundation/mass-medium-candidate-audit001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "9f9f89bf88c491f14dbd455f304c926bffc17f75",
+    "subject": "FOUNDATION: add target-blind mass-medium candidate audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "85b48b03d3a8ffae8311030e8b216fffead3dcda",
+    "subject": "Merge pull request #43 from TheExiledMonk/foundation/qe-row-count-semantics-fix001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a829f5e4a0400b8516d9eb7b40b264a10bd8b303",
+    "subject": "FOUNDATION: correct QE thermal row-count semantics"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "21edb05698bbfe142fe77d50a6c5cb7126c6fa2e",
+    "subject": "Merge pull request #42 from TheExiledMonk/foundation/qe-raw-snapshot-path-fix001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "cff005876e298889002d8ef5e276a49601d50eeb",
+    "subject": "FOUNDATION: read QE amplitude audit from raw quantum files"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "7f1a594cc174d20bd3c96feee22d31a7397ea8d3",
+    "subject": "data: relocate QE snapshot to flat pbuf/data/quantum layout"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "ee680f17c2df7bd17a96b3af722162024af2e339",
+    "subject": "Merge pull request #41 from TheExiledMonk/foundation/qe-snapshot-archive-integrity-fix001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "d0fbb6e8db3cb29a79f673dc7773977b485fa6c5",
+    "subject": "FOUNDATION: point QE manifest to corrected thermal archive"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "bf2de23aa61c5165dc973161bc480593dd328d1d",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 10"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "b6088c27f85787d5cdd5b31d02f9a52fa981d570",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 9"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "5c8b5b2d2e6888a6ae1dffedfdd125958406ec71",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 8"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "72003345c780fcab31df146f36b8ec681045d678",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 7"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "8708ba4163172b3cf7329efc8390ef1f2d0e3cb7",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 6"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "12e72f9a1ff6e0bf064715c0824d3e5256968162",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 5"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "1a86fa3835f20816ae9545dd822df63413f124c4",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 4"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "11914b406e1965c300c6d185dd6487ff46f555b0",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 3"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "dd73a61aa593bdba650f9c0f55a0faa9fed3d6de",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 2"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "f187e4081dc66d1b38322eb14a320efb8dced9cc",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 1"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "e8b504871fb779244c9d038de0693110a8927c35",
+    "subject": "FOUNDATION: add corrected QE thermal archive part 0"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "00d1669bf6debe5ce64009fe2444ef110451c7b5",
+    "subject": "Merge pull request #40 from TheExiledMonk/foundation/quantum-engine-amplitude-closure001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "d73eab039402f3c1b4909baad3767031967339f9",
+    "subject": "FOUNDATION: add Quantum Engine amplitude closure audit"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a2ebeb5d72fb75e0bc997c1f839c6ec133907a03",
+    "subject": "DATA: add Quantum Engine snapshot manifest"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "87e3664a885f158db81fd4339ececc117ba372a4",
+    "subject": "DATA: add QE thermal table archive part 013"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a533e16b8dfb570937cc57541a3baee96161d2cf",
+    "subject": "DATA: add QE thermal table archive part 012"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "55588acc3725bf2795869caca6210be6f5991a23",
+    "subject": "DATA: add QE thermal table archive part 011"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a36514bbd9a8946087c3b0e4003ac6f780694918",
+    "subject": "DATA: add QE thermal table archive part 010"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "59946bfe62e24c865dde6f7b0d6164a2243bf3b5",
+    "subject": "DATA: add QE thermal table archive part 009"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "b978e35edb60862ca5c14260f32b6e1a4cdb7031",
+    "subject": "DATA: add QE thermal table archive part 008"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "14b7f0803fb67ee79c04b1c443b34f618cf8168e",
+    "subject": "DATA: add QE thermal table archive part 007"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "5b70bf4fb19dd73c128c527d97bf1b7991f3af15",
+    "subject": "DATA: add QE thermal table archive part 006"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "8ec24c35c984901d7867bd4bcafc1ee1ac41b603",
+    "subject": "DATA: add QE thermal table archive part 005"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "ba68f7a2b53d938e0c8f3c589fce051ba994b868",
+    "subject": "DATA: add QE thermal table archive part 004"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "f212fb12bfc68b418948df65037322112ac58141",
+    "subject": "DATA: add QE thermal table archive part 003"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "6bfca73b4973a94a2559d09589422106d79ddff7",
+    "subject": "DATA: add QE thermal table archive part 002"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "1b8c7852957d4a22ba22f98c0896c9ce3e71fbdf",
+    "subject": "DATA: add QE thermal table archive part 001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "b7ad200e0d4ad1a4523d8346e8d33ad169071799",
+    "subject": "DATA: add QE thermal table archive part 000"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "1ba325e039b15f8faa1c6ccdbc14e8917450ddd0",
+    "subject": "DATA: add quarantined historical optimisation snapshot"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "9485561cdd621f58eb00ad2930bc102fb804f140",
+    "subject": "DATA: add Quantum Engine v11 micro cache snapshot"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "bf33cce133eaa3ffc30e8454b325314a109ece67",
+    "subject": "DATA: add Quantum Engine v11 defaults snapshot"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "336de7bae559b54b154b0691c64f5c38d5379835",
+    "subject": "DATA: add Quantum Engine v11 config snapshot"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "214a638b3994d6d6429ca80a0802f8d75872a8e7",
+    "subject": "Merge pull request #39 from TheExiledMonk/foundation/medium-dynamics-no-fit-closure001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "7c0fdfb354aa586e0e093f85d451136b37b765ef",
+    "subject": "FOUNDATION: isolate no-fit medium dynamics boundary"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "3a60d7d3e15fe11a46de20b5dd4fe2a689f0848a",
+    "subject": "Merge pull request #38 from TheExiledMonk/foundation/metric-strain-fd-conditioning-fix001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "60cad91664222f656d9e81355411752f171166aa",
+    "subject": "FOUNDATION: condition metric-strain finite-difference gate"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "a72fbab11b95118e4a2c16582f2507b3dac72137",
+    "subject": "Merge pull request #37 from TheExiledMonk/foundation/metric-strain-map-closure001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "b103c298354645968f8bebb0d794ad524b7cfe87",
+    "subject": "FOUNDATION: close minimal effective metric-strain map"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "582746d5cab919ad164c67af0dee9ac8a8556444",
+    "subject": "Merge pull request #36 from TheExiledMonk/foundation/matter-loading-physical-closure001"
+  },
+  {
+    "date": "2026-08-08",
+    "sha": "f19a7ead6b93a286772432748c2ddc22c0429c4a",
+    "subject": "FOUNDATION: add no-fit matter-loading physical closure audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "fb1c22193256294a5b6ae2961005b8d6bcca246e",
+    "subject": "Merge pull request #35 from TheExiledMonk/foundation/strength-factorization-physical-bridge001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "5c534fa19c2202a95ace93a97b7fa4766f960e1c",
+    "subject": "FOUNDATION: add strength factorization physical-bridge audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "8b3c69be3970e619409d40d3847e29b193422df2",
+    "subject": "Merge pull request #34 from TheExiledMonk/foundation/independent-mass-response-amplitude-audit001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "83af641bd72bf2caf72dc66a3fd753c30ea6da1d",
+    "subject": "FOUNDATION: add independent mass-response amplitude audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "803c3287dceb0f83a00e1cb4b1fea7b78d7bc11c",
+    "subject": "Merge pull request #33 from TheExiledMonk/foundation/independent-source-common-footprint-fix001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "ca49155e862118c7d58eb76c0b3b3c8ff2be382e",
+    "subject": "FOUNDATION: fix independent-source common sky footprint"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "4a2085c776b3b82584f57cba9f9bc66268243a3f",
+    "subject": "Merge pull request #32 from TheExiledMonk/foundation/independent-source-training-wheels-off001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "aaa8982d8ce33ea58421182160a2ca8c2db726e6",
+    "subject": "FOUNDATION: add independent luminous-source training-wheels-off audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "bcbf0d7e62e8ad6a8954d7a7c9a238d420aacac6",
+    "subject": "Merge pull request #31 from TheExiledMonk/foundation/g3d-native-angular-detector-image001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "b6e3bf7c71c2dd361557d04fc7719317584878ec",
+    "subject": "FOUNDATION: add native angular detector image audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "dca76fd26255968468a763f0be89167152863805",
+    "subject": "Merge pull request #30 from TheExiledMonk/foundation/g3d-angular-higher-moment-sufficiency001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "80cf988e8559ad53a8a76b16e6e62388504bbd12",
+    "subject": "FOUNDATION: add G3D angular higher-moment sufficiency audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "28d18452a1e65a84051fd7bc20ff3d2dbd458595",
+    "subject": "Merge pull request #29 from TheExiledMonk/foundation/g3d-angular-moment-decomposition-step0-importfix"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "4bb6a4242f93d399d35cb551b05ab1e3009b2b48",
+    "subject": "FOUNDATION: fix step0 wrapper import path"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "22116d005771ee0304b4264031beec5c56068e51",
+    "subject": "FOUNDATION: fix step0 wrapper import path"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "d920d3965216cd2a8a26ed2ca399a8bcc9d77fa9",
+    "subject": "Merge pull request #28 from TheExiledMonk/foundation/g3d-angular-moment-decomposition-step0-fix"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "fb84446d70f16f82cdf12725f2fa6ad554acbccb",
+    "subject": "FOUNDATION: fix zero-energy step-0 fraction gate"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "3002f4783980c79470512790827442af6efe16a6",
+    "subject": "Merge pull request #27 from TheExiledMonk/foundation/g3d-angular-moment-decomposition001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "90bd40715525735bf33a76cb83f1255f2ebd076c",
+    "subject": "FOUNDATION: add G3D angular moment decomposition audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "f76900bdc969e8da4d179373580e1b7591a164a2",
+    "subject": "Merge pull request #26 from TheExiledMonk/foundation/g3d-angular-received-distribution001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "f0ab67da5a5bbb634079284c38ca22447e23fba7",
+    "subject": "FOUNDATION: add G3D angular received distribution audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "e9cdfd2fc0c1796fedaf810c9e0ba11d1a5ac615",
+    "subject": "Merge pull request #25 from TheExiledMonk/foundation/g3d-full-received-state001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "4b0d544b816775c3bd807a72dbcdaa00a4172dd4",
+    "subject": "FOUNDATION: add G3D full received-state audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "5de8b716051ffdfc026ef393dce7868808b58c3a",
+    "subject": "Merge pull request #24 from TheExiledMonk/foundation/g3d-observer-before-projection001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "3192509be9db19e9a80651d95b18cf5a9c1e6c9b",
+    "subject": "FOUNDATION: add G3D observer-before-projection audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "10adbe29a138daf8aa17f6ed0f408cb22df2e256",
+    "subject": "Merge pull request #23 from TheExiledMonk/foundation/g3d-principal-axis-orientation001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "5cba5ba2234ac3eea9be76b9e30ac9217a542f44",
+    "subject": "FOUNDATION: add G3D principal-axis orientation audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "9118505b5b596106d5993f5b3913423374e86410",
+    "subject": "Merge pull request #22 from TheExiledMonk/foundation/g3d-displacement-topology001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "02347431191d7262d27df62c13fd8a26e72583f2",
+    "subject": "FOUNDATION: add G3D displacement topology audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "61ed53b4a81be00ee7fd51d7358c78669c51e632",
+    "subject": "Merge pull request #21 from TheExiledMonk/foundation/los-consistent-ray-geometry001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "050057819aee704fda88ad80e3aa3b28e921fe68",
+    "subject": "FOUNDATION: add LOS-consistent ray geometry audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "e8123630e4be7697b92fe2f07ebf797af4f9ba10",
+    "subject": "Merge pull request #20 from TheExiledMonk/foundation/propagation-coupling-geometry-audit001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "2ffdfc8fa06be08852297c1fc876b6dd942d319b",
+    "subject": "FOUNDATION: add propagation coupling geometry audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "ad8c0c064c925ff70fb78f039d818d6e04140999",
+    "subject": "Merge pull request #19 from TheExiledMonk/foundation/propagation-morphology-localization001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "9a0462b695b512add697c60b6a5ea8d8d94eacd6",
+    "subject": "FOUNDATION: add propagation morphology localization lab"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "7268a7f730ce982d47afe8236df22daa19fd43d2",
+    "subject": "Merge pull request #18 from TheExiledMonk/foundation/jacobian-observable-consistency001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "19efd4db5bb2f50012ad766f5ac2822f6d339dd4",
+    "subject": "FOUNDATION: add Jacobian observable consistency audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "28073a7d8dabba16a7b98d5fd8b8f5633b7a33d8",
+    "subject": "Merge pull request #17 from TheExiledMonk/foundation/m10-coverage-25pct-corrfix001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "8a38abb835f44cb1f038996f0afc40c452ed0da3",
+    "subject": "Fix M10 25pct coverage lab correlation API"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "69266a1bcae4e7144caa6ba8bb1684d86aaad652",
+    "subject": "Merge pull request #16 from TheExiledMonk/foundation/m10-coverage-25pct-science001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "818ce3351cbe3cc1f69c645706476f8535ba518b",
+    "subject": "Add paired 7-to-25 percent M10 coverage science experiment"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "70c90d829d12e36220fe7f3ce78bb18ac77cc7a0",
+    "subject": "Revert accidental placeholder file"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "40e739a0ef28e71cebc3df42df8a2276f9bb9fed",
+    "subject": "Add 25 percent source-plane coverage science audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "7e36d5722020b41decbea55865e338531f298ea6",
+    "subject": "Merge pull request #15 from TheExiledMonk/foundation/m10-information-loss-audit001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "bc83df94f5d15fd88181c8473f5fc4788b5f942d",
+    "subject": "FOUNDATION: add M10-to-Jacobian information-loss audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "f9248b49f17a6a33f0403004ea3a56fc8ff34eb7",
+    "subject": "Merge pull request #14 from TheExiledMonk/foundation/primary-candidate-m10-rerun001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "35082d139e6bd4666025b30c887e25783d82ec14",
+    "subject": "FOUNDATION: add five-cluster M10 primary-candidate science rerun"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "7139c0385e041194f611c94b2ae4fb3c35f7f5dd",
+    "subject": "Merge pull request #13 from TheExiledMonk/foundation/interface-source-requalification001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "1de06214b9792ed395f8217870e1e9b138f781e0",
+    "subject": "Add interface-source real-ray requalification lab"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "af1e48bef95ca74df7fb8ad75dff333c9e85bdcd",
+    "subject": "Merge pull request #12 from TheExiledMonk/foundation/endpoint-interface-role-audit001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "1d87fe88b70a1d1056ff4a996da2a600a6affcb2",
+    "subject": "Add endpoint/interface representation role audit"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "c0f52f319be2ce357e13b336034b40895150f2a6",
+    "subject": "On main: preserve previous second-review requalification artifacts before covariance localization"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "3059498a157913615b99bc6d299dadd20b297e8e",
+    "subject": "index on main: 73febbc Merge pull request #11 from TheExiledMonk/foundation/covariance-localization001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "9eb35f7b178040e0ac9b58c7924b3aa78e33d83a",
+    "subject": "untracked files on main: 73febbc Merge pull request #11 from TheExiledMonk/foundation/covariance-localization001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "73febbc277e65eca12f7835bed8255dc5c36a650",
+    "subject": "Merge pull request #11 from TheExiledMonk/foundation/covariance-localization001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "540f472aaf13225734b5d5af9cd3ff81c6dd4064",
+    "subject": "Add standalone real-candidate covariance localization lab"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "4f599d2fbb1c460004035882b1eb7a143a7b8e42",
+    "subject": "FOUNDATION covariance-localization: real MACS0416 candidate diagnostic (PBUF-FOUNDATION-REAL-CANDIDATE-COVARIANCE-LOCALIZATION-001)"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "b5a5e12aa4bfb53db85bff1c885440681c0b9301",
+    "subject": "Merge pull request #9 from TheExiledMonk/foundation/real-recovery-requalification-fix"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "1d2c649026179dae172cb09640f72862aa52f7c7",
+    "subject": "Fix requalification R2/R3 to use real cluster and real pipeline"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "41945014e90b2c56b9b4bf14525c04eedb206c1e",
+    "subject": "Merge pull request #8 from TheExiledMonk/foundation/second-review-requalification001"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "55ec0c66e584c8cd551493898124210d8cbfd21a",
+    "subject": "FOUNDATION second-review-requalification: validated/frozen core (PR-ready)"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "d0c7763cea3b3ec568d79459431656b5378ca2b3",
+    "subject": "Merge pull request #7 from TheExiledMonk/foundation-m16-observable-validation"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "70db1cbce764b7fb8032b7f6d1944d2e69bc622c",
+    "subject": "FOUNDATION second review: tighten M16 observable validation"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "2ab8f4a2cf151b33d419fc03f4eb443b9dec245d",
+    "subject": "Merge pull request #6 from TheExiledMonk/foundation-m15-ray-validation"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "a536e5683aa13f13f6e8623119d58c3fcbca8175",
+    "subject": "FOUNDATION second review: tighten M15 ray input validation"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "d5fbedfd825b7df64ceeefb5a1f29db1a47c9b37",
+    "subject": "Merge pull request #5 from TheExiledMonk/foundation-m13-metric-separation"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "f90e3fbb9ad6500a1a26fb51ae2841c518be37f4",
+    "subject": "Route M13 imports through assistant-audited implementation"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "1481771bc43f62f938c64a268c9acbf77f5a3762",
+    "subject": "Add assistant-audited M13 Helmholtz implementation"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "a18113e038d45a7228c5809c65bdc9b1c59e322f",
+    "subject": "Merge pull request #4 from TheExiledMonk/foundation-m11-strict-nonfinite-diagnostics"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "bc3bb87a5c6134462a1e8fe74a1201b918be2358",
+    "subject": "FOUNDATION second review: make M11 nonfinite diagnostics strict"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "dd352bebef886abe0cf7fb673752d5552a0f6ab5",
+    "subject": "Remove accidental probe file"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "cb69bea326245a4cb520f7ada4e76c31fdd390b0",
+    "subject": "probe"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "c3be6407fb3cb6c302eafa3eb28f25d005fb039e",
+    "subject": "Merge pull request #3 from TheExiledMonk/foundation-m03-independent-validation"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "d759fb45040432c32992ab181af368d68852f092",
+    "subject": "FOUNDATION second review: make M03 validation independent"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "711185a4ab09e14fc01e993ae9e86a9f20b6f81f",
+    "subject": "Merge pull request #2 from TheExiledMonk/pbuf-foundation-second-review"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "58fd24aea08b7ecdd225c87bc7c1055cfaaedee7",
+    "subject": "Route M08-M10 imports through assistant-audited implementation"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "9d20f5c6e45b55d38f93adb3f881da908c732795",
+    "subject": "Add assistant-audited M08-M10 implementation"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "aa6ddd21d0d392d0d7a7ce662123cae444ee0bd3",
+    "subject": "Merge pull request #1 from TheExiledMonk/chore/remove-minimum-production-trajectories"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "4309ee01ce667c02e70e9dfb7327eea11264822d",
+    "subject": "chore: exclude minimum_production trajectory CSVs from version control"
+  },
+  {
+    "date": "2026-08-07",
+    "sha": "8abeb1cea904c4cb00229a7e3b8ec4f088d1c0aa",
+    "subject": "Initial commit: PBUF FOUNDATION-001-CORRECTION-001"
+  }
+]
