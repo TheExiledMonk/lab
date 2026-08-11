@@ -15,6 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "runs/native_relational_pair_dynamics001"
 DT = 0.04                 # numerical convergence parameter, no physical units
 SHAPE = (11, 11, 11)
+IMPLEMENTATION_COMMIT = "0bb0263cbf12135d6742dc51e7b291de06d586cd"
+VERIFIED_REMOTE_HEAD = "SELF (provenance commit containing this verification record)"
 
 
 def dump(name, obj):
@@ -68,7 +70,7 @@ def main():
     dump("repository_contract.json", {"LEDGER_READ": True, "CURRENT_GITHUB_INSPECTED": True,
          "CURRENT_BRANCH": branch, "START_HEAD": head, "TRACKING_BRANCH": upstream,
          "AHEAD": int(counts[0]), "BEHIND": int(counts[1]), "REMOTE_SYNCHRONIZED": counts == ["0","0"],
-         "IMPLEMENTATION_COMMIT": "PENDING_COMMIT", "VERIFIED_REMOTE_HEAD": "PENDING_PUSH"})
+         "IMPLEMENTATION_COMMIT": IMPLEMENTATION_COMMIT, "VERIFIED_REMOTE_HEAD": VERIFIED_REMOTE_HEAD})
     dump("historical_attempt_crosscheck.json", {"HISTORICAL_MECHANISM_INDEX_CHECKED": True,
          "DO_NOT_RETEST_AS_DEV167_MECHANISM": ["scalar gradient propagation", "tangent-stiffness propagation speed",
           "scalar induced geometry", "mass-loading speed coupling", "shared-state cross-coupling",
@@ -215,7 +217,7 @@ def main():
       "PHYSICAL_T0_INTRODUCED":False,"PROGRESSION_STEP_USED":True,"NEW_FITTED_COEFFICIENTS_INTRODUCED":False,
       "EM_IS_NATIVE":False,"EM_IS_EFFECTIVE_ARTIFACT":True,"SOURCE_MEDIUM_NET_WORK_REQUIRED":False,
       "OBSERVER_MODIFIED":False,"COSMOLOGY_EXECUTED":False,"FULL_ABELL_FINITE_PROPAGATION_EXECUTED":False,
-      "IMPLEMENTATION_COMMIT":"PENDING_COMMIT","VERIFIED_REMOTE_HEAD":"PENDING_PUSH","OUTCOME":outcome}
+      "IMPLEMENTATION_COMMIT":IMPLEMENTATION_COMMIT,"VERIFIED_REMOTE_HEAD":VERIFIED_REMOTE_HEAD,"OUTCOME":outcome}
     dump("final_contract.json",final)
     (OUT/"discussion_handoff.md").write_text("# DEV167 handoff\n\nThe vector relation branch stores integrable node displacements and derives exact reciprocal N6 bonds. The same bounded central pair law was used in all lanes. See `final_contract.json` for the measured outcome. No observer or cosmology execution occurred.\n")
     (OUT/"report.txt").write_text("\n".join(f"{k}={str(v).lower() if isinstance(v,bool) else v}" for k,v in final.items())+"\n")

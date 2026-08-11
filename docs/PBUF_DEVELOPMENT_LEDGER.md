@@ -47,8 +47,8 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 - Date: 2026-08-11
 - Authorization: explicit user-supplied physical premise; `DEV167_AUTHORIZED_BY_USER=true`
 - Start commit: `bd985e7d7da88011139d39f5d60cbf91f9e25736`
-- Implementation commit: `PENDING_COMMIT`
-- Verified remote HEAD: `PENDING_PUSH`
+- Implementation commit: `0bb0263cbf12135d6742dc51e7b291de06d586cd`
+- Verified remote HEAD: `SELF` (the provenance commit containing this verification record)
 - Branch: `dev-doc-112-fullscale-vulkan-observer-validation`
 - New state: integrable 3-vector node displacements deriving exact oriented N6 relation vectors
 - Law: the same bounded-strain central pair force in unloaded, loaded, removal, and packet states
