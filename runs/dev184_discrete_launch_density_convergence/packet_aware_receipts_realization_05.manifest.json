@@ -1,0 +1,3203 @@
+{
+  "launch_manifest": [
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "724b3ce7e2f31fb114d12db86e3de47a4330093846154b50320012b3c2c59ed1",
+      "packet_placement_hash": "83352ed1c5b471598c4968137b3ed5c44cabae71bf27f7480c18a64e400833af",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        8
+      ],
+      "support_min": [
+        0,
+        2,
+        2
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "7f6fbb127e40a4b348170abd790dafdb3d161fb648e28d40de4d64aff8c99b4e",
+      "packet_placement_hash": "45f6415dba1364323c72fd6a8ec2b5b76aae3c4f1474654317a04daee7763b4b",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        9
+      ],
+      "support_min": [
+        0,
+        2,
+        3
+      ],
+      "translation": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "4f6774cd4ab5fb60c275575d51867e8f57b06957937d38c07e28df9dc72a3fdd",
+      "packet_placement_hash": "57c2909e5b43c30fef9dcc11d276b4cccfbba2417c1e7db3f6a2db4a2d61c31b",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        10
+      ],
+      "support_min": [
+        0,
+        2,
+        4
+      ],
+      "translation": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "5adeaa7f2bdf5c0e4ff33ba7ae249149d6d6360753d9ad41111cd4ea8f02f04c",
+      "packet_placement_hash": "5527d05934d74d0dd662ea4c7e265cb16cef7947c8cc649d0b94ee257f17753f",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        10
+      ],
+      "support_min": [
+        0,
+        2,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "b7e2502bfae2f585cd4dc322c5439347c45f1b9f606286e4d679caaf44148719",
+      "packet_placement_hash": "fdd58c17df7d02f3ce1399f8f487a26095ccee497d088d5c88be2305bfcf9be3",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        10
+      ],
+      "support_min": [
+        0,
+        2,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "363f2a6caf133fd03f3799db65283a7e55938d4bd919f1f7699bb56c058cf741",
+      "packet_placement_hash": "1a440ecc076049da78eb2f42f337f83543cef040fac8bc05d0ee7dcb0235dca9",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        10
+      ],
+      "support_min": [
+        0,
+        2,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "991987ada0b4ad79d0313fce366887996c65362c28760b4afaf7097e57487921",
+      "packet_placement_hash": "b7a8461bdeafcfe4858343257c06bd0d72741cfc740f3f9f49680e535e98ce05",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        10
+      ],
+      "support_min": [
+        0,
+        2,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "3a43353b226c6983e00f1072f3635d12e75f4b27ced0702206c61c50bccf5045",
+      "packet_placement_hash": "79117f544ef8e10157e76db02f53513236b929828be1c4112c2af07f76df4d97",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        10
+      ],
+      "support_min": [
+        0,
+        2,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "f9ec3418cb506f4796f2f626118de4f352027cfb47d197da5c00705ed9a54d5c",
+      "packet_placement_hash": "bb81cf29f8a4901906ee791473124f38d7e8dcf68cbe1ddba5a06e28c6eb460c",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        10
+      ],
+      "support_min": [
+        0,
+        2,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "03d24914e32ae7b7c9d05e8e3ca1d170b63765d123317f4ec319898fcc416051",
+      "packet_placement_hash": "805d704148d832c962e35f1e6166bf363eebdc59e3a33d0d282a9576868e5ca0",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        6
+      ],
+      "support_min": [
+        0,
+        2,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+00_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "4a4b38782d8a40df391921e9dd95a4d698b0f59cd027864d636feeb861ddd6c9",
+      "packet_placement_hash": "7ded46aa626f119d2cb20e074e9fd8e8cce23828c9284afa14b6cc0a3047389e",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        8,
+        7
+      ],
+      "support_min": [
+        0,
+        2,
+        1
+      ],
+      "translation": [
+        0,
+        0,
+        10
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "1dd66cca13d6ec335290c30c45912cf2d37a043c6a36c4264056202ca19d42cc",
+      "packet_placement_hash": "7a5f0183624a9497fb343be64f3450d70a4ed0543ff7e2cf8286083d30c077a2",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        8
+      ],
+      "support_min": [
+        0,
+        3,
+        2
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "b9c6e45b745ec14103898a884fba43a09f09a40b98fd1316bcea30596a9d0cc6",
+      "packet_placement_hash": "f776cac5354cf6f3890be5bc155ebffbfd71e3a2dbc42640114e02aed4d31930",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        9
+      ],
+      "support_min": [
+        0,
+        3,
+        3
+      ],
+      "translation": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "f7ecbae998913fc59dd7a7b4397688fbebd179787b117ed407ec743c07dec060",
+      "packet_placement_hash": "006bbea42560470df7aa56cd668837b933c10eab3394e7866c1861bf30298196",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        10
+      ],
+      "support_min": [
+        0,
+        3,
+        4
+      ],
+      "translation": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "f299a55970b5e16f76e06e6cced7deb9597cd657edbc43910b8b84130ddf55c6",
+      "packet_placement_hash": "8c065f0e1a581169a13be9453357e322f0348fc43df17da6b17af82e3e9e83d9",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        10
+      ],
+      "support_min": [
+        0,
+        3,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "b8779100d6b3917d69a1f6e87e17b06e5c287e47b3ab18f2038c5ddb356ced8a",
+      "packet_placement_hash": "6f457bf07a9a3d470f537f48d6710024562a21a685b431b9099b7d0b11f7ee88",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        10
+      ],
+      "support_min": [
+        0,
+        3,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "1db592aba995aab5a8a5363135c1428123dd843471d18673918c121bace56670",
+      "packet_placement_hash": "8f73638667af206496cfb1154d0ba2b9f5bbbc684c435b1e9b18b5d864669797",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        10
+      ],
+      "support_min": [
+        0,
+        3,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "49b27dcf567513616cc0aec587d208b022d56a0de57f5d23917618665d0a28f5",
+      "packet_placement_hash": "3f4a55e7e32752eca650fe4254abe29b92e82ca2df3a4063a360df52775b09bd",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        10
+      ],
+      "support_min": [
+        0,
+        3,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "1a7505ef87f1949516bd0e755d5ef32d7f6f5f9be4a0308dfd1d0f7a71a6b4ba",
+      "packet_placement_hash": "1ce94ec47e1b94a34618e80a8f0f43cef48d8e8bbe1dee090f0a918c1455d27f",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        10
+      ],
+      "support_min": [
+        0,
+        3,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "192b99452393d696a654581d7e53a762e0d5cf058ecf9130f523b4f1228e5eb4",
+      "packet_placement_hash": "f41c871b329ebcb7360612a41bce5f678af9c3899c792bf31d3a68665fa2e4e9",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        10
+      ],
+      "support_min": [
+        0,
+        3,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "bef6b9b09d7b5984bf25291a0ec53cf4abda04e63e48676320b20e80d8e70daa",
+      "packet_placement_hash": "31c4d016e32bfa592937052d900e1cb201631f1b6b6b631d2196160f7fc55634",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        6
+      ],
+      "support_min": [
+        0,
+        3,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+01_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "14125fe32ab6167f91a4a4ee7a39862f15fe014e177ad87c22343650d1b3c8f4",
+      "packet_placement_hash": "faa94a8fb62aa298b3d5c11914329e0ab8831947a509a88702078bf9f84ff72f",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        9,
+        7
+      ],
+      "support_min": [
+        0,
+        3,
+        1
+      ],
+      "translation": [
+        0,
+        1,
+        10
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "402412eda311ba432589fa852a336fccbe3c92e7ac591ac1eb293acd86908625",
+      "packet_placement_hash": "825fecc175ba23e4ac10e57ca0346203f39be96d4831760ba7fe92bb889b782f",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        8
+      ],
+      "support_min": [
+        0,
+        4,
+        2
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "6ac6b42b9e5e7796d6c7059e23894d27d2a2d2860393d01b2c19ca1f843efdb6",
+      "packet_placement_hash": "2aeee7a73df7a78f5227692f56a4bcf030cb2e4dc83848f0fc845d6e98a8e80b",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        9
+      ],
+      "support_min": [
+        0,
+        4,
+        3
+      ],
+      "translation": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "883b0a867fc2b7d24a389699e1bf3d6e10d9d1b28a149ecb2c2557eedb0da01b",
+      "packet_placement_hash": "5469cbaefb5605104f024e5562edfe7c99801027e3521a0260ca587b36958f3a",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        4,
+        4
+      ],
+      "translation": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "a43d643c8076c9225d61d8c80b3a4eaea4c6de0e5fb7ebc523a7530604cfe5d4",
+      "packet_placement_hash": "f510bbe6fd24cd28c4d1b9e667cee295d3c96d23697fa9090d0056a51dcfd21e",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        4,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "134b7304b0d637cb1f6510341498502f85176bf0446296b13c53a3052f19aab6",
+      "packet_placement_hash": "182e63b26d5a166defa8f3750bbfb397413d26f637ebb68451c281ee8cc039b4",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        4,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "08c5e20bc896e9910c482a73d8a81dc34ae8fe4c7702cb365a5a16e0ef6cd0f5",
+      "packet_placement_hash": "b664489079d546b942d1f69c8e6081418ee808a8aa7268ade8ac561b995cb54d",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        4,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "f3cea48693bb41dbef123adeabcf680a13f8e590365a7de93431a84135fe3c4f",
+      "packet_placement_hash": "2ba67297de6f01ec208c760962776d128c74b747e6f9e1f6005f4c89fffa950f",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        4,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "8119cd5b51def91e388fb374aa9f4dfd58265d6200b20c82df240fc6dfdb7a2e",
+      "packet_placement_hash": "eae9f6453a279edc7fdd9850a9ca28cbe9aa1ba73494e46e3b79ed10c158289a",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        4,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "b45f510c8315c5ddf09cdd2e245202a2074d294dcf0b3241f96b70a9d8c80db9",
+      "packet_placement_hash": "0fe366882650c31b4882a5ec5650c1ee103e2cef5bc1c5c121a62c8ba27c5148",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        4,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "0ed455dd0f0a0655f420e8d514ea54b8b94ff35697a9e808c4ab20534552c4a4",
+      "packet_placement_hash": "79bb358bc2be9155a8aa00d07dd409bd604df81c60a2a5dd846e350c79a2200c",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        6
+      ],
+      "support_min": [
+        0,
+        4,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+02_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "361e5c57e2d0c16d434347a7b2a1ece216ed0aa2511ef2a6b4baf4c1b03da50f",
+      "packet_placement_hash": "485b1de789b3e960c1c916fae5e76323cf1c9d5707042239581dc75601f8c395",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        7
+      ],
+      "support_min": [
+        0,
+        4,
+        1
+      ],
+      "translation": [
+        0,
+        2,
+        10
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "3d6569ebb9336dbbfa75174ae51c3ab4f053f01a1749a7601eecf6082531e000",
+      "packet_placement_hash": "cc120713996e79b42971b4c17e7fd070ff4e05ed8628b6b6200be43ce4d85444",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        8
+      ],
+      "support_min": [
+        0,
+        0,
+        2
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "71cd5d2b0e3952a4bba1ae932bc8942ccbd28882817a02804304b62a4356641f",
+      "packet_placement_hash": "225eb38b41c2cb31c99dc0ae6221f15b2bb7f06c9b9175ffae9183ff7b02cc74",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        9
+      ],
+      "support_min": [
+        0,
+        0,
+        3
+      ],
+      "translation": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "761bd5d4d739869149cda13b2f3edcfce6bf22cc023c3a4fcef7b0fbcb66df2b",
+      "packet_placement_hash": "67bcf216609f48f685970a73cd264542a0ae293b62dcd0f2a300d43e65de6928",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        4
+      ],
+      "translation": [
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "29ecc4f4136221920de81a2cdb0d7288432d2bd75b23cdfb82b3679f2230f08a",
+      "packet_placement_hash": "0e4332c8e19a24adf0290563f307230ba31d442c517c6c547602ab382237153a",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "e5a5f9373e29126959ef9e23dd41d143841e6de698e69c75e1befe5a6508a7af",
+      "packet_placement_hash": "9910bc1a1e59d4f90249c19ce6afd9980f8a8ce813d12cef58090448766856d0",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "0fe7e7340275656b759b3208914d75b5a0e455c8870c52661b1bd703cdb7c603",
+      "packet_placement_hash": "3187abb37fdab04a73c5567c0244c2c59baf7356d428b03483dbc8bd3b23cb27",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "7bbfe06697c6475a0b36f35f0ac2c908548dfaf1a7d3145ab99e5ecb3aad623d",
+      "packet_placement_hash": "cdc37dc410a56e8d76b65e442845b6ddfcb6c6f96720de6d23c8684cdfc69bbb",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "1eb39045a3e1ab8dbe7ebc82a085afedb1d05fd9af8775c3bf5ede07d123f3f0",
+      "packet_placement_hash": "a4fa0cfa09058ee2d0ec6c415effe01d7aab933d96c047657de66b7a70439374",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "793799c14cef48c1a80eafec1cdfa9e8cd140f8d2fe4443a1a995453f42debb3",
+      "packet_placement_hash": "484d111b16595734c395430782be8cdb4510c8fe381a5ab1c9bbfdb0dcd7b613",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "fbaf2e844354c4216aa8ca5b39ca84810f9efb8c2ae2e59326289ef0d587ecaf",
+      "packet_placement_hash": "4c5fd029b7dfa1a4ac87c7399605329608688155ab1dd63ecfbcd7fe4045636b",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        6
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+03_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c9057f69c4c11cd5d52595ebdebc6262c7d8a88afade602b53f69753f6124202",
+      "packet_placement_hash": "0440a7c4f931da3bf3d45fa489f5cee6ef4148a77e7de3dd0f4954440cbd37a0",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        7
+      ],
+      "support_min": [
+        0,
+        0,
+        1
+      ],
+      "translation": [
+        0,
+        3,
+        10
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "529efd3ff4eca5142693e8a1c50e0610fbc6678e9e8868c142cacd266a2c8365",
+      "packet_placement_hash": "7d0b27a77f3782ccaa838001994dea7156964eea4fe3513a215b378627747174",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        8
+      ],
+      "support_min": [
+        0,
+        0,
+        2
+      ],
+      "translation": [
+        0,
+        4,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "e3ded01689063af8b6e062c46b574f830d8b5203f5a481943e52cab44ceaa092",
+      "packet_placement_hash": "f5c8106a6754a138a845d46e8bb112a7884e69a8ab2f944c4ae453045d0a7532",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        9
+      ],
+      "support_min": [
+        0,
+        0,
+        3
+      ],
+      "translation": [
+        0,
+        4,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "89f186cb7a5e3bb490736ff155417c68fff8c8cbb8cef2ae0eeb17c9c8fdaede",
+      "packet_placement_hash": "398c4c763955c4300f4003b786a90d0373f8c2d14d3aa87a01e26c5c24d75a2c",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        4
+      ],
+      "translation": [
+        0,
+        4,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "220254c6096322e0681b7a5407a1042b58b10b1ad0a9c709b2e50d1523dac565",
+      "packet_placement_hash": "be724aa5b16cf679123bcf3614b5fe155a02164e9100541b0b8e37445e50e582",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c8e8e84580f9af55ccb3343d8120349fa9e5a7cd5765b12a57bea256ee23d526",
+      "packet_placement_hash": "cd618bcd97d127bb74cd6dace5260d0b04fde64341604c94175948c1ea60fa76",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c513b80bab1136368d6f423a2b5c4fe02c66568631beecaa6e8b56d6b58aea5d",
+      "packet_placement_hash": "08b252c55ec14b9e1d14e0b2abae26190fdc4af3b53b800aa4622776bb5827b3",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "84c0040500a05b4e813d89d38b63569ae49a2897bd936861e36fae5917140c86",
+      "packet_placement_hash": "3e81d99596b5a04c794a7dfbf5d23b4f8729b02369ba6b7c7fc905b1f6d0f689",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "5efef2c115c3308d7b6ef991c66c9cf4f04d6d05b0cfcead95f2659b5d566b73",
+      "packet_placement_hash": "4a98b6801fbc4661b4e87f75baf2fc7b235ab7b58c7a19b5a96e3acf8f82a46c",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "51989e0fb86a51f190757274f9d282b19364230eb1d87831cf078403d8fbe256",
+      "packet_placement_hash": "de5a6df828259b785ff65e841939d7a3b23925d8dee8569e2c89dd7f435c9891",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "e67dce00e23724741770c75172bee3b02e06b1ae03a00926df0ce50285d33cc1",
+      "packet_placement_hash": "237e03414366cd7a2197905d96d0187fa8e7e095f6735676684675bd4e9e7790",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        6
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        4,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+04_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "bfdb2498d3063f4fe5463a41097afb24179c41a50cd4814a84616008eb052cad",
+      "packet_placement_hash": "58c9be7dcaaf63fc6b315c2715db38f210a852b6baa1a079f1f86affa74da6f9",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        7
+      ],
+      "support_min": [
+        0,
+        0,
+        1
+      ],
+      "translation": [
+        0,
+        4,
+        10
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "465ec1792c0ef8e38272c387bf4c89ad06d78a15deb3f014b9c5197443420f48",
+      "packet_placement_hash": "75cba8e580f16ebcfed4614fd9bb8621338ae391e3da69810e9f2e2741554a26",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        8
+      ],
+      "support_min": [
+        0,
+        0,
+        2
+      ],
+      "translation": [
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "fbfcbaf81a731f7256a28ce9136b7ff06f4650f2b2294c74d6af0884c65bd543",
+      "packet_placement_hash": "e0e0c240dd0e98123829169a71c3af5f80bf44cb6b511b0d5474d74c5619f673",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        9
+      ],
+      "support_min": [
+        0,
+        0,
+        3
+      ],
+      "translation": [
+        0,
+        5,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "b430d2f86b433e564aa78dbf212f2a0070d25aa45fa132ec9d4b1b1378413e90",
+      "packet_placement_hash": "256283544a3414857575b194d79b81c3e31d4b078091df7e60c4e37e76d9e752",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        4
+      ],
+      "translation": [
+        0,
+        5,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "6d6b1d92501d86b6f09624969bdaeaf73e89f350be76ac466d009bb593a53f1a",
+      "packet_placement_hash": "de441f879e3fa588600f6e5ce7a2da50abaa046da4ce86114cb7c97d32e8324e",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        5,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "f8a89f43d49fe8370f99ce501e094c6d87cf607a002d4433a6ac457d8b9acee3",
+      "packet_placement_hash": "7adebc0fed068446dfdf5be7cb67c06b1ae9eeda943b5da9b0be33aa696a1958",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        5,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c4e5dedc577452e981ab8d9d87e3526e354928e0cfaeefa15f0f9db60b1351f0",
+      "packet_placement_hash": "b95265a84f6ca00d74236029ab206bd70f7e680f7b3bf331bb3c282f7fa5b047",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        5,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "b1dd1f61beab3a9b4c6330d182406ebcf0910a3bbc9fa86af15a039ec1aae489",
+      "packet_placement_hash": "7bc5536d9012c51007659f1cd03c3860ab792d5526f4a0d961672144a186fcb1",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        5,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "9813a2d995357fcd119d616d16573318ab4eefb5f4a4da433a635e3dc1da0c24",
+      "packet_placement_hash": "0280b4701c6ae4d996e2881e234249194180e6914d1cb5b43bd0bcfd70e609ac",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        5,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "9bdf5c84056a1386f6337f6b1b3e12ae2e860c215a6d56a47cf55a6c24b6730a",
+      "packet_placement_hash": "9ad009d03fc62a06c804e1dda00b20e511b4634e1ba07dbcaa8738b431d17c49",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        5,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "83f7db87b27bdaab789d173204913c2ae4fa7968576040b1950985a780700ebf",
+      "packet_placement_hash": "a44517f4e6adb17585da9622a657f7d47b1c27f1fd2062b06ceba7dee89c31d1",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        6
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        5,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+05_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c78dd24221f094f884f9ecd735540f8b1a2e59a6801e37e6ddd91d8c176b4971",
+      "packet_placement_hash": "41598874910a38375ccd9f8fe4b5631d0557799b30dc70f19bfd42767a365cc8",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        7
+      ],
+      "support_min": [
+        0,
+        0,
+        1
+      ],
+      "translation": [
+        0,
+        5,
+        10
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "8dadc5b28bd5de3a1241a905019fb613a4bc55a80b12af0ab0d62eebec6fc2c3",
+      "packet_placement_hash": "b6e9faf606995723a11be082ebee767d540c1b4e1dd71fbc3642c806d90a03fa",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        8
+      ],
+      "support_min": [
+        0,
+        0,
+        2
+      ],
+      "translation": [
+        0,
+        6,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "6a7cafced4b0a90f07a2fd303f79681ec2218d26170b838a4bea905f512f6809",
+      "packet_placement_hash": "a627497c1c55eb2d74c288e89b51627ac234c357795bf9fa660d3c5d2bcf508c",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        9
+      ],
+      "support_min": [
+        0,
+        0,
+        3
+      ],
+      "translation": [
+        0,
+        6,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "1387cccf23703ea459d1ab13867d77b4aa37986b45043cb94c6ac8990c41c19b",
+      "packet_placement_hash": "1231a46da7e854216f7d7b8ca1e05bc9e704db23ea5e38d40bfca710b4c0c5b2",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        4
+      ],
+      "translation": [
+        0,
+        6,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "dd081170b42f8014f3235348b65393f3c9c8dd18e3f3ef4125a7474527ee3bc4",
+      "packet_placement_hash": "3a837576e695539597311b6f075188539e44d11e10e998dc5891822e7fb48c3b",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        6,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "a567efa04a7e033dd7cc79d424644c699e0a30033dacbdc1bdb7d9a88deb5fa7",
+      "packet_placement_hash": "bfa3afebee093aab64865a1ad8a11cda30ff4561056ee003c947353988f5f9fe",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        6,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c59b50dc18902c7ddc7b7c8c251b0f5eb01e3e76f483be9228a96e4d23c86690",
+      "packet_placement_hash": "8902b9b4bf0bc8528a25acd6d2eea3c40ec26a828083380b5b1b90b0307830cd",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        6,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "46688fe18e64feb61b58bf59c9ad18e7404f25ea6617f11a599dca985e979f37",
+      "packet_placement_hash": "437744813bb70620e36ea4f2a53f1e3c9676021357b362dffddcd0b07c9a5c35",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        6,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "f0154233d1c3e588cc97993e585b44e331f5b5c0eaf1ad123b393186a1c2c537",
+      "packet_placement_hash": "b030a03d0875bf7c2d2ac739a9bd895cfe6490f94ec921c02447710cce67d04f",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        6,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "4d4eb17fc1a63e1cb432bd34437e4b993c265e4518c586c641809985ab4a605a",
+      "packet_placement_hash": "dbb2e4d5a0cbce2949133adf9741da0dce773f5cd2a9a954a0927b774f555882",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        6,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "2ed70026d1ce75b314496e2ddea37e2181e5b1f0cf566d0170ddeb6721978c15",
+      "packet_placement_hash": "142f28e27fa392bad427f612b9e0ae7f1d6c6f2b695b58710cf007f952cf66f3",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        6
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        6,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+06_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "def5065b076c2db9d47c629571339092d2a9b7d95d7731ef4f8f7303a7bd1a92",
+      "packet_placement_hash": "5792abeaa407f3fdd1040f398ac346950beeb075322eb879e0457f6e3cb13be8",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        7
+      ],
+      "support_min": [
+        0,
+        0,
+        1
+      ],
+      "translation": [
+        0,
+        6,
+        10
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c58e64be67923a2668046db839742931884043d1e2db68da4c362140b4a8a850",
+      "packet_placement_hash": "0213564e5b122736c54d0544bb615e80363747a4b6d32b6a4245f4c37bebd70e",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        8
+      ],
+      "support_min": [
+        0,
+        0,
+        2
+      ],
+      "translation": [
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "1c2dc86e618e915cd850bc3b416d59cb8fac4ce460eb2aac6dee2815f1bdefda",
+      "packet_placement_hash": "82788397b77ded8ebb95cd2671e874039d6b5b983d1fad03bb9c8a9fac3657e9",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        9
+      ],
+      "support_min": [
+        0,
+        0,
+        3
+      ],
+      "translation": [
+        0,
+        7,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "6a4594f54f925094eaa14eff4dd64a53fdc506b028e56d4f4c776fb8bc98646b",
+      "packet_placement_hash": "01dc80338302435809d492baa2c43355ac2b5b92cc35ba5d86c3d9631bd73832",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        4
+      ],
+      "translation": [
+        0,
+        7,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "66ef877472e18d6c703f8da9d7954c819eb252fdc91e1b832fb485db08566b34",
+      "packet_placement_hash": "b1be96c3db3dd67885f5d7a2bbf0344455bafdaac959ae8852b8e17b956ced31",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        7,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "077a0c4a5ceefeb7957085904a8fde66f5d578fd2d86f02106c2e6820dc16ef0",
+      "packet_placement_hash": "3fb9d3c1753e2be06b155e6f8483b11af6ebda2f3302b4370e8e5b903429863e",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        7,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c26f2c38559eee63465ff7dc2c96c23ee4eeeade3785975049433bcf6e36d7a4",
+      "packet_placement_hash": "38f7d9fcf2997d665c85e9f71b8c7eefc4b604049d5eec54358a7bfdcc0d2179",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        7,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "78c5f49b5d1ec3a283ad274766ae57dc81fee97a568d1736aa771e2b442dfe89",
+      "packet_placement_hash": "07e9a7bf62f7571a58447697c683cfa48c4b4765634861efce200a92d420e84f",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        7,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "32cdafc02d6f40913efc72bee97904f6bdf6a4c5dcaff6f26ab0c15c2ed81206",
+      "packet_placement_hash": "bae3d42ec61d968be8357fcbcb2a1e37ea6489faad4e715341524ee9475a0064",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        7,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "13463e18e52194546e2133b4fd8ad95e7e1d5dda9924b5b70b66325d7e187e53",
+      "packet_placement_hash": "49523de8bbf3ac403459d06c267a0891592dcb54b00c5665d24d5361cc82dfde",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        7,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "d8ecc997ea7fea6de4d3605badf416fd425ef6da34af4e0c6a167ab2a786e854",
+      "packet_placement_hash": "6a66e440f0577c10507a21851959d30eaae3e04d8769e04482750dd3d5a178ce",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        6
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        7,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+07_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "b946717823e279f9522736d31d05c5fc0c28b58fd767175a5614478ca8fc2c28",
+      "packet_placement_hash": "4e0bb7da9f7a3538c67d25e3c95dddfcfd6a5a41278b462b1c01161ea77d2c62",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        7
+      ],
+      "support_min": [
+        0,
+        0,
+        1
+      ],
+      "translation": [
+        0,
+        7,
+        10
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "f875aaf7fd5f029fd855fc5d1dddadd89a662391d873ab8cf141c2bbdb1f923a",
+      "packet_placement_hash": "4be91893be74de67ee730f77ec7c3d344ed2f2fa8ed98080ec917d9d63d1bdf3",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        8
+      ],
+      "support_min": [
+        0,
+        0,
+        2
+      ],
+      "translation": [
+        0,
+        8,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "06bd718c8a817802166f1a717090a39d3f81254f7f36f0bf258dac2a8ec70a74",
+      "packet_placement_hash": "f92ce73a8872bb40c59d7cb31c323587f9f7f311eca964edf9e337b78d63b7e6",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        9
+      ],
+      "support_min": [
+        0,
+        0,
+        3
+      ],
+      "translation": [
+        0,
+        8,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c67219df85af8b07390b11462bf831b07f872f0214bb200ff139faaacc535e51",
+      "packet_placement_hash": "9d33ee8439d1f0e841a0cec176c6d81c76148b9a881f3712934801b350ef943c",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        4
+      ],
+      "translation": [
+        0,
+        8,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "277568447d099b4b59ca59fbed6aa4851b4ecdb2783b10d41df3a476315c8243",
+      "packet_placement_hash": "e47e99e5c30e385ba48cfc12a7a673494f47db66a33033f77d076652b1b01d42",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        8,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "8b4e78b6eb25763d85a4cf35a879b06313c69bf0542939a0689767d00ff72589",
+      "packet_placement_hash": "43a8f52c83d4874763efa5fb1678eda05c5b9f6725a6e127bd7222186ec12908",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        8,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "0d04eecb3c14d2bd999747a59076ef2564bc2c8286f3e82263a2a45c1774fdfc",
+      "packet_placement_hash": "d3fe54022df01df1a9415025dd4c1ed31501b74e9f14d5b2f7f42c6b7745532a",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        8,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "96d8323db5344f920929bd44f0efc86195f732e637246b1a0b90d03f7bc8327b",
+      "packet_placement_hash": "93c723af72b9738fbc385cbfec8051cef6cb915acf435f722be54cc048983f6b",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        8,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "37b7621731f60fa56f27b4a3a1e613ff4cddb21a16f825166ee8e1c4089410cf",
+      "packet_placement_hash": "8c7c7da89b3d6a97b6d8c51a0c8dd6cb1e259d249c4a47162c2efafee7aa7343",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        8,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "8d3d791bdf82c7d820a24d30f0af50eeea2a6d415bc3f9b282937ef9526f609b",
+      "packet_placement_hash": "23671b2db2e3e59858f1cfa36f97ba4cff570d087f1ba8eeecf11848b9c315b8",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        8,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "4fa73c71bbe8f1e8be74037a3c3e9c7c322beb61988bc5e6df6e9b525a5733b3",
+      "packet_placement_hash": "a3bf53d9e5b31d9d34d7317fc86657235cc5875422787928d1f5771f60523073",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        6
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        8,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+08_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "09d70988bc703e41ddbd4d7f6b88ac2609fbf8b9ff67e3126abc19fc67a07a42",
+      "packet_placement_hash": "48a9f270e1f3d5c0e9de3ef613fe429025063e249e14c586eaee22523e212f47",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        10,
+        7
+      ],
+      "support_min": [
+        0,
+        0,
+        1
+      ],
+      "translation": [
+        0,
+        8,
+        10
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c5136d7ae80a76b6dc29c8ba91b6f51058f3e93c8206bd23634854ced86a4634",
+      "packet_placement_hash": "d4d52d5df9641f2fb71615d36d7591763524cbe39da8264176050416f9b0060b",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        8
+      ],
+      "support_min": [
+        0,
+        0,
+        2
+      ],
+      "translation": [
+        0,
+        9,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "2befa2b53ec38f3418f9017f218bfad63cb7c31c11422e49202c08a3839e1053",
+      "packet_placement_hash": "1579f962e67063297799c80b32365a7936f313ba08b2c3a174fa99d04658dcb7",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        9
+      ],
+      "support_min": [
+        0,
+        0,
+        3
+      ],
+      "translation": [
+        0,
+        9,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "b6d3a91cdc5c01b9f2b4a54edb8498918d08e730ecbe0f40445010c9b54a8d99",
+      "packet_placement_hash": "f1b64cff8caba70707291beefafe6bdef8e30b2810410881fc9a6d9a43301b1a",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        4
+      ],
+      "translation": [
+        0,
+        9,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "f8e8d19d858e9805149ee240b644054b0b13aecb50d2794831ffa1d0e7d6ac14",
+      "packet_placement_hash": "ce3f439035ce71259ee63f2e5786e13e86ebe5ae6a8d1ceed39f059baa9bf90a",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        9,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "1480231738bb6b2fe830919e7e263e2cd55a566b082a35e14b2e48b36d874833",
+      "packet_placement_hash": "92d66ec02dab6631510b0cd51ddbe476be5872700bb3679243db3847a0577edb",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        9,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "6029d4b7ec8a53137f109ac60f7ba70aad70793b388d1f95c62b6e8da1ab4e89",
+      "packet_placement_hash": "5d777bdd5fa9954cb37deac2f30419a3e68e059bed4d508f6df5560fa487f6ef",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        9,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "1a45e8ed11127041fd0cb90f936ab3816e68212d4d19c8cc4a9474af118d742e",
+      "packet_placement_hash": "e81dbbbde96d8f76a3a7189b1a64a57339641426976b8baeaeddc027cbc26789",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        9,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "73b827391a895c0943647810f894614782ee1eff9bec836ad5f45f980e1fba29",
+      "packet_placement_hash": "77885cc7c28b6703d8a65a142a6d34c002a3bdec1245a74eab7d880824e4542b",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        9,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "77aec7c97fd1511c880974e75881bbc39f9b62769dbdb9f5da6350ad9b42de46",
+      "packet_placement_hash": "9f8aec8f32423bf26953f9842d30a13e18526774b42c1db43c93d0ae03c4c833",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        10
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        9,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "b50455616dd9271814435671df809495c7739eb18616850072a3b47985c20d56",
+      "packet_placement_hash": "42697f5192bfb8b32381c31d52a1b6cb2319942e5f75df9dabf7c85359576c31",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        6
+      ],
+      "support_min": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        9,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+09_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "f3c93a22e44b949fafc3077884c86f4c1e79a37386e6f4f733d69a4a33721a4a",
+      "packet_placement_hash": "8a0b40ab5b5474d2191faf7cc473a5a26072e37a3cc8ed1633a0a571e36a0a53",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        6,
+        7
+      ],
+      "support_min": [
+        0,
+        0,
+        1
+      ],
+      "translation": [
+        0,
+        9,
+        10
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+00",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "65c168b1f353f5dcbd500f10a1ac442c0ed5893aa1da27ec71e8dbbd9084bdb7",
+      "packet_placement_hash": "9ca2bb49f15581324ffcfe9cd866fa8e66ab9fdbbd7a540fb27a0bcb8f781783",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        8
+      ],
+      "support_min": [
+        0,
+        1,
+        2
+      ],
+      "translation": [
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+01",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "5328cf7b0d3435c064b682e90ad63e65d3d4082869aaaf49bc787e3f1b6e5621",
+      "packet_placement_hash": "99d1cf7891565cf62c9b340253d31acaedbd7d4771e5c65e0ef32d1cb5142bc0",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        9
+      ],
+      "support_min": [
+        0,
+        1,
+        3
+      ],
+      "translation": [
+        0,
+        10,
+        1
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+02",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "e8af0e2ce780fdc4ce25e374a635865ffba0463cd32a2e0184e38cc298da85aa",
+      "packet_placement_hash": "69106dda7b34dd686b5d0646faa891906c3d7e302e3b063caff85cfa00580aef",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        10
+      ],
+      "support_min": [
+        0,
+        1,
+        4
+      ],
+      "translation": [
+        0,
+        10,
+        2
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+03",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "a86d56b101f365c97d7d2dedcfa36552c41c54cbbe83d605c76b55a2d0e2fb92",
+      "packet_placement_hash": "93afed20da7ac6353220deeb891dbb89b9254a46e3c282782140c307e14747ea",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        10
+      ],
+      "support_min": [
+        0,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        10,
+        3
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+04",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "3494c3d7331da9c7c1cc9744767bf093f9047296de913eb6dae2a8aca5ec8d0d",
+      "packet_placement_hash": "93127c561d636d76097642a8bc9647c7b8ccbb4d25fc74d1de50452c1a1e2839",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        10
+      ],
+      "support_min": [
+        0,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        10,
+        4
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+05",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "4162bc0845e60643858def9a920c879ea81ff5b99ddca6dc06334208fc547ea2",
+      "packet_placement_hash": "a6a37ad32436aa8843c3888aa80025fbcf189ca4d6789ef3d502beaa0e83448b",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        10
+      ],
+      "support_min": [
+        0,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        10,
+        5
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+06",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "4dfea76b90befc117357a2ce6e6fa67fc79713d3bbb6925212034b6970ee20f4",
+      "packet_placement_hash": "289c15d93eedb6aae46357f6dae505e030426db26bd70c4aad38c01a5f4bd19f",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        10
+      ],
+      "support_min": [
+        0,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        10,
+        6
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+07",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c1d2d7fc920d5a52b70ad090dbb79961bb43cee5ac25879f61995409548feaf8",
+      "packet_placement_hash": "e57de7c0ce5acca8a3c9045db0c884d56dc8cf3c7e27a46fb79d03217fd5d74d",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        10
+      ],
+      "support_min": [
+        0,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        10,
+        7
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+08",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "989de377d42ea74e08ab4a201bcac1452ffeb9933858ce06b7b2d200c96fc886",
+      "packet_placement_hash": "ca103d6f0e676ce5146cbac56b39a880f9439b27556259932bcd448640dce592",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        10
+      ],
+      "support_min": [
+        0,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        10,
+        8
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+09",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "3e31035c0a67d6d96f4e0bfa0eeaf237d032f955e0e847f8b76fa7ee65b3884f",
+      "packet_placement_hash": "855cf0a3ae9f13d0900f90c2e4d28954c8cdfe03ed4b290b6eddf97ece8399d5",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        6
+      ],
+      "support_min": [
+        0,
+        1,
+        0
+      ],
+      "translation": [
+        0,
+        10,
+        9
+      ]
+    },
+    {
+      "admissible": true,
+      "classification": "ADMISSIBLE",
+      "launch_id": "R05_DX+00_DY+10_DZ+10",
+      "loaded_medium_hash": "79cdeb1f10638d29e921b10c475de77c50d58aa269cfdc69b115d69088482621",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "018cfefd5931a374bb22be07495816a6dcdff282ce80efc189751613129023c8",
+      "packet_placement_hash": "b3087d3c6c8710ca10428a43e624bd29baa1969a0bc81ea9287f7c9a3f2cc92a",
+      "realization_id": "R05",
+      "support_count": 363,
+      "support_max": [
+        10,
+        7,
+        7
+      ],
+      "support_min": [
+        0,
+        1,
+        1
+      ],
+      "translation": [
+        0,
+        10,
+        10
+      ]
+    }
+  ],
+  "packet_manifest": [
+    {
+      "amplitude": 0.006,
+      "direction": "+x",
+      "packet_id": "canonical_DEV167_packet_v1",
+      "packet_intrinsic_hash": "c962d7529fe3eb27586eb36c6c322878ec854f7d8e0dc07c9d4851d5d5b8b761",
+      "reference_packet_manifest": "reference_packet_manifest.json"
+    }
+  ],
+  "realization_manifest": [
+    {
+      "dev171_realization_index": 0,
+      "realization_id": "R00",
+      "source_environment": "frozen_DEV171"
+    },
+    {
+      "dev171_realization_index": 1,
+      "realization_id": "R01",
+      "source_environment": "frozen_DEV171"
+    },
+    {
+      "dev171_realization_index": 2,
+      "realization_id": "R02",
+      "source_environment": "frozen_DEV171"
+    },
+    {
+      "dev171_realization_index": 3,
+      "realization_id": "R03",
+      "source_environment": "frozen_DEV171"
+    },
+    {
+      "dev171_realization_index": 4,
+      "realization_id": "R04",
+      "source_environment": "frozen_DEV171"
+    },
+    {
+      "dev171_realization_index": 5,
+      "realization_id": "R05",
+      "source_environment": "frozen_DEV171"
+    },
+    {
+      "dev171_realization_index": 6,
+      "realization_id": "R06",
+      "source_environment": "frozen_DEV171"
+    },
+    {
+      "dev171_realization_index": 7,
+      "realization_id": "R07",
+      "source_environment": "frozen_DEV171"
+    }
+  ],
+  "representation": "BOND_FLUX",
+  "schema": "NativePacketReceiptCollection/v1"
+}

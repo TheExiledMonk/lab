@@ -1,0 +1,594 @@
+{
+  "0": {
+    "BASELINE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 114,
+      "occupied_yz_cells": 114,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C100_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C25_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C50_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "1": {
+    "BASELINE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 116,
+      "occupied_yz_cells": 116,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C100_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C25_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C50_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "2": {
+    "BASELINE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 114,
+      "occupied_yz_cells": 114,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C100_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C25_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C50_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "3": {
+    "BASELINE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 111,
+      "occupied_yz_cells": 111,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C100_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C25_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C50_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "4": {
+    "BASELINE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 111,
+      "occupied_yz_cells": 111,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C100_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C25_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C50_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "5": {
+    "BASELINE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 111,
+      "occupied_yz_cells": 111,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C100_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C25_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C50_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "6": {
+    "BASELINE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 111,
+      "occupied_yz_cells": 111,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C100_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C25_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C50_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "7": {
+    "BASELINE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 111,
+      "occupied_yz_cells": 111,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C100_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C25_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "C50_DISCRETE": {
+      "distinct_native_receipt_cells": 33,
+      "native_cell_occupancy_fraction": 0.2727272727272727,
+      "occupied_xyz_cells": 121,
+      "occupied_yz_cells": 121,
+      "support_bounding_range": {
+        "max": [
+          7.5,
+          10.0,
+          10.0
+        ],
+        "min": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

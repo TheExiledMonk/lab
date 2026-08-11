@@ -40,6 +40,8 @@ DEV182 reconciliation: executable PR16 C25 is `267×267=71,289`, not the stale n
 
 DEV183 closure: longitudinal packet translations change the fixed launch-to-receipt experiment and are not density samples. The current same-experiment domain is the complete 121-state transverse periodic integer-translation set; every scaled replay requires additive, lossless packet/launch/realization receipt provenance. Continuous packet interpolation and output-selected launches remain forbidden.
 
+DEV184 result: the frozen 1/30/60/121 nested exact-reset packet ladder was completed across all eight DEV171 realizations. The preserved DEV177 full-state rank and depth-rank diagnostics are stable by C50 in all eight lanes; C100 is retained as the canonical finite-domain production coverage. This is density sufficiency evidence only, not an observer/channel selection result.
+
 ## Registry integration (DEV181)
 
 The mechanism registry at `docs/PBUF_MECHANISM_REGISTRY.json` is now the primary historical lookup layer. This Historical Attempt Index remains a concise anti-circularity index and must not be expanded into a duplicate of the full registry. Every row above maps to one or more target/attempt records in that registry.

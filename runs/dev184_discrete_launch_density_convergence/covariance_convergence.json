@@ -1,0 +1,114 @@
+{
+  "0": {
+    "BASELINE": {
+      "frobenius_relative_to_C100": 0.06435502219295729
+    },
+    "C100_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0
+    },
+    "C25_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0036844647836691354
+    },
+    "C50_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0015795525003102866
+    }
+  },
+  "1": {
+    "BASELINE": {
+      "frobenius_relative_to_C100": 0.051635141387903
+    },
+    "C100_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0
+    },
+    "C25_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0022541613934109342
+    },
+    "C50_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0012681196970617211
+    }
+  },
+  "2": {
+    "BASELINE": {
+      "frobenius_relative_to_C100": 0.10851652246403719
+    },
+    "C100_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0
+    },
+    "C25_DISCRETE": {
+      "frobenius_relative_to_C100": 0.006644399101890201
+    },
+    "C50_DISCRETE": {
+      "frobenius_relative_to_C100": 0.001416879148596944
+    }
+  },
+  "3": {
+    "BASELINE": {
+      "frobenius_relative_to_C100": 0.07143154212968103
+    },
+    "C100_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0
+    },
+    "C25_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0036949607631355757
+    },
+    "C50_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0020691945660011083
+    }
+  },
+  "4": {
+    "BASELINE": {
+      "frobenius_relative_to_C100": 0.0436413912643379
+    },
+    "C100_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0
+    },
+    "C25_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0031674286277965356
+    },
+    "C50_DISCRETE": {
+      "frobenius_relative_to_C100": 0.004096640481226995
+    }
+  },
+  "5": {
+    "BASELINE": {
+      "frobenius_relative_to_C100": 0.019400788374635783
+    },
+    "C100_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0
+    },
+    "C25_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0020787480995261235
+    },
+    "C50_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0012801717370799779
+    }
+  },
+  "6": {
+    "BASELINE": {
+      "frobenius_relative_to_C100": 0.1007035135856558
+    },
+    "C100_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0
+    },
+    "C25_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0033675880988071074
+    },
+    "C50_DISCRETE": {
+      "frobenius_relative_to_C100": 0.002679196391405841
+    }
+  },
+  "7": {
+    "BASELINE": {
+      "frobenius_relative_to_C100": 0.06599704580513283
+    },
+    "C100_DISCRETE": {
+      "frobenius_relative_to_C100": 0.0
+    },
+    "C25_DISCRETE": {
+      "frobenius_relative_to_C100": 0.004831255407790333
+    },
+    "C50_DISCRETE": {
+      "frobenius_relative_to_C100": 0.002838311327248213
+    }
+  }
+}

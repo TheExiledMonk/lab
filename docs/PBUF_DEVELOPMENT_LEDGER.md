@@ -279,3 +279,10 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - Permanent Packet Lineage Rule: Every independently replayed native packet must carry explicit packet and launch provenance through receipt serialization. Support/translation must never be reconstructed from array dimensions, coverage labels, or historical launch helpers.
 - Permanent Discrete Launch Domain Rule: Current-native launch density is defined only over the complete structurally admissible integer-translated packet-support domain. Continuous position/direction/source interpolation and output-adaptive launch selection remain forbidden.
 - Outcome: `OUTCOME_A`; `DENSITY_CONVERGENCE_AUTHORIZED=true`. Next frontier: `CURRENT-NATIVE DISCRETE LAUNCH-DENSITY CONVERGENCE`, using frozen geometry-only subsets and no change in physics.
+
+## LEDGER ENTRY 017 — DEV184 CURRENT-NATIVE DISCRETE LAUNCH-DENSITY CONVERGENCE
+
+- Date: 2026-08-12. All eight DEV171 realizations were replayed over the complete frozen DEV183 `Z_11 × Z_11` domain under exact reset: 968 independent CPU replays. The only varied condition was integer transverse packet placement.
+- The deterministic nested `1 → 30 → 60 → 121` aggregates retain DEV168 physical receipt arrays and DEV183 packet/launch/realization lineage. Baselines reproduce all eight DEV177 canonical receipt arrays exactly.
+- Result: all eight rank trajectories are `CONVERGED_BY_C50`; native depth information remains nonzero at C100 in every realization. C100 remains the canonical future coverage because the finite domain is small and fully enumerated; C50 is the recorded minimum converged coverage under the current rank-led structural diagnostic.
+- Status: `OUTCOME_B`; `RECEIVED_STATE_DISTRIBUTION_GATE=AUTHORIZED`. This closes density sufficiency only. Native mode/channel sufficiency and physical observer mapping remain later, separate gates.
