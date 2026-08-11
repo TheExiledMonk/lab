@@ -1,0 +1,8 @@
+{
+  "LAUNCH_DENSITY": "initial propagating-state positions per launch plane area",
+  "MEDIUM_RESOLUTION": "native N6 cell spacing and domain discretization",
+  "OBSERVER_BIN_DENSITY": "downstream measurement bins per screen area",
+  "PACKET_DENSITY": "number of independently represented propagating packet states/support cells",
+  "RECEIPT_DENSITY": "number/spatial distribution of recorded receipt events",
+  "SOURCE_RESOLUTION": "number/spacing/extent semantics of physical loading samples"
+}

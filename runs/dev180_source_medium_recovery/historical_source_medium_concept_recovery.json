@@ -1,0 +1,27 @@
+{
+  "EQUATION_NOT_FROZEN": true,
+  "REPULSIVE_SOURCE_MEDIUM_CONCEPT_FOUND": true,
+  "USER_SPECIFIED_SOURCE_MEDIUM_CONCEPT_SEARCHED": true,
+  "findings": [
+    {
+      "exact": "Repulsive one-cell contact at the six N6 neighbors of a source node; out[idx] += magnitude * offset",
+      "source": "pbuf/excitation/native_vector_pair_dynamics.py:source_contact_force",
+      "status": "CURRENT_NODE_DISCRETE"
+    },
+    {
+      "exact": "one-cell local equilibrium constraint; moving integer schedule; source work NOT_DEFINED",
+      "source": "pbuf/labs/foundation/native_source_medium_interaction001.py",
+      "status": "HISTORICAL_SCALAR_ANCESTOR"
+    }
+  ],
+  "forbidden_uninvented_forms": [
+    "1/r",
+    "1/r^2",
+    "Gaussian",
+    "exponential",
+    "Lennard-Jones",
+    "Hooke",
+    "compact support kernel"
+  ],
+  "potential_V_sm_found": false
+}

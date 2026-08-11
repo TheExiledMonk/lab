@@ -1,0 +1,7 @@
+{
+  "DEV170_SOURCE_WORK_RECONCILED": true,
+  "SOURCE_WORK_OMITTED": "expected bookkeeping classification under persistent external forcing",
+  "extended_invariant": "conceptual H_medium+H_source-medium only; no V_sm is frozen, so not implemented",
+  "finding": "DEV169 applies ext every step; medium-only invariant excludes external source potential/work.",
+  "pair_conservation": "DEV167 reciprocal pair law unchanged"
+}

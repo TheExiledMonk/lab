@@ -1,0 +1,11 @@
+{
+  "HISTORICAL_25PCT_RAY_DENSITY_NOT_SOURCE_DENSITY": true,
+  "current_comparison": "DEV178 12/49 atomic packet-cell tile is a coverage control, not density escalation",
+  "historical_grid": [
+    266,
+    266
+  ],
+  "historical_launch_count": 70756,
+  "historical_role": "continuous Cartesian propagating ray launches on an 8x8 plane",
+  "independent_matter_source_locations": false
+}

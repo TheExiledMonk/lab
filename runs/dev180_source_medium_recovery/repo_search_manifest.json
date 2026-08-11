@@ -1,0 +1,39 @@
+{
+  "FULL_RELEVANT_REPO_HISTORY_SEARCHED": true,
+  "FULL_REPOSITORY_HISTORICAL_RECOVERY_ATTEMPTED": true,
+  "excluded": [
+    "observational weak-lensing assets",
+    "new physics",
+    "DEV167/168 modifications"
+  ],
+  "search_terms": [
+    "matter loading",
+    "source loading",
+    "source medium",
+    "source contact",
+    "source force",
+    "repulsive",
+    "boundary condition",
+    "moving source",
+    "c_state",
+    "rho",
+    "stress energy",
+    "metric strain",
+    "source sphere",
+    "source radius",
+    "source region",
+    "packet",
+    "receipt",
+    "266x266"
+  ],
+  "searched_refs": [
+    "origin/foundation/matter-loading-physical-closure001",
+    "origin/foundation/metric-strain-map-closure001",
+    "origin/foundation/pretensioned-neighbor-medium-response001",
+    "origin/foundation/bounded-strain-neighbor-constitutive001",
+    "origin/foundation/bounded-strain-3d-neighbor-network001",
+    "origin/foundation/c-state-bounded-strain-bridge001",
+    "main",
+    "all local and origin branches"
+  ]
+}

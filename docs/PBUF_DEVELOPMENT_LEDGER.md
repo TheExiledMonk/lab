@@ -214,3 +214,29 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 ## CURRENT WEAK-LENSING ROADMAP (DEV179 UPDATE)
 
 `DEV179 native source/launch representation` → `SOURCE/MEDIUM COUPLING DERIVATION` → `true current-native 25% density convergence` → received-state distribution sufficiency → native mode/channel sufficiency → physical observer mapping → direct JWST PSF-corrected `e1/e2`.
+
+## LEDGER ENTRY 013 — DEV180 HISTORICAL SOURCE–MEDIUM RECOVERY AND DENSITY RECONCILIATION
+
+- Date: 2026-08-12. DEV180 searched current code, all relevant foundation refs/merged PRs, development ledger/index, source/medium labs, and preserved run artifacts before proposing any mechanism.
+- **DEV179 Scope Correction:** DEV179 established only that the current DEV167/168 production source-contact API is node-discrete and lacks an exposed off-node mapping. It did not establish that PBUF lacks prior matter/source-to-medium coupling architecture. Historical source-loading work must be recovered and reconciled before a new coupling law is proposed.
+- Recovery: PR36/37 preserve effective minimal matter-loading and metric-strain normalization constraints; they are not a current microscopic vector source map. PR69 preserves the separation of local source forcing `S` from neighbour redistribution `L[u]`. PR70 is mathematically the same normalized bounded constitutive family as DEV167. PR72 is the historical local N6 redistribution ancestor. PR74's `rho → A8 → c_state` source proxy is superseded as current physics, while its source-to-accumulation role is retained as historical context. DEV159 further records node-discrete stationary/moving local forcing, but not a continuous coordinate law.
+- Current contact: `source_contact_force` is a vector, repulsive one-cell external contact applied to the six N6 neighbours; DEV169 superposes it over loaded cells and applies the resulting external force persistently. Thus DEV170's `SOURCE_WORK_OMITTED` medium-only-invariant classification is expected bookkeeping, not a DEV167 pair-law failure.
+- Density correction: historical C25's 70,756 entities were continuous Cartesian propagating ray launches, not independent matter/source locations. Current roughly-12k receipts are time-resolved positive bond-flux events from a 49-cell packet support, not physical-source count. Therefore `DEV179_VALID_BUT_BLOCKER_MISAPPLIED=true`: off-node matter contact remains unclosed, but it was not established as the necessary prerequisite for historical ray-density semantics. Current canonical code nevertheless has no independently defined denser packet-launch representation, so no density run is authorized.
+- Outcome: `OUTCOME_B_PLUS_OUTCOME_D`. No source law, pair law, receipt rule, interpolation physics, true 25% run, observer work, or observational input was introduced.
+
+## CURRENT WEAK-LENSING ROADMAP (DEV180 UPDATE)
+
+`DEV180 historical source/medium recovery + density semantics reconciliation` branches as follows:
+
+1. Recover/reuse the surviving source-boundary semantics only if a current-native bridge is independently specified; do not revive A8, `c_state`, scalar F03 propagation, or invent an off-node kernel.
+2. If the desired experiment is packet/launch density, first derive its current-native representation independently of physical-source placement; then run predetermined packet-density convergence with frozen source loading and DEV167/168.
+3. If physical source resolution is the target, audit current vector-native grid refinement/convergence; only derive an off-node source coupling if that remains independently required.
+4. Continue to received-state distribution, mode/channel, and observer work only along the branch authorized by those audits.
+
+## Permanent rules (DEV180 additions)
+
+**Repository-First Mechanism Rule:** Before declaring any PBUF mechanism missing or proposing a replacement mechanism, the current code, development ledger, historical attempt index, relevant historical PRs/commits, Dev docs, and run artifacts must be searched for prior derivations. A mechanism absent from the current production path is not automatically absent from PBUF history.
+
+**Density Terminology Rule:** Source resolution, medium resolution, propagation-launch density, packet density, receipt density, and observer-bin density are distinct quantities and may not be used interchangeably.
+
+**Permanent anti-loop requirement:** Before any new Dev inspect current HEAD, read the ledger and historical index, search relevant code, PRs, commits and Dev docs, identify prior equivalents, and only then define the frontier.

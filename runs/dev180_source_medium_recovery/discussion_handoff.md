@@ -1,0 +1,3 @@
+# DEV180 handoff
+
+Historical matter-loading and local source-to-neighbour redistribution architecture was recovered. PR70 is mathematically the same normalized bounded constitutive family as DEV167; PR69/72 survive as the forcing-versus-redistribution separation and local-N6 principle. PR36/37 remain effective-level constraints, not a vector microscopic source map. PR74's c_state/A8 route is superseded. DEV179 remains correct about off-node contact but its global missing-mechanism conclusion is corrected. The historical 70,756 C25 entities were ray launches, not matter locations. Current receipt multiplicity is time/bond-flux events from 49 packet lineage cells, not source count. No new source law was introduced.

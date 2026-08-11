@@ -1,0 +1,44 @@
+[
+  {
+    "action": "NEEDS_NEW_BRIDGE",
+    "current_analogue": "external source force requires native mapping",
+    "historical_mechanism": "PR36 minimal matter source",
+    "historical_role": "source coupling",
+    "still_valid": "effective only"
+  },
+  {
+    "action": "REUSE_AS_PRINCIPLE",
+    "current_analogue": "none microscopic",
+    "historical_mechanism": "PR37 metric strain",
+    "historical_role": "source normalization",
+    "still_valid": "effective only"
+  },
+  {
+    "action": "REUSE_AS_PRINCIPLE",
+    "current_analogue": "external_force",
+    "historical_mechanism": "PR69 source S",
+    "historical_role": "local forcing",
+    "still_valid": "yes as separation"
+  },
+  {
+    "action": "RESTORE",
+    "current_analogue": "DEV167 sigma(e)=e/(1-e^2)",
+    "historical_mechanism": "PR70 bounded strain",
+    "historical_role": "pair constitutive",
+    "still_valid": "yes"
+  },
+  {
+    "action": "REUSE_AS_PRINCIPLE",
+    "current_analogue": "DEV167 N6 vector net_force",
+    "historical_mechanism": "PR72 N6 equilibrium",
+    "historical_role": "redistribution",
+    "still_valid": "ancestor"
+  },
+  {
+    "action": "SUPERSEDED",
+    "current_analogue": "external source force only, not c_state",
+    "historical_mechanism": "PR74 c_state",
+    "historical_role": "local native loading",
+    "still_valid": "role only"
+  }
+]
