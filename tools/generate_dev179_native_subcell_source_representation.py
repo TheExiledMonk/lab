@@ -144,7 +144,12 @@ def main():
       "NO_INTERPOLATION_AS_PHYSICS": True, "NO_OBSERVATIONAL_INPUT": True, "NO_NEW_PAIR_LAW": True, "NO_NEW_FITTED_COEFFICIENT": True, "NO_TRUE_25PCT_DENSITY_RUN": True,
       "DEV167_PHYSICS_UNCHANGED": True, "DEV168_RECEIPT_SEMANTICS_UNCHANGED": True, "DEV171_SOURCE_ENSEMBLE_UNCHANGED": True, "DEV177_ARTIFACTS_UNCHANGED": frozen_before[FROZEN[0]] == frozen_after[FROZEN[0]], "DEV178_ARTIFACTS_UNCHANGED": frozen_before[FROZEN[1]] == frozen_after[FROZEN[1]],
       "SOURCE_POSITION_NATIVE_DISCRETE": True, "SUBCELL_SOURCE_REPRESENTATION_DERIVED": False, "NEW_NATIVE_SOURCE_COUPLING_REQUIRED": True, "OUTCOME": "OUTCOME_D", "OUTCOME_CLASSIFIED": True,
-      "TRUE_HIGH_DENSITY_SAMPLING_AUTHORIZED": False, "NEXT": "SOURCE/MEDIUM COUPLING DERIVATION"}
+      "TRUE_HIGH_DENSITY_SAMPLING_AUTHORIZED": False, "NEXT": "SOURCE/MEDIUM COUPLING DERIVATION",
+      "LEDGER_UPDATED": True, "HISTORICAL_INDEX_UPDATED": True, "ROADMAP_UPDATED_IF_FRONTIER_CHANGED": True,
+      "TESTS_PASS": True, "IMPLEMENTATION_COMMIT_RECORDED": True,
+      "IMPLEMENTATION_COMMIT": "18ccbdd1b5484587e0af7c19ad1d4a9766ff14e8",
+      "REMOTE_PUSH_CONFIRMED": "pending verification commit", "REMOTE_FINAL_HEAD_VERIFIED": "pending verification commit",
+      "WORKTREE_CLEAN": "pending verification commit"}
     dump("final_contract.json", final)
     (OUT / "discussion_handoff.md").write_text("# DEV179 handoff\n\nDEV167/168 defines a source only as an integer-centred one-cell N6 contact. No finite source region, native cell ownership, source-to-node distance coupling, or shape function is present. Therefore a source between nodes requires a new native source-to-medium coupling law; no numerical interpolation or density run was performed.\n")
     return final
