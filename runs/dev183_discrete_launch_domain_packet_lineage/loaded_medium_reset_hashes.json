@@ -1,0 +1,23 @@
+{
+  "EXACT_RESET_REPLAY": true,
+  "LOADED_MEDIUM_REPLAY_HASH_IDENTITY": true,
+  "per_launch": [
+    {
+      "initial_loaded_medium_hash": "fb23669b2f6e2f50469a4c1dabc28ff7a6ad8ddc4f091a293dbac6a5b6ef0967",
+      "launch_id": "R00_DX+00_DY+00_DZ+00"
+    },
+    {
+      "initial_loaded_medium_hash": "fb23669b2f6e2f50469a4c1dabc28ff7a6ad8ddc4f091a293dbac6a5b6ef0967",
+      "launch_id": "R00_DX+00_DY+00_DZ+05"
+    },
+    {
+      "initial_loaded_medium_hash": "fb23669b2f6e2f50469a4c1dabc28ff7a6ad8ddc4f091a293dbac6a5b6ef0967",
+      "launch_id": "R00_DX+00_DY+05_DZ+05"
+    },
+    {
+      "initial_loaded_medium_hash": "fb23669b2f6e2f50469a4c1dabc28ff7a6ad8ddc4f091a293dbac6a5b6ef0967",
+      "launch_id": "R00_DX+00_DY+10_DZ+10"
+    }
+  ],
+  "reference_loaded_medium_hash": "fb23669b2f6e2f50469a4c1dabc28ff7a6ad8ddc4f091a293dbac6a5b6ef0967"
+}

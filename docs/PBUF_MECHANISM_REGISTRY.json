@@ -298,6 +298,42 @@
       "reopen_condition": "Only if a new native packet placement, direction, mode, or physical probe derivation independently changes the discrete-support closure."
     },
     {
+      "target_id": "discrete_native_launch_domain",
+      "canonical_name": "Discrete native launch domain and packet receipt lineage",
+      "plain_language_question": "Which exact integer packet translations are same-experiment samples, and how is their receipt provenance retained losslessly?",
+      "aliases": [
+        "discrete launch domain",
+        "packet-aware receipt",
+        "packet lineage",
+        "launch manifest",
+        "121",
+        "integer translation"
+      ],
+      "keywords": [
+        "discrete launch domain",
+        "packet-aware receipt",
+        "packet lineage",
+        "launch manifest",
+        "121",
+        "integer translation"
+      ],
+      "domain": "SAMPLING / RAY DENSITY",
+      "first_seen_date": null,
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev183_discrete_launch_domain_packet_lineage"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev183_discrete_launch_domain_packet_lineage"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if native boundary, packet initialization, receipt geometry, or a separately derived packet degree of freedom changes."
+    },
+    {
       "target_id": "vulkan_viewer",
       "canonical_name": "Vulkan and native viewer",
       "plain_language_question": "How can frozen native state be inspected without promoting visual diagnostics to physics?",
@@ -2059,6 +2095,81 @@
       "confidence": "HIGH"
     },
     {
+      "attempt_id": "dev183_discrete_launch_domain_packet_lineage",
+      "target_id": "discrete_native_launch_domain",
+      "name": "Discrete native launch domain and packet-aware receipt lineage",
+      "aliases": [
+        "discrete launch domain",
+        "packet lineage",
+        "launch manifest",
+        "exact reset",
+        "121"
+      ],
+      "summary": "The complete same-experiment domain is the 11x11 transverse periodic integer-translation set at fixed x (121 states); additive compact receipt lineage round-trips without changing DEV168 physical arrays. Outcome A: density convergence authorized.",
+      "why_attempted": "Enumerate exact translations of the fixed DEV167 packet and retain replay provenance before density convergence.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV183",
+      "pr": null,
+      "branch": null,
+      "commits": [],
+      "files": [
+        "tools/generate_dev183_discrete_launch_domain_packet_lineage.py",
+        "pbuf/receipt/packet_lineage.py"
+      ],
+      "run_directories": [
+        "runs/dev183_discrete_launch_domain_packet_lineage"
+      ],
+      "tests": [],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "The complete same-experiment domain is the 11x11 transverse periodic integer-translation set at fixed x (121 states); additive compact receipt lineage round-trips without changing DEV168 physical arrays. Outcome A: density convergence authorized.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev182_native_packet_launch_representation",
+        "dev168_finite_loaded_receipt",
+        "dev174_coordinate_serialization",
+        "dev177_full_received_state"
+      ],
+      "still_valid_components": [],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": false,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        "synthetic_only"
+      ],
+      "reopen_condition": "Only if its stated assumptions are independently re-established.",
+      "do_not_repeat_reason": "Do not repeat without inspecting the cited source evidence.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "tools/generate_dev183_discrete_launch_domain_packet_lineage.py"
+        },
+        {
+          "type": "file",
+          "value": "pbuf/receipt/packet_lineage.py"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
       "attempt_id": "dev168_finite_loaded_receipt",
       "target_id": "finite_loaded_receipt",
       "name": "Finite native loaded receipt",
@@ -2785,12 +2896,12 @@
   ],
   "current_frontiers": [
     {
-      "target_id": "native_packet_launch_representation",
-      "summary": "OUTCOME_B: exact-reset independent replays exist only for finite discrete native supports; continuous launch coordinates and packet-aware receipt lineage remain un-derived, so no density run is authorized."
+      "target_id": "discrete_native_launch_domain",
+      "summary": "OUTCOME_A: the complete same-experiment domain is 121 exact transverse periodic translations at fixed x, with additive packet-aware receipt lineage. Current-native discrete density convergence is authorized."
     },
     {
       "target_id": "sampling_density_terms",
-      "summary": "Historical C25 count discrepancy is reconciled: executable C25 is 267x267=71,289 and executable 100% is 534x534=285,156."
+      "summary": "Historical C25 count discrepancy is reconciled: executable C25 is 267x267=71,289 and executable 100% is 534x534=285,156; neither count is a current target."
     },
     {
       "target_id": "physical_observer_mapping",

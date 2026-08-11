@@ -29,6 +29,10 @@
       "type": "TARGET"
     },
     {
+      "id": "discrete_native_launch_domain",
+      "type": "TARGET"
+    },
+    {
       "id": "vulkan_viewer",
       "type": "TARGET"
     },
@@ -207,6 +211,14 @@
     {
       "id": "dev182_native_packet_launch_representation",
       "type": "ATTEMPT"
+    },
+    {
+      "id": "dev183_discrete_launch_domain_packet_lineage",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "canonical:dev183_discrete_launch_domain_packet_lineage",
+      "type": "CANONICAL_RESULT"
     },
     {
       "id": "dev168_finite_loaded_receipt",
@@ -439,6 +451,16 @@
       "source": "dev182_native_packet_launch_representation",
       "target": "native_packet_launch_representation",
       "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev183_discrete_launch_domain_packet_lineage",
+      "target": "discrete_native_launch_domain",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev183_discrete_launch_domain_packet_lineage",
+      "target": "canonical:dev183_discrete_launch_domain_packet_lineage",
+      "type": "VALIDATED_BY"
     },
     {
       "source": "dev168_finite_loaded_receipt",

@@ -38,6 +38,8 @@ Historical continuous G3D launch density cannot be transferred directly to DEV16
 
 DEV182 reconciliation: executable PR16 C25 is `267×267=71,289`, not the stale nominal `266×266=70,756`; executable PR106 is `534×534=285,156`. PR107 establishes that actual launch-coordinate arrays are primary receipt lineage. Current DEV167 packet launches are finite discrete node supports under exact-reset replay, not continuous historical ray coordinates.
 
+DEV183 closure: longitudinal packet translations change the fixed launch-to-receipt experiment and are not density samples. The current same-experiment domain is the complete 121-state transverse periodic integer-translation set; every scaled replay requires additive, lossless packet/launch/realization receipt provenance. Continuous packet interpolation and output-selected launches remain forbidden.
+
 ## Registry integration (DEV181)
 
 The mechanism registry at `docs/PBUF_MECHANISM_REGISTRY.json` is now the primary historical lookup layer. This Historical Attempt Index remains a concise anti-circularity index and must not be expanded into a duplicate of the full registry. Every row above maps to one or more target/attempt records in that registry.

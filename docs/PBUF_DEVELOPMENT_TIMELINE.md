@@ -27,6 +27,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-12 | DEV179 | Matter and source–medium coupling | Native sub-cell source representation closure | PARTIAL | PARTIAL |
 | 2026-08-12 | DEV180 | Sampling and density terminology | Historical source–medium recovery and density reconciliation | FULL | CANONICAL |
 | 2026-08-12 | DEV182 | Native packet launch representation | Current-native packet launch representation closure | PARTIAL | PARTIAL |
+| 2026-08-12 | DEV183 | Discrete native launch domain and packet receipt lineage | Discrete native launch domain and packet-aware receipt lineage | FULL | CANONICAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

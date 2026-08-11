@@ -1,0 +1,15 @@
+{
+  "aligned_compact_arrays": [
+    "receipt_launch_index",
+    "receipt_packet_index",
+    "receipt_realization_index"
+  ],
+  "invalid_lineage": "fatal",
+  "manifests": [
+    "launch_manifest",
+    "packet_manifest",
+    "realization_manifest"
+  ],
+  "native_received_state": "unmodified DEV168 arrays",
+  "schema": "NativePacketReceiptCollection/v1"
+}

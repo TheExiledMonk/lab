@@ -1,0 +1,93 @@
+{
+  "MATCHES_FOLLOWED_TO_SOURCE": true,
+  "MATCHING_REGISTRY_ENTRIES_READ": true,
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "PR107": [
+      "TARGET: Coordinate lineage and WCS bridge",
+      "STATUS: PARTIAL",
+      "",
+      "PR107  Historical launch-coordinate receipt correction  FULL / HISTORICAL_ONLY",
+      "DEV173  Source-to-observer coordinate lineage  FULL / SUPERSEDED",
+      "DEV174  Observer coordinate-provenance serialization  FULL / CANONICAL"
+    ],
+    "coordinate lineage": [
+      "TARGET: Coordinate lineage and WCS bridge",
+      "STATUS: PARTIAL",
+      "",
+      "PR107  Historical launch-coordinate receipt correction  FULL / HISTORICAL_ONLY",
+      "DEV173  Source-to-observer coordinate lineage  FULL / SUPERSEDED",
+      "DEV174  Observer coordinate-provenance serialization  FULL / CANONICAL"
+    ],
+    "discrete support": [
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "independent replay": [
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "launch lineage": [
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "native packet launch representation": [
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "packet density": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "packet launch": [
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "ray density": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Discrete native launch domain and packet receipt lineage",
+      "STATUS: CANONICAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL",
+      "DEV183  Discrete native launch domain and packet-aware receipt lineage  FULL / CANONICAL"
+    ],
+    "receipt lineage": [
+      "TARGET: Discrete native launch domain and packet receipt lineage",
+      "STATUS: CANONICAL",
+      "",
+      "PR107  Historical launch-coordinate receipt correction  FULL / HISTORICAL_ONLY",
+      "DEV183  Discrete native launch domain and packet-aware receipt lineage  FULL / CANONICAL"
+    ]
+  },
+  "sources": [
+    "runs/dev182_native_packet_launch_representation/*",
+    "tools/generate_dev169_raw_abell_native_observer.py",
+    "pbuf/excitation/native_finite_receipt.py",
+    "tools/generate_dev174_observer_coordinate_serialization.py",
+    "tools/generate_dev177_full_native_received_state.py",
+    "tools/pbuf_native_receipt_viewer.py"
+  ]
+}

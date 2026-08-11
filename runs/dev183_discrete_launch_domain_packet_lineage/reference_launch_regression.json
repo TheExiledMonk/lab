@@ -1,0 +1,16 @@
+{
+  "REFERENCE_LAUNCH_BYTE_IDENTICAL": true,
+  "physical_array_equality": {
+    "directions": true,
+    "local_content_candidates": true,
+    "local_displacement": true,
+    "local_flux": true,
+    "local_momentum": true,
+    "native_cell_ids": true,
+    "progression_steps": true,
+    "received_positions": true,
+    "source_positions": true,
+    "weights": true
+  },
+  "reference_hash": "6c65b88d3af700d287778f6b4121a11e1560c7d2613beeb96e34cd38a35f2f38"
+}
