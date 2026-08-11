@@ -1,0 +1,25 @@
+{
+  "POTENTIAL_FIT": "historical code exists but is not used by Dev166",
+  "classes": {
+    "0.18": "HISTORICAL_ONLY/CONTROL_ONLY",
+    "Rmax": "HISTORICAL_ONLY",
+    "current Dev156-165 coefficients": "VALID_CONSTANT or NUMERICAL_FIXTURE",
+    "mass_to_light/NFW/target-derived": "PROHIBITED in current native chain",
+    "test sigma/radius/kernel": "NUMERICAL_FIXTURE"
+  },
+  "searched": [
+    "0.18",
+    "Rmax",
+    "sigma",
+    "radius",
+    "kernel",
+    "cutoff",
+    "screening",
+    "coupling",
+    "mass_to_light",
+    "NFW",
+    "target-derived",
+    "fit",
+    "fitted"
+  ]
+}

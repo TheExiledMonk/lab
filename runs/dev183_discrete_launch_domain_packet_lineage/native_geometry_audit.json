@@ -1,0 +1,12 @@
+{
+  "boundary_condition": "periodic N6 via frozen DEV167 np.roll operators",
+  "fixed_direction": "+x",
+  "launch_x": 1,
+  "periodicity_canonical_for_packet_state": true,
+  "receipt_plane_x": 8,
+  "shape": [
+    11,
+    11,
+    11
+  ]
+}

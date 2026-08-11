@@ -1,0 +1,111 @@
+{
+  "auxiliary_state_support": "tau is bond-local; r is node-local",
+  "classification": "SAME_DISPERSION_DIFFERENT_STATE_SUPPORT",
+  "conclusion": "The medium fixes dispersion but selects no unique nonzero k or wavelength.",
+  "grid_audit": [
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.15017192235777269,
+      "k_magnitude": 0.36959913571644626,
+      "k_vector": [
+        0.36959913571644626,
+        0.0,
+        0.0
+      ],
+      "mode_indices": [
+        1,
+        0,
+        0
+      ],
+      "native_wavelength": 17.0,
+      "phase_progression": 0.4063102638664812,
+      "progression_frequency": 0.15017192235777269,
+      "shape": [
+        17,
+        17,
+        17
+      ],
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 1.0824674490095276e-15,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.10237886236709137,
+      "k_magnitude": 0.25132741228718347,
+      "k_vector": [
+        0.25132741228718347,
+        0.0,
+        0.0
+      ],
+      "mode_indices": [
+        1,
+        0,
+        0
+      ],
+      "native_wavelength": 24.999999999999996,
+      "phase_progression": 0.407352550346181,
+      "progression_frequency": 0.10237886236709029,
+      "shape": [
+        25,
+        25,
+        25
+      ],
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.07763242766228273,
+      "k_magnitude": 0.19039955476301776,
+      "k_vector": [
+        0.19039955476301776,
+        0.0,
+        0.0
+      ],
+      "mode_indices": [
+        1,
+        0,
+        0
+      ],
+      "native_wavelength": 33.0,
+      "phase_progression": 0.4077342920203176,
+      "progression_frequency": 0.07763242766228273,
+      "shape": [
+        33,
+        33,
+        33
+      ],
+      "steps": 24
+    },
+    {
+      "absolute_frequency_error": 0.0,
+      "amplitude": 0.001,
+      "analytic_progression_frequency": 0.052319082529073295,
+      "k_magnitude": 0.1282282715750936,
+      "k_vector": [
+        0.1282282715750936,
+        0.0,
+        0.0
+      ],
+      "mode_indices": [
+        1,
+        0,
+        0
+      ],
+      "native_wavelength": 49.0,
+      "phase_progression": 0.408015189524207,
+      "progression_frequency": 0.052319082529073295,
+      "shape": [
+        49,
+        49,
+        49
+      ],
+      "steps": 24
+    }
+  ],
+  "mapping": "r=-gradient_adjoint(tau)/6 at the completed F02 kick maps F02 node evolution to F03 retained change",
+  "mapping_coefficient_origin": "N6 coordination",
+  "node_dispersion_max_difference": 1.0824674490095276e-15,
+  "preferred_peak_found": false
+}

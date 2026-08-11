@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "classification": "PRIOR_N6_REUSABLE",
+      "evidence": "runs/native_n6_relational_stress_dynamics001/report.txt",
+      "problem": "free reversible N6 propagation"
+    },
+    {
+      "classification": "NO_PRIOR_IMPLEMENTATION",
+      "problem": "loaded directional response"
+    },
+    {
+      "classification": "PRIOR_1D_ONLY",
+      "problem": "historical routing"
+    },
+    {
+      "classification": "PRIOR_N6_SUPERSEDED",
+      "note": "observer harness reusable; ray physics not native finite propagation",
+      "problem": "geometric lensing"
+    },
+    {
+      "classification": "NO_PRIOR_IMPLEMENTATION",
+      "problem": "c_state as propagation speed"
+    }
+  ]
+}

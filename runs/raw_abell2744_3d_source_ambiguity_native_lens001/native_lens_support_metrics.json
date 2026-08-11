@@ -1,0 +1,131 @@
+{
+  "results": [
+    {
+      "centroid_zyx": [
+        8.0,
+        64.65244963160936,
+        63.27472919061027
+      ],
+      "name": "Z01_THIN_CENTRAL",
+      "peak_deformation": 0.07585921832525039,
+      "r_3d_rms": 52.50436472061474,
+      "r_perp_rms": 52.279554861162445,
+      "r_z_rms": 4.853499586281949,
+      "total_native_response": 1374.5688036435208,
+      "transverse_principal_angle_degrees": 148.14300625747904,
+      "transverse_principal_variances": [
+        1411.8624137688998,
+        1321.2894427123942
+      ]
+    },
+    {
+      "centroid_zyx": [
+        7.999999999999999,
+        64.6552099204924,
+        63.27584694887657
+      ],
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "peak_deformation": 0.032159965341242665,
+      "r_3d_rms": 52.504721081577244,
+      "r_perp_rms": 52.27939676635231,
+      "r_z_rms": 4.859054393658634,
+      "total_native_response": 1374.2603952853947,
+      "transverse_principal_angle_degrees": 148.12070073908802,
+      "transverse_principal_variances": [
+        1411.9407982250127,
+        1321.194528028676
+      ]
+    },
+    {
+      "centroid_zyx": [
+        7.999999999999999,
+        64.65843893969503,
+        63.278679941425565
+      ],
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "peak_deformation": 0.0222771459395402,
+      "r_3d_rms": 52.50579263442664,
+      "r_perp_rms": 52.27941998989998,
+      "r_z_rms": 4.870370179879282,
+      "total_native_response": 1373.9146055583183,
+      "transverse_principal_angle_degrees": 148.11433791381612,
+      "transverse_principal_variances": [
+        1412.053341863617,
+        1321.084412616737
+      ]
+    },
+    {
+      "centroid_zyx": [
+        8.000000000000002,
+        64.65560039412469,
+        63.27618933264193
+      ],
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "peak_deformation": 0.034333049686266603,
+      "r_3d_rms": 52.504818517760626,
+      "r_perp_rms": 52.27938104612697,
+      "r_z_rms": 4.860276228450293,
+      "total_native_response": 1374.2132386377723,
+      "transverse_principal_angle_degrees": 148.1180056061688,
+      "transverse_principal_variances": [
+        1411.9574944560234,
+        1321.1761881101168
+      ]
+    },
+    {
+      "centroid_zyx": [
+        8.0,
+        64.66111587113923,
+        63.28185021761495
+      ],
+      "name": "Z04_DOUBLE_LAYER",
+      "peak_deformation": 0.040913819706169884,
+      "r_3d_rms": 52.5082330776083,
+      "r_perp_rms": 52.27986720451853,
+      "r_z_rms": 4.891832582003015,
+      "total_native_response": 1373.771982452493,
+      "transverse_principal_angle_degrees": 148.13419597270385,
+      "transverse_principal_variances": [
+        1412.0837998916818,
+        1321.1007150304106
+      ]
+    },
+    {
+      "centroid_zyx": [
+        8.063482118791182,
+        64.65491716416133,
+        63.275938248206465
+      ],
+      "name": "Z05_ASYMMETRIC",
+      "peak_deformation": 0.05220242983132055,
+      "r_3d_rms": 52.50666228425689,
+      "r_perp_rms": 52.279426247186386,
+      "r_z_rms": 4.879669609512981,
+      "total_native_response": 1374.283925693309,
+      "transverse_principal_angle_degrees": 148.12284951496824,
+      "transverse_principal_variances": [
+        1411.9397459898623,
+        1321.1986627451386
+      ]
+    },
+    {
+      "centroid_zyx": [
+        7.967522620408834,
+        64.65969672414492,
+        63.28058599465375
+      ],
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "peak_deformation": 0.07564424402837147,
+      "r_3d_rms": 52.50806527927964,
+      "r_perp_rms": 52.280190430989286,
+      "r_z_rms": 4.88657424711718,
+      "total_native_response": 1374.005175573897,
+      "transverse_principal_angle_degrees": 148.14771686728952,
+      "transverse_principal_variances": [
+        1412.002217786222,
+        1321.2160937142817
+      ]
+    }
+  ],
+  "weight": "absolute node excursion; threshold-free moments"
+}

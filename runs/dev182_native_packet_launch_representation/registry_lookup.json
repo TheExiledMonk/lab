@@ -1,0 +1,109 @@
+{
+  "REGISTRY_LOOKUP_COMPLETE": true,
+  "RELEVANT_REGISTRY_HITS_FOLLOWED_TO_SOURCE": true,
+  "followed_sources": [
+    "tools/generate_dev180_source_medium_recovery.py",
+    "pbuf/wl/launch.py",
+    "pbuf/labs/foundation/m10_coverage_25pct_science001.py",
+    "pbuf/labs/foundation/native_full_state_100pct_observer_coverage001.py",
+    "tools/generate_dev169_raw_abell_native_observer.py",
+    "pbuf/excitation/native_vector_pair_dynamics.py",
+    "pbuf/excitation/native_finite_receipt.py"
+  ],
+  "queries": {
+    "100% coverage": [
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY"
+    ],
+    "266x266": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY"
+    ],
+    "70,756": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY"
+    ],
+    "C25": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY"
+    ],
+    "G3D": [
+      "TARGET: Weak-lensing native path",
+      "STATUS: ACTIVE",
+      "",
+      "Pre-ledger  Scalar/gradient lensing and old ray architecture  PARTIAL / HISTORICAL_ONLY",
+      "Pre-ledger  A8/M10 processed five-lens path  FULL / SUPERSEDED"
+    ],
+    "excitation launch": [
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "launch density": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "packet density": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "packet launch": [
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "photon launch": [
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "ray density": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "ray launch": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ]
+  }
+}

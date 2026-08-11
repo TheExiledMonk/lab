@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PBUF mechanism registry",
+  "type": "object",
+  "required": [
+    "registry_schema_version",
+    "targets",
+    "attempts"
+  ],
+  "properties": {
+    "registry_schema_version": {
+      "const": 1
+    },
+    "targets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "target_id",
+          "canonical_name",
+          "plain_language_question",
+          "aliases",
+          "keywords",
+          "domain",
+          "attempt_ids",
+          "current_status",
+          "canonical_solution_ids",
+          "do_not_rederive",
+          "reopen_condition"
+        ]
+      }
+    },
+    "attempts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "attempt_id",
+          "target_id",
+          "name",
+          "why_attempted",
+          "result",
+          "current_status",
+          "equations",
+          "evidence",
+          "confidence",
+          "reopen_condition",
+          "do_not_repeat_reason"
+        ]
+      }
+    }
+  }
+}

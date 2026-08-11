@@ -1,0 +1,35 @@
+{
+  "permanent_rule": "Do not retest a rejected mechanism unless its recorded reopen condition changes.",
+  "rules": [
+    {
+      "BY": "DEV163",
+      "MECHANISM": "linear loaded F03 changes disturbance",
+      "REOPEN_ONLY_IF": "governing dynamic operator changes independently",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV164",
+      "MECHANISM": "scalar static state defines geometry",
+      "REOPEN_ONLY_IF": "new native geometry semantics/state exists independently",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV165_H01",
+      "MECHANISM": "existing scalar bond state alone redirects",
+      "REOPEN_ONLY_IF": "governing loaded update changes independently",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV165_H06",
+      "MECHANISM": "frozen F02/F03 memory alone redirects",
+      "REOPEN_ONLY_IF": "memory receives an independently derived load-dependent law",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV165_H12",
+      "MECHANISM": "minimal binary magnetic-like pair",
+      "REOPEN_ONLY_IF": "richer state and reversible law are independently established",
+      "STATUS": "REJECTED"
+    }
+  ]
+}

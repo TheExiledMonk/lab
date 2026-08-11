@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "id": "G00",
+      "result": "scalar state only; geometry underdetermined",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "G01",
+      "reason": "bond excursion has no preferred-separation or length contract",
+      "status": "REJECTED"
+    },
+    {
+      "id": "G02",
+      "reason": "no deformed length or direction law",
+      "status": "REJECTED"
+    },
+    {
+      "id": "G03",
+      "reason": "no bond vectors to integrate",
+      "status": "REJECTED"
+    },
+    {
+      "id": "G04",
+      "reason": "no local angle/vector geometry is defined",
+      "status": "REJECTED"
+    }
+  ],
+  "fitted_coefficients": [],
+  "surviving_deformed_geometry_candidate": null
+}

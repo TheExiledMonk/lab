@@ -1,0 +1,6 @@
+{
+  "full_conservative_bookkeeping": "medium + source_potential",
+  "medium": "0.5 sum_a |p_a|^2 + sum_positive_bonds -0.5 log(1-epsilon_ab^2)",
+  "receipt": "diagnostic accumulation, excluded because it leaves native state unchanged",
+  "source_potential": "-sum_a F_source,a dot u_a for constant persistent source force"
+}

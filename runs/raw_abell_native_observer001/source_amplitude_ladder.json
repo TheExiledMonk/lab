@@ -1,0 +1,128 @@
+{
+  "observational_selection": false,
+  "rows": [
+    {
+      "equilibrium": {
+        "iterations": 7,
+        "max_force_residual": 5.037942315535768e-07,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "receipt": {
+        "centroid": [
+          7.5,
+          5.226678483201538,
+          4.287366079005535
+        ],
+        "covariance": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.4407956976206158,
+            -0.29104353753056345
+          ],
+          [
+            0.0,
+            -0.29104353753056345,
+            1.7964181780152164
+          ]
+        ],
+        "finite": true,
+        "flux_direction": [
+          0.9999999999999666,
+          -1.1368764179644978e-07,
+          2.320946776563783e-07
+        ],
+        "receipt_count": 14326,
+        "total_received_proxy": 1.5093519528653158e-05
+      },
+      "scale": 0.5
+    },
+    {
+      "equilibrium": {
+        "iterations": 8,
+        "max_force_residual": 1.20224531854386e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "receipt": {
+        "centroid": [
+          7.499999999999995,
+          5.226545758159402,
+          4.287024452092171
+        ],
+        "covariance": [
+          [
+            2.839899258795648e-29,
+            1.0933687582192169e-29,
+            -2.1335435536067895e-29
+          ],
+          [
+            1.08829031602299e-29,
+            1.4426217867804196,
+            -0.29105635496498156
+          ],
+          [
+            -2.1346266337997545e-29,
+            -0.29105635496498156,
+            1.7978423238165953
+          ]
+        ],
+        "finite": true,
+        "flux_direction": [
+          0.9999999999998028,
+          -4.253935910877867e-07,
+          4.6190157846619654e-07
+        ],
+        "receipt_count": 15373,
+        "total_received_proxy": 1.831486687393921e-05
+      },
+      "scale": 1
+    },
+    {
+      "equilibrium": {
+        "iterations": 8,
+        "max_force_residual": 4.660065690501513e-06,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "receipt": {
+        "centroid": [
+          7.500000000000012,
+          5.226395955714556,
+          4.286488027914774
+        ],
+        "covariance": [
+          [
+            1.5461673742331887e-28,
+            -4.989429883200341e-29,
+            -1.2686368248701017e-28
+          ],
+          [
+            -5.0076482917468974e-29,
+            1.4449144772947393,
+            -0.29104093754154253
+          ],
+          [
+            -1.268254292221663e-28,
+            -0.29104093754154253,
+            1.7996787326599146
+          ]
+        ],
+        "finite": true,
+        "flux_direction": [
+          0.9999999999991306,
+          -9.812961983399645e-07,
+          8.808388957925054e-07
+        ],
+        "receipt_count": 15489,
+        "total_received_proxy": 2.4889492527223834e-05
+      },
+      "scale": 2
+    }
+  ]
+}

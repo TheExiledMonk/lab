@@ -1,0 +1,13 @@
+{
+  "NODE_CROSSING_TESTED": true,
+  "conclusion": "existing model does not define either side; a discontinuity cannot be classified as physical or numerical",
+  "left": {
+    "accepted": false,
+    "reason": "DEV167 defines source contact at an integer native node only; no source-to-node coupling or cell-ownership law is frozen"
+  },
+  "node": "canonical node contact",
+  "right": {
+    "accepted": false,
+    "reason": "DEV167 defines source contact at an integer native node only; no source-to-node coupling or cell-ownership law is frozen"
+  }
+}

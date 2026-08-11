@@ -1,0 +1,17 @@
+{
+  "CRITICAL_PATH_BLOCKERS": [
+    "RB1 native loaded propagation mechanism"
+  ],
+  "goal": "RAW Abell -> finite native loaded propagation -> received 3D state -> existing observer -> 2D output",
+  "path": [
+    "RAW archive [PASS]",
+    "projected source [PASS]",
+    "3D ambiguity family [PARTIAL]",
+    "stationary lens [PASS]",
+    "loaded directional response [MISSING]",
+    "finite loaded propagation [BLOCKED]",
+    "received 3D state [BLOCKED]",
+    "observer [PASS but disconnected]",
+    "2D output [BLOCKED]"
+  ]
+}

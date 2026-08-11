@@ -1,0 +1,15 @@
+[
+  {
+    "evidence": [
+      {
+        "type": "run",
+        "value": "runs/dev180_source_medium_recovery/source_medium_correspondence_matrix.json"
+      }
+    ],
+    "reason": "Both use epsilon/(1-epsilon^2) after frozen dimensionless normalization.",
+    "relation": "NORMALIZATION_EQUIVALENT",
+    "relation_id": "eq_pr70_dev167",
+    "source": "pr70_bounded_strain_constitutive",
+    "target": "dev167_vector_relational_dynamics"
+  }
+]

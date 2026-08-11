@@ -1,0 +1,14 @@
+{
+  "DEV171_LEDGER_SPREAD_CORRECTED": true,
+  "classification": "SAME_METRIC_STALE_LEDGER",
+  "correct_values": {
+    "R_3D": 1.832080315334409,
+    "V_constrained": 0.10624528343935943
+  },
+  "frozen_final_contract_constrained_spread": 0.10624528343935943,
+  "frozen_final_contract_ratio": 1.832080315334409,
+  "ledger_reported_constrained_spread": 0.10928180988704732,
+  "ledger_reported_ratio": 1.7811737615579724,
+  "recomputed_from_existing_pairwise_artifact": 0.10624528343935943,
+  "scientific_ensemble_modified": false
+}

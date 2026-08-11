@@ -1,0 +1,67 @@
+{
+  "all_seven_realizations_retained": true,
+  "fixed_source_required_for_static_background": true,
+  "nontrivial_loaded_dynamic_coupling_derived": false,
+  "principle": "Q=Q0+deltaQ; subtract the fixed-source Q0 equilibrium equation",
+  "result": "The source and Q0 cancel exactly; deltaQ follows free F03.",
+  "rows": [
+    {
+      "derivation": "Linearity: D(Q0+dQ)+S=D(Q0)+S+D(dQ)=D(dQ).",
+      "equilibrium_residual_linf": 1.3877787807814457e-17,
+      "loaded_operator_depends_on_background": false,
+      "name": "Z01_THIN_CENTRAL",
+      "perturbation_q_free_map_error_linf": 4.865380410085853e-18,
+      "perturbation_retained_free_map_error_linf": 4.079550556354351e-18
+    },
+    {
+      "derivation": "Linearity: D(Q0+dQ)+S=D(Q0)+S+D(dQ)=D(dQ).",
+      "equilibrium_residual_linf": 1.1722935989999517e-17,
+      "loaded_operator_depends_on_background": false,
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "perturbation_q_free_map_error_linf": 4.526810422284223e-18,
+      "perturbation_retained_free_map_error_linf": 2.6447346463484447e-18
+    },
+    {
+      "derivation": "Linearity: D(Q0+dQ)+S=D(Q0)+S+D(dQ)=D(dQ).",
+      "equilibrium_residual_linf": 1.0814916670542907e-17,
+      "loaded_operator_depends_on_background": false,
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "perturbation_q_free_map_error_linf": 4.0001147477696585e-18,
+      "perturbation_retained_free_map_error_linf": 2.6209598211824456e-18
+    },
+    {
+      "derivation": "Linearity: D(Q0+dQ)+S=D(Q0)+S+D(dQ)=D(dQ).",
+      "equilibrium_residual_linf": 1.2115959277525512e-17,
+      "loaded_operator_depends_on_background": false,
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "perturbation_q_free_map_error_linf": 3.9029028278212015e-18,
+      "perturbation_retained_free_map_error_linf": 2.6447346463484447e-18
+    },
+    {
+      "derivation": "Linearity: D(Q0+dQ)+S=D(Q0)+S+D(dQ)=D(dQ).",
+      "equilibrium_residual_linf": 1.1190999299123816e-17,
+      "loaded_operator_depends_on_background": false,
+      "name": "Z04_DOUBLE_LAYER",
+      "perturbation_q_free_map_error_linf": 3.764158169316457e-18,
+      "perturbation_retained_free_map_error_linf": 5.304153402930931e-18
+    },
+    {
+      "derivation": "Linearity: D(Q0+dQ)+S=D(Q0)+S+D(dQ)=D(dQ).",
+      "equilibrium_residual_linf": 1.0055975149803054e-17,
+      "loaded_operator_depends_on_background": false,
+      "name": "Z05_ASYMMETRIC",
+      "perturbation_q_free_map_error_linf": 6.739204232230802e-18,
+      "perturbation_retained_free_map_error_linf": 5.104187452929912e-18
+    },
+    {
+      "derivation": "Linearity: D(Q0+dQ)+S=D(Q0)+S+D(dQ)=D(dQ).",
+      "equilibrium_residual_linf": 9.770525046578354e-18,
+      "loaded_operator_depends_on_background": false,
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "perturbation_q_free_map_error_linf": 1.4909454085235493e-17,
+      "perturbation_retained_free_map_error_linf": 9.226243512240912e-18
+    }
+  ],
+  "small_perturbation_amplitude": 1e-08,
+  "small_perturbation_gate": "PASS_FOR_LINEARIZATION_AUDIT"
+}

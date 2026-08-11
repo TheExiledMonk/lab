@@ -1,0 +1,15 @@
+{
+  "lens_field_anisotropy": "NOT_DEFINED",
+  "lens_field_domain_support": "NOT_DEFINED",
+  "lens_field_r50": "NOT_DEFINED",
+  "lens_field_r68": "NOT_DEFINED",
+  "lens_field_r90": "NOT_DEFINED",
+  "lens_field_r95": "NOT_DEFINED",
+  "lens_field_rms_radius": "NOT_DEFINED",
+  "lens_field_sign_structure": "NOT_DEFINED",
+  "lens_field_support_type": "NOT_DEFINED",
+  "positive_weight_manufactured": false,
+  "reason": "No repository transform connects RAW detector pixels to rho3 or an M10 native lens field.",
+  "stage": "L0_NATIVE_LENS",
+  "status": "NOT_DEFINED"
+}

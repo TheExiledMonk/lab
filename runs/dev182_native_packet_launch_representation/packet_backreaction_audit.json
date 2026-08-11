@@ -1,0 +1,6 @@
+{
+  "classification": "FINITE_BACKREACTION_ONLY",
+  "packet_changes_evolved_medium_state": true,
+  "reset_semantics": "fresh VectorPairState from exact serialized/regenerated loaded background for every replay",
+  "simultaneous_superposition": "not the density mechanism; would evolve a different combined physical state"
+}

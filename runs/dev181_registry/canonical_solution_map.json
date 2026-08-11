@@ -1,0 +1,42 @@
+{
+  "bounded_strain_constitutive": [
+    "dev167_vector_relational_dynamics"
+  ],
+  "coordinate_lineage": [
+    "dev174_coordinate_serialization"
+  ],
+  "domain_accumulation": [],
+  "domain_cosmology": [],
+  "domain_data_pipelines": [],
+  "domain_em_waves": [],
+  "domain_foundations": [],
+  "domain_momentum_flux": [],
+  "domain_planck_finite_bound": [],
+  "domain_propagation": [],
+  "domain_reversibility": [],
+  "finite_loaded_receipt": [
+    "dev168_finite_loaded_receipt"
+  ],
+  "native_loaded_directional_response": [
+    "dev167_vector_relational_dynamics"
+  ],
+  "native_packet_launch_representation": [
+    "dev182_native_packet_launch_representation"
+  ],
+  "observational_lensing_comparison": [],
+  "physical_observer_mapping": [],
+  "sampling_density_terms": [
+    "dev180_density_reconciliation"
+  ],
+  "source_depth_reconstruction": [
+    "dev171_independent_3d_source"
+  ],
+  "source_medium_coupling": [],
+  "source_work_accounting": [
+    "dev170_source_work_accounting"
+  ],
+  "vulkan_viewer": [
+    "dev178_vulkan_viewer"
+  ],
+  "weak_lensing_native_path": []
+}

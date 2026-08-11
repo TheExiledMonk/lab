@@ -1,0 +1,63 @@
+{
+  "all_pass": true,
+  "diagnostic": "projected source support vs independent catalog sky support",
+  "lensing_comparison": false,
+  "realizations": [
+    {
+      "cataloged_object_count": 341,
+      "closure": "PASS",
+      "projection_nonzero_cells": 33,
+      "projection_total": 0.9999999999999999,
+      "realization_id": 0
+    },
+    {
+      "cataloged_object_count": 341,
+      "closure": "PASS",
+      "projection_nonzero_cells": 33,
+      "projection_total": 0.9999999999999999,
+      "realization_id": 1
+    },
+    {
+      "cataloged_object_count": 341,
+      "closure": "PASS",
+      "projection_nonzero_cells": 33,
+      "projection_total": 0.9999999999999999,
+      "realization_id": 2
+    },
+    {
+      "cataloged_object_count": 341,
+      "closure": "PASS",
+      "projection_nonzero_cells": 33,
+      "projection_total": 1.0,
+      "realization_id": 3
+    },
+    {
+      "cataloged_object_count": 341,
+      "closure": "PASS",
+      "projection_nonzero_cells": 33,
+      "projection_total": 0.9999999999999999,
+      "realization_id": 4
+    },
+    {
+      "cataloged_object_count": 341,
+      "closure": "PASS",
+      "projection_nonzero_cells": 33,
+      "projection_total": 0.9999999999999999,
+      "realization_id": 5
+    },
+    {
+      "cataloged_object_count": 341,
+      "closure": "PASS",
+      "projection_nonzero_cells": 33,
+      "projection_total": 0.9999999999999999,
+      "realization_id": 6
+    },
+    {
+      "cataloged_object_count": 341,
+      "closure": "PASS",
+      "projection_nonzero_cells": 33,
+      "projection_total": 0.9999999999999999,
+      "realization_id": 7
+    }
+  ]
+}

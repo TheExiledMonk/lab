@@ -1,0 +1,20 @@
+{
+  "LAUNCH_AXES_CLASSIFIED": true,
+  "LONGITUDINAL_TRANSLATION_CLASSIFIED": true,
+  "TRANSVERSE_TRANSLATIONS_CLASSIFIED": true,
+  "x": {
+    "evidence": "DEV169 LAUNCH_X=1, PLANE_X=8",
+    "reason": "periodic translation preserves state but changes launch-to-receipt progression distance relative to fixed x=8 receipt face; x is fixed at current launch semantics",
+    "status": "STRUCTURALLY_ADMISSIBLE_BUT_NOT_SAME_EXPERIMENT"
+  },
+  "y": {
+    "evidence": "DEV167 periodic N6 + DEV169 transverse support",
+    "reason": "periodic transverse native translation preserves packet intrinsic state and fixed +x propagation distance",
+    "status": "ADMISSIBLE_SAMPLING_AXIS"
+  },
+  "z": {
+    "evidence": "DEV167 periodic N6 + DEV169 transverse support",
+    "reason": "periodic transverse native translation preserves packet intrinsic state and fixed +x propagation distance",
+    "status": "ADMISSIBLE_SAMPLING_AXIS"
+  }
+}

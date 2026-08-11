@@ -1,0 +1,92 @@
+{
+  "classification": "PARTIAL",
+  "finding": "Six directed scalar differences are exact, but they are not spatial vector components.",
+  "radial_direction_assumed": false,
+  "rows": [
+    {
+      "candidate": "G00_SCALAR_STATE_ONLY",
+      "candidate_displacement_u_times_normalized_asymmetry_accepted": false,
+      "deformed_bond_directions_derivable": false,
+      "deformed_bond_lengths_derivable": false,
+      "directed_scalar_differences_available": true,
+      "global_node_embedding_derivable": false,
+      "name": "Z01_THIN_CENTRAL",
+      "reason": "The frozen laws define scalar node excursion and scalar edge differences, but no law maps either quantity to spatial bond lengths, angles, or vector node displacement.",
+      "rejection": "Node excursion is not established as displacement magnitude; normalizing its scalar gradient would add a geometry law.",
+      "scalar_node_excursion_available": true
+    },
+    {
+      "candidate": "G00_SCALAR_STATE_ONLY",
+      "candidate_displacement_u_times_normalized_asymmetry_accepted": false,
+      "deformed_bond_directions_derivable": false,
+      "deformed_bond_lengths_derivable": false,
+      "directed_scalar_differences_available": true,
+      "global_node_embedding_derivable": false,
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "reason": "The frozen laws define scalar node excursion and scalar edge differences, but no law maps either quantity to spatial bond lengths, angles, or vector node displacement.",
+      "rejection": "Node excursion is not established as displacement magnitude; normalizing its scalar gradient would add a geometry law.",
+      "scalar_node_excursion_available": true
+    },
+    {
+      "candidate": "G00_SCALAR_STATE_ONLY",
+      "candidate_displacement_u_times_normalized_asymmetry_accepted": false,
+      "deformed_bond_directions_derivable": false,
+      "deformed_bond_lengths_derivable": false,
+      "directed_scalar_differences_available": true,
+      "global_node_embedding_derivable": false,
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "reason": "The frozen laws define scalar node excursion and scalar edge differences, but no law maps either quantity to spatial bond lengths, angles, or vector node displacement.",
+      "rejection": "Node excursion is not established as displacement magnitude; normalizing its scalar gradient would add a geometry law.",
+      "scalar_node_excursion_available": true
+    },
+    {
+      "candidate": "G00_SCALAR_STATE_ONLY",
+      "candidate_displacement_u_times_normalized_asymmetry_accepted": false,
+      "deformed_bond_directions_derivable": false,
+      "deformed_bond_lengths_derivable": false,
+      "directed_scalar_differences_available": true,
+      "global_node_embedding_derivable": false,
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "reason": "The frozen laws define scalar node excursion and scalar edge differences, but no law maps either quantity to spatial bond lengths, angles, or vector node displacement.",
+      "rejection": "Node excursion is not established as displacement magnitude; normalizing its scalar gradient would add a geometry law.",
+      "scalar_node_excursion_available": true
+    },
+    {
+      "candidate": "G00_SCALAR_STATE_ONLY",
+      "candidate_displacement_u_times_normalized_asymmetry_accepted": false,
+      "deformed_bond_directions_derivable": false,
+      "deformed_bond_lengths_derivable": false,
+      "directed_scalar_differences_available": true,
+      "global_node_embedding_derivable": false,
+      "name": "Z04_DOUBLE_LAYER",
+      "reason": "The frozen laws define scalar node excursion and scalar edge differences, but no law maps either quantity to spatial bond lengths, angles, or vector node displacement.",
+      "rejection": "Node excursion is not established as displacement magnitude; normalizing its scalar gradient would add a geometry law.",
+      "scalar_node_excursion_available": true
+    },
+    {
+      "candidate": "G00_SCALAR_STATE_ONLY",
+      "candidate_displacement_u_times_normalized_asymmetry_accepted": false,
+      "deformed_bond_directions_derivable": false,
+      "deformed_bond_lengths_derivable": false,
+      "directed_scalar_differences_available": true,
+      "global_node_embedding_derivable": false,
+      "name": "Z05_ASYMMETRIC",
+      "reason": "The frozen laws define scalar node excursion and scalar edge differences, but no law maps either quantity to spatial bond lengths, angles, or vector node displacement.",
+      "rejection": "Node excursion is not established as displacement magnitude; normalizing its scalar gradient would add a geometry law.",
+      "scalar_node_excursion_available": true
+    },
+    {
+      "candidate": "G00_SCALAR_STATE_ONLY",
+      "candidate_displacement_u_times_normalized_asymmetry_accepted": false,
+      "deformed_bond_directions_derivable": false,
+      "deformed_bond_lengths_derivable": false,
+      "directed_scalar_differences_available": true,
+      "global_node_embedding_derivable": false,
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "reason": "The frozen laws define scalar node excursion and scalar edge differences, but no law maps either quantity to spatial bond lengths, angles, or vector node displacement.",
+      "rejection": "Node excursion is not established as displacement magnitude; normalizing its scalar gradient would add a geometry law.",
+      "scalar_node_excursion_available": true
+    }
+  ],
+  "spherical_symmetry_assumed": false
+}

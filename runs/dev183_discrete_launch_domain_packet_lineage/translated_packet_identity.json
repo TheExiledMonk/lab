@@ -1,0 +1,34 @@
+{
+  "no_renormalization": true,
+  "pass": false,
+  "rows": [
+    {
+      "amplitude": 0.006,
+      "direction": "+x",
+      "launch_id": "R00_DX+00_DY+00_DZ+00",
+      "packet_intrinsic_hash": "c962d7529fe3eb27586eb36c6c322878ec854f7d8e0dc07c9d4851d5d5b8b761",
+      "support_count": 363
+    },
+    {
+      "amplitude": 0.006,
+      "direction": "+x",
+      "launch_id": "R00_DX+00_DY+00_DZ+05",
+      "packet_intrinsic_hash": "0936bcb92e4c8957dfd7a98254b93b6415234648382d83aed0e4256ba248f62e",
+      "support_count": 363
+    },
+    {
+      "amplitude": 0.006,
+      "direction": "+x",
+      "launch_id": "R00_DX+00_DY+05_DZ+05",
+      "packet_intrinsic_hash": "7433ff5081918af69a1ee5b0ca7158805416e77f87961da713174dbe3cc02402",
+      "support_count": 363
+    },
+    {
+      "amplitude": 0.006,
+      "direction": "+x",
+      "launch_id": "R00_DX+00_DY+10_DZ+10",
+      "packet_intrinsic_hash": "1975bee73c770d980080c1df768975a34c7b3f370da57ade69f085224d3c35c1",
+      "support_count": 363
+    }
+  ]
+}

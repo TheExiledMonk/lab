@@ -1,0 +1,8 @@
+{
+  "GRID_TO_SKY_RECOVERABILITY": "DETERMINISTIC_APPROXIMATION",
+  "grid_to_native_from_frozen_inputs_and_deterministic_execution": "DETERMINISTIC_CELL_FOOTPRINT",
+  "grid_to_native_from_serialized_array": "NOT_RECOVERABLE",
+  "native_to_sky": "DETERMINISTIC_CELL_FOOTPRINT",
+  "no_observational_WL_map_used": true,
+  "reason": "frozen source catalogue, reference centre, component/depth manifests and code deterministically reconstruct native-cell sky footprints; frozen 6x6 values alone lack the per-realization receipt/adapter extent and bin provenance, and all within-cell locations are lossy."
+}

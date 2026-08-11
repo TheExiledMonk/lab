@@ -1,0 +1,125 @@
+{
+  "BASELINE_REGRESSION_ALL_REALIZATIONS_PASS": true,
+  "per_realization": {
+    "0": {
+      "canonical_receipt_hash": "ccb36be9e3cf871a58c99d3a8536f0f9f921940ad956da5b358ee09801e2b20d",
+      "dev177_array_equality": {
+        "directions": true,
+        "local_content_candidates": true,
+        "local_displacement": true,
+        "local_flux": true,
+        "local_momentum": true,
+        "native_cell_ids": true,
+        "progression_steps": true,
+        "received_positions": true,
+        "source_positions": true,
+        "weights": true
+      }
+    },
+    "1": {
+      "canonical_receipt_hash": "2c16902d7854e38637fee01ea0d9fb39ac85f54d6e55a132b7b923cee68b26f9",
+      "dev177_array_equality": {
+        "directions": true,
+        "local_content_candidates": true,
+        "local_displacement": true,
+        "local_flux": true,
+        "local_momentum": true,
+        "native_cell_ids": true,
+        "progression_steps": true,
+        "received_positions": true,
+        "source_positions": true,
+        "weights": true
+      }
+    },
+    "2": {
+      "canonical_receipt_hash": "4c11b572658cf09aaf44782e2aa4fab1fcbf31a16d73f380573c2db58fa839d8",
+      "dev177_array_equality": {
+        "directions": true,
+        "local_content_candidates": true,
+        "local_displacement": true,
+        "local_flux": true,
+        "local_momentum": true,
+        "native_cell_ids": true,
+        "progression_steps": true,
+        "received_positions": true,
+        "source_positions": true,
+        "weights": true
+      }
+    },
+    "3": {
+      "canonical_receipt_hash": "2aba92f6a455bd586665744cdcfd313988c82486043531db32d250142baef915",
+      "dev177_array_equality": {
+        "directions": true,
+        "local_content_candidates": true,
+        "local_displacement": true,
+        "local_flux": true,
+        "local_momentum": true,
+        "native_cell_ids": true,
+        "progression_steps": true,
+        "received_positions": true,
+        "source_positions": true,
+        "weights": true
+      }
+    },
+    "4": {
+      "canonical_receipt_hash": "1fda24773db9db492ad6df88379eea3cb37e68018921240a0b0d4bbed9e4a71a",
+      "dev177_array_equality": {
+        "directions": true,
+        "local_content_candidates": true,
+        "local_displacement": true,
+        "local_flux": true,
+        "local_momentum": true,
+        "native_cell_ids": true,
+        "progression_steps": true,
+        "received_positions": true,
+        "source_positions": true,
+        "weights": true
+      }
+    },
+    "5": {
+      "canonical_receipt_hash": "d05f78d14adfda4ceb917dca14225de6219202639ed113ee8d9efae70da72b32",
+      "dev177_array_equality": {
+        "directions": true,
+        "local_content_candidates": true,
+        "local_displacement": true,
+        "local_flux": true,
+        "local_momentum": true,
+        "native_cell_ids": true,
+        "progression_steps": true,
+        "received_positions": true,
+        "source_positions": true,
+        "weights": true
+      }
+    },
+    "6": {
+      "canonical_receipt_hash": "3e37dd5ce7ee9cdc091ee68aaccb94501191c9949ee465c3930103a77baa116d",
+      "dev177_array_equality": {
+        "directions": true,
+        "local_content_candidates": true,
+        "local_displacement": true,
+        "local_flux": true,
+        "local_momentum": true,
+        "native_cell_ids": true,
+        "progression_steps": true,
+        "received_positions": true,
+        "source_positions": true,
+        "weights": true
+      }
+    },
+    "7": {
+      "canonical_receipt_hash": "c458803767dec2b208db7b388c4cf5e791a79c4f67e90c5c23203b70a779b903",
+      "dev177_array_equality": {
+        "directions": true,
+        "local_content_candidates": true,
+        "local_displacement": true,
+        "local_flux": true,
+        "local_momentum": true,
+        "native_cell_ids": true,
+        "progression_steps": true,
+        "received_positions": true,
+        "source_positions": true,
+        "weights": true
+      }
+    }
+  }
+}

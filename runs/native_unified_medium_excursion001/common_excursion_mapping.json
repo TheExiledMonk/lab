@@ -1,0 +1,20 @@
+{
+  "common_variable": "xi_ab=(q_b-q_a)/Delta_x; Delta_x=1 in Dev156 native cells",
+  "coordination": 6,
+  "dynamic_mapping": "xi_ab=positive_gradient(q)/Delta_x",
+  "dynamic_perturbation_embedding": "VARIABLES_COEXIST; BACKGROUND COUPLING UNRESOLVED",
+  "new_physical_coefficient": false,
+  "normalization_origin": "existing static strain definition and native-cell Dev156 gradient",
+  "quadratic_match": "STRUCTURAL",
+  "reason_not_exact": "Dev156 exact invariants include auxiliary-memory and time-stagger cross terms",
+  "static_limit_embedding": {
+    "F02_one_step_change": 0.010888391846453313,
+    "F02_stationary": false,
+    "F03_one_step_change": 0.010888391846453313,
+    "F03_stationary": false,
+    "classification": "NOT_SUPPORTED",
+    "reason": "Dev156 is source-free; the static balancing source is absent"
+  },
+  "static_mapping": "xi_ab=epsilon_ab=(u_b-u_a)/Delta_x",
+  "status": "DERIVED"
+}

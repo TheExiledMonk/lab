@@ -1,0 +1,20 @@
+{
+  "DQ": true,
+  "ERR": true,
+  "FILTER_DIVERSITY": "ONE_CHANNEL",
+  "FILTER_STABILITY_UNRESOLVED": true,
+  "FLC": 116,
+  "FLT": 116,
+  "RAW": 116,
+  "WCS": true,
+  "effective_filters": [
+    "F814W"
+  ],
+  "science_chip_arrays": 232,
+  "serialized_constraint": "runs/raw_abell2744_detector_to_native_source001/native_2d_source_constraint.npz",
+  "unresolved": [
+    "absolute detector-to-native coupling",
+    "unique depth",
+    "mass mapping"
+  ]
+}

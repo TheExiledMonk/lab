@@ -1,0 +1,7 @@
+{
+  "LENS_GEOMETRY_FILTER_STABILITY": "UNRESOLVED",
+  "channels": [
+    "F814W"
+  ],
+  "reason": "Only one Dev161 filter channel is serialized; no cross-filter comparison is possible."
+}

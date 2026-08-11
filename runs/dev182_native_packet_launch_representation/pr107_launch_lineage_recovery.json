@@ -1,0 +1,6 @@
+{
+  "bug": "receipt helper reconstructed initial coordinates from the old hard-coded 25% launcher",
+  "failure": "100% terminal-ray arrays mismatched reconstructed 25% coordinate arrays",
+  "fix": "receipt extraction consumes the actual x0/y0 arrays from its propagation lane",
+  "permanent_rule": "LAUNCH_COORDINATES_ARE_PRIMARY_LINEAGE=true"
+}

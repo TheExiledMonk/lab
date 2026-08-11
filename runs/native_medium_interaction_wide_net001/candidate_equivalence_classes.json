@@ -1,0 +1,41 @@
+{
+  "classes": [
+    {
+      "basis": "frozen linear bond response/null",
+      "members": [
+        "H01",
+        "H06"
+      ]
+    },
+    {
+      "basis": "polarity family; magnetic-like adds unspecified pair semantics",
+      "members": [
+        "H03",
+        "H04",
+        "H12"
+      ]
+    },
+    {
+      "basis": "combined absent state families",
+      "members": [
+        "H05",
+        "H13"
+      ]
+    },
+    {
+      "basis": "allocation is a constrained relation matrix",
+      "members": [
+        "H07",
+        "H10"
+      ]
+    },
+    {
+      "basis": "richer state; not proven equivalent",
+      "members": [
+        "H08",
+        "H09"
+      ]
+    }
+  ],
+  "non_equivalence_note": "H14 is an output interpretation, not an interaction."
+}

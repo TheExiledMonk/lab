@@ -1,0 +1,8 @@
+{
+  "DEPTH_SENSITIVITY_DOMINANT_INPUT": "DIRECTION",
+  "DIRECTION_SUPPORTED": true,
+  "POSITION_SUPPORTED": false,
+  "WEIGHT_SUPPORTED": false,
+  "no_new_decoder": true,
+  "results": "existing frozen adapter derives screen from launch/direction; deposition_weight is not supplied to historical decoder"
+}

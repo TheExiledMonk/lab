@@ -1,0 +1,40 @@
+{
+  "rows": [
+    {
+      "concept": "source loading",
+      "current": "fixed DEV167 loaded medium",
+      "historical": "fixed A8/M10 field",
+      "relation": "structural analogue"
+    },
+    {
+      "concept": "ray/packet",
+      "current": "finite state perturbation evolved with medium",
+      "historical": "non-backreacting geometric trajectory",
+      "relation": "PARTIALLY_EQUIVALENT"
+    },
+    {
+      "concept": "launch coordinate",
+      "current": "integer-node finite support",
+      "historical": "continuous 2D cell-center coordinate",
+      "relation": "not transferable"
+    },
+    {
+      "concept": "direction",
+      "current": "fixed +x production packet",
+      "historical": "fixed LOS",
+      "relation": "structural analogue"
+    },
+    {
+      "concept": "count",
+      "current": "one packet field per realization",
+      "historical": "71289 actual C25 / 285156 actual 100%",
+      "relation": "not transferable"
+    },
+    {
+      "concept": "lineage",
+      "current": "source/receipt lineage must be extended with packet launch record",
+      "historical": "actual x0/y0 arrays",
+      "relation": "required extension"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "implementation_commit": "7d367b2d2fe5b626470adb1aee2946687b36e624",
+  "branch": "agent/dev173-coordinate-lineage",
+  "remote_ref": "origin/agent/dev173-coordinate-lineage",
+  "remote_head_after_implementation_push": "7d367b2d2fe5b626470adb1aee2946687b36e624",
+  "REMOTE_PUSH_CONFIRMED": true,
+  "REMOTE_FINAL_HEAD_VERIFIED": "SELF_AFTER_FINAL_METADATA_PUSH",
+  "verification_method": "git push followed by git ls-remote --heads"
+}

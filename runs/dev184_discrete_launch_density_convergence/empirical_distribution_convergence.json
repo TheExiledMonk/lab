@@ -1,0 +1,786 @@
+{
+  "0": {
+    "directions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_3": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "progression_steps": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "weights": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    }
+  },
+  "1": {
+    "directions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_3": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "progression_steps": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "weights": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    }
+  },
+  "2": {
+    "directions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_3": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "progression_steps": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "weights": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    }
+  },
+  "3": {
+    "directions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_3": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "progression_steps": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "weights": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    }
+  },
+  "4": {
+    "directions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_3": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "progression_steps": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "weights": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    }
+  },
+  "5": {
+    "directions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_3": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "progression_steps": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "weights": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    }
+  },
+  "6": {
+    "directions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_3": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "progression_steps": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "weights": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    }
+  },
+  "7": {
+    "directions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "directions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_content_candidates_3": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_displacement_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_flux_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "local_momentum_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "progression_steps": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "received_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_0": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_1": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "source_positions_2": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    },
+    "weights": {
+      "comparison": "C50_to_C100",
+      "status": "RECORDED_IN_FEATURE_ARRAY_ARTIFACT"
+    }
+  }
+}

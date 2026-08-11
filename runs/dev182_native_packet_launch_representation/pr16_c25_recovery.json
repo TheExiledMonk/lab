@@ -1,0 +1,23 @@
+{
+  "construction": "cell centers from 268 edges; Cartesian mesh; vx=+1, vy=0",
+  "density_rule": "scale ray count with launch-rectangle area to preserve rays per supported source/observer bin",
+  "executable_count": 71289,
+  "executable_grid_side": 267,
+  "launcher": "m10_coverage_25pct_science001._launch_expanded_25pct",
+  "nominal_documentation_grid": [
+    266,
+    266
+  ],
+  "rectangle": {
+    "x": [
+      -8.0,
+      0.0
+    ],
+    "y": [
+      -4.0,
+      4.0
+    ]
+  },
+  "role": "one independent non-backreacting geometric ray trajectory per coordinate",
+  "source_relationship": "launch plane samples; not matter locations"
+}

@@ -1,0 +1,75 @@
+{
+  "difference": {
+    "asymmetry": 0.11329038404067658,
+    "centroid": [
+      4.198157184444249,
+      3.6107197041968635
+    ],
+    "covariance": [
+      [
+        0.8354835396196766,
+        -0.5194070093768083
+      ],
+      [
+        -0.5194070093768083,
+        0.6809168467234405
+      ]
+    ],
+    "finite_pixel_count": 36,
+    "nonfinite_pixel_count": 0,
+    "principal_axes": [
+      1.2833252802012867,
+      0.23307510614183033
+    ],
+    "total_deposition": 0.6284604336489625
+  },
+  "loaded": {
+    "asymmetry": 0.11329038404067658,
+    "centroid": [
+      3.7921919534743087,
+      3.3300018442597947
+    ],
+    "covariance": [
+      [
+        1.870918769222413,
+        -0.03607113840408538
+      ],
+      [
+        -0.0360711384040854,
+        1.4319290623192071
+      ]
+    ],
+    "finite_pixel_count": 36,
+    "nonfinite_pixel_count": 0,
+    "principal_axes": [
+      1.8738629359932237,
+      1.4289848955483964
+    ],
+    "total_deposition": -8.326672684688674e-17
+  },
+  "primary_semantics": "NATIVE_OBSERVER_2D_OUTPUT; historical channel label retained only as provenance",
+  "unloaded": {
+    "asymmetry": 0.0,
+    "centroid": [
+      0.0,
+      0.0
+    ],
+    "covariance": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "finite_pixel_count": 36,
+    "nonfinite_pixel_count": 0,
+    "principal_axes": [
+      0.0,
+      0.0
+    ],
+    "total_deposition": 0.0
+  }
+}

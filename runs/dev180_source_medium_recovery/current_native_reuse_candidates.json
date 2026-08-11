@@ -1,0 +1,16 @@
+{
+  "new_source_medium_law_introduced": false,
+  "not_reactivated": [
+    "A8",
+    "c_state",
+    "scalar F03 propagation",
+    "historical observer/ray physics"
+  ],
+  "reusable": [
+    "PR69 separation of source forcing from medium redistribution",
+    "PR70 exact normalized bounded constitutive family",
+    "PR72 local N6 redistribution principle",
+    "DEV159 stationary/moving boundary semantics",
+    "DEV167 current repulsive one-cell external contact"
+  ]
+}

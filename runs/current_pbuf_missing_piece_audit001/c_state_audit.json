@@ -1,0 +1,20 @@
+{
+  "COSMOLOGICAL": false,
+  "C_STATE_FORMULA": "c_state = 0.5 * (u_slow + u_fast)",
+  "C_STATE_IMPLEMENTATION_FOUND": true,
+  "C_STATE_SEMANTICS": "historical A8 combined loading/source state; not physical propagation speed",
+  "C_STATE_USED_IN_NATIVE_PROPAGATION": false,
+  "DIAGNOSTIC": false,
+  "FUNCTIONS": [
+    "evolve_a8_transport_3d",
+    "build_a8_state_3d"
+  ],
+  "INPUTS": [
+    "u_slow",
+    "u_fast"
+  ],
+  "LOCAL_GLOBAL": "local grid field",
+  "MODULE": "pbuf/models/a8_state.py",
+  "PHYSICAL_PROPAGATION_SPEED": false,
+  "SCALAR_VECTOR": "scalar field"
+}

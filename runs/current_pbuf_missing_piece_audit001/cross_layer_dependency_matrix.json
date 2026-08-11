@@ -1,0 +1,39 @@
+{
+  "rows": [
+    {
+      "layer": "RAW",
+      "output": "relative projected source",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "layer": "source",
+      "output": "3D family/static lens",
+      "status": "PARTIAL_NON_UNIQUE"
+    },
+    {
+      "layer": "free dynamics",
+      "output": "finite dispersive state",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "layer": "loaded dynamics",
+      "output": "directional response",
+      "status": "MISSING_ROOT"
+    },
+    {
+      "layer": "receipt",
+      "output": "received finite 3D state",
+      "status": "BLOCKED_DOWNSTREAM"
+    },
+    {
+      "layer": "observer",
+      "output": "2D channel products",
+      "status": "IMPLEMENTED_BUT_DISCONNECTED"
+    },
+    {
+      "layer": "physical comparison",
+      "output": "normalized prediction",
+      "status": "MISSING_NONCRITICAL_UNTIL_STRUCTURE_EXISTS"
+    }
+  ]
+}

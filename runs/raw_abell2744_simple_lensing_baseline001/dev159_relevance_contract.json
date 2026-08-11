@@ -1,0 +1,10 @@
+{
+  "dev156_available": true,
+  "dev157_available": true,
+  "dev158_available": true,
+  "dev159_available": true,
+  "dev159_expected_to_address_blocker": "UNRESOLVED",
+  "dev159_finite_state_used_in_lensing": false,
+  "dev159_state_substituted_into_lensing": false,
+  "reason": "Dev159 cannot supply the absent observational RAW-to-native source/lens bridge by itself."
+}

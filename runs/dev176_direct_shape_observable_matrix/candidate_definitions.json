@@ -1,0 +1,14 @@
+{
+  "CANDIDATE_MATRIX_PREDECLARED": true,
+  "OBSERVATIONAL_VALUES_NOT_USED_TO_DEFINE_CANDIDATES": true,
+  "candidates": {
+    "P1": "receipt-footprint quadrupole",
+    "P2": "source-to-receipt local deformation tensor",
+    "P3": "received-direction quadrupole",
+    "P4": "local-flux quadrupole",
+    "P5": "local-momentum quadrupole",
+    "P6": "transverse source-to-arrival displacement quadrupole",
+    "P7": "frozen observer morphology tensor (control)"
+  },
+  "coordinate_convention": "passive frozen DEV174 screen basis; e=(Tuu-Tvv,2Tuv)/trace"
+}

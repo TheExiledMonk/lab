@@ -1,0 +1,18 @@
+{
+  "F01": {
+    "classification": "IRREVERSIBLE_DISSIPATIVE",
+    "inverse_exists": false
+  },
+  "F02": {
+    "classification": "EXACTLY_REVERSIBLE_MAP",
+    "max_recovery_error": 0.0
+  },
+  "F03": {
+    "classification": "EXACTLY_REVERSIBLE_MAP",
+    "max_recovery_error": 0.0
+  },
+  "F04": {
+    "classification": "EXACTLY_REVERSIBLE_MAP",
+    "max_recovery_error": 0.0
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "dynamic": {
+    "conclusion": "Linear frozen dynamics changes invariant and excursion as amplitude squared/linearly, not mode frequency, wavelength, or support; equal invariant admits distinct source widths.",
+    "different_packet_widths_at_equal_invariant": true,
+    "equal_invariant_width_family": [
+      {
+        "amplitude": 0.022494378862313685,
+        "gaussian_source_width": 1.5,
+        "invariant": 0.001,
+        "participation_volume": 53.40021732741675,
+        "rms_radius": 2.3082971279542286
+      },
+      {
+        "amplitude": 0.01712194488480748,
+        "gaussian_source_width": 2.5,
+        "invariant": 0.001,
+        "participation_volume": 248.13711315039296,
+        "rms_radius": 4.07848877762504
+      },
+      {
+        "amplitude": 0.014515175290307132,
+        "gaussian_source_width": 3.5,
+        "invariant": 0.001,
+        "participation_volume": 647.2552694010813,
+        "rms_radius": 5.62569334392683
+      }
+    ],
+    "rows": [
+      {
+        "amplitude": 0.0001,
+        "invariant": 2.4565e-05,
+        "native_wavelength": 7.602631123499285,
+        "participation_volume": 3275.3333333333326,
+        "peak_excursion": 7.194013458486226e-05,
+        "progression_frequency": 0.3324461447986328,
+        "representation": "F02"
+      },
+      {
+        "amplitude": 0.001,
+        "invariant": 0.0024565,
+        "native_wavelength": 7.602631123499285,
+        "participation_volume": 3275.3333333333335,
+        "peak_excursion": 0.0007194013458486226,
+        "progression_frequency": 0.3324461447986328,
+        "representation": "F02"
+      },
+      {
+        "amplitude": 0.01,
+        "invariant": 0.24565,
+        "native_wavelength": 7.602631123499285,
+        "participation_volume": 3275.3333333333335,
+        "peak_excursion": 0.0071940134584862255,
+        "progression_frequency": 0.3324461447986328,
+        "representation": "F02"
+      },
+      {
+        "amplitude": 0.0001,
+        "invariant": 2.690021877718836e-06,
+        "native_wavelength": 7.602631123499285,
+        "participation_volume": 3275.3333333333326,
+        "peak_excursion": 7.194013458486226e-05,
+        "progression_frequency": 0.3324461447986328,
+        "representation": "F03"
+      },
+      {
+        "amplitude": 0.001,
+        "invariant": 0.0002690021877718836,
+        "native_wavelength": 7.602631123499285,
+        "participation_volume": 3275.3333333333335,
+        "peak_excursion": 0.0007194013458486226,
+        "progression_frequency": 0.3324461447986328,
+        "representation": "F03"
+      },
+      {
+        "amplitude": 0.01,
+        "invariant": 0.026900218777188362,
+        "native_wavelength": 7.602631123499285,
+        "participation_volume": 3275.3333333333335,
+        "peak_excursion": 0.0071940134584862255,
+        "progression_frequency": 0.3324461447986332,
+        "representation": "F03"
+      }
+    ]
+  },
+  "static": {
+    "method": "exact fixture: source=-G* sigma(G u); frozen bounded constitutive law",
+    "rows": [
+      {
+        "equilibrium_residual_by_construction": 0.0,
+        "implied_source_l2": 0.06533110207191603,
+        "peak_strain": 0.00488545923013615,
+        "peak_stress": 0.004885575837652656,
+        "peak_tangent": 1.0000716059841015,
+        "peak_u": 0.025,
+        "source_family_factor": 1.0,
+        "total_W": 0.007702573406409911
+      },
+      {
+        "equilibrium_residual_by_construction": 0.0,
+        "implied_source_l2": 0.13066671045138686,
+        "peak_strain": 0.0097709184602723,
+        "peak_stress": 0.00977185138720644,
+        "peak_tangent": 1.0002864581221778,
+        "peak_u": 0.05,
+        "source_family_factor": 2.0,
+        "total_W": 0.030810712446544486
+      },
+      {
+        "equilibrium_residual_by_construction": 0.0,
+        "implied_source_l2": 0.2613694818180615,
+        "peak_strain": 0.0195418369205446,
+        "peak_stress": 0.019549302474450157,
+        "peak_tangent": 1.0011463797353413,
+        "peak_u": 0.1,
+        "source_family_factor": 4.0,
+        "total_W": 0.1232495518418679
+      }
+    ],
+    "static_limit_embedding": {
+      "F02_one_step_change": 0.010888391846453313,
+      "F02_stationary": false,
+      "F03_one_step_change": 0.010888391846453313,
+      "F03_stationary": false,
+      "classification": "NOT_SUPPORTED",
+      "reason": "Dev156 is source-free; the static balancing source is absent"
+    }
+  }
+}

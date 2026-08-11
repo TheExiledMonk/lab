@@ -1,0 +1,10 @@
+{
+  "OBSERVER_6X6_GRID_IS_PHYSICALLY_ANCHORED": false,
+  "bins": 6,
+  "centering": "zero centered",
+  "clipping": "out-of-range records excluded; upper endpoint maps index 6 and is invalid in this implementation",
+  "coordinate_min_max": "[-extent,+extent], extent=max(max(abs(u0,v0,uf,vf))*1.001,1.0) in adapter",
+  "edges_formula": "linspace(-extent,+extent,7)",
+  "index_formula": "col=searchsorted(edges,u0,right)-1; row=searchsorted(edges,v0,right)-1",
+  "orientation": "rows follow v0, columns follow u0; screen e1/e2 derived from receipt direction"
+}

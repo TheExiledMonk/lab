@@ -1,0 +1,12 @@
+{
+  "INPUT": "historical native/projected lens field and launch sheet",
+  "LENS": "geometric force/field interface",
+  "OBSERVER_INTERFACE": "existing 45-channel receipt and 2D reduction",
+  "OUTPUT": "received positions/directions/full ray state",
+  "PROPAGATION_OBJECT": "zero-width rays/ray sheet",
+  "classification": {
+    "observer_harness": "REUSABLE_OBSERVER_HARNESS",
+    "overall": "ACTIVE_CONTROL",
+    "propagation": "SUPERSEDED_PHYSICS for finite-native goal"
+  }
+}

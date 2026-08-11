@@ -1,0 +1,350 @@
+{
+  "array_order": "z,y,x",
+  "dev162_realization_count": 7,
+  "rows": [
+    {
+      "bond_length_semantics_present": false,
+      "bond_orientation_deformation_semantics_present": false,
+      "directed_difference_peak": 0.048783727222695084,
+      "directed_neighbor_differences_exactly_reconstructible": true,
+      "directional_scalar_information_nonzero": true,
+      "n6_offsets_array_order_zyx": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "name": "Z01_THIN_CENTRAL",
+      "node_state_rank": "SCALAR",
+      "node_state_shape": [
+        17,
+        128,
+        128
+      ],
+      "scalar_difference_is_not_assumed_to_be_length": true,
+      "spatial_vector_components_stored": false
+    },
+    {
+      "bond_length_semantics_present": false,
+      "bond_orientation_deformation_semantics_present": false,
+      "directed_difference_peak": 0.014502178251293553,
+      "directed_neighbor_differences_exactly_reconstructible": true,
+      "directional_scalar_information_nonzero": true,
+      "n6_offsets_array_order_zyx": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "node_state_rank": "SCALAR",
+      "node_state_shape": [
+        17,
+        128,
+        128
+      ],
+      "scalar_difference_is_not_assumed_to_be_length": true,
+      "spatial_vector_components_stored": false
+    },
+    {
+      "bond_length_semantics_present": false,
+      "bond_orientation_deformation_semantics_present": false,
+      "directed_difference_peak": 0.008425363174229039,
+      "directed_neighbor_differences_exactly_reconstructible": true,
+      "directional_scalar_information_nonzero": true,
+      "n6_offsets_array_order_zyx": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "node_state_rank": "SCALAR",
+      "node_state_shape": [
+        17,
+        128,
+        128
+      ],
+      "scalar_difference_is_not_assumed_to_be_length": true,
+      "spatial_vector_components_stored": false
+    },
+    {
+      "bond_length_semantics_present": false,
+      "bond_orientation_deformation_semantics_present": false,
+      "directed_difference_peak": 0.01646444624528695,
+      "directed_neighbor_differences_exactly_reconstructible": true,
+      "directional_scalar_information_nonzero": true,
+      "n6_offsets_array_order_zyx": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "node_state_rank": "SCALAR",
+      "node_state_shape": [
+        17,
+        128,
+        128
+      ],
+      "scalar_difference_is_not_assumed_to_be_length": true,
+      "spatial_vector_components_stored": false
+    },
+    {
+      "bond_length_semantics_present": false,
+      "bond_orientation_deformation_semantics_present": false,
+      "directed_difference_peak": 0.024608590813542,
+      "directed_neighbor_differences_exactly_reconstructible": true,
+      "directional_scalar_information_nonzero": true,
+      "n6_offsets_array_order_zyx": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "name": "Z04_DOUBLE_LAYER",
+      "node_state_rank": "SCALAR",
+      "node_state_shape": [
+        17,
+        128,
+        128
+      ],
+      "scalar_difference_is_not_assumed_to_be_length": true,
+      "spatial_vector_components_stored": false
+    },
+    {
+      "bond_length_semantics_present": false,
+      "bond_orientation_deformation_semantics_present": false,
+      "directed_difference_peak": 0.03147892859003469,
+      "directed_neighbor_differences_exactly_reconstructible": true,
+      "directional_scalar_information_nonzero": true,
+      "n6_offsets_array_order_zyx": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "name": "Z05_ASYMMETRIC",
+      "node_state_rank": "SCALAR",
+      "node_state_shape": [
+        17,
+        128,
+        128
+      ],
+      "scalar_difference_is_not_assumed_to_be_length": true,
+      "spatial_vector_components_stored": false
+    },
+    {
+      "bond_length_semantics_present": false,
+      "bond_orientation_deformation_semantics_present": false,
+      "directed_difference_peak": 0.04877643296969451,
+      "directed_neighbor_differences_exactly_reconstructible": true,
+      "directional_scalar_information_nonzero": true,
+      "n6_offsets_array_order_zyx": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "node_state_rank": "SCALAR",
+      "node_state_shape": [
+        17,
+        128,
+        128
+      ],
+      "scalar_difference_is_not_assumed_to_be_length": true,
+      "spatial_vector_components_stored": false
+    }
+  ],
+  "semantic_inventory": {
+    "bond_excursion": "oriented scalar difference",
+    "bounded_strain": "scalar diagnostic",
+    "bounded_stress": "scalar diagnostic",
+    "deformed_bond_vector": "absent",
+    "node_displacement_vector": "absent",
+    "node_excursion": "scalar"
+  }
+}

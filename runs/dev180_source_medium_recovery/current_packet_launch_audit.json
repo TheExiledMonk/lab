@@ -1,0 +1,9 @@
+{
+  "classification": "OFFNODE_PACKET_REFINEMENT_NOT_YET_DERIVED",
+  "loading_fixed": true,
+  "medium_fixed": true,
+  "more_packet_states_without_source_change": "NOT_EXPOSED_BY_CURRENT_CANONICAL_API",
+  "packet_construction": "DEV169 packet(image): 7x7 transverse image embedded at x=1; one finite vector excitation state per positive packet cell lineage",
+  "pair_law_fixed": true,
+  "reason": "receipt() assigns lineage to nearest supported packet cell and DEV178 correctly rejected fabricated subcell launches"
+}

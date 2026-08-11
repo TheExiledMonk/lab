@@ -1,0 +1,23 @@
+{
+  "FAILING": 0,
+  "PASSING": 38,
+  "SKIPPED": 0,
+  "TOTAL_RELEVANT_TESTS": 38,
+  "coverage": {
+    "3D ambiguity": "Dev162",
+    "CPU/Vulkan": "historical current tests outside Dev156-165",
+    "F02": "Dev156",
+    "F03": "Dev156/163",
+    "N6 topology": "Dev156/165",
+    "RAW source bridge": "Dev160/161",
+    "dispersion": "Dev157",
+    "geometry null": "Dev164",
+    "loaded-coupling null": "Dev163",
+    "observer": "historical current tests outside Dev156-165",
+    "source-medium": "Dev159",
+    "stationary lens": "Dev162",
+    "wide-net": "Dev165"
+  },
+  "initial_bare_pytest_collection": "FAILED because external pytest launcher omitted checkout from sys.path; not a test/code failure",
+  "invocation": "python -m pytest -q tests/test_dev156_*.py ... tests/test_dev165_*.py"
+}

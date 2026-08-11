@@ -1,0 +1,54 @@
+{
+  "MEMBER_REDSHIFT_TO_DEPTH_HUBBLE_CONVERSION_USED": false,
+  "PECULIAR_VELOCITY_DEGENERACY_ACKNOWLEDGED": true,
+  "constraints": [
+    {
+      "component_id": 0,
+      "distribution": "truncated_normal_native_cells",
+      "evidence": [
+        "spectroscopic_velocity_structure",
+        "projected_sky_structure"
+      ],
+      "mean": 3.0,
+      "redshift_as_depth": false,
+      "sigma": 1.6,
+      "status": "BROAD_ALLOWED_FAMILY",
+      "support": [
+        1,
+        9
+      ]
+    },
+    {
+      "component_id": 1,
+      "distribution": "truncated_normal_native_cells",
+      "evidence": [
+        "spectroscopic_velocity_structure",
+        "projected_sky_structure"
+      ],
+      "mean": 5.0,
+      "redshift_as_depth": false,
+      "sigma": 1.6,
+      "status": "BROAD_ALLOWED_FAMILY",
+      "support": [
+        1,
+        9
+      ]
+    },
+    {
+      "component_id": 2,
+      "distribution": "truncated_normal_native_cells",
+      "evidence": [
+        "spectroscopic_velocity_structure",
+        "projected_sky_structure"
+      ],
+      "mean": 7.0,
+      "redshift_as_depth": false,
+      "sigma": 1.6,
+      "status": "BROAD_ALLOWED_FAMILY",
+      "support": [
+        1,
+        9
+      ]
+    }
+  ]
+}

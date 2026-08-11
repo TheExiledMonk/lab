@@ -1,0 +1,8 @@
+{
+  "loaded_run": false,
+  "null_run": false,
+  "reason": "No repository transform connects RAW detector pixels to rho3 or an M10 native lens field.",
+  "response_established": false,
+  "status": "NOT_EXECUTED",
+  "why_fail_closed": "Using benchmark rho3 would violate DATA_MODE=RAW; deriving rho3 from counts would add new lens/source physics."
+}

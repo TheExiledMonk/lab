@@ -1,0 +1,6 @@
+{
+  "LEDGER_EPOCH": "POST_RESTORED_N6_CURRENT_STATE",
+  "PRE_LEDGER_HISTORY": "HISTORICAL_ONLY",
+  "PRE_LEDGER_HISTORY_CANONICAL": false,
+  "warning": "Earlier development includes exploratory, superseded, and lower-dimensional surrogate implementations. Historical results must not override the current restored N6 code unless explicitly revalidated or preserved."
+}

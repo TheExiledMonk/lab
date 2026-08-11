@@ -1,0 +1,475 @@
+{
+  "LEDGER_EPOCH": "POST_RESTORED_N6_CURRENT_STATE",
+  "PRE_LEDGER_HISTORY_CANONICAL": false,
+  "entries": [
+    {
+      "LEDGER_ENTRY": "PRE_LEDGER_HISTORY",
+      "STATUS": "HISTORICAL_ONLY",
+      "warning": "Earlier development includes exploratory, superseded, and lower-dimensional surrogate implementations. Historical results must not override the current restored N6 code unless explicitly revalidated or preserved."
+    },
+    {
+      "BRANCH": "dev-doc-112-fullscale-vulkan-observer-validation",
+      "DATE": "2026-08-11",
+      "DEV_ID": "CURRENT_RESTORED_N6_BASELINE",
+      "FINAL_COMMIT": "f56e6a8bea77572ba80772e81806a68742c864d1",
+      "FROZEN_RESULTS": [
+        "Dev163 loaded scalar perturbation cancels to free F03",
+        "Dev164 scalar static state does not derive geometry",
+        "Dev165 no mechanism survives promotion"
+      ],
+      "LEDGER_ENTRY": "000",
+      "PARTIAL_MECHANISMS": [
+        "H07 directional allocation",
+        "H14 emergent geometry as output",
+        "H15 new primitive required"
+      ],
+      "PUSH_CONFIRMED": true,
+      "REJECTED_MECHANISMS": [
+        "linear loaded F03 changes disturbance",
+        "scalar static state defines geometry",
+        "existing scalar bond state alone redirects",
+        "frozen F02/F03 memory alone redirects",
+        "minimal binary magnetic-like pair"
+      ],
+      "RESULT": "restored N6 chain through Dev165 present locally",
+      "START_COMMIT": "f56e6a8bea77572ba80772e81806a68742c864d1",
+      "STATUS": "BASELINE",
+      "TESTS": "Dev156-165 canonical suite: 38 passed",
+      "TITLE": "Current restored N6 baseline",
+      "UNDERDETERMINED_MECHANISMS": [
+        "separation state",
+        "orientation/polarity",
+        "richer magnetic-like interaction",
+        "vector neighbor relation",
+        "interaction matrix",
+        "multicomponent element",
+        "preferred relation state",
+        "state-dependent propagation speed"
+      ],
+      "current_active_modules": [
+        "runs/native_n6_relational_stress_dynamics001/report.txt",
+        "runs/native_propagation_spatial_scale_dispersion001/report.txt",
+        "runs/native_unified_medium_excursion001/report.txt",
+        "runs/native_source_medium_interaction001/report.txt",
+        "runs/raw_abell2744_simple_lensing_baseline001/report.txt",
+        "runs/raw_abell2744_detector_to_native_source001/report.txt",
+        "runs/raw_abell2744_3d_source_ambiguity_native_lens001/report.txt",
+        "runs/raw_abell2744_finite_native_lensing_gate001/report.txt",
+        "runs/static_native_deformation_to_relational_geometry001/report.txt",
+        "runs/native_medium_interaction_wide_net001/report.txt"
+      ],
+      "current_blockers": [
+        "native loaded propagation mechanism",
+        "absolute physical normalization",
+        "source depth/3D uniqueness"
+      ],
+      "observer_state": "existing, upstream-blocked",
+      "raw_data_state": "116 RAW/FLT/FLC; one effective F814W channel; projected relative source serialized",
+      "repository_cleanliness": "52 untracked intended Dev156-165 files at epoch capture"
+    },
+    {
+      "BRANCH": "dev-doc-112-fullscale-vulkan-observer-validation",
+      "DATE": "2026-08-11",
+      "DEV_ID": "DEV166",
+      "DOWNSTREAM_BLOCKED": [
+        "finite loaded propagation",
+        "received native 3D state",
+        "new native observer output"
+      ],
+      "DOWNSTREAM_UNBLOCKED": [],
+      "FILES_CHANGED": [
+        "docs/PBUF_DEVELOPMENT_LEDGER.md",
+        "docs/PBUF_DEVELOPMENT_LEDGER.json",
+        "runs/current_pbuf_missing_piece_audit001/*"
+      ],
+      "FINAL_COMMIT": "7d919178b29e27832e231b740b9b6839f1805c13",
+      "FROZEN_RESULTS": [
+        "LOADED_DYNAMIC_COUPLING_DERIVED=FALSE",
+        "DEFORMED_BOND_LENGTHS_DERIVABLE=FALSE",
+        "DEFORMED_BOND_DIRECTIONS_DERIVABLE=FALSE",
+        "GLOBAL_NODE_EMBEDDING_DERIVABLE=FALSE",
+        "SURVIVING_MECHANISM_COUNT=0"
+      ],
+      "LEDGER_ENTRY": "001",
+      "NEXT_ALLOWED_ACTION": "discussion/research review only; NEXT_DEV_AUTHORIZED=false",
+      "PARTIAL_MECHANISMS": [
+        "H07 directional allocation",
+        "H14 emergent geometry as output",
+        "H15 new primitive required"
+      ],
+      "PUSH_CONFIRMED": true,
+      "QUESTION": "What exists, what is missing, and which missing pieces are the same unresolved problem?",
+      "REJECTED_MECHANISMS": [
+        "linear loaded F03 changes disturbance",
+        "scalar static state defines geometry",
+        "existing scalar bond state alone redirects",
+        "frozen F02/F03 memory alone redirects",
+        "minimal binary magnetic-like pair"
+      ],
+      "REOPEN_CONDITIONS": [
+        {
+          "BY": "DEV163",
+          "MECHANISM": "linear loaded F03 changes disturbance",
+          "REOPEN_ONLY_IF": "governing dynamic operator changes independently",
+          "STATUS": "REJECTED"
+        },
+        {
+          "BY": "DEV164",
+          "MECHANISM": "scalar static state defines geometry",
+          "REOPEN_ONLY_IF": "new native geometry semantics/state exists independently",
+          "STATUS": "REJECTED"
+        },
+        {
+          "BY": "DEV165_H01",
+          "MECHANISM": "existing scalar bond state alone redirects",
+          "REOPEN_ONLY_IF": "governing loaded update changes independently",
+          "STATUS": "REJECTED"
+        },
+        {
+          "BY": "DEV165_H06",
+          "MECHANISM": "frozen F02/F03 memory alone redirects",
+          "REOPEN_ONLY_IF": "memory receives an independently derived load-dependent law",
+          "STATUS": "REJECTED"
+        },
+        {
+          "BY": "DEV165_H12",
+          "MECHANISM": "minimal binary magnetic-like pair",
+          "REOPEN_ONLY_IF": "richer state and reversible law are independently established",
+          "STATUS": "REJECTED"
+        }
+      ],
+      "RESULT": "complete canonical dependency/circularity audit; no new physics",
+      "ROOT_BLOCKER_CHANGED": true,
+      "START_COMMIT": "f56e6a8bea77572ba80772e81806a68742c864d1",
+      "STATUS": "COMPLETE",
+      "TESTS": "38 Dev156-165 tests pass via python -m pytest; git diff --check passes",
+      "TITLE": "Complete missing-piece audit",
+      "UNDERDETERMINED_MECHANISMS": [
+        "separation state",
+        "orientation/polarity",
+        "richer magnetic-like interaction",
+        "vector neighbor relation",
+        "interaction matrix",
+        "multicomponent element",
+        "preferred relation state",
+        "state-dependent propagation speed"
+      ]
+    },
+    {
+      "BRANCH": "dev-doc-112-fullscale-vulkan-observer-validation",
+      "DATE": "2026-08-11",
+      "DEV_ID": "DEV167",
+      "LEDGER_ENTRY": "002",
+      "START_COMMIT": "bd985e7d7da88011139d39f5d60cbf91f9e25736",
+      "IMPLEMENTATION_COMMIT": "0bb0263cbf12135d6742dc51e7b291de06d586cd",
+      "VERIFIED_REMOTE_HEAD": "SELF (provenance commit containing this verification record)",
+      "AUTHORIZATION": "same local law; loading changes relational configuration",
+      "NEW_NATIVE_STATE": "integrable node displacement vectors deriving oriented N6 pair relations",
+      "RESULT": "independently source-loaded off-axis relation state redirects the same finite packet with centered null and reflected sign reversal",
+      "OUTCOME": "OUTCOME_A",
+      "STATUS": "STRUCTURALLY_CLOSED",
+      "OBSERVER_MODIFIED": false,
+      "COSMOLOGY_EXECUTED": false,
+      "FULL_ABELL_FINITE_PROPAGATION_EXECUTED": false
+    },
+    {
+      "BRANCH": "dev-doc-112-fullscale-vulkan-observer-validation",
+      "DATE": "2026-08-11",
+      "DEV_ID": "DEV168",
+      "LEDGER_ENTRY": "003",
+      "START_COMMIT": "106a62295ae8203b5322e28f6490f621a776f3bc",
+      "IMPLEMENTATION_COMMIT": "f3cc6540b84fd3fad2410a94fe3f8b9a89685d61",
+      "VERIFIED_REMOTE_HEAD": "SELF (provenance commit containing this verification record)",
+      "CURRENT_STATE_CORRECTION": {
+        "Loaded directional response": "STRUCTURALLY_CLOSED",
+        "Native loaded propagation mechanism": "STRUCTURALLY_CLOSED",
+        "Finite loaded receipt": "STRUCTURALLY_CLOSED",
+        "Received finite native 3D state": "ESTABLISHED",
+        "Observer adapter": "MECHANICAL_ADAPTER_DEFINED"
+      },
+      "RESULT": "finite distributed N6 packet reaches a predeclared plane as an information-preserving bond-flux receipt; off-axis response survives with centered/unloaded nulls and reflected reversal",
+      "PREFERRED_RECEIPT_REPRESENTATION": "BOND_FLUX",
+      "RECEIPT_WEIGHT_STATUS": "DERIVED_NATIVE_CONTENT_PROXY",
+      "OBSERVER_RECONNECTION_STATUS": "READY",
+      "OUTCOME": "OUTCOME_A",
+      "STATUS": "STRUCTURALLY_CLOSED",
+      "OBSERVER_EXECUTED_PRIMARY": false,
+      "OBSERVER_MODIFIED": false,
+      "COSMOLOGY_EXECUTED": false,
+      "FULL_ABELL_FINITE_PROPAGATION_EXECUTED": false
+    }
+  ],
+  "mechanism_ledger": [
+    {
+      "BY": "DEV167",
+      "MECHANISM": "DISTANCE_BOUND_VECTOR_PAIR_RELATION",
+      "STATUS": "STRUCTURALLY_CLOSED",
+      "EVIDENCE": "exact reciprocal relations; independently loaded equilibrium; reversible symmetric controls and transverse packet response"
+    },
+    {
+      "BY": "DEV163",
+      "MECHANISM": "linear loaded F03 changes disturbance",
+      "REOPEN_ONLY_IF": "governing dynamic operator changes independently",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV164",
+      "MECHANISM": "scalar static state defines geometry",
+      "REOPEN_ONLY_IF": "new native geometry semantics/state exists independently",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV165_H01",
+      "MECHANISM": "existing scalar bond state alone redirects",
+      "REOPEN_ONLY_IF": "governing loaded update changes independently",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV165_H06",
+      "MECHANISM": "frozen F02/F03 memory alone redirects",
+      "REOPEN_ONLY_IF": "memory receives an independently derived load-dependent law",
+      "STATUS": "REJECTED"
+    },
+    {
+      "BY": "DEV165_H12",
+      "MECHANISM": "minimal binary magnetic-like pair",
+      "REOPEN_ONLY_IF": "richer state and reversible law are independently established",
+      "STATUS": "REJECTED"
+    },
+    {
+      "COEFFICIENT_FREE": true,
+      "CONSERVATIVE": true,
+      "DERIVED_FROM_FROZEN_PBUF": false,
+      "MECHANISM": "H07 directional allocation",
+      "PERMUTATION_COVARIANT": true,
+      "REDIRECTION_DEMONSTRATED": true,
+      "STATUS": "PARTIAL"
+    },
+    {
+      "MECHANISM": "H14 emergent geometry as output",
+      "STATUS": "PARTIAL",
+      "evidence": "directional effect demonstrated only with nonderived routing"
+    },
+    {
+      "MECHANISM": "H15 new primitive required",
+      "STATUS": "PARTIAL",
+      "evidence": "need localized; primitive identity not determined"
+    },
+    {
+      "MECHANISM": "separation state",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "orientation/polarity",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "richer magnetic-like interaction",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "vector neighbor relation",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "interaction matrix",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "multicomponent element",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "preferred relation state",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    },
+    {
+      "MECHANISM": "state-dependent propagation speed",
+      "MISSING_INFORMATION": "native semantics plus reversible invariant-preserving governing update",
+      "REOPEN_CONDITION": "independent derivation supplies missing semantics/law",
+      "STATUS": "UNDERDETERMINED"
+    }
+  ],
+  "missing_piece_ledger": [
+    {
+      "BLOCKED_BY": null,
+      "BLOCKS": "finite loaded propagation",
+      "LAYER": "native dynamics",
+      "MISSING_ITEM": "loaded directional response",
+      "NEEDED_FOR_CURRENT_GOAL": true,
+      "ROOT_OR_DOWNSTREAM": "ROOT",
+      "STATUS": "STRUCTURALLY_CLOSED"
+    },
+    {
+      "BLOCKED_BY": null,
+      "BLOCKS": "received native 3D state",
+      "LAYER": "native dynamics",
+      "MISSING_ITEM": "finite loaded propagation",
+      "NEEDED_FOR_CURRENT_GOAL": true,
+      "ROOT_OR_DOWNSTREAM": "DOWNSTREAM",
+      "STATUS": "STRUCTURALLY_CLOSED"
+    },
+    {
+      "BLOCKED_BY": null,
+      "BLOCKS": "observer reconnection",
+      "LAYER": "receipt",
+      "MISSING_ITEM": "received finite native 3D state",
+      "NEEDED_FOR_CURRENT_GOAL": true,
+      "ROOT_OR_DOWNSTREAM": "DOWNSTREAM",
+      "STATUS": "ESTABLISHED"
+    },
+    {
+      "BLOCKED_BY": null,
+      "BLOCKS": "finite-state observer input",
+      "LAYER": "observer interface",
+      "MISSING_ITEM": "observer adapter",
+      "NEEDED_FOR_CURRENT_GOAL": true,
+      "ROOT_OR_DOWNSTREAM": "DOWNSTREAM",
+      "STATUS": "MECHANICAL_ADAPTER_DEFINED"
+    },
+    {
+      "BLOCKED_BY": null,
+      "BLOCKS": "physical comparison",
+      "LAYER": "physical scale",
+      "MISSING_ITEM": "absolute normalization",
+      "NEEDED_FOR_CURRENT_GOAL": false,
+      "ROOT_OR_DOWNSTREAM": "ROOT_INDEPENDENT",
+      "STATUS": "UNRESOLVED"
+    },
+    {
+      "BLOCKED_BY": "projected detector data",
+      "BLOCKS": "unique physical 3D interpretation",
+      "LAYER": "source",
+      "MISSING_ITEM": "unique 3D source depth",
+      "NEEDED_FOR_CURRENT_GOAL": false,
+      "ROOT_OR_DOWNSTREAM": "ROOT_INDEPENDENT",
+      "STATUS": "NON_UNIQUE"
+    },
+    {
+      "DATE": "2026-08-12",
+      "DEV_ID": "DEV171",
+      "LEDGER_ENTRY": "005",
+      "TITLE": "Independent 3D Abell source reconstruction",
+      "START_COMMIT": "8b1fb5acfbfa3600f6e370ef926f0d167605c91e",
+      "STATUS": "COMPLETE",
+      "PRIMARY_3D_SOURCE_ORIGIN": "INDEPENDENT_OBJECT_CATALOGS",
+      "SPECTROSCOPIC_REDSHIFT_AS_DIRECT_DEPTH": "FORBIDDEN",
+      "ARBITRARY_2D_TO_3D_DEPTH_LANE_SELECTION": "DIAGNOSTIC_ONLY / MUST_NOT_BE_PROMOTED",
+      "SOURCE_DEPTH_STATUS": "INDEPENDENTLY_CONSTRAINED_ENSEMBLE",
+      "OUTCOME": "OUTCOME_E",
+      "NEXT_DEV_AUTHORIZED": false
+    },
+    {
+      "DATE": "2026-08-12",
+      "DEV_ID": "DEV172",
+      "LEDGER_ENTRY": "006",
+      "TITLE": "Frozen observed weak-lensing morphology gate",
+      "START_COMMIT": "3b03764502d3f5b1de24ddfa35edff052de15cfd",
+      "IMPLEMENTATION_COMMIT": "5cf3025901a52937d3e77932b08a36c384fd26aa",
+      "STATUS": "BLOCKED",
+      "DEV171_METRIC_RECONCILIATION": "SAME_METRIC_STALE_LEDGER",
+      "DEV171_CONSTRAINED_SPREAD_CORRECT": 0.10624528343935943,
+      "DEV171_DEPTH_UNCERTAINTY_REDUCTION_RATIO_CORRECT": 1.832080315334409,
+      "PRIMARY_WL_DATASET": "PYRRG_JWST",
+      "WL_DATA_PROVENANCE_FROZEN": false,
+      "COMMON_WCS_GRID_ESTABLISHED": false,
+      "OUTCOME": "OUTCOME_D",
+      "COMPARISON_REQUIRES_MISSING_PHYSICAL_BRIDGE": true,
+      "REOPEN_ONLY_IF": "published WL map/catalogue with frozen hash and WCS plus independently justified native-grid-to-sky WCS bridge",
+      "NEXT_DEV_AUTHORIZED": false
+    },
+    {
+      "DATE": "2026-08-12",
+      "DEV_ID": "DEV170",
+      "LEDGER_ENTRY": "004",
+      "TITLE": "Dev169 forensic accounting and depth-sensitivity audit",
+      "STATUS": "COMPLETE",
+      "RAW_TO_OBSERVER_STRUCTURAL_CHAIN": "CLOSED",
+      "INVARIANT_ACCOUNTING": "RESOLVED_SOURCE_WORK_OMITTED_FROM_MEDIUM_ONLY_INVARIANT",
+      "PAIR_LAW_REAUDIT_PROHIBITED_BY_THIS_ISSUE": true,
+      "OBSERVER_DEPOSITION_SEMANTICS": "RESOLVED_STALE_SUMMARY_NOT_SERIALIZED_ARRAY_SUM",
+      "NONFINITE_CHANNEL": "knn_density__convergence EXPECTED_DEGENERACY",
+      "SOURCE_DEPTH_SENSITIVITY": "MIXED_NATIVE_AND_OBSERVER_AMPLIFIED",
+      "ABSOLUTE_NORMALIZATION": "UNRESOLVED",
+      "NEXT_DEV_AUTHORIZED": false
+    },
+    {
+      "DATE": "2026-08-12",
+      "DEV_ID": "DEV173",
+      "LEDGER_ENTRY": "007",
+      "TITLE": "Source-to-observer coordinate lineage recovery",
+      "START_COMMIT": "93d0ec0c4bedcf47400210af6f8b09fc4d2c40c0",
+      "STATUS": "COMPLETE",
+      "FIRST_COORDINATE_LINEAGE_BREAK": "serialized_6x6_output: METADATA_DROP",
+      "GRID_TO_SKY_RECOVERABILITY": "DETERMINISTIC_APPROXIMATION",
+      "DEV172_PHYSICAL_BRIDGE_FLAG": "TOO_BROAD",
+      "NATIVE_COORDINATE_BLOCKER": "SERIALIZATION_AND_PROVENANCE_NOT_FORWARD",
+      "OBSERVATIONAL_ASSET_BLOCKER": true,
+      "OUTCOME": "OUTCOME_B_AND_C_WITH_OUTCOME_F_EXTERNAL_ASSET",
+      "NEXT_DEV_AUTHORIZED": false
+    },
+    {
+      "DATE": "2026-08-12",
+      "DEV_ID": "DEV174",
+      "LEDGER_ENTRY": "008",
+      "TITLE": "Native observer coordinate-provenance serialization",
+      "START_COMMIT": "6fa81ad3dd6e3cd8b1d49b7da8d67f22695da674",
+      "STATUS": "COMPLETE",
+      "OBSERVER_COORDINATE_LINEAGE": "SERIALIZED / CLOSED",
+      "NATIVE_GRID_TO_SKY_MAPPING": "DETERMINISTIC_CELL_FOOTPRINT_SERIALIZED",
+      "PRIMARY_6X6_ARRAY_MODIFIED": false,
+      "NATIVE_COORDINATE_BLOCKER": "CLOSED",
+      "OBSERVATIONAL_WL_WCS_ASSET": "UNAVAILABLE",
+      "OBSERVATIONAL_ASSET_BLOCKER": true,
+      "OUTCOME": "OUTCOME_A_AND_F",
+      "NEXT_DEV_AUTHORIZED": false
+    },
+    {
+      "DATE": "2026-08-12",
+      "DEV_ID": "DEV175",
+      "LEDGER_ENTRY": "009",
+      "TITLE": "Published pyRRG asset recovery and frozen blind morphology gate",
+      "START_COMMIT": "8af0e01a1cc405d2db99abd5647b66364f9653a2",
+      "STATUS": "COMPLETE",
+      "DEV174_CANONICAL_LEDGER_RECONCILED": true,
+      "DEV174_NATIVE_COORDINATE_PACKAGE_HASHES_VERIFIED": true,
+      "OBSERVATIONAL_WL_WCS_ASSET": "EXTERNAL_UNAVAILABLE",
+      "RELEASE_SEARCH_COMPLETE": true,
+      "WL_ASSET_RECOVERED": false,
+      "BLIND_WL_MORPHOLOGY_STATUS": "NOT_EVALUATED",
+      "OUTCOME": "OUTCOME_F",
+      "NEXT_DEV_AUTHORIZED": false
+    }
+  ],
+  "permanent_future_dev_rule": [
+    "read current ledger",
+    "inspect current GitHub implementation",
+    "check aliases/status/reopen conditions",
+    "tests pass",
+    "ledger updated",
+    "commit SHA recorded",
+    "push succeeds",
+    "remote SHA verified"
+  ],
+  "research_leads": [
+    {
+      "IMPLEMENTATION_STATUS": "NOT_AUTHORIZED",
+      "LEAD": "Accelerating-wave / variable-medium propagation",
+      "STATUS": "OPEN_RESEARCH"
+    }
+  ]
+}

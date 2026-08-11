@@ -1,0 +1,40 @@
+{
+  "classification": "PARTIAL",
+  "common_bound": "NOT_SUPPORTED",
+  "conservation": "UNRESOLVED_NO_EXACT_LAW_DERIVED",
+  "lane": "isolated F03 restoring-response candidate",
+  "reason": "sigma rejects out-of-domain states but the update itself does not enforce the bound",
+  "reversibility": "SUPPORTED_WHILE_ADMISSIBLE",
+  "rows": [
+    {
+      "amplitude": 0.001,
+      "bound_enforced_by_update": false,
+      "conserved_nonlinear_functional_derived": false,
+      "exact_reverse_error": 2.710505431213761e-19,
+      "maximum_excursion": 0.0007269524276843566,
+      "reversible": true,
+      "stable_within_bound": true,
+      "steps": 12
+    },
+    {
+      "amplitude": 0.05,
+      "bound_enforced_by_update": false,
+      "conserved_nonlinear_functional_derived": false,
+      "exact_reverse_error": 1.3877787807814457e-17,
+      "maximum_excursion": 0.036346609600738385,
+      "reversible": true,
+      "stable_within_bound": true,
+      "steps": 12
+    },
+    {
+      "amplitude": 0.2,
+      "bound_enforced_by_update": false,
+      "conserved_nonlinear_functional_derived": false,
+      "exact_reverse_error": 5.551115123125783e-17,
+      "maximum_excursion": 0.1453367100884702,
+      "reversible": true,
+      "stable_within_bound": true,
+      "steps": 12
+    }
+  ]
+}

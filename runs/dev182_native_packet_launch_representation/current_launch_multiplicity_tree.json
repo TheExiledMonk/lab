@@ -1,0 +1,126 @@
+{
+  "CURRENT_INDEPENDENT_LAUNCH_COUNT": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "CURRENT_PACKET_COUNT": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "CURRENT_RECEIPT_COUNT": [
+    12454,
+    12579,
+    12764,
+    12801,
+    12453,
+    11594,
+    11605,
+    12288
+  ],
+  "CURRENT_SOURCE_CONTACT_COUNT": [
+    49,
+    49,
+    49,
+    49,
+    49,
+    49,
+    49,
+    49
+  ],
+  "RECEIPT_EVENT_COUNT_NOT_LAUNCH_COUNT": true,
+  "classification": "PACKET_IS_NOT_CURRENTLY_SEPARATE_OBJECT_PER_SOURCE_CELL",
+  "realizations": [
+    {
+      "N_launch": 1,
+      "N_packet": 1,
+      "N_propagated_state": 1,
+      "N_receipt": 12454,
+      "N_source": 49,
+      "meaning": "one finite 7x7 state field, not 49 independent packets",
+      "packet_support_cells": 49,
+      "realization_id": 0
+    },
+    {
+      "N_launch": 1,
+      "N_packet": 1,
+      "N_propagated_state": 1,
+      "N_receipt": 12579,
+      "N_source": 49,
+      "meaning": "one finite 7x7 state field, not 49 independent packets",
+      "packet_support_cells": 49,
+      "realization_id": 1
+    },
+    {
+      "N_launch": 1,
+      "N_packet": 1,
+      "N_propagated_state": 1,
+      "N_receipt": 12764,
+      "N_source": 49,
+      "meaning": "one finite 7x7 state field, not 49 independent packets",
+      "packet_support_cells": 49,
+      "realization_id": 2
+    },
+    {
+      "N_launch": 1,
+      "N_packet": 1,
+      "N_propagated_state": 1,
+      "N_receipt": 12801,
+      "N_source": 49,
+      "meaning": "one finite 7x7 state field, not 49 independent packets",
+      "packet_support_cells": 49,
+      "realization_id": 3
+    },
+    {
+      "N_launch": 1,
+      "N_packet": 1,
+      "N_propagated_state": 1,
+      "N_receipt": 12453,
+      "N_source": 49,
+      "meaning": "one finite 7x7 state field, not 49 independent packets",
+      "packet_support_cells": 49,
+      "realization_id": 4
+    },
+    {
+      "N_launch": 1,
+      "N_packet": 1,
+      "N_propagated_state": 1,
+      "N_receipt": 11594,
+      "N_source": 49,
+      "meaning": "one finite 7x7 state field, not 49 independent packets",
+      "packet_support_cells": 49,
+      "realization_id": 5
+    },
+    {
+      "N_launch": 1,
+      "N_packet": 1,
+      "N_propagated_state": 1,
+      "N_receipt": 11605,
+      "N_source": 49,
+      "meaning": "one finite 7x7 state field, not 49 independent packets",
+      "packet_support_cells": 49,
+      "realization_id": 6
+    },
+    {
+      "N_launch": 1,
+      "N_packet": 1,
+      "N_propagated_state": 1,
+      "N_receipt": 12288,
+      "N_source": 49,
+      "meaning": "one finite 7x7 state field, not 49 independent packets",
+      "packet_support_cells": 49,
+      "realization_id": 7
+    }
+  ]
+}

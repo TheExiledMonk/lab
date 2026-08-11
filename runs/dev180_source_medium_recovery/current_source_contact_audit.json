@@ -1,0 +1,15 @@
+{
+  "CURRENT_NODE_CONTACT_IS_SPECIAL_LIMIT": "UNRESOLVED; no continuous historical equation frozen",
+  "center_semantics": "source node; six adjacent N6 nodes receive outward vectors",
+  "contact_changes_momentum": true,
+  "contact_changes_position": "indirectly through step",
+  "function": "source_contact_force(shape: tuple[int,int,int], center: tuple[int,int,int], magnitude: float=0.02)",
+  "historical_Si_relation": "simplified vector external-force analogue of local loading; not scalar S_i identity",
+  "input_type": "integer tuple center; no float source coordinate",
+  "magnitude_semantics": "per-neighbour external-force magnitude",
+  "node_state_changed": "external force passed to step; momentum kick then displacement drift",
+  "persistent_or_impulse": "caller-controlled; DEV169 passes same ext every propagation step",
+  "source_participates_dynamically": false,
+  "source_stored": false,
+  "vector_or_scalar": "vector"
+}

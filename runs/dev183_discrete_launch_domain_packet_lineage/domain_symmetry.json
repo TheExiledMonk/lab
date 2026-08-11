@@ -1,0 +1,8 @@
+{
+  "canonical_ordering_frozen": true,
+  "reflection_partner": {
+    "dy": "(-dy) mod 11",
+    "dz": "(-dz) mod 11"
+  },
+  "transverse_translation_group": "Z_11 x Z_11"
+}

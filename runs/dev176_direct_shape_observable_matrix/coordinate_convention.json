@@ -1,0 +1,6 @@
+{
+  "basis": "DEV174 per-realization screen e1/e2",
+  "native_order": "DEV168 (x,y,z); observer basis applied after (y,z,x) reorder",
+  "registration": "none",
+  "spin2_rotation": "e1'=e1 cos2phi+e2 sin2phi; e2'=-e1 sin2phi+e2 cos2phi"
+}

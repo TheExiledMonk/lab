@@ -1,0 +1,41 @@
+{
+  "fields": {
+    "content_weight": {
+      "forwarded_to_adapter": true,
+      "serialized_in_dev171_6x6": false,
+      "stored": true
+    },
+    "flux_direction": {
+      "forwarded_to_adapter": true,
+      "serialized_in_dev171_6x6": false,
+      "stored": true
+    },
+    "launch_coordinate": {
+      "forwarded_to_adapter": true,
+      "serialized_in_dev171_6x6": false,
+      "stored": true
+    },
+    "momentum": {
+      "forwarded_to_adapter": true,
+      "serialized_in_dev171_6x6": false,
+      "stored": true
+    },
+    "progression_step": {
+      "forwarded_to_adapter": true,
+      "serialized_in_dev171_6x6": false,
+      "stored": true
+    },
+    "received_position_3d": {
+      "forwarded_to_adapter": true,
+      "serialized_in_dev171_6x6": false,
+      "stored": true
+    },
+    "source_lineage": {
+      "forwarded_to_adapter": true,
+      "serialized_in_dev171_6x6": false,
+      "stored": true
+    }
+  },
+  "launch_coordinate_status": "stored as source_positions; Dev169 construction assigns it by deterministic nearest supported native source cell, so individual catalogue-member identity has already collapsed to a cell footprint.",
+  "receipt": "Dev168 NativeReceivedState BOND_FLUX"
+}

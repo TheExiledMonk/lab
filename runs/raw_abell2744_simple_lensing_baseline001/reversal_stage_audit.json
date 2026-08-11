@@ -1,0 +1,18 @@
+{
+  "R1_complete_history": "NOT_REACHABLE",
+  "R2_full_3d": "NOT_REACHABLE",
+  "R3_projected_2d": "NOT_REACHABLE",
+  "R4_observer": "NOT_REACHABLE",
+  "conclusion": "Extent recovery cannot be tested because no raw-derived lens extent exists upstream.",
+  "controlled_lens_extent_sweep": "NOT_JUSTIFIED",
+  "lens_extent_information": {
+    "D0_RAW": "EXPLICIT",
+    "L0_NATIVE_LENS": "UNRESOLVED",
+    "O0_OBSERVER_PRODUCTS": "UNRESOLVED",
+    "P0_PROPAGATION_HISTORY": "UNRESOLVED",
+    "R0_FULL_3D_RECEIPT": "UNRESOLVED",
+    "R1_PROJECTED_2D_RECEIPT": "UNRESOLVED",
+    "S0_NATIVE_SOURCE": "UNRESOLVED"
+  },
+  "truth_radius_used": false
+}

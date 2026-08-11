@@ -1,0 +1,11 @@
+{
+  "amplitude": "production constructor fixes 0.006; DEV168 synthetic fixture exposes a predetermined amplitude control only",
+  "backreaction": "packet is included in the evolved DEV167 medium state, so each run changes its own state",
+  "current_packet_count": 1,
+  "direction": "canonical packet momentum is +x propagation; no continuum direction API",
+  "mode": "one canonical longitudinal displacement/momentum packet; DEV168 has synthetic alternate fixture families, not production launch modes",
+  "packet_support": "49 transverse lineage cells with a finite Gaussian longitudinal envelope",
+  "position": "finite support on integer periodic N6 nodes; current production constructor fixes x=1 and derives y/z support from image",
+  "reset_replay": "exact deterministic replay by reusing a hash-identical background/ext and constructing a new VectorPairState",
+  "role": "finite physical vector relational state perturbation propagated by DEV167"
+}

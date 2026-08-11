@@ -1,0 +1,16 @@
+{
+  "EXISTING_OBSERVER_PRESENT": true,
+  "OBSERVER_EXECUTED": false,
+  "OBSERVER_MODIFIED": false,
+  "components": {
+    "2D reduction": true,
+    "3D receipt state": true,
+    "CPU": true,
+    "CPU/Vulkan parity validation": true,
+    "Vulkan": true,
+    "channel bank": true,
+    "deposition/KDE": true,
+    "launch-coordinate handling": true,
+    "source-plane coverage": true
+  }
+}

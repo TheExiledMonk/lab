@@ -1,0 +1,10 @@
+{
+  "F01": "DISSIPATIVE",
+  "F02": "EXACT_REVERSIBLE",
+  "F03": "EXACT_REVERSIBLE",
+  "H07": "NUMERICALLY_REVERSIBLE audit only",
+  "historical G3D rays": "NUMERICALLY_REVERSIBLE/control",
+  "observer reduction": "NON_DYNAMICAL",
+  "source removal residual": "EXACT_REVERSIBLE under free F03",
+  "stationary source response": "STATIC_SOLVE"
+}

@@ -1,0 +1,10 @@
+{
+  "DIVISION_BY_ZERO": false,
+  "GEOMETRIC_DEGENERACY": true,
+  "IMPLEMENTATION_BUG": false,
+  "INPUT_EMPTY": false,
+  "INSUFFICIENT_NEIGHBORS": false,
+  "NONFINITE_CHANNEL_CAUSE": "EXPECTED_UNDEFINED_STATISTIC: kNN k=8 initial-screen neighbour radius is zero because receipt records share duplicated launch coordinates; rho_init is therefore zero and all kappa_local values are undefined",
+  "NONFINITE_CHANNEL_NAME": "knn_density__convergence",
+  "ZERO_VARIANCE": false
+}

@@ -1,0 +1,19 @@
+{
+  "all_reproduced": true,
+  "rows": [
+    {
+      "absolute_drift": 4.336808689942018e-19,
+      "final": 0.0024565000000000003,
+      "initial": 0.0024565,
+      "representation": "F02",
+      "reproduced_exactly": true
+    },
+    {
+      "absolute_drift": 0.0,
+      "final": 0.0002690021877718836,
+      "initial": 0.0002690021877718836,
+      "representation": "F03",
+      "reproduced_exactly": true
+    }
+  ]
+}

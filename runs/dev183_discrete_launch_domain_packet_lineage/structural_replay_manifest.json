@@ -1,0 +1,10 @@
+{
+  "launch_ids": [
+    "R00_DX+00_DY+00_DZ+00",
+    "R00_DX+00_DY+00_DZ+05",
+    "R00_DX+00_DY+05_DZ+05",
+    "R00_DX+00_DY+10_DZ+10"
+  ],
+  "no_simultaneous_packets": true,
+  "one_packet_per_exact_reset_replay": true
+}

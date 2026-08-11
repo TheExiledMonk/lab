@@ -1,0 +1,13 @@
+{
+  "acquisition": "2026-08-12",
+  "catalog": "J/ApJ/728/27 table5 (Owers et al. 2011)",
+  "excluded_information": [
+    "weak/strong lensing maps",
+    "shear/convergence/magnification",
+    "multiple-image models",
+    "lensing halo masses"
+  ],
+  "independent_of_lensing": true,
+  "sha256": "da3d8a8026fbcf2c70b66f23bb99116c4ba6dd103c4f39895d76b56172dda977",
+  "url": "https://cdsarc.cds.unistra.fr/ftp/J/ApJ/728/27/table5.dat"
+}

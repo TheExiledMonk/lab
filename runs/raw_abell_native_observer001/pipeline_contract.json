@@ -1,0 +1,54 @@
+{
+  "edges": [
+    {
+      "from": "RAW",
+      "status": "IMPLEMENTED",
+      "to": "calibrated detector"
+    },
+    {
+      "from": "calibrated detector",
+      "status": "IMPLEMENTED",
+      "to": "projected native source"
+    },
+    {
+      "from": "projected native source",
+      "status": "IMPLEMENTED",
+      "to": "diagnostic 3D source"
+    },
+    {
+      "from": "diagnostic 3D source",
+      "status": "IMPLEMENTED",
+      "to": "vector relational lens"
+    },
+    {
+      "from": "vector relational lens",
+      "status": "IMPLEMENTED",
+      "to": "finite launch state"
+    },
+    {
+      "from": "finite launch state",
+      "status": "IMPLEMENTED",
+      "to": "loaded propagation"
+    },
+    {
+      "from": "loaded propagation",
+      "status": "IMPLEMENTED",
+      "to": "bond-flux receipt"
+    },
+    {
+      "from": "bond-flux receipt",
+      "status": "IMPLEMENTED",
+      "to": "adapter"
+    },
+    {
+      "from": "adapter",
+      "status": "IMPLEMENTED",
+      "to": "observer"
+    },
+    {
+      "from": "observer",
+      "status": "IMPLEMENTED",
+      "to": "2D output"
+    }
+  ]
+}

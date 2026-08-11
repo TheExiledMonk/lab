@@ -1,0 +1,16 @@
+DEV160 RAW ABELL 2744 SIMPLE-LENSING BASELINE AUDIT
+
+Outcome: fail-closed forensic baseline.
+Exact failure point: D0_RAW -> S0_NATIVE_SOURCE is absent from the current repository.
+The RAW archive is acquired and audited, but no active runner converts detector pixels into rho3 or a native M10 lens.
+The actual production lensing chain instead imports current_native_five_cluster_observable_benchmark001. Dev160 did not execute it.
+Consequently C00/C01, lens support, receipt, projection loss, and reversal are UNRESOLVED for DATA_MODE=RAW.
+Creating those objects here would add a source/lens law and violate the frozen scope.
+
+PRIMARY_REVERSAL_BLOCKER=BLOCKER_UNRESOLVED
+EXACT_INFORMATION_LOSS_POINT=D0_TO_S0_EDGE_ABSENT
+FIVE_CLUSTER_BENCHMARK_USED_AS_DEVELOPMENT_BASELINE=false
+OBSERVER_MODIFIED=false
+LENS_PHYSICS_MODIFIED=false
+PROPAGATION_PHYSICS_MODIFIED=false
+DEV159_STATE_SUBSTITUTED_INTO_LENSING=false

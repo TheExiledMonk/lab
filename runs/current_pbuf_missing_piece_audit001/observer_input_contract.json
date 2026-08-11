@@ -1,0 +1,32 @@
+{
+  "CHANNEL_FIELDS": "45-channel derived bank",
+  "DIRECTION_FIELDS": [
+    "direction",
+    "observer_normal"
+  ],
+  "FUTURE_NATIVE_REQUIRED": [
+    "received 3D positions/support",
+    "propagation/effective direction or flux-derived receipt direction",
+    "content/deposition weights",
+    "source and received coordinates",
+    "channel semantics"
+  ],
+  "POSITION_FIELDS": [
+    "position",
+    "received_position"
+  ],
+  "RECEIVED_COORDINATES": [
+    "received_position",
+    "uf",
+    "vf"
+  ],
+  "SOURCE_COORDINATES": [
+    "launch_coordinates",
+    "u0",
+    "v0"
+  ],
+  "STATE_SHAPE": "N rays x 3 coordinates plus sampled native fields/history",
+  "WEIGHT_FIELDS": [
+    "channel-dependent deposition weights"
+  ]
+}

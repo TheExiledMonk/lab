@@ -1,0 +1,10 @@
+{
+  "ROUNDTRIP_CLOSURE_STATUS": "PASS_WITH_DISCRETIZATION",
+  "limitations": [
+    "catalog_to_native_discretization",
+    "finite native cells",
+    "6x6 binning",
+    "noninvertible observer compression"
+  ],
+  "method": "RA/DEC -> frozen native cell -> frozen observer bin -> explicit sky footprint"
+}

@@ -1,0 +1,561 @@
+{
+  "nodes": [
+    {
+      "id": "native_loaded_directional_response",
+      "type": "TARGET"
+    },
+    {
+      "id": "source_medium_coupling",
+      "type": "TARGET"
+    },
+    {
+      "id": "weak_lensing_native_path",
+      "type": "TARGET"
+    },
+    {
+      "id": "physical_observer_mapping",
+      "type": "TARGET"
+    },
+    {
+      "id": "source_depth_reconstruction",
+      "type": "TARGET"
+    },
+    {
+      "id": "sampling_density_terms",
+      "type": "TARGET"
+    },
+    {
+      "id": "native_packet_launch_representation",
+      "type": "TARGET"
+    },
+    {
+      "id": "discrete_native_launch_domain",
+      "type": "TARGET"
+    },
+    {
+      "id": "vulkan_viewer",
+      "type": "TARGET"
+    },
+    {
+      "id": "bounded_strain_constitutive",
+      "type": "TARGET"
+    },
+    {
+      "id": "finite_loaded_receipt",
+      "type": "TARGET"
+    },
+    {
+      "id": "source_work_accounting",
+      "type": "TARGET"
+    },
+    {
+      "id": "coordinate_lineage",
+      "type": "TARGET"
+    },
+    {
+      "id": "observational_lensing_comparison",
+      "type": "TARGET"
+    },
+    {
+      "id": "domain_foundations",
+      "type": "TARGET"
+    },
+    {
+      "id": "domain_propagation",
+      "type": "TARGET"
+    },
+    {
+      "id": "domain_cosmology",
+      "type": "TARGET"
+    },
+    {
+      "id": "domain_em_waves",
+      "type": "TARGET"
+    },
+    {
+      "id": "domain_data_pipelines",
+      "type": "TARGET"
+    },
+    {
+      "id": "domain_planck_finite_bound",
+      "type": "TARGET"
+    },
+    {
+      "id": "domain_reversibility",
+      "type": "TARGET"
+    },
+    {
+      "id": "domain_momentum_flux",
+      "type": "TARGET"
+    },
+    {
+      "id": "domain_accumulation",
+      "type": "TARGET"
+    },
+    {
+      "id": "dev151_shared_state_cross_coupling",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev152_transverse_link_response",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev153_link_candidate_selection",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev163_scalar_loaded_f03",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev163_scalar_loaded_f03:eq_dev163_scalar_loaded_f03",
+      "type": "EQUATION"
+    },
+    {
+      "id": "dev164_scalar_geometry",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev165_h07_allocation",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev166_missing_piece_audit",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev167_vector_relational_dynamics",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
+      "type": "EQUATION"
+    },
+    {
+      "id": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
+      "type": "EQUATION"
+    },
+    {
+      "id": "canonical:dev167_vector_relational_dynamics",
+      "type": "CANONICAL_RESULT"
+    },
+    {
+      "id": "pr36_effective_matter_loading",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "pr37_metric_strain_normalization",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev159_local_source_forcing",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "pr69_forcing_redistribution",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "pr69_forcing_redistribution:eq_pr69_forcing_redistribution",
+      "type": "EQUATION"
+    },
+    {
+      "id": "pr70_bounded_strain_constitutive",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "pr70_bounded_strain_constitutive:eq_pr70_bounded_strain_constitutive",
+      "type": "EQUATION"
+    },
+    {
+      "id": "pr72_local_n6_redistribution",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "pr74_a8_cstate_accumulation",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev170_source_work_accounting",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "canonical:dev170_source_work_accounting",
+      "type": "CANONICAL_RESULT"
+    },
+    {
+      "id": "dev179_subcell_source_closure",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev180_density_reconciliation",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "canonical:dev180_density_reconciliation",
+      "type": "CANONICAL_RESULT"
+    },
+    {
+      "id": "pr16_c25_launch_density",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "pr106_coverage_density",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "pr107_launch_lineage",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev182_native_packet_launch_representation",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev183_discrete_launch_domain_packet_lineage",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "canonical:dev183_discrete_launch_domain_packet_lineage",
+      "type": "CANONICAL_RESULT"
+    },
+    {
+      "id": "dev168_finite_loaded_receipt",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "canonical:dev168_finite_loaded_receipt",
+      "type": "CANONICAL_RESULT"
+    },
+    {
+      "id": "dev169_depth_sensitivity",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev171_independent_3d_source",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "canonical:dev171_independent_3d_source",
+      "type": "CANONICAL_RESULT"
+    },
+    {
+      "id": "dev172_frozen_morphology_gate",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev173_coordinate_lineage",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev174_coordinate_serialization",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "canonical:dev174_coordinate_serialization",
+      "type": "CANONICAL_RESULT"
+    },
+    {
+      "id": "dev175_pyrrg_recovery",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev176_spin2_matrix",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev177_full_received_state",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev177_full_received_state:eq_dev177_full_received_state",
+      "type": "EQUATION"
+    },
+    {
+      "id": "canonical:dev177_full_received_state",
+      "type": "CANONICAL_RESULT"
+    },
+    {
+      "id": "historical_scalar_gradient_lensing",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "historical_a8_m10_lensing",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev178_vulkan_viewer",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "infrastructure:dev178_vulkan_viewer",
+      "type": "INFRASTRUCTURE"
+    },
+    {
+      "id": "owers_spectroscopy",
+      "type": "DATASET"
+    },
+    {
+      "id": "harvey_massey_pyrrg",
+      "type": "DATASET"
+    }
+  ],
+  "edges": [
+    {
+      "source": "dev151_shared_state_cross_coupling",
+      "target": "native_loaded_directional_response",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev152_transverse_link_response",
+      "target": "native_loaded_directional_response",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev153_link_candidate_selection",
+      "target": "native_loaded_directional_response",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev163_scalar_loaded_f03",
+      "target": "native_loaded_directional_response",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev163_scalar_loaded_f03",
+      "target": "dev163_scalar_loaded_f03:eq_dev163_scalar_loaded_f03",
+      "type": "USES"
+    },
+    {
+      "source": "dev164_scalar_geometry",
+      "target": "native_loaded_directional_response",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev165_h07_allocation",
+      "target": "native_loaded_directional_response",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev166_missing_piece_audit",
+      "target": "native_loaded_directional_response",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev167_vector_relational_dynamics",
+      "target": "native_loaded_directional_response",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev167_vector_relational_dynamics",
+      "target": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
+      "type": "USES"
+    },
+    {
+      "source": "dev167_vector_relational_dynamics",
+      "target": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
+      "type": "USES"
+    },
+    {
+      "source": "dev167_vector_relational_dynamics",
+      "target": "canonical:dev167_vector_relational_dynamics",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "pr36_effective_matter_loading",
+      "target": "source_medium_coupling",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "pr37_metric_strain_normalization",
+      "target": "source_medium_coupling",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev159_local_source_forcing",
+      "target": "source_medium_coupling",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "pr69_forcing_redistribution",
+      "target": "source_medium_coupling",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "pr69_forcing_redistribution",
+      "target": "pr69_forcing_redistribution:eq_pr69_forcing_redistribution",
+      "type": "USES"
+    },
+    {
+      "source": "pr70_bounded_strain_constitutive",
+      "target": "bounded_strain_constitutive",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "pr70_bounded_strain_constitutive",
+      "target": "pr70_bounded_strain_constitutive:eq_pr70_bounded_strain_constitutive",
+      "type": "USES"
+    },
+    {
+      "source": "pr72_local_n6_redistribution",
+      "target": "source_medium_coupling",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "pr74_a8_cstate_accumulation",
+      "target": "source_medium_coupling",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev170_source_work_accounting",
+      "target": "source_work_accounting",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev170_source_work_accounting",
+      "target": "canonical:dev170_source_work_accounting",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "dev179_subcell_source_closure",
+      "target": "source_medium_coupling",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev180_density_reconciliation",
+      "target": "sampling_density_terms",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev180_density_reconciliation",
+      "target": "canonical:dev180_density_reconciliation",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "pr16_c25_launch_density",
+      "target": "sampling_density_terms",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "pr106_coverage_density",
+      "target": "sampling_density_terms",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "pr107_launch_lineage",
+      "target": "coordinate_lineage",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev182_native_packet_launch_representation",
+      "target": "native_packet_launch_representation",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev183_discrete_launch_domain_packet_lineage",
+      "target": "discrete_native_launch_domain",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev183_discrete_launch_domain_packet_lineage",
+      "target": "canonical:dev183_discrete_launch_domain_packet_lineage",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "dev168_finite_loaded_receipt",
+      "target": "finite_loaded_receipt",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev168_finite_loaded_receipt",
+      "target": "canonical:dev168_finite_loaded_receipt",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "dev169_depth_sensitivity",
+      "target": "source_depth_reconstruction",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev171_independent_3d_source",
+      "target": "source_depth_reconstruction",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev171_independent_3d_source",
+      "target": "canonical:dev171_independent_3d_source",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "dev172_frozen_morphology_gate",
+      "target": "observational_lensing_comparison",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev173_coordinate_lineage",
+      "target": "coordinate_lineage",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev174_coordinate_serialization",
+      "target": "coordinate_lineage",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev174_coordinate_serialization",
+      "target": "canonical:dev174_coordinate_serialization",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "dev175_pyrrg_recovery",
+      "target": "observational_lensing_comparison",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev176_spin2_matrix",
+      "target": "physical_observer_mapping",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev177_full_received_state",
+      "target": "physical_observer_mapping",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev177_full_received_state",
+      "target": "dev177_full_received_state:eq_dev177_full_received_state",
+      "type": "USES"
+    },
+    {
+      "source": "dev177_full_received_state",
+      "target": "canonical:dev177_full_received_state",
+      "type": "VALIDATED_BY"
+    },
+    {
+      "source": "historical_scalar_gradient_lensing",
+      "target": "weak_lensing_native_path",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "historical_a8_m10_lensing",
+      "target": "weak_lensing_native_path",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev178_vulkan_viewer",
+      "target": "vulkan_viewer",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev178_vulkan_viewer",
+      "target": "infrastructure:dev178_vulkan_viewer",
+      "type": "PRODUCES"
+    },
+    {
+      "source": "pr70_bounded_strain_constitutive",
+      "target": "dev167_vector_relational_dynamics",
+      "type": "EQUIVALENT_TO"
+    }
+  ]
+}

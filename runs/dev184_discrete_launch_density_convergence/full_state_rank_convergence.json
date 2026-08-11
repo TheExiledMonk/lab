@@ -1,0 +1,1842 @@
+{
+  "0": {
+    "BASELINE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 4.584332913282196e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8732661251054805,
+            "relative_residual": 0.35599701528877953,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7322121805077635,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09682225039241876,
+            "relative_residual": 0.9503566433753075,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.049755044364332e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.900440998685722,
+            "relative_residual": 0.31552971542198366,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 9.023892744153272e-13,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.946518449862458,
+            "relative_residual": 0.2312607838297319,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 4.0910803011939834e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7609688400976409,
+            "relative_residual": 0.4889081303295735,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C100_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.629274824059394e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7890225757951806,
+            "relative_residual": 0.45932278868440585,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6935578704434022,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09354287627155633,
+            "relative_residual": 0.9520804187296594,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.343973827034773e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.919927415148633,
+            "relative_residual": 0.28297099648438717,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.120881165661558e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9809314570730929,
+            "relative_residual": 0.1380888950166053,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.116239552016566e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9002740699765527,
+            "relative_residual": 0.3157941260116269,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C25_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.616396236973742e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7893071703912244,
+            "relative_residual": 0.4590128861031851,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6956272787232805,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09407444938474119,
+            "relative_residual": 0.951801213812663,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3433344140677548e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9184208043475055,
+            "relative_residual": 0.2856207199285348,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1195488980320079e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9698124684332453,
+            "relative_residual": 0.17374559438084963,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.112029288767417e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8956171829097869,
+            "relative_residual": 0.32308329744852665,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C50_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.624389842751043e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7890668477649817,
+            "relative_residual": 0.45927459350046596,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6945628098597496,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09336361198152854,
+            "relative_residual": 0.9521745575357868,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3446899573009716e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9193078564553199,
+            "relative_residual": 0.2840636258739935,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.120437076451708e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9783200540477062,
+            "relative_residual": 0.1472411150198675,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.11160236804642e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8986641362124022,
+            "relative_residual": 0.31833294486684516,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    }
+  },
+  "1": {
+    "BASELINE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 4.727773728063767e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8292701883119141,
+            "relative_residual": 0.41319464140775825,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7405452206030037,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09963790939284811,
+            "relative_residual": 0.9488741173660244,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.051277885772862e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9010503274431001,
+            "relative_residual": 0.3145626687273936,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 9.405809464624326e-13,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9599593310533537,
+            "relative_residual": 0.20010164653656956,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 4.040240830782693e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.816587613749483,
+            "relative_residual": 0.4282667232584351,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C100_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.697220473166453e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7907876273860446,
+            "relative_residual": 0.4573973902570448,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7153114031930172,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09977397672316224,
+            "relative_residual": 0.9488024152988006,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.351039767312102e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9214521404209615,
+            "relative_residual": 0.28026391058971273,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1355361095866101e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9874614962412755,
+            "relative_residual": 0.1119754605202605,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.098566151495731e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9017674413140131,
+            "relative_residual": 0.31342073748555144,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C25_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.682565529241401e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7901759246001034,
+            "relative_residual": 0.4580655798026049,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7145979694262798,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10044870562021446,
+            "relative_residual": 0.9484467799406489,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3475478529988436e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9201569222402785,
+            "relative_residual": 0.2825651743575657,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1324274851176597e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9838942714762302,
+            "relative_residual": 0.1269083469428618,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.110554228693331e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8987783487817003,
+            "relative_residual": 0.31815350260259556,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C50_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.688782778179302e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7905111480796121,
+            "relative_residual": 0.45769952143342685,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.715073060976451,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10142799138964664,
+            "relative_residual": 0.9479303817318829,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.348645737004773e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9209823896137331,
+            "relative_residual": 0.2811007121767336,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1328715743275097e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9862980478868822,
+            "relative_residual": 0.11705533782411535,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.099727307111834e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9003772118996779,
+            "relative_residual": 0.31563077812583823,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    }
+  },
+  "2": {
+    "BASELINE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.617728504603292e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7587499238781604,
+            "relative_residual": 0.49117214509969875,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.5030849652712959,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10434853234241015,
+            "relative_residual": 0.9463886451440496,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.1303863677601953e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.913179961828583,
+            "relative_residual": 0.29465240228346523,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.0556000518135988e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9454693923123022,
+            "relative_residual": 0.23351789586174715,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 7.961843357939813e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9076964940043836,
+            "relative_residual": 0.303814920627043,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C100_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.53246337631208e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.786618741209992,
+            "relative_residual": 0.46193209326697365,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.696677766301446,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.0949055783399394,
+            "relative_residual": 0.9513645051503975,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.325772032296669e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9187552647775763,
+            "relative_residual": 0.2850346210943921,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1022294188478554e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.989037120923225,
+            "relative_residual": 0.10470376820714215,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.118769039746951e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9005605499690434,
+            "relative_residual": 0.3153402131523294,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C25_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.545341963397732e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7854560650376731,
+            "relative_residual": 0.46318887612109916,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6937557502254097,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09368823517705394,
+            "relative_residual": 0.952004078154577,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.324372877282599e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9182998727997543,
+            "relative_residual": 0.28583234106770644,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1035616864774056e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9840361915197494,
+            "relative_residual": 0.12634796587302316,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.19669059784178e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9002214357440532,
+            "relative_residual": 0.3158774513255842,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C50_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.540012892879531e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7860354772936263,
+            "relative_residual": 0.46256299323051525,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6946207448588775,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09507805302301264,
+            "relative_residual": 0.9512738548793336,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.324702153444491e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9186802383382302,
+            "relative_residual": 0.2851662000689595,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1035616864774056e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9879305647996722,
+            "relative_residual": 0.10986098124597167,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.151564859140478e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9004934001019609,
+            "relative_residual": 0.31544666727996834,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    }
+  },
+  "3": {
+    "BASELINE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 4.694467037325012e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8146928449339476,
+            "relative_residual": 0.43047317577992295,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.722812008822611,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09741434071053268,
+            "relative_residual": 0.9500450827668481,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.018410552029337e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9042103674803557,
+            "relative_residual": 0.3094990024533913,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 9.379164112033322e-13,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9304333418296772,
+            "relative_residual": 0.2637549206561326,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 4.0919867316802083e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8112848548805008,
+            "relative_residual": 0.4344135646126847,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C100_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.738520769682509e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7897206013895421,
+            "relative_residual": 0.4585623170414876,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6912610522163998,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09874925569253978,
+            "relative_residual": 0.9493422693146346,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.355997775982388e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9212791921929595,
+            "relative_residual": 0.28057228624196023,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1439738045737613e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9832248585472221,
+            "relative_residual": 0.12951888454112742,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.190650598230206e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9001079703841923,
+            "relative_residual": 0.3160570037442733,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C25_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.730971253115058e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7884137128863488,
+            "relative_residual": 0.45998509444725627,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.69125845119981,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09872534326495463,
+            "relative_residual": 0.9493548634388752,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3506664135197752e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9206708381940267,
+            "relative_residual": 0.2816543303518929,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1426415369442111e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9796662997513802,
+            "relative_residual": 0.1425962841332824,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.196357957260034e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8982435724155932,
+            "relative_residual": 0.31899283312389143,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C50_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.732303520744608e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7888849112278005,
+            "relative_residual": 0.4594726202639277,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.691146495962186,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09851786547954189,
+            "relative_residual": 0.9494641301915825,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3514776490429767e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9211854029455102,
+            "relative_residual": 0.28073937567518004,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1430856261540612e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9841256084185536,
+            "relative_residual": 0.12599361722502644,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.189789820114754e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.899766007964579,
+            "relative_residual": 0.31659752373545347,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    }
+  },
+  "4": {
+    "BASELINE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 4.571898415406395e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.86629930739042,
+            "relative_residual": 0.3656510530677848,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6472460991937063,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10130010159838876,
+            "relative_residual": 0.9479978367072422,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.0005153822388877e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8950437428574105,
+            "relative_residual": 0.323969531194817,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 8.93951579428176e-13,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.933635201120367,
+            "relative_residual": 0.25761366205935776,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 4.62380013388497e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.788146967164251,
+            "relative_residual": 0.4602749535177305,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C100_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.750067089138611e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7901116443711663,
+            "relative_residual": 0.4581357393053217,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.676044456605489,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10086659461538627,
+            "relative_residual": 0.9482264525864134,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3429109212713684e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9214425032880712,
+            "relative_residual": 0.2802811030232484,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1470824290427117e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9764938534311485,
+            "relative_residual": 0.1533171437538917,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.203614761306596e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8978243256930922,
+            "relative_residual": 0.3196492989307309,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C25_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.721645379708207e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.789837751219222,
+            "relative_residual": 0.45843456324842924,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6742907761190138,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10061883777597036,
+            "relative_residual": 0.9483570858194869,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3330862446435674e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.920043947686687,
+            "relative_residual": 0.28276501253392905,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1390888232654106e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9706391290843577,
+            "relative_residual": 0.17135014127698378,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.22560095639335e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8947765061230997,
+            "relative_residual": 0.324381710145471,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C50_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.74384984020071e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7900842931329426,
+            "relative_residual": 0.4581655889163408,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6764887904392758,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10064133844921419,
+            "relative_residual": 0.9483452227700552,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3405563416289965e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.921056950193138,
+            "relative_residual": 0.28096805833913213,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1453060722033115e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9749000075677723,
+            "relative_residual": 0.15842977129386937,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.214914753359778e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.896950746011265,
+            "relative_residual": 0.3210128564228153,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    }
+  },
+  "5": {
+    "BASELINE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.0741633117468155e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8269193067381779,
+            "relative_residual": 0.4160296783425698,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7325191630600942,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.114183897617956,
+            "relative_residual": 0.9411780396832705,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.1879162108717765e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9008668006012237,
+            "relative_residual": 0.31485425104129744,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.0098588631990424e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9448074971146917,
+            "relative_residual": 0.23493084702803138,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 4.228067038702932e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8264293247679255,
+            "relative_residual": 0.4166181407861095,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C100_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.88373794130348e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7923058902999851,
+            "relative_residual": 0.4557346922278519,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6867408260558143,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.1079246243508114,
+            "relative_residual": 0.9444974196095978,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3954221064492742e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9231061896592504,
+            "relative_residual": 0.27729733201159656,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1741718708435656e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9856389151039917,
+            "relative_residual": 0.11983774403754566,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.210377200803862e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9031117832822305,
+            "relative_residual": 0.31126872107195325,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C25_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.877964781575429e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7919917303506651,
+            "relative_residual": 0.45607923615237617,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6874406464943523,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10831929782830896,
+            "relative_residual": 0.944288463432489,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.394832181451534e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9221465807377373,
+            "relative_residual": 0.27902225585473067,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1715073355844652e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9800568441447887,
+            "relative_residual": 0.1412202388300322,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.216832725807308e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9008113142082568,
+            "relative_residual": 0.3149423531247317,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C50_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.8832938520936295e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7921606252271297,
+            "relative_residual": 0.4558940389749248,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.6872421077843427,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10769787822992138,
+            "relative_residual": 0.9446174473140323,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3965655633340077e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9228650745208336,
+            "relative_residual": 0.27773175093814256,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1728396032140154e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.984806996315141,
+            "relative_residual": 0.12325990298900519,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.21407370612792e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9025551142310831,
+            "relative_residual": 0.3121616340438345,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    }
+  },
+  "6": {
+    "BASELINE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 6.17150774928632e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7662410242777122,
+            "relative_residual": 0.4834862725272433,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.548986017796959,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.11335482795689533,
+            "relative_residual": 0.9416183791978069,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3244925762000435e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.915503990919785,
+            "relative_residual": 0.29068197240320054,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1666223542761145e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9391514451957023,
+            "relative_residual": 0.2466749983364705,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 8.442857204471466e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9119831226812126,
+            "relative_residual": 0.2966763848350377,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C100_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 6.085798531785258e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.78926213991134,
+            "relative_residual": 0.4590619349158238,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7176758104441299,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.1050191521930891,
+            "relative_residual": 0.9460342741184966,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.516283306608358e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9200081590459128,
+            "relative_residual": 0.28282828881511696,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.2136958105202211e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.985943770526005,
+            "relative_residual": 0.11855897044928743,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.485896510393218e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9007585592449865,
+            "relative_residual": 0.3150260953556284,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C25_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 6.104894367808811e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7882522578650648,
+            "relative_residual": 0.4601605612554549,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7130017511438094,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10554321858058291,
+            "relative_residual": 0.9457572529034166,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.5176690776618216e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9194411099581614,
+            "relative_residual": 0.283828980271287,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.2159162565694714e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9818309956769947,
+            "relative_residual": 0.13479244905782123,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.584300057925873e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.900329776775764,
+            "relative_residual": 0.31570591255824776,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C50_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 6.086242620995108e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7890697496676712,
+            "relative_residual": 0.45927143426554284,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.716460855862723,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.1060632948537833,
+            "relative_residual": 0.9454822606195299,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.5142359421082006e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9199316632868888,
+            "relative_residual": 0.2829634900709121,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.2136958105202211e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9850804760993203,
+            "relative_residual": 0.12214550298999872,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.513125658218598e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9009001051030893,
+            "relative_residual": 0.3148013578384165,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    }
+  },
+  "7": {
+    "BASELINE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 4.619860050070201e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8631319256836494,
+            "relative_residual": 0.3699568546686906,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7575127365287564,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.10466855949946563,
+            "relative_residual": 0.9462195519542672,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.0081517182468644e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9072095986648843,
+            "relative_residual": 0.3046151692465688,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 9.14379683081279e-13,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9275846616352302,
+            "relative_residual": 0.2691009817239055,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 3.6473364684042053e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7371371087382906,
+            "relative_residual": 0.5127015615947638,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C100_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.74296166178101e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7910855139816261,
+            "relative_residual": 0.4570716421069829,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7064051857606648,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09866693323694642,
+            "relative_residual": 0.949385625951359,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.330925915838833e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9224163446942679,
+            "relative_residual": 0.2785384269822246,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1453060722033115e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9764378014869309,
+            "relative_residual": 0.1534998322900356,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.133519960232036e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.900160871406636,
+            "relative_residual": 0.31597330360864984,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C25_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.709654971042255e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.791079026768894,
+            "relative_residual": 0.45707873854633185,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7059065917817613,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09842526343665359,
+            "relative_residual": 0.9495128943639188,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3205200836429185e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9213825847246342,
+            "relative_residual": 0.2803879727723102,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1368683772161603e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9572116994207467,
+            "relative_residual": 0.20685333108087303,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.116523809078899e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8961330318818898,
+            "relative_residual": 0.3222839867540897,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    },
+    "C50_DISCRETE": {
+      "channel_rank_contributions": {
+        "content_weight": {
+          "effective_rank_increment": 5.738076680472659e-12,
+          "numerical_rank_increment": 4,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.7907961771910617,
+            "relative_residual": 0.45738804401617056,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "direction": {
+          "effective_rank_increment": 1.7066784348095754,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.09867007087314561,
+            "relative_residual": 0.9493839734937884,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "displacement": {
+          "effective_rank_increment": 2.3294870943324497e-06,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9221400674477637,
+            "relative_residual": 0.2790339272422555,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "flux": {
+          "effective_rank_increment": 1.1439738045737613e-12,
+          "numerical_rank_increment": 1,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.9706324223583349,
+            "relative_residual": 0.1713697103973311,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        },
+        "momentum": {
+          "effective_rank_increment": 5.13372824695324e-07,
+          "numerical_rank_increment": 3,
+          "recoverability_from_remaining": {
+            "explained_linear_fraction": 0.8992085576562011,
+            "relative_residual": 0.317476679999963,
+            "status": "DEFINED"
+          },
+          "status": "INDEPENDENT_INFORMATION"
+        }
+      },
+      "depth_increment": 4,
+      "full_rank": 14,
+      "transverse_rank": 10
+    }
+  }
+}

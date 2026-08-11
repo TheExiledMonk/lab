@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "construction": "one-cell contact constraint plus required periodic zero-mode gauge",
+      "id": "C01",
+      "status": "EXECUTED"
+    },
+    {
+      "id": "C02",
+      "reason": "distance ranking adds no content beyond one-cell occupancy",
+      "status": "REDUNDANT"
+    },
+    {
+      "construction": "source forcing inserted into existing F03 relational kick",
+      "id": "C03",
+      "status": "EXECUTED"
+    },
+    {
+      "construction": "linear source term with zero-mean constrained N6 quadratic functional",
+      "id": "C04",
+      "status": "EXACT"
+    }
+  ],
+  "cutoff": null,
+  "fitted_coefficients": [],
+  "minimum_geometry": "S02_ONE_CELL",
+  "radial_power": null,
+  "screening_length": null,
+  "selected": "C01+C03+C04",
+  "source_amplitude_is_control_not_fitted": true
+}

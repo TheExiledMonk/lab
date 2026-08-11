@@ -1,0 +1,12 @@
+{
+  "consumer": "pbuf.wl.native_response.build_native_response",
+  "depth_intrinsic": false,
+  "dimensional_interpretation": "phenomenological volumetric rho3 proxy",
+  "expected_shape": "three-dimensional numpy array; historical benchmark constructs (z,y,x)",
+  "geometry": "depth profile is synthetically constructed by forbidden benchmark lane",
+  "loader": "pbuf.wl.source.load_cluster_source",
+  "normalization": "benchmark-derived and not specified by public function contract",
+  "raw_data_can_satisfy": false,
+  "reason": "2D broadband detector intensity neither supplies depth nor a mass/source conversion",
+  "sign": "historical construction is nonnegative source density"
+}

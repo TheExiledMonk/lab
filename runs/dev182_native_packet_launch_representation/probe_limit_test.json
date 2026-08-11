@@ -1,0 +1,5 @@
+{
+  "amplitude_ladder": "not run as a production claim; amplitude variation exists only in DEV168 synthetic fixture controls",
+  "reason": "current DEV171/169 production packet hard-codes amplitude 0.006",
+  "status": "AMPLITUDE_NOT_FREE"
+}

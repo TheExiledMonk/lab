@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "native_source": "receipt.source_positions",
+      "observer_input": "launch_coordinates_3d",
+      "transform": "copy"
+    },
+    {
+      "native_source": "receipt.received_positions",
+      "observer_input": "received_position_3d",
+      "transform": "copy"
+    },
+    {
+      "native_source": "receipt.directions",
+      "observer_input": "direction_3d",
+      "transform": "copy and axis reorder into snapshot"
+    },
+    {
+      "native_source": "launch/received positions plus direction-derived e1/e2",
+      "observer_input": "screen u0,v0,uf,vf",
+      "transform": "orthonormal dot products"
+    }
+  ],
+  "mapping": "R_native -> A_observer is pbuf/excitation/native_observer_adapter.py:17-42",
+  "orientation_survives": "native orientation and in-memory screen basis; not serialized",
+  "origin_survives": "relative native origin only",
+  "physical_coordinate_scale_survives": false
+}

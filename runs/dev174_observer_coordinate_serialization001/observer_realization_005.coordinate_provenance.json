@@ -1,0 +1,89 @@
+{
+  "bin_count_x": 6,
+  "bin_count_y": 6,
+  "bin_edges_u": [
+    -12.475793170254942,
+    -8.317195446836628,
+    -4.158597723418314,
+    0.0,
+    4.158597723418314,
+    8.317195446836628,
+    12.475793170254942
+  ],
+  "bin_edges_v": [
+    -12.475793170254942,
+    -8.317195446836628,
+    -4.158597723418314,
+    0.0,
+    4.158597723418314,
+    8.317195446836628,
+    12.475793170254942
+  ],
+  "bin_edges_x": [
+    -12.475793170254942,
+    -8.317195446836628,
+    -4.158597723418314,
+    0.0,
+    4.158597723418314,
+    8.317195446836628,
+    12.475793170254942
+  ],
+  "bin_edges_y": [
+    -12.475793170254942,
+    -8.317195446836628,
+    -4.158597723418314,
+    0.0,
+    4.158597723418314,
+    8.317195446836628,
+    12.475793170254942
+  ],
+  "coordinate_transform_reference": "frozen Dev171 RA/DEC->projected->round/clip native mapping; Dev173 recovered observer screen chain",
+  "dynamic_extent": {
+    "u_max": 12.475793170254942,
+    "u_min": -12.475793170254942,
+    "v_max": 12.475793170254942,
+    "v_min": -12.475793170254942
+  },
+  "native_bin_footprints": "native_bin_footprints.json#realization_05",
+  "native_output_hash": "a8112d972fae9db00a93b4894364768883cd887a483e42b6cceb27e2500c83a1",
+  "observer_array_file": "runs/dev171_independent_3d_abell001/observer_realization_05.npy",
+  "observer_array_hash": "ce1a2d74bfa37e46ff9756d33fe44cfc6cbdd7e04d03e147d36446c196bc52dd",
+  "observer_shape": [
+    6,
+    6
+  ],
+  "realization_id": 5,
+  "receipt_lineage_reference": "receipt_lineage_serialization.json#realization_05",
+  "screen_basis": {
+    "normal": [
+      -0.8945178636097287,
+      -0.2948057259070038,
+      0.3360466867200616
+    ],
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "u_axis": [
+      0.44703220430197943,
+      -0.5899104932048866,
+      0.6724342483274337
+    ],
+    "v_axis": [
+      0.0,
+      0.7517281383447156,
+      0.6594731275956497
+    ]
+  },
+  "screen_extent": 12.475793170254942,
+  "screen_origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "sky_footprint_approximation": "DETERMINISTIC_APPROXIMATION",
+  "source_catalog_hash": "0c966983ac329b75a514cb76a97bc7c2d151298832a366f6d99c9fe13e6ccec9",
+  "source_ensemble_hash": "9f1df7b816466e6276eef60a5d3ea0560779be2366953c3e2bc60938e347ccb4",
+  "source_lineage_summary": "source_lineage_serialization.json#realization_05"
+}

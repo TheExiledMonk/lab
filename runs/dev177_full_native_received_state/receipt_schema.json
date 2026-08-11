@@ -1,0 +1,19 @@
+{
+  "FULL_3D_RECEIPT_RETAINED": true,
+  "NO_EARLY_2D_COLLAPSE": true,
+  "PRIMARY_ANALYSIS_USES_6X6_ONLY": false,
+  "PRIMARY_ANALYSIS_USES_INDIVIDUAL_RECEIPTS": true,
+  "per_receipt_fields": {
+    "directions": "float64[N,3]",
+    "local_content_candidates": "float64[N,4]",
+    "local_displacement": "float64[N,3]",
+    "local_flux": "float64[N,3]",
+    "local_momentum": "float64[N,3]",
+    "native_cell_ids": "int64[N]",
+    "progression_steps": "int64[N]",
+    "received_positions": "float64[N,3]",
+    "source_positions": "float64[N,3]",
+    "weights": "float64[N]"
+  },
+  "representation": "DEV168_NATIVE_RECEIPT"
+}

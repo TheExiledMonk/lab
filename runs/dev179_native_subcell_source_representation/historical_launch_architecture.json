@@ -1,0 +1,11 @@
+{
+  "allowed_current_use": [
+    "indexing",
+    "deterministic grid construction",
+    "storage",
+    "GPU batching",
+    "coverage accounting"
+  ],
+  "current_physical_source_semantics_imported": false,
+  "historical": "266x266 continuous Cartesian ray launches on an 8x8 plane"
+}

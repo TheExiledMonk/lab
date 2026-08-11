@@ -1,0 +1,6 @@
+{
+  "NEW_COEFFICIENT_REQUIRED": false,
+  "SEMANTIC_EQUIVALENCE": "same local one-cell source-contact semantics; distributed composition only",
+  "SOURCE_CONSTRAINT_INPUT": "relative projected Dev161 constraint plus Dev162 diagnostic LOS weights",
+  "VECTOR_SOURCE_FORCE_CONSTRUCTION": "linear superposition of frozen Dev167 six-neighbor one-cell source_contact_force at every supported 3D source cell"
+}

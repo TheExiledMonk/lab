@@ -1,0 +1,45 @@
+{
+  "amplitude_ladder": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "fixtures": {
+    "F1_exact_node": [
+      5.0,
+      5.0,
+      5.0
+    ],
+    "F2_edge_midpoint": [
+      5.0,
+      5.5,
+      5.0
+    ],
+    "F3_cell_center": [
+      5.0,
+      5.5,
+      5.5
+    ],
+    "F4_asymmetric": [
+      5.0,
+      5.25,
+      5.75
+    ],
+    "F5_translated": [
+      5.0,
+      6.25,
+      6.75
+    ],
+    "F6_reflected": [
+      5.0,
+      5.75,
+      5.25
+    ],
+    "F7_zero_source": [
+      5.0,
+      5.0,
+      5.0
+    ]
+  },
+  "observational_input": false
+}

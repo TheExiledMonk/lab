@@ -1,0 +1,40 @@
+[
+  {
+    "CLASS": "LOSSY",
+    "FROM": "RAW detector 2D",
+    "TO": "projected native source",
+    "lost": "spectral/time detector detail through combination"
+  },
+  {
+    "CLASS": "NON_UNIQUE",
+    "FROM": "projected native source",
+    "TO": "3D ambiguity family",
+    "lost": "line-of-sight depth"
+  },
+  {
+    "CLASS": "DERIVED",
+    "FROM": "3D ambiguity family",
+    "TO": "stationary 3D lens"
+  },
+  {
+    "CLASS": "UNRESOLVED",
+    "FROM": "stationary 3D lens",
+    "TO": "finite 3D state"
+  },
+  {
+    "CLASS": "UNRESOLVED",
+    "FROM": "finite 3D state",
+    "TO": "received 3D state"
+  },
+  {
+    "CLASS": "UNRESOLVED_ADAPTER",
+    "FROM": "received 3D state",
+    "TO": "observer representation"
+  },
+  {
+    "CLASS": "LOSSY",
+    "FROM": "observer representation",
+    "TO": "observer 2D reduction",
+    "lost": "depth and some channel information"
+  }
+]

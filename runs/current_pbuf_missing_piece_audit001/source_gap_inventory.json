@@ -1,0 +1,29 @@
+{
+  "mappings": [
+    [
+      "detector flux",
+      "projected luminous morphology",
+      "IMPLEMENTED_RELATIVE"
+    ],
+    [
+      "projected luminous morphology",
+      "native source constraint",
+      "IMPLEMENTED_TARGET_BLIND"
+    ],
+    [
+      "native source constraint",
+      "source-medium coupling strength",
+      "UNRESOLVED"
+    ],
+    [
+      "detector flux",
+      "mass density",
+      "NOT_DERIVED"
+    ],
+    [
+      "projected 2D source",
+      "3D source",
+      "NON_UNIQUE"
+    ]
+  ]
+}

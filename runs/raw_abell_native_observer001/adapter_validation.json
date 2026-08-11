@@ -1,0 +1,13 @@
+{
+  "all_fields_single_source": true,
+  "field_sources": {
+    "new_physics": false,
+    "observer.direction": "native flux directions",
+    "observer.launch_coordinates": "native source_positions/source lineage",
+    "observer.metadata": "progression and local finite state",
+    "observer.position": "native received_positions",
+    "observer.weight": "native outward-flux content proxy (retained without native normalization)"
+  },
+  "finite_support_survives": true,
+  "target_fields_used": false
+}

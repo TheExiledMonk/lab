@@ -1,0 +1,57 @@
+[
+  {
+    "rank_change": 0,
+    "removed": [],
+    "reversible": true,
+    "stage": "FULL_DEV168_RECEIPT"
+  },
+  {
+    "rank_change": "not numerical feature",
+    "removed": [
+      "lineage/cell/step"
+    ],
+    "reversible": false,
+    "stage": "REMOVE_PROVENANCE"
+  },
+  {
+    "rank_change": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "removed": [
+      "x components"
+    ],
+    "reversible": false,
+    "stage": "REMOVE_NATIVE_X_DEPTH"
+  },
+  {
+    "rank_change": "not executed",
+    "removed": [
+      "individual receipt identity"
+    ],
+    "reversible": false,
+    "stage": "SPATIAL_BINNING"
+  },
+  {
+    "rank_change": "not executed",
+    "removed": [
+      "separate families"
+    ],
+    "reversible": false,
+    "stage": "CHANNEL_COLLAPSE"
+  },
+  {
+    "rank_change": "forbidden in DEV177",
+    "removed": [
+      "3D state"
+    ],
+    "reversible": false,
+    "stage": "SPIN2_OR_OBSERVER"
+  }
+]

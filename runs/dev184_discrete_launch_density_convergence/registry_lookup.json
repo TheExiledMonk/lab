@@ -1,0 +1,67 @@
+{
+  "MATCHING_REGISTRY_ENTRIES_READ": true,
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "RELEVANT_SOURCES_INSPECTED": true,
+  "queries": {
+    "G3": [
+      "TARGET: Weak-lensing native path",
+      "STATUS: ACTIVE",
+      "",
+      "TARGET: Physical observer mapping",
+      "STATUS: OPEN",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL",
+      "Pre-ledger  Scalar/gradient lensing and old ray architecture  PARTIAL / HISTORICAL_ONLY",
+      "Pre-ledger  A8/M10 processed five-lens path  FULL / SUPERSEDED"
+    ],
+    "J3": [
+      "TARGET: Physical observer mapping",
+      "STATUS: OPEN",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL"
+    ],
+    "channel complementarity": [],
+    "discrete launch domain": [
+      "TARGET: Discrete native launch domain and packet receipt lineage",
+      "STATUS: CANONICAL",
+      "",
+      "DEV183  Discrete native launch domain and packet-aware receipt lineage  FULL / CANONICAL"
+    ],
+    "distribution sufficiency": [],
+    "full native receipt": [
+      "TARGET: Finite loaded receipt",
+      "STATUS: CANONICAL",
+      "",
+      "DEV168  Finite native loaded receipt  FULL / CANONICAL"
+    ],
+    "higher moments": [],
+    "launch density": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "observer sufficiency": [
+      "TARGET: Physical observer mapping",
+      "STATUS: OPEN",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL"
+    ],
+    "packet density": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "received-state rank": []
+  }
+}

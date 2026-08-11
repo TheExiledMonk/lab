@@ -1,0 +1,19 @@
+{
+  "ADAPTER_INTRODUCES_NEW_PHYSICS": false,
+  "ADAPTER_REQUIRED": true,
+  "DIRECTION_CHANNEL_PRESERVED": true,
+  "OBSERVER_ADAPTER_SEMANTICS_UNAMBIGUOUS": true,
+  "POSITION_CHANNEL_PRESERVED": true,
+  "PRE_OBSERVER_3D_DEPTH_PRESERVED": true,
+  "direction_selected_by_adapter": false,
+  "operations": [
+    "rename fields",
+    "package arrays",
+    "preserve 3D basis",
+    "copy native metadata"
+  ],
+  "physical_scale_added": false,
+  "steering_added": false,
+  "support_smoothed": false,
+  "weight_invented_by_adapter": false
+}

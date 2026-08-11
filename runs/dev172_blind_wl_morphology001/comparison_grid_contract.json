@@ -1,0 +1,15 @@
+{
+  "ASTROMETRIC_REGISTRATION_SOURCE": "WCS",
+  "COMPARISON_REQUIRES_MISSING_PHYSICAL_BRIDGE": true,
+  "MANUAL_ROTATION_USED": false,
+  "MANUAL_SCALE_USED": false,
+  "MANUAL_TRANSLATION_USED": false,
+  "MIRROR_TRANSFORM_FITTED_TO_WL": false,
+  "ROTATION_FITTED_TO_WL": false,
+  "SCALE_FITTED_TO_WL": false,
+  "TRANSLATION_FITTED_TO_WL": false,
+  "common_grid_established": false,
+  "native_wcs_status": "NOT_SERIALIZED_BY_DEV171_FROZEN_OBSERVER_OUTPUT",
+  "observed_wcs_status": "UNAVAILABLE_BECAUSE_NO_PUBLISHED_RASTER_ASSET_WAS_RETRIEVED",
+  "reason": "The observer output is a 6x6 native-bin field with no WCS transform, while no pyRRG map raster/WCS was available. Any alignment would require an unrecorded registration or a new coordinate bridge."
+}

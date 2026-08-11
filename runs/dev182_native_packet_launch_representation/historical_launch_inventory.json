@@ -1,0 +1,52 @@
+{
+  "PR100_TO_PR105": {
+    "status": "frozen received-G3D observer work reviewed; launch coordinates remain ray lineage"
+  },
+  "PR106": {
+    "area_ratio": 4,
+    "count_ratio": 4,
+    "executable_count": 285156,
+    "executable_grid_side": 534,
+    "launcher": "native_full_state_100pct_observer_coverage001._launch_full_100pct",
+    "relationship": "SIDE100 = 2 * SIDE25; area=4x; N100=4*N25",
+    "semantics": "constant launch density N_launch/A_launch"
+  },
+  "PR107": {
+    "bug": "receipt helper reconstructed initial coordinates from the old hard-coded 25% launcher",
+    "failure": "100% terminal-ray arrays mismatched reconstructed 25% coordinate arrays",
+    "fix": "receipt extraction consumes the actual x0/y0 arrays from its propagation lane",
+    "permanent_rule": "LAUNCH_COORDINATES_ARE_PRIMARY_LINEAGE=true"
+  },
+  "PR16": {
+    "construction": "cell centers from 268 edges; Cartesian mesh; vx=+1, vy=0",
+    "density_rule": "scale ray count with launch-rectangle area to preserve rays per supported source/observer bin",
+    "executable_count": 71289,
+    "executable_grid_side": 267,
+    "launcher": "m10_coverage_25pct_science001._launch_expanded_25pct",
+    "nominal_documentation_grid": [
+      266,
+      266
+    ],
+    "rectangle": {
+      "x": [
+        -8.0,
+        0.0
+      ],
+      "y": [
+        -4.0,
+        4.0
+      ]
+    },
+    "role": "one independent non-backreacting geometric ray trajectory per coordinate",
+    "source_relationship": "launch plane samples; not matter locations"
+  },
+  "PR17": {
+    "status": "C25 correction/audit reviewed; no different launcher recovered"
+  },
+  "PR18_TO_PR31": {
+    "status": "propagation/receipt/observer audits reviewed; rays remain launch-array trajectories"
+  },
+  "PR32_TO_PR35": {
+    "status": "independent-source C25 uses reviewed; source objects and ray launches remain distinct"
+  }
+}

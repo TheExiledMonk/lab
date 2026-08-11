@@ -1,0 +1,14 @@
+{
+  "accepted_candidates": [],
+  "candidates": [
+    {
+      "analysis_role": "legacy star/galaxy classifier training",
+      "classification": "UNVERIFIED_CANDIDATE",
+      "filename": "trainStarGalClass/TrainingData/abell2744_{galaxies,stars,uncor}.fits/cat",
+      "paper_correspondence": false,
+      "reason": "historical training data, not provenance-tied to the 2024 JWST analysis or its exact released map/catalogue",
+      "source_url": "https://github.com/davidharvey1986/pyRRG commit 13fbaa5fa78f7f8f39e7c2db36607fdacf96121e"
+    }
+  ],
+  "gate_passed": false
+}

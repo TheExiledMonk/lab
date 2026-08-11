@@ -1,0 +1,10 @@
+{
+  "expected_bin_center_uncertainty": "extent/6 per screen axis, unavailable numerically without re-executing frozen receipt/adapter metadata",
+  "expected_native_cell_uncertainty": "half native cell in each discretized coordinate",
+  "manual_registration_used": false,
+  "native_roundtrip_error": "0 within a specified cell/bin centre convention; point uncertainty remains",
+  "observer_roundtrip_error": "not recoverable from serialized .npy because extent and screen basis were dropped",
+  "performed_on": "frozen Dev171 catalog-to-native deterministic mapping and published bin definition",
+  "sky_roundtrip_error": "not point-invertible after native cell and 6x6 binning",
+  "wl_data_used": false
+}

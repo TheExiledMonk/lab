@@ -1,0 +1,138 @@
+{
+  "LENS_SHAPE_DEPENDS_ON_ABSOLUTE_SCALE": false,
+  "amplitudes": [
+    1,
+    2,
+    4
+  ],
+  "maximum_linearity_error": 0.0,
+  "regime": "exact linear stationary Dev159 law; amplitude remains relative",
+  "rows": [
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z01_THIN_CENTRAL",
+      "normalized_shape_correlation": 0.9999999999999999,
+      "scale": 1
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z01_THIN_CENTRAL",
+      "normalized_shape_correlation": 0.9999999999999999,
+      "scale": 2
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z01_THIN_CENTRAL",
+      "normalized_shape_correlation": 0.9999999999999999,
+      "scale": 4
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "normalized_shape_correlation": 1.0000000000000002,
+      "scale": 1
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "normalized_shape_correlation": 1.0000000000000002,
+      "scale": 2
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "normalized_shape_correlation": 1.0000000000000002,
+      "scale": 4
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "normalized_shape_correlation": 1.0,
+      "scale": 1
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "normalized_shape_correlation": 1.0,
+      "scale": 2
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "normalized_shape_correlation": 1.0,
+      "scale": 4
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "normalized_shape_correlation": 1.0,
+      "scale": 1
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "normalized_shape_correlation": 1.0,
+      "scale": 2
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "normalized_shape_correlation": 1.0,
+      "scale": 4
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z04_DOUBLE_LAYER",
+      "normalized_shape_correlation": 1.0000000000000002,
+      "scale": 1
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z04_DOUBLE_LAYER",
+      "normalized_shape_correlation": 1.0000000000000002,
+      "scale": 2
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z04_DOUBLE_LAYER",
+      "normalized_shape_correlation": 1.0000000000000002,
+      "scale": 4
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z05_ASYMMETRIC",
+      "normalized_shape_correlation": 1.0,
+      "scale": 1
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z05_ASYMMETRIC",
+      "normalized_shape_correlation": 1.0,
+      "scale": 2
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z05_ASYMMETRIC",
+      "normalized_shape_correlation": 1.0,
+      "scale": 4
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "normalized_shape_correlation": 1.0000000000000002,
+      "scale": 1
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "normalized_shape_correlation": 1.0000000000000002,
+      "scale": 2
+    },
+    {
+      "linearity_max_error": 0.0,
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "normalized_shape_correlation": 1.0000000000000002,
+      "scale": 4
+    }
+  ]
+}

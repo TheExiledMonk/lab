@@ -1,0 +1,9 @@
+{
+  "ANTISYMMETRIC_BOND_FLUX_FOUND": "PARTIAL",
+  "INVARIANT_PRESERVING": true,
+  "LAW": "positive oriented gradients plus adjoint provide conservative pair structure in free F02/F03; no explicit loaded J_ab=-J_ba allocation law",
+  "LOAD_DEPENDENT": false,
+  "MODULE": "pbuf/excitation/native_bond_state.py and native_relational_dynamics.py",
+  "REVERSIBLE": true,
+  "STATE_USED": "free scalar excursion/bond memory"
+}

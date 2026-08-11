@@ -1,0 +1,8 @@
+{
+  "DENSITY_ARCHITECTURE": "DENSITY_E",
+  "DEV179_VALID_BUT_BLOCKER_MISAPPLIED": true,
+  "native_grid_refinement_historically_supported": "YES_AS_HISTORICAL_FINITE_SOURCE_SAMPLING_ROUTE; current vector convergence not yet demonstrated",
+  "new_packet_semantics_required_before_run": true,
+  "new_source_law_required": false,
+  "reason": "historical C25 was ray density, but current canonical 7x7 packet lineage is tied to supported packet cells; the audited code contains no independently defined denser packet launch representation. This does not establish a new source coupling is required."
+}

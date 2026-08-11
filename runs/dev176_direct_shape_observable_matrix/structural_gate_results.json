@@ -1,0 +1,19 @@
+{
+  "G10_all_eight_realizations": true,
+  "G11_weight_dependency": "DEV168 positive outward bond-flux content proxy; unweighted diagnostic deferred",
+  "G12_absolute_normalization": {
+    "ABSOLUTE_NORMALIZATION_REQUIRED": false,
+    "PHYSICAL_LENGTH_SCALE_INTRODUCED": false,
+    "PHYSICAL_TIME_SCALE_INTRODUCED": false,
+    "SI_ENERGY_ASSIGNED": false
+  },
+  "G1_deterministic_reproducibility": true,
+  "G2_new_fitted_coefficients": false,
+  "G3_native_law_modified": false,
+  "G4_translation_invariance": true,
+  "G5_rotation_covariance": true,
+  "G6_reflection_behavior": "NOT_REEXECUTED_ON_ABELL_RECEIPT; DEV167 control retained; no sign correction applied",
+  "G7_unloaded_control": "PENDING_NATIVE_CONTROL_REPLAY",
+  "G8_centered_control": "PENDING_NATIVE_CONTROL_REPLAY",
+  "G9_finite_support_stability": "PARTIAL: inherited DEV168 finite-step receipt audit; no estimator selected using observations"
+}

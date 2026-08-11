@@ -1,0 +1,47 @@
+{
+  "implementations": [
+    {
+      "ACTIVE": true,
+      "CONTROL_ONLY": true,
+      "DERIVED": true,
+      "FULL_N6": true,
+      "REVERSIBLE": false,
+      "name": "F01 neighbor mean"
+    },
+    {
+      "ACTIVE": true,
+      "DERIVED": true,
+      "FULL_N6": true,
+      "INVARIANT_PRESERVING": true,
+      "LOAD_DEPENDENT": false,
+      "REVERSIBLE": true,
+      "name": "F02/F03 normalized N6 imbalance"
+    },
+    {
+      "ACTIVE": false,
+      "CONTROL_ONLY": true,
+      "DERIVED": false,
+      "FULL_N6": false,
+      "REVERSIBLE": false,
+      "name": "historical one-neighbor native excitation transfer"
+    },
+    {
+      "ACTIVE": false,
+      "CONTROL_ONLY": true,
+      "DERIVED": false,
+      "FULL_N6": true,
+      "INVARIANT_PRESERVING": true,
+      "LOAD_DEPENDENT": true,
+      "REVERSIBLE": "AUDIT_REVERSAL",
+      "name": "H07 allocation"
+    },
+    {
+      "ACTIVE": true,
+      "DERIVED": false,
+      "FULL_N6": false,
+      "PRODUCTION": true,
+      "classification": "SUPERSEDED_PHYSICS_FOR_FINITE_NATIVE_PATH",
+      "name": "G3D geometric rays"
+    }
+  ]
+}

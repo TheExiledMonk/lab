@@ -1,0 +1,173 @@
+{
+  "LOCAL_POSITIVE_NATIVE_CONTENT_DENSITY": "NOT_DERIVED",
+  "items": [
+    {
+      "DYNAMIC_STATE": true,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": true,
+      "SOURCE_COUPLING": false,
+      "kind": "scalar",
+      "quantity": "node excursion",
+      "role": "governing"
+    },
+    {
+      "DYNAMIC_STATE": true,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": true,
+      "SOURCE_COUPLING": false,
+      "kind": "bond scalar",
+      "quantity": "directed scalar neighbor differences",
+      "role": "derived"
+    },
+    {
+      "DYNAMIC_STATE": true,
+      "EXACT_INVARIANT": true,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": true,
+      "SOURCE_COUPLING": false,
+      "kind": "bond scalar",
+      "quantity": "F02 bond storage",
+      "role": "governing"
+    },
+    {
+      "DYNAMIC_STATE": true,
+      "EXACT_INVARIANT": true,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": true,
+      "SOURCE_COUPLING": false,
+      "kind": "scalar",
+      "quantity": "F03 retained change",
+      "role": "governing"
+    },
+    {
+      "DYNAMIC_STATE": false,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": false,
+      "SOURCE_COUPLING": true,
+      "kind": "scalar",
+      "quantity": "source constraint",
+      "role": "governing"
+    },
+    {
+      "DYNAMIC_STATE": false,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": false,
+      "SOURCE_COUPLING": true,
+      "kind": "scalar field",
+      "quantity": "stationary source response",
+      "role": "derived"
+    },
+    {
+      "DYNAMIC_STATE": false,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": false,
+      "SOURCE_COUPLING": false,
+      "kind": "bond scalar",
+      "quantity": "bounded strain",
+      "role": "diagnostic/static closure"
+    },
+    {
+      "DYNAMIC_STATE": false,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": false,
+      "SOURCE_COUPLING": false,
+      "kind": "bond scalar",
+      "quantity": "bounded stress",
+      "role": "diagnostic/static closure"
+    },
+    {
+      "DYNAMIC_STATE": false,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": false,
+      "SOURCE_COUPLING": false,
+      "kind": "bond scalar",
+      "quantity": "tangent stiffness",
+      "role": "diagnostic"
+    },
+    {
+      "DYNAMIC_STATE": true,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": true,
+      "SOURCE_COUPLING": true,
+      "kind": "scalar field",
+      "quantity": "source-removal residual",
+      "role": "derived"
+    },
+    {
+      "DYNAMIC_STATE": true,
+      "EXACT_INVARIANT": true,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": true,
+      "SOURCE_COUPLING": false,
+      "kind": "scalar plus memory",
+      "quantity": "finite excitation state",
+      "role": "governing"
+    },
+    {
+      "DYNAMIC_STATE": true,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": true,
+      "SOURCE_COUPLING": false,
+      "kind": "N6 bond scalars",
+      "quantity": "directional asymmetry",
+      "role": "derived"
+    },
+    {
+      "DYNAMIC_STATE": true,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": false,
+      "SOURCE_COUPLING": false,
+      "kind": "global diagnostics",
+      "quantity": "native dispersion state",
+      "role": "diagnostic"
+    },
+    {
+      "DYNAMIC_STATE": false,
+      "EXACT_INVARIANT": false,
+      "LOAD_DEPENDENCE": false,
+      "OBSERVER_MEANING": "UNRESOLVED",
+      "PHYSICAL_SCALE": "UNRESOLVED",
+      "REVERSIBLE": false,
+      "SOURCE_COUPLING": false,
+      "kind": "scalar grid",
+      "quantity": "c_state",
+      "role": "historical loading/source state"
+    }
+  ]
+}

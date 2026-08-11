@@ -1,0 +1,21 @@
+[
+  {
+    "COEFFICIENT_FREE": true,
+    "CONSERVATIVE": true,
+    "DERIVED_FROM_FROZEN_PBUF": false,
+    "MECHANISM": "H07 directional allocation",
+    "PERMUTATION_COVARIANT": true,
+    "REDIRECTION_DEMONSTRATED": true,
+    "STATUS": "PARTIAL"
+  },
+  {
+    "MECHANISM": "H14 emergent geometry as output",
+    "STATUS": "PARTIAL",
+    "evidence": "directional effect demonstrated only with nonderived routing"
+  },
+  {
+    "MECHANISM": "H15 new primitive required",
+    "STATUS": "PARTIAL",
+    "evidence": "need localized; primitive identity not determined"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "LAW": "F_ab=(epsilon/(1-epsilon^2))*r_hat",
+  "LOAD_DEPENDENT_COUPLING_COEFFICIENT": false,
+  "LOAD_DEPENDENT_STIFFNESS": false,
+  "LOCAL_PAIR_LAW_CHANGES_WITH_LOADING": false,
+  "PAIR_FORCE_RECIPROCITY_ERROR": 0.0,
+  "PAIR_LAW_LABEL_INDEPENDENCE_ERROR": 0.0,
+  "SIGN": "positive extension pulls tail toward head; compression pushes it away"
+}

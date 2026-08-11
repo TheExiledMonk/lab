@@ -1,0 +1,29 @@
+{
+  "centroid": [
+    7.499999999999917,
+    6.674848492292955,
+    4.999999999999974
+  ],
+  "count": 14744,
+  "direction_shift": [
+    -0.0037440671027226904,
+    -0.0030608927140766545
+  ],
+  "effective_direction": [
+    0.9999883063802912,
+    -0.0037440671027226904,
+    -0.0030608927140766545
+  ],
+  "equilibrium": {
+    "iterations": 10,
+    "max_force_residual": 1.0719749063040836e-05,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "success": true
+  },
+  "executed": true,
+  "transverse_shift": [
+    1.6748484922929547,
+    -2.5757174171303632e-14
+  ],
+  "weight_sum": 0.00015667176503757086
+}

@@ -1,0 +1,79 @@
+{
+  "conclusion": "Invariant magnitude alone does not select k.",
+  "different_wavelengths_at_equal_invariant": true,
+  "rows": [
+    {
+      "amplitude": 0.0006380307582901652,
+      "invariant": 0.0009999999999999996,
+      "mode_indices": [
+        1,
+        0,
+        0
+      ],
+      "native_wavelength": 17.0,
+      "progression_frequency": 0.15017192235777269,
+      "representation": "F02"
+    },
+    {
+      "amplitude": 0.0006380307582901653,
+      "invariant": 0.001,
+      "mode_indices": [
+        2,
+        0,
+        0
+      ],
+      "native_wavelength": 8.5,
+      "progression_frequency": 0.29603235353883733,
+      "representation": "F02"
+    },
+    {
+      "amplitude": 0.0006380307582901652,
+      "invariant": 0.001,
+      "mode_indices": [
+        3,
+        1,
+        0
+      ],
+      "native_wavelength": 5.375872022286245,
+      "progression_frequency": 0.4592878433675674,
+      "representation": "F02"
+    },
+    {
+      "amplitude": 0.0042526636711288195,
+      "invariant": 0.0009999999999999998,
+      "mode_indices": [
+        1,
+        0,
+        0
+      ],
+      "native_wavelength": 17.0,
+      "progression_frequency": 0.15017192235777269,
+      "representation": "F03"
+    },
+    {
+      "amplitude": 0.0021631638101268307,
+      "invariant": 0.0009999999999999998,
+      "mode_indices": [
+        2,
+        0,
+        0
+      ],
+      "native_wavelength": 8.5,
+      "progression_frequency": 0.29603235353883733,
+      "representation": "F03"
+    },
+    {
+      "amplitude": 0.001401459593759398,
+      "invariant": 0.001,
+      "mode_indices": [
+        3,
+        1,
+        0
+      ],
+      "native_wavelength": 5.375872022286245,
+      "progression_frequency": 0.4592878433675674,
+      "representation": "F03"
+    }
+  ],
+  "target_invariant": 0.001
+}

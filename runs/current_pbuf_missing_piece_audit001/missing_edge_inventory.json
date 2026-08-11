@@ -1,0 +1,110 @@
+[
+  {
+    "DOWNSTREAM_DEPENDENTS": [],
+    "EDGE_ID": "E04",
+    "FIRST_BLOCKING_ARTIFACT": "UNRESOLVED",
+    "FIRST_BLOCKING_FUNCTION": "UNRESOLVED",
+    "FIRST_BLOCKING_MODULE": "UNRESOLVED",
+    "FROM": "native projected source constraint",
+    "ROOT_CANDIDATE": true,
+    "STATUS": "PARTIAL",
+    "TO": "3D source ambiguity family",
+    "UPSTREAM_REQUIREMENTS": []
+  },
+  {
+    "DOWNSTREAM_DEPENDENTS": [],
+    "EDGE_ID": "E08",
+    "FIRST_BLOCKING_ARTIFACT": "UNRESOLVED",
+    "FIRST_BLOCKING_FUNCTION": "UNRESOLVED",
+    "FIRST_BLOCKING_MODULE": "UNRESOLVED",
+    "FROM": "free finite native state",
+    "ROOT_CANDIDATE": true,
+    "STATUS": "PARTIAL",
+    "TO": "native propagation condition",
+    "UPSTREAM_REQUIREMENTS": []
+  },
+  {
+    "DOWNSTREAM_DEPENDENTS": [],
+    "EDGE_ID": "E09",
+    "FIRST_BLOCKING_ARTIFACT": "runs/native_medium_interaction_wide_net001/report.txt",
+    "FIRST_BLOCKING_FUNCTION": "evaluate_candidates",
+    "FIRST_BLOCKING_MODULE": "pbuf/labs/native_mechanisms/candidate_base.py",
+    "FROM": "stationary native lens",
+    "ROOT_CANDIDATE": false,
+    "STATUS": "BLOCKED",
+    "TO": "loaded directional response",
+    "UPSTREAM_REQUIREMENTS": []
+  },
+  {
+    "DOWNSTREAM_DEPENDENTS": [],
+    "EDGE_ID": "E10",
+    "FIRST_BLOCKING_ARTIFACT": "runs/native_medium_interaction_wide_net001/report.txt",
+    "FIRST_BLOCKING_FUNCTION": "evaluate_candidates",
+    "FIRST_BLOCKING_MODULE": "pbuf/labs/native_mechanisms/candidate_base.py",
+    "FROM": "native propagation condition",
+    "ROOT_CANDIDATE": true,
+    "STATUS": "MISSING",
+    "TO": "loaded directional response",
+    "UPSTREAM_REQUIREMENTS": []
+  },
+  {
+    "DOWNSTREAM_DEPENDENTS": [],
+    "EDGE_ID": "E11",
+    "FIRST_BLOCKING_ARTIFACT": "runs/native_medium_interaction_wide_net001/report.txt",
+    "FIRST_BLOCKING_FUNCTION": "evaluate_candidates",
+    "FIRST_BLOCKING_MODULE": "pbuf/labs/native_mechanisms/candidate_base.py",
+    "FROM": "loaded directional response",
+    "ROOT_CANDIDATE": false,
+    "STATUS": "BLOCKED",
+    "TO": "finite loaded propagation",
+    "UPSTREAM_REQUIREMENTS": []
+  },
+  {
+    "DOWNSTREAM_DEPENDENTS": [],
+    "EDGE_ID": "E12",
+    "FIRST_BLOCKING_ARTIFACT": "UNRESOLVED",
+    "FIRST_BLOCKING_FUNCTION": "UNRESOLVED",
+    "FIRST_BLOCKING_MODULE": "UNRESOLVED",
+    "FROM": "finite loaded propagation",
+    "ROOT_CANDIDATE": false,
+    "STATUS": "BLOCKED",
+    "TO": "received native 3D state",
+    "UPSTREAM_REQUIREMENTS": []
+  },
+  {
+    "DOWNSTREAM_DEPENDENTS": [],
+    "EDGE_ID": "E13",
+    "FIRST_BLOCKING_ARTIFACT": "UNRESOLVED",
+    "FIRST_BLOCKING_FUNCTION": "UNRESOLVED",
+    "FIRST_BLOCKING_MODULE": "UNRESOLVED",
+    "FROM": "received native 3D state",
+    "ROOT_CANDIDATE": false,
+    "STATUS": "BLOCKED",
+    "TO": "observer receipt",
+    "UPSTREAM_REQUIREMENTS": []
+  },
+  {
+    "DOWNSTREAM_DEPENDENTS": [],
+    "EDGE_ID": "E16",
+    "FIRST_BLOCKING_ARTIFACT": "UNRESOLVED",
+    "FIRST_BLOCKING_FUNCTION": "UNRESOLVED",
+    "FIRST_BLOCKING_MODULE": "UNRESOLVED",
+    "FROM": "2D observer output",
+    "ROOT_CANDIDATE": true,
+    "STATUS": "MISSING",
+    "TO": "physical normalization",
+    "UPSTREAM_REQUIREMENTS": []
+  },
+  {
+    "DOWNSTREAM_DEPENDENTS": [],
+    "EDGE_ID": "E17",
+    "FIRST_BLOCKING_ARTIFACT": "UNRESOLVED",
+    "FIRST_BLOCKING_FUNCTION": "UNRESOLVED",
+    "FIRST_BLOCKING_MODULE": "UNRESOLVED",
+    "FROM": "physical normalization",
+    "ROOT_CANDIDATE": false,
+    "STATUS": "BLOCKED",
+    "TO": "observational comparison",
+    "UPSTREAM_REQUIREMENTS": []
+  }
+]

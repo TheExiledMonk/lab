@@ -1,0 +1,17 @@
+{
+  "classification": "METADATA_DROP",
+  "lost_fields": [
+    "receipt event records",
+    "source_lineage per event/bin",
+    "launch_coordinate",
+    "received_position_3d",
+    "flux_direction",
+    "screen basis",
+    "screen u0/v0/uf/vf",
+    "dynamic extent",
+    "bin footprints",
+    "WCS"
+  ],
+  "stage": "serialized_6x6_output",
+  "why_not_physics": "all fields exist before serialization and arise from frozen deterministic code; no effective EM relation is consulted for the native screen coordinates."
+}

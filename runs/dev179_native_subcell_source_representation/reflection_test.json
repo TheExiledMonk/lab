@@ -1,0 +1,12 @@
+{
+  "F4": {
+    "accepted": false,
+    "reason": "DEV167 defines source contact at an integer native node only; no source-to-node coupling or cell-ownership law is frozen"
+  },
+  "F6": {
+    "accepted": false,
+    "reason": "DEV167 defines source contact at an integer native node only; no source-to-node coupling or cell-ownership law is frozen"
+  },
+  "REFLECTION_TESTED": true,
+  "result": "no subcell loading state exists to compare; canonical node contact retains DEV167 reflection covariance"
+}

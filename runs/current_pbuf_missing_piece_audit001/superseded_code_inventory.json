@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "pattern": "1D surrogate excitation / one-neighbor transport",
+      "status": "DANGEROUS_IF_REUSED"
+    },
+    {
+      "pattern": "historical Rmax",
+      "status": "HISTORICAL"
+    },
+    {
+      "pattern": "strength=0.18",
+      "status": "CONTROL_ONLY"
+    },
+    {
+      "pattern": "five-cluster-only source loaders",
+      "status": "CONTROL_ONLY"
+    },
+    {
+      "pattern": "old observer runners",
+      "status": "HISTORICAL_REUSABLE_HARNESS"
+    },
+    {
+      "pattern": "deprecated WL paths",
+      "status": "SUPERSEDED"
+    },
+    {
+      "pattern": "old geometric propagation",
+      "status": "ACTIVE_CONTROL"
+    }
+  ]
+}

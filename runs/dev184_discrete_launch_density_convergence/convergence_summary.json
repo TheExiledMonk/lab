@@ -1,0 +1,18 @@
+{
+  "OUTCOME": "OUTCOME_B",
+  "RECEIVED_STATE_DISTRIBUTION_GATE": "AUTHORIZED",
+  "class_counts": {
+    "CONVERGED_BY_C50": 8
+  },
+  "density_effect_vs_realization_effect": "reported as raw trajectories; no fitted weighting",
+  "per_realization_convergence_class": {
+    "0": "CONVERGED_BY_C50",
+    "1": "CONVERGED_BY_C50",
+    "2": "CONVERGED_BY_C50",
+    "3": "CONVERGED_BY_C50",
+    "4": "CONVERGED_BY_C50",
+    "5": "CONVERGED_BY_C50",
+    "6": "CONVERGED_BY_C50",
+    "7": "CONVERGED_BY_C50"
+  }
+}

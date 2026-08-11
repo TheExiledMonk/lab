@@ -1,0 +1,39 @@
+{
+  "absolute_mass_scale": null,
+  "amplitude_units": "dimensionless relative detector-derived projected structure",
+  "array_order": "channel,y,x",
+  "channels": [
+    "F814W"
+  ],
+  "coordinate_mapping": {
+    "bounds_degrees": {
+      "dec": [
+        -30.45877612466402,
+        -30.331889032401282
+      ],
+      "ra": [
+        3.5207153724129374,
+        3.655152743459256
+      ]
+    },
+    "coordinate_covariance": "WCS geometry explicit; no downstream morphology enters frame selection",
+    "frame": "ICRS celestial bounding box sampled from calibrated SCI WCS",
+    "mapping": "FITS WCS celestial pixel_to_world followed by fixed rectangular sky binning",
+    "morphology_targeted_alignment": false,
+    "shape": [
+      128,
+      128
+    ],
+    "status": "TRUE"
+  },
+  "depth": null,
+  "normalization": "L1_RELATIVE_PER_CHANNEL",
+  "shape": [
+    1,
+    128,
+    128
+  ],
+  "support_rule": "background-subtracted intensity > 0 and finite positive uncertainty",
+  "type": "NATIVE_MULTI_CHANNEL_SOURCE_CONSTRAINT",
+  "uncertainty_retained": true
+}

@@ -1,0 +1,57 @@
+{
+  "INVARIANT_DRIFT_STEP_BEHAVIOR": "MIXED",
+  "classification_basis": "persistent medium-only offset is source-work bookkeeping; closed/control invariant envelopes vary with step",
+  "rows": {
+    "frozen_loaded": [
+      {
+        "conservative_drift": 2.868654110248724,
+        "h": 0.04,
+        "medium_drift": 0.023662872164507416
+      },
+      {
+        "conservative_drift": 2.887248595793914,
+        "h": 0.02,
+        "medium_drift": 0.0120603056448534
+      },
+      {
+        "conservative_drift": 2.896821526640422,
+        "h": 0.01,
+        "medium_drift": 0.00608908180757488
+      }
+    ],
+    "persistent_loaded": [
+      {
+        "conservative_drift": 0.05128590347351918,
+        "h": 0.04,
+        "medium_drift": 0.31037217458865873
+      },
+      {
+        "conservative_drift": 0.02616074154854887,
+        "h": 0.02,
+        "medium_drift": 0.31365989171516334
+      },
+      {
+        "conservative_drift": 0.013213772734987188,
+        "h": 0.01,
+        "medium_drift": 0.31534189333170554
+      }
+    ],
+    "unloaded": [
+      {
+        "conservative_drift": 0.02724230696101245,
+        "h": 0.04,
+        "medium_drift": 0.02724230696101245
+      },
+      {
+        "conservative_drift": 0.013896199566938881,
+        "h": 0.02,
+        "medium_drift": 0.013896199566938881
+      },
+      {
+        "conservative_drift": 0.007018963444209675,
+        "h": 0.01,
+        "medium_drift": 0.007018963444209675
+      }
+    ]
+  }
+}

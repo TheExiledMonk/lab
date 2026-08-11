@@ -1,0 +1,223 @@
+{
+  "dynamic_propagation_used": false,
+  "law": "linear distributed extension of Dev159 stationary N6 source interaction",
+  "results": [
+    {
+      "equilibrium_residual_max": 1.3877787807814457e-17,
+      "family": "THIN",
+      "geometry": {
+        "centroid_zyx": [
+          8.0,
+          64.65244963160936,
+          63.27472919061027
+        ],
+        "peak_deformation": 0.07585921832525039,
+        "r_3d_rms": 52.50436472061474,
+        "r_perp_rms": 52.279554861162445,
+        "r_z_rms": 4.853499586281949,
+        "total_native_response": 1374.5688036435208,
+        "transverse_principal_angle_degrees": 148.14300625747904,
+        "transverse_principal_variances": [
+          1411.8624137688998,
+          1321.2894427123942
+        ]
+      },
+      "inventory": {
+        "accumulated_deformation": 144.7172011132731,
+        "bond_excursion_peak": 0.048783727222695084,
+        "bounded_strain_peak": 0.0465145729824396,
+        "bounded_stress_peak": 0.0465145729824396,
+        "medium_response_l1": 1.9746656685505388,
+        "node_excursion_peak": 0.07585921832525039
+      },
+      "name": "Z01_THIN_CENTRAL",
+      "stationary_native_lens_generated": true
+    },
+    {
+      "equilibrium_residual_max": 1.1722935989999517e-17,
+      "family": "FINITE_SYMMETRIC",
+      "geometry": {
+        "centroid_zyx": [
+          7.999999999999999,
+          64.6552099204924,
+          63.27584694887657
+        ],
+        "peak_deformation": 0.032159965341242665,
+        "r_3d_rms": 52.504721081577244,
+        "r_perp_rms": 52.27939676635231,
+        "r_z_rms": 4.859054393658634,
+        "total_native_response": 1374.2603952853947,
+        "transverse_principal_angle_degrees": 148.12070073908802,
+        "transverse_principal_variances": [
+          1411.9407982250127,
+          1321.194528028676
+        ]
+      },
+      "inventory": {
+        "accumulated_deformation": 136.47662159848124,
+        "bond_excursion_peak": 0.014502178251293553,
+        "bounded_strain_peak": 0.014294871477053984,
+        "bounded_stress_peak": 0.014294871477053984,
+        "medium_response_l1": 1.879519828982986,
+        "node_excursion_peak": 0.032159965341242665
+      },
+      "name": "Z02_UNIFORM_DEPTH_2",
+      "stationary_native_lens_generated": true
+    },
+    {
+      "equilibrium_residual_max": 1.0814916670542907e-17,
+      "family": "FINITE_SYMMETRIC",
+      "geometry": {
+        "centroid_zyx": [
+          7.999999999999999,
+          64.65843893969503,
+          63.278679941425565
+        ],
+        "peak_deformation": 0.0222771459395402,
+        "r_3d_rms": 52.50579263442664,
+        "r_perp_rms": 52.27941998989998,
+        "r_z_rms": 4.870370179879282,
+        "total_native_response": 1373.9146055583183,
+        "transverse_principal_angle_degrees": 148.11433791381612,
+        "transverse_principal_variances": [
+          1412.053341863617,
+          1321.084412616737
+        ]
+      },
+      "inventory": {
+        "accumulated_deformation": 129.5136030463267,
+        "bond_excursion_peak": 0.008425363174229039,
+        "bounded_strain_peak": 0.00835496952169911,
+        "bounded_stress_peak": 0.00835496952169911,
+        "medium_response_l1": 1.793301933940925,
+        "node_excursion_peak": 0.0222771459395402
+      },
+      "name": "Z02_UNIFORM_DEPTH_4",
+      "stationary_native_lens_generated": true
+    },
+    {
+      "equilibrium_residual_max": 1.2115959277525512e-17,
+      "family": "SYMMETRIC_COMPACT",
+      "geometry": {
+        "centroid_zyx": [
+          8.000000000000002,
+          64.65560039412469,
+          63.27618933264193
+        ],
+        "peak_deformation": 0.034333049686266603,
+        "r_3d_rms": 52.504818517760626,
+        "r_perp_rms": 52.27938104612697,
+        "r_z_rms": 4.860276228450293,
+        "total_native_response": 1374.2132386377723,
+        "transverse_principal_angle_degrees": 148.1180056061688,
+        "transverse_principal_variances": [
+          1411.9574944560234,
+          1321.1761881101168
+        ]
+      },
+      "inventory": {
+        "accumulated_deformation": 136.02924111895044,
+        "bond_excursion_peak": 0.01646444624528695,
+        "bounded_strain_peak": 0.016197759111108007,
+        "bounded_stress_peak": 0.016197759111108007,
+        "medium_response_l1": 1.8386736517059368,
+        "node_excursion_peak": 0.034333049686266603
+      },
+      "name": "Z03_SYMMETRIC_COMPACT",
+      "stationary_native_lens_generated": true
+    },
+    {
+      "equilibrium_residual_max": 1.1190999299123816e-17,
+      "family": "DOUBLE_LAYER",
+      "geometry": {
+        "centroid_zyx": [
+          8.0,
+          64.66111587113923,
+          63.28185021761495
+        ],
+        "peak_deformation": 0.040913819706169884,
+        "r_3d_rms": 52.5082330776083,
+        "r_perp_rms": 52.27986720451853,
+        "r_z_rms": 4.891832582003015,
+        "total_native_response": 1373.771982452493,
+        "transverse_principal_angle_degrees": 148.13419597270385,
+        "transverse_principal_variances": [
+          1412.0837998916818,
+          1321.1007150304106
+        ]
+      },
+      "inventory": {
+        "accumulated_deformation": 130.45043491196046,
+        "bond_excursion_peak": 0.024608590813542,
+        "bounded_strain_peak": 0.02401755268712193,
+        "bounded_stress_peak": 0.02401755268712193,
+        "medium_response_l1": 1.9500065117052512,
+        "node_excursion_peak": 0.040913819706169884
+      },
+      "name": "Z04_DOUBLE_LAYER",
+      "stationary_native_lens_generated": true
+    },
+    {
+      "equilibrium_residual_max": 1.0055975149803054e-17,
+      "family": "ASYMMETRIC",
+      "geometry": {
+        "centroid_zyx": [
+          8.063482118791182,
+          64.65491716416133,
+          63.275938248206465
+        ],
+        "peak_deformation": 0.05220242983132055,
+        "r_3d_rms": 52.50666228425689,
+        "r_perp_rms": 52.279426247186386,
+        "r_z_rms": 4.879669609512981,
+        "total_native_response": 1374.283925693309,
+        "transverse_principal_angle_degrees": 148.12284951496824,
+        "transverse_principal_variances": [
+          1411.9397459898623,
+          1321.1986627451386
+        ]
+      },
+      "inventory": {
+        "accumulated_deformation": 138.31979408957122,
+        "bond_excursion_peak": 0.03147892859003469,
+        "bounded_strain_peak": 0.03051824687593411,
+        "bounded_stress_peak": 0.03051824687593411,
+        "medium_response_l1": 1.9272436533969841,
+        "node_excursion_peak": 0.05220242983132055
+      },
+      "name": "Z05_ASYMMETRIC",
+      "stationary_native_lens_generated": true
+    },
+    {
+      "equilibrium_residual_max": 9.770525046578354e-18,
+      "family": "SPATIALLY_VARIABLE_DEPTH",
+      "geometry": {
+        "centroid_zyx": [
+          7.967522620408834,
+          64.65969672414492,
+          63.28058599465375
+        ],
+        "peak_deformation": 0.07564424402837147,
+        "r_3d_rms": 52.50806527927964,
+        "r_perp_rms": 52.280190430989286,
+        "r_z_rms": 4.88657424711718,
+        "total_native_response": 1374.005175573897,
+        "transverse_principal_angle_degrees": 148.14771686728952,
+        "transverse_principal_variances": [
+          1412.002217786222,
+          1321.2160937142817
+        ]
+      },
+      "inventory": {
+        "accumulated_deformation": 136.00952403350738,
+        "bond_excursion_peak": 0.04877643296969451,
+        "bounded_strain_peak": 0.046507941479558355,
+        "bounded_stress_peak": 0.046507941479558355,
+        "medium_response_l1": 1.9746656685505388,
+        "node_excursion_peak": 0.07564424402837147
+      },
+      "name": "Z06_SPATIALLY_VARIABLE",
+      "stationary_native_lens_generated": true
+    }
+  ]
+}

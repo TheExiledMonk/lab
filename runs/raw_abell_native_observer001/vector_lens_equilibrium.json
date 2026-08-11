@@ -1,0 +1,54 @@
+{
+  "all_converged": true,
+  "rows": [
+    {
+      "iterations": 8,
+      "lane": "Z01_THIN_CENTRAL",
+      "max_force_residual": 1.20224531854386e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "success": true
+    },
+    {
+      "iterations": 7,
+      "lane": "Z02_UNIFORM_DEPTH_2",
+      "max_force_residual": 1.616779133627481e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "success": true
+    },
+    {
+      "iterations": 7,
+      "lane": "Z02_UNIFORM_DEPTH_4",
+      "max_force_residual": 2.3161163569299873e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "success": true
+    },
+    {
+      "iterations": 7,
+      "lane": "Z03_SYMMETRIC_COMPACT",
+      "max_force_residual": 1.5150146454782996e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "success": true
+    },
+    {
+      "iterations": 7,
+      "lane": "Z04_DOUBLE_LAYER",
+      "max_force_residual": 4.843317838438112e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "success": true
+    },
+    {
+      "iterations": 7,
+      "lane": "Z05_ASYMMETRIC",
+      "max_force_residual": 6.548615839721062e-07,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "success": true
+    },
+    {
+      "iterations": 8,
+      "lane": "Z06_SPATIALLY_VARIABLE",
+      "max_force_residual": 1.20224531854386e-06,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "success": true
+    }
+  ]
+}

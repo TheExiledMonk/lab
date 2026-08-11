@@ -1,0 +1,89 @@
+{
+  "bin_count_x": 6,
+  "bin_count_y": 6,
+  "bin_edges_u": [
+    -15.412172740262179,
+    -10.274781826841451,
+    -5.137390913420726,
+    0.0,
+    5.137390913420727,
+    10.274781826841455,
+    15.412172740262179
+  ],
+  "bin_edges_v": [
+    -15.412172740262179,
+    -10.274781826841451,
+    -5.137390913420726,
+    0.0,
+    5.137390913420727,
+    10.274781826841455,
+    15.412172740262179
+  ],
+  "bin_edges_x": [
+    -15.412172740262179,
+    -10.274781826841451,
+    -5.137390913420726,
+    0.0,
+    5.137390913420727,
+    10.274781826841455,
+    15.412172740262179
+  ],
+  "bin_edges_y": [
+    -15.412172740262179,
+    -10.274781826841451,
+    -5.137390913420726,
+    0.0,
+    5.137390913420727,
+    10.274781826841455,
+    15.412172740262179
+  ],
+  "coordinate_transform_reference": "frozen Dev171 RA/DEC->projected->round/clip native mapping; Dev173 recovered observer screen chain",
+  "dynamic_extent": {
+    "u_max": 15.412172740262179,
+    "u_min": -15.412172740262179,
+    "v_max": 15.412172740262179,
+    "v_min": -15.412172740262179
+  },
+  "native_bin_footprints": "native_bin_footprints.json#realization_03",
+  "native_output_hash": "19a1d14c336da262fcada0f7bddd129243595f4afcdda1a5b31ae25904b69537",
+  "observer_array_file": "runs/dev171_independent_3d_abell001/observer_realization_03.npy",
+  "observer_array_hash": "707e1cd5f73350fdd931e0ec2ea48e2785fa6f180612b9cbe95e46e4cbc88de3",
+  "observer_shape": [
+    6,
+    6
+  ],
+  "realization_id": 3,
+  "receipt_lineage_reference": "receipt_lineage_serialization.json#realization_03",
+  "screen_basis": {
+    "normal": [
+      -0.7630588240259591,
+      0.5113890978095499,
+      0.39524982190717656
+    ],
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "u_axis": [
+      0.646329042420438,
+      0.6037481499097062,
+      0.46663362545415293
+    ],
+    "v_axis": [
+      -2.775557561562892e-17,
+      0.61153034440013,
+      -0.791220979169447
+    ]
+  },
+  "screen_extent": 15.412172740262179,
+  "screen_origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "sky_footprint_approximation": "DETERMINISTIC_APPROXIMATION",
+  "source_catalog_hash": "0c966983ac329b75a514cb76a97bc7c2d151298832a366f6d99c9fe13e6ccec9",
+  "source_ensemble_hash": "9f1df7b816466e6276eef60a5d3ea0560779be2366953c3e2bc60938e347ccb4",
+  "source_lineage_summary": "source_lineage_serialization.json#realization_03"
+}

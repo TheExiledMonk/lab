@@ -1,0 +1,14 @@
+{
+  "GEOMETRIC_TRAJECTORY_DEPTH_STABILITY": "UNRESOLVED",
+  "directional_scalar_pattern_correlations_to_first": [
+    0.9999999999999999,
+    0.8609360175868099,
+    0.7626003184751919,
+    0.8875049873724595,
+    0.4931960442409002,
+    0.6285569384981733,
+    0.4473674510533589
+  ],
+  "realization_count": 7,
+  "reason": "No trajectory geometry exists to compare; scalar diagnostics are not substituted for geometry."
+}

@@ -1,0 +1,22 @@
+{
+  "losses": [
+    {
+      "CAN_BE_RECOVERED": false,
+      "DOWNSTREAM_DEPENDENCY": "projected native source",
+      "WHAT_IS_LOST": "spectral/time detector detail through combination",
+      "WHY_ACCEPTABLE": "retained endpoint matches current structural question"
+    },
+    {
+      "CAN_BE_RECOVERED": false,
+      "DOWNSTREAM_DEPENDENCY": "3D ambiguity family",
+      "WHAT_IS_LOST": "line-of-sight depth",
+      "WHY_ACCEPTABLE": "retained endpoint matches current structural question"
+    },
+    {
+      "CAN_BE_RECOVERED": false,
+      "DOWNSTREAM_DEPENDENCY": "observer 2D reduction",
+      "WHAT_IS_LOST": "depth and some channel information",
+      "WHY_ACCEPTABLE": "retained endpoint matches current structural question"
+    }
+  ]
+}

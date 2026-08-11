@@ -1,0 +1,47 @@
+{
+  "CPU": true,
+  "artifact_size_bytes": 1469032593,
+  "per_realization": [
+    {
+      "launches_per_second": 1.5586924168525598,
+      "realization": 0,
+      "seconds": 77.62917041778564
+    },
+    {
+      "launches_per_second": 1.591204173274596,
+      "realization": 1,
+      "seconds": 76.04303765296936
+    },
+    {
+      "launches_per_second": 1.556503743515912,
+      "realization": 2,
+      "seconds": 77.73832869529724
+    },
+    {
+      "launches_per_second": 1.5933827051285234,
+      "realization": 3,
+      "seconds": 75.93906927108765
+    },
+    {
+      "launches_per_second": 1.6055609146405558,
+      "realization": 4,
+      "seconds": 75.36306977272034
+    },
+    {
+      "launches_per_second": 1.6208043986374507,
+      "realization": 5,
+      "seconds": 74.65428876876831
+    },
+    {
+      "launches_per_second": 1.6244951584447054,
+      "realization": 6,
+      "seconds": 74.48467826843262
+    },
+    {
+      "launches_per_second": 1.594732270377463,
+      "realization": 7,
+      "seconds": 75.87480449676514
+    }
+  ],
+  "total_seconds": 833.6592917442322
+}

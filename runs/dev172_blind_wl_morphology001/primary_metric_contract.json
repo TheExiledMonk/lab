@@ -1,0 +1,19 @@
+{
+  "CHANNEL_SELECTED_AFTER_VIEWING_WL": false,
+  "CLUSTER_CENTER": "Dev171 catalog astrometric median (RA/DEC), serialized before WL access",
+  "NULL_CONTROLS": [
+    "spatial permutation",
+    "fixed rotations 90/180/270 degrees"
+  ],
+  "PREDECLARED_THRESHOLDS_SIGMA": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "PRIMARY_METRIC": "zero-lag spatial Pearson correlation over WCS-defined common mask",
+  "PRIMARY_NATIVE_COMPARISON_FIELD": "Dev171 frozen observer primary channel, serialized as observer_realization_*.npy",
+  "PRIMARY_NATIVE_COMPARISON_FIELD_FROZEN": true,
+  "REGISTRATION": "WCS only; no translation, rotation, scale, or mirror fitting",
+  "RESOLUTION": "degrade observed map to native comparison grid; never upsample native map for scientific comparison",
+  "STANDARDIZATION_METHOD": "ZERO_MEAN_UNIT_RMS"
+}

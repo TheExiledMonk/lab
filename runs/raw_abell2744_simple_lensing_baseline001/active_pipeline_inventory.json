@@ -1,0 +1,114 @@
+{
+  "active_raw_lensing_runner": null,
+  "evidence": {
+    "geometry_runner_status": "production_mapping_performed=false; pixel access=false",
+    "only_foundation_RAW_consumer": "pbuf/labs/foundation/wl_hst_acs_detector_geometry001.py",
+    "production_prepare_calls": [
+      "_compare_candidates",
+      "_targets_after_decoding",
+      "abs",
+      "allclose",
+      "any",
+      "append",
+      "asarray",
+      "ascontiguousarray",
+      "bool",
+      "build_detector_screen",
+      "build_native_response",
+      "build_received_state",
+      "build_reconstruction_candidates",
+      "corrcoef",
+      "count_nonzero",
+      "decode_full_channel_bank",
+      "float",
+      "get_interface_vector",
+      "hexdigest",
+      "isfinite",
+      "isnan",
+      "issubdtype",
+      "launch_100pct",
+      "launch_25pct",
+      "load_cluster_source",
+      "max",
+      "mean",
+      "project_interface_to_los",
+      "report",
+      "sha256",
+      "sqrt",
+      "std",
+      "tobytes"
+    ],
+    "production_source_import": "current_native_five_cluster_observable_benchmark001"
+  },
+  "five_cluster_benchmark_used_as_development_baseline": false,
+  "five_cluster_chain_executed_by_dev160": false,
+  "raw_archive_consumers": [
+    {
+      "downstream": "Dev126/Dev134 audits",
+      "function": "main",
+      "input": "MAST acquisition metadata/products",
+      "module": "pbuf.labs.data.frontier_abell2744_raw_acquisition001",
+      "output": "local RAW/FLT/FLC archive"
+    },
+    {
+      "downstream": "none in pbuf.wl",
+      "function": "main",
+      "input": "RAW/FLT/FLC exposure families",
+      "module": "pbuf.labs.data.hst_acs_raw_flt_flc_audit001",
+      "output": "read-only calibration audit"
+    },
+    {
+      "downstream": "no production mapping",
+      "function": "main",
+      "input": "FITS headers only",
+      "module": "pbuf.labs.foundation.wl_hst_acs_detector_geometry001",
+      "output": "partial detector geometry inventory"
+    }
+  ],
+  "raw_to_native_lens_edge": "ABSENT",
+  "raw_to_native_source_edge": "ABSENT",
+  "separate_production_lensing_chain": [
+    {
+      "function": "load_product",
+      "input": "external/preprocessed Frontier Fields kappa/gamma FITS",
+      "module": "pbuf.core.benchmark_data",
+      "output": "2D observable arrays",
+      "stage": "D0"
+    },
+    {
+      "function": "load_cluster_source",
+      "input": "five-cluster benchmark entry",
+      "module": "pbuf.wl.source",
+      "output": "benchmark-assisted rho3",
+      "stage": "S0"
+    },
+    {
+      "function": "build_native_response",
+      "input": "rho3",
+      "module": "pbuf.wl.native_response",
+      "output": "M10 native vector response",
+      "stage": "L0"
+    },
+    {
+      "function": "project_interface_to_los",
+      "input": "M10 vector",
+      "module": "pbuf.wl.los",
+      "output": "Rx/Ry grid field",
+      "stage": "L0/P0"
+    },
+    {
+      "function": "CpuReferenceBackend.propagate",
+      "input": "Rx/Ry field plus RayLaunch",
+      "module": "pbuf.wl.backends.cpu",
+      "output": "ray checkpoints/final snapshot",
+      "stage": "P0"
+    },
+    {
+      "function": "downstream",
+      "input": "launch plus propagation",
+      "module": "pbuf.labs.foundation._vulkan_g3d_common",
+      "output": "screen, received state, decoded bank, candidates",
+      "stage": "R0/O0"
+    }
+  ]
+}
