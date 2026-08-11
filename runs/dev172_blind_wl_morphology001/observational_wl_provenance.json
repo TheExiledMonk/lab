@@ -1,0 +1,26 @@
+{
+  "OBSERVATIONAL_TARGET": "ABELL_2744",
+  "PRIMARY_WL_DATASET": "PYRRG_JWST",
+  "WCS_status": "UNAVAILABLE_BECAUSE_NO_PUBLISHED_RASTER_ASSET_WAS_RETRIEVED",
+  "WL_DATA_PROVENANCE_FROZEN": false,
+  "catalog_asset_status": "UNAVAILABLE_FROM_PUBLIC_PYRRG_REPOSITORY_AT_PINNED_REVISION",
+  "catalog_version": null,
+  "file_hashes": {},
+  "filter_selection": [
+    "f115w",
+    "f150w",
+    "f200w"
+  ],
+  "map_asset_status": "UNAVAILABLE_FROM_PUBLIC_PYRRG_REPOSITORY_AT_PINNED_REVISION",
+  "map_dimensions": [
+    64,
+    44
+  ],
+  "map_version": null,
+  "paper_url": "https://academic.oup.com/mnras/article/529/2/802/7601368",
+  "pixel_scale": "12.8 arcsec binned map; 12 arcsec Gaussian sigma reported by paper",
+  "public_code_revision_inspected": "d8e5e92a69ef680d7701a679a018573bd704bbdd",
+  "public_code_url": "https://github.com/davidharvey1986/pyRRG",
+  "published_processing_provenance": "Harvey & Massey (2024), UNCOVER DR1; f115w/f150w/f200w shear catalogues, 64x44 12.8-arcsec pixels, Kaiser-Squires reconstruction and 12-arcsec Gaussian smoothing.",
+  "reason_not_frozen": "A data-file URL, file hash, and WCS cannot be truthfully recorded without the released raster/catalogue asset."
+}

@@ -113,9 +113,18 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 - Method: catalog identity, RA/DEC and rest-frame LOS velocity form a lensing-blind phase-space input; a predeclared three-component clustering model and broad component-depth probability families produce an eight-realization frozen ensemble.
 - Hard separation: spectroscopy was not converted to geometric depth. `SPECTROSCOPIC_REDSHIFT_AS_DIRECT_DEPTH=FORBIDDEN`; peculiar-velocity degeneracy is retained.
 - Prohibitions met: no weak/strong-lensing maps, lensing halo count/masses, PBUF observer output, fitted coefficient, physical normalization, cosmology, or changed native/receipt/observer physics was used.
-- Result: all eight frozen realizations passed unchanged native propagation. Mean constrained observer RMS spread is `0.10928180988704732` versus `0.19464989238637528` for Dev169's arbitrary diagnostic lanes (ratio `1.7811737615579724`).
+- Result: all eight frozen realizations passed unchanged native propagation. Mean constrained observer RMS spread is `0.10624528343935943` versus `0.19464989238637528` for Dev169's arbitrary diagnostic lanes (ratio `1.832080315334409`). The formerly recorded `0.10928180988704732` / `1.7811737615579724` values were stale bookkeeping for the same metric, not a second scientific metric.
 - Outcome: `OUTCOME_E`; `SOURCE_DEPTH_STATUS=INDEPENDENTLY_CONSTRAINED_ENSEMBLE`; exact geometric depths remain an allowed family rather than a claimed unique reconstruction.
 - Old strategy closure: `ARBITRARY_2D_TO_3D_DEPTH_LANE_SELECTION=DIAGNOSTIC_ONLY / MUST_NOT_BE_PROMOTED`.
+
+## LEDGER ENTRY 006 — DEV172 FROZEN OBSERVATIONAL-MORPHOLOGY GATE
+
+- Date: 2026-08-12; start commit: `3b03764502d3f5b1de24ddfa35edff052de15cfd`; branch: `dev171-independent-3d-abell-source`.
+- Dev171 reconciliation: `SAME_METRIC_STALE_LEDGER`; the frozen artifacts establish `V_constrained=0.10624528343935943` and `R_3D=1.832080315334409`. The eight immutable observer-output hashes were recorded and verified unchanged.
+- Observational target: Harvey & Massey (2024) pyRRG-JWST / UNCOVER DR1 Abell 2744 weak-lensing reconstruction. The public pyRRG repository revision inspected provides code, but no A2744 convergence-map or catalogue asset suitable for freezing a file hash and WCS.
+- Gate outcome: `OUTCOME_D`; `COMPARISON_REQUIRES_MISSING_PHYSICAL_BRIDGE=true`. Dev171’s frozen 6×6 observer output has no serialized WCS, and no observational raster WCS was available. Thus a common sky grid cannot be constructed without introducing an unrecorded coordinate bridge or manual registration.
+- No comparison metric, sign choice, smoothing, source change, observer-channel change, or null control was fabricated. `DEV172_COMPLETE=false`; this is a documented block, not a claim of morphological agreement or disagreement.
+- Reopen only with a publicly available pyRRG map/catalogue product with immutable file hash and WCS plus an independently justified native-grid-to-sky WCS bridge. Do not retest by changing source depth/weights, pair law, packet law, receipt, observer channel, registration, or smoothing.
 
 ## Missing-piece ledger
 
