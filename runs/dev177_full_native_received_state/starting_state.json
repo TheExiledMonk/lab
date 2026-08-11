@@ -1,0 +1,23 @@
+{
+  "CURRENT_GITHUB_INSPECTED": true,
+  "HISTORICAL_ATTEMPT_INDEX_READ": true,
+  "HISTORICAL_FIVE_LENS_RECEIPT_CODE_AUDITED": true,
+  "LEDGER_READ": true,
+  "canonical_required_head": "fe8ea3cdcaef98b641bd05d826634c2c9706bb26",
+  "current_head": "fe8ea3cdcaef98b641bd05d826634c2c9706bb26",
+  "frozen_input_sha256": {
+    "dev167_generator": "138ddc71fa0eb9ed0fc4b8cdc539982d4a8d2d67d1563a86e52f6d180e8727b4",
+    "dev168_generator": "fc44e3168cad793b029f3081b10a5b71f38c754f7c2cb06de2af4983a7746364",
+    "dev171_manifest": "9f1df7b816466e6276eef60a5d3ea0560779be2366953c3e2bc60938e347ccb4",
+    "dev171_observer_00": "b13275a972958a7cb66996a2a1533858193da9d65a57533bd8d93669426597aa",
+    "dev171_observer_01": "707e1cd5f73350fdd931e0ec2ea48e2785fa6f180612b9cbe95e46e4cbc88de3",
+    "dev171_observer_02": "d4989af1df91cf278db8aedfd0aac71f96e9636ae4485c75484d707ec6307806",
+    "dev171_observer_03": "707e1cd5f73350fdd931e0ec2ea48e2785fa6f180612b9cbe95e46e4cbc88de3",
+    "dev171_observer_04": "b13275a972958a7cb66996a2a1533858193da9d65a57533bd8d93669426597aa",
+    "dev171_observer_05": "ce1a2d74bfa37e46ff9756d33fe44cfc6cbdd7e04d03e147d36446c196bc52dd",
+    "dev171_observer_06": "b13275a972958a7cb66996a2a1533858193da9d65a57533bd8d93669426597aa",
+    "dev171_observer_07": "b13275a972958a7cb66996a2a1533858193da9d65a57533bd8d93669426597aa",
+    "dev174_manifest": "7e3fce8e6ba208c51e4a9f44dec26d533e0c728d80e582cbc5fd7d2d44e42bb0",
+    "dev176_final_contract": "5e22da20464342756395fff6c11e4d82d04d4fc149a71d1c3767e098dd0bbb6d"
+  }
+}

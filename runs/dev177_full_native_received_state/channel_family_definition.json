@@ -1,0 +1,27 @@
+{
+  "F1_source_geometry": [
+    "source_positions",
+    "source_lineage"
+  ],
+  "F2_received_geometry": [
+    "received_positions",
+    "native_cell_ids",
+    "progression_steps"
+  ],
+  "F3_displacement": [
+    "local_displacement"
+  ],
+  "F4_direction": [
+    "directions"
+  ],
+  "F5_momentum": [
+    "local_momentum"
+  ],
+  "F6_flux": [
+    "local_flux"
+  ],
+  "F7_native_weighting_content": [
+    "weights",
+    "local_content_candidates"
+  ]
+}

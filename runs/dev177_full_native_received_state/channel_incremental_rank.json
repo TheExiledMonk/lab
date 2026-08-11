@@ -1,0 +1,418 @@
+{
+  "0": {
+    "content_weight": {
+      "effective_rank_increment": 4.584332913282196e-12,
+      "numerical_rank_increment": 4,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.8732661251054805,
+        "relative_residual": 0.35599701528877953,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "direction": {
+      "effective_rank_increment": 1.7322121805077635,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.09682225039241876,
+        "relative_residual": 0.9503566433753075,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "displacement": {
+      "effective_rank_increment": 2.049755044364332e-06,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.900440998685722,
+        "relative_residual": 0.31552971542198366,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "flux": {
+      "effective_rank_increment": 9.023892744153272e-13,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.946518449862458,
+        "relative_residual": 0.2312607838297319,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "momentum": {
+      "effective_rank_increment": 4.0910803011939834e-07,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.7609688400976409,
+        "relative_residual": 0.4889081303295735,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    }
+  },
+  "1": {
+    "content_weight": {
+      "effective_rank_increment": 4.727773728063767e-12,
+      "numerical_rank_increment": 4,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.8292701883119141,
+        "relative_residual": 0.41319464140775825,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "direction": {
+      "effective_rank_increment": 1.7405452206030037,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.09963790939284811,
+        "relative_residual": 0.9488741173660244,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "displacement": {
+      "effective_rank_increment": 2.051277885772862e-06,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9010503274431001,
+        "relative_residual": 0.3145626687273936,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "flux": {
+      "effective_rank_increment": 9.405809464624326e-13,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9599593310533537,
+        "relative_residual": 0.20010164653656956,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "momentum": {
+      "effective_rank_increment": 4.040240830782693e-07,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.816587613749483,
+        "relative_residual": 0.4282667232584351,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    }
+  },
+  "2": {
+    "content_weight": {
+      "effective_rank_increment": 5.617728504603292e-12,
+      "numerical_rank_increment": 4,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.7587499238781604,
+        "relative_residual": 0.49117214509969875,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "direction": {
+      "effective_rank_increment": 1.5030849652712959,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.10434853234241015,
+        "relative_residual": 0.9463886451440496,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "displacement": {
+      "effective_rank_increment": 2.1303863677601953e-06,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.913179961828583,
+        "relative_residual": 0.29465240228346523,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "flux": {
+      "effective_rank_increment": 1.0556000518135988e-12,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9454693923123022,
+        "relative_residual": 0.23351789586174715,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "momentum": {
+      "effective_rank_increment": 7.961843357939813e-07,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9076964940043836,
+        "relative_residual": 0.303814920627043,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    }
+  },
+  "3": {
+    "content_weight": {
+      "effective_rank_increment": 4.694467037325012e-12,
+      "numerical_rank_increment": 4,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.8146928449339476,
+        "relative_residual": 0.43047317577992295,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "direction": {
+      "effective_rank_increment": 1.722812008822611,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.09741434071053268,
+        "relative_residual": 0.9500450827668481,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "displacement": {
+      "effective_rank_increment": 2.018410552029337e-06,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9042103674803557,
+        "relative_residual": 0.3094990024533913,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "flux": {
+      "effective_rank_increment": 9.379164112033322e-13,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9304333418296772,
+        "relative_residual": 0.2637549206561326,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "momentum": {
+      "effective_rank_increment": 4.0919867316802083e-07,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.8112848548805008,
+        "relative_residual": 0.4344135646126847,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    }
+  },
+  "4": {
+    "content_weight": {
+      "effective_rank_increment": 4.571898415406395e-12,
+      "numerical_rank_increment": 4,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.86629930739042,
+        "relative_residual": 0.3656510530677848,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "direction": {
+      "effective_rank_increment": 1.6472460991937063,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.10130010159838876,
+        "relative_residual": 0.9479978367072422,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "displacement": {
+      "effective_rank_increment": 2.0005153822388877e-06,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.8950437428574105,
+        "relative_residual": 0.323969531194817,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "flux": {
+      "effective_rank_increment": 8.93951579428176e-13,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.933635201120367,
+        "relative_residual": 0.25761366205935776,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "momentum": {
+      "effective_rank_increment": 4.62380013388497e-07,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.788146967164251,
+        "relative_residual": 0.4602749535177305,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    }
+  },
+  "5": {
+    "content_weight": {
+      "effective_rank_increment": 5.0741633117468155e-12,
+      "numerical_rank_increment": 4,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.8269193067381779,
+        "relative_residual": 0.4160296783425698,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "direction": {
+      "effective_rank_increment": 1.7325191630600942,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.114183897617956,
+        "relative_residual": 0.9411780396832705,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "displacement": {
+      "effective_rank_increment": 2.1879162108717765e-06,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9008668006012237,
+        "relative_residual": 0.31485425104129744,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "flux": {
+      "effective_rank_increment": 1.0098588631990424e-12,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9448074971146917,
+        "relative_residual": 0.23493084702803138,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "momentum": {
+      "effective_rank_increment": 4.228067038702932e-07,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.8264293247679255,
+        "relative_residual": 0.4166181407861095,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    }
+  },
+  "6": {
+    "content_weight": {
+      "effective_rank_increment": 6.17150774928632e-12,
+      "numerical_rank_increment": 4,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.7662410242777122,
+        "relative_residual": 0.4834862725272433,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "direction": {
+      "effective_rank_increment": 1.548986017796959,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.11335482795689533,
+        "relative_residual": 0.9416183791978069,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "displacement": {
+      "effective_rank_increment": 2.3244925762000435e-06,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.915503990919785,
+        "relative_residual": 0.29068197240320054,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "flux": {
+      "effective_rank_increment": 1.1666223542761145e-12,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9391514451957023,
+        "relative_residual": 0.2466749983364705,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "momentum": {
+      "effective_rank_increment": 8.442857204471466e-07,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9119831226812126,
+        "relative_residual": 0.2966763848350377,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    }
+  },
+  "7": {
+    "content_weight": {
+      "effective_rank_increment": 4.619860050070201e-12,
+      "numerical_rank_increment": 4,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.8631319256836494,
+        "relative_residual": 0.3699568546686906,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "direction": {
+      "effective_rank_increment": 1.7575127365287564,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.10466855949946563,
+        "relative_residual": 0.9462195519542672,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "displacement": {
+      "effective_rank_increment": 2.0081517182468644e-06,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9072095986648843,
+        "relative_residual": 0.3046151692465688,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "flux": {
+      "effective_rank_increment": 9.14379683081279e-13,
+      "numerical_rank_increment": 1,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.9275846616352302,
+        "relative_residual": 0.2691009817239055,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    },
+    "momentum": {
+      "effective_rank_increment": 3.6473364684042053e-07,
+      "numerical_rank_increment": 3,
+      "recoverability_from_remaining": {
+        "explained_linear_fraction": 0.7371371087382906,
+        "relative_residual": 0.5127015615947638,
+        "status": "DEFINED"
+      },
+      "status": "INDEPENDENT_INFORMATION"
+    }
+  }
+}

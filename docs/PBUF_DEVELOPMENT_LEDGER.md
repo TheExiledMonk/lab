@@ -171,3 +171,13 @@ GitHub code, this ledger, and current tests define canonical state. Conversation
 ## Permanent rules
 
 Every future Dev begins by reading this ledger and current GitHub implementation, checking aliases and reopen conditions, and only then considering implementation. A Dev is incomplete until tests pass, ledger is updated, a commit SHA is recorded, push succeeds, and the remote SHA is verified. Rejected mechanisms are not retested unless their explicit reopen condition changes. Directional allocation is not assumed fundamental until state-dependent propagation and conservative flux equivalence are resolved.
+
+## LEDGER ENTRY 011 — DEV177 FULL NATIVE RECEIVED-STATE RETENTION
+
+- Date: 2026-08-12. DEV177 replays all eight frozen DEV171 realizations through the unchanged DEV167/DEV168 path, retaining individual 3D receipt records and attached lineage before any screen projection, binning, or observer reduction.
+- Channel Complementarity Principle: the PBUF observer must retain the complete native received state until channel redundancy and dimensional irrelevance have been demonstrated. No individual receipt channel is presumed to encode the full observer response.
+- The audit keeps displacement, direction, momentum, flux, weight/content, receipt geometry, source geometry, progression, native cell, and lineage distinct. SVD/rank/covariance diagnostics are information geometry only, never observer physics.
+- Full native-x/y/z diagnostics retain four additional numerical information dimensions versus the declared native transverse-only diagnostic in every frozen realization. This demonstrates information loss under that reduction, without asserting what an observer measures.
+- A stable full `3x2` source-to-receipt differential fit is supported in all eight realizations; its intrinsic metric is recorded as `G3=J3^T J3`. This is an intrinsic received-sheet diagnostic, not kappa/gamma/e1/e2.
+- DEV176 P1--P7 remain historical partial summaries. No candidate was selected; no observational lensing data, 2D observable construction, source retuning, native-law modification, smoothing, zero/mean filling, or 6x6 support repair occurred.
+- Rules frozen: `PREMATURE_2D_COLLAPSE_FORBIDDEN=true`; `FULL_NATIVE_RECEIPT_IS_CANONICAL_OBSERVER_INPUT=true`.
