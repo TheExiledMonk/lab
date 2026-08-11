@@ -1,0 +1,2165 @@
+{
+  "footprints": [
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 0,
+      "bin_j": 0,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        10.411360086560826,
+        -6.294588370336065,
+        -10.428176511122327
+      ],
+      "native_corner_coordinates": [
+        [
+          12.493632103872992,
+          -7.553506044403277,
+          -12.51381181334679
+        ],
+        [
+          12.841930429434372,
+          -5.035670696268852,
+          -8.761425427033949
+        ],
+        [
+          8.329088069248662,
+          -5.035670696268852,
+          -8.342541208897861
+        ],
+        [
+          7.980789743687282,
+          -7.553506044403277,
+          -12.094927595210702
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        2.859085249728768,
+        -31.19701098281661
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.780149433007855,
+          -31.3061206460466
+        ],
+        [
+          2.938021066449681,
+          -31.109815177644375
+        ],
+        [
+          2.938021066449681,
+          -31.08790131958662
+        ],
+        [
+          2.780149433007855,
+          -31.284206787988847
+        ]
+      ],
+      "u_high": -9.064482369355687,
+      "u_low": -13.59672355403353,
+      "v_high": -9.064482369355687,
+      "v_low": -13.59672355403353
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 0,
+      "bin_j": 1,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        10.759658412122208,
+        -3.776753022201639,
+        -6.675790124809483
+      ],
+      "native_corner_coordinates": [
+        [
+          12.841930429434372,
+          -5.035670696268852,
+          -8.761425427033949
+        ],
+        [
+          13.190228754995754,
+          -2.517835348134426,
+          -5.009039040721104
+        ],
+        [
+          8.677386394810044,
+          -2.517835348134426,
+          -4.590154822585018
+        ],
+        [
+          8.329088069248662,
+          -5.035670696268852,
+          -8.342541208897861
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.016956883170594,
+        -31.000705514414385
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.938021066449681,
+          -31.109815177644375
+        ],
+        [
+          3.095892699891507,
+          -30.91350970924215
+        ],
+        [
+          3.095892699891507,
+          -30.891595851184398
+        ],
+        [
+          2.938021066449681,
+          -31.08790131958662
+        ]
+      ],
+      "u_high": -4.532241184677844,
+      "u_low": -9.064482369355687,
+      "v_high": -9.064482369355687,
+      "v_low": -13.59672355403353
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 0,
+      "bin_j": 2,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        11.107956737683589,
+        -1.2589176740672134,
+        -2.9234037384966403
+      ],
+      "native_corner_coordinates": [
+        [
+          13.190228754995754,
+          -2.517835348134426,
+          -5.009039040721104
+        ],
+        [
+          13.538527080557134,
+          -9.868349584445633e-16,
+          -1.2566526544082632
+        ],
+        [
+          9.025684720371425,
+          -9.868349584445633e-16,
+          -0.837768436272176
+        ],
+        [
+          8.677386394810044,
+          -2.517835348134426,
+          -4.590154822585018
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.17482851661242,
+        -30.804400046012162
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.095892699891507,
+          -30.91350970924215
+        ],
+        [
+          3.2537643333333333,
+          -30.717204240839926
+        ],
+        [
+          3.2537643333333333,
+          -30.695290382782172
+        ],
+        [
+          3.095892699891507,
+          -30.891595851184398
+        ]
+      ],
+      "u_high": -1.7763568394002505e-15,
+      "u_low": -4.532241184677844,
+      "v_high": -9.064482369355687,
+      "v_low": -13.59672355403353
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 0,
+      "bin_j": 3,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        11.456255063244969,
+        1.2589176740672121,
+        0.8289826478162017
+      ],
+      "native_corner_coordinates": [
+        [
+          13.538527080557134,
+          -9.868349584445633e-16,
+          -1.2566526544082632
+        ],
+        [
+          13.886825406118515,
+          2.517835348134425,
+          2.4957337319045796
+        ],
+        [
+          9.373983045932805,
+          2.517835348134425,
+          2.914617950040667
+        ],
+        [
+          9.025684720371425,
+          -9.868349584445633e-16,
+          -0.837768436272176
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.332700150054246,
+        -30.608094577609936
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.2537643333333333,
+          -30.717204240839926
+        ],
+        [
+          3.411635966775159,
+          -30.5208987724377
+        ],
+        [
+          3.411635966775159,
+          -30.498984914379946
+        ],
+        [
+          3.2537643333333333,
+          -30.695290382782172
+        ]
+      ],
+      "u_high": 4.532241184677842,
+      "u_low": -1.7763568394002505e-15,
+      "v_high": -9.064482369355687,
+      "v_low": -13.59672355403353
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 0,
+      "bin_j": 4,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        11.804553388806351,
+        3.776753022201638,
+        4.581369034129045
+      ],
+      "native_corner_coordinates": [
+        [
+          13.886825406118515,
+          2.517835348134425,
+          2.4957337319045796
+        ],
+        [
+          14.235123731679895,
+          5.035670696268851,
+          6.248120118217423
+        ],
+        [
+          9.722281371494187,
+          5.035670696268851,
+          6.66700433635351
+        ],
+        [
+          9.373983045932805,
+          2.517835348134425,
+          2.914617950040667
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.490571783496072,
+        -30.41178910920771
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.411635966775159,
+          -30.5208987724377
+        ],
+        [
+          3.569507600216985,
+          -30.324593304035474
+        ],
+        [
+          3.569507600216985,
+          -30.302679445977724
+        ],
+        [
+          3.411635966775159,
+          -30.498984914379946
+        ]
+      ],
+      "u_high": 9.064482369355686,
+      "u_low": 4.532241184677842,
+      "v_high": -9.064482369355687,
+      "v_low": -13.59672355403353
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 0,
+      "bin_j": 5,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        12.152851714367731,
+        6.294588370336064,
+        8.333755420441888
+      ],
+      "native_corner_coordinates": [
+        [
+          14.235123731679895,
+          5.035670696268851,
+          6.248120118217423
+        ],
+        [
+          14.583422057241277,
+          7.553506044403277,
+          10.000506504530266
+        ],
+        [
+          10.070579697055567,
+          7.553506044403277,
+          10.419390722666353
+        ],
+        [
+          9.722281371494187,
+          5.035670696268851,
+          6.66700433635351
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.6484434169378983,
+        -30.215483640805488
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.569507600216985,
+          -30.324593304035474
+        ],
+        [
+          3.7273792336588114,
+          -30.128287835633248
+        ],
+        [
+          3.7273792336588114,
+          -30.106373977575497
+        ],
+        [
+          3.569507600216985,
+          -30.302679445977724
+        ]
+      ],
+      "u_high": 13.59672355403353,
+      "u_low": 9.064482369355686,
+      "v_high": -9.064482369355687,
+      "v_low": -13.59672355403353
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 1,
+      "bin_j": 0,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        5.8985177263751165,
+        -6.294588370336065,
+        -10.009292292986238
+      ],
+      "native_corner_coordinates": [
+        [
+          7.980789743687282,
+          -7.553506044403277,
+          -12.094927595210702
+        ],
+        [
+          8.329088069248662,
+          -5.035670696268852,
+          -8.342541208897861
+        ],
+        [
+          3.816245709062951,
+          -5.035670696268852,
+          -7.923656990761773
+        ],
+        [
+          3.46794738350157,
+          -7.553506044403277,
+          -11.676043377074615
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        2.859085249728768,
+        -31.175097124758857
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.780149433007855,
+          -31.284206787988847
+        ],
+        [
+          2.938021066449681,
+          -31.08790131958662
+        ],
+        [
+          2.938021066449681,
+          -31.06598746152887
+        ],
+        [
+          2.780149433007855,
+          -31.262292929931093
+        ]
+      ],
+      "u_high": -9.064482369355687,
+      "u_low": -13.59672355403353,
+      "v_high": -4.532241184677844,
+      "v_low": -9.064482369355687
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 1,
+      "bin_j": 1,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        6.246816051936497,
+        -3.776753022201639,
+        -6.2569059066733965
+      ],
+      "native_corner_coordinates": [
+        [
+          8.329088069248662,
+          -5.035670696268852,
+          -8.342541208897861
+        ],
+        [
+          8.677386394810044,
+          -2.517835348134426,
+          -4.590154822585018
+        ],
+        [
+          4.164544034624331,
+          -2.517835348134426,
+          -4.171270604448931
+        ],
+        [
+          3.816245709062951,
+          -5.035670696268852,
+          -7.923656990761773
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.016956883170594,
+        -30.978791656356634
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.938021066449681,
+          -31.08790131958662
+        ],
+        [
+          3.095892699891507,
+          -30.891595851184398
+        ],
+        [
+          3.095892699891507,
+          -30.869681993126644
+        ],
+        [
+          2.938021066449681,
+          -31.06598746152887
+        ]
+      ],
+      "u_high": -4.532241184677844,
+      "u_low": -9.064482369355687,
+      "v_high": -4.532241184677844,
+      "v_low": -9.064482369355687
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 1,
+      "bin_j": 2,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        6.595114377497878,
+        -1.2589176740672134,
+        -2.5045195203605535
+      ],
+      "native_corner_coordinates": [
+        [
+          8.677386394810044,
+          -2.517835348134426,
+          -4.590154822585018
+        ],
+        [
+          9.025684720371425,
+          -9.868349584445633e-16,
+          -0.837768436272176
+        ],
+        [
+          4.512842360185712,
+          -9.868349584445633e-16,
+          -0.4188842181360887
+        ],
+        [
+          4.164544034624331,
+          -2.517835348134426,
+          -4.171270604448931
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.17482851661242,
+        -30.782486187954408
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.095892699891507,
+          -30.891595851184398
+        ],
+        [
+          3.2537643333333333,
+          -30.695290382782172
+        ],
+        [
+          3.2537643333333333,
+          -30.673376524724418
+        ],
+        [
+          3.095892699891507,
+          -30.869681993126644
+        ]
+      ],
+      "u_high": -1.7763568394002505e-15,
+      "u_low": -4.532241184677844,
+      "v_high": -4.532241184677844,
+      "v_low": -9.064482369355687
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 1,
+      "bin_j": 3,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        6.943412703059258,
+        1.2589176740672121,
+        1.2478668659522891
+      ],
+      "native_corner_coordinates": [
+        [
+          9.025684720371425,
+          -9.868349584445633e-16,
+          -0.837768436272176
+        ],
+        [
+          9.373983045932805,
+          2.517835348134425,
+          2.914617950040667
+        ],
+        [
+          4.861140685747093,
+          2.517835348134425,
+          3.333502168176754
+        ],
+        [
+          4.512842360185712,
+          -9.868349584445633e-16,
+          -0.4188842181360887
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.332700150054246,
+        -30.586180719552182
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.2537643333333333,
+          -30.695290382782172
+        ],
+        [
+          3.411635966775159,
+          -30.498984914379946
+        ],
+        [
+          3.411635966775159,
+          -30.477071056322195
+        ],
+        [
+          3.2537643333333333,
+          -30.673376524724418
+        ]
+      ],
+      "u_high": 4.532241184677842,
+      "u_low": -1.7763568394002505e-15,
+      "v_high": -4.532241184677844,
+      "v_low": -9.064482369355687
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 1,
+      "bin_j": 4,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        7.29171102862064,
+        3.776753022201638,
+        5.000253252265132
+      ],
+      "native_corner_coordinates": [
+        [
+          9.373983045932805,
+          2.517835348134425,
+          2.914617950040667
+        ],
+        [
+          9.722281371494187,
+          5.035670696268851,
+          6.66700433635351
+        ],
+        [
+          5.209439011308474,
+          5.035670696268851,
+          7.085888554489597
+        ],
+        [
+          4.861140685747093,
+          2.517835348134425,
+          3.333502168176754
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.490571783496072,
+        -30.38987525114996
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.411635966775159,
+          -30.498984914379946
+        ],
+        [
+          3.569507600216985,
+          -30.302679445977724
+        ],
+        [
+          3.569507600216985,
+          -30.28076558791997
+        ],
+        [
+          3.411635966775159,
+          -30.477071056322195
+        ]
+      ],
+      "u_high": 9.064482369355686,
+      "u_low": 4.532241184677842,
+      "v_high": -4.532241184677844,
+      "v_low": -9.064482369355687
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 1,
+      "bin_j": 5,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        7.6400093541820215,
+        6.294588370336064,
+        8.752639638577977
+      ],
+      "native_corner_coordinates": [
+        [
+          9.722281371494187,
+          5.035670696268851,
+          6.66700433635351
+        ],
+        [
+          10.070579697055567,
+          7.553506044403277,
+          10.419390722666353
+        ],
+        [
+          5.557737336869854,
+          7.553506044403277,
+          10.83827494080244
+        ],
+        [
+          5.209439011308474,
+          5.035670696268851,
+          7.085888554489597
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.6484434169378983,
+        -30.193569782747733
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.569507600216985,
+          -30.302679445977724
+        ],
+        [
+          3.7273792336588114,
+          -30.106373977575497
+        ],
+        [
+          3.7273792336588114,
+          -30.084460119517743
+        ],
+        [
+          3.569507600216985,
+          -30.28076558791997
+        ]
+      ],
+      "u_high": 13.59672355403353,
+      "u_low": 9.064482369355686,
+      "v_high": -4.532241184677844,
+      "v_low": -9.064482369355687
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 2,
+      "bin_j": 0,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        1.3856753661894055,
+        -6.294588370336065,
+        -9.59040807485015
+      ],
+      "native_corner_coordinates": [
+        [
+          3.46794738350157,
+          -7.553506044403277,
+          -11.676043377074615
+        ],
+        [
+          3.816245709062951,
+          -5.035670696268852,
+          -7.923656990761773
+        ],
+        [
+          -0.6965966511227598,
+          -5.035670696268852,
+          -7.504772772625686
+        ],
+        [
+          -1.0448949766841404,
+          -7.553506044403277,
+          -11.257159158938528
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        2.859085249728768,
+        -31.153183266701106
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.780149433007855,
+          -31.262292929931093
+        ],
+        [
+          2.938021066449681,
+          -31.06598746152887
+        ],
+        [
+          2.938021066449681,
+          -31.044073603471116
+        ],
+        [
+          2.780149433007855,
+          -31.240379071873342
+        ]
+      ],
+      "u_high": -9.064482369355687,
+      "u_low": -13.59672355403353,
+      "v_high": -1.7763568394002505e-15,
+      "v_low": -4.532241184677844
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 2,
+      "bin_j": 1,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        1.7339736917507858,
+        -3.776753022201639,
+        -5.838021688537308
+      ],
+      "native_corner_coordinates": [
+        [
+          3.816245709062951,
+          -5.035670696268852,
+          -7.923656990761773
+        ],
+        [
+          4.164544034624331,
+          -2.517835348134426,
+          -4.171270604448931
+        ],
+        [
+          -0.348298325561379,
+          -2.517835348134426,
+          -3.752386386312843
+        ],
+        [
+          -0.6965966511227598,
+          -5.035670696268852,
+          -7.504772772625686
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.016956883170594,
+        -30.95687779829888
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.938021066449681,
+          -31.06598746152887
+        ],
+        [
+          3.095892699891507,
+          -30.869681993126644
+        ],
+        [
+          3.095892699891507,
+          -30.84776813506889
+        ],
+        [
+          2.938021066449681,
+          -31.044073603471116
+        ]
+      ],
+      "u_high": -4.532241184677844,
+      "u_low": -9.064482369355687,
+      "v_high": -1.7763568394002505e-15,
+      "v_low": -4.532241184677844
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 2,
+      "bin_j": 2,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        2.0822720173121665,
+        -1.2589176740672134,
+        -2.0856353022244662
+      ],
+      "native_corner_coordinates": [
+        [
+          4.164544034624331,
+          -2.517835348134426,
+          -4.171270604448931
+        ],
+        [
+          4.512842360185712,
+          -9.868349584445633e-16,
+          -0.4188842181360887
+        ],
+        [
+          1.6322424110830461e-15,
+          -9.868349584445633e-16,
+          -1.6348788083590834e-15
+        ],
+        [
+          -0.348298325561379,
+          -2.517835348134426,
+          -3.752386386312843
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.17482851661242,
+        -30.760572329896654
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.095892699891507,
+          -30.869681993126644
+        ],
+        [
+          3.2537643333333333,
+          -30.673376524724418
+        ],
+        [
+          3.2537643333333333,
+          -30.651462666666667
+        ],
+        [
+          3.095892699891507,
+          -30.84776813506889
+        ]
+      ],
+      "u_high": -1.7763568394002505e-15,
+      "u_low": -4.532241184677844,
+      "v_high": -1.7763568394002505e-15,
+      "v_low": -4.532241184677844
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 2,
+      "bin_j": 3,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        2.4305703428735472,
+        1.2589176740672121,
+        1.6667510840883764
+      ],
+      "native_corner_coordinates": [
+        [
+          4.512842360185712,
+          -9.868349584445633e-16,
+          -0.4188842181360887
+        ],
+        [
+          4.861140685747093,
+          2.517835348134425,
+          3.333502168176754
+        ],
+        [
+          0.34829832556138246,
+          2.517835348134425,
+          3.7523863863128413
+        ],
+        [
+          1.6322424110830461e-15,
+          -9.868349584445633e-16,
+          -1.6348788083590834e-15
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.332700150054246,
+        -30.56426686149443
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.2537643333333333,
+          -30.673376524724418
+        ],
+        [
+          3.411635966775159,
+          -30.477071056322195
+        ],
+        [
+          3.411635966775159,
+          -30.45515719826444
+        ],
+        [
+          3.2537643333333333,
+          -30.651462666666667
+        ]
+      ],
+      "u_high": 4.532241184677842,
+      "u_low": -1.7763568394002505e-15,
+      "v_high": -1.7763568394002505e-15,
+      "v_low": -4.532241184677844
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 2,
+      "bin_j": 4,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        2.7788686684349284,
+        3.776753022201638,
+        5.419137470401219
+      ],
+      "native_corner_coordinates": [
+        [
+          4.861140685747093,
+          2.517835348134425,
+          3.333502168176754
+        ],
+        [
+          5.209439011308474,
+          5.035670696268851,
+          7.085888554489597
+        ],
+        [
+          0.6965966511227633,
+          5.035670696268851,
+          7.504772772625684
+        ],
+        [
+          0.34829832556138246,
+          2.517835348134425,
+          3.7523863863128413
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.490571783496072,
+        -30.367961393092205
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.411635966775159,
+          -30.477071056322195
+        ],
+        [
+          3.569507600216985,
+          -30.28076558791997
+        ],
+        [
+          3.569507600216985,
+          -30.258851729862215
+        ],
+        [
+          3.411635966775159,
+          -30.45515719826444
+        ]
+      ],
+      "u_high": 9.064482369355686,
+      "u_low": 4.532241184677842,
+      "v_high": -1.7763568394002505e-15,
+      "v_low": -4.532241184677844
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 2,
+      "bin_j": 5,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        3.127166993996309,
+        6.294588370336064,
+        9.171523856714062
+      ],
+      "native_corner_coordinates": [
+        [
+          5.209439011308474,
+          5.035670696268851,
+          7.085888554489597
+        ],
+        [
+          5.557737336869854,
+          7.553506044403277,
+          10.83827494080244
+        ],
+        [
+          1.044894976684144,
+          7.553506044403277,
+          11.257159158938528
+        ],
+        [
+          0.6965966511227633,
+          5.035670696268851,
+          7.504772772625684
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.6484434169378983,
+        -30.17165592468998
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.569507600216985,
+          -30.28076558791997
+        ],
+        [
+          3.7273792336588114,
+          -30.084460119517743
+        ],
+        [
+          3.7273792336588114,
+          -30.062546261459993
+        ],
+        [
+          3.569507600216985,
+          -30.258851729862215
+        ]
+      ],
+      "u_high": 13.59672355403353,
+      "u_low": 9.064482369355686,
+      "v_high": -1.7763568394002505e-15,
+      "v_low": -4.532241184677844
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 3,
+      "bin_j": 0,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -3.127166993996306,
+        -6.294588370336065,
+        -9.171523856714064
+      ],
+      "native_corner_coordinates": [
+        [
+          -1.0448949766841404,
+          -7.553506044403277,
+          -11.257159158938528
+        ],
+        [
+          -0.6965966511227598,
+          -5.035670696268852,
+          -7.504772772625686
+        ],
+        [
+          -5.209439011308472,
+          -5.035670696268852,
+          -7.085888554489599
+        ],
+        [
+          -5.557737336869852,
+          -7.553506044403277,
+          -10.83827494080244
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        2.859085249728768,
+        -31.13126940864335
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.780149433007855,
+          -31.240379071873342
+        ],
+        [
+          2.938021066449681,
+          -31.044073603471116
+        ],
+        [
+          2.938021066449681,
+          -31.02215974541336
+        ],
+        [
+          2.780149433007855,
+          -31.218465213815588
+        ]
+      ],
+      "u_high": -9.064482369355687,
+      "u_low": -13.59672355403353,
+      "v_high": 4.532241184677842,
+      "v_low": -1.7763568394002505e-15
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 3,
+      "bin_j": 1,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -2.7788686684349257,
+        -3.776753022201639,
+        -5.419137470401221
+      ],
+      "native_corner_coordinates": [
+        [
+          -0.6965966511227598,
+          -5.035670696268852,
+          -7.504772772625686
+        ],
+        [
+          -0.348298325561379,
+          -2.517835348134426,
+          -3.752386386312843
+        ],
+        [
+          -4.861140685747092,
+          -2.517835348134426,
+          -3.333502168176756
+        ],
+        [
+          -5.209439011308472,
+          -5.035670696268852,
+          -7.085888554489599
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.016956883170594,
+        -30.934963940241126
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.938021066449681,
+          -31.044073603471116
+        ],
+        [
+          3.095892699891507,
+          -30.84776813506889
+        ],
+        [
+          3.095892699891507,
+          -30.82585427701114
+        ],
+        [
+          2.938021066449681,
+          -31.02215974541336
+        ]
+      ],
+      "u_high": -4.532241184677844,
+      "u_low": -9.064482369355687,
+      "v_high": 4.532241184677842,
+      "v_low": -1.7763568394002505e-15
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 3,
+      "bin_j": 2,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -2.430570342873545,
+        -1.2589176740672134,
+        -1.6667510840883786
+      ],
+      "native_corner_coordinates": [
+        [
+          -0.348298325561379,
+          -2.517835348134426,
+          -3.752386386312843
+        ],
+        [
+          1.6322424110830461e-15,
+          -9.868349584445633e-16,
+          -1.6348788083590834e-15
+        ],
+        [
+          -4.512842360185711,
+          -9.868349584445633e-16,
+          0.4188842181360857
+        ],
+        [
+          -4.861140685747092,
+          -2.517835348134426,
+          -3.333502168176756
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.17482851661242,
+        -30.738658471838903
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.095892699891507,
+          -30.84776813506889
+        ],
+        [
+          3.2537643333333333,
+          -30.651462666666667
+        ],
+        [
+          3.2537643333333333,
+          -30.629548808608913
+        ],
+        [
+          3.095892699891507,
+          -30.82585427701114
+        ]
+      ],
+      "u_high": -1.7763568394002505e-15,
+      "u_low": -4.532241184677844,
+      "v_high": 4.532241184677842,
+      "v_low": -1.7763568394002505e-15
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 3,
+      "bin_j": 3,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -2.0822720173121643,
+        1.2589176740672121,
+        2.085635302224463
+      ],
+      "native_corner_coordinates": [
+        [
+          1.6322424110830461e-15,
+          -9.868349584445633e-16,
+          -1.6348788083590834e-15
+        ],
+        [
+          0.34829832556138246,
+          2.517835348134425,
+          3.7523863863128413
+        ],
+        [
+          -4.16454403462433,
+          2.517835348134425,
+          4.171270604448928
+        ],
+        [
+          -4.512842360185711,
+          -9.868349584445633e-16,
+          0.4188842181360857
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.332700150054246,
+        -30.542353003436677
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.2537643333333333,
+          -30.651462666666667
+        ],
+        [
+          3.411635966775159,
+          -30.45515719826444
+        ],
+        [
+          3.411635966775159,
+          -30.433243340206687
+        ],
+        [
+          3.2537643333333333,
+          -30.629548808608913
+        ]
+      ],
+      "u_high": 4.532241184677842,
+      "u_low": -1.7763568394002505e-15,
+      "v_high": 4.532241184677842,
+      "v_low": -1.7763568394002505e-15
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 3,
+      "bin_j": 4,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -1.7339736917507835,
+        3.776753022201638,
+        5.838021688537307
+      ],
+      "native_corner_coordinates": [
+        [
+          0.34829832556138246,
+          2.517835348134425,
+          3.7523863863128413
+        ],
+        [
+          0.6965966511227633,
+          5.035670696268851,
+          7.504772772625684
+        ],
+        [
+          -3.816245709062949,
+          5.035670696268851,
+          7.9236569907617715
+        ],
+        [
+          -4.16454403462433,
+          2.517835348134425,
+          4.171270604448928
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.490571783496072,
+        -30.34604753503445
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.411635966775159,
+          -30.45515719826444
+        ],
+        [
+          3.569507600216985,
+          -30.258851729862215
+        ],
+        [
+          3.569507600216985,
+          -30.236937871804464
+        ],
+        [
+          3.411635966775159,
+          -30.433243340206687
+        ]
+      ],
+      "u_high": 9.064482369355686,
+      "u_low": 4.532241184677842,
+      "v_high": 4.532241184677842,
+      "v_low": -1.7763568394002505e-15
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 3,
+      "bin_j": 5,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -1.3856753661894026,
+        6.294588370336064,
+        9.59040807485015
+      ],
+      "native_corner_coordinates": [
+        [
+          0.6965966511227633,
+          5.035670696268851,
+          7.504772772625684
+        ],
+        [
+          1.044894976684144,
+          7.553506044403277,
+          11.257159158938528
+        ],
+        [
+          -3.4679473835015684,
+          7.553506044403277,
+          11.676043377074615
+        ],
+        [
+          -3.816245709062949,
+          5.035670696268851,
+          7.9236569907617715
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.6484434169378983,
+        -30.14974206663223
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.569507600216985,
+          -30.258851729862215
+        ],
+        [
+          3.7273792336588114,
+          -30.062546261459993
+        ],
+        [
+          3.7273792336588114,
+          -30.04063240340224
+        ],
+        [
+          3.569507600216985,
+          -30.236937871804464
+        ]
+      ],
+      "u_high": 13.59672355403353,
+      "u_low": 9.064482369355686,
+      "v_high": 4.532241184677842,
+      "v_low": -1.7763568394002505e-15
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 4,
+      "bin_j": 0,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -7.640009354182018,
+        -6.294588370336065,
+        -8.752639638577975
+      ],
+      "native_corner_coordinates": [
+        [
+          -5.557737336869852,
+          -7.553506044403277,
+          -10.83827494080244
+        ],
+        [
+          -5.209439011308472,
+          -5.035670696268852,
+          -7.085888554489599
+        ],
+        [
+          -9.722281371494185,
+          -5.035670696268852,
+          -6.667004336353512
+        ],
+        [
+          -10.070579697055566,
+          -7.553506044403277,
+          -10.419390722666353
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        2.859085249728768,
+        -31.109355550585597
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.780149433007855,
+          -31.218465213815588
+        ],
+        [
+          2.938021066449681,
+          -31.02215974541336
+        ],
+        [
+          2.938021066449681,
+          -31.00024588735561
+        ],
+        [
+          2.780149433007855,
+          -31.196551355757833
+        ]
+      ],
+      "u_high": -9.064482369355687,
+      "u_low": -13.59672355403353,
+      "v_high": 9.064482369355686,
+      "v_low": 4.532241184677842
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 4,
+      "bin_j": 1,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -7.291711028620638,
+        -3.776753022201639,
+        -5.000253252265134
+      ],
+      "native_corner_coordinates": [
+        [
+          -5.209439011308472,
+          -5.035670696268852,
+          -7.085888554489599
+        ],
+        [
+          -4.861140685747092,
+          -2.517835348134426,
+          -3.333502168176756
+        ],
+        [
+          -9.373983045932803,
+          -2.517835348134426,
+          -2.9146179500406686
+        ],
+        [
+          -9.722281371494185,
+          -5.035670696268852,
+          -6.667004336353512
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.016956883170594,
+        -30.913050082183375
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.938021066449681,
+          -31.02215974541336
+        ],
+        [
+          3.095892699891507,
+          -30.82585427701114
+        ],
+        [
+          3.095892699891507,
+          -30.803940418953385
+        ],
+        [
+          2.938021066449681,
+          -31.00024588735561
+        ]
+      ],
+      "u_high": -4.532241184677844,
+      "u_low": -9.064482369355687,
+      "v_high": 9.064482369355686,
+      "v_low": 4.532241184677842
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 4,
+      "bin_j": 2,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -6.943412703059257,
+        -1.2589176740672134,
+        -1.2478668659522913
+      ],
+      "native_corner_coordinates": [
+        [
+          -4.861140685747092,
+          -2.517835348134426,
+          -3.333502168176756
+        ],
+        [
+          -4.512842360185711,
+          -9.868349584445633e-16,
+          0.4188842181360857
+        ],
+        [
+          -9.025684720371423,
+          -9.868349584445633e-16,
+          0.8377684362721729
+        ],
+        [
+          -9.373983045932803,
+          -2.517835348134426,
+          -2.9146179500406686
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.17482851661242,
+        -30.71674461378115
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.095892699891507,
+          -30.82585427701114
+        ],
+        [
+          3.2537643333333333,
+          -30.629548808608913
+        ],
+        [
+          3.2537643333333333,
+          -30.60763495055116
+        ],
+        [
+          3.095892699891507,
+          -30.803940418953385
+        ]
+      ],
+      "u_high": -1.7763568394002505e-15,
+      "u_low": -4.532241184677844,
+      "v_high": 9.064482369355686,
+      "v_low": 4.532241184677842
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 4,
+      "bin_j": 3,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -6.595114377497877,
+        1.2589176740672121,
+        2.5045195203605504
+      ],
+      "native_corner_coordinates": [
+        [
+          -4.512842360185711,
+          -9.868349584445633e-16,
+          0.4188842181360857
+        ],
+        [
+          -4.16454403462433,
+          2.517835348134425,
+          4.171270604448928
+        ],
+        [
+          -8.677386394810043,
+          2.517835348134425,
+          4.590154822585015
+        ],
+        [
+          -9.025684720371423,
+          -9.868349584445633e-16,
+          0.8377684362721729
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.332700150054246,
+        -30.520439145378923
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.2537643333333333,
+          -30.629548808608913
+        ],
+        [
+          3.411635966775159,
+          -30.433243340206687
+        ],
+        [
+          3.411635966775159,
+          -30.411329482148936
+        ],
+        [
+          3.2537643333333333,
+          -30.60763495055116
+        ]
+      ],
+      "u_high": 4.532241184677842,
+      "u_low": -1.7763568394002505e-15,
+      "v_high": 9.064482369355686,
+      "v_low": 4.532241184677842
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 4,
+      "bin_j": 4,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -6.246816051936496,
+        3.776753022201638,
+        6.256905906673392
+      ],
+      "native_corner_coordinates": [
+        [
+          -4.16454403462433,
+          2.517835348134425,
+          4.171270604448928
+        ],
+        [
+          -3.816245709062949,
+          5.035670696268851,
+          7.9236569907617715
+        ],
+        [
+          -8.329088069248662,
+          5.035670696268851,
+          8.342541208897858
+        ],
+        [
+          -8.677386394810043,
+          2.517835348134425,
+          4.590154822585015
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.490571783496072,
+        -30.3241336769767
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.411635966775159,
+          -30.433243340206687
+        ],
+        [
+          3.569507600216985,
+          -30.236937871804464
+        ],
+        [
+          3.569507600216985,
+          -30.21502401374671
+        ],
+        [
+          3.411635966775159,
+          -30.411329482148936
+        ]
+      ],
+      "u_high": 9.064482369355686,
+      "u_low": 4.532241184677842,
+      "v_high": 9.064482369355686,
+      "v_low": 4.532241184677842
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 4,
+      "bin_j": 5,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -5.898517726375115,
+        6.294588370336064,
+        10.009292292986236
+      ],
+      "native_corner_coordinates": [
+        [
+          -3.816245709062949,
+          5.035670696268851,
+          7.9236569907617715
+        ],
+        [
+          -3.4679473835015684,
+          7.553506044403277,
+          11.676043377074615
+        ],
+        [
+          -7.98078974368728,
+          7.553506044403277,
+          12.094927595210702
+        ],
+        [
+          -8.329088069248662,
+          5.035670696268851,
+          8.342541208897858
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.6484434169378983,
+        -30.127828208574474
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.569507600216985,
+          -30.236937871804464
+        ],
+        [
+          3.7273792336588114,
+          -30.04063240340224
+        ],
+        [
+          3.7273792336588114,
+          -30.018718545344484
+        ],
+        [
+          3.569507600216985,
+          -30.21502401374671
+        ]
+      ],
+      "u_high": 13.59672355403353,
+      "u_low": 9.064482369355686,
+      "v_high": 9.064482369355686,
+      "v_low": 4.532241184677842
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 5,
+      "bin_j": 0,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -12.152851714367731,
+        -6.294588370336065,
+        -8.33375542044189
+      ],
+      "native_corner_coordinates": [
+        [
+          -10.070579697055566,
+          -7.553506044403277,
+          -10.419390722666353
+        ],
+        [
+          -9.722281371494185,
+          -5.035670696268852,
+          -6.667004336353512
+        ],
+        [
+          -14.235123731679897,
+          -5.035670696268852,
+          -6.248120118217424
+        ],
+        [
+          -14.583422057241277,
+          -7.553506044403277,
+          -10.000506504530266
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        2.859085249728768,
+        -31.087441692527847
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.780149433007855,
+          -31.196551355757833
+        ],
+        [
+          2.938021066449681,
+          -31.00024588735561
+        ],
+        [
+          2.938021066449681,
+          -30.978332029297857
+        ],
+        [
+          2.780149433007855,
+          -31.174637497700083
+        ]
+      ],
+      "u_high": -9.064482369355687,
+      "u_low": -13.59672355403353,
+      "v_high": 13.59672355403353,
+      "v_low": 9.064482369355686
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 5,
+      "bin_j": 1,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -11.80455338880635,
+        -3.776753022201639,
+        -4.581369034129047
+      ],
+      "native_corner_coordinates": [
+        [
+          -9.722281371494185,
+          -5.035670696268852,
+          -6.667004336353512
+        ],
+        [
+          -9.373983045932803,
+          -2.517835348134426,
+          -2.9146179500406686
+        ],
+        [
+          -13.886825406118515,
+          -2.517835348134426,
+          -2.4957337319045814
+        ],
+        [
+          -14.235123731679897,
+          -5.035670696268852,
+          -6.248120118217424
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.016956883170594,
+        -30.89113622412562
+      ],
+      "sky_corners_ra_dec": [
+        [
+          2.938021066449681,
+          -31.00024588735561
+        ],
+        [
+          3.095892699891507,
+          -30.803940418953385
+        ],
+        [
+          3.095892699891507,
+          -30.78202656089563
+        ],
+        [
+          2.938021066449681,
+          -30.978332029297857
+        ]
+      ],
+      "u_high": -4.532241184677844,
+      "u_low": -9.064482369355687,
+      "v_high": 13.59672355403353,
+      "v_low": 9.064482369355686
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 5,
+      "bin_j": 2,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -11.456255063244969,
+        -1.2589176740672134,
+        -0.8289826478162041
+      ],
+      "native_corner_coordinates": [
+        [
+          -9.373983045932803,
+          -2.517835348134426,
+          -2.9146179500406686
+        ],
+        [
+          -9.025684720371423,
+          -9.868349584445633e-16,
+          0.8377684362721729
+        ],
+        [
+          -13.538527080557134,
+          -9.868349584445633e-16,
+          1.2566526544082601
+        ],
+        [
+          -13.886825406118515,
+          -2.517835348134426,
+          -2.4957337319045814
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.17482851661242,
+        -30.694830755723395
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.095892699891507,
+          -30.803940418953385
+        ],
+        [
+          3.2537643333333333,
+          -30.60763495055116
+        ],
+        [
+          3.2537643333333333,
+          -30.585721092493408
+        ],
+        [
+          3.095892699891507,
+          -30.78202656089563
+        ]
+      ],
+      "u_high": -1.7763568394002505e-15,
+      "u_low": -4.532241184677844,
+      "v_high": 13.59672355403353,
+      "v_low": 9.064482369355686
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 5,
+      "bin_j": 3,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -11.107956737683589,
+        1.2589176740672121,
+        2.9234037384966376
+      ],
+      "native_corner_coordinates": [
+        [
+          -9.025684720371423,
+          -9.868349584445633e-16,
+          0.8377684362721729
+        ],
+        [
+          -8.677386394810043,
+          2.517835348134425,
+          4.590154822585015
+        ],
+        [
+          -13.190228754995754,
+          2.517835348134425,
+          5.0090390407211025
+        ],
+        [
+          -13.538527080557134,
+          -9.868349584445633e-16,
+          1.2566526544082601
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.332700150054246,
+        -30.498525287321172
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.2537643333333333,
+          -30.60763495055116
+        ],
+        [
+          3.411635966775159,
+          -30.411329482148936
+        ],
+        [
+          3.411635966775159,
+          -30.389415624091182
+        ],
+        [
+          3.2537643333333333,
+          -30.585721092493408
+        ]
+      ],
+      "u_high": 4.532241184677842,
+      "u_low": -1.7763568394002505e-15,
+      "v_high": 13.59672355403353,
+      "v_low": 9.064482369355686
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 5,
+      "bin_j": 4,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -10.759658412122208,
+        3.776753022201638,
+        6.67579012480948
+      ],
+      "native_corner_coordinates": [
+        [
+          -8.677386394810043,
+          2.517835348134425,
+          4.590154822585015
+        ],
+        [
+          -8.329088069248662,
+          5.035670696268851,
+          8.342541208897858
+        ],
+        [
+          -12.841930429434374,
+          5.035670696268851,
+          8.761425427033945
+        ],
+        [
+          -13.190228754995754,
+          2.517835348134425,
+          5.0090390407211025
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.490571783496072,
+        -30.302219818918946
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.411635966775159,
+          -30.411329482148936
+        ],
+        [
+          3.569507600216985,
+          -30.21502401374671
+        ],
+        [
+          3.569507600216985,
+          -30.193110155688956
+        ],
+        [
+          3.411635966775159,
+          -30.389415624091182
+        ]
+      ],
+      "u_high": 9.064482369355686,
+      "u_low": 4.532241184677842,
+      "v_high": 13.59672355403353,
+      "v_low": 9.064482369355686
+    },
+    {
+      "approximation_status": "DETERMINISTIC_APPROXIMATION",
+      "bin_i": 5,
+      "bin_j": 5,
+      "discretization_uncertainty": "catalog_to_native rounding/finite native cells/6x6 binning/noninvertible screen compression",
+      "native_bin_center": [
+        -10.411360086560826,
+        6.294588370336064,
+        10.428176511122324
+      ],
+      "native_corner_coordinates": [
+        [
+          -8.329088069248662,
+          5.035670696268851,
+          8.342541208897858
+        ],
+        [
+          -7.98078974368728,
+          7.553506044403277,
+          12.094927595210702
+        ],
+        [
+          -12.493632103872992,
+          7.553506044403277,
+          12.51381181334679
+        ],
+        [
+          -12.841930429434374,
+          5.035670696268851,
+          8.761425427033945
+        ]
+      ],
+      "native_footprint_semantics": "screen-plane inverse at launch w=0; native depth remains relative ensemble depth",
+      "sky_center_ra_dec": [
+        3.6484434169378983,
+        -30.10591435051672
+      ],
+      "sky_corners_ra_dec": [
+        [
+          3.569507600216985,
+          -30.21502401374671
+        ],
+        [
+          3.7273792336588114,
+          -30.018718545344484
+        ],
+        [
+          3.7273792336588114,
+          -29.996804687286733
+        ],
+        [
+          3.569507600216985,
+          -30.193110155688956
+        ]
+      ],
+      "u_high": 13.59672355403353,
+      "u_low": 9.064482369355686,
+      "v_high": 13.59672355403353,
+      "v_low": 9.064482369355686
+    }
+  ],
+  "realization_id": 7
+}

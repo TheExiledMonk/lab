@@ -1,0 +1,78 @@
+{
+  "no_observational_WL_data": true,
+  "realizations": [
+    {
+      "boundary_tolerance_fraction": 1.0,
+      "contained_fraction": 1.0,
+      "max_angular_residual_deg": 0.0,
+      "median_angular_residual_deg": 0.0,
+      "method": "independent frozen RA/DEC-to-native-cell membership; footprint uncertainty retained",
+      "realization_id": 0,
+      "status": "PASS_WITH_DISCRETIZATION"
+    },
+    {
+      "boundary_tolerance_fraction": 1.0,
+      "contained_fraction": 1.0,
+      "max_angular_residual_deg": 0.0,
+      "median_angular_residual_deg": 0.0,
+      "method": "independent frozen RA/DEC-to-native-cell membership; footprint uncertainty retained",
+      "realization_id": 1,
+      "status": "PASS_WITH_DISCRETIZATION"
+    },
+    {
+      "boundary_tolerance_fraction": 1.0,
+      "contained_fraction": 1.0,
+      "max_angular_residual_deg": 0.0,
+      "median_angular_residual_deg": 0.0,
+      "method": "independent frozen RA/DEC-to-native-cell membership; footprint uncertainty retained",
+      "realization_id": 2,
+      "status": "PASS_WITH_DISCRETIZATION"
+    },
+    {
+      "boundary_tolerance_fraction": 1.0,
+      "contained_fraction": 1.0,
+      "max_angular_residual_deg": 0.0,
+      "median_angular_residual_deg": 0.0,
+      "method": "independent frozen RA/DEC-to-native-cell membership; footprint uncertainty retained",
+      "realization_id": 3,
+      "status": "PASS_WITH_DISCRETIZATION"
+    },
+    {
+      "boundary_tolerance_fraction": 1.0,
+      "contained_fraction": 1.0,
+      "max_angular_residual_deg": 0.0,
+      "median_angular_residual_deg": 0.0,
+      "method": "independent frozen RA/DEC-to-native-cell membership; footprint uncertainty retained",
+      "realization_id": 4,
+      "status": "PASS_WITH_DISCRETIZATION"
+    },
+    {
+      "boundary_tolerance_fraction": 1.0,
+      "contained_fraction": 1.0,
+      "max_angular_residual_deg": 0.0,
+      "median_angular_residual_deg": 0.0,
+      "method": "independent frozen RA/DEC-to-native-cell membership; footprint uncertainty retained",
+      "realization_id": 5,
+      "status": "PASS_WITH_DISCRETIZATION"
+    },
+    {
+      "boundary_tolerance_fraction": 1.0,
+      "contained_fraction": 1.0,
+      "max_angular_residual_deg": 0.0,
+      "median_angular_residual_deg": 0.0,
+      "method": "independent frozen RA/DEC-to-native-cell membership; footprint uncertainty retained",
+      "realization_id": 6,
+      "status": "PASS_WITH_DISCRETIZATION"
+    },
+    {
+      "boundary_tolerance_fraction": 1.0,
+      "contained_fraction": 1.0,
+      "max_angular_residual_deg": 0.0,
+      "median_angular_residual_deg": 0.0,
+      "method": "independent frozen RA/DEC-to-native-cell membership; footprint uncertainty retained",
+      "realization_id": 7,
+      "status": "PASS_WITH_DISCRETIZATION"
+    }
+  ],
+  "status": "PASS_WITH_DISCRETIZATION"
+}

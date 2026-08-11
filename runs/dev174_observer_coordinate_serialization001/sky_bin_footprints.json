@@ -1,0 +1,20 @@
+{
+  "footprint_files": [
+    "sky_bin_footprints_realization_00.json",
+    "sky_bin_footprints_realization_01.json",
+    "sky_bin_footprints_realization_02.json",
+    "sky_bin_footprints_realization_03.json",
+    "sky_bin_footprints_realization_04.json",
+    "sky_bin_footprints_realization_05.json",
+    "sky_bin_footprints_realization_06.json",
+    "sky_bin_footprints_realization_07.json"
+  ],
+  "forbidden_methods_not_used": [
+    "manual astrometric fit",
+    "WL-derived alignment",
+    "centroid fit",
+    "rotation fit",
+    "plate-scale fit"
+  ],
+  "sky_mapping_status": "DETERMINISTIC_APPROXIMATION"
+}

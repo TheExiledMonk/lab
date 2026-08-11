@@ -421,6 +421,22 @@
       "OBSERVATIONAL_ASSET_BLOCKER": true,
       "OUTCOME": "OUTCOME_B_AND_C_WITH_OUTCOME_F_EXTERNAL_ASSET",
       "NEXT_DEV_AUTHORIZED": false
+    },
+    {
+      "DATE": "2026-08-12",
+      "DEV_ID": "DEV174",
+      "LEDGER_ENTRY": "008",
+      "TITLE": "Native observer coordinate-provenance serialization",
+      "START_COMMIT": "6fa81ad3dd6e3cd8b1d49b7da8d67f22695da674",
+      "STATUS": "COMPLETE",
+      "OBSERVER_COORDINATE_LINEAGE": "SERIALIZED / CLOSED",
+      "NATIVE_GRID_TO_SKY_MAPPING": "DETERMINISTIC_CELL_FOOTPRINT_SERIALIZED",
+      "PRIMARY_6X6_ARRAY_MODIFIED": false,
+      "NATIVE_COORDINATE_BLOCKER": "CLOSED",
+      "OBSERVATIONAL_WL_WCS_ASSET": "UNAVAILABLE",
+      "OBSERVATIONAL_ASSET_BLOCKER": true,
+      "OUTCOME": "OUTCOME_A_AND_F",
+      "NEXT_DEV_AUTHORIZED": false
     }
   ],
   "permanent_future_dev_rule": [
