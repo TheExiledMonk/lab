@@ -1,0 +1,24 @@
+{
+  "CPU_REFERENCE_AVAILABLE": true,
+  "CPU_RESULT_HASH": "ecc2284f753b2b6570e99e6a90f0f5f83666c698f2b138ef8bbfe351af8ce45b",
+  "CPU_VULKAN_PARITY_STATUS": "PASS",
+  "KDE_STATUS": "DIAGNOSTIC_ONLY",
+  "MAX_ABS_ERROR": 1.734723475976807e-18,
+  "RAW_RECEIPT_IS_AUTHORITATIVE": true,
+  "RELATIVE_RMS_ERROR": 4.2661048950976615e-17,
+  "VULKAN_RESULT_HASH": "3cb930081ed53e39350fdfcbd794ebed084d989fe125f80af1bd225c028770b8",
+  "cpu_seconds": 0.3872054390012636,
+  "operation": "exact_received_yz_kde_diagnostic_only",
+  "runtime": {
+    "estimated_total_gpu_bytes": 260368,
+    "input_buffer_bytes": 173584,
+    "no_n_squared_buffer_allocation": true,
+    "output_buffer_bytes": 86784,
+    "temporary_buffer_bytes": 0,
+    "warm_total_seconds": 0.23997333199986315
+  },
+  "sample_count": 10848,
+  "speedup": 1.6125855629286854,
+  "status": "PARITY_VERIFIED",
+  "vulkan_seconds": 0.24011466299998574
+}

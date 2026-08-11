@@ -1,0 +1,10 @@
+{
+  "CPU_PEAK_MEMORY": "not available from deterministic reference runtime",
+  "CPU_RUNTIME_SECONDS": 0.3872054390012636,
+  "SPEEDUP": 1.6125855629286854,
+  "VULKAN_PEAK_BUFFER_BYTES": 260368,
+  "VULKAN_RUNTIME_SECONDS": 0.24011466299998574,
+  "launch_count": 12,
+  "operation": "exact_received_yz_kde_diagnostic_only",
+  "receipt_count": 10848
+}

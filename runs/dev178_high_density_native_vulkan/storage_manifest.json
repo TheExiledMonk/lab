@@ -1,0 +1,21 @@
+{
+  "artifacts": [
+    "receipt_realization_00.npz",
+    "receipt_realization_01.npz",
+    "receipt_realization_02.npz",
+    "receipt_realization_03.npz",
+    "receipt_realization_04.npz",
+    "receipt_realization_05.npz",
+    "receipt_realization_06.npz",
+    "receipt_realization_07.npz"
+  ],
+  "format": "npz_compressed",
+  "provenance": [
+    "realization",
+    "source geometry",
+    "code hashes",
+    "sampling geometry",
+    "CPU/Vulkan status"
+  ],
+  "raw_receipt_authoritative": true
+}

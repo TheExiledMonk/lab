@@ -1,0 +1,13 @@
+{
+  "HISTORICAL_VULKAN_CODE_AUDITED": true,
+  "audited_commits": [
+    "c620cd9dc342df883ab93e6a3423706eb263130a",
+    "b54caa8ec50043cd07fee0b8955372bc1990bd5b"
+  ],
+  "components": [
+    "exact float64 pairwise KDE shader",
+    "persistent Vulkan runtime",
+    "CPU exact KDE reference",
+    "parity and benchmark fixtures"
+  ]
+}

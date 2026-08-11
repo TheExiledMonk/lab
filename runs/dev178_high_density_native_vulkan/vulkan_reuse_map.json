@@ -1,0 +1,12 @@
+{
+  "VULKAN_IS_INFRASTRUCTURE_ONLY": true,
+  "VULKAN_OPTIONAL_FOR_CORRECTNESS": true,
+  "not_reused_as_physics": [
+    "historical observer decoder",
+    "KDE output"
+  ],
+  "reused": [
+    "pbuf.wl.backends.vulkan_kde.CpuExactKDE",
+    "pbuf.wl.backends.vulkan_kde.VulkanExactKDE"
+  ]
+}

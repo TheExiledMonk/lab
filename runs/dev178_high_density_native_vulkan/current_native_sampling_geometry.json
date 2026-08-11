@@ -1,0 +1,14 @@
+{
+  "baseline_source_plane_coverage": "all positive packet cells",
+  "native_lattice": [
+    11,
+    11,
+    11
+  ],
+  "packet_plane": [
+    7,
+    7
+  ],
+  "source_coordinates": "integer native lattice cells",
+  "subcell_launch_semantics": "ABSENT"
+}

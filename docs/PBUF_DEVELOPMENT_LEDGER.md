@@ -181,3 +181,22 @@ Every future Dev begins by reading this ledger and current GitHub implementation
 - A stable full `3x2` source-to-receipt differential fit is supported in all eight realizations; its intrinsic metric is recorded as `G3=J3^T J3`. This is an intrinsic received-sheet diagnostic, not kappa/gamma/e1/e2.
 - DEV176 P1--P7 remain historical partial summaries. No candidate was selected; no observational lensing data, 2D observable construction, source retuning, native-law modification, smoothing, zero/mean filling, or 6x6 support repair occurred.
 - Rules frozen: `PREMATURE_2D_COLLAPSE_FORBIDDEN=true`; `FULL_NATIVE_RECEIPT_IS_CANONICAL_OBSERVER_INPUT=true`.
+
+## CURRENT WEAK-LENSING ROADMAP
+
+This is canonical planning context, not completed science. Before a new weak-lensing Dev: `READ_CURRENT_ROADMAP`; `READ_HISTORICAL_ATTEMPT_INDEX`; `IDENTIFY_CURRENT_FRONTIER`; `DO_NOT_SKIP_AHEAD`. The roadmap changes only when a completed Dev changes the scientific frontier.
+
+- **DEV178 — native sampling and inspection infrastructure.** Preserve the full individual 3D receipt, test predetermined native source-plane sampling before any downstream repair, and maintain the Vulkan/native viewer as diagnostic infrastructure only.
+- **NEXT A — received-state distribution sufficiency.** Using the densest justified frozen receipt, audit first through fourth moments, coherent mean versus central spread, empirical versus same-mean/same-covariance controls, channel-family distributions, longitudinal/transverse structure, and information beyond `J3/G3`.
+- **NEXT B — native mode/channel sufficiency.** Where physically defined, assess displacement, direction, momentum, and flux topology; irrotational, solenoidal, symmetric-traceless, and cross-channel redundancy/complementarity diagnostics. No observer mapping yet.
+- **NEXT C — physical observer mapping.** Only after A and B, derive the deterministic operation on retained native multi-channel state corresponding to a distant image-forming observer. No candidate may be selected through observational agreement.
+- **NEXT D — direct observational shape boundary.** Only after the observer mapping is frozen: JWST pixels → measured moments → PSF correction → observed `(e1,e2)`, compared to the already-frozen PBUF observer. No convergence or Kaiser--Squires primary path.
+- **NEXT E — sampling escalation if required.** If the 25% lane is demonstrably sampling-limited, advance `25% → 50% → 100%` with unchanged native physics and predetermined geometry; never because a visual image looks better.
+
+**Sampling Density Rule:** Receipt sparsity or observer sparsity must first be tested by increasing predetermined native sampling density. It must not be repaired downstream by smoothing, adaptive pooling, interpolation, or observer retuning.
+
+**Viewer Rule:** The Vulkan/native viewer is diagnostic infrastructure for inspection of frozen PBUF state. Visual appearance cannot select, weight, orient, normalize, or promote a physical observable.
+
+**Channel Complementarity Principle:** No native received channel or spatial dimension may be discarded until redundancy or observer irrelevance is demonstrated from the frozen native state.
+
+Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACCELERATION=AVAILABLE`; `VIEWER_IS_DIAGNOSTIC_ONLY=true`.

@@ -1,0 +1,26 @@
+{
+  "NO_PHYSICAL_RGB_SEMANTICS": true,
+  "RGB_VIEW_IS_INFORMATION_VISUALIZATION_ONLY": true,
+  "VIEWER_IS_DIAGNOSTIC_ONLY": true,
+  "channels": [
+    "displacement",
+    "direction",
+    "momentum",
+    "flux",
+    "weight",
+    "W01-W04",
+    "progression",
+    "lineage",
+    "J3/G3"
+  ],
+  "entry_point": "tools/pbuf_native_receipt_viewer.py",
+  "geometry": [
+    "source",
+    "received",
+    "connections",
+    "native cells"
+  ],
+  "input": "frozen NPZ receipt artifact",
+  "multi_channel": true,
+  "mutates_simulation": false
+}

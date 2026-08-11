@@ -1,0 +1,11 @@
+{
+  "CURRENT_NATIVE_EQUIVALENT_REQUIRED": true,
+  "DETERMINISTIC": true,
+  "NO_ADAPTIVE_DENSITY_FROM_OUTPUT": true,
+  "NO_OBSERVATIONAL_SELECTION": true,
+  "NO_PHYSICS_CHANGE": true,
+  "SOURCE_PLANE_FRACTION": 0.24489795918367346,
+  "reason": "DEV167/168 has an atomic 7x7 native packet source lattice rather than a continuous ray-launch plane; inventing 266x266 subcell launches would change source semantics.",
+  "selected_definition": "predetermined contiguous 3x4 integer-cell tile, 12/49=0.2448979592 source-plane area",
+  "status": "HISTORICAL_25PCT_NOT_APPLICABLE"
+}
