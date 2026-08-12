@@ -1286,6 +1286,72 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Only with an independently defined PBUF-to-observable mapping."
+    },
+    {
+      "target_id": "native_n6_field_representation",
+      "canonical_name": "Native N6 field representation",
+      "plain_language_question": "Is the complete local six-neighbor bond configuration, together with native momentum, a sufficient native field representation for canonical excitation propagation under DEV167?",
+      "aliases": [
+        "N6 field",
+        "bond-state field",
+        "native field representation"
+      ],
+      "keywords": [
+        "N6",
+        "bond state",
+        "field",
+        "momentum",
+        "packet"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev200_native_n6_field"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev200_native_n6_field"
+      ],
+      "open_questions": [
+        "Polarization and optical-phase mappings remain unestablished."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if DEV167 or DEV182 changes independently."
+    },
+    {
+      "target_id": "canonical_packet_weak_event_regime",
+      "canonical_name": "Canonical packet weak-event regime",
+      "plain_language_question": "Given DEV199 exact first-order linearization and higher-order cross terms, does the canonical DEV182 packet occupy a regime where first-order propagation dominates nonlinear cross-event interaction?",
+      "aliases": [
+        "weak regime",
+        "perturbative event regime"
+      ],
+      "keywords": [
+        "weak",
+        "tangent",
+        "nonlinear",
+        "cross event"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev200_native_n6_field"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No threshold-free global first-order dominance was found on the canonical path."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "independent_event_wave_transport"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if DEV167 or DEV182 changes independently."
     }
   ],
   "attempts": [
@@ -4835,6 +4901,96 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev200_native_n6_field",
+      "target_id": "native_n6_field_representation",
+      "name": "DEV200 native N6 field and weak-event audit",
+      "aliases": [
+        "DEV200"
+      ],
+      "summary": "Reconstructs canonical propagation as directional N6 bond state plus momentum and measures exact vector tangent remainders.",
+      "why_attempted": "DEV199 closed local-state control while leaving canonical weak membership unresolved.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV200",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_n6_field.py",
+        "pbuf/observer/weak_event_regime.py",
+        "tools/generate_dev200_native_n6_field.py"
+      ],
+      "run_directories": [
+        "runs/dev200_native_n6_field"
+      ],
+      "tests": [
+        "tests/test_dev200_native_n6_field.py",
+        "tests/test_dev200_weak_event_regime.py"
+      ],
+      "equations": [
+        "F=sigma(epsilon) rhat",
+        "F_tangent=F_0+DF_0[delta r]",
+        "R_NL=F_exact-F_tangent"
+      ],
+      "assumptions": [
+        "frozen DEV167/DEV182/DEV199"
+      ],
+      "inputs": [
+        "DEV195 trajectories",
+        "DEV199 Phase-A freeze"
+      ],
+      "outputs": [
+        "N6 pattern traces",
+        "exact tangent and cross-term distributions"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "N6 state plus momentum is sufficient; canonical first-order/cross-term ordering is mixed without a threshold.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev182_native_packet_launch_representation",
+        "dev195_local_force_balance_restoration",
+        "dev199_local_state_cross_event"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev198_field_strength_cross_event"
+      ],
+      "still_valid_components": [
+        "DEV199 full local-state control"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "N6 field sufficiency"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "181 pre-recurrence times"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only if DEV167 or DEV182 changes independently.",
+      "do_not_repeat_reason": "No scalar reduction, threshold, or amplitude sweep is admissible.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev200_native_n6_field/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "equivalences": [
@@ -4857,6 +5013,16 @@
       "target_id": "source_independent_transfer_distortion",
       "status": "CANONICAL",
       "reason": "A native local transfer tensor is derived; observational bridge remains separately closed."
+    },
+    {
+      "target_id": "native_n6_field_representation",
+      "status": "CANONICAL",
+      "reason": "N6 bond state plus momentum closes DEV167 local update."
+    },
+    {
+      "target_id": "canonical_packet_weak_event_regime",
+      "status": "PARTIAL",
+      "reason": "N6 state plus momentum is sufficient; canonical first-order/cross-term ordering is mixed without a threshold."
     }
   ]
 }

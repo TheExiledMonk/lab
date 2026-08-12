@@ -45,6 +45,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV198 | Field-strength-controlled cross-event influence | DEV198 field-strength-controlled cross-event influence audit | PARTIAL | PARTIAL |
 | 2026-08-13 | DEV199 | EM-wave structural correlation | DEV199 frozen EM structural comparison | PARTIAL | PARTIAL |
 | 2026-08-13 | DEV199 | Full local-state cross-event control | DEV199 local-state cross-event derivation | FULL | CANONICAL |
+| 2026-08-13 | DEV200 | Native N6 field representation | DEV200 native N6 field and weak-event audit | PARTIAL | PARTIAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

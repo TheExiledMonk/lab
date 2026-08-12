@@ -75,3 +75,5 @@ DEV197 rule: exact support overlap is diagnostic geometry, while sequential-even
 DEV198 rule: residual local native force and B influence are separately measured over the fixed pre-recurrence sequence; exact-zero denominators stay undefined.
 
 DEV199 rule: four-state force residuals are exact DEV167 bond identities; receipt differences are path-integrated local consequences, not evidence for a new nonlocal rule.
+
+DEV200 rule: canonical excitation propagation is an evolving N6 bond-state plus momentum pattern; scalar force reductions and packet labels are not dynamically sufficient.

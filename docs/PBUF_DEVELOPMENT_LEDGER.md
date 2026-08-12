@@ -408,3 +408,10 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 ## LEDGER ENTRY 034 — DEV199 FROZEN EM STRUCTURAL COMPARISON
 
 - **EM Structural-Correlation Rule:** PBUF may be structurally compared with EM-wave/QED behavior only after the native result is frozen. Similar weak/strong nonlinearity, directional state, and background dependence establish neither variable identity, SI calibration, nor a derivation of QED.
+
+## LEDGER ENTRY 035 — DEV200 NATIVE N6 FIELD AND WEAK EVENT AUDIT
+
+- **Native Field Representation Rule:** After initialization, a canonical excitation is represented entirely by the evolving local N6 bond-state and momentum configuration. Packet identity is bookkeeping; propagation is deterministic evolution of the native field pattern.
+- **Scalar Field Reduction Rule:** A single residual-force magnitude is not a complete native field representation. Directional N6 bond state and local geometry must be retained whenever interaction or propagation is evaluated.
+- **Canonical Weak-Event Rule:** A canonical excitation is weak only when its path-resolved first-order native response dominates its higher-order remainder without an arbitrary threshold. DEV200 reports mixed canonical ordering, so the asymptotic weak limit does not authorize the canonical packet.
+- **Cross-Event Accumulation Rule:** Signed local cross terms are retained through path accumulation; no magnitude threshold is used.
