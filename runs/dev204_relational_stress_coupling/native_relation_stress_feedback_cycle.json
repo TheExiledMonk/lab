@@ -1,0 +1,12 @@
+{
+  "NATIVE_RELATION_STRESS_FEEDBACK_CYCLE": "CLOSED",
+  "discrete_update": [
+    "F_n=sum_b sigma(epsilon_ab,n) rhat_ab,n",
+    "p_(n+1)=p_n+h (F_n+f_source,frozen)",
+    "r_(n+1)=r_n+h p_(n+1)"
+  ],
+  "drift_residual_max_abs": 4.2775163836342167e-19,
+  "frozen_existing_source_contact_retained": true,
+  "kick_residual_max_abs": 4.336808689942018e-19,
+  "scope": "closure of full frozen geometry/momentum state, not independent stress-state autonomy"
+}

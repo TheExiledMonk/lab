@@ -1,0 +1,5 @@
+{
+  "NATIVE_ANTISYMMETRIC_SPATIAL_OPERATOR": "DERIVED",
+  "definition": "A=(M-M^T)/2, M_ij=(X_+i,j-X_-i,j)/2",
+  "native_N6_only": true
+}

@@ -1,0 +1,36 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "magnetic stress": [
+      "TARGET: Native two-sector wave coupling",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Orientation-driven native stress candidate",
+      "STATUS: PARTIAL",
+      ""
+    ],
+    "orientation stress": [
+      "TARGET: Native relational stress coupling",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Orientation-driven native stress candidate",
+      "STATUS: PARTIAL",
+      "",
+      "DEV204  DEV204 native relational motion-stress coupling  FULL / CANONICAL"
+    ],
+    "relational stress": [
+      "TARGET: Native relational stress coupling",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native two-sector wave coupling",
+      "STATUS: PARTIAL",
+      "",
+      "DEV204  DEV204 native relational motion-stress coupling  FULL / CANONICAL"
+    ],
+    "two sector coupling": [
+      "TARGET: Native two-sector wave coupling",
+      "STATUS: PARTIAL",
+      ""
+    ]
+  }
+}

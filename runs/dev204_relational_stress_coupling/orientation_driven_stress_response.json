@@ -1,0 +1,7 @@
+{
+  "ORIENTATION_DRIVEN_STRESS_RESPONSE": "DERIVED",
+  "definition": "sigma(epsilon_n) Delta rhat",
+  "exactly_derived_from_frozen_pair_law": true,
+  "not_magnetic_field": true,
+  "orientation_component_l2": 2.6503811610902745e-06
+}

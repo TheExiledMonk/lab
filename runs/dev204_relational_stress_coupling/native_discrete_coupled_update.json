@@ -1,0 +1,10 @@
+{
+  "NATIVE_DISCRETE_COUPLED_UPDATE_DERIVED": true,
+  "no_continuum_input": true,
+  "update": [
+    "r_ab,n -> epsilon_ab,n,rhat_ab,n -> F_ab,n=sigma(epsilon_ab,n)rhat_ab,n",
+    "p_n -> p_(n+1)=p_n+h sum_b F_ab,n",
+    "r_n -> r_(n+1)=r_n+h p_(n+1)",
+    "Delta F_ab exact finite-step identity recorded separately"
+  ]
+}

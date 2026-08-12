@@ -83,3 +83,5 @@ DEV201 rule: the canonical DEV167 N6 central-force tangent is not the rejected D
 DEV202 rule: inspect self-generated DEV195 bond loads with the full DEV167 central-force tangent; do not repeat DEV151 scalar longitudinal-link failure or impose prestress.
 
 DEV203 rule: inspect only explicit DEV167/200 vector neighbor relations along the canonical trajectory; do not reopen scalar-gradient, scalar-loaded-coupling, or longitudinal-link propagation work.
+
+DEV204 rule: finite-step force response is an exact dependent decomposition of the frozen central bond law; do not promote it to an added field or discard its nonlinear cross term.

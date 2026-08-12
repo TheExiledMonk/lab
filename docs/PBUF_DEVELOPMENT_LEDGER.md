@@ -433,3 +433,10 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - **Intrinsic Relational Wave Rule:** The candidate EM-like native wave is the time-dependent relational motion contained within the propagating N6 excitation itself, not an additional transverse tangent mode superposed on that excitation.
 - **Relational Quiet-Vacuum Rule:** The unloaded native state has static neighbor relations and therefore no relational-wave activity; wave activity requires dynamically changing local relations.
 - **EM Relational Claim Boundary:** Demonstrating transported relative-neighbor motion establishes a native wave substrate candidate only. Identification with electromagnetic (E), (B), polarization, optical phase, SI field strength, or photon normalization requires separate independent derivations.
+
+## LEDGER ENTRY 039 — DEV204 NATIVE RELATIONAL–STRESS COUPLING
+
+- **Relational Stress Rule:** Changing relative-neighbor geometry generates changing native bond stress entirely through the frozen DEV167 central interaction. The stress response is not an added field.
+- **Orientation-Stress Rule:** Rotation/orientation change of loaded neighbor relations generates the exact directional component `sigma(epsilon_n) Delta r_hat`; the finite-step cross term is retained separately.
+- **Native Coupled-Wave Rule:** In the full frozen state, changing relations alter stress, stress alters momentum through the DEV167 kick, and updated momentum alters subsequent relations through the drift. This does not establish an independently autonomous two-field reduction.
+- **Native Two-Field Claim Boundary:** A closed relational-motion/stress coupling may constitute an electromagnetic-like native substrate, but (E), (B), Maxwell equations, SI normalization, polarization and photon interpretation remain separate mappings until independently derived.

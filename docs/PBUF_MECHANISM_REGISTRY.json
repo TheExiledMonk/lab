@@ -1546,6 +1546,97 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Only if the frozen trajectory or independent mapping derivations change."
+    },
+    {
+      "target_id": "native_relational_stress_coupling",
+      "canonical_name": "Native relational stress coupling",
+      "plain_language_question": "Does changing relative-neighbor geometry in the canonical DEV203 relational wave deterministically generate a transported native stress response through the frozen DEV167 interaction law?",
+      "aliases": [
+        "DEV204",
+        "relational stress",
+        "native force response"
+      ],
+      "keywords": [
+        "relational motion",
+        "stress response",
+        "orientation stress",
+        "finite force difference"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev204_relational_stress_coupling"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev204_relational_stress_coupling"
+      ],
+      "open_questions": [
+        "The response is a derived readout of bond geometry, not an independent added field."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV167 force law or canonical DEV195 trajectory changes."
+    },
+    {
+      "target_id": "native_two_sector_wave_coupling",
+      "canonical_name": "Native two-sector wave coupling",
+      "plain_language_question": "Do the symmetric and antisymmetric components of the canonical relational wave and their native stress responses form a closed complementary coupled wave structure without electromagnetic input?",
+      "aliases": [
+        "DEV204 two sector",
+        "relational stress feedback"
+      ],
+      "keywords": [
+        "symmetric",
+        "antisymmetric",
+        "feedback",
+        "kick drift"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev204_relational_stress_coupling"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No independently autonomous second field sector has been derived."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if an already-existing native invariant is independently shown to close a reduced state."
+    },
+    {
+      "target_id": "magnetic_stress_native_candidate",
+      "canonical_name": "Orientation-driven native stress candidate",
+      "plain_language_question": "Does the orientation/rotation-driven native stress response satisfy the structural requirements for a magnetic-like stress candidate prior to any mapping to the electromagnetic magnetic field?",
+      "aliases": [
+        "orientation stress candidate"
+      ],
+      "keywords": [
+        "orientation",
+        "rotation",
+        "transverse stress"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev204_relational_stress_coupling"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Magnetic-field mapping remains unestablished."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Requires an independent EM mapping audit."
     }
   ],
   "attempts": [
@@ -5308,6 +5399,102 @@
         {
           "type": "file",
           "value": "runs/dev203_relational_wave/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev204_relational_stress_coupling",
+      "target_id": "native_relational_stress_coupling",
+      "name": "DEV204 native relational motion-stress coupling",
+      "aliases": [
+        "DEV204"
+      ],
+      "summary": "Exact finite-step decomposition of frozen DEV167 bond-force changes along the canonical DEV203 trajectory, including the nonlinear cross term and kick-drift feedback audit.",
+      "why_attempted": "DEV203 established the transported relational wave and rotation signature.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV204",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_stress_response.py",
+        "pbuf/observer/relational_stress_coupling.py",
+        "tools/generate_dev204_relational_stress_coupling.py"
+      ],
+      "run_directories": [
+        "runs/dev204_relational_stress_coupling"
+      ],
+      "tests": [
+        "tests/test_dev204_native_stress_response.py",
+        "tests/test_dev204_relational_stress_coupling.py"
+      ],
+      "equations": [
+        "dF=(sigma1-sigma0)u0+sigma0(u1-u0)+(sigma1-sigma0)(u1-u0)",
+        "p_(n+1)=p_n+h F_net(r_n)",
+        "r_(n+1)=r_n+h[p_(n)+hF_net(r_n)]"
+      ],
+      "assumptions": [
+        "frozen DEV167 pair law and canonical DEV195 trajectory"
+      ],
+      "inputs": [
+        "DEV167",
+        "DEV195",
+        "DEV199",
+        "DEV200",
+        "DEV201",
+        "DEV202",
+        "DEV203"
+      ],
+      "outputs": [
+        "native force response tensors and exact discrete feedback identity"
+      ],
+      "result": "FULL",
+      "result_reason": "coupling=DERIVED; cycle=CLOSED; orientation=DERIVED; candidate=PARTIAL_NATIVE_CANDIDATE.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev195_local_force_balance_restoration",
+        "dev203_relational_wave"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev203_relational_wave"
+      ],
+      "still_valid_components": [
+        "DEV201 unloaded tangent result",
+        "DEV202 loaded tangent result",
+        "DEV203 relational wave"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "Exact finite-step native stress decomposition",
+        "Kick-drift relation-stress-momentum cycle"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "existing DEV195 timestep only"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only if frozen inputs change.",
+      "do_not_repeat_reason": "No new force, field, tangent probe, propagation law, or EM construction is admissible.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev204_relational_stress_coupling/final_contract.json"
         }
       ],
       "confidence": "HIGH"
