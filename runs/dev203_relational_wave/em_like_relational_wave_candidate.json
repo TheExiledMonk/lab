@@ -1,0 +1,11 @@
+{
+  "EM_LIKE_RELATIONAL_WAVE_CANDIDATE": "DERIVED_STRONG",
+  "requirements": {
+    "coherent_transport": "COHERENT",
+    "intrinsic_transverse": "PRESENT",
+    "no_added_probe": true,
+    "quiet_unloaded_control": true,
+    "temporal_character": "OSCILLATORY"
+  },
+  "scope": "native relational-wave candidate only; no electromagnetic identity claimed"
+}

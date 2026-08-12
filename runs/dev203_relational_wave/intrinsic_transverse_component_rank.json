@@ -1,0 +1,15 @@
+{
+  "INTRINSIC_TRANSVERSE_COMPONENT_RANK": "TWO",
+  "criterion": "exact Gram determinant / exact nonzero, no cutoff",
+  "determinant": 3.7724508098860824e-20,
+  "transverse_gram": [
+    [
+      2.5762477893173024e-10,
+      4.027482256408964e-12
+    ],
+    [
+      4.027482256408964e-12,
+      1.464949484621884e-10
+    ]
+  ]
+}

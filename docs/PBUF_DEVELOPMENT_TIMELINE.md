@@ -48,6 +48,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV200 | Native N6 field representation | DEV200 native N6 field and weak-event audit | PARTIAL | PARTIAL |
 | 2026-08-13 | DEV201 | Native linear mode spectrum | DEV201 native linearized N6 mode spectrum | FULL | CANONICAL |
 | 2026-08-13 | DEV202 | Self-loaded transverse native response | DEV202 self-loaded transverse tangent audit | PARTIAL | CANONICAL |
+| 2026-08-13 | DEV203 | Propagating relative-neighbor motion | DEV203 propagating relative-neighbor motion | FULL | CANONICAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

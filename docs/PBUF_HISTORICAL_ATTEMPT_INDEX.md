@@ -81,3 +81,5 @@ DEV200 rule: canonical excitation propagation is an evolving N6 bond-state plus 
 DEV201 rule: the canonical DEV167 N6 central-force tangent is not the rejected DEV151 longitudinal-link representation; nevertheless its unloaded spectrum contains no robust propagating transverse sector.
 
 DEV202 rule: inspect self-generated DEV195 bond loads with the full DEV167 central-force tangent; do not repeat DEV151 scalar longitudinal-link failure or impose prestress.
+
+DEV203 rule: inspect only explicit DEV167/200 vector neighbor relations along the canonical trajectory; do not reopen scalar-gradient, scalar-loaded-coupling, or longitudinal-link propagation work.
