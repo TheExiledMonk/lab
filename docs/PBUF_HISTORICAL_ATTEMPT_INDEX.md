@@ -63,3 +63,5 @@ DEV191 anti-circularity rules: conventional weak-lensing terminology does not es
 DEV192 anti-circularity rules: a new lens cannot repair an observable-definition failure on the development lens; cross-lens validation begins only after observer freeze; intrinsic-orientation cancellation must be derived and cannot be silently assumed.
 
 DEV193 anti-circularity rules: linear combination of independently sampled transfer columns does not prove physical simultaneous-source superposition in a nonlinear native medium; a centroid Jacobian does not automatically transport full image morphology.
+
+DEV194 anti-circularity rule: additive detector columns cannot be rebranded as independent physical events merely because they were computed by exact reset; stationarity, event injection, and post-event memory must be established separately.

@@ -1,0 +1,37 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "coherent": [],
+    "detector counting": [],
+    "diffraction": [],
+    "double slit": [],
+    "event accumulation": [],
+    "incoherent": [],
+    "interference": [],
+    "packet recovery": [
+      "DEV189  DEV189 astronomical source boundary and native launch-domain bridge  BLOCKED / BLOCKED"
+    ],
+    "path splitting": [],
+    "persistent memory": [],
+    "phase": [
+      "DEV171  Independent spectroscopic source ensemble  FULL / CANONICAL"
+    ],
+    "photon": [
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "repeated launch": [],
+    "stationary medium": [
+      "DEV159  Node-discrete stationary/moving local forcing  PARTIAL / HISTORICAL_ONLY"
+    ],
+    "superposition": [
+      "TARGET: Native extended excitation transport",
+      "STATUS: BLOCKED",
+      "",
+      "DEV193  DEV193 native extended-excitation transport semantics audit  BLOCKED / BLOCKED"
+    ],
+    "wavefront": []
+  }
+}

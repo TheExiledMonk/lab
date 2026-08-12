@@ -1,0 +1,13 @@
+{
+  "fields": [
+    "launch_domain",
+    "event_weights",
+    "single_event_representation",
+    "foreground_state_reference",
+    "detector_accumulation_semantics",
+    "independence_condition"
+  ],
+  "not_a_DEV167_initial_state": true,
+  "representation": "NativeEmissionEnsemble/v1",
+  "status": "NOT_INSTANTIATED"
+}

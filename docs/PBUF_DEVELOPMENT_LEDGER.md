@@ -368,3 +368,12 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 **Native Moment-Transport Rule:** The second moment of transported native content must be derived from the full conditional transfer kernel. A local centroid Jacobian may supply only one contribution; conditional response spread, throughput variation, and nonaffine transport cannot be discarded unless independently shown to vanish.
 
 **Centroid Jacobian Rule:** `TransferCentroidJacobian/v1` is the derivative of the conditional first-moment map. It becomes a full extended-shape deformation operator only if the entire local transfer kernel obeys the corresponding affine transport law.
+
+## LEDGER ENTRY 028 — DEV194 INDEPENDENT-EVENT WAVE TRANSPORT
+
+- DEV194 preserves DEV193: simultaneous composite packet states remain undefined. A canonical DEV182 packet is nevertheless one spatially distributed `VectorPairState` (displacement and momentum fields), not a point trajectory. Its signed momentum/flux channels retain more path-sensitive state than DEV187's positive scalar crossing weight, but no production phase or two-path/obstruction geometry is defined.
+- Crucially, frozen reversible DEV167 evolution leaves a nonzero perturbation after the receipt interval in the loaded R00 control. There is no established post-receipt event injection or recovery rule, so exact reset remains computational only and independent sequential events are not derived. Detector-side addition makes `K lambda` exact algebra for supplied columns, not a physical expected image. `INDEPENDENT_EVENT_TRANSPORT=BLOCKED_EVENT_INDEPENDENCE`; DEV191/192 remain closed.
+
+**Independent-Event Rule:** Astronomical image accumulation does not require simultaneous composition only after each event's stationary-background/recovery and detector-event semantics are independently established. Computational reset alone is insufficient.
+
+**Wave/Event Distinction Rule:** Discrete receipt records do not imply pointlike propagation. Single-event distributed state and multi-path/event-ensemble semantics are separate audits.

@@ -1,0 +1,4 @@
+{
+  "SINGLE_EVENT_RESPONSE_SEMANTICS": "UNRESOLVED",
+  "reason": "deterministic distributed receipt weight is a response measure, but localized discrete detector-event selection is not derived."
+}

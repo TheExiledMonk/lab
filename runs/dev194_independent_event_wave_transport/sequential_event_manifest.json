@@ -1,0 +1,4 @@
+{
+  "SEQUENTIAL_EVENT_TEST": "BLOCKED",
+  "reason": "frozen API defines initial packet addition to a background, not a second event injection into an evolved state; no composition law invented."
+}
