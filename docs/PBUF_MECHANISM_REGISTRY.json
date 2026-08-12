@@ -1004,6 +1004,43 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Independently derive physical image-transfer semantics and acquire provenance-tied current-dataset products without changing the frozen method."
+    },
+    {
+      "target_id": "native_extended_excitation_transport",
+      "canonical_name": "Native extended excitation transport",
+      "plain_language_question": "Do frozen native excitation, propagation, and detector laws physically define an extended incident distribution and its exact moment law?",
+      "aliases": [
+        "extended source",
+        "multi-packet transport",
+        "image transport"
+      ],
+      "keywords": [
+        "extended excitation",
+        "superposition",
+        "simultaneous packet",
+        "packet overlap",
+        "moment transport"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev193_native_extended_transport"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No native multi-packet initial-state composition rule is established."
+      ],
+      "blocked_by": [
+        "initial state composition",
+        "nonlinear simultaneous interaction"
+      ],
+      "blocks": [
+        "observational_lensing_comparison"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "A frozen native initial-state composition and simultaneous-propagation law is independently established."
     }
   ],
   "attempts": [
@@ -3617,85 +3654,6 @@
       "confidence": "HIGH"
     },
     {
-      "attempt_id": "dev190_source_independent_transfer_distortion",
-      "target_id": "source_independent_transfer_distortion",
-      "name": "DEV190 source-independent transfer-distortion invariant audit",
-      "aliases": [
-        "TransferCentroidJacobian/v1"
-      ],
-      "summary": "Derives source-independent conditional scalar transfer-centroid geometry and local 2x2 finite-difference tensors from frozen DEV188 arrays only.",
-      "why_attempted": "DEV188 preserves full multichannel source rank but does not itself define a physical channel metric.",
-      "date_started": "2026-08-12",
-      "date_completed": "2026-08-12",
-      "date_confidence": "HIGH",
-      "dev": "DEV190",
-      "pr": null,
-      "branch": "agent/dev173-coordinate-lineage",
-      "commits": [],
-      "files": [
-        "pbuf/observer/native_transfer_distortion.py",
-        "tools/generate_dev190_source_independent_transfer_distortion.py"
-      ],
-      "run_directories": [
-        "runs/dev190_source_independent_transfer_distortion"
-      ],
-      "tests": [
-        "tests/test_dev190_source_independent_transfer_distortion.py"
-      ],
-      "equations": [
-        "y_l=sum_c P(c|l)q_c",
-        "J_T=central periodic nearest-neighbor derivative of y_l"
-      ],
-      "assumptions": [],
-      "inputs": [],
-      "outputs": [],
-      "result": "FULL",
-      "result_reason": "The scalar positive measure and both native transverse coordinate systems supply a coefficient-free source-independent centroid map. The heterogeneous multichannel stack supplies no physical metric.",
-      "status_at_completion": "CANONICAL",
-      "current_status": "CANONICAL",
-      "canonical": true,
-      "superseded_by": [],
-      "supersedes": [],
-      "equivalent_to": [],
-      "derived_from": [
-        "dev183_discrete_launch_domain_packet_lineage",
-        "dev187_physical_native_observer",
-        "dev188_native_source_distribution_pushforward",
-        "dev189_astronomical_source_boundary"
-      ],
-      "ancestor_of": [],
-      "descendant_of": [],
-      "related_attempts": [],
-      "still_valid_components": [
-        "TransferCentroidJacobian/v1",
-        "conditional scalar transfer centroid"
-      ],
-      "invalidated_components": [],
-      "successful_components": [
-        "scalar conditional transport geometry"
-      ],
-      "failed_components": [
-        "physical multichannel output metric"
-      ],
-      "physics_reusable": true,
-      "infrastructure_reusable": true,
-      "free_parameters": [],
-      "fitted_parameters": [],
-      "fixed_structural_normalizations": [],
-      "observational_inputs": [
-        false
-      ],
-      "reopen_condition": "Observer semantics independently bridge native tensor to an observed quantity.",
-      "do_not_repeat_reason": "Do not turn full rank, SVD, or an arbitrary stacked norm into a physical metric.",
-      "evidence": [
-        {
-          "type": "file",
-          "value": "runs/dev190_source_independent_transfer_distortion/final_contract.json"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
       "attempt_id": "dev191_wide_observable_boundary",
       "target_id": "wide_observable_boundary",
       "name": "DEV191 wide-spectrum observable boundary and equivalence audit",
@@ -3862,6 +3820,170 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev193_native_extended_transport",
+      "target_id": "native_extended_excitation_transport",
+      "name": "DEV193 native extended-excitation transport semantics audit",
+      "aliases": [
+        "NativeExtendedExcitation/v1 audit"
+      ],
+      "summary": "Separates exact post-hoc positive column mixtures from physical simultaneous packet propagation and derives the exact finite mixture moment identity.",
+      "why_attempted": "DEV188 matrix linearity did not establish simultaneous excitation semantics.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV193",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_extended_transport.py",
+        "tools/generate_dev193_native_extended_transport.py"
+      ],
+      "run_directories": [
+        "runs/dev193_native_extended_transport"
+      ],
+      "tests": [
+        "tests/test_dev193_native_extended_transport.py"
+      ],
+      "equations": [
+        "d=K s (mathematical finite mixture)",
+        "Q_out=Cov_w(y_l)+sum_l w_l C_l"
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "BLOCKED",
+      "result_reason": "Frozen production supports one backreacting packet per exact-reset replay. Neither multi-packet initial-state composition nor simultaneous detector propagation is established.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev168_finite_loaded_receipt",
+        "dev182_native_packet_launch_representation",
+        "dev183_discrete_launch_domain_packet_lineage",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward",
+        "dev190_source_independent_transfer_distortion",
+        "dev191_wide_observable_boundary",
+        "dev192_same_dataset_observable_escape"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "finite positive kernel",
+        "exact mathematical mixture moment identity"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "probe/superposition distinction",
+        "finite total-covariance identity"
+      ],
+      "failed_components": [
+        "physical extended-source theorem"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "A frozen native initial-state composition and simultaneous-propagation law is independently established.",
+      "do_not_repeat_reason": "Do not promote exact-reset columns to simultaneous-source physics without a native composition law.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev193_native_extended_transport/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev190_source_independent_transfer_distortion",
+      "target_id": "source_independent_transfer_distortion",
+      "name": "DEV190 source-independent transfer-distortion invariant audit",
+      "aliases": [
+        "TransferCentroidJacobian/v1"
+      ],
+      "summary": "Derives source-independent conditional scalar transfer-centroid geometry and local 2x2 finite-difference tensors from frozen DEV188 arrays only.",
+      "why_attempted": "DEV188 preserves full multichannel source rank but does not itself define a physical channel metric.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV190",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_transfer_distortion.py",
+        "tools/generate_dev190_source_independent_transfer_distortion.py"
+      ],
+      "run_directories": [
+        "runs/dev190_source_independent_transfer_distortion"
+      ],
+      "tests": [
+        "tests/test_dev190_source_independent_transfer_distortion.py"
+      ],
+      "equations": [
+        "y_l=sum_c P(c|l)q_c",
+        "J_T=central periodic nearest-neighbor derivative of y_l"
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "The scalar positive measure and both native transverse coordinate systems supply a coefficient-free source-independent centroid map. The heterogeneous multichannel stack supplies no physical metric.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev183_discrete_launch_domain_packet_lineage",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward",
+        "dev189_astronomical_source_boundary"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "TransferCentroidJacobian/v1",
+        "conditional scalar transfer centroid"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "scalar conditional transport geometry"
+      ],
+      "failed_components": [
+        "physical multichannel output metric"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Observer semantics independently bridge native tensor to an observed quantity.",
+      "do_not_repeat_reason": "Do not turn full rank, SVD, or an arbitrary stacked norm into a physical metric.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev190_source_independent_transfer_distortion/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "equivalences": [
@@ -3881,9 +4003,9 @@
   ],
   "current_frontiers": [
     {
-      "target_id": "same_dataset_observable_escape",
-      "status": "BLOCKED",
-      "reason": "Current dataset remains locked; no source-free physical observable bridge survives."
+      "target_id": "source_independent_transfer_distortion",
+      "status": "CANONICAL",
+      "reason": "A native local transfer tensor is derived; observational bridge remains separately closed."
     }
   ]
 }

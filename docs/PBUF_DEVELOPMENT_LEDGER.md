@@ -357,3 +357,14 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 **Validation Lens Rule:** Future additional lenses must use immutable equations, selection, calibration, projection, normalization, and null tests.
 
 **Source Elimination Rule:** Unknown source structure may be removed only by exact algebraic cancellation, independently justified ensemble expectation, predeclared symmetry/null relation, or an independent reference; fitting source distributions to recover agreement is forbidden.
+
+## LEDGER ENTRY 027 — DEV193 NATIVE EXTENDED-EXCITATION TRANSPORT
+
+- DEV193 distinguishes DEV188 post-hoc column algebra from physical simultaneous excitation. DEV182 establishes one finite, backreacting packet per exact-reset replay and explicitly records that simultaneous packets would evolve a different combined medium state. No production initial-state composition rule, overlap rule, free amplitude law, or simultaneous receipt run exists. Therefore `NATIVE_EXTENDED_TRANSPORT=BLOCKED_INITIAL_STATE_COMPOSITION`; the positive `d=K s` operation remains a structural finite mixture, not an image law.
+- The scalar kernel nevertheless has exact finite-sum moment algebra: with `eta_l=sum_c K_cl`, `w_l=eta_l s_l/sum_j eta_j s_j`, conditional centroid `y_l`, and conditional covariance `C_l`, `Q_out=Cov_w(y_l)+sum_l w_l C_l`. Throughput reweights the supplied coefficients. This is a mathematical identity for a chosen nonnegative mixture, not a physical extended excitation theorem. `TransferCentroidJacobian/v1` is only a local first-moment derivative; it cannot transport morphology without local full-kernel affine semantics.
+
+**Native Extended-Transport Rule:** Independent launch-response columns may represent a physical extended incident distribution only when native initial-state composition and simultaneous propagation semantics establish the required superposition law. Matrix linearity alone is insufficient.
+
+**Native Moment-Transport Rule:** The second moment of transported native content must be derived from the full conditional transfer kernel. A local centroid Jacobian may supply only one contribution; conditional response spread, throughput variation, and nonaffine transport cannot be discarded unless independently shown to vanish.
+
+**Centroid Jacobian Rule:** `TransferCentroidJacobian/v1` is the derivative of the conditional first-moment map. It becomes a full extended-shape deformation operator only if the entire local transfer kernel obeys the corresponding affine transport law.

@@ -1,0 +1,4 @@
+{
+  "LOCAL_KERNEL_AFFINE_CONSISTENCY": "UNRESOLVED",
+  "reason": "nearby conditional kernels are available, but frozen semantics provide no detector-cell translation/affine action under which full shapes may be compared."
+}

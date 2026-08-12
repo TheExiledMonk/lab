@@ -1,0 +1,64 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "amplitude addition": [],
+    "content conservation": [
+      "TARGET: Finite loaded receipt",
+      "STATUS: CANONICAL",
+      "",
+      "DEV168  Finite native loaded receipt  FULL / CANONICAL"
+    ],
+    "density propagation": [],
+    "extended source": [
+      "TARGET: Native extended excitation transport",
+      "STATUS: BLOCKED",
+      "",
+      "DEV193  DEV193 native extended-excitation transport semantics audit  BLOCKED / BLOCKED"
+    ],
+    "image transport": [
+      "TARGET: Native extended excitation transport",
+      "STATUS: BLOCKED",
+      "",
+      "DEV193  DEV193 native extended-excitation transport semantics audit  BLOCKED / BLOCKED"
+    ],
+    "interference": [],
+    "multi-packet": [
+      "TARGET: Native extended excitation transport",
+      "STATUS: BLOCKED",
+      "",
+      "DEV193  DEV193 native extended-excitation transport semantics audit  BLOCKED / BLOCKED"
+    ],
+    "packet overlap": [
+      "TARGET: Native extended excitation transport",
+      "STATUS: BLOCKED",
+      "",
+      "DEV193  DEV193 native extended-excitation transport semantics audit  BLOCKED / BLOCKED"
+    ],
+    "packet superposition": [
+      "TARGET: Native extended excitation transport",
+      "STATUS: BLOCKED",
+      "",
+      "DEV193  DEV193 native extended-excitation transport semantics audit  BLOCKED / BLOCKED"
+    ],
+    "phase": [
+      "DEV171  Independent spectroscopic source ensemble  FULL / CANONICAL"
+    ],
+    "simultaneous excitation": [
+      "TARGET: Native extended excitation transport",
+      "STATUS: BLOCKED",
+      "",
+      "DEV193  DEV193 native extended-excitation transport semantics audit  BLOCKED / BLOCKED"
+    ],
+    "source distribution": [
+      "TARGET: Native transfer operator",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Astronomical source boundary",
+      "STATUS: BLOCKED",
+      "",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL",
+      "DEV189  DEV189 astronomical source boundary and native launch-domain bridge  BLOCKED / BLOCKED"
+    ],
+    "wavepacket": []
+  }
+}

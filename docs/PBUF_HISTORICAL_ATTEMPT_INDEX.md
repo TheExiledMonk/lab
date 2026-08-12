@@ -61,3 +61,5 @@ DEV190 anti-circularity rule: full multichannel source rank does not establish a
 DEV191 anti-circularity rules: conventional weak-lensing terminology does not establish a PBUF bridge; PSF-corrected moments and calibrated shear are different layers; representation matching is not physical equivalence; ensemble claims must declare intrinsic-source assumptions.
 
 DEV192 anti-circularity rules: a new lens cannot repair an observable-definition failure on the development lens; cross-lens validation begins only after observer freeze; intrinsic-orientation cancellation must be derived and cannot be silently assumed.
+
+DEV193 anti-circularity rules: linear combination of independently sampled transfer columns does not prove physical simultaneous-source superposition in a nonlinear native medium; a centroid Jacobian does not automatically transport full image morphology.
