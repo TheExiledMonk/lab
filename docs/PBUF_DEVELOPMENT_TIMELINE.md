@@ -51,6 +51,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV203 | Propagating relative-neighbor motion | DEV203 propagating relative-neighbor motion | FULL | CANONICAL |
 | 2026-08-13 | DEV204 | Native relational stress coupling | DEV204 native relational motion-stress coupling | FULL | CANONICAL |
 | 2026-08-13 | DEV205 | Native polar/axial field pair | DEV205 independent native-to-electromagnetic mapping audit | PARTIAL | CANONICAL |
+| 2026-08-13 | DEV207 | native two excitation orientation interaction | DEV207 native two-excitation orientation interaction audit | PARTIAL | PARTIAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

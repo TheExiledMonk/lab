@@ -1,0 +1,80 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "canonical packet": [
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Field-strength-controlled cross-event influence",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Canonical packet weak-event regime",
+      "STATUS: PARTIAL",
+      "",
+      "DEV195  DEV195 local force-balance restoration and outgoing excitation audit  FULL / PARTIAL",
+      "DEV196  DEV196 sequential second-excitation injection and independence test  PARTIAL / PARTIAL",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL",
+      "DEV198  DEV198 field-strength-controlled cross-event influence audit  PARTIAL / PARTIAL"
+    ],
+    "orientation force": [
+      "TARGET: native two excitation orientation interaction",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: native pair force sign response",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: native pair torque",
+      "STATUS: PARTIAL",
+      "",
+      "DEV207  DEV207 native two-excitation orientation interaction audit  PARTIAL / PARTIAL"
+    ],
+    "overlap": [
+      "TARGET: Native extended excitation transport",
+      "STATUS: BLOCKED",
+      "",
+      "TARGET: Sequential event independence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV193  DEV193 native extended-excitation transport semantics audit  BLOCKED / BLOCKED",
+      "DEV196  DEV196 sequential second-excitation injection and independence test  PARTIAL / PARTIAL",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL",
+      "DEV198  DEV198 field-strength-controlled cross-event influence audit  PARTIAL / PARTIAL"
+    ],
+    "relational stress": [
+      "TARGET: Native relational stress coupling",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native two-sector wave coupling",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: native pair torque",
+      "STATUS: PARTIAL",
+      "",
+      "DEV204  DEV204 native relational motion-stress coupling  FULL / CANONICAL"
+    ],
+    "torque": [
+      "TARGET: native two excitation orientation interaction",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: native pair force sign response",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: native pair torque",
+      "STATUS: PARTIAL",
+      "",
+      "DEV207  DEV207 native two-excitation orientation interaction audit  PARTIAL / PARTIAL"
+    ],
+    "two excitation": [
+      "TARGET: native two excitation orientation interaction",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: native pair force sign response",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: native pair torque",
+      "STATUS: PARTIAL",
+      "",
+      "DEV207  DEV207 native two-excitation orientation interaction audit  PARTIAL / PARTIAL"
+    ]
+  }
+}
