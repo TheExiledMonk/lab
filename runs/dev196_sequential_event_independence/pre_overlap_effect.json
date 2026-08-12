@@ -1,0 +1,9 @@
+{
+  "PRE_OVERLAP_EFFECT": "UNRESOLVED",
+  "by_launch": {
+    "T1": "NONE",
+    "T2": "NONE",
+    "T3": "NONE"
+  },
+  "reason": "No exact-support DISJOINT timestep was represented in the finite periodic trajectories."
+}

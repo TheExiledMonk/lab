@@ -67,3 +67,5 @@ DEV193 anti-circularity rules: linear combination of independently sampled trans
 DEV194 anti-circularity rule: additive detector columns cannot be rebranded as independent physical events merely because they were computed by exact reset; stationarity, event injection, and post-event memory must be established separately.
 
 DEV195 rule: a nonzero global post-event state cannot alone establish persistent local memory; local matched-background force balance, outward transport, and periodic recurrence must be separated.
+
+DEV196 rule: additive DEV182 packet initialization is valid on an evolved VectorPairState, but exact floating-state support must be classified before interpreting a residual as a disjoint-event failure.

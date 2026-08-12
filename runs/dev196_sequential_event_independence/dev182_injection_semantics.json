@@ -1,0 +1,6 @@
+{
+  "CANONICAL_AMPLITUDE": 0.006,
+  "classification": "VALID_STATE_PERTURBATION",
+  "evidence": "DEV169 packet returns standalone additive displacement and momentum arrays; DEV184 directly constructs VectorPairState(background+packet_displacement, packet_momentum).",
+  "operation": "VectorPairState(state.displacement + packet_displacement, state.momentum + packet_momentum)"
+}

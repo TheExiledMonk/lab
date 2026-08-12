@@ -382,3 +382,8 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 - DEV195 compares the canonical loaded R00 packet replay with an identically evolved unexcited background and resolves displacement, momentum, DEV167 net-force residual, strain proxy, and signed native bond-power flux by exact periodic N6 shells. Its result is `DERIVED_OSCILLATORY`; the corresponding raw arrays and pre-recurrence interpretation are preserved in `runs/dev195_local_force_balance_restoration`.
 - **Recovery Terminology Rule:** recovery never means damping, reset, absorption, or a new force. The sole question is native redistribution under the frozen pair law. **Event Completion Rule:** detector receipt, source-region restoration, outgoing propagation, and finite-domain recurrence are distinct states.
+
+## LEDGER ENTRY 030 — DEV196 SEQUENTIAL EVENT INDEPENDENCE
+
+- DEV196 verifies that the DEV182 operation is a valid-state additive displacement/momentum perturbation and applies it unchanged to evolved A states. The matched residual is preserved channel-by-channel. Injection semantics are directly reusable, and the source B increment is exactly identical at launch by the same additive operation. However all sampled trajectories have overlapping exact native support, so the required disjoint-event response comparison is unresolved; overlapping nonlinear interaction residuals are preserved without a threshold.
+- **Sequential Injection Rule:** packet identity is initialization bookkeeping; after injection DEV167 evolves aggregate native fields. No reset, absorption, recovery term, or altered force law was used.

@@ -1,0 +1,14 @@
+{
+  "SECOND_EVENT_TIMES_PREDECLARED": true,
+  "serialized_before_B_execution": true,
+  "structural_reasons": {
+    "T1": "DEV195 source residual has its first local minimum while dominant displacement shell is 1 and intersects launch support: overlap control.",
+    "T2": "DEV195 source residual has the next natural local minimum; dominant shell is 3, outward of the source centre while A persists globally.",
+    "T3": "DEV195 source residual has its later natural local minimum at 147, within the DEV195 pre-recurrence launch window 0..180."
+  },
+  "times": {
+    "T1": 13,
+    "T2": 70,
+    "T3": 147
+  }
+}

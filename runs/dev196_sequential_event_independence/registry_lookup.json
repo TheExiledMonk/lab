@@ -1,0 +1,64 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "additive displacement": [
+      "TARGET: Sequential event independence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV196  DEV196 sequential second-excitation injection and independence test  PARTIAL / PARTIAL"
+    ],
+    "additive momentum": [
+      "TARGET: Sequential event independence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV196  DEV196 sequential second-excitation injection and independence test  PARTIAL / PARTIAL"
+    ],
+    "packet injection": [
+      "TARGET: Independent-event wave transport",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Local force-balance restoration",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Sequential event independence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV194  DEV194 independent-event wave transport and detector accumulation audit  BLOCKED / BLOCKED",
+      "DEV195  DEV195 local force-balance restoration and outgoing excitation audit  FULL / PARTIAL",
+      "DEV196  DEV196 sequential second-excitation injection and independence test  PARTIAL / PARTIAL"
+    ],
+    "perturb existing state": [],
+    "reinjection": [
+      "TARGET: Sequential event independence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV196  DEV196 sequential second-excitation injection and independence test  PARTIAL / PARTIAL"
+    ],
+    "repeated packet": [
+      "TARGET: Sequential event independence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV196  DEV196 sequential second-excitation injection and independence test  PARTIAL / PARTIAL"
+    ],
+    "second packet": [
+      "TARGET: Sequential event independence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV196  DEV196 sequential second-excitation injection and independence test  PARTIAL / PARTIAL"
+    ],
+    "sequential excitation": [
+      "TARGET: Independent-event wave transport",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Local force-balance restoration",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Sequential event independence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV194  DEV194 independent-event wave transport and detector accumulation audit  BLOCKED / BLOCKED",
+      "DEV195  DEV195 local force-balance restoration and outgoing excitation audit  FULL / PARTIAL",
+      "DEV196  DEV196 sequential second-excitation injection and independence test  PARTIAL / PARTIAL"
+    ]
+  }
+}
