@@ -1,0 +1,12 @@
+{
+  "SIGN_CONVENTION_PREDECLARED": true,
+  "direction_basis": "existing DEV182 +x launch and signed DEV167 pair-power flux",
+  "dual_basis": "right-handed (x,y,z), Q=(A_zy,A_xz,A_yx)",
+  "no_em_sign_choice": true,
+  "propagation_direction": [
+    1,
+    0,
+    0
+  ],
+  "tensor_axis_order": "canonical N6 (+x,-x,+y,-y,+z,-z)"
+}

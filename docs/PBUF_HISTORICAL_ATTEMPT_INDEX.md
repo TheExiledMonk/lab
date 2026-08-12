@@ -85,3 +85,5 @@ DEV202 rule: inspect self-generated DEV195 bond loads with the full DEV167 centr
 DEV203 rule: inspect only explicit DEV167/200 vector neighbor relations along the canonical trajectory; do not reopen scalar-gradient, scalar-loaded-coupling, or longitudinal-link propagation work.
 
 DEV204 rule: finite-step force response is an exact dependent decomposition of the frozen central bond law; do not promote it to an added field or discard its nonlinear cross term.
+
+DEV205 rule: historical EM/Maxwell attempts were inspected; do not promote a visual two-component match to E/B without parity, triad, transport, dynamics, and uniqueness.

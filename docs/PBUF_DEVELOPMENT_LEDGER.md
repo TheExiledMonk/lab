@@ -440,3 +440,9 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - **Orientation-Stress Rule:** Rotation/orientation change of loaded neighbor relations generates the exact directional component `sigma(epsilon_n) Delta r_hat`; the finite-step cross term is retained separately.
 - **Native Coupled-Wave Rule:** In the full frozen state, changing relations alter stress, stress alters momentum through the DEV167 kick, and updated momentum alters subsequent relations through the drift. This does not establish an independently autonomous two-field reduction.
 - **Native Two-Field Claim Boundary:** A closed relational-motion/stress coupling may constitute an electromagnetic-like native substrate, but (E), (B), Maxwell equations, SI normalization, polarization and photon interpretation remain separate mappings until independently derived.
+
+## LEDGER ENTRY 040 — DEV205 NATIVE POLAR/AXIAL MAPPING AUDIT
+
+- **Electromagnetic Mapping Rule:** A native (E/B)-like identification requires transformation character, field geometry, transport, dynamics and uniqueness to agree simultaneously. Visual similarity or one matching relation is insufficient.
+- **Native Candidate Boundary:** DEV205 dualizes only existing DEV203/204 antisymmetric tensors and retains the predeclared bond-resolved transverse relational candidate. It introduces no field, degree of freedom, force, propagation law, fit, or electromagnetic normalization.
+- **Mapping Result:** The canonical finite trajectory provides a partial, non-unique structural correspondence; its predeclared axial readouts retain longitudinal and handedness-mixed support, so no electric or magnetic native candidate identity is promoted.

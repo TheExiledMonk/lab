@@ -1637,6 +1637,130 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Requires an independent EM mapping audit."
+    },
+    {
+      "target_id": "native_em_polar_axial_field_pair",
+      "canonical_name": "Native polar/axial field pair",
+      "plain_language_question": "Do the already-derived DEV203\u2013204 native relational quantities contain a uniquely identifiable co-propagating transverse polar/axial field pair?",
+      "aliases": [
+        "DEV205",
+        "native_em_polar_axial_field_pair"
+      ],
+      "keywords": [
+        "polar",
+        "axial",
+        "antisymmetric",
+        "handedness",
+        "native EM mapping"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev205_native_em_mapping"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No SI normalization or charge coupling is derived."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes."
+    },
+    {
+      "target_id": "native_electric_field_candidate",
+      "canonical_name": "Native electric field candidate",
+      "plain_language_question": "Does a predetermined native polar relational quantity satisfy the geometric and dynamical requirements for an electric-like field candidate without electromagnetic input?",
+      "aliases": [
+        "DEV205",
+        "native_electric_field_candidate"
+      ],
+      "keywords": [
+        "polar",
+        "axial",
+        "antisymmetric",
+        "handedness",
+        "native EM mapping"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev205_native_em_mapping"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No SI normalization or charge coupling is derived."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes."
+    },
+    {
+      "target_id": "native_magnetic_field_candidate",
+      "canonical_name": "Native magnetic field candidate",
+      "plain_language_question": "Does the axial projection of the DEV204 orientation/rotation-driven stress response satisfy the geometric and dynamical requirements for a magnetic-like field candidate?",
+      "aliases": [
+        "DEV205",
+        "native_magnetic_field_candidate"
+      ],
+      "keywords": [
+        "polar",
+        "axial",
+        "antisymmetric",
+        "handedness",
+        "native EM mapping"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev205_native_em_mapping"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No SI normalization or charge coupling is derived."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes."
+    },
+    {
+      "target_id": "native_em_mapping_uniqueness",
+      "canonical_name": "Native EM mapping uniqueness",
+      "plain_language_question": "Is the mapping from frozen native relational quantities to an electromagnetic-like field pair unique, or do multiple native candidates satisfy the same criteria?",
+      "aliases": [
+        "DEV205",
+        "native_em_mapping_uniqueness"
+      ],
+      "keywords": [
+        "polar",
+        "axial",
+        "antisymmetric",
+        "handedness",
+        "native EM mapping"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev205_native_em_mapping"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No SI normalization or charge coupling is derived."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes."
     }
   ],
   "attempts": [
@@ -5654,6 +5778,102 @@
         {
           "type": "file",
           "value": "runs/dev190_source_independent_transfer_distortion/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev205_native_em_mapping",
+      "target_id": "native_em_polar_axial_field_pair",
+      "name": "DEV205 independent native-to-electromagnetic mapping audit",
+      "aliases": [
+        "DEV205"
+      ],
+      "summary": "Read-only geometry, parity, transport, source and uniqueness audit of the frozen DEV203\u2013204 candidate inventory.",
+      "why_attempted": "Test the exact transformation geometry required before any EM correspondence is claimed.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV205",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_em_candidates.py",
+        "pbuf/observer/native_em_geometry.py",
+        "pbuf/observer/native_em_mapping.py",
+        "tools/generate_dev205_native_em_mapping.py"
+      ],
+      "run_directories": [
+        "runs/dev205_native_em_mapping"
+      ],
+      "tests": [
+        "tests/test_dev205_native_em_candidates.py",
+        "tests/test_dev205_native_em_geometry.py",
+        "tests/test_dev205_native_em_mapping.py"
+      ],
+      "equations": [
+        "Q_i=1/2 epsilon_ijk A_jk",
+        "P dot Q",
+        "P cross Q"
+      ],
+      "assumptions": [
+        "frozen DEV167 dynamics; canonical DEV195 trajectory; DEV203/204 definitions"
+      ],
+      "inputs": [
+        "DEV167",
+        "DEV195",
+        "DEV199",
+        "DEV200",
+        "DEV201",
+        "DEV202",
+        "DEV203",
+        "DEV204"
+      ],
+      "outputs": [
+        "predeclared native polar/axial candidate classifications"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "pair=DERIVED; electric=PARTIAL; magnetic=PARTIAL; uniqueness=NOT_ESTABLISHED.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev203_relational_wave",
+        "dev204_relational_stress_coupling"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev199_em_structural_correlation"
+      ],
+      "still_valid_components": [
+        "DEV203 relational wave",
+        "DEV204 relation/stress cycle"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "Exact axial tensor dual and no-fit candidate audit"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "canonical N6 orientation and DEV182 +x propagation direction"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only if frozen inputs change.",
+      "do_not_repeat_reason": "No new fields, combinations, force, propagation or EM coefficient may be introduced.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev205_native_em_mapping/final_contract.json"
         }
       ],
       "confidence": "HIGH"

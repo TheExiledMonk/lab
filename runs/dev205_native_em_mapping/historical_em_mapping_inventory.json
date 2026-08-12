@@ -1,0 +1,32 @@
+{
+  "HISTORICAL_EM_MAPPING_WORK_INSPECTED": true,
+  "conclusion": "No historical E/B mapping is reused as a premise.",
+  "inspected": [
+    "em_transport001.py: Maxwell structure audit, noncanonical",
+    "DEV165 H12 minimal binary magnetic pair: rejected",
+    "DEV199 local-state EM structural correlation: prior structural-only correlation",
+    "DEV203/204 frozen native relational and stress candidates"
+  ],
+  "search_terms": [
+    "electric field",
+    "magnetic field",
+    "E field",
+    "B field",
+    "polar vector",
+    "axial vector",
+    "pseudovector",
+    "antisymmetric tensor",
+    "Levi-Civita",
+    "handedness",
+    "transversality",
+    "field invariant",
+    "Poynting",
+    "phase relation",
+    "polarization",
+    "curl",
+    "divergence",
+    "Maxwell",
+    "Faraday",
+    "Ampere"
+  ]
+}

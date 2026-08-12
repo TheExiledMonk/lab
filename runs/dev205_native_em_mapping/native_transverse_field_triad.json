@@ -1,0 +1,18 @@
+{
+  "EM_REFERENCE_NOT_USED_FOR_NATIVE_TRIAD_DERIVATION": true,
+  "NATIVE_TRANSVERSE_FIELD_TRIAD": "PARTIAL",
+  "per_pair": {
+    "Q_F": {
+      "axial_transverse": "MIXED",
+      "handedness": "BIDIRECTIONAL",
+      "orthogonal": "MIXED",
+      "polar_transverse": "EXACT"
+    },
+    "Q_R": {
+      "axial_transverse": "MIXED",
+      "handedness": "BIDIRECTIONAL",
+      "orthogonal": "MIXED",
+      "polar_transverse": "EXACT"
+    }
+  }
+}
