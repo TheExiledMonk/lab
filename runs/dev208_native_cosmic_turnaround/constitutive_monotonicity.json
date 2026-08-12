@@ -1,0 +1,30 @@
+{
+  "POSITIVE_EXTENSION_RESTORING_MONOTONICITY": "DERIVED",
+  "derivative": "(1+epsilon^2)/(1-epsilon^2)^2",
+  "samples": [
+    {
+      "epsilon": -0.9,
+      "sigma_prime": 50.138504155124686
+    },
+    {
+      "epsilon": -0.5,
+      "sigma_prime": 2.2222222222222223
+    },
+    {
+      "epsilon": 0.0,
+      "sigma_prime": 1.0
+    },
+    {
+      "epsilon": 0.25,
+      "sigma_prime": 1.208888888888889
+    },
+    {
+      "epsilon": 0.75,
+      "sigma_prime": 8.16326530612245
+    },
+    {
+      "epsilon": 0.9,
+      "sigma_prime": 50.138504155124686
+    }
+  ]
+}

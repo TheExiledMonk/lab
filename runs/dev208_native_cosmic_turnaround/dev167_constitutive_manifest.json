@@ -1,0 +1,5 @@
+{
+  "DEV167_FORCE_LAW_UNCHANGED": true,
+  "law": "F_ab=(epsilon/(1-epsilon^2))*r_hat_ab",
+  "potential": "-log(1-epsilon^2)/2"
+}

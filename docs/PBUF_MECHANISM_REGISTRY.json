@@ -1848,6 +1848,117 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Only if frozen DEV167/DEV182 state changes independently."
+    },
+    {
+      "target_id": "native_background_expansion_strain",
+      "canonical_name": "Native background expansion strain",
+      "plain_language_question": "Does homogeneous cosmological expansion correspond to increased mean native N6 relation length under already-existing PBUF definitions?",
+      "aliases": [
+        "DEV208",
+        "native_background_expansion_strain"
+      ],
+      "keywords": [
+        "cosmology",
+        "scale factor",
+        "native spacing",
+        "strain",
+        "restoring stress",
+        "turnaround"
+      ],
+      "domain": "COSMOLOGY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev208_native_cosmic_turnaround"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Existing cosmology has no derived scale-factor-to-N6-spacing map."
+      ],
+      "blocked_by": [
+        "scale-factor-to-native-spacing mapping",
+        "native cosmological evolution equation"
+      ],
+      "blocks": [
+        "native cyclic cosmology"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Supply an independently derived scale-factor-to-native-N6-spacing map and a native background evolution equation."
+    },
+    {
+      "target_id": "native_cosmological_restoring_stress",
+      "canonical_name": "Native cosmological restoring stress",
+      "plain_language_question": "Does cosmological expansion increase global native restoring stress through the same frozen DEV167 constitutive law used for local dynamics?",
+      "aliases": [
+        "DEV208",
+        "native_cosmological_restoring_stress"
+      ],
+      "keywords": [
+        "cosmology",
+        "scale factor",
+        "native spacing",
+        "strain",
+        "restoring stress",
+        "turnaround"
+      ],
+      "domain": "COSMOLOGY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev208_native_cosmic_turnaround"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "The local uniform-scale diagnostic is derived, but its cosmological application is blocked by the missing map."
+      ],
+      "blocked_by": [
+        "scale-factor-to-native-spacing mapping",
+        "native cosmological evolution equation"
+      ],
+      "blocks": [
+        "native cyclic cosmology"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Supply an independently derived scale-factor-to-native-N6-spacing map and a native background evolution equation."
+    },
+    {
+      "target_id": "native_cosmological_turnaround",
+      "canonical_name": "Native cosmological turnaround",
+      "plain_language_question": "Does increasing native restoring response halt and reverse cosmological expansion without a new parameter or force law?",
+      "aliases": [
+        "DEV208",
+        "native_cosmological_turnaround"
+      ],
+      "keywords": [
+        "cosmology",
+        "scale factor",
+        "native spacing",
+        "strain",
+        "restoring stress",
+        "turnaround"
+      ],
+      "domain": "COSMOLOGY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev208_native_cosmic_turnaround"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Neither a scale mapping nor a native cosmological evolution equation exists in current PBUF."
+      ],
+      "blocked_by": [
+        "scale-factor-to-native-spacing mapping",
+        "native cosmological evolution equation"
+      ],
+      "blocks": [
+        "native cyclic cosmology"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Supply an independently derived scale-factor-to-native-N6-spacing map and a native background evolution equation."
     }
   ],
   "attempts": [
@@ -6050,6 +6161,93 @@
         {
           "type": "file",
           "value": "runs/dev207_two_excitation_interaction/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev208_native_cosmic_turnaround",
+      "target_id": "native_background_expansion_strain",
+      "name": "DEV208 native expansion\u2013restoring-stress and cosmological turnaround audit",
+      "aliases": [
+        "DEV208"
+      ],
+      "summary": "Derives the homogeneous scale response of the frozen DEV167 pair law and stops at the absent cosmological bridge.",
+      "why_attempted": "Test the proposed micro-to-macro relation without identifying a scale factor with native spacing by convenience.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV208",
+      "branch": "dev208-native-cosmic-turnaround",
+      "commits": [],
+      "files": [
+        "pbuf/cosmology/native_background_strain.py",
+        "pbuf/cosmology/native_background_stress.py",
+        "tools/generate_dev208_native_cosmic_turnaround.py"
+      ],
+      "run_directories": [
+        "runs/dev208_native_cosmic_turnaround"
+      ],
+      "tests": [
+        "tests/test_dev208_background_strain.py",
+        "tests/test_dev208_background_stress.py",
+        "tests/test_dev208_turnaround.py",
+        "tests/test_dev208_cycle.py"
+      ],
+      "equations": [
+        "epsilon(lambda)=lambda-1",
+        "sigma(epsilon)=epsilon/(1-epsilon^2)",
+        "V(lambda)=-log(1-(lambda-1)^2)/2"
+      ],
+      "assumptions": [
+        "diagnostic homogeneous geometric scaling only; no identification lambda=a"
+      ],
+      "inputs": [
+        "frozen DEV167 pair law",
+        "current PBUF cosmology inventory"
+      ],
+      "outputs": [
+        "native homogeneous response",
+        "explicit blocked cosmology bridge"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "Positive-extension monotonicity, finite-bound divergence, and the homogeneous diagnostic are exact; cosmological application is not derived.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "DEV167 frozen force law"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "native uniform-scale constitutive calculation"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "unit native reference length"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "An independent scale mapping and background evolution law are supplied.",
+      "do_not_repeat_reason": "Do not set lambda=a absent an existing definition.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev208_native_cosmic_turnaround/final_contract.json"
         }
       ],
       "confidence": "HIGH"

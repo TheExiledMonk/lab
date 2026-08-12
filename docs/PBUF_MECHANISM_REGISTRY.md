@@ -92,6 +92,39 @@ Status: `OPEN`
 |---|---|---|---|---|
 
 Do not rederive: `false` — Only when independent repository evidence changes the stated closure.
+### Native background expansion strain
+
+Question: Does homogeneous cosmological expansion correspond to increased mean native N6 relation length under already-existing PBUF definitions?
+
+Status: `BLOCKED`
+
+| Date | Dev / PR | Mechanism | Result | Current status |
+|---|---|---|---|---|
+| 2026-08-13 | DEV208 | DEV208 native expansion–restoring-stress and cosmological turnaround audit | PARTIAL | BLOCKED |
+
+Do not rederive: `true` — Supply an independently derived scale-factor-to-native-N6-spacing map and a native background evolution equation.
+### Native cosmological restoring stress
+
+Question: Does cosmological expansion increase global native restoring stress through the same frozen DEV167 constitutive law used for local dynamics?
+
+Status: `BLOCKED`
+
+| Date | Dev / PR | Mechanism | Result | Current status |
+|---|---|---|---|---|
+| 2026-08-13 | DEV208 | DEV208 native expansion–restoring-stress and cosmological turnaround audit | PARTIAL | BLOCKED |
+
+Do not rederive: `true` — Supply an independently derived scale-factor-to-native-N6-spacing map and a native background evolution equation.
+### Native cosmological turnaround
+
+Question: Does increasing native restoring response halt and reverse cosmological expansion without a new parameter or force law?
+
+Status: `BLOCKED`
+
+| Date | Dev / PR | Mechanism | Result | Current status |
+|---|---|---|---|---|
+| 2026-08-13 | DEV208 | DEV208 native expansion–restoring-stress and cosmological turnaround audit | PARTIAL | BLOCKED |
+
+Do not rederive: `true` — Supply an independently derived scale-factor-to-native-N6-spacing map and a native background evolution equation.
 
 ## DATA PIPELINES
 

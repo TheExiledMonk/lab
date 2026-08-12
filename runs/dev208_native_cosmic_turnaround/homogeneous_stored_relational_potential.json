@@ -1,0 +1,5 @@
+{
+  "HOMOGENEOUS_STORED_RELATIONAL_POTENTIAL": "DERIVED",
+  "derivative": "dV/dlambda=sigma(lambda-1)",
+  "formula": "-log(1-(lambda-1)^2)/2"
+}

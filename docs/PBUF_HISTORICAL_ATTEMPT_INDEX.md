@@ -91,3 +91,4 @@ DEV205 rule: historical EM/Maxwell attempts were inspected; do not promote a vis
 DEV206 rule: fixed N6 topology and pre-existing source-contact/transport data may be audited, but no post hoc loop, scale, sign, or sector selection may rescue DEV205.
 
 DEV207: pair interaction uses exact reflected packet orientation and four-state native residuals; it does not infer EM fields or poles.
+DEV208 rule: a divergent local finite-bound stress does not imply cosmological turnaround; derive both the scale-to-spacing bridge and global evolution equation first.

@@ -455,3 +455,7 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 ## LEDGER ENTRY 042 — DEV207 NATIVE PAIR INTERACTION BOUNDARY
 
 - **Magnetic-Interaction Claim Boundary:** Orientation-dependent attraction, repulsion or torque from frozen native dynamics constitutes interaction-level magnetic-like evidence only. It does not by itself establish electromagnetic field variables, poles, charge, SI normalization or Maxwell equations.
+## LEDGER ENTRY 043 — DEV208 NATIVE EXPANSION–RESTORING-STRESS AUDIT
+
+- DEV208 derives only the homogeneous diagnostic of frozen DEV167: for a geometric N6 scale deformation `lambda`, `epsilon=lambda-1`, `sigma=lambda-1 / [1-(lambda-1)^2]`, and `V=-log[1-(lambda-1)^2]/2`. Positive extension increases inward restoring response and stored native potential; both diverge at the finite extension bound.
+- **Cyclic-Cosmology Claim Boundary:** local stress growth alone does not derive a Big Crunch, bounce, or cyclic universe. Current PBUF contains neither a derived `a(t)`-to-N6-spacing map nor a native background evolution equation into which the response can be inserted. DEV208 therefore classifies the global bridge, turnaround, contraction, and bounce as blocked/unestablished and adds no force, stiffness, or cosmological term.

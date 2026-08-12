@@ -1,0 +1,46 @@
+{
+  "HOMOGENEOUS_NATIVE_BACKGROUND_DEFINED": true,
+  "directions": [
+    "+x",
+    "-x",
+    "+y",
+    "-y",
+    "+z",
+    "-z"
+  ],
+  "no_packet": true,
+  "no_source": true,
+  "reference_length": 1,
+  "relations_at_lambda_1_25": [
+    [
+      1.25,
+      0.0,
+      0.0
+    ],
+    [
+      -1.25,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.25,
+      0.0
+    ],
+    [
+      0.0,
+      -1.25,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.25
+    ],
+    [
+      0.0,
+      0.0,
+      -1.25
+    ]
+  ]
+}
