@@ -1,0 +1,9 @@
+{
+  "C_l,response": "conditional receipt-coordinate covariance; response spread, not image covariance",
+  "J_T": "local 2x2 conditional transfer-centroid Jacobian; mixed rank-two map",
+  "R_T": "orthogonal polar rotation; rotation angle is reflection odd",
+  "U_T": "symmetric polar stretch; spin-0 plus spin-2",
+  "U_T^TF": "symmetric trace-free stretch; spin-2 representation only",
+  "det J_T": "signed local transfer-area factor; spin-0/pseudoscalar under orientation reversal",
+  "eta_l": "scalar receipt throughput; not promoted as flux/magnification"
+}

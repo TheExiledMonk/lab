@@ -35,6 +35,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-12 | DEV188 | Native transfer operator | DEV188 native source-distribution pushforward | FULL | CANONICAL |
 | 2026-08-12 | DEV189 | Astronomical source boundary | DEV189 astronomical source boundary and native launch-domain bridge | BLOCKED | BLOCKED |
 | 2026-08-12 | DEV190 | Source-independent transfer distortion | DEV190 source-independent transfer-distortion invariant audit | FULL | CANONICAL |
+| 2026-08-12 | DEV191 | Wide observable boundary | DEV191 wide-spectrum observable boundary and equivalence audit | PARTIAL | BLOCKED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

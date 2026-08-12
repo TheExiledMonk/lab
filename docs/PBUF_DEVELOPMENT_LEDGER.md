@@ -340,3 +340,9 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - Magnetar/QED vacuum-birefringence is parked as a future independent validation lane and does not modify this result.
 
 **Source-Independent Transfer Rule:** A transfer-distortion quantity may be promoted only when it is a coefficient-free functional of frozen native transfer and coordinate geometry, is source independent, is symmetry covariant, and requires neither arbitrary multichannel norms nor observational selection.
+
+## LEDGER ENTRY 025 — DEV191 WIDE OBSERVABLE BOUNDARY
+
+- DEV191 inventories raw geometry, centroids, moments through higher order, size, rotation, ensembles, field statistics, resolved structure, kinematics, polarization, and historical PBUF observers before ranking. The best immediate result is `STRUCTURAL_EQUIVALENCE_ONLY`: PSF-corrected second moments and `U_T^TF` share a rank-two representation, but no source-independent physical bridge is derived.
+- **Observable Layer Rule:** Instrumental measurement, PSF correction, shape representation, shear calibration, lens inversion, and cosmological interpretation are distinct layers. PBUF may compare only at the earliest layer with an independently derived coefficient-free equivalence.
+- **Representation Equivalence Rule:** Identical spin/tensor transformation behavior is necessary but insufficient for physical equivalence. Ensemble routes must state their intrinsic-source assumptions.

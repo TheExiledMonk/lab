@@ -57,3 +57,5 @@ DEV188 anti-circularity rule: C100 equal launch coverage is transfer sampling, n
 DEV189 anti-circularity rule: the observed lensed galaxy image cannot be reused as the incident source for its own PBUF prediction. WCS is observed-image astrometry, not an unlensed source-plane map; an angular-to-native scale may not be fit to weak-lensing morphology.
 
 DEV190 anti-circularity rule: full multichannel source rank does not establish a physical distortion metric. SVD/PCA/DFT and K^T K remain diagnostic without a native output-space metric; transfer geometry requires explicit launch/receipt coordinates and never source fitting or observational selection.
+
+DEV191 anti-circularity rules: conventional weak-lensing terminology does not establish a PBUF bridge; PSF-corrected moments and calibrated shear are different layers; representation matching is not physical equivalence; ensemble claims must declare intrinsic-source assumptions.

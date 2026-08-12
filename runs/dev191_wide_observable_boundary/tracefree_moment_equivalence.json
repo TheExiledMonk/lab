@@ -1,0 +1,7 @@
+{
+  "Q_TF": "R Q_TF R^T",
+  "SPIN2_NORMALIZATION_UNDERDETERMINED": true,
+  "U_T_TF": "R U_T_TF R^T",
+  "classification": "SAME_TRANSFORMATION_CLASS_ONLY",
+  "reason": "Q is an image-brightness source statistic; U_T is native transfer polar stretch"
+}

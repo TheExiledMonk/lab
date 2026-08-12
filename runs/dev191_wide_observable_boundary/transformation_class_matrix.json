@@ -1,0 +1,85 @@
+{
+  "TRANSFORMATION_CLASS_MATRIX_CREATED": true,
+  "candidate_classes": {
+    "O01": "symmetric_tensor",
+    "O02": "vector",
+    "O03": "vector",
+    "O04": "symmetric_tensor",
+    "O05": "symmetric_tensor",
+    "O06": "symmetric_tensor",
+    "O07": "tracefree_tensor",
+    "O08": "tracefree_tensor",
+    "O09": "tracefree_tensor",
+    "O10": "scalar",
+    "O11": "scalar",
+    "O12": "scalar",
+    "O13": "third_moment",
+    "O14": "third_moment",
+    "O15": "rotation",
+    "O16": "rotation",
+    "O17": "rotation",
+    "O18": "tracefree_tensor",
+    "O19": "tracefree_tensor",
+    "O20": "tracefree_tensor",
+    "O21": "tracefree_tensor",
+    "O22": "symmetric_tensor",
+    "O23": "tracefree_tensor",
+    "O24": "mixed",
+    "O25": "vector",
+    "O26": "scalar",
+    "O27": "scalar",
+    "O28": "symmetric_tensor",
+    "O29": "scalar"
+  },
+  "classes": {
+    "mixed": {
+      "axis_swap": "basis-dependent coefficient action",
+      "isotropic_scaling": "basis-scale dependent",
+      "reflection": "basis-dependent coefficient action",
+      "rotation": "basis-dependent coefficient action",
+      "spin": "mixed"
+    },
+    "rotation": {
+      "axis_swap": "sign reversal",
+      "isotropic_scaling": "invariant",
+      "reflection": "sign reversal",
+      "rotation": "invariant",
+      "spin": "spin-0 pseudoscalar"
+    },
+    "scalar": {
+      "axis_swap": "invariant",
+      "isotropic_scaling": "depends on definition",
+      "reflection": "even",
+      "rotation": "invariant",
+      "spin": "spin-0"
+    },
+    "symmetric_tensor": {
+      "axis_swap": "S Q S^T",
+      "isotropic_scaling": "quadratic for a second moment",
+      "reflection": "R Q R^T",
+      "rotation": "R Q R^T",
+      "spin": "mixed spin-0 + spin-2"
+    },
+    "third_moment": {
+      "axis_swap": "covariant",
+      "isotropic_scaling": "cubic",
+      "reflection": "covariant",
+      "rotation": "R\u2297R\u2297R",
+      "spin": "spin-1 + spin-3"
+    },
+    "tracefree_tensor": {
+      "axis_swap": "S Q_TF S^T",
+      "isotropic_scaling": "quadratic before normalization",
+      "reflection": "R Q_TF R^T",
+      "rotation": "R Q_TF R^T",
+      "spin": "spin-2"
+    },
+    "vector": {
+      "axis_swap": "S v",
+      "isotropic_scaling": "linear for a position",
+      "reflection": "R v",
+      "rotation": "R v",
+      "spin": "spin-1"
+    }
+  }
+}

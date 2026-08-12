@@ -1,0 +1,16 @@
+{
+  "CURRENT_WEAK_LENSING_DATASET_UNCHANGED": true,
+  "OBSERVABLE_BOUNDARY_AUDIT": "STRUCTURAL_EQUIVALENCE_ONLY",
+  "alternative_data": [
+    "O03",
+    "O16",
+    "O17"
+  ],
+  "clean_direct_candidates": [],
+  "ensemble_only": [
+    "O18",
+    "O19",
+    "O26"
+  ],
+  "reason": "PSF-corrected moment tensors provide the closest transformation-class counterpart to U_T/U_T^TF, but every object-level route retains source dependence or lacks an independently derived transfer relation. Ensemble and alternative-data routes remain future candidates."
+}

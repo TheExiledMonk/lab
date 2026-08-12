@@ -1,0 +1,13 @@
+{
+  "CANDIDATE_SCORING_AXES_FROZEN": true,
+  "axes": [
+    "directness",
+    "instrument-separability",
+    "source-independence",
+    "scale-independence",
+    "coefficient-freedom",
+    "transformation-equivalence",
+    "current-data availability"
+  ],
+  "rule": "ordinal structural ranking only; agreement with PBUF values is forbidden"
+}
