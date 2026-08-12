@@ -332,3 +332,11 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 **Astronomical Source Boundary Rule:** A real astronomical input may enter `NativeIncidentDistribution/v1` only through independently measured source-content and coordinate semantics. Observed lensed morphology, GR/ΛCDM source reconstruction, fitted registration, anisotropic rescaling, and interpolation cannot define the incident native source.
 
 **Lensed-Image Self-Input Rule:** An observed post-propagation image may not serve as the pre-propagation incident distribution in a prediction intended to explain that same image.
+
+## LEDGER ENTRY 024 — DEV190 SOURCE-INDEPENDENT TRANSFER DISTORTION
+
+- DEV190 uses only frozen DEV188 scalar positive transfer columns and explicit DEV183/DEV187 native transverse coordinates. Conditional receipt centroids form a source-independent discrete map; its unique symmetry-preserving periodic nearest-neighbor central derivative is `TransferCentroidJacobian/v1`. Its local polar stretch, area factor, and rotation are native transport diagnostics, not GR lensing quantities.
+- The multichannel stack remains full-rank information infrastructure only: no conserved receipt-space quadratic form or physical mixed-channel metric was found, so `K^T K`, SVD, PCA, and arbitrary channel normalization are not promoted. Historical P1–P7, J3/G3, and the 45-channel observer remain distinct diagnostics. Spin-2 representation structure may emerge mathematically from the derived symmetric traceless tensor, but spin-2 observation and comparison remain closed.
+- Magnetar/QED vacuum-birefringence is parked as a future independent validation lane and does not modify this result.
+
+**Source-Independent Transfer Rule:** A transfer-distortion quantity may be promoted only when it is a coefficient-free functional of frozen native transfer and coordinate geometry, is source independent, is symmetry covariant, and requires neither arbitrary multichannel norms nor observational selection.

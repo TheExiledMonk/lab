@@ -1,0 +1,31 @@
+{
+  "T01": [
+    "all auxiliary channels",
+    "response spread and higher moments"
+  ],
+  "T02": [
+    "all auxiliary channels",
+    "per-launch response spread",
+    "global topology beyond local derivative"
+  ],
+  "T03": [
+    "same as T02 plus orientation-free representation if scalarized"
+  ],
+  "T04": [
+    "same as T02 except orientation/stretches"
+  ],
+  "T05": [
+    "all auxiliary channels",
+    "centroid variation between launches"
+  ],
+  "T06": [
+    "all auxiliary channels",
+    "receipt spatial arrangement"
+  ],
+  "T07": [
+    "not derived: missing physical output metric"
+  ],
+  "T08": [
+    "uses analytic signed diagnostic probes; not source content"
+  ]
+}

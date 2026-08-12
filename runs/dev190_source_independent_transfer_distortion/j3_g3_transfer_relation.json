@@ -1,0 +1,4 @@
+{
+  "classification": "DISTINCT",
+  "reason": "J3 is a global least-squares 3x2 map from receipt-event source locations to mean 3D received positions; TransferCentroidJacobian/v1 is a local 2x2 periodic derivative of scalar conditional receipt centroids."
+}

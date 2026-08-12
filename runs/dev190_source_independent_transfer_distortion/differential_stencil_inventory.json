@@ -1,0 +1,14 @@
+{
+  "admissible": [
+    {
+      "formula": "(f(+1)-f(-1))/2",
+      "name": "centered nearest-neighbor",
+      "status": "selected"
+    }
+  ],
+  "domain": "periodic Z11 x Z11",
+  "rejected": [
+    "one-sided nearest neighbor: breaks reflection symmetry",
+    "higher order: nonminimal and tuning-prone"
+  ]
+}

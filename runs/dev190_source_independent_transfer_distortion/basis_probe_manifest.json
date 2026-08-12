@@ -1,0 +1,12 @@
+{
+  "BASIS_PROBES_DIAGNOSTIC_ONLY": true,
+  "analytic_centered_native_coordinates": true,
+  "probes": [
+    "constant",
+    "x_gradient",
+    "y_gradient",
+    "quadrupole_plus",
+    "quadrupole_cross"
+  ],
+  "signed_probes_not_native_incident_distribution": true
+}
