@@ -346,3 +346,14 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - DEV191 inventories raw geometry, centroids, moments through higher order, size, rotation, ensembles, field statistics, resolved structure, kinematics, polarization, and historical PBUF observers before ranking. The best immediate result is `STRUCTURAL_EQUIVALENCE_ONLY`: PSF-corrected second moments and `U_T^TF` share a rank-two representation, but no source-independent physical bridge is derived.
 - **Observable Layer Rule:** Instrumental measurement, PSF correction, shape representation, shear calibration, lens inversion, and cosmological interpretation are distinct layers. PBUF may compare only at the earliest layer with an independently derived coefficient-free equivalence.
 - **Representation Equivalence Rule:** Identical spin/tensor transformation behavior is necessary but insufficient for physical equivalence. Ensemble routes must state their intrinsic-source assumptions.
+
+## LEDGER ENTRY 026 — DEV192 SAME-DATASET OBSERVABLE ESCAPE
+
+- DEV192 locks the intended raw Abell 2744 weak-lensing dataset and opens no other lens. It tests object invariants, determinant and trace-free ratios, ensembles, radial/cross components, distributions, field/parity/topology/graph statistics, higher moments, centroids, multiband, conditioning, foreground relations, and covariance. `Q_obs=J_T Q_int J_T^T` is only a conditional mathematical affine identity: DEV190 has not supplied the physical native-to-sky image-transfer semantics needed to promote it.
+- Result: `SAME_DATASET_OBSERVABLE_ESCAPE=NONE`. Intrinsic terms remain algebraically, ensemble candidates require explicit unvalidated isotropy/population assumptions, and the authentic current-dataset moment/PSF/WCS products remain unrecovered. A cross trace-free component is retained only as a conditional predeclared null definition, not as a bridge.
+
+**Development Dataset Rule:** The current raw weak-lensing dataset is the sole observational development dataset until a coefficient-free observable bridge and complete observer pipeline are frozen.
+
+**Validation Lens Rule:** Future additional lenses must use immutable equations, selection, calibration, projection, normalization, and null tests.
+
+**Source Elimination Rule:** Unknown source structure may be removed only by exact algebraic cancellation, independently justified ensemble expectation, predeclared symmetry/null relation, or an independent reference; fitting source distributions to recover agreement is forbidden.

@@ -1,0 +1,53 @@
+{
+  "TRACEFREE_RATIO_AUDITED": true,
+  "candidates": [
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E03",
+      "exact_formula": "4 det(Q_obs)/tr(Q_obs)^2",
+      "native_counterpart": "U_T^TF",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "trace-to-determinant shape ratio",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O08",
+      "population_dependency": "NONE",
+      "rejection_reason": "Congruence does not remove generic intrinsic anisotropy.",
+      "required_assumptions": [
+        "physical affine bridge"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "eigenvalue ratio of Q_int",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E22",
+      "exact_formula": "lambda1(Q)/lambda2(Q)",
+      "native_counterpart": "u1/u2",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "scale-free stretch-ratio analogue",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O07",
+      "population_dependency": "NONE",
+      "rejection_reason": "Dimensionless ratio retains source shape.",
+      "required_assumptions": [
+        "physical affine bridge"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic axis ratio",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    }
+  ]
+}

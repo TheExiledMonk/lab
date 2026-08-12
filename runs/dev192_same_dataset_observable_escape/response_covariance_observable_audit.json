@@ -1,0 +1,35 @@
+{
+  "RESPONSE_COVARIANCE_ROUTE_AUDITED": true,
+  "candidate": [
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E19",
+      "exact_formula": "Cov(Q_obs)",
+      "native_counterpart": "C_l,response",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "observable scatter vs response covariance",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O28",
+      "population_dependency": "NONE",
+      "rejection_reason": "Three distinct covariances cannot be merged.",
+      "required_assumptions": [
+        "physical connection of receipt covariance to image covariance"
+      ],
+      "required_dataset_fields": [
+        "moment covariance",
+        "noise model"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic scatter plus instrumental noise",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    }
+  ],
+  "separate_terms": [
+    "instrument noise",
+    "intrinsic source scatter",
+    "native response spread"
+  ]
+}

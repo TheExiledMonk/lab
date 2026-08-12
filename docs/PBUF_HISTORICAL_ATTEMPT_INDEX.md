@@ -59,3 +59,5 @@ DEV189 anti-circularity rule: the observed lensed galaxy image cannot be reused 
 DEV190 anti-circularity rule: full multichannel source rank does not establish a physical distortion metric. SVD/PCA/DFT and K^T K remain diagnostic without a native output-space metric; transfer geometry requires explicit launch/receipt coordinates and never source fitting or observational selection.
 
 DEV191 anti-circularity rules: conventional weak-lensing terminology does not establish a PBUF bridge; PSF-corrected moments and calibrated shear are different layers; representation matching is not physical equivalence; ensemble claims must declare intrinsic-source assumptions.
+
+DEV192 anti-circularity rules: a new lens cannot repair an observable-definition failure on the development lens; cross-lens validation begins only after observer freeze; intrinsic-orientation cancellation must be derived and cannot be silently assumed.

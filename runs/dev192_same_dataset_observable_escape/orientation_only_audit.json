@@ -1,0 +1,30 @@
+{
+  "ORIENTATION_ONLY_AUDITED": true,
+  "candidate": [
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E08",
+      "exact_formula": "mean(exp(2 i phi_Q))",
+      "native_counterpart": "U_T^TF / R_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "orientation-only circular statistic",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O09",
+      "population_dependency": "ISOTROPY_ASSUMPTION",
+      "rejection_reason": "no authentic catalogue/PSF/WCS product recovered",
+      "required_assumptions": [
+        "isotropic intrinsic orientations",
+        "axial angle treatment"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "ENSEMBLE_EXPECTATION_CANCELLATION",
+      "source_term": "intrinsic position angle",
+      "status": "MEASUREMENT_UNAVAILABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    }
+  ]
+}

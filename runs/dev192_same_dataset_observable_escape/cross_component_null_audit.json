@@ -1,0 +1,5 @@
+{
+  "CROSS_COMPONENT_NULL_AUDITED": true,
+  "formula": "Q_x=2 n^T Q_TF t",
+  "null": "E[Q_x]=0 only under predeclared reflection/isotropy conditions"
+}

@@ -1,0 +1,9 @@
+{
+  "FOREGROUND_REFERENCE_NOT_LENSING_DERIVED": true,
+  "RADIAL_TANGENTIAL_TENSOR_AUDITED": true,
+  "basis": "independent foreground center required; no sky registration derived",
+  "neutral_names": [
+    "RADIAL_TRACEFREE_MOMENT",
+    "CROSS_TRACEFREE_MOMENT"
+  ]
+}

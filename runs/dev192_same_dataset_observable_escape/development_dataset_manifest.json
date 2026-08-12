@@ -1,0 +1,18 @@
+{
+  "DEV175_manifest_sha256": "bd1032db4170b28ba8aed30ecb66ee0c72cbbfcf563a135b0156c2254f39b788",
+  "availability": "NO_AUTHENTIC_PROVENANCE_TIED_RAW_OR_PYRRG_MOMENT_PSF_WCS_ASSET_RECOVERED",
+  "calibration_products": [],
+  "dataset_id": "current_raw_weak_lensing_dataset/Abell2744",
+  "exact_files": [],
+  "exclusions": [
+    "all other lenses",
+    "PBUF_benchmark lens products",
+    "kappa/gamma products",
+    "unverified legacy training files"
+  ],
+  "hashes": {},
+  "lock_reason": "sole development dataset by DEV192 authorization",
+  "observation_ids": [],
+  "preprocessing": "none; no raw/catalogue/moment arrays opened",
+  "provenance_source": "DEV175 exact-release recovery"
+}

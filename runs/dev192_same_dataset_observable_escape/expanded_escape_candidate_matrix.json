@@ -1,0 +1,572 @@
+{
+  "ALL_ESCAPE_LANES_TESTED_BEFORE_SELECTION": true,
+  "candidates": [
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E01",
+      "exact_formula": "Q_obs=J_T Q_int J_T^T is a mathematical identity only if a physical affine bridge is derived",
+      "native_counterpart": "J_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "generic second-moment congruence",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O05",
+      "population_dependency": "NONE",
+      "rejection_reason": "DEV190 is a conditional centroid map, not an established astronomical image map.",
+      "required_assumptions": [
+        "physical native-to-sky affine image semantics"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "Q_int",
+      "status": "STRUCTURAL_ONLY",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E02",
+      "exact_formula": "det Q_obs=(det J_T)^2 det Q_int",
+      "native_counterpart": "det J_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "determinant moment ratio",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O11",
+      "population_dependency": "NONE",
+      "rejection_reason": "Intrinsic determinant remains.",
+      "required_assumptions": [
+        "two measurements of same intrinsic tensor under independently known transformations"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "det Q_int",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E03",
+      "exact_formula": "4 det(Q_obs)/tr(Q_obs)^2",
+      "native_counterpart": "U_T^TF",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "trace-to-determinant shape ratio",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O08",
+      "population_dependency": "NONE",
+      "rejection_reason": "Congruence does not remove generic intrinsic anisotropy.",
+      "required_assumptions": [
+        "physical affine bridge"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "eigenvalue ratio of Q_int",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E04",
+      "exact_formula": "E[Q_int^TF]=0 is an extra ensemble assumption",
+      "native_counterpart": "U_T^TF",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "mean trace-free moment",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O18",
+      "population_dependency": "ISOTROPY_ASSUMPTION",
+      "rejection_reason": "no authentic catalogue/PSF/WCS product recovered",
+      "required_assumptions": [
+        "predeclared isotropic intrinsic population",
+        "PSF/selection/isotropic-mask controls"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q",
+        "selection/mask/PSF metadata"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "ENSEMBLE_EXPECTATION_CANCELLATION",
+      "source_term": "mean Q_int^TF",
+      "status": "MEASUREMENT_UNAVAILABLE",
+      "symmetry_prediction": "zero intrinsic trace-free mean under isotropy"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E05",
+      "exact_formula": "E[Q_i^TF:Q_j^TF]",
+      "native_counterpart": "U_T^TF field correlation",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "pairwise trace-free tensor contraction",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O19",
+      "population_dependency": "INTRINSIC_ALIGNMENT_MODEL",
+      "rejection_reason": "Intrinsic correlations do not cancel without a prior.",
+      "required_assumptions": [
+        "independent intrinsic-alignment null model"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q",
+        "positions"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic alignment correlation",
+      "status": "SOURCE_PRIOR_REQUIRED",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E06",
+      "exact_formula": "Q_t=n^T Q_TF n - t^T Q_TF t",
+      "native_counterpart": "U_T^TF",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "radial trace-free ensemble component",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O18",
+      "population_dependency": "ISOTROPY_ASSUMPTION",
+      "rejection_reason": "no authentic catalogue/PSF/WCS product recovered",
+      "required_assumptions": [
+        "independent foreground center",
+        "isotropic selection"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q",
+        "fixed foreground center"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "ENSEMBLE_EXPECTATION_CANCELLATION",
+      "source_term": "intrinsic orientation distribution",
+      "status": "MEASUREMENT_UNAVAILABLE",
+      "symmetry_prediction": "cross mean is null only under declared reflection symmetry"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E07",
+      "exact_formula": "Q_x=2 n^T Q_TF t",
+      "native_counterpart": "U_T^TF",
+      "null_prediction": "E[Q_x]=0 conditional on declared symmetry",
+      "observable": "cross trace-free null component",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O18",
+      "population_dependency": "ISOTROPY_AND_REFLECTION",
+      "rejection_reason": "A conditional null definition exists but cannot be measured with unavailable catalogue.",
+      "required_assumptions": [
+        "independent center",
+        "reflection-symmetric selection and intrinsic ensemble"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q",
+        "fixed foreground center"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NULL_CHANNEL_CANCELLATION",
+      "source_term": "intrinsic orientation distribution",
+      "status": "NULL_TEST_CANDIDATE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E08",
+      "exact_formula": "mean(exp(2 i phi_Q))",
+      "native_counterpart": "U_T^TF / R_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "orientation-only circular statistic",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O09",
+      "population_dependency": "ISOTROPY_ASSUMPTION",
+      "rejection_reason": "no authentic catalogue/PSF/WCS product recovered",
+      "required_assumptions": [
+        "isotropic intrinsic orientations",
+        "axial angle treatment"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "ENSEMBLE_EXPECTATION_CANCELLATION",
+      "source_term": "intrinsic position angle",
+      "status": "MEASUREMENT_UNAVAILABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E09",
+      "exact_formula": "even/odd parity decomposition of STF field",
+      "native_counterpart": "U_T^TF field",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "tensor-field parity modes",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O20",
+      "population_dependency": "NONE",
+      "rejection_reason": "Mathematical decomposition exists; correspondence does not.",
+      "required_assumptions": [
+        "physical native-to-sky tensor-field mapping"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q",
+        "positions"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "unknown sky/native field correspondence",
+      "status": "STRUCTURAL_ONLY",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E10",
+      "exact_formula": "sum_(i,j in E) Q_i^TF:Q_j^TF",
+      "native_counterpart": "U_T^TF topology",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "graph-native nearest-neighbor alignment",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O20",
+      "population_dependency": "INTRINSIC_ALIGNMENT_MODEL",
+      "rejection_reason": "Graph avoids smoothing but not intrinsic correlations.",
+      "required_assumptions": [
+        "predeclared graph and alignment null"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q",
+        "positions"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic orientation correlation",
+      "status": "SOURCE_PRIOR_REQUIRED",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E11",
+      "exact_formula": "M3_obs",
+      "native_counterpart": "nabla J_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "third-moment skewness",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O13",
+      "population_dependency": "NONE",
+      "rejection_reason": "Intrinsic asymmetry persists and native higher derivative is not authorized.",
+      "required_assumptions": [
+        "unique inherited native derivative and image semantics"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected third moments"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic third moment",
+      "status": "HIGHER_ORDER_CANDIDATE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E12",
+      "exact_formula": "weighted octopole combination",
+      "native_counterpart": "nabla U_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "octopole/HOLICs-like relation",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O14",
+      "population_dependency": "NONE",
+      "rejection_reason": "Standard interpretation imports conventional flexion/shear machinery.",
+      "required_assumptions": [
+        "non-GR physical bridge"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected higher moments"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic octopole and conventional interpretation",
+      "status": "MODEL_CONTAMINATED",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E13",
+      "exact_formula": "delta c_band",
+      "native_counterpart": "conditional centroid",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "multi-band centroid difference",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O02",
+      "population_dependency": "NONE",
+      "rejection_reason": "No multi-band authentic product; color morphology cannot be assumed.",
+      "required_assumptions": [
+        "derived achromaticity and identical source centroids"
+      ],
+      "required_dataset_fields": [
+        "multi-band calibrated images",
+        "PSFs"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "band-dependent source morphology",
+      "status": "MEASUREMENT_UNAVAILABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E14",
+      "exact_formula": "delta q_obs=J_T delta q_int",
+      "native_counterpart": "J_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "internal-feature relative geometry",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O03",
+      "population_dependency": "NONE",
+      "rejection_reason": "No feature catalogue and intrinsic separation remains.",
+      "required_assumptions": [
+        "identified repeated/internal features"
+      ],
+      "required_dataset_fields": [
+        "resolved feature catalogue"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "unlensed feature separation",
+      "status": "MEASUREMENT_UNAVAILABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E15",
+      "exact_formula": "Q_A-Q_B",
+      "native_counterpart": "U_T/C_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "independent moment-method consistency",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O22",
+      "population_dependency": "NONE",
+      "rejection_reason": "Measurement stability cannot establish physical equivalence.",
+      "required_assumptions": [
+        "independent PSF-corrected implementations"
+      ],
+      "required_dataset_fields": [
+        "moment outputs and PSF products"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "source morphology",
+      "status": "MEASUREMENT_UNAVAILABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E16",
+      "exact_formula": "count ratio",
+      "native_counterpart": "det J_T / eta",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "number-count/flux distribution",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O26",
+      "population_dependency": "UNLENSED_COUNT_SLOPE",
+      "rejection_reason": "Population baseline is required.",
+      "required_assumptions": [
+        "independent unlensed population distribution"
+      ],
+      "required_dataset_fields": [
+        "catalogue",
+        "completeness",
+        "selection"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "unlensed count slope/distribution",
+      "status": "SOURCE_PRIOR_REQUIRED",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E17",
+      "exact_formula": "E[Q_TF|Z]",
+      "native_counterpart": "U_T^TF",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "source-property-conditioned mean",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O18",
+      "population_dependency": "CONDITIONAL_INTRINSIC_MODEL",
+      "rejection_reason": "Conditioning reduces variance only under unverified conditional isotropy.",
+      "required_assumptions": [
+        "predeclared independent bins",
+        "isotropy in every bin"
+      ],
+      "required_dataset_fields": [
+        "catalogue properties",
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "CONDITIONAL_CANCELLATION",
+      "source_term": "conditional intrinsic shape distribution",
+      "status": "MEASUREMENT_UNAVAILABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E18",
+      "exact_formula": "parallel/orthogonal contractions",
+      "native_counterpart": "U_T^TF",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "foreground-correlated vs orthogonal tensor",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O19",
+      "population_dependency": "NONE",
+      "rejection_reason": "No authentic WCS/moment data and no registration bridge.",
+      "required_assumptions": [
+        "independent foreground geometry",
+        "sky/native registration"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q",
+        "foreground geometry",
+        "WCS"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic/foreground correlation and sky mapping",
+      "status": "MEASUREMENT_UNAVAILABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E19",
+      "exact_formula": "Cov(Q_obs)",
+      "native_counterpart": "C_l,response",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "observable scatter vs response covariance",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O28",
+      "population_dependency": "NONE",
+      "rejection_reason": "Three distinct covariances cannot be merged.",
+      "required_assumptions": [
+        "physical connection of receipt covariance to image covariance"
+      ],
+      "required_dataset_fields": [
+        "moment covariance",
+        "noise model"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic scatter plus instrumental noise",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E20",
+      "exact_formula": "sign(phi_Q-phi_int)",
+      "native_counterpart": "R_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "rotation sign/parity",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O15",
+      "population_dependency": "NONE",
+      "rejection_reason": "No independent orientation reference.",
+      "required_assumptions": [
+        "independent intrinsic orientation reference"
+      ],
+      "required_dataset_fields": [
+        "orientation measurements"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic orientation",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E21",
+      "exact_formula": "F_obs/F_int",
+      "native_counterpart": "eta_l",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "throughput/flux sign relation",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O29",
+      "population_dependency": "NONE",
+      "rejection_reason": "Intrinsic luminosity and measure bridge are unavailable.",
+      "required_assumptions": [
+        "PBUF measure/brightness relation"
+      ],
+      "required_dataset_fields": [
+        "calibrated flux/completeness"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic luminosity and measure law",
+      "status": "UNRESOLVED",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E22",
+      "exact_formula": "lambda1(Q)/lambda2(Q)",
+      "native_counterpart": "u1/u2",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "scale-free stretch-ratio analogue",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O07",
+      "population_dependency": "NONE",
+      "rejection_reason": "Dimensionless ratio retains source shape.",
+      "required_assumptions": [
+        "physical affine bridge"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic axis ratio",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    }
+  ],
+  "schema": [
+    "candidate_id",
+    "parent_DEV191_candidate",
+    "observable",
+    "source_term",
+    "source_elimination_method",
+    "required_assumptions",
+    "required_dataset_fields",
+    "native_counterpart",
+    "exact_formula",
+    "scale_dependency",
+    "orientation_dependency",
+    "selection_dependency",
+    "PSF_dependency",
+    "population_dependency",
+    "symmetry_prediction",
+    "null_prediction",
+    "status",
+    "rejection_reason"
+  ]
+}

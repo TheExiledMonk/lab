@@ -1,0 +1,11 @@
+{
+  "ENSEMBLE_ISOTROPY_ASSUMPTIONS_EXPLICIT": true,
+  "ENSEMBLE_ISOTROPY_AUDITED": true,
+  "not_derived_from_current_data": true,
+  "required_assumptions": [
+    "intrinsic isotropy",
+    "PSF correction",
+    "selection/masking isotropy",
+    "background purity"
+  ]
+}

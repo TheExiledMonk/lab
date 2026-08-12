@@ -1,0 +1,101 @@
+{
+  "OBJECT_LEVEL_INVARIANTS_AUDITED": true,
+  "candidates": [
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E01",
+      "exact_formula": "Q_obs=J_T Q_int J_T^T is a mathematical identity only if a physical affine bridge is derived",
+      "native_counterpart": "J_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "generic second-moment congruence",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O05",
+      "population_dependency": "NONE",
+      "rejection_reason": "DEV190 is a conditional centroid map, not an established astronomical image map.",
+      "required_assumptions": [
+        "physical native-to-sky affine image semantics"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "Q_int",
+      "status": "STRUCTURAL_ONLY",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E02",
+      "exact_formula": "det Q_obs=(det J_T)^2 det Q_int",
+      "native_counterpart": "det J_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "determinant moment ratio",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O11",
+      "population_dependency": "NONE",
+      "rejection_reason": "Intrinsic determinant remains.",
+      "required_assumptions": [
+        "two measurements of same intrinsic tensor under independently known transformations"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "det Q_int",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E03",
+      "exact_formula": "4 det(Q_obs)/tr(Q_obs)^2",
+      "native_counterpart": "U_T^TF",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "trace-to-determinant shape ratio",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O08",
+      "population_dependency": "NONE",
+      "rejection_reason": "Congruence does not remove generic intrinsic anisotropy.",
+      "required_assumptions": [
+        "physical affine bridge"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "eigenvalue ratio of Q_int",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E22",
+      "exact_formula": "lambda1(Q)/lambda2(Q)",
+      "native_counterpart": "u1/u2",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "scale-free stretch-ratio analogue",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O07",
+      "population_dependency": "NONE",
+      "rejection_reason": "Dimensionless ratio retains source shape.",
+      "required_assumptions": [
+        "physical affine bridge"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic axis ratio",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    }
+  ]
+}
