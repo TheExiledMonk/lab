@@ -1,0 +1,111 @@
+{
+  "DETERMINISTIC_REPLAY_FLOOR_MEASURED": true,
+  "by_time": {
+    "T1": {
+      "defined_flux": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "net_force": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "p": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_difference": false,
+      "receipt_displacement": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_flux": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_momentum": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_positive": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "x": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      }
+    },
+    "T2": {
+      "defined_flux": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "net_force": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "p": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_difference": false,
+      "receipt_displacement": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_flux": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_momentum": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_positive": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "x": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      }
+    },
+    "T3": {
+      "defined_flux": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "net_force": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "p": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_difference": false,
+      "receipt_displacement": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_flux": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_momentum": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "receipt_positive": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      },
+      "x": {
+        "L2_difference": 0.0,
+        "exact_max_difference": 0.0
+      }
+    }
+  },
+  "replay_method": "independent deterministic rerun of each frozen fresh-B control with its matched background subtraction"
+}
