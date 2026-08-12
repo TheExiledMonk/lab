@@ -377,3 +377,8 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 **Independent-Event Rule:** Astronomical image accumulation does not require simultaneous composition only after each event's stationary-background/recovery and detector-event semantics are independently established. Computational reset alone is insufficient.
 
 **Wave/Event Distinction Rule:** Discrete receipt records do not imply pointlike propagation. Single-event distributed state and multi-path/event-ensemble semantics are separate audits.
+
+## LEDGER ENTRY 029 — DEV195 LOCAL FORCE-BALANCE RESTORATION
+
+- DEV195 compares the canonical loaded R00 packet replay with an identically evolved unexcited background and resolves displacement, momentum, DEV167 net-force residual, strain proxy, and signed native bond-power flux by exact periodic N6 shells. Its result is `DERIVED_OSCILLATORY`; the corresponding raw arrays and pre-recurrence interpretation are preserved in `runs/dev195_local_force_balance_restoration`.
+- **Recovery Terminology Rule:** recovery never means damping, reset, absorption, or a new force. The sole question is native redistribution under the frozen pair law. **Event Completion Rule:** detector receipt, source-region restoration, outgoing propagation, and finite-domain recurrence are distinct states.

@@ -1077,6 +1077,42 @@
       ],
       "do_not_rederive": true,
       "reopen_condition": "A frozen native event-emission/recovery rule establishes independent sequential events."
+    },
+    {
+      "target_id": "local_force_balance_restoration",
+      "canonical_name": "Local force-balance restoration",
+      "plain_language_question": "Under frozen reversible DEV167 dynamics, does a canonical excitation leave the launch region by outward propagation such that the local state returns toward its matched force-balanced background trajectory, despite global excitation persistence?",
+      "aliases": [
+        "local restoration",
+        "outgoing excitation audit"
+      ],
+      "keywords": [
+        "force balance",
+        "restoring force",
+        "outgoing flux",
+        "recurrence",
+        "local energy",
+        "packet tail"
+      ],
+      "domain": "FOUNDATION",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev195_local_force_balance_restoration"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Sequential injection semantics remain unimplemented and are not inferred from this one-event audit."
+      ],
+      "blocked_by": [
+        "second-event injection semantics"
+      ],
+      "blocks": [
+        "independent_event_wave_transport"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Use the recorded local state/support trajectories for a separately authorized existing-semantics second-event audit."
     }
   ],
   "attempts": [
@@ -4104,6 +4140,91 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev195_local_force_balance_restoration",
+      "target_id": "local_force_balance_restoration",
+      "name": "DEV195 local force-balance restoration and outgoing excitation audit",
+      "aliases": [
+        "matched-background local restoration"
+      ],
+      "summary": "Runs matched background and canonical R00 packet trajectories, resolving force residual and signed state by exact periodic lattice shells without modifying DEV167.",
+      "why_attempted": "DEV194 established a nonzero global endpoint residual but did not localize it or compare against the evolved background.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV195",
+      "pr": null,
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/local_force_balance_restoration.py",
+        "tools/generate_dev195_local_force_balance_restoration.py"
+      ],
+      "run_directories": [
+        "runs/dev195_local_force_balance_restoration"
+      ],
+      "tests": [
+        "tests/test_dev195_local_force_balance_restoration.py"
+      ],
+      "equations": [
+        "F_net=sum_b sigma(epsilon_ab) r_hat_ab",
+        "R_F(Omega)=sum_a_in_Omega |F_net(a)|^2"
+      ],
+      "assumptions": [],
+      "inputs": [
+        "DEV184 R00 loaded background",
+        "DEV182 canonical packet"
+      ],
+      "outputs": [
+        "matched state trajectories",
+        "exact shell decomposition"
+      ],
+      "result": "FULL",
+      "result_reason": "Classification DERIVED_OSCILLATORY is based on raw matched-background displacement, momentum, force, flux, and periodic-shell trajectories; no threshold defines restoration.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev168_finite_loaded_receipt",
+        "dev182_native_packet_launch_representation",
+        "dev184_discrete_launch_density_convergence",
+        "dev194_independent_event_wave_transport"
+      ],
+      "ancestor_of": [
+        "dev194_independent_event_wave_transport"
+      ],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "DEV194 global residual measurement"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "time-matched local diagnostic"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Use the recorded local state/support trajectories for a separately authorized existing-semantics second-event audit.",
+      "do_not_repeat_reason": "Do not substitute a global norm for source-region and shell-resolved matched-background diagnostics.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev195_local_force_balance_restoration/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "equivalences": [
@@ -4123,9 +4244,14 @@
   ],
   "current_frontiers": [
     {
+      "target_id": "local_force_balance_restoration",
+      "status": "PARTIAL",
+      "reason": "One-event local state was classified as DERIVED_OSCILLATORY; a second-event injection remains a separate semantics gate."
+    },
+    {
       "target_id": "independent_event_wave_transport",
-      "status": "BLOCKED",
-      "reason": "Single-event state is distributed but persistent memory prevents an independent event ensemble."
+      "status": "ACTIVE",
+      "reason": "DEV195 resolved local restoration separately from global excitation persistence; sequential injection remains untested."
     }
   ]
 }

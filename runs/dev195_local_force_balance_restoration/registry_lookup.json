@@ -1,0 +1,48 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "equilibrium": [],
+    "global invariant": [],
+    "local energy": [
+      "TARGET: Local force-balance restoration",
+      "STATUS: PARTIAL",
+      "",
+      "DEV195  DEV195 local force-balance restoration and outgoing excitation audit  FULL / PARTIAL"
+    ],
+    "outgoing flux": [
+      "TARGET: Local force-balance restoration",
+      "STATUS: PARTIAL",
+      "",
+      "DEV195  DEV195 local force-balance restoration and outgoing excitation audit  FULL / PARTIAL"
+    ],
+    "packet tail": [
+      "TARGET: Local force-balance restoration",
+      "STATUS: PARTIAL",
+      "",
+      "DEV195  DEV195 local force-balance restoration and outgoing excitation audit  FULL / PARTIAL"
+    ],
+    "periodic boundary": [
+      "DEV190  DEV190 source-independent transfer-distortion invariant audit  FULL / CANONICAL"
+    ],
+    "recurrence": [
+      "TARGET: Local force-balance restoration",
+      "STATUS: PARTIAL",
+      "",
+      "DEV195  DEV195 local force-balance restoration and outgoing excitation audit  FULL / PARTIAL"
+    ],
+    "relaxation": [],
+    "restoring force": [
+      "TARGET: Local force-balance restoration",
+      "STATUS: PARTIAL",
+      "",
+      "DEV195  DEV195 local force-balance restoration and outgoing excitation audit  FULL / PARTIAL"
+    ],
+    "shell propagation": [],
+    "wave return": [
+      "TARGET: Local force-balance restoration",
+      "STATUS: PARTIAL",
+      "",
+      "DEV195  DEV195 local force-balance restoration and outgoing excitation audit  FULL / PARTIAL"
+    ]
+  }
+}

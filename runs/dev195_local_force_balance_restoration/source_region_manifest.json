@@ -1,0 +1,15 @@
+{
+  "SOURCE_REGION_FIXED_FROM_DEV182": true,
+  "center": [
+    1,
+    5,
+    5
+  ],
+  "masks": {
+    "receipt_plane_region": 121,
+    "remainder": 970,
+    "source_7x7_support": 49,
+    "source_plus_one_neighbor_shell": 175,
+    "source_plus_two_neighbor_shell": 361
+  }
+}

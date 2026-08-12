@@ -1,0 +1,6 @@
+{
+  "force_residual": "sum_a_in_region |F_net(a)|^2",
+  "net_force": "sum reciprocal native pair forces",
+  "pair_force": "sigma(epsilon) r_hat; sigma(epsilon)=epsilon/(1-epsilon^2)",
+  "unchanged": true
+}

@@ -65,3 +65,5 @@ DEV192 anti-circularity rules: a new lens cannot repair an observable-definition
 DEV193 anti-circularity rules: linear combination of independently sampled transfer columns does not prove physical simultaneous-source superposition in a nonlinear native medium; a centroid Jacobian does not automatically transport full image morphology.
 
 DEV194 anti-circularity rule: additive detector columns cannot be rebranded as independent physical events merely because they were computed by exact reset; stationarity, event injection, and post-event memory must be established separately.
+
+DEV195 rule: a nonzero global post-event state cannot alone establish persistent local memory; local matched-background force balance, outward transport, and periodic recurrence must be separated.

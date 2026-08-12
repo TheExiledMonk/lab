@@ -39,6 +39,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-12 | DEV192 | Same-dataset observable escape | DEV192 same-dataset observable escape-route audit | BLOCKED | BLOCKED |
 | 2026-08-13 | DEV193 | Native extended excitation transport | DEV193 native extended-excitation transport semantics audit | BLOCKED | BLOCKED |
 | 2026-08-13 | DEV194 | Independent-event wave transport | DEV194 independent-event wave transport and detector accumulation audit | BLOCKED | BLOCKED |
+| 2026-08-13 | DEV195 | Local force-balance restoration | DEV195 local force-balance restoration and outgoing excitation audit | FULL | PARTIAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

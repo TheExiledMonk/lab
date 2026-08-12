@@ -1,0 +1,11 @@
+{
+  "absorbing_boundary": false,
+  "classification": "FINITE_PERIODIC_LATTICE",
+  "periodic_return_possible": true,
+  "shape": [
+    11,
+    11,
+    11
+  ],
+  "topology": "periodic N6 in all three axes"
+}
