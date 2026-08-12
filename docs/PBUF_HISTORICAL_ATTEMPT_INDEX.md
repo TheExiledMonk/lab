@@ -89,3 +89,5 @@ DEV204 rule: finite-step force response is an exact dependent decomposition of t
 DEV205 rule: historical EM/Maxwell attempts were inspected; do not promote a visual two-component match to E/B without parity, triad, transport, dynamics, and uniqueness.
 
 DEV206 rule: fixed N6 topology and pre-existing source-contact/transport data may be audited, but no post hoc loop, scale, sign, or sector selection may rescue DEV205.
+
+DEV208 rule: a divergent local finite-bound stress does not imply cosmological turnaround; derive both the scale-to-spacing bridge and global evolution equation first.

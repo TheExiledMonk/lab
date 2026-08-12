@@ -451,3 +451,8 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 - **Zone-Mapping Claim Boundary:** Whole-zone aggregation or native transport-sector separation may refine electromagnetic correspondence, but it cannot be selected or tuned to rescue an (E/B) mapping. Aggregation scale, orientation and sector definition must be fixed independently of electromagnetic expectations.
 - **DEV206 Result:** The fixed full-N6 tensor is exactly DEV203's opposite-pair directional tensor, while retaining the six identities remains essential audit evidence. The canonical full-zone axial geometry remains handedness-mixed; DEV205 stays partial. DEV204's retained source-contact trajectory has no independently source-free window, so no native outgoing/reactive decomposition is promoted.
+
+## LEDGER ENTRY 043 — DEV208 NATIVE EXPANSION–RESTORING-STRESS AUDIT
+
+- DEV208 derives only the homogeneous diagnostic of frozen DEV167: for a geometric N6 scale deformation `lambda`, `epsilon=lambda-1`, `sigma=lambda-1 / [1-(lambda-1)^2]`, and `V=-log[1-(lambda-1)^2]/2`. Positive extension increases inward restoring response and stored native potential; both diverge at the finite extension bound.
+- **Cyclic-Cosmology Claim Boundary:** local stress growth alone does not derive a Big Crunch, bounce, or cyclic universe. Current PBUF contains neither a derived `a(t)`-to-N6-spacing map nor a native background evolution equation into which the response can be inserted. DEV208 therefore classifies the global bridge, turnaround, contraction, and bounce as blocked/unestablished and adds no force, stiffness, or cosmological term.

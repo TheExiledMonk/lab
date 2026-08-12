@@ -1,0 +1,49 @@
+{
+  "admissible_lambda_interval": "0<lambda<2",
+  "epsilon_lambda": "lambda-1",
+  "map": "r_ab -> lambda r_ab",
+  "rows": [
+    {
+      "epsilon": -0.75,
+      "lambda": 0.25,
+      "potential_per_positive_bond": 0.41333928659223396,
+      "restoring_generalized_force": 1.7142857142857142,
+      "stress": -1.7142857142857142
+    },
+    {
+      "epsilon": -0.5,
+      "lambda": 0.5,
+      "potential_per_positive_bond": 0.14384103622589045,
+      "restoring_generalized_force": 0.6666666666666666,
+      "stress": -0.6666666666666666
+    },
+    {
+      "epsilon": 0.0,
+      "lambda": 1.0,
+      "potential_per_positive_bond": 0.0,
+      "restoring_generalized_force": -0.0,
+      "stress": 0.0
+    },
+    {
+      "epsilon": 0.25,
+      "lambda": 1.25,
+      "potential_per_positive_bond": 0.03226926056878559,
+      "restoring_generalized_force": -0.26666666666666666,
+      "stress": 0.26666666666666666
+    },
+    {
+      "epsilon": 0.5,
+      "lambda": 1.5,
+      "potential_per_positive_bond": 0.14384103622589045,
+      "restoring_generalized_force": -0.6666666666666666,
+      "stress": 0.6666666666666666
+    },
+    {
+      "epsilon": 0.75,
+      "lambda": 1.75,
+      "potential_per_positive_bond": 0.41333928659223396,
+      "restoring_generalized_force": -1.7142857142857142,
+      "stress": 1.7142857142857142
+    }
+  ]
+}

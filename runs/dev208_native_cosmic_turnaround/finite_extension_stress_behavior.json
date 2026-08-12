@@ -1,0 +1,5 @@
+{
+  "FINITE_EXTENSION_STRESS_BEHAVIOR": "DIVERGENT_AT_BOUND",
+  "limit": "epsilon -> 1-",
+  "stress_limit": "+infinity"
+}
