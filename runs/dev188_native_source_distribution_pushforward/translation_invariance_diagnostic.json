@@ -1,0 +1,7 @@
+{
+  "GENERAL_POSITION_DEPENDENT_TRANSFER_OPERATOR": true,
+  "NO_CONVOLUTION_ASSUMED": true,
+  "TRANSLATION_INVARIANCE_CLASSIFIED": true,
+  "classification": "NOT_TRANSLATION_INVARIANT_IN_LOADED_MEDIUM",
+  "test": "exact columns are retained by ID; no relative-displacement convolution law imposed"
+}

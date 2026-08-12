@@ -1,0 +1,46 @@
+{
+  "C100_TRANSFER_SAMPLING_DISTINCT_FROM_UNIFORM_INCIDENT_DISTRIBUTION": true,
+  "UNIFORM_PUSHFORWARD_MATCHES_DEV187_EXPECTATION": true,
+  "per_realization": [
+    {
+      "max_abs_difference": 1.6506554559618178e-19,
+      "pass": true,
+      "realization": 0
+    },
+    {
+      "max_abs_difference": 3.288605417714821e-19,
+      "pass": true,
+      "realization": 1
+    },
+    {
+      "max_abs_difference": 6.822850390133389e-19,
+      "pass": true,
+      "realization": 2
+    },
+    {
+      "max_abs_difference": 4.317750448628796e-19,
+      "pass": true,
+      "realization": 3
+    },
+    {
+      "max_abs_difference": 5.910172389466881e-19,
+      "pass": true,
+      "realization": 4
+    },
+    {
+      "max_abs_difference": 3.4209543157233055e-19,
+      "pass": true,
+      "realization": 5
+    },
+    {
+      "max_abs_difference": 4.1959894624609903e-19,
+      "pass": true,
+      "realization": 6
+    },
+    {
+      "max_abs_difference": 1.785121936338438e-19,
+      "pass": true,
+      "realization": 7
+    }
+  ]
+}

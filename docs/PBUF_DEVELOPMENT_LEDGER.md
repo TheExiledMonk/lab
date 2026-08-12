@@ -317,3 +317,8 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 **Physical Observer Rule:** Native detector state derives from receipt-plane geometry, exact receipt cells, and additive arrival quantities; no image, shape, or spin-2 normalization may use astronomical comparison data.
 
 **Probe Sampling Rule:** More exact-reset packet launches improve sampling of the propagation response and do not by themselves increase physical source brightness.
+
+## LEDGER ENTRY 022 — DEV188 NATIVE SOURCE-DISTRIBUTION PUSHFORWARD
+
+- DEV188 assembles each frozen C100 per-launch, receipt-cell response into a 33×121 `NativeTransferOperator/v1`. A nonnegative `NativeIncidentDistribution/v1` is explicitly launch-ID indexed and is pushed forward by `d=K s`.
+- C100 equal-probe coverage constructs columns only; it is not a uniform physical source. DEV171 foreground-loading source realizations and DEV188 incident distributions are distinct. The physical astronomical-source boundary, spin-2, and observational comparison remain closed.

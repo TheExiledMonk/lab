@@ -1,0 +1,53 @@
+{
+  "SCALAR_OPERATOR_NULLSPACE_RECORDED": true,
+  "per_realization": [
+    {
+      "basis_storage": "transfer_kernel_weight.npz",
+      "left_nullity": 0,
+      "nullity": 88,
+      "realization": 0
+    },
+    {
+      "basis_storage": "transfer_kernel_weight.npz",
+      "left_nullity": 0,
+      "nullity": 88,
+      "realization": 1
+    },
+    {
+      "basis_storage": "transfer_kernel_weight.npz",
+      "left_nullity": 0,
+      "nullity": 88,
+      "realization": 2
+    },
+    {
+      "basis_storage": "transfer_kernel_weight.npz",
+      "left_nullity": 0,
+      "nullity": 88,
+      "realization": 3
+    },
+    {
+      "basis_storage": "transfer_kernel_weight.npz",
+      "left_nullity": 0,
+      "nullity": 88,
+      "realization": 4
+    },
+    {
+      "basis_storage": "transfer_kernel_weight.npz",
+      "left_nullity": 0,
+      "nullity": 88,
+      "realization": 5
+    },
+    {
+      "basis_storage": "transfer_kernel_weight.npz",
+      "left_nullity": 0,
+      "nullity": 88,
+      "realization": 6
+    },
+    {
+      "basis_storage": "transfer_kernel_weight.npz",
+      "left_nullity": 0,
+      "nullity": 88,
+      "realization": 7
+    }
+  ]
+}
