@@ -446,3 +446,8 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - **Electromagnetic Mapping Rule:** A native (E/B)-like identification requires transformation character, field geometry, transport, dynamics and uniqueness to agree simultaneously. Visual similarity or one matching relation is insufficient.
 - **Native Candidate Boundary:** DEV205 dualizes only existing DEV203/204 antisymmetric tensors and retains the predeclared bond-resolved transverse relational candidate. It introduces no field, degree of freedom, force, propagation law, fit, or electromagnetic normalization.
 - **Mapping Result:** The canonical finite trajectory provides a partial, non-unique structural correspondence; its predeclared axial readouts retain longitudinal and handedness-mixed support, so no electric or magnetic native candidate identity is promoted.
+
+## LEDGER ENTRY 041 — DEV206 FULL N6 ZONE / NATIVE TRANSPORT AUDIT
+
+- **Zone-Mapping Claim Boundary:** Whole-zone aggregation or native transport-sector separation may refine electromagnetic correspondence, but it cannot be selected or tuned to rescue an (E/B) mapping. Aggregation scale, orientation and sector definition must be fixed independently of electromagnetic expectations.
+- **DEV206 Result:** The fixed full-N6 tensor is exactly DEV203's opposite-pair directional tensor, while retaining the six identities remains essential audit evidence. The canonical full-zone axial geometry remains handedness-mixed; DEV205 stays partial. DEV204's retained source-contact trajectory has no independently source-free window, so no native outgoing/reactive decomposition is promoted.

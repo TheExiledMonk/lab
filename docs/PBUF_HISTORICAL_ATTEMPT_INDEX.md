@@ -87,3 +87,5 @@ DEV203 rule: inspect only explicit DEV167/200 vector neighbor relations along th
 DEV204 rule: finite-step force response is an exact dependent decomposition of the frozen central bond law; do not promote it to an added field or discard its nonlinear cross term.
 
 DEV205 rule: historical EM/Maxwell attempts were inspected; do not promote a visual two-component match to E/B without parity, triad, transport, dynamics, and uniqueness.
+
+DEV206 rule: fixed N6 topology and pre-existing source-contact/transport data may be audited, but no post hoc loop, scale, sign, or sector selection may rescue DEV205.
