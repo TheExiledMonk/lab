@@ -79,3 +79,5 @@ DEV199 rule: four-state force residuals are exact DEV167 bond identities; receip
 DEV200 rule: canonical excitation propagation is an evolving N6 bond-state plus momentum pattern; scalar force reductions and packet labels are not dynamically sufficient.
 
 DEV201 rule: the canonical DEV167 N6 central-force tangent is not the rejected DEV151 longitudinal-link representation; nevertheless its unloaded spectrum contains no robust propagating transverse sector.
+
+DEV202 rule: inspect self-generated DEV195 bond loads with the full DEV167 central-force tangent; do not repeat DEV151 scalar longitudinal-link failure or impose prestress.

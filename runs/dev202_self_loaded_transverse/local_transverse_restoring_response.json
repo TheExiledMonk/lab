@@ -1,0 +1,21 @@
+{
+  "LOCAL_TRANSVERSE_RESTORING_RESPONSE": "TWO_DOF_RESTORING",
+  "basis": [
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "directional_force_curvatures": {
+    "max": -1.9979130945594716,
+    "min": -2.0037393327246926
+  },
+  "no_threshold": true,
+  "propagation_direction_source": "DEV182 structural +x axis"
+}
