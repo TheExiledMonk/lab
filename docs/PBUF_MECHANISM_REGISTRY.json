@@ -1761,6 +1761,93 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes."
+    },
+    {
+      "target_id": "native_two_excitation_orientation_interaction",
+      "canonical_name": "native two excitation orientation interaction",
+      "plain_language_question": "Do two canonical native excitation structures interact differently under exact symmetry-related changes of their relative internal orientation?",
+      "aliases": [
+        "DEV207"
+      ],
+      "keywords": [
+        "two excitation",
+        "orientation",
+        "force",
+        "torque"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev207_two_excitation_interaction"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Cubic orthogonal operation is not independently available on the sourced canonical preparation."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV167/DEV182 state changes independently."
+    },
+    {
+      "target_id": "native_pair_force_sign_response",
+      "canonical_name": "native pair force sign response",
+      "plain_language_question": "Does native orientation reversal systematically change the sign or direction of force/deflection between two excitation structures?",
+      "aliases": [
+        "DEV207"
+      ],
+      "keywords": [
+        "two excitation",
+        "orientation",
+        "force",
+        "torque"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev207_two_excitation_interaction"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Cubic orthogonal operation is not independently available on the sourced canonical preparation."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV167/DEV182 state changes independently."
+    },
+    {
+      "target_id": "native_pair_torque",
+      "canonical_name": "native pair torque",
+      "plain_language_question": "Does the frozen relational stress law generate a torque on misaligned extended excitation structures without magnetic input?",
+      "aliases": [
+        "DEV207"
+      ],
+      "keywords": [
+        "two excitation",
+        "orientation",
+        "force",
+        "torque"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev207_two_excitation_interaction"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Cubic orthogonal operation is not independently available on the sourced canonical preparation."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV167/DEV182 state changes independently."
     }
   ],
   "attempts": [
@@ -5874,6 +5961,95 @@
         {
           "type": "file",
           "value": "runs/dev205_native_em_mapping/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev207_two_excitation_interaction",
+      "target_id": "native_two_excitation_orientation_interaction",
+      "name": "DEV207 native two-excitation orientation interaction audit",
+      "aliases": [
+        "DEV207"
+      ],
+      "summary": "Coefficient-free SAME versus exact reflected native packet audit under frozen DEV167 dynamics.",
+      "why_attempted": "Interaction is tested directly rather than by field mapping.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV207",
+      "branch": "agent/dev207-two-excitation-orientation",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_pair_interaction.py",
+        "tools/generate_dev207_two_excitation_interaction.py"
+      ],
+      "run_directories": [
+        "runs/dev207_two_excitation_interaction"
+      ],
+      "tests": [
+        "tests/test_dev207_pair_interaction.py"
+      ],
+      "equations": [
+        "cross=X_AB-X_A-X_B+X_0",
+        "tau=sum (x-X) cross_p"
+      ],
+      "assumptions": [
+        "frozen DEV167/DEV182 packet and source medium"
+      ],
+      "inputs": [
+        "DEV167",
+        "DEV182",
+        "DEV195",
+        "DEV196",
+        "DEV197",
+        "DEV198",
+        "DEV199",
+        "DEV203",
+        "DEV204",
+        "DEV205",
+        "DEV206"
+      ],
+      "outputs": [
+        "four-state pair force/stress/momentum residuals"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "Exact reflected-state comparison under the frozen sourced canonical trajectory.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev182_native_packet_launch_representation"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "exact reflection and four-state residual"
+      ],
+      "invalidated_components": [],
+      "successful_components": [],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "DEV182 amplitude and support"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only frozen input change.",
+      "do_not_repeat_reason": "No field or amplitude fitting.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev207_two_excitation_interaction/final_contract.json"
         }
       ],
       "confidence": "HIGH"

@@ -451,3 +451,7 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 - **Zone-Mapping Claim Boundary:** Whole-zone aggregation or native transport-sector separation may refine electromagnetic correspondence, but it cannot be selected or tuned to rescue an (E/B) mapping. Aggregation scale, orientation and sector definition must be fixed independently of electromagnetic expectations.
 - **DEV206 Result:** The fixed full-N6 tensor is exactly DEV203's opposite-pair directional tensor, while retaining the six identities remains essential audit evidence. The canonical full-zone axial geometry remains handedness-mixed; DEV205 stays partial. DEV204's retained source-contact trajectory has no independently source-free window, so no native outgoing/reactive decomposition is promoted.
+
+## LEDGER ENTRY 042 — DEV207 NATIVE PAIR INTERACTION BOUNDARY
+
+- **Magnetic-Interaction Claim Boundary:** Orientation-dependent attraction, repulsion or torque from frozen native dynamics constitutes interaction-level magnetic-like evidence only. It does not by itself establish electromagnetic field variables, poles, charge, SI normalization or Maxwell equations.
