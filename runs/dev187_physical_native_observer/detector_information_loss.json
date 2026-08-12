@@ -1,0 +1,15 @@
+{
+  "INFORMATION_LOSS_ACCOUNTED": true,
+  "collapsed": [
+    "within-cell event ordering; physically unmeasurable under additive detector law"
+  ],
+  "physical_reason": "detector measures cell-local accumulated arrivals, not ordered event history",
+  "preserved": [
+    "cell identity",
+    "count",
+    "positive crossing measure",
+    "additive p/J/u/W02 sums",
+    "realization separate",
+    "launch lineage externally retained"
+  ]
+}

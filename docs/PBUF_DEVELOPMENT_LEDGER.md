@@ -305,3 +305,15 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 **Native Information Sufficiency Rule:** A native receipt feature may be removed before observer construction only with exact mathematical redundancy or independently derived physical irrelevance while preserving canonical rank, depth, launch-domain, and cross-realization information. Correlation, small variance, PCA importance, Fourier power, or simplicity are insufficient.
 
 **Basis Neutrality Rule:** An invertible coordinate change preserves information but does not establish physical preference. Statistical eigendirections and finite-domain Fourier modes remain diagnostics until derived from native dynamics.
+
+## LEDGER ENTRY 020 — DEV187 PHYSICAL NATIVE DETECTOR / TRANSFER RESPONSE
+
+- Date: 2026-08-12. DEV187 derives `NativeDetectorState/v1` from DEV168 receipt-plane crossings: existing native receipt-cell IDs define detector cells, while count, positive crossing weight, and additive momentum/flux/displacement/W02 sums are retained as a multi-channel state. No bin count, interpolation, smoothing, image plane fit, observer fusion, or observational input was used.
+- Weight semantics: DEV168 weight is a nonnegative, local positive outward bond-flux increment, so it is an additive native receipt measure. It is not SI energy, luminosity, brightness, or a reason to apply a second normal-incidence factor. W02 remains retained but does not establish an independent positive scalar detector measure.
+- Sampling semantics: C100's 121 exact-reset packet translations are finite-domain propagation probes. Their raw sum is not literal simultaneous detector brightness; response summaries use the exact per-launch expectation convention. The result is therefore a normalized native propagation transfer response rather than an imaged source.
+- Closure: `OUTCOME_B`; physical detector state and native transfer response are derived. A weighted detector-plane covariance tensor is frozen only as transfer-response geometry. `NATIVE_SHAPE_TENSOR_GATE=BLOCKED_TRANSFER_FUNCTION_SEMANTICS`, `SPIN2_OBSERVABLE_GATE=BLOCKED_PENDING_SHAPE_TENSOR`, and observational comparison remains closed.
+- Next frontier: derive a source-distribution pushforward for the frozen native transfer response without inventing a source image or consulting observational shapes.
+
+**Physical Observer Rule:** Native detector state derives from receipt-plane geometry, exact receipt cells, and additive arrival quantities; no image, shape, or spin-2 normalization may use astronomical comparison data.
+
+**Probe Sampling Rule:** More exact-reset packet launches improve sampling of the propagation response and do not by themselves increase physical source brightness.

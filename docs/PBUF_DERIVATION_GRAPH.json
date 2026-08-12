@@ -105,6 +105,10 @@
       "type": "TARGET"
     },
     {
+      "id": "native_transfer_operator",
+      "type": "TARGET"
+    },
+    {
       "id": "dev151_shared_state_cross_coupling",
       "type": "ATTEMPT"
     },
@@ -254,6 +258,10 @@
     },
     {
       "id": "dev186_native_mode_channel_sufficiency",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev187_physical_native_observer",
       "type": "ATTEMPT"
     }
   ],
@@ -461,6 +469,16 @@
     {
       "source": "dev186_native_mode_channel_sufficiency",
       "target": "dev185_received_state_distribution_sufficiency",
+      "type": "DERIVED_FROM"
+    },
+    {
+      "source": "dev187_physical_native_observer",
+      "target": "physical_observer_mapping",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev187_physical_native_observer",
+      "target": "dev186_native_mode_channel_sufficiency",
       "type": "DERIVED_FROM"
     }
   ]

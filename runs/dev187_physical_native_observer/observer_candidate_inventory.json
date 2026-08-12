@@ -1,0 +1,19 @@
+{
+  "O01_weighted_native_transfer_response": {
+    "formula": "exact cell-local additive sums; normalize response summaries by 121 probes",
+    "free_parameters": [],
+    "inputs": [
+      "native_cell_id",
+      "receipt weight",
+      "p",
+      "J",
+      "u",
+      "W02"
+    ],
+    "physical_interpretation": "native receipt-plane propagation transfer response"
+  },
+  "O02_count_response_control": {
+    "physical_status": "MATHEMATICALLY_VALID_NOT_PHYSICAL_INTENSITY"
+  },
+  "scalar_measure_selection": "O01 supported by crossing semantics; still not literal brightness"
+}

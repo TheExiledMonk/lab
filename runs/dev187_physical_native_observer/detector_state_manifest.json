@@ -1,0 +1,13 @@
+{
+  "cell_basis": "exact DEV168 native_cell_ids",
+  "channels": [
+    "receipt_count",
+    "weight_sum",
+    "momentum_sum",
+    "flux_sum",
+    "displacement_sum",
+    "w02_sum"
+  ],
+  "realizations_separate": true,
+  "representation": "NativeDetectorState/v1"
+}

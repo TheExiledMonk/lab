@@ -1,0 +1,6 @@
+{
+  "SAMPLING_VS_PHYSICAL_MULTIPLICITY_CLASSIFIED": true,
+  "classification": "TRANSFER_FUNCTION_SAMPLING_PROBES",
+  "raw_C100_sum_is_literal_brightness": false,
+  "reason": "DEV183/184 121 exact-reset launches were finite-domain sampling probes, not simultaneous physical arrivals"
+}

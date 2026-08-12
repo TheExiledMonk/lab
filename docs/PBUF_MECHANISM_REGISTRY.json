@@ -176,15 +176,18 @@
       "last_updated_date": "2026-08-12",
       "attempt_ids": [
         "dev176_spin2_matrix",
-        "dev177_full_received_state"
+        "dev177_full_received_state",
+        "dev187_physical_native_observer"
       ],
-      "current_status": "OPEN",
-      "canonical_solution_ids": [],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev187_physical_native_observer"
+      ],
       "open_questions": [],
       "blocked_by": [],
       "blocks": [],
       "do_not_rederive": true,
-      "reopen_condition": "Physical observer derivation is authorized from the exact sufficient native state; observational comparison remains separate."
+      "reopen_condition": "Detector/transfer response is canonical; a source-image pushforward and a shape observable remain separate gates."
     },
     {
       "target_id": "source_depth_reconstruction",
@@ -835,6 +838,37 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Only if the C100 receipt schema or exact content definitions change."
+    },
+    {
+      "target_id": "native_transfer_operator",
+      "canonical_name": "Native transfer operator",
+      "plain_language_question": "How does the native receipt response push an independently supplied source distribution forward?",
+      "aliases": [
+        "transfer function",
+        "source pushforward",
+        "detector transfer response"
+      ],
+      "keywords": [
+        "transfer operator",
+        "pushforward",
+        "source image",
+        "receipt response"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No source distribution is supplied by C100."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "observational_lensing_comparison"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "After independently defined source-distribution semantics."
     }
   ],
   "attempts": [
@@ -3211,6 +3245,83 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev187_physical_native_observer",
+      "target_id": "physical_observer_mapping",
+      "name": "DEV187 physical native detector / transfer response",
+      "aliases": [
+        "native detector",
+        "receipt-plane accumulation",
+        "transfer response"
+      ],
+      "summary": "DEV168 positive crossing weight defines an additive receipt measure, but C100 launches are sampling probes; the result is a normalized native transfer response, not literal brightness.",
+      "why_attempted": "Derive measurement semantics after DEV186 exact sufficiency.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV187",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_detector.py",
+        "tools/generate_dev187_physical_native_observer.py"
+      ],
+      "run_directories": [
+        "runs/dev187_physical_native_observer"
+      ],
+      "tests": [
+        "tests/test_dev187_physical_native_observer.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Native detector state and transfer-response measure are exact; source-image pushforward remains required.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev186_native_mode_channel_sufficiency"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev177_full_received_state"
+      ],
+      "still_valid_components": [
+        "NativeDetectorState/v1",
+        "positive crossing weight measure"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "additivity",
+        "order invariance",
+        "sampling semantics"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Receipt crossing semantics change.",
+      "do_not_repeat_reason": "Next task is source-distribution pushforward, not another detector choice.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev187_physical_native_observer/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "equivalences": [
@@ -3230,9 +3341,9 @@
   ],
   "current_frontiers": [
     {
-      "target_id": "physical_observer_mapping",
-      "status": "AUTHORIZED_FULL_STATE",
-      "reason": "DEV186 found only exact storage redundancy; raw native basis remains the physical reference."
+      "target_id": "native_transfer_operator",
+      "status": "AUTHORIZED",
+      "reason": "DEV187 classifies C100 as a normalized propagation transfer response; no literal source image is yet supplied."
     }
   ]
 }

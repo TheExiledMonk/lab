@@ -46,6 +46,8 @@ DEV185 result: the complete frozen C100 receipt distribution is structurally suf
 
 DEV186 result: only the exact storage-derived content columns W01, W03, and W04 are reconstructable from retained momentum, W02, and flux; the reduced representation preserves all eight rank/depth gates. PCA and DFT remain diagnostic bases, and the raw native basis retains physical priority. Physical observer derivation—not observational comparison—is now authorized.
 
+DEV187 result: DEV168 positive receipt-crossing weight is an additive native detector measure in exact native receipt cells, but the C100 121-launch collection is a sampling of propagation transfer response rather than literal brightness multiplicity. A source-image pushforward remains required; DEV176 P1–P7 and J3/G3 are not promoted, and shape/spin-2/observational gates remain closed.
+
 ## Registry integration (DEV181)
 
 The mechanism registry at `docs/PBUF_MECHANISM_REGISTRY.json` is now the primary historical lookup layer. This Historical Attempt Index remains a concise anti-circularity index and must not be expanded into a duplicate of the full registry. Every row above maps to one or more target/attempt records in that registry.

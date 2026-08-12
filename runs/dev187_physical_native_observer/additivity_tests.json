@@ -1,0 +1,53 @@
+{
+  "DETECTOR_ADDITIVITY_TESTED": true,
+  "per_realization": [
+    {
+      "additivity": true,
+      "launch_order": "packet-aware launch grouping does not enter accumulation",
+      "realization": 0,
+      "receipt_permutation": true
+    },
+    {
+      "additivity": true,
+      "launch_order": "packet-aware launch grouping does not enter accumulation",
+      "realization": 1,
+      "receipt_permutation": true
+    },
+    {
+      "additivity": true,
+      "launch_order": "packet-aware launch grouping does not enter accumulation",
+      "realization": 2,
+      "receipt_permutation": true
+    },
+    {
+      "additivity": true,
+      "launch_order": "packet-aware launch grouping does not enter accumulation",
+      "realization": 3,
+      "receipt_permutation": true
+    },
+    {
+      "additivity": true,
+      "launch_order": "packet-aware launch grouping does not enter accumulation",
+      "realization": 4,
+      "receipt_permutation": true
+    },
+    {
+      "additivity": true,
+      "launch_order": "packet-aware launch grouping does not enter accumulation",
+      "realization": 5,
+      "receipt_permutation": true
+    },
+    {
+      "additivity": true,
+      "launch_order": "packet-aware launch grouping does not enter accumulation",
+      "realization": 6,
+      "receipt_permutation": true
+    },
+    {
+      "additivity": true,
+      "launch_order": "packet-aware launch grouping does not enter accumulation",
+      "realization": 7,
+      "receipt_permutation": true
+    }
+  ]
+}
