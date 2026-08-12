@@ -1219,6 +1219,73 @@
       ],
       "do_not_rederive": true,
       "reopen_condition": "Reassess only if frozen native dynamics or canonical packet change independently."
+    },
+    {
+      "target_id": "full_local_state_cross_event_control",
+      "canonical_name": "Full local-state cross-event control",
+      "plain_language_question": "Does the complete existing local native bond state uniquely account for sequential cross-event influence under DEV167 dynamics?",
+      "aliases": [
+        "local state",
+        "bond cross term",
+        "causal neighborhood"
+      ],
+      "keywords": [
+        "cross event",
+        "local bond",
+        "strain",
+        "orientation",
+        "N6"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev199_local_state_cross_event"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev199_local_state_cross_event"
+      ],
+      "open_questions": [
+        "Canonical-packet weak-regime membership remains unthresholded and unresolved."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "independent_event_wave_transport"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if DEV167 or DEV182 changes independently."
+    },
+    {
+      "target_id": "em_wave_structural_correlation",
+      "canonical_name": "EM-wave structural correlation",
+      "plain_language_question": "After freezing the native PBUF interaction structure, does it show coefficient-free structural correspondence with established weak/strong-field electromagnetic-wave interaction behavior?",
+      "aliases": [
+        "Euler-Heisenberg",
+        "QED structure",
+        "EM correlation"
+      ],
+      "keywords": [
+        "EM",
+        "QED",
+        "orientation",
+        "background invariant"
+      ],
+      "domain": "VALIDATION",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev199_em_structural_correlation"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Structural comparison establishes neither variable identity, SI calibration, nor QED derivation."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently defined PBUF-to-observable mapping."
     }
   ],
   "attempts": [
@@ -4352,6 +4419,265 @@
       "confidence": "HIGH"
     },
     {
+      "attempt_id": "dev198_field_strength_cross_event",
+      "target_id": "field_strength_cross_event_control",
+      "name": "DEV198 field-strength-controlled cross-event influence audit",
+      "aliases": [
+        "field control"
+      ],
+      "summary": "Uses every fixed pre-recurrence native launch time, matched A/background subtraction, and unchanged canonical packet to compare residual local native fields with B response.",
+      "why_attempted": "DEV197 established finite cross-event residuals but time labels are not a physical control variable.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV198",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/field_strength_cross_event.py",
+        "tools/generate_dev198_field_strength_cross_event.py"
+      ],
+      "run_directories": [
+        "runs/dev198_field_strength_cross_event"
+      ],
+      "tests": [
+        "tests/test_dev198_field_strength_cross_event.py"
+      ],
+      "equations": [
+        "F_A_residual=F[X_A]-F[X_0]",
+        "Delta_B=delta_B_after_A-delta_B_fresh"
+      ],
+      "assumptions": [
+        "fixed DEV195 pre-recurrence 0..180 interval"
+      ],
+      "inputs": [
+        "frozen DEV167, DEV182, DEV195-197 lineage"
+      ],
+      "outputs": [
+        "raw field/influence time traces and orientation audit"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "The complete fixed pre-recurrence sequence is classified NONMONOTONIC by force-magnitude ordering; magnitude alone is insufficient without retained orientation and strain geometry.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev168_finite_loaded_receipt",
+        "dev177_full_received_state",
+        "dev182_native_packet_launch_representation",
+        "dev195_local_force_balance_restoration",
+        "dev196_sequential_event_independence",
+        "dev197_cross_event_influence"
+      ],
+      "ancestor_of": [
+        "dev194_independent_event_wave_transport"
+      ],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev197_cross_event_influence"
+      ],
+      "still_valid_components": [
+        "DEV197 matched residual definition"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "field-state-resolved diagnostic"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "0..180 pre-recurrence integer sequence"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Reassess only if frozen native dynamics or canonical packet change independently.",
+      "do_not_repeat_reason": "Do not classify control from support overlap or elapsed time alone.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev198_field_strength_cross_event/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev199_local_state_cross_event",
+      "target_id": "full_local_state_cross_event_control",
+      "name": "DEV199 local-state cross-event derivation",
+      "aliases": [
+        "DEV199 phase A"
+      ],
+      "summary": "Exact four-state positive-N6 bond inclusion--exclusion reconstruction under frozen DEV167 dynamics.",
+      "why_attempted": "DEV198 excluded scalar force magnitude as a sufficient reduction.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV199",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/local_state_cross_event.py",
+        "tools/generate_dev199_local_state_cross_event.py"
+      ],
+      "run_directories": [
+        "runs/dev199_local_state_em_correlation/phase_a"
+      ],
+      "tests": [
+        "tests/test_dev199_local_state_cross_event.py"
+      ],
+      "equations": [
+        "F=sigma(epsilon) rhat",
+        "DeltaF_AB=F_AB-F_A-F_B+F_0"
+      ],
+      "assumptions": [
+        "frozen DEV167/DEV182"
+      ],
+      "inputs": [
+        "DEV195 trajectory",
+        "DEV196 matched trajectories",
+        "DEV198 complete scalar ordering"
+      ],
+      "outputs": [
+        "four-state bond arrays",
+        "local path trace",
+        "perturbative expansion"
+      ],
+      "result": "FULL",
+      "result_reason": "Exact DEV167 four-state reconstruction closes at the local bond update; detector differences are the deterministic path-integrated sequence of these local N6 updates.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev182_native_packet_launch_representation",
+        "dev195_local_force_balance_restoration",
+        "dev196_sequential_event_independence",
+        "dev197_cross_event_influence",
+        "dev198_field_strength_cross_event"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev198_field_strength_cross_event"
+      ],
+      "still_valid_components": [
+        "DEV198 magnitude insufficiency"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "exact local bond reconstruction"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "all 181 pre-recurrence times"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only if DEV167 or DEV182 changes independently.",
+      "do_not_repeat_reason": "No regression or state-vector fitting is admissible.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev199_local_state_em_correlation/phase_a/phase_A_freeze.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev199_em_structural_correlation",
+      "target_id": "em_wave_structural_correlation",
+      "name": "DEV199 frozen EM structural comparison",
+      "aliases": [
+        "DEV199 phase B"
+      ],
+      "summary": "Read-only categorical comparison of frozen native interaction structure with primary QED literature.",
+      "why_attempted": "The native result was frozen before external comparison.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV199",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/validation/em_structural_correlation.py",
+        "tools/generate_dev199_em_structural_correlation.py"
+      ],
+      "run_directories": [
+        "runs/dev199_local_state_em_correlation/phase_b"
+      ],
+      "tests": [
+        "tests/test_dev199_em_structural_correlation.py"
+      ],
+      "equations": [
+        "frozen Phase-A DEV167 law only; no QED coefficient imported"
+      ],
+      "assumptions": [
+        "structural rather than numerical comparison"
+      ],
+      "inputs": [
+        "immutable DEV199 Phase-A freeze",
+        "primary QED research literature"
+      ],
+      "outputs": [
+        "categorical structural signature matrix"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "Frozen Phase-A local-state closure has a positive but strictly structural comparison with primary EM/QED interaction literature.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev199_local_state_cross_event"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "Phase-A native derivation"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "anti-circular structural comparison"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only after an independently derived PBUF-to-observable mapping.",
+      "do_not_repeat_reason": "No SI conversion or coefficient fit is permitted.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev199_local_state_em_correlation/phase_b/em_structural_signature_matrix.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
       "attempt_id": "dev189_astronomical_source_boundary",
       "target_id": "astronomical_source_boundary",
       "name": "DEV189 astronomical source boundary and native launch-domain bridge",
@@ -4509,96 +4835,6 @@
         }
       ],
       "confidence": "HIGH"
-    },
-    {
-      "attempt_id": "dev198_field_strength_cross_event",
-      "target_id": "field_strength_cross_event_control",
-      "name": "DEV198 field-strength-controlled cross-event influence audit",
-      "aliases": [
-        "field control"
-      ],
-      "summary": "Uses every fixed pre-recurrence native launch time, matched A/background subtraction, and unchanged canonical packet to compare residual local native fields with B response.",
-      "why_attempted": "DEV197 established finite cross-event residuals but time labels are not a physical control variable.",
-      "date_started": "2026-08-13",
-      "date_completed": "2026-08-13",
-      "date_confidence": "HIGH",
-      "dev": "DEV198",
-      "branch": "agent/dev195-local-force-balance",
-      "commits": [],
-      "files": [
-        "pbuf/observer/field_strength_cross_event.py",
-        "tools/generate_dev198_field_strength_cross_event.py"
-      ],
-      "run_directories": [
-        "runs/dev198_field_strength_cross_event"
-      ],
-      "tests": [
-        "tests/test_dev198_field_strength_cross_event.py"
-      ],
-      "equations": [
-        "F_A_residual=F[X_A]-F[X_0]",
-        "Delta_B=delta_B_after_A-delta_B_fresh"
-      ],
-      "assumptions": [
-        "fixed DEV195 pre-recurrence 0..180 interval"
-      ],
-      "inputs": [
-        "frozen DEV167, DEV182, DEV195-197 lineage"
-      ],
-      "outputs": [
-        "raw field/influence time traces and orientation audit"
-      ],
-      "result": "PARTIAL",
-      "result_reason": "The complete fixed pre-recurrence sequence is classified NONMONOTONIC by force-magnitude ordering; magnitude alone is insufficient without retained orientation and strain geometry.",
-      "status_at_completion": "PARTIAL",
-      "current_status": "PARTIAL",
-      "canonical": false,
-      "superseded_by": [],
-      "supersedes": [],
-      "equivalent_to": [],
-      "derived_from": [
-        "dev167_vector_relational_dynamics",
-        "dev168_finite_loaded_receipt",
-        "dev177_full_received_state",
-        "dev182_native_packet_launch_representation",
-        "dev195_local_force_balance_restoration",
-        "dev196_sequential_event_independence",
-        "dev197_cross_event_influence"
-      ],
-      "ancestor_of": [
-        "dev194_independent_event_wave_transport"
-      ],
-      "descendant_of": [],
-      "related_attempts": [
-        "dev197_cross_event_influence"
-      ],
-      "still_valid_components": [
-        "DEV197 matched residual definition"
-      ],
-      "invalidated_components": [],
-      "successful_components": [
-        "field-state-resolved diagnostic"
-      ],
-      "failed_components": [],
-      "physics_reusable": true,
-      "infrastructure_reusable": true,
-      "free_parameters": [],
-      "fitted_parameters": [],
-      "fixed_structural_normalizations": [
-        "0..180 pre-recurrence integer sequence"
-      ],
-      "observational_inputs": [
-        false
-      ],
-      "reopen_condition": "Reassess only if frozen native dynamics or canonical packet change independently.",
-      "do_not_repeat_reason": "Do not classify control from support overlap or elapsed time alone.",
-      "evidence": [
-        {
-          "type": "file",
-          "value": "runs/dev198_field_strength_cross_event/final_contract.json"
-        }
-      ],
-      "confidence": "HIGH"
     }
   ],
   "equivalences": [
@@ -4621,11 +4857,6 @@
       "target_id": "source_independent_transfer_distortion",
       "status": "CANONICAL",
       "reason": "A native local transfer tensor is derived; observational bridge remains separately closed."
-    },
-    {
-      "target_id": "field_strength_cross_event_control",
-      "status": "PARTIAL",
-      "reason": "The complete fixed pre-recurrence sequence is classified NONMONOTONIC by force-magnitude ordering; magnitude alone is insufficient without retained orientation and strain geometry."
     }
   ]
 }
