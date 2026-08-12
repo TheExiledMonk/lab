@@ -415,3 +415,9 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - **Scalar Field Reduction Rule:** A single residual-force magnitude is not a complete native field representation. Directional N6 bond state and local geometry must be retained whenever interaction or propagation is evaluated.
 - **Canonical Weak-Event Rule:** A canonical excitation is weak only when its path-resolved first-order native response dominates its higher-order remainder without an arbitrary threshold. DEV200 reports mixed canonical ordering, so the asymptotic weak limit does not authorize the canonical packet.
 - **Cross-Event Accumulation Rule:** Signed local cross terms are retained through path accumulation; no magnitude threshold is used.
+
+## LEDGER ENTRY 036 — DEV201 NATIVE LINEAR MODE SPECTRUM
+
+- **Native Mode Rule:** Weak perturbations of the canonical N6 field decompose into eigenmodes of the exact tangent update. Any continuum wave interpretation must be derived from this spectrum rather than assumed from elasticity or electromagnetism.
+- **DEV201 result:** At the unloaded homogeneous DEV167 background, `L(k)=diag(-4 sin^2(k_i/2))`. Coordinate-parallel branches propagate, while axial transverse perturbations are zero modes. Generic directions are mixed relative to k; a robust two-transverse propagating sector is not derived.
+- **EM Emergence Claim Rule:** A native transverse linear wave sector is evidence for an EM-like kinematic substrate only. Electromagnetic identification additionally requires independently derived observable variable mappings, normalization, polarization interpretation, and physical scale calibration.

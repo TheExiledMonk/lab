@@ -1,0 +1,13 @@
+{
+  "DISCRETE_LINEAR_UPDATE_DERIVED": true,
+  "map": "M(k)=[[I+h^2 L(k),hI],[hL(k),I]]",
+  "numerical_step": 0.04,
+  "state_order": [
+    "U_x",
+    "U_y",
+    "U_z",
+    "Q_x",
+    "Q_y",
+    "Q_z"
+  ]
+}
