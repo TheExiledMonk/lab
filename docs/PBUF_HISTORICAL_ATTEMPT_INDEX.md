@@ -73,3 +73,5 @@ DEV196 rule: additive DEV182 packet initialization is valid on an evolved Vector
 DEV197 rule: exact support overlap is diagnostic geometry, while sequential-event significance is a channelwise comparison of B-after-A against B-fresh and deterministic replay.
 
 DEV198 rule: residual local native force and B influence are separately measured over the fixed pre-recurrence sequence; exact-zero denominators stay undefined.
+
+DEV199 rule: four-state force residuals are exact DEV167 bond identities; receipt differences are path-integrated local consequences, not evidence for a new nonlocal rule.

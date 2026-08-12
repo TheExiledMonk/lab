@@ -1,0 +1,9 @@
+{
+  "EM_STRUCTURAL_CORRELATION": "POSITIVE",
+  "NO_EM_FIELD_CALIBRATION": true,
+  "NO_PBUF_TO_SI_MAPPING": true,
+  "NO_PHOTON_CROSS_SECTION_FIT": true,
+  "NO_QED_COEFFICIENT_FIT": true,
+  "PHASE_A_HASHES_VERIFIED": true,
+  "statement": "Structural correspondence only; PBUF has not derived QED."
+}

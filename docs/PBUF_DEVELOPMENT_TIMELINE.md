@@ -43,6 +43,8 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV196 | Sequential event independence | DEV196 sequential second-excitation injection and independence test | PARTIAL | PARTIAL |
 | 2026-08-13 | DEV197 | Cross-event influence magnitude | DEV197 cross-event influence magnitude audit | PARTIAL | PARTIAL |
 | 2026-08-13 | DEV198 | Field-strength-controlled cross-event influence | DEV198 field-strength-controlled cross-event influence audit | PARTIAL | PARTIAL |
+| 2026-08-13 | DEV199 | EM-wave structural correlation | DEV199 frozen EM structural comparison | PARTIAL | PARTIAL |
+| 2026-08-13 | DEV199 | Full local-state cross-event control | DEV199 local-state cross-event derivation | FULL | CANONICAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

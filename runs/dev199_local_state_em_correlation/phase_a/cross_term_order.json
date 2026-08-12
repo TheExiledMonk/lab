@@ -1,0 +1,6 @@
+{
+  "CROSS_TERM_ORDER": "BACKGROUND_CONDITIONED_SECOND_OR_HIGHER",
+  "CROSS_TERM_ORDER_DERIVED_OR_BLOCKED": true,
+  "loaded_background_order": "SECOND_OR_HIGHER through sigma_second(epsilon_0) delta_epsilon_A delta_epsilon_B; unit-relation geometry may also contribute at second order",
+  "unloaded_constitutive_order": "CUBIC: 3 epsilon_A^2 epsilon_B + 3 epsilon_A epsilon_B^2, provided the local strain perturbation expansion applies"
+}

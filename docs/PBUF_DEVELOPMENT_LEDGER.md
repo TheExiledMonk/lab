@@ -398,3 +398,13 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 - DEV198 measures only matched residual native displacement, momentum, net force, bond strain, and flux in B’s fixed structural launch region across every DEV195 pre-recurrence timestep. It retains force orientation and undefined exact-zero ratios; it adds no field, damping, threshold, or packet variation. The complete fixed pre-recurrence sequence is classified NONMONOTONIC by force-magnitude ordering; magnitude alone is insufficient without retained orientation and strain geometry.
 - **Field-Controlled Influence Rule:** cross-event interpretation is conditioned on the measured residual native field state (magnitude, orientation, and strain geometry), not elapsed time or exact support alone.
+
+## LEDGER ENTRY 033 — DEV199 LOCAL CROSS-EVENT STATE
+
+- **Full Local-State Rule:** Cross-event influence cannot be inferred from scalar residual force magnitude alone. Under frozen DEV167 it is determined at each update by the complete local positive-N6 bond configuration (strain and orientation), then accumulated along B’s causal native trajectory. Exact DEV167 four-state reconstruction closes at the local bond update; detector differences are the deterministic path-integrated sequence of these local N6 updates.
+- **Weak-Perturbation Rule:** Around a fixed background, the frozen bounded constitutive law is linear at first perturbative order; nonlinear cross-event terms enter at higher order (second order for a generally loaded background and cubic constitutively about zero strain). This does not prove the canonical packet is small.
+- **Anti-circularity Rule:** EM/QED phenomenology must never select PBUF state variables, coefficients, terms, packet amplitudes, or observational mappings; it is validation only after a native freeze.
+
+## LEDGER ENTRY 034 — DEV199 FROZEN EM STRUCTURAL COMPARISON
+
+- **EM Structural-Correlation Rule:** PBUF may be structurally compared with EM-wave/QED behavior only after the native result is frozen. Similar weak/strong nonlinearity, directional state, and background dependence establish neither variable identity, SI calibration, nor a derivation of QED.

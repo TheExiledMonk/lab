@@ -1,0 +1,43 @@
+{
+  "PHASE_A_EM_BLIND": true,
+  "PHASE_A_RESULT": "FULL_LOCAL_STATE_CONTROL=DERIVED_PATH_INTEGRATED",
+  "artifact_sha256": {
+    "B_causal_neighborhood.json": "8db80aa6757c75000fbdabaf93e917ab5622ab0127780ff6d4f06feeaab9d244",
+    "bond_force_cross_term.npz": "aa28128a0edc643d3969625544b2fe79bcc2cff8c7b4bb73dc62da802a6bc83b",
+    "bond_orientation_changes.npz": "70f59fdc40132e92cfe003f64d1727b5208cf368d3b12d426dfa4a2699c19c52",
+    "bond_state_A.npz": "7b80fb09b19044e6ee5d487468bd352c8efeca8b67c8dd6a77ffd1c8ec826a69",
+    "bond_state_AB.npz": "7e3df36f32ca4dcfd5412f0cf3265b47bc18abfb83bf953578093ab3476ef04f",
+    "bond_state_B.npz": "c8b97203eac216b1028fd86736e7e3461e274b601764a2a6b9caeaf1b655853d",
+    "bond_state_background.npz": "69f936750e111629b10bc47e21e96698e444adb240b33a385d0bdf8a075c8609",
+    "bond_strain_cross_term.npz": "95978ada3ef584f9975abb0f2b5691ee4937dec3dcbf9bd1d436939259acb3b2",
+    "canonical_packet_nonlinearity_fraction.json": "58e191369c857df7d240cf7c6d3346a08a455afadc443593cf36f2e9509dd338",
+    "canonical_packet_perturbative_status.json": "eced1a3b7f3627b58e3633d02aabd7ad914d2029b30b43e6f159dd7d3cd4a925",
+    "constitutive_vs_geometric_decomposition.json": "76c6537d9b0ae2b913c40d4d1ff9f973c3148b30746dfeab362039b626f75ab2",
+    "cross_term_order.json": "656461b943c70ee0867830e81c75d0040803556fd7a8f67d50540b264e5df7ff",
+    "dev188_event_operator_scope_phase_A.json": "904b2b6064b6f121c9959fafc7a802d27227c826073b174f962daf268b886ca0",
+    "dev198_input_manifest.json": "509968cb950f972e59be2c1a860d547c54f320e7141efd57a179bc5f244b1f64",
+    "force_magnitude_degeneracy_pairs.json": "a48736983363482646cdf5b38307b81abe6e2f6b081fe00d42991103d3e31102",
+    "force_magnitude_degeneracy_resolution.json": "36a90f13578cc88a45ddf8e88af661c012a8f56cd4eabb0e15c9d962df7b01a1",
+    "full_local_state_control.json": "14c839e98ea681a65642225c7c286c08dc1838948ca3b3ccfbcee7df8b56c1bb",
+    "historical_local_state_inventory.json": "4392eecf87c950c2b36248e3a4aeed10863c7a35ae82600582999dd0e6fa9ac3",
+    "independent_event_transport_reopen_gate_phase_A.json": "b1e6a51c7b7a2869e5c52022a1b5ccddc65bd892c8f10963dae95c9834c48064",
+    "loaded_background_linearization.npz": "847a0b4b4eb017d2bb27b52ca76ddce93cf8527179bc6354c0829b0a0b26e427",
+    "local_native_state_sufficiency.json": "6659ca3a2b4025562ffb562bb5cb4015838b2ffd6a6730483c7f263f777aba6d",
+    "measured_vs_reconstructed_cross_force.json": "64d55fbbcb1eb832ac77c36f600979a9309c7fc550cb41d6be1e689de46e2230",
+    "path_integrated_local_state.npz": "5a44cc34772c936d41a3c32fa0191aa675abfb5358641758d915b6452625e186",
+    "registry_lookup.json": "82c99801938aa6f4dfb12168d5bb9bbd90b447f616b04c47a6ac7ab7e7b37984",
+    "registry_update_validation.json": "2234c520482ce88e999db5b2091e64bc90ac8bf68f414c8a5a7f6159ab21f75f",
+    "starting_state.json": "2badb712b334ebe1403f7a63b246cd336a5a11f9bb1eea10b0f32ba1e1e55050",
+    "tangent_linearization.json": "f42c7b7d5c6eb4a5c15c87c5fe1bbb1d71ed83193c3ec15517b36cc61ea9d96e"
+  },
+  "equations_used": [
+    "r_ab=x_b-x_a",
+    "epsilon=|r|-1",
+    "sigma=epsilon/(1-epsilon^2)",
+    "F=sigma rhat",
+    "DeltaF_AB=F_AB-F_A-F_B+F_0"
+  ],
+  "head_at_freeze": "5e508dcd9721bfeaf07ab8f46844d3664bb6c251",
+  "immutable_input_contract": "Phase B verifies these hashes and cannot rewrite Phase A.",
+  "no_external_inputs": true
+}
