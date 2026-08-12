@@ -53,3 +53,5 @@ DEV187 result: DEV168 positive receipt-crossing weight is an additive native det
 The mechanism registry at `docs/PBUF_MECHANISM_REGISTRY.json` is now the primary historical lookup layer. This Historical Attempt Index remains a concise anti-circularity index and must not be expanded into a duplicate of the full registry. Every row above maps to one or more target/attempt records in that registry.
 
 DEV188 anti-circularity rule: C100 equal launch coverage is transfer sampling, not uniform physical brightness unless external source weights specify it. The native pushforward is a finite position-dependent operator, not a convolution kernel.
+
+DEV189 anti-circularity rule: the observed lensed galaxy image cannot be reused as the incident source for its own PBUF prediction. WCS is observed-image astrometry, not an unlensed source-plane map; an angular-to-native scale may not be fit to weak-lensing morphology.

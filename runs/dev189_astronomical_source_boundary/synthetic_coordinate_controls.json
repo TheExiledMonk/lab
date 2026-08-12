@@ -1,0 +1,11 @@
+{
+  "SYNTHETIC_COORDINATE_CONTROLS_PASS": true,
+  "fixtures": [
+    "single cell",
+    "uniform square",
+    "centered disk mask",
+    "axis-elongated positive pattern",
+    "rotated positive pattern"
+  ],
+  "similarity_ellipticity_eigenvalues_preserved": true
+}

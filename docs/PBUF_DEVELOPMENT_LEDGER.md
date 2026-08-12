@@ -322,3 +322,13 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 - DEV188 assembles each frozen C100 per-launch, receipt-cell response into a 33×121 `NativeTransferOperator/v1`. A nonnegative `NativeIncidentDistribution/v1` is explicitly launch-ID indexed and is pushed forward by `d=K s`.
 - C100 equal-probe coverage constructs columns only; it is not a uniform physical source. DEV171 foreground-loading source realizations and DEV188 incident distributions are distinct. The physical astronomical-source boundary, spin-2, and observational comparison remain closed.
+
+## LEDGER ENTRY 023 — DEV189 ASTRONOMICAL SOURCE BOUNDARY
+
+- DEV189 finds no independently measured object-level pre-propagation astronomical source content in the repository. DEV175's authentic Harvey–Massey numerical map/catalogue remains unavailable; a raw or observed image would be post-propagation and cannot be passed back as the incident source.
+- DEV174 gives serialized native coordinate provenance but no formal WCS or angular-to-native scale. DEV183 supplies only a periodic 11×11 discrete lattice, so an exact cell partition is also absent. The resulting boundary is `BLOCKED_INTRINSIC_SOURCE_UNAVAILABLE`; no registration, resampling, lens model, cosmological distance, or invented morphology was used.
+- Next frontier: source-independent transfer-distortion invariants may be audited separately; spin-2 and observational comparison remain closed.
+
+**Astronomical Source Boundary Rule:** A real astronomical input may enter `NativeIncidentDistribution/v1` only through independently measured source-content and coordinate semantics. Observed lensed morphology, GR/ΛCDM source reconstruction, fitted registration, anisotropic rescaling, and interpolation cannot define the incident native source.
+
+**Lensed-Image Self-Input Rule:** An observed post-propagation image may not serve as the pre-propagation incident distribution in a prediction intended to explain that same image.

@@ -1,0 +1,4 @@
+{
+  "SOURCE_INDEPENDENT_DISTORTION_AUDIT_GATE": "AUTHORIZED",
+  "reason": "DEV188 multichannel rank is 121; a future audit may inspect K without substituting a source."
+}

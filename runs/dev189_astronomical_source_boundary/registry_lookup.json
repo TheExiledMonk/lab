@@ -1,0 +1,88 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "RA DEC": [
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL"
+    ],
+    "WCS": [
+      "TARGET: Coordinate lineage and WCS bridge",
+      "STATUS: PARTIAL",
+      "",
+      "PR107  Historical launch-coordinate receipt correction  FULL / HISTORICAL_ONLY",
+      "DEV172  Frozen weak-lensing morphology gate  BLOCKED / BLOCKED",
+      "DEV173  Source-to-observer coordinate lineage  FULL / SUPERSEDED",
+      "DEV174  Observer coordinate-provenance serialization  FULL / CANONICAL",
+      "DEV189  DEV189 astronomical source boundary and native launch-domain bridge  BLOCKED / BLOCKED"
+    ],
+    "affine": [],
+    "angular coordinate": [
+      "TARGET: Astronomical source boundary",
+      "STATUS: BLOCKED",
+      "",
+      "DEV189  DEV189 astronomical source boundary and native launch-domain bridge  BLOCKED / BLOCKED"
+    ],
+    "angular diameter": [],
+    "astronomical source": [
+      "TARGET: Native transfer operator",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Astronomical source boundary",
+      "STATUS: BLOCKED",
+      "",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL",
+      "DEV189  DEV189 astronomical source boundary and native launch-domain bridge  BLOCKED / BLOCKED"
+    ],
+    "background source": [],
+    "distance": [],
+    "homography": [],
+    "image plane": [
+      "DEV187  DEV187 physical native detector / transfer response  FULL / CANONICAL"
+    ],
+    "launch coordinate": [
+      "TARGET: Coordinate lineage and WCS bridge",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Native transfer operator",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Astronomical source boundary",
+      "STATUS: BLOCKED",
+      "",
+      "PR107  Historical launch-coordinate receipt correction  FULL / HISTORICAL_ONLY",
+      "DEV173  Source-to-observer coordinate lineage  FULL / SUPERSEDED",
+      "DEV174  Observer coordinate-provenance serialization  FULL / CANONICAL",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL",
+      "DEV189  DEV189 astronomical source boundary and native launch-domain bridge  BLOCKED / BLOCKED"
+    ],
+    "pixel scale": [],
+    "registration": [
+      "DEV189  DEV189 astronomical source boundary and native launch-domain bridge  BLOCKED / BLOCKED"
+    ],
+    "source image": [
+      "TARGET: Native transfer operator",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Astronomical source boundary",
+      "STATUS: BLOCKED",
+      "",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL",
+      "DEV189  DEV189 astronomical source boundary and native launch-domain bridge  BLOCKED / BLOCKED"
+    ],
+    "source plane": [
+      "DEV187  DEV187 physical native detector / transfer response  FULL / CANONICAL"
+    ],
+    "source redshift": [
+      "TARGET: Source depth / 3D reconstruction",
+      "STATUS: PARTIAL",
+      "",
+      "DEV169  Diagnostic 2D\u21923D depth lanes  DIAGNOSTIC_ONLY / HISTORICAL_ONLY",
+      "DEV171  Independent spectroscopic source ensemble  FULL / CANONICAL"
+    ],
+    "unlensed image": [
+      "TARGET: Astronomical source boundary",
+      "STATUS: BLOCKED",
+      "",
+      "DEV189  DEV189 astronomical source boundary and native launch-domain bridge  BLOCKED / BLOCKED"
+    ]
+  }
+}
