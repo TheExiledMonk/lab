@@ -1,0 +1,30 @@
+{
+  "classification": "NONMONOTONIC",
+  "reason": "T1/T2/T3 native channel summaries do not support a monotonic label without selecting a metric.",
+  "records": [
+    {
+      "A_residual_force_l2_launch": 0.001155968173120378,
+      "dominant_A_shell": 1,
+      "force_cross_effect_l2": 0.0003513189565050743,
+      "force_ratio_full_lattice_max": 1.1407931264738502e+31,
+      "launch": "T1",
+      "launch_step": 13
+    },
+    {
+      "A_residual_force_l2_launch": 0.001320561705507615,
+      "dominant_A_shell": 2,
+      "force_cross_effect_l2": 0.00012153179954319295,
+      "force_ratio_full_lattice_max": 5.928795557922147e+27,
+      "launch": "T2",
+      "launch_step": 70
+    },
+    {
+      "A_residual_force_l2_launch": 0.0028759162946128715,
+      "dominant_A_shell": 5,
+      "force_cross_effect_l2": 7.277430732730262e-05,
+      "force_ratio_full_lattice_max": 6.448391528447025e+24,
+      "launch": "T3",
+      "launch_step": 147
+    }
+  ]
+}

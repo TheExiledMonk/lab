@@ -1,0 +1,63 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "cross-event residual": [
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL"
+    ],
+    "field strength": [
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL"
+    ],
+    "incremental response": [
+      "TARGET: Sequential event independence",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "DEV196  DEV196 sequential second-excitation injection and independence test  PARTIAL / PARTIAL",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL"
+    ],
+    "influence ratio": [
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL"
+    ],
+    "interaction strength": [
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL"
+    ],
+    "perturbation ratio": [
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL"
+    ],
+    "relative force": [
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL"
+    ],
+    "residual coupling": [
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL"
+    ],
+    "response sensitivity": [
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL"
+    ]
+  }
+}

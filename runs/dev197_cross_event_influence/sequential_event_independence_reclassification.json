@@ -1,0 +1,7 @@
+{
+  "DEV196_EXACT_SUPPORT_RESULT_PRESERVED": true,
+  "sequential_event_independence": {
+    "exact_support_disjointness": "NOT_REQUIRED",
+    "physical_gate": "CROSS_EVENT_INFLUENCE"
+  }
+}

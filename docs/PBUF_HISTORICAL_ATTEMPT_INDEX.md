@@ -69,3 +69,5 @@ DEV194 anti-circularity rule: additive detector columns cannot be rebranded as i
 DEV195 rule: a nonzero global post-event state cannot alone establish persistent local memory; local matched-background force balance, outward transport, and periodic recurrence must be separated.
 
 DEV196 rule: additive DEV182 packet initialization is valid on an evolved VectorPairState, but exact floating-state support must be classified before interpreting a residual as a disjoint-event failure.
+
+DEV197 rule: exact support overlap is diagnostic geometry, while sequential-event significance is a channelwise comparison of B-after-A against B-fresh and deterministic replay.

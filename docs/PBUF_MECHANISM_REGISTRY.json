@@ -1066,16 +1066,16 @@
       "current_status": "PARTIAL",
       "canonical_solution_ids": [],
       "open_questions": [
-        "Sequential injection is defined, but DEV196 did not contain a disjoint exact-support spacetime regime."
+        "DEV197 has classified the frozen T1/T2/T3 influence regime; broader transport remains conditional on that measured regime."
       ],
       "blocked_by": [
-        "disjoint sequential-event transport unestablished"
+        "cross-event influence regime is finite and conditional"
       ],
       "blocks": [
         "observational_lensing_comparison"
       ],
       "do_not_rederive": true,
-      "reopen_condition": "Establish a structurally disjoint sequential native-event regime."
+      "reopen_condition": "Establish the requested reusable regime by measured cross-event influence."
     },
     {
       "target_id": "local_force_balance_restoration",
@@ -1139,16 +1139,53 @@
       "current_status": "PARTIAL",
       "canonical_solution_ids": [],
       "open_questions": [
-        "This finite periodic run contains no spacetime-disjoint exact-support sample; a disjoint transport theorem is therefore not claimed."
+        "Exact support overlap is retained as diagnostic geometry; physical sequential independence is assessed by DEV197 cross-event native influence."
       ],
-      "blocked_by": [
-        "disjoint support regime not represented"
-      ],
+      "blocked_by": [],
       "blocks": [
         "independent_event_wave_transport"
       ],
       "do_not_rederive": true,
-      "reopen_condition": "Run only an existing-semantics test that contains a structurally disjoint pre-recurrence support interval."
+      "reopen_condition": "Reassess only from native cross-event influence, not exact support alone."
+    },
+    {
+      "target_id": "cross_event_influence",
+      "canonical_name": "Cross-event influence magnitude",
+      "plain_language_question": "When a second canonical excitation B is launched after A using existing native semantics, does A produce any meaningful change in B\u2019s native dynamics or receipt relative to B\u2019s own fresh response?",
+      "aliases": [
+        "interaction strength",
+        "relative force",
+        "influence ratio",
+        "perturbation ratio",
+        "cross-event residual",
+        "field strength",
+        "incremental response",
+        "response sensitivity",
+        "residual coupling"
+      ],
+      "keywords": [
+        "cross event",
+        "force influence",
+        "sequential event",
+        "receipt influence"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev197_cross_event_influence"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Finite T1/T2/T3 audit measures resolved influence only; it does not imply a universal separation law."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "independent_event_wave_transport"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Use predeclared sequential timing only if frozen dynamics or the canonical packet changes independently."
     }
   ],
   "attempts": [
@@ -4186,6 +4223,97 @@
         {
           "type": "file",
           "value": "runs/dev196_sequential_event_independence/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev197_cross_event_influence",
+      "target_id": "cross_event_influence",
+      "name": "DEV197 cross-event influence magnitude audit",
+      "aliases": [
+        "cross-event magnitude"
+      ],
+      "summary": "Reuses frozen DEV196 matched residuals, reports channelwise absolute and relative influence without thresholds or denominator regularization, and compares them with an empirical deterministic replay floor.",
+      "why_attempted": "Exact support overlap is geometry, not by itself a physical interaction magnitude.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV197",
+      "pr": null,
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/cross_event_influence.py",
+        "tools/generate_dev197_cross_event_influence.py"
+      ],
+      "run_directories": [
+        "runs/dev197_cross_event_influence"
+      ],
+      "tests": [
+        "tests/test_dev197_cross_event_influence.py"
+      ],
+      "equations": [
+        "Delta_B=delta_B_after_A-delta_B_fresh",
+        "rho_F=abs(Delta_F)/abs(F_B_fresh)"
+      ],
+      "assumptions": [],
+      "inputs": [
+        "frozen DEV196 trajectories",
+        "DEV167 force and flux",
+        "DEV168/177 receipt channels"
+      ],
+      "outputs": [
+        "cross-event channel residuals",
+        "relative ratios",
+        "replay floor",
+        "receipt comparisons"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "Frozen DEV196 T1/T2/T3 trajectories show resolved native and receipt-level cross-event changes. Exact support overlap is retained only as geometry; the finite audited regime is not authorized for independent-event transport.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev168_finite_loaded_receipt",
+        "dev177_full_received_state",
+        "dev182_native_packet_launch_representation",
+        "dev195_local_force_balance_restoration",
+        "dev196_sequential_event_independence"
+      ],
+      "ancestor_of": [
+        "dev194_independent_event_wave_transport"
+      ],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev196_sequential_event_independence"
+      ],
+      "still_valid_components": [
+        "DEV196 exact-support geometry"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "threshold-free native influence decomposition"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Use predeclared sequential timing only if frozen dynamics or the canonical packet changes independently.",
+      "do_not_repeat_reason": "Do not use boolean support overlap as a physical independence gate.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev197_cross_event_influence/final_contract.json"
         }
       ],
       "confidence": "HIGH"

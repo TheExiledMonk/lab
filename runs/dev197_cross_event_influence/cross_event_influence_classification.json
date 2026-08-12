@@ -1,0 +1,21 @@
+{
+  "CROSS_EVENT_INFLUENCE_CLASSIFICATION": [
+    "NONZERO_RECEIPT_CHANGE",
+    "NONMONOTONIC"
+  ],
+  "by_time": {
+    "T1": [
+      "NONZERO_RECEIPT_CHANGE",
+      "LARGE_RELATIVE_TO_B"
+    ],
+    "T2": [
+      "NONZERO_RECEIPT_CHANGE",
+      "LARGE_RELATIVE_TO_B"
+    ],
+    "T3": [
+      "NONZERO_RECEIPT_CHANGE",
+      "LARGE_RELATIVE_TO_B"
+    ]
+  },
+  "operational_meaning": "resolved native/receipt change relative to B response and measured deterministic replay; no universal cutoff used."
+}
