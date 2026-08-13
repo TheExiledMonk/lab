@@ -1,0 +1,53 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "DEV151": [
+      "TARGET: Loaded native directional response",
+      "STATUS: CANONICAL",
+      "",
+      "DEV151  Shared-state cross-coupling  FAILED / REJECTED",
+      "DEV152  Loaded transverse link response  FAILED / REJECTED",
+      "DEV153  N6 link candidate selection  FAILED / REJECTED",
+      "DEV163  Scalar loaded F03  FAILED / REJECTED",
+      "DEV164  Scalar static geometry  FAILED / REJECTED",
+      "DEV165  H07 directional allocation  PARTIAL / PARTIAL",
+      "DEV166  Missing-piece audit  DIAGNOSTIC_ONLY / HISTORICAL_ONLY",
+      "DEV167  Native vector relational pair dynamics  FULL / CANONICAL",
+      "DEV201  DEV201 native linearized N6 mode spectrum  FULL / CANONICAL",
+      "DEV202  DEV202 self-loaded transverse tangent audit  PARTIAL / CANONICAL"
+    ],
+    "loaded tangent": [
+      "TARGET: Native linear mode spectrum",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: EM-like transverse wave sector",
+      "STATUS: BLOCKED",
+      "",
+      "TARGET: Self-loaded transverse native response",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Self-loaded EM-like wave sector",
+      "STATUS: PARTIAL",
+      "",
+      "DEV201  DEV201 native linearized N6 mode spectrum  FULL / CANONICAL",
+      "DEV202  DEV202 self-loaded transverse tangent audit  PARTIAL / CANONICAL"
+    ],
+    "prestress": [
+      "DEV202  DEV202 self-loaded transverse tangent audit  PARTIAL / CANONICAL"
+    ],
+    "self loaded transverse": [
+      "TARGET: Self-loaded transverse native response",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Self-loaded EM-like wave sector",
+      "STATUS: PARTIAL",
+      "",
+      "DEV202  DEV202 self-loaded transverse tangent audit  PARTIAL / CANONICAL"
+    ],
+    "transverse propagation": [
+      "TARGET: Self-loaded EM-like wave sector",
+      "STATUS: PARTIAL",
+      ""
+    ]
+  }
+}

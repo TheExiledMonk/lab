@@ -1,0 +1,6 @@
+{
+  "RELATIONAL_MOTION_STRESS_COUPLING": "DERIVED",
+  "exact_force_reconstruction_max_abs": 7.860465750519907e-19,
+  "identity": "Delta F=Delta sigma rhat_n + sigma_n Delta rhat + Delta sigma Delta rhat",
+  "state_requirement": "directed relation at n and n+1; S,A are retained derived sector readouts, not a lossless state replacement"
+}

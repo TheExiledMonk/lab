@@ -1,0 +1,42 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "N6 field": [
+      "TARGET: Native N6 field representation",
+      "STATUS: CANONICAL",
+      "",
+      "DEV200  DEV200 native N6 field and weak-event audit  PARTIAL / PARTIAL"
+    ],
+    "bond-state field": [
+      "TARGET: Native N6 field representation",
+      "STATUS: CANONICAL",
+      "",
+      "DEV200  DEV200 native N6 field and weak-event audit  PARTIAL / PARTIAL"
+    ],
+    "directional bond state": [
+      "DEV200  DEV200 native N6 field and weak-event audit  PARTIAL / PARTIAL"
+    ],
+    "local excitation tensor": [],
+    "native field representation": [
+      "TARGET: Native N6 field representation",
+      "STATUS: CANONICAL",
+      "",
+      "DEV200  DEV200 native N6 field and weak-event audit  PARTIAL / PARTIAL"
+    ],
+    "packet weak regime": [
+      "TARGET: Full local-state cross-event control",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Canonical packet weak-event regime",
+      "STATUS: PARTIAL",
+      "",
+      "DEV199  DEV199 local-state cross-event derivation  FULL / CANONICAL"
+    ],
+    "perturbative event regime": [
+      "TARGET: Canonical packet weak-event regime",
+      "STATUS: PARTIAL",
+      ""
+    ],
+    "wave-state representation": []
+  }
+}

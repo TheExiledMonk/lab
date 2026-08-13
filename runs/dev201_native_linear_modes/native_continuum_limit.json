@@ -1,0 +1,6 @@
+{
+  "NATIVE_CONTINUUM_LIMIT": "DERIVED",
+  "coefficient_origin": "unit tangent stiffness of the frozen DEV167 bounded stress at epsilon=0",
+  "equation": "partial_t^2 u_i = partial_i^2 u_i + O(partial_i^4, h^2)",
+  "not_imported_continuum_elasticity": true
+}

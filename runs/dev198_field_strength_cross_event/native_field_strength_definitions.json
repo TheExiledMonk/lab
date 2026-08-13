@@ -1,0 +1,18 @@
+{
+  "B_active_region": "fixed exact DEV182 7x7 launch face; no floating-tail threshold",
+  "NATIVE_FIELD_STRENGTH_DEFINITIONS_FROZEN": true,
+  "channels": {
+    "displacement": "X_A-X_0",
+    "flux": "Phi[X_A]-Phi[X_0]",
+    "momentum": "p_A-p_0",
+    "net_force": "F[X_A]-F[X_0]",
+    "strain": "epsilon[X_A]-epsilon[X_0] per positive N6 bond"
+  },
+  "primary": "residual net force",
+  "summaries": [
+    "l2",
+    "max",
+    "mean",
+    "raw array"
+  ]
+}

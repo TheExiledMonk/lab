@@ -1,0 +1,8 @@
+{
+  "NO_EXTERNAL_PRESTRESS": true,
+  "NO_LOAD_PARAMETER_SWEEP": true,
+  "SELF_LOADED_BACKGROUND_ONLY": true,
+  "sha256": "118a680de0ba756cd56901fcf2db02cd2a765035357e7b38fb419927ae61afb4",
+  "source": "runs/dev195_local_force_balance_restoration/excited_trajectory.npz",
+  "times": "0..180 predetermined DEV195 pre-recurrence window"
+}

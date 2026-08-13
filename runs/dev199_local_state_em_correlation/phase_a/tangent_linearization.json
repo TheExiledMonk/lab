@@ -1,0 +1,9 @@
+{
+  "FIRST_ORDER_LINEAR": true,
+  "series_at_zero": "epsilon + epsilon^3 + epsilon^5 + ... for |epsilon|<1",
+  "sigma": "epsilon/(1-epsilon^2)",
+  "sigma_prime": "(1+epsilon^2)/(1-epsilon^2)^2",
+  "sigma_prime_at_zero": 1.0,
+  "sigma_second": "2 epsilon (3+epsilon^2)/(1-epsilon^2)^3",
+  "sigma_second_at_zero": 0.0
+}

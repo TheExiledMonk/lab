@@ -1,0 +1,54 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "dispersion": [
+      "TARGET: Native linear mode spectrum",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: EM-like transverse wave sector",
+      "STATUS: BLOCKED",
+      "",
+      "DEV201  DEV201 native linearized N6 mode spectrum  FULL / CANONICAL"
+    ],
+    "dynamical matrix": [
+      "TARGET: Native linear mode spectrum",
+      "STATUS: CANONICAL",
+      "",
+      "DEV201  DEV201 native linearized N6 mode spectrum  FULL / CANONICAL"
+    ],
+    "eigenmode": [
+      "TARGET: Native linear mode spectrum",
+      "STATUS: CANONICAL",
+      "",
+      "DEV201  DEV201 native linearized N6 mode spectrum  FULL / CANONICAL"
+    ],
+    "lattice Fourier mode": [],
+    "longitudinal mode": [
+      "DEV201  DEV201 native linearized N6 mode spectrum  FULL / CANONICAL"
+    ],
+    "normal mode": [
+      "TARGET: Native linear mode spectrum",
+      "STATUS: CANONICAL",
+      "",
+      "DEV201  DEV201 native linearized N6 mode spectrum  FULL / CANONICAL"
+    ],
+    "phonon-like mode": [],
+    "polarization candidate": [],
+    "tangent operator": [],
+    "transverse mode": [
+      "TARGET: Native linear mode spectrum",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: EM-like transverse wave sector",
+      "STATUS: BLOCKED",
+      "",
+      "DEV201  DEV201 native linearized N6 mode spectrum  FULL / CANONICAL"
+    ],
+    "wavevector": [
+      "TARGET: Native linear mode spectrum",
+      "STATUS: CANONICAL",
+      "",
+      "DEV201  DEV201 native linearized N6 mode spectrum  FULL / CANONICAL"
+    ]
+  }
+}

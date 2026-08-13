@@ -1,0 +1,18 @@
+{
+  "LOADED_TRANSVERSE_TANGENT_PROPAGATION": "LOCALIZED_OSCILLATORY",
+  "TRANSVERSE_TANGENT_PROBE_NORMALIZATION": "STRUCTURAL_ONLY",
+  "TWO_TRANSVERSE_PROBE_RESULTS_RECORDED": true,
+  "normalization": "unit L2 displacement on fixed DEV182 source 7x7 support",
+  "probe_basis": [
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}

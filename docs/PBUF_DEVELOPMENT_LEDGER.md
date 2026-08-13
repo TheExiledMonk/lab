@@ -377,3 +377,77 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 **Independent-Event Rule:** Astronomical image accumulation does not require simultaneous composition only after each event's stationary-background/recovery and detector-event semantics are independently established. Computational reset alone is insufficient.
 
 **Wave/Event Distinction Rule:** Discrete receipt records do not imply pointlike propagation. Single-event distributed state and multi-path/event-ensemble semantics are separate audits.
+
+## LEDGER ENTRY 029 — DEV195 LOCAL FORCE-BALANCE RESTORATION
+
+- DEV195 compares the canonical loaded R00 packet replay with an identically evolved unexcited background and resolves displacement, momentum, DEV167 net-force residual, strain proxy, and signed native bond-power flux by exact periodic N6 shells. Its result is `DERIVED_OSCILLATORY`; the corresponding raw arrays and pre-recurrence interpretation are preserved in `runs/dev195_local_force_balance_restoration`.
+- **Recovery Terminology Rule:** recovery never means damping, reset, absorption, or a new force. The sole question is native redistribution under the frozen pair law. **Event Completion Rule:** detector receipt, source-region restoration, outgoing propagation, and finite-domain recurrence are distinct states.
+
+## LEDGER ENTRY 030 — DEV196 SEQUENTIAL EVENT INDEPENDENCE
+
+- DEV196 verifies that the DEV182 operation is a valid-state additive displacement/momentum perturbation and applies it unchanged to evolved A states. The matched residual is preserved channel-by-channel. Injection semantics are directly reusable, and the source B increment is exactly identical at launch by the same additive operation. However all sampled trajectories have overlapping exact native support, so the required disjoint-event response comparison is unresolved; overlapping nonlinear interaction residuals are preserved without a threshold.
+- **Sequential Injection Rule:** packet identity is initialization bookkeeping; after injection DEV167 evolves aggregate native fields. No reset, absorption, recovery term, or altered force law was used.
+
+## LEDGER ENTRY 031 — DEV197 CROSS-EVENT INFLUENCE MAGNITUDE
+
+- DEV197 reuses frozen DEV196 matched residuals and reports native displacement, momentum, force, signed flux, and receipt changes relative to B’s own fresh response, with no support or physical magnitude cutoff. Exact nonzero support overlap remains descriptive geometry only. Frozen DEV196 T1/T2/T3 trajectories show resolved native and receipt-level cross-event changes. Exact support overlap is retained only as geometry; the finite audited regime is not authorized for independent-event transport.
+- **Cross-Event Influence Rule:** Exact nonzero support overlap is not itself evidence of physically meaningful event interaction. Sequential-event independence must be judged from the incremental change one event produces in another event’s native force, displacement, momentum, flux, and receipt relative to that event’s own response and deterministic numerical floor.
+- **Acceleration / Deflection Rule:** Cross-event influence preserves sign and direction: a prior excitation may reinforce, oppose, or deflect a later excitation and these outcomes must not be collapsed into generic magnitude.
+
+## LEDGER ENTRY 032 — DEV198 FIELD-STRENGTH CROSS-EVENT CONTROL
+
+- DEV198 measures only matched residual native displacement, momentum, net force, bond strain, and flux in B’s fixed structural launch region across every DEV195 pre-recurrence timestep. It retains force orientation and undefined exact-zero ratios; it adds no field, damping, threshold, or packet variation. The complete fixed pre-recurrence sequence is classified NONMONOTONIC by force-magnitude ordering; magnitude alone is insufficient without retained orientation and strain geometry.
+- **Field-Controlled Influence Rule:** cross-event interpretation is conditioned on the measured residual native field state (magnitude, orientation, and strain geometry), not elapsed time or exact support alone.
+
+## LEDGER ENTRY 033 — DEV199 LOCAL CROSS-EVENT STATE
+
+- **Full Local-State Rule:** Cross-event influence cannot be inferred from scalar residual force magnitude alone. Under frozen DEV167 it is determined at each update by the complete local positive-N6 bond configuration (strain and orientation), then accumulated along B’s causal native trajectory. Exact DEV167 four-state reconstruction closes at the local bond update; detector differences are the deterministic path-integrated sequence of these local N6 updates.
+- **Weak-Perturbation Rule:** Around a fixed background, the frozen bounded constitutive law is linear at first perturbative order; nonlinear cross-event terms enter at higher order (second order for a generally loaded background and cubic constitutively about zero strain). This does not prove the canonical packet is small.
+- **Anti-circularity Rule:** EM/QED phenomenology must never select PBUF state variables, coefficients, terms, packet amplitudes, or observational mappings; it is validation only after a native freeze.
+
+## LEDGER ENTRY 034 — DEV199 FROZEN EM STRUCTURAL COMPARISON
+
+- **EM Structural-Correlation Rule:** PBUF may be structurally compared with EM-wave/QED behavior only after the native result is frozen. Similar weak/strong nonlinearity, directional state, and background dependence establish neither variable identity, SI calibration, nor a derivation of QED.
+
+## LEDGER ENTRY 035 — DEV200 NATIVE N6 FIELD AND WEAK EVENT AUDIT
+
+- **Native Field Representation Rule:** After initialization, a canonical excitation is represented entirely by the evolving local N6 bond-state and momentum configuration. Packet identity is bookkeeping; propagation is deterministic evolution of the native field pattern.
+- **Scalar Field Reduction Rule:** A single residual-force magnitude is not a complete native field representation. Directional N6 bond state and local geometry must be retained whenever interaction or propagation is evaluated.
+- **Canonical Weak-Event Rule:** A canonical excitation is weak only when its path-resolved first-order native response dominates its higher-order remainder without an arbitrary threshold. DEV200 reports mixed canonical ordering, so the asymptotic weak limit does not authorize the canonical packet.
+- **Cross-Event Accumulation Rule:** Signed local cross terms are retained through path accumulation; no magnitude threshold is used.
+
+## LEDGER ENTRY 036 — DEV201 NATIVE LINEAR MODE SPECTRUM
+
+- **Native Mode Rule:** Weak perturbations of the canonical N6 field decompose into eigenmodes of the exact tangent update. Any continuum wave interpretation must be derived from this spectrum rather than assumed from elasticity or electromagnetism.
+- **DEV201 result:** At the unloaded homogeneous DEV167 background, `L(k)=diag(-4 sin^2(k_i/2))`. Coordinate-parallel branches propagate, while axial transverse perturbations are zero modes. Generic directions are mixed relative to k; a robust two-transverse propagating sector is not derived.
+- **EM Emergence Claim Rule:** A native transverse linear wave sector is evidence for an EM-like kinematic substrate only. Electromagnetic identification additionally requires independently derived observable variable mappings, normalization, polarization interpretation, and physical scale calibration.
+
+## LEDGER ENTRY 037 — DEV202 SELF-LOADED TRANSVERSE TANGENT
+
+- **Load-Conditional Transverse Rule:** The unloaded DEV167 N6 vacuum has zero geometric transverse stiffness, while native bond loading generated by an excitation produces transverse tangent response through the existing central-force law.
+- **Loaded-Mode Claim Rule:** A transverse mode found only on a self-loaded native trajectory is not an unloaded vacuum normal mode and must not be represented as such. Loaded tangent propagation and unloaded Fourier spectra are separate physical questions.
+
+## LEDGER ENTRY 038 — DEV203 RELATIVE-NEIGHBOR MOTION
+
+- **Relational Propagation Rule:** Canonical excitation propagation is the transport of changing neighbor-to-neighbor relations across the N6 medium. No separate carrier field or added propagation degree of freedom is required.
+- **Intrinsic Relational Wave Rule:** The candidate EM-like native wave is the time-dependent relational motion contained within the propagating N6 excitation itself, not an additional transverse tangent mode superposed on that excitation.
+- **Relational Quiet-Vacuum Rule:** The unloaded native state has static neighbor relations and therefore no relational-wave activity; wave activity requires dynamically changing local relations.
+- **EM Relational Claim Boundary:** Demonstrating transported relative-neighbor motion establishes a native wave substrate candidate only. Identification with electromagnetic (E), (B), polarization, optical phase, SI field strength, or photon normalization requires separate independent derivations.
+
+## LEDGER ENTRY 039 — DEV204 NATIVE RELATIONAL–STRESS COUPLING
+
+- **Relational Stress Rule:** Changing relative-neighbor geometry generates changing native bond stress entirely through the frozen DEV167 central interaction. The stress response is not an added field.
+- **Orientation-Stress Rule:** Rotation/orientation change of loaded neighbor relations generates the exact directional component `sigma(epsilon_n) Delta r_hat`; the finite-step cross term is retained separately.
+- **Native Coupled-Wave Rule:** In the full frozen state, changing relations alter stress, stress alters momentum through the DEV167 kick, and updated momentum alters subsequent relations through the drift. This does not establish an independently autonomous two-field reduction.
+- **Native Two-Field Claim Boundary:** A closed relational-motion/stress coupling may constitute an electromagnetic-like native substrate, but (E), (B), Maxwell equations, SI normalization, polarization and photon interpretation remain separate mappings until independently derived.
+
+## LEDGER ENTRY 040 — DEV205 NATIVE POLAR/AXIAL MAPPING AUDIT
+
+- **Electromagnetic Mapping Rule:** A native (E/B)-like identification requires transformation character, field geometry, transport, dynamics and uniqueness to agree simultaneously. Visual similarity or one matching relation is insufficient.
+- **Native Candidate Boundary:** DEV205 dualizes only existing DEV203/204 antisymmetric tensors and retains the predeclared bond-resolved transverse relational candidate. It introduces no field, degree of freedom, force, propagation law, fit, or electromagnetic normalization.
+- **Mapping Result:** The canonical finite trajectory provides a partial, non-unique structural correspondence; its predeclared axial readouts retain longitudinal and handedness-mixed support, so no electric or magnetic native candidate identity is promoted.
+
+## LEDGER ENTRY 041 — DEV206 FULL N6 ZONE / NATIVE TRANSPORT AUDIT
+
+- **Zone-Mapping Claim Boundary:** Whole-zone aggregation or native transport-sector separation may refine electromagnetic correspondence, but it cannot be selected or tuned to rescue an (E/B) mapping. Aggregation scale, orientation and sector definition must be fixed independently of electromagnetic expectations.
+- **DEV206 Result:** The fixed full-N6 tensor is exactly DEV203's opposite-pair directional tensor, while retaining the six identities remains essential audit evidence. The canonical full-zone axial geometry remains handedness-mixed; DEV205 stays partial. DEV204's retained source-contact trajectory has no independently source-free window, so no native outgoing/reactive decomposition is promoted.

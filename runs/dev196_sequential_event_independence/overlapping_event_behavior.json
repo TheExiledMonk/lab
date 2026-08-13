@@ -1,0 +1,29 @@
+{
+  "OVERLAPPING_EVENT_BEHAVIOR": "INTERACTING",
+  "records": [
+    {
+      "interaction_residual_nonzero": true,
+      "launch": "T1",
+      "relations": {
+        "DIRECT_OVERLAP": 168,
+        "PERIODIC_RECURRENCE_CONTAMINATION": 13
+      }
+    },
+    {
+      "interaction_residual_nonzero": true,
+      "launch": "T2",
+      "relations": {
+        "DIRECT_OVERLAP": 111,
+        "PERIODIC_RECURRENCE_CONTAMINATION": 70
+      }
+    },
+    {
+      "interaction_residual_nonzero": true,
+      "launch": "T3",
+      "relations": {
+        "DIRECT_OVERLAP": 34,
+        "PERIODIC_RECURRENCE_CONTAMINATION": 147
+      }
+    }
+  ]
+}

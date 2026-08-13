@@ -1,0 +1,11 @@
+{
+  "CANONICAL_PACKET_WEAK_STATUS": "CANONICAL_MIXED_LINEAR_NONLINEAR",
+  "DEV200_CANONICAL_PACKET_WEAK_STATUS_PRESERVED": true,
+  "DEV200_N6_FIELD_CANONICAL_PRESERVED": true,
+  "sha256": {
+    "pbuf/excitation/native_vector_pair_dynamics.py": "977631c30f04608f8d0f77c1723f3fdcb83efce446a32c21f9a946d83bfcc106",
+    "pbuf/observer/native_n6_field.py": "4d0b3398d334949fbafbe95e72f86b4c6c4df1541a876d7fd1f6ce70c4fc2843",
+    "pbuf/observer/weak_event_regime.py": "5ca6e40f91471c6f83cfe2d8dccd8a670a4e5c30267257a877cf09c65d17f220",
+    "runs/dev200_native_n6_field/final_contract.json": "df140b454ebe9283f6609b7f0b7e05d81184a0e0f95888c7d028918d61c2b0b8"
+  }
+}

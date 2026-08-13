@@ -65,3 +65,27 @@ DEV192 anti-circularity rules: a new lens cannot repair an observable-definition
 DEV193 anti-circularity rules: linear combination of independently sampled transfer columns does not prove physical simultaneous-source superposition in a nonlinear native medium; a centroid Jacobian does not automatically transport full image morphology.
 
 DEV194 anti-circularity rule: additive detector columns cannot be rebranded as independent physical events merely because they were computed by exact reset; stationarity, event injection, and post-event memory must be established separately.
+
+DEV195 rule: a nonzero global post-event state cannot alone establish persistent local memory; local matched-background force balance, outward transport, and periodic recurrence must be separated.
+
+DEV196 rule: additive DEV182 packet initialization is valid on an evolved VectorPairState, but exact floating-state support must be classified before interpreting a residual as a disjoint-event failure.
+
+DEV197 rule: exact support overlap is diagnostic geometry, while sequential-event significance is a channelwise comparison of B-after-A against B-fresh and deterministic replay.
+
+DEV198 rule: residual local native force and B influence are separately measured over the fixed pre-recurrence sequence; exact-zero denominators stay undefined.
+
+DEV199 rule: four-state force residuals are exact DEV167 bond identities; receipt differences are path-integrated local consequences, not evidence for a new nonlocal rule.
+
+DEV200 rule: canonical excitation propagation is an evolving N6 bond-state plus momentum pattern; scalar force reductions and packet labels are not dynamically sufficient.
+
+DEV201 rule: the canonical DEV167 N6 central-force tangent is not the rejected DEV151 longitudinal-link representation; nevertheless its unloaded spectrum contains no robust propagating transverse sector.
+
+DEV202 rule: inspect self-generated DEV195 bond loads with the full DEV167 central-force tangent; do not repeat DEV151 scalar longitudinal-link failure or impose prestress.
+
+DEV203 rule: inspect only explicit DEV167/200 vector neighbor relations along the canonical trajectory; do not reopen scalar-gradient, scalar-loaded-coupling, or longitudinal-link propagation work.
+
+DEV204 rule: finite-step force response is an exact dependent decomposition of the frozen central bond law; do not promote it to an added field or discard its nonlinear cross term.
+
+DEV205 rule: historical EM/Maxwell attempts were inspected; do not promote a visual two-component match to E/B without parity, triad, transport, dynamics, and uniqueness.
+
+DEV206 rule: fixed N6 topology and pre-existing source-contact/transport data may be audited, but no post hoc loop, scale, sign, or sector selection may rescue DEV205.

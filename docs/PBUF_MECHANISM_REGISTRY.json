@@ -1063,20 +1063,704 @@
       "attempt_ids": [
         "dev194_independent_event_wave_transport"
       ],
-      "current_status": "BLOCKED",
+      "current_status": "PARTIAL",
       "canonical_solution_ids": [],
       "open_questions": [
-        "No stationary-event recovery or sequential event-injection semantics is established."
+        "DEV197 has classified the frozen T1/T2/T3 influence regime; broader transport remains conditional on that measured regime."
       ],
       "blocked_by": [
-        "persistent post-event medium memory",
-        "event injection semantics"
+        "cross-event influence regime is finite and conditional"
       ],
       "blocks": [
         "observational_lensing_comparison"
       ],
       "do_not_rederive": true,
-      "reopen_condition": "A frozen native event-emission/recovery rule establishes independent sequential events."
+      "reopen_condition": "Establish the requested reusable regime by measured cross-event influence."
+    },
+    {
+      "target_id": "local_force_balance_restoration",
+      "canonical_name": "Local force-balance restoration",
+      "plain_language_question": "Under frozen reversible DEV167 dynamics, does a canonical excitation leave the launch region by outward propagation such that the local state returns toward its matched force-balanced background trajectory, despite global excitation persistence?",
+      "aliases": [
+        "local restoration",
+        "outgoing excitation audit"
+      ],
+      "keywords": [
+        "force balance",
+        "restoring force",
+        "outgoing flux",
+        "recurrence",
+        "local energy",
+        "packet tail"
+      ],
+      "domain": "FOUNDATION",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev195_local_force_balance_restoration"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Sequential injection semantics remain unimplemented and are not inferred from this one-event audit."
+      ],
+      "blocked_by": [
+        "second-event injection semantics"
+      ],
+      "blocks": [
+        "independent_event_wave_transport"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Use the recorded local state/support trajectories for a separately authorized existing-semantics second-event audit."
+    },
+    {
+      "target_id": "sequential_event_independence",
+      "canonical_name": "Sequential event independence",
+      "plain_language_question": "Can a second canonical excitation be injected into an already-evolved native state using existing packet semantics, and does its incremental response reproduce the fresh single-event response whenever it is dynamically separated from the prior excitation?",
+      "aliases": [
+        "second excitation",
+        "reinjection",
+        "repeated packet"
+      ],
+      "keywords": [
+        "sequential injection",
+        "second packet",
+        "reinjection",
+        "event independence",
+        "additive displacement",
+        "additive momentum"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev196_sequential_event_independence"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Exact support overlap is retained as diagnostic geometry; physical sequential independence is assessed by DEV197 cross-event native influence."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "independent_event_wave_transport"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Reassess only from native cross-event influence, not exact support alone."
+    },
+    {
+      "target_id": "cross_event_influence",
+      "canonical_name": "Cross-event influence magnitude",
+      "plain_language_question": "When a second canonical excitation B is launched after A using existing native semantics, does A produce any meaningful change in B\u2019s native dynamics or receipt relative to B\u2019s own fresh response?",
+      "aliases": [
+        "interaction strength",
+        "relative force",
+        "influence ratio",
+        "perturbation ratio",
+        "cross-event residual",
+        "field strength",
+        "incremental response",
+        "response sensitivity",
+        "residual coupling"
+      ],
+      "keywords": [
+        "cross event",
+        "force influence",
+        "sequential event",
+        "receipt influence"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev197_cross_event_influence"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Finite T1/T2/T3 audit measures resolved influence only; it does not imply a universal separation law."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "independent_event_wave_transport"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Use predeclared sequential timing only if frozen dynamics or the canonical packet changes independently."
+    },
+    {
+      "target_id": "field_strength_cross_event_control",
+      "canonical_name": "Field-strength-controlled cross-event influence",
+      "plain_language_question": "Does the magnitude and persistence of cross-event influence between sequential canonical excitations follow the measured residual native field strength and local field state through which the later excitation propagates?",
+      "aliases": [
+        "field strength",
+        "local force magnitude",
+        "influence duration"
+      ],
+      "keywords": [
+        "residual field",
+        "force orientation",
+        "cross event",
+        "persistence"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev198_field_strength_cross_event"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Finite periodic pre-recurrence result is conditional on this canonical lattice."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "independent_event_wave_transport"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Reassess only if frozen native dynamics or canonical packet change independently."
+    },
+    {
+      "target_id": "full_local_state_cross_event_control",
+      "canonical_name": "Full local-state cross-event control",
+      "plain_language_question": "Does the complete existing local native bond state uniquely account for sequential cross-event influence under DEV167 dynamics?",
+      "aliases": [
+        "local state",
+        "bond cross term",
+        "causal neighborhood"
+      ],
+      "keywords": [
+        "cross event",
+        "local bond",
+        "strain",
+        "orientation",
+        "N6"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev199_local_state_cross_event"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev199_local_state_cross_event"
+      ],
+      "open_questions": [
+        "Canonical-packet weak-regime membership remains unthresholded and unresolved."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "independent_event_wave_transport"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if DEV167 or DEV182 changes independently."
+    },
+    {
+      "target_id": "em_wave_structural_correlation",
+      "canonical_name": "EM-wave structural correlation",
+      "plain_language_question": "After freezing the native PBUF interaction structure, does it show coefficient-free structural correspondence with established weak/strong-field electromagnetic-wave interaction behavior?",
+      "aliases": [
+        "Euler-Heisenberg",
+        "QED structure",
+        "EM correlation"
+      ],
+      "keywords": [
+        "EM",
+        "QED",
+        "orientation",
+        "background invariant"
+      ],
+      "domain": "VALIDATION",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev199_em_structural_correlation"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Structural comparison establishes neither variable identity, SI calibration, nor QED derivation."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently defined PBUF-to-observable mapping."
+    },
+    {
+      "target_id": "native_n6_field_representation",
+      "canonical_name": "Native N6 field representation",
+      "plain_language_question": "Is the complete local six-neighbor bond configuration, together with native momentum, a sufficient native field representation for canonical excitation propagation under DEV167?",
+      "aliases": [
+        "N6 field",
+        "bond-state field",
+        "native field representation"
+      ],
+      "keywords": [
+        "N6",
+        "bond state",
+        "field",
+        "momentum",
+        "packet"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev200_native_n6_field"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev200_native_n6_field"
+      ],
+      "open_questions": [
+        "Polarization and optical-phase mappings remain unestablished."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if DEV167 or DEV182 changes independently."
+    },
+    {
+      "target_id": "canonical_packet_weak_event_regime",
+      "canonical_name": "Canonical packet weak-event regime",
+      "plain_language_question": "Given DEV199 exact first-order linearization and higher-order cross terms, does the canonical DEV182 packet occupy a regime where first-order propagation dominates nonlinear cross-event interaction?",
+      "aliases": [
+        "weak regime",
+        "perturbative event regime"
+      ],
+      "keywords": [
+        "weak",
+        "tangent",
+        "nonlinear",
+        "cross event"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev200_native_n6_field"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No threshold-free global first-order dominance was found on the canonical path."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "independent_event_wave_transport"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if DEV167 or DEV182 changes independently."
+    },
+    {
+      "target_id": "native_linear_mode_spectrum",
+      "canonical_name": "Native linear mode spectrum",
+      "plain_language_question": "What normal-mode spectrum follows from the tangent-linear evolution of the canonical N6 bond-state plus momentum field under frozen DEV167 dynamics?",
+      "aliases": [
+        "DEV201",
+        "normal modes",
+        "tangent spectrum"
+      ],
+      "keywords": [
+        "dispersion",
+        "eigenmode",
+        "wavevector",
+        "dynamical matrix",
+        "transverse"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev201_native_linear_modes"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev201_native_linear_modes"
+      ],
+      "open_questions": [
+        "Loaded backgrounds require a separate non-homogeneous tangent analysis."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV167 force law or background choice changes independently."
+    },
+    {
+      "target_id": "em_like_transverse_wave_sector",
+      "canonical_name": "EM-like transverse wave sector",
+      "plain_language_question": "Does the native tangent-linear spectrum contain an emergent long-wavelength wave sector with the transverse degree-of-freedom, degeneracy, isotropy, and dispersion structure required for an EM-like interpretation?",
+      "aliases": [
+        "EM-like wave sector",
+        "native transverse waves"
+      ],
+      "keywords": [
+        "transverse",
+        "degeneracy",
+        "isotropy",
+        "linear dispersion"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev201_native_linear_modes"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "The unloaded central-force N6 tangent has no robust transverse propagating sector."
+      ],
+      "blocked_by": [
+        "native_linear_mode_spectrum"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen native dynamics acquire an independently derived transverse tangent stiffness."
+    },
+    {
+      "target_id": "self_loaded_transverse_native_response",
+      "canonical_name": "Self-loaded transverse native response",
+      "plain_language_question": "Does the canonical excitation's own DEV167-generated loaded N6 state produce stable transverse tangent restoring response absent in the unloaded vacuum?",
+      "aliases": [
+        "DEV202",
+        "loaded transverse tangent"
+      ],
+      "keywords": [
+        "loaded",
+        "transverse",
+        "tangent",
+        "self-loaded"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev202_self_loaded_transverse"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev202_self_loaded_transverse"
+      ],
+      "open_questions": [
+        "A local loaded response is not an unloaded normal mode."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if DEV167 or canonical DEV195 trajectory changes independently."
+    },
+    {
+      "target_id": "self_loaded_em_like_wave_sector",
+      "canonical_name": "Self-loaded EM-like wave sector",
+      "plain_language_question": "Do transverse tangent degrees of freedom generated by the excitation's own native loading propagate with the canonical excitation strongly enough to constitute an emergent self-loaded EM-like wave sector?",
+      "aliases": [
+        "DEV202 EM-like",
+        "self-loaded wave sector"
+      ],
+      "keywords": [
+        "EM-like",
+        "transverse",
+        "propagation",
+        "self-loaded"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev202_self_loaded_transverse"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Mapping to electromagnetism remains unestablished."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if a trajectory-tangent result changes independently."
+    },
+    {
+      "target_id": "propagating_relative_neighbor_motion",
+      "canonical_name": "Propagating relative-neighbor motion",
+      "plain_language_question": "Is canonical native excitation propagation fully expressed as coherent transport of changing relative neighbor relations under frozen DEV167 dynamics?",
+      "aliases": [
+        "DEV203",
+        "relative neighbor motion",
+        "relational propagation"
+      ],
+      "keywords": [
+        "relative motion",
+        "bond velocity",
+        "strain rate",
+        "orientation rate",
+        "force rate",
+        "N6 motion field"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev203_relational_wave"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev203_relational_wave"
+      ],
+      "open_questions": [
+        "This is a descriptive native state analysis, not an EM variable mapping."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV167 dynamics or the canonical DEV195 trajectory changes independently."
+    },
+    {
+      "target_id": "intrinsic_em_like_relational_wave",
+      "canonical_name": "Intrinsic EM-like relational wave",
+      "plain_language_question": "Does the already-propagating canonical N6 excitation contain intrinsic transported transverse and/or rotational relative-neighbor motion sufficient to constitute an EM-like native wave candidate without any added perturbation or electromagnetic input?",
+      "aliases": [
+        "DEV203 EM-like",
+        "intrinsic transverse relational motion"
+      ],
+      "keywords": [
+        "EM-like",
+        "transverse",
+        "orientation",
+        "rotation",
+        "relational wave"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev203_relational_wave"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Electric, magnetic, polarization, optical phase, SI and photon mappings remain independent derivations."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if the frozen trajectory or independent mapping derivations change."
+    },
+    {
+      "target_id": "native_relational_stress_coupling",
+      "canonical_name": "Native relational stress coupling",
+      "plain_language_question": "Does changing relative-neighbor geometry in the canonical DEV203 relational wave deterministically generate a transported native stress response through the frozen DEV167 interaction law?",
+      "aliases": [
+        "DEV204",
+        "relational stress",
+        "native force response"
+      ],
+      "keywords": [
+        "relational motion",
+        "stress response",
+        "orientation stress",
+        "finite force difference"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev204_relational_stress_coupling"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev204_relational_stress_coupling"
+      ],
+      "open_questions": [
+        "The response is a derived readout of bond geometry, not an independent added field."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV167 force law or canonical DEV195 trajectory changes."
+    },
+    {
+      "target_id": "native_two_sector_wave_coupling",
+      "canonical_name": "Native two-sector wave coupling",
+      "plain_language_question": "Do the symmetric and antisymmetric components of the canonical relational wave and their native stress responses form a closed complementary coupled wave structure without electromagnetic input?",
+      "aliases": [
+        "DEV204 two sector",
+        "relational stress feedback"
+      ],
+      "keywords": [
+        "symmetric",
+        "antisymmetric",
+        "feedback",
+        "kick drift"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev204_relational_stress_coupling"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No independently autonomous second field sector has been derived."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if an already-existing native invariant is independently shown to close a reduced state."
+    },
+    {
+      "target_id": "magnetic_stress_native_candidate",
+      "canonical_name": "Orientation-driven native stress candidate",
+      "plain_language_question": "Does the orientation/rotation-driven native stress response satisfy the structural requirements for a magnetic-like stress candidate prior to any mapping to the electromagnetic magnetic field?",
+      "aliases": [
+        "orientation stress candidate"
+      ],
+      "keywords": [
+        "orientation",
+        "rotation",
+        "transverse stress"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev204_relational_stress_coupling"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "Magnetic-field mapping remains unestablished."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Requires an independent EM mapping audit."
+    },
+    {
+      "target_id": "native_em_polar_axial_field_pair",
+      "canonical_name": "Native polar/axial field pair",
+      "plain_language_question": "Do the already-derived DEV203\u2013204 native relational quantities contain a uniquely identifiable co-propagating transverse polar/axial field pair?",
+      "aliases": [
+        "DEV205",
+        "native_em_polar_axial_field_pair"
+      ],
+      "keywords": [
+        "polar",
+        "axial",
+        "antisymmetric",
+        "handedness",
+        "native EM mapping"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev205_native_em_mapping"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No SI normalization or charge coupling is derived."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes."
+    },
+    {
+      "target_id": "native_electric_field_candidate",
+      "canonical_name": "Native electric field candidate",
+      "plain_language_question": "Does a predetermined native polar relational quantity satisfy the geometric and dynamical requirements for an electric-like field candidate without electromagnetic input?",
+      "aliases": [
+        "DEV205",
+        "native_electric_field_candidate"
+      ],
+      "keywords": [
+        "polar",
+        "axial",
+        "antisymmetric",
+        "handedness",
+        "native EM mapping"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev205_native_em_mapping"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No SI normalization or charge coupling is derived."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes."
+    },
+    {
+      "target_id": "native_magnetic_field_candidate",
+      "canonical_name": "Native magnetic field candidate",
+      "plain_language_question": "Does the axial projection of the DEV204 orientation/rotation-driven stress response satisfy the geometric and dynamical requirements for a magnetic-like field candidate?",
+      "aliases": [
+        "DEV205",
+        "native_magnetic_field_candidate"
+      ],
+      "keywords": [
+        "polar",
+        "axial",
+        "antisymmetric",
+        "handedness",
+        "native EM mapping"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev205_native_em_mapping"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No SI normalization or charge coupling is derived."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes."
+    },
+    {
+      "target_id": "native_em_mapping_uniqueness",
+      "canonical_name": "Native EM mapping uniqueness",
+      "plain_language_question": "Is the mapping from frozen native relational quantities to an electromagnetic-like field pair unique, or do multiple native candidates satisfy the same criteria?",
+      "aliases": [
+        "DEV205",
+        "native_em_mapping_uniqueness"
+      ],
+      "keywords": [
+        "polar",
+        "axial",
+        "antisymmetric",
+        "handedness",
+        "native EM mapping"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev205_native_em_mapping"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No SI normalization or charge coupling is derived."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes."
     }
   ],
   "attempts": [
@@ -3610,86 +4294,6 @@
       "confidence": "HIGH"
     },
     {
-      "attempt_id": "dev189_astronomical_source_boundary",
-      "target_id": "astronomical_source_boundary",
-      "name": "DEV189 astronomical source boundary and native launch-domain bridge",
-      "aliases": [
-        "AstronomicalNativeSourceBoundary/v1 audit"
-      ],
-      "summary": "Audits whether independent astronomical source content and coordinates can enter the frozen 121-state incident domain without lens reconstruction, fitted registration, morphology invention, or interpolation.",
-      "why_attempted": "DEV188 closes K s but deliberately leaves s astronomical semantics open.",
-      "date_started": "2026-08-12",
-      "date_completed": "2026-08-12",
-      "date_confidence": "HIGH",
-      "dev": "DEV189",
-      "pr": null,
-      "branch": "agent/dev173-coordinate-lineage",
-      "commits": [],
-      "files": [
-        "pbuf/observer/astronomical_source_boundary.py",
-        "tools/generate_dev189_astronomical_source_boundary.py"
-      ],
-      "run_directories": [
-        "runs/dev189_astronomical_source_boundary"
-      ],
-      "tests": [
-        "tests/test_dev189_astronomical_source_boundary.py"
-      ],
-      "equations": [],
-      "assumptions": [],
-      "inputs": [],
-      "outputs": [],
-      "result": "BLOCKED",
-      "result_reason": "Only observed post-propagation image information/status is present; no independently measured individual intrinsic source morphology, scale, or exact cell partition is available.",
-      "status_at_completion": "BLOCKED",
-      "current_status": "BLOCKED",
-      "canonical": true,
-      "superseded_by": [],
-      "supersedes": [],
-      "equivalent_to": [],
-      "derived_from": [
-        "dev171_independent_3d_source",
-        "dev174_coordinate_serialization",
-        "dev175_pyrrg_recovery",
-        "dev183_discrete_launch_domain_packet_lineage",
-        "dev187_physical_native_observer",
-        "dev188_native_source_distribution_pushforward"
-      ],
-      "ancestor_of": [],
-      "descendant_of": [],
-      "related_attempts": [],
-      "still_valid_components": [
-        "NativeIncidentDistribution/v1",
-        "NativeTransferOperator/v1",
-        "DEV183 121-state domain"
-      ],
-      "invalidated_components": [],
-      "successful_components": [
-        "anti-circularity boundary audit",
-        "similarity transform synthetic control"
-      ],
-      "failed_components": [
-        "object-level intrinsic astronomical source bridge"
-      ],
-      "physics_reusable": true,
-      "infrastructure_reusable": true,
-      "free_parameters": [],
-      "fitted_parameters": [],
-      "fixed_structural_normalizations": [],
-      "observational_inputs": [
-        false
-      ],
-      "reopen_condition": "Independent object-level pre-propagation source and fixed coordinate bridge.",
-      "do_not_repeat_reason": "Do not substitute the observed lensed image, GR/lens reconstruction, or fitted WCS registration.",
-      "evidence": [
-        {
-          "type": "file",
-          "value": "runs/dev189_astronomical_source_boundary/final_contract.json"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
       "attempt_id": "dev191_wide_observable_boundary",
       "target_id": "wide_observable_boundary",
       "name": "DEV191 wide-spectrum observable boundary and equivalence audit",
@@ -3943,85 +4547,6 @@
       "confidence": "HIGH"
     },
     {
-      "attempt_id": "dev190_source_independent_transfer_distortion",
-      "target_id": "source_independent_transfer_distortion",
-      "name": "DEV190 source-independent transfer-distortion invariant audit",
-      "aliases": [
-        "TransferCentroidJacobian/v1"
-      ],
-      "summary": "Derives source-independent conditional scalar transfer-centroid geometry and local 2x2 finite-difference tensors from frozen DEV188 arrays only.",
-      "why_attempted": "DEV188 preserves full multichannel source rank but does not itself define a physical channel metric.",
-      "date_started": "2026-08-12",
-      "date_completed": "2026-08-12",
-      "date_confidence": "HIGH",
-      "dev": "DEV190",
-      "pr": null,
-      "branch": "agent/dev173-coordinate-lineage",
-      "commits": [],
-      "files": [
-        "pbuf/observer/native_transfer_distortion.py",
-        "tools/generate_dev190_source_independent_transfer_distortion.py"
-      ],
-      "run_directories": [
-        "runs/dev190_source_independent_transfer_distortion"
-      ],
-      "tests": [
-        "tests/test_dev190_source_independent_transfer_distortion.py"
-      ],
-      "equations": [
-        "y_l=sum_c P(c|l)q_c",
-        "J_T=central periodic nearest-neighbor derivative of y_l"
-      ],
-      "assumptions": [],
-      "inputs": [],
-      "outputs": [],
-      "result": "FULL",
-      "result_reason": "The scalar positive measure and both native transverse coordinate systems supply a coefficient-free source-independent centroid map. The heterogeneous multichannel stack supplies no physical metric.",
-      "status_at_completion": "CANONICAL",
-      "current_status": "CANONICAL",
-      "canonical": true,
-      "superseded_by": [],
-      "supersedes": [],
-      "equivalent_to": [],
-      "derived_from": [
-        "dev183_discrete_launch_domain_packet_lineage",
-        "dev187_physical_native_observer",
-        "dev188_native_source_distribution_pushforward",
-        "dev189_astronomical_source_boundary"
-      ],
-      "ancestor_of": [],
-      "descendant_of": [],
-      "related_attempts": [],
-      "still_valid_components": [
-        "TransferCentroidJacobian/v1",
-        "conditional scalar transfer centroid"
-      ],
-      "invalidated_components": [],
-      "successful_components": [
-        "scalar conditional transport geometry"
-      ],
-      "failed_components": [
-        "physical multichannel output metric"
-      ],
-      "physics_reusable": true,
-      "infrastructure_reusable": true,
-      "free_parameters": [],
-      "fitted_parameters": [],
-      "fixed_structural_normalizations": [],
-      "observational_inputs": [
-        false
-      ],
-      "reopen_condition": "Observer semantics independently bridge native tensor to an observed quantity.",
-      "do_not_repeat_reason": "Do not turn full rank, SVD, or an arbitrary stacked norm into a physical metric.",
-      "evidence": [
-        {
-          "type": "file",
-          "value": "runs/dev190_source_independent_transfer_distortion/final_contract.json"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
       "attempt_id": "dev194_independent_event_wave_transport",
       "target_id": "independent_event_wave_transport",
       "name": "DEV194 independent-event wave transport and detector accumulation audit",
@@ -4104,6 +4629,1254 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev195_local_force_balance_restoration",
+      "target_id": "local_force_balance_restoration",
+      "name": "DEV195 local force-balance restoration and outgoing excitation audit",
+      "aliases": [
+        "matched-background local restoration"
+      ],
+      "summary": "Runs matched background and canonical R00 packet trajectories, resolving force residual and signed state by exact periodic lattice shells without modifying DEV167.",
+      "why_attempted": "DEV194 established a nonzero global endpoint residual but did not localize it or compare against the evolved background.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV195",
+      "pr": null,
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/local_force_balance_restoration.py",
+        "tools/generate_dev195_local_force_balance_restoration.py"
+      ],
+      "run_directories": [
+        "runs/dev195_local_force_balance_restoration"
+      ],
+      "tests": [
+        "tests/test_dev195_local_force_balance_restoration.py"
+      ],
+      "equations": [
+        "F_net=sum_b sigma(epsilon_ab) r_hat_ab",
+        "R_F(Omega)=sum_a_in_Omega |F_net(a)|^2"
+      ],
+      "assumptions": [],
+      "inputs": [
+        "DEV184 R00 loaded background",
+        "DEV182 canonical packet"
+      ],
+      "outputs": [
+        "matched state trajectories",
+        "exact shell decomposition"
+      ],
+      "result": "FULL",
+      "result_reason": "Classification DERIVED_OSCILLATORY is based on raw matched-background displacement, momentum, force, flux, and periodic-shell trajectories; no threshold defines restoration.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev168_finite_loaded_receipt",
+        "dev182_native_packet_launch_representation",
+        "dev184_discrete_launch_density_convergence",
+        "dev194_independent_event_wave_transport"
+      ],
+      "ancestor_of": [
+        "dev194_independent_event_wave_transport"
+      ],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "DEV194 global residual measurement"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "time-matched local diagnostic"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Use the recorded local state/support trajectories for a separately authorized existing-semantics second-event audit.",
+      "do_not_repeat_reason": "Do not substitute a global norm for source-region and shell-resolved matched-background diagnostics.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev195_local_force_balance_restoration/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev196_sequential_event_independence",
+      "target_id": "sequential_event_independence",
+      "name": "DEV196 sequential second-excitation injection and independence test",
+      "aliases": [
+        "second-event audit"
+      ],
+      "summary": "Applies the unmodified DEV182 additive displacement/momentum packet to time-matched background and evolved A states, then uses matched subtraction to preserve all interaction residuals.",
+      "why_attempted": "DEV195 established local outgoing restoration but intentionally left second-event semantics unimplemented.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV196",
+      "pr": null,
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/sequential_event_independence.py",
+        "tools/generate_dev196_sequential_event_independence.py"
+      ],
+      "run_directories": [
+        "runs/dev196_sequential_event_independence"
+      ],
+      "tests": [
+        "tests/test_dev196_sequential_event_independence.py"
+      ],
+      "equations": [
+        "delta_B^A=X_A_to_B-X_A",
+        "delta_B^0=X_B-X_0",
+        "Delta_AB=delta_B^A-delta_B^0"
+      ],
+      "assumptions": [],
+      "inputs": [
+        "DEV195 matched trajectories",
+        "DEV182 canonical packet"
+      ],
+      "outputs": [
+        "matched B increments",
+        "interaction residuals",
+        "exact support relations"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "Injection semantics are directly reusable, and the source B increment is exactly identical at launch by the same additive operation. However all sampled trajectories have overlapping exact native support, so the required disjoint-event response comparison is unresolved; overlapping nonlinear interaction residuals are preserved without a threshold.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev182_native_packet_launch_representation",
+        "dev184_discrete_launch_density_convergence",
+        "dev194_independent_event_wave_transport",
+        "dev195_local_force_balance_restoration"
+      ],
+      "ancestor_of": [
+        "dev194_independent_event_wave_transport"
+      ],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "DEV195 local restoration"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "valid-state additive injection semantics"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Run only an existing-semantics test that contains a structurally disjoint pre-recurrence support interval.",
+      "do_not_repeat_reason": "Do not call exact-support overlap interaction a disjoint-event result.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev196_sequential_event_independence/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev197_cross_event_influence",
+      "target_id": "cross_event_influence",
+      "name": "DEV197 cross-event influence magnitude audit",
+      "aliases": [
+        "cross-event magnitude"
+      ],
+      "summary": "Reuses frozen DEV196 matched residuals, reports channelwise absolute and relative influence without thresholds or denominator regularization, and compares them with an empirical deterministic replay floor.",
+      "why_attempted": "Exact support overlap is geometry, not by itself a physical interaction magnitude.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV197",
+      "pr": null,
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/cross_event_influence.py",
+        "tools/generate_dev197_cross_event_influence.py"
+      ],
+      "run_directories": [
+        "runs/dev197_cross_event_influence"
+      ],
+      "tests": [
+        "tests/test_dev197_cross_event_influence.py"
+      ],
+      "equations": [
+        "Delta_B=delta_B_after_A-delta_B_fresh",
+        "rho_F=abs(Delta_F)/abs(F_B_fresh)"
+      ],
+      "assumptions": [],
+      "inputs": [
+        "frozen DEV196 trajectories",
+        "DEV167 force and flux",
+        "DEV168/177 receipt channels"
+      ],
+      "outputs": [
+        "cross-event channel residuals",
+        "relative ratios",
+        "replay floor",
+        "receipt comparisons"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "Frozen DEV196 T1/T2/T3 trajectories show resolved native and receipt-level cross-event changes. Exact support overlap is retained only as geometry; the finite audited regime is not authorized for independent-event transport.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev168_finite_loaded_receipt",
+        "dev177_full_received_state",
+        "dev182_native_packet_launch_representation",
+        "dev195_local_force_balance_restoration",
+        "dev196_sequential_event_independence"
+      ],
+      "ancestor_of": [
+        "dev194_independent_event_wave_transport"
+      ],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev196_sequential_event_independence"
+      ],
+      "still_valid_components": [
+        "DEV196 exact-support geometry"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "threshold-free native influence decomposition"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Use predeclared sequential timing only if frozen dynamics or the canonical packet changes independently.",
+      "do_not_repeat_reason": "Do not use boolean support overlap as a physical independence gate.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev197_cross_event_influence/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev198_field_strength_cross_event",
+      "target_id": "field_strength_cross_event_control",
+      "name": "DEV198 field-strength-controlled cross-event influence audit",
+      "aliases": [
+        "field control"
+      ],
+      "summary": "Uses every fixed pre-recurrence native launch time, matched A/background subtraction, and unchanged canonical packet to compare residual local native fields with B response.",
+      "why_attempted": "DEV197 established finite cross-event residuals but time labels are not a physical control variable.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV198",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/field_strength_cross_event.py",
+        "tools/generate_dev198_field_strength_cross_event.py"
+      ],
+      "run_directories": [
+        "runs/dev198_field_strength_cross_event"
+      ],
+      "tests": [
+        "tests/test_dev198_field_strength_cross_event.py"
+      ],
+      "equations": [
+        "F_A_residual=F[X_A]-F[X_0]",
+        "Delta_B=delta_B_after_A-delta_B_fresh"
+      ],
+      "assumptions": [
+        "fixed DEV195 pre-recurrence 0..180 interval"
+      ],
+      "inputs": [
+        "frozen DEV167, DEV182, DEV195-197 lineage"
+      ],
+      "outputs": [
+        "raw field/influence time traces and orientation audit"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "The complete fixed pre-recurrence sequence is classified NONMONOTONIC by force-magnitude ordering; magnitude alone is insufficient without retained orientation and strain geometry.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev168_finite_loaded_receipt",
+        "dev177_full_received_state",
+        "dev182_native_packet_launch_representation",
+        "dev195_local_force_balance_restoration",
+        "dev196_sequential_event_independence",
+        "dev197_cross_event_influence"
+      ],
+      "ancestor_of": [
+        "dev194_independent_event_wave_transport"
+      ],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev197_cross_event_influence"
+      ],
+      "still_valid_components": [
+        "DEV197 matched residual definition"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "field-state-resolved diagnostic"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "0..180 pre-recurrence integer sequence"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Reassess only if frozen native dynamics or canonical packet change independently.",
+      "do_not_repeat_reason": "Do not classify control from support overlap or elapsed time alone.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev198_field_strength_cross_event/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev199_local_state_cross_event",
+      "target_id": "full_local_state_cross_event_control",
+      "name": "DEV199 local-state cross-event derivation",
+      "aliases": [
+        "DEV199 phase A"
+      ],
+      "summary": "Exact four-state positive-N6 bond inclusion--exclusion reconstruction under frozen DEV167 dynamics.",
+      "why_attempted": "DEV198 excluded scalar force magnitude as a sufficient reduction.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV199",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/local_state_cross_event.py",
+        "tools/generate_dev199_local_state_cross_event.py"
+      ],
+      "run_directories": [
+        "runs/dev199_local_state_em_correlation/phase_a"
+      ],
+      "tests": [
+        "tests/test_dev199_local_state_cross_event.py"
+      ],
+      "equations": [
+        "F=sigma(epsilon) rhat",
+        "DeltaF_AB=F_AB-F_A-F_B+F_0"
+      ],
+      "assumptions": [
+        "frozen DEV167/DEV182"
+      ],
+      "inputs": [
+        "DEV195 trajectory",
+        "DEV196 matched trajectories",
+        "DEV198 complete scalar ordering"
+      ],
+      "outputs": [
+        "four-state bond arrays",
+        "local path trace",
+        "perturbative expansion"
+      ],
+      "result": "FULL",
+      "result_reason": "Exact DEV167 four-state reconstruction closes at the local bond update; detector differences are the deterministic path-integrated sequence of these local N6 updates.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev182_native_packet_launch_representation",
+        "dev195_local_force_balance_restoration",
+        "dev196_sequential_event_independence",
+        "dev197_cross_event_influence",
+        "dev198_field_strength_cross_event"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev198_field_strength_cross_event"
+      ],
+      "still_valid_components": [
+        "DEV198 magnitude insufficiency"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "exact local bond reconstruction"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "all 181 pre-recurrence times"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only if DEV167 or DEV182 changes independently.",
+      "do_not_repeat_reason": "No regression or state-vector fitting is admissible.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev199_local_state_em_correlation/phase_a/phase_A_freeze.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev199_em_structural_correlation",
+      "target_id": "em_wave_structural_correlation",
+      "name": "DEV199 frozen EM structural comparison",
+      "aliases": [
+        "DEV199 phase B"
+      ],
+      "summary": "Read-only categorical comparison of frozen native interaction structure with primary QED literature.",
+      "why_attempted": "The native result was frozen before external comparison.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV199",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/validation/em_structural_correlation.py",
+        "tools/generate_dev199_em_structural_correlation.py"
+      ],
+      "run_directories": [
+        "runs/dev199_local_state_em_correlation/phase_b"
+      ],
+      "tests": [
+        "tests/test_dev199_em_structural_correlation.py"
+      ],
+      "equations": [
+        "frozen Phase-A DEV167 law only; no QED coefficient imported"
+      ],
+      "assumptions": [
+        "structural rather than numerical comparison"
+      ],
+      "inputs": [
+        "immutable DEV199 Phase-A freeze",
+        "primary QED research literature"
+      ],
+      "outputs": [
+        "categorical structural signature matrix"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "Frozen Phase-A local-state closure has a positive but strictly structural comparison with primary EM/QED interaction literature.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev199_local_state_cross_event"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "Phase-A native derivation"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "anti-circular structural comparison"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only after an independently derived PBUF-to-observable mapping.",
+      "do_not_repeat_reason": "No SI conversion or coefficient fit is permitted.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev199_local_state_em_correlation/phase_b/em_structural_signature_matrix.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev200_native_n6_field",
+      "target_id": "native_n6_field_representation",
+      "name": "DEV200 native N6 field and weak-event audit",
+      "aliases": [
+        "DEV200"
+      ],
+      "summary": "Reconstructs canonical propagation as directional N6 bond state plus momentum and measures exact vector tangent remainders.",
+      "why_attempted": "DEV199 closed local-state control while leaving canonical weak membership unresolved.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV200",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_n6_field.py",
+        "pbuf/observer/weak_event_regime.py",
+        "tools/generate_dev200_native_n6_field.py"
+      ],
+      "run_directories": [
+        "runs/dev200_native_n6_field"
+      ],
+      "tests": [
+        "tests/test_dev200_native_n6_field.py",
+        "tests/test_dev200_weak_event_regime.py"
+      ],
+      "equations": [
+        "F=sigma(epsilon) rhat",
+        "F_tangent=F_0+DF_0[delta r]",
+        "R_NL=F_exact-F_tangent"
+      ],
+      "assumptions": [
+        "frozen DEV167/DEV182/DEV199"
+      ],
+      "inputs": [
+        "DEV195 trajectories",
+        "DEV199 Phase-A freeze"
+      ],
+      "outputs": [
+        "N6 pattern traces",
+        "exact tangent and cross-term distributions"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "N6 state plus momentum is sufficient; canonical first-order/cross-term ordering is mixed without a threshold.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev182_native_packet_launch_representation",
+        "dev195_local_force_balance_restoration",
+        "dev199_local_state_cross_event"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev198_field_strength_cross_event"
+      ],
+      "still_valid_components": [
+        "DEV199 full local-state control"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "N6 field sufficiency"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "181 pre-recurrence times"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only if DEV167 or DEV182 changes independently.",
+      "do_not_repeat_reason": "No scalar reduction, threshold, or amplitude sweep is admissible.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev200_native_n6_field/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev201_native_linear_modes",
+      "target_id": "native_linear_mode_spectrum",
+      "name": "DEV201 native linearized N6 mode spectrum",
+      "aliases": [
+        "DEV201"
+      ],
+      "summary": "Analytically assembles the unloaded DEV167 tangent kick-drift symbol and diagonalizes every exact periodic wavevector.",
+      "why_attempted": "DEV200 made the N6 bond-state plus momentum representation canonical.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV201",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/foundation/native_linear_modes.py",
+        "pbuf/observer/native_mode_classification.py",
+        "tools/generate_dev201_native_linear_modes.py"
+      ],
+      "run_directories": [
+        "runs/dev201_native_linear_modes"
+      ],
+      "tests": [
+        "tests/test_dev201_native_linear_modes.py",
+        "tests/test_dev201_mode_classification.py"
+      ],
+      "equations": [
+        "L(k)=diag(-4 sin^2(k_i/2))",
+        "M(k)=[[I+h^2L,hI],[hL,I]]"
+      ],
+      "assumptions": [
+        "unloaded homogeneous DEV167 equilibrium; h=0.04 frozen numerical step"
+      ],
+      "inputs": [
+        "DEV151 historical guardrail",
+        "DEV155/156 history",
+        "DEV167 dynamics",
+        "DEV182 initialization only",
+        "DEV199/DEV200 tangent work"
+      ],
+      "outputs": [
+        "exact periodic dynamical matrices and discrete eigenpairs"
+      ],
+      "result": "FULL",
+      "result_reason": "Longitudinal coordinate branches propagate; robust transverse radiative modes do not.",
+      "status_at_completion": "FULL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev200_native_n6_field"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "historical_scalar_gradient_lensing"
+      ],
+      "still_valid_components": [
+        "DEV200 N6 canonical state"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "Exact discrete tangent spectrum"
+      ],
+      "failed_components": [
+        "EM-like transverse wave sector"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "N6 unit bond length",
+        "DEV167 h=0.04"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only independent change to DEV167 dynamics or background.",
+      "do_not_repeat_reason": "No Maxwell input, continuum import, or transverse-link representation is admissible.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev201_native_linear_modes/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev202_self_loaded_transverse",
+      "target_id": "self_loaded_transverse_native_response",
+      "name": "DEV202 self-loaded transverse tangent audit",
+      "aliases": [
+        "DEV202"
+      ],
+      "summary": "Exact loaded DEV167 bond tangent and derivative-space probes over the predetermined DEV195 trajectory.",
+      "why_attempted": "DEV201 established that the unloaded N6 vacuum is transverse-floppy.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV202",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/foundation/loaded_native_tangent.py",
+        "pbuf/observer/self_loaded_transverse.py",
+        "tools/generate_dev202_self_loaded_transverse.py"
+      ],
+      "run_directories": [
+        "runs/dev202_self_loaded_transverse"
+      ],
+      "tests": [
+        "tests/test_dev202_loaded_native_tangent.py",
+        "tests/test_dev202_self_loaded_transverse.py"
+      ],
+      "equations": [
+        "K_parallel=sigma'(epsilon)",
+        "K_perp=sigma(epsilon)/ell",
+        "delta F=(K_parallel nn+K_perp(I-nn))delta r"
+      ],
+      "assumptions": [
+        "canonical DEV195 excited trajectory, 0..180 only; frozen DEV167 h=0.04"
+      ],
+      "inputs": [
+        "DEV151",
+        "DEV167",
+        "DEV195",
+        "DEV199",
+        "DEV200",
+        "DEV201"
+      ],
+      "outputs": [
+        "loaded bond stiffness and time-dependent tangent probes"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "Loaded geometric transverse coefficients exist, but the complete nonuniform tangent response is state-dependent.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev195_local_force_balance_restoration",
+        "dev200_native_n6_field",
+        "dev201_native_linear_modes"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev151_shared_state_cross_coupling"
+      ],
+      "still_valid_components": [
+        "DEV201 unloaded spectrum",
+        "DEV200 N6 state"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "Exact self-loaded geometric tangent"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "DEV195 181 pre-recurrence timesteps",
+        "unit L2 tangent probe"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only if frozen inputs change.",
+      "do_not_repeat_reason": "No hand-chosen prestress or shear force is admissible.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev202_self_loaded_transverse/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev203_relational_wave",
+      "target_id": "propagating_relative_neighbor_motion",
+      "name": "DEV203 propagating relative-neighbor motion",
+      "aliases": [
+        "DEV203"
+      ],
+      "summary": "Read-only bond-resolved differences of the pre-existing canonical DEV195 trajectory, retaining N6 identity and signed vector direction.",
+      "why_attempted": "DEV200 established the canonical N6 field and DEV201/202 addressed different tangent-probe questions.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV203",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/relative_neighbor_motion.py",
+        "pbuf/observer/relational_wave_content.py",
+        "tools/generate_dev203_relational_wave.py"
+      ],
+      "run_directories": [
+        "runs/dev203_relational_wave"
+      ],
+      "tests": [
+        "tests/test_dev203_relative_neighbor_motion.py",
+        "tests/test_dev203_relational_wave_content.py"
+      ],
+      "equations": [
+        "delta r_ab=r_ab(t+1)-r_ab(t)",
+        "delta epsilon_ab=epsilon_ab(t+1)-epsilon_ab(t)",
+        "delta F_ab=F_ab(t+1)-F_ab(t)"
+      ],
+      "assumptions": [
+        "frozen DEV167 dynamics; predetermined DEV195 times 0..180; DEV182 +x launch/receipt geometry"
+      ],
+      "inputs": [
+        "DEV155",
+        "DEV156",
+        "DEV167",
+        "DEV182",
+        "DEV195",
+        "DEV199",
+        "DEV200",
+        "DEV201",
+        "DEV202"
+      ],
+      "outputs": [
+        "bond-resolved relational-motion trajectory and coefficient-free pattern comparisons"
+      ],
+      "result": "FULL",
+      "result_reason": "candidate=DERIVED_STRONG; propagation=DERIVED; transverse=PRESENT; transport=CO_MOVING; coherence=COHERENT; source=MIXED; rotation=PRESENT.",
+      "status_at_completion": "FULL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev195_local_force_balance_restoration",
+        "dev200_native_n6_field"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev201_native_linear_modes",
+        "dev202_self_loaded_transverse"
+      ],
+      "still_valid_components": [
+        "DEV201 unloaded tangent result",
+        "DEV202 loaded tangent result"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "Native relational-motion descriptor"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "180 fixed DEV195 pre-recurrence updates",
+        "DEV182 launch-to-receipt displacement 7/180 per update"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only if frozen inputs change.",
+      "do_not_repeat_reason": "No extra packet, tangent probe, scalar-gradient carrier, prestress, or EM input is admissible.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev203_relational_wave/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev204_relational_stress_coupling",
+      "target_id": "native_relational_stress_coupling",
+      "name": "DEV204 native relational motion-stress coupling",
+      "aliases": [
+        "DEV204"
+      ],
+      "summary": "Exact finite-step decomposition of frozen DEV167 bond-force changes along the canonical DEV203 trajectory, including the nonlinear cross term and kick-drift feedback audit.",
+      "why_attempted": "DEV203 established the transported relational wave and rotation signature.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV204",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_stress_response.py",
+        "pbuf/observer/relational_stress_coupling.py",
+        "tools/generate_dev204_relational_stress_coupling.py"
+      ],
+      "run_directories": [
+        "runs/dev204_relational_stress_coupling"
+      ],
+      "tests": [
+        "tests/test_dev204_native_stress_response.py",
+        "tests/test_dev204_relational_stress_coupling.py"
+      ],
+      "equations": [
+        "dF=(sigma1-sigma0)u0+sigma0(u1-u0)+(sigma1-sigma0)(u1-u0)",
+        "p_(n+1)=p_n+h F_net(r_n)",
+        "r_(n+1)=r_n+h[p_(n)+hF_net(r_n)]"
+      ],
+      "assumptions": [
+        "frozen DEV167 pair law and canonical DEV195 trajectory"
+      ],
+      "inputs": [
+        "DEV167",
+        "DEV195",
+        "DEV199",
+        "DEV200",
+        "DEV201",
+        "DEV202",
+        "DEV203"
+      ],
+      "outputs": [
+        "native force response tensors and exact discrete feedback identity"
+      ],
+      "result": "FULL",
+      "result_reason": "coupling=DERIVED; cycle=CLOSED; orientation=DERIVED; candidate=PARTIAL_NATIVE_CANDIDATE.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev195_local_force_balance_restoration",
+        "dev203_relational_wave"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev203_relational_wave"
+      ],
+      "still_valid_components": [
+        "DEV201 unloaded tangent result",
+        "DEV202 loaded tangent result",
+        "DEV203 relational wave"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "Exact finite-step native stress decomposition",
+        "Kick-drift relation-stress-momentum cycle"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "existing DEV195 timestep only"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only if frozen inputs change.",
+      "do_not_repeat_reason": "No new force, field, tangent probe, propagation law, or EM construction is admissible.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev204_relational_stress_coupling/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev189_astronomical_source_boundary",
+      "target_id": "astronomical_source_boundary",
+      "name": "DEV189 astronomical source boundary and native launch-domain bridge",
+      "aliases": [
+        "AstronomicalNativeSourceBoundary/v1 audit"
+      ],
+      "summary": "Audits whether independent astronomical source content and coordinates can enter the frozen 121-state incident domain without lens reconstruction, fitted registration, morphology invention, or interpolation.",
+      "why_attempted": "DEV188 closes K s but deliberately leaves s astronomical semantics open.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV189",
+      "pr": null,
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/astronomical_source_boundary.py",
+        "tools/generate_dev189_astronomical_source_boundary.py"
+      ],
+      "run_directories": [
+        "runs/dev189_astronomical_source_boundary"
+      ],
+      "tests": [
+        "tests/test_dev189_astronomical_source_boundary.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "BLOCKED",
+      "result_reason": "Only observed post-propagation image information/status is present; no independently measured individual intrinsic source morphology, scale, or exact cell partition is available.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev171_independent_3d_source",
+        "dev174_coordinate_serialization",
+        "dev175_pyrrg_recovery",
+        "dev183_discrete_launch_domain_packet_lineage",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "NativeIncidentDistribution/v1",
+        "NativeTransferOperator/v1",
+        "DEV183 121-state domain"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "anti-circularity boundary audit",
+        "similarity transform synthetic control"
+      ],
+      "failed_components": [
+        "object-level intrinsic astronomical source bridge"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Independent object-level pre-propagation source and fixed coordinate bridge.",
+      "do_not_repeat_reason": "Do not substitute the observed lensed image, GR/lens reconstruction, or fitted WCS registration.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev189_astronomical_source_boundary/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev190_source_independent_transfer_distortion",
+      "target_id": "source_independent_transfer_distortion",
+      "name": "DEV190 source-independent transfer-distortion invariant audit",
+      "aliases": [
+        "TransferCentroidJacobian/v1"
+      ],
+      "summary": "Derives source-independent conditional scalar transfer-centroid geometry and local 2x2 finite-difference tensors from frozen DEV188 arrays only.",
+      "why_attempted": "DEV188 preserves full multichannel source rank but does not itself define a physical channel metric.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV190",
+      "pr": null,
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_transfer_distortion.py",
+        "tools/generate_dev190_source_independent_transfer_distortion.py"
+      ],
+      "run_directories": [
+        "runs/dev190_source_independent_transfer_distortion"
+      ],
+      "tests": [
+        "tests/test_dev190_source_independent_transfer_distortion.py"
+      ],
+      "equations": [
+        "y_l=sum_c P(c|l)q_c",
+        "J_T=central periodic nearest-neighbor derivative of y_l"
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "The scalar positive measure and both native transverse coordinate systems supply a coefficient-free source-independent centroid map. The heterogeneous multichannel stack supplies no physical metric.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev183_discrete_launch_domain_packet_lineage",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward",
+        "dev189_astronomical_source_boundary"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "TransferCentroidJacobian/v1",
+        "conditional scalar transfer centroid"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "scalar conditional transport geometry"
+      ],
+      "failed_components": [
+        "physical multichannel output metric"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Observer semantics independently bridge native tensor to an observed quantity.",
+      "do_not_repeat_reason": "Do not turn full rank, SVD, or an arbitrary stacked norm into a physical metric.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev190_source_independent_transfer_distortion/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev205_native_em_mapping",
+      "target_id": "native_em_polar_axial_field_pair",
+      "name": "DEV205 independent native-to-electromagnetic mapping audit",
+      "aliases": [
+        "DEV205"
+      ],
+      "summary": "Read-only geometry, parity, transport, source and uniqueness audit of the frozen DEV203\u2013204 candidate inventory.",
+      "why_attempted": "Test the exact transformation geometry required before any EM correspondence is claimed.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV205",
+      "branch": "agent/dev195-local-force-balance",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_em_candidates.py",
+        "pbuf/observer/native_em_geometry.py",
+        "pbuf/observer/native_em_mapping.py",
+        "tools/generate_dev205_native_em_mapping.py"
+      ],
+      "run_directories": [
+        "runs/dev205_native_em_mapping"
+      ],
+      "tests": [
+        "tests/test_dev205_native_em_candidates.py",
+        "tests/test_dev205_native_em_geometry.py",
+        "tests/test_dev205_native_em_mapping.py"
+      ],
+      "equations": [
+        "Q_i=1/2 epsilon_ijk A_jk",
+        "P dot Q",
+        "P cross Q"
+      ],
+      "assumptions": [
+        "frozen DEV167 dynamics; canonical DEV195 trajectory; DEV203/204 definitions"
+      ],
+      "inputs": [
+        "DEV167",
+        "DEV195",
+        "DEV199",
+        "DEV200",
+        "DEV201",
+        "DEV202",
+        "DEV203",
+        "DEV204"
+      ],
+      "outputs": [
+        "predeclared native polar/axial candidate classifications"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "pair=DERIVED; electric=PARTIAL; magnetic=PARTIAL; uniqueness=NOT_ESTABLISHED.",
+      "status_at_completion": "PARTIAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev203_relational_wave",
+        "dev204_relational_stress_coupling"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev199_em_structural_correlation"
+      ],
+      "still_valid_components": [
+        "DEV203 relational wave",
+        "DEV204 relation/stress cycle"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "Exact axial tensor dual and no-fit candidate audit"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [
+        "canonical N6 orientation and DEV182 +x propagation direction"
+      ],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Only if frozen inputs change.",
+      "do_not_repeat_reason": "No new fields, combinations, force, propagation or EM coefficient may be introduced.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev205_native_em_mapping/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "equivalences": [
@@ -4123,9 +5896,9 @@
   ],
   "current_frontiers": [
     {
-      "target_id": "independent_event_wave_transport",
-      "status": "BLOCKED",
-      "reason": "Single-event state is distributed but persistent memory prevents an independent event ensemble."
+      "target_id": "source_independent_transfer_distortion",
+      "status": "CANONICAL",
+      "reason": "A native local transfer tensor is derived; observational bridge remains separately closed."
     }
   ]
 }

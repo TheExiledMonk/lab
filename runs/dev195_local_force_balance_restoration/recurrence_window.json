@@ -1,0 +1,8 @@
+{
+  "PRE_RECURRENCE_WINDOW": "0..180 (DEV194 receipt endpoint); later evolution retained only as recurrence diagnostic",
+  "first_possible_periodic_topological_return": "A periodic lattice has no absorbing exterior; exact modal return time is not supplied by DEV167 and is not fitted.",
+  "structural_duration_steps": {
+    "continuation": 360,
+    "receipt_interval": 180
+  }
+}

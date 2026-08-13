@@ -1,0 +1,48 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "excitation amplitude": [
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL"
+    ],
+    "field strength": [
+      "TARGET: Cross-event influence magnitude",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Field-strength-controlled cross-event influence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV197  DEV197 cross-event influence magnitude audit  PARTIAL / PARTIAL",
+      "DEV198  DEV198 field-strength-controlled cross-event influence audit  PARTIAL / PARTIAL"
+    ],
+    "influence duration": [
+      "TARGET: Field-strength-controlled cross-event influence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV198  DEV198 field-strength-controlled cross-event influence audit  PARTIAL / PARTIAL"
+    ],
+    "loading strength": [],
+    "local force magnitude": [
+      "TARGET: Field-strength-controlled cross-event influence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV198  DEV198 field-strength-controlled cross-event influence audit  PARTIAL / PARTIAL"
+    ],
+    "nonlinear response scaling": [],
+    "persistence": [
+      "TARGET: Local force-balance restoration",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Field-strength-controlled cross-event influence",
+      "STATUS: PARTIAL",
+      "",
+      "DEV194  DEV194 independent-event wave transport and detector accumulation audit  BLOCKED / BLOCKED",
+      "DEV195  DEV195 local force-balance restoration and outgoing excitation audit  FULL / PARTIAL",
+      "DEV198  DEV198 field-strength-controlled cross-event influence audit  PARTIAL / PARTIAL"
+    ],
+    "perturbation amplitude": [],
+    "relaxation time": [],
+    "strain magnitude": [
+      "DEV198  DEV198 field-strength-controlled cross-event influence audit  PARTIAL / PARTIAL"
+    ]
+  }
+}

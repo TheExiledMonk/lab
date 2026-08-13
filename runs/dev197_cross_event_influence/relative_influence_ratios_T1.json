@@ -1,0 +1,530 @@
+{
+  "displacement": {
+    "B_active_packet_region": {
+      "absolute_cross_effect": {
+        "defined_count": 8869,
+        "l2": 0.00019027378793893857,
+        "max": 8.399870191834421e-06
+      },
+      "ratio": {
+        "defined_count": 8849,
+        "l2": 384.59333277399816,
+        "max": 126.00238865554492
+      },
+      "ratio_defined": true
+    },
+    "B_launch_region": {
+      "absolute_cross_effect": {
+        "defined_count": 8869,
+        "l2": 0.00019027378793893857,
+        "max": 8.399870191834421e-06
+      },
+      "ratio": {
+        "defined_count": 8849,
+        "l2": 384.59333277399816,
+        "max": 126.00238865554492
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_0": {
+      "absolute_cross_effect": {
+        "defined_count": 181,
+        "l2": 1.39734303939808e-05,
+        "max": 2.0222966249956776e-06
+      },
+      "ratio": {
+        "defined_count": 181,
+        "l2": 0.19570459560652415,
+        "max": 0.14252192163008198
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_1": {
+      "absolute_cross_effect": {
+        "defined_count": 4706,
+        "l2": 0.0001541308896569713,
+        "max": 7.957792849265662e-06
+      },
+      "ratio": {
+        "defined_count": 4706,
+        "l2": 4.742619403804108,
+        "max": 2.531066621872942
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_2": {
+      "absolute_cross_effect": {
+        "defined_count": 17738,
+        "l2": 0.00023378712234379772,
+        "max": 8.399870191834421e-06
+      },
+      "ratio": {
+        "defined_count": 17728,
+        "l2": 159.83382851913234,
+        "max": 12.341794614078486
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_3": {
+      "absolute_cross_effect": {
+        "defined_count": 39458,
+        "l2": 0.00024915990294512984,
+        "max": 8.30733985104383e-06
+      },
+      "ratio": {
+        "defined_count": 39279,
+        "l2": 4930.964060013913,
+        "max": 4892.4848226327495
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_4": {
+      "absolute_cross_effect": {
+        "defined_count": 69866,
+        "l2": 0.00019398996045899125,
+        "max": 7.609512900918517e-06
+      },
+      "ratio": {
+        "defined_count": 67926,
+        "l2": 5766311103644691.0,
+        "max": 4611682479952336.0
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_5": {
+      "absolute_cross_effect": {
+        "defined_count": 108962,
+        "l2": 9.603367809865804e-05,
+        "max": 7.580805650418796e-06
+      },
+      "ratio": {
+        "defined_count": 97197,
+        "l2": 2.665776833891965e+19,
+        "max": 1.6056046041756795e+19
+      },
+      "ratio_defined": true
+    },
+    "full_lattice": {
+      "absolute_cross_effect": {
+        "defined_count": 240911,
+        "l2": 0.0004330626234170708,
+        "max": 8.399870191834421e-06
+      },
+      "ratio": {
+        "defined_count": 227017,
+        "l2": 2.6657768962571694e+19,
+        "max": 1.6056046041756795e+19
+      },
+      "ratio_defined": true
+    },
+    "receipt_region": {
+      "absolute_cross_effect": {
+        "defined_count": 240911,
+        "l2": 0.0004330626234170708,
+        "max": 8.399870191834421e-06
+      },
+      "ratio": {
+        "defined_count": 227017,
+        "l2": 2.6657768962571694e+19,
+        "max": 1.6056046041756795e+19
+      },
+      "ratio_defined": true
+    }
+  },
+  "flux": {
+    "B_active_packet_region": {
+      "absolute_cross_effect": {
+        "defined_count": 8869,
+        "l2": 0.00014229528808741326,
+        "max": 2.438274419940922e-05
+      },
+      "ratio": {
+        "defined_count": 8862,
+        "l2": 4778.694248150327,
+        "max": 2376.06701370408
+      },
+      "ratio_defined": true
+    },
+    "B_launch_region": {
+      "absolute_cross_effect": {
+        "defined_count": 8869,
+        "l2": 0.00014229528808741326,
+        "max": 2.438274419940922e-05
+      },
+      "ratio": {
+        "defined_count": 8862,
+        "l2": 4778.694248150327,
+        "max": 2376.06701370408
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_0": {
+      "absolute_cross_effect": {
+        "defined_count": 181,
+        "l2": 0.00013278586995451902,
+        "max": 2.438274419940922e-05
+      },
+      "ratio": {
+        "defined_count": 181,
+        "l2": 370.4040787352273,
+        "max": 279.2233914866059
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_1": {
+      "absolute_cross_effect": {
+        "defined_count": 4706,
+        "l2": 0.0001993188833748957,
+        "max": 2.553774824097574e-05
+      },
+      "ratio": {
+        "defined_count": 4706,
+        "l2": 3822.4810867265014,
+        "max": 2818.985069678376
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_2": {
+      "absolute_cross_effect": {
+        "defined_count": 17738,
+        "l2": 0.00017117779937881106,
+        "max": 2.411522710504558e-05
+      },
+      "ratio": {
+        "defined_count": 17738,
+        "l2": 134994.26720861526,
+        "max": 91451.22532243596
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_3": {
+      "absolute_cross_effect": {
+        "defined_count": 39458,
+        "l2": 0.0001289730941193339,
+        "max": 2.182771200620609e-05
+      },
+      "ratio": {
+        "defined_count": 39406,
+        "l2": 2286527.7086743675,
+        "max": 2285662.362500773
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_4": {
+      "absolute_cross_effect": {
+        "defined_count": 69866,
+        "l2": 8.069605293101682e-05,
+        "max": 1.9692955087161777e-05
+      },
+      "ratio": {
+        "defined_count": 68623,
+        "l2": 1.963907339964109e+16,
+        "max": 1.3270456575170142e+16
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_5": {
+      "absolute_cross_effect": {
+        "defined_count": 108962,
+        "l2": 5.439257541138641e-05,
+        "max": 7.818108709983925e-06
+      },
+      "ratio": {
+        "defined_count": 100337,
+        "l2": 3525922634944.489,
+        "max": 3517750341975.939
+      },
+      "ratio_defined": true
+    },
+    "full_lattice": {
+      "absolute_cross_effect": {
+        "defined_count": 240911,
+        "l2": 0.000335807099023822,
+        "max": 2.553774824097574e-05
+      },
+      "ratio": {
+        "defined_count": 230991,
+        "l2": 1.963907371615628e+16,
+        "max": 1.3270456575170142e+16
+      },
+      "ratio_defined": true
+    },
+    "receipt_region": {
+      "absolute_cross_effect": {
+        "defined_count": 240911,
+        "l2": 0.000335807099023822,
+        "max": 2.553774824097574e-05
+      },
+      "ratio": {
+        "defined_count": 230991,
+        "l2": 1.963907371615628e+16,
+        "max": 1.3270456575170142e+16
+      },
+      "ratio_defined": true
+    }
+  },
+  "force": {
+    "B_active_packet_region": {
+      "absolute_cross_effect": {
+        "defined_count": 8869,
+        "l2": 0.000154692226050825,
+        "max": 8.490513308253945e-06
+      },
+      "ratio": {
+        "defined_count": 8865,
+        "l2": 418.03667224831185,
+        "max": 224.4477238079338
+      },
+      "ratio_defined": true
+    },
+    "B_launch_region": {
+      "absolute_cross_effect": {
+        "defined_count": 8869,
+        "l2": 0.000154692226050825,
+        "max": 8.490513308253945e-06
+      },
+      "ratio": {
+        "defined_count": 8865,
+        "l2": 418.03667224831185,
+        "max": 224.4477238079338
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_0": {
+      "absolute_cross_effect": {
+        "defined_count": 181,
+        "l2": 3.752268502496354e-05,
+        "max": 4.627737732633332e-06
+      },
+      "ratio": {
+        "defined_count": 181,
+        "l2": 0.22497951441505099,
+        "max": 0.16896118725714224
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_1": {
+      "absolute_cross_effect": {
+        "defined_count": 4706,
+        "l2": 0.00019266983380099032,
+        "max": 1.1240625369335361e-05
+      },
+      "ratio": {
+        "defined_count": 4706,
+        "l2": 2.891392885381473,
+        "max": 1.1471997713197077
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_2": {
+      "absolute_cross_effect": {
+        "defined_count": 17738,
+        "l2": 0.00017471016599345638,
+        "max": 7.796213111498552e-06
+      },
+      "ratio": {
+        "defined_count": 17738,
+        "l2": 244.30657872347697,
+        "max": 172.47874813141163
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_3": {
+      "absolute_cross_effect": {
+        "defined_count": 39458,
+        "l2": 0.00015678753561223846,
+        "max": 6.499394139208946e-06
+      },
+      "ratio": {
+        "defined_count": 39414,
+        "l2": 10149.66430694951,
+        "max": 10134.995041085656
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_4": {
+      "absolute_cross_effect": {
+        "defined_count": 69866,
+        "l2": 0.00014198328159366558,
+        "max": 6.940560680125742e-06
+      },
+      "ratio": {
+        "defined_count": 68619,
+        "l2": 1.1407931264738502e+31,
+        "max": 1.1407931264738502e+31
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_5": {
+      "absolute_cross_effect": {
+        "defined_count": 108962,
+        "l2": 9.81334131401865e-05,
+        "max": 5.435553798711158e-06
+      },
+      "ratio": {
+        "defined_count": 100501,
+        "l2": 3.956433114949674e+26,
+        "max": 3.9303555318992614e+26
+      },
+      "ratio_defined": true
+    },
+    "full_lattice": {
+      "absolute_cross_effect": {
+        "defined_count": 240911,
+        "l2": 0.0003513189565051221,
+        "max": 1.1240625369335361e-05
+      },
+      "ratio": {
+        "defined_count": 231159,
+        "l2": 1.1407931271599239e+31,
+        "max": 1.1407931264738502e+31
+      },
+      "ratio_defined": true
+    },
+    "receipt_region": {
+      "absolute_cross_effect": {
+        "defined_count": 240911,
+        "l2": 0.0003513189565051221,
+        "max": 1.1240625369335361e-05
+      },
+      "ratio": {
+        "defined_count": 231159,
+        "l2": 1.1407931271599239e+31,
+        "max": 1.1407931264738502e+31
+      },
+      "ratio_defined": true
+    }
+  },
+  "momentum": {
+    "B_active_packet_region": {
+      "absolute_cross_effect": {
+        "defined_count": 8869,
+        "l2": 0.00013671403022716042,
+        "max": 5.455297643678691e-06
+      },
+      "ratio": {
+        "defined_count": 8849,
+        "l2": 402.66020126972666,
+        "max": 141.77588081965587
+      },
+      "ratio_defined": true
+    },
+    "B_launch_region": {
+      "absolute_cross_effect": {
+        "defined_count": 8869,
+        "l2": 0.00013671403022716042,
+        "max": 5.455297643678691e-06
+      },
+      "ratio": {
+        "defined_count": 8849,
+        "l2": 402.66020126972666,
+        "max": 141.77588081965587
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_0": {
+      "absolute_cross_effect": {
+        "defined_count": 181,
+        "l2": 2.035913340810849e-05,
+        "max": 2.814995975414538e-06
+      },
+      "ratio": {
+        "defined_count": 181,
+        "l2": 0.0817850813950341,
+        "max": 0.050961582367345826
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_1": {
+      "absolute_cross_effect": {
+        "defined_count": 4706,
+        "l2": 0.00013247955686104668,
+        "max": 6.464758410029033e-06
+      },
+      "ratio": {
+        "defined_count": 4706,
+        "l2": 2.2505680042549376,
+        "max": 0.9062193984899579
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_2": {
+      "absolute_cross_effect": {
+        "defined_count": 17738,
+        "l2": 0.0001535854154119427,
+        "max": 4.888784301625099e-06
+      },
+      "ratio": {
+        "defined_count": 17728,
+        "l2": 259.9939109175273,
+        "max": 69.9877892882382
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_3": {
+      "absolute_cross_effect": {
+        "defined_count": 39458,
+        "l2": 0.00015543936955628233,
+        "max": 5.352231060090829e-06
+      },
+      "ratio": {
+        "defined_count": 39312,
+        "l2": 7038.333373651517,
+        "max": 7015.853127340198
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_4": {
+      "absolute_cross_effect": {
+        "defined_count": 69866,
+        "l2": 0.00015142733954619028,
+        "max": 8.087756332276702e-06
+      },
+      "ratio": {
+        "defined_count": 68124,
+        "l2": 2.3467409495942903e+31,
+        "max": 2.3467409495942903e+31
+      },
+      "ratio_defined": true
+    },
+    "DEV195_shell_5": {
+      "absolute_cross_effect": {
+        "defined_count": 108962,
+        "l2": 0.0001006335093489256,
+        "max": 5.921933633772197e-06
+      },
+      "ratio": {
+        "defined_count": 99137,
+        "l2": 6.8419385873899105e+25,
+        "max": 4.4015645850225135e+25
+      },
+      "ratio_defined": true
+    },
+    "full_lattice": {
+      "absolute_cross_effect": {
+        "defined_count": 240911,
+        "l2": 0.00031428100022186676,
+        "max": 8.087756332276702e-06
+      },
+      "ratio": {
+        "defined_count": 229188,
+        "l2": 2.346740949604264e+31,
+        "max": 2.3467409495942903e+31
+      },
+      "ratio_defined": true
+    },
+    "receipt_region": {
+      "absolute_cross_effect": {
+        "defined_count": 240911,
+        "l2": 0.00031428100022186676,
+        "max": 8.087756332276702e-06
+      },
+      "ratio": {
+        "defined_count": 229188,
+        "l2": 2.346740949604264e+31,
+        "max": 2.3467409495942903e+31
+      },
+      "ratio_defined": true
+    }
+  }
+}

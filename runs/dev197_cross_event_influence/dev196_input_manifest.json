@@ -1,0 +1,16 @@
+{
+  "DEV196_ARRAYS_REUSED_OR_HASH_VERIFIED": true,
+  "sha256": {
+    "R00_background.npz": "407240b75ea7ef43de906b0dead13898f651bbb092e3c0c9b598866c030e7697",
+    "R01_A_only.npz": "62d6f2824353100f45e3f3e3b6611c8f1326ca2b713f2ea969b2ca243608786a",
+    "delta_B_after_A_T1.npz": "9d1d69d579de157ac957d255b34a89ce50683695e46af2a6dcea5af5344950d4",
+    "delta_B_after_A_T2.npz": "883f27e6ecd80b2cd4cc929f1775202e3a7a099286b26fcbab4229b8163dd3e8",
+    "delta_B_after_A_T3.npz": "d6b76b9a703f0a1b77b1e7a1b8fddc5af7684fec557a93512e95d41349fe37ea",
+    "delta_B_fresh_T1.npz": "6712a539287c8f2ee3f9add009b1506d511adc336e6705496576882758a2de85",
+    "delta_B_fresh_T2.npz": "ec9836550c55d9a80b9afde799459b08c68387930b68db920dc52e6738099f8a",
+    "delta_B_fresh_T3.npz": "35785affd4b82d4e6875a225789d8b5fd3d034f1a6553c9509a8f79a8ea1adfd",
+    "interaction_residual_T1.npz": "0e813425f9618e865482e5f5c1d4c7ca63eedd40e45ce1d9a8d020596b06d7e1",
+    "interaction_residual_T2.npz": "82de9043719308d11b385abc8ca88db983faa0b14fc4ae7f99536dc656779feb",
+    "interaction_residual_T3.npz": "0db34102a91c109af0ba511f60557a42666ecfac3f24a3832fb7c473c1295362"
+  }
+}

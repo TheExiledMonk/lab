@@ -1,0 +1,5 @@
+{
+  "N6_NATIVE_FIELD_REPRESENTATION": "SUFFICIENT_WITH_NODE_MOMENTUM",
+  "NODE_MOMENTUM_ROLE": "REQUIRED_BY_KICK_DRIFT",
+  "reason": "DEV167 force is reconstructed from six relations while drift requires node momentum."
+}

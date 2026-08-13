@@ -1,0 +1,75 @@
+{
+  "columns": [
+    "PBUF derived",
+    "EM/QED established",
+    "comparison status",
+    "evidence",
+    "limitations"
+  ],
+  "rows": [
+    {
+      "EM/QED established": "established leading linear EM with nonlinear QED corrections",
+      "PBUF derived": "derived by sigma_prime(epsilon_0)",
+      "comparison status": "STRUCTURALLY_COMPATIBLE",
+      "evidence": "Phase-A tangent identity; Euler--Heisenberg effective-wave work",
+      "limitations": "no coefficient mapping",
+      "signature": "weak-first-order linearity"
+    },
+    {
+      "EM/QED established": "established vacuum nonlinearities",
+      "PBUF derived": "derived second-or-higher loaded, cubic constitutive about zero",
+      "comparison status": "STRUCTURALLY_COMPATIBLE",
+      "evidence": "Phase-A cross-term order; primary sources",
+      "limitations": "no numerical rate comparison",
+      "signature": "higher-order nonlinear interaction"
+    },
+    {
+      "EM/QED established": "background configuration/invariants",
+      "PBUF derived": "complete strain/orientation bond configuration",
+      "comparison status": "STRUCTURALLY_COMPATIBLE",
+      "evidence": "four-state state retention; invariant literature",
+      "limitations": "variables not identified",
+      "signature": "field/configuration dependence"
+    },
+    {
+      "EM/QED established": "direction/polarization dependent propagation",
+      "PBUF derived": "unit-relation contribution exact",
+      "comparison status": "STRUCTURALLY_COMPATIBLE",
+      "evidence": "geometric decomposition; polarization literature",
+      "limitations": "orientation is not polarization",
+      "signature": "orientation dependence"
+    },
+    {
+      "EM/QED established": "physical photon polarization established",
+      "PBUF derived": "not established",
+      "comparison status": "INCOMPARABLE",
+      "evidence": "Phase-A only stores bond direction",
+      "limitations": "no analogue mapping",
+      "signature": "polarization analogue status"
+    },
+    {
+      "EM/QED established": "background-field effective action",
+      "PBUF derived": "sigma derivatives evaluated about epsilon_0",
+      "comparison status": "STRUCTURALLY_COMPATIBLE",
+      "evidence": "loaded linearization; primary sources",
+      "limitations": "no invariant mapping",
+      "signature": "background-state dependence"
+    },
+    {
+      "EM/QED established": "light-by-light interaction established",
+      "PBUF derived": "finite canonical cross force derived",
+      "comparison status": "STRUCTURALLY_COMPATIBLE",
+      "evidence": "four-state residual; Euler--Heisenberg studies",
+      "limitations": "not a cross-section comparison",
+      "signature": "nonzero photon/excitation cross interaction"
+    },
+    {
+      "EM/QED established": "nonlinear effects become relevant in strong backgrounds",
+      "PBUF derived": "sigma contains increasing nonlinear corrections toward bound",
+      "comparison status": "PARTIALLY_COMPATIBLE",
+      "evidence": "analytic PBUF series; strong-field QED work",
+      "limitations": "PBUF strain is not field intensity",
+      "signature": "stronger-deformation nonlinearity"
+    }
+  ]
+}

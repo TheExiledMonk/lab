@@ -1,0 +1,6 @@
+{
+  "LINEAR_MODE_STABILITY": "OSCILLATORY_UNIT_MODULUS_OR_ZERO_MODE",
+  "all_nonzero_modulus_one": true,
+  "classification_rule": "frequency is recorded only for unit-modulus eigenvalues",
+  "zero_eigenvalue_note": "L=0 sectors are kick-drift unit-eigenvalue Jordan blocks: fixed displacement zero modes coexist with free momentum-induced linear drift; they are not damping."
+}

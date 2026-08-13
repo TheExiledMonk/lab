@@ -1,0 +1,4 @@
+{
+  "VACUUM_RADIATIVE_STATE_DISTINCTION": "DERIVED_STRUCTURALLY",
+  "reason": "DEV201 unloaded K_perp=0 whereas this native loaded trajectory has nonzero signed K_perp."
+}

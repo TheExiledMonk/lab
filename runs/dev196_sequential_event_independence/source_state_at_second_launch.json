@@ -1,0 +1,35 @@
+{
+  "T1": {
+    "B_initial_increment_source_max_difference": {
+      "net_force": 1.1016885080063247e-05,
+      "p": 0.0,
+      "x": 2.168404344971009e-19
+    },
+    "displacement_difference_l2": 0.009472806497324028,
+    "force_difference_l2": 0.011277672247267544,
+    "launch_step": 13,
+    "momentum_difference_l2": 0.0009531205393678672
+  },
+  "T2": {
+    "B_initial_increment_source_max_difference": {
+      "net_force": 1.735866052721539e-06,
+      "p": 0.0,
+      "x": 1.0842021724855044e-19
+    },
+    "displacement_difference_l2": 0.001484950519569299,
+    "force_difference_l2": 0.0062729150018689265,
+    "launch_step": 70,
+    "momentum_difference_l2": 8.184503792385594e-05
+  },
+  "T3": {
+    "B_initial_increment_source_max_difference": {
+      "net_force": 6.695044077642894e-07,
+      "p": 0.0,
+      "x": 2.168404344971009e-19
+    },
+    "displacement_difference_l2": 0.0005510250183761083,
+    "force_difference_l2": 0.002339205955707531,
+    "launch_step": 147,
+    "momentum_difference_l2": 1.2815941176903555e-05
+  }
+}

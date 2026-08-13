@@ -1,0 +1,20 @@
+{
+  "N6_ORDER": [
+    "+x",
+    "-x",
+    "+y",
+    "-y",
+    "+z",
+    "-z"
+  ],
+  "coefficient_free": true,
+  "no_EM_identity": true,
+  "reciprocal_relation_max_error": 0.0,
+  "state": [
+    "strain",
+    "relation",
+    "unit",
+    "force",
+    "momentum"
+  ]
+}

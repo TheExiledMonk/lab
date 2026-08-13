@@ -1,0 +1,6 @@
+{
+  "DEV200_FRECHET_TANGENT_REUSED": true,
+  "TANGENT_OPERATOR_DERIVED": true,
+  "derivation": "exact Frechet derivative of frozen central bond force at unit relation",
+  "operator": "delta F_i(k)=-4 sin^2(k_i/2) U_i"
+}

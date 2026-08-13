@@ -1,0 +1,20 @@
+{
+  "HISTORICAL_SEQUENTIAL_INJECTION_WORK_INSPECTED": true,
+  "inspected_sources": [
+    "tools/generate_dev169_raw_abell_native_observer.py",
+    "tools/generate_dev182_native_packet_launch_representation.py",
+    "tools/generate_dev184_discrete_launch_density_convergence.py",
+    "tools/generate_dev195_local_force_balance_restoration.py"
+  ],
+  "prior_second_injection_found": false,
+  "search_terms": [
+    "reinjection",
+    "second packet",
+    "repeated packet",
+    "perturb existing state",
+    "additive displacement",
+    "additive momentum",
+    "packet injection",
+    "sequential excitation"
+  ]
+}

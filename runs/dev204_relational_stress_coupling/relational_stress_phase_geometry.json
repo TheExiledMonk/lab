@@ -1,0 +1,4 @@
+{
+  "RELATIONAL_STRESS_PHASE_GEOMETRY": "STATE_DEPENDENT",
+  "reason": "force response depends on both changing geometry and loaded instantaneous bond state; no fitted phase offset used."
+}

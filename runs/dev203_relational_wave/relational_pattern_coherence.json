@@ -1,0 +1,18 @@
+{
+  "RELATIONAL_PATTERN_COHERENCE": "COHERENT",
+  "coefficient_free_signed_normalized_dot": {
+    "max": 0.9995027615966653,
+    "mean": 0.9981470788968518,
+    "min": 0.9933381117556243
+  },
+  "exact_shifted_difference_l2": {
+    "max": 5.772057579031656e-05,
+    "min": 2.9788113928179336e-05
+  },
+  "no_free_shift_fit": true,
+  "predeclared_shift": [
+    0,
+    0,
+    0
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "CANONICAL_N6_ORIENTED_CYCLES": "DERIVED",
+  "NO_RESULT_SELECTED_CIRCULATION_LOOP": true,
+  "orientation": "fixed right-handed N6 axis order",
+  "planes": [
+    [
+      "x",
+      "y"
+    ],
+    [
+      "y",
+      "z"
+    ],
+    [
+      "z",
+      "x"
+    ]
+  ]
+}

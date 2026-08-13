@@ -1,0 +1,28 @@
+{
+  "NO_RESULT_SELECTED_CANDIDATE": true,
+  "PREDECLARED_AXIAL_CANDIDATES_COMPLETE": true,
+  "PREDECLARED_CANDIDATE_INVENTORY_FROZEN": true,
+  "axial": [
+    {
+      "definition": "dual(A_R)",
+      "id": "Q_R"
+    },
+    {
+      "definition": "dual(A_F)",
+      "id": "Q_F"
+    }
+  ],
+  "polar": [
+    {
+      "definition": "DEV203 intrinsic transverse relative-neighbor motion",
+      "id": "P1",
+      "included": true
+    },
+    {
+      "definition": "transverse native momentum response",
+      "id": "P2",
+      "included": false,
+      "reason": "no separately existing node-vector momentum-response candidate is defined by DEV203/204"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "NATIVE_RELATIONAL_ROTATION_SIGNATURE": "PRESENT",
+  "antisymmetric_l2": 0.00255185433220373,
+  "definition": "A=(M-M^T)/2, M_ij=(delta_r_(+i),j-delta_r_(-i),j)/2 from opposite N6 relations",
+  "no_continuum_curl": true,
+  "not_a_magnetic_field": true,
+  "symmetric_l2": 0.004512886534994228
+}

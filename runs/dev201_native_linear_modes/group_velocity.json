@@ -1,0 +1,5 @@
+{
+  "GROUP_VELOCITY_DERIVED_WHERE_DEFINED": true,
+  "axis_branch": "domega/dk=cos(k/2)/sqrt(1-h^2 sin^2(k/2)) for 0<k<pi",
+  "method": "analytic derivative; no smoothing fit"
+}

@@ -1,0 +1,4 @@
+{
+  "NATIVE_FIELD_PAIR_OBSERVABLE_PROJECTION": "DERIVED",
+  "reason": "P1,Q_R,Q_F are deterministic read-only projections of the deeper frozen state, without claiming that their pair closes autonomously."
+}
