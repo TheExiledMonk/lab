@@ -4827,6 +4827,55 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev220_native_spatial_winding",
+      "target_id": "native_spatial_winding_magnetic_candidate",
+      "name": "DEV220 native spatial winding audit",
+      "aliases": [
+        "DEV220"
+      ],
+      "summary": "Read-only normalized existing DEV167 bond-force directions around the source-centered DEV203 multi-cell yz loop.",
+      "why_attempted": "Frozen DEV219 selector.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV220",
+      "branch": "",
+      "files": [
+        "pbuf/observer/native_spatial_winding.py",
+        "tools/generate_dev220_native_spatial_winding.py"
+      ],
+      "run_directories": [
+        "runs/dev220_native_spatial_winding"
+      ],
+      "tests": [
+        "tests/test_dev220_loop_geometry.py",
+        "tests/test_dev220_circulation_observable.py",
+        "tests/test_dev220_reflection_covariance.py"
+      ],
+      "equations": [
+        "C_L=sum_e (F_e/||F_e||) dot t_e"
+      ],
+      "assumptions": [
+        "frozen DEV203 trajectory; +x propagation; source center and 7x7 transverse support"
+      ],
+      "result": "FULL",
+      "result_reason": "The frozen audit completes and rejects coherent winding because edge contributions cancel and fail reflection covariance.",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Only if frozen DEV203 inputs change.",
+      "do_not_repeat_reason": "No plane, axis, radius, timestep, or circulation-result selection.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev220_native_spatial_winding/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "current_frontiers": [
@@ -7736,51 +7785,6 @@
       "reopen_condition": "Execute only DEV220 frozen geometry / one observable audit; do not relabel DEV218 momentum reversal."
     },
     {
-      "target_id": "native_spatial_winding_magnetic_candidate",
-      "canonical_name": "native spatial winding magnetic candidate",
-      "plain_language_question": "Does existing native relational structure admit spatial winding distinct from rejected temporal local-cycle interpretation?",
-      "aliases": [
-        "DEV219"
-      ],
-      "keywords": [
-        "magnetic",
-        "magnetism",
-        "orientation",
-        "torque",
-        "rotation",
-        "curl",
-        "circulation",
-        "flux",
-        "stress",
-        "bond",
-        "domain",
-        "wall",
-        "vortex",
-        "topology",
-        "handedness",
-        "anisotropy",
-        "interface",
-        "reconnection",
-        "turbulence",
-        "collective"
-      ],
-      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
-      "first_seen_date": "2026-08-13",
-      "last_updated_date": "2026-08-13",
-      "attempt_ids": [
-        "dev219_magnetic_mechanism_wide_net"
-      ],
-      "current_status": "PARTIAL",
-      "canonical_solution_ids": [],
-      "open_questions": [
-        "DEV220 spatial-winding audit is required before a topology claim."
-      ],
-      "blocked_by": [],
-      "blocks": [],
-      "do_not_rederive": true,
-      "reopen_condition": "Execute only DEV220 frozen geometry / one observable audit; do not relabel DEV218 momentum reversal."
-    },
-    {
       "target_id": "native_collective_geometry_magnetism",
       "canonical_name": "native collective geometry magnetism",
       "plain_language_question": "Can macroscopic magnetic-like force, torque and alignment emerge from collective geometry of unchanged N6 restoring interaction?",
@@ -7871,49 +7875,121 @@
       "reopen_condition": "Execute only DEV220 frozen geometry / one observable audit; do not relabel DEV218 momentum reversal."
     },
     {
-      "target_id": "magnetic_mechanism_next_discriminating_test",
-      "canonical_name": "magnetic mechanism next discriminating test",
-      "plain_language_question": "Which coefficient-free audit discriminates the surviving candidates?",
+      "target_id": "native_spatial_winding_magnetic_candidate",
+      "canonical_name": "Native spatial winding magnetic candidate",
+      "plain_language_question": "Does the frozen DEV203 relational-stress geometry contain a nonzero, reflection-covariant, coefficient-free multi-cell winding diagnostic?",
       "aliases": [
-        "DEV219"
+        "DEV220",
+        "spatial winding"
       ],
       "keywords": [
-        "magnetic",
-        "magnetism",
-        "orientation",
-        "torque",
-        "rotation",
-        "curl",
+        "spatial winding",
         "circulation",
-        "flux",
-        "stress",
-        "bond",
-        "domain",
-        "wall",
-        "vortex",
-        "topology",
-        "handedness",
-        "anisotropy",
-        "interface",
-        "reconnection",
-        "turbulence",
-        "collective"
+        "DEV203"
       ],
-      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "domain": "NATIVE DYNAMICS",
       "first_seen_date": "2026-08-13",
       "last_updated_date": "2026-08-13",
       "attempt_ids": [
-        "dev219_magnetic_mechanism_wide_net"
+        "dev220_native_spatial_winding"
       ],
-      "current_status": "PARTIAL",
-      "canonical_solution_ids": [],
+      "current_status": "REJECTED",
+      "canonical_solution_ids": [
+        "dev220_native_spatial_winding"
+      ],
       "open_questions": [
-        "DEV220 spatial-winding audit is required before a topology claim."
+        "Magnetic identity is not derived."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "magnetic_mechanism_next_discriminating_test"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if the frozen DEV203 geometry or predeclared selector changes independently."
+    },
+    {
+      "target_id": "native_multi_cell_spatial_circulation",
+      "canonical_name": "Native multi-cell spatial circulation",
+      "plain_language_question": "Does organized circulation emerge across a predeclared multi-cell loop even though DEV215 did not derive elementary-plaquette circulation reversal?",
+      "aliases": [
+        "DEV220 multi-cell"
+      ],
+      "keywords": [
+        "circulation",
+        "multi-cell",
+        "plaquette"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev220_native_spatial_winding"
+      ],
+      "current_status": "REJECTED",
+      "canonical_solution_ids": [
+        "dev220_native_spatial_winding"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with changed frozen geometry."
+    },
+    {
+      "target_id": "spatial_winding_extended_geometry_relation",
+      "canonical_name": "Spatial winding / extended-geometry relation",
+      "plain_language_question": "Is any derived winding an independent native mechanism or organized substructure of existing extended relational geometry?",
+      "aliases": [
+        "DEV220 relation"
+      ],
+      "keywords": [
+        "winding",
+        "extended geometry"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev220_native_spatial_winding"
+      ],
+      "current_status": "REJECTED",
+      "canonical_solution_ids": [
+        "dev220_native_spatial_winding"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with independently changed geometry."
+    },
+    {
+      "target_id": "magnetic_mechanism_next_discriminating_test",
+      "canonical_name": "Magnetic mechanism next discriminating test",
+      "plain_language_question": "After the spatial-winding audit, which remaining minimal mechanism family receives the next coefficient-free test?",
+      "aliases": [
+        "DEV221"
+      ],
+      "keywords": [
+        "DEV221",
+        "magnetic mechanism"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev220_native_spatial_winding"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [
+        "dev220_native_spatial_winding"
+      ],
+      "open_questions": [
+        "EXTENDED_RELATIONAL_GEOMETRY_AUDIT"
       ],
       "blocked_by": [],
       "blocks": [],
       "do_not_rederive": true,
-      "reopen_condition": "Execute only DEV220 frozen geometry / one observable audit; do not relabel DEV218 momentum reversal."
+      "reopen_condition": "Only after DEV221."
     }
   ]
 }

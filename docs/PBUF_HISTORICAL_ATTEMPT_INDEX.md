@@ -120,3 +120,5 @@ DEV217 rule: DEV216 showed that individually conservation-valid closed regions d
 DEV218 is the first dynamic-polarity radial-force audit with state preparation, geometry, partition, direct interface bonds, and action-reaction frozen independently before sign inspection; DEV214 and DEV216 are not equivalent completed force-sign tests.
 
 DEV219 rule: DEV211 static-reflection, DEV218 momentum-sign, and DEV215 exact local-temporal-cycle routes remain closed/not-derived on their stated preparations. Spatial topology is a separate coefficient-free question.
+
+DEV220 rule: the frozen DEV203 yz source-support loop is an exact spatial diagnostic; DEV215 temporal nonclosure and elementary-plaquette result remain preserved. No B field, phase, or vortex primitive was introduced.

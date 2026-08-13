@@ -955,6 +955,10 @@
     {
       "id": "harvey_massey_pyrrg",
       "type": "DATASET"
+    },
+    {
+      "id": "dev220_native_spatial_winding",
+      "type": "ATTEMPT"
     }
   ],
   "edges": [
@@ -2242,6 +2246,11 @@
       "source": "pr70_bounded_strain_constitutive",
       "target": "dev167_vector_relational_dynamics",
       "type": "EQUIVALENT_TO"
+    },
+    {
+      "source": "dev219_magnetic_mechanism_wide_net",
+      "target": "dev220_native_spatial_winding",
+      "type": "DERIVES"
     }
   ]
 }

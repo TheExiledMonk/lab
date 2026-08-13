@@ -1,0 +1,4 @@
+{
+  "derivation": "x reflection reverses the +x normal used by the fixed yz traversal; dot products are invariant, so restoring +x traversal reverses edge order.",
+  "expected": "C_R=-C_L"
+}
