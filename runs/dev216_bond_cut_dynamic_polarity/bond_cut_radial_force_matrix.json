@@ -1,0 +1,125 @@
+{
+  "BOND_CUT_RADIAL_FORCE_MATRIX_COMPLETE": true,
+  "rows": {
+    "++": {
+      "initial_classification": "UNRESOLVED",
+      "initial_radial_A": -9.974230857096728e-07,
+      "initial_radial_B": -8.228026061774109e-07,
+      "instantaneous_force_A": [
+        9.274697906382079e-10,
+        -9.974230857096728e-07,
+        -2.666068485510792e-08
+      ],
+      "instantaneous_force_B": [
+        -4.47146574596538e-09,
+        8.228026061774109e-07,
+        -4.844815434237297e-08
+      ],
+      "interaction_residual_force_A": [
+        9.274697906382079e-10,
+        -9.974230857096728e-07,
+        -2.666068485510792e-08
+      ],
+      "interaction_residual_force_B": [
+        -4.47146574596538e-09,
+        8.228026061774109e-07,
+        -4.844815434237297e-08
+      ],
+      "max_pair_action_reaction_residual": 2.336750663370368e-07,
+      "pair_action_reaction": "VIOLATED",
+      "temporal_character": "STEADY_SIGN",
+      "time_average_radial_A": -1.1785428443261723e-06,
+      "time_average_radial_B": -1.0339022990675392e-06
+    },
+    "+-": {
+      "initial_classification": "UNRESOLVED",
+      "initial_radial_A": -9.974230857096728e-07,
+      "initial_radial_B": -8.228026061774109e-07,
+      "instantaneous_force_A": [
+        9.274697906382079e-10,
+        -9.974230857096728e-07,
+        -2.666068485510792e-08
+      ],
+      "instantaneous_force_B": [
+        -4.47146574596538e-09,
+        8.228026061774109e-07,
+        -4.844815434237297e-08
+      ],
+      "interaction_residual_force_A": [
+        9.274697906382079e-10,
+        -9.974230857096728e-07,
+        -2.666068485510792e-08
+      ],
+      "interaction_residual_force_B": [
+        -4.47146574596538e-09,
+        8.228026061774109e-07,
+        -4.844815434237297e-08
+      ],
+      "max_pair_action_reaction_residual": 1.9012156507088173e-07,
+      "pair_action_reaction": "VIOLATED",
+      "temporal_character": "STEADY_SIGN",
+      "time_average_radial_A": -8.89691519113609e-07,
+      "time_average_radial_B": -7.260557628970674e-07
+    },
+    "-+": {
+      "initial_classification": "UNRESOLVED",
+      "initial_radial_A": -9.974230857096728e-07,
+      "initial_radial_B": -8.228026061774109e-07,
+      "instantaneous_force_A": [
+        9.274697906382079e-10,
+        -9.974230857096728e-07,
+        -2.666068485510792e-08
+      ],
+      "instantaneous_force_B": [
+        -4.47146574596538e-09,
+        8.228026061774109e-07,
+        -4.844815434237297e-08
+      ],
+      "interaction_residual_force_A": [
+        9.274697906382079e-10,
+        -9.974230857096728e-07,
+        -2.666068485510792e-08
+      ],
+      "interaction_residual_force_B": [
+        -4.47146574596538e-09,
+        8.228026061774109e-07,
+        -4.844815434237297e-08
+      ],
+      "max_pair_action_reaction_residual": 1.9012156507088173e-07,
+      "pair_action_reaction": "VIOLATED",
+      "temporal_character": "STEADY_SIGN",
+      "time_average_radial_A": -8.896871295777155e-07,
+      "time_average_radial_B": -7.26102210200963e-07
+    },
+    "--": {
+      "initial_classification": "UNRESOLVED",
+      "initial_radial_A": -9.974230857096728e-07,
+      "initial_radial_B": -8.228026061774109e-07,
+      "instantaneous_force_A": [
+        9.274697906382079e-10,
+        -9.974230857096728e-07,
+        -2.666068485510792e-08
+      ],
+      "instantaneous_force_B": [
+        -4.47146574596538e-09,
+        8.228026061774109e-07,
+        -4.844815434237297e-08
+      ],
+      "interaction_residual_force_A": [
+        9.274697906382079e-10,
+        -9.974230857096728e-07,
+        -2.666068485510792e-08
+      ],
+      "interaction_residual_force_B": [
+        -4.47146574596538e-09,
+        8.228026061774109e-07,
+        -4.844815434237297e-08
+      ],
+      "max_pair_action_reaction_residual": 5.963613325640828e-07,
+      "pair_action_reaction": "VIOLATED",
+      "temporal_character": "STEADY_SIGN",
+      "time_average_radial_A": -1.0222237149207324e-06,
+      "time_average_radial_B": -6.300494866899154e-07
+    }
+  }
+}

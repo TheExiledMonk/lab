@@ -1,0 +1,10 @@
+{
+  "DEV214_INTERNAL_STATE_MATRIX_REUSED": true,
+  "FOUR_STATE_SUBTRACTION_NOT_USED_AS_STATE_CONSTRUCTION": true,
+  "states": [
+    "++",
+    "+-",
+    "-+",
+    "--"
+  ]
+}

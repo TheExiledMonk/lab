@@ -506,3 +506,13 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 - **Native Local State-Cycle Boundary:** Under frozen DEV167 mechanics, the fixed pre-boundary full local N6 histories are oscillatory but do not meet the threshold-free exact closure gate. No phase, oscillator, rotation, current, or magnetic label is derived.
 - **Closed Native Region Balance Rule:** Exact N6 bonds crossing a fixed geometric region boundary provide action–reaction-consistent momentum-transfer accounting; this does not reopen DEV214 provenance-defined radial-force attribution.
+
+## LEDGER ENTRY 051 — DEV216 CONSERVATION-CLEAN DYNAMIC POLARITY FORCE AUDIT
+
+- **Native Bond-Cut Force Rule:** Momentum transfer across a fixed native region is the exact sum of DEV167 pair forces on N6 bonds crossing its geometric boundary. It is action–reaction consistent by construction and supersedes overlapping provenance-support attribution for conservation-sensitive diagnostics.
+- DEV216 retains the frozen DEV214 four-state preparation and DEV215 radius-two N6 geometry. Any paired attraction/repulsion label remains gated by paired-region closure.
+
+## LEDGER ENTRY 051 — DEV216 CONSERVATION-CLEAN DYNAMIC POLARITY FORCE AUDIT
+
+- **Native Bond-Cut Force Rule:** Momentum transfer across a fixed native region is the exact sum of DEV167 pair forces on N6 bonds crossing its geometric boundary. It is action–reaction consistent by construction and supersedes overlapping provenance-support attribution for conservation-sensitive diagnostics.
+- DEV216 retains the frozen DEV214 four-state preparation and DEV215 radius-two N6 geometry. Any paired attraction/repulsion label remains gated by paired-region closure.

@@ -110,3 +110,7 @@ DEV215 rule: local state histories retain p, r, epsilon, F, and J without premat
 DEV215 rule: local state histories retain p, r, epsilon, F, and J without premature compression; absent exact closure, phase and cycle handedness remain unassigned.
 
 DEV215 rule: local state histories retain p, r, epsilon, F, and J without premature compression; absent exact closure, phase and cycle handedness remain unassigned.
+
+DEV216 rule: use fixed DEV215 N6 boundary cuts for DEV214 states; do not resize a region or infer phase, current, poles, or fields from the result.
+
+DEV216 rule: use fixed DEV215 N6 boundary cuts for DEV214 states; do not resize a region or infer phase, current, poles, or fields from the result.

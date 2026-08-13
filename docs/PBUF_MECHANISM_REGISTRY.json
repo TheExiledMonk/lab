@@ -4633,6 +4633,54 @@
         "tests/test_dev215_region_balance.py"
       ],
       "why_attempted": "Audit local native dynamics without adding rotation, phase, current, magnetic, oscillator, or force labels."
+    },
+    {
+      "aliases": [
+        "DEV216"
+      ],
+      "attempt_id": "dev216_bond_cut_dynamic_polarity",
+      "branch": "dev216-bond-cut-dynamic-polarity",
+      "canonical": false,
+      "confidence": "HIGH",
+      "current_status": "BLOCKED",
+      "date_completed": "2026-08-13",
+      "date_started": "2026-08-13",
+      "dev": "DEV216",
+      "do_not_repeat_reason": "DEV214 geometry and DEV215 N6 radius-two region are frozen.",
+      "equations": [
+        "F_Omega=sum_{a in Omega,b notin Omega} F_ab",
+        "Delta F=F_AB-F_A-F_B+F_0"
+      ],
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev216_bond_cut_dynamic_polarity/final_contract.json"
+        }
+      ],
+      "files": [
+        "pbuf/observer/native_bond_cut_pair_force.py",
+        "tools/generate_dev216_bond_cut_dynamic_polarity.py"
+      ],
+      "fitted_parameters": [],
+      "free_parameters": [],
+      "infrastructure_reusable": true,
+      "name": "DEV216 conservation-clean dynamic polarity force audit",
+      "physics_reusable": true,
+      "reopen_condition": "No region resizing or force-selected geometry is allowed.",
+      "result": "BLOCKED",
+      "result_reason": "Exact individual-region momentum balances close; the symmetric fixed pair regions overlap, so their interaction residuals are not an isolated equal-and-opposite pair force.",
+      "run_directories": [
+        "runs/dev216_bond_cut_dynamic_polarity"
+      ],
+      "summary": "Frozen DEV214 four-state rerun using exact DEV215 fixed-region N6 bond cuts.",
+      "target_id": "native_bond_cut_dynamic_pair_force",
+      "tests": [
+        "tests/test_dev216_bond_cut_balance.py",
+        "tests/test_dev216_four_state_force.py",
+        "tests/test_dev216_relative_state_classification.py",
+        "tests/test_dev216_force_trajectory.py"
+      ],
+      "why_attempted": "Replace only the provenance-support force observer after DEV215 established closed-region accounting."
     }
   ],
   "current_frontiers": [
@@ -6890,36 +6938,6 @@
     },
     {
       "aliases": [
-        "DEV212 force sign"
-      ],
-      "attempt_ids": [
-        "dev212_native_multistate_polarity"
-      ],
-      "blocked_by": [
-        "native packet composition"
-      ],
-      "blocks": [],
-      "canonical_name": "Same-structure attraction/repulsion duality",
-      "canonical_solution_ids": [],
-      "current_status": "BLOCKED",
-      "do_not_rederive": true,
-      "domain": "NATIVE DYNAMICS",
-      "first_seen_date": "2026-08-13",
-      "keywords": [
-        "attraction",
-        "repulsion",
-        "internal state"
-      ],
-      "last_updated_date": "2026-08-13",
-      "open_questions": [
-        "DEV193 blocks treating additive independent trajectories as physical simultaneous structures."
-      ],
-      "plain_language_question": "Does changing only internal native state reverse mutual radial interaction?",
-      "reopen_condition": "An exact physical two-structure composition rule must be derived without selecting force results.",
-      "target_id": "same_structure_attraction_repulsion_duality"
-    },
-    {
-      "aliases": [
         "DEV212 torque"
       ],
       "attempt_ids": [
@@ -7101,33 +7119,6 @@
       "plain_language_question": "Does reversing only the native momentum state of an otherwise identical strain structure reverse its mutual interaction force?",
       "reopen_condition": "Frozen DEV167, DEV212 state reversal, or DEV213 preparation changes independently.",
       "target_id": "same_geometry_momentum_reversal_force"
-    },
-    {
-      "aliases": [
-        "DEV214"
-      ],
-      "attempt_ids": [
-        "dev214_dynamic_polarity_interaction"
-      ],
-      "blocked_by": [],
-      "blocks": [],
-      "canonical_name": "relative dynamic state force structure",
-      "canonical_solution_ids": [],
-      "current_status": "BLOCKED",
-      "do_not_rederive": true,
-      "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
-      "first_seen_date": "2026-08-13",
-      "keywords": [
-        "dynamic polarity",
-        "momentum reversal",
-        "force",
-        "torque"
-      ],
-      "last_updated_date": "2026-08-13",
-      "open_questions": [],
-      "plain_language_question": "Do same-state and opposite-state dynamic pairs form distinct native force classes?",
-      "reopen_condition": "Frozen DEV167, DEV212 state reversal, or DEV213 preparation changes independently.",
-      "target_id": "relative_dynamic_state_force_structure"
     },
     {
       "aliases": [
@@ -7327,6 +7318,114 @@
       "plain_language_question": "Can exact N6 boundary-bond accounting provide action-reaction-consistent local momentum transfer?",
       "reopen_condition": "Only with an independently changed frozen DEV167 trajectory.",
       "target_id": "native_closed_region_momentum_transfer"
+    },
+    {
+      "aliases": [
+        "DEV216"
+      ],
+      "attempt_ids": [
+        "dev216_bond_cut_dynamic_polarity"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "canonical_name": "native bond cut dynamic pair force",
+      "canonical_solution_ids": [],
+      "current_status": "PARTIAL",
+      "do_not_rederive": true,
+      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
+      "first_seen_date": "2026-08-13",
+      "keywords": [
+        "bond cut",
+        "N6",
+        "dynamic polarity",
+        "momentum transfer"
+      ],
+      "last_updated_date": "2026-08-13",
+      "open_questions": [],
+      "plain_language_question": "Can exact N6 boundary-bond momentum transfer provide a conservation-clean radial interaction observable for frozen DEV214 dynamic pair states?",
+      "reopen_condition": "Only an independently changed frozen geometry or mechanics may reopen this audit.",
+      "target_id": "native_bond_cut_dynamic_pair_force"
+    },
+    {
+      "aliases": [
+        "DEV216"
+      ],
+      "attempt_ids": [
+        "dev216_bond_cut_dynamic_polarity"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "canonical_name": "conservation clean dynamic force sign",
+      "canonical_solution_ids": [],
+      "current_status": "BLOCKED",
+      "do_not_rederive": true,
+      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
+      "first_seen_date": "2026-08-13",
+      "keywords": [
+        "bond cut",
+        "N6",
+        "dynamic polarity",
+        "momentum transfer"
+      ],
+      "last_updated_date": "2026-08-13",
+      "open_questions": [],
+      "plain_language_question": "Does reversing only internal native momentum state change the sign of conservation-clean radial momentum transfer?",
+      "reopen_condition": "Only an independently changed frozen geometry or mechanics may reopen this audit.",
+      "target_id": "conservation_clean_dynamic_force_sign"
+    },
+    {
+      "aliases": [
+        "DEV216"
+      ],
+      "attempt_ids": [
+        "dev216_bond_cut_dynamic_polarity"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "canonical_name": "same structure attraction repulsion duality",
+      "canonical_solution_ids": [],
+      "current_status": "BLOCKED",
+      "do_not_rederive": true,
+      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
+      "first_seen_date": "2026-08-13",
+      "keywords": [
+        "bond cut",
+        "N6",
+        "dynamic polarity",
+        "momentum transfer"
+      ],
+      "last_updated_date": "2026-08-13",
+      "open_questions": [],
+      "plain_language_question": "Do identical strain structures in different exact internal momentum states exhibit attraction/repulsion duality under the conservation-valid observer?",
+      "reopen_condition": "Only an independently changed frozen geometry or mechanics may reopen this audit.",
+      "target_id": "same_structure_attraction_repulsion_duality"
+    },
+    {
+      "aliases": [
+        "DEV216"
+      ],
+      "attempt_ids": [
+        "dev216_bond_cut_dynamic_polarity"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "canonical_name": "relative dynamic state force structure",
+      "canonical_solution_ids": [],
+      "current_status": "BLOCKED",
+      "do_not_rederive": true,
+      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
+      "first_seen_date": "2026-08-13",
+      "keywords": [
+        "bond cut",
+        "N6",
+        "dynamic polarity",
+        "momentum transfer"
+      ],
+      "last_updated_date": "2026-08-13",
+      "open_questions": [],
+      "plain_language_question": "Do same-state versus opposite-state pairs form different radial interaction classes once measured by exact bond-cut momentum transfer?",
+      "reopen_condition": "Only an independently changed frozen geometry or mechanics may reopen this audit.",
+      "target_id": "relative_dynamic_state_force_structure"
     }
   ]
 }

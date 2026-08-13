@@ -1,0 +1,11 @@
+{
+  "NO_REGION_SELECTION_FROM_FORCE": true,
+  "NO_REGION_SELECTION_FROM_TORQUE": true,
+  "PAIR_REGION_SYMMETRY": "EXACT",
+  "PRIMARY_REGION_UNCHANGED_FROM_DEV215": true,
+  "REGION_GEOMETRY_PREDECLARED": true,
+  "construction": "periodic N6 graph distance <= 2",
+  "overlap_nodes": 1,
+  "region_A_nodes": 25,
+  "region_B_nodes": 25
+}
