@@ -1,0 +1,34 @@
+{
+  "INDEPENDENT_AXIS_INVENTORY_COMPLETE": true,
+  "candidates": [
+    {
+      "axis": "DEV203 propagation / DEV221 longitudinal +x",
+      "independent": true,
+      "usable": true
+    },
+    {
+      "axis": "node displacement",
+      "independent": false,
+      "reason": "local state direction",
+      "usable": false
+    },
+    {
+      "axis": "node momentum",
+      "independent": false,
+      "reason": "DEV218 momentum polarity closure and local variation",
+      "usable": false
+    },
+    {
+      "axis": "source orientation",
+      "independent": false,
+      "reason": "not a frozen local geometric contraction axis",
+      "usable": false
+    },
+    {
+      "axis": "local force",
+      "independent": false,
+      "reason": "local state direction",
+      "usable": false
+    }
+  ]
+}

@@ -1003,6 +1003,22 @@
     {
       "id": "global_winding_vs_staggered_order",
       "type": "TARGET"
+    },
+    {
+      "id": "dev225_local_handedness_representation_gate",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "native_local_handedness_representation",
+      "type": "TARGET"
+    },
+    {
+      "id": "native_neighbor_handedness_relation",
+      "type": "TARGET"
+    },
+    {
+      "id": "staggered_order_representation_gate",
+      "type": "TARGET"
     }
   ],
   "edges": [
@@ -2344,6 +2360,21 @@
     {
       "source": "dev224_magnetic_minimality_reassessment",
       "target": "global_winding_vs_staggered_order",
+      "type": "DERIVES"
+    },
+    {
+      "source": "dev224_magnetic_minimality_reassessment",
+      "target": "dev225_local_handedness_representation_gate",
+      "type": "AUTHORIZES"
+    },
+    {
+      "source": "dev225_local_handedness_representation_gate",
+      "target": "native_neighbor_handedness_relation",
+      "type": "DERIVES"
+    },
+    {
+      "source": "dev225_local_handedness_representation_gate",
+      "target": "staggered_order_representation_gate",
       "type": "DERIVES"
     }
   ]

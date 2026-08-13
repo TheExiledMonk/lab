@@ -1,0 +1,5 @@
+{
+  "LOCAL_HANDEDNESS_CUBIC_ROTATION_COVARIANCE": "EXACT",
+  "no_angle_sweep": true,
+  "test": "for proper signed permutation Q, A_prime=Q A Q^T, omega_prime=Q omega, and A_prime:B_prime=A:B"
+}

@@ -1,0 +1,6 @@
+{
+  "definition": "omega_k=(1/2) epsilon_kij A_ij",
+  "epsilon_xyz": 1,
+  "inverse": "A_ij=epsilon_ijk omega_k",
+  "omega": "(A_yz,-A_xz,A_xy)"
+}

@@ -1,0 +1,16 @@
+{
+  "DEV203_ANTISYMMETRIC_TENSOR_DEFINITION_RECOVERED": true,
+  "DEV203_ANTISYMMETRIC_TENSOR_REUSED": true,
+  "NO_NEW_TENSOR": true,
+  "NO_NEW_VECTOR_FIELD": true,
+  "artifact": "runs/dev203_relational_wave/antisymmetric_relational_components.npz:directional_tensor_antisymmetric",
+  "definition": "A_ij=(M_ij-M_ji)/2; M_ij=(delta_r_(+i),j-delta_r_(-i),j)/2 from opposite N6 relations",
+  "shape": [
+    180,
+    11,
+    11,
+    11,
+    3,
+    3
+  ]
+}

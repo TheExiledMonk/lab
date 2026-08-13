@@ -5080,6 +5080,59 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev225_local_handedness_representation_gate",
+      "target_id": "staggered_order_representation_gate",
+      "name": "DEV225 native local handedness representation gate",
+      "aliases": [
+        "DEV225"
+      ],
+      "summary": "Recovered the exact DEV203 antisymmetric tensor and authorized its canonical Euclidean Frobenius nearest-neighbor contraction; its axial dual is equivalent up to factor two.",
+      "why_attempted": "DEV224 representation gate selected it before any staggered-order measurement.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV225",
+      "branch": "dev225-local-handedness",
+      "files": [
+        "tools/generate_dev225_local_handedness_representation_gate.py",
+        "pbuf/analysis/native_handedness_representation.py"
+      ],
+      "run_directories": [
+        "runs/dev225_local_handedness_representation_gate"
+      ],
+      "tests": [
+        "tests/test_dev225_tensor_recovery.py",
+        "tests/test_dev225_axial_dual.py",
+        "tests/test_dev225_representation_equivalence.py",
+        "tests/test_dev225_reflection_covariance.py",
+        "tests/test_dev225_translation_covariance.py",
+        "tests/test_dev225_no_component_selection.py",
+        "tests/test_dev225_no_result_inspection.py",
+        "tests/test_dev225_next_gate.py"
+      ],
+      "equations": [
+        "A_ij=(M_ij-M_ji)/2",
+        "omega=(A_yz,-A_xz,A_xy)",
+        "C_ab=A_ij(a)A_ij(b)=2 omega(a).omega(b)"
+      ],
+      "result": "FULL",
+      "result_reason": "DEV203 fixes Euclidean native coordinates and a signed tensor; the Frobenius contraction is coefficient-free and requires neither a chosen component nor a new axis.",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Not applicable without changed frozen input conventions.",
+      "do_not_repeat_reason": "DEV226 must use the predeclared tensor contraction, not scalar relabeling or component fishing.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev225_local_handedness_representation_gate/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "current_frontiers": [
@@ -8556,7 +8609,7 @@
       "canonical_name": "magnetic mechanism next discriminating test",
       "plain_language_question": "What is the next allowed minimal magnetic-mechanism test?",
       "aliases": [
-        "DEV224"
+        "DEV225"
       ],
       "keywords": [
         "staggered",
@@ -8568,23 +8621,149 @@
       "first_seen_date": "2026-08-13",
       "last_updated_date": "2026-08-13",
       "attempt_ids": [
-        "dev224_magnetic_minimality_reassessment"
+        "dev225_local_handedness_representation_gate"
       ],
       "current_status": "OPEN",
       "canonical_solution_ids": [
-        "dev224_magnetic_minimality_reassessment"
+        "dev225_local_handedness_representation_gate"
       ],
       "open_questions": [
-        "A uniquely signed scalar local handedness representation is not presently derived."
+        "DEV226: evaluate the frozen A(a):A(b) relation on unique N6 bonds and frozen DEV203 timesteps."
       ],
-      "blocked_by": [
-        "native_local_handedness_quantity"
-      ],
+      "blocked_by": [],
       "blocks": [
         "magnetic_mechanism_next_discriminating_test"
       ],
       "do_not_rederive": true,
-      "reopen_condition": "Only if an already-native unique signed scalar or canonical tensor contraction is derived independently."
+      "reopen_condition": "DEV226 is authorized only as the predeclared tensor-neighbor relation audit."
+    },
+    {
+      "target_id": "native_local_handedness_representation",
+      "canonical_name": "native local handedness representation",
+      "plain_language_question": "Does the existing DEV203 antisymmetric relational tensor admit a unique local handedness representation, either tensorial, axial-vector, or scalar, without selecting components or introducing new structure?",
+      "aliases": [
+        "DEV225"
+      ],
+      "keywords": [
+        "antisymmetric tensor",
+        "axial dual",
+        "handedness",
+        "staggered",
+        "N6"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev225_local_handedness_representation_gate"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev225_local_handedness_representation_gate"
+      ],
+      "open_questions": [
+        "DEV226 may evaluate the frozen tensor contraction, but DEV225 contains no order result."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203 coordinate or tensor conventions change independently."
+    },
+    {
+      "target_id": "native_neighbor_handedness_relation",
+      "canonical_name": "native neighbor handedness relation",
+      "plain_language_question": "Can the relative handed orientation of neighboring N6 states be classified coefficient-free using an existing tensor contraction, axial-vector dot product, or independently derived scalar?",
+      "aliases": [
+        "DEV225"
+      ],
+      "keywords": [
+        "antisymmetric tensor",
+        "axial dual",
+        "handedness",
+        "staggered",
+        "N6"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev225_local_handedness_representation_gate"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev225_local_handedness_representation_gate"
+      ],
+      "open_questions": [
+        "DEV226 may evaluate the frozen tensor contraction, but DEV225 contains no order result."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203 coordinate or tensor conventions change independently."
+    },
+    {
+      "target_id": "antisymmetric_tensor_axial_dual",
+      "canonical_name": "antisymmetric tensor axial dual",
+      "plain_language_question": "Is the 3D axial dual of the DEV203 antisymmetric tensor canonical under the frozen native coordinate orientation?",
+      "aliases": [
+        "DEV225"
+      ],
+      "keywords": [
+        "antisymmetric tensor",
+        "axial dual",
+        "handedness",
+        "staggered",
+        "N6"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev225_local_handedness_representation_gate"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev225_local_handedness_representation_gate"
+      ],
+      "open_questions": [
+        "DEV226 may evaluate the frozen tensor contraction, but DEV225 contains no order result."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203 coordinate or tensor conventions change independently."
+    },
+    {
+      "target_id": "staggered_order_representation_gate",
+      "canonical_name": "staggered order representation gate",
+      "plain_language_question": "Is a unique signed nearest-neighbor relation now available for the staggered local-order audit?",
+      "aliases": [
+        "DEV225"
+      ],
+      "keywords": [
+        "antisymmetric tensor",
+        "axial dual",
+        "handedness",
+        "staggered",
+        "N6"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev225_local_handedness_representation_gate"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev225_local_handedness_representation_gate"
+      ],
+      "open_questions": [
+        "DEV226 may evaluate the frozen tensor contraction, but DEV225 contains no order result."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203 coordinate or tensor conventions change independently."
     }
   ],
   "development_gate_selectors": [

@@ -1,0 +1,13 @@
+{
+  "REPRESENTATION_EQUIVALENCE_CLASSIFIED": true,
+  "classes": {
+    "R1": "raw tensor",
+    "R2": "axial dual; equivalent for neighbor relation",
+    "R3": "axis scalar; more reduced",
+    "R4_R5": "unsigned amplitude only; rejected for R/L",
+    "R6": "no determinant-like signed scalar exists for a 3x3 antisymmetric tensor without added structure"
+  },
+  "fixed_positive_factor": 2,
+  "identity": "A(a):A(b)=2 omega(a).omega(b)",
+  "synthetic_identity_check": 0.0
+}

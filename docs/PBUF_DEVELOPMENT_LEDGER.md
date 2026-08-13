@@ -554,3 +554,8 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - **Global-Winding / Staggered-Order Distinction:** Absence of coherent large-scale circulation does not exclude coefficient-free alternating local orientation order: a bipartite N6 state can have nearest-neighbor anticorrelation while global signed circulation cancels.
 - **No Microscopic Rotor Assumption:** Instantaneous local relational handedness would not imply a closed temporal orbit, phase clock, rotor, or spin. DEV215 temporal nonclosure remains preserved.
 - **DEV224 Gate:** The frozen record contains DEV203 signed antisymmetric tensor data but no unique signed scalar local handedness or pre-existing canonical contraction. Component selection, binary relabeling, and parity flipping are prohibited; staggered order remains representation-blocked, not disproved.
+
+## LEDGER ENTRY 059 — DEV225 LEAST-REDUCED HANDEDNESS REPRESENTATION
+
+- **Least-Reduced Handedness Representation Rule:** Native staggered-order tests must use the least-reduced uniquely derived representation of the existing antisymmetric relational state. The canonical Euclidean tensor contraction `A(a):A(b)` is preferred over a binary local state or a selected scalar component.
+- **Axis-Projected Native Handedness Rule:** The independently frozen +x axis can define `omega dot n` up to a harmless global sign convention, but it is not required when the tensor relation is sufficient. No nodewise sign choice is permitted.

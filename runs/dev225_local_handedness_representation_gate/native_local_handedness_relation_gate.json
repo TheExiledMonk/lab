@@ -1,0 +1,9 @@
+{
+  "NATIVE_LOCAL_HANDEDNESS_RELATION_GATE": "AUTHORIZED_TENSOR_CONTRACTION",
+  "NO_HANDEDNESS_MAGNITUDE_THRESHOLD": true,
+  "NO_NEW_DYNAMICS_RUN": true,
+  "NO_RESULT_SELECTED_TIMESTEP": true,
+  "NO_STAGGERED_ORDER_RESULT_INSPECTION": true,
+  "meaning": "negative means opposed antisymmetric relational states; positive means aligned; exact zero is retained.",
+  "relation": "C_ab=A_ij(a)A_ij(b)"
+}

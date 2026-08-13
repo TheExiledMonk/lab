@@ -1,0 +1,12 @@
+{
+  "LEAST_REDUCED_NATIVE_REPRESENTATION_PRIORITY": true,
+  "NO_AUXILIARY_VECTOR_INVENTED": true,
+  "NO_COMPONENT_MAGNITUDE_RANKING": true,
+  "NO_COMPONENT_SWEEP": true,
+  "NO_MOMENTUM_AXIS_FOR_HANDEDNESS": true,
+  "NO_SELECTED_TENSOR_COMPONENT": true,
+  "UNSIGNED_NORMS_REJECTED_FOR_RL_ORDER": true,
+  "equivalent": "R2 axial-vector dot product",
+  "not_selected": "R3 scalar projection because it discards transverse tensor information",
+  "selected": "R1 tensor contraction A(a):A(b)"
+}

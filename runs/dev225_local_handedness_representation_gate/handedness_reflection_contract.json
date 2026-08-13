@@ -1,0 +1,9 @@
+{
+  "AXIAL_REFLECTION_TRANSFORMATION_DERIVED": true,
+  "axial": "omega_prime=det(Q) Q omega",
+  "axis": "n_prime=Q n for the polar propagation axis",
+  "neighbor_relation": "A_prime(a):A_prime(b)=A(a):A(b)=2 omega_prime(a).omega_prime(b)",
+  "reflection": "Q=diag(-1,1,1), det(Q)=-1 (DEV221 longitudinal reflection)",
+  "scalar": "h_prime=det(Q) h (pseudoscalar)",
+  "tensor": "A_prime=Q A Q^T"
+}
