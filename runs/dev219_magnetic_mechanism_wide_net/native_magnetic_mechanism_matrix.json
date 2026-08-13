@@ -1,0 +1,39 @@
+{
+  "CENTRAL_FORCE_COLLECTIVE_TORQUE_SUFFICIENCY": "SUPPORTED",
+  "NATIVE_ALIGNMENT_MECHANISM": "PARTIAL",
+  "NATIVE_MAGNETIC_MECHANISM_MATRIX_COMPLETE": true,
+  "SINGLE_LOCAL_LAW_MACRO_FORCE_DUALITY": "SUPPORTED_BY_NATIVE_STRUCTURE",
+  "TORQUE_MECHANISM_STATUS": "DERIVED_STATE_DEPENDENT_CENTRAL_FORCE_GEOMETRY",
+  "rows": [
+    {
+      "maps_to": "energy storage, vector-summed force, geometry-dependent response",
+      "mechanism": "DEV167 central bounded pair restoration",
+      "status": "DERIVED"
+    },
+    {
+      "maps_to": "orientation-bearing candidate, not spatial topology",
+      "mechanism": "DEV203 relational rotational signature",
+      "status": "PARTIAL_EXISTING"
+    },
+    {
+      "maps_to": "state-dependent stress response",
+      "mechanism": "DEV204 orientation-stress",
+      "status": "DERIVED"
+    },
+    {
+      "maps_to": "torque/alignment candidate",
+      "mechanism": "DEV214 dynamic torque",
+      "status": "DERIVED"
+    },
+    {
+      "maps_to": "does not close spatial winding",
+      "mechanism": "DEV215 elementary plaquette circulation",
+      "status": "NOT_DERIVED"
+    },
+    {
+      "maps_to": "preserves macro-force geometry possibility",
+      "mechanism": "DEV218 interface force",
+      "status": "MOMENTUM_POLARITY_ABSENT"
+    }
+  ]
+}

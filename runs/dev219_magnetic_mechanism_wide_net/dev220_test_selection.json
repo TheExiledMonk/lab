@@ -1,0 +1,8 @@
+{
+  "DEV220_TEST_SELECTION": "SPATIAL_WINDING_AUDIT",
+  "DEV220_TEST_SELECTION_FROZEN": true,
+  "one_frozen_geometry": "existing DEV203 canonical trajectory at a predeclared timestep/window",
+  "one_observable": "oriented sum of normalized existing bond-force directions around predeclared reflection-paired multi-cell loops",
+  "one_question": "Does the frozen DEV203 relational stress geometry have a nonzero, reflection-covariant coefficient-free multi-cell winding diagnostic?",
+  "why": "cheapest discriminator between broad extended geometry and the stronger spatial-topology candidate; it neither reruns DEV211 nor relabels DEV218."
+}

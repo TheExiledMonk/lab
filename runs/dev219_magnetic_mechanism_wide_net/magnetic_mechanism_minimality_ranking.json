@@ -1,0 +1,30 @@
+{
+  "EXISTING_EMERGENT_STRUCTURE_PRIORITY": true,
+  "MAGNETIC_MECHANISM_MINIMALITY_RANKING_COMPLETE": true,
+  "MINIMAL_NATIVE_MAGNETIC_CANDIDATE": "NONUNIQUE",
+  "dominance_rule": "No more assumptions; every constraint satisfied by B; at least one additional constraint.",
+  "ranking": [
+    {
+      "candidates": [
+        "M4_EXTENDED_ANISOTROPIC_RELATIONAL_GEOMETRY",
+        "M5_SPATIAL_WINDING_VORTEX_LIKE_STRESS_TEXTURE",
+        "M7_BOUNDARY_INTERFACE_MECHANISM"
+      ],
+      "tier": 1
+    },
+    {
+      "candidates": [
+        "M9_STRESS_TOPOLOGY_CLOSURE",
+        "M6_COLLECTIVE_ORDERED_REGION",
+        "M8_DIRECTED_NATIVE_FLUX_ORGANIZATION"
+      ],
+      "tier": 2
+    },
+    {
+      "candidates": [
+        "M10_MIXED_MINIMAL_MECHANISM"
+      ],
+      "tier": 3
+    }
+  ]
+}

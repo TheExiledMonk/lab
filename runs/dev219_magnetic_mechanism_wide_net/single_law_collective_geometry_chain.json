@@ -1,0 +1,16 @@
+{
+  "SINGLE_LAW_COLLECTIVE_GEOMETRY_CHAIN": "PARTIAL",
+  "chain": [
+    "central N6 restoring force",
+    "oriented local strain",
+    "collectively organized stress geometry",
+    "torque + alignment + net translation",
+    "macroscopic magnetic-like behavior"
+  ],
+  "evidence": [
+    "DEV167 law",
+    "DEV203/204 orientation-stress",
+    "DEV214 torque"
+  ],
+  "first_unproven_link": "coherently organized extended stress geometry with independently measurable topology"
+}

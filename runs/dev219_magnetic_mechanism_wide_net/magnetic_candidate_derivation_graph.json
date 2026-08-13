@@ -1,0 +1,43 @@
+{
+  "edges": [
+    [
+      "N6 connectivity",
+      "DEV167 central restoring interaction"
+    ],
+    [
+      "DEV167 central restoring interaction",
+      "oriented local strain"
+    ],
+    [
+      "oriented local strain",
+      "DEV203/204 relational stress"
+    ],
+    [
+      "DEV203/204 relational stress",
+      "extended geometry"
+    ],
+    [
+      "extended geometry",
+      "spatial winding"
+    ],
+    [
+      "extended geometry",
+      "pattern boundary"
+    ],
+    [
+      "extended geometry",
+      "torque/alignment/net force"
+    ]
+  ],
+  "nodes": [
+    "N6 connectivity",
+    "DEV167 central restoring interaction",
+    "node momentum",
+    "oriented local strain",
+    "DEV203/204 relational stress",
+    "extended geometry",
+    "spatial winding",
+    "pattern boundary",
+    "torque/alignment/net force"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "MAGNETIC_THEORY_MECHANISM_MATRIX_COMPLETE": true,
+  "STANDARD_MAGNETIC_THEORY_USED_AS_CONSTRAINT_NOT_PRIMITIVE": true,
+  "rows": [
+    {
+      "concept": "dipole interaction",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "exchange",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "anisotropy",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "domain formation",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "domain-wall dynamics",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "vortices",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "chirality",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "magnetostriction/magnetoelasticity",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "spin waves",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "current-driven torque",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "flux closure",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "reconnection",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    },
+    {
+      "concept": "turbulent magnetic structures",
+      "native_constraint": "reproduce behavior only",
+      "role": "comparison category / effective or standard theory, not a PBUF primitive"
+    }
+  ]
+}

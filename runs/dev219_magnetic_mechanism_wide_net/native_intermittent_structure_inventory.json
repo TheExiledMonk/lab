@@ -1,0 +1,12 @@
+{
+  "NATIVE_INTERMITTENT_STRUCTURE_INVENTORY": [
+    "propagating loaded stress patterns: observed",
+    "localized source/contact loading: observed",
+    "rotational signature: transient/partial",
+    "stress sheets/fronts/knots: not inventory-derived"
+  ],
+  "NATIVE_INTERMITTENT_STRUCTURE_INVENTORY_COMPLETE": true,
+  "NATIVE_TURBULENT_INTERACTION_CAPABILITY": "POSSIBLE_NOT_TESTED",
+  "NO_NEW_TURBULENCE_SIMULATION": true,
+  "TURBULENCE_NOT_ASSUMED_FUNDAMENTAL": true
+}

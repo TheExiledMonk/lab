@@ -1,0 +1,20 @@
+{
+  "STANDARD_MAGNETIC_THEORY_USED_AS_CONSTRAINT_NOT_PRIMITIVE": true,
+  "sources": [
+    {
+      "title": "OpenStax magnetic force/torque",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/11-5-force-and-torque-on-a-current-loop)",
+      "use": "torque/alignment and current-driven phenomenology only"
+    },
+    {
+      "title": "NIST magnetization characterization",
+      "url": "https://www.nist.gov/mml/materials-science-and-engineering-division/magnetization-characterization-laboratory",
+      "use": "domains, coercivity and anisotropy as material phenomena"
+    },
+    {
+      "title": "NASA MMS turbulent reconnection",
+      "url": "https://www.nasa.gov/missions/mms/nasa-spacecraft-discovers-new-magnetic-process-in-turbulent-space/",
+      "use": "reconnection/turbulence/energy release as plasma phenomenology"
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "MAGNETIC_PHENOMENOLOGY_INVENTORY_COMPLETE": true,
+  "rows": [
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_FUNDAMENTAL",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "STATIC_ATTRACTION",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "macroscopic orientation-dependent net force"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_FUNDAMENTAL",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "STATIC_REPULSION",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "macroscopic orientation-dependent net force"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_FUNDAMENTAL",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "PARTIAL",
+      "phenomenon": "TORQUE",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "couple rotates a body"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_FUNDAMENTAL",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "ALIGNMENT",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "torque toward preferred orientation"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_FUNDAMENTAL",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "ORIENTATION_DEPENDENCE",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "interaction depends on relative geometry"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_FUNDAMENTAL",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "FIELD_LIKE_REMOTE_INFLUENCE",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "remote structured influence"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "CLOSED_FLUX_STRUCTURE",
+      "physical_status": "STANDARD_THEORETICAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "closed return geometry"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "DIPOLE_LIKE_FAR_GEOMETRY",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "oriented far geometry"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "DOMAINS",
+      "physical_status": "MATERIAL_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "ordered regions"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "DOMAIN_WALLS",
+      "physical_status": "MATERIAL_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "transitions between ordered regions"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "VORTICES",
+      "physical_status": "EMERGENT_TEXTURE",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "spatial orientation winding"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "ANTIVORTICES",
+      "physical_status": "EMERGENT_TEXTURE",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "opposite winding"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "CHIRAL_TEXTURE",
+      "physical_status": "EMERGENT_TEXTURE",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "handed texture"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "COLLECTIVE_ORDER",
+      "physical_status": "STANDARD_THEORETICAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "coherent local organization"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "MIXED",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "HYSTERESIS",
+      "physical_status": "MATERIAL_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "history-dependent response"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "SATURATION",
+      "physical_status": "MATERIAL_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "finite response bound"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "MIXED",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "REMANENCE",
+      "physical_status": "MATERIAL_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "source-free persistence"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "MIXED",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "COERCIVITY",
+      "physical_status": "MATERIAL_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "finite reversal threshold"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "MIXED",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "CURRENT_INDUCED_MAGNETISM",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "directed driver organizes orientation"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "MIXED",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "CURRENT_REVERSAL_POLARITY",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "driver reversal reverses orientation"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "MIXED",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "INDUCTION",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "changing organization gives reciprocal response"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "MIXED",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "MOVING_MAGNET_RESPONSE",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "relative motion response"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_FUNDAMENTAL",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "PARTIAL",
+      "phenomenon": "TIME_DEPENDENT_RESPONSE",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "dynamic response"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "PARTIAL",
+      "phenomenon": "MAGNETIC_WAVES",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "propagating disturbance"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "MAGNETOELASTIC_COUPLING",
+      "physical_status": "MATERIAL_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "coupling to deformation"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "RECONNECTION",
+      "physical_status": "PLASMA_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "stored configuration releases energy"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "FLUX_ROPES",
+      "physical_status": "PLASMA_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "organized rope-like structure"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "TURBULENT_MAGNETIC_INTERACTION",
+      "physical_status": "PLASMA_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "multiscale disordered interaction"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_EMERGENT",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "NOT_DERIVED",
+      "phenomenon": "INTERMITTENT_STRUCTURES",
+      "physical_status": "PLASMA_SPECIFIC",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "localized sheets/fronts/defects"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_FUNDAMENTAL",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "PARTIAL",
+      "phenomenon": "ENERGY_STORAGE",
+      "physical_status": "STANDARD_THEORETICAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "recoverable configuration energy"
+    },
+    {
+      "candidate_mechanisms": [
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M9"
+      ],
+      "existing_native_analogue": "native strain/stress/momentum relation where applicable",
+      "is_explanation_fundamental_or_effective": "LIKELY_FUNDAMENTAL",
+      "minimum_behavior_PBUF_must_reproduce": "behavioral constraint only; not necessarily material-specific realization",
+      "native_status": "PARTIAL",
+      "phenomenon": "ENERGY_RELEASE",
+      "physical_status": "EXPERIMENTAL",
+      "relevant_dev": [
+        "DEV167",
+        "DEV203",
+        "DEV204",
+        "DEV214",
+        "DEV215",
+        "DEV218"
+      ],
+      "standard_explanation": "configuration energy becomes motion/waves"
+    }
+  ]
+}

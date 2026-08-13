@@ -1,0 +1,23 @@
+{
+  "MAGNETIC_CANDIDATE_ELIMINATION_COMPLETE": true,
+  "eliminations": [
+    {
+      "candidate": "M1",
+      "elimination_reason": "DEV211 reflection degeneracy",
+      "first_conflicting_dev": "DEV211",
+      "reopen_condition": "independent nondegenerate existing geometry"
+    },
+    {
+      "candidate": "M2",
+      "elimination_reason": "DEV218 canonical all-attractive interface force",
+      "first_conflicting_dev": "DEV218",
+      "reopen_condition": "independently changed mechanics/preparation/geometry/observer"
+    },
+    {
+      "candidate": "M3",
+      "elimination_reason": "exact local temporal cycle not derived",
+      "first_conflicting_dev": "DEV215",
+      "reopen_condition": "independently derived state recurrence, not imposed rotation"
+    }
+  ]
+}

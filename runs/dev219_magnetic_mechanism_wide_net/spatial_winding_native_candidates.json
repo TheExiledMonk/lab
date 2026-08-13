@@ -1,0 +1,19 @@
+{
+  "DEV215_PLAQUETTE_RESULT": "NOT_DERIVED_ELEMENTARY_REVERSAL",
+  "DEV215_PLAQUETTE_RESULT_RECOVERED": true,
+  "MULTISCALE_NATIVE_CIRCULATION_CANDIDATE": "DERIVABLE_WITHOUT_NEW_LAW",
+  "NATIVE_CLOSED_RELATIONAL_STRUCTURE": "PARTIAL_EXISTING",
+  "NO_B_FIELD_IDENTIFICATION": true,
+  "NO_SYNTHETIC_VECTOR_FIELD": true,
+  "SPATIAL_WINDING_NATIVE_CANDIDATES_INVENTORIED": true,
+  "TEMPORAL_CYCLE_VS_SPATIAL_WINDING_DISTINGUISHED": true,
+  "candidates": [
+    "normalized bond-force direction",
+    "DEV203 opposite-pair relational tensor",
+    "DEV203 rotational signature",
+    "DEV204 orientation-stress term",
+    "signed pair-power flux",
+    "antisymmetric spatial force moment",
+    "interface tangential force"
+  ]
+}

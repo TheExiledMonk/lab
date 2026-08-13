@@ -118,3 +118,5 @@ DEV216 rule: use fixed DEV215 N6 boundary cuts for DEV214 states; do not resize 
 DEV217 rule: DEV216 showed that individually conservation-valid closed regions do not define a pair-force observer when they overlap. Do not resize, delete overlap nodes post hoc, or select a partition from force results.
 
 DEV218 is the first dynamic-polarity radial-force audit with state preparation, geometry, partition, direct interface bonds, and action-reaction frozen independently before sign inspection; DEV214 and DEV216 are not equivalent completed force-sign tests.
+
+DEV219 rule: DEV211 static-reflection, DEV218 momentum-sign, and DEV215 exact local-temporal-cycle routes remain closed/not-derived on their stated preparations. Spatial topology is a separate coefficient-free question.

@@ -1,0 +1,46 @@
+{
+  "FAILED_ROUTE_MATRIX_COMPLETE": true,
+  "NO_RELABELED_FAILED_MECHANISM": true,
+  "rows": [
+    {
+      "dev": "DEV211",
+      "reopen_condition": "independent anisotropic existing structure",
+      "what_failed": "reflection-degenerate deformation",
+      "what_hypothesis_was_actually_tested": "static source-maintained reflection reversal",
+      "what_it_does_not_rule_out": "does not exclude nondegenerate extended geometry",
+      "why_it_failed": "reflection-degenerate deformation"
+    },
+    {
+      "dev": "DEV214",
+      "reopen_condition": "fixed topology observable",
+      "what_failed": "radial force was unresolved; torque derived",
+      "what_hypothesis_was_actually_tested": "momentum-state force/torque interaction",
+      "what_it_does_not_rule_out": "does not settle spatial topology",
+      "why_it_failed": "radial force was unresolved; torque derived"
+    },
+    {
+      "dev": "DEV215",
+      "reopen_condition": "predeclared multi-cell spatial diagnostic",
+      "what_failed": "oscillatory nonclosed; circulation reversal not derived",
+      "what_hypothesis_was_actually_tested": "exact local temporal cycle / elementary plaquette",
+      "what_it_does_not_rule_out": "does not exclude spatial winding",
+      "why_it_failed": "oscillatory nonclosed; circulation reversal not derived"
+    },
+    {
+      "dev": "DEV216",
+      "reopen_condition": "new independently derived geometry",
+      "what_failed": "observer/preparation limitation not a new polarity proof",
+      "what_hypothesis_was_actually_tested": "bond-cut dynamic polarity",
+      "what_it_does_not_rule_out": "does not exclude geometry vector sums",
+      "why_it_failed": "observer/preparation limitation not a new polarity proof"
+    },
+    {
+      "dev": "DEV218",
+      "reopen_condition": "independently changed mechanics/preparation/geometry/observer",
+      "what_failed": "all four frozen initial interface forces attractive",
+      "what_hypothesis_was_actually_tested": "momentum-sign radial polarity",
+      "what_it_does_not_rule_out": "does not exclude geometry-generated macroscopic duality",
+      "why_it_failed": "all four frozen initial interface forces attractive"
+    }
+  ]
+}
