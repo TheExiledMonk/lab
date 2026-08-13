@@ -1,0 +1,14 @@
+{
+  "INITIAL_PAIR_DIFFERENCE_RESTRICTED_TO_INTERNAL_STATE": true,
+  "PAIR_INTERNAL_STATE_MATRIX_COMPLETE": true,
+  "SAME_AMPLITUDE": true,
+  "SAME_STRUCTURE_GEOMETRY": true,
+  "SAME_TIME_PREPARATION": true,
+  "operation": "R_p(u,p)=(u,-p)",
+  "states": [
+    "++",
+    "+-",
+    "-+",
+    "--"
+  ]
+}

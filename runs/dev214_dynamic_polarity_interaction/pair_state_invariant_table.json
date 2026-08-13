@@ -1,0 +1,131 @@
+{
+  "SAME_BACKGROUND_STATE": true,
+  "SAME_DEV167_MECHANICS": true,
+  "SAME_SUPPORT_DEFINITION": true,
+  "rows": {
+    "++": {
+      "action_reaction": "VIOLATED",
+      "energy_total": 0.0001578927349266827,
+      "initial_classification": "UNRESOLVED",
+      "initial_force_A": [
+        -5.8450909015932305e-09,
+        -4.957083599931537e-06,
+        -1.9916070161604727e-07
+      ],
+      "initial_force_B": [
+        -4.9114114065523075e-09,
+        1.9250679940124744e-06,
+        -1.4375862907819365e-07
+      ],
+      "initial_radial_A": -4.957083599931537e-06,
+      "initial_radial_B_toward_A": -1.9250679940124744e-06,
+      "max_action_reaction_residual": 3.154157163942412e-06,
+      "temporal_character": "STEADY_SIGN",
+      "time_average_classification": "UNRESOLVED",
+      "time_average_force_A": [
+        -7.1929684868892735e-09,
+        -4.813809003658395e-06,
+        -2.1568885753521344e-07
+      ],
+      "time_average_force_B": [
+        -5.991173815016954e-09,
+        2.1626140722861854e-06,
+        -1.0358571295298737e-07
+      ],
+      "torque_max": 2.5980195355190654e-06
+    },
+    "+-": {
+      "action_reaction": "VIOLATED",
+      "energy_total": 0.00015343405602703564,
+      "initial_classification": "UNRESOLVED",
+      "initial_force_A": [
+        -5.8450909015932305e-09,
+        -4.957083599931537e-06,
+        -1.9916070161604727e-07
+      ],
+      "initial_force_B": [
+        -4.9114114065523075e-09,
+        1.9250679940124744e-06,
+        -1.4375862907819365e-07
+      ],
+      "initial_radial_A": -4.957083599931537e-06,
+      "initial_radial_B_toward_A": -1.9250679940124744e-06,
+      "max_action_reaction_residual": 3.051364941176724e-06,
+      "temporal_character": "STEADY_SIGN",
+      "time_average_classification": "UNRESOLVED",
+      "time_average_force_A": [
+        -3.190490130257119e-09,
+        -3.3636924213992625e-06,
+        -1.5460415502258699e-07
+      ],
+      "time_average_force_B": [
+        -4.402730724759167e-09,
+        1.56274856897363e-06,
+        -6.603963847492662e-08
+      ],
+      "torque_max": 1.6279829469478278e-06
+    },
+    "-+": {
+      "action_reaction": "VIOLATED",
+      "energy_total": 0.00015343405602703564,
+      "initial_classification": "UNRESOLVED",
+      "initial_force_A": [
+        -5.8450909015932305e-09,
+        -4.957083599931537e-06,
+        -1.9916070161604727e-07
+      ],
+      "initial_force_B": [
+        -4.9114114065523075e-09,
+        1.9250679940124744e-06,
+        -1.4375862907819365e-07
+      ],
+      "initial_radial_A": -4.957083599931537e-06,
+      "initial_radial_B_toward_A": -1.9250679940124744e-06,
+      "max_action_reaction_residual": 3.051364941176724e-06,
+      "temporal_character": "STEADY_SIGN",
+      "time_average_classification": "UNRESOLVED",
+      "time_average_force_A": [
+        -5.865823308608611e-09,
+        -3.3637016272615436e-06,
+        -1.546049893096167e-07
+      ],
+      "time_average_force_B": [
+        -3.010103957579239e-09,
+        1.562747024183309e-06,
+        -6.604123973907961e-08
+      ],
+      "torque_max": 1.6317455578799884e-06
+    },
+    "--": {
+      "action_reaction": "VIOLATED",
+      "energy_total": 0.0001578927349266827,
+      "initial_classification": "UNRESOLVED",
+      "initial_force_A": [
+        -5.8450909015932305e-09,
+        -4.957083599931537e-06,
+        -1.9916070161604727e-07
+      ],
+      "initial_force_B": [
+        -4.9114114065523075e-09,
+        1.9250679940124744e-06,
+        -1.4375862907819365e-07
+      ],
+      "initial_radial_A": -4.957083599931537e-06,
+      "initial_radial_B_toward_A": -1.9250679940124744e-06,
+      "max_action_reaction_residual": 3.051364941176724e-06,
+      "temporal_character": "STEADY_SIGN",
+      "time_average_classification": "UNRESOLVED",
+      "time_average_force_A": [
+        -3.625076090292791e-09,
+        -3.335984437500144e-06,
+        -1.526254163971844e-07
+      ],
+      "time_average_force_B": [
+        -3.533378146050758e-09,
+        1.5406689839256126e-06,
+        -6.665124060697804e-08
+      ],
+      "torque_max": 2.065059792910434e-06
+    }
+  }
+}

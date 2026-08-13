@@ -1,0 +1,14 @@
+{
+  "PAIR_FORCE_TEMPORAL_CHARACTER": {
+    "++": "STEADY_SIGN",
+    "+-": "STEADY_SIGN",
+    "-+": "STEADY_SIGN",
+    "--": "STEADY_SIGN"
+  },
+  "TIME_AVERAGED_DYNAMIC_FORCE_SIGN": {
+    "++": "UNRESOLVED",
+    "+-": "UNRESOLVED",
+    "-+": "UNRESOLVED",
+    "--": "UNRESOLVED"
+  }
+}

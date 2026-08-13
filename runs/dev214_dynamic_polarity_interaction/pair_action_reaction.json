@@ -1,0 +1,21 @@
+{
+  "PAIR_ACTION_REACTION_CLASSIFIED": true,
+  "rows": {
+    "++": {
+      "PAIR_ACTION_REACTION": "VIOLATED",
+      "max_residual": 3.154157163942412e-06
+    },
+    "+-": {
+      "PAIR_ACTION_REACTION": "VIOLATED",
+      "max_residual": 3.051364941176724e-06
+    },
+    "-+": {
+      "PAIR_ACTION_REACTION": "VIOLATED",
+      "max_residual": 3.051364941176724e-06
+    },
+    "--": {
+      "PAIR_ACTION_REACTION": "VIOLATED",
+      "max_residual": 3.051364941176724e-06
+    }
+  }
+}

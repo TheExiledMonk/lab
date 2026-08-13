@@ -102,3 +102,5 @@ DEV211 rule: a reflection-invariant existing source deformation cannot establish
 DEV212 rule: `(u,p)` is the native state; momentum reversal and flux reversal are exact distinctions, but DEV193 forbids inferring a physical two-packet interaction from additive independently replayed trajectories.
 
 DEV213 rule: DEV193 remains correct for independently replayed transfer columns. DEV196 valid-state injection, applied twice at one progression step, defines a valid order-independent aggregate native state; later evolution is aggregate DEV167 evolution, never summed isolated trajectories.
+
+DEV214 rule: test exactly the DEV212 momentum involution in the fixed DEV213 aggregate geometry; a radial force claim is invalid if the immutable-provenance action–reaction gate fails.
