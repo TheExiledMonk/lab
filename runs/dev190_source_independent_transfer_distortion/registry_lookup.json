@@ -1,0 +1,129 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "45 channel": [
+      "TARGET: Physical observer mapping",
+      "STATUS: CANONICAL",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL",
+      "DEV187  DEV187 physical native detector / transfer response  FULL / CANONICAL"
+    ],
+    "G3": [
+      "TARGET: Weak-lensing native path",
+      "STATUS: ACTIVE",
+      "",
+      "TARGET: Physical observer mapping",
+      "STATUS: CANONICAL",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL",
+      "Pre-ledger  Scalar/gradient lensing and old ray architecture  PARTIAL / HISTORICAL_ONLY",
+      "Pre-ledger  A8/M10 processed five-lens path  FULL / SUPERSEDED",
+      "DEV187  DEV187 physical native detector / transfer response  FULL / CANONICAL"
+    ],
+    "J3": [
+      "TARGET: Physical observer mapping",
+      "STATUS: CANONICAL",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL",
+      "DEV187  DEV187 physical native detector / transfer response  FULL / CANONICAL"
+    ],
+    "Jacobian": [
+      "DEV190  DEV190 source-independent transfer-distortion invariant audit  FULL / CANONICAL"
+    ],
+    "P1": [
+      "TARGET: Physical observer mapping",
+      "STATUS: CANONICAL",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL",
+      "DEV187  DEV187 physical native detector / transfer response  FULL / CANONICAL"
+    ],
+    "P7": [
+      "TARGET: Physical observer mapping",
+      "STATUS: CANONICAL",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL",
+      "DEV187  DEV187 physical native detector / transfer response  FULL / CANONICAL"
+    ],
+    "anisotropy": [],
+    "condition number": [],
+    "covariance": [
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL"
+    ],
+    "deformation": [
+      "DEV164  Scalar static geometry  FAILED / REJECTED"
+    ],
+    "metric": [
+      "TARGET: Matter and source\u2013medium coupling",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Source depth / 3D reconstruction",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Coordinate lineage and WCS bridge",
+      "STATUS: PARTIAL",
+      "",
+      "PR36  Effective minimal matter loading  PARTIAL / HISTORICAL_ONLY",
+      "PR37  Metric-strain normalization  PARTIAL / HISTORICAL_ONLY",
+      "DEV159  Node-discrete stationary/moving local forcing  PARTIAL / HISTORICAL_ONLY",
+      "PR69  Local forcing versus redistribution  FULL / SUPERSEDED",
+      "PR72  Historical local N6 redistribution  FULL / SUPERSEDED",
+      "PR74  rho \u2192 A8 \u2192 c_state source proxy  PARTIAL / SUPERSEDED",
+      "DEV179  Native sub-cell source representation closure  PARTIAL / PARTIAL",
+      "PR107  Historical launch-coordinate receipt correction  FULL / HISTORICAL_ONLY",
+      "DEV169  Diagnostic 2D\u21923D depth lanes  DIAGNOSTIC_ONLY / HISTORICAL_ONLY",
+      "DEV171  Independent spectroscopic source ensemble  FULL / CANONICAL",
+      "DEV173  Source-to-observer coordinate lineage  FULL / SUPERSEDED",
+      "DEV174  Observer coordinate-provenance serialization  FULL / CANONICAL",
+      "DEV190  DEV190 source-independent transfer-distortion invariant audit  FULL / CANONICAL"
+    ],
+    "observer tensor": [
+      "DEV190  DEV190 source-independent transfer-distortion invariant audit  FULL / CANONICAL"
+    ],
+    "parallel perpendicular": [
+      "TARGET: Native mode / channel sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL"
+    ],
+    "polar decomposition": [],
+    "rotation": [],
+    "second moment": [],
+    "singular values": [],
+    "strain": [
+      "TARGET: Matter and source\u2013medium coupling",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Source depth / 3D reconstruction",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Bounded-strain constitutive response",
+      "STATUS: CANONICAL",
+      "",
+      "PR36  Effective minimal matter loading  PARTIAL / HISTORICAL_ONLY",
+      "PR37  Metric-strain normalization  PARTIAL / HISTORICAL_ONLY",
+      "DEV159  Node-discrete stationary/moving local forcing  PARTIAL / HISTORICAL_ONLY",
+      "PR69  Local forcing versus redistribution  FULL / SUPERSEDED",
+      "PR70  Bounded-strain normalized constitutive response  FULL / SUPERSEDED",
+      "PR72  Historical local N6 redistribution  FULL / SUPERSEDED",
+      "PR74  rho \u2192 A8 \u2192 c_state source proxy  PARTIAL / SUPERSEDED",
+      "DEV179  Native sub-cell source representation closure  PARTIAL / PARTIAL",
+      "DEV169  Diagnostic 2D\u21923D depth lanes  DIAGNOSTIC_ONLY / HISTORICAL_ONLY",
+      "DEV171  Independent spectroscopic source ensemble  FULL / CANONICAL"
+    ],
+    "stretch": [],
+    "transfer distortion": [
+      "TARGET: Source-independent transfer distortion",
+      "STATUS: CANONICAL",
+      "",
+      "DEV190  DEV190 source-independent transfer-distortion invariant audit  FULL / CANONICAL"
+    ]
+  }
+}

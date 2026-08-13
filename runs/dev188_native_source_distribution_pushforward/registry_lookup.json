@@ -1,0 +1,104 @@
+{
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "queries": {
+    "C100": [
+      "TARGET: Native launch-density convergence",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native mode / channel sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV184  DEV184 discrete launch density convergence  FULL / CANONICAL",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL",
+      "DEV186  DEV186 native mode/channel sufficiency  FULL / CANONICAL",
+      "DEV187  DEV187 physical native detector / transfer response  FULL / CANONICAL",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL"
+    ],
+    "Green function": [],
+    "convolution": [],
+    "illumination": [],
+    "impulse response": [
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL"
+    ],
+    "incident distribution": [
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL"
+    ],
+    "kernel": [
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL"
+    ],
+    "launch response": [
+      "TARGET: Native transfer operator",
+      "STATUS: CANONICAL",
+      "",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL"
+    ],
+    "native transfer operator": [
+      "TARGET: Native transfer operator",
+      "STATUS: CANONICAL",
+      "",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL"
+    ],
+    "pushforward": [
+      "TARGET: Physical observer mapping",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native transfer operator",
+      "STATUS: CANONICAL",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL",
+      "DEV187  DEV187 physical native detector / transfer response  FULL / CANONICAL",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL"
+    ],
+    "ray launch": [
+      "TARGET: Sampling and density terminology",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native packet launch representation",
+      "STATUS: PARTIAL",
+      "",
+      "TARGET: Discrete native launch domain and packet receipt lineage",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Native launch-density convergence",
+      "STATUS: CANONICAL",
+      "",
+      "DEV180  Historical source\u2013medium recovery and density reconciliation  FULL / CANONICAL",
+      "PR16  Historical C25 launch-density expansion  FULL / HISTORICAL_ONLY",
+      "PR106  Historical 25% to 100% launch-density coverage  FULL / HISTORICAL_ONLY",
+      "DEV182  Current-native packet launch representation closure  PARTIAL / PARTIAL",
+      "DEV183  Discrete native launch domain and packet-aware receipt lineage  FULL / CANONICAL",
+      "DEV184  DEV184 discrete launch density convergence  FULL / CANONICAL"
+    ],
+    "source distribution": [
+      "TARGET: Native transfer operator",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Astronomical source boundary",
+      "STATUS: OPEN",
+      "",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL"
+    ],
+    "source image": [
+      "TARGET: Native transfer operator",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Astronomical source boundary",
+      "STATUS: OPEN",
+      "",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL"
+    ],
+    "source plane": [
+      "DEV187  DEV187 physical native detector / transfer response  FULL / CANONICAL"
+    ],
+    "transfer function": [
+      "TARGET: Native transfer operator",
+      "STATUS: CANONICAL",
+      "",
+      "DEV188  DEV188 native source-distribution pushforward  FULL / CANONICAL"
+    ]
+  }
+}

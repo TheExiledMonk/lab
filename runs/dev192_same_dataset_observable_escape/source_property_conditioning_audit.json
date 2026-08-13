@@ -1,0 +1,33 @@
+{
+  "NO_PBUF_DRIVEN_SAMPLE_BINNING": true,
+  "SOURCE_PROPERTY_CONDITIONING_AUDITED": true,
+  "SOURCE_SELECTION_PREDECLARED": true,
+  "candidate": [
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E17",
+      "exact_formula": "E[Q_TF|Z]",
+      "native_counterpart": "U_T^TF",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "source-property-conditioned mean",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O18",
+      "population_dependency": "CONDITIONAL_INTRINSIC_MODEL",
+      "rejection_reason": "Conditioning reduces variance only under unverified conditional isotropy.",
+      "required_assumptions": [
+        "predeclared independent bins",
+        "isotropy in every bin"
+      ],
+      "required_dataset_fields": [
+        "catalogue properties",
+        "PSF-corrected Q"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "CONDITIONAL_CANCELLATION",
+      "source_term": "conditional intrinsic shape distribution",
+      "status": "MEASUREMENT_UNAVAILABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    }
+  ]
+}

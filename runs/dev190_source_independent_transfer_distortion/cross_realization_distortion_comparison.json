@@ -1,0 +1,68 @@
+{
+  "comparisons_to_R00": [
+    {
+      "anisotropy_l2_difference": 0.3043301330261323,
+      "centroid_l2_difference": 1.236064311755447,
+      "jacobian_l2_difference": 1.159986112333249,
+      "pair": [
+        "R00",
+        "R01"
+      ]
+    },
+    {
+      "anisotropy_l2_difference": 0.34430503695556386,
+      "centroid_l2_difference": 1.168571787961687,
+      "jacobian_l2_difference": 1.0443796908878364,
+      "pair": [
+        "R00",
+        "R02"
+      ]
+    },
+    {
+      "anisotropy_l2_difference": 0.3588696581396643,
+      "centroid_l2_difference": 1.6513041976021328,
+      "jacobian_l2_difference": 1.3355878185216266,
+      "pair": [
+        "R00",
+        "R03"
+      ]
+    },
+    {
+      "anisotropy_l2_difference": 0.29793131798097483,
+      "centroid_l2_difference": 1.1607730142661192,
+      "jacobian_l2_difference": 0.9888136675091441,
+      "pair": [
+        "R00",
+        "R04"
+      ]
+    },
+    {
+      "anisotropy_l2_difference": 0.3389012957940287,
+      "centroid_l2_difference": 1.3407235955973362,
+      "jacobian_l2_difference": 1.1148151644452504,
+      "pair": [
+        "R00",
+        "R05"
+      ]
+    },
+    {
+      "anisotropy_l2_difference": 0.34252687496210293,
+      "centroid_l2_difference": 1.2112400036355806,
+      "jacobian_l2_difference": 1.0885713455011476,
+      "pair": [
+        "R00",
+        "R06"
+      ]
+    },
+    {
+      "anisotropy_l2_difference": 0.26629568649652646,
+      "centroid_l2_difference": 1.132736249468077,
+      "jacobian_l2_difference": 0.8830075552085312,
+      "pair": [
+        "R00",
+        "R07"
+      ]
+    }
+  ],
+  "interpretation": "foreground-depth realization dependence retained separately; no averaging"
+}

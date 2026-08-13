@@ -1,0 +1,101 @@
+{
+  "MULTICHANNEL_OPERATOR_RANK_RECORDED": true,
+  "per_realization": [
+    {
+      "channels": [
+        "weight",
+        "momentum",
+        "flux",
+        "displacement",
+        "w02"
+      ],
+      "rank": 121,
+      "realization": 0,
+      "source_degrees_of_freedom": 121
+    },
+    {
+      "channels": [
+        "weight",
+        "momentum",
+        "flux",
+        "displacement",
+        "w02"
+      ],
+      "rank": 121,
+      "realization": 1,
+      "source_degrees_of_freedom": 121
+    },
+    {
+      "channels": [
+        "weight",
+        "momentum",
+        "flux",
+        "displacement",
+        "w02"
+      ],
+      "rank": 121,
+      "realization": 2,
+      "source_degrees_of_freedom": 121
+    },
+    {
+      "channels": [
+        "weight",
+        "momentum",
+        "flux",
+        "displacement",
+        "w02"
+      ],
+      "rank": 121,
+      "realization": 3,
+      "source_degrees_of_freedom": 121
+    },
+    {
+      "channels": [
+        "weight",
+        "momentum",
+        "flux",
+        "displacement",
+        "w02"
+      ],
+      "rank": 121,
+      "realization": 4,
+      "source_degrees_of_freedom": 121
+    },
+    {
+      "channels": [
+        "weight",
+        "momentum",
+        "flux",
+        "displacement",
+        "w02"
+      ],
+      "rank": 121,
+      "realization": 5,
+      "source_degrees_of_freedom": 121
+    },
+    {
+      "channels": [
+        "weight",
+        "momentum",
+        "flux",
+        "displacement",
+        "w02"
+      ],
+      "rank": 121,
+      "realization": 6,
+      "source_degrees_of_freedom": 121
+    },
+    {
+      "channels": [
+        "weight",
+        "momentum",
+        "flux",
+        "displacement",
+        "w02"
+      ],
+      "rank": 121,
+      "realization": 7,
+      "source_degrees_of_freedom": 121
+    }
+  ]
+}

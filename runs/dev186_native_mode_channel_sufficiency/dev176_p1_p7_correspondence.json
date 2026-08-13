@@ -1,0 +1,11 @@
+{
+  "NO_P1_P7_PROMOTION": true,
+  "P1": "receipt-footprint quadrupole",
+  "P2": "source-to-receipt local deformation tensor",
+  "P3": "received-direction quadrupole",
+  "P4": "local-flux quadrupole",
+  "P5": "local-momentum quadrupole",
+  "P6": "transverse source-to-arrival displacement quadrupole",
+  "P7": "frozen observer morphology tensor control",
+  "status": "UNPROMOTED_OBSERVER_CANDIDATES"
+}

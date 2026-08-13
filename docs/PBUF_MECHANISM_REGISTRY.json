@@ -176,15 +176,18 @@
       "last_updated_date": "2026-08-12",
       "attempt_ids": [
         "dev176_spin2_matrix",
-        "dev177_full_received_state"
+        "dev177_full_received_state",
+        "dev187_physical_native_observer"
       ],
-      "current_status": "OPEN",
-      "canonical_solution_ids": [],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev187_physical_native_observer"
+      ],
       "open_questions": [],
       "blocked_by": [],
       "blocks": [],
       "do_not_rederive": true,
-      "reopen_condition": "After received-state and channel sufficiency gates."
+      "reopen_condition": "Detector/transfer response is canonical; a source-image pushforward and a shape observable remain separate gates."
     },
     {
       "target_id": "source_depth_reconstruction",
@@ -729,6 +732,351 @@
       "blocks": [],
       "do_not_rederive": false,
       "reopen_condition": "Only when independent repository evidence changes the stated closure."
+    },
+    {
+      "target_id": "native_launch_density_convergence",
+      "canonical_name": "Native launch-density convergence",
+      "plain_language_question": "Has the complete frozen discrete launch domain converged?",
+      "aliases": [
+        "discrete native launch domain",
+        "launch density convergence",
+        "C50_DISCRETE",
+        "C100_DISCRETE"
+      ],
+      "keywords": [
+        "launch density",
+        "C100",
+        "C50",
+        "received-state distribution gate"
+      ],
+      "domain": "SAMPLING / RAY DENSITY",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev184_discrete_launch_density_convergence"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev184_discrete_launch_density_convergence"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen C100 receipt lineage is invalidated."
+    },
+    {
+      "target_id": "received_state_distribution_sufficiency",
+      "canonical_name": "Received-state distribution sufficiency",
+      "plain_language_question": "Is the full C100 native received state stable, finite, and non-degenerate across launches and depth realizations?",
+      "aliases": [
+        "received-state distribution",
+        "distribution sufficiency",
+        "receipt distribution",
+        "full received state"
+      ],
+      "keywords": [
+        "received-state distribution",
+        "distribution sufficiency",
+        "covariance",
+        "higher moments",
+        "channel sufficiency",
+        "mode sufficiency"
+      ],
+      "domain": "WEAK LENSING",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev185_received_state_distribution_sufficiency"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev185_received_state_distribution_sufficiency"
+      ],
+      "open_questions": [
+        "Native mode/channel sufficiency is separately required before an observer."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "physical_observer_mapping"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if C100 lineage or numerical validity is invalidated."
+    },
+    {
+      "target_id": "native_mode_channel_sufficiency",
+      "canonical_name": "Native mode / channel sufficiency",
+      "plain_language_question": "Which native components can be removed without losing established C100 information?",
+      "aliases": [
+        "mode sufficiency",
+        "channel sufficiency",
+        "feature ablation"
+      ],
+      "keywords": [
+        "mode",
+        "channel",
+        "feature ablation",
+        "rank contribution",
+        "parallel perpendicular",
+        "PCA",
+        "DFT"
+      ],
+      "domain": "WEAK LENSING",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev186_native_mode_channel_sufficiency"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev186_native_mode_channel_sufficiency"
+      ],
+      "open_questions": [
+        "Derive a physical observer from the information-sufficient native state."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if the C100 receipt schema or exact content definitions change."
+    },
+    {
+      "target_id": "native_transfer_operator",
+      "canonical_name": "Native transfer operator",
+      "plain_language_question": "How does the native receipt response push an independently supplied source distribution forward?",
+      "aliases": [
+        "transfer function",
+        "source pushforward",
+        "detector transfer response"
+      ],
+      "keywords": [
+        "transfer operator",
+        "pushforward",
+        "source image",
+        "receipt response"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev188_native_source_distribution_pushforward"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev188_native_source_distribution_pushforward"
+      ],
+      "open_questions": [
+        "An astronomical source image still needs an independent coordinate/source boundary."
+      ],
+      "blocked_by": [],
+      "blocks": [
+        "observational_lensing_comparison"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Frozen receipt/launch lineage changes, or a later source-boundary bridge is independently supplied."
+    },
+    {
+      "target_id": "astronomical_source_boundary",
+      "canonical_name": "Astronomical source boundary",
+      "plain_language_question": "Can an independent astronomical source distribution be mapped to frozen native launch IDs?",
+      "aliases": [
+        "source image boundary",
+        "source-coordinate bridge"
+      ],
+      "keywords": [
+        "astronomical source",
+        "source image",
+        "coordinate boundary"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev189_astronomical_source_boundary"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [
+        "dev189_astronomical_source_boundary"
+      ],
+      "open_questions": [
+        "Independent object-level pre-propagation morphology and an angular-to-native scale remain unavailable."
+      ],
+      "blocked_by": [
+        "intrinsic_source_content",
+        "angular_to_native_scale",
+        "coefficient_free_native_partition"
+      ],
+      "blocks": [
+        "observational_lensing_comparison"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "An independently measured unlensed/control object source with fixed astrometry, isotropic scale, and exact native-cell partition is supplied."
+    },
+    {
+      "target_id": "source_independent_transfer_distortion",
+      "canonical_name": "Source-independent transfer distortion",
+      "plain_language_question": "Can source-independent invariants of the frozen multichannel transfer operator support a later audit?",
+      "aliases": [
+        "operator-only distortion"
+      ],
+      "keywords": [
+        "transfer invariant",
+        "source independent distortion"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev190_source_independent_transfer_distortion"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev190_source_independent_transfer_distortion"
+      ],
+      "open_questions": [
+        "A later observable bridge is required; native spin-2 representation is not an observed quantity."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Frozen transfer-coordinate semantics or a native observer bridge changes."
+    },
+    {
+      "target_id": "wide_observable_boundary",
+      "name": "Wide observable boundary",
+      "current_status": "BLOCKED",
+      "attempt_ids": [
+        "dev191_wide_observable_boundary"
+      ],
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No object-level coefficient-free bridge from the frozen DEV190 tensor to an astronomical observable is derived; structural and ensemble routes remain open."
+      ],
+      "blocked_by": [
+        "intrinsic source morphology/reference information",
+        "unproven native-to-sky transfer semantics"
+      ],
+      "reopen_condition": "Derive an independent coefficient-free measurement/transfer relation before comparison.",
+      "canonical_name": "Wide observable boundary",
+      "plain_language_question": "Which astronomical measurements, if any, are coefficient-free counterparts of the native transfer tensor?",
+      "aliases": [
+        "native transfer observable bridge",
+        "observable-layer audit"
+      ],
+      "keywords": [
+        "observable boundary",
+        "PSF-corrected moments",
+        "transfer tensor"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "do_not_rederive": true,
+      "blocks": []
+    },
+    {
+      "target_id": "same_dataset_observable_escape",
+      "canonical_name": "Same-dataset observable escape",
+      "plain_language_question": "Can the fixed raw imaging dataset supply a source-free, cancelling, relative, null, or ensemble observable physically related to DEV190?",
+      "aliases": [
+        "source cancellation audit"
+      ],
+      "keywords": [
+        "source elimination",
+        "same dataset",
+        "observable escape"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-12",
+      "last_updated_date": "2026-08-12",
+      "attempt_ids": [
+        "dev192_same_dataset_observable_escape"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No exact source elimination exists under frozen DEV190 semantics; all same-dataset measurable routes are unavailable or retain a source/ensemble assumption."
+      ],
+      "blocked_by": [
+        "no authentic recovered development moment/PSF/WCS assets",
+        "unproven native-to-sky image transfer semantics",
+        "intrinsic source terms"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Independently derive physical image-transfer semantics and acquire provenance-tied current-dataset products without changing the frozen method."
+    },
+    {
+      "target_id": "native_extended_excitation_transport",
+      "canonical_name": "Native extended excitation transport",
+      "plain_language_question": "Do frozen native excitation, propagation, and detector laws physically define an extended incident distribution and its exact moment law?",
+      "aliases": [
+        "extended source",
+        "multi-packet transport",
+        "image transport"
+      ],
+      "keywords": [
+        "extended excitation",
+        "superposition",
+        "simultaneous packet",
+        "packet overlap",
+        "moment transport"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev193_native_extended_transport"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No native multi-packet initial-state composition rule is established."
+      ],
+      "blocked_by": [
+        "initial state composition",
+        "nonlinear simultaneous interaction"
+      ],
+      "blocks": [
+        "observational_lensing_comparison"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "A frozen native initial-state composition and simultaneous-propagation law is independently established."
+    },
+    {
+      "target_id": "independent_event_wave_transport",
+      "canonical_name": "Independent-event wave transport",
+      "plain_language_question": "Can frozen single-excitation dynamics and receipt accumulation define an expected image without simultaneous multi-packet composition?",
+      "aliases": [
+        "event accumulation",
+        "single-event wave transport"
+      ],
+      "keywords": [
+        "independent event",
+        "event accumulation",
+        "interference",
+        "two path",
+        "medium memory"
+      ],
+      "domain": "OBSERVER",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev194_independent_event_wave_transport"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No stationary-event recovery or sequential event-injection semantics is established."
+      ],
+      "blocked_by": [
+        "persistent post-event medium memory",
+        "event injection semantics"
+      ],
+      "blocks": [
+        "observational_lensing_comparison"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "A frozen native event-emission/recovery rule establishes independent sequential events."
     }
   ],
   "attempts": [
@@ -2877,6 +3225,885 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev184_discrete_launch_density_convergence",
+      "target_id": "native_launch_density_convergence",
+      "name": "DEV184 discrete launch density convergence",
+      "aliases": [
+        "C50_DISCRETE",
+        "C100_DISCRETE"
+      ],
+      "summary": "All 8 realizations CONVERGED_BY_C50; C50 is minimum converged coverage, C100 is canonical future coverage, and the received-state distribution gate is AUTHORIZED.",
+      "why_attempted": "Close density sufficiency over DEV183 finite launch domain.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV184",
+      "pr": "#109",
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [
+        "6089c89e237448bd24a5c274793aebbc0006d289",
+        "8c721da621f97f1450547f145c31b3dd371ddcd7"
+      ],
+      "files": [
+        "tools/generate_dev184_discrete_launch_density_convergence.py"
+      ],
+      "run_directories": [
+        "runs/dev184_discrete_launch_density_convergence"
+      ],
+      "tests": [
+        "tests/test_dev184_discrete_launch_density_convergence.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "All eight finite-domain rank trajectories converge by C50.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev183_discrete_launch_domain_packet_lineage"
+      ],
+      "ancestor_of": [
+        "dev185_received_state_distribution_sufficiency"
+      ],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev177_full_received_state"
+      ],
+      "still_valid_components": [
+        "C100 frozen receipts"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "minimum C50 convergence",
+        "C100 canonical coverage"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Receipt lineage or frozen domain invalidation.",
+      "do_not_repeat_reason": "Density is closed; C100 is the canonical future dataset.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev184_discrete_launch_density_convergence/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev185_received_state_distribution_sufficiency",
+      "target_id": "received_state_distribution_sufficiency",
+      "name": "DEV185 received-state distribution sufficiency",
+      "aliases": [
+        "C100 receipt distribution",
+        "native distribution audit"
+      ],
+      "summary": "Read-only C100 distribution audit across all 968 frozen packet replays.",
+      "why_attempted": "Authorize only a later native mode/channel audit, never an observer.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV185",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "tools/generate_dev185_received_state_distribution_sufficiency.py"
+      ],
+      "run_directories": [
+        "runs/dev185_received_state_distribution_sufficiency"
+      ],
+      "tests": [
+        "tests/test_dev185_received_state_distribution_sufficiency.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Complete C100 state is finite, structured and non-degenerate; detailed evidence is in the frozen run.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev184_discrete_launch_density_convergence"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [
+        "dev184_discrete_launch_density_convergence"
+      ],
+      "related_attempts": [
+        "dev177_full_received_state"
+      ],
+      "still_valid_components": [
+        "full native state",
+        "depth dimension",
+        "all four W candidates"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "distribution gate"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Frozen C100 lineage invalidated.",
+      "do_not_repeat_reason": "Mode/channel question is the next distinct gate.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev185_received_state_distribution_sufficiency/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev186_native_mode_channel_sufficiency",
+      "target_id": "native_mode_channel_sufficiency",
+      "name": "DEV186 native mode/channel sufficiency",
+      "aliases": [
+        "exact content redundancy",
+        "C100 feature ablation"
+      ],
+      "summary": "Exact W01/W03/W04 content relations permit an information-equivalent reduced raw representation; raw basis remains the only physically justified basis.",
+      "why_attempted": "Close the distinct information-sufficiency gate before physical observer derivation.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV186",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "tools/generate_dev186_native_mode_channel_sufficiency.py"
+      ],
+      "run_directories": [
+        "runs/dev186_native_mode_channel_sufficiency"
+      ],
+      "tests": [
+        "tests/test_dev186_native_mode_channel_sufficiency.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Exact native content definitions prove only W01/W03/W04 storage redundancy; all hard gates are preserved.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev185_received_state_distribution_sufficiency"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev177_full_received_state"
+      ],
+      "still_valid_components": [
+        "raw component reference basis",
+        "exact reduced content representation"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "exact reconstruction",
+        "rank/depth preservation"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "C100 receipt definitions change.",
+      "do_not_repeat_reason": "Observer derivation, not statistical channel pruning, is next.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev186_native_mode_channel_sufficiency/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev187_physical_native_observer",
+      "target_id": "physical_observer_mapping",
+      "name": "DEV187 physical native detector / transfer response",
+      "aliases": [
+        "native detector",
+        "receipt-plane accumulation",
+        "transfer response"
+      ],
+      "summary": "DEV168 positive crossing weight defines an additive receipt measure, but C100 launches are sampling probes; the result is a normalized native transfer response, not literal brightness.",
+      "why_attempted": "Derive measurement semantics after DEV186 exact sufficiency.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV187",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_detector.py",
+        "tools/generate_dev187_physical_native_observer.py"
+      ],
+      "run_directories": [
+        "runs/dev187_physical_native_observer"
+      ],
+      "tests": [
+        "tests/test_dev187_physical_native_observer.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "Native detector state and transfer-response measure are exact; source-image pushforward remains required.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev186_native_mode_channel_sufficiency"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [
+        "dev177_full_received_state"
+      ],
+      "still_valid_components": [
+        "NativeDetectorState/v1",
+        "positive crossing weight measure"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "additivity",
+        "order invariance",
+        "sampling semantics"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Receipt crossing semantics change.",
+      "do_not_repeat_reason": "Next task is source-distribution pushforward, not another detector choice.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev187_physical_native_observer/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev188_native_source_distribution_pushforward",
+      "target_id": "native_transfer_operator",
+      "name": "DEV188 native source-distribution pushforward",
+      "aliases": [
+        "NativeTransferOperator/v1",
+        "incident distribution pushforward"
+      ],
+      "summary": "Frozen DEV184 per-launch DEV187 receipt responses form exact position-dependent 33x121 positive weight operators for eight DEV171 realizations.",
+      "why_attempted": "DEV187 supplied exact impulse responses but deliberately did not supply incident brightness.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV188",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_transfer.py",
+        "tools/generate_dev188_native_source_pushforward.py"
+      ],
+      "run_directories": [
+        "runs/dev188_native_source_distribution_pushforward"
+      ],
+      "tests": [
+        "tests/test_dev188_native_source_pushforward.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "K^(r)s is derived solely from frozen launch-keyed receipt responses; no source morphology is chosen.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev171_independent_3d_source",
+        "dev183_discrete_launch_domain_packet_lineage",
+        "dev184_discrete_launch_density_convergence",
+        "dev187_physical_native_observer"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "NativeTransferOperator/v1",
+        "NativeIncidentDistribution/v1",
+        "positive crossing weight kernel"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "launch-keyed columns",
+        "linearity",
+        "uniform expectation regression"
+      ],
+      "failed_components": [],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Frozen receipt semantics change.",
+      "do_not_repeat_reason": "Future work must address a source boundary or source-independent invariant, not re-sample C100.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev188_native_source_distribution_pushforward/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev189_astronomical_source_boundary",
+      "target_id": "astronomical_source_boundary",
+      "name": "DEV189 astronomical source boundary and native launch-domain bridge",
+      "aliases": [
+        "AstronomicalNativeSourceBoundary/v1 audit"
+      ],
+      "summary": "Audits whether independent astronomical source content and coordinates can enter the frozen 121-state incident domain without lens reconstruction, fitted registration, morphology invention, or interpolation.",
+      "why_attempted": "DEV188 closes K s but deliberately leaves s astronomical semantics open.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV189",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/astronomical_source_boundary.py",
+        "tools/generate_dev189_astronomical_source_boundary.py"
+      ],
+      "run_directories": [
+        "runs/dev189_astronomical_source_boundary"
+      ],
+      "tests": [
+        "tests/test_dev189_astronomical_source_boundary.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "BLOCKED",
+      "result_reason": "Only observed post-propagation image information/status is present; no independently measured individual intrinsic source morphology, scale, or exact cell partition is available.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev171_independent_3d_source",
+        "dev174_coordinate_serialization",
+        "dev175_pyrrg_recovery",
+        "dev183_discrete_launch_domain_packet_lineage",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "NativeIncidentDistribution/v1",
+        "NativeTransferOperator/v1",
+        "DEV183 121-state domain"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "anti-circularity boundary audit",
+        "similarity transform synthetic control"
+      ],
+      "failed_components": [
+        "object-level intrinsic astronomical source bridge"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Independent object-level pre-propagation source and fixed coordinate bridge.",
+      "do_not_repeat_reason": "Do not substitute the observed lensed image, GR/lens reconstruction, or fitted WCS registration.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev189_astronomical_source_boundary/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev191_wide_observable_boundary",
+      "target_id": "wide_observable_boundary",
+      "name": "DEV191 wide-spectrum observable boundary and equivalence audit",
+      "aliases": [
+        "Observable Layer Rule",
+        "Representation Equivalence Rule"
+      ],
+      "summary": "Blind, ranked structural inventory of direct astronomical observable layers against frozen DEV190 components.",
+      "why_attempted": "DEV190 derives native geometry but leaves the astronomy bridge closed.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV191",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/observable_boundary.py",
+        "tools/generate_dev191_wide_observable_boundary.py"
+      ],
+      "run_directories": [
+        "runs/dev191_wide_observable_boundary"
+      ],
+      "tests": [
+        "tests/test_dev191_wide_observable_boundary.py"
+      ],
+      "equations": [
+        "Q_ij=int I(q)(q_i-qbar_i)(q_j-qbar_j)dq/int I(q)dq",
+        "Q_TF=Q-tr(Q)I/2"
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "PARTIAL",
+      "result_reason": "Complete structural matrix finds only representation-level moment candidates; no coefficient-free source-independent astronomical bridge is derived.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev174_coordinate_serialization",
+        "dev175_pyrrg_recovery",
+        "dev176_spin2_matrix",
+        "dev177_full_received_state",
+        "dev178_vulkan_viewer",
+        "dev186_native_mode_channel_sufficiency",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward",
+        "dev189_astronomical_source_boundary",
+        "dev190_source_independent_transfer_distortion"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "observable-layer separation",
+        "representation-equivalence distinction"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "wide blind candidate matrix"
+      ],
+      "failed_components": [
+        "object-level physical observable bridge"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "An independent source-free transfer-to-measurement relation is derived.",
+      "do_not_repeat_reason": "Do not promote an observable because it has spin-2 form, conventional lensing terminology, or numerical agreement.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev191_wide_observable_boundary/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev192_same_dataset_observable_escape",
+      "target_id": "same_dataset_observable_escape",
+      "name": "DEV192 same-dataset observable escape-route audit",
+      "aliases": [
+        "Source Elimination Rule"
+      ],
+      "summary": "Exhaustive analytic/structural audit of same-dataset source cancellation routes without observational comparison.",
+      "why_attempted": "DEV191 established structural equivalence only.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV192",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/same_dataset_escape.py",
+        "tools/generate_dev192_same_dataset_observable_escape.py"
+      ],
+      "run_directories": [
+        "runs/dev192_same_dataset_observable_escape"
+      ],
+      "tests": [
+        "tests/test_dev192_same_dataset_observable_escape.py"
+      ],
+      "equations": [
+        "Q_obs=J_T Q_int J_T^T (structural affine identity only)",
+        "det Q_obs=(det J_T)^2 det Q_int"
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "BLOCKED",
+      "result_reason": "No source-free physical bridge is derived; current provenance-tied moment data are unavailable and algebraic source terms remain.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev175_pyrrg_recovery",
+        "dev176_spin2_matrix",
+        "dev177_full_received_state",
+        "dev188_native_source_distribution_pushforward",
+        "dev189_astronomical_source_boundary",
+        "dev190_source_independent_transfer_distortion",
+        "dev191_wide_observable_boundary"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "same-dataset lock",
+        "conditional cross-component null definition"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "complete source-elimination classification"
+      ],
+      "failed_components": [
+        "exact and source-free observable bridge"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Independent physical transfer semantics are derived.",
+      "do_not_repeat_reason": "Do not open another lens to solve observable-definition failure or assume random intrinsic orientations.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev192_same_dataset_observable_escape/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev193_native_extended_transport",
+      "target_id": "native_extended_excitation_transport",
+      "name": "DEV193 native extended-excitation transport semantics audit",
+      "aliases": [
+        "NativeExtendedExcitation/v1 audit"
+      ],
+      "summary": "Separates exact post-hoc positive column mixtures from physical simultaneous packet propagation and derives the exact finite mixture moment identity.",
+      "why_attempted": "DEV188 matrix linearity did not establish simultaneous excitation semantics.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV193",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_extended_transport.py",
+        "tools/generate_dev193_native_extended_transport.py"
+      ],
+      "run_directories": [
+        "runs/dev193_native_extended_transport"
+      ],
+      "tests": [
+        "tests/test_dev193_native_extended_transport.py"
+      ],
+      "equations": [
+        "d=K s (mathematical finite mixture)",
+        "Q_out=Cov_w(y_l)+sum_l w_l C_l"
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "BLOCKED",
+      "result_reason": "Frozen production supports one backreacting packet per exact-reset replay. Neither multi-packet initial-state composition nor simultaneous detector propagation is established.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev168_finite_loaded_receipt",
+        "dev182_native_packet_launch_representation",
+        "dev183_discrete_launch_domain_packet_lineage",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward",
+        "dev190_source_independent_transfer_distortion",
+        "dev191_wide_observable_boundary",
+        "dev192_same_dataset_observable_escape"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "finite positive kernel",
+        "exact mathematical mixture moment identity"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "probe/superposition distinction",
+        "finite total-covariance identity"
+      ],
+      "failed_components": [
+        "physical extended-source theorem"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "A frozen native initial-state composition and simultaneous-propagation law is independently established.",
+      "do_not_repeat_reason": "Do not promote exact-reset columns to simultaneous-source physics without a native composition law.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev193_native_extended_transport/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev190_source_independent_transfer_distortion",
+      "target_id": "source_independent_transfer_distortion",
+      "name": "DEV190 source-independent transfer-distortion invariant audit",
+      "aliases": [
+        "TransferCentroidJacobian/v1"
+      ],
+      "summary": "Derives source-independent conditional scalar transfer-centroid geometry and local 2x2 finite-difference tensors from frozen DEV188 arrays only.",
+      "why_attempted": "DEV188 preserves full multichannel source rank but does not itself define a physical channel metric.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV190",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_transfer_distortion.py",
+        "tools/generate_dev190_source_independent_transfer_distortion.py"
+      ],
+      "run_directories": [
+        "runs/dev190_source_independent_transfer_distortion"
+      ],
+      "tests": [
+        "tests/test_dev190_source_independent_transfer_distortion.py"
+      ],
+      "equations": [
+        "y_l=sum_c P(c|l)q_c",
+        "J_T=central periodic nearest-neighbor derivative of y_l"
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "The scalar positive measure and both native transverse coordinate systems supply a coefficient-free source-independent centroid map. The heterogeneous multichannel stack supplies no physical metric.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev183_discrete_launch_domain_packet_lineage",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward",
+        "dev189_astronomical_source_boundary"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "TransferCentroidJacobian/v1",
+        "conditional scalar transfer centroid"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "scalar conditional transport geometry"
+      ],
+      "failed_components": [
+        "physical multichannel output metric"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Observer semantics independently bridge native tensor to an observed quantity.",
+      "do_not_repeat_reason": "Do not turn full rank, SVD, or an arbitrary stacked norm into a physical metric.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev190_source_independent_transfer_distortion/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev194_independent_event_wave_transport",
+      "target_id": "independent_event_wave_transport",
+      "name": "DEV194 independent-event wave transport and detector accumulation audit",
+      "aliases": [
+        "NativeEmissionEnsemble/v1 audit"
+      ],
+      "summary": "Audits single-packet distributed state, persistence, detector accumulation, and the limits of reinterpreting DEV188 columns as event responses.",
+      "why_attempted": "DEV193 correctly blocked simultaneous composite states but left independent sequential-event semantics open.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "date_confidence": "HIGH",
+      "dev": "DEV194",
+      "pr": null,
+      "branch": "agent/dev173-coordinate-lineage",
+      "commits": [],
+      "files": [
+        "pbuf/observer/independent_event_transport.py",
+        "tools/generate_dev194_independent_event_wave_transport.py"
+      ],
+      "run_directories": [
+        "runs/dev194_independent_event_wave_transport"
+      ],
+      "tests": [
+        "tests/test_dev194_independent_event_wave_transport.py"
+      ],
+      "equations": [
+        "E[R]=K lambda (structural expectation algebra only)"
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "BLOCKED",
+      "result_reason": "A single packet is distributed, but frozen reversible dynamics retain post-event perturbation and expose no event-injection/recovery semantics; detector addition alone cannot establish independent events.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": false,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev167_vector_relational_dynamics",
+        "dev168_finite_loaded_receipt",
+        "dev182_native_packet_launch_representation",
+        "dev184_discrete_launch_density_convergence",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward",
+        "dev190_source_independent_transfer_distortion",
+        "dev193_native_extended_transport"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "distributed single VectorPairState",
+        "positive receipt accumulation",
+        "finite expected-sum algebra"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "single-packet support audit",
+        "persistent-memory audit"
+      ],
+      "failed_components": [
+        "independent-event transport theorem"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "A frozen native event-emission/recovery rule establishes independent sequential events.",
+      "do_not_repeat_reason": "Do not equate computational reset with physical event independence absent recovery/injection semantics.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev194_independent_event_wave_transport/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "equivalences": [
@@ -2896,16 +4123,9 @@
   ],
   "current_frontiers": [
     {
-      "target_id": "discrete_native_launch_domain",
-      "summary": "OUTCOME_A: the complete same-experiment domain is 121 exact transverse periodic translations at fixed x, with additive packet-aware receipt lineage. Current-native discrete density convergence is authorized."
-    },
-    {
-      "target_id": "sampling_density_terms",
-      "summary": "Historical C25 count discrepancy is reconciled: executable C25 is 267x267=71,289 and executable 100% is 534x534=285,156; neither count is a current target."
-    },
-    {
-      "target_id": "physical_observer_mapping",
-      "summary": "Physical image-forming mapping awaits received-state and channel sufficiency."
+      "target_id": "independent_event_wave_transport",
+      "status": "BLOCKED",
+      "reason": "Single-event state is distributed but persistent memory prevents an independent event ensemble."
     }
   ]
 }

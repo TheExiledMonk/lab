@@ -1,0 +1,10 @@
+{
+  "SELECTION_BIAS_AUDITED": true,
+  "risks": [
+    "PSF",
+    "detector orientation",
+    "mask",
+    "cluster contamination",
+    "selection"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "INDEPENDENT_ASTRONOMICAL_SOURCE_INVENTORY_CREATED": true,
+  "inputs": [
+    {
+      "availability": "AVAILABLE",
+      "classification": "DERIVED_COSMOLOGY_INDEPENDENT",
+      "eligible_for_incident_content": false,
+      "id": "DEV171_spectroscopic_catalog",
+      "semantics": "foreground member phase-space/redshift; not background morphology"
+    },
+    {
+      "availability": "AVAILABLE",
+      "classification": "DERIVED_COSMOLOGY_INDEPENDENT",
+      "eligible_for_incident_content": false,
+      "id": "DEV174_coordinate_package",
+      "semantics": "native/screen provenance and approximate sky footprints; no formal WCS or angular scale"
+    },
+    {
+      "availability": "UNAVAILABLE",
+      "classification": "UNAVAILABLE",
+      "eligible_for_incident_content": false,
+      "id": "DEV175_Harvey_Massey_pyRRG",
+      "semantics": "authentic numerical map/catalogue with deterministic astrometry not recovered"
+    },
+    {
+      "availability": "NO_AUTHENTIC_ASSET_IN_REPO",
+      "classification": "DIRECTLY_OBSERVED",
+      "eligible_for_incident_content": false,
+      "id": "observed_lensed_telescope_image",
+      "semantics": "would be post-propagation image, never incident content for same target"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "SIGN_PARITY_ROUTE_AUDITED": true,
+  "candidate": [
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E07",
+      "exact_formula": "Q_x=2 n^T Q_TF t",
+      "native_counterpart": "U_T^TF",
+      "null_prediction": "E[Q_x]=0 conditional on declared symmetry",
+      "observable": "cross trace-free null component",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O18",
+      "population_dependency": "ISOTROPY_AND_REFLECTION",
+      "rejection_reason": "A conditional null definition exists but cannot be measured with unavailable catalogue.",
+      "required_assumptions": [
+        "independent center",
+        "reflection-symmetric selection and intrinsic ensemble"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q",
+        "fixed foreground center"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NULL_CHANNEL_CANCELLATION",
+      "source_term": "intrinsic orientation distribution",
+      "status": "NULL_TEST_CANDIDATE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E20",
+      "exact_formula": "sign(phi_Q-phi_int)",
+      "native_counterpart": "R_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "rotation sign/parity",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O15",
+      "population_dependency": "NONE",
+      "rejection_reason": "No independent orientation reference.",
+      "required_assumptions": [
+        "independent intrinsic orientation reference"
+      ],
+      "required_dataset_fields": [
+        "orientation measurements"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic orientation",
+      "status": "SOURCE_NOT_ELIMINABLE",
+      "symmetry_prediction": "NONE_DERIVED"
+    }
+  ],
+  "result": "only conditional cross-null survives as a definition"
+}

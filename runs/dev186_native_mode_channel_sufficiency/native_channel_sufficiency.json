@@ -1,0 +1,25 @@
+{
+  "NATIVE_CHANNEL_SUFFICIENCY": "REDUCED_EXACT_SUFFICIENT_SET_FOUND",
+  "reduced_set": [
+    "delta_x",
+    "delta_y",
+    "delta_z",
+    "d_x",
+    "d_y",
+    "d_z",
+    "p_x",
+    "p_y",
+    "p_z",
+    "J_x",
+    "J_y",
+    "J_z",
+    "weight",
+    "W02"
+  ],
+  "removed_storage_redundancy": [
+    "W01",
+    "W03",
+    "W04"
+  ],
+  "semantic_note": "W02 remains because its local event value is not reconstructed from the retained feature vector alone"
+}

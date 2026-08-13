@@ -1,0 +1,61 @@
+{
+  "comparisons_to_R00": [
+    {
+      "frobenius_difference": 1.715590033231044e-06,
+      "pair": [
+        0,
+        1
+      ],
+      "throughput_l2_difference": 1.992411714112749e-06
+    },
+    {
+      "frobenius_difference": 4.389813904328346e-06,
+      "pair": [
+        0,
+        2
+      ],
+      "throughput_l2_difference": 5.004051985066367e-06
+    },
+    {
+      "frobenius_difference": 1.8338754298746164e-06,
+      "pair": [
+        0,
+        3
+      ],
+      "throughput_l2_difference": 1.4239410181679617e-06
+    },
+    {
+      "frobenius_difference": 2.1586508995861125e-06,
+      "pair": [
+        0,
+        4
+      ],
+      "throughput_l2_difference": 2.3237610817513663e-06
+    },
+    {
+      "frobenius_difference": 1.7341864779380858e-06,
+      "pair": [
+        0,
+        5
+      ],
+      "throughput_l2_difference": 2.102051614696294e-06
+    },
+    {
+      "frobenius_difference": 4.169776499487201e-06,
+      "pair": [
+        0,
+        6
+      ],
+      "throughput_l2_difference": 3.6090466939562574e-06
+    },
+    {
+      "frobenius_difference": 1.667250694009638e-06,
+      "pair": [
+        0,
+        7
+      ],
+      "throughput_l2_difference": 2.172369000819948e-06
+    }
+  ],
+  "interpretation": "physical DEV171 foreground-depth input uncertainty, not numerical noise"
+}

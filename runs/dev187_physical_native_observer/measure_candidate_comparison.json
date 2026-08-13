@@ -1,0 +1,16 @@
+{
+  "W02": {
+    "status": "UNRESOLVED_NOT_POSITIVE_MEASURE_PROVEN"
+  },
+  "count": {
+    "status": "MATHEMATICALLY_VALID_PHYSICAL_STATUS_NOT_INTENSITY"
+  },
+  "vector_norms": {
+    "status": "FORBIDDEN_ARBITRARY_SCALARIZATION"
+  },
+  "weight": {
+    "crossing_local": true,
+    "positive": true,
+    "status": "SUPPORTED_NATIVE_RECEIPT_MEASURE"
+  }
+}

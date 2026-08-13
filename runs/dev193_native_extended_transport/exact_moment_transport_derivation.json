@@ -1,0 +1,4 @@
+{
+  "formula": "Q_out=Cov_w(y_l)+sum_l w_l C_l, w_l=eta_l s_l/sum_j eta_j s_j",
+  "status": "DERIVED_FINITE_MIXTURE_IDENTITY"
+}

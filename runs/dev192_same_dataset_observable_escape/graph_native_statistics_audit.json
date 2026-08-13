@@ -1,0 +1,31 @@
+{
+  "GRAPH_NATIVE_ROUTE_AUDITED": true,
+  "candidate": [
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E10",
+      "exact_formula": "sum_(i,j in E) Q_i^TF:Q_j^TF",
+      "native_counterpart": "U_T^TF topology",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "graph-native nearest-neighbor alignment",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O20",
+      "population_dependency": "INTRINSIC_ALIGNMENT_MODEL",
+      "rejection_reason": "Graph avoids smoothing but not intrinsic correlations.",
+      "required_assumptions": [
+        "predeclared graph and alignment null"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q",
+        "positions"
+      ],
+      "scale_dependency": "DIMENSIONLESS",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic orientation correlation",
+      "status": "SOURCE_PRIOR_REQUIRED",
+      "symmetry_prediction": "NONE_DERIVED"
+    }
+  ],
+  "result": "avoids interpolation but retains intrinsic correlations"
+}

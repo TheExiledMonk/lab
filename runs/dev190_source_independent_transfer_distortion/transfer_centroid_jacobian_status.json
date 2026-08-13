@@ -1,0 +1,63 @@
+{
+  "TRANSFER_CENTROID_JACOBIAN_CLASSIFIED": true,
+  "TRANSFER_CENTROID_JACOBIAN_SOURCE_INDEPENDENT": true,
+  "per_realization": [
+    {
+      "determinant_negative": 65,
+      "jacobian_defined": 121,
+      "realization": 0,
+      "zero_anisotropy": 0,
+      "zero_throughput_launches": []
+    },
+    {
+      "determinant_negative": 66,
+      "jacobian_defined": 121,
+      "realization": 1,
+      "zero_anisotropy": 0,
+      "zero_throughput_launches": []
+    },
+    {
+      "determinant_negative": 66,
+      "jacobian_defined": 121,
+      "realization": 2,
+      "zero_anisotropy": 0,
+      "zero_throughput_launches": []
+    },
+    {
+      "determinant_negative": 66,
+      "jacobian_defined": 121,
+      "realization": 3,
+      "zero_anisotropy": 0,
+      "zero_throughput_launches": []
+    },
+    {
+      "determinant_negative": 66,
+      "jacobian_defined": 121,
+      "realization": 4,
+      "zero_anisotropy": 0,
+      "zero_throughput_launches": []
+    },
+    {
+      "determinant_negative": 67,
+      "jacobian_defined": 121,
+      "realization": 5,
+      "zero_anisotropy": 0,
+      "zero_throughput_launches": []
+    },
+    {
+      "determinant_negative": 67,
+      "jacobian_defined": 121,
+      "realization": 6,
+      "zero_anisotropy": 0,
+      "zero_throughput_launches": []
+    },
+    {
+      "determinant_negative": 67,
+      "jacobian_defined": 121,
+      "realization": 7,
+      "zero_anisotropy": 0,
+      "zero_throughput_launches": []
+    }
+  ],
+  "representation": "TransferCentroidJacobian/v1"
+}

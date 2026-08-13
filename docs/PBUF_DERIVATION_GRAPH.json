@@ -93,6 +93,22 @@
       "type": "TARGET"
     },
     {
+      "id": "native_launch_density_convergence",
+      "type": "TARGET"
+    },
+    {
+      "id": "received_state_distribution_sufficiency",
+      "type": "TARGET"
+    },
+    {
+      "id": "native_mode_channel_sufficiency",
+      "type": "TARGET"
+    },
+    {
+      "id": "native_transfer_operator",
+      "type": "TARGET"
+    },
+    {
       "id": "dev151_shared_state_cross_coupling",
       "type": "ATTEMPT"
     },
@@ -107,10 +123,6 @@
     {
       "id": "dev163_scalar_loaded_f03",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "dev163_scalar_loaded_f03:eq_dev163_scalar_loaded_f03",
-      "type": "EQUATION"
     },
     {
       "id": "dev164_scalar_geometry",
@@ -129,18 +141,6 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
-      "type": "EQUATION"
-    },
-    {
-      "id": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
-      "type": "EQUATION"
-    },
-    {
-      "id": "canonical:dev167_vector_relational_dynamics",
-      "type": "CANONICAL_RESULT"
-    },
-    {
       "id": "pr36_effective_matter_loading",
       "type": "ATTEMPT"
     },
@@ -157,16 +157,8 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "pr69_forcing_redistribution:eq_pr69_forcing_redistribution",
-      "type": "EQUATION"
-    },
-    {
       "id": "pr70_bounded_strain_constitutive",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "pr70_bounded_strain_constitutive:eq_pr70_bounded_strain_constitutive",
-      "type": "EQUATION"
     },
     {
       "id": "pr72_local_n6_redistribution",
@@ -181,20 +173,12 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "canonical:dev170_source_work_accounting",
-      "type": "CANONICAL_RESULT"
-    },
-    {
       "id": "dev179_subcell_source_closure",
       "type": "ATTEMPT"
     },
     {
       "id": "dev180_density_reconciliation",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "canonical:dev180_density_reconciliation",
-      "type": "CANONICAL_RESULT"
     },
     {
       "id": "pr16_c25_launch_density",
@@ -217,16 +201,8 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "canonical:dev183_discrete_launch_domain_packet_lineage",
-      "type": "CANONICAL_RESULT"
-    },
-    {
       "id": "dev168_finite_loaded_receipt",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "canonical:dev168_finite_loaded_receipt",
-      "type": "CANONICAL_RESULT"
     },
     {
       "id": "dev169_depth_sensitivity",
@@ -235,10 +211,6 @@
     {
       "id": "dev171_independent_3d_source",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "canonical:dev171_independent_3d_source",
-      "type": "CANONICAL_RESULT"
     },
     {
       "id": "dev172_frozen_morphology_gate",
@@ -253,10 +225,6 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "canonical:dev174_coordinate_serialization",
-      "type": "CANONICAL_RESULT"
-    },
-    {
       "id": "dev175_pyrrg_recovery",
       "type": "ATTEMPT"
     },
@@ -267,14 +235,6 @@
     {
       "id": "dev177_full_received_state",
       "type": "ATTEMPT"
-    },
-    {
-      "id": "dev177_full_received_state:eq_dev177_full_received_state",
-      "type": "EQUATION"
-    },
-    {
-      "id": "canonical:dev177_full_received_state",
-      "type": "CANONICAL_RESULT"
     },
     {
       "id": "historical_scalar_gradient_lensing",
@@ -289,16 +249,20 @@
       "type": "ATTEMPT"
     },
     {
-      "id": "infrastructure:dev178_vulkan_viewer",
-      "type": "INFRASTRUCTURE"
+      "id": "dev184_discrete_launch_density_convergence",
+      "type": "ATTEMPT"
     },
     {
-      "id": "owers_spectroscopy",
-      "type": "DATASET"
+      "id": "dev185_received_state_distribution_sufficiency",
+      "type": "ATTEMPT"
     },
     {
-      "id": "harvey_massey_pyrrg",
-      "type": "DATASET"
+      "id": "dev186_native_mode_channel_sufficiency",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "dev187_physical_native_observer",
+      "type": "ATTEMPT"
     }
   ],
   "edges": [
@@ -323,11 +287,6 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev163_scalar_loaded_f03",
-      "target": "dev163_scalar_loaded_f03:eq_dev163_scalar_loaded_f03",
-      "type": "USES"
-    },
-    {
       "source": "dev164_scalar_geometry",
       "target": "native_loaded_directional_response",
       "type": "ATTEMPTS_TO_SOLVE"
@@ -346,21 +305,6 @@
       "source": "dev167_vector_relational_dynamics",
       "target": "native_loaded_directional_response",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "dev167_vector_relational_dynamics",
-      "target": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
-      "type": "USES"
-    },
-    {
-      "source": "dev167_vector_relational_dynamics",
-      "target": "dev167_vector_relational_dynamics:eq_dev167_vector_relational_dynamics",
-      "type": "USES"
-    },
-    {
-      "source": "dev167_vector_relational_dynamics",
-      "target": "canonical:dev167_vector_relational_dynamics",
-      "type": "VALIDATED_BY"
     },
     {
       "source": "pr36_effective_matter_loading",
@@ -383,19 +327,9 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "pr69_forcing_redistribution",
-      "target": "pr69_forcing_redistribution:eq_pr69_forcing_redistribution",
-      "type": "USES"
-    },
-    {
       "source": "pr70_bounded_strain_constitutive",
       "target": "bounded_strain_constitutive",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "pr70_bounded_strain_constitutive",
-      "target": "pr70_bounded_strain_constitutive:eq_pr70_bounded_strain_constitutive",
-      "type": "USES"
     },
     {
       "source": "pr72_local_n6_redistribution",
@@ -413,11 +347,6 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev170_source_work_accounting",
-      "target": "canonical:dev170_source_work_accounting",
-      "type": "VALIDATED_BY"
-    },
-    {
       "source": "dev179_subcell_source_closure",
       "target": "source_medium_coupling",
       "type": "ATTEMPTS_TO_SOLVE"
@@ -426,11 +355,6 @@
       "source": "dev180_density_reconciliation",
       "target": "sampling_density_terms",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "dev180_density_reconciliation",
-      "target": "canonical:dev180_density_reconciliation",
-      "type": "VALIDATED_BY"
     },
     {
       "source": "pr16_c25_launch_density",
@@ -458,19 +382,9 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev183_discrete_launch_domain_packet_lineage",
-      "target": "canonical:dev183_discrete_launch_domain_packet_lineage",
-      "type": "VALIDATED_BY"
-    },
-    {
       "source": "dev168_finite_loaded_receipt",
       "target": "finite_loaded_receipt",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "dev168_finite_loaded_receipt",
-      "target": "canonical:dev168_finite_loaded_receipt",
-      "type": "VALIDATED_BY"
     },
     {
       "source": "dev169_depth_sensitivity",
@@ -481,11 +395,6 @@
       "source": "dev171_independent_3d_source",
       "target": "source_depth_reconstruction",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "dev171_independent_3d_source",
-      "target": "canonical:dev171_independent_3d_source",
-      "type": "VALIDATED_BY"
     },
     {
       "source": "dev172_frozen_morphology_gate",
@@ -503,11 +412,6 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev174_coordinate_serialization",
-      "target": "canonical:dev174_coordinate_serialization",
-      "type": "VALIDATED_BY"
-    },
-    {
       "source": "dev175_pyrrg_recovery",
       "target": "observational_lensing_comparison",
       "type": "ATTEMPTS_TO_SOLVE"
@@ -521,16 +425,6 @@
       "source": "dev177_full_received_state",
       "target": "physical_observer_mapping",
       "type": "ATTEMPTS_TO_SOLVE"
-    },
-    {
-      "source": "dev177_full_received_state",
-      "target": "dev177_full_received_state:eq_dev177_full_received_state",
-      "type": "USES"
-    },
-    {
-      "source": "dev177_full_received_state",
-      "target": "canonical:dev177_full_received_state",
-      "type": "VALIDATED_BY"
     },
     {
       "source": "historical_scalar_gradient_lensing",
@@ -548,14 +442,44 @@
       "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "dev178_vulkan_viewer",
-      "target": "infrastructure:dev178_vulkan_viewer",
-      "type": "PRODUCES"
+      "source": "dev184_discrete_launch_density_convergence",
+      "target": "native_launch_density_convergence",
+      "type": "ATTEMPTS_TO_SOLVE"
     },
     {
-      "source": "pr70_bounded_strain_constitutive",
-      "target": "dev167_vector_relational_dynamics",
-      "type": "EQUIVALENT_TO"
+      "source": "dev184_discrete_launch_density_convergence",
+      "target": "dev183_discrete_launch_domain_packet_lineage",
+      "type": "DERIVED_FROM"
+    },
+    {
+      "source": "dev185_received_state_distribution_sufficiency",
+      "target": "received_state_distribution_sufficiency",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev185_received_state_distribution_sufficiency",
+      "target": "dev184_discrete_launch_density_convergence",
+      "type": "DERIVED_FROM"
+    },
+    {
+      "source": "dev186_native_mode_channel_sufficiency",
+      "target": "native_mode_channel_sufficiency",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev186_native_mode_channel_sufficiency",
+      "target": "dev185_received_state_distribution_sufficiency",
+      "type": "DERIVED_FROM"
+    },
+    {
+      "source": "dev187_physical_native_observer",
+      "target": "physical_observer_mapping",
+      "type": "ATTEMPTS_TO_SOLVE"
+    },
+    {
+      "source": "dev187_physical_native_observer",
+      "target": "dev186_native_mode_channel_sufficiency",
+      "type": "DERIVED_FROM"
     }
   ]
 }

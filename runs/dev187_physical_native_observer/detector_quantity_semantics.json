@@ -1,0 +1,12 @@
+{
+  "W02": "UNRESOLVED: retained additive content summary, not scalar measure",
+  "coordinates": "EVENT_ATTRIBUTE_NOT_ADDITIVE",
+  "direction": "EVENT_ATTRIBUTE_NOT_ADDITIVE",
+  "displacement": "EVENT_ATTRIBUTE_NOT_ADDITIVE; additive sum retained only as detector state metadata",
+  "flux": "ADDITIVE_DETECTOR_QUANTITY: vector sum retained",
+  "lineage": "EVENT_ATTRIBUTE_NOT_ADDITIVE",
+  "momentum": "ADDITIVE_DETECTOR_QUANTITY: vector sum retained",
+  "progression_steps": "EVENT_ATTRIBUTE_NOT_ADDITIVE",
+  "receipt_count": "EVENT_ATTRIBUTE_NOT_ADDITIVE_AS_INTENSITY; additive occupancy",
+  "weight": "ADDITIVE_DETECTOR_QUANTITY: positive DEV168 outward crossing increment"
+}

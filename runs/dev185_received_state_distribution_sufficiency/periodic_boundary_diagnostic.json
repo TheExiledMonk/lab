@@ -1,0 +1,45 @@
+{
+  "PERIODIC_BOUNDARY_DIAGNOSTIC_PASS": true,
+  "per_realization": [
+    {
+      "check": "indices use modulo-11 neighbors; no artificial plotting boundary constructed",
+      "realization": 0,
+      "wrapped_neighbor_fields_defined": true
+    },
+    {
+      "check": "indices use modulo-11 neighbors; no artificial plotting boundary constructed",
+      "realization": 1,
+      "wrapped_neighbor_fields_defined": true
+    },
+    {
+      "check": "indices use modulo-11 neighbors; no artificial plotting boundary constructed",
+      "realization": 2,
+      "wrapped_neighbor_fields_defined": true
+    },
+    {
+      "check": "indices use modulo-11 neighbors; no artificial plotting boundary constructed",
+      "realization": 3,
+      "wrapped_neighbor_fields_defined": true
+    },
+    {
+      "check": "indices use modulo-11 neighbors; no artificial plotting boundary constructed",
+      "realization": 4,
+      "wrapped_neighbor_fields_defined": true
+    },
+    {
+      "check": "indices use modulo-11 neighbors; no artificial plotting boundary constructed",
+      "realization": 5,
+      "wrapped_neighbor_fields_defined": true
+    },
+    {
+      "check": "indices use modulo-11 neighbors; no artificial plotting boundary constructed",
+      "realization": 6,
+      "wrapped_neighbor_fields_defined": true
+    },
+    {
+      "check": "indices use modulo-11 neighbors; no artificial plotting boundary constructed",
+      "realization": 7,
+      "wrapped_neighbor_fields_defined": true
+    }
+  ]
+}

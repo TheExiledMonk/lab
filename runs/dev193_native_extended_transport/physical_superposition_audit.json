@@ -1,0 +1,6 @@
+{
+  "PHYSICAL_EXTENDED_SOURCE_SUPERPOSITION": "BLOCKED_NONLINEAR_INTERACTION",
+  "exact_reset_equivalent_to_simultaneous": false,
+  "nonlinearity": "DEV167 sigma(epsilon)=epsilon/(1-epsilon^2)",
+  "reason": "existing replays reset an altered medium; simultaneous packets require a different combined state."
+}

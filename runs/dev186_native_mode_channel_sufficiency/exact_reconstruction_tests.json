@@ -1,0 +1,204 @@
+{
+  "all_realization_status": "PASS",
+  "tests": {
+    "W01_from_momentum": [
+      {
+        "formula": "0.5*(p_x^2+p_y^2+p_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 0,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "0.5*(p_x^2+p_y^2+p_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 1,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "0.5*(p_x^2+p_y^2+p_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 2,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "0.5*(p_x^2+p_y^2+p_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 3,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "0.5*(p_x^2+p_y^2+p_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 4,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "0.5*(p_x^2+p_y^2+p_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 5,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "0.5*(p_x^2+p_y^2+p_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 6,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "0.5*(p_x^2+p_y^2+p_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 7,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      }
+    ],
+    "W03_from_W01_W02": [
+      {
+        "formula": "W01+W02",
+        "max_absolute_error": 0.0,
+        "realization": 0,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "W01+W02",
+        "max_absolute_error": 0.0,
+        "realization": 1,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "W01+W02",
+        "max_absolute_error": 0.0,
+        "realization": 2,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "W01+W02",
+        "max_absolute_error": 0.0,
+        "realization": 3,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "W01+W02",
+        "max_absolute_error": 0.0,
+        "realization": 4,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "W01+W02",
+        "max_absolute_error": 0.0,
+        "realization": 5,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "W01+W02",
+        "max_absolute_error": 0.0,
+        "realization": 6,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "W01+W02",
+        "max_absolute_error": 0.0,
+        "realization": 7,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      }
+    ],
+    "W04_from_flux": [
+      {
+        "formula": "sqrt(J_x^2+J_y^2+J_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 0,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "sqrt(J_x^2+J_y^2+J_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 1,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "sqrt(J_x^2+J_y^2+J_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 2,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "sqrt(J_x^2+J_y^2+J_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 3,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "sqrt(J_x^2+J_y^2+J_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 4,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "sqrt(J_x^2+J_y^2+J_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 5,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "sqrt(J_x^2+J_y^2+J_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 6,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      },
+      {
+        "formula": "sqrt(J_x^2+J_y^2+J_z^2)",
+        "max_absolute_error": 0.0,
+        "realization": 7,
+        "relative_error": 0.0,
+        "source_definition": "pbuf/excitation/native_finite_receipt.py:local_content_candidates",
+        "status": "EXACT_FLOAT64_DEFINITION"
+      }
+    ]
+  },
+  "tolerance": "floating roundoff from identical float64 defining operations; no data-selected tolerance"
+}

@@ -1,0 +1,14 @@
+{
+  "HISTORICAL_45_CHANNEL_RECONCILED": true,
+  "channels": "45 heterogeneous decoder channels with dynamic bins/deposition/KDE",
+  "physically_reusable": [
+    "receipt lineage",
+    "coordinate provenance"
+  ],
+  "projection": "observer-specific fusion",
+  "rejected": [
+    "arbitrary fusion",
+    "dynamic extent",
+    "KDE as physics"
+  ]
+}

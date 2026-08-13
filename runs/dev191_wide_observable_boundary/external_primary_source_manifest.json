@@ -1,0 +1,29 @@
+{
+  "PRIMARY_SOURCES_PREFERRED": true,
+  "sources": [
+    {
+      "layer": "moment deconvolution distinct from shear estimation",
+      "method": "DEIMOS PSF-corrected moments",
+      "source": "Melchior et al. 2011, MNRAS 412, 1552",
+      "url": "https://academic.oup.com/mnras/article/412/3/1552/1050244"
+    },
+    {
+      "layer": "artificial conventional-shear response calibration",
+      "method": "metacalibration",
+      "source": "Huff & Mandelbaum 2017",
+      "url": "https://arxiv.org/abs/1702.02600"
+    },
+    {
+      "layer": "Fourier moments separate from population inference",
+      "method": "BFD",
+      "source": "Bernstein et al. 2016",
+      "url": "https://academic.oup.com/mnras/article/459/4/4467/2624033"
+    },
+    {
+      "layer": "higher moments with PSF/weight corrections",
+      "method": "HOLICs",
+      "source": "Okura, Umetsu & Futamase 2007",
+      "url": "https://arxiv.org/abs/0710.2262"
+    }
+  ]
+}

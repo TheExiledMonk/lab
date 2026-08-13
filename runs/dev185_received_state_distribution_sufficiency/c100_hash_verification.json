@@ -1,0 +1,37 @@
+{
+  "C100_INPUT_HASHES_VERIFIED": true,
+  "by_realization": {
+    "R00": {
+      "lineage_manifest_sha256": "1c29f198f65ebac0783d0ecd05cd7851478abdec7c723c8ea88ae21d2f58a1f3",
+      "receipt_npz_sha256": "82861a88e7a3b3911766940429c8d565155b8845f2a12df2c3c29ce8b12ff6ac"
+    },
+    "R01": {
+      "lineage_manifest_sha256": "4db95d52f653f495eb148255765a044f9fe8cb972021b78e661361c03f62f2c7",
+      "receipt_npz_sha256": "e726f4dc113c94d90a7931ac0c0d64f695d5819ed6eacdb183e0705450965cec"
+    },
+    "R02": {
+      "lineage_manifest_sha256": "d6d5d6637b1fb5b113889626e0690c42f8368ae1e75d8fa5c75cdc293a1b3b02",
+      "receipt_npz_sha256": "fa051e3aa063f718e1c1d548b21f3a18824137130d0999348805abf97890fe7e"
+    },
+    "R03": {
+      "lineage_manifest_sha256": "180528d252fd0fd1bab67a839a2cc68cb0fb21aef972a51623fcb4c426646b90",
+      "receipt_npz_sha256": "b9284a4401ea44450754f9c8e69f4c72664ddde7af0ce869043da2abe8224b31"
+    },
+    "R04": {
+      "lineage_manifest_sha256": "26fd31341ce53f5305df470da7f45444cd17da3441ff68f3c78d80cda7043afe",
+      "receipt_npz_sha256": "5dac790c24e8f34e5447fbc73ccb4daced10d5df94e872cf9adea06c8f53e0dd"
+    },
+    "R05": {
+      "lineage_manifest_sha256": "4f7be3fa90e35780b28de30c04d377947861285e893883e18b919fc26a4b43d6",
+      "receipt_npz_sha256": "2e16f5588e1fa1cc8245360d91eaf0da4d2ab1b615a2a548b34d4ae5a3795ed4"
+    },
+    "R06": {
+      "lineage_manifest_sha256": "3dce44ebc26d71215e889d5267b3eb85434ac6bfe60a5e097f6418757af7ef1e",
+      "receipt_npz_sha256": "3b25257440ff573fdfe68d8f320c23f63f733d37d5f11c9b3160a95514c66f46"
+    },
+    "R07": {
+      "lineage_manifest_sha256": "d33fc00d8bfdbcd89b80950269447743b6ddc92c7c31b73c7de70e6a4511c07d",
+      "receipt_npz_sha256": "1097f98658c144e72bd21e50e09bfec43c9274057c07b2eb78e1a810a02e944b"
+    }
+  }
+}

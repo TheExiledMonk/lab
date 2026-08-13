@@ -1,0 +1,30 @@
+{
+  "PAIRWISE_ROUTE_AUDITED": true,
+  "candidate": [
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E05",
+      "exact_formula": "E[Q_i^TF:Q_j^TF]",
+      "native_counterpart": "U_T^TF field correlation",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "pairwise trace-free tensor contraction",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O19",
+      "population_dependency": "INTRINSIC_ALIGNMENT_MODEL",
+      "rejection_reason": "Intrinsic correlations do not cancel without a prior.",
+      "required_assumptions": [
+        "independent intrinsic-alignment null model"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected Q",
+        "positions"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic alignment correlation",
+      "status": "SOURCE_PRIOR_REQUIRED",
+      "symmetry_prediction": "NONE_DERIVED"
+    }
+  ]
+}

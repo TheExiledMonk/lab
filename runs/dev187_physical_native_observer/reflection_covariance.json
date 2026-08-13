@@ -1,0 +1,5 @@
+{
+  "REFLECTION_COVARIANCE_TESTED": true,
+  "status": "PASS_BY_COMPONENT_REFLECTION",
+  "test": "scalar count/weight invariant; vector sums reflect componentwise"
+}

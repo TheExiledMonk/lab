@@ -1,0 +1,28 @@
+{
+  "OBSERVABLE_FAMILY_INVENTORY_COMPLETE": true,
+  "families": [
+    "BFD",
+    "area/flux",
+    "centroid observables",
+    "correlation observables",
+    "dimensionless ratios",
+    "ellipticity/axis ratio",
+    "ensemble alignment",
+    "field topology",
+    "higher moments",
+    "kinematic fields",
+    "magnification statistics",
+    "metacalibration",
+    "radio polarization",
+    "raw detector-coordinate geometry",
+    "resolved/strong geometry",
+    "response spread",
+    "rotation",
+    "second moments",
+    "shapelet/basis",
+    "size/area",
+    "throughput",
+    "trace-free moments"
+  ],
+  "mandatory_families_covered": true
+}

@@ -42,6 +42,26 @@ DEV183 closure: longitudinal packet translations change the fixed launch-to-rece
 
 DEV184 result: the frozen 1/30/60/121 nested exact-reset packet ladder was completed across all eight DEV171 realizations. The preserved DEV177 full-state rank and depth-rank diagnostics are stable by C50 in all eight lanes; C100 is retained as the canonical finite-domain production coverage. This is density sufficiency evidence only, not an observer/channel selection result.
 
+DEV185 result: the complete frozen C100 receipt distribution is structurally sufficient across all eight realizations (full raw-feature rank 14; DEV177 depth increment 4 in every realization). This authorizes only the next native mode/channel sufficiency audit; no channel, statistical component, DFT mode, or observer is promoted.
+
+DEV186 result: only the exact storage-derived content columns W01, W03, and W04 are reconstructable from retained momentum, W02, and flux; the reduced representation preserves all eight rank/depth gates. PCA and DFT remain diagnostic bases, and the raw native basis retains physical priority. Physical observer derivation—not observational comparison—is now authorized.
+
+DEV187 result: DEV168 positive receipt-crossing weight is an additive native detector measure in exact native receipt cells, but the C100 121-launch collection is a sampling of propagation transfer response rather than literal brightness multiplicity. A source-image pushforward remains required; DEV176 P1–P7 and J3/G3 are not promoted, and shape/spin-2/observational gates remain closed.
+
 ## Registry integration (DEV181)
 
 The mechanism registry at `docs/PBUF_MECHANISM_REGISTRY.json` is now the primary historical lookup layer. This Historical Attempt Index remains a concise anti-circularity index and must not be expanded into a duplicate of the full registry. Every row above maps to one or more target/attempt records in that registry.
+
+DEV188 anti-circularity rule: C100 equal launch coverage is transfer sampling, not uniform physical brightness unless external source weights specify it. The native pushforward is a finite position-dependent operator, not a convolution kernel.
+
+DEV189 anti-circularity rule: the observed lensed galaxy image cannot be reused as the incident source for its own PBUF prediction. WCS is observed-image astrometry, not an unlensed source-plane map; an angular-to-native scale may not be fit to weak-lensing morphology.
+
+DEV190 anti-circularity rule: full multichannel source rank does not establish a physical distortion metric. SVD/PCA/DFT and K^T K remain diagnostic without a native output-space metric; transfer geometry requires explicit launch/receipt coordinates and never source fitting or observational selection.
+
+DEV191 anti-circularity rules: conventional weak-lensing terminology does not establish a PBUF bridge; PSF-corrected moments and calibrated shear are different layers; representation matching is not physical equivalence; ensemble claims must declare intrinsic-source assumptions.
+
+DEV192 anti-circularity rules: a new lens cannot repair an observable-definition failure on the development lens; cross-lens validation begins only after observer freeze; intrinsic-orientation cancellation must be derived and cannot be silently assumed.
+
+DEV193 anti-circularity rules: linear combination of independently sampled transfer columns does not prove physical simultaneous-source superposition in a nonlinear native medium; a centroid Jacobian does not automatically transport full image morphology.
+
+DEV194 anti-circularity rule: additive detector columns cannot be rebranded as independent physical events merely because they were computed by exact reset; stationarity, event injection, and post-event memory must be established separately.

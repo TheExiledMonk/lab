@@ -1,0 +1,10 @@
+{
+  "DISTRIBUTION_LEVEL_ROUTE_AUDITED": true,
+  "result": "all require an intrinsic distribution/null model",
+  "tests": [
+    "even/odd symmetry",
+    "broadening",
+    "eigenvalue ratio",
+    "radial-vs-cross"
+  ]
+}

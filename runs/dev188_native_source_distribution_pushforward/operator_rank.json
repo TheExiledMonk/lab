@@ -1,0 +1,71 @@
+{
+  "SCALAR_OPERATOR_RANK_RECORDED": true,
+  "SCALAR_TRANSFER_INVERTIBILITY": [
+    "NONINJECTIVE",
+    "NONINJECTIVE",
+    "NONINJECTIVE",
+    "NONINJECTIVE",
+    "NONINJECTIVE",
+    "NONINJECTIVE",
+    "NONINJECTIVE",
+    "NONINJECTIVE"
+  ],
+  "per_realization": [
+    {
+      "left_nullity": 0,
+      "nullity": 88,
+      "rank": 33,
+      "realization": 0,
+      "tolerance": 7.398409007195675e-19
+    },
+    {
+      "left_nullity": 0,
+      "nullity": 88,
+      "rank": 33,
+      "realization": 1,
+      "tolerance": 7.36691113224532e-19
+    },
+    {
+      "left_nullity": 0,
+      "nullity": 88,
+      "rank": 33,
+      "realization": 2,
+      "tolerance": 7.403812862379546e-19
+    },
+    {
+      "left_nullity": 0,
+      "nullity": 88,
+      "rank": 33,
+      "realization": 3,
+      "tolerance": 7.36522865223465e-19
+    },
+    {
+      "left_nullity": 0,
+      "nullity": 88,
+      "rank": 33,
+      "realization": 4,
+      "tolerance": 7.359746338944654e-19
+    },
+    {
+      "left_nullity": 0,
+      "nullity": 88,
+      "rank": 33,
+      "realization": 5,
+      "tolerance": 7.314428502857138e-19
+    },
+    {
+      "left_nullity": 0,
+      "nullity": 88,
+      "rank": 33,
+      "realization": 6,
+      "tolerance": 7.291726950382842e-19
+    },
+    {
+      "left_nullity": 0,
+      "nullity": 88,
+      "rank": 33,
+      "realization": 7,
+      "tolerance": 7.360367742679293e-19
+    }
+  ]
+}

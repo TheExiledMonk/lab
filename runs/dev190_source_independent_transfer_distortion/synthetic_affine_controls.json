@@ -1,0 +1,83 @@
+{
+  "SYNTHETIC_AFFINE_ANISOTROPY": {
+    "interior_anisotropy": 0.37482778414706025,
+    "interior_determinant_exact": true,
+    "interior_jacobian_exact": true,
+    "matrix": [
+      [
+        1.0,
+        0.4
+      ],
+      [
+        0.4,
+        1.2
+      ]
+    ],
+    "seam_explicitly_excluded": "affine map is not periodic; control validates local stencil away from seam"
+  },
+  "SYNTHETIC_AFFINE_CONTROLS_PASS": true,
+  "anisotropic_scale": {
+    "interior_anisotropy": 0.6,
+    "interior_determinant_exact": true,
+    "interior_jacobian_exact": true,
+    "matrix": [
+      [
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "seam_explicitly_excluded": "affine map is not periodic; control validates local stencil away from seam"
+  },
+  "identity": {
+    "interior_anisotropy": 0.0,
+    "interior_determinant_exact": true,
+    "interior_jacobian_exact": true,
+    "matrix": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "seam_explicitly_excluded": "affine map is not periodic; control validates local stencil away from seam"
+  },
+  "isotropic_scale": {
+    "interior_anisotropy": 0.0,
+    "interior_determinant_exact": true,
+    "interior_jacobian_exact": true,
+    "matrix": [
+      [
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0
+      ]
+    ],
+    "seam_explicitly_excluded": "affine map is not periodic; control validates local stencil away from seam"
+  },
+  "rotation_only": {
+    "interior_anisotropy": 0.0,
+    "interior_determinant_exact": true,
+    "interior_jacobian_exact": true,
+    "matrix": [
+      [
+        0.0,
+        -1.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "seam_explicitly_excluded": "affine map is not periodic; control validates local stencil away from seam"
+  }
+}

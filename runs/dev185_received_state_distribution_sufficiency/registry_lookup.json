@@ -1,0 +1,80 @@
+{
+  "HISTORICAL_DISTRIBUTION_WORK_SEARCHED": true,
+  "HISTORICAL_MODE_WORK_SEARCHED": true,
+  "MECHANISM_REGISTRY_QUERIED": true,
+  "REGISTRY_LOOKUP_COMPLETE": true,
+  "queries": {
+    "45-channel": [
+      "TARGET: Physical observer mapping",
+      "STATUS: OPEN",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL"
+    ],
+    "Helmholtz": [],
+    "PCA": [],
+    "channel sufficiency": [
+      "TARGET: Physical observer mapping",
+      "STATUS: OPEN",
+      "",
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV176  Direct receipt spin-2 candidates P1\u2013P7  PARTIAL / PARTIAL",
+      "DEV177  Full native received-state channel audit  FULL / CANONICAL",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL"
+    ],
+    "covariance": [
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL"
+    ],
+    "covariance spectrum": [],
+    "distribution sufficiency": [
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL"
+    ],
+    "empirical distribution": [],
+    "full received state": [
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL"
+    ],
+    "higher moments": [
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL"
+    ],
+    "information detector": [],
+    "mode sufficiency": [
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL"
+    ],
+    "moment decomposition": [],
+    "native modes": [],
+    "receipt distribution": [
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL"
+    ],
+    "received-state distribution": [
+      "TARGET: Native launch-density convergence",
+      "STATUS: CANONICAL",
+      "",
+      "TARGET: Received-state distribution sufficiency",
+      "STATUS: CANONICAL",
+      "",
+      "DEV184  DEV184 discrete launch density convergence  FULL / CANONICAL",
+      "DEV185  DEV185 received-state distribution sufficiency  FULL / CANONICAL"
+    ],
+    "topology": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "NO_CANONICAL_SOURCE_MORPHOLOGY_ASSUMED": true,
+  "NO_SYNTHETIC_SOURCE_PROMOTED": true,
+  "fixtures": [
+    "delta_launch_000",
+    "delta_launch_060",
+    "delta_launch_120",
+    "two_delta",
+    "uniform_probability",
+    "symmetric_plus",
+    "axis_elongated",
+    "rotated_permuted_plus"
+  ],
+  "purpose": "deterministic operator controls only"
+}

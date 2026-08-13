@@ -1,0 +1,14 @@
+{
+  "DETECTOR_BASIS_FROZEN": true,
+  "DEV174_relation": "DEV174 retains coordinate lineage; its historical per-realization screen is not an exact receipt-face cell basis",
+  "axes": [
+    "native_y",
+    "native_z"
+  ],
+  "coordinates": "q=(received_y,received_z)",
+  "normal": [
+    1,
+    0,
+    0
+  ]
+}

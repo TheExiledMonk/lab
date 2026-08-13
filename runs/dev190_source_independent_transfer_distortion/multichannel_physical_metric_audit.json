@@ -1,0 +1,6 @@
+{
+  "K_TRANSPOSE_K_PHYSICAL": false,
+  "MULTICHANNEL_PHYSICAL_METRIC": "UNAVAILABLE",
+  "NO_ARBITRARY_CHANNEL_NORMALIZATION": true,
+  "reason": "existing conservation/symplectic statements govern propagation state, not a receipt-channel bilinear form over weight, vector momentum, flux, displacement and W02"
+}

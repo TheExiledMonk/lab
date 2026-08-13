@@ -1,0 +1,14 @@
+{
+  "O01": {
+    "additive": true,
+    "all_realizations": true,
+    "coefficient_free": true,
+    "deterministic": true,
+    "local": true,
+    "no_interpolation": true,
+    "no_smoothing": true
+  },
+  "O02": {
+    "not_promoted_to_intensity": true
+  }
+}

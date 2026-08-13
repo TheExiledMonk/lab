@@ -1,0 +1,158 @@
+{
+  "NATIVE_SHAPE_TENSOR_GATE": "BLOCKED_TRANSFER_FUNCTION_SEMANTICS",
+  "per_realization": [
+    {
+      "centroid": [
+        4.955477778153529,
+        4.9948254771401945
+      ],
+      "measure": "weight / 121 launch expectation",
+      "realization": 0,
+      "status": "TRANSFER_RESPONSE_GEOMETRY_ONLY",
+      "tensor": [
+        [
+          8.448148891173982,
+          -0.04283316547837001
+        ],
+        [
+          -0.04283316547837001,
+          8.601452076171821
+        ]
+      ]
+    },
+    {
+      "centroid": [
+        4.968951996573679,
+        5.011516121036603
+      ],
+      "measure": "weight / 121 launch expectation",
+      "realization": 1,
+      "status": "TRANSFER_RESPONSE_GEOMETRY_ONLY",
+      "tensor": [
+        [
+          8.618394749052467,
+          0.011421651642068016
+        ],
+        [
+          0.011421651642067873,
+          8.758203796744679
+        ]
+      ]
+    },
+    {
+      "centroid": [
+        4.962376806338413,
+        5.006510938300014
+      ],
+      "measure": "weight / 121 launch expectation",
+      "realization": 2,
+      "status": "TRANSFER_RESPONSE_GEOMETRY_ONLY",
+      "tensor": [
+        [
+          8.498043225533785,
+          0.029758342580534572
+        ],
+        [
+          0.029758342580534194,
+          8.321028756166939
+        ]
+      ]
+    },
+    {
+      "centroid": [
+        4.9167388081224885,
+        4.983054482255932
+      ],
+      "measure": "weight / 121 launch expectation",
+      "realization": 3,
+      "status": "TRANSFER_RESPONSE_GEOMETRY_ONLY",
+      "tensor": [
+        [
+          8.864416182989764,
+          -0.143980240076955
+        ],
+        [
+          -0.14398024007695462,
+          8.86766519656258
+        ]
+      ]
+    },
+    {
+      "centroid": [
+        4.916429397441472,
+        4.996470927961337
+      ],
+      "measure": "weight / 121 launch expectation",
+      "realization": 4,
+      "status": "TRANSFER_RESPONSE_GEOMETRY_ONLY",
+      "tensor": [
+        [
+          8.851758904010167,
+          -0.047736030656526804
+        ],
+        [
+          -0.04773603065652666,
+          8.599030265482547
+        ]
+      ]
+    },
+    {
+      "centroid": [
+        4.975517920202375,
+        4.97769808932407
+      ],
+      "measure": "weight / 121 launch expectation",
+      "realization": 5,
+      "status": "TRANSFER_RESPONSE_GEOMETRY_ONLY",
+      "tensor": [
+        [
+          8.316498608699852,
+          -0.1997292802475791
+        ],
+        [
+          -0.19972928024757886,
+          8.649466276023452
+        ]
+      ]
+    },
+    {
+      "centroid": [
+        4.967395973717487,
+        4.994683470896703
+      ],
+      "measure": "weight / 121 launch expectation",
+      "realization": 6,
+      "status": "TRANSFER_RESPONSE_GEOMETRY_ONLY",
+      "tensor": [
+        [
+          8.528600541346174,
+          0.08756222675052254
+        ],
+        [
+          0.08756222675052283,
+          8.430029872856913
+        ]
+      ]
+    },
+    {
+      "centroid": [
+        4.918966544004423,
+        4.982389561139182
+      ],
+      "measure": "weight / 121 launch expectation",
+      "realization": 7,
+      "status": "TRANSFER_RESPONSE_GEOMETRY_ONLY",
+      "tensor": [
+        [
+          8.664316419253105,
+          -0.1828866321772885
+        ],
+        [
+          -0.1828866321772885,
+          8.783378098385315
+        ]
+      ]
+    }
+  ],
+  "status": "FROZEN_TRANSFER_RESPONSE_TENSOR_NOT_SOURCE_SHAPE"
+}

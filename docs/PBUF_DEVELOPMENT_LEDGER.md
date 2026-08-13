@@ -286,3 +286,94 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - The deterministic nested `1 → 30 → 60 → 121` aggregates retain DEV168 physical receipt arrays and DEV183 packet/launch/realization lineage. Baselines reproduce all eight DEV177 canonical receipt arrays exactly.
 - Result: all eight rank trajectories are `CONVERGED_BY_C50`; native depth information remains nonzero at C100 in every realization. C100 remains the canonical future coverage because the finite domain is small and fully enumerated; C50 is the recorded minimum converged coverage under the current rank-led structural diagnostic.
 - Status: `OUTCOME_B`; `RECEIVED_STATE_DISTRIBUTION_GATE=AUTHORIZED`. This closes density sufficiency only. Native mode/channel sufficiency and physical observer mapping remain later, separate gates.
+
+## LEDGER ENTRY 018 — DEV185 RECEIVED-STATE DISTRIBUTION SUFFICIENCY
+
+- Date: 2026-08-12. DEV185 read the complete frozen DEV184 C100 packet-aware collections: all 121 launches in each of the eight DEV171 source-depth realizations. No propagation, launch, channel, observer, smoothing, observational, or GR/ΛCDM operation was performed.
+- Permanent-record reconciliation: DEV184 is registered as canonical `native_launch_density_convergence` with `result=FULL`; its frozen final-contract delivery flags remain historically unchanged, while DEV185 records that implementation commit `6089c89` was merged by PR #109 at `8c721da`.
+- Distribution result: the raw full DEV177 feature ordering has numerical rank 14 in every realization; exact DEV177 depth ablation retains a rank increment of 4 in every realization. All receipt channels are defined at C100, no exact pairwise feature redundancy was found, and launch-equal count, native-weight, progression, support, covariance, higher-moment, empirical-distribution, extreme-launch, periodic-boundary, and exact DFT diagnostics are retained separately from event-weighted receipt information.
+- Closure: `OUTCOME_A`; `RECEIVED_STATE_DISTRIBUTION_SUFFICIENCY=FULL` and `NATIVE_MODE_CHANNEL_GATE=AUTHORIZED`. Statistical eigendirections and launch-domain DFT modes remain diagnostics only. `PHYSICAL_OBSERVER_GATE=BLOCKED_PENDING_MODE_CHANNEL`.
+- Next frontier: `NATIVE MODE / CHANNEL SUFFICIENCY`. No channel is selected, removed, or identified as an observer in this entry.
+
+## LEDGER ENTRY 019 — DEV186 NATIVE MODE / CHANNEL SUFFICIENCY
+
+- Date: 2026-08-12. DEV186 consumed only frozen C100 packet-aware receipt artifacts. The full raw DEV177 feature basis remains the native physical reference: rank is 14 and the depth increment is 4 in each DEV171 realization.
+- Exact dependency audit: the current DEV168 definitions prove `W01 = 0.5‖p‖²`, `W03 = W01 + W02`, and `W04 = ‖J‖`; all three were verified directly in every C100 receipt collection. Removing the stored W01/W03/W04 columns while retaining momentum, flux, and W02 preserves rank 14 and depth increment 4 in all eight realizations and allows exact reconstruction.
+- Closure: `NATIVE_CHANNEL_SUFFICIENCY=REDUCED_EXACT_SUFFICIENT_SET_FOUND`; `NATIVE_MODE_SUFFICIENCY=RAW_BASIS_ONLY_PHYSICALLY_JUSTIFIED`. PCA eigendirections and launch-domain DFT remain invertible diagnostic coordinates only. No field, Helmholtz/topology construction, transverse collapse, channel promotion, or observer code was introduced.
+- Next frontier: physical observer derivation is authorized from the full raw state or the exact information-equivalent storage representation, without observational comparison.
+
+**Native Information Sufficiency Rule:** A native receipt feature may be removed before observer construction only with exact mathematical redundancy or independently derived physical irrelevance while preserving canonical rank, depth, launch-domain, and cross-realization information. Correlation, small variance, PCA importance, Fourier power, or simplicity are insufficient.
+
+**Basis Neutrality Rule:** An invertible coordinate change preserves information but does not establish physical preference. Statistical eigendirections and finite-domain Fourier modes remain diagnostics until derived from native dynamics.
+
+## LEDGER ENTRY 020 — DEV187 PHYSICAL NATIVE DETECTOR / TRANSFER RESPONSE
+
+- Date: 2026-08-12. DEV187 derives `NativeDetectorState/v1` from DEV168 receipt-plane crossings: existing native receipt-cell IDs define detector cells, while count, positive crossing weight, and additive momentum/flux/displacement/W02 sums are retained as a multi-channel state. No bin count, interpolation, smoothing, image plane fit, observer fusion, or observational input was used.
+- Weight semantics: DEV168 weight is a nonnegative, local positive outward bond-flux increment, so it is an additive native receipt measure. It is not SI energy, luminosity, brightness, or a reason to apply a second normal-incidence factor. W02 remains retained but does not establish an independent positive scalar detector measure.
+- Sampling semantics: C100's 121 exact-reset packet translations are finite-domain propagation probes. Their raw sum is not literal simultaneous detector brightness; response summaries use the exact per-launch expectation convention. The result is therefore a normalized native propagation transfer response rather than an imaged source.
+- Closure: `OUTCOME_B`; physical detector state and native transfer response are derived. A weighted detector-plane covariance tensor is frozen only as transfer-response geometry. `NATIVE_SHAPE_TENSOR_GATE=BLOCKED_TRANSFER_FUNCTION_SEMANTICS`, `SPIN2_OBSERVABLE_GATE=BLOCKED_PENDING_SHAPE_TENSOR`, and observational comparison remains closed.
+- Next frontier: derive a source-distribution pushforward for the frozen native transfer response without inventing a source image or consulting observational shapes.
+
+**Physical Observer Rule:** Native detector state derives from receipt-plane geometry, exact receipt cells, and additive arrival quantities; no image, shape, or spin-2 normalization may use astronomical comparison data.
+
+**Probe Sampling Rule:** More exact-reset packet launches improve sampling of the propagation response and do not by themselves increase physical source brightness.
+
+## LEDGER ENTRY 022 — DEV188 NATIVE SOURCE-DISTRIBUTION PUSHFORWARD
+
+- DEV188 assembles each frozen C100 per-launch, receipt-cell response into a 33×121 `NativeTransferOperator/v1`. A nonnegative `NativeIncidentDistribution/v1` is explicitly launch-ID indexed and is pushed forward by `d=K s`.
+- C100 equal-probe coverage constructs columns only; it is not a uniform physical source. DEV171 foreground-loading source realizations and DEV188 incident distributions are distinct. The physical astronomical-source boundary, spin-2, and observational comparison remain closed.
+
+## LEDGER ENTRY 023 — DEV189 ASTRONOMICAL SOURCE BOUNDARY
+
+- DEV189 finds no independently measured object-level pre-propagation astronomical source content in the repository. DEV175's authentic Harvey–Massey numerical map/catalogue remains unavailable; a raw or observed image would be post-propagation and cannot be passed back as the incident source.
+- DEV174 gives serialized native coordinate provenance but no formal WCS or angular-to-native scale. DEV183 supplies only a periodic 11×11 discrete lattice, so an exact cell partition is also absent. The resulting boundary is `BLOCKED_INTRINSIC_SOURCE_UNAVAILABLE`; no registration, resampling, lens model, cosmological distance, or invented morphology was used.
+- Next frontier: source-independent transfer-distortion invariants may be audited separately; spin-2 and observational comparison remain closed.
+
+**Astronomical Source Boundary Rule:** A real astronomical input may enter `NativeIncidentDistribution/v1` only through independently measured source-content and coordinate semantics. Observed lensed morphology, GR/ΛCDM source reconstruction, fitted registration, anisotropic rescaling, and interpolation cannot define the incident native source.
+
+**Lensed-Image Self-Input Rule:** An observed post-propagation image may not serve as the pre-propagation incident distribution in a prediction intended to explain that same image.
+
+## LEDGER ENTRY 024 — DEV190 SOURCE-INDEPENDENT TRANSFER DISTORTION
+
+- DEV190 uses only frozen DEV188 scalar positive transfer columns and explicit DEV183/DEV187 native transverse coordinates. Conditional receipt centroids form a source-independent discrete map; its unique symmetry-preserving periodic nearest-neighbor central derivative is `TransferCentroidJacobian/v1`. Its local polar stretch, area factor, and rotation are native transport diagnostics, not GR lensing quantities.
+- The multichannel stack remains full-rank information infrastructure only: no conserved receipt-space quadratic form or physical mixed-channel metric was found, so `K^T K`, SVD, PCA, and arbitrary channel normalization are not promoted. Historical P1–P7, J3/G3, and the 45-channel observer remain distinct diagnostics. Spin-2 representation structure may emerge mathematically from the derived symmetric traceless tensor, but spin-2 observation and comparison remain closed.
+- Magnetar/QED vacuum-birefringence is parked as a future independent validation lane and does not modify this result.
+
+**Source-Independent Transfer Rule:** A transfer-distortion quantity may be promoted only when it is a coefficient-free functional of frozen native transfer and coordinate geometry, is source independent, is symmetry covariant, and requires neither arbitrary multichannel norms nor observational selection.
+
+## LEDGER ENTRY 025 — DEV191 WIDE OBSERVABLE BOUNDARY
+
+- DEV191 inventories raw geometry, centroids, moments through higher order, size, rotation, ensembles, field statistics, resolved structure, kinematics, polarization, and historical PBUF observers before ranking. The best immediate result is `STRUCTURAL_EQUIVALENCE_ONLY`: PSF-corrected second moments and `U_T^TF` share a rank-two representation, but no source-independent physical bridge is derived.
+- **Observable Layer Rule:** Instrumental measurement, PSF correction, shape representation, shear calibration, lens inversion, and cosmological interpretation are distinct layers. PBUF may compare only at the earliest layer with an independently derived coefficient-free equivalence.
+- **Representation Equivalence Rule:** Identical spin/tensor transformation behavior is necessary but insufficient for physical equivalence. Ensemble routes must state their intrinsic-source assumptions.
+
+## LEDGER ENTRY 026 — DEV192 SAME-DATASET OBSERVABLE ESCAPE
+
+- DEV192 locks the intended raw Abell 2744 weak-lensing dataset and opens no other lens. It tests object invariants, determinant and trace-free ratios, ensembles, radial/cross components, distributions, field/parity/topology/graph statistics, higher moments, centroids, multiband, conditioning, foreground relations, and covariance. `Q_obs=J_T Q_int J_T^T` is only a conditional mathematical affine identity: DEV190 has not supplied the physical native-to-sky image-transfer semantics needed to promote it.
+- Result: `SAME_DATASET_OBSERVABLE_ESCAPE=NONE`. Intrinsic terms remain algebraically, ensemble candidates require explicit unvalidated isotropy/population assumptions, and the authentic current-dataset moment/PSF/WCS products remain unrecovered. A cross trace-free component is retained only as a conditional predeclared null definition, not as a bridge.
+
+**Development Dataset Rule:** The current raw weak-lensing dataset is the sole observational development dataset until a coefficient-free observable bridge and complete observer pipeline are frozen.
+
+**Validation Lens Rule:** Future additional lenses must use immutable equations, selection, calibration, projection, normalization, and null tests.
+
+**Source Elimination Rule:** Unknown source structure may be removed only by exact algebraic cancellation, independently justified ensemble expectation, predeclared symmetry/null relation, or an independent reference; fitting source distributions to recover agreement is forbidden.
+
+## LEDGER ENTRY 027 — DEV193 NATIVE EXTENDED-EXCITATION TRANSPORT
+
+- DEV193 distinguishes DEV188 post-hoc column algebra from physical simultaneous excitation. DEV182 establishes one finite, backreacting packet per exact-reset replay and explicitly records that simultaneous packets would evolve a different combined medium state. No production initial-state composition rule, overlap rule, free amplitude law, or simultaneous receipt run exists. Therefore `NATIVE_EXTENDED_TRANSPORT=BLOCKED_INITIAL_STATE_COMPOSITION`; the positive `d=K s` operation remains a structural finite mixture, not an image law.
+- The scalar kernel nevertheless has exact finite-sum moment algebra: with `eta_l=sum_c K_cl`, `w_l=eta_l s_l/sum_j eta_j s_j`, conditional centroid `y_l`, and conditional covariance `C_l`, `Q_out=Cov_w(y_l)+sum_l w_l C_l`. Throughput reweights the supplied coefficients. This is a mathematical identity for a chosen nonnegative mixture, not a physical extended excitation theorem. `TransferCentroidJacobian/v1` is only a local first-moment derivative; it cannot transport morphology without local full-kernel affine semantics.
+
+**Native Extended-Transport Rule:** Independent launch-response columns may represent a physical extended incident distribution only when native initial-state composition and simultaneous propagation semantics establish the required superposition law. Matrix linearity alone is insufficient.
+
+**Native Moment-Transport Rule:** The second moment of transported native content must be derived from the full conditional transfer kernel. A local centroid Jacobian may supply only one contribution; conditional response spread, throughput variation, and nonaffine transport cannot be discarded unless independently shown to vanish.
+
+**Centroid Jacobian Rule:** `TransferCentroidJacobian/v1` is the derivative of the conditional first-moment map. It becomes a full extended-shape deformation operator only if the entire local transfer kernel obeys the corresponding affine transport law.
+
+## LEDGER ENTRY 028 — DEV194 INDEPENDENT-EVENT WAVE TRANSPORT
+
+- DEV194 preserves DEV193: simultaneous composite packet states remain undefined. A canonical DEV182 packet is nevertheless one spatially distributed `VectorPairState` (displacement and momentum fields), not a point trajectory. Its signed momentum/flux channels retain more path-sensitive state than DEV187's positive scalar crossing weight, but no production phase or two-path/obstruction geometry is defined.
+- Crucially, frozen reversible DEV167 evolution leaves a nonzero perturbation after the receipt interval in the loaded R00 control. There is no established post-receipt event injection or recovery rule, so exact reset remains computational only and independent sequential events are not derived. Detector-side addition makes `K lambda` exact algebra for supplied columns, not a physical expected image. `INDEPENDENT_EVENT_TRANSPORT=BLOCKED_EVENT_INDEPENDENCE`; DEV191/192 remain closed.
+
+**Independent-Event Rule:** Astronomical image accumulation does not require simultaneous composition only after each event's stationary-background/recovery and detector-event semantics are independently established. Computational reset alone is insufficient.
+
+**Wave/Event Distinction Rule:** Discrete receipt records do not imply pointlike propagation. Single-event distributed state and multi-path/event-ensemble semantics are separate audits.

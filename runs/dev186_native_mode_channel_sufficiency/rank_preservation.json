@@ -1,0 +1,95 @@
+{
+  "FULL_RANK_14_PRESERVATION_TESTED": true,
+  "full_rank_by_realization": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "reduced_exact_content_set": [
+    {
+      "depth_increment_preserved": true,
+      "depth_rank": 8,
+      "depth_rank_increment": 4,
+      "full_rank": 14,
+      "rank_preserved": false,
+      "realization": 0,
+      "reduced_rank": 12,
+      "subspace": "reconstructible exactly by content definitions"
+    },
+    {
+      "depth_increment_preserved": true,
+      "depth_rank": 8,
+      "depth_rank_increment": 4,
+      "full_rank": 14,
+      "rank_preserved": false,
+      "realization": 1,
+      "reduced_rank": 12,
+      "subspace": "reconstructible exactly by content definitions"
+    },
+    {
+      "depth_increment_preserved": true,
+      "depth_rank": 8,
+      "depth_rank_increment": 4,
+      "full_rank": 14,
+      "rank_preserved": false,
+      "realization": 2,
+      "reduced_rank": 12,
+      "subspace": "reconstructible exactly by content definitions"
+    },
+    {
+      "depth_increment_preserved": true,
+      "depth_rank": 8,
+      "depth_rank_increment": 4,
+      "full_rank": 14,
+      "rank_preserved": false,
+      "realization": 3,
+      "reduced_rank": 12,
+      "subspace": "reconstructible exactly by content definitions"
+    },
+    {
+      "depth_increment_preserved": true,
+      "depth_rank": 8,
+      "depth_rank_increment": 4,
+      "full_rank": 14,
+      "rank_preserved": false,
+      "realization": 4,
+      "reduced_rank": 12,
+      "subspace": "reconstructible exactly by content definitions"
+    },
+    {
+      "depth_increment_preserved": true,
+      "depth_rank": 8,
+      "depth_rank_increment": 4,
+      "full_rank": 14,
+      "rank_preserved": false,
+      "realization": 5,
+      "reduced_rank": 12,
+      "subspace": "reconstructible exactly by content definitions"
+    },
+    {
+      "depth_increment_preserved": true,
+      "depth_rank": 8,
+      "depth_rank_increment": 4,
+      "full_rank": 14,
+      "rank_preserved": false,
+      "realization": 6,
+      "reduced_rank": 12,
+      "subspace": "reconstructible exactly by content definitions"
+    },
+    {
+      "depth_increment_preserved": true,
+      "depth_rank": 8,
+      "depth_rank_increment": 4,
+      "full_rank": 14,
+      "rank_preserved": false,
+      "realization": 7,
+      "reduced_rank": 12,
+      "subspace": "reconstructible exactly by content definitions"
+    }
+  ]
+}

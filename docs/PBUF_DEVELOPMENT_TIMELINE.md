@@ -28,6 +28,17 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-12 | DEV180 | Sampling and density terminology | Historical source–medium recovery and density reconciliation | FULL | CANONICAL |
 | 2026-08-12 | DEV182 | Native packet launch representation | Current-native packet launch representation closure | PARTIAL | PARTIAL |
 | 2026-08-12 | DEV183 | Discrete native launch domain and packet receipt lineage | Discrete native launch domain and packet-aware receipt lineage | FULL | CANONICAL |
+| 2026-08-12 | DEV184, #109 | Native launch-density convergence | DEV184 discrete launch density convergence | FULL | CANONICAL |
+| 2026-08-12 | DEV185 | Received-state distribution sufficiency | DEV185 received-state distribution sufficiency | FULL | CANONICAL |
+| 2026-08-12 | DEV186 | Native mode / channel sufficiency | DEV186 native mode/channel sufficiency | FULL | CANONICAL |
+| 2026-08-12 | DEV187 | Physical observer mapping | DEV187 physical native detector / transfer response | FULL | CANONICAL |
+| 2026-08-12 | DEV188 | Native transfer operator | DEV188 native source-distribution pushforward | FULL | CANONICAL |
+| 2026-08-12 | DEV189 | Astronomical source boundary | DEV189 astronomical source boundary and native launch-domain bridge | BLOCKED | BLOCKED |
+| 2026-08-12 | DEV190 | Source-independent transfer distortion | DEV190 source-independent transfer-distortion invariant audit | FULL | CANONICAL |
+| 2026-08-12 | DEV191 | Wide observable boundary | DEV191 wide-spectrum observable boundary and equivalence audit | PARTIAL | BLOCKED |
+| 2026-08-12 | DEV192 | Same-dataset observable escape | DEV192 same-dataset observable escape-route audit | BLOCKED | BLOCKED |
+| 2026-08-13 | DEV193 | Native extended excitation transport | DEV193 native extended-excitation transport semantics audit | BLOCKED | BLOCKED |
+| 2026-08-13 | DEV194 | Independent-event wave transport | DEV194 independent-event wave transport and detector accumulation audit | BLOCKED | BLOCKED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

@@ -1,0 +1,7 @@
+{
+  "EXACT_SUFFICIENT_STATE_VERIFIED": true,
+  "FULL_STATE_RECONSTRUCTABLE": true,
+  "W01_reconstructable": "0.5|p|^2",
+  "W03_reconstructable": "W01+W02",
+  "W04_reconstructable": "|J|"
+}

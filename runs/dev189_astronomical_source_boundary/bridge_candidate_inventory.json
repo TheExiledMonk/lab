@@ -1,0 +1,25 @@
+{
+  "BRIDGE_CANDIDATES_ENUMERATED": true,
+  "candidates": [
+    {
+      "candidate_id": "B01",
+      "cell_integration": "exact partition required",
+      "content_measure": "nonnegative pre-propagation measure",
+      "coordinate_transform": "fixed similarity only",
+      "fitted_parameters": [],
+      "free_parameters": [],
+      "input_data": "independent object-level unlensed/control source",
+      "normalization": "optional normalized morphology",
+      "orientation_source": "fixed convention required",
+      "origin_rule": "independent centroid permitted",
+      "scale_source": "independently measured required",
+      "status": "NOT_INSTANTIATED_INPUT_UNAVAILABLE"
+    },
+    {
+      "candidate_id": "B02",
+      "forbidden_contamination": "self-input",
+      "input_data": "observed lensed image",
+      "status": "REJECTED_CIRCULAR_POST_PROPAGATION"
+    }
+  ]
+}

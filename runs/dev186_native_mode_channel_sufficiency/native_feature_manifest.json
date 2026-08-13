@@ -1,0 +1,205 @@
+{
+  "NATIVE_FEATURE_MANIFEST_CREATED": true,
+  "PRIMITIVE_DERIVED_CLASSIFICATION_COMPLETE": true,
+  "RAW_COMPONENT_BASIS_FROZEN": true,
+  "features": {
+    "J_x": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "flux",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "J_x",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "J_y": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "flux",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "J_y",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "J_z": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "flux",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "J_z",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "W01": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "weight_content",
+      "dependencies": [
+        "p_x",
+        "p_y",
+        "p_z"
+      ],
+      "derived_or_primitive": "DERIVED_NATIVE",
+      "feature_id": "W01",
+      "formula": "0.5*sum(p_i^2)",
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "W02": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "weight_content",
+      "dependencies": [],
+      "derived_or_primitive": "CONTENT_CANDIDATE",
+      "feature_id": "W02",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "W03": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "weight_content",
+      "dependencies": [
+        "W01",
+        "W02"
+      ],
+      "derived_or_primitive": "DERIVED_NATIVE",
+      "feature_id": "W03",
+      "formula": "W01 + W02",
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "W04": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "weight_content",
+      "dependencies": [
+        "J_x",
+        "J_y",
+        "J_z"
+      ],
+      "derived_or_primitive": "DERIVED_NATIVE",
+      "feature_id": "W04",
+      "formula": "sqrt(sum(J_i^2))",
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "d_x": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "direction",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "d_x",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "d_y": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "direction",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "d_y",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "d_z": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "direction",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "d_z",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "delta_x": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "displacement",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "delta_x",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "delta_y": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "displacement",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "delta_y",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "delta_z": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "displacement",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "delta_z",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "p_x": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "momentum",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "p_x",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "p_y": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "momentum",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "p_y",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "p_z": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "momentum",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "p_z",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    },
+    "weight": {
+      "DEV_definition": "DEV177 full_native_feature_definition",
+      "component_vector_family": "weight_content",
+      "dependencies": [],
+      "derived_or_primitive": "PRIMITIVE_NATIVE",
+      "feature_id": "weight",
+      "formula": null,
+      "historical_aliases": [],
+      "physical_origin": "DEV177 full native receipt feature",
+      "units_status": "native/unscaled"
+    }
+  }
+}

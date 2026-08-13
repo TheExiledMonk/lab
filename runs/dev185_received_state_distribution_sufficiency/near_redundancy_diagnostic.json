@@ -1,0 +1,6122 @@
+{
+  "J_x__J_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.21920591132910222,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.36259488830561126,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.33427331095221163,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.052650698602796545,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.1641891835638248,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.18768345712071818,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.2684037551907158,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.35595855172964913,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_x__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.10569410242504496,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.13514210298512577,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.3488420730648125,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.09041082879718375,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.07546018395003724,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.04415313627596878,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.14080782933693436,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.0038190758412207757,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_x__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.23196472460665976,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.25054624724691427,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3233982611433243,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.1656627510464818,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.2519296965806235,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.24935373760237675,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.2433751957660251,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.04368385687718687,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_x__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.7249998686305685,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.843623855515856,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.8753731228697252,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.8088223753260962,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.7316988617945832,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.788645359104766,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.8263557258396149,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.7490586823618963,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_x__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.4276382054456433,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.7045606316844318,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.5899542760979825,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.5728982634189036,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.46262432414158866,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.6335143843708276,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.552016892852182,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.5281362625661828,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_x__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.5076441317514284,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.7340677781739674,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.714624391179867,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.637323050501044,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.5146364802997001,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.6712205611753432,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.6551363916471228,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.5804743774807954,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_x__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.24775755334238214,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.5903725346872922,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.29171294054978636,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.37973347578386285,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.2622091574004481,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.5315574819458603,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.33655979055453233,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.3466270148365488,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_y__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.06438086666431485,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.4336464733866182,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.3003166885606196,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.032392252077435096,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.09077547115662896,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.17428062834420668,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.17699369680712917,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.11059056603617574,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_y__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.6187272542050999,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.10349736958444268,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3817534818204928,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.004507498921886758,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.2222679952552622,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.6054931033564043,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.3075619097634537,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.4687571115635968,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_y__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.16878928108482666,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.33997124585630517,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.1396421623713558,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.03821208269143174,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.31964343661623446,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.25428439764414323,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.10588752694225825,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.0003563639112711018,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_y__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.38790314649104024,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.28476130669148264,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.04895358745212637,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.031637774749830073,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.3308902684229829,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.3966384970219658,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.043128024438878906,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.1746770317770962,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_y__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.29611074179526786,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.3061294906407893,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.015057009251343,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.031531649166992436,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.3334383388222709,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.35923893197860074,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.01917053292346952,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.14239578189128407,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_y__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.40428080566523883,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.27131177031130405,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.22490148745283484,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.02130097648438858,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.2944285466975771,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.45671093246261085,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.1469944490532077,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.1914509372608191,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_z__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.06336610705001725,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.043046038024495636,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.275295471162359,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.08486156228906326,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.1920494093444015,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.06280336012248135,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.11687978817789788,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.005184347026272053,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_z__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.0956657215777863,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.16357771408452654,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.2295630947811985,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.14066965406166806,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.1771404757068389,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.02421057086373313,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.0726336894917252,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.0182013785381387,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_z__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.042387551946681166,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.13479553095652735,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.07217297402575927,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.14177180155014302,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.21006489252268085,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.039652408809567295,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.009180870118132357,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.015164069928970477,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_z__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.08087787382447323,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.15943276774479972,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.1407597459841751,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.14464505650334006,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.1908708197715007,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.03928487253805085,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.0340087664886105,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.0061850858795399425,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "J_z__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.05153945916515155,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.1674766271473913,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.042530855997681215,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.14150932638722163,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.2136615000650384,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.04958102634859892,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.00014792448751730738,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.03973150545078603,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "W01__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.4617921949637559,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.71824401821989,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.16136317435407832,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.4258939267519377,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.4440016302639603,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.780562376885647,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.31857109364154523,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.6128104649536501,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "W01__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.7643306078584435,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.8582570666639937,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.567896286252037,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.7046554125723946,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.7275216600802754,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9029644476258664,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.6634468558693057,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.8186005760151752,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "W01__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.6730493038039955,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.8256105907876385,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.41227944529578786,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.6290793315884835,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.662119234410297,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.8709734729251527,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.5394325203184129,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.7745834459244473,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "W02__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.9249136551429195,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9735320406750908,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.9039510178126035,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.9420899252382401,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.9377705291876507,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9734255871844856,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.9205951893363614,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.9555259958060808,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "W02__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.9610168445426309,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9837066564613903,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.9636956755375639,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.9683707050504161,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.9605048684448396,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.984943690134413,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.9666989088364556,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.972542707626516,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "W03__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.9871217552893783,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9967812846034173,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.9823977946918021,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.9925973672421515,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.9920608615200514,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9961980063834308,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.9853001442349708,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.9959414577508193,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__J_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.3257634106307072,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.5279543297771107,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.5459708322800272,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.5766769110787962,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.5519863570376911,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.20284843153448823,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.2314876232271169,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.31084455424542906,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__J_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.0005580608883862858,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.4326496192573069,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.4753585152876325,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.19475159768877673,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.27768950340654824,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.08854716090544058,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.13193641408557014,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.05869868411920231,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.1253258541750537,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.1067466071984659,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.19583658426108116,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.1254095028276846,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.056550385171488506,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.12476872953090994,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.28769030509463067,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.2921370932604754,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.0041754608135764724,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.34903487101121805,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.6331192502834363,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.006125241253203627,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.008956527316980665,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.1118349129010619,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.23508289520923675,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.2669824467937652,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.37844099886246624,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.5879058166661333,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.2319704405970189,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.5722120450564291,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.5629261477889738,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.2504347199637123,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.13041693753118638,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.4481602026071635,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.2733301898774128,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.5482925233047781,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.08086947969158391,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.45101588109012497,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.42755994850072243,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.2131353777247913,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.006094369515030481,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.4253720138448117,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.32432182113898766,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.5586008875673566,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.030061727007767058,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.492759639007855,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.46489653842655465,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.2351932081819867,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.0626452198503579,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.4222302111885153,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__d_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.24811850495525448,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.0722448680620102,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.17483659653416742,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.2587240049191651,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.11037573116925274,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.43921718103709845,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.02612287695263714,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.1146345225002023,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__d_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.49395929826109947,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.13500367369562238,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.02768600624678624,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.05903690362304212,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.34011767713536045,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.11762233747217607,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.06183060011803025,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.18999099004661438,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__p_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.33019191434495754,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.5789034205522764,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.614919242837023,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.3337399874748373,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.2886094926498808,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.36433034231325057,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.026170741012748026,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.5738719142759954,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__p_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.41033972093100574,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.188383382342193,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.2540684562092707,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.10410150829825947,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.15659786718068325,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.46822898958395515,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.11143625862454219,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.11406103521195878,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__p_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.31946569388417034,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.0918337345990984,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.07436070172308967,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.08663044602722456,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.33543097311437753,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.30547179610254743,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.5586406274750778,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.16856212070387908,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_x__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.23770332618323675,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.5260682744565675,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3959916256037998,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.3575377861200871,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.3570930331711751,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.2094119325120296,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.09773963055071164,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.41525726024798554,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__J_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.18917934520734783,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.11796277134359363,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.07001449254783172,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.13864409390113663,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.07054723273905755,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.183828501585185,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.1833262059441098,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.3209288917526599,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__J_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.22551727908617275,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.060349487479896526,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.16548495317677336,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.18542251565697127,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.19328928968625858,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.18444382335020518,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.057424039321417736,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.18268571838408879,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.09521148650382734,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.07634424938101628,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.02163915820324069,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.3008683869157457,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.07286720368893601,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.0913249043970232,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.18274453365668952,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.20003488528251714,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.36933236392979035,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.11767897054872102,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.3345473139111854,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.018090013034577416,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.12181982335304047,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.1995524896365525,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.03518969046397099,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.12915151933274568,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.03534079342783269,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.12030307916287568,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.23261083514887315,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.11163906758882385,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.13806797045064334,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.19259065342114648,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.18144774950049736,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.21281302201632257,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.18399385602825435,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.1273909973213951,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.33896863724112364,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.09425582841469361,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.15292964739701634,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.20550618189305525,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.12872810434815574,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.10648077911485301,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.12939012019336438,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.11724249408198015,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.2975971159765247,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.09607761860608854,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.15437934796733893,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.18624374746572034,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.16158552598658038,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.13017485944210197,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__d_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.14577462559932733,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.2780501854421651,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.663259834186707,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.0011751738925881853,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.4513724603497293,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.16909274497617627,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.13557309737018813,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.023206939170306425,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__p_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.2770276822066664,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.0678502049047154,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.35999752440589305,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.15361353624274413,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.07441435214465243,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.05277246212648864,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.12742113773487485,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.05647295761560465,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__p_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.037931351874965866,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.156768082583355,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.10934645546915867,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.19012120282282405,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.048164350912556636,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.5485836338962663,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.006780229278601211,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.42250144998348954,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__p_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.11031131580350421,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.11130447146107433,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3494349664514638,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.35282181315183,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.13971171742322502,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.3679460710113516,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.11206754952757281,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.1987666489983144,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_y__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.23258631848471376,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.09480747394298668,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.3609290560511386,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.04649231605506177,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.12361045626267637,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.17713120207627683,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.13973399145493481,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.07748563809760442,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__J_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.06333768472267216,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.26774143370337816,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.20762312701841834,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.055977427816937306,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.47051589037945435,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.0752484854172687,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.0852918124736778,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.08539769222319925,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__J_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.061783655568570295,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.09213124690205916,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.038242669788919034,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.08379475936597575,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.05746330168267473,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.08649539374903807,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.2947844202630988,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.19650333039227283,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.208239901560821,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.28099833104542715,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.055823180302580724,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.12886977413199466,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.14731163749724013,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.25536426113644445,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.03792443304133512,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.4097769841752569,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.12171098153711774,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.0669280543459887,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.16907526792337,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.07932462065362321,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.15408079522079146,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.263748228831794,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.03152632114038979,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.00981355472956061,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.20145045077201088,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.20320372099001088,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.31378696263405015,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.10330607398093679,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.3414304782117681,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.213323031508995,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.09733387531917131,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.07569967463832966,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.1986181497756603,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.1718685863919418,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.33497051696938523,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.11041787749708536,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.20171827735010062,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.2432775887089508,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.08981873610907012,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.058683164895768206,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.21979965728302683,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.17483640194615338,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.33745009102524987,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.10993121778953466,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.24179912246160876,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.23197922123634718,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.09287244149052641,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.05828160874818488,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__p_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.25217494735725704,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.10419517132121976,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.24110516159440104,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.10811746664046819,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.09134363944493623,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.33801933290922137,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.13134519471010864,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.04370589493927179,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__p_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.2288478368507593,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.03564527910385418,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.24615412276414267,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.07247248851658039,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.11140945637772859,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.18966028937565457,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.003944919745803004,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.13139544642649964,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__p_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.46167835558275894,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.44249007818817415,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.5613454740247077,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.0015975171740702943,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.25425334629701335,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.18111835874254045,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.029592440544797413,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.4055151772703724,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "d_z__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.24129202668481986,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.13120445855689872,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.3200058312960334,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.11575671508542225,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.10948641833724776,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.24843779781240513,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.07909047588745113,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.0658186600748285,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__J_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.660687725955236,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.7942424472871721,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.790524485922871,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.7278608521512878,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.6282713713138802,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.7343541317372452,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.7153124879292062,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.652567140108302,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__J_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.24633684588712773,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.3577688982903953,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.061736881466497175,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.011252347684438575,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.33612572884388964,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.2567424582027446,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.05716498975955609,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.09928555559457002,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.039199616530263215,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.18556510556799602,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.1982765938954791,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.19041122467241076,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.21614360993446385,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.05425055964130662,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.014046981891403488,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.06020214622953053,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.49779453570374865,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.7371239455452728,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.2950849888130115,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.4973431940994827,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.5294814366592286,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.7865976195034747,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.4278120651350452,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.6659884608672315,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.9617408619340481,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9760117981892588,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.9794988286038383,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.9635392730618504,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.9587509393585255,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9715598718093245,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.9647092021092336,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.9554573202085719,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.9125311201406044,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9620397906187337,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.9447960345262435,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.9399795121865213,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.9393139993877425,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.956085244134412,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.9377438428918169,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.942996579920805,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.9341289518295434,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9664654299965624,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.9808724191915056,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.949851178044172,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.9435646818812495,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.96247666647039,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.9667646649288376,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.9470043783272466,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__d_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.5076807133654122,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.6805008794154424,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.11034629263706906,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.6563268365081023,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.6329418515200023,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.40196751819620974,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.1786896041629152,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.6337848578525606,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__d_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.042028283351277305,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.0790913779336695,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.284787603727028,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.01684065298854136,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.076647960044934,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.08586320471442525,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.18500104988544624,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.1792062190771161,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__d_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.23381320421109728,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.15879128835258324,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.33473196355486734,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.1262439336366407,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.2252766910909995,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.2820883842151279,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.1227550762395131,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.06429733875629208,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__delta_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.4511658741030715,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.09526013434372052,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.2055331528012136,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.07264308112319753,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.10726232920899421,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.6580554255529322,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.02041580000454508,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.528609534803946,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__delta_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.21382364361914014,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.0050173688252310635,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.4267917344062078,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.2616797500068884,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.2308931840212687,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.03343210968123245,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.11966059022737523,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.4616230489803689,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__p_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.8105917287735009,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9020798298747573,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.5372726229571115,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.7670314352579828,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.7827910383903653,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9435007148616613,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.6878255582603062,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.85737017878854,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__p_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.3021042445151145,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.07867837867988783,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.13149014300737938,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.0666306296827118,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.059967789744664324,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.23326538855724643,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.12839959001825565,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.1708090176826783,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__p_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.1802871519668646,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.01627033632352153,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.4312710670215181,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.07789243003003798,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.001692567599281499,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.057197825471871785,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.15121562475478526,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.04449953717985256,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_x__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.8350720266238008,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9263311081463228,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.7984191711955301,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.8662920096458171,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.8705448920450266,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9287624815759996,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.8587129140138797,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.8820234439900008,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__J_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.014914984227593494,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.45646899372856886,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.5814943902413097,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.6220241304585247,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.47865152512445347,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.26906219297176387,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.5585610149779342,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.4067073987011766,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__J_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.29192207841094553,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.4895224819664583,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.34673715822209117,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.009888677373412775,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.08549585927606043,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.2076099348739483,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.4662119444160686,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.34159293447345485,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.02945131034108092,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.2727752197408962,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.1320371217871883,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.01043863599654144,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.15695310990347247,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.018344016016938088,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.25241429503197355,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.09052247928816595,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.3803362667943453,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.3644692487606303,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.46169865509735697,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.6090827565240586,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.570679203410764,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.5318515735155034,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.5379514372703599,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.141872641746899,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.31686109530785533,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.15968030399209723,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3298646615886827,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.2166290455057617,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.08604589010246456,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.5332018188877901,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.1991410138188395,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.46595281061412314,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.39337054408746247,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.001938117123614626,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.07505627724639082,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.055873836140254,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.15528206629867877,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.561403403298046,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.0644350118555686,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.39161434064879913,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.3864676447026994,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.05083181909594677,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.1572319575600046,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.024717727237334928,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.07885158047135024,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.5565771196854323,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.016760251111218944,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.402276319262403,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__d_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.5556367027278895,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.2600431862669522,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.5600190603073244,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.2634268797629698,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.153211442726232,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.5817959810091188,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.006290802553685374,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.5432835995150223,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__d_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.03207064661652958,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.13525314859583942,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.017479091025722465,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.10430000133865433,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.03317402867947637,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.2697844106293548,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.027176549408555177,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.2067626467687829,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__d_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.18006486848639136,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.02297806613835462,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.12677341151448357,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.11162519367086615,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.31158364493871715,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.22222898521051912,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.027547514251944315,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.02447797565271224,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__delta_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.040039841565677255,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.043245527460619534,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.13348949345267866,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.18662156035764546,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.4872218973562445,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.023535227318013486,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.3122845055378571,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.48786140985173426,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__p_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.5200541363374961,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.24116932605396693,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.4842897604857991,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.49051053328927385,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.5721038295747083,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.7044821270834146,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.5989213170859925,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.33269107604969395,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__p_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.5445796583232992,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9612738529212246,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.8450061261421884,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.8919203616484779,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.8693342414252323,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.5969533122317252,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.9480002519036697,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.4620583432626121,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__p_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.14869097962623104,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.13304387369739373,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.04972785027438154,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.15060086177626872,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.4204052843309142,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.09679701711182322,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.2111122857902734,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.1422573528425647,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_y__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.4193143179370783,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.06389800424389742,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.1890269231857116,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.2339347766509208,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.26535602157276816,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.5805872630379031,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.28929450149862035,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.3964734005359286,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__J_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.19714895257353196,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.13462382676166929,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3145972510905288,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.023971865328489977,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.4619416925008497,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.13050562986508296,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.10799128914353406,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.42606688688219585,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__J_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.021556098319431345,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.07264698087196718,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.22077974223297095,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.08921770714880643,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.1400150747013794,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.26715007582070566,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.16479126223934334,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.1372490190159369,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.29283647679966496,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.5710583576258961,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3239597952662969,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.31019399148026217,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.09267033931350867,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.25656432682903113,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.6241221086527193,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.28127792423328507,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.034132490186395185,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.055426456953671946,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.10224605118669422,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.26137584085788534,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.26003709433158906,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.28300153049470145,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.11367889312271579,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.1153820063860601,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.21406466054145534,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.08058614432679012,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.4039568580044381,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.17529592519899656,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.2868610346651616,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.06469691270004982,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.1600449382440289,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.41561103416065776,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.17025092012289308,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.07764709458672814,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3812168428410918,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.2343529714074106,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.11887115180505994,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.1481569045023556,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.17316513242067114,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.34513832911677905,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.18862653027114873,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.06310892043414897,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.4073598120371176,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.21625248198178312,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.16813821628533743,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.11702669949657585,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.16687238389798395,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.3574458323019619,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__d_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.46937472211203496,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.09593565248053355,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.0047385783855579,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.2982634010481817,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.581388495700647,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.4553083015417002,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.5917300072856829,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.41232681694322104,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__d_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.13309696736283966,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.18900905308470922,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3041098123820404,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.5050201945279238,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.12627163292909444,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.24786751660500395,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.12695299611704,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.04959576669808628,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__d_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.5350215079775038,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.38129578358538474,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.5453066074984475,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.04516158797408426,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.34887881134461146,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.12933621394494008,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.048854155721037615,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.1497757774657731,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__p_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.12414385661994702,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.024387604986842667,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.2707134721918862,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.3805273415263828,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.10175387068177558,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.15364417494058696,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.04798184102188007,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.2879883754450388,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__p_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.10116720369206962,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.0751170762670161,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.14179199442233278,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.2789046082046492,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.3048632152510852,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.21839709056136633,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.3523823613530668,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.16280624117743486,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__p_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.8344288975123292,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9587673011253719,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.9666362396955246,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.872326990249932,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.903192842928674,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.7299316911470479,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.9536517205238749,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.6510830567139082,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "delta_z__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.14579459278878584,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.03173761231489644,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3524337555015959,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.23960253177550328,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.038026963957488516,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.18150206318651693,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.20471555295432295,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.2821232292571101,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_x__J_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.12892812489315789,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.47640047415775727,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.07878306429844438,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.14128392742187534,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.04883004666193348,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.4844415079090087,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.0030755860757213484,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.20238464444696888,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_x__J_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.516341974184471,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.23201665166539065,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.37191271067280346,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.033153741015353726,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.2720561113490701,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.4142104375246157,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.2315369457373161,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.41472714644423414,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_x__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.06849051490333997,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.11712715143704976,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.1294104547917281,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.18464760445090328,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.2532769771340737,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.06933545888064149,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.13040634317786945,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.0774729303830193,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_x__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.8326970534261641,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9053628767265333,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.8770260646114503,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.8692479003863524,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.8912682126695719,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.8986673246216518,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.8332342753308722,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.8889073420629017,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_x__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.7061751489145174,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.837522410554573,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.3768794475888341,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.6422774080418517,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.6525624937559921,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.8843842144879973,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.5191402257114532,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.7369337762083531,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_x__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.8702839525851142,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9151515580788385,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.694356928434667,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.8258855403319125,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.8450770698131314,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9372134361488369,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.7530613239755672,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.8673583773550321,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_x__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.827319068857234,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.8967719666111613,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.5894704211772687,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.7759982019438225,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.7947315238517526,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9265181201525227,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.6912149077603403,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.8362308873754397,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_x__p_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.21504109249787232,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.23307811628721514,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.34930307931718574,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.5255846484719783,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.4641147437679679,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.16932932420461339,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.6794148164751219,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.23966855659635444,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_x__p_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.10160481980973692,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.02532002532466181,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.3639128960329063,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.17659813892787576,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.19438428232912675,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.00018946896766940588,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.14964343391571527,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.028167337089932742,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_x__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.9085817246060743,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.937731363059582,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.8814671656448891,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.8955989964442167,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.8958071845365536,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9544176258773496,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.8793837479639106,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.8908205189150986,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_y__J_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.18031166619249164,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.40991872782798067,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.41652320292541173,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.42968756523086943,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.40072185159143625,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.1805085502121312,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.453241404446878,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.6137788869551966,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_y__J_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.010485636449243323,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.5432755118461576,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.22498252716331885,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.03846257375132706,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.08599298036998396,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.07933671758484474,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.43431480095422115,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.6558560492093937,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_y__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.06477949597852045,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.30284400601796196,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.14111297794589253,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.008913078363315901,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.10984747561574162,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.2588508252235583,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.27104384711394996,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.11118544329171817,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_y__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.09744022661817303,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.3354978005747922,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.3517736502646596,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.5428217825061904,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.5126928856917244,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.04177962267690685,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.585435873303177,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.3616239092179015,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_y__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.2590533387606746,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.1449064947624246,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.22361695664446554,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.08927558114086993,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.06784708433906449,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.17494777130512604,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.06902527471788844,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.2753465782981869,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_y__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.23009159048390176,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.0033189532580165113,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.03407460809984299,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.13118808420164207,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.14674420035090135,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.13557575764335258,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.18670456160181423,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.06517541543041877,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_y__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.2422483687775087,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.048751518687944154,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.09742858412873344,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.057403513779113326,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.07691138257488135,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.15476197447389334,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.10795277158926878,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.11082513679833048,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_y__p_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.10945814016823505,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.16480676630618227,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.10189583043623318,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.2139920183589177,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.22632389559066815,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.3063247104516805,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.23906087645730414,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.0005713990201873373,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_y__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.1937063635885313,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.051296776363471505,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.12541596602737648,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.25854448504471567,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.21967085220676705,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.11159353728954474,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.37676106330663495,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.03824452796404162,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_z__J_x": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.2062459421259346,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.10046575958761324,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.2553736933056628,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.013854882494850514,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.2464825820862658,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.10224475760409706,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.046967941331278074,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.14126055736474877,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_z__J_y": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.015312538594702912,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.16310172187554398,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.13308333129699512,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.022304731224193138,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.07508391284891844,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.18894100941490813,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.09579217350166606,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.09210447259855674,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_z__J_z": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": -0.014163457753974908,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.6746274634130569,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.286854644372172,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.2798738829245879,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.14857345152218562,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.5440983249218877,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.6160979567863859,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.685885496987002,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_z__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.00959869428739468,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.034935065800430404,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.1933258819713219,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.13896149590906354,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.2600187177402147,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.07492293687369904,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.17650212303437676,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": -0.03657824898739489,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_z__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.2065786016211389,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.03973881876279077,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.38904703643732896,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.04675006788406321,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.0674876947635332,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.05298550978460577,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.15820191020028082,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.08284912247855733,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_z__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.15429311336783358,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.04078692500816429,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.4082478208141182,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.08816981114886138,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.04909531062669493,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.008976583051258653,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.19759244092055794,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.046566586855457566,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_z__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.17769743075369793,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.021242368774984883,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.41854238543499256,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.06855438620756724,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.014529359267983068,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.035849354978056275,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.19008586634793864,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.057752106310376826,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "p_z__weight": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.14705527999642715,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": -0.01002994900102292,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": -0.4162293114785593,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": -0.07635974113039157,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": -0.10379518454071651,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": -0.000582320142761949,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": -0.2590563818225308,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.015833121383976377,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "weight__W01": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.8239171392598285,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9095963930798397,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.7611440568472233,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.8215799464993757,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.8224346253563357,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.935568376960513,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.7775189919555485,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.8878587758301728,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "weight__W02": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.8353037591339754,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9288197942281948,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.7063179006305558,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.8470213260024291,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.8459944679670761,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9361731109918238,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.7976811615910958,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.8726640270637112,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "weight__W03": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.9603949389937495,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9838836900716821,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.9189051223329728,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.9687832892655387,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.9665109080963425,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.986335235914166,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.9499736741466482,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.9656199474755545,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  },
+  "weight__W04": {
+    "classification": "NEAR_REDUNDANCY_DIAGNOSTIC",
+    "per_realization": [
+      {
+        "correlation": 0.946509609726508,
+        "identical": false,
+        "realization": 0
+      },
+      {
+        "correlation": 0.9787382206944394,
+        "identical": false,
+        "realization": 1
+      },
+      {
+        "correlation": 0.8617629936604004,
+        "identical": false,
+        "realization": 2
+      },
+      {
+        "correlation": 0.949468900145796,
+        "identical": false,
+        "realization": 3
+      },
+      {
+        "correlation": 0.9564808332423492,
+        "identical": false,
+        "realization": 4
+      },
+      {
+        "correlation": 0.9800804243586636,
+        "identical": false,
+        "realization": 5
+      },
+      {
+        "correlation": 0.9174498332998092,
+        "identical": false,
+        "realization": 6
+      },
+      {
+        "correlation": 0.9503674232291122,
+        "identical": false,
+        "realization": 7
+      }
+    ]
+  }
+}

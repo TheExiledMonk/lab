@@ -1,0 +1,11 @@
+{
+  "allowed": [
+    "CONDITIONAL_CANCELLATION",
+    "ENSEMBLE_EXPECTATION_CANCELLATION",
+    "EXACT_ALGEBRAIC_CANCELLATION",
+    "NULL_CHANNEL_CANCELLATION",
+    "SYMMETRY_EXPECTATION_CANCELLATION"
+  ],
+  "forbidden": "target-data source-prior fit",
+  "form": "O=F(T,S); seek G(O)=H(T)"
+}

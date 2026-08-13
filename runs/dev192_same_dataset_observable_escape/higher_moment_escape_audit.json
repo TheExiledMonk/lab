@@ -1,0 +1,53 @@
+{
+  "HIGHER_MOMENT_ROUTE_AUDITED": true,
+  "candidate": [
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E11",
+      "exact_formula": "M3_obs",
+      "native_counterpart": "nabla J_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "third-moment skewness",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O13",
+      "population_dependency": "NONE",
+      "rejection_reason": "Intrinsic asymmetry persists and native higher derivative is not authorized.",
+      "required_assumptions": [
+        "unique inherited native derivative and image semantics"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected third moments"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic third moment",
+      "status": "HIGHER_ORDER_CANDIDATE",
+      "symmetry_prediction": "NONE_DERIVED"
+    },
+    {
+      "PSF_dependency": "SEPARABLE_CORRECTION_REQUIRED",
+      "candidate_id": "E12",
+      "exact_formula": "weighted octopole combination",
+      "native_counterpart": "nabla U_T",
+      "null_prediction": "NONE_DERIVED",
+      "observable": "octopole/HOLICs-like relation",
+      "orientation_dependency": "INTRINSIC_OR_REFERENCE_REQUIRED",
+      "parent_DEV191_candidate": "O14",
+      "population_dependency": "NONE",
+      "rejection_reason": "Standard interpretation imports conventional flexion/shear machinery.",
+      "required_assumptions": [
+        "non-GR physical bridge"
+      ],
+      "required_dataset_fields": [
+        "PSF-corrected higher moments"
+      ],
+      "scale_dependency": "DIMENSIONFUL",
+      "selection_dependency": "PREDECLARED_REQUIRED",
+      "source_elimination_method": "NOT_ELIMINABLE",
+      "source_term": "intrinsic octopole and conventional interpretation",
+      "status": "MODEL_CONTAMINATED",
+      "symmetry_prediction": "NONE_DERIVED"
+    }
+  ]
+}
