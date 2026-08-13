@@ -1,0 +1,77 @@
+{
+  "PAIR_STRUCTURE_GEOMETRY_IDENTICAL": true,
+  "rows": {
+    "++": {
+      "kinetic_energy": 7.357575892705722e-05,
+      "pair_power_flux": [
+        8.548387954381681e-05,
+        -1.6532183224284947e-09,
+        1.2357909918311277e-10
+      ],
+      "potential_energy": 8.431697599962546e-05,
+      "state_validity": "VALID",
+      "strain_geometry_identical_to_plus_plus": true,
+      "support_relation": "PARTIAL_OVERLAP",
+      "total_energy": 0.0001578927349266827,
+      "total_momentum": [
+        3.538564840449565e-17,
+        0.0,
+        0.0
+      ]
+    },
+    "+-": {
+      "kinetic_energy": 6.911708002741016e-05,
+      "pair_power_flux": [
+        -3.096563842222741e-06,
+        -1.5227250745807312e-09,
+        1.3000998742552448e-10
+      ],
+      "potential_energy": 8.431697599962546e-05,
+      "state_validity": "VALID",
+      "strain_geometry_identical_to_plus_plus": true,
+      "support_relation": "PARTIAL_OVERLAP",
+      "total_energy": 0.00015343405602703564,
+      "total_momentum": [
+        2.778268066994105e-18,
+        0.0,
+        0.0
+      ]
+    },
+    "-+": {
+      "kinetic_energy": 6.911708002741016e-05,
+      "pair_power_flux": [
+        3.096563842222741e-06,
+        1.5227250745807312e-09,
+        -1.3000998742552448e-10
+      ],
+      "potential_energy": 8.431697599962546e-05,
+      "state_validity": "VALID",
+      "strain_geometry_identical_to_plus_plus": true,
+      "support_relation": "PARTIAL_OVERLAP",
+      "total_energy": 0.00015343405602703564,
+      "total_momentum": [
+        -2.778268066994105e-18,
+        0.0,
+        0.0
+      ]
+    },
+    "--": {
+      "kinetic_energy": 7.357575892705722e-05,
+      "pair_power_flux": [
+        -8.548387954381681e-05,
+        1.6532183224284947e-09,
+        -1.2357909918311277e-10
+      ],
+      "potential_energy": 8.431697599962546e-05,
+      "state_validity": "VALID",
+      "strain_geometry_identical_to_plus_plus": true,
+      "support_relation": "PARTIAL_OVERLAP",
+      "total_energy": 0.0001578927349266827,
+      "total_momentum": [
+        -3.538564840449565e-17,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "STRUCTURE_IDENTITY_SEMANTICS": "PROVENANCE_DEFINED",
+  "components": [
+    {
+      "amplitude_source": "DEV182_FIXED_0.006",
+      "internal_state_id": "S_PLUS",
+      "orientation_source": "DEV182_CANONICAL_PLUS_X",
+      "placement_operation": "EXACT_INTEGER_TRANSLATION_y0",
+      "preparation_operation": "DEV196_I_deltaX",
+      "source_dev": "DEV182/DEV196",
+      "structure_id": "A"
+    },
+    {
+      "amplitude_source": "DEV182_FIXED_0.006",
+      "internal_state_id": "S_PLUS",
+      "orientation_source": "DEV182_CANONICAL_PLUS_X",
+      "placement_operation": "EXACT_INTEGER_TRANSLATION_y4",
+      "preparation_operation": "DEV196_I_deltaX",
+      "source_dev": "DEV182/DEV196",
+      "structure_id": "B"
+    }
+  ],
+  "state_support_distinct_from_lineage": true
+}

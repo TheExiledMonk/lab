@@ -1,0 +1,7 @@
+{
+  "SAME_TIME_PREPARATION_ORDER": "CONDITIONALLY_COMMUTATIVE",
+  "SAME_TIME_PREPARATION_ORDER_CLASSIFIED": true,
+  "X_AB_equals_X_BA_bitwise": false,
+  "basis": "The existing increment operation commutes algebraically. IEEE-754 parenthesization of three terms produces only the recorded roundoff difference; no DEV167 evolution occurs between injections and no physical temporal order is inferred.",
+  "max_abs_binary_roundoff_difference": 2.168404344971009e-19
+}

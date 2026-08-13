@@ -1,0 +1,4 @@
+{
+  "DYNAMIC_PACKET_COMPOSITION": "DERIVED_FROM_EXISTING_INJECTION",
+  "basis": "DEV182 physical packet state plus DEV196 valid-state injection plus same-step commutativity."
+}

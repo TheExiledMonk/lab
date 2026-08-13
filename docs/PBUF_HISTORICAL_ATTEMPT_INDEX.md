@@ -100,3 +100,5 @@ DEV210 rule: exact local external source-contact support is not a compact free e
 DEV211 rule: a reflection-invariant existing source deformation cannot establish magnetic-like attraction/repulsion duality; do not substitute a newly shaped magnet profile or arbitrary rotation sweep.
 
 DEV212 rule: `(u,p)` is the native state; momentum reversal and flux reversal are exact distinctions, but DEV193 forbids inferring a physical two-packet interaction from additive independently replayed trajectories.
+
+DEV213 rule: DEV193 remains correct for independently replayed transfer columns. DEV196 valid-state injection, applied twice at one progression step, defines a valid order-independent aggregate native state; later evolution is aggregate DEV167 evolution, never summed isolated trajectories.

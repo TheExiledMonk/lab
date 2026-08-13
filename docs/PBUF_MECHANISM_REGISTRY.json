@@ -2288,6 +2288,134 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Same as the interaction-composition gate."
+    },
+    {
+      "target_id": "native_dynamic_multi_structure_composition",
+      "canonical_name": "native dynamic multi structure composition",
+      "plain_language_question": "Can two independently defined dynamic native structures be physically prepared in one valid DEV167 state using only existing state/preparation semantics?",
+      "aliases": [
+        "DEV213"
+      ],
+      "keywords": [
+        "composition",
+        "simultaneous",
+        "injection",
+        "aggregate state",
+        "packet addition",
+        "overlap",
+        "lineage"
+      ],
+      "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev213_native_multi_structure_composition"
+      ],
+      "current_status": "ACTIVE",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "DEV214 may inspect force and torque only after this initial-state result."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Frozen DEV167/DEV182/DEV196 preparation semantics change."
+    },
+    {
+      "target_id": "native_simultaneous_preparation_semantics",
+      "canonical_name": "native simultaneous preparation semantics",
+      "plain_language_question": "Does existing native preparation/injection semantics define an order-independent simultaneous aggregate state rather than merely post-hoc array addition?",
+      "aliases": [
+        "DEV213"
+      ],
+      "keywords": [
+        "composition",
+        "simultaneous",
+        "injection",
+        "aggregate state",
+        "packet addition",
+        "overlap",
+        "lineage"
+      ],
+      "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev213_native_multi_structure_composition"
+      ],
+      "current_status": "ACTIVE",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "DEV214 may inspect force and torque only after this initial-state result."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Frozen DEV167/DEV182/DEV196 preparation semantics change."
+    },
+    {
+      "target_id": "native_dynamic_structure_identity",
+      "canonical_name": "native dynamic structure identity",
+      "plain_language_question": "Can two dynamic structures retain preparation/provenance identity within one aggregate native state even when their exact mathematical supports overlap?",
+      "aliases": [
+        "DEV213"
+      ],
+      "keywords": [
+        "composition",
+        "simultaneous",
+        "injection",
+        "aggregate state",
+        "packet addition",
+        "overlap",
+        "lineage"
+      ],
+      "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev213_native_multi_structure_composition"
+      ],
+      "current_status": "ACTIVE",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "DEV214 may inspect force and torque only after this initial-state result."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Frozen DEV167/DEV182/DEV196 preparation semantics change."
+    },
+    {
+      "target_id": "dynamic_polarity_interaction_authorization",
+      "canonical_name": "dynamic polarity interaction authorization",
+      "plain_language_question": "Has the physical composition blocker preventing DEV212's same-structure polarity interaction test been closed independently of magnetic results?",
+      "aliases": [
+        "DEV213"
+      ],
+      "keywords": [
+        "composition",
+        "simultaneous",
+        "injection",
+        "aggregate state",
+        "packet addition",
+        "overlap",
+        "lineage"
+      ],
+      "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev213_native_multi_structure_composition"
+      ],
+      "current_status": "ACTIVE",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "DEV214 may inspect force and torque only after this initial-state result."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Frozen DEV167/DEV182/DEV196 preparation semantics change."
     }
   ],
   "attempts": [
@@ -6767,6 +6895,60 @@
         {
           "type": "file",
           "value": "runs/dev212_native_multistate_polarity/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev213_native_multi_structure_composition",
+      "target_id": "native_dynamic_multi_structure_composition",
+      "name": "DEV213 physical native multi-structure composition audit",
+      "aliases": [
+        "DEV213"
+      ],
+      "summary": "Audits existing same-time DEV196 injection algebra and DEV207 combined-state lineage without a force result.",
+      "why_attempted": "DEV193 correctly blocked post-hoc transfer-column addition, while DEV196 supplied valid full-state injection semantics.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV213",
+      "branch": "dev213-publication",
+      "files": [
+        "pbuf/excitation/native_multi_structure_preparation.py",
+        "pbuf/observer/native_composition_audit.py",
+        "pbuf/observer/native_pair_preparation_invariants.py",
+        "tools/generate_dev213_native_multi_structure_composition.py"
+      ],
+      "run_directories": [
+        "runs/dev213_native_multi_structure_composition"
+      ],
+      "tests": [
+        "tests/test_dev213_preparation_order.py",
+        "tests/test_dev213_state_validity.py",
+        "tests/test_dev213_composition_semantics.py"
+      ],
+      "equations": [
+        {
+          "id": "dev213_same_time_injection",
+          "latex": "X_AB=I_B(I_A(X_0))=I_A(I_B(X_0))",
+          "role": "preparation algebra",
+          "source_file": "pbuf/excitation/native_multi_structure_preparation.py",
+          "source_commit": null
+        }
+      ],
+      "result": "FULL",
+      "result_reason": "Existing physical packet preparation is a valid full-state injection; independent same-step injections commute, pass DEV167 validity, retain provenance, and thereafter have only aggregate DEV167 evolution.",
+      "current_status": "ACTIVE",
+      "canonical": false,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Do not use this result as linear propagation superposition.",
+      "do_not_repeat_reason": "Never select composition order or placement by force outcome.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev213_native_multi_structure_composition/final_contract.json"
         }
       ],
       "confidence": "HIGH"

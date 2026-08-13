@@ -480,3 +480,10 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 - **Native Strain Multi-State Rule:** A frozen DEV167 full state retains momentum as well as displacement. The exact involution `(u,p) -> (u,-p)` produces physically distinct equal-energy states while preserving all strain geometry and reverses signed native pair-power flux.
 - **Dynamic Magnetic-Polarity Claim Boundary:** A native binary or multistate strain structure whose internal state controls attraction, repulsion, or torque would constitute mechanism-level magnetic-polarity evidence. This result does not establish magnetic poles, B-field identity, electric current, electric charge, Maxwell equations, SI normalization, or permanent magnetism. DEV212 has not authorized a two-structure interaction because physical simultaneous composition of dynamic packet states remains unestablished.
+
+## LEDGER ENTRY 048 — DEV213 NATIVE AGGREGATE-STATE PREPARATION
+
+- **Native Aggregate-State Preparation Rule:** Two independently defined native preparations may be applied to one valid full state under existing preparation semantics, after which the resulting aggregate displacement/momentum field evolves solely under frozen DEV167 dynamics. This establishes simultaneous native-state preparation, not linear dynamical superposition.
+- **Aggregate Evolution Rule:** Once multiple native preparations occupy one full state, their subsequent evolution is the nonlinear evolution of that aggregate state. Individual packet trajectories are not independently propagated and added afterward.
+- **Dynamic Structure Provenance Rule:** Preparation identity may be retained as initialization provenance even though DEV167 subsequently evolves only aggregate native fields; provenance adds no physical degree of freedom.
+- **Multi-Structure Composition Claim Boundary:** This closes only the initial-state composition problem. It does not establish attraction/repulsion, polarity, torque, electric current, fields, Maxwell equations, or linear superposition.

@@ -1,0 +1,35 @@
+{
+  "AGGREGATE_STATE_NATIVE_VALIDITY": "VALID",
+  "AGGREGATE_STATE_NATIVE_VALIDITY_CLASSIFIED": true,
+  "no_clipping_or_normalization": true,
+  "states": {
+    "A": {
+      "all_bonds_strictly_within_domain": true,
+      "classification": "VALID",
+      "finite": true,
+      "max_abs_strain": 0.0038594284467524664,
+      "relation_min_length": 0.9961405715532475
+    },
+    "AB": {
+      "all_bonds_strictly_within_domain": true,
+      "classification": "VALID",
+      "finite": true,
+      "max_abs_strain": 0.0038594284467524664,
+      "relation_min_length": 0.9961405715532475
+    },
+    "B": {
+      "all_bonds_strictly_within_domain": true,
+      "classification": "VALID",
+      "finite": true,
+      "max_abs_strain": 0.0032530045486982573,
+      "relation_min_length": 0.9967470083268044
+    },
+    "BA": {
+      "all_bonds_strictly_within_domain": true,
+      "classification": "VALID",
+      "finite": true,
+      "max_abs_strain": 0.0038594284467524664,
+      "relation_min_length": 0.9961405715532475
+    }
+  }
+}

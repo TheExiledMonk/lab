@@ -1,0 +1,8 @@
+{
+  "DEV_READ": true,
+  "dev": "DEV197",
+  "exists": true,
+  "run": "runs/dev197_cross_event_influence",
+  "script": "tools/generate_dev197_cross_event_influence.py",
+  "sha256": "e513a4ed6d553247dc8c41a58a7b874b36e5f02e09bb62a6761438ccf1cf2e0e"
+}

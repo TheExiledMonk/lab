@@ -1,0 +1,13 @@
+{
+  "MULTI_STRUCTURE_PLACEMENT_SEMANTICS": "EXACT_INTEGER_TRANSLATION",
+  "PRIMARY_PAIR_GEOMETRY_PREDECLARED": true,
+  "primary_translation": {
+    "axis": "y",
+    "integer_nodes": 4
+  },
+  "selection_basis": [
+    "periodic N6 topology",
+    "DEV183 exact integer packet permutation",
+    "no force/torque result"
+  ]
+}

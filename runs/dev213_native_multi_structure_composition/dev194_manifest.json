@@ -1,0 +1,8 @@
+{
+  "DEV_READ": true,
+  "dev": "DEV194",
+  "exists": true,
+  "run": "runs/dev194_independent_event_wave_transport",
+  "script": "tools/generate_dev194_independent_event_wave_transport.py",
+  "sha256": "291b8293c216bf3bea37ce2636bed8d9a920876668402711a4c5909f63469805"
+}

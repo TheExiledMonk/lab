@@ -1,0 +1,8 @@
+{
+  "DEV_READ": true,
+  "dev": "DEV193",
+  "exists": true,
+  "run": "runs/dev193_native_extended_transport",
+  "script": "tools/generate_dev193_native_extended_transport.py",
+  "sha256": "1e3247be30446f505bee486d09f317045cdb132f79ab3b87d6a23123b870be50"
+}

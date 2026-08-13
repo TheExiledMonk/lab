@@ -1,0 +1,25 @@
+{
+  "INITIAL_MOMENTUM_COMPOSITION": "EXACT_ADDITIVE",
+  "P0": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "P_A": [
+    4.714205561365065e-19,
+    0.0,
+    0.0
+  ],
+  "P_AB": [
+    1.0401042147287834e-18,
+    0.0,
+    0.0
+  ],
+  "P_B": [
+    4.714205561365065e-19,
+    0.0,
+    0.0
+  ],
+  "max_abs_algebra_error": 9.726310245577045e-20,
+  "summation": "math.fsum exact summation of existing binary node values"
+}

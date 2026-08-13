@@ -1,0 +1,5 @@
+{
+  "DEV207_PAIR_PREPARATION_AUDITED": true,
+  "classification": "existing same-time aggregate-state construction, previously used for diagnostic interaction bookkeeping; DEV213 supplies its explicit preparation semantics.",
+  "construction": "inject(inject(X0,A),B) before evolve"
+}
