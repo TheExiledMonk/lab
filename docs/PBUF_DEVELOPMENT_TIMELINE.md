@@ -70,6 +70,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV223 | native pattern boundary candidate | DEV223 native pattern-boundary/interface audit | PARTIAL | CANONICAL |
 | 2026-08-13 | DEV224 | native local handedness quantity | DEV224 magnetic minimality reassessment and staggered local-order gate | BLOCKED | CANONICAL |
 | 2026-08-13 | DEV225 | staggered order representation gate | DEV225 native local handedness representation gate | FULL | CANONICAL |
+| 2026-08-13 | DEV226 | native distributed staggered local order | DEV226 native staggered local-order audit | FULL | CANONICAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

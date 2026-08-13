@@ -559,3 +559,7 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 - **Least-Reduced Handedness Representation Rule:** Native staggered-order tests must use the least-reduced uniquely derived representation of the existing antisymmetric relational state. The canonical Euclidean tensor contraction `A(a):A(b)` is preferred over a binary local state or a selected scalar component.
 - **Axis-Projected Native Handedness Rule:** The independently frozen +x axis can define `omega dot n` up to a harmless global sign convention, but it is not required when the tensor relation is sufficient. No nodewise sign choice is permitted.
+
+## LEDGER ENTRY 060 — DEV226 NATIVE STAGGERED ANTISYMMETRIC ORDER
+
+- **Staggered-Order Closure Rule:** The frozen DEV203 antisymmetric tensor audit is `ALIGNED_DOMINANT` under the uniquely authorized raw relation `A(a):A(b)`, with axis structure `NO_AXIS_ORDER` and temporal character `PERSISTENT`. No component selection, threshold, parity fitting, or timestep selection was used.

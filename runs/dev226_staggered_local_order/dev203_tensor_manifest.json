@@ -1,0 +1,15 @@
+{
+  "DEV203_ANTISYMMETRIC_TENSOR_REUSED": true,
+  "NO_NEW_TENSOR": true,
+  "array": "directional_tensor_antisymmetric",
+  "sha256": "0ae9ac98dccda9535b98b4c5ea42b9f3a5656f56fb79a383ff83a757dbb50307",
+  "shape": [
+    180,
+    11,
+    11,
+    11,
+    3,
+    3
+  ],
+  "source": "runs/dev203_relational_wave/antisymmetric_relational_components.npz"
+}

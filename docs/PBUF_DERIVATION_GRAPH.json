@@ -1019,6 +1019,22 @@
     {
       "id": "staggered_order_representation_gate",
       "type": "TARGET"
+    },
+    {
+      "id": "dev226_staggered_local_order",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "native_staggered_tensor_order",
+      "type": "TARGET"
+    },
+    {
+      "id": "staggered_order_axis_structure",
+      "type": "TARGET"
+    },
+    {
+      "id": "staggered_order_temporal_character",
+      "type": "TARGET"
     }
   ],
   "edges": [
@@ -2375,6 +2391,16 @@
     {
       "source": "dev225_local_handedness_representation_gate",
       "target": "staggered_order_representation_gate",
+      "type": "DERIVES"
+    },
+    {
+      "source": "dev225_local_handedness_representation_gate",
+      "target": "dev226_staggered_local_order",
+      "type": "AUTHORIZES"
+    },
+    {
+      "source": "dev226_staggered_local_order",
+      "target": "native_distributed_staggered_local_order",
       "type": "DERIVES"
     }
   ]

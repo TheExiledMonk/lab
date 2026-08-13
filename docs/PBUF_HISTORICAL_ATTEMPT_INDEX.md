@@ -132,3 +132,5 @@ DEV223 rule: a single frozen DEV203 structure is audited via ordered N6 signed-s
 DEV224 rule: zero DEV220 global winding is not evidence against staggered local order, but frozen DEV203 tensor data do not authorize a scalar sign or selected tensor component; no R/L state was introduced.
 
 DEV225 rule: DEV203 A_ij=(M_ij-M_ji)/2 admits the coefficient-free Euclidean nearest-neighbor relation A(a):A(b)=2 omega(a) dot omega(b); no component, scalar relabeling, or staggered outcome was inspected.
+
+DEV226 rule: walk every unique periodic N6 bond at every frozen DEV203 timestep using only A(a):A(b); retain exact machine zero contractions and do not introduce R/L states, thresholds, or parity fitting.
