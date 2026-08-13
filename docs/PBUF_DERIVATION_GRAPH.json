@@ -987,6 +987,22 @@
     {
       "id": "pattern_boundary_orientation_response",
       "type": "TARGET"
+    },
+    {
+      "id": "dev224_magnetic_minimality_reassessment",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "native_local_handedness_quantity",
+      "type": "TARGET"
+    },
+    {
+      "id": "native_distributed_staggered_local_order",
+      "type": "TARGET"
+    },
+    {
+      "id": "global_winding_vs_staggered_order",
+      "type": "TARGET"
     }
   ],
   "edges": [
@@ -2313,6 +2329,21 @@
     {
       "source": "dev223_pattern_boundary_interface",
       "target": "pattern_boundary_orientation_response",
+      "type": "DERIVES"
+    },
+    {
+      "source": "dev223_pattern_boundary_interface",
+      "target": "dev224_magnetic_minimality_reassessment",
+      "type": "AUTHORIZES"
+    },
+    {
+      "source": "dev224_magnetic_minimality_reassessment",
+      "target": "native_local_handedness_quantity",
+      "type": "DERIVES"
+    },
+    {
+      "source": "dev224_magnetic_minimality_reassessment",
+      "target": "global_winding_vs_staggered_order",
       "type": "DERIVES"
     }
   ]

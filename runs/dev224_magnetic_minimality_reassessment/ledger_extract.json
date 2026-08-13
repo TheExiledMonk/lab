@@ -1,0 +1,7 @@
+{
+  "DEVELOPMENT_LEDGER_READ": true,
+  "rules": [
+    "DEV220 closure retained",
+    "DEV215 temporal nonclosure retained"
+  ]
+}

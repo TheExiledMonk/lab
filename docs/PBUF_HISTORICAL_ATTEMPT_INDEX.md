@@ -128,3 +128,5 @@ DEV221 rule: DEV211 tested a source-maintained static deformation under DEV207 r
 DEV222 canonical-integrity rule: frozen DEV221 code and numeric artifacts establish nonzero longitudinal odd geometry, distinct ends, triaxial shape, reflection covariance, and exact translation covariance. DEV204 orientation stress remains end-symmetric; pair orientation interaction remains blocked. Canonical DEV223 is the coefficient-free N6 relational-pattern-boundary/interface audit, not a pair-force test.
 
 DEV223 rule: a single frozen DEV203 structure is audited via ordered N6 signed-strain differences; no pair force, pair torque, or threshold-selected interface is tested.
+
+DEV224 rule: zero DEV220 global winding is not evidence against staggered local order, but frozen DEV203 tensor data do not authorize a scalar sign or selected tensor component; no R/L state was introduced.

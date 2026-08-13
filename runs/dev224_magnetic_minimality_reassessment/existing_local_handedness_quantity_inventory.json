@@ -1,0 +1,23 @@
+{
+  "EXISTING_LOCAL_HANDEDNESS_QUANTITY_AUDITED": true,
+  "candidates": [
+    {
+      "name": "DEV203 directional antisymmetric relational tensor",
+      "rejection": "no canonical scalar component or contraction is already derived",
+      "representation": "signed rank-2 tensor",
+      "status": "EXISTING_BUT_NOT_SIGNED_SCALAR"
+    },
+    {
+      "name": "DEV206 full-zone rotational handedness",
+      "rejection": "not node-local",
+      "representation": "aggregated zone result",
+      "status": "BIDIRECTIONAL_CANCELING"
+    },
+    {
+      "name": "DEV215 local histories",
+      "rejection": "temporal cycle handedness not applicable",
+      "representation": "relation/strain histories",
+      "status": "NO_HANDedness_DIAGNOSTIC"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "STAGGERED_ORDER_NOT_MOMENTUM_POLARITY": true,
+  "reason": "DEV218 closure identifies p->-p as radial polarity; node momentum sign is not used."
+}

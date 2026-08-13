@@ -1,0 +1,8 @@
+{
+  "M_0": "mean(h_a)",
+  "M_s": "mean((-1)^(x+y+z) h_a)",
+  "NO_MAGNETIZATION_INTERPRETATION": true,
+  "STAGGERED_PARITY_GLOBAL_SIGN_CONVENTIONAL": true,
+  "conditional_on": "independently derived signed scalar h_a",
+  "not_evaluated_reason": "NATIVE_LOCAL_HANDEDNESS_GATE=BLOCKED_NONUNIQUE"
+}

@@ -1,0 +1,6 @@
+{
+  "DEV215_FROZEN_DATA_REUSED": true,
+  "DEV215_LOCAL_HISTORY_RELEVANT_TO_STAGGERED_ORDER": "RELEVANT_BUT_INSUFFICIENT",
+  "LOCAL_STATE_CYCLE_HANDEDNESS": "NOT_APPLICABLE",
+  "reason": "histories retain relation/strain vectors but no derived signed local handedness scalar."
+}

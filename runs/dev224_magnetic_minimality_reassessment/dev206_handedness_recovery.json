@@ -1,0 +1,5 @@
+{
+  "DEV206_HANDEDNESS_RELATION_TO_STAGGERED_ORDER": "BIDIRECTIONAL_CANCELING",
+  "FULL_ZONE_ROTATIONAL_HANDEDNESS": "BIDIRECTIONAL",
+  "reason": "zone aggregation does not yield a node-local signed scalar."
+}

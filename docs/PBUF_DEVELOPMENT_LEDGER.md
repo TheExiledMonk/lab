@@ -548,3 +548,9 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 ## LEDGER ENTRY 057 — DEV223 PATTERN-MISMATCH AUDIT
 
 - **Native Relational Pattern-Mismatch Rule:** Ordered signed N6 strain differences are existing coefficient-free relational data on the fixed graph; DEV223 retains the full six-vector and introduces no wall, field, threshold, or force. The result is `DISTRIBUTED_ONLY` and orientation-response relation is `DISTRIBUTED`. This is structural association only, not magnetic identity or causation.
+
+## LEDGER ENTRY 058 — DEV224 GLOBAL-WINDING / STAGGERED-ORDER GATE
+
+- **Global-Winding / Staggered-Order Distinction:** Absence of coherent large-scale circulation does not exclude coefficient-free alternating local orientation order: a bipartite N6 state can have nearest-neighbor anticorrelation while global signed circulation cancels.
+- **No Microscopic Rotor Assumption:** Instantaneous local relational handedness would not imply a closed temporal orbit, phase clock, rotor, or spin. DEV215 temporal nonclosure remains preserved.
+- **DEV224 Gate:** The frozen record contains DEV203 signed antisymmetric tensor data but no unique signed scalar local handedness or pre-existing canonical contraction. Component selection, binary relabeling, and parity flipping are prohibited; staggered order remains representation-blocked, not disproved.

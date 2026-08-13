@@ -1,0 +1,9 @@
+{
+  "C_NN": "mean over unique N6 bonds",
+  "C_ab": "h_a h_b",
+  "C_sign": "secondary sign-only diagnostic",
+  "NO_STAGGERED_ORDER_THRESHOLD": true,
+  "conditional_on": "independently derived signed scalar h_a",
+  "not_evaluated_reason": "NATIVE_LOCAL_HANDEDNESS_GATE=BLOCKED_NONUNIQUE",
+  "raw_sum_preserved": true
+}

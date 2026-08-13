@@ -1,0 +1,13 @@
+{
+  "DEV203_ROTATIONAL_SIGNATURE_RELATION_TO_STAGGERED_ORDER": "SUPPORTING_ONLY",
+  "native_shape": [
+    180,
+    11,
+    11,
+    11,
+    3,
+    3
+  ],
+  "quantity": "directional_tensor_antisymmetric",
+  "reason": "signed local tensor exists, but no unique scalar sign follows without a prohibited component or contraction choice."
+}

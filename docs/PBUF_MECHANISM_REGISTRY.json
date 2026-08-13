@@ -5031,6 +5031,55 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev224_magnetic_minimality_reassessment",
+      "target_id": "native_local_handedness_quantity",
+      "name": "DEV224 magnetic minimality reassessment and staggered local-order gate",
+      "aliases": [
+        "DEV224"
+      ],
+      "summary": "Read-only audit of frozen DEV203/206/215/220/223 records; no unique signed local scalar is available.",
+      "why_attempted": "DEV223 selected a reassessment to distinguish global winding from possible distributed alternating local organization.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV224",
+      "branch": "",
+      "files": [
+        "tools/generate_dev224_magnetic_minimality_reassessment.py"
+      ],
+      "run_directories": [
+        "runs/dev224_magnetic_minimality_reassessment"
+      ],
+      "tests": [
+        "tests/test_dev224_repo_history_coverage.py",
+        "tests/test_dev224_no_relabeling.py",
+        "tests/test_dev224_handedness_gate.py",
+        "tests/test_dev224_bipartite_geometry.py",
+        "tests/test_dev224_candidate_distinction.py",
+        "tests/test_dev224_next_test_gate.py"
+      ],
+      "equations": [
+        "C_ab=h_a h_b (only if independently derived signed scalar h exists)",
+        "M_s=N^-1 sum_a (-1)^(x_a+y_a+z_a) h_a (conditional only)"
+      ],
+      "result": "BLOCKED",
+      "result_reason": "DEV203 supplies a signed antisymmetric tensor, not a unique signed scalar; selecting a component or contraction would create an unlicensed representation choice.",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Only an independent local-handedness representation derivation.",
+      "do_not_repeat_reason": "Do not introduce signs, binary states, axes, curls, or checkerboard flips by hand.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev224_magnetic_minimality_reassessment/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "current_frontiers": [
@@ -8363,32 +8412,179 @@
       "reopen_condition": "Only if frozen DEV203 inputs or the ordered N6 definition change."
     },
     {
-      "target_id": "magnetic_mechanism_next_discriminating_test",
-      "canonical_name": "magnetic mechanism next discriminating test",
-      "plain_language_question": "What is the next allowed minimal magnetic-mechanism test?",
+      "target_id": "native_distributed_staggered_local_order",
+      "canonical_name": "native distributed staggered local order",
+      "plain_language_question": "Does an already-derived signed local relational quantity organize with opposite sign between N6 neighbors across the native structure while its global sum/circulation cancels?",
       "aliases": [
-        "DEV223"
+        "DEV224"
       ],
       "keywords": [
+        "staggered",
+        "handedness",
         "N6",
-        "pattern mismatch",
-        "boundary"
+        "magnetic mechanism"
       ],
       "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
       "first_seen_date": "2026-08-13",
       "last_updated_date": "2026-08-13",
       "attempt_ids": [
-        "dev223_pattern_boundary_interface"
+        "dev224_magnetic_minimality_reassessment"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [
+        "dev224_magnetic_minimality_reassessment"
+      ],
+      "open_questions": [
+        "A uniquely signed scalar local handedness representation is not presently derived."
+      ],
+      "blocked_by": [
+        "native_local_handedness_quantity"
+      ],
+      "blocks": [
+        "magnetic_mechanism_next_discriminating_test"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if an already-native unique signed scalar or canonical tensor contraction is derived independently."
+    },
+    {
+      "target_id": "native_local_handedness_quantity",
+      "canonical_name": "native local handedness quantity",
+      "plain_language_question": "Does the current native state contain a unique signed local orientation/handedness quantity without adding phase, spin, current, or a new degree of freedom?",
+      "aliases": [
+        "DEV224"
+      ],
+      "keywords": [
+        "staggered",
+        "handedness",
+        "N6",
+        "magnetic mechanism"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev224_magnetic_minimality_reassessment"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [
+        "dev224_magnetic_minimality_reassessment"
+      ],
+      "open_questions": [
+        "A uniquely signed scalar local handedness representation is not presently derived."
+      ],
+      "blocked_by": [
+        "native_local_handedness_quantity"
+      ],
+      "blocks": [
+        "magnetic_mechanism_next_discriminating_test"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if an already-native unique signed scalar or canonical tensor contraction is derived independently."
+    },
+    {
+      "target_id": "global_winding_vs_staggered_order",
+      "canonical_name": "global winding vs staggered order",
+      "plain_language_question": "Can absence of DEV220 coherent global winding coexist with nonzero staggered nearest-neighbor local organization?",
+      "aliases": [
+        "DEV224"
+      ],
+      "keywords": [
+        "staggered",
+        "handedness",
+        "N6",
+        "magnetic mechanism"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev224_magnetic_minimality_reassessment"
       ],
       "current_status": "CANONICAL",
       "canonical_solution_ids": [
-        "dev223_pattern_boundary_interface"
+        "dev224_magnetic_minimality_reassessment"
       ],
-      "open_questions": [],
-      "blocked_by": [],
-      "blocks": [],
+      "open_questions": [
+        "A uniquely signed scalar local handedness representation is not presently derived."
+      ],
+      "blocked_by": [
+        "native_local_handedness_quantity"
+      ],
+      "blocks": [
+        "magnetic_mechanism_next_discriminating_test"
+      ],
       "do_not_rederive": true,
-      "reopen_condition": "Only if frozen DEV203 inputs or the ordered N6 definition change."
+      "reopen_condition": "Only if an already-native unique signed scalar or canonical tensor contraction is derived independently."
+    },
+    {
+      "target_id": "distributed_orientation_order",
+      "canonical_name": "distributed orientation order",
+      "plain_language_question": "Is DEV223 distributed relational/orientation structure an organized alternating whole-structure state rather than merely distributed irregularity?",
+      "aliases": [
+        "DEV224"
+      ],
+      "keywords": [
+        "staggered",
+        "handedness",
+        "N6",
+        "magnetic mechanism"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev224_magnetic_minimality_reassessment"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [
+        "dev224_magnetic_minimality_reassessment"
+      ],
+      "open_questions": [
+        "A uniquely signed scalar local handedness representation is not presently derived."
+      ],
+      "blocked_by": [
+        "native_local_handedness_quantity"
+      ],
+      "blocks": [
+        "magnetic_mechanism_next_discriminating_test"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if an already-native unique signed scalar or canonical tensor contraction is derived independently."
+    },
+    {
+      "target_id": "magnetic_mechanism_next_discriminating_test",
+      "canonical_name": "magnetic mechanism next discriminating test",
+      "plain_language_question": "What is the next allowed minimal magnetic-mechanism test?",
+      "aliases": [
+        "DEV224"
+      ],
+      "keywords": [
+        "staggered",
+        "handedness",
+        "N6",
+        "magnetic mechanism"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev224_magnetic_minimality_reassessment"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [
+        "dev224_magnetic_minimality_reassessment"
+      ],
+      "open_questions": [
+        "A uniquely signed scalar local handedness representation is not presently derived."
+      ],
+      "blocked_by": [
+        "native_local_handedness_quantity"
+      ],
+      "blocks": [
+        "magnetic_mechanism_next_discriminating_test"
+      ],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if an already-native unique signed scalar or canonical tensor contraction is derived independently."
     }
   ],
   "development_gate_selectors": [
