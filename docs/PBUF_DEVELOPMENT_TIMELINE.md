@@ -59,6 +59,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV212 | Native strain internal multistate | DEV212 native multistate strain/polarity audit | PARTIAL | PARTIAL |
 | 2026-08-13 | DEV213 | native dynamic multi structure composition | DEV213 physical native multi-structure composition audit | FULL | ACTIVE |
 | 2026-08-13 | DEV214 | same geometry momentum reversal force | DEV214 same-structure dynamic-polarity interaction audit | BLOCKED | BLOCKED |
+| 2026-08-13 | DEV215 | Native local state cycle | DEV215 native lattice state-cycle and collective ordering audit | PARTIAL | PARTIAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

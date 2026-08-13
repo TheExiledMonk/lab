@@ -315,17 +315,6 @@
     ]
   },
   {
-    "attempt_id": "dev189_astronomical_source_boundary",
-    "equations": []
-  },
-  {
-    "attempt_id": "dev190_source_independent_transfer_distortion",
-    "equations": [
-      "y_l=sum_c P(c|l)q_c",
-      "J_T=central periodic nearest-neighbor derivative of y_l"
-    ]
-  },
-  {
     "attempt_id": "dev205_native_em_mapping",
     "equations": [
       "Q_i=1/2 epsilon_ijk A_jk",
@@ -367,6 +356,51 @@
     "equations": [
       "U_int=U_AB-U_A-U_B+U_0",
       "Delta F=Delta sigma rhat+sigma Delta rhat+Delta sigma Delta rhat"
+    ]
+  },
+  {
+    "attempt_id": "dev212_native_multistate_polarity",
+    "equations": [
+      "R_p(u,p)=(u,-p)",
+      "J_ab=-F_ab dot (p_a+p_b)/2"
+    ]
+  },
+  {
+    "attempt_id": "dev213_native_multi_structure_composition",
+    "equations": [
+      {
+        "id": "dev213_same_time_injection",
+        "latex": "X_AB=I_B(I_A(X_0))=I_A(I_B(X_0))",
+        "role": "preparation algebra",
+        "source_commit": null,
+        "source_file": "pbuf/excitation/native_multi_structure_preparation.py"
+      }
+    ]
+  },
+  {
+    "attempt_id": "dev189_astronomical_source_boundary",
+    "equations": []
+  },
+  {
+    "attempt_id": "dev190_source_independent_transfer_distortion",
+    "equations": [
+      "y_l=sum_c P(c|l)q_c",
+      "J_T=central periodic nearest-neighbor derivative of y_l"
+    ]
+  },
+  {
+    "attempt_id": "dev214_dynamic_polarity_interaction",
+    "equations": [
+      "Delta F=F_AB-F_A-F_B+F_0",
+      "J_ab=-F_ab dot (p_a+p_b)/2"
+    ]
+  },
+  {
+    "attempt_id": "dev215_lattice_state_cycle",
+    "equations": [
+      "S_i=[p_i,{r_ij,epsilon_ij,F_ij,J_ij}]",
+      "J_ab=-F_ab dot (p_a+p_b)/2",
+      "dP_Omega/dt=sum boundary F_ab + source_Omega"
     ]
   }
 ]

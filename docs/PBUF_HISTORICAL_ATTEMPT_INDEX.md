@@ -104,3 +104,9 @@ DEV212 rule: `(u,p)` is the native state; momentum reversal and flux reversal ar
 DEV213 rule: DEV193 remains correct for independently replayed transfer columns. DEV196 valid-state injection, applied twice at one progression step, defines a valid order-independent aggregate native state; later evolution is aggregate DEV167 evolution, never summed isolated trajectories.
 
 DEV214 rule: test exactly the DEV212 momentum involution in the fixed DEV213 aggregate geometry; a radial force claim is invalid if the immutable-provenance action–reaction gate fails.
+
+DEV215 rule: local state histories retain p, r, epsilon, F, and J without premature compression; absent exact closure, phase and cycle handedness remain unassigned.
+
+DEV215 rule: local state histories retain p, r, epsilon, F, and J without premature compression; absent exact closure, phase and cycle handedness remain unassigned.
+
+DEV215 rule: local state histories retain p, r, epsilon, F, and J without premature compression; absent exact closure, phase and cycle handedness remain unassigned.

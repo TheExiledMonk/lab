@@ -2131,5 +2131,513 @@
     "plain_language_question": "Does native torque rotate a misaligned strain structure toward a lower-interaction-energy configuration?",
     "reopen_condition": "Only with an existing non-invariant symmetry state.",
     "target_id": "native_two_strain_torque_alignment"
+  },
+  {
+    "aliases": [
+      "DEV212",
+      "momentum reversal",
+      "internal state"
+    ],
+    "attempt_ids": [
+      "dev212_native_multistate_polarity"
+    ],
+    "blocked_by": [
+      "native packet composition"
+    ],
+    "blocks": [
+      "native_dynamic_polarity_candidate"
+    ],
+    "canonical_name": "Native strain internal multistate",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "momentum reversal",
+      "rotation",
+      "flux",
+      "phase",
+      "polarity"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No independently justified physical composition of two dynamic packet states is established."
+    ],
+    "plain_language_question": "Does an existing native strain structure admit two or more physically distinct internal states without changing its deformation or adding a degree of freedom?",
+    "reopen_condition": "Only with an independently established composable two-structure native-state construction.",
+    "target_id": "native_strain_internal_multistate"
+  },
+  {
+    "aliases": [
+      "DEV212 dynamic polarity"
+    ],
+    "attempt_ids": [
+      "dev212_native_multistate_polarity"
+    ],
+    "blocked_by": [
+      "native packet composition"
+    ],
+    "blocks": [
+      "same_structure_attraction_repulsion_duality"
+    ],
+    "canonical_name": "Native dynamic polarity candidate",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "momentum",
+      "flux sign",
+      "polarity"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Momentum reversal is exact and distinct, but interaction use is not yet authorized."
+    ],
+    "plain_language_question": "Can an exact native internal-state reversal serve as a binary polarity-like distinction?",
+    "reopen_condition": "Only after composition and fixed-support interaction semantics are independently established.",
+    "target_id": "native_dynamic_polarity_candidate"
+  },
+  {
+    "aliases": [
+      "DEV212 force sign"
+    ],
+    "attempt_ids": [
+      "dev212_native_multistate_polarity"
+    ],
+    "blocked_by": [
+      "native packet composition"
+    ],
+    "blocks": [],
+    "canonical_name": "Same-structure attraction/repulsion duality",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "attraction",
+      "repulsion",
+      "internal state"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "DEV193 blocks treating additive independent trajectories as physical simultaneous structures."
+    ],
+    "plain_language_question": "Does changing only internal native state reverse mutual radial interaction?",
+    "reopen_condition": "An exact physical two-structure composition rule must be derived without selecting force results.",
+    "target_id": "same_structure_attraction_repulsion_duality"
+  },
+  {
+    "aliases": [
+      "DEV212 torque"
+    ],
+    "attempt_ids": [
+      "dev212_native_multistate_polarity"
+    ],
+    "blocked_by": [
+      "native packet composition"
+    ],
+    "blocks": [],
+    "canonical_name": "Native internal-state torque",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "torque",
+      "internal state"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No authorized interaction pair exists."
+    ],
+    "plain_language_question": "Does relative internal state generate native alignment torque between identical structures?",
+    "reopen_condition": "Same as the interaction-composition gate.",
+    "target_id": "native_internal_state_torque"
+  },
+  {
+    "aliases": [
+      "DEV213"
+    ],
+    "attempt_ids": [
+      "dev213_native_multi_structure_composition"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "native dynamic multi structure composition",
+    "canonical_solution_ids": [],
+    "current_status": "ACTIVE",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "composition",
+      "simultaneous",
+      "injection",
+      "aggregate state",
+      "packet addition",
+      "overlap",
+      "lineage"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "DEV214 may inspect force and torque only after this initial-state result."
+    ],
+    "plain_language_question": "Can two independently defined dynamic native structures be physically prepared in one valid DEV167 state using only existing state/preparation semantics?",
+    "reopen_condition": "Frozen DEV167/DEV182/DEV196 preparation semantics change.",
+    "target_id": "native_dynamic_multi_structure_composition"
+  },
+  {
+    "aliases": [
+      "DEV213"
+    ],
+    "attempt_ids": [
+      "dev213_native_multi_structure_composition"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "native simultaneous preparation semantics",
+    "canonical_solution_ids": [],
+    "current_status": "ACTIVE",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "composition",
+      "simultaneous",
+      "injection",
+      "aggregate state",
+      "packet addition",
+      "overlap",
+      "lineage"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "DEV214 may inspect force and torque only after this initial-state result."
+    ],
+    "plain_language_question": "Does existing native preparation/injection semantics define an order-independent simultaneous aggregate state rather than merely post-hoc array addition?",
+    "reopen_condition": "Frozen DEV167/DEV182/DEV196 preparation semantics change.",
+    "target_id": "native_simultaneous_preparation_semantics"
+  },
+  {
+    "aliases": [
+      "DEV213"
+    ],
+    "attempt_ids": [
+      "dev213_native_multi_structure_composition"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "native dynamic structure identity",
+    "canonical_solution_ids": [],
+    "current_status": "ACTIVE",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "composition",
+      "simultaneous",
+      "injection",
+      "aggregate state",
+      "packet addition",
+      "overlap",
+      "lineage"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "DEV214 may inspect force and torque only after this initial-state result."
+    ],
+    "plain_language_question": "Can two dynamic structures retain preparation/provenance identity within one aggregate native state even when their exact mathematical supports overlap?",
+    "reopen_condition": "Frozen DEV167/DEV182/DEV196 preparation semantics change.",
+    "target_id": "native_dynamic_structure_identity"
+  },
+  {
+    "aliases": [
+      "DEV213"
+    ],
+    "attempt_ids": [
+      "dev213_native_multi_structure_composition"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "dynamic polarity interaction authorization",
+    "canonical_solution_ids": [],
+    "current_status": "ACTIVE",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "composition",
+      "simultaneous",
+      "injection",
+      "aggregate state",
+      "packet addition",
+      "overlap",
+      "lineage"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "DEV214 may inspect force and torque only after this initial-state result."
+    ],
+    "plain_language_question": "Has the physical composition blocker preventing DEV212's same-structure polarity interaction test been closed independently of magnetic results?",
+    "reopen_condition": "Frozen DEV167/DEV182/DEV196 preparation semantics change.",
+    "target_id": "dynamic_polarity_interaction_authorization"
+  },
+  {
+    "aliases": [
+      "DEV214"
+    ],
+    "attempt_ids": [
+      "dev214_dynamic_polarity_interaction"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "same geometry momentum reversal force",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "dynamic polarity",
+      "momentum reversal",
+      "force",
+      "torque"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [],
+    "plain_language_question": "Does reversing only the native momentum state of an otherwise identical strain structure reverse its mutual interaction force?",
+    "reopen_condition": "Frozen DEV167, DEV212 state reversal, or DEV213 preparation changes independently.",
+    "target_id": "same_geometry_momentum_reversal_force"
+  },
+  {
+    "aliases": [
+      "DEV214"
+    ],
+    "attempt_ids": [
+      "dev214_dynamic_polarity_interaction"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "relative dynamic state force structure",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "dynamic polarity",
+      "momentum reversal",
+      "force",
+      "torque"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [],
+    "plain_language_question": "Do same-state and opposite-state dynamic pairs form distinct native force classes?",
+    "reopen_condition": "Frozen DEV167, DEV212 state reversal, or DEV213 preparation changes independently.",
+    "target_id": "relative_dynamic_state_force_structure"
+  },
+  {
+    "aliases": [
+      "DEV214"
+    ],
+    "attempt_ids": [
+      "dev214_dynamic_polarity_interaction"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "native dynamic polarity interaction",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "dynamic polarity",
+      "momentum reversal",
+      "force",
+      "torque"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [],
+    "plain_language_question": "Does an exact internal dynamical state distinction of the same native structure produce attraction/repulsion duality?",
+    "reopen_condition": "Frozen DEV167, DEV212 state reversal, or DEV213 preparation changes independently.",
+    "target_id": "native_dynamic_polarity_interaction"
+  },
+  {
+    "aliases": [
+      "DEV214"
+    ],
+    "attempt_ids": [
+      "dev214_dynamic_polarity_interaction"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "dynamic state dependent torque",
+    "canonical_solution_ids": [],
+    "current_status": "ACTIVE",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "dynamic polarity",
+      "momentum reversal",
+      "force",
+      "torque"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [],
+    "plain_language_question": "Does relative internal native state generate an alignment torque?",
+    "reopen_condition": "Frozen DEV167, DEV212 state reversal, or DEV213 preparation changes independently.",
+    "target_id": "dynamic_state_dependent_torque"
+  },
+  {
+    "aliases": [
+      "DEV215"
+    ],
+    "attempt_ids": [
+      "dev215_lattice_state_cycle"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native local state cycle",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "local state",
+      "N6",
+      "cycle",
+      "momentum reversal"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "The fixed pre-boundary trajectory is nonclosed; no native phase is introduced."
+    ],
+    "plain_language_question": "Does a fixed native lattice element traverse a repeatable relational full-state cycle under unchanged DEV167 dynamics?",
+    "reopen_condition": "Only with an independently changed frozen DEV167 trajectory.",
+    "target_id": "native_local_state_cycle"
+  },
+  {
+    "aliases": [
+      "DEV215"
+    ],
+    "attempt_ids": [
+      "dev215_lattice_state_cycle"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native cycle direction reversal",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "local state",
+      "N6",
+      "cycle",
+      "momentum reversal"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "The fixed pre-boundary trajectory is nonclosed; no native phase is introduced."
+    ],
+    "plain_language_question": "Does DEV212 momentum reversal reverse the direction through an otherwise equivalent native local-state cycle?",
+    "reopen_condition": "Only with an independently changed frozen DEV167 trajectory.",
+    "target_id": "native_cycle_direction_reversal"
+  },
+  {
+    "aliases": [
+      "DEV215"
+    ],
+    "attempt_ids": [
+      "dev215_lattice_state_cycle"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native collective dynamical order",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "local state",
+      "N6",
+      "cycle",
+      "momentum reversal"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "The fixed pre-boundary trajectory is nonclosed; no native phase is introduced."
+    ],
+    "plain_language_question": "Do N6-neighboring elements develop reproducible native dynamical-state organization under existing dynamics?",
+    "reopen_condition": "Only with an independently changed frozen DEV167 trajectory.",
+    "target_id": "native_collective_dynamical_order"
+  },
+  {
+    "aliases": [
+      "DEV215"
+    ],
+    "attempt_ids": [
+      "dev215_lattice_state_cycle"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Collective dynamic polarity candidate",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "local state",
+      "N6",
+      "cycle",
+      "momentum reversal"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "The fixed pre-boundary trajectory is nonclosed; no native phase is introduced."
+    ],
+    "plain_language_question": "Do opposite full-state momentum preparations generate opposite collective cycle-direction states across a native region?",
+    "reopen_condition": "Only with an independently changed frozen DEV167 trajectory.",
+    "target_id": "collective_dynamic_polarity_candidate"
+  },
+  {
+    "aliases": [
+      "DEV215"
+    ],
+    "attempt_ids": [
+      "dev215_lattice_state_cycle"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native closed region momentum transfer",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "local state",
+      "N6",
+      "cycle",
+      "momentum reversal"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "The fixed pre-boundary trajectory is nonclosed; no native phase is introduced."
+    ],
+    "plain_language_question": "Can exact N6 boundary-bond accounting provide action-reaction-consistent local momentum transfer?",
+    "reopen_condition": "Only with an independently changed frozen DEV167 trajectory.",
+    "target_id": "native_closed_region_momentum_transfer"
   }
 ]

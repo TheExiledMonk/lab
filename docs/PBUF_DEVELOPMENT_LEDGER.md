@@ -491,3 +491,18 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 ## LEDGER ENTRY 049 — DEV214 NATIVE DYNAMIC POLARITY INTERACTION
 
 - DEV214 holds DEV213 preparation geometry fixed and changes only DEV212 momentum sign. Its force classifications remain gated by the fixed-provenance action–reaction audit; no static DEV211 route, placement tuning, rotation, current, poles, or field mapping is introduced.
+
+## LEDGER ENTRY 050 — DEV215 NATIVE LATTICE STATE-CYCLE AUDIT
+
+- **Native Local State-Cycle Boundary:** Under frozen DEV167 mechanics, the fixed pre-boundary full local N6 histories are oscillatory but do not meet the threshold-free exact closure gate. No phase, oscillator, rotation, current, or magnetic label is derived.
+- **Closed Native Region Balance Rule:** Exact N6 bonds crossing a fixed geometric region boundary provide action–reaction-consistent momentum-transfer accounting; this does not reopen DEV214 provenance-defined radial-force attribution.
+
+## LEDGER ENTRY 050 — DEV215 NATIVE LATTICE STATE-CYCLE AUDIT
+
+- **Native Local State-Cycle Boundary:** Under frozen DEV167 mechanics, the fixed pre-boundary full local N6 histories are oscillatory but do not meet the threshold-free exact closure gate. No phase, oscillator, rotation, current, or magnetic label is derived.
+- **Closed Native Region Balance Rule:** Exact N6 bonds crossing a fixed geometric region boundary provide action–reaction-consistent momentum-transfer accounting; this does not reopen DEV214 provenance-defined radial-force attribution.
+
+## LEDGER ENTRY 050 — DEV215 NATIVE LATTICE STATE-CYCLE AUDIT
+
+- **Native Local State-Cycle Boundary:** Under frozen DEV167 mechanics, the fixed pre-boundary full local N6 histories are oscillatory but do not meet the threshold-free exact closure gate. No phase, oscillator, rotation, current, or magnetic label is derived.
+- **Closed Native Region Balance Rule:** Exact N6 bonds crossing a fixed geometric region boundary provide action–reaction-consistent momentum-transfer accounting; this does not reopen DEV214 provenance-defined radial-force attribution.

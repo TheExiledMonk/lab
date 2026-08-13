@@ -1,0 +1,7 @@
+{
+  "DEV_READ": true,
+  "run": "runs/dev203_relational_wave",
+  "run_exists": true,
+  "script": "tools/generate_dev203_relational_wave.py",
+  "script_sha256": "478c5e0ce1508ab4a97fa5b99d06e0e2dd3f9df8e170986655eeb51469cdefec"
+}

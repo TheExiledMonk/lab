@@ -24,6 +24,13 @@
     "nonlinear",
     "cross event"
   ],
+  "collective_dynamic_polarity_candidate": [
+    "DEV215",
+    "local state",
+    "N6",
+    "cycle",
+    "momentum reversal"
+  ],
   "coordinate_lineage": [
     "WCS",
     "sky bridge",
@@ -100,6 +107,23 @@
   "domain_reversibility": [
     "reversibility",
     "reversibility"
+  ],
+  "dynamic_polarity_interaction_authorization": [
+    "DEV213",
+    "composition",
+    "simultaneous",
+    "injection",
+    "aggregate state",
+    "packet addition",
+    "overlap",
+    "lineage"
+  ],
+  "dynamic_state_dependent_torque": [
+    "DEV214",
+    "dynamic polarity",
+    "momentum reversal",
+    "force",
+    "torque"
   ],
   "em_like_transverse_wave_sector": [
     "EM-like wave sector",
@@ -207,6 +231,20 @@
     "restoring stress",
     "turnaround"
   ],
+  "native_closed_region_momentum_transfer": [
+    "DEV215",
+    "local state",
+    "N6",
+    "cycle",
+    "momentum reversal"
+  ],
+  "native_collective_dynamical_order": [
+    "DEV215",
+    "local state",
+    "N6",
+    "cycle",
+    "momentum reversal"
+  ],
   "native_cosmological_restoring_stress": [
     "DEV208",
     "native_cosmological_restoring_stress",
@@ -226,6 +264,46 @@
     "strain",
     "restoring stress",
     "turnaround"
+  ],
+  "native_cycle_direction_reversal": [
+    "DEV215",
+    "local state",
+    "N6",
+    "cycle",
+    "momentum reversal"
+  ],
+  "native_dynamic_multi_structure_composition": [
+    "DEV213",
+    "composition",
+    "simultaneous",
+    "injection",
+    "aggregate state",
+    "packet addition",
+    "overlap",
+    "lineage"
+  ],
+  "native_dynamic_polarity_candidate": [
+    "DEV212 dynamic polarity",
+    "momentum",
+    "flux sign",
+    "polarity"
+  ],
+  "native_dynamic_polarity_interaction": [
+    "DEV214",
+    "dynamic polarity",
+    "momentum reversal",
+    "force",
+    "torque"
+  ],
+  "native_dynamic_structure_identity": [
+    "DEV213",
+    "composition",
+    "simultaneous",
+    "injection",
+    "aggregate state",
+    "packet addition",
+    "overlap",
+    "lineage"
   ],
   "native_electric_field_candidate": [
     "DEV205",
@@ -264,6 +342,11 @@
     "packet overlap",
     "moment transport"
   ],
+  "native_internal_state_torque": [
+    "DEV212 torque",
+    "torque",
+    "internal state"
+  ],
   "native_launch_density_convergence": [
     "discrete native launch domain",
     "launch density convergence",
@@ -299,6 +382,13 @@
     "F03",
     "H07",
     "scalar geometry"
+  ],
+  "native_local_state_cycle": [
+    "DEV215",
+    "local state",
+    "N6",
+    "cycle",
+    "momentum reversal"
   ],
   "native_magnetic_field_candidate": [
     "DEV205",
@@ -381,6 +471,26 @@
     "stress response",
     "orientation stress",
     "finite force difference"
+  ],
+  "native_simultaneous_preparation_semantics": [
+    "DEV213",
+    "composition",
+    "simultaneous",
+    "injection",
+    "aggregate state",
+    "packet addition",
+    "overlap",
+    "lineage"
+  ],
+  "native_strain_internal_multistate": [
+    "DEV212",
+    "momentum reversal",
+    "internal state",
+    "momentum reversal",
+    "rotation",
+    "flux",
+    "phase",
+    "polarity"
   ],
   "native_transfer_operator": [
     "transfer function",
@@ -479,11 +589,31 @@
     "channel sufficiency",
     "mode sufficiency"
   ],
+  "relative_dynamic_state_force_structure": [
+    "DEV214",
+    "dynamic polarity",
+    "momentum reversal",
+    "force",
+    "torque"
+  ],
   "same_dataset_observable_escape": [
     "source cancellation audit",
     "source elimination",
     "same dataset",
     "observable escape"
+  ],
+  "same_geometry_momentum_reversal_force": [
+    "DEV214",
+    "dynamic polarity",
+    "momentum reversal",
+    "force",
+    "torque"
+  ],
+  "same_structure_attraction_repulsion_duality": [
+    "DEV212 force sign",
+    "attraction",
+    "repulsion",
+    "internal state"
   ],
   "sampling_density_terms": [
     "ray density",

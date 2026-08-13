@@ -1,0 +1,14 @@
+{
+  "LOCAL_NATIVE_STATE_DESCRIPTOR": true,
+  "LOCAL_NATIVE_STATE_DESCRIPTOR_DEFINED": true,
+  "LOCAL_STATE_DESCRIPTOR_HIERARCHY_COMPLETE": true,
+  "coefficient_free": true,
+  "hierarchy": [
+    "A momentum",
+    "B N6 strain",
+    "C N6 orientation/relation",
+    "D N6 stress/force",
+    "E signed pair-power flux",
+    "F combined full local state"
+  ]
+}

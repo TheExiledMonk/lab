@@ -1,0 +1,10 @@
+{
+  "LATTICE_REGION_SELECTION_RULE": "center plus exact graph-distance N6 shells 1 and 2",
+  "NO_REGION_SIZE_SWEEP_BEFORE_PRIMARY_CLASSIFICATION": true,
+  "center": [
+    1,
+    5,
+    5
+  ],
+  "node_count": 25
+}

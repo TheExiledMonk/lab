@@ -6,6 +6,7 @@
     "dev167_vector_relational_dynamics"
   ],
   "canonical_packet_weak_event_regime": [],
+  "collective_dynamic_polarity_candidate": [],
   "coordinate_lineage": [
     "dev174_coordinate_serialization"
   ],
@@ -22,6 +23,8 @@
   "domain_planck_finite_bound": [],
   "domain_propagation": [],
   "domain_reversibility": [],
+  "dynamic_polarity_interaction_authorization": [],
+  "dynamic_state_dependent_torque": [],
   "em_like_transverse_wave_sector": [],
   "em_wave_structural_correlation": [],
   "exact_local_n6_relational_wave_relay": [],
@@ -38,12 +41,20 @@
   "local_force_balance_restoration": [],
   "magnetic_stress_native_candidate": [],
   "native_background_expansion_strain": [],
+  "native_closed_region_momentum_transfer": [],
+  "native_collective_dynamical_order": [],
   "native_cosmological_restoring_stress": [],
   "native_cosmological_turnaround": [],
+  "native_cycle_direction_reversal": [],
+  "native_dynamic_multi_structure_composition": [],
+  "native_dynamic_polarity_candidate": [],
+  "native_dynamic_polarity_interaction": [],
+  "native_dynamic_structure_identity": [],
   "native_electric_field_candidate": [],
   "native_em_mapping_uniqueness": [],
   "native_em_polar_axial_field_pair": [],
   "native_extended_excitation_transport": [],
+  "native_internal_state_torque": [],
   "native_launch_density_convergence": [
     "dev184_discrete_launch_density_convergence"
   ],
@@ -53,6 +64,7 @@
   "native_loaded_directional_response": [
     "dev167_vector_relational_dynamics"
   ],
+  "native_local_state_cycle": [],
   "native_magnetic_field_candidate": [],
   "native_mode_channel_sufficiency": [
     "dev186_native_mode_channel_sufficiency"
@@ -70,6 +82,8 @@
   "native_relational_stress_coupling": [
     "dev204_relational_stress_coupling"
   ],
+  "native_simultaneous_preparation_semantics": [],
+  "native_strain_internal_multistate": [],
   "native_transfer_operator": [
     "dev188_native_source_distribution_pushforward"
   ],
@@ -88,7 +102,10 @@
   "received_state_distribution_sufficiency": [
     "dev185_received_state_distribution_sufficiency"
   ],
+  "relative_dynamic_state_force_structure": [],
   "same_dataset_observable_escape": [],
+  "same_geometry_momentum_reversal_force": [],
+  "same_structure_attraction_repulsion_duality": [],
   "sampling_density_terms": [
     "dev180_density_reconciliation"
   ],

@@ -1005,86 +1005,6 @@
     "type": "DERIVED_FROM"
   },
   {
-    "source": "dev189_astronomical_source_boundary",
-    "target": "astronomical_source_boundary",
-    "type": "ATTEMPTS_TO_SOLVE"
-  },
-  {
-    "source": "dev189_astronomical_source_boundary",
-    "target": "canonical:dev189_astronomical_source_boundary",
-    "type": "VALIDATED_BY"
-  },
-  {
-    "source": "dev189_astronomical_source_boundary",
-    "target": "dev171_independent_3d_source",
-    "type": "DERIVED_FROM"
-  },
-  {
-    "source": "dev189_astronomical_source_boundary",
-    "target": "dev174_coordinate_serialization",
-    "type": "DERIVED_FROM"
-  },
-  {
-    "source": "dev189_astronomical_source_boundary",
-    "target": "dev175_pyrrg_recovery",
-    "type": "DERIVED_FROM"
-  },
-  {
-    "source": "dev189_astronomical_source_boundary",
-    "target": "dev183_discrete_launch_domain_packet_lineage",
-    "type": "DERIVED_FROM"
-  },
-  {
-    "source": "dev189_astronomical_source_boundary",
-    "target": "dev187_physical_native_observer",
-    "type": "DERIVED_FROM"
-  },
-  {
-    "source": "dev189_astronomical_source_boundary",
-    "target": "dev188_native_source_distribution_pushforward",
-    "type": "DERIVED_FROM"
-  },
-  {
-    "source": "dev190_source_independent_transfer_distortion",
-    "target": "source_independent_transfer_distortion",
-    "type": "ATTEMPTS_TO_SOLVE"
-  },
-  {
-    "source": "dev190_source_independent_transfer_distortion",
-    "target": "dev190_source_independent_transfer_distortion:eq_0",
-    "type": "USES"
-  },
-  {
-    "source": "dev190_source_independent_transfer_distortion",
-    "target": "dev190_source_independent_transfer_distortion:eq_1",
-    "type": "USES"
-  },
-  {
-    "source": "dev190_source_independent_transfer_distortion",
-    "target": "canonical:dev190_source_independent_transfer_distortion",
-    "type": "VALIDATED_BY"
-  },
-  {
-    "source": "dev190_source_independent_transfer_distortion",
-    "target": "dev183_discrete_launch_domain_packet_lineage",
-    "type": "DERIVED_FROM"
-  },
-  {
-    "source": "dev190_source_independent_transfer_distortion",
-    "target": "dev187_physical_native_observer",
-    "type": "DERIVED_FROM"
-  },
-  {
-    "source": "dev190_source_independent_transfer_distortion",
-    "target": "dev188_native_source_distribution_pushforward",
-    "type": "DERIVED_FROM"
-  },
-  {
-    "source": "dev190_source_independent_transfer_distortion",
-    "target": "dev189_astronomical_source_boundary",
-    "type": "DERIVED_FROM"
-  },
-  {
     "source": "dev205_native_em_mapping",
     "target": "native_em_polar_axial_field_pair",
     "type": "ATTEMPTS_TO_SOLVE"
@@ -1217,6 +1137,146 @@
   {
     "source": "dev211_two_strain_magnetism",
     "target": "dev211_two_strain_magnetism:eq_1",
+    "type": "USES"
+  },
+  {
+    "source": "dev212_native_multistate_polarity",
+    "target": "native_strain_internal_multistate",
+    "type": "ATTEMPTS_TO_SOLVE"
+  },
+  {
+    "source": "dev212_native_multistate_polarity",
+    "target": "dev212_native_multistate_polarity:eq_0",
+    "type": "USES"
+  },
+  {
+    "source": "dev212_native_multistate_polarity",
+    "target": "dev212_native_multistate_polarity:eq_1",
+    "type": "USES"
+  },
+  {
+    "source": "dev213_native_multi_structure_composition",
+    "target": "native_dynamic_multi_structure_composition",
+    "type": "ATTEMPTS_TO_SOLVE"
+  },
+  {
+    "source": "dev213_native_multi_structure_composition",
+    "target": "dev213_native_multi_structure_composition:dev213_same_time_injection",
+    "type": "USES"
+  },
+  {
+    "source": "dev189_astronomical_source_boundary",
+    "target": "astronomical_source_boundary",
+    "type": "ATTEMPTS_TO_SOLVE"
+  },
+  {
+    "source": "dev189_astronomical_source_boundary",
+    "target": "canonical:dev189_astronomical_source_boundary",
+    "type": "VALIDATED_BY"
+  },
+  {
+    "source": "dev189_astronomical_source_boundary",
+    "target": "dev171_independent_3d_source",
+    "type": "DERIVED_FROM"
+  },
+  {
+    "source": "dev189_astronomical_source_boundary",
+    "target": "dev174_coordinate_serialization",
+    "type": "DERIVED_FROM"
+  },
+  {
+    "source": "dev189_astronomical_source_boundary",
+    "target": "dev175_pyrrg_recovery",
+    "type": "DERIVED_FROM"
+  },
+  {
+    "source": "dev189_astronomical_source_boundary",
+    "target": "dev183_discrete_launch_domain_packet_lineage",
+    "type": "DERIVED_FROM"
+  },
+  {
+    "source": "dev189_astronomical_source_boundary",
+    "target": "dev187_physical_native_observer",
+    "type": "DERIVED_FROM"
+  },
+  {
+    "source": "dev189_astronomical_source_boundary",
+    "target": "dev188_native_source_distribution_pushforward",
+    "type": "DERIVED_FROM"
+  },
+  {
+    "source": "dev190_source_independent_transfer_distortion",
+    "target": "source_independent_transfer_distortion",
+    "type": "ATTEMPTS_TO_SOLVE"
+  },
+  {
+    "source": "dev190_source_independent_transfer_distortion",
+    "target": "dev190_source_independent_transfer_distortion:eq_0",
+    "type": "USES"
+  },
+  {
+    "source": "dev190_source_independent_transfer_distortion",
+    "target": "dev190_source_independent_transfer_distortion:eq_1",
+    "type": "USES"
+  },
+  {
+    "source": "dev190_source_independent_transfer_distortion",
+    "target": "canonical:dev190_source_independent_transfer_distortion",
+    "type": "VALIDATED_BY"
+  },
+  {
+    "source": "dev190_source_independent_transfer_distortion",
+    "target": "dev183_discrete_launch_domain_packet_lineage",
+    "type": "DERIVED_FROM"
+  },
+  {
+    "source": "dev190_source_independent_transfer_distortion",
+    "target": "dev187_physical_native_observer",
+    "type": "DERIVED_FROM"
+  },
+  {
+    "source": "dev190_source_independent_transfer_distortion",
+    "target": "dev188_native_source_distribution_pushforward",
+    "type": "DERIVED_FROM"
+  },
+  {
+    "source": "dev190_source_independent_transfer_distortion",
+    "target": "dev189_astronomical_source_boundary",
+    "type": "DERIVED_FROM"
+  },
+  {
+    "source": "dev214_dynamic_polarity_interaction",
+    "target": "same_geometry_momentum_reversal_force",
+    "type": "ATTEMPTS_TO_SOLVE"
+  },
+  {
+    "source": "dev214_dynamic_polarity_interaction",
+    "target": "dev214_dynamic_polarity_interaction:eq_0",
+    "type": "USES"
+  },
+  {
+    "source": "dev214_dynamic_polarity_interaction",
+    "target": "dev214_dynamic_polarity_interaction:eq_1",
+    "type": "USES"
+  },
+  {
+    "source": "dev215_lattice_state_cycle",
+    "target": "native_local_state_cycle",
+    "type": "ATTEMPTS_TO_SOLVE"
+  },
+  {
+    "source": "dev215_lattice_state_cycle",
+    "target": "dev215_lattice_state_cycle:eq_0",
+    "type": "USES"
+  },
+  {
+    "source": "dev215_lattice_state_cycle",
+    "target": "dev215_lattice_state_cycle:eq_1",
+    "type": "USES"
+  },
+  {
+    "source": "dev215_lattice_state_cycle",
+    "target": "dev215_lattice_state_cycle:eq_2",
     "type": "USES"
   },
   {
