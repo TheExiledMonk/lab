@@ -4731,6 +4731,56 @@
         "tests/test_dev217_interface_action_reaction.py"
       ],
       "why_attempted": "DEV216 fixed radius-two regions overlap at one native node."
+    },
+    {
+      "aliases": [
+        "DEV218"
+      ],
+      "attempt_id": "dev218_exact_interface_dynamic_polarity",
+      "branch": "dev217-disjoint-pair-partition",
+      "canonical": true,
+      "confidence": "HIGH",
+      "current_status": "CANONICAL",
+      "date_completed": "2026-08-13",
+      "date_started": "2026-08-13",
+      "dev": "DEV218",
+      "do_not_repeat_reason": "DEV218 is the terminal frozen result for this preparation and observer.",
+      "equations": [
+        "F_A<-B=sum_(a,b) in B_AB F_ab",
+        "F_R=F_A<-B dot Rhat"
+      ],
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev218_exact_interface_dynamic_polarity/final_contract.json"
+        }
+      ],
+      "files": [
+        "pbuf/observer/native_exact_interface_polarity.py",
+        "pbuf/observer/native_pair_interface_force.py",
+        "tools/generate_dev218_exact_interface_dynamic_polarity.py"
+      ],
+      "fitted_parameters": [],
+      "free_parameters": [],
+      "infrastructure_reusable": true,
+      "name": "DEV218 exact interface dynamic-polarity force",
+      "physics_reusable": true,
+      "reopen_condition": "Frozen contracts change independently.",
+      "result": "FULL",
+      "result_reason": "The exact direct interface observer is reciprocal; the frozen result is recorded without parameter sweeps or interpretive rescue.",
+      "run_directories": [
+        "runs/dev218_exact_interface_dynamic_polarity"
+      ],
+      "summary": "Frozen four-state direct A/B N6-interface force audit using byte-identical DEV217 artifacts.",
+      "target_id": "exact_interface_dynamic_polarity_force",
+      "tests": [
+        "tests/test_dev218_partition_identity.py",
+        "tests/test_dev218_interface_action_reaction.py",
+        "tests/test_dev218_four_state_force_sign.py",
+        "tests/test_dev218_relative_state_symmetry.py",
+        "tests/test_dev218_force_trajectory.py"
+      ],
+      "why_attempted": "DEV217 independently closed the overlap and action-reaction observer gates."
     }
   ],
   "current_frontiers": [
@@ -7152,60 +7202,6 @@
       ],
       "blocked_by": [],
       "blocks": [],
-      "canonical_name": "same geometry momentum reversal force",
-      "canonical_solution_ids": [],
-      "current_status": "BLOCKED",
-      "do_not_rederive": true,
-      "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
-      "first_seen_date": "2026-08-13",
-      "keywords": [
-        "dynamic polarity",
-        "momentum reversal",
-        "force",
-        "torque"
-      ],
-      "last_updated_date": "2026-08-13",
-      "open_questions": [],
-      "plain_language_question": "Does reversing only the native momentum state of an otherwise identical strain structure reverse its mutual interaction force?",
-      "reopen_condition": "Frozen DEV167, DEV212 state reversal, or DEV213 preparation changes independently.",
-      "target_id": "same_geometry_momentum_reversal_force"
-    },
-    {
-      "aliases": [
-        "DEV214"
-      ],
-      "attempt_ids": [
-        "dev214_dynamic_polarity_interaction"
-      ],
-      "blocked_by": [],
-      "blocks": [],
-      "canonical_name": "native dynamic polarity interaction",
-      "canonical_solution_ids": [],
-      "current_status": "BLOCKED",
-      "do_not_rederive": true,
-      "domain": "NATIVE DYNAMICS / EM SUBSTRUCTURE",
-      "first_seen_date": "2026-08-13",
-      "keywords": [
-        "dynamic polarity",
-        "momentum reversal",
-        "force",
-        "torque"
-      ],
-      "last_updated_date": "2026-08-13",
-      "open_questions": [],
-      "plain_language_question": "Does an exact internal dynamical state distinction of the same native structure produce attraction/repulsion duality?",
-      "reopen_condition": "Frozen DEV167, DEV212 state reversal, or DEV213 preparation changes independently.",
-      "target_id": "native_dynamic_polarity_interaction"
-    },
-    {
-      "aliases": [
-        "DEV214"
-      ],
-      "attempt_ids": [
-        "dev214_dynamic_polarity_interaction"
-      ],
-      "blocked_by": [],
-      "blocks": [],
       "canonical_name": "dynamic state dependent torque",
       "canonical_solution_ids": [],
       "current_status": "ACTIVE",
@@ -7425,60 +7421,6 @@
     },
     {
       "aliases": [
-        "DEV216"
-      ],
-      "attempt_ids": [
-        "dev216_bond_cut_dynamic_polarity"
-      ],
-      "blocked_by": [],
-      "blocks": [],
-      "canonical_name": "same structure attraction repulsion duality",
-      "canonical_solution_ids": [],
-      "current_status": "BLOCKED",
-      "do_not_rederive": true,
-      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
-      "first_seen_date": "2026-08-13",
-      "keywords": [
-        "bond cut",
-        "N6",
-        "dynamic polarity",
-        "momentum transfer"
-      ],
-      "last_updated_date": "2026-08-13",
-      "open_questions": [],
-      "plain_language_question": "Do identical strain structures in different exact internal momentum states exhibit attraction/repulsion duality under the conservation-valid observer?",
-      "reopen_condition": "Only an independently changed frozen geometry or mechanics may reopen this audit.",
-      "target_id": "same_structure_attraction_repulsion_duality"
-    },
-    {
-      "aliases": [
-        "DEV216"
-      ],
-      "attempt_ids": [
-        "dev216_bond_cut_dynamic_polarity"
-      ],
-      "blocked_by": [],
-      "blocks": [],
-      "canonical_name": "relative dynamic state force structure",
-      "canonical_solution_ids": [],
-      "current_status": "BLOCKED",
-      "do_not_rederive": true,
-      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
-      "first_seen_date": "2026-08-13",
-      "keywords": [
-        "bond cut",
-        "N6",
-        "dynamic polarity",
-        "momentum transfer"
-      ],
-      "last_updated_date": "2026-08-13",
-      "open_questions": [],
-      "plain_language_question": "Do same-state versus opposite-state pairs form different radial interaction classes once measured by exact bond-cut momentum transfer?",
-      "reopen_condition": "Only an independently changed frozen geometry or mechanics may reopen this audit.",
-      "target_id": "relative_dynamic_state_force_structure"
-    },
-    {
-      "aliases": [
         "DEV217"
       ],
       "attempt_ids": [
@@ -7561,6 +7503,146 @@
       "plain_language_question": "Has the geometric overlap blocker from DEV216 been removed sufficiently to authorize a conservation-clean four-state polarity force retest?",
       "reopen_condition": "DEV218 must retain this frozen observer.",
       "target_id": "dynamic_polarity_force_retest_gate"
+    },
+    {
+      "aliases": [
+        "DEV218"
+      ],
+      "attempt_ids": [
+        "dev218_exact_interface_dynamic_polarity"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "canonical_name": "same geometry momentum reversal force",
+      "canonical_solution_ids": [
+        "dev218_exact_interface_dynamic_polarity"
+      ],
+      "current_status": "CANONICAL",
+      "do_not_rederive": true,
+      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
+      "first_seen_date": "2026-08-13",
+      "keywords": [
+        "dynamic polarity",
+        "interface force",
+        "N6"
+      ],
+      "last_updated_date": "2026-08-13",
+      "open_questions": [],
+      "plain_language_question": "Does reversing only the internal native momentum state reverse exact disjoint-interface radial force?",
+      "reopen_condition": "Only independently changed frozen mechanics, preparation, geometry, or DEV217 observer.",
+      "target_id": "same_geometry_momentum_reversal_force"
+    },
+    {
+      "aliases": [
+        "DEV218"
+      ],
+      "attempt_ids": [
+        "dev218_exact_interface_dynamic_polarity"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "canonical_name": "relative dynamic state force structure",
+      "canonical_solution_ids": [
+        "dev218_exact_interface_dynamic_polarity"
+      ],
+      "current_status": "CANONICAL",
+      "do_not_rederive": true,
+      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
+      "first_seen_date": "2026-08-13",
+      "keywords": [
+        "dynamic polarity",
+        "interface force",
+        "N6"
+      ],
+      "last_updated_date": "2026-08-13",
+      "open_questions": [],
+      "plain_language_question": "Do same-state versus opposite-state dynamic pairs form distinct exact interface-force classes?",
+      "reopen_condition": "Only independently changed frozen mechanics, preparation, geometry, or DEV217 observer.",
+      "target_id": "relative_dynamic_state_force_structure"
+    },
+    {
+      "aliases": [
+        "DEV218"
+      ],
+      "attempt_ids": [
+        "dev218_exact_interface_dynamic_polarity"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "canonical_name": "same structure attraction repulsion duality",
+      "canonical_solution_ids": [
+        "dev218_exact_interface_dynamic_polarity"
+      ],
+      "current_status": "CANONICAL",
+      "do_not_rederive": true,
+      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
+      "first_seen_date": "2026-08-13",
+      "keywords": [
+        "dynamic polarity",
+        "interface force",
+        "N6"
+      ],
+      "last_updated_date": "2026-08-13",
+      "open_questions": [],
+      "plain_language_question": "Do otherwise identical native strain structures attract in one relative internal-state class and repel in another?",
+      "reopen_condition": "Only independently changed frozen mechanics, preparation, geometry, or DEV217 observer.",
+      "target_id": "same_structure_attraction_repulsion_duality"
+    },
+    {
+      "aliases": [
+        "DEV218"
+      ],
+      "attempt_ids": [
+        "dev218_exact_interface_dynamic_polarity"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "canonical_name": "native dynamic polarity interaction",
+      "canonical_solution_ids": [
+        "dev218_exact_interface_dynamic_polarity"
+      ],
+      "current_status": "CANONICAL",
+      "do_not_rederive": true,
+      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
+      "first_seen_date": "2026-08-13",
+      "keywords": [
+        "dynamic polarity",
+        "interface force",
+        "N6"
+      ],
+      "last_updated_date": "2026-08-13",
+      "open_questions": [],
+      "plain_language_question": "Does exact internal-state reversal produce a conservation-clean magnetic-polarity-like interaction under unchanged native dynamics?",
+      "reopen_condition": "Only independently changed frozen mechanics, preparation, geometry, or DEV217 observer.",
+      "target_id": "native_dynamic_polarity_interaction"
+    },
+    {
+      "aliases": [
+        "DEV218"
+      ],
+      "attempt_ids": [
+        "dev218_exact_interface_dynamic_polarity"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "canonical_name": "exact interface dynamic polarity force",
+      "canonical_solution_ids": [
+        "dev218_exact_interface_dynamic_polarity"
+      ],
+      "current_status": "CANONICAL",
+      "do_not_rederive": true,
+      "domain": "NATIVE DYNAMICS / MAGNETIC-POLARITY MECHANISM",
+      "first_seen_date": "2026-08-13",
+      "keywords": [
+        "dynamic polarity",
+        "interface force",
+        "N6"
+      ],
+      "last_updated_date": "2026-08-13",
+      "open_questions": [],
+      "plain_language_question": "What is the force-sign structure of the four frozen ++,+-,-+,-- states under the DEV217 exact interface observer?",
+      "reopen_condition": "Only independently changed frozen mechanics, preparation, geometry, or DEV217 observer.",
+      "target_id": "exact_interface_dynamic_polarity_force"
     }
   ]
 }

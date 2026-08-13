@@ -35,3 +35,18 @@ def transfer(displacement: np.ndarray, inventory: dict[str, np.ndarray]) -> tupl
         ab += f_a_to_b
         ba -= f_a_to_b
     return ab, ba
+
+
+def bond_transfer(displacement: np.ndarray, inventory: dict[str, np.ndarray]) -> np.ndarray:
+    """Return the force on A from B for every stored canonical A->B bond.
+
+    The order is deliberately the order in the persisted DEV217 inventory.  It
+    is therefore suitable for audits which must prove that no interface bond
+    was selected, reordered, or reconstructed from a later force result.
+    """
+    fp = pair_forces(displacement)
+    rows = []
+    for a, b, axis, orientation in zip(inventory['node_a'], inventory['node_b'],
+                                       inventory['axis'], inventory['orientation']):
+        rows.append(fp[tuple(a)][axis] if orientation == 1 else -fp[tuple(b)][axis])
+    return np.asarray(rows, dtype=float).reshape((-1, 3))

@@ -1,0 +1,11 @@
+{
+  "NO_NEW_PREPARATION": true,
+  "NO_NEW_STATE_DEFINITION": true,
+  "operation": "p->+-p only",
+  "states": {
+    "mm": "--",
+    "mp": "-+",
+    "pm": "+-",
+    "pp": "++"
+  }
+}

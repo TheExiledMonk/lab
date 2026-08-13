@@ -1,0 +1,30 @@
+{
+  "DEV213_PAIR_GEOMETRY_PRESERVED": true,
+  "DEV214_PAIR_GEOMETRY_PRESERVED": true,
+  "DEV214_SEPARATION_PRESERVED": true,
+  "DEV214_STRUCTURE_CENTERS_PRESERVED": true,
+  "DEV217_PAIR_AXIS_REUSED": true,
+  "SAME_AMPLITUDE": true,
+  "SAME_BACKGROUND": true,
+  "SAME_DEV167_MECHANICS": true,
+  "SAME_DISPLACEMENT_GEOMETRY": true,
+  "SAME_PAIR_SEPARATION": true,
+  "SAME_PREPARATION_TIME": true,
+  "SAME_STRAIN_GEOMETRY": true,
+  "SAME_STRUCTURE_CENTERS": true,
+  "centers_A": [
+    1,
+    5,
+    5
+  ],
+  "centers_B": [
+    1,
+    9,
+    5
+  ],
+  "pair_axis": [
+    0.0,
+    1.0,
+    0.0
+  ]
+}

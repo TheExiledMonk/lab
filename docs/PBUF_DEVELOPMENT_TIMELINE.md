@@ -62,6 +62,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV215 | Native local state cycle | DEV215 native lattice state-cycle and collective ordering audit | PARTIAL | PARTIAL |
 | 2026-08-13 | DEV216 | native bond cut dynamic pair force | DEV216 conservation-clean dynamic polarity force audit | BLOCKED | BLOCKED |
 | 2026-08-13 | DEV217 | native disjoint pair partition | DEV217 exact disjoint native pair partition | FULL | CANONICAL |
+| 2026-08-13 | DEV218 | exact interface dynamic polarity force | DEV218 exact interface dynamic-polarity force | FULL | CANONICAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |
