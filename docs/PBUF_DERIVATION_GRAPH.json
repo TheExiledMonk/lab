@@ -1055,6 +1055,42 @@
     {
       "id": "passive_induced_material_response",
       "type": "TARGET"
+    },
+    {
+      "id": "dev228_two_body_source_state_validity",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "magnet_like_source_state_validity",
+      "type": "TARGET"
+    },
+    {
+      "id": "two_body_source_composition",
+      "type": "TARGET"
+    },
+    {
+      "id": "finite_x_native_composition",
+      "type": "TARGET"
+    },
+    {
+      "id": "collective_x_body_native_response",
+      "type": "TARGET"
+    },
+    {
+      "id": "three_source_collective_reducibility",
+      "type": "TARGET"
+    },
+    {
+      "id": "three_constituent_composite_state",
+      "type": "TARGET"
+    },
+    {
+      "id": "collective_source_em_wave_generation",
+      "type": "TARGET"
+    },
+    {
+      "id": "collective_near_to_far_relational_transition",
+      "type": "TARGET"
     }
   ],
   "edges": [
@@ -2447,6 +2483,31 @@
       "source": "two_body_lab_representativeness",
       "target": "passive_induced_material_response",
       "type": "DISTINGUISHES"
+    },
+    {
+      "source": "dev227_magnetic_candidate_exhaustion",
+      "target": "dev228_two_body_source_state_validity",
+      "type": "AUTHORIZES"
+    },
+    {
+      "source": "dev228_two_body_source_state_validity",
+      "target": "magnet_like_source_state_validity",
+      "type": "AUDITS"
+    },
+    {
+      "source": "dev228_two_body_source_state_validity",
+      "target": "finite_x_native_composition",
+      "type": "DERIVES"
+    },
+    {
+      "source": "finite_x_native_composition",
+      "target": "collective_x_body_native_response",
+      "type": "ENABLES"
+    },
+    {
+      "source": "collective_x_body_native_response",
+      "target": "three_source_collective_reducibility",
+      "type": "SPECIALIZES"
     }
   ]
 }

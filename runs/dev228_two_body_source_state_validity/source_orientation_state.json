@@ -1,0 +1,11 @@
+{
+  "NO_MAGNETIC_POLE_LABEL": true,
+  "NO_NORTH_SOUTH_PRIMITIVE": true,
+  "SOURCE_ORIENTATION_STATE": "DYNAMIC_ONLY",
+  "basis": [
+    "DEV203 directional geometry",
+    "DEV204 orientation stress",
+    "DEV212 dynamic full-state distinctions",
+    "DEV214 state-dependent torque"
+  ]
+}

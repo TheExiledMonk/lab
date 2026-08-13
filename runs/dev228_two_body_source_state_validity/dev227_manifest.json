@@ -1,0 +1,8 @@
+{
+  "DEV_READ": true,
+  "dev": "DEV227",
+  "exists": true,
+  "run": "runs/dev227_magnetic_candidate_exhaustion",
+  "script": "tools/generate_dev227_magnetic_candidate_exhaustion.py",
+  "sha256": "5cafc93a2961ddbf789bbf4a408b28cbda32ca8786ab9b2357b0ffe10289cbfa"
+}

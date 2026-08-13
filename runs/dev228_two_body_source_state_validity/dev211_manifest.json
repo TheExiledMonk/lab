@@ -1,0 +1,8 @@
+{
+  "DEV_READ": true,
+  "dev": "DEV211",
+  "exists": true,
+  "run": "runs/dev211_two_strain_magnetism",
+  "script": "tools/generate_dev211_two_strain_magnetism.py",
+  "sha256": "e38d8c5983625efbe61cfe609c506f70a27cef8a63262e1edd0435f786d68de9"
+}

@@ -5238,6 +5238,60 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev228_two_body_source_state_validity",
+      "target_id": "magnet_like_source_state_validity",
+      "name": "DEV228 native persistent source-state validity and collective-source gate",
+      "aliases": [
+        "DEV228"
+      ],
+      "summary": "Read-only source-state and composition audit; no interstitial pattern or dynamic load response is run.",
+      "why_attempted": "DEV227 requires source validity before a two-body interstitial pattern can be physically interpreted.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV228",
+      "branch": "dev228-source-validity",
+      "files": [
+        "pbuf/analysis/native_source_state_validity.py",
+        "tools/generate_dev228_two_body_source_state_validity.py"
+      ],
+      "run_directories": [
+        "runs/dev228_two_body_source_state_validity"
+      ],
+      "tests": [
+        "tests/test_dev228_source_inventory.py",
+        "tests/test_dev228_source_persistence.py",
+        "tests/test_dev228_source_localization.py",
+        "tests/test_dev228_source_orientation.py",
+        "tests/test_dev228_dev213_reuse.py",
+        "tests/test_dev228_finite_x_composition_gate.py",
+        "tests/test_dev228_no_pattern_result.py",
+        "tests/test_dev228_future_branch_separation.py",
+        "tests/test_dev228_next_selector.py"
+      ],
+      "equations": [
+        "X_AB=I_B(I_A(X_0))=I_A(I_B(X_0))",
+        "X_1...X=I_X(...I_2(I_1(X_0))...)",
+        "R-=R-(M,P,G,B,O,\u0394x,\u0394t,T)"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "No existing structure is simultaneously self-persistent, canonically localizable, identifiable, and orientation-capable; DEV213 still derives aggregate preparation, not a magnetic source.",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Derive a source state independently; do not relabel packet or clamp.",
+      "do_not_repeat_reason": "No result-selected source construction, interstitial pattern, load motion, or source-count sweep is authorized.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev228_two_body_source_state_validity/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "current_frontiers": [
@@ -9063,38 +9117,292 @@
       "reopen_condition": "Only with an independently derived physical representativeness reason; never because a prior result was negative."
     },
     {
-      "target_id": "passive_induced_material_response",
-      "canonical_name": "passive induced material response",
-      "plain_language_question": "Does the current native state contain a coefficient-free passive response capable of representing magnet\u2013iron interaction rather than two active prepared sources?",
+      "target_id": "magnet_like_source_state_validity",
+      "canonical_name": "magnet like source state validity",
+      "plain_language_question": "Does frozen native dynamics already contain a persistent, identifiable, orientation-capable source structure suitable for a two-body interstitial experiment?",
       "aliases": [
-        "DEV227"
+        "DEV228"
       ],
       "keywords": [
-        "magnetic",
-        "two body",
+        "source state",
+        "collective",
+        "composition",
         "interstitial",
-        "representativeness",
-        "closure scope"
+        "native"
       ],
-      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "domain": "NATIVE DYNAMICS / MAGNETIC & EM SOURCE STRUCTURE",
       "first_seen_date": "2026-08-13",
       "last_updated_date": "2026-08-13",
       "attempt_ids": [
-        "dev227_magnetic_candidate_exhaustion"
+        "dev228_two_body_source_state_validity"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "open_questions": [],
+      "blocked_by": [
+        "self-supported localized native source"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
+    },
+    {
+      "target_id": "two_body_source_composition",
+      "canonical_name": "two body source composition",
+      "plain_language_question": "Can two valid native source structures be prepared simultaneously using existing DEV213 semantics?",
+      "aliases": [
+        "DEV228"
+      ],
+      "keywords": [
+        "source state",
+        "collective",
+        "composition",
+        "interstitial",
+        "native"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC & EM SOURCE STRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev228_two_body_source_state_validity"
       ],
       "current_status": "BLOCKED",
       "canonical_solution_ids": [
-        "dev227_magnetic_candidate_exhaustion"
+        "dev228_two_body_source_state_validity"
       ],
-      "open_questions": [
-        "No interstitial pattern result is authorized by DEV227."
+      "open_questions": [],
+      "blocked_by": [
+        "magnet_like_source_state_validity"
       ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
+    },
+    {
+      "target_id": "finite_x_native_composition",
+      "canonical_name": "finite x native composition",
+      "plain_language_question": "Does the DEV213 same-step injection algebra extend to a finite collection of independently defined preparations?",
+      "aliases": [
+        "DEV228"
+      ],
+      "keywords": [
+        "source state",
+        "collective",
+        "composition",
+        "interstitial",
+        "native"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC & EM SOURCE STRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "current_status": "ACTIVE",
+      "canonical_solution_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
+    },
+    {
+      "target_id": "collective_x_body_native_response",
+      "canonical_name": "collective x body native response",
+      "plain_language_question": "Is the response of X>2 simultaneously prepared native sources reducible to one- and two-source behavior?",
+      "aliases": [
+        "DEV228"
+      ],
+      "keywords": [
+        "source state",
+        "collective",
+        "composition",
+        "interstitial",
+        "native"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC & EM SOURCE STRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "open_questions": [],
+      "blocked_by": [
+        "valid source structures",
+        "interstitial representation"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
+    },
+    {
+      "target_id": "three_source_collective_reducibility",
+      "canonical_name": "three source collective reducibility",
+      "plain_language_question": "Does P_123 reduce coefficient-free to available one- and two-source information?",
+      "aliases": [
+        "DEV228"
+      ],
+      "keywords": [
+        "source state",
+        "collective",
+        "composition",
+        "interstitial",
+        "native"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC & EM SOURCE STRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "open_questions": [],
+      "blocked_by": [
+        "valid source structures",
+        "interstitial representation"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
+    },
+    {
+      "target_id": "three_constituent_composite_state",
+      "canonical_name": "three constituent composite state",
+      "plain_language_question": "Can three distinct native constituents form an aggregate-defined persistent composite identity?",
+      "aliases": [
+        "DEV228"
+      ],
+      "keywords": [
+        "source state",
+        "collective",
+        "composition",
+        "interstitial",
+        "native"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC & EM SOURCE STRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "open_questions": [],
+      "blocked_by": [
+        "two distinct constituent-state classes"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
+    },
+    {
+      "target_id": "collective_source_em_wave_generation",
+      "canonical_name": "collective source em wave generation",
+      "plain_language_question": "Can a DEV203-like relational wave emerge from aggregate source reorganization rather than a prepared packet?",
+      "aliases": [
+        "DEV228"
+      ],
+      "keywords": [
+        "source state",
+        "collective",
+        "composition",
+        "interstitial",
+        "native"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC & EM SOURCE STRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "open_questions": [],
+      "blocked_by": [
+        "valid source structures"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
+    },
+    {
+      "target_id": "collective_near_to_far_relational_transition",
+      "canonical_name": "collective near to far relational transition",
+      "plain_language_question": "Can complex collective near-source organization yield a simpler coherent outgoing relational structure?",
+      "aliases": [
+        "DEV228"
+      ],
+      "keywords": [
+        "source state",
+        "collective",
+        "composition",
+        "interstitial",
+        "native"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC & EM SOURCE STRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "open_questions": [],
+      "blocked_by": [
+        "collective source reorganization"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
+    },
+    {
+      "target_id": "passive_induced_material_response",
+      "canonical_name": "passive induced material response",
+      "plain_language_question": "Does a coefficient-free passive induced material response exist, distinct from an active prepared source?",
+      "aliases": [
+        "DEV228"
+      ],
+      "keywords": [
+        "source state",
+        "collective",
+        "composition",
+        "interstitial",
+        "native"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC & EM SOURCE STRUCTURE",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [
+        "dev228_two_body_source_state_validity"
+      ],
+      "open_questions": [],
       "blocked_by": [
         "passive inducible native material response"
       ],
       "blocks": [],
       "do_not_rederive": true,
-      "reopen_condition": "Only with an independently derived physical representativeness reason; never because a prior result was negative."
+      "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
     }
   ],
   "development_gate_selectors": [

@@ -1,0 +1,8 @@
+{
+  "DEV_READ": true,
+  "dev": "DEV218",
+  "exists": true,
+  "run": "runs/dev218_exact_interface_dynamic_polarity",
+  "script": "tools/generate_dev218_exact_interface_dynamic_polarity.py",
+  "sha256": "145d0b68bc337e6dd62991d951b8c3ec9e63e44c39ddf70641e798c0bdde7888"
+}

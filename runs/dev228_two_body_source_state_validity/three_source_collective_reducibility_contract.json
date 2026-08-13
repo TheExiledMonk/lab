@@ -1,0 +1,6 @@
+{
+  "NO_CHAOS_CLAIM_WITHOUT_DIAGNOSTIC": true,
+  "NO_PAIRWISE_REDUCIBILITY_ASSUMPTION": true,
+  "formula": "P_123 in ? F(P_1,P_2,P_3,P_12,P_13,P_23)",
+  "target_id": "three_source_collective_reducibility"
+}

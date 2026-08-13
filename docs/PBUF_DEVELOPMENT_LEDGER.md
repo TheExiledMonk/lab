@@ -572,3 +572,11 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - **Reopening Rule:** `NO_RESULT_MOTIVATED_REOPENING=true`. A changed condition may reopen a route only for an independently derived physical reason, never because a prior outcome was unfavorable.
 - **Lab-Representativeness Gate:** Before absence in a native simulation is interpreted as absence of a target physical mechanism, source state, geometry, material response, boundaries, temporal regime, and observer must represent it. Gate failure yields `INCONCLUSIVE_LAB_REPRESENTATION`, not physical absence.
 - **Two-Body Interstitial Pattern Candidate:** DEV217/DEV218 establish pair partition/interface mechanics and force accounting, not a volumetric audit of the N6 relational/stress structure between separated bodies. Candidate novelty is `PARTIAL_OVERLAP_DEV217_218`; the source-state gate is `NOT_DERIVED`, so DEV228 is frozen as `TWO_BODY_SOURCE_STATE_VALIDITY_GATE` before any pattern mapping.
+
+
+## LEDGER ENTRY 062 — DEV228 NATIVE SOURCE-STATE VALIDITY AND COLLECTIVE-SOURCE GATE
+
+- **Native Source-State Validity Rule:** A two-body magnetic/interstitial-pattern experiment is physically interpretable only after its constituent source independently passes persistence, localization, identity, and orientation gates. A propagating packet, externally maintained deformation, or preparation-provenance label may not be promoted to a magnet-like source.
+- **Source-Number Closure Rule:** A one- or two-source negative result does not exclude collective X>2 organization unless finite-X response is independently reduced to one- and two-source contributions. DEV213 establishes aggregate same-state evolution, not linear dynamical superposition.
+- **Native Collective Evolution Rule:** Simultaneously prepared structures evolve as one aggregate DEV167 state; independently propagated source solutions may not be added post hoc.
+- **Three-Constituent Composite Boundary:** Three is the first source count beyond pairwise structure and can later distinguish AAB from ABB. No majority-state rule, quark identity, up/down primitive, or composite polarity is assumed.

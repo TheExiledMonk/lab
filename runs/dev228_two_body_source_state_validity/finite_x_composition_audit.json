@@ -1,0 +1,10 @@
+{
+  "FINITE_X_NATIVE_COMPOSITION_GATE": "DERIVED",
+  "NO_PAIRWISE_REDUCIBILITY_ASSUMPTION": true,
+  "NO_POSTHOC_LINEAR_SUPERPOSITION": true,
+  "conditions": [
+    "finite independently defined same-step injections",
+    "each aggregate full state remains DEV167-valid"
+  ],
+  "proof": "For additive same-step I_i(X)=X+delta_i, induction gives I_X(...I_1(X0))=X0+sum_i delta_i independently of order; after preparation Phi_DEV167 evolves the one aggregate state."
+}

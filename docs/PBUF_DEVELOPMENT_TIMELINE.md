@@ -72,6 +72,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV225 | staggered order representation gate | DEV225 native local handedness representation gate | FULL | CANONICAL |
 | 2026-08-13 | DEV226 | native distributed staggered local order | DEV226 native staggered local-order audit | FULL | CANONICAL |
 | 2026-08-13 | DEV227 | two body interstitial relational pattern | DEV227 magnetic candidate exhaustion and lab-validity audit | PARTIAL | CANONICAL |
+| 2026-08-13 | DEV228 | magnet like source state validity | DEV228 native persistent source-state validity and collective-source gate | PARTIAL | CANONICAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

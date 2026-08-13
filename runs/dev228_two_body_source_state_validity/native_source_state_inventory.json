@@ -1,0 +1,57 @@
+{
+  "EXTERNAL_CONSTRAINT_NOT_AUTOMATIC_MAGNET": true,
+  "NATIVE_SOURCE_STATE_INVENTORY_COMPLETE": true,
+  "PERSISTENT_SOURCE_NOT_ASSUMED_FROM_PROPAGATING_PACKET": true,
+  "classes": [
+    {
+      "basis": "DEV159 stationary source/contact deformation",
+      "id": "S1",
+      "identity": "PREPARATION_PROVENANCE_ONLY",
+      "localization": "EXACT_GEOMETRIC",
+      "magnet_eligible": false,
+      "name": "externally maintained static constraint",
+      "orientation": "ABSENT",
+      "persistence": "SOURCE_MAINTAINED"
+    },
+    {
+      "basis": "DEV182/DEV195/DEV203 packet",
+      "id": "S2",
+      "identity": "DYNAMIC_COHERENT",
+      "localization": "NONCOMPACT",
+      "magnet_eligible": false,
+      "name": "released propagating excitation",
+      "orientation": "DYNAMIC_ONLY",
+      "persistence": "PROPAGATING_ONLY"
+    },
+    {
+      "basis": "DEV196/DEV213 injection semantics",
+      "id": "S3",
+      "identity": "PREPARATION_PROVENANCE_ONLY",
+      "localization": "NONCOMPACT",
+      "magnet_eligible": false,
+      "name": "dynamically prepared full-state structure",
+      "orientation": "DYNAMIC_ONLY",
+      "persistence": "PROPAGATING_ONLY"
+    },
+    {
+      "basis": "DEV211 six-neighbour source-contact equilibrium",
+      "id": "S4",
+      "identity": "PREPARATION_PROVENANCE_ONLY",
+      "localization": "EXACT_GEOMETRIC",
+      "magnet_eligible": false,
+      "name": "source-maintained deformation",
+      "orientation": "ABSENT",
+      "persistence": "SOURCE_MAINTAINED"
+    },
+    {
+      "basis": "repository-wide audit",
+      "id": "S5",
+      "identity": "ABSENT",
+      "localization": "ABSENT",
+      "magnet_eligible": false,
+      "name": "independent self-supported localized bounded state",
+      "orientation": "ABSENT",
+      "persistence": "NOT_DERIVED"
+    }
+  ]
+}
