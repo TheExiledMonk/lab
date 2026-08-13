@@ -544,3 +544,7 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 - **Native Extended Directional Geometry Rule:** The canonical DEV203 relational excitation possesses a coefficient-free, co-moving, triaxial geometry with a reflection-covariant longitudinal odd component and distinct end-for-end geometry. This is a geometric property only; no magnetic polarity or interaction-channel distinction is thereby derived.
 - **Geometry–Interaction Transfer Boundary:** DEV221 derives head-tail asymmetry in frozen strain-magnitude geometry, but the recovered DEV204 orientation-stress distribution does not carry that end asymmetry. Directional geometry alone does not authorize pair-orientation force testing.
 - **Development Gate Consistency Rule:** A future-development selector may not authorize an operation whose corresponding canonical gate is blocked; registry validation rejects a blocked operation selected as the next test.
+
+## LEDGER ENTRY 057 — DEV223 PATTERN-MISMATCH AUDIT
+
+- **Native Relational Pattern-Mismatch Rule:** Ordered signed N6 strain differences are existing coefficient-free relational data on the fixed graph; DEV223 retains the full six-vector and introduces no wall, field, threshold, or force. The result is `DISTRIBUTED_ONLY` and orientation-response relation is `DISTRIBUTED`. This is structural association only, not magnetic identity or causation.

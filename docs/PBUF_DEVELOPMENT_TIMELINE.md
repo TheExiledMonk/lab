@@ -67,6 +67,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV220 | Native spatial winding magnetic candidate | DEV220 native spatial winding audit | FULL | CANONICAL |
 | 2026-08-13 | DEV221 | Native extended directional geometry | DEV221 extended relational geometry audit | FULL | CANONICAL |
 | 2026-08-13 | DEV222 | DEV221 canonical reconciliation | DEV222 DEV221 canonical reconciliation and pattern-boundary gate audit | FULL | CANONICAL |
+| 2026-08-13 | DEV223 | native pattern boundary candidate | DEV223 native pattern-boundary/interface audit | PARTIAL | CANONICAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

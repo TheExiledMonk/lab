@@ -4978,6 +4978,59 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev223_pattern_boundary_interface",
+      "target_id": "native_pattern_boundary_candidate",
+      "name": "DEV223 native pattern-boundary/interface audit",
+      "aliases": [
+        "DEV223"
+      ],
+      "summary": "Read-only, full-trajectory ordered-N6 signed-strain mismatch audit of one frozen DEV203 structure.",
+      "why_attempted": "DEV222 authorized only this single-structure coefficient-free mismatch audit.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV223",
+      "branch": "",
+      "files": [
+        "pbuf/observer/native_pattern_boundary.py",
+        "tools/generate_dev223_pattern_boundary_interface.py"
+      ],
+      "run_directories": [
+        "runs/dev223_pattern_boundary_interface"
+      ],
+      "tests": [
+        "tests/test_dev223_n6_signature.py",
+        "tests/test_dev223_pattern_mismatch.py",
+        "tests/test_dev223_reflection_covariance.py",
+        "tests/test_dev223_translation_covariance.py",
+        "tests/test_dev223_unloaded_control.py",
+        "tests/test_dev223_orientation_response_overlay.py",
+        "tests/test_dev223_no_threshold_boundary.py",
+        "tests/test_dev223_no_pair_interaction.py",
+        "tests/test_dev223_no_reopened_routes.py"
+      ],
+      "equations": [
+        "S_a=(epsilon_+x,epsilon_-x,epsilon_+y,epsilon_-y,epsilon_+z,epsilon_-z)",
+        "D_ab=S_b-S_a"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "DISTRIBUTED_ONLY: full vectors are primary; no norm, threshold, fitted subtraction, or support cutoff was selected.",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Only changed frozen input.",
+      "do_not_repeat_reason": "No new dynamics or interaction is admissible.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev223_pattern_boundary_interface/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "current_frontiers": [
@@ -8199,64 +8252,143 @@
     },
     {
       "target_id": "native_pattern_boundary_candidate",
-      "canonical_name": "Native relational pattern-boundary candidate",
-      "plain_language_question": "Can a coefficient-free relational-pattern mismatch be defined directly from existing N6 state variables without a field, wall, domain, or threshold?",
+      "canonical_name": "native pattern boundary candidate",
+      "plain_language_question": "Does frozen DEV203 contain an intrinsic localized ordered-N6 relational pattern transition?",
       "aliases": [
-        "pattern boundary",
         "DEV223"
       ],
       "keywords": [
         "N6",
-        "strain signature",
-        "interface"
+        "pattern mismatch",
+        "boundary"
       ],
-      "domain": "NATIVE DYNAMICS",
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
       "first_seen_date": "2026-08-13",
       "last_updated_date": "2026-08-13",
       "attempt_ids": [
-        "dev222_dev221_reconciliation"
+        "dev223_pattern_boundary_interface"
       ],
       "current_status": "CANONICAL",
       "canonical_solution_ids": [
-        "dev222_dev221_reconciliation"
+        "dev223_pattern_boundary_interface"
       ],
-      "open_questions": [
-        "DEV223 may inspect the localized geometry-derived mismatch and existing torque response."
-      ],
+      "open_questions": [],
       "blocked_by": [],
       "blocks": [],
       "do_not_rederive": true,
-      "reopen_condition": "Only if the frozen native inputs or calculation change."
+      "reopen_condition": "Only if frozen DEV203 inputs or the ordered N6 definition change."
+    },
+    {
+      "target_id": "native_n6_pattern_mismatch",
+      "canonical_name": "native n6 pattern mismatch",
+      "plain_language_question": "Can adjacent native relational states be compared coefficient-free without a boundary threshold?",
+      "aliases": [
+        "DEV223"
+      ],
+      "keywords": [
+        "N6",
+        "pattern mismatch",
+        "boundary"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev223_pattern_boundary_interface"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev223_pattern_boundary_interface"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203 inputs or the ordered N6 definition change."
+    },
+    {
+      "target_id": "pattern_boundary_orientation_response",
+      "canonical_name": "pattern boundary orientation response",
+      "plain_language_question": "Is the independently computed mismatch spatially associated with DEV204 orientation stress?",
+      "aliases": [
+        "DEV223"
+      ],
+      "keywords": [
+        "N6",
+        "pattern mismatch",
+        "boundary"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev223_pattern_boundary_interface"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev223_pattern_boundary_interface"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203 inputs or the ordered N6 definition change."
+    },
+    {
+      "target_id": "pattern_boundary_torque_support",
+      "canonical_name": "pattern boundary torque support",
+      "plain_language_question": "Can the DEV214 torque be supported on independently derived DEV223 bonds/nodes?",
+      "aliases": [
+        "DEV223"
+      ],
+      "keywords": [
+        "N6",
+        "pattern mismatch",
+        "boundary"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev223_pattern_boundary_interface"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [
+        "dev223_pattern_boundary_interface"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV203 inputs or the ordered N6 definition change."
     },
     {
       "target_id": "magnetic_mechanism_next_discriminating_test",
-      "canonical_name": "Magnetic mechanism next discriminating test",
-      "plain_language_question": "What is the next permitted single-structure audit after the DEV221 reconciliation?",
+      "canonical_name": "magnetic mechanism next discriminating test",
+      "plain_language_question": "What is the next allowed minimal magnetic-mechanism test?",
       "aliases": [
-        "DEV222 selector"
+        "DEV223"
       ],
       "keywords": [
-        "DEV223",
-        "pattern boundary",
-        "gate"
+        "N6",
+        "pattern mismatch",
+        "boundary"
       ],
-      "domain": "NATIVE DYNAMICS",
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
       "first_seen_date": "2026-08-13",
       "last_updated_date": "2026-08-13",
       "attempt_ids": [
-        "dev222_dev221_reconciliation"
+        "dev223_pattern_boundary_interface"
       ],
       "current_status": "CANONICAL",
       "canonical_solution_ids": [
-        "dev222_dev221_reconciliation"
+        "dev223_pattern_boundary_interface"
       ],
-      "open_questions": [
-        "PATTERN_BOUNDARY_INTERFACE_AUDIT"
-      ],
+      "open_questions": [],
       "blocked_by": [],
       "blocks": [],
       "do_not_rederive": true,
-      "reopen_condition": "Only if the frozen native inputs or calculation change."
+      "reopen_condition": "Only if frozen DEV203 inputs or the ordered N6 definition change."
     }
   ],
   "development_gate_selectors": [

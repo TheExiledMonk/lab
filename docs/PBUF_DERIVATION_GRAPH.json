@@ -975,6 +975,18 @@
     {
       "id": "geometry_to_interaction_channel_transfer",
       "type": "TARGET"
+    },
+    {
+      "id": "dev223_pattern_boundary_interface",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "native_n6_pattern_mismatch",
+      "type": "TARGET"
+    },
+    {
+      "id": "pattern_boundary_orientation_response",
+      "type": "TARGET"
     }
   ],
   "edges": [
@@ -2287,6 +2299,21 @@
       "source": "dev222_dev221_reconciliation",
       "target": "geometry_to_interaction_channel_transfer",
       "type": "BLOCKS"
+    },
+    {
+      "source": "dev222_dev221_reconciliation",
+      "target": "dev223_pattern_boundary_interface",
+      "type": "AUTHORIZES"
+    },
+    {
+      "source": "dev223_pattern_boundary_interface",
+      "target": "native_n6_pattern_mismatch",
+      "type": "DERIVES"
+    },
+    {
+      "source": "dev223_pattern_boundary_interface",
+      "target": "pattern_boundary_orientation_response",
+      "type": "DERIVES"
     }
   ]
 }
