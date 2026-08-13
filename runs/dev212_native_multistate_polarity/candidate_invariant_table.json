@@ -1,0 +1,220 @@
+{
+  "rows": [
+    {
+      "candidate_id": "momentum_reversal",
+      "opposite_flux_sign": true,
+      "opposite_momentum": true,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": true,
+      "same_kinetic_energy": true,
+      "same_potential_energy": true,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": true
+    },
+    {
+      "candidate_id": "time_reversal",
+      "opposite_flux_sign": true,
+      "opposite_momentum": true,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": true,
+      "same_kinetic_energy": true,
+      "same_potential_energy": true,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": true
+    },
+    {
+      "candidate_id": "rotational_handedness",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    },
+    {
+      "candidate_id": "antisymmetric_relational_sign",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    },
+    {
+      "candidate_id": "axial_dual_sign",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    },
+    {
+      "candidate_id": "directed_motion",
+      "opposite_flux_sign": true,
+      "opposite_momentum": true,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": true,
+      "same_kinetic_energy": true,
+      "same_potential_energy": true,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": true
+    },
+    {
+      "candidate_id": "flux_sign",
+      "opposite_flux_sign": true,
+      "opposite_momentum": true,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": true,
+      "same_kinetic_energy": true,
+      "same_potential_energy": true,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": true
+    },
+    {
+      "candidate_id": "flux_circulation",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    },
+    {
+      "candidate_id": "temporal_phase",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    },
+    {
+      "candidate_id": "mode_internal",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    },
+    {
+      "candidate_id": "static_reflection",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    },
+    {
+      "candidate_id": "source_direction",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    },
+    {
+      "candidate_id": "signed_bond_pattern",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    },
+    {
+      "candidate_id": "n6_directional_pattern",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    },
+    {
+      "candidate_id": "other_existing_native_state",
+      "opposite_flux_sign": false,
+      "opposite_momentum": false,
+      "opposite_rotational_signature": false,
+      "same_displacement_field": false,
+      "same_kinetic_energy": false,
+      "same_potential_energy": false,
+      "same_strain_magnitude": true,
+      "same_support": true,
+      "same_total_energy": false
+    }
+  ],
+  "state_minus": {
+    "antisymmetric_l2": 0.00635659118560744,
+    "axial_dual_sum": [
+      2.505776638758431e-19,
+      7.288243140764978e-21,
+      -1.1493639003883889e-18
+    ],
+    "displacement_l2": 0.012277151979551716,
+    "flux_sum": [
+      -3.9853291542735096e-05,
+      1.6010689512559497e-09,
+      -1.2292196027084038e-10
+    ],
+    "kinetic_energy": 3.5673209738616844e-05,
+    "momentum_l2": 0.008446680974041446,
+    "potential_energy": 4.6453243357229534e-05,
+    "total_energy": 8.212645309584637e-05
+  },
+  "state_plus": {
+    "antisymmetric_l2": 0.00635659118560744,
+    "axial_dual_sum": [
+      2.505776638758431e-19,
+      7.288243140764978e-21,
+      -1.1493639003883889e-18
+    ],
+    "displacement_l2": 0.012277151979551716,
+    "flux_sum": [
+      3.9853291542735096e-05,
+      -1.6010689512559497e-09,
+      1.2292196027084038e-10
+    ],
+    "kinetic_energy": 3.5673209738616844e-05,
+    "momentum_l2": 0.008446680974041446,
+    "potential_energy": 4.6453243357229534e-05,
+    "total_energy": 8.212645309584637e-05
+  }
+}

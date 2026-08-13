@@ -1,0 +1,8 @@
+{
+  "DEV_READ": true,
+  "dev": "DEV200",
+  "exists": true,
+  "run": "runs/dev200_native_n6_field",
+  "script": "tools/generate_dev200_native_n6_field.py",
+  "sha256": "a749a8d2430827711ba7bf7c99be066ec97f079fcc4a5959fb7b347ef627a498"
+}

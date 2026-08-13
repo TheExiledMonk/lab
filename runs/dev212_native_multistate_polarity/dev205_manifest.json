@@ -1,0 +1,8 @@
+{
+  "DEV_READ": true,
+  "dev": "DEV205",
+  "exists": true,
+  "run": "runs/dev205_native_em_mapping",
+  "script": "tools/generate_dev205_native_em_mapping.py",
+  "sha256": "4183a848e0ad181d0601a1339e4156d35eafd202db1800a759a4c5d9588d3969"
+}
