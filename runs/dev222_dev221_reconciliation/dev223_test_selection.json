@@ -1,0 +1,6 @@
+{
+  "DEV223_BOUNDARY_PHYSICS_NOT_RUN": true,
+  "DEV223_TEST_SELECTION": "PATTERN_BOUNDARY_INTERFACE_AUDIT",
+  "DEV223_TEST_SELECTION_FROZEN": true,
+  "question": "Does the existing DEV203 structure contain a localized, geometry-derived region of relational mismatch that carries the already-derived torque/orientation response?"
+}

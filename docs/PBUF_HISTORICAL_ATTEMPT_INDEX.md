@@ -124,3 +124,5 @@ DEV219 rule: DEV211 static-reflection, DEV218 momentum-sign, and DEV215 exact lo
 DEV220 rule: the frozen DEV203 yz source-support loop is an exact spatial diagnostic; DEV215 temporal nonclosure and elementary-plaquette result remain preserved. No B field, phase, or vortex primitive was introduced.
 
 DEV221 rule: DEV211 tested a source-maintained static deformation under DEV207 reflection; DEV221 independently audits the propagating DEV203 relational structure as one object before any pair interaction. The experiments must not be conflated.
+
+DEV222 canonical-integrity rule: frozen DEV221 code and numeric artifacts establish nonzero longitudinal odd geometry, distinct ends, triaxial shape, reflection covariance, and exact translation covariance. DEV204 orientation stress remains end-symmetric; pair orientation interaction remains blocked. Canonical DEV223 is the coefficient-free N6 relational-pattern-boundary/interface audit, not a pair-force test.

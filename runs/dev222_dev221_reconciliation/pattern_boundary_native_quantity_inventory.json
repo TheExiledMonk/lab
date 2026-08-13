@@ -1,0 +1,15 @@
+{
+  "DEV203_relational_tensor": "available",
+  "DEV204_orientation_stress_decomposition": "available",
+  "N6_bond_force_pattern": "available",
+  "N6_strain_pattern": "available",
+  "adjacent_N6_exact_difference": "available",
+  "canonical_signature_order": [
+    "+x",
+    "-x",
+    "+y",
+    "-y",
+    "+z",
+    "-z"
+  ]
+}

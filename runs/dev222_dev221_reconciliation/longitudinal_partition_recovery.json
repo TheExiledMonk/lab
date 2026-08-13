@@ -1,0 +1,26 @@
+{
+  "DEV221_LONGITUDINAL_PARTITION_RECOVERED": true,
+  "NO_CENTER_OPTIMIZATION": true,
+  "Omega_minus": "s<0",
+  "Omega_plus": "s>0",
+  "Omega_zero": "s=0",
+  "axis": "+x",
+  "center": [
+    1,
+    5,
+    5
+  ],
+  "s": [
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    -5,
+    -4,
+    -3,
+    -2
+  ]
+}

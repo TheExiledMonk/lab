@@ -4927,6 +4927,57 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev222_dev221_reconciliation",
+      "target_id": "dev221_canonical_reconciliation",
+      "name": "DEV222 DEV221 canonical reconciliation and pattern-boundary gate audit",
+      "aliases": [
+        "DEV222"
+      ],
+      "summary": "Deterministic replay and metadata reconciliation of frozen DEV221; no new physical experiment.",
+      "why_attempted": "DEV221 numeric artifacts and its prose/selector records contradicted one another.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV222",
+      "branch": "",
+      "files": [
+        "tools/generate_dev222_dev221_reconciliation.py",
+        "pbuf/registry/validate.py"
+      ],
+      "run_directories": [
+        "runs/dev222_dev221_reconciliation"
+      ],
+      "tests": [
+        "tests/test_dev222_dev221_numeric_replay.py",
+        "tests/test_dev222_metadata_consistency.py",
+        "tests/test_dev222_gate_consistency.py",
+        "tests/test_dev222_no_pair_interaction.py",
+        "tests/test_dev222_pattern_boundary_authorization.py",
+        "tests/test_dev222_no_reopened_routes.py"
+      ],
+      "equations": [
+        "q(x)=sum_b |epsilon_xb|",
+        "q_odd(s)=(q(s)-q(-s))/2",
+        "D_ab=S_b-S_a"
+      ],
+      "result": "FULL",
+      "result_reason": "NUMERIC_RESULT_VALID_METADATA_INCONSISTENT",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Only if frozen DEV221 code or numeric inputs are independently invalidated.",
+      "do_not_repeat_reason": "DEV222 is a read-only deterministic audit; it does not run pair dynamics.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev222_dev221_reconciliation/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "current_frontiers": [
@@ -8000,34 +8051,6 @@
       "reopen_condition": "Only if frozen DEV203 geometry changes independently."
     },
     {
-      "target_id": "native_extended_directional_geometry",
-      "canonical_name": "Native extended directional geometry",
-      "plain_language_question": "Is the canonical DEV203 structure end-for-end geometrically distinct under exact native reflection?",
-      "aliases": [
-        "DEV221 geometry"
-      ],
-      "keywords": [
-        "DEV221",
-        "reflection",
-        "geometry"
-      ],
-      "domain": "NATIVE DYNAMICS",
-      "first_seen_date": "2026-08-13",
-      "last_updated_date": "2026-08-13",
-      "attempt_ids": [
-        "dev221_extended_relational_geometry"
-      ],
-      "current_status": "PARTIAL",
-      "canonical_solution_ids": [
-        "dev221_extended_relational_geometry"
-      ],
-      "open_questions": [],
-      "blocked_by": [],
-      "blocks": [],
-      "do_not_rederive": true,
-      "reopen_condition": "Only with changed DEV203 geometry."
-    },
-    {
       "target_id": "native_end_asymmetry",
       "canonical_name": "Native end asymmetry",
       "plain_language_question": "Does an existing native geometric density possess a nonzero longitudinal odd component around the frozen DEV203 structure center?",
@@ -8083,33 +8106,170 @@
       "reopen_condition": "Only with changed frozen structures."
     },
     {
-      "target_id": "magnetic_mechanism_next_discriminating_test",
-      "canonical_name": "Magnetic mechanism next discriminating test",
-      "plain_language_question": "After extended geometry is classified, should the next audit test pair orientation or pattern-boundary/interface physics?",
+      "target_id": "dev221_canonical_reconciliation",
+      "canonical_name": "DEV221 canonical reconciliation",
+      "plain_language_question": "What is the actual DEV221 directional-geometry result when frozen code and numeric artifacts take precedence over contradictory prose metadata?",
       "aliases": [
-        "DEV222"
+        "DEV222",
+        "numeric-evidence precedence"
       ],
       "keywords": [
-        "DEV222",
-        "pattern boundary"
+        "DEV221",
+        "reconciliation",
+        "numeric evidence"
       ],
       "domain": "NATIVE DYNAMICS",
       "first_seen_date": "2026-08-13",
       "last_updated_date": "2026-08-13",
       "attempt_ids": [
-        "dev221_extended_relational_geometry"
+        "dev222_dev221_reconciliation"
       ],
-      "current_status": "OPEN",
+      "current_status": "CANONICAL",
       "canonical_solution_ids": [
-        "dev221_extended_relational_geometry"
+        "dev222_dev221_reconciliation"
       ],
       "open_questions": [
-        "PAIR_ORIENTATION_INTERACTION"
+        "DEV223 is limited to a single pattern-boundary/interface audit."
       ],
       "blocked_by": [],
       "blocks": [],
       "do_not_rederive": true,
-      "reopen_condition": "Only after a new independent geometry result."
+      "reopen_condition": "Only if the frozen native inputs or calculation change."
+    },
+    {
+      "target_id": "native_extended_directional_geometry",
+      "canonical_name": "Native extended directional geometry",
+      "plain_language_question": "Is the canonical DEV203 structure end-for-end geometrically distinct under exact native reflection?",
+      "aliases": [
+        "DEV221 geometry"
+      ],
+      "keywords": [
+        "DEV221",
+        "reflection",
+        "geometry",
+        "head-tail"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev221_extended_relational_geometry",
+        "dev222_dev221_reconciliation"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev221_extended_relational_geometry",
+        "dev222_dev221_reconciliation"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if the frozen native inputs or calculation change."
+    },
+    {
+      "target_id": "geometry_to_interaction_channel_transfer",
+      "canonical_name": "Geometry to interaction-channel transfer",
+      "plain_language_question": "Does the already-derived directional strain geometry appear in an existing native force, stress, or flux interaction-bearing quantity?",
+      "aliases": [
+        "DEV222 geometry-interaction boundary"
+      ],
+      "keywords": [
+        "DEV204",
+        "orientation stress",
+        "interaction"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev222_dev221_reconciliation"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [
+        "dev222_dev221_reconciliation"
+      ],
+      "open_questions": [
+        "No existing interaction channel distinguishes the two geometric ends."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if the frozen native inputs or calculation change."
+    },
+    {
+      "target_id": "native_pattern_boundary_candidate",
+      "canonical_name": "Native relational pattern-boundary candidate",
+      "plain_language_question": "Can a coefficient-free relational-pattern mismatch be defined directly from existing N6 state variables without a field, wall, domain, or threshold?",
+      "aliases": [
+        "pattern boundary",
+        "DEV223"
+      ],
+      "keywords": [
+        "N6",
+        "strain signature",
+        "interface"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev222_dev221_reconciliation"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev222_dev221_reconciliation"
+      ],
+      "open_questions": [
+        "DEV223 may inspect the localized geometry-derived mismatch and existing torque response."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if the frozen native inputs or calculation change."
+    },
+    {
+      "target_id": "magnetic_mechanism_next_discriminating_test",
+      "canonical_name": "Magnetic mechanism next discriminating test",
+      "plain_language_question": "What is the next permitted single-structure audit after the DEV221 reconciliation?",
+      "aliases": [
+        "DEV222 selector"
+      ],
+      "keywords": [
+        "DEV223",
+        "pattern boundary",
+        "gate"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev222_dev221_reconciliation"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev222_dev221_reconciliation"
+      ],
+      "open_questions": [
+        "PATTERN_BOUNDARY_INTERFACE_AUDIT"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if the frozen native inputs or calculation change."
+    }
+  ],
+  "development_gate_selectors": [
+    {
+      "gate": "PAIR_ORIENTATION_INTERACTION_GATE",
+      "gate_value": "REMAINS_BLOCKED",
+      "blocked_values": [
+        "REMAINS_BLOCKED"
+      ],
+      "selected_test": "PATTERN_BOUNDARY_INTERFACE_AUDIT",
+      "blocked_operations": [
+        "PAIR_ORIENTATION_INTERACTION"
+      ]
     }
   ]
 }

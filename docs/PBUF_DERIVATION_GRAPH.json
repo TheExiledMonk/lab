@@ -963,6 +963,18 @@
     {
       "id": "dev221_extended_relational_geometry",
       "type": "ATTEMPT"
+    },
+    {
+      "id": "dev222_dev221_reconciliation",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "native_pattern_boundary_candidate",
+      "type": "TARGET"
+    },
+    {
+      "id": "geometry_to_interaction_channel_transfer",
+      "type": "TARGET"
     }
   ],
   "edges": [
@@ -2260,6 +2272,21 @@
       "source": "dev220_native_spatial_winding",
       "target": "dev221_extended_relational_geometry",
       "type": "DERIVES"
+    },
+    {
+      "source": "dev221_extended_relational_geometry",
+      "target": "dev222_dev221_reconciliation",
+      "type": "DERIVES"
+    },
+    {
+      "source": "dev222_dev221_reconciliation",
+      "target": "native_pattern_boundary_candidate",
+      "type": "AUTHORIZES"
+    },
+    {
+      "source": "dev222_dev221_reconciliation",
+      "target": "geometry_to_interaction_channel_transfer",
+      "type": "BLOCKS"
     }
   ]
 }

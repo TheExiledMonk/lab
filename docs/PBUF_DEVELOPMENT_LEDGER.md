@@ -540,4 +540,7 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 ## LEDGER ENTRY 056 — DEV221 EXTENDED-GEOMETRY CLOSURE
 
-- **Native Axis-without-Polarity Rule:** The canonical DEV203 relational excitation is spatially anisotropic but remains end-for-end symmetric under exact native reflection. A preferred propagation axis therefore does not by itself constitute a polarity-bearing extended structure.
+- **Numeric-Evidence Precedence Rule:** When generated prose metadata conflicts with deterministic numeric artifacts and generating code, canonical classification follows the reproducible calculation; prose, ledger, registry and selectors must be regenerated to match it.
+- **Native Extended Directional Geometry Rule:** The canonical DEV203 relational excitation possesses a coefficient-free, co-moving, triaxial geometry with a reflection-covariant longitudinal odd component and distinct end-for-end geometry. This is a geometric property only; no magnetic polarity or interaction-channel distinction is thereby derived.
+- **Geometry–Interaction Transfer Boundary:** DEV221 derives head-tail asymmetry in frozen strain-magnitude geometry, but the recovered DEV204 orientation-stress distribution does not carry that end asymmetry. Directional geometry alone does not authorize pair-orientation force testing.
+- **Development Gate Consistency Rule:** A future-development selector may not authorize an operation whose corresponding canonical gate is blocked; registry validation rejects a blocked operation selected as the next test.

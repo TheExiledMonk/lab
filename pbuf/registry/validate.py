@@ -44,4 +44,17 @@ def validate(registry: dict) -> list[str]:
     for relation in registry.get("equivalences", []):
         if relation.get("source") not in aset or relation.get("target") not in aset:
             errors.append(f"equivalence {relation.get('relation_id')} has dangling endpoint")
+    # A selector is a development authorization, not merely narrative metadata.
+    # Keep this generic so future gates cannot silently select their own blocked
+    # operation.
+    for selector in registry.get("development_gate_selectors", []):
+        for key in ("gate", "gate_value", "blocked_values", "selected_test", "blocked_operations"):
+            if key not in selector:
+                errors.append(f"development gate selector missing {key}")
+        if (selector.get("gate_value") in selector.get("blocked_values", [])
+                and selector.get("selected_test") in selector.get("blocked_operations", [])):
+            errors.append(
+                f"blocked operation selected: {selector.get('gate')}="
+                f"{selector.get('gate_value')} selects {selector.get('selected_test')}"
+            )
     return errors
