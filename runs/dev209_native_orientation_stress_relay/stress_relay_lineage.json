@@ -1,0 +1,6 @@
+{
+  "N_TO_N_STRESS_RELAY_LINEAGE": "PARTIAL",
+  "boundary": "the global causal identity is exact, but receiver-specific relay is not isolated from initial canonical support",
+  "chain": "delta r_n -> delta F_n -> delta p_n -> delta r_n+1",
+  "mechanism": "existing DEV167 kick-drift and DEV204 exact force decomposition"
+}

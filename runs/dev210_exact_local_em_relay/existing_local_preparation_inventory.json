@@ -1,0 +1,53 @@
+{
+  "EXISTING_LOCAL_NATIVE_PREPARATION_INVENTORY_COMPLETE": true,
+  "items": [
+    {
+      "LOCAL_PREPARATION_TYPE": "STATIC_SOURCE_LOADING",
+      "displacement_state": "zero before contact",
+      "exact_initial_spatial_support": "six N6 neighbour nodes (external force only)",
+      "external_force_dependence": "yes",
+      "id": "DEV167_SOURCE_CONTACT",
+      "momentum_state": "zero before contact",
+      "parameters_frozen_independently": true,
+      "source_contact_dependence": "yes",
+      "source_removal_semantics": "not a compact release",
+      "subsequent_propagation_demonstrated": false
+    },
+    {
+      "LOCAL_PREPARATION_TYPE": "STATIC_SOURCE_LOADING",
+      "displacement_state": "relaxed nonzero field",
+      "exact_initial_spatial_support": "external force six nodes; induced displacement global",
+      "external_force_dependence": "yes while equilibrated",
+      "id": "DEV167_RELAXED_SOURCE_EQUILIBRIUM",
+      "momentum_state": "zero",
+      "parameters_frozen_independently": true,
+      "source_contact_dependence": "yes",
+      "source_removal_semantics": "documented removal after noncompact equilibrium",
+      "subsequent_propagation_demonstrated": true
+    },
+    {
+      "LOCAL_PREPARATION_TYPE": "INITIAL_DISPLACEMENT",
+      "displacement_state": "nonzero Gaussian tail",
+      "exact_initial_spatial_support": "not finite: Gaussian-x is mathematically nonzero at every x plane",
+      "external_force_dependence": "canonical trajectory retains source contact",
+      "id": "DEV169_DEV182_PACKET",
+      "momentum_state": "nonzero Gaussian-derived tail",
+      "parameters_frozen_independently": true,
+      "source_contact_dependence": "yes",
+      "source_removal_semantics": "not derived",
+      "subsequent_propagation_demonstrated": true
+    },
+    {
+      "LOCAL_PREPARATION_TYPE": "INITIAL_DISPLACEMENT",
+      "displacement_state": "additive packet",
+      "exact_initial_spatial_support": "inherits DEV182 noncompact Gaussian-x support",
+      "external_force_dependence": "does not define release",
+      "id": "DEV196_ADDITIVE_INJECTION",
+      "momentum_state": "additive packet",
+      "parameters_frozen_independently": true,
+      "source_contact_dependence": "inherits canonical state",
+      "source_removal_semantics": "not derived",
+      "subsequent_propagation_demonstrated": false
+    }
+  ]
+}

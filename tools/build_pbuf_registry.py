@@ -107,8 +107,11 @@ def main():
  edges=[]; nodes=[{'id':t['target_id'],'type':'TARGET'} for t in data['targets']]
  for a in data['attempts']:
   nodes.append({'id':a['attempt_id'],'type':'ATTEMPT'}); edges.append({'source':a['attempt_id'],'target':a['target_id'],'type':'ATTEMPTS_TO_SOLVE'})
-  for equation in a['equations']:
-   eid=f"{a['attempt_id']}:{equation['id']}"; nodes.append({'id':eid,'type':'EQUATION'}); edges.append({'source':a['attempt_id'],'target':eid,'type':'USES'})
+  for number, equation in enumerate(a['equations']):
+   # Curated DEV207+ registry records retain their historical compact string
+   # equations; older generated records carry an explicit equation id.
+   equation_id = equation['id'] if isinstance(equation, dict) else f'eq_{number}'
+   eid=f"{a['attempt_id']}:{equation_id}"; nodes.append({'id':eid,'type':'EQUATION'}); edges.append({'source':a['attempt_id'],'target':eid,'type':'USES'})
   if a['current_status']=='INFRASTRUCTURE': nodes.append({'id':f"infrastructure:{a['attempt_id']}",'type':'INFRASTRUCTURE'}); edges.append({'source':a['attempt_id'],'target':f"infrastructure:{a['attempt_id']}",'type':'PRODUCES'})
   if a['canonical']: nodes.append({'id':f"canonical:{a['attempt_id']}",'type':'CANONICAL_RESULT'}); edges.append({'source':a['attempt_id'],'target':f"canonical:{a['attempt_id']}",'type':'VALIDATED_BY'})
   for ref in a.get('derived_from',[]): edges.append({'source':a['attempt_id'],'target':ref,'type':'DERIVED_FROM'})

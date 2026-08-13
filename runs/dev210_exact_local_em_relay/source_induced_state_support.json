@@ -1,0 +1,14 @@
+{
+  "SOURCE_INDUCED_STATE_SUPPORT": "GLOBAL",
+  "SOURCE_INDUCED_STATE_SUPPORT_CLASSIFIED": true,
+  "compact": false,
+  "domain_count": 1331,
+  "equilibrium_solver": {
+    "iterations": 10,
+    "max_force_residual": 1.0719749061599442e-05,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "success": true
+  },
+  "support_count": 1331,
+  "support_definition": "(|u|>0) or (|p|>0) exactly"
+}

@@ -1,0 +1,8 @@
+{
+  "DEVELOPMENT_LEDGER_READ": true,
+  "findings": [
+    "DEV204/206 retain source contact",
+    "DEV195/196 define exact support",
+    "DEV209 receiver receipt is contaminated by DEV182 initial tails"
+  ]
+}

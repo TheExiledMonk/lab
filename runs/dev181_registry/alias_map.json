@@ -1,4 +1,11 @@
 {
+  "astronomical_source_boundary": [
+    "source image boundary",
+    "source-coordinate bridge",
+    "astronomical source",
+    "source image",
+    "coordinate boundary"
+  ],
   "bounded_strain_constitutive": [
     "bounded strain",
     "epsilon",
@@ -8,6 +15,14 @@
     "epsilon",
     "PR70",
     "normalization"
+  ],
+  "canonical_packet_weak_event_regime": [
+    "weak regime",
+    "perturbative event regime",
+    "weak",
+    "tangent",
+    "nonlinear",
+    "cross event"
   ],
   "coordinate_lineage": [
     "WCS",
@@ -20,6 +35,35 @@
     "coordinate serialization",
     "DEV173",
     "DEV174"
+  ],
+  "cross_event_influence": [
+    "interaction strength",
+    "relative force",
+    "influence ratio",
+    "perturbation ratio",
+    "cross-event residual",
+    "field strength",
+    "incremental response",
+    "response sensitivity",
+    "residual coupling",
+    "cross event",
+    "force influence",
+    "sequential event",
+    "receipt influence"
+  ],
+  "discrete_native_launch_domain": [
+    "discrete launch domain",
+    "packet-aware receipt",
+    "packet lineage",
+    "launch manifest",
+    "121",
+    "integer translation",
+    "discrete launch domain",
+    "packet-aware receipt",
+    "packet lineage",
+    "launch manifest",
+    "121",
+    "integer translation"
   ],
   "domain_accumulation": [
     "accumulation",
@@ -57,6 +101,46 @@
     "reversibility",
     "reversibility"
   ],
+  "em_like_transverse_wave_sector": [
+    "EM-like wave sector",
+    "native transverse waves",
+    "transverse",
+    "degeneracy",
+    "isotropy",
+    "linear dispersion"
+  ],
+  "em_wave_structural_correlation": [
+    "Euler-Heisenberg",
+    "QED structure",
+    "EM correlation",
+    "EM",
+    "QED",
+    "orientation",
+    "background invariant"
+  ],
+  "exact_local_n6_relational_wave_relay": [
+    "DEV210",
+    "exact local",
+    "N6",
+    "source release",
+    "causal relay"
+  ],
+  "exact_local_native_excitation_launch": [
+    "DEV210",
+    "exact local",
+    "N6",
+    "source release",
+    "causal relay"
+  ],
+  "field_strength_cross_event_control": [
+    "field strength",
+    "local force magnitude",
+    "influence duration",
+    "residual field",
+    "force orientation",
+    "cross event",
+    "persistence"
+  ],
   "finite_loaded_receipt": [
     "receipt",
     "bond flux",
@@ -68,6 +152,137 @@
     "content",
     "packet",
     "excitation"
+  ],
+  "full_local_state_cross_event_control": [
+    "local state",
+    "bond cross term",
+    "causal neighborhood",
+    "cross event",
+    "local bond",
+    "strain",
+    "orientation",
+    "N6"
+  ],
+  "independent_event_wave_transport": [
+    "event accumulation",
+    "single-event wave transport",
+    "independent event",
+    "event accumulation",
+    "interference",
+    "two path",
+    "medium memory"
+  ],
+  "intrinsic_em_like_relational_wave": [
+    "DEV203 EM-like",
+    "intrinsic transverse relational motion",
+    "EM-like",
+    "transverse",
+    "orientation",
+    "rotation",
+    "relational wave"
+  ],
+  "local_force_balance_restoration": [
+    "local restoration",
+    "outgoing excitation audit",
+    "force balance",
+    "restoring force",
+    "outgoing flux",
+    "recurrence",
+    "local energy",
+    "packet tail"
+  ],
+  "magnetic_stress_native_candidate": [
+    "orientation stress candidate",
+    "orientation",
+    "rotation",
+    "transverse stress"
+  ],
+  "native_background_expansion_strain": [
+    "DEV208",
+    "native_background_expansion_strain",
+    "cosmology",
+    "scale factor",
+    "native spacing",
+    "strain",
+    "restoring stress",
+    "turnaround"
+  ],
+  "native_cosmological_restoring_stress": [
+    "DEV208",
+    "native_cosmological_restoring_stress",
+    "cosmology",
+    "scale factor",
+    "native spacing",
+    "strain",
+    "restoring stress",
+    "turnaround"
+  ],
+  "native_cosmological_turnaround": [
+    "DEV208",
+    "native_cosmological_turnaround",
+    "cosmology",
+    "scale factor",
+    "native spacing",
+    "strain",
+    "restoring stress",
+    "turnaround"
+  ],
+  "native_electric_field_candidate": [
+    "DEV205",
+    "native_electric_field_candidate",
+    "polar",
+    "axial",
+    "antisymmetric",
+    "handedness",
+    "native EM mapping"
+  ],
+  "native_em_mapping_uniqueness": [
+    "DEV205",
+    "native_em_mapping_uniqueness",
+    "polar",
+    "axial",
+    "antisymmetric",
+    "handedness",
+    "native EM mapping"
+  ],
+  "native_em_polar_axial_field_pair": [
+    "DEV205",
+    "native_em_polar_axial_field_pair",
+    "polar",
+    "axial",
+    "antisymmetric",
+    "handedness",
+    "native EM mapping"
+  ],
+  "native_extended_excitation_transport": [
+    "extended source",
+    "multi-packet transport",
+    "image transport",
+    "extended excitation",
+    "superposition",
+    "simultaneous packet",
+    "packet overlap",
+    "moment transport"
+  ],
+  "native_launch_density_convergence": [
+    "discrete native launch domain",
+    "launch density convergence",
+    "C50_DISCRETE",
+    "C100_DISCRETE",
+    "launch density",
+    "C100",
+    "C50",
+    "received-state distribution gate"
+  ],
+  "native_linear_mode_spectrum": [
+    "DEV201",
+    "normal modes",
+    "tangent spectrum",
+    "dispersion",
+    "eigenmode",
+    "wavevector",
+    "dynamical matrix",
+    "transverse"
   ],
   "native_loaded_directional_response": [
     "transverse response",
@@ -85,6 +300,49 @@
     "H07",
     "scalar geometry"
   ],
+  "native_magnetic_field_candidate": [
+    "DEV205",
+    "native_magnetic_field_candidate",
+    "polar",
+    "axial",
+    "antisymmetric",
+    "handedness",
+    "native EM mapping"
+  ],
+  "native_mode_channel_sufficiency": [
+    "mode sufficiency",
+    "channel sufficiency",
+    "feature ablation",
+    "mode",
+    "channel",
+    "feature ablation",
+    "rank contribution",
+    "parallel perpendicular",
+    "PCA",
+    "DFT"
+  ],
+  "native_n6_field_representation": [
+    "N6 field",
+    "bond-state field",
+    "native field representation",
+    "N6",
+    "bond state",
+    "field",
+    "momentum",
+    "packet"
+  ],
+  "native_n_to_n_stress_relay": [
+    "DEV209",
+    "N6",
+    "stress relay",
+    "orientation transport"
+  ],
+  "native_orientation_information_transport": [
+    "DEV209",
+    "N6",
+    "stress relay",
+    "orientation transport"
+  ],
   "native_packet_launch_representation": [
     "packet launch",
     "excitation launch",
@@ -100,6 +358,75 @@
     "launch lineage",
     "independent replay",
     "continuous packet launch"
+  ],
+  "native_pair_force_sign_response": [
+    "DEV207",
+    "two excitation",
+    "orientation",
+    "force",
+    "torque"
+  ],
+  "native_pair_torque": [
+    "DEV207",
+    "two excitation",
+    "orientation",
+    "force",
+    "torque"
+  ],
+  "native_relational_stress_coupling": [
+    "DEV204",
+    "relational stress",
+    "native force response",
+    "relational motion",
+    "stress response",
+    "orientation stress",
+    "finite force difference"
+  ],
+  "native_transfer_operator": [
+    "transfer function",
+    "source pushforward",
+    "detector transfer response",
+    "transfer operator",
+    "pushforward",
+    "source image",
+    "receipt response"
+  ],
+  "native_two_excitation_orientation_interaction": [
+    "DEV207",
+    "two excitation",
+    "orientation",
+    "force",
+    "torque"
+  ],
+  "native_two_sector_wave_coupling": [
+    "DEV204 two sector",
+    "relational stress feedback",
+    "symmetric",
+    "antisymmetric",
+    "feedback",
+    "kick drift"
+  ],
+  "native_two_strain_attraction_repulsion": [
+    "DEV211",
+    "two strain",
+    "attraction",
+    "repulsion",
+    "N6",
+    "strain",
+    "force sign",
+    "orientation"
+  ],
+  "native_two_strain_interaction_energy": [
+    "DEV211 energy",
+    "DEV167",
+    "potential",
+    "four state"
+  ],
+  "native_two_strain_torque_alignment": [
+    "DEV211 torque",
+    "torque",
+    "alignment",
+    "orientation"
   ],
   "observational_lensing_comparison": [
     "pyRRG",
@@ -129,6 +456,35 @@
     "G3",
     "full-state retention"
   ],
+  "propagating_relative_neighbor_motion": [
+    "DEV203",
+    "relative neighbor motion",
+    "relational propagation",
+    "relative motion",
+    "bond velocity",
+    "strain rate",
+    "orientation rate",
+    "force rate",
+    "N6 motion field"
+  ],
+  "received_state_distribution_sufficiency": [
+    "received-state distribution",
+    "distribution sufficiency",
+    "receipt distribution",
+    "full received state",
+    "received-state distribution",
+    "distribution sufficiency",
+    "covariance",
+    "higher moments",
+    "channel sufficiency",
+    "mode sufficiency"
+  ],
+  "same_dataset_observable_escape": [
+    "source cancellation audit",
+    "source elimination",
+    "same dataset",
+    "observable escape"
+  ],
   "sampling_density_terms": [
     "ray density",
     "packet density",
@@ -143,6 +499,33 @@
     "266x266",
     "C25"
   ],
+  "self_loaded_em_like_wave_sector": [
+    "DEV202 EM-like",
+    "self-loaded wave sector",
+    "EM-like",
+    "transverse",
+    "propagation",
+    "self-loaded"
+  ],
+  "self_loaded_transverse_native_response": [
+    "DEV202",
+    "loaded transverse tangent",
+    "loaded",
+    "transverse",
+    "tangent",
+    "self-loaded"
+  ],
+  "sequential_event_independence": [
+    "second excitation",
+    "reinjection",
+    "repeated packet",
+    "sequential injection",
+    "second packet",
+    "reinjection",
+    "event independence",
+    "additive displacement",
+    "additive momentum"
+  ],
   "source_depth_reconstruction": [
     "source depth",
     "2D to 3D",
@@ -154,6 +537,11 @@
     "spectroscopy",
     "Owers",
     "redshift"
+  ],
+  "source_independent_transfer_distortion": [
+    "operator-only distortion",
+    "transfer invariant",
+    "source independent distortion"
   ],
   "source_medium_coupling": [
     "source loading",
@@ -202,5 +590,12 @@
     "A8",
     "M10",
     "processed lensing map"
+  ],
+  "wide_observable_boundary": [
+    "native transfer observable bridge",
+    "observable-layer audit",
+    "observable boundary",
+    "PSF-corrected moments",
+    "transfer tensor"
   ]
 }

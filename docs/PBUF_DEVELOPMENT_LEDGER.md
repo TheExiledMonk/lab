@@ -455,7 +455,23 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 ## LEDGER ENTRY 042 — DEV207 NATIVE PAIR INTERACTION BOUNDARY
 
 - **Magnetic-Interaction Claim Boundary:** Orientation-dependent attraction, repulsion or torque from frozen native dynamics constitutes interaction-level magnetic-like evidence only. It does not by itself establish electromagnetic field variables, poles, charge, SI normalization or Maxwell equations.
+
 ## LEDGER ENTRY 043 — DEV208 NATIVE EXPANSION–RESTORING-STRESS AUDIT
 
 - DEV208 derives only the homogeneous diagnostic of frozen DEV167: for a geometric N6 scale deformation `lambda`, `epsilon=lambda-1`, `sigma=lambda-1 / [1-(lambda-1)^2]`, and `V=-log[1-(lambda-1)^2]/2`. Positive extension increases inward restoring response and stored native potential; both diverge at the finite extension bound.
 - **Cyclic-Cosmology Claim Boundary:** local stress growth alone does not derive a Big Crunch, bounce, or cyclic universe. Current PBUF contains neither a derived `a(t)`-to-N6-spacing map nor a native background evolution equation into which the response can be inserted. DEV208 therefore classifies the global bridge, turnaround, contraction, and bounce as blocked/unestablished and adds no force, stiffness, or cosmological term.
+
+## LEDGER ENTRY 044 — DEV209 EM STRESS-RELAY CLAIM BOUNDARY
+
+- **EM Stress-Relay Claim Boundary:** Native N-to-N transport of orientation-dependent relational stress is mechanism-level evidence for an electromagnetic-like interaction substrate only. It does not identify E, B, poles, charge, SI normalization, or Maxwell equations.
+
+## LEDGER ENTRY 045 — DEV210 EXACT-LOCAL NATIVE LAUNCH AUDIT
+
+- **Noncompact-Preparation Causality Rule:** A mathematically nonzero initial tail at a receiver prevents first-receipt time from establishing causal propagation to that receiver. DEV209's step-zero receipt constrains DEV182 for this audit; it neither establishes instantaneous propagation nor disproves N-to-N relay.
+- **Exact-Local EM-Wave Claim Boundary:** A compact native launch and causally ordered N6 relational/stress relay would establish mechanism-level wave propagation without nonlocal force. They would not establish electromagnetic field identities, Maxwell equations, charge, photon normalization, or SI calibration.
+- DEV210 finds no already-derived compact free launch: DEV167 contact is exactly local external loading, while its documented source-removal state follows spatially extended equilibrium and current source duration is caller-controlled.
+
+## LEDGER ENTRY 046 — DEV211 TWO-STRAIN MAGNETIC CLAIM BOUNDARY
+
+- **Two-Strain Magnetic Claim Boundary:** Attraction, repulsion, and torque arising from relative native strain geometry would constitute mechanism-level magnetic-like behavior. They do not independently establish magnetic poles, B-field identity, electric charge, Maxwell equations, SI normalization, permanent magnetism, or an electromagnetic wave.
+- DEV211's available source-maintained DEV167 deformation is invariant under the exact DEV207 reflection. Its SAME and REVERSED states are therefore degenerate; this audit does not derive force-sign reversal or torque.

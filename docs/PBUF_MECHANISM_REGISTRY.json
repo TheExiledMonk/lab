@@ -1959,6 +1959,208 @@
       ],
       "do_not_rederive": true,
       "reopen_condition": "Supply an independently derived scale-factor-to-native-N6-spacing map and a native background evolution equation."
+    },
+    {
+      "target_id": "native_n_to_n_stress_relay",
+      "canonical_name": "native n to n stress relay",
+      "plain_language_question": "Does the frozen DEV167/203/204 native dynamics relay excitation-generated relational stress sequentially through intermediate N6 relations to spatially separated receiver regions?",
+      "aliases": [
+        "DEV209"
+      ],
+      "keywords": [
+        "N6",
+        "stress relay",
+        "orientation transport"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev209_native_orientation_stress_relay"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV167/DEV182/DEV207 inputs change."
+    },
+    {
+      "target_id": "native_orientation_information_transport",
+      "canonical_name": "native orientation information transport",
+      "plain_language_question": "Does the exact SAME/REVERSED source distinction derived in DEV207 survive propagation through successive native relations?",
+      "aliases": [
+        "DEV209"
+      ],
+      "keywords": [
+        "N6",
+        "stress relay",
+        "orientation transport"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev209_native_orientation_stress_relay"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only if frozen DEV167/DEV182/DEV207 inputs change."
+    },
+    {
+      "target_id": "exact_local_native_excitation_launch",
+      "canonical_name": "exact local native excitation launch",
+      "plain_language_question": "Does existing frozen PBUF native source mechanics already provide a strictly finite-support excitation preparation that can evolve freely without inventing a packet profile, amplitude or source-duration parameter?",
+      "aliases": [
+        "DEV210"
+      ],
+      "keywords": [
+        "exact local",
+        "N6",
+        "source release",
+        "causal relay"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev210_exact_local_em_relay"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No pre-existing compact free native launch is defined."
+      ],
+      "blocked_by": [
+        "source duration/release semantics not derived"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "An existing, independently fixed compact free source-release preparation is derived."
+    },
+    {
+      "target_id": "exact_local_n6_relational_wave_relay",
+      "canonical_name": "exact local n6 relational wave relay",
+      "plain_language_question": "Does an initially exact-local native disturbance generate sequential relational/stress receipt through previously untouched N6 regions under frozen DEV167 dynamics?",
+      "aliases": [
+        "DEV210"
+      ],
+      "keywords": [
+        "exact local",
+        "N6",
+        "source release",
+        "causal relay"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev210_exact_local_em_relay"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No pre-existing compact free native launch is defined."
+      ],
+      "blocked_by": [
+        "source duration/release semantics not derived"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "An existing, independently fixed compact free source-release preparation is derived."
+    },
+    {
+      "target_id": "native_two_strain_attraction_repulsion",
+      "canonical_name": "Native two-strain attraction and repulsion",
+      "plain_language_question": "Do two independently fixed native strain structures exhibit attractive versus repulsive radial force under exact symmetry-related relative orientations?",
+      "aliases": [
+        "DEV211",
+        "two strain",
+        "attraction",
+        "repulsion"
+      ],
+      "keywords": [
+        "N6",
+        "strain",
+        "force sign",
+        "orientation"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev211_two_strain_magnetism"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "The only available existing static source deformation is reflection-invariant."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an already-registered non-reflection-invariant persistent strain structure."
+    },
+    {
+      "target_id": "native_two_strain_interaction_energy",
+      "canonical_name": "Native two-strain interaction energy",
+      "plain_language_question": "Is the sign and direction of the native two-strain force consistent with the existing DEV167 elastic interaction energy under exact discrete separation/orientation changes?",
+      "aliases": [
+        "DEV211 energy"
+      ],
+      "keywords": [
+        "DEV167",
+        "potential",
+        "four state"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev211_two_strain_magnetism"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "No nonzero orientation-dependent radial force was available to test direction consistency."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with a nondegenerate existing strain structure."
+    },
+    {
+      "target_id": "native_two_strain_torque_alignment",
+      "canonical_name": "Native two-strain torque alignment",
+      "plain_language_question": "Does native torque rotate a misaligned strain structure toward a lower-interaction-energy configuration?",
+      "aliases": [
+        "DEV211 torque"
+      ],
+      "keywords": [
+        "torque",
+        "alignment",
+        "orientation"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev211_two_strain_magnetism"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "DEV207 reflection leaves the available source-maintained deformation invariant."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an existing non-invariant symmetry state."
     }
   ],
   "attempts": [
@@ -5822,165 +6024,6 @@
       "confidence": "HIGH"
     },
     {
-      "attempt_id": "dev189_astronomical_source_boundary",
-      "target_id": "astronomical_source_boundary",
-      "name": "DEV189 astronomical source boundary and native launch-domain bridge",
-      "aliases": [
-        "AstronomicalNativeSourceBoundary/v1 audit"
-      ],
-      "summary": "Audits whether independent astronomical source content and coordinates can enter the frozen 121-state incident domain without lens reconstruction, fitted registration, morphology invention, or interpolation.",
-      "why_attempted": "DEV188 closes K s but deliberately leaves s astronomical semantics open.",
-      "date_started": "2026-08-12",
-      "date_completed": "2026-08-12",
-      "date_confidence": "HIGH",
-      "dev": "DEV189",
-      "pr": null,
-      "branch": "agent/dev195-local-force-balance",
-      "commits": [],
-      "files": [
-        "pbuf/observer/astronomical_source_boundary.py",
-        "tools/generate_dev189_astronomical_source_boundary.py"
-      ],
-      "run_directories": [
-        "runs/dev189_astronomical_source_boundary"
-      ],
-      "tests": [
-        "tests/test_dev189_astronomical_source_boundary.py"
-      ],
-      "equations": [],
-      "assumptions": [],
-      "inputs": [],
-      "outputs": [],
-      "result": "BLOCKED",
-      "result_reason": "Only observed post-propagation image information/status is present; no independently measured individual intrinsic source morphology, scale, or exact cell partition is available.",
-      "status_at_completion": "BLOCKED",
-      "current_status": "BLOCKED",
-      "canonical": true,
-      "superseded_by": [],
-      "supersedes": [],
-      "equivalent_to": [],
-      "derived_from": [
-        "dev171_independent_3d_source",
-        "dev174_coordinate_serialization",
-        "dev175_pyrrg_recovery",
-        "dev183_discrete_launch_domain_packet_lineage",
-        "dev187_physical_native_observer",
-        "dev188_native_source_distribution_pushforward"
-      ],
-      "ancestor_of": [],
-      "descendant_of": [],
-      "related_attempts": [],
-      "still_valid_components": [
-        "NativeIncidentDistribution/v1",
-        "NativeTransferOperator/v1",
-        "DEV183 121-state domain"
-      ],
-      "invalidated_components": [],
-      "successful_components": [
-        "anti-circularity boundary audit",
-        "similarity transform synthetic control"
-      ],
-      "failed_components": [
-        "object-level intrinsic astronomical source bridge"
-      ],
-      "physics_reusable": true,
-      "infrastructure_reusable": true,
-      "free_parameters": [],
-      "fitted_parameters": [],
-      "fixed_structural_normalizations": [],
-      "observational_inputs": [
-        false
-      ],
-      "reopen_condition": "Independent object-level pre-propagation source and fixed coordinate bridge.",
-      "do_not_repeat_reason": "Do not substitute the observed lensed image, GR/lens reconstruction, or fitted WCS registration.",
-      "evidence": [
-        {
-          "type": "file",
-          "value": "runs/dev189_astronomical_source_boundary/final_contract.json"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "attempt_id": "dev190_source_independent_transfer_distortion",
-      "target_id": "source_independent_transfer_distortion",
-      "name": "DEV190 source-independent transfer-distortion invariant audit",
-      "aliases": [
-        "TransferCentroidJacobian/v1"
-      ],
-      "summary": "Derives source-independent conditional scalar transfer-centroid geometry and local 2x2 finite-difference tensors from frozen DEV188 arrays only.",
-      "why_attempted": "DEV188 preserves full multichannel source rank but does not itself define a physical channel metric.",
-      "date_started": "2026-08-12",
-      "date_completed": "2026-08-12",
-      "date_confidence": "HIGH",
-      "dev": "DEV190",
-      "pr": null,
-      "branch": "agent/dev195-local-force-balance",
-      "commits": [],
-      "files": [
-        "pbuf/observer/native_transfer_distortion.py",
-        "tools/generate_dev190_source_independent_transfer_distortion.py"
-      ],
-      "run_directories": [
-        "runs/dev190_source_independent_transfer_distortion"
-      ],
-      "tests": [
-        "tests/test_dev190_source_independent_transfer_distortion.py"
-      ],
-      "equations": [
-        "y_l=sum_c P(c|l)q_c",
-        "J_T=central periodic nearest-neighbor derivative of y_l"
-      ],
-      "assumptions": [],
-      "inputs": [],
-      "outputs": [],
-      "result": "FULL",
-      "result_reason": "The scalar positive measure and both native transverse coordinate systems supply a coefficient-free source-independent centroid map. The heterogeneous multichannel stack supplies no physical metric.",
-      "status_at_completion": "CANONICAL",
-      "current_status": "CANONICAL",
-      "canonical": true,
-      "superseded_by": [],
-      "supersedes": [],
-      "equivalent_to": [],
-      "derived_from": [
-        "dev183_discrete_launch_domain_packet_lineage",
-        "dev187_physical_native_observer",
-        "dev188_native_source_distribution_pushforward",
-        "dev189_astronomical_source_boundary"
-      ],
-      "ancestor_of": [],
-      "descendant_of": [],
-      "related_attempts": [],
-      "still_valid_components": [
-        "TransferCentroidJacobian/v1",
-        "conditional scalar transfer centroid"
-      ],
-      "invalidated_components": [],
-      "successful_components": [
-        "scalar conditional transport geometry"
-      ],
-      "failed_components": [
-        "physical multichannel output metric"
-      ],
-      "physics_reusable": true,
-      "infrastructure_reusable": true,
-      "free_parameters": [],
-      "fitted_parameters": [],
-      "fixed_structural_normalizations": [],
-      "observational_inputs": [
-        false
-      ],
-      "reopen_condition": "Observer semantics independently bridge native tensor to an observed quantity.",
-      "do_not_repeat_reason": "Do not turn full rank, SVD, or an arbitrary stacked norm into a physical metric.",
-      "evidence": [
-        {
-          "type": "file",
-          "value": "runs/dev190_source_independent_transfer_distortion/final_contract.json"
-        }
-      ],
-      "confidence": "HIGH"
-    },
-    {
       "attempt_id": "dev205_native_em_mapping",
       "target_id": "native_em_polar_axial_field_pair",
       "name": "DEV205 independent native-to-electromagnetic mapping audit",
@@ -6248,6 +6291,306 @@
         {
           "type": "file",
           "value": "runs/dev208_native_cosmic_turnaround/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev209_native_orientation_stress_relay",
+      "target_id": "native_n_to_n_stress_relay",
+      "name": "DEV209 native N-to-N orientation stress relay",
+      "aliases": [
+        "DEV209"
+      ],
+      "summary": "Passive fixed-plane SAME/REVERSED N6 receiver audit.",
+      "why_attempted": "Connect frozen DEV203 transport, DEV204 stress response, and DEV207 orientation without direct support overlap.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV209",
+      "branch": "agent/dev195-local-force-balance",
+      "files": [
+        "pbuf/observer/native_stress_relay.py",
+        "pbuf/observer/native_orientation_transport.py",
+        "pbuf/observer/native_remote_receiver.py",
+        "tools/generate_dev209_native_orientation_stress_relay.py"
+      ],
+      "run_directories": [
+        "runs/dev209_native_orientation_stress_relay"
+      ],
+      "tests": [
+        "tests/test_dev209_stress_relay.py",
+        "tests/test_dev209_orientation_transport.py",
+        "tests/test_dev209_remote_receiver.py"
+      ],
+      "equations": [
+        "delta r -> delta F -> delta p -> delta r'",
+        "J_ab=-F_ab dot (p_a+p_b)/2"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "Fixed passive receivers determine the classification without a fitted speed or selected component.",
+      "current_status": "OPEN",
+      "canonical": false,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Only if frozen DEV167/DEV182/DEV207 inputs change.",
+      "do_not_repeat_reason": "The source, amplitude, support, N6 law, and exact reflection are frozen.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev209_native_orientation_stress_relay/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev210_exact_local_em_relay",
+      "target_id": "exact_local_native_excitation_launch",
+      "name": "DEV210 exact local native launch and causal EM-wave relay audit",
+      "aliases": [
+        "DEV210"
+      ],
+      "summary": "Inventory-only audit of existing source preparations; no packet was designed.",
+      "why_attempted": "DEV209 cannot establish first receipt with DEV182 Gaussian initial tails.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV210",
+      "branch": "agent/dev195-local-force-balance",
+      "files": [
+        "tools/generate_dev210_exact_local_em_relay.py"
+      ],
+      "run_directories": [
+        "runs/dev210_exact_local_em_relay"
+      ],
+      "tests": [
+        "tests/test_dev210_local_launch.py"
+      ],
+      "equations": [
+        "support=(|u|>0) or (|p|>0)",
+        "delta r -> delta F -> delta p -> delta r_next"
+      ],
+      "result": "BLOCKED",
+      "result_reason": "Existing exact-local contact is externally maintained/caller-duration controlled; its documented release starts from noncompact equilibrium.",
+      "current_status": "BLOCKED",
+      "canonical": false,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Only an independently derived exact-local, source-free state can reopen this audit.",
+      "do_not_repeat_reason": "Do not truncate DEV182 Gaussian support or choose a source duration.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev210_exact_local_em_relay/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev211_two_strain_magnetism",
+      "target_id": "native_two_strain_attraction_repulsion",
+      "name": "DEV211 two-strain native magnetism audit",
+      "aliases": [
+        "DEV211"
+      ],
+      "summary": "Four-state static interaction audit of two translated DEV167 source-maintained deformations, using DEV207 exact reflection.",
+      "why_attempted": "Test pull, push, and torque without an added magnetic force or wave propagation.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV211",
+      "branch": "agent/dev195-local-force-balance",
+      "files": [
+        "pbuf/observer/native_two_strain_magnetism.py",
+        "pbuf/observer/native_interaction_energy.py",
+        "tools/generate_dev211_two_strain_magnetism.py"
+      ],
+      "run_directories": [
+        "runs/dev211_two_strain_magnetism"
+      ],
+      "tests": [
+        "tests/test_dev211_two_strain_force.py",
+        "tests/test_dev211_two_strain_energy.py",
+        "tests/test_dev211_two_strain_torque.py"
+      ],
+      "equations": [
+        "U_int=U_AB-U_A-U_B+U_0",
+        "Delta F=Delta sigma rhat+sigma Delta rhat+Delta sigma Delta rhat"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "The existing DEV167 point-contact deformation is reflection-invariant; no force-sign reversal or torque can be inferred.",
+      "current_status": "PARTIAL",
+      "canonical": false,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Only if an existing persistent non-reflection-invariant strain structure is registered.",
+      "do_not_repeat_reason": "Exact reflection and integer translations have exhausted the allowed states for this structure.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev211_two_strain_magnetism/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev189_astronomical_source_boundary",
+      "target_id": "astronomical_source_boundary",
+      "name": "DEV189 astronomical source boundary and native launch-domain bridge",
+      "aliases": [
+        "AstronomicalNativeSourceBoundary/v1 audit"
+      ],
+      "summary": "Audits whether independent astronomical source content and coordinates can enter the frozen 121-state incident domain without lens reconstruction, fitted registration, morphology invention, or interpolation.",
+      "why_attempted": "DEV188 closes K s but deliberately leaves s astronomical semantics open.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV189",
+      "pr": null,
+      "branch": "main-consolidation",
+      "commits": [],
+      "files": [
+        "pbuf/observer/astronomical_source_boundary.py",
+        "tools/generate_dev189_astronomical_source_boundary.py"
+      ],
+      "run_directories": [
+        "runs/dev189_astronomical_source_boundary"
+      ],
+      "tests": [
+        "tests/test_dev189_astronomical_source_boundary.py"
+      ],
+      "equations": [],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "BLOCKED",
+      "result_reason": "Only observed post-propagation image information/status is present; no independently measured individual intrinsic source morphology, scale, or exact cell partition is available.",
+      "status_at_completion": "BLOCKED",
+      "current_status": "BLOCKED",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev171_independent_3d_source",
+        "dev174_coordinate_serialization",
+        "dev175_pyrrg_recovery",
+        "dev183_discrete_launch_domain_packet_lineage",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "NativeIncidentDistribution/v1",
+        "NativeTransferOperator/v1",
+        "DEV183 121-state domain"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "anti-circularity boundary audit",
+        "similarity transform synthetic control"
+      ],
+      "failed_components": [
+        "object-level intrinsic astronomical source bridge"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Independent object-level pre-propagation source and fixed coordinate bridge.",
+      "do_not_repeat_reason": "Do not substitute the observed lensed image, GR/lens reconstruction, or fitted WCS registration.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev189_astronomical_source_boundary/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev190_source_independent_transfer_distortion",
+      "target_id": "source_independent_transfer_distortion",
+      "name": "DEV190 source-independent transfer-distortion invariant audit",
+      "aliases": [
+        "TransferCentroidJacobian/v1"
+      ],
+      "summary": "Derives source-independent conditional scalar transfer-centroid geometry and local 2x2 finite-difference tensors from frozen DEV188 arrays only.",
+      "why_attempted": "DEV188 preserves full multichannel source rank but does not itself define a physical channel metric.",
+      "date_started": "2026-08-12",
+      "date_completed": "2026-08-12",
+      "date_confidence": "HIGH",
+      "dev": "DEV190",
+      "pr": null,
+      "branch": "main-consolidation",
+      "commits": [],
+      "files": [
+        "pbuf/observer/native_transfer_distortion.py",
+        "tools/generate_dev190_source_independent_transfer_distortion.py"
+      ],
+      "run_directories": [
+        "runs/dev190_source_independent_transfer_distortion"
+      ],
+      "tests": [
+        "tests/test_dev190_source_independent_transfer_distortion.py"
+      ],
+      "equations": [
+        "y_l=sum_c P(c|l)q_c",
+        "J_T=central periodic nearest-neighbor derivative of y_l"
+      ],
+      "assumptions": [],
+      "inputs": [],
+      "outputs": [],
+      "result": "FULL",
+      "result_reason": "The scalar positive measure and both native transverse coordinate systems supply a coefficient-free source-independent centroid map. The heterogeneous multichannel stack supplies no physical metric.",
+      "status_at_completion": "CANONICAL",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "superseded_by": [],
+      "supersedes": [],
+      "equivalent_to": [],
+      "derived_from": [
+        "dev183_discrete_launch_domain_packet_lineage",
+        "dev187_physical_native_observer",
+        "dev188_native_source_distribution_pushforward",
+        "dev189_astronomical_source_boundary"
+      ],
+      "ancestor_of": [],
+      "descendant_of": [],
+      "related_attempts": [],
+      "still_valid_components": [
+        "TransferCentroidJacobian/v1",
+        "conditional scalar transfer centroid"
+      ],
+      "invalidated_components": [],
+      "successful_components": [
+        "scalar conditional transport geometry"
+      ],
+      "failed_components": [
+        "physical multichannel output metric"
+      ],
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "fixed_structural_normalizations": [],
+      "observational_inputs": [
+        false
+      ],
+      "reopen_condition": "Observer semantics independently bridge native tensor to an observed quantity.",
+      "do_not_repeat_reason": "Do not turn full rank, SVD, or an arbitrary stacked norm into a physical metric.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev190_source_independent_transfer_distortion/final_contract.json"
         }
       ],
       "confidence": "HIGH"

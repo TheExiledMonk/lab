@@ -1,0 +1,15 @@
+{
+  "HISTORICAL_INDEX_READ": true,
+  "excluded": [
+    "long-range force",
+    "new field",
+    "second packet in primary audit"
+  ],
+  "reused": [
+    "DEV167",
+    "DEV182",
+    "DEV203",
+    "DEV204",
+    "DEV207"
+  ]
+}

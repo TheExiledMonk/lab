@@ -1,13 +1,13 @@
 {
-  "commits_inspected": 362,
-  "dev_docs_inspected": 688,
+  "commits_inspected": 402,
+  "dev_docs_inspected": 1860,
   "historical_index_inspected": true,
   "inaccessible_or_unrecoverable": [
     "Exact historical PR metadata unavailable locally; categorized from reachable commits/refs and recovered DEV180 evidence."
   ],
   "ledger_inspected": true,
-  "refs_inspected": 219,
-  "run_directories_inspected": 214,
-  "scientific_files_inspected": 398,
+  "refs_inspected": 225,
+  "run_directories_inspected": 241,
+  "scientific_files_inspected": 473,
   "scope": "FULL_REACHABLE_PBUF_HISTORY"
 }

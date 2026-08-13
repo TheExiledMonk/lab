@@ -1,0 +1,22 @@
+{
+  "NO_RECEIVER_POSITION_SWEEP": true,
+  "RECEIVER_LOCATIONS_PREDECLARED": true,
+  "SOURCE_INITIAL_SUPPORT_INTERSECTS_RECEIVER": true,
+  "exact_support_definition": "DEV195 exact nonzero displacement-or-momentum occupancy",
+  "reason": "canonical DEV182 Gaussian tail occupies every x plane; no cutoff was introduced",
+  "receivers": {
+    "R1": {
+      "reversed_x": 6,
+      "same_x": 4
+    },
+    "R2": {
+      "reversed_x": 5,
+      "same_x": 5
+    },
+    "R3": {
+      "reversed_x": 4,
+      "same_x": 6
+    }
+  },
+  "source_plane": 1
+}

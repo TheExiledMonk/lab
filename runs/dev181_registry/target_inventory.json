@@ -131,13 +131,16 @@
     ],
     "attempt_ids": [
       "dev176_spin2_matrix",
-      "dev177_full_received_state"
+      "dev177_full_received_state",
+      "dev187_physical_native_observer"
     ],
     "blocked_by": [],
     "blocks": [],
     "canonical_name": "Physical observer mapping",
-    "canonical_solution_ids": [],
-    "current_status": "OPEN",
+    "canonical_solution_ids": [
+      "dev187_physical_native_observer"
+    ],
+    "current_status": "CANONICAL",
     "do_not_rederive": true,
     "domain": "OBSERVER",
     "first_seen_date": null,
@@ -153,7 +156,7 @@
     "last_updated_date": "2026-08-12",
     "open_questions": [],
     "plain_language_question": "What deterministic image-forming operation acts on full native received state?",
-    "reopen_condition": "After received-state and channel sufficiency gates.",
+    "reopen_condition": "Detector/transfer response is canonical; a source-image pushforward and a shape observable remain separate gates.",
     "target_id": "physical_observer_mapping"
   },
   {
@@ -266,6 +269,42 @@
     "plain_language_question": "What independently initialized DEV167 packet supports can traverse one fixed loaded medium, and under what replay/reset semantics?",
     "reopen_condition": "Only if a new native packet placement, direction, mode, or physical probe derivation independently changes the discrete-support closure.",
     "target_id": "native_packet_launch_representation"
+  },
+  {
+    "aliases": [
+      "discrete launch domain",
+      "packet-aware receipt",
+      "packet lineage",
+      "launch manifest",
+      "121",
+      "integer translation"
+    ],
+    "attempt_ids": [
+      "dev183_discrete_launch_domain_packet_lineage"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Discrete native launch domain and packet receipt lineage",
+    "canonical_solution_ids": [
+      "dev183_discrete_launch_domain_packet_lineage"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "SAMPLING / RAY DENSITY",
+    "first_seen_date": null,
+    "keywords": [
+      "discrete launch domain",
+      "packet-aware receipt",
+      "packet lineage",
+      "launch manifest",
+      "121",
+      "integer translation"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Which exact integer packet translations are same-experiment samples, and how is their receipt provenance retained losslessly?",
+    "reopen_condition": "Only if native boundary, packet initialization, receipt geometry, or a separately derived packet degree of freedom changes.",
+    "target_id": "discrete_native_launch_domain"
   },
   {
     "aliases": [
@@ -663,5 +702,1434 @@
     "plain_language_question": "Repository-wide registry group for ACCUMULATION.",
     "reopen_condition": "Only when independent repository evidence changes the stated closure.",
     "target_id": "domain_accumulation"
+  },
+  {
+    "aliases": [
+      "discrete native launch domain",
+      "launch density convergence",
+      "C50_DISCRETE",
+      "C100_DISCRETE"
+    ],
+    "attempt_ids": [
+      "dev184_discrete_launch_density_convergence"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native launch-density convergence",
+    "canonical_solution_ids": [
+      "dev184_discrete_launch_density_convergence"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "SAMPLING / RAY DENSITY",
+    "first_seen_date": "2026-08-12",
+    "keywords": [
+      "launch density",
+      "C100",
+      "C50",
+      "received-state distribution gate"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [],
+    "plain_language_question": "Has the complete frozen discrete launch domain converged?",
+    "reopen_condition": "Only if frozen C100 receipt lineage is invalidated.",
+    "target_id": "native_launch_density_convergence"
+  },
+  {
+    "aliases": [
+      "received-state distribution",
+      "distribution sufficiency",
+      "receipt distribution",
+      "full received state"
+    ],
+    "attempt_ids": [
+      "dev185_received_state_distribution_sufficiency"
+    ],
+    "blocked_by": [],
+    "blocks": [
+      "physical_observer_mapping"
+    ],
+    "canonical_name": "Received-state distribution sufficiency",
+    "canonical_solution_ids": [
+      "dev185_received_state_distribution_sufficiency"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "WEAK LENSING",
+    "first_seen_date": "2026-08-12",
+    "keywords": [
+      "received-state distribution",
+      "distribution sufficiency",
+      "covariance",
+      "higher moments",
+      "channel sufficiency",
+      "mode sufficiency"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [
+      "Native mode/channel sufficiency is separately required before an observer."
+    ],
+    "plain_language_question": "Is the full C100 native received state stable, finite, and non-degenerate across launches and depth realizations?",
+    "reopen_condition": "Only if C100 lineage or numerical validity is invalidated.",
+    "target_id": "received_state_distribution_sufficiency"
+  },
+  {
+    "aliases": [
+      "mode sufficiency",
+      "channel sufficiency",
+      "feature ablation"
+    ],
+    "attempt_ids": [
+      "dev186_native_mode_channel_sufficiency"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native mode / channel sufficiency",
+    "canonical_solution_ids": [
+      "dev186_native_mode_channel_sufficiency"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "WEAK LENSING",
+    "first_seen_date": "2026-08-12",
+    "keywords": [
+      "mode",
+      "channel",
+      "feature ablation",
+      "rank contribution",
+      "parallel perpendicular",
+      "PCA",
+      "DFT"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [
+      "Derive a physical observer from the information-sufficient native state."
+    ],
+    "plain_language_question": "Which native components can be removed without losing established C100 information?",
+    "reopen_condition": "Only if the C100 receipt schema or exact content definitions change.",
+    "target_id": "native_mode_channel_sufficiency"
+  },
+  {
+    "aliases": [
+      "transfer function",
+      "source pushforward",
+      "detector transfer response"
+    ],
+    "attempt_ids": [
+      "dev188_native_source_distribution_pushforward"
+    ],
+    "blocked_by": [],
+    "blocks": [
+      "observational_lensing_comparison"
+    ],
+    "canonical_name": "Native transfer operator",
+    "canonical_solution_ids": [
+      "dev188_native_source_distribution_pushforward"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": "2026-08-12",
+    "keywords": [
+      "transfer operator",
+      "pushforward",
+      "source image",
+      "receipt response"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [
+      "An astronomical source image still needs an independent coordinate/source boundary."
+    ],
+    "plain_language_question": "How does the native receipt response push an independently supplied source distribution forward?",
+    "reopen_condition": "Frozen receipt/launch lineage changes, or a later source-boundary bridge is independently supplied.",
+    "target_id": "native_transfer_operator"
+  },
+  {
+    "aliases": [
+      "source image boundary",
+      "source-coordinate bridge"
+    ],
+    "attempt_ids": [
+      "dev189_astronomical_source_boundary"
+    ],
+    "blocked_by": [
+      "intrinsic_source_content",
+      "angular_to_native_scale",
+      "coefficient_free_native_partition"
+    ],
+    "blocks": [
+      "observational_lensing_comparison"
+    ],
+    "canonical_name": "Astronomical source boundary",
+    "canonical_solution_ids": [
+      "dev189_astronomical_source_boundary"
+    ],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": "2026-08-12",
+    "keywords": [
+      "astronomical source",
+      "source image",
+      "coordinate boundary"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [
+      "Independent object-level pre-propagation morphology and an angular-to-native scale remain unavailable."
+    ],
+    "plain_language_question": "Can an independent astronomical source distribution be mapped to frozen native launch IDs?",
+    "reopen_condition": "An independently measured unlensed/control object source with fixed astrometry, isotropic scale, and exact native-cell partition is supplied.",
+    "target_id": "astronomical_source_boundary"
+  },
+  {
+    "aliases": [
+      "operator-only distortion"
+    ],
+    "attempt_ids": [
+      "dev190_source_independent_transfer_distortion"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Source-independent transfer distortion",
+    "canonical_solution_ids": [
+      "dev190_source_independent_transfer_distortion"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": "2026-08-12",
+    "keywords": [
+      "transfer invariant",
+      "source independent distortion"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [
+      "A later observable bridge is required; native spin-2 representation is not an observed quantity."
+    ],
+    "plain_language_question": "Can source-independent invariants of the frozen multichannel transfer operator support a later audit?",
+    "reopen_condition": "Frozen transfer-coordinate semantics or a native observer bridge changes.",
+    "target_id": "source_independent_transfer_distortion"
+  },
+  {
+    "aliases": [
+      "native transfer observable bridge",
+      "observable-layer audit"
+    ],
+    "attempt_ids": [
+      "dev191_wide_observable_boundary"
+    ],
+    "blocked_by": [
+      "intrinsic source morphology/reference information",
+      "unproven native-to-sky transfer semantics"
+    ],
+    "blocks": [],
+    "canonical_name": "Wide observable boundary",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": "2026-08-12",
+    "keywords": [
+      "observable boundary",
+      "PSF-corrected moments",
+      "transfer tensor"
+    ],
+    "last_updated_date": "2026-08-12",
+    "name": "Wide observable boundary",
+    "open_questions": [
+      "No object-level coefficient-free bridge from the frozen DEV190 tensor to an astronomical observable is derived; structural and ensemble routes remain open."
+    ],
+    "plain_language_question": "Which astronomical measurements, if any, are coefficient-free counterparts of the native transfer tensor?",
+    "reopen_condition": "Derive an independent coefficient-free measurement/transfer relation before comparison.",
+    "target_id": "wide_observable_boundary"
+  },
+  {
+    "aliases": [
+      "source cancellation audit"
+    ],
+    "attempt_ids": [
+      "dev192_same_dataset_observable_escape"
+    ],
+    "blocked_by": [
+      "no authentic recovered development moment/PSF/WCS assets",
+      "unproven native-to-sky image transfer semantics",
+      "intrinsic source terms"
+    ],
+    "blocks": [],
+    "canonical_name": "Same-dataset observable escape",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": "2026-08-12",
+    "keywords": [
+      "source elimination",
+      "same dataset",
+      "observable escape"
+    ],
+    "last_updated_date": "2026-08-12",
+    "open_questions": [
+      "No exact source elimination exists under frozen DEV190 semantics; all same-dataset measurable routes are unavailable or retain a source/ensemble assumption."
+    ],
+    "plain_language_question": "Can the fixed raw imaging dataset supply a source-free, cancelling, relative, null, or ensemble observable physically related to DEV190?",
+    "reopen_condition": "Independently derive physical image-transfer semantics and acquire provenance-tied current-dataset products without changing the frozen method.",
+    "target_id": "same_dataset_observable_escape"
+  },
+  {
+    "aliases": [
+      "extended source",
+      "multi-packet transport",
+      "image transport"
+    ],
+    "attempt_ids": [
+      "dev193_native_extended_transport"
+    ],
+    "blocked_by": [
+      "initial state composition",
+      "nonlinear simultaneous interaction"
+    ],
+    "blocks": [
+      "observational_lensing_comparison"
+    ],
+    "canonical_name": "Native extended excitation transport",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "extended excitation",
+      "superposition",
+      "simultaneous packet",
+      "packet overlap",
+      "moment transport"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No native multi-packet initial-state composition rule is established."
+    ],
+    "plain_language_question": "Do frozen native excitation, propagation, and detector laws physically define an extended incident distribution and its exact moment law?",
+    "reopen_condition": "A frozen native initial-state composition and simultaneous-propagation law is independently established.",
+    "target_id": "native_extended_excitation_transport"
+  },
+  {
+    "aliases": [
+      "event accumulation",
+      "single-event wave transport"
+    ],
+    "attempt_ids": [
+      "dev194_independent_event_wave_transport"
+    ],
+    "blocked_by": [
+      "cross-event influence regime is finite and conditional"
+    ],
+    "blocks": [
+      "observational_lensing_comparison"
+    ],
+    "canonical_name": "Independent-event wave transport",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "independent event",
+      "event accumulation",
+      "interference",
+      "two path",
+      "medium memory"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "DEV197 has classified the frozen T1/T2/T3 influence regime; broader transport remains conditional on that measured regime."
+    ],
+    "plain_language_question": "Can frozen single-excitation dynamics and receipt accumulation define an expected image without simultaneous multi-packet composition?",
+    "reopen_condition": "Establish the requested reusable regime by measured cross-event influence.",
+    "target_id": "independent_event_wave_transport"
+  },
+  {
+    "aliases": [
+      "local restoration",
+      "outgoing excitation audit"
+    ],
+    "attempt_ids": [
+      "dev195_local_force_balance_restoration"
+    ],
+    "blocked_by": [
+      "second-event injection semantics"
+    ],
+    "blocks": [
+      "independent_event_wave_transport"
+    ],
+    "canonical_name": "Local force-balance restoration",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "FOUNDATION",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "force balance",
+      "restoring force",
+      "outgoing flux",
+      "recurrence",
+      "local energy",
+      "packet tail"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Sequential injection semantics remain unimplemented and are not inferred from this one-event audit."
+    ],
+    "plain_language_question": "Under frozen reversible DEV167 dynamics, does a canonical excitation leave the launch region by outward propagation such that the local state returns toward its matched force-balanced background trajectory, despite global excitation persistence?",
+    "reopen_condition": "Use the recorded local state/support trajectories for a separately authorized existing-semantics second-event audit.",
+    "target_id": "local_force_balance_restoration"
+  },
+  {
+    "aliases": [
+      "second excitation",
+      "reinjection",
+      "repeated packet"
+    ],
+    "attempt_ids": [
+      "dev196_sequential_event_independence"
+    ],
+    "blocked_by": [],
+    "blocks": [
+      "independent_event_wave_transport"
+    ],
+    "canonical_name": "Sequential event independence",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "sequential injection",
+      "second packet",
+      "reinjection",
+      "event independence",
+      "additive displacement",
+      "additive momentum"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Exact support overlap is retained as diagnostic geometry; physical sequential independence is assessed by DEV197 cross-event native influence."
+    ],
+    "plain_language_question": "Can a second canonical excitation be injected into an already-evolved native state using existing packet semantics, and does its incremental response reproduce the fresh single-event response whenever it is dynamically separated from the prior excitation?",
+    "reopen_condition": "Reassess only from native cross-event influence, not exact support alone.",
+    "target_id": "sequential_event_independence"
+  },
+  {
+    "aliases": [
+      "interaction strength",
+      "relative force",
+      "influence ratio",
+      "perturbation ratio",
+      "cross-event residual",
+      "field strength",
+      "incremental response",
+      "response sensitivity",
+      "residual coupling"
+    ],
+    "attempt_ids": [
+      "dev197_cross_event_influence"
+    ],
+    "blocked_by": [],
+    "blocks": [
+      "independent_event_wave_transport"
+    ],
+    "canonical_name": "Cross-event influence magnitude",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "cross event",
+      "force influence",
+      "sequential event",
+      "receipt influence"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Finite T1/T2/T3 audit measures resolved influence only; it does not imply a universal separation law."
+    ],
+    "plain_language_question": "When a second canonical excitation B is launched after A using existing native semantics, does A produce any meaningful change in B\u2019s native dynamics or receipt relative to B\u2019s own fresh response?",
+    "reopen_condition": "Use predeclared sequential timing only if frozen dynamics or the canonical packet changes independently.",
+    "target_id": "cross_event_influence"
+  },
+  {
+    "aliases": [
+      "field strength",
+      "local force magnitude",
+      "influence duration"
+    ],
+    "attempt_ids": [
+      "dev198_field_strength_cross_event"
+    ],
+    "blocked_by": [],
+    "blocks": [
+      "independent_event_wave_transport"
+    ],
+    "canonical_name": "Field-strength-controlled cross-event influence",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "OBSERVER",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "residual field",
+      "force orientation",
+      "cross event",
+      "persistence"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Finite periodic pre-recurrence result is conditional on this canonical lattice."
+    ],
+    "plain_language_question": "Does the magnitude and persistence of cross-event influence between sequential canonical excitations follow the measured residual native field strength and local field state through which the later excitation propagates?",
+    "reopen_condition": "Reassess only if frozen native dynamics or canonical packet change independently.",
+    "target_id": "field_strength_cross_event_control"
+  },
+  {
+    "aliases": [
+      "local state",
+      "bond cross term",
+      "causal neighborhood"
+    ],
+    "attempt_ids": [
+      "dev199_local_state_cross_event"
+    ],
+    "blocked_by": [],
+    "blocks": [
+      "independent_event_wave_transport"
+    ],
+    "canonical_name": "Full local-state cross-event control",
+    "canonical_solution_ids": [
+      "dev199_local_state_cross_event"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "cross event",
+      "local bond",
+      "strain",
+      "orientation",
+      "N6"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Canonical-packet weak-regime membership remains unthresholded and unresolved."
+    ],
+    "plain_language_question": "Does the complete existing local native bond state uniquely account for sequential cross-event influence under DEV167 dynamics?",
+    "reopen_condition": "Only if DEV167 or DEV182 changes independently.",
+    "target_id": "full_local_state_cross_event_control"
+  },
+  {
+    "aliases": [
+      "Euler-Heisenberg",
+      "QED structure",
+      "EM correlation"
+    ],
+    "attempt_ids": [
+      "dev199_em_structural_correlation"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "EM-wave structural correlation",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "VALIDATION",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "EM",
+      "QED",
+      "orientation",
+      "background invariant"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Structural comparison establishes neither variable identity, SI calibration, nor QED derivation."
+    ],
+    "plain_language_question": "After freezing the native PBUF interaction structure, does it show coefficient-free structural correspondence with established weak/strong-field electromagnetic-wave interaction behavior?",
+    "reopen_condition": "Only with an independently defined PBUF-to-observable mapping.",
+    "target_id": "em_wave_structural_correlation"
+  },
+  {
+    "aliases": [
+      "N6 field",
+      "bond-state field",
+      "native field representation"
+    ],
+    "attempt_ids": [
+      "dev200_native_n6_field"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native N6 field representation",
+    "canonical_solution_ids": [
+      "dev200_native_n6_field"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "N6",
+      "bond state",
+      "field",
+      "momentum",
+      "packet"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Polarization and optical-phase mappings remain unestablished."
+    ],
+    "plain_language_question": "Is the complete local six-neighbor bond configuration, together with native momentum, a sufficient native field representation for canonical excitation propagation under DEV167?",
+    "reopen_condition": "Only if DEV167 or DEV182 changes independently.",
+    "target_id": "native_n6_field_representation"
+  },
+  {
+    "aliases": [
+      "weak regime",
+      "perturbative event regime"
+    ],
+    "attempt_ids": [
+      "dev200_native_n6_field"
+    ],
+    "blocked_by": [],
+    "blocks": [
+      "independent_event_wave_transport"
+    ],
+    "canonical_name": "Canonical packet weak-event regime",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "weak",
+      "tangent",
+      "nonlinear",
+      "cross event"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No threshold-free global first-order dominance was found on the canonical path."
+    ],
+    "plain_language_question": "Given DEV199 exact first-order linearization and higher-order cross terms, does the canonical DEV182 packet occupy a regime where first-order propagation dominates nonlinear cross-event interaction?",
+    "reopen_condition": "Only if DEV167 or DEV182 changes independently.",
+    "target_id": "canonical_packet_weak_event_regime"
+  },
+  {
+    "aliases": [
+      "DEV201",
+      "normal modes",
+      "tangent spectrum"
+    ],
+    "attempt_ids": [
+      "dev201_native_linear_modes"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native linear mode spectrum",
+    "canonical_solution_ids": [
+      "dev201_native_linear_modes"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "dispersion",
+      "eigenmode",
+      "wavevector",
+      "dynamical matrix",
+      "transverse"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Loaded backgrounds require a separate non-homogeneous tangent analysis."
+    ],
+    "plain_language_question": "What normal-mode spectrum follows from the tangent-linear evolution of the canonical N6 bond-state plus momentum field under frozen DEV167 dynamics?",
+    "reopen_condition": "Only if frozen DEV167 force law or background choice changes independently.",
+    "target_id": "native_linear_mode_spectrum"
+  },
+  {
+    "aliases": [
+      "EM-like wave sector",
+      "native transverse waves"
+    ],
+    "attempt_ids": [
+      "dev201_native_linear_modes"
+    ],
+    "blocked_by": [
+      "native_linear_mode_spectrum"
+    ],
+    "blocks": [],
+    "canonical_name": "EM-like transverse wave sector",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "transverse",
+      "degeneracy",
+      "isotropy",
+      "linear dispersion"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "The unloaded central-force N6 tangent has no robust transverse propagating sector."
+    ],
+    "plain_language_question": "Does the native tangent-linear spectrum contain an emergent long-wavelength wave sector with the transverse degree-of-freedom, degeneracy, isotropy, and dispersion structure required for an EM-like interpretation?",
+    "reopen_condition": "Only if frozen native dynamics acquire an independently derived transverse tangent stiffness.",
+    "target_id": "em_like_transverse_wave_sector"
+  },
+  {
+    "aliases": [
+      "DEV202",
+      "loaded transverse tangent"
+    ],
+    "attempt_ids": [
+      "dev202_self_loaded_transverse"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Self-loaded transverse native response",
+    "canonical_solution_ids": [
+      "dev202_self_loaded_transverse"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "loaded",
+      "transverse",
+      "tangent",
+      "self-loaded"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "A local loaded response is not an unloaded normal mode."
+    ],
+    "plain_language_question": "Does the canonical excitation's own DEV167-generated loaded N6 state produce stable transverse tangent restoring response absent in the unloaded vacuum?",
+    "reopen_condition": "Only if DEV167 or canonical DEV195 trajectory changes independently.",
+    "target_id": "self_loaded_transverse_native_response"
+  },
+  {
+    "aliases": [
+      "DEV202 EM-like",
+      "self-loaded wave sector"
+    ],
+    "attempt_ids": [
+      "dev202_self_loaded_transverse"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Self-loaded EM-like wave sector",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "EM-like",
+      "transverse",
+      "propagation",
+      "self-loaded"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Mapping to electromagnetism remains unestablished."
+    ],
+    "plain_language_question": "Do transverse tangent degrees of freedom generated by the excitation's own native loading propagate with the canonical excitation strongly enough to constitute an emergent self-loaded EM-like wave sector?",
+    "reopen_condition": "Only if a trajectory-tangent result changes independently.",
+    "target_id": "self_loaded_em_like_wave_sector"
+  },
+  {
+    "aliases": [
+      "DEV203",
+      "relative neighbor motion",
+      "relational propagation"
+    ],
+    "attempt_ids": [
+      "dev203_relational_wave"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Propagating relative-neighbor motion",
+    "canonical_solution_ids": [
+      "dev203_relational_wave"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "relative motion",
+      "bond velocity",
+      "strain rate",
+      "orientation rate",
+      "force rate",
+      "N6 motion field"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "This is a descriptive native state analysis, not an EM variable mapping."
+    ],
+    "plain_language_question": "Is canonical native excitation propagation fully expressed as coherent transport of changing relative neighbor relations under frozen DEV167 dynamics?",
+    "reopen_condition": "Only if frozen DEV167 dynamics or the canonical DEV195 trajectory changes independently.",
+    "target_id": "propagating_relative_neighbor_motion"
+  },
+  {
+    "aliases": [
+      "DEV203 EM-like",
+      "intrinsic transverse relational motion"
+    ],
+    "attempt_ids": [
+      "dev203_relational_wave"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Intrinsic EM-like relational wave",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "EM-like",
+      "transverse",
+      "orientation",
+      "rotation",
+      "relational wave"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Electric, magnetic, polarization, optical phase, SI and photon mappings remain independent derivations."
+    ],
+    "plain_language_question": "Does the already-propagating canonical N6 excitation contain intrinsic transported transverse and/or rotational relative-neighbor motion sufficient to constitute an EM-like native wave candidate without any added perturbation or electromagnetic input?",
+    "reopen_condition": "Only if the frozen trajectory or independent mapping derivations change.",
+    "target_id": "intrinsic_em_like_relational_wave"
+  },
+  {
+    "aliases": [
+      "DEV204",
+      "relational stress",
+      "native force response"
+    ],
+    "attempt_ids": [
+      "dev204_relational_stress_coupling"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native relational stress coupling",
+    "canonical_solution_ids": [
+      "dev204_relational_stress_coupling"
+    ],
+    "current_status": "CANONICAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "relational motion",
+      "stress response",
+      "orientation stress",
+      "finite force difference"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "The response is a derived readout of bond geometry, not an independent added field."
+    ],
+    "plain_language_question": "Does changing relative-neighbor geometry in the canonical DEV203 relational wave deterministically generate a transported native stress response through the frozen DEV167 interaction law?",
+    "reopen_condition": "Only if frozen DEV167 force law or canonical DEV195 trajectory changes.",
+    "target_id": "native_relational_stress_coupling"
+  },
+  {
+    "aliases": [
+      "DEV204 two sector",
+      "relational stress feedback"
+    ],
+    "attempt_ids": [
+      "dev204_relational_stress_coupling"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native two-sector wave coupling",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "symmetric",
+      "antisymmetric",
+      "feedback",
+      "kick drift"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No independently autonomous second field sector has been derived."
+    ],
+    "plain_language_question": "Do the symmetric and antisymmetric components of the canonical relational wave and their native stress responses form a closed complementary coupled wave structure without electromagnetic input?",
+    "reopen_condition": "Only if an already-existing native invariant is independently shown to close a reduced state.",
+    "target_id": "native_two_sector_wave_coupling"
+  },
+  {
+    "aliases": [
+      "orientation stress candidate"
+    ],
+    "attempt_ids": [
+      "dev204_relational_stress_coupling"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Orientation-driven native stress candidate",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "orientation",
+      "rotation",
+      "transverse stress"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Magnetic-field mapping remains unestablished."
+    ],
+    "plain_language_question": "Does the orientation/rotation-driven native stress response satisfy the structural requirements for a magnetic-like stress candidate prior to any mapping to the electromagnetic magnetic field?",
+    "reopen_condition": "Requires an independent EM mapping audit.",
+    "target_id": "magnetic_stress_native_candidate"
+  },
+  {
+    "aliases": [
+      "DEV205",
+      "native_em_polar_axial_field_pair"
+    ],
+    "attempt_ids": [
+      "dev205_native_em_mapping"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native polar/axial field pair",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "polar",
+      "axial",
+      "antisymmetric",
+      "handedness",
+      "native EM mapping"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No SI normalization or charge coupling is derived."
+    ],
+    "plain_language_question": "Do the already-derived DEV203\u2013204 native relational quantities contain a uniquely identifiable co-propagating transverse polar/axial field pair?",
+    "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes.",
+    "target_id": "native_em_polar_axial_field_pair"
+  },
+  {
+    "aliases": [
+      "DEV205",
+      "native_electric_field_candidate"
+    ],
+    "attempt_ids": [
+      "dev205_native_em_mapping"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native electric field candidate",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "polar",
+      "axial",
+      "antisymmetric",
+      "handedness",
+      "native EM mapping"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No SI normalization or charge coupling is derived."
+    ],
+    "plain_language_question": "Does a predetermined native polar relational quantity satisfy the geometric and dynamical requirements for an electric-like field candidate without electromagnetic input?",
+    "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes.",
+    "target_id": "native_electric_field_candidate"
+  },
+  {
+    "aliases": [
+      "DEV205",
+      "native_magnetic_field_candidate"
+    ],
+    "attempt_ids": [
+      "dev205_native_em_mapping"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native magnetic field candidate",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "polar",
+      "axial",
+      "antisymmetric",
+      "handedness",
+      "native EM mapping"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No SI normalization or charge coupling is derived."
+    ],
+    "plain_language_question": "Does the axial projection of the DEV204 orientation/rotation-driven stress response satisfy the geometric and dynamical requirements for a magnetic-like field candidate?",
+    "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes.",
+    "target_id": "native_magnetic_field_candidate"
+  },
+  {
+    "aliases": [
+      "DEV205",
+      "native_em_mapping_uniqueness"
+    ],
+    "attempt_ids": [
+      "dev205_native_em_mapping"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native EM mapping uniqueness",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "polar",
+      "axial",
+      "antisymmetric",
+      "handedness",
+      "native EM mapping"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No SI normalization or charge coupling is derived."
+    ],
+    "plain_language_question": "Is the mapping from frozen native relational quantities to an electromagnetic-like field pair unique, or do multiple native candidates satisfy the same criteria?",
+    "reopen_condition": "Only if frozen DEV203/204 inputs or a new independently derived trajectory changes.",
+    "target_id": "native_em_mapping_uniqueness"
+  },
+  {
+    "aliases": [
+      "DEV207"
+    ],
+    "attempt_ids": [
+      "dev207_two_excitation_interaction"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "native two excitation orientation interaction",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "two excitation",
+      "orientation",
+      "force",
+      "torque"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Cubic orthogonal operation is not independently available on the sourced canonical preparation."
+    ],
+    "plain_language_question": "Do two canonical native excitation structures interact differently under exact symmetry-related changes of their relative internal orientation?",
+    "reopen_condition": "Only if frozen DEV167/DEV182 state changes independently.",
+    "target_id": "native_two_excitation_orientation_interaction"
+  },
+  {
+    "aliases": [
+      "DEV207"
+    ],
+    "attempt_ids": [
+      "dev207_two_excitation_interaction"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "native pair force sign response",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "two excitation",
+      "orientation",
+      "force",
+      "torque"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Cubic orthogonal operation is not independently available on the sourced canonical preparation."
+    ],
+    "plain_language_question": "Does native orientation reversal systematically change the sign or direction of force/deflection between two excitation structures?",
+    "reopen_condition": "Only if frozen DEV167/DEV182 state changes independently.",
+    "target_id": "native_pair_force_sign_response"
+  },
+  {
+    "aliases": [
+      "DEV207"
+    ],
+    "attempt_ids": [
+      "dev207_two_excitation_interaction"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "native pair torque",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "two excitation",
+      "orientation",
+      "force",
+      "torque"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Cubic orthogonal operation is not independently available on the sourced canonical preparation."
+    ],
+    "plain_language_question": "Does the frozen relational stress law generate a torque on misaligned extended excitation structures without magnetic input?",
+    "reopen_condition": "Only if frozen DEV167/DEV182 state changes independently.",
+    "target_id": "native_pair_torque"
+  },
+  {
+    "aliases": [
+      "DEV208",
+      "native_background_expansion_strain"
+    ],
+    "attempt_ids": [
+      "dev208_native_cosmic_turnaround"
+    ],
+    "blocked_by": [
+      "scale-factor-to-native-spacing mapping",
+      "native cosmological evolution equation"
+    ],
+    "blocks": [
+      "native cyclic cosmology"
+    ],
+    "canonical_name": "Native background expansion strain",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "COSMOLOGY",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "cosmology",
+      "scale factor",
+      "native spacing",
+      "strain",
+      "restoring stress",
+      "turnaround"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Existing cosmology has no derived scale-factor-to-N6-spacing map."
+    ],
+    "plain_language_question": "Does homogeneous cosmological expansion correspond to increased mean native N6 relation length under already-existing PBUF definitions?",
+    "reopen_condition": "Supply an independently derived scale-factor-to-native-N6-spacing map and a native background evolution equation.",
+    "target_id": "native_background_expansion_strain"
+  },
+  {
+    "aliases": [
+      "DEV208",
+      "native_cosmological_restoring_stress"
+    ],
+    "attempt_ids": [
+      "dev208_native_cosmic_turnaround"
+    ],
+    "blocked_by": [
+      "scale-factor-to-native-spacing mapping",
+      "native cosmological evolution equation"
+    ],
+    "blocks": [
+      "native cyclic cosmology"
+    ],
+    "canonical_name": "Native cosmological restoring stress",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "COSMOLOGY",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "cosmology",
+      "scale factor",
+      "native spacing",
+      "strain",
+      "restoring stress",
+      "turnaround"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "The local uniform-scale diagnostic is derived, but its cosmological application is blocked by the missing map."
+    ],
+    "plain_language_question": "Does cosmological expansion increase global native restoring stress through the same frozen DEV167 constitutive law used for local dynamics?",
+    "reopen_condition": "Supply an independently derived scale-factor-to-native-N6-spacing map and a native background evolution equation.",
+    "target_id": "native_cosmological_restoring_stress"
+  },
+  {
+    "aliases": [
+      "DEV208",
+      "native_cosmological_turnaround"
+    ],
+    "attempt_ids": [
+      "dev208_native_cosmic_turnaround"
+    ],
+    "blocked_by": [
+      "scale-factor-to-native-spacing mapping",
+      "native cosmological evolution equation"
+    ],
+    "blocks": [
+      "native cyclic cosmology"
+    ],
+    "canonical_name": "Native cosmological turnaround",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "COSMOLOGY",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "cosmology",
+      "scale factor",
+      "native spacing",
+      "strain",
+      "restoring stress",
+      "turnaround"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "Neither a scale mapping nor a native cosmological evolution equation exists in current PBUF."
+    ],
+    "plain_language_question": "Does increasing native restoring response halt and reverse cosmological expansion without a new parameter or force law?",
+    "reopen_condition": "Supply an independently derived scale-factor-to-native-N6-spacing map and a native background evolution equation.",
+    "target_id": "native_cosmological_turnaround"
+  },
+  {
+    "aliases": [
+      "DEV209"
+    ],
+    "attempt_ids": [
+      "dev209_native_orientation_stress_relay"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "native n to n stress relay",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "N6",
+      "stress relay",
+      "orientation transport"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [],
+    "plain_language_question": "Does the frozen DEV167/203/204 native dynamics relay excitation-generated relational stress sequentially through intermediate N6 relations to spatially separated receiver regions?",
+    "reopen_condition": "Only if frozen DEV167/DEV182/DEV207 inputs change.",
+    "target_id": "native_n_to_n_stress_relay"
+  },
+  {
+    "aliases": [
+      "DEV209"
+    ],
+    "attempt_ids": [
+      "dev209_native_orientation_stress_relay"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "native orientation information transport",
+    "canonical_solution_ids": [],
+    "current_status": "OPEN",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "N6",
+      "stress relay",
+      "orientation transport"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [],
+    "plain_language_question": "Does the exact SAME/REVERSED source distinction derived in DEV207 survive propagation through successive native relations?",
+    "reopen_condition": "Only if frozen DEV167/DEV182/DEV207 inputs change.",
+    "target_id": "native_orientation_information_transport"
+  },
+  {
+    "aliases": [
+      "DEV210"
+    ],
+    "attempt_ids": [
+      "dev210_exact_local_em_relay"
+    ],
+    "blocked_by": [
+      "source duration/release semantics not derived"
+    ],
+    "blocks": [],
+    "canonical_name": "exact local native excitation launch",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "exact local",
+      "N6",
+      "source release",
+      "causal relay"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No pre-existing compact free native launch is defined."
+    ],
+    "plain_language_question": "Does existing frozen PBUF native source mechanics already provide a strictly finite-support excitation preparation that can evolve freely without inventing a packet profile, amplitude or source-duration parameter?",
+    "reopen_condition": "An existing, independently fixed compact free source-release preparation is derived.",
+    "target_id": "exact_local_native_excitation_launch"
+  },
+  {
+    "aliases": [
+      "DEV210"
+    ],
+    "attempt_ids": [
+      "dev210_exact_local_em_relay"
+    ],
+    "blocked_by": [
+      "source duration/release semantics not derived"
+    ],
+    "blocks": [],
+    "canonical_name": "exact local n6 relational wave relay",
+    "canonical_solution_ids": [],
+    "current_status": "BLOCKED",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "exact local",
+      "N6",
+      "source release",
+      "causal relay"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No pre-existing compact free native launch is defined."
+    ],
+    "plain_language_question": "Does an initially exact-local native disturbance generate sequential relational/stress receipt through previously untouched N6 regions under frozen DEV167 dynamics?",
+    "reopen_condition": "An existing, independently fixed compact free source-release preparation is derived.",
+    "target_id": "exact_local_n6_relational_wave_relay"
+  },
+  {
+    "aliases": [
+      "DEV211",
+      "two strain",
+      "attraction",
+      "repulsion"
+    ],
+    "attempt_ids": [
+      "dev211_two_strain_magnetism"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native two-strain attraction and repulsion",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "N6",
+      "strain",
+      "force sign",
+      "orientation"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "The only available existing static source deformation is reflection-invariant."
+    ],
+    "plain_language_question": "Do two independently fixed native strain structures exhibit attractive versus repulsive radial force under exact symmetry-related relative orientations?",
+    "reopen_condition": "Only with an already-registered non-reflection-invariant persistent strain structure.",
+    "target_id": "native_two_strain_attraction_repulsion"
+  },
+  {
+    "aliases": [
+      "DEV211 energy"
+    ],
+    "attempt_ids": [
+      "dev211_two_strain_magnetism"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native two-strain interaction energy",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "DEV167",
+      "potential",
+      "four state"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "No nonzero orientation-dependent radial force was available to test direction consistency."
+    ],
+    "plain_language_question": "Is the sign and direction of the native two-strain force consistent with the existing DEV167 elastic interaction energy under exact discrete separation/orientation changes?",
+    "reopen_condition": "Only with a nondegenerate existing strain structure.",
+    "target_id": "native_two_strain_interaction_energy"
+  },
+  {
+    "aliases": [
+      "DEV211 torque"
+    ],
+    "attempt_ids": [
+      "dev211_two_strain_magnetism"
+    ],
+    "blocked_by": [],
+    "blocks": [],
+    "canonical_name": "Native two-strain torque alignment",
+    "canonical_solution_ids": [],
+    "current_status": "PARTIAL",
+    "do_not_rederive": true,
+    "domain": "NATIVE DYNAMICS",
+    "first_seen_date": "2026-08-13",
+    "keywords": [
+      "torque",
+      "alignment",
+      "orientation"
+    ],
+    "last_updated_date": "2026-08-13",
+    "open_questions": [
+      "DEV207 reflection leaves the available source-maintained deformation invariant."
+    ],
+    "plain_language_question": "Does native torque rotate a misaligned strain structure toward a lower-interaction-energy configuration?",
+    "reopen_condition": "Only with an existing non-invariant symmetry state.",
+    "target_id": "native_two_strain_torque_alignment"
   }
 ]

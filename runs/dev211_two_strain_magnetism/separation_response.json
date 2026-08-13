@@ -1,0 +1,16 @@
+{
+  "NO_DIPOLE_FIT": true,
+  "NO_INVERSE_DISTANCE_FIT": true,
+  "NO_POWER_LAW_FIT": true,
+  "TWO_STRAIN_SEPARATION_RESPONSE": "NONMONOTONIC",
+  "interaction_energies": {
+    "5": -0.00012550237134801483,
+    "6": -0.00012334973713023427,
+    "7": -0.00012334973713019632
+  },
+  "radial_force_magnitudes": {
+    "5": 8.958939180460346e-06,
+    "6": 6.158920602551739e-06,
+    "7": 6.158920679413007e-06
+  }
+}

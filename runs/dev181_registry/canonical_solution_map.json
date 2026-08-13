@@ -1,9 +1,17 @@
 {
+  "astronomical_source_boundary": [
+    "dev189_astronomical_source_boundary"
+  ],
   "bounded_strain_constitutive": [
     "dev167_vector_relational_dynamics"
   ],
+  "canonical_packet_weak_event_regime": [],
   "coordinate_lineage": [
     "dev174_coordinate_serialization"
+  ],
+  "cross_event_influence": [],
+  "discrete_native_launch_domain": [
+    "dev183_discrete_launch_domain_packet_lineage"
   ],
   "domain_accumulation": [],
   "domain_cosmology": [],
@@ -14,22 +22,86 @@
   "domain_planck_finite_bound": [],
   "domain_propagation": [],
   "domain_reversibility": [],
+  "em_like_transverse_wave_sector": [],
+  "em_wave_structural_correlation": [],
+  "exact_local_n6_relational_wave_relay": [],
+  "exact_local_native_excitation_launch": [],
+  "field_strength_cross_event_control": [],
   "finite_loaded_receipt": [
     "dev168_finite_loaded_receipt"
+  ],
+  "full_local_state_cross_event_control": [
+    "dev199_local_state_cross_event"
+  ],
+  "independent_event_wave_transport": [],
+  "intrinsic_em_like_relational_wave": [],
+  "local_force_balance_restoration": [],
+  "magnetic_stress_native_candidate": [],
+  "native_background_expansion_strain": [],
+  "native_cosmological_restoring_stress": [],
+  "native_cosmological_turnaround": [],
+  "native_electric_field_candidate": [],
+  "native_em_mapping_uniqueness": [],
+  "native_em_polar_axial_field_pair": [],
+  "native_extended_excitation_transport": [],
+  "native_launch_density_convergence": [
+    "dev184_discrete_launch_density_convergence"
+  ],
+  "native_linear_mode_spectrum": [
+    "dev201_native_linear_modes"
   ],
   "native_loaded_directional_response": [
     "dev167_vector_relational_dynamics"
   ],
+  "native_magnetic_field_candidate": [],
+  "native_mode_channel_sufficiency": [
+    "dev186_native_mode_channel_sufficiency"
+  ],
+  "native_n6_field_representation": [
+    "dev200_native_n6_field"
+  ],
+  "native_n_to_n_stress_relay": [],
+  "native_orientation_information_transport": [],
   "native_packet_launch_representation": [
     "dev182_native_packet_launch_representation"
   ],
+  "native_pair_force_sign_response": [],
+  "native_pair_torque": [],
+  "native_relational_stress_coupling": [
+    "dev204_relational_stress_coupling"
+  ],
+  "native_transfer_operator": [
+    "dev188_native_source_distribution_pushforward"
+  ],
+  "native_two_excitation_orientation_interaction": [],
+  "native_two_sector_wave_coupling": [],
+  "native_two_strain_attraction_repulsion": [],
+  "native_two_strain_interaction_energy": [],
+  "native_two_strain_torque_alignment": [],
   "observational_lensing_comparison": [],
-  "physical_observer_mapping": [],
+  "physical_observer_mapping": [
+    "dev187_physical_native_observer"
+  ],
+  "propagating_relative_neighbor_motion": [
+    "dev203_relational_wave"
+  ],
+  "received_state_distribution_sufficiency": [
+    "dev185_received_state_distribution_sufficiency"
+  ],
+  "same_dataset_observable_escape": [],
   "sampling_density_terms": [
     "dev180_density_reconciliation"
   ],
+  "self_loaded_em_like_wave_sector": [],
+  "self_loaded_transverse_native_response": [
+    "dev202_self_loaded_transverse"
+  ],
+  "sequential_event_independence": [],
   "source_depth_reconstruction": [
     "dev171_independent_3d_source"
+  ],
+  "source_independent_transfer_distortion": [
+    "dev190_source_independent_transfer_distortion"
   ],
   "source_medium_coupling": [],
   "source_work_accounting": [
@@ -38,5 +110,6 @@
   "vulkan_viewer": [
     "dev178_vulkan_viewer"
   ],
-  "weak_lensing_native_path": []
+  "weak_lensing_native_path": [],
+  "wide_observable_boundary": []
 }

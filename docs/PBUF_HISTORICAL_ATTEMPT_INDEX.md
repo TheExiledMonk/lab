@@ -92,3 +92,9 @@ DEV206 rule: fixed N6 topology and pre-existing source-contact/transport data ma
 
 DEV207: pair interaction uses exact reflected packet orientation and four-state native residuals; it does not infer EM fields or poles.
 DEV208 rule: a divergent local finite-bound stress does not imply cosmological turnaround; derive both the scale-to-spacing bridge and global evolution equation first.
+
+DEV209: passive fixed N6 planes audit stress and exact DEV207 reflection transport without a long-range pair force or receiver packet.
+
+DEV210 rule: exact local external source-contact support is not a compact free excitation; no causal-receipt experiment may be inferred until independently fixed source-release semantics provide one.
+
+DEV211 rule: a reflection-invariant existing source deformation cannot establish magnetic-like attraction/repulsion duality; do not substitute a newly shaped magnet profile or arbitrary rotation sweep.

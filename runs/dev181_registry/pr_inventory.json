@@ -3,6 +3,27 @@
   "discovered_pr_numbers": [],
   "github_prs_inspected": [
     {
+      "headRefName": "agent/dev195-local-force-balance",
+      "mergedAt": "2026-08-13T06:56:16Z",
+      "number": 111,
+      "state": "MERGED",
+      "title": "Derive DEV201 native linear mode spectrum"
+    },
+    {
+      "headRefName": "agent/dev173-coordinate-lineage",
+      "mergedAt": "2026-08-13T06:55:59Z",
+      "number": 110,
+      "state": "MERGED",
+      "title": "Audit native extended excitation transport"
+    },
+    {
+      "headRefName": "agent/dev173-coordinate-lineage",
+      "mergedAt": "2026-08-11T22:10:28Z",
+      "number": 109,
+      "state": "MERGED",
+      "title": "agent/dev173 coordinate lineage"
+    },
+    {
       "headRefName": "dev-doc-112-fullscale-vulkan-observer-validation",
       "mergedAt": "2026-08-10T20:35:25Z",
       "number": 108,
@@ -769,6 +790,7 @@
     "PR74",
     "PR16",
     "PR106",
-    "PR107"
+    "PR107",
+    "#109"
   ]
 }

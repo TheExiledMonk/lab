@@ -1,0 +1,9 @@
+{
+  "FORCE_ENERGY_DIRECTION_CONSISTENCY": "INCONSISTENT",
+  "U_int_R": -0.00012334973713023427,
+  "U_int_R_minus_1": -0.00012550237134801483,
+  "U_int_R_plus_1": -0.00012334973713019632,
+  "classification_force": "REPULSION",
+  "reason": "The fixed-support native-potential diagnostic decreases toward smaller separation although the support force is repulsive.",
+  "symmetric_discrete_difference": 1.0763171089092551e-06
+}
