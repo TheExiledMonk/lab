@@ -1,0 +1,6 @@
+{
+  "NATIVE_PAIR_DISTANCE_METRIC": "N6_GRAPH_DISTANCE",
+  "NO_FORCE_BASED_SELECTION": true,
+  "PERIODIC_BOUNDARY_HANDLING_EXACT": true,
+  "canonical_source": "DEV167 periodic N6 topology; DEV215 n6_ball uses its shortest periodic coordinate realization"
+}

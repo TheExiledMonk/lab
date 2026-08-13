@@ -114,3 +114,5 @@ DEV215 rule: local state histories retain p, r, epsilon, F, and J without premat
 DEV216 rule: use fixed DEV215 N6 boundary cuts for DEV214 states; do not resize a region or infer phase, current, poles, or fields from the result.
 
 DEV216 rule: use fixed DEV215 N6 boundary cuts for DEV214 states; do not resize a region or infer phase, current, poles, or fields from the result.
+
+DEV217 rule: DEV216 showed that individually conservation-valid closed regions do not define a pair-force observer when they overlap. Do not resize, delete overlap nodes post hoc, or select a partition from force results.

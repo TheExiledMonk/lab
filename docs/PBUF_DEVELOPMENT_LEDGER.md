@@ -516,3 +516,8 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 - **Native Bond-Cut Force Rule:** Momentum transfer across a fixed native region is the exact sum of DEV167 pair forces on N6 bonds crossing its geometric boundary. It is action–reaction consistent by construction and supersedes overlapping provenance-support attribution for conservation-sensitive diagnostics.
 - DEV216 retains the frozen DEV214 four-state preparation and DEV215 radius-two N6 geometry. Any paired attraction/repulsion label remains gated by paired-region closure.
+
+## LEDGER ENTRY 052 — DEV217 NATIVE PAIR-PARTITION RULE
+
+- **Native Pair-Partition Rule:** frozen centers define observer regions solely by canonical periodic shortest N6 distance. Equidistant nodes remain an explicit interface and do not identify persistent packet membership.
+- **Native Interface-Force Rule:** exact DEV167 N6 pair forces crossing a frozen region boundary are reciprocal under reversed orientation. DEV216’s overlapping radius-two observer remains a negative result.

@@ -1,0 +1,5 @@
+{
+  "NATIVE_PAIR_INTERFACE_FORCE_OBSERVER": "DERIVED",
+  "NO_INTERFACE_MOMENTUM_SPLITTING": true,
+  "construction": "exact direct A-B bond transfer plus retained A-I/I-B accounting; the interface momentum is never split"
+}
