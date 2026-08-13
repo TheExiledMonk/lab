@@ -1,0 +1,11 @@
+{
+  "FROZEN_CONDITION_CLOSURE_RULE_ADDED": true,
+  "NO_RESULT_MOTIVATED_REOPENING": true,
+  "formula": "R-=R-(M,P,G,B,O,\u0394x,\u0394t,T)",
+  "negative_levels": [
+    "NEGATIVE_OBSERVABLE",
+    "NEGATIVE_MECHANISM_UNDER_FROZEN_CONDITIONS",
+    "NEGATIVE_PHYSICAL_MECHANISM"
+  ],
+  "non_implication": "negative observable !=> negative mechanism !=> negative theory"
+}

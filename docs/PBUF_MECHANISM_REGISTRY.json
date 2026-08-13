@@ -5188,6 +5188,56 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev227_magnetic_candidate_exhaustion",
+      "target_id": "two_body_interstitial_relational_pattern",
+      "name": "DEV227 magnetic candidate exhaustion and lab-validity audit",
+      "aliases": [
+        "DEV227"
+      ],
+      "summary": "Historical and representativeness audit only; no native dynamics, pair force, static pattern, or dynamic movement test was run.",
+      "why_attempted": "A candidate space cannot be called exhausted until both candidate completeness and frozen-lab representativeness pass.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV227",
+      "branch": "dev227-magnetic-candidate-exhaustion",
+      "files": [
+        "tools/generate_dev227_magnetic_candidate_exhaustion.py"
+      ],
+      "run_directories": [
+        "runs/dev227_magnetic_candidate_exhaustion"
+      ],
+      "tests": [
+        "tests/test_dev227_negative_scope_rule.py",
+        "tests/test_dev227_historical_scope_matrix.py",
+        "tests/test_dev227_interstitial_novelty.py",
+        "tests/test_dev227_no_pair_force_retest.py",
+        "tests/test_dev227_lab_validity_gate.py",
+        "tests/test_dev227_source_state_gate.py",
+        "tests/test_dev227_next_selector.py",
+        "tests/test_dev227_no_new_physics.py"
+      ],
+      "equations": [
+        "R-=R-(M,P,G,B,O,\u0394x,\u0394t,T)"
+      ],
+      "result": "PARTIAL",
+      "result_reason": "Interstitial candidate has PARTIAL_OVERLAP_DEV217_218, but current active persistent magnet-like source state is NOT_DERIVED; no absence claim is admissible.",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Only an independently derived source-state, geometry, or other representativeness condition may authorize the next gate.",
+      "do_not_repeat_reason": "Do not rerun closed force, winding, or staggered-order routes; DEV227 is an audit, not a result-motivated rescue.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev227_magnetic_candidate_exhaustion/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "current_frontiers": [
@@ -8629,7 +8679,8 @@
       "canonical_name": "magnetic mechanism next discriminating test",
       "plain_language_question": "What is the next allowed minimal magnetic-mechanism test?",
       "aliases": [
-        "DEV226"
+        "DEV226",
+        "DEV227"
       ],
       "keywords": [
         "staggered",
@@ -8641,21 +8692,22 @@
       "first_seen_date": "2026-08-13",
       "last_updated_date": "2026-08-13",
       "attempt_ids": [
-        "dev226_staggered_local_order"
+        "dev226_staggered_local_order",
+        "dev227_magnetic_candidate_exhaustion"
       ],
       "current_status": "OPEN",
       "canonical_solution_ids": [
-        "dev226_staggered_local_order"
+        "dev227_magnetic_candidate_exhaustion"
       ],
       "open_questions": [
-        "Frozen DEV227 selector: MAGNETIC_CANDIDATE_EXHAUSTION_AUDIT."
+        "Frozen DEV228 selector: TWO_BODY_SOURCE_STATE_VALIDITY_GATE."
       ],
       "blocked_by": [],
       "blocks": [
         "magnetic_mechanism_next_discriminating_test"
       ],
       "do_not_rederive": true,
-      "reopen_condition": "DEV226 is authorized only as the predeclared tensor-neighbor relation audit."
+      "reopen_condition": "Follow only the DEV227 frozen next-selector and independently derived representativeness gates."
     },
     {
       "target_id": "native_local_handedness_representation",
@@ -8908,6 +8960,141 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Only if frozen DEV203 tensor archive or DEV225 contraction changes independently."
+    },
+    {
+      "target_id": "frozen_condition_closure_scope",
+      "canonical_name": "frozen condition closure scope",
+      "plain_language_question": "What physical claim is actually closed by a negative result under a particular native preparation, geometry, observer and numerical regime?",
+      "aliases": [
+        "DEV227"
+      ],
+      "keywords": [
+        "magnetic",
+        "two body",
+        "interstitial",
+        "representativeness",
+        "closure scope"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev227_magnetic_candidate_exhaustion"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev227_magnetic_candidate_exhaustion"
+      ],
+      "open_questions": [
+        "No interstitial pattern result is authorized by DEV227."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently derived physical representativeness reason; never because a prior result was negative."
+    },
+    {
+      "target_id": "two_body_interstitial_relational_pattern",
+      "canonical_name": "two body interstitial relational pattern",
+      "plain_language_question": "Does the native medium between two spatially separated source structures develop a coefficient-free organized N6 relational/stress pattern?",
+      "aliases": [
+        "DEV227"
+      ],
+      "keywords": [
+        "magnetic",
+        "two body",
+        "interstitial",
+        "representativeness",
+        "closure scope"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev227_magnetic_candidate_exhaustion"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [
+        "dev227_magnetic_candidate_exhaustion"
+      ],
+      "open_questions": [
+        "No interstitial pattern result is authorized by DEV227."
+      ],
+      "blocked_by": [
+        "magnet_like_source_state_validity",
+        "two_body_lab_representativeness"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently derived physical representativeness reason; never because a prior result was negative."
+    },
+    {
+      "target_id": "two_body_lab_representativeness",
+      "canonical_name": "two body lab representativeness",
+      "plain_language_question": "Does the current native lab instantiate the source state, geometry, boundary conditions and temporal regime required to test a magnet\u2013magnet interstitial pattern?",
+      "aliases": [
+        "DEV227"
+      ],
+      "keywords": [
+        "magnetic",
+        "two body",
+        "interstitial",
+        "representativeness",
+        "closure scope"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev227_magnetic_candidate_exhaustion"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [
+        "dev227_magnetic_candidate_exhaustion"
+      ],
+      "open_questions": [
+        "No interstitial pattern result is authorized by DEV227."
+      ],
+      "blocked_by": [
+        "magnet_like_source_state_validity"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently derived physical representativeness reason; never because a prior result was negative."
+    },
+    {
+      "target_id": "passive_induced_material_response",
+      "canonical_name": "passive induced material response",
+      "plain_language_question": "Does the current native state contain a coefficient-free passive response capable of representing magnet\u2013iron interaction rather than two active prepared sources?",
+      "aliases": [
+        "DEV227"
+      ],
+      "keywords": [
+        "magnetic",
+        "two body",
+        "interstitial",
+        "representativeness",
+        "closure scope"
+      ],
+      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev227_magnetic_candidate_exhaustion"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [
+        "dev227_magnetic_candidate_exhaustion"
+      ],
+      "open_questions": [
+        "No interstitial pattern result is authorized by DEV227."
+      ],
+      "blocked_by": [
+        "passive inducible native material response"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently derived physical representativeness reason; never because a prior result was negative."
     }
   ],
   "development_gate_selectors": [

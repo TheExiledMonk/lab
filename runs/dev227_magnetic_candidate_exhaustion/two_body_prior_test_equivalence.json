@@ -1,0 +1,6 @@
+{
+  "INTERSTITIAL_PATTERN_EQUIVALENT_TO_DEV221": false,
+  "TWO_BODY_INTERSTITIAL_PATTERN_PRIOR_TEST_EQUIVALENCE": "PARTIAL_OVERLAP_DEV217_218",
+  "TWO_BODY_INTERSTITIAL_PATTERN_PRIOR_TEST_EQUIVALENCE_CLASSIFIED": true,
+  "reason": "DEV217/218 provide pair interface and force infrastructure; DEV221 is one-object co-moving geometry; neither maps the spatial volume between two bodies."
+}

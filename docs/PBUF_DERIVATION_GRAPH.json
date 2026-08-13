@@ -1035,6 +1035,26 @@
     {
       "id": "staggered_order_temporal_character",
       "type": "TARGET"
+    },
+    {
+      "id": "dev227_magnetic_candidate_exhaustion",
+      "type": "ATTEMPT"
+    },
+    {
+      "id": "frozen_condition_closure_scope",
+      "type": "TARGET"
+    },
+    {
+      "id": "two_body_interstitial_relational_pattern",
+      "type": "TARGET"
+    },
+    {
+      "id": "two_body_lab_representativeness",
+      "type": "TARGET"
+    },
+    {
+      "id": "passive_induced_material_response",
+      "type": "TARGET"
     }
   ],
   "edges": [
@@ -2402,6 +2422,31 @@
       "source": "dev226_staggered_local_order",
       "target": "native_distributed_staggered_local_order",
       "type": "DERIVES"
+    },
+    {
+      "source": "dev226_staggered_local_order",
+      "target": "dev227_magnetic_candidate_exhaustion",
+      "type": "AUTHORIZES"
+    },
+    {
+      "source": "dev227_magnetic_candidate_exhaustion",
+      "target": "frozen_condition_closure_scope",
+      "type": "DERIVES"
+    },
+    {
+      "source": "dev227_magnetic_candidate_exhaustion",
+      "target": "two_body_interstitial_relational_pattern",
+      "type": "AUDITS"
+    },
+    {
+      "source": "dev227_magnetic_candidate_exhaustion",
+      "target": "two_body_lab_representativeness",
+      "type": "GATES"
+    },
+    {
+      "source": "two_body_lab_representativeness",
+      "target": "passive_induced_material_response",
+      "type": "DISTINGUISHES"
     }
   ]
 }

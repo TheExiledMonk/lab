@@ -1,0 +1,12 @@
+{
+  "LAB_REPRESENTATIVENESS_GATE_ADDED": true,
+  "failure_result": "INCONCLUSIVE_LAB_REPRESENTATION",
+  "required_dimensions": [
+    "source state",
+    "geometry",
+    "material response",
+    "boundary conditions",
+    "temporal regime",
+    "observer"
+  ]
+}

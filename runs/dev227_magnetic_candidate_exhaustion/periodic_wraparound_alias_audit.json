@@ -1,0 +1,5 @@
+{
+  "PERIODIC_WRAPAROUND_INTERSTITIAL_ALIAS_AUDITED": true,
+  "classification": "UNRESOLVED_GEOMETRY",
+  "risk": "periodic topology can create more than one short path; no clean gap claim is authorized before geometry derivation."
+}

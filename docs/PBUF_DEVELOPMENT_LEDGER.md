@@ -563,3 +563,12 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 ## LEDGER ENTRY 060 — DEV226 NATIVE STAGGERED ANTISYMMETRIC ORDER
 
 - **Staggered-Order Closure Rule:** The frozen DEV203 antisymmetric tensor audit is `ALIGNED_DOMINANT` under the uniquely authorized raw relation `A(a):A(b)`, with axis structure `NO_AXIS_ORDER` and temporal character `PERSISTENT`. No component selection, threshold, parity fitting, or timestep selection was used.
+
+
+## LEDGER ENTRY 061 — DEV227 FROZEN-CONDITION MAGNETIC-CANDIDATE AUDIT
+
+- **Frozen-Condition Closure Rule:** A negative native result closes only the mechanics, preparation, geometry, boundary conditions, observer, spatial resolution, temporal resolution, and sampled duration/regime explicitly frozen by that experiment: `R-=R-(M,P,G,B,O,Δx,Δt,T)`. Broader physical exclusion requires independent evidence that this contract represents the excluded phenomenon.
+- **Negative-Level Rule:** `NEGATIVE_OBSERVABLE` does not imply `NEGATIVE_MECHANISM_UNDER_FROZEN_CONDITIONS`, and that does not imply `NEGATIVE_PHYSICAL_MECHANISM`.
+- **Reopening Rule:** `NO_RESULT_MOTIVATED_REOPENING=true`. A changed condition may reopen a route only for an independently derived physical reason, never because a prior outcome was unfavorable.
+- **Lab-Representativeness Gate:** Before absence in a native simulation is interpreted as absence of a target physical mechanism, source state, geometry, material response, boundaries, temporal regime, and observer must represent it. Gate failure yields `INCONCLUSIVE_LAB_REPRESENTATION`, not physical absence.
+- **Two-Body Interstitial Pattern Candidate:** DEV217/DEV218 establish pair partition/interface mechanics and force accounting, not a volumetric audit of the N6 relational/stress structure between separated bodies. Candidate novelty is `PARTIAL_OVERLAP_DEV217_218`; the source-state gate is `NOT_DERIVED`, so DEV228 is frozen as `TWO_BODY_SOURCE_STATE_VALIDITY_GATE` before any pattern mapping.

@@ -134,3 +134,5 @@ DEV224 rule: zero DEV220 global winding is not evidence against staggered local 
 DEV225 rule: DEV203 A_ij=(M_ij-M_ji)/2 admits the coefficient-free Euclidean nearest-neighbor relation A(a):A(b)=2 omega(a) dot omega(b); no component, scalar relabeling, or staggered outcome was inspected.
 
 DEV226 rule: walk every unique periodic N6 bond at every frozen DEV203 timestep using only A(a):A(b); retain exact machine zero contractions and do not introduce R/L states, thresholds, or parity fitting.
+
+DEV227 rule: negative results remain frozen-condition closures. DEV217/218 interface-force accounting is not a volumetric two-body interstitial-pattern audit; do not substitute a second active source for passive material, or use a negative result to select new geometry, observer, source state, damping, amplitude, or oscillation.

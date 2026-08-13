@@ -1,0 +1,11 @@
+{
+  "NO_PARAMETER_SWEEP": true,
+  "TWO_BODY_GEOMETRY_REPRESENTATION": "NONUNIQUE",
+  "TWO_BODY_SCALE_SEPARATION_AUDITED": true,
+  "distinguish": [
+    "source size",
+    "source separation",
+    "box size",
+    "native lattice spacing"
+  ]
+}

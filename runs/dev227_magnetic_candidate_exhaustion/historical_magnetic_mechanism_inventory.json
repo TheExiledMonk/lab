@@ -1,0 +1,98 @@
+{
+  "HISTORICAL_INDEX_READ": true,
+  "positive_structures_preserved": [
+    "DEV203 relational wave candidate",
+    "DEV204 orientation-stress feedback",
+    "DEV214 state-dependent torque",
+    "DEV221 directional geometry",
+    "DEV223 distributed N6 pattern mismatch",
+    "DEV226 persistent aligned antisymmetric order"
+  ],
+  "reviewed": {
+    "DEV159": {
+      "read": true
+    },
+    "DEV195": {
+      "read": true
+    },
+    "DEV196": {
+      "read": true
+    },
+    "DEV197": {
+      "read": true
+    },
+    "DEV198": {
+      "read": true
+    },
+    "DEV199": {
+      "read": true
+    },
+    "DEV200": {
+      "read": true
+    },
+    "DEV201": {
+      "read": true
+    },
+    "DEV202": {
+      "read": true
+    },
+    "DEV203": {
+      "read": true
+    },
+    "DEV204": {
+      "read": true
+    },
+    "DEV205": {
+      "read": true
+    },
+    "DEV206": {
+      "read": true
+    },
+    "DEV207": {
+      "read": true
+    },
+    "DEV211": {
+      "read": true
+    },
+    "DEV214": {
+      "read": true
+    },
+    "DEV215": {
+      "read": true
+    },
+    "DEV217": {
+      "final_contract_sha256": "2efc8e7093015122051875d3b5b65acee8bad1fc0f33b2b50f39ac30efea10c0",
+      "read": true
+    },
+    "DEV218": {
+      "final_contract_sha256": "a0b0347fed7ce36f9a27a6a3d01804748e4f1f9437123dd978839891b2bb13e5",
+      "read": true
+    },
+    "DEV219": {
+      "read": true
+    },
+    "DEV220": {
+      "read": true
+    },
+    "DEV221": {
+      "read": true
+    },
+    "DEV222": {
+      "read": true
+    },
+    "DEV223": {
+      "final_contract_sha256": "d4c8fea4cf68951156326840d4fb28179da7b1e3cc894ceafef5e5ababbe8d00",
+      "read": true
+    },
+    "DEV224": {
+      "read": true
+    },
+    "DEV225": {
+      "read": true
+    },
+    "DEV226": {
+      "final_contract_sha256": "b1a5dea40bbc43475736be3972843aa9257dd60f1d72208ee046e279f5351db2",
+      "read": true
+    }
+  }
+}
