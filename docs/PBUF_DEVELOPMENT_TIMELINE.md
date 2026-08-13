@@ -56,6 +56,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV209 | native n to n stress relay | DEV209 native N-to-N orientation stress relay | PARTIAL | OPEN |
 | 2026-08-13 | DEV210 | exact local native excitation launch | DEV210 exact local native launch and causal EM-wave relay audit | BLOCKED | BLOCKED |
 | 2026-08-13 | DEV211 | Native two-strain attraction and repulsion | DEV211 two-strain native magnetism audit | PARTIAL | PARTIAL |
+| 2026-08-13 | DEV212 | Native strain internal multistate | DEV212 native multistate strain/polarity audit | PARTIAL | PARTIAL |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

@@ -475,3 +475,8 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 
 - **Two-Strain Magnetic Claim Boundary:** Attraction, repulsion, and torque arising from relative native strain geometry would constitute mechanism-level magnetic-like behavior. They do not independently establish magnetic poles, B-field identity, electric charge, Maxwell equations, SI normalization, permanent magnetism, or an electromagnetic wave.
 - DEV211's available source-maintained DEV167 deformation is invariant under the exact DEV207 reflection. Its SAME and REVERSED states are therefore degenerate; this audit does not derive force-sign reversal or torque.
+
+## LEDGER ENTRY 047 — DEV212 NATIVE MULTI-STATE STRAIN AUDIT
+
+- **Native Strain Multi-State Rule:** A frozen DEV167 full state retains momentum as well as displacement. The exact involution `(u,p) -> (u,-p)` produces physically distinct equal-energy states while preserving all strain geometry and reverses signed native pair-power flux.
+- **Dynamic Magnetic-Polarity Claim Boundary:** A native binary or multistate strain structure whose internal state controls attraction, repulsion, or torque would constitute mechanism-level magnetic-polarity evidence. This result does not establish magnetic poles, B-field identity, electric current, electric charge, Maxwell equations, SI normalization, or permanent magnetism. DEV212 has not authorized a two-structure interaction because physical simultaneous composition of dynamic packet states remains unestablished.
