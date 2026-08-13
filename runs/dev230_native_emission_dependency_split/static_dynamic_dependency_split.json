@@ -1,0 +1,24 @@
+{
+  "STATIC_DYNAMIC_DEPENDENCY_SPLIT_RECORDED": true,
+  "dynamic_em_wave_generation_lane": {
+    "does_not_assume": [
+      "persistent source",
+      "release event"
+    ],
+    "requires": [
+      "valid changing source-medium interaction",
+      "changing N6 relations",
+      "propagating relational disturbance"
+    ]
+  },
+  "static_magnetic_like_source_lane": {
+    "requires": [
+      "NATIVE_SOURCE_RELEASE_REPRESENTATION",
+      "PERSISTENT_NATIVE_SOURCE_DERIVATION",
+      "MAGNET_LIKE_SOURCE_STATE_VALIDITY",
+      "TWO_BODY_SOURCE_COMPOSITION",
+      "TWO_BODY_INTERSTITIAL_PATTERN_REPRESENTATION"
+    ],
+    "status": "BLOCKED_SOURCE_RELEASE"
+  }
+}

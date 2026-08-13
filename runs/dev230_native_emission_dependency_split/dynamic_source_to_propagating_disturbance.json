@@ -1,0 +1,5 @@
+{
+  "DYNAMIC_SOURCE_TO_PROPAGATING_DISTURBANCE": "PARTIAL",
+  "DYNAMIC_SOURCE_TO_PROPAGATING_DISTURBANCE_CLASSIFIED": true,
+  "reason": "DEV159 supplies a discrete translating-contact representation, while DEV203 derives propagation; no common time-resolved DEV159 residual observer establishes their direct causal connection."
+}

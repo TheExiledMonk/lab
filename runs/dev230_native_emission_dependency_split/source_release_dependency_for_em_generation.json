@@ -1,0 +1,7 @@
+{
+  "NO_PERSISTENT_SOURCE_REQUIRED_BY_ASSUMPTION": true,
+  "NO_RELEASE_EVENT_REQUIRED_BY_ASSUMPTION": true,
+  "SOURCE_RELEASE_DEPENDENCY_FOR_EM_GENERATION": "NOT_REQUIRED",
+  "SOURCE_RELEASE_DEPENDENCY_FOR_EM_GENERATION_CLASSIFIED": true,
+  "reason": "Emission during a valid changing coupling event is conceptually independent of the post-event residual-object question."
+}

@@ -1,0 +1,12 @@
+{
+  "NO_ARBITRARY_SOURCE_MOTION": true,
+  "mechanisms_found": [
+    "TRANSLATING_CONTACT",
+    "VALID_STATE_INJECTION"
+  ],
+  "not_found": [
+    "MOVING_CONSTRAINT",
+    "SOURCE_GEOMETRY_CHANGE",
+    "AGGREGATE_STATE_CHANGE"
+  ]
+}

@@ -140,3 +140,5 @@ DEV227 rule: negative results remain frozen-condition closures. DEV217/218 inter
 DEV228 rule: source validity precedes interstitial mapping; DEV213's finite aggregate preparation is not linear propagation superposition, and X=2 never closes X>2 without a reduction theorem.
 
 DEV229 rule: DEV210 leaves native source-release semantics NOT_DERIVED; a release step, persistence duration, support threshold, or aggregate count cannot be selected to bypass that representation block.
+
+DEV230 rule: persistent-source release blocks the static lane only. Do not use a prepared DEV203 wave as source-generation proof; reopen dynamic emission only through a common source-transition/relational-wave representation.

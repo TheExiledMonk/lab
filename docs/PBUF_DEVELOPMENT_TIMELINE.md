@@ -74,6 +74,7 @@ Generated from `docs/PBUF_MECHANISM_REGISTRY.json`; do not edit directly.
 | 2026-08-13 | DEV227 | two body interstitial relational pattern | DEV227 magnetic candidate exhaustion and lab-validity audit | PARTIAL | CANONICAL |
 | 2026-08-13 | DEV228 | Magnet-like source-state validity | DEV228 native persistent source-state validity and collective-source gate | PARTIAL | CANONICAL |
 | 2026-08-13 | DEV229 | Persistent native source derivation | DEV229 persistent native source derivation gate | BLOCKED | BLOCKED |
+| 2026-08-13 | DEV230 | Dynamic native EM generation | DEV230 native emission dependency split | BLOCKED | BLOCKED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | A8/M10 processed five-lens path | FULL | SUPERSEDED |
 | UNKNOWN | Pre-ledger | Weak-lensing native path | Scalar/gradient lensing and old ray architecture | PARTIAL | HISTORICAL_ONLY |
 | UNKNOWN | PR106 | Sampling and density terminology | Historical 25% to 100% launch-density coverage | FULL | HISTORICAL_ONLY |

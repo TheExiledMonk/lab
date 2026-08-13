@@ -5345,6 +5345,58 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev230_native_emission_dependency_split",
+      "target_id": "dynamic_native_em_generation",
+      "name": "DEV230 native emission dependency split",
+      "aliases": [
+        "DEV230"
+      ],
+      "summary": "Read-only comparison of DEV159 source contact, DEV203 propagation, DEV204 finite-step force change, and DEV229 source persistence.",
+      "why_attempted": "Separate static persistent-source requirements from dynamic wave-generation requirements without adding source or EM physics.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV230",
+      "branch": "",
+      "files": [
+        "tools/generate_dev230_native_emission_dependency_split.py"
+      ],
+      "run_directories": [
+        "runs/dev230_native_emission_dependency_split"
+      ],
+      "tests": [
+        "tests/test_dev230_repo_first.py",
+        "tests/test_dev230_dependency_split.py",
+        "tests/test_dev230_release_not_assumed_required.py",
+        "tests/test_dev230_dev159_bridge.py",
+        "tests/test_dev230_dev203_comparison.py",
+        "tests/test_dev230_off_state.py",
+        "tests/test_dev230_no_threshold.py",
+        "tests/test_dev230_no_new_physics.py",
+        "tests/test_dev230_future_lane_separation.py",
+        "tests/test_dev230_next_selector.py"
+      ],
+      "equations": [
+        "Delta F=Delta sigma rhat+sigma Delta rhat+Delta sigma Delta rhat"
+      ],
+      "result": "BLOCKED",
+      "result_reason": "DEV159 has no time-resolved source-transition residual in DEV203's bond-resolved representation; source release is not assumed required.",
+      "current_status": "BLOCKED",
+      "canonical": true,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Derive a common native source-transition-to-relational-wave representation.",
+      "do_not_repeat_reason": "Do not select a release timestep, source shape, amplitude, frequency, observer, topology, or source count.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev230_native_emission_dependency_split/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "current_frontiers": [
@@ -9602,6 +9654,215 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Only after a canonically defined native source release is independently derived."
+    },
+    {
+      "target_id": "dynamic_native_em_generation",
+      "canonical_name": "Dynamic native EM generation",
+      "plain_language_question": "Does a changing valid source-medium interaction generate a propagating native relational disturbance without requiring a persistent source?",
+      "aliases": [
+        "DEV230"
+      ],
+      "keywords": [
+        "emission",
+        "source wave",
+        "DEV159",
+        "DEV203"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev230_native_emission_dependency_split"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A common source-transition-to-bond-relational representation is required for the source-generation bridge."
+      ],
+      "blocked_by": [
+        "source_generated_residual_to_relational_wave"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently valid, time-resolved source transition archived in DEV203-compatible native relations."
+    },
+    {
+      "target_id": "native_emission_binary_rule",
+      "canonical_name": "Native emission binary rule",
+      "plain_language_question": "Does no relational change imply no emission while relational excitation implies propagation?",
+      "aliases": [
+        "DEV230"
+      ],
+      "keywords": [
+        "emission",
+        "source wave",
+        "DEV159",
+        "DEV203"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev230_native_emission_dependency_split"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A common source-transition-to-bond-relational representation is required for the source-generation bridge."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently valid, time-resolved source transition archived in DEV203-compatible native relations."
+    },
+    {
+      "target_id": "native_source_generated_em_wave",
+      "canonical_name": "Native source-generated EM wave",
+      "plain_language_question": "Is a source-generated disturbance represented as the DEV203 relational wave?",
+      "aliases": [
+        "DEV230"
+      ],
+      "keywords": [
+        "emission",
+        "source wave",
+        "DEV159",
+        "DEV203"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev230_native_emission_dependency_split"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A common source-transition-to-bond-relational representation is required for the source-generation bridge."
+      ],
+      "blocked_by": [
+        "source_generated_residual_to_relational_wave"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently valid, time-resolved source transition archived in DEV203-compatible native relations."
+    },
+    {
+      "target_id": "source_release_dependency_for_em_generation",
+      "canonical_name": "Source-release dependency for EM generation",
+      "plain_language_question": "Is a self-persistent released source required before native dynamic emission can be tested?",
+      "aliases": [
+        "DEV230"
+      ],
+      "keywords": [
+        "emission",
+        "source wave",
+        "DEV159",
+        "DEV203"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev230_native_emission_dependency_split"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A common source-transition-to-bond-relational representation is required for the source-generation bridge."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently valid, time-resolved source transition archived in DEV203-compatible native relations."
+    },
+    {
+      "target_id": "source_generated_residual_to_relational_wave",
+      "canonical_name": "Source-generated residual to relational wave",
+      "plain_language_question": "What is the structural relation between a source-generated residual and the DEV203 wave?",
+      "aliases": [
+        "DEV230"
+      ],
+      "keywords": [
+        "emission",
+        "source wave",
+        "DEV159",
+        "DEV203"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev230_native_emission_dependency_split"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A common source-transition-to-bond-relational representation is required for the source-generation bridge."
+      ],
+      "blocked_by": [
+        "source_generated_residual_to_relational_wave"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently valid, time-resolved source transition archived in DEV203-compatible native relations."
+    },
+    {
+      "target_id": "static_loaded_emission_state",
+      "canonical_name": "Static loaded emission state",
+      "plain_language_question": "Does a source-maintained time-stationary native deformation continuously emit?",
+      "aliases": [
+        "DEV230"
+      ],
+      "keywords": [
+        "emission",
+        "source wave",
+        "DEV159",
+        "DEV203"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev230_native_emission_dependency_split"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A common source-transition-to-bond-relational representation is required for the source-generation bridge."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently valid, time-resolved source transition archived in DEV203-compatible native relations."
+    },
+    {
+      "target_id": "dynamic_excited_emission_state",
+      "canonical_name": "Dynamic excited emission state",
+      "plain_language_question": "Does a changing canonical native state contain outward propagating relational structure?",
+      "aliases": [
+        "DEV230"
+      ],
+      "keywords": [
+        "emission",
+        "source wave",
+        "DEV159",
+        "DEV203"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev230_native_emission_dependency_split"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A common source-transition-to-bond-relational representation is required for the source-generation bridge."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with an independently valid, time-resolved source transition archived in DEV203-compatible native relations."
     }
   ],
   "development_gate_selectors": [
