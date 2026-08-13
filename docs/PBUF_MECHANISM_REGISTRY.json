@@ -4876,6 +4876,57 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev221_extended_relational_geometry",
+      "target_id": "native_extended_directional_geometry",
+      "name": "DEV221 extended relational geometry audit",
+      "aliases": [
+        "DEV221"
+      ],
+      "summary": "Read-only full-trajectory, coefficient-free strain-geometry audit of the canonical DEV203 structure.",
+      "why_attempted": "DEV219 left extended geometry open and DEV220 closed spatial winding.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV221",
+      "branch": "",
+      "files": [
+        "pbuf/observer/native_extended_geometry.py",
+        "tools/generate_dev221_extended_relational_geometry.py"
+      ],
+      "run_directories": [
+        "runs/dev221_extended_relational_geometry"
+      ],
+      "tests": [
+        "tests/test_dev221_geometry_partition.py",
+        "tests/test_dev221_shape_tensor.py",
+        "tests/test_dev221_reflection_covariance.py",
+        "tests/test_dev221_translation_covariance.py",
+        "tests/test_dev221_unloaded_control.py",
+        "tests/test_dev221_no_reopened_routes.py"
+      ],
+      "equations": [
+        "q_epsilon=sum_b |epsilon_xb|",
+        "A_end=Q_plus-Q_minus",
+        "G_ij=sum_x q(x)(x_i-xc_i)(x_j-xc_j)"
+      ],
+      "result": "FULL",
+      "result_reason": "DERIVED_STRONG; exact end-for-end degeneracy=DISTINCT.",
+      "current_status": "CANONICAL",
+      "canonical": true,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Only if frozen DEV203 inputs change.",
+      "do_not_repeat_reason": "Center, axis, density, and trajectory were fixed before values were evaluated.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev221_extended_relational_geometry/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "current_frontiers": [
@@ -7785,51 +7836,6 @@
       "reopen_condition": "Execute only DEV220 frozen geometry / one observable audit; do not relabel DEV218 momentum reversal."
     },
     {
-      "target_id": "native_collective_geometry_magnetism",
-      "canonical_name": "native collective geometry magnetism",
-      "plain_language_question": "Can macroscopic magnetic-like force, torque and alignment emerge from collective geometry of unchanged N6 restoring interaction?",
-      "aliases": [
-        "DEV219"
-      ],
-      "keywords": [
-        "magnetic",
-        "magnetism",
-        "orientation",
-        "torque",
-        "rotation",
-        "curl",
-        "circulation",
-        "flux",
-        "stress",
-        "bond",
-        "domain",
-        "wall",
-        "vortex",
-        "topology",
-        "handedness",
-        "anisotropy",
-        "interface",
-        "reconnection",
-        "turbulence",
-        "collective"
-      ],
-      "domain": "NATIVE DYNAMICS / MAGNETIC MECHANISM DISCOVERY",
-      "first_seen_date": "2026-08-13",
-      "last_updated_date": "2026-08-13",
-      "attempt_ids": [
-        "dev219_magnetic_mechanism_wide_net"
-      ],
-      "current_status": "PARTIAL",
-      "canonical_solution_ids": [],
-      "open_questions": [
-        "DEV220 spatial-winding audit is required before a topology claim."
-      ],
-      "blocked_by": [],
-      "blocks": [],
-      "do_not_rederive": true,
-      "reopen_condition": "Execute only DEV220 frozen geometry / one observable audit; do not relabel DEV218 momentum reversal."
-    },
-    {
       "target_id": "native_ordered_region_magnetic_candidate",
       "canonical_name": "native ordered region magnetic candidate",
       "plain_language_question": "Can an extended ordered native region provide orientation without node polarity?",
@@ -7963,33 +7969,147 @@
       "reopen_condition": "Only with independently changed geometry."
     },
     {
-      "target_id": "magnetic_mechanism_next_discriminating_test",
-      "canonical_name": "Magnetic mechanism next discriminating test",
-      "plain_language_question": "After the spatial-winding audit, which remaining minimal mechanism family receives the next coefficient-free test?",
+      "target_id": "native_collective_geometry_magnetism",
+      "canonical_name": "Native collective geometry magnetism",
+      "plain_language_question": "Does the existing DEV203 relational excitation possess a genuine coefficient-free extended directional geometry independent of momentum polarity and spatial winding?",
       "aliases": [
-        "DEV221"
+        "DEV221",
+        "extended relational geometry"
       ],
       "keywords": [
-        "DEV221",
-        "magnetic mechanism"
+        "DEV203",
+        "geometry",
+        "end asymmetry"
       ],
       "domain": "NATIVE DYNAMICS",
       "first_seen_date": "2026-08-13",
       "last_updated_date": "2026-08-13",
       "attempt_ids": [
-        "dev220_native_spatial_winding"
+        "dev221_extended_relational_geometry"
       ],
-      "current_status": "OPEN",
+      "current_status": "PARTIAL",
       "canonical_solution_ids": [
-        "dev220_native_spatial_winding"
+        "dev221_extended_relational_geometry"
       ],
       "open_questions": [
-        "EXTENDED_RELATIONAL_GEOMETRY_AUDIT"
+        "Pattern-boundary/interface physics remains the next survivor."
       ],
       "blocked_by": [],
       "blocks": [],
       "do_not_rederive": true,
-      "reopen_condition": "Only after DEV221."
+      "reopen_condition": "Only if frozen DEV203 geometry changes independently."
+    },
+    {
+      "target_id": "native_extended_directional_geometry",
+      "canonical_name": "Native extended directional geometry",
+      "plain_language_question": "Is the canonical DEV203 structure end-for-end geometrically distinct under exact native reflection?",
+      "aliases": [
+        "DEV221 geometry"
+      ],
+      "keywords": [
+        "DEV221",
+        "reflection",
+        "geometry"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev221_extended_relational_geometry"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [
+        "dev221_extended_relational_geometry"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with changed DEV203 geometry."
+    },
+    {
+      "target_id": "native_end_asymmetry",
+      "canonical_name": "Native end asymmetry",
+      "plain_language_question": "Does an existing native geometric density possess a nonzero longitudinal odd component around the frozen DEV203 structure center?",
+      "aliases": [
+        "DEV221 asymmetry"
+      ],
+      "keywords": [
+        "odd geometry",
+        "end asymmetry"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev221_extended_relational_geometry"
+      ],
+      "current_status": "PARTIAL",
+      "canonical_solution_ids": [
+        "dev221_extended_relational_geometry"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with changed geometry."
+    },
+    {
+      "target_id": "extended_geometry_dev211_distinction",
+      "canonical_name": "Extended geometry DEV211 distinction",
+      "plain_language_question": "Is the DEV203 propagating relational geometry genuinely distinct from the reflection-degenerate source-maintained deformation already tested in DEV211?",
+      "aliases": [
+        "DEV221 versus DEV211"
+      ],
+      "keywords": [
+        "DEV211",
+        "DEV203",
+        "reflection"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev221_extended_relational_geometry"
+      ],
+      "current_status": "CANONICAL",
+      "canonical_solution_ids": [
+        "dev221_extended_relational_geometry"
+      ],
+      "open_questions": [],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only with changed frozen structures."
+    },
+    {
+      "target_id": "magnetic_mechanism_next_discriminating_test",
+      "canonical_name": "Magnetic mechanism next discriminating test",
+      "plain_language_question": "After extended geometry is classified, should the next audit test pair orientation or pattern-boundary/interface physics?",
+      "aliases": [
+        "DEV222"
+      ],
+      "keywords": [
+        "DEV222",
+        "pattern boundary"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev221_extended_relational_geometry"
+      ],
+      "current_status": "OPEN",
+      "canonical_solution_ids": [
+        "dev221_extended_relational_geometry"
+      ],
+      "open_questions": [
+        "PAIR_ORIENTATION_INTERACTION"
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only after a new independent geometry result."
     }
   ]
 }

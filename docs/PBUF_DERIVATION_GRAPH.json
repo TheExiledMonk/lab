@@ -959,6 +959,10 @@
     {
       "id": "dev220_native_spatial_winding",
       "type": "ATTEMPT"
+    },
+    {
+      "id": "dev221_extended_relational_geometry",
+      "type": "ATTEMPT"
     }
   ],
   "edges": [
@@ -2250,6 +2254,11 @@
     {
       "source": "dev219_magnetic_mechanism_wide_net",
       "target": "dev220_native_spatial_winding",
+      "type": "DERIVES"
+    },
+    {
+      "source": "dev220_native_spatial_winding",
+      "target": "dev221_extended_relational_geometry",
       "type": "DERIVES"
     }
   ]

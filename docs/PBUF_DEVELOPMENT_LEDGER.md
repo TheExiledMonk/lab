@@ -537,3 +537,7 @@ Persistent infrastructure status: `NATIVE_RECEIPT_VIEWER=AVAILABLE`; `VULKAN_ACC
 ## LEDGER ENTRY 055 — DEV220 SPATIAL-WINDING CLOSURE
 
 - **Spatial-Winding Closure Rule:** Under the frozen DEV203 source-centered coefficient-free multi-cell loop observable, no coherent native spatial winding is derived. The nonzero edge directions do not form a reflection-covariant collective loop structure; the magnetic-mechanism search returns to extended relational geometry and pattern-boundary/interface candidates. This is not a temporal-cycle, phase, spin, field, or magnetic-identity result.
+
+## LEDGER ENTRY 056 — DEV221 EXTENDED-GEOMETRY CLOSURE
+
+- **Native Axis-without-Polarity Rule:** The canonical DEV203 relational excitation is spatially anisotropic but remains end-for-end symmetric under exact native reflection. A preferred propagation axis therefore does not by itself constitute a polarity-bearing extended structure.
