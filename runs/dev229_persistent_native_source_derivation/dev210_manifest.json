@@ -1,0 +1,10 @@
+{
+  "DEV_READ": true,
+  "artifact": {
+    "dev": "DEV210",
+    "inspection": "READ",
+    "path": "tools/generate_dev210_exact_local_em_relay.py",
+    "present": true,
+    "sha256": "20eb0073e088b95f9ea1873346f99aa8da2c5d9a2fc4d5bbd8b5ae8bbb1700e7"
+  }
+}

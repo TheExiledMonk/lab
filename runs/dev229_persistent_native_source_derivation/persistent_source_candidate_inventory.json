@@ -1,0 +1,37 @@
+{
+  "NO_RESULT_SELECTED_COMPOSITION": true,
+  "NO_SOURCE_COUNT_SWEEP": true,
+  "PERSISTENT_SOURCE_CANDIDATE_INVENTORY_COMPLETE": true,
+  "candidates": [
+    {
+      "classification": "BLOCKED_SOURCE_RELEASE",
+      "name": "DEV159 residual/source deformation",
+      "reason": "source contact remains external; canonical free residual is not derived.",
+      "route": "P1"
+    },
+    {
+      "classification": "BLOCKED_SOURCE_RELEASE",
+      "name": "DEV195 restoration/export",
+      "reason": "restoration trajectory does not define a canonical physical source release.",
+      "route": "P2"
+    },
+    {
+      "classification": "BLOCKED_SOURCE_RELEASE",
+      "name": "DEV202 self-loaded response",
+      "reason": "no canonically released localized source state.",
+      "route": "P3"
+    },
+    {
+      "classification": "BLOCKED_SOURCE_RELEASE",
+      "name": "DEV203/204 relational wave + orientation stress",
+      "reason": "propagating noncompact dynamic diagnostic is not a self-supported source.",
+      "route": "P4"
+    },
+    {
+      "classification": "NOT_PRESENT",
+      "name": "DEV213 aggregate preparation",
+      "reason": "DEV213 is absent from reachable repository; no source-count construction is selected.",
+      "route": "P5"
+    }
+  ]
+}

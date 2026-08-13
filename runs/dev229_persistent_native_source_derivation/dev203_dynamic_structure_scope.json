@@ -1,0 +1,11 @@
+{
+  "DEV_READ": true,
+  "artifact": {
+    "dev": "DEV203",
+    "inspection": "READ",
+    "path": "tools/generate_dev203_relational_wave.py",
+    "present": true,
+    "sha256": "478c5e0ce1508ab4a97fa5b99d06e0e2dd3f9df8e170986655eeb51469cdefec"
+  },
+  "scope": "propagating noncompact packet"
+}

@@ -1,0 +1,166 @@
+{
+  "HISTORICAL_INDEX_READ": true,
+  "required_artifacts": {
+    "DEV155": {
+      "dev": "DEV155",
+      "inspection": "READ",
+      "path": "pbuf/excitation/native_excitation_n6.py",
+      "present": true,
+      "sha256": "73bf07d1a5c9133d240ef2d4e0f97a8e34efe132b6828ade6a049c8f567d0ffb"
+    },
+    "DEV156": {
+      "dev": "DEV156",
+      "inspection": "READ",
+      "path": "pbuf/excitation/native_relational_state.py",
+      "present": true,
+      "sha256": "bc5692314176c52c9f8b014f4b292352906e2dd6684549fd0c2d5c4452d27de3"
+    },
+    "DEV157": {
+      "dev": "DEV157",
+      "inspection": "READ",
+      "path": "pbuf/excitation/native_dispersion_observer.py",
+      "present": true,
+      "sha256": "869242aa8d1df70c13d511de466ce0d5de2b0df0a11d3de93d2dd3e63699fd9a"
+    },
+    "DEV158": {
+      "dev": "DEV158",
+      "inspection": "READ",
+      "path": "pbuf/excitation/native_bond_state.py",
+      "present": true,
+      "sha256": "855e7fd29cd01b86f1124b6048e9a93c7d7f3b531aa854f359c611b8325b7eec"
+    },
+    "DEV159": {
+      "dev": "DEV159",
+      "inspection": "READ",
+      "path": "pbuf/source/native_source_medium_interaction.py",
+      "present": true,
+      "sha256": "2bd5f76667a64ff9f4ffb5439f8861930828b1835be0df6768d7a5577801c90d"
+    },
+    "DEV167": {
+      "dev": "DEV167",
+      "inspection": "READ",
+      "path": "pbuf/excitation/native_vector_pair_dynamics.py",
+      "present": true,
+      "sha256": "977631c30f04608f8d0f77c1723f3fdcb83efce446a32c21f9a946d83bfcc106"
+    },
+    "DEV195": {
+      "dev": "DEV195",
+      "inspection": "READ",
+      "path": "tools/generate_dev195_local_force_balance_restoration.py",
+      "present": true,
+      "sha256": "65c34b973cfced6011de59d6d0873b11f27b034a3c10c1c57565ace97e5534e9"
+    },
+    "DEV196": {
+      "dev": "DEV196",
+      "inspection": "READ",
+      "path": "tools/generate_dev196_sequential_event_independence.py",
+      "present": true,
+      "sha256": "e1fb61bf4da130b067c837d4341403b7fd4b4fce84663667939ba88a49d777c4"
+    },
+    "DEV197": {
+      "dev": "DEV197",
+      "inspection": "READ",
+      "path": "tools/generate_dev197_cross_event_influence.py",
+      "present": true,
+      "sha256": "e513a4ed6d553247dc8c41a58a7b874b36e5f02e09bb62a6761438ccf1cf2e0e"
+    },
+    "DEV198": {
+      "dev": "DEV198",
+      "inspection": "READ",
+      "path": "tools/generate_dev198_field_strength_cross_event.py",
+      "present": true,
+      "sha256": "0b625b8f90e85b999bb12c40fb1dbf1a91d06c03ff05a138ccd8ba5b0d629b0c"
+    },
+    "DEV199": {
+      "dev": "DEV199",
+      "inspection": "READ",
+      "path": "tools/generate_dev199_local_state_cross_event.py",
+      "present": true,
+      "sha256": "9a65e6a854e7fcdb3701c3a97c43ef114fefbd3d81a14db9e451a165c49492b0"
+    },
+    "DEV200": {
+      "dev": "DEV200",
+      "inspection": "READ",
+      "path": "tools/generate_dev200_native_n6_field.py",
+      "present": true,
+      "sha256": "a749a8d2430827711ba7bf7c99be066ec97f079fcc4a5959fb7b347ef627a498"
+    },
+    "DEV201": {
+      "dev": "DEV201",
+      "inspection": "READ",
+      "path": "tools/generate_dev201_native_linear_modes.py",
+      "present": true,
+      "sha256": "ab75923b9338e0705f1d9eecb6facbbc8a2540b29cbc0f4082844ded7e257072"
+    },
+    "DEV202": {
+      "dev": "DEV202",
+      "inspection": "READ",
+      "path": "tools/generate_dev202_self_loaded_transverse.py",
+      "present": true,
+      "sha256": "80c6441916d89a285273dbe55e07437c940cbc43ad91e412dd3d3c5c1a466fc7"
+    },
+    "DEV203": {
+      "dev": "DEV203",
+      "inspection": "READ",
+      "path": "tools/generate_dev203_relational_wave.py",
+      "present": true,
+      "sha256": "478c5e0ce1508ab4a97fa5b99d06e0e2dd3f9df8e170986655eeb51469cdefec"
+    },
+    "DEV204": {
+      "dev": "DEV204",
+      "inspection": "READ",
+      "path": "tools/generate_dev204_relational_stress_coupling.py",
+      "present": true,
+      "sha256": "00537deb3cf0b7d4888760e961b63cd50d8399eb4a704dc24ba7507382c7eea5"
+    },
+    "DEV209": {
+      "dev": "DEV209",
+      "inspection": "READ",
+      "path": "tools/generate_dev209_native_orientation_stress_relay.py",
+      "present": true,
+      "sha256": "492f92b086e3c637236c0e8922548e8329983e66b35ee5454a2225487eac5471"
+    },
+    "DEV210": {
+      "dev": "DEV210",
+      "inspection": "READ",
+      "path": "tools/generate_dev210_exact_local_em_relay.py",
+      "present": true,
+      "sha256": "20eb0073e088b95f9ea1873346f99aa8da2c5d9a2fc4d5bbd8b5ae8bbb1700e7"
+    },
+    "DEV211": {
+      "dev": "DEV211",
+      "inspection": "READ",
+      "path": "tools/generate_dev211_two_strain_magnetism.py",
+      "present": true,
+      "sha256": "e38d8c5983625efbe61cfe609c506f70a27cef8a63262e1edd0435f786d68de9"
+    },
+    "DEV213": {
+      "dev": "DEV213",
+      "inspection": "NOT_PRESENT_IN_REACHABLE_REPOSITORY",
+      "path": "tools/generate_dev213_aggregate_state_preparation.py",
+      "present": false,
+      "sha256": null
+    },
+    "DEV214": {
+      "dev": "DEV214",
+      "inspection": "NOT_PRESENT_IN_REACHABLE_REPOSITORY",
+      "path": "tools/generate_dev214_torque.py",
+      "present": false,
+      "sha256": null
+    },
+    "DEV215": {
+      "dev": "DEV215",
+      "inspection": "NOT_PRESENT_IN_REACHABLE_REPOSITORY",
+      "path": "tools/generate_dev215_oscillatory_histories.py",
+      "present": false,
+      "sha256": null
+    },
+    "DEV228": {
+      "dev": "DEV228",
+      "inspection": "NOT_PRESENT_IN_REACHABLE_REPOSITORY",
+      "path": "tools/generate_dev228_source_state_inventory.py",
+      "present": false,
+      "sha256": null
+    }
+  }
+}

@@ -5292,6 +5292,59 @@
         }
       ],
       "confidence": "HIGH"
+    },
+    {
+      "attempt_id": "dev229_persistent_native_source_derivation",
+      "target_id": "persistent_native_source_derivation",
+      "name": "DEV229 persistent native source derivation gate",
+      "aliases": [
+        "DEV229"
+      ],
+      "summary": "Repository-first inventory of existing candidate routes under frozen DEV167 mechanics.",
+      "why_attempted": "Determine whether the existing laboratory already has a physical source prerequisite without adding source physics.",
+      "date_started": "2026-08-13",
+      "date_completed": "2026-08-13",
+      "dev": "DEV229",
+      "branch": "",
+      "files": [
+        "pbuf/analysis/native_persistent_source_gate.py",
+        "tools/generate_dev229_persistent_native_source_derivation.py"
+      ],
+      "run_directories": [
+        "runs/dev229_persistent_native_source_derivation"
+      ],
+      "tests": [
+        "tests/test_dev229_repo_first.py",
+        "tests/test_dev229_candidate_inventory.py",
+        "tests/test_dev229_candidate_equivalence.py",
+        "tests/test_dev229_release_semantics.py",
+        "tests/test_dev229_localization_gate.py",
+        "tests/test_dev229_identity_gate.py",
+        "tests/test_dev229_persistence_gate.py",
+        "tests/test_dev229_no_result_selected_source.py",
+        "tests/test_dev229_no_new_physics.py",
+        "tests/test_dev229_next_selector.py"
+      ],
+      "equations": [
+        "X(t)=Phi_DEV167^t(X0) after canonical release"
+      ],
+      "result": "BLOCKED",
+      "result_reason": "DEV210's source release remains NOT_DERIVED and no later reachable DEV artifact resolves it.",
+      "current_status": "BLOCKED",
+      "canonical": true,
+      "physics_reusable": true,
+      "infrastructure_reusable": true,
+      "free_parameters": [],
+      "fitted_parameters": [],
+      "reopen_condition": "Derive canonical native source-release representation.",
+      "do_not_repeat_reason": "Do not substitute arbitrary constraint deletion, duration, source shape, count, or localization threshold.",
+      "evidence": [
+        {
+          "type": "file",
+          "value": "runs/dev229_persistent_native_source_derivation/final_contract.json"
+        }
+      ],
+      "confidence": "HIGH"
     }
   ],
   "current_frontiers": [
@@ -9117,38 +9170,6 @@
       "reopen_condition": "Only with an independently derived physical representativeness reason; never because a prior result was negative."
     },
     {
-      "target_id": "magnet_like_source_state_validity",
-      "canonical_name": "magnet like source state validity",
-      "plain_language_question": "Does frozen native dynamics already contain a persistent, identifiable, orientation-capable source structure suitable for a two-body interstitial experiment?",
-      "aliases": [
-        "DEV228"
-      ],
-      "keywords": [
-        "source state",
-        "collective",
-        "composition",
-        "interstitial",
-        "native"
-      ],
-      "domain": "NATIVE DYNAMICS / MAGNETIC & EM SOURCE STRUCTURE",
-      "first_seen_date": "2026-08-13",
-      "last_updated_date": "2026-08-13",
-      "attempt_ids": [
-        "dev228_two_body_source_state_validity"
-      ],
-      "current_status": "PARTIAL",
-      "canonical_solution_ids": [
-        "dev228_two_body_source_state_validity"
-      ],
-      "open_questions": [],
-      "blocked_by": [
-        "self-supported localized native source"
-      ],
-      "blocks": [],
-      "do_not_rederive": true,
-      "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
-    },
-    {
       "target_id": "two_body_source_composition",
       "canonical_name": "two body source composition",
       "plain_language_question": "Can two valid native source structures be prepared simultaneously using existing DEV213 semantics?",
@@ -9403,6 +9424,184 @@
       "blocks": [],
       "do_not_rederive": true,
       "reopen_condition": "Only an independently derived native source state or representation result may reopen this gate."
+    },
+    {
+      "target_id": "persistent_native_source_derivation",
+      "canonical_name": "Persistent native source derivation",
+      "plain_language_question": "Can frozen DEV167 mechanics supply a self-supported localized source state?",
+      "aliases": [
+        "DEV229"
+      ],
+      "keywords": [
+        "persistent source",
+        "source release",
+        "DEV229"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev229_persistent_native_source_derivation"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A unique free release representation is required before this gate can be reopened."
+      ],
+      "blocked_by": [
+        "native_source_release_semantics"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only after a canonically defined native source release is independently derived."
+    },
+    {
+      "target_id": "native_source_release_semantics",
+      "canonical_name": "Native source-release semantics",
+      "plain_language_question": "What canonical state results when an externally maintained source is released?",
+      "aliases": [
+        "DEV229"
+      ],
+      "keywords": [
+        "persistent source",
+        "source release",
+        "DEV229"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev229_persistent_native_source_derivation"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A unique free release representation is required before this gate can be reopened."
+      ],
+      "blocked_by": [],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only after a canonically defined native source release is independently derived."
+    },
+    {
+      "target_id": "persistent_source_localization",
+      "canonical_name": "Persistent source localization",
+      "plain_language_question": "What coefficient-free native spatial identity localizes a released source?",
+      "aliases": [
+        "DEV229"
+      ],
+      "keywords": [
+        "persistent source",
+        "source release",
+        "DEV229"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev229_persistent_native_source_derivation"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A unique free release representation is required before this gate can be reopened."
+      ],
+      "blocked_by": [
+        "native_source_release_semantics"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only after a canonically defined native source release is independently derived."
+    },
+    {
+      "target_id": "persistent_source_identity",
+      "canonical_name": "Persistent source identity",
+      "plain_language_question": "How is a source identified from evolving native state rather than provenance?",
+      "aliases": [
+        "DEV229"
+      ],
+      "keywords": [
+        "persistent source",
+        "source release",
+        "DEV229"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev229_persistent_native_source_derivation"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A unique free release representation is required before this gate can be reopened."
+      ],
+      "blocked_by": [
+        "native_source_release_semantics"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only after a canonically defined native source release is independently derived."
+    },
+    {
+      "target_id": "persistent_source_orientation_state",
+      "canonical_name": "Persistent source orientation state",
+      "plain_language_question": "Can an orientation-capable relational state persist through free evolution?",
+      "aliases": [
+        "DEV229"
+      ],
+      "keywords": [
+        "persistent source",
+        "source release",
+        "DEV229"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev229_persistent_native_source_derivation"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A unique free release representation is required before this gate can be reopened."
+      ],
+      "blocked_by": [
+        "native_source_release_semantics"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only after a canonically defined native source release is independently derived."
+    },
+    {
+      "target_id": "magnet_like_source_state_validity",
+      "canonical_name": "Magnet-like source-state validity",
+      "plain_language_question": "Is the physical-source prerequisite for magnet-like behavior derived?",
+      "aliases": [
+        "DEV229"
+      ],
+      "keywords": [
+        "persistent source",
+        "source release",
+        "DEV229"
+      ],
+      "domain": "NATIVE DYNAMICS",
+      "first_seen_date": "2026-08-13",
+      "last_updated_date": "2026-08-13",
+      "attempt_ids": [
+        "dev229_persistent_native_source_derivation"
+      ],
+      "current_status": "BLOCKED",
+      "canonical_solution_ids": [],
+      "open_questions": [
+        "A unique free release representation is required before this gate can be reopened."
+      ],
+      "blocked_by": [
+        "persistent_native_source_derivation"
+      ],
+      "blocks": [],
+      "do_not_rederive": true,
+      "reopen_condition": "Only after a canonically defined native source release is independently derived."
     }
   ],
   "development_gate_selectors": [

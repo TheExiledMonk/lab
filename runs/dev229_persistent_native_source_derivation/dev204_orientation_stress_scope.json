@@ -1,0 +1,11 @@
+{
+  "DEV_READ": true,
+  "artifact": {
+    "dev": "DEV204",
+    "inspection": "READ",
+    "path": "tools/generate_dev204_relational_stress_coupling.py",
+    "present": true,
+    "sha256": "00537deb3cf0b7d4888760e961b63cd50d8399eb4a704dc24ba7507382c7eea5"
+  },
+  "scope": "dynamic orientation/stress diagnostic"
+}

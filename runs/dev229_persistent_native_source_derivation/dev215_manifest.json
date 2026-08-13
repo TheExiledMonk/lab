@@ -1,0 +1,10 @@
+{
+  "DEV_READ": true,
+  "artifact": {
+    "dev": "DEV215",
+    "inspection": "NOT_PRESENT_IN_REACHABLE_REPOSITORY",
+    "path": "tools/generate_dev215_oscillatory_histories.py",
+    "present": false,
+    "sha256": null
+  }
+}

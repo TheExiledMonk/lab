@@ -1,0 +1,11 @@
+{
+  "DEV_READ": true,
+  "artifact": {
+    "dev": "DEV202",
+    "inspection": "READ",
+    "path": "tools/generate_dev202_self_loaded_transverse.py",
+    "present": true,
+    "sha256": "80c6441916d89a285273dbe55e07437c940cbc43ad91e412dd3d3c5c1a466fc7"
+  },
+  "scope": "self-loaded response; no released source representation"
+}

@@ -1,0 +1,10 @@
+{
+  "DEV_READ": true,
+  "artifact": {
+    "dev": "DEV228",
+    "inspection": "NOT_PRESENT_IN_REACHABLE_REPOSITORY",
+    "path": "tools/generate_dev228_source_state_inventory.py",
+    "present": false,
+    "sha256": null
+  }
+}

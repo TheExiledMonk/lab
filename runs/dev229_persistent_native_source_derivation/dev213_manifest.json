@@ -1,0 +1,10 @@
+{
+  "DEV_READ": true,
+  "artifact": {
+    "dev": "DEV213",
+    "inspection": "NOT_PRESENT_IN_REACHABLE_REPOSITORY",
+    "path": "tools/generate_dev213_aggregate_state_preparation.py",
+    "present": false,
+    "sha256": null
+  }
+}

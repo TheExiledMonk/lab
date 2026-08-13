@@ -138,3 +138,5 @@ DEV226 rule: walk every unique periodic N6 bond at every frozen DEV203 timestep 
 DEV227 rule: negative results remain frozen-condition closures. DEV217/218 interface-force accounting is not a volumetric two-body interstitial-pattern audit; do not substitute a second active source for passive material, or use a negative result to select new geometry, observer, source state, damping, amplitude, or oscillation.
 
 DEV228 rule: source validity precedes interstitial mapping; DEV213's finite aggregate preparation is not linear propagation superposition, and X=2 never closes X>2 without a reduction theorem.
+
+DEV229 rule: DEV210 leaves native source-release semantics NOT_DERIVED; a release step, persistence duration, support threshold, or aggregate count cannot be selected to bypass that representation block.

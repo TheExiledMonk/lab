@@ -1,0 +1,10 @@
+{
+  "DEV_READ": true,
+  "artifact": {
+    "dev": "DEV201",
+    "inspection": "READ",
+    "path": "tools/generate_dev201_native_linear_modes.py",
+    "present": true,
+    "sha256": "ab75923b9338e0705f1d9eecb6facbbc8a2540b29cbc0f4082844ded7e257072"
+  }
+}

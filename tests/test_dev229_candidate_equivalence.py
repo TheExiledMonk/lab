@@ -1,0 +1,2 @@
+from test_dev229_repo_first import load
+def test_candidate_equivalence_prevents_renaming(): assert load('persistent_source_candidate_equivalence_matrix.json')['PERSISTENT_SOURCE_CANDIDATE_EQUIVALENCE_COMPLETE']

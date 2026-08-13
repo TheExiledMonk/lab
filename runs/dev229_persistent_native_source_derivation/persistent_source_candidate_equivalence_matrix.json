@@ -1,0 +1,60 @@
+{
+  "PERSISTENT_SOURCE_CANDIDATE_EQUIVALENCE_COMPLETE": true,
+  "matrix": [
+    {
+      "distinct_candidate_survives": false,
+      "equivalent_to": {
+        "DEV159": true,
+        "DEV195": false,
+        "DEV203": false,
+        "DEV211": false,
+        "DEV213": false
+      },
+      "route": "P1"
+    },
+    {
+      "distinct_candidate_survives": false,
+      "equivalent_to": {
+        "DEV159": false,
+        "DEV195": true,
+        "DEV203": false,
+        "DEV211": false,
+        "DEV213": false
+      },
+      "route": "P2"
+    },
+    {
+      "distinct_candidate_survives": false,
+      "equivalent_to": {
+        "DEV159": false,
+        "DEV195": false,
+        "DEV203": false,
+        "DEV211": false,
+        "DEV213": false
+      },
+      "route": "P3"
+    },
+    {
+      "distinct_candidate_survives": false,
+      "equivalent_to": {
+        "DEV159": false,
+        "DEV195": false,
+        "DEV203": true,
+        "DEV211": false,
+        "DEV213": false
+      },
+      "route": "P4"
+    },
+    {
+      "distinct_candidate_survives": false,
+      "equivalent_to": {
+        "DEV159": false,
+        "DEV195": false,
+        "DEV203": false,
+        "DEV211": false,
+        "DEV213": true
+      },
+      "route": "P5"
+    }
+  ]
+}
